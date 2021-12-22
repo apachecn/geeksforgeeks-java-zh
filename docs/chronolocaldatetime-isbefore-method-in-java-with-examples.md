@@ -1,0 +1,101 @@
+# Java 中的 ChronoLocalDateTime isBefore()方法，示例
+
+> 原文:[https://www . geeksforgeeks . org/chronolocaldatetime-is before-method-in-Java-with-examples/](https://www.geeksforgeeks.org/chronolocaldatetime-isbefore-method-in-java-with-examples/)
+
+Java 中**计时本地日期时间接口**的 **isBefore()** 方法用于检查作为参数传递的日期是否在该计时本地日期时间实例之前。它返回一个显示相同内容的布尔值。
+
+**语法:**
+
+```
+default boolean isBefore(ChronoLocalDateTime otherDate)
+```
+
+**参数:**该方法接受一个参数**其他日期**，该参数指定要与该时间地点日期时间进行比较的其他日期时间。它不应为空。
+
+**返回:**函数返回**布尔值**，显示该日期时间是否在指定的日期时间之前。
+
+下面的程序说明了 ChronoLocalDateTime.isBefore()方法:
+
+**程序 1:**
+
+```
+// Program to illustrate the isBefore() method
+
+import java.util.*;
+import java.time.*;
+import java.time.chrono.*;
+
+public class GfG {
+    public static void main(String[] args)
+    {
+        // Parses the date
+        ChronoLocalDateTime dt1
+            = LocalDateTime.parse("2018-11-03T12:45:30");
+
+        // Prints the date
+        System.out.println(dt1);
+
+        // Parses the date
+        ChronoLocalDateTime dt2
+            = LocalDateTime.parse("2016-12-04T12:45:30");
+
+        // Prints the date
+        System.out.println(dt2);
+
+        // Compares both dates
+        System.out.println(dt1.isBefore(dt2));
+    }
+}
+```
+
+**输出:**
+
+```
+2018-11-03T12:45:30
+2016-12-04T12:45:30
+false
+
+```
+
+**程序二:**
+
+```
+// Program to illustrate the isBefore() method
+
+import java.util.*;
+import java.time.*;
+import java.time.chrono.*;
+
+public class GfG {
+    public static void main(String[] args)
+    {
+        // Parses the date
+        ChronoLocalDateTime dt1
+            = LocalDateTime.parse("2018-11-03T12:45:30");
+
+        // Prints the date
+        System.out.println(dt1);
+
+        // Parses the date
+        ChronoLocalDateTime dt2
+            = LocalDateTime.parse("2019-12-04T12:45:30");
+
+        // Prints the date
+        System.out.println(dt2);
+
+        // Compares both dates
+        System.out.println(dt1.isBefore(dt2));
+    }
+}
+```
+
+**输出:**
+
+```
+2018-11-03T12:45:30
+2019-12-04T12:45:30
+true
+
+```
+
+**参考:**[https://docs . Oracle . com/javae/9/docs/API/Java/time/cron/chrolcaldatetime . html # is efore-Java . time . cron . chrolcaldatetime-](https://docs.oracle.com/javase/9/docs/api/java/time/chrono/ChronoLocalDateTime.html#isBefore-java.time.chrono.ChronoLocalDateTime-)

@@ -1,0 +1,50 @@
+# Java 中的抽取样式 getDecimalSeparator()方法，示例
+
+> 原文:[https://www . geeksforgeeks . org/decimal style-getdecimal separator-method-in-Java-with-example/](https://www.geeksforgeeks.org/decimalstyle-getdecimalseparator-method-in-java-with-example/)
+
+java 中**Java . time . format . DecimalStyle 类**的 **getDecimalSeparator()** 方法用于获取用于表示该 decimal style 的 Locale 的十进制分隔符的字符。此方法返回该区域设置的十进制分隔符的字符。
+
+**语法:**
+
+```
+public char getDecimalSeparator()
+
+```
+
+**参数:**此方法不接受任何参数。
+
+**返回值:**这个方法返回一个**字符**，代表这个十进制样式的十进制分隔符。
+
+**异常:**这个方法不抛出任何异常。
+
+**程序:**
+
+```
+// Java program to demonstrate
+// the above method
+
+import java.time.format.*;
+import java.util.*;
+
+public class DecimalStyleDemo {
+    public static void main(String[] args)
+    {
+
+        DecimalStyle ds
+            = DecimalStyle.STANDARD;
+
+        System.out.println("Character used"
+                           + " for decimal separator: "
+                           + ds.getDecimalSeparator());
+    }
+}
+```
+
+**输出:**
+
+```
+Character used for decimal separator: .
+
+```
+
+**参考:**[https://docs . Oracle . com/javase/10/docs/API/Java/time/format/decimal style . html # getdecimal separator()](https://docs.oracle.com/javase/10/docs/api/java/time/format/DecimalStyle.html#getDecimalSeparator())

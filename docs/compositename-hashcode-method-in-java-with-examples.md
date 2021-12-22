@@ -1,0 +1,89 @@
+# Java 中的 CompositeName hashCode()方法，带示例
+
+> 原文:[https://www . geesforgeks . org/composite name-hashcode-method-in-Java-with-examples/](https://www.geeksforgeeks.org/compositename-hashcode-method-in-java-with-examples/)
+
+一个 **javax.naming.CompositeName 类**的 **hashCode()** 方法用来返回这个复合名称的 hash 代码。这个复合名称对象的哈希代码是这个复合名称的单个组件的“规范化”形式的哈希代码的总和。
+
+**语法:**
+
+```
+public int hashCode()
+
+```
+
+**参数:**此方法不接受任何内容。
+
+**返回值:**这个方法返回一个表示这个名字的哈希码的 int。
+
+下面的程序说明了 CompositeName.hashCode()方法:
+**程序 1:**
+
+```
+// Java program to demonstrate
+// CompositeName.hashCode()
+
+import java.util.Properties;
+import javax.naming.CompositeName;
+import javax.naming.InvalidNameException;
+
+public class GFG {
+    public static void main(String[] args)
+        throws InvalidNameException
+    {
+
+        // create composite name object
+        CompositeName CompositeName1
+            = new CompositeName("a/b/z/y/x");
+
+        // apply hashCode()
+        int hashCode = CompositeName1.hashCode();
+
+        // print value
+        System.out.println("hashCode:" + hashCode);
+    }
+}
+```
+
+**Output:**
+
+```
+hashCode:558
+
+```
+
+**程序 2:**
+
+```
+// Java program to demonstrate
+// CompositeName.hashCode() method
+
+import java.util.Properties;
+import javax.naming.CompositeName;
+import javax.naming.InvalidNameException;
+
+public class GFG {
+    public static void main(String[] args)
+        throws InvalidNameException
+    {
+
+        // create composite name object
+        CompositeName CompositeName1
+            = new CompositeName("c/e/d/v/a/b/z/y/x/f/j");
+
+        // apply hashCode()
+        int hashCode = CompositeName1.hashCode();
+
+        // print value
+        System.out.println("hashCode:" + hashCode);
+    }
+}
+```
+
+**Output:**
+
+```
+hashCode:1184
+
+```
+
+参考文献:[https://docs . Oracle . com/javase/10/docs/API/javax/naming/composite name . html # hashCode()](https://docs.oracle.com/javase/10/docs/api/javax/naming/CompositeName.html#hashCode())
