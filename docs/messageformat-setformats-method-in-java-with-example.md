@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setFormats(Format[] newFormats)
 ```
 
@@ -20,7 +20,7 @@ public void setFormats(Format[] newFormats)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setFormats() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 pattern : {0, date, #}, {0, number, #0.##}, {0, time}
 Required Formats are : 
 java.text.SimpleDateFormat@403
@@ -99,7 +99,7 @@ java.text.SimpleDateFormat@8400729
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setFormats() method
 
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 pattern : {0, date, #}, {0, number, #0.##}, {0, time}
 Required Formats are : 
 java.text.SimpleDateFormat@403

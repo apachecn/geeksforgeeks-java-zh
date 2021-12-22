@@ -6,7 +6,7 @@ Calendar 类的**getDisplayNames(int*cal _ field*、int *cal_style* 、Locale *l
 
 **语法:**
 
-```
+```java
 public Map getDisplayNames(*int field, int style, Locale locale*)
 ```
 
@@ -21,7 +21,7 @@ public Map getDisplayNames(*int field, int style, Locale locale*)
 下面的程序说明了日历类的 getDisplayNames()方法的工作:
 **示例:**
 
-```
+```java
 // Java Code to illustrate
 // getdisplaynames() Method
 

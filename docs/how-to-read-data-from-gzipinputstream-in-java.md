@@ -4,7 +4,7 @@
 
 Java GZIPInputStream 类(java.util.zip.GZIPInputStream)可用于解压缩使用 GZIP 压缩算法压缩的文件，例如通过 GZIPOutputStream 类。
 
-```
+```java
 java.lang.Object
     java.io.InputStream
         java.io.FilterInputStream
@@ -16,7 +16,7 @@ java.lang.Object
 
 可关闭，可自动关闭
 
-```
+```java
 public class GZIPInputStream
 extends InflaterInputStream
 ```
@@ -62,7 +62,7 @@ extends InflaterInputStream
 
 ****语法:****
 
-```
+```java
 public int read()
 throws IOException
 ```
@@ -86,7 +86,7 @@ throws IOException
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Usage of GZIPInputStream
 // via Showcasing Reading Data 
 
@@ -157,7 +157,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Original Message length : 250
 UnCompressed Message length : 250
 ```**

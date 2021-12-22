@@ -16,7 +16,7 @@ String.replace()经常使用 3 种类型，这也有助于解决问题。
 
 **语法:**
 
-```
+```java
 public String replace(char oldch, char newch)
 ```
 
@@ -33,7 +33,7 @@ public String replace(char oldch, char newch)
 
 ## Java
 
-```
+```java
 // Java code to demonstrate the
 // Working of  replace() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 After replacing all o with T : WelcTme tT geeksfTrgeeks
 After replacing all e with D : WDlcomD to gDDksforgDDks
 ```
@@ -71,7 +71,7 @@ After replacing all e with D : WDlcomD to gDDksforgDDks
 
 **语法:**
 
-```
+```java
 public String replaceAll(String regex, String replace_str)
 ```
 
@@ -80,7 +80,7 @@ public String replaceAll(String regex, String replace_str)
 *   The regular expression to match the string.
 *   Find the replaced string to the expression.
 
-```
+```java
 Return Value
 This method returns the resulting String
 ```
@@ -89,7 +89,7 @@ This method returns the resulting String
 
 ## Java
 
-```
+```java
 // Java Program to demonstrate the
 // working of  replaceAll()
 
@@ -123,7 +123,7 @@ public class rep2 {
 
 **输出**
 
-```
+```java
 Original String : Welcome to geeksforgeeks
 After replacing regex with replace_str : ASTHA TYAGI
 ```
@@ -134,7 +134,7 @@ After replacing regex with replace_str : ASTHA TYAGI
 
 **语法:**
 
-```
+```java
 public String replaceFirst(String regex, String replace_str)
 ```
 
@@ -149,7 +149,7 @@ public String replaceFirst(String regex, String replace_str)
 
 ## 爪哇
 
-```
+```java
 // Java code to demonstrate the
 // working of  replaceFirst()
 public class rep3 {
@@ -173,7 +173,7 @@ public class rep3 {
 
 **输出:**
 
-```
+```java
 Original String : Welcome to geeksforgeeks
 After replacing 1st occurrence of regex with replace_str  : Welcome to ASTHAforgeeks
 ```

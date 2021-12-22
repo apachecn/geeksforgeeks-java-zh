@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--new button for opening our course list activity-->
 <Button
   android:id="@+id/idBtnReadCourse"
@@ -33,7 +33,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -102,7 +102,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class CourseModal {
 
     // variables for our coursename,
@@ -170,7 +170,7 @@ public class CourseModal {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // we have created a new method for reading all the courses.
 public ArrayList<CourseModal> readCourses() {
         // on below line we are creating a
@@ -205,7 +205,7 @@ public ArrayList<CourseModal> readCourses() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -341,7 +341,7 @@ public class DBHandler extends SQLiteOpenHelper {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 readCourseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -356,7 +356,7 @@ readCourseBtn.setOnClickListener(new View.OnClickListener() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

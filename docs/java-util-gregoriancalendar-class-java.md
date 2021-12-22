@@ -9,20 +9,20 @@
 
 **公历**和**历**类的主要区别在于**历**类是抽象类，不能实例化。因此**日历**类的一个对象被初始化为:
 
-```
+```java
 Calendar cal = Calendar.getInstance();
 ```
 
 这里，一个名为**日历**类的 cal 的对象被初始化为默认区域和时区中的当前日期和时间。然而，**格列高利根达**类是一个具体的类，可以被实例化。因此**格列高利安卡列达尔**类的一个对象被初始化为:
 
-```
+```java
 GregorianCalendar gcal = new GregorianCalendar();
 ```
 
 这里，一个名为**的对象被初始化为默认区域和时区中的当前日期和时间。
 **字段定义:****
 
-```
+```java
 GregorianCalendar Class defines two fields:
 AD : referring to the common era(***anno Domini***)
 BC : referring to before common era(Before Christ)
@@ -48,7 +48,7 @@ BC : referring to before common era(Before Christ)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show that Calendar class with
 // default instantiation and GregorianCalendar class
 // with default constructor is basically the same as both
@@ -83,7 +83,7 @@ class CalendarGFG {
 
 **输出:**
 
-```
+```java
 Calendar date: Sat Apr 28 13:36:37 UTC 2018
 Gregorian date: Sat Apr 28 13:36:37 UTC 2018
 ```
@@ -93,7 +93,7 @@ Gregorian date: Sat Apr 28 13:36:37 UTC 2018
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate simple GregorianCalendar
 // operations
 import java.util.Locale;
@@ -136,7 +136,7 @@ public class GregorianCalendarGFG {
 
 **输出:**
 
-```
+```java
 Date: Apr 30, 2018
 Time: 10:21:51 PM
 Time Zone: Coordinated Universal Time
@@ -147,7 +147,7 @@ Locale: English (United States)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate simple GregorianCalendar
 // operations
 import java.util.Locale;
@@ -190,7 +190,7 @@ public class GregorianCalendarGFG {
 
 **输出:**
 
-```
+```java
 Date: Apr 30, 2018
 Time: 0:0:0 AM
 Time Zone: Coordinated Universal Time
@@ -201,7 +201,7 @@ Locale: English (United States)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate simple GregorianCalendar
 // operations
 import java.util.Locale;
@@ -245,7 +245,7 @@ public class GregorianCalendarGFG {
 
 **输出:**
 
-```
+```java
 Date: Apr 30, 2018
 Time: 10:21:0 AM
 Time Zone: Coordinated Universal Time
@@ -256,7 +256,7 @@ Locale: English (United States)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate simple GregorianCalendar
 // operations
 import java.util.Locale;
@@ -300,7 +300,7 @@ public class GregorianCalendarGFG {
 
 **输出:**
 
-```
+```java
 Date: Apr 30, 2018
 Time: 10:21:51 AM
 Time Zone: Coordinated Universal Time
@@ -311,7 +311,7 @@ Locale: English (United States)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate simple GregorianCalendar
 // operations
 import java.util.TimeZone;
@@ -355,7 +355,7 @@ public class GregorianCalendarTest {
 
 **输出:**
 
-```
+```java
 Date: May 1, 2018
 Time: 4:24:7 AM
 Time Zone: GMT+05:30
@@ -366,7 +366,7 @@ Locale: United States
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate simple GregorianCalendar
 // operations
 import java.util.TimeZone;
@@ -411,7 +411,7 @@ public class GregorianCalendarTest {
 
 **输出:**
 
-```
+```java
 Date: Apr 30, 2018
 Time: 10:58:30 PM
 Time Zone: Coordinated Universal Time
@@ -422,7 +422,7 @@ Locale: India
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate simple GregorianCalendar
 // operations
 import java.util.TimeZone;
@@ -469,7 +469,7 @@ public class GregorianCalendarTest {
 
 **输出:**
 
-```
+```java
 Date: May 1, 2018
 Time: 4:34:59 AM
 Time Zone: GMT+05:30

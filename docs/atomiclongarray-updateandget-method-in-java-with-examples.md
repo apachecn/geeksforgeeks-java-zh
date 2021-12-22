@@ -17,7 +17,7 @@
     以下程序说明了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program that demonstrates
     // the updateAndGet() function
 
@@ -55,7 +55,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The array : [1, 2, 3, 4, 5]
     The array after update : [1, 2, 3, 4, 25]
 
@@ -63,7 +63,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program that demonstrates
     // the updateAndGet() function
 
@@ -101,7 +101,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The array : [1, 2, 3, 4, 5]
     The array after update : [1, 2, 3, 64, 5]
 

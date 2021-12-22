@@ -8,7 +8,7 @@
 
 下面是如何声明最终类的示例。但是，会出现编译时错误，因为这个最终类是被继承的。
 
-```
+```java
 // Java program to demonstrate the
 // Final class
 final class Super {
@@ -25,7 +25,7 @@ public class Sub extends Super {
 
 下面是如何声明抽象类的示例。
 
-```
+```java
 // Java program to demonstrate
 // an abstract class
 
@@ -58,7 +58,7 @@ public class shayar extends Book {
 
 下面是一个示例，演示了抽象类和最终类的组合。
 
-```
+```java
 final class A {
     public abstract void methodOne();
 }
@@ -66,7 +66,7 @@ final class A {
 
 显然，这个实现是无效的，因为最终类不能有抽象方法。作为最后一类是不能继承的。
 
-```
+```java
 abstract class A {
     public final void methodOne() {}
 }

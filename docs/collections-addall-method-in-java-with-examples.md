@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static  boolean 
     addAll(Collection c, T... elements)
 ```
@@ -24,7 +24,7 @@ public static  boolean
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // addAll() method
 
@@ -72,7 +72,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 arrlist before operation : [A, B, C, Tajmahal]
 result : true
 arrlist after operation : [A, B, C, Tajmahal, 1, 2, 3]
@@ -81,7 +81,7 @@ arrlist after operation : [A, B, C, Tajmahal, 1, 2, 3]
 
 **输出:**
 
-```
+```java
 arrlist before operation : [A, B, C, Tajmahal]
 result : true
 arrlist after operation : [A, B, C, Tajmahal, 1, 2, 3]
@@ -89,7 +89,7 @@ arrlist after operation : [A, B, C, Tajmahal, 1, 2, 3]
 
 **示例 2:** 适用于*空指针异常*
 
-```
+```java
 // Java program to demonstrate
 // addAll() method
 
@@ -138,7 +138,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 arrlist before operation : [A, B, C, Tajmahal]
 
 Trying to add the null value with arrlist

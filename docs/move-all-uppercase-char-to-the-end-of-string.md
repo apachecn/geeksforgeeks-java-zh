@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : Geeksforgeeks A Computer Science Portal for Geeks!!
 Output : eeksforgeeks  omputer cience ortal for eeks!!GACSPG
 
@@ -21,7 +21,7 @@ Output : ehllo ndiaHI
 
 ## C++
 
-```
+```java
 // C++ program move all uppercase alphabets
 // to the end of string
 
@@ -68,7 +68,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program move all uppercase alphabets
 // to the end of string
 
@@ -112,7 +112,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program move all uppercase
 # alphabets to the end of string
 
@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```java
 // C# program move all uppercase
 // alphabets to the end of string
 using System;
@@ -207,7 +207,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```java
 <script>
 
     // JavaScript program move all uppercase
@@ -255,7 +255,7 @@ public static void Main()
 
 **输出:**
 
-```
+```java
 Before Operation:   Geeksforgeeks A Computer Science Portal for Geeks!!
 After Operation:    eeksforgeeks  omputer cience ortal for eeks!!GACSPG
 ```
@@ -264,7 +264,7 @@ After Operation:    eeksforgeeks  omputer cience ortal for eeks!!GACSPG
 
 ## C++
 
-```
+```java
 //C++ program move all uppercase alphabets to
 // the end of string
 #include <bits/stdc++.h>
@@ -294,7 +294,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program move all uppercase alphabets to
 // the end of string
 public class GFG {
@@ -321,7 +321,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program move all uppercase alphabets
 # to the end of string
 import  re
@@ -354,7 +354,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```java
 // C# program move all uppercase
 // alphabets to the end of string
 using System;
@@ -393,7 +393,7 @@ public static void Main(String []args)
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // JavaScript program move all uppercase alphabets to
@@ -422,7 +422,7 @@ function move(s)
 
 **输出:**
 
-```
+```java
 Before Operation:   Geeksforgeeks A Computer Science Portal for Geeks!!
 After Operation:    eeksforgeeks  omputer cience ortal for eeks!!GACSPG
 ```

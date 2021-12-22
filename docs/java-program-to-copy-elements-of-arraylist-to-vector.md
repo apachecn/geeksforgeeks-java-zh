@@ -6,7 +6,7 @@ Vector 实现了 List Interface，就像 [ArrayList](https://www.geeksforgeeks.o
 
 **方法 1:**
 
-```
+```java
 Vector<Integer> vector = new Vector<>(arrayList);
 ```
 
@@ -19,6 +19,6 @@ Vector<Integer> vector = new Vector<>(arrayList);
 
 T0T7**输出**
 
-```
+```java
 [Rohan, Sangeeta, Ritik, Yogesh]
 ```

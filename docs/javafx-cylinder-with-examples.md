@@ -29,7 +29,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a cylinder
 // and add it to the stage
 import javafx.application.Application;
@@ -86,7 +86,7 @@ public class cylinder_0 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a cylinder and add a perspective camera to it .
 import javafx.application.Application;
 import javafx.scene.Scene;

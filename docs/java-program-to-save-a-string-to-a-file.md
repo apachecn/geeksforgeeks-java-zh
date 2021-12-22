@@ -20,7 +20,7 @@ Java 中[文件](https://www.geeksforgeeks.org/file-class-in-java/)类的 **writ
 
 **语法:**
 
-```
+```java
 Files.writeString(path, string, options)
 ```
 
@@ -41,7 +41,7 @@ Files.writeString(path, string, options)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Save a String to a File
 // Using Files.writeString() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks for Geeks
 Welcome to computer science portal
 Hello Geek
@@ -107,7 +107,7 @@ Hello Geek
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Save a String to a File
 // Using Files.write() method
 
@@ -154,7 +154,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 Geeks for Geeks
 Welcome to computer science portal
 Hello Geek!
@@ -178,7 +178,7 @@ Hello Geek!
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Save a String to a File
 // Using FileWriter class
 
@@ -212,7 +212,7 @@ public class GFG
 
 ****输出:****
 
-```
+```java
 Geeks for Geeks
 Welcome to computer science portal
 Hello Geek!!
@@ -232,7 +232,7 @@ Hello Geek!!
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Save a String to a File
 // Using Files.write() method
 
@@ -279,7 +279,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 Geeks for Geeks
 Welcome to computer science portal
 Hello Geek!!!
@@ -301,7 +301,7 @@ Hello Geek!!!
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Save a String to a File
 // Using PrintWriter class
 
@@ -341,7 +341,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 Geeks for Geeks
 Welcome to computer science portal
 Hello Geek!!!!

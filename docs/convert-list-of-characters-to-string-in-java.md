@@ -4,7 +4,7 @@
 
 给定一个字符列表。编写一个 Java 程序，将给定的列表转换成字符串。
 
-```
+```java
 Input : list = {'g', 'e', 'e', 'k', 's'} 
 Output : "geeks"
 
@@ -31,7 +31,7 @@ Output : "abc"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for convert character list to string
 import java.util.Arrays;
 import java.util.List;
@@ -65,7 +65,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List - [G, e, e, k, s]
 String - Geeks
 ```
@@ -76,7 +76,7 @@ Joiner 类可用于将片段连接到指定为数组的文本，并将结果作�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for convert character list to string
 import com.google.common.base.Joiner;
 import java.util.*;
@@ -103,7 +103,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List - [G, e, e, k]
 String - Geek
 ```
@@ -115,7 +115,7 @@ String - Geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for convert character list to string
 import java.util.*;
 
@@ -143,7 +143,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List - [G, e, e, k]
 String - Geek
 ```
@@ -155,7 +155,7 @@ String - Geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for convert character list to string
 import java.util.*;
 import java.util.stream.Collectors;
@@ -184,7 +184,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List - [G, e, e, k]
 String - Geek
 ```

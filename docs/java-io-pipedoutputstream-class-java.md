@@ -13,7 +13,7 @@ IO 中的**管道**提供了同时在 JVM 中运行的两个线程之间的链�
 
 **申报:**
 
-```
+```java
 public class PipedOutputStream
   extends OutputStream
 ```
@@ -29,7 +29,7 @@ public class PipedOutputStream
 *   **write():Java . io . PipeDouttStream . write(int byte)**将指定的字节写入管道输出流。
     **语法:**
 
-```
+```java
 public void write(int byte)
 Parameters : 
 byte : byte to be written
@@ -42,7 +42,7 @@ Exception :
 *   **write(byte[] buffer，int offset，int maxlen):Java . io . pipedoutputstream . write(byte[]buffer，int offset，int maxlen)** 将 maxlen 字节的数据从缓冲区写入管道输出流。如果没有字节写入流，方法将阻止。
     **语法:**
 
-```
+```java
 public void write(byte[] buffer, int offset, int maxlen)
 Parameters : 
 buffer : data of the buffer
@@ -56,7 +56,7 @@ Exception :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of PipedInputStream
 // write(byte[] buffer, int offset, int maxlen)
 
@@ -87,14 +87,14 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Use of write(buffer, offset, maxlen) :  J A V A
 ```
 
 *   **close():Java . io . pipedoutputstream . close()**关闭管道输出流并释放分配的资源。
     **语法:**
 
-```
+```java
 public void close()
 Parameters : 
 --------------
@@ -107,7 +107,7 @@ Exception :
 *   **connect(PipedInputStream 目的地):Java . io . pipe doutputstream . connect(pipe dinputstream 目的地)**将管道输出流连接到“目的地”管道输入流，如果“目的地”是带有其他流的管道，则会引发 IO 异常
     **语法:**
 
-```
+```java
 public void connect(PipedInputStream destination)
 Parameters : 
 destination : the Piped Input Stream to be connected to
@@ -120,7 +120,7 @@ Exception :
 *   **flush():Java . io . pipedoutputstream . flush()**刷新输出流。
     **语法:**
 
-```
+```java
 public void flush()
 Parameters : 
 ------------
@@ -134,7 +134,7 @@ Exception :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of PipedInputStream
 // write(), write(byte[] buffer, int offset, int maxlen),
 // close(), flush(), connect()
@@ -184,7 +184,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Use of flush() method : 
  G E E K S
 Closing the Output stream

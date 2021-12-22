@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getInt(Object obj)
            throws IllegalArgumentException,
                   IllegalAccessException
@@ -27,7 +27,7 @@ public int getInt(Object obj)
 下面的程序说明了 getInt()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate getInt() method
 
 import java.lang.reflect.Field;
@@ -86,14 +86,14 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of int Field Salary is 34113
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate getInt() method
 
 import java.lang.reflect.Field;
@@ -141,7 +141,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 999994567
 
 ```

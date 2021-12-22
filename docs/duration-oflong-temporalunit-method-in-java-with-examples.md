@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Duration of(long amount, TemporalUnit unit)
 
 ```
@@ -27,7 +27,7 @@ public static Duration of(long amount, TemporalUnit unit)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate of() method
 
 import java.time.*;
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 432000
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate of() method
 
 import java.time.*;
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 18000
 
 ```

@@ -7,7 +7,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。通过这个肯伯恩斯视图可以直接添加到 xml 文件中，并有许多内置的功能来轻松定制它。
 
-    ```
+    ```java
     dependencies {         
           implementation 'com.flaviofaria:kenburnsview:1.0.7'      
     }         
@@ -17,7 +17,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -45,7 +45,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfganimatedGradient;
 
     import androidx.appcompat.app.AppCompatActivity;

@@ -10,7 +10,7 @@
 
 **边做边循环的语法:**
 
-```
+```java
 do 
 {
  // statement to be executed
@@ -42,7 +42,7 @@ while(condition check)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse and and sum up digits of number
 
 // Importing generic Classes/Files
@@ -112,7 +112,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Enter the number: 25 
 Reverse of given number: 52
 Sum of digits of given number: 7
@@ -122,7 +122,7 @@ Sum of digits of given number: 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // Importing specific Scanner Class to show menu
@@ -231,7 +231,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 25
 Reverse of given number: 52
 Sum of digits of given number: 7

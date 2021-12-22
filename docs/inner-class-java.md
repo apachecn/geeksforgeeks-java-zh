@@ -31,7 +31,7 @@ java 中基本上有四种类型的内部类。
 
 ## Java
 
-```
+```java
 // Java Program to Demonstrate Nested class 
 
 // Class 1
@@ -72,7 +72,7 @@ class Main {
 
 **输出**
 
-```
+```java
 In a nested class method
 ```
 
@@ -82,7 +82,7 @@ In a nested class method
 
 ## 爪哇
 
-```
+```java
 // Java Program to Demonstrate Nested class 
 // Where Error is thrown
 

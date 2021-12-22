@@ -6,7 +6,7 @@ java 中的 java.util.HashMap.clear()方法用于清除和移除指定 HashMap �
 
 **语法:**
 
-```
+```java
 Hash_Map.clear()
 ```
 
@@ -17,7 +17,7 @@ Hash_Map.clear()
 下面的程序用来说明 java.util.HashMap.clear()方法的工作原理:
 **程序 1:** 将字符串值映射为整数键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Finally the maps look like this: {}
 
@@ -57,7 +57,7 @@ Finally the maps look like this: {}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 Finally the maps look like this: {}
 

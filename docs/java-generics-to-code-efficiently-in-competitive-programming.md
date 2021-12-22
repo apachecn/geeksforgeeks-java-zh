@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the fast
 // input output
 import java.io.*;
@@ -193,7 +193,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // fast input output
 import java.io.*;
@@ -392,7 +392,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // use Pairs
 import java.io.*;
@@ -430,7 +430,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Function to find x ^ n using p as mod
 static long power(long x, long y, long p)
 {
@@ -462,7 +462,7 @@ static long power(long x, long y, long p)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Function to find x ^ n using p as mod
 static long power(long x, long y, long p)
 {
@@ -525,7 +525,7 @@ static long nCrModPFermat(int n, int r, long p)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Function to implement the
 // binomial coefficient
 static long binomialCoeff(long n,
@@ -555,7 +555,7 @@ static long binomialCoeff(long n,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 const int mod = 1000000007;
 
 // Function to implement the modular
@@ -584,7 +584,7 @@ private static long modular_mult(long a, long b)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Function to sort an integer array
 static void sort(int[] a)
 {
@@ -607,7 +607,7 @@ static void sort(int[] a)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 static long lcm(int a, int b)
 {
     return (a / gcd(a, b)) * b;

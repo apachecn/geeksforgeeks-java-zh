@@ -21,7 +21,7 @@
 
 这些运算符用于给变量赋值。赋值运算符的左侧操作数是一个变量，赋值运算符的右侧操作数是一个值。右侧的值必须与左侧的操作数具有相同的数据类型。否则，编译器将引发错误。这意味着赋值运算符具有从右到左的关联性，即运算符右侧给出的值被赋值给左侧的变量。因此，右侧的值必须在使用之前声明，或者应该是一个常数。赋值运算符的一般格式是，
 
-```
+```java
 variable *operator* value;
 ```
 
@@ -41,20 +41,20 @@ variable *operator* value;
 
 **语法:**
 
-```
+```java
 num1 = num2;
 ```
 
 **示例:**
 
-```
+```java
 a = 10;
 ch = 'y';
 ```
 
 ## Java
 
-```
+```java
 // Java code to illustrate "=" operator
 
 import java.io.*;
@@ -79,7 +79,7 @@ class Assignment {
 
 **输出**
 
-```
+```java
 num is assigned: 10
 name is assigned: GeeksforGeeks
 ```

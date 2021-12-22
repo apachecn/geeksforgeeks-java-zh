@@ -29,7 +29,7 @@
 
 ****声明:**com . Google . common . collect . multiset 界面的声明如下:**
 
-```
+```java
 @GwtCompatible
 public interface Multiset
    extends Collection 
@@ -39,7 +39,7 @@ public interface Multiset
 
 ****示例:**我们知道，如果将两个相等的元素添加到 java.util.Set 中，那么第二个元素将被丢弃。**
 
-```
+```java
 // Java implementation to show if 2
 // equal elements are added to
 // java.util.Set, then the 2nd element
@@ -62,7 +62,7 @@ System.out.println(set);
 
 **但是，如果我们使用番石榴的多集，那么重复的元素不会被丢弃。有关实现，请参见下面的代码:**
 
-```
+```java
 // Java implementation to show if 2
 // equal elements are added to
 // Multiset, then the 2nd element
@@ -93,7 +93,7 @@ System.out.println(multiset);
 
 ****集合示例:****
 
-```
+```java
 // Java code to show implementation
 // of a Set
 import java.util.*;
@@ -135,7 +135,7 @@ class GuavaTester {
 
 **输出:**
 
-```
+```java
 Total Size is : 3
 Occurrences of Geeks are : 1
 Occurrences of for are : 1
@@ -144,7 +144,7 @@ Occurrences of GeeksforGeeks are : 1
 
 ****多集示例:****
 
-```
+```java
 // Java code to show implementation
 // of a Multiset
 import java.util.*;
@@ -186,7 +186,7 @@ class GuavaTester {
 
 **输出:**
 
-```
+```java
 Total Size is : 8
 Occurrences of Geeks are : 4
 Occurrences of for are : 2

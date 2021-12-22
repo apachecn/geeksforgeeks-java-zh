@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void **getChars**(int srhStartIndex, 
 int srhEndIndex, char[] destArray, int destStartIndex)     
 Parameters:
@@ -22,7 +22,7 @@ Return: It does not return any value.
 
 **示例:**展示 **getChars()** 方法的工作
 
-```
+```java
 // Java program to demonstrate
 // working of getChars() method
 
@@ -45,12 +45,12 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // exception condition in
 // working of getChars() method
@@ -75,7 +75,7 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 java.lang.StringIndexOutOfBoundsException: String index out of range: 26
 
 ```

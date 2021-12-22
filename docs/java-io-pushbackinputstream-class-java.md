@@ -17,7 +17,7 @@
 
     1.  **int available():** 返回可以从此输入流读取(或跳过)的字节数的估计值，而不会被此输入流的方法的下一次调用阻塞。下一次调用可能是同一个线程或另一个线程。单次读取或跳过这么多字节不会阻塞，但可能会读取或跳过更少的字节。
 
-        ```
+        ```java
         Syntax: public int available()
         Returns: the number of bytes that can be read
          (or skipped over) from the input stream without blocking.
@@ -28,7 +28,7 @@
 
     2.  **void close():** 关闭此输入流并释放与该流相关联的任何系统资源。一旦流被关闭，进一步的 read()、unread()、available()、reset()或 skip()调用将引发 IOException。关闭以前关闭的流没有效果。
 
-        ```
+        ```java
         Syntax: public void close()
         Returns: NA
         Exception: IOException - if an I/O error occurs.
@@ -37,7 +37,7 @@
 
     3.  **布尔标记支持():**测试该输入流是否支持标记和重置方法，但它不支持。
 
-        ```
+        ```java
         Syntax: public boolean markSupported()
         Returns: false, since this class does not support the mark and reset methods.
         Exception: NA
@@ -46,7 +46,7 @@
 
         ## 爪哇语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // Java code illustrating available(), close() 
         // and markSupported() methods
 
@@ -78,7 +78,7 @@
 
         输出:
 
-        ```
+        ```java
         available bytes: 10
         mark supported? :false
 
@@ -86,7 +86,7 @@
 
     4.  **int read():** 从此输入流中读取下一个字节的数据。值字节作为 0 到 255 范围内的 int 返回。如果因为已经到达流的末尾而没有字节可用，则返回值-1。此方法会一直阻塞，直到输入数据可用、检测到流的结尾或引发异常。
 
-        ```
+        ```java
         Syntax: public int read()
         Returns: the next byte of data, or -1 if 
         the end of the stream has been reached.
@@ -97,7 +97,7 @@
 
     5.  **int read(byte[] b，int off，int len):** 从这个输入流中读取多达 len 个字节的数据到一个字节数组中。此方法首先读取任何推回的字节；此后，如果读取的字节少于 len 字节，则从底层输入流中读取。如果 len 不为零，则该方法阻塞，直到至少有 1 个字节的输入可用；否则，不读取字节，返回 0。
 
-        ```
+        ```java
         Syntax: public int read(byte[] b, int off, int len).
         Returns: the total number of bytes read into 
         the buffer, or -1 if there is no more data because the end of 
@@ -112,7 +112,7 @@
 
         ## 爪哇语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // Java code illustrating read() method
 
         import java.io.ByteArrayInputStream;
@@ -149,7 +149,7 @@
 
         输出:
 
-        ```
+        ```java
         GeeksforGeeks a computer science portal 
         GeeksforGeeks
 
@@ -158,7 +158,7 @@
     6.  **无效标记(int readlimit):** 标记该输入流中的当前位置。
         推回输入流的标记方法不做任何事情。
 
-        ```
+        ```java
         Syntax: public void mark(int readlimit)
         Returns: NA
         Exception: NA
@@ -168,7 +168,7 @@
     7.  **void reset():** 将此流重新定位到上次在此输入流上调用 mark 方法时的位置。
         类推回输入流的方法重置除了抛出一个 IOException 之外什么都不做。
 
-        ```
+        ```java
         Syntax: public void reset()
         Returns: NA
         Exception: IOException - if this method is invoked.
@@ -177,7 +177,7 @@
 
         ## 爪哇语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // Java code illustrating mark() and reset() method
 
         import java.io.ByteArrayInputStream;
@@ -215,7 +215,7 @@
 
         输出:
 
-        ```
+        ```java
         GeeksforGeeks a computer science portal 
         Exception in thread "main" java.io.IOException: mark/reset not supported
             at java.io.PushbackInputStream.reset(PushbackInputStream.java:364)
@@ -225,7 +225,7 @@
 
     8.  **void unread(byte[] b):** 通过将字节数组复制到推回缓冲区的前面来推回字节数组。此方法返回后，下一个要读取的字节将具有值 b[0]，其后的字节将具有值 b[1]，依此类推。
 
-        ```
+        ```java
         Syntax: public void unread(byte[] b)
         returns: NA
         Exception: IOException - If there is not enough room in 
@@ -236,7 +236,7 @@
 
     9.  **void unread(byte[] b，int off，int len):** 通过将字节数组复制到推回缓冲区的前面来推回字节数组。此方法返回后，下一个要读取的字节将具有值 b[0]，其后的字节将具有值 b[1]，依此类推。
 
-        ```
+        ```java
         Syntax: public void unread(byte[] b,int off,int len)
         Returns: NA
         Exception: IOException - If there is not enough room 
@@ -247,7 +247,7 @@
 
         ## 爪哇语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // Java code illustrating unread() method
 
         import java.io.ByteArrayInputStream;
@@ -288,7 +288,7 @@
 
         输出:
 
-        ```
+        ```java
         GeeksforGeeks a computer science portal
         orGeeks a computer science portal
 
@@ -296,7 +296,7 @@
 
     10.  **void unread(int b):** 通过将一个字节复制到推回缓冲区的前面来推回该字节。此方法返回后，下一个要读取的字节将具有值(字节)b.
 
-        ```
+        ```java
         Syntax: public void unread(int b)
         Returns: NA
         Exception: IOException - If there is not enough 
@@ -307,7 +307,7 @@
 
         ## Java 语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // java code illustrating unread() method
 
         import java.io.ByteArrayInputStream;
@@ -335,7 +335,7 @@
 
         输出:
 
-        ```
+        ```java
         A
 
         ```

@@ -6,7 +6,7 @@ Java 中 **LocalTime** 类的 **now(Clock clock)** 方法用于从指定的时�
 
 **语法:**
 
-```
+```java
 public static LocalTime now(
     Clock clock)
 ```
@@ -19,7 +19,7 @@ public static LocalTime now(
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now(Clock clock) method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Time: 21:04:28.811
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now(Clock clock) method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Time: 21:05:21.192
 
 ```

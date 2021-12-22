@@ -6,7 +6,7 @@
 **方法返回一个大整数，用于翻转大整数中的特定位位置。该方法计算(大整数^ (1 < < n))。bigInteger 的二进制表示的索引 n 处的位将被翻转。也就是说，如果位位置为 0，它将被转换为 1，反之亦然。
 **语法:**** 
 
-```
+```java
 public BigInteger flipBit(int index)
 ```
 
@@ -15,7 +15,7 @@ public BigInteger flipBit(int index)
 **抛出:**当索引值为负时，该方法抛出*算术异常*。
 **举例:**
 
-```
+```java
 Input: value = 2300 , index = 1
 Output: 2302
 Explanation:
@@ -32,7 +32,7 @@ Output: 5482517
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*
 *Program Demonstrate flipBit() method of BigInteger
 */
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 After applying flipBit at index 5 of 5482549 New Value is 5482517
 ```
 

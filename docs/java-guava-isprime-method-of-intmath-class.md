@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isPrime(int n)
 
 ```
@@ -24,7 +24,7 @@ public static boolean isPrime(int n)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of 
 // isPrime(int n) method of Guava's 
 // IntMath class
@@ -59,7 +59,7 @@ class GFG { 
 
 输出:
 
-```
+```java
 63 is not a prime number
 17 is a prime number
 
@@ -67,7 +67,7 @@ class GFG { 
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of 
 // isPrime(int n) method of Guava's 
 // IntMath class
@@ -117,7 +117,7 @@ class GFG { 
 
 输出:
 
-```
+```java
 java.lang.IllegalArgumentException: n (-7) must be >= 0
 
 ```

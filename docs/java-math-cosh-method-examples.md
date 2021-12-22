@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public static double cosh(double a)
 Parameter : 
 a : the value whose hyperbolic cosine is to be returned.
@@ -24,7 +24,7 @@ a : the value whose hyperbolic cosine is to be returned.
 
 **例 1 :** 展示 **java.lang.Math.cosh()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.cosh() method
 import java.lang.Math;
@@ -48,7 +48,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 16.572824671057315
 8.470751974588509E38
 
@@ -56,7 +56,7 @@ class Gfg {
 
 **例 2 :** 展示参数为 NaN 或无穷大时 **java.lang.Math.cosh()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.cosh() method infinity case
 import java.lang.Math;
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Infinity
 Infinity
 NaN

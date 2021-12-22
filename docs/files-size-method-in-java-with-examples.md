@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long size(Path path)
                  throws IOException
 
@@ -24,7 +24,7 @@ public static long size(Path path)
 下面的程序说明大小？(路径)方法:
 **程序一:**
 
-```
+```java
 // Java program to demonstrate
 // Files.size() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Files.size() method
 

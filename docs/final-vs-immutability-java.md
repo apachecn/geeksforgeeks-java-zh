@@ -14,7 +14,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate
 // difference between final
 // and immutability
@@ -41,7 +41,7 @@ class Geeks {
 
 输出:
 
-```
+```java
 Geeks.java:14: error: cannot assign a value to final variable sb
         sb = new StringBuffer("Hello World");
         ^

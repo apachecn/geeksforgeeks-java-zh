@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public BigDecimal abs()
     ```
 
@@ -17,7 +17,7 @@
     下面的程序将说明 java.math.BigDecimal.abs()方法的使用:
     **程序 1**
 
-    ```
+    ```java
     // Java program to demonstrate abs() method
     import java.io.*;
     import java.math.*;
@@ -41,14 +41,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Absolute value is 51
 
     ```
 
     **程序 2**
 
-    ```
+    ```java
     // Java program to demonstrate abs() method
     import java.io.*;
     import java.math.*;
@@ -71,7 +71,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Absolute value is 63.93471
 
     ```
@@ -80,7 +80,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public BigDecimal abs(MathContext mc)
     ```
 
@@ -93,7 +93,7 @@
     下面的程序用指定的数学上下文说明了 java.math.BigDecimal.abs()方法的使用:
     **程序 1**
 
-    ```
+    ```java
     import java.io.*;
     import java.math.*;
 
@@ -122,14 +122,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Absolute value, rounded to 2 precision is 52
 
     ```
 
     **程序 2**
 
-    ```
+    ```java
     import java.io.*;
     import java.math.*;
 
@@ -158,7 +158,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Absolute value, rounded to 15 precision is 143567812363.935
 
     ```

@@ -28,7 +28,7 @@
 
     ![](img/3a333b85cced9cffb8368a62ac3be0dd.png)
 
-    ```
+    ```java
     package com.aspect
 
         import org.aspectj.lang.annotation.Aspect;
@@ -99,7 +99,7 @@
 
     让我们在 Aspect 类 Logger 中实现所有五条建议
 
-    ```
+    ```java
     // Program to show types of Advices
 
     @Aspect
@@ -151,7 +151,7 @@
 
     让我们看看连接点在我们的@Aspect 类(Logger)中做了什么
 
-    ```
+    ```java
     // Program to show JoinPoints
 
     @Aspect
@@ -176,7 +176,7 @@
 
 5.  **切入点:**由于不可能在代码的每个点都应用建议，因此，最终应用建议的所选连接点被称为切入点。通常，您使用显式的类和方法名或者通过定义匹配的类和方法名模式的正则表达式来指定这些切入点。它有助于减少重复的代码写一次，并在多个点使用，让我们看看如何。
 
-    ```
+    ```java
     // Program to shgw PointCuts
 
     @Aspect

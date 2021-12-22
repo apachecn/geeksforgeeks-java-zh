@@ -15,7 +15,7 @@
 2.  [安装**安卓工作室** ( > = 3.0)然后打开/创建一个想要添加脸书登录的项目](https://www.geeksforgeeks.org/guide-to-install-and-set-up-android-studio/)。
 3.  在您的项目中，在您的**T2【梯度脚本】- >构建.梯度 T4【项目】中添加以下代码。
 
-    ```
+    ```java
     buildscript{
         repositories {
             jcenter()
@@ -24,7 +24,7 @@
     ```** 
 4.  现在，在您的项目中使用脸书登录 SDK 的最新版本**在**[Gradle Scripts->build . Gradle](https://www.geeksforgeeks.org/android-build-gradle/)**(模块:app)中添加以下代码。
 
-    ```
+    ```java
     dependencies {
          implementation 'com.facebook.android:facebook-android-sdk:5.0.0'
     }
@@ -32,7 +32,7 @@
 5.  **同步您的项目**
 6.  **Now open **app -> res -> values -> strings.xml** file to add the following lines and **replace** the **[APP_ID]** with your APP_ID, which you can get from Facebook Developer console.
 
-    ```
+    ```java
     <string name="facebook_app_id">[APP_ID]</string>
     <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
     ```
@@ -40,12 +40,12 @@
     ![](img/630d418749790400f02a8376981c0256.png)** 
 7.  **打开**app->manifest->[AnDroidManifest . XML](https://www.geeksforgeeks.org/application-manifest-file-android/)**文件，在应用程序元素外添加这一行。
 
-    ```
+    ```java
     <uses-permission android:name="android.permission.INTERNET"/>
     ```** 
 8.  **将此**元数据**元素添加到**和**文件中的应用程序元素中:
 
-    ```
+    ```java
     <meta-data
         android:name="com.facebook.sdk.ApplicationId"
         android:value="@string/facebook_app_id"/>
@@ -58,7 +58,7 @@
     ```** 
 9.  **现在你需要的第一件事是**键散列**，所以在脸书登录代码之前在你的活动类中添加这些行:
 
-    ```
+    ```java
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -109,7 +109,7 @@
     ![Facebook android login details page](img/3bf53e799a562e45357cc6d245ae2b5f.png)** 
 13.  **现在回到安卓工作室，在你的 ***中添加这个自定义按钮。xml** 布局文件:
 
-    ```
+    ```java
     <Button
         android:id="@+id/button_facebook"
         style="@style/FacebookLoginButton"
@@ -123,7 +123,7 @@
     ```** 
 14.  **在**app->RES->styles . XML**文件中添加此代码:
 
-    ```
+    ```java
     <style name="FacebookLoginButton">
         <item name="android:textSize">14sp</item>
         <item name="android:background">@drawable/facebook_signin_btn</item>
@@ -139,7 +139,7 @@
 15.  **您可以相应地自定义此按钮，也可以使用脸书默认按钮作为脸书登录按钮，而不是上面的自定义按钮。**
 16.  **在 **app - > res - >可绘制**文件夹中创建名为**‘BG _ button _ Facebook . XML’**的可绘制文件，并粘贴到以下代码:
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -150,7 +150,7 @@
     ```** 
 17.  **现在在 ***中初始化按钮。java 文件**和一些代码来**初始化脸书 SDK** 也:
 
-    ```
+    ```java
     // Declare variables
     private Button mButtonFacebook;
 
@@ -194,7 +194,7 @@
     ```** 
 18.  **在 java 文件的 onCreate()外添加**‘facebooklog in’**方法。这是**脸书登录响应的代码。**
 
-    ```
+    ```java
     public void facebookLogin()
     {
 
@@ -266,7 +266,7 @@
     ```** 
 19.  **现在添加另一个登录集成所需的方法**“从 Facebook 断开连接”**，类似地将此添加到外部 onCreate。这用于断开应用程序与脸书的连接，因为不需要保持连接。
 
-    ```
+    ```java
     public void disconnectFromFacebook()
     {
         if (AccessToken.getCurrentAccessToken() == null) {
@@ -291,7 +291,7 @@
     ```** 
 20.  **在同一个活动中添加**【活动结果】**方法外的【创建】:
 
-    ```
+    ```java
     @Override
     protected void onActivityResult(int requestCode,
                                     int resultCode,

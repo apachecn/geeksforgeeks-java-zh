@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的 **withZeroDigit()** 方�
 
 **语法:**
 
-```
+```java
 public void withZeroDigit(char zeroDigit)
 
 ```
@@ -19,7 +19,7 @@ public void withZeroDigit(char zeroDigit)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -50,7 +50,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 Current Character used for zero: 0
 Updated Character used for zero: *
 

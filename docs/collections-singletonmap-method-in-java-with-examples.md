@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static  Map singletonMap(K key, V value)
 ```
 
@@ -23,7 +23,7 @@ public static  Map singletonMap(K key, V value)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // singletonMap() method
 // for <String, String> Value
@@ -57,7 +57,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Singleton map is: {key=Value}
 ```
 
@@ -65,7 +65,7 @@ Singleton map is: {key=Value}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // singletonMap() method
 // for <Integer, Boolean> Value
@@ -99,6 +99,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Singleton map is: {100=true}
 ```

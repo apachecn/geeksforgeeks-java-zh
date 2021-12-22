@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean offer(E e)
 ```
 
@@ -20,7 +20,7 @@ public boolean offer(E e)
 
 **例 1:** 演示 ConcurrentLinkedQueue 添加字符串的 offer()方法。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of ConcurrentLinkedQueue
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar, Sanjeet, Rabi]
 
 ```
 
 **例 2:** 演示用于添加数字的 ConcurrentLinkedQueue 的 offer()方法。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of ConcurrentLinkedQueue
 
@@ -83,14 +83,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 
 ```
 
 **示例 3:** 演示 offer()方法抛出的 NullPointerException 用于添加 Null。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of ConcurrentLinkedQueue
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception thrown while adding null: java.lang.NullPointerException
 
 ```

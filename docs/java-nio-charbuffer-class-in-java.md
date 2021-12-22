@@ -74,7 +74,7 @@ CharBuffer 类的大多数方法直接类似于 ByteBuffer 定义的方法。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // CharBuffer class
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChartBuffer: [a, , , , , b, , c, , ]
 ```
 
@@ -116,7 +116,7 @@ ChartBuffer: [a, , , , , b, , c, , ]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // CharBuffer class
 
@@ -167,6 +167,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original CharBuffer: [a, b, c, d]
 ```

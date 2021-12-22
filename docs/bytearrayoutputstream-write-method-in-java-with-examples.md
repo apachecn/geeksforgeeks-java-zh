@@ -8,7 +8,7 @@ Java 中 **ByteArrayOutputStream** 类的 **write()** 方法有两种使用方�
 
 **语法:**
 
-```
+```java
 public void write(int b)
 
 ```
@@ -25,7 +25,7 @@ public void write(int b)
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream write(int) method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
@@ -72,7 +72,7 @@ BytearrayOutStream。此方法不同于上面的 write()方法，因为它可以
 
 **语法:**
 
-```
+```java
 public void write(byte[ ] b,
                   int offset,
                   int length)
@@ -95,7 +95,7 @@ public void write(byte[ ] b,
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream
 // write(byte[ ], int, int) method
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```

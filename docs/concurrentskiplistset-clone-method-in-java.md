@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.clone()
 ```
 
@@ -18,7 +18,7 @@ ConcurrentSkipListSet.clone()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate clone()
 // method of ConcurrentSkipListSet
 import java.util.concurrent.*;
@@ -52,7 +52,7 @@ class ConcurrentSkipListSetCloneExample1 {
 
 **输出:**
 
-```
+```java
 The set contains: [10, 11, 12, 13, 14, 15]
 The clone set contains: [10, 11, 12, 13, 14, 15, 16]
 
@@ -60,7 +60,7 @@ The clone set contains: [10, 11, 12, 13, 14, 15, 16]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate clone()
 // method of ConcurrentSkipListSet */
 import java.util.concurrent.*;
@@ -95,7 +95,7 @@ class ConcurrentSkipListSetCloneExample2 {
 
 **输出:**
 
-```
+```java
 The set contains: [Gfg, fun, is]
 The clone set contains: [Gfg, fun, is, site]
 

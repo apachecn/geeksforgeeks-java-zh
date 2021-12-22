@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 DoubleObject.hashCode()
 ```
 
@@ -18,7 +18,7 @@ DoubleObject.hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Double hashCode() Method
 
@@ -44,14 +44,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hashcode Value of 118.698 : 1215072837
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Double hashCode() Method
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hashcode Value of -30.0 : -1069678592
 
 ```

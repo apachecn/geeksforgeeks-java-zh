@@ -12,7 +12,7 @@
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate LinkedBlockingQueue
 
 import java.util.concurrent.LinkedBlockingQueue;
@@ -41,7 +41,7 @@ public class LinkedBlockingQueueDemo {
 
 ******Output**
 
-```
+```java
 LinkedBlockingQueue:[1, 2, 3]
 
 ```**** 
@@ -50,7 +50,7 @@ LinkedBlockingQueue:[1, 2, 3]
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate
 // ArrayBlockingQueue
 
@@ -82,7 +82,7 @@ public class ArrayBlockingQueueDemo {
 
 ******Output**
 
-```
+```java
 ArrayBlockingQueue:[1, 2, 3]
 
 ```**** 

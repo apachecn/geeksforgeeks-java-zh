@@ -5,7 +5,7 @@
 Java 中 DelayQueue 类的 **size()** 方法用于返回给定队列中存在的元素数量。如果元素数量大于整数。最大值，然后是整数。最大值作为延迟队列的大小返回。
 **语法** :
 
-```
+```java
 public int size()
 ```
 
@@ -15,7 +15,7 @@ public int size()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the size() method
 // of DelayQueue class
 
@@ -62,6 +62,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size : 1
 ```

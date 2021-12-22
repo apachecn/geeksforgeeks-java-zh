@@ -19,7 +19,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to convert ArrayList
 // to HashSet using constructor
 
@@ -55,7 +55,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 FANG
 data structure
 Interviews
@@ -68,7 +68,7 @@ competitive programming
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to convert ArrayList
 // to HashSet using add() method
 
@@ -102,7 +102,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 FANG
 data structure
 Interviews
@@ -115,7 +115,7 @@ competitive programming
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to convert ArrayList
 // to HashSet using addAll() method
 
@@ -148,7 +148,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 FANG
 data structure
 competitve programming
@@ -161,7 +161,7 @@ Interviews
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to convert ArrayList
 // to HashSet using streams
 
@@ -197,7 +197,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 FANG
 data structure
 Interviews

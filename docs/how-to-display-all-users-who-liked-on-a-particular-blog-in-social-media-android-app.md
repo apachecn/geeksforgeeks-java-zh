@@ -13,7 +13,7 @@
 
 **步骤 1:使用 AdapterPosts.java 文件。重定向到 PostLikedByActivity.class 查看所有用户列表**
 
-```
+```java
 holder.like.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,7 +28,7 @@ holder.like.setOnClickListener(new View.OnClickListener() {
 
 ## 爪哇
 
-```
+```java
 package com.example.socialmediaapp;
 
 import android.app.ProgressDialog;

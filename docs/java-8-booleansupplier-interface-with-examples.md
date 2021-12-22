@@ -16,7 +16,7 @@ BooleanSupplier 界面只包含一个功能:
 
 **语法:**
 
-```
+```java
 boolean getAsBoolean()
 ```
 
@@ -26,7 +26,7 @@ boolean getAsBoolean()
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // getAsBoolean() method of
 // BooleanSupplier Interface
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

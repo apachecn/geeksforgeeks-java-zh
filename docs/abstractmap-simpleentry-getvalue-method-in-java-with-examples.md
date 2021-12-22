@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public K getValue()
 
 ```
@@ -20,7 +20,7 @@ public K getValue()
 以下程序说明 getValue()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.getValue() method
 
@@ -63,7 +63,7 @@ arrayList
 
 **Output:**
 
-```
+```java
 Value 123
 Value 130
 Value 994
@@ -72,7 +72,7 @@ Value 994
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.getValue() method
 
@@ -121,7 +121,7 @@ map = arrayList.get(i);
 
 **Output:**
 
-```
+```java
 Value  Emp 1
 Value  Emp 2
 Value  Emp 3

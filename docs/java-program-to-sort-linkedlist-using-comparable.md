@@ -25,7 +25,7 @@ Comparable 提供单一的排序顺序。如果我们使用可比，那么它将
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort LinkedList using Comparable
 // in ascending order
 import java.util.Collections;
@@ -97,7 +97,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 UnSorted List
 2 Meet 32
 5 Jhon 11
@@ -129,7 +129,7 @@ Sorted List
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Sort LinkedList using Comparable in Java
 import java.util.Collections;
 import java.util.LinkedList;
@@ -200,7 +200,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 UnSorted List
 2 Meet 32
 5 Jhon 11
@@ -226,7 +226,7 @@ Sorted List
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Sort LinkedList using Comparable in Java
 import java.util.Collections;
 import java.util.LinkedList;
@@ -298,7 +298,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 UnSorted List
 2 Meet 32
 5 Jhon 11

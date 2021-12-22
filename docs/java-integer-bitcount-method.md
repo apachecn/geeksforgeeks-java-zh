@@ -6,7 +6,7 @@ java.lang 包的 Integer 类的 **bitCount()** 方法返回一个 int 值的二�
 
 **语法:**
 
-```
+```java
 public static int bitCount(int n)
 Parameter :
 n : the value whose bits are to be counted
@@ -18,7 +18,7 @@ binary representation of an int value.
 
 **示例:**展示**Java . lang . integer . bitcount()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.bitCount() method
 import java.lang.Integer;
@@ -40,7 +40,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 1010
 2
 

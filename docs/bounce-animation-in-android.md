@@ -20,7 +20,7 @@
 
 ## ****bounce.xml****
 
-```
+```java
 **<?xml version="1.0" encoding="utf-8"?>
 <set 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -42,7 +42,7 @@
 
 ## ****activity_main.xml****
 
-```
+```java
 **<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -100,7 +100,7 @@
 
 ## **MainActivity.java**
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;

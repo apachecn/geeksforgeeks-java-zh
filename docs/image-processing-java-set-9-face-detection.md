@@ -12,7 +12,7 @@
 2.  **imcodecs . imread()/imcodecs . imwrite():**这些方法用于将图像作为 Mat 对象读写，这些对象由 OpenCV 渲染。
 3.  **Imgproc.rectangle() :** 用于生成勾勒检测到的人脸的矩形框，它采用四个参数——input _ image、top_left_point、bottom_right_point、color_of_border。
 
-```
+```java
 // Java program to demonstrate face detection
 package ocv;
 
@@ -69,7 +69,7 @@ public class FaceDetector
 
 输出:
 
-```
+```java
 
     Input.jpg                                         Output.jpg
 ![input](img/8c9610e01de7e20833acbe07eeac4375.png)                        ![ouput](img/855d7e84bfb0b7b46b5cb0995cf67f4a.png)

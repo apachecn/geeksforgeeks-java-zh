@@ -59,7 +59,7 @@
 
 **2.1** 打开 pom.xml 文件(pom.xml 示例如下)
 
-```
+```java
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
@@ -92,7 +92,7 @@
 
 **2.2** 在<依赖项>标签下添加以下代码
 
-```
+```java
 <dependency>
    <groupId>io.fastjson</groupId>
    <artifactId>boon</artifactId>
@@ -102,7 +102,7 @@
 
 现在，pom.xml 我们看起来像这样。
 
-```
+```java
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
@@ -149,7 +149,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Boon ObjectMapper Functionality
 // by parsing JSON into objects
 // Using the Boon ObjectMapper class
@@ -246,6 +246,6 @@ class Employee {
 
 **输出:**
 
-```
+```java
 Employee [ empID: 100, empName: Sam, empDesignation: SDE]
 ```

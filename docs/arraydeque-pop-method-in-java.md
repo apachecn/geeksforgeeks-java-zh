@@ -6,7 +6,7 @@ Java 中的 Java.util.ArrayDeque.pop()方法用于从 Deque 中弹出一个元�
 
 **语法:**
 
-```
+```java
 Array_Deque.pop()
 ```
 
@@ -19,7 +19,7 @@ Array_Deque.pop()
 下面的程序说明了 Java.util.ArrayDeque.pop()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate pop()
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [Welcome, To, Geeks, For, Geeks]
 Popped element: Welcome
 Popped element: To
@@ -62,7 +62,7 @@ Deque after operation [Geeks, For, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate pop()
 import java.util.*;
 
@@ -95,7 +95,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [10, 15, 30, 20, 5]
 Popped element: 10
 Popped element: 15

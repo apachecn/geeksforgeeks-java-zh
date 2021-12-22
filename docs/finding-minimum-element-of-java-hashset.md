@@ -8,7 +8,7 @@ Java [HashSet](https://www.geeksforgeeks.org/hashset-in-java/) 类用于创建�
 
 **示例:**
 
-```
+```java
 Input  : [24, 56, 87, 64, 29, 2, 65]
 Output : 2
 
@@ -39,7 +39,7 @@ Output : 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find minimum element on HashSet
 
 // Importing all java input output classes
@@ -101,7 +101,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements in HashSet = [64, 65, 2, 87, 24, 56, 29]
 Minimum element in HashSet = 2
 
@@ -113,7 +113,7 @@ Minimum element in HashSet = 2
 
 **语法:**
 
-```
+```java
 public static <T extends Object & Comparable<? super T>> T 
     min(Collection<? extends T> coll)
 ```
@@ -134,7 +134,7 @@ public static <T extends Object & Comparable<? super T>> T
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find minimum element on HashSet
 
 // Importing all java input output classes
@@ -178,7 +178,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements in HashSet = [Geekss, Geek, Geeks]
 Minimum String in a HashSet :Geek
 

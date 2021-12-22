@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static List<Integer> 
     asList(int[] array)
 
@@ -18,7 +18,7 @@ public static List<Integer>
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.asList() method
 
@@ -48,14 +48,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 List of given array: [1, 2, 3, 4, 5]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.asList() method
 
@@ -84,7 +84,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 List of given array: [3, 5, 7]
 
 ```

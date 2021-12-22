@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final int lastIndexOf(Object value)
 ```
 
 **语法:**
 
-```
+```java
 int index = TupleClassObject.lastIndexOf(Object value)
 ```
 
@@ -24,7 +24,7 @@ int index = TupleClassObject.lastIndexOf(Object value)
 
 **程序 1:** 使用 lastIndexOf()与单位类:
 
-```
+```java
 // Below is a Java program to use lastIndexOf() method
 
 import java.util.*;
@@ -55,14 +55,14 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Last Index of GeeksforGeeks = 0
 Last Index of Present = -1
 ```
 
 **程序 2:** 使用 lastIndexOf()搭配四重奏类:
 
-```
+```java
 // Below is a Java program to use lastIndexOf() method
 
 import java.util.*;
@@ -107,7 +107,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Last Index of 1 = 2
 Last Index of GeeksforGeeks = 3
 Last Index of 20.5 = -1

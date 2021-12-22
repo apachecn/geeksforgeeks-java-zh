@@ -46,7 +46,7 @@ android 设备中的联系人应用程序是安装在你的 android 设备上的
 
 ## 可扩展标记语言
 
-```
+```java
 <!--permissions to read contacts-->
 <uses-permission android:name="android.permission.READ_CONTACTS" />
 <!--permissions to write contacts-->

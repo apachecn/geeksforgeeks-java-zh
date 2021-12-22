@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ChronoZonedDateTime zonedDateTime(Instant instant,
                                          ZoneId zone)
 
@@ -25,7 +25,7 @@ public ChronoZonedDateTime zonedDateTime(Instant instant,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate and time is: Hijrah-umalqura AH 1441-06-18T13:10:48.843Z[Etc/UTC]
 
 ```
@@ -76,7 +76,7 @@ HijrahDate and time is: Hijrah-umalqura AH 1441-06-18T13:10:48.843Z[Etc/UTC]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate and time is: Hijrah-umalqura AH 1389-10-22T06:56:40Z[Etc/UTC]
 
 ```

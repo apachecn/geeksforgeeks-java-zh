@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.asList() method
 
@@ -45,14 +45,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [a, b, c]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.asList() method
 
@@ -81,7 +81,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [H, E, L, L, O]
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void set(long newVal)
 
 ```
@@ -19,7 +19,7 @@ public final void set(long newVal)
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the set() function
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 0
 Current value: 10
 
@@ -54,7 +54,7 @@ Current value: 10
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the set() function
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 18
 Current value: 200
 

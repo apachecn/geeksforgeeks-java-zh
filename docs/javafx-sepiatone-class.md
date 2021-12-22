@@ -22,7 +22,7 @@ SepiaTone 类是 JavaFX 的一部分。棕褐色类用于为图像添加棕褐�
 
 1.  **Java program to import an image and add SepiaTone effect to it:** In this program a *FileInputStream* is created and an image is taken as input from a file. Image named *image* is created using the input from file input stream. From the image a *image view object* is created and it is added to the *VBox*. The *VBox* is then added to the scene and the scene is added to the stage. A *SepiaTone* effect is created with a specified level passed as parameters and the effect is set to the image view using *setEffect()* function.
 
-    ```
+    ```java
     // Java program to import an image 
     // and add SepiaTone effect to it
     import javafx.application.Application;
@@ -91,7 +91,7 @@ SepiaTone 类是 JavaFX 的一部分。棕褐色类用于为图像添加棕褐�
 
 2.  **Java program to import an image and set SepiaTone effect to it. The Level of the SepiaTone effect can be controlled using the button:** In this program a *FileInputStream* is created and an image is taken as input from a file. Image named *image* is created using the input from the file input stream. From the image, an *image view object* is created and it is added to the *VBox*. The VBox is then added to the scene and the scene is added to the stage. A SepiaTone effect is created with a specified level passed as parameters and the effect is set to the image view using *setEffect()* function. A Button named button is created which is used to increase the *SepiaTone* of the image. The button is also added to the *VBox*. The SepiaTone of the image is increased using the *setLevel()* function.The events related to button is handled using *EventHandler*.
 
-    ```
+    ```java
     // Java program to import an image and set
     // SepiaTone effect to it. The Level of the
     // SepiaTone effect can be controlled 

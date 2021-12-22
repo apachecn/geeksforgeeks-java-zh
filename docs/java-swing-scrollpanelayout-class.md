@@ -24,7 +24,7 @@ JScrollPane 使用的布局管理器。 *JScrollPaneLayout* 基于九个组件:�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // ScrollPaneLayout class
 import java.awt.BorderLayout;
@@ -96,7 +96,7 @@ public class Geeks extends JFrame
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // ScrollPaneLayout class
 import java.awt.BorderLayout;

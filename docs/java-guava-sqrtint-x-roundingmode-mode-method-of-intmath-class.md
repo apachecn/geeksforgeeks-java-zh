@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static int sqrt(int x, RoundingMode mode)
 
 ```
@@ -34,7 +34,7 @@ public static int sqrt(int x, RoundingMode mode)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // sqrt(int x, RoundingMode mode) method
 // of Guava's IntMath class
@@ -78,7 +78,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Square root of x1 is: 15
 Square root of x2 is: 12
 
@@ -86,7 +86,7 @@ Square root of x2 is: 12
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // sqrt(int x, RoundingMode mode) method
 // of Guava's IntMath class
@@ -122,7 +122,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.IllegalArgumentException: x (-65) must be >= 0
 
 ```

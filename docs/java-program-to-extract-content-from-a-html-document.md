@@ -20,7 +20,7 @@ HTML 是 web 的核心，你在互联网上看到的所有页面都是 HTML，�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Extract Content from a HTML document
 
 // Importing input/output java libraries
@@ -87,7 +87,7 @@ public class GFG {
 *   **现在，在服务器发回包含信息的 HTTP 响应后，HTTP gets Request 被发送到连接。**
 *   **该信息以字节的形式存在，然后使用[*InputStreamReader()*](https://www.geeksforgeeks.org/inputstreamreader-class-in-java/)和 [*openStream()*](https://www.geeksforgeeks.org/download-web-page-using-java/) 方法读取该信息，并将数据返回给程序。**
 
-```
+```java
 BufferedReader br = new BufferedReader(new InputStreamReader(URL.openStream()));
 ```
 
@@ -95,7 +95,7 @@ BufferedReader br = new BufferedReader(new InputStreamReader(URL.openStream()));
 *   ****然后使用**[*inputStreamReader()*](https://www.geeksforgeeks.org/inputstreamreader-class-in-java/)以字节形式收集信息******
 *   ******现在运行循环来打印信息，因为需求是在控制台中打印信息。******
 
-```
+```java
 ****while ((val = br.readLine()) != null)   // condition
  {    
    System.out.println(val);             // execution if condition is true
@@ -106,7 +106,7 @@ BufferedReader br = new BufferedReader(new InputStreamReader(URL.openStream()));
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Extract Content from a HTML document
 
 // Importing java generic class

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 long until(Temporal endExclusive, TemporalUnit unit)
 
 ```
@@ -27,7 +27,7 @@ long until(Temporal endExclusive, TemporalUnit unit)
 以下程序说明了直到()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.until() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result in HOURS: -1000
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.until() method
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result in DAYS: 41
 
 ```

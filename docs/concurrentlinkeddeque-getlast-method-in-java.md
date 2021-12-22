@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Conn_Linked_Deque.getLast()
 ```
 
@@ -20,7 +20,7 @@ Conn_Linked_Deque.getLast()
 
 **程序 1** :
 
-```
+```java
 /* Java Program to Demonstrate getLast()
    method of ConcurrentLinkedDeque */
 
@@ -50,7 +50,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Elements in Deque: [Welcome, To, Geeks, 4, Geeks]
 The Last element is: Geeks
 
@@ -58,7 +58,7 @@ The Last element is: Geeks
 
 **程序二:**
 
-```
+```java
 /* Java Program to Demonstrate getLast()
    method of ConcurrentLinkedDeque */
 
@@ -99,7 +99,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.util.NoSuchElementException
 Elements in Deque: [12, 43, 29, 16, 70]
 The Last element is: 70

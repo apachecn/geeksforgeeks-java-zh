@@ -22,7 +22,7 @@ java 中的 [**Vector**](https://www.geeksforgeeks.org/java-util-vector-class-ja
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access random elements from the vector
 // using random() method of Math class
 
@@ -72,7 +72,7 @@ public class GfG {
 
 **Output**
 
-```
+```java
 For
 To
 Welcome
@@ -86,7 +86,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access random elements from the vector
 // using random class
 
@@ -140,7 +140,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Welcome
 Geeks
 To
@@ -154,7 +154,7 @@ For
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access random elements from the given
 // vector using ThreadLocalRandom class
 
@@ -205,7 +205,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 Welcome
 Geeks

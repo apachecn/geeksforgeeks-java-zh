@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```java
 Input : PDF1 = Alice.pdf, PDF2 = Bob.pdf
 Output: newMerged.pdf // merged pdf of pdf1 and pdf2 
 ```
@@ -22,7 +22,7 @@ Output: newMerged.pdf // merged pdf of pdf1 and pdf2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Merging multiple pdf documents here
 
 import org.apache.pdfbox.multipdf.PDFMergerUtility;

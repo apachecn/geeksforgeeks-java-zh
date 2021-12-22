@@ -34,7 +34,7 @@ FileWriter 对于创建向其中写入字符的文件非常有用。
 
 以下程序描述了如何使用文件编写器创建文本文件
 
-```
+```java
 // Creating a text File using FileWriter
 import java.io.FileWriter;
 import java.io.IOException;
@@ -91,7 +91,7 @@ class CreateFile
 
 以下程序描述了如何使用文件阅读器读取“文本”文件
 
-```
+```java
 // Reading data from a file using FileReader
 import java.io.FileNotFoundException;
 import java.io.FileReader;

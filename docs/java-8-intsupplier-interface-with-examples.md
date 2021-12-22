@@ -16,7 +16,7 @@ IntSupplier 界面只包含一个功能:
 
 **语法:**
 
-```
+```java
 int getAsInt()
 ```
 
@@ -26,7 +26,7 @@ int getAsInt()
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // getAsInt method of IntSupplier Interface
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 7
 
 ```

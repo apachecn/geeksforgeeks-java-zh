@@ -21,7 +21,7 @@
 
 ****程序:****
 
-```
+```java
 // Java program to create a Sequential Stream
 // from an Iterator
 
@@ -59,7 +59,7 @@ class GfG {
 
 ****Output:**
 
-```
+```java
 Sequential Stream : [G, E, E, K, S]
 
 ```** *   ****Using Iterable.Spliterator()**: Spliterator is the key to create the sequential stream. Hence in this method also, Spliterator is used. But in this method, the source of Spliterator is set to an **Iterable** created from the **Iterator**.
@@ -68,7 +68,7 @@ Sequential Stream : [G, E, E, K, S]
 
     **程序:**
 
-    ```
+    ```java
     // Java program to create a Sequential Stream
     // from an Iterator
 
@@ -106,7 +106,7 @@ Sequential Stream : [G, E, E, K, S]
 
     **Output:**
 
-    ```
+    ```java
     Sequential Stream : [G, E, E, K, S]
 
     ```**

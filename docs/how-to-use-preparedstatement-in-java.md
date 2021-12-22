@@ -14,38 +14,38 @@
 
 **1。创建到数据库的连接**
 
-```
+```java
 Connection myCon = DriverManager.getConnection(path,username,password)
 ```
 
 **2。准备声明**
 而不是硬编码查询，
 
-```
+```java
 select * from students where age>10 and name ='Chhavi'
 ```
 
 设置参数占位符(使用问号表示占位符)，如:
 
-```
+```java
 select * from students where age> ? and name = ?
 ```
 
-```
+```java
 PreparedStatement myStmt; 
 myStmt = myCon.prepareStatement(select * from students where age> ? and name = ?);
 ```
 
 **3。设置类型和位置的参数值**
 
-```
+```java
 myStmt.setInt(1,10);     
 myStmt.setString(2,"Chhavi");      
 ```
 
 **4。执行查询**
 
-```
+```java
 ResultSet myRs= myStmt.executeQuery();
 ```
 
@@ -66,7 +66,7 @@ ResultSet myRs= myStmt.executeQuery();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to execute a query using PreparedStatement
 
 import java.sql.*;
@@ -121,7 +121,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to update a table using PreparedStatement
 
 import java.sql.*;

@@ -6,7 +6,7 @@ A [质数](https://www.geeksforgeeks.org/prime-numbers/)是大于 1 的整数，
 
 **示例**
 
-```
+```java
 Input: 1 10
 Output 2 3 5 7
 
@@ -24,7 +24,7 @@ Output: 23 29
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement wheel Sieve to Generate Prime
 // Numbers Between Given Range
 
@@ -68,7 +68,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2 3 5 7 11 13 17 19
 ```
 
@@ -86,7 +86,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement wheel Sieve to Generate Prime
 // Numbers Between Given Range
 
@@ -149,7 +149,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 23 29 31 37
 ```
 
@@ -162,7 +162,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check if the
 // given number is prime using
 // Wheel Factorization Method
@@ -256,6 +256,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 11 13 17 19
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int hashCode(int value)
 
 ```
@@ -19,7 +19,7 @@ public static int hashCode(int value)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.hashCode() method
 
@@ -40,14 +40,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 HashCode value of 15: 15
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.hashCode() method
 
@@ -68,7 +68,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 HashCode value of 10: 10
 
 ```

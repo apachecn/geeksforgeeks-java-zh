@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.floor(E e)
 ```
 
@@ -22,7 +22,7 @@ ConcurrentSkipListSet.floor(E e)
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate floor()
     // method of ConcurrentSkipListSet
 
@@ -56,7 +56,7 @@ ConcurrentSkipListSet.floor(E e)
 
     **Output:**
 
-    ```
+    ```java
     The floor of 20 in the set 20
     The floor of 39 in the set 30
     The floor of 10 in the set null
@@ -65,7 +65,7 @@ ConcurrentSkipListSet.floor(E e)
 
     **程序 2:** 在楼层()显示空指针异常的程序。
 
-    ```
+    ```java
     // Java program to demonstrate floor()
     // method of ConcurrentSkipListSet
 
@@ -96,7 +96,7 @@ ConcurrentSkipListSet.floor(E e)
 
     **Output:**
 
-    ```
+    ```java
     Exception: java.lang.NullPointerException
 
     ```

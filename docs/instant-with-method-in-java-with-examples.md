@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Instant with(TemporalAdjuster adjuster)
 
 ```
@@ -27,7 +27,7 @@ public Instant with(TemporalAdjuster adjuster)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.with() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant before adjustment: 2018-12-30T19:34:50.630Z
 Instant after adjustment: 1970-01-01T00:00:00Z
 
@@ -74,7 +74,7 @@ Instant after adjustment: 1970-01-01T00:00:00Z
 
 **语法:**
 
-```
+```java
 public Instant with(TemporalField field, long newValue)
 
 ```
@@ -92,7 +92,7 @@ public Instant with(TemporalField field, long newValue)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.with() method
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant before applying method: 2021-01-01T19:55:30Z
 Instant after applying method: 1970-01-01T00:00:45Z
 

@@ -6,7 +6,7 @@ Java 中 DecimalFormat 类的 applyLocalizedPattern()方法用于将本地化的
 
 **语法** :
 
-```
+```java
 public void applyLocalizedPattern(String pattern)
 
 ```
@@ -19,7 +19,7 @@ public void applyLocalizedPattern(String pattern)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // applyLocalizedPattern method
 
@@ -39,14 +39,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 -1, 23, 45, 67, 90
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // applyLocalizedPattern method
 
@@ -66,7 +66,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 -123, 456, 789.54
 
 ```

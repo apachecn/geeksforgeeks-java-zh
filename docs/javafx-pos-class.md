@@ -17,7 +17,7 @@ Pos 类是 JavaFX 的一部分。Pos 类包含表示水平和垂直定位或对�
 
 1.  **Java Program to create a tilepane and add a specified Pos value as its alignment:** In this program we will create a TilePane named *tile_pane*. Add Label named *label* and some buttons to the *tile_pane*. Set the Alignment of the *tile_pane* using the *setAlignment()* function. Set the alignment of the *tile_pane* to the Pos value *TOP_LEFT*. Add the *tile_pane* to the scene and add the scene to the stage and call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a tilepane and add
     // a specified Pos value as its alignment
     import javafx.application.Application;
@@ -88,7 +88,7 @@ Pos 类是 JavaFX 的一部分。Pos 类包含表示水平和垂直定位或对�
 
 2.  **Java Program to create a TilePane and a combobox that contains different values of Pos:** In this program we will create a TilePane named *tile_pane*. Add Label named label and some buttons to the *tile_pane*. Set the Alignment of the *tile_pane* using the *setAlignment()* function. We will set the alignment of the *tile_pane* to the Pos value *BASELINE_CENTER*. Store all the names of Pos values in a String array. Now create a combobox which will contain the names of Pos values and also cranate a Action Event to handle the combobox events. The Event handler will set the Alignment of the tilepane to the chosen pos value. Now create a VBox and add the tilepane and the combo box to vbox. Finally, add the *vbox* to the scene and add the scene to the stage and call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a TilePane and 
     // a combobox that contains different 
     // values of Pos

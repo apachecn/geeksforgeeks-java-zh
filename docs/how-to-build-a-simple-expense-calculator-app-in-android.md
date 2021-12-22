@@ -25,7 +25,7 @@
 
 在进入编码部分之前，让我们添加必要的依赖项。我们必须为项目添加的唯一依赖项是 **Gson** 。它是一个 Java 库，可以用来将 Java 对象转换成它们的 JSON 表示。它还可以用于将 JSON 字符串转换为等效的 Java 对象。转到应用级 **build.gradle** 文件并添加以下依赖项，然后单击立即同步。
 
-```
+```java
 implementation 'com.google.code.gson:gson:2.8.6'
 ```
 
@@ -41,7 +41,7 @@ implementation 'com.google.code.gson:gson:2.8.6'
 
 ## 可扩展标记语言
 
-```
+```java
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
@@ -62,7 +62,7 @@ implementation 'com.google.code.gson:gson:2.8.6'
 
 ## 可扩展标记语言
 
-```
+```java
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
@@ -84,7 +84,7 @@ implementation 'com.google.code.gson:gson:2.8.6'
 
 ## 可扩展标记语言
 
-```
+```java
 <vector android:height="24dp" android:tint="#FFFFFF"
     android:viewportHeight="24" android:viewportWidth="24"
     android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
@@ -100,7 +100,7 @@ implementation 'com.google.code.gson:gson:2.8.6'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
   <item android:state_focused="false">
@@ -128,7 +128,7 @@ implementation 'com.google.code.gson:gson:2.8.6'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version = "1.0" encoding = "utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"

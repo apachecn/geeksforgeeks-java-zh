@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(Instant otherInstant)
 ```
 
@@ -28,7 +28,7 @@ public int compareTo(Instant otherInstant)
 
 **程序 1:** 当该实例大于
 
-```
+```java
 // Java program to demonstrate
 // Instant.compareTo() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **时输出:**
 
-```
+```java
 Instant1: 2018-10-20T16:55:30Z
 Instant2: 2017-10-20T16:55:30Z
 Instant1 is greater
@@ -75,7 +75,7 @@ Instant1 is greater
 
 **程序 2:** 当作为参数传递的其他瞬间大于
 
-```
+```java
 // Java program to demonstrate
 // Instant.compareTo() method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant1: 2017-10-20T16:55:30Z
 Instant2: 2018-10-20T16:55:30Z
 Instant2 is greater
@@ -122,7 +122,7 @@ Instant2 is greater
 
 **程序 1:** 当两个实例相等时
 
-```
+```java
 // Java program to demonstrate
 // Instant.compareTo() method
 
@@ -160,7 +160,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant1: 2018-10-20T16:55:30Z
 Instant2: 2018-10-20T16:55:30Z
 Instant1 is equal to Instant2
@@ -169,7 +169,7 @@ Instant1 is equal to Instant2
 
 **程序 4:** 显示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // Instant.compareTo() method
 
@@ -199,7 +199,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

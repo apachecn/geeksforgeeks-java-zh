@@ -25,7 +25,7 @@ ImagePattern 是 JavaFX 的一部分。此类用于用图像图案填充形状�
 
 1.  **Java Program to create a ImagePattern from a image and apply it to the rectangle:** In this program we will create a ImagePattern named *image_pattern* from a image. Import the image using a FileInputStream. Add this image_pattern to the rectangle using the *setFill()* function. Create a VBox and add the rectangle to the *vbox*. Add the *vbox* to the scene and add the scene to the stage. Call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java Program to create a ImagePattern from
     // a image and apply it to the rectangle
     import javafx.application.Application;
@@ -96,7 +96,7 @@ ImagePattern 是 JavaFX 的一部分。此类用于用图像图案填充形状�
 
 2.  **Java Program to create an ImagePattern form an image, set the x, y coordinate, its height and width, and whether it is proportional or not and apply it to the rectangle:** In this program we will create an ImagePattern named *image_pattern* from an image. Import the image using a FileInputStream. Specify the x, y coordinates of the anchor rectangle, its height, width and whether it is proportional or not bypassing the values as arguments of the constructor of ImagePattern. Add this image_pattern to the rectangle using the *setFill()* function. Create a VBox and add the rectangle to *vbox*. Add the vbox to the scene and add the scene to the stage. Call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java Program to create an ImagePattern form an image, 
     // set the x, y coordinate, its height and width, and 
     // whether it is proportional or not and apply it to

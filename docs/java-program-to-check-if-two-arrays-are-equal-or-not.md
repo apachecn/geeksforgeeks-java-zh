@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input  : arr1[] = {1, 2, 5, 4, 0};
          arr2[] = {1, 2, 5, 4, 0}; 
 Output : Yes
@@ -33,7 +33,7 @@ Output : No
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find the if the arrays are equal
 
 import java.util.Arrays;
@@ -68,7 +68,7 @@ public class CheckArraysEqual {
 
 **Output**
 
-```
+```java
 Two arrays are equal
 ```
 
@@ -76,7 +76,7 @@ Two arrays are equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find the if the arrays are equal
 
 import java.util.Arrays;
@@ -111,7 +111,7 @@ public class CheckArraysEqual {
 
 **Output**
 
-```
+```java
 Two arrays are not equal
 ```
 
@@ -131,7 +131,7 @@ T5】辅助空间: O(1)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to check if the arrays are equal
 
 public class checkArraysEqual {
@@ -188,7 +188,7 @@ public class checkArraysEqual {
 
 **Output**
 
-```
+```java
 Arrays are equal
 ```
 
@@ -196,7 +196,7 @@ Arrays are equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to check if the arrays are equal
 
 public class checkArraysEqual {
@@ -252,7 +252,7 @@ public class checkArraysEqual {
 
 **Output**
 
-```
+```java
 Arrays are not equal
 ```
 

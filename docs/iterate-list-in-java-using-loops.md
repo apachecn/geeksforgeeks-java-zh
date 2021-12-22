@@ -21,7 +21,7 @@ For 循环是最常见的流量控制循环。For 循环使用一个变量来遍
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate List in java
 // using for loop
 // Importing all input output classes
@@ -103,7 +103,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterating over ArrayList: 10 20 30 40 50 
 Iterating over Vector:    10 20 30 40 50 
 Iterating over Stack:     10 20 30 40 50 
@@ -117,7 +117,7 @@ Iterating over Stack:     10 20 30 40 50
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to iterate over List
 // using while loop
 
@@ -231,7 +231,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterating over ArrayList: 10 20 30 40 50 
 Iterating over Vector:    10 20 30 40 50 
 Iterating over Stack:     10 20 30 40 50 
@@ -241,7 +241,7 @@ Iterating over Stack:     10 20 30 40 50
 
 **语法:**
 
-```
+```java
 for (type temp : list_name) 
 {  
    statements using temp;
@@ -252,7 +252,7 @@ for (type temp : list_name)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -304,7 +304,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterating over ArrayList: 10 20 30 40 50 
 Iterating over Vector:    10 20 30 40 50 
 Iterating over Stack:     10 20 30 40 50 
@@ -316,7 +316,7 @@ Iterating over Stack:     10 20 30 40 50
 
 **语法:**
 
-```
+```java
 void forEach(Consumer<? super T> action)
 ```
 
@@ -324,7 +324,7 @@ void forEach(Consumer<? super T> action)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing all input output classes
 import java.io.*;
 // Importing all classes from
@@ -403,7 +403,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterating over ArrayList: 10 20 30 40 50 
 Iterating over Vector:    10 20 30 40 50 
 Iterating over Stack:     10 20 30 40 50 

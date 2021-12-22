@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Blur Image using Smoothing
 
 // Importing required packages
@@ -125,7 +125,7 @@ public class GFG {
 
 **输出:**在控制台上
 
-```
+```java
 Java Program to Blur Image using Smoothing
 ```
 

@@ -30,7 +30,7 @@ LinkedBlockingQueue <e>扩展[抽象队列<E>T2】并实现**可序列化**、**
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // LinkedBlockingQueue() constructor
 
@@ -61,7 +61,7 @@ public class LinkedBlockingQueueDemo {
 
 **Output**
 
-```
+```java
 LinkedBlockingQueue:[1, 2, 3, 4, 5]
 ```
 
@@ -73,7 +73,7 @@ LinkedBlockingQueue:[1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // LinkedBlockingQueue(int initialCapacity) constructor
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 LinkedBlockingQueue:[1, 2, 3]
 ```
 
@@ -117,7 +117,7 @@ LinkedBlockingQueue:[1, 2, 3]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // LinkedBlockingQueue(Collection c) constructor
 
@@ -151,7 +151,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 LinkedBlockingQueue:[1, 2, 3, 4, 5]
 ```
 
@@ -163,7 +163,7 @@ LinkedBlockingQueue:[1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate adding 
 // elements to the LinkedBlockingQueue
 
@@ -193,7 +193,7 @@ public class AddingElementsExample {
 
 **Output:** 
 
-```
+```java
 LinkedBlockingQueue:[1, 2, 3]
 ```
 
@@ -203,7 +203,7 @@ LinkedBlockingQueue 的 [remove(Object obj)](https://www.geeksforgeeks.org/linke
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate removing 
 // elements from the LinkedBlockingQueue
 
@@ -239,7 +239,7 @@ public class RemovingElementsExample {
 
 **Output:** 
 
-```
+```java
 LinkedBlockingQueue:[1, 2, 3]
 LinkedBlockingQueue:[]
 ```
@@ -250,7 +250,7 @@ LinkedBlockingQueue 的[迭代器()](https://www.geeksforgeeks.org/linkedblockin
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate iterating
 // over LinkedBlockingQueue 
 
@@ -287,7 +287,7 @@ public class IteratingExample { 
 
 **Output**
 
-```
+```java
 list of names:
 John
 Tom
@@ -301,7 +301,7 @@ LinkedBlockingQueue 的 [peek()](https://www.geeksforgeeks.org/linkedblockingque
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate accessing
 // elements of LinkedBlockingQueue 
 
@@ -350,7 +350,7 @@ public class AccessingElementsExample { 
 
 **Output**
 
-```
+```java
 Queue is [John, Tom, Clark, Kat]
 Head of Queue is John
 

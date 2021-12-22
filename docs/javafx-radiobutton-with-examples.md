@@ -24,7 +24,7 @@ RadioButtons 是 JavaFx 包的一部分。单选按钮主要用于创建一系�
 
 *   **Program to create RadioButton and add it to the stage**: This program creates a RadioButton indicated by the name r1, r2, r3\. The radio button will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a tile-pane is created, on which addChildren() method is called to attach the radio button inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create RadioButton and add it to the stage
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -83,7 +83,7 @@ RadioButtons 是 JavaFx 包的一部分。单选按钮主要用于创建一系�
 
 *   **Program to create RadioButton and add it to a ToggleGroup**: This program creates a RadioButton indicated by the name r1, r2, r3\. The radio button will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. A toggle group is created and the radio buttons are added to the toggle group using setToggleGroup() function. Then a tile-pane is created, on which addChildren() method is called to attach the radio button inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java Program to create RadioButton and add it to a ToggleGroup
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -152,7 +152,7 @@ RadioButtons 是 JavaFx 包的一部分。单选按钮主要用于创建一系�
 
 *   **Program to create RadioButton, add it to a ToggleGroup and add a listener to it**: This program creates a RadioButton indicated by the name r1, r2, r3\. The radio button will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. A toggle group is created and the radio buttons are added to the toggle group using setToggleGroup() function. A label l2 is created to show which radio button is selected. A change listener is added to handle any change in the selection of the radio buttons (using the addListener() function). The change in selection is depicted by changing the text of label l2\. Then a tile-pane is created, on which addChildren() method is called to attach the radio button inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java Program to create RadioButton, add it to a ToggleGroup and add a listener to it
     import javafx.application.Application;
     import javafx.scene.Scene;

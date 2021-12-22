@@ -12,7 +12,7 @@
 1.  **int read()**；读取一字节数据。存在于文件输入流中。这个方法的其他版本:int read(byte[] bytearray)和 int read(byte[] bytearray，int offset，int length)
 2.  **void write(int b)** :写入一个字节的数据。出现在文件输出流中。此方法的其他版本:void write(byte[] bytearray)和 void write(byte[] bytearray，int offset，int length)；
 
-```
+```java
 /* Program to copy a src file to destination.
    The name of src file and dest file must be
    provided using command line arguments where

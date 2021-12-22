@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getName()
 ```
 
@@ -14,7 +14,7 @@ public String getName()
 
 **示例:**
 
-```
+```java
 Method:public void getValue(){}
 getName() returns: getValue
 *Explanation*: The getName() function on object of above method returns name of method
@@ -29,7 +29,7 @@ getName() returns: paint
 
 **例 1:** 打印方法对象所有方法的名称。
 
-```
+```java
 /*
 * Program Demonstrate how to apply getName() method
 * of Method Class.
@@ -86,7 +86,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Name of the method: main
 Name of the method: getValue
 Name of the method: setValue
@@ -105,7 +105,7 @@ Name of the method: notifyAll
 
 **例 2:** 检查类是否包含某个特定方法的程序。
 
-```
+```java
 /*
 * Program Demonstrate how to apply getName() method
 * of Method Class within a class
@@ -165,7 +165,7 @@ class democlass {
 
 **Output:**
 
-```
+```java
 Class Object Contains Method whose name is method1
 
 ```

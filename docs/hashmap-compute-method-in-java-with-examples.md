@@ -21,7 +21,7 @@
 
 **语法:**
 
-```
+```java
 default V 
        compute(K key,
              BiFunction<? super K, ? super V, ? 
@@ -46,7 +46,7 @@ default V
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // compute(Key, BiFunction) method.
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map: {Address=Kolkata, Name=Aman}
 New Map: {Address=Kolkata West-Bengal, Name=Aman Singh}
 
@@ -88,7 +88,7 @@ New Map: {Address=Kolkata West-Bengal, Name=Aman Singh}
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // compute(Key, BiFunction) method.
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map: {Key2=15, Key1=12}
 New Map: {Key2=20, Key1=13}
 
@@ -135,7 +135,7 @@ New Map: {Key2=20, Key1=13}
 
 **程序 3:** 显示空指针异常
 
-```
+```java
 // Java program to demonstrate Exception thrown by
 // compute(Key, BiFunction) method.
 
@@ -173,7 +173,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map: {Key2=15, Key1=12}
 Exception: java.lang.NullPointerException
 

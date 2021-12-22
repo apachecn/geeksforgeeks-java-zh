@@ -15,7 +15,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Method Overloading
 
 // Main class
@@ -82,7 +82,7 @@ class GFG {
 
 **输出-**
 
-```
+```java
 Method to be overloaded.
 Overloaded method:: 1
 Overloaded method:: 2
@@ -102,7 +102,7 @@ Overloaded method:: 1
 
 考虑下面给出的例子。当我们试图调用“ *add(1，2)* ”方法时，编译器会感到困惑，因为没有这样的指令倾向于 int 而不是 double，反之亦然，结果，它会显示一个编译错误。
 
-```
+```java
 int add(int a, int b)
 double add(int a, int b)
 ```
@@ -111,7 +111,7 @@ double add(int a, int b)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Demo class
 class Demo {
     // Programmer defined "mymethod"
@@ -141,7 +141,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 prog.java:7: error: method myMethod(int,int) is already defined in class Demo
     public int myMethod(int num3, int num4)
                ^
@@ -152,7 +152,7 @@ prog.java:7: error: method myMethod(int,int) is already defined in class Demo
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate No Roleplay of Returntype
 // Even changed in Method Overloading
 
@@ -202,7 +202,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 prog.java:8: error: method add(int,int) is already defined in class GFG
   double add(int x,int y){
          ^

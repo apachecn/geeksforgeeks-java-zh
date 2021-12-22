@@ -6,7 +6,7 @@ java 中的 Java . util . arraydeque . removefirst occurrence(*Object*)方法用
 
 **语法:**
 
-```
+```java
 Array_Deque.removeFirstOccurrence(*Object O*)
 ```
 
@@ -18,7 +18,7 @@ Array_Deque.removeFirstOccurrence(*Object O*)
 
 **程序 1** :
 
-```
+```java
 // Java code to illustrate removeFirstOccurrence()
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [Welcome, To, Geeks, For, Geeks]
 ArrayDeque after removing elements: [Welcome, To, Geeks]
 
@@ -59,7 +59,7 @@ ArrayDeque after removing elements: [Welcome, To, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate removeFirstOccurrence()
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [10, 10, 30, 10, 30]
 ArrayDeque after removing elements: [10, 10, 10, 30]
 

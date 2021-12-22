@@ -14,7 +14,7 @@
 
 **实施:**
 
-```
+```java
 // Java code to check whether two strings
 // are Anagram or not using HashMap
 
@@ -106,7 +106,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Strings to be checked are:
 geeksforgeeks
 forgeeksgeeks

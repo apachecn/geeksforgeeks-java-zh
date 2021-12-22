@@ -29,13 +29,13 @@
 *   The class name should be **noun** . In the mixed case, the first letter of each internal word is capitalized. Interface names should also be capitalized like class names.
 *   When using whole words, acronyms and abbreviations must be avoided.
 
-```
+```java
 Classes: class Student { }
          class S=Integer {}
          class Scanner {}
 ```
 
-```
+```java
 Interfaces : Runnable
              Remote
              Seriazable 
@@ -45,7 +45,7 @@ Interfaces : Runnable
 
 *   Methods should be **verb** , a mixed case with the initial letter of **lowercase** , and the initial letter of each internal word is capitalized.
 
-```
+```java
 public static void main(String [] args)  {}
 ```
 
@@ -55,7 +55,7 @@ public static void main(String [] args)  {}
 
 变量名应该简短但有意义。
 
-```
+```java
 Variables can also start with either underscore('_') or dollar sign '{content}apos; characters.
 ```
 
@@ -63,7 +63,7 @@ Variables can also start with either underscore('_') or dollar sign '{content}ap
 *   **Except for temporary variables, the single-character variable name** should be avoided.
 *   Common names of temporary variables are I, J, K, M, and the integer is n; C, d and e of the characters.
 
-```
+```java
 int[] marks;
 double double answer,
 ```
@@ -75,7 +75,7 @@ double double answer,
 *   **should be capitalized** , and words should be separated by underscores ("_").
 *   There are various constants in predefined classes, such as Float, Long, String, etc.
 
-```
+```java
 num = PI;
 ```
 
@@ -84,7 +84,7 @@ num = PI;
 *   The unique package name prefix is always written in **all lowercase ASCII letters** , which should be one of the top-level domain names, such as com, edu, gov, mil, net and org.
 *   The subsequent components of the package name are different according to the organization's own internal naming convention.
 
-```
+```java
 java.util.Scanner ;
 java.io.*;
 ```

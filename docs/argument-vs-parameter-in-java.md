@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 public class Example {
 
     public static int multiply(int a, int b)
@@ -31,7 +31,7 @@ public class Example {
 
 **输出:**
 
-```
+```java
 SUM IS: 7
 
 ```

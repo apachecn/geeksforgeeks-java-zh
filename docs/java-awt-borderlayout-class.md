@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the BorderLayout
 import java.awt.*;
 import java.awt.event.*;
@@ -98,7 +98,7 @@ class MainFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the BorderLayout
 import java.awt.*;
 import java.awt.event.*;

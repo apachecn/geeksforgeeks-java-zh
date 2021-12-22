@@ -12,7 +12,7 @@ EnumMap 和 EnumSet 都是 java [集合](https://www.geeksforgeeks.org/collectio
 
 ## Java
 
-```
+```java
 // Java program to illustrate working of EnumMap
 
 import java.util.*;
@@ -52,7 +52,7 @@ class EnumMapExample {
 
 输出
 
-```
+```java
 Size of EnumMap: 4
 Apple 1
 Mango 2

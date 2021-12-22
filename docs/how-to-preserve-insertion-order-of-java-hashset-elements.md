@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : HashSetInput = {c, a, b}
 Output: HashSetPrint = {c, a, b}
 
@@ -18,7 +18,7 @@ Output: HashSetPrint = {"first", "second"}
 
 **语法:**
 
-```
+```java
 HashSet<String> num = new HashSet<String>();
 ```
 
@@ -32,7 +32,7 @@ HashSet<String> num = new HashSet<String>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Preserve insertion order of Java HashSet elements
 // Order not maintained because HashSet used
 import java.util.HashSet;
@@ -59,7 +59,7 @@ public class PreserveHashSetOrderExample {
 
 **Output**
 
-```
+```java
 1
 2
 4
@@ -70,7 +70,7 @@ public class PreserveHashSetOrderExample {
 
 **语法:**
 
-```
+```java
 HashSet<String> num = new LinkedHashSet<String>();
 ```
 
@@ -84,7 +84,7 @@ HashSet<String> num = new LinkedHashSet<String>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Preserve insertion order of Java HashSet elements
 // Using LinkedHashSet
 import java.util.LinkedHashSet;
@@ -112,7 +112,7 @@ public class PreserveHashSetOrderExample {
 
 **Output**
 
-```
+```java
 1
 13
 2

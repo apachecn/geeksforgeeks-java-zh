@@ -8,7 +8,7 @@
 
 **示例 1 :** 将整数哈希集转换为整数流。
 
-```
+```java
 // Java code for converting 
 // Set to Stream
 import java.util.*;
@@ -42,7 +42,7 @@ class GFG {
 
 **示例 2 :** 将字符串哈希集转换为流。
 
-```
+```java
 // Java code for converting 
 // Set to Stream
 import java.util.*;

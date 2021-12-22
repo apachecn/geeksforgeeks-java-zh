@@ -5,7 +5,7 @@
 **java . util . concurrent . linkedtransferqueue . take()**方法是 Java 中的内置函数，它检索并移除队列的第一个元素。此方法还会等待(如果需要)直到某个元素变得可用。
 **语法:**
 
-```
+```java
 LinkedTransferQueue.take()  
 
 ```
@@ -20,7 +20,7 @@ LinkedTransferQueue.take()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate take()
 // method of LinkedTransferQueue 
 
@@ -55,7 +55,7 @@ class LinkedTransferQueueTakeExample1 {
 
 **Output:**
 
-```
+```java
 Elements are :
 Alex
 Bob
@@ -68,7 +68,7 @@ Queue Size: 0
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate take()
 // method of LinkedTransferQueue 
 
@@ -99,7 +99,7 @@ class LinkedTransferQueueTakeExample2 {
 
 **Output:**
 
-```
+```java
 Elements are :
 1
 2

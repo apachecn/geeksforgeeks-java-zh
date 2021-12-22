@@ -17,7 +17,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout 
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -43,7 +43,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.example.android.customfonts;
 
     import androidx.appcompat.app.AppCompatActivity;
@@ -81,7 +81,7 @@
 
         ## MainActivity.java
 
-        ```
+        ```java
         package com.example.android.customfonts;
 
         import androidx.appcompat.app.AppCompatActivity;
@@ -128,7 +128,7 @@
 
         ## CalligraffittiRegular.java
 
-        ```
+        ```java
         package com.example.android.customfonts;
 
         import android.content.Context;
@@ -173,7 +173,7 @@
 
         ## activity _ main . XML
 
-        ```
+        ```java
         <?xml version="1.0" encoding="utf-8"?>
         <androidx.constraintlayout.widget.ConstraintLayout 
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -222,7 +222,7 @@
 
         ## activity _ main . XML
 
-        ```
+        ```java
         <?xml version="1.0" encoding="utf-8"?>
         <androidx.constraintlayout.widget.ConstraintLayout 
             xmlns:android="http://schemas.android.com/apk/res/android"

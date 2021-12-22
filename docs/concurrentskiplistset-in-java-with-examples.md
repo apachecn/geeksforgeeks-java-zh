@@ -12,7 +12,7 @@ Java 中的 **ConcurrentSkipListSet** 类是 [Java 集合框架](https://www.gee
 
 **申报:**
 
-```
+```java
 public class ConcurrentSkipListSet<E>
     extends AbstractSet<E>
         implements NavigableSet<E>, Cloneable, Serializable
@@ -51,7 +51,7 @@ Where E is the type of elements maintained by this collection
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ConcurrentSkipListSet
 
 import java.util.*;
@@ -109,7 +109,7 @@ class ConcurrentSkipListSetLastExample1 {
 
 **输出:**
 
-```
+```java
 ConcurrentSkipListSet: [8, 12, 45, 64, 78]
 ConcurrentSkipListSet1: [8, 12, 45, 64, 78]
 Fruits Set: Apple Banana Lemon 
@@ -119,7 +119,7 @@ Fruits Set: Apple Banana Lemon
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ConcurrentSkipListSet
 
 import java.util.concurrent.ConcurrentSkipListSet;
@@ -171,7 +171,7 @@ class ConcurrentSkipListSetLastExample1 {
 
 **输出:**
 
-```
+```java
 ConcurrentSkipListSet: [8, 12, 45, 64, 78]
 The highest element of the set: 78
 The first element of the set: 8

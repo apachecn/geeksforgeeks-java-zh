@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 drawLine(int x1, int y1, int x2, int y2)
 ```
 
@@ -23,7 +23,7 @@ drawLine(int x1, int y1, int x2, int y2)
 
 **示例:**
 
-```
+```java
 // Java program to draw a line in Applet
 
 import java.awt.*;

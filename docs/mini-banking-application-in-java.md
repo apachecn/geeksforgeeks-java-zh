@@ -27,7 +27,7 @@ Eclipse 是一个开发和调试(主要)Java 代码的 IDE(交互式开发环境
 
 **步骤 2:** 创建表名客户
 
-```
+```java
 // Create a database 
 CREATE DATABASE BANK; 
 
@@ -64,7 +64,7 @@ CREATE TABLE `customer` (
 
 **步骤 1:** 包含 MySQL 的 JDBC 驱动程序
 
-```
+```java
 // register jdbc Driver 
 String mysqlJDBCDriver = "com.mysql.cj.jdbc.Driver";
 Class.forName(mysqlJDBCDriver);
@@ -72,7 +72,7 @@ Class.forName(mysqlJDBCDriver);
 
 **步骤 2:** 使用 MySQL 用户名和密码创建连接类
 
-```
+```java
 // Create Connection
 String url = "jdbc:mysql://localhost:3306/mydata";
 String user = "root";
@@ -84,7 +84,7 @@ con = DriverManager.getConnection(url, user, pass);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package banking;
 
 import java.sql.Connection;
@@ -123,7 +123,7 @@ public class connection {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package banking;
 
 import java.io.BufferedReader;
@@ -363,7 +363,7 @@ public class bankManagement { // these class provides all
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package banking;
 
 import java.io.BufferedReader;
@@ -469,7 +469,7 @@ public class bank {
 
 **登录:**
 
-```
+```java
   ->||    Welcome to InBank    ||<- 
 
     1)Create Account
@@ -482,7 +482,7 @@ Enter  Password:123
 
 **查看余额:**
 
-```
+```java
 Enter  UserName:pritesh
 Enter  Password:123
 Hallo, pritesh
@@ -498,7 +498,7 @@ Enter Choice:2
 
 **转账**:
 
-```
+```java
 Hallo, pritesh
 1)Transfer Money
 2)View Balance
@@ -512,7 +512,7 @@ ERR :  Failed!
 
 **注销:**
 
-```
+```java
 Hallo, pritesh
 1)Transfer Money
 2)View Balance

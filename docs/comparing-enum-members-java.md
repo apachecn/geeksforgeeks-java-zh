@@ -20,7 +20,7 @@ equals 方法在内部使用==运算符来检查两个枚举是否相等。这�
 
 **为了更好的理解，我们来看看节目:**
 
-```
+```java
 // Java program to illustrate enum members comparison
 class EnumDemo {
     public enum Day { MON,
@@ -47,7 +47,7 @@ class EnumDemo {
 
 输出:
 
-```
+```java
 false
 Exception in thread "main" java.lang.NullPointerException
 
@@ -58,7 +58,7 @@ Exception in thread "main" java.lang.NullPointerException
 
 **另一个例子:**
 
-```
+```java
 // Java program to illustrate enum members comparison
 class EnumDemo {
     public enum Day { MON,
@@ -90,7 +90,7 @@ class EnumDemo {
 
 输出:
 
-```
+```java
 error: incomparable types: Month and Day
 
 ```

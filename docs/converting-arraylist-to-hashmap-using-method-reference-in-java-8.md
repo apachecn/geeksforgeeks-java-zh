@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Elements in ArrayList are : [Pen, Pencil, Book, Headphones]
 Elements in HashMap are :{Pen=3, Pencil=6, Book=4, Headphones=10}
 ```
@@ -27,7 +27,7 @@ Lambda 只不过是代码，如果已经有一个做同样事情的方法，那�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Converting ArrayList to
 // HashMap using method reference in Java 8
 
@@ -66,7 +66,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements in ArrayList are : [Banana, Guava, Pineapple, Apple]
 Elements in HashMap are : {Guava=5, Apple=5, Pineapple=9, Banana=6}
 

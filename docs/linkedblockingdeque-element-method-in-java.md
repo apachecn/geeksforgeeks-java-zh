@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void element()
 
 ```
@@ -21,7 +21,7 @@ public void element()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of LinkedBlockingDeque
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Linked Blocking Deque: [10, 20, 30, 40]
 Linked Blocking Deque front element: 10
 
@@ -64,7 +64,7 @@ Linked Blocking Deque front element: 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of LinkedBlockingDeque
 import java.util.concurrent.LinkedBlockingDeque;
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Linked Blocking Deque: [ab, cd, fg, xz]
 Linked Blocking Deque front element: ab
 

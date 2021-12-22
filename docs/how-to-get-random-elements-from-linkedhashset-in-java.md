@@ -17,7 +17,7 @@
 
 ## Java
 
-```
+```java
 // Java program to get the randome element
 // from LinkedHashSet
 
@@ -68,6 +68,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 Paneer Butter Masala
 ```

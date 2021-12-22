@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean addAll(Collection C)
 ```
 
@@ -20,7 +20,7 @@ boolean addAll(Collection C)
 
 **程序 1 :** 追加树导航集。
 
-```
+```java
 // Java code to illustrate addAll()
 import java.io.*;
 import java.util.*;
@@ -62,7 +62,7 @@ public class TreeNavigableSetDemo {
 
 **Output:**
 
-```
+```java
 NavigableSet: [4, Geeks, To, TreeNavigableSet, Welcome]
 NavigableSet: [4, Geeks, Hello, To, TreeNavigableSet, Welcome, World]
 
@@ -70,7 +70,7 @@ NavigableSet: [4, Geeks, Hello, To, TreeNavigableSet, Welcome, World]
 
 **程序 2 :** 追加数组列表。
 
-```
+```java
 // Java code to illustrate addAll()
 import java.io.*;
 import java.util.*;
@@ -110,7 +110,7 @@ public class NavigableSetDemo {
 
 **Output:**
 
-```
+```java
 Initial NavigableSet: [4, Geeks, NavigableSet, To, Welcome]
 Final NavigableSet: [4, A, Computer, Geeks, NavigableSet, Portal, To, Welcome]
 

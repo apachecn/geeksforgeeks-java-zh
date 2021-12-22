@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Array_Deque.remove()
     ```
 
@@ -20,7 +20,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java code to illustrate remove()
     import java.util.*;
 
@@ -53,7 +53,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Initial ArrayDeque: [Welcome, To, Geeks, For, Geeks]
     ArrayDeque after removing elements: [Geeks, For, Geeks]
 
@@ -61,7 +61,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java code to illustrate remove()
     import java.util.*;
 
@@ -94,7 +94,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Initial ArrayDeque: [10, 15, 30, 20, 5]
     ArrayDeque after removing elements: [30, 20, 5]
 
@@ -104,7 +104,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Priority_Queue.remove(*Object O*)
     ```
 
@@ -116,7 +116,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java code to illustrate remove()
     import java.util.*;
 
@@ -150,7 +150,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Initial ArrayDeque: [Welcome, To, Geeks, For, Geeks]
     ArrayDeque after removing elements: [To, Geeks]
 
@@ -158,7 +158,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java code to illustrate remove()
     import java.util.*;
 
@@ -191,7 +191,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Initial ArrayDeque: [10, 15, 30, 20, 5]
     ArrayDeque after removing elements: [10, 15, 20]
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MinguoDate dateNow(Clock clock)
 ```
 
@@ -18,7 +18,7 @@ public MinguoDate dateNow(Clock clock)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // MinguoNow() method
 
@@ -69,14 +69,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate is: Minguo ROC 109-04-15
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // MinguoNow() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate is: Minguo ROC 109-02-08
 
 ```

@@ -8,12 +8,12 @@
 
 **申报:**
 
-```
+```java
 public class PriorityBlockingQueue<E> extends AbstractQueue<E> implements BlockingQueue<E>, Serializable
 // Here, E is the type of elements held in this collection
 ```
 
-```
+```java
 java.lang.Object
    java.util.AbstractCollection<E>
        java.util.AbstractQueue<E>
@@ -28,7 +28,7 @@ java.lang.Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement PriorityBlockingQueue API
 
 // Importing concurrent classes from

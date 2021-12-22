@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Object computeIfPresent(Object key,
                   BiFunction remappingFunction)
 ```
@@ -26,7 +26,7 @@ public Object computeIfPresent(Object key,
 
 **示例 1:** 此示例演示了密钥不在 hashmap 中的情况。
 
-```
+```java
 // Java program to demonstrate
 // computeIfPresent(Key, BiFunction) method.
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hashmap before operation :
  {geeks=3, Geeks=1, for=2}
 HashMap after operation :
@@ -71,7 +71,7 @@ HashMap after operation :
 
 **示例 2:** 本示例演示了密钥出现在散列表中的情况。
 
-```
+```java
 // Java program to demonstrate
 // computeIfPresent(Key, BiFunction) method.
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hashmap before operation :
  {geeks=3, Geeks=1, for=2}
 HashMap after operation :

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean add(E e)
 ```
 
@@ -25,7 +25,7 @@ public boolean add(E e)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue add() method
 import java.util.*;
@@ -54,14 +54,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractQueue contains : [10, 20, 30, 40, 50]
 
 ```
 
 **程序 2:** 程序为*非法状态异常*
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue add() method
 // IllegalStateException
@@ -96,14 +96,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 exception: java.lang.IllegalStateException: Queue full
 
 ```
 
 **程序 3:** 程序为*空指针异常*
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue add() method
 // NullPointerException
@@ -138,7 +138,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 exception: java.lang.NullPointerException
 
 ```

@@ -20,7 +20,7 @@ ObjLongConsumer 界面由以下两个功能组成:
 
 **语法:**
 
-```
+```java
 void accept(T t, long value)
 ```
 
@@ -35,7 +35,7 @@ void accept(T t, long value)
 
 **程序:**
 
-```
+```java
 // Java code to demonstrate
 // accept() method of ObjLongConsumer Interface
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 600000
 400000
 1000000

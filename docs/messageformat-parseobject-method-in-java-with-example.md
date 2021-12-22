@@ -5,7 +5,7 @@
 **java.text.MessageFormat** 类的 **parseObject()** 方法用于从 parseObject()方法中传递的解析位置开始解析字符串对象。
 **语法:**
 
-```
+```java
 public Object parseObject(String source,
                           ParsePosition pos)
 ```
@@ -22,7 +22,7 @@ public Object parseObject(String source,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // parseObject() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Parsed value are :
 10.456
 30.444

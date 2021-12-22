@@ -15,7 +15,7 @@ Java [反射 API](https://www.geeksforgeeks.org/reflection-in-java/#:~:text=Refl
 
 ****语法**:**
 
-```
+```java
 *Class.getDeclaredMethod(“method name”, parameterType)*
 ```
 
@@ -33,7 +33,7 @@ Java [反射 API](https://www.geeksforgeeks.org/reflection-in-java/#:~:text=Refl
 
 ****语法** :**
 
-```
+```java
 *Method.invoke(classObj, param1, param2…)*
 ```
 
@@ -45,7 +45,7 @@ Java [反射 API](https://www.geeksforgeeks.org/reflection-in-java/#:~:text=Refl
 
 ## **Java**
 
-```
+```java
 // Java program to invoke method with its name
 // using Reflection API
 
@@ -91,7 +91,7 @@ class GFG {
 
 ****输出**
 
-```
+```java
 Invoke method by Name in Java using Reflection!
 you invoked me with the message:hello
 
@@ -105,7 +105,7 @@ you invoked me with the message:hello
 
 ******语法** :****
 
-```
+```java
 ***Method[] methods = Class.getDeclaredMethods()*** 
 ```
 
@@ -113,7 +113,7 @@ you invoked me with the message:hello
 
 ****T5】JavaT7
 
-```
+```java
 // Java program of Finding a method by Name in a class
 // and invoking the same
 

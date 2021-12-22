@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ChronoField[] values()
 
 ```
@@ -18,7 +18,7 @@ public static ChronoField[] values()
 下面的程序说明了时间域值()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.values() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 NanoOfSecond
 NanoOfDay
 MicroOfSecond
@@ -81,7 +81,7 @@ OffsetSeconds
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.values() method
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ChronoField length:30
 
 ```

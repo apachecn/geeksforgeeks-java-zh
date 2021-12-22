@@ -9,49 +9,49 @@
 
 **1.getName() :** 返回该网络接口的名称。
 
-```
+```java
 Syntax : public String getName()
 ```
 
 **2 . getnetaddresses():**如果安全管理器允许，返回绑定到此网络接口的所有 Inetaddresses 的枚举。
 
-```
+```java
 Syntax :public Enumeration getInetAddresses()
 ```
 
 **3 . getinterfaceaddresses():**返回此接口上所有接口地址的列表。
 
-```
+```java
 Syntax :public List getInterfaceAddresses()
 ```
 
 **4 . getsubpixels():**返回此网络接口的所有子接口或虚拟接口的枚举。例如，eth0:2 是 eth0 的子接口。
 
-```
+```java
 Syntax :public Enumeration getSubInterfaces()
 ```
 
 **5.getParent() :** 如果是子接口，这个方法返回父接口。如果这不是子接口，此方法将返回 null。
 
-```
+```java
 Syntax :public NetworkInterface getParent()
 ```
 
 **6.getIndex() :** 返回系统分配给该网络接口的索引。索引可以用来代替长名称来指代设备上的任何接口。
 
-```
+```java
 Syntax :public int getIndex()
 ```
 
 **7.getDisplayName() :** 此方法以可读的字符串格式返回网络接口的名称。
 
-```
+```java
 Syntax :public String getDisplayName()
 ```
 
 **8.getByName() :** 查找并返回指定名称的网络接口，如果不存在则返回 null。
 
-```
+```java
 Syntax :public static NetworkInterface getByName(String name)
                                   throws SocketException
 Parameters :
@@ -62,7 +62,7 @@ SocketException : if I/O error occurs.
 
 **9.getByIndex() :** 执行与前一个函数类似的功能，使用 Index 作为搜索参数，而不是名称。
 
-```
+```java
 Syntax :public static NetworkInterface getByIndex(int index)
                                   throws SocketException
 Parameters :
@@ -73,7 +73,7 @@ SocketException : if I/O error occurs.
 
 **10.getByInetAddress() :** 此方法被广泛使用，因为它返回指定 InetAddress 绑定到的网络接口。如果一个 InetAddress 绑定到多个接口，任何一个接口都可能被返回。
 
-```
+```java
 Syntax : public static NetworkInterface getByInetAddress(InetAddress addr)
                                          throws SocketException
 Parameters : 
@@ -84,7 +84,7 @@ SocketException : If IO error occurs
 
 **11 . getnetworkinterfaces():**返回系统上所有的网络接口。
 
-```
+```java
 Syntax :public static Enumeration getNetworkInterfaces()
                                                           throws SocketException
 Throws :
@@ -93,49 +93,49 @@ SocketException : If IO error occurs
 
 **12.isUp() :** 返回一个布尔值，指示此网络接口是否已启动并正在运行。
 
-```
+```java
 Syntax : public boolean isUp()
 ```
 
 **13.isLoopback() :** 返回一个布尔值，指示该接口是否为环回接口。
 
-```
+```java
  Syntax : public boolean isLoopback()
 ```
 
 **14.isPointToPoint() :** 返回一个布尔值，指示该接口是否为点对点接口。
 
-```
+```java
 Syntax : public boolean isPointToPoint()
 ```
 
 **15.supportsMulticast() :** 返回一个布尔值，指示此接口是否支持多播。
 
-```
+```java
 Syntax : public boolean supportsMulticast()
 ```
 
 **16.getHardwareAddress() :** 返回一个包含此接口的硬件地址(MAC)地址的字节数组。调用此方法之前，调用方必须具有适当的权限。
 
-```
+```java
 public byte[] getHardwareAddress()
 ```
 
 **17.getMTU() :** 返回该接口的最大传输单位。MTU 是基于数据包的网络中可以发送的最大数据包或帧。
 
-```
+```java
 Syntax :public int getMTU()
 ```
 
 **18.isVirtual() :** 返回一个布尔值，指示该接口是否为虚拟接口。虚拟接口与物理接口结合使用，以提供额外的值，如地址和 MTU。
 
-```
+```java
 Syntax : public boolean isVirtual()
 ```
 
 **19.equals() :** 此方法用于比较两个网络接口是否相等。如果两个网络接口绑定了相同的名称和地址，则它们是相等的。
 
-```
+```java
 Syntax :public boolean equals(Object obj)
 Parameters : 
 obj : Object to compare this network interface for equality
@@ -143,13 +143,13 @@ obj : Object to compare this network interface for equality
 
 **20.hashCode() :** 返回该对象的 hashCode 值。
 
-```
+```java
 Syntax :public int hashCode()
 ```
 
 **21.toString() :** 返回此对象的文本描述。
 
-```
+```java
 Syntax :public String toString()
 ```
 
@@ -157,7 +157,7 @@ Syntax :public String toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to illustrate various
 //networkInterface class methods.
 import java.net.InetAddress;
@@ -274,7 +274,7 @@ public class NetworkInterfaceEx
 
 **输出:**
 
-```
+```java
 Information about present Network Interfaces...
 
 Interface Name: lo

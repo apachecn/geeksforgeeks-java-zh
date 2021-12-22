@@ -6,7 +6,7 @@
 
 我们创建了一个静态 int 类型的变量，并把它放在一个带有增量操作符的静态变量中，这样它在构造函数中就增加了 1。
 
-```
+```java
 // Java program Find Out the Number of Objects Created
 // of a Class
 class Test {
@@ -46,7 +46,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 3
 
 ```

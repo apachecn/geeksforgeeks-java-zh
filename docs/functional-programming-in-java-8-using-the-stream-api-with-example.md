@@ -24,7 +24,7 @@ Java 流处理三个操作，如下所述
 
 **语法:**
 
-```
+```java
 ArrayList<Integer> numbers = new ArrayList<>();
 Integer[] numbers = {1,2,3};
 ```
@@ -33,7 +33,7 @@ Integer[] numbers = {1,2,3};
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program showcasing data source
 // using an object as a data source
 
@@ -69,24 +69,24 @@ class GFG {
 
 **示例 2:** 使用数组作为数据源
 
-```
+```java
 // Data Source
 Integer[] numbers = {1,2,3,4,5};
 ```
 
-```
+```java
 // Stream using an array
 Stream<Integer> streamOfNumbers = Arrays.stream(numbers);
 ```
 
-```
+```java
 // using predefined Instream interface
 integerStream = IntStream.range(1,100); // a stream from 1 to 99;
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program showcasing data source
 // using an array as a data source
 
@@ -122,7 +122,7 @@ class GFG {
 }
 ```
 
-```
+```java
 24
 ```
 
@@ -132,7 +132,7 @@ class GFG {
 
 > **注:**可以是任意数
 
-```
+```java
 filter()
 ```
 
@@ -140,7 +140,7 @@ filter()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -169,11 +169,11 @@ class GFG {
 
 一些终端操作可以用来迭代流的元素。
 
-```
+```java
 min(),max(),count()
 ```
 
-```
+```java
 forEach(),noneMatch()
 ```
 
@@ -181,7 +181,7 @@ forEach(),noneMatch()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing input output classes
 import java.io.*;
 // Importing all classes from
@@ -216,7 +216,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 4
 ```
 
@@ -224,7 +224,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing all classes from java.util package
 import java.io.*;
 import java.util.*;
@@ -261,7 +261,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 76
 80
 ```

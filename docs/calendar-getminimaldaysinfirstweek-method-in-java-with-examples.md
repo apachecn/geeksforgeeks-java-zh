@@ -5,7 +5,7 @@
 Calendar 类中的**getminimaldaysinfirst week()**方法用于返回所需年份第一周所需的最小天数。
 **语法:**
 
-```
+```java
 public int getMinimalDaysInFirstWeek()
 ```
 
@@ -16,7 +16,7 @@ public int getMinimalDaysInFirstWeek()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // getMinimalDaysInFirstWeek() method
 
@@ -44,7 +44,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The Minimal days required: 1
 ```
 
@@ -52,7 +52,7 @@ The Minimal days required: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // getMinimalDaysInFirstWeek() method
 
@@ -79,7 +79,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The Minimal days required: 1
 ```
 

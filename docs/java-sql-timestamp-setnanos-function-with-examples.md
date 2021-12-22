@@ -5,13 +5,13 @@
 **setNanos()** 函数是 Java SQL 的 Timestamp 类的一部分。该函数用于设置时间戳对象第二个值的小数部分。该函数将对象的纳米值设置为给定值。
 **功能签名:**
 
-```
+```java
 public void setNanos(int t)
 ```
 
 **语法:**
 
-```
+```java
 ts1.setNanos(l);
 ```
 
@@ -23,7 +23,7 @@ ts1.setNanos(l);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // use of setNanos() function
 
@@ -63,7 +63,7 @@ public class solution {
 
 **Output:** 
 
-```
+```java
 Timestamp time : 1970-01-01 00:00:10.0
 New Timestamp time : 1970-01-01 00:00:10.001
 ```

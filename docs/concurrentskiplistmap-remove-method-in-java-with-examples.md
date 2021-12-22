@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListMap.remove(Object ob)
 
 ```
@@ -17,7 +17,7 @@ ConcurrentSkipListMap.remove(Object ob)
 
 下面的程序说明了上面的方法:
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of ConcurrentSkipListMap
 
@@ -45,14 +45,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 After remove(): {2=2, 3=3, 4=4, 5=5}
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of ConcurrentSkipListMap
 
@@ -80,7 +80,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 After remove(): {1=1, 2=2, 3=3, 4=4}
 
 ```

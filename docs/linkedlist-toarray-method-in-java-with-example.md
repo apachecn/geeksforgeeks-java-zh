@@ -10,7 +10,7 @@
 
 **语法**
 
-```
+```java
 public Object[] toArray()
 ```
 
@@ -22,7 +22,7 @@ public Object[] toArray()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate toArray()
 // method of LinkedList
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LinkedList: [7855642, 35658786, 5278367, 74381793]
 Returned Array: [7855642, 35658786, 5278367, 74381793]
 
@@ -66,7 +66,7 @@ Returned Array: [7855642, 35658786, 5278367, 74381793]
 Java 中**链接表类**的 **toArray(arr[])** 方法用于形成与链接表相同元素的数组。它以正确的顺序返回一个包含这个链表中所有元素的数组**；**返回数组的运行时类型是指定数组的运行时类型。如果链接列表适合指定的数组，它将在其中返回。否则，将使用指定数组的运行时类型和此链接列表的大小来分配新数组。
 如果链接列表适合指定的数组，并且有空间可供使用(即数组中的元素比链接列表多)，则紧接在链接列表末尾的数组中的元素被设置为空。(只有当调用方知道链接列表不包含任何空元素时，这在确定链接列表的长度时才有用。)
 
-```
+```java
 public <T> T[] toArray(T[] a)
 ```
 
@@ -83,7 +83,7 @@ public <T> T[] toArray(T[] a)
 
 **程序 1:** 当数组有链表那么大时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -120,7 +120,7 @@ public class LinkedListDemo {
 
 **Output:**
 
-```
+```java
 The LinkedList: [Welcome, To, Geeks, For, Geeks]
 Returned Array: [Welcome, To, Geeks, For, Geeks]
 

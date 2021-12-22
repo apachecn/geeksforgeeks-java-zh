@@ -16,7 +16,7 @@ Java **HashMap** 是映射接口的一个实现，它将一个值映射到一个
 
 **语法:**
 
-```
+```java
 Hash_Map.containsValue(*Object Value*)
 ```
 
@@ -35,7 +35,7 @@ Hash_Map.containsValue(*Object Value*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to check if a particular
 // value exists in a HashMap
 
@@ -86,7 +86,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 false
 ```
 
@@ -105,7 +105,7 @@ false
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // java program to check if a particular
 // value exists in HashMap
 
@@ -160,7 +160,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 true
 ```** 
 
@@ -180,7 +180,7 @@ true
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // java program to check if a particular
 // key exists in a HashMap
 
@@ -241,6 +241,6 @@ class GFG {
 
 ****Output**
 
-```
+```java
 false
 ```**

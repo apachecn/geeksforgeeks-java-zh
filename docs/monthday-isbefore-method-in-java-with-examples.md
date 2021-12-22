@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isBefore(MonthDay other)
 
 ```
@@ -18,7 +18,7 @@ public boolean isBefore(MonthDay other)
 以下程序说明了 isBefore()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.isBefore() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 monthday:--10-12 is before monthday:--11-12 = true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.isBefore() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 monthday:--10-12 is before monthday:--09-12 = false
 
 ```

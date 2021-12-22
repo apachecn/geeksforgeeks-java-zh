@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean endsWith(String suff)      
 ```
 
@@ -33,7 +33,7 @@ public boolean endsWith(String suff)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate use of Regular Expression
 // as substitute of endsWith() method
 
@@ -74,7 +74,7 @@ public class Geek {
 
 **Output**
 
-```
+```java
 Check whether string ends with Welcome using endsWith : true
 Check whether string ends with Welcome using Regex: true
 ```
@@ -85,7 +85,7 @@ Check whether string ends with Welcome using Regex: true
 
 **语法:**
 
-```
+```java
 public boolean matches(String regex);
 ```
 
@@ -97,7 +97,7 @@ public boolean matches(String regex);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate use of Matches
 // as substitute of endsWith() method
 
@@ -132,7 +132,7 @@ public class Geek {
 
 **Output**
 
-```
+```java
 Check whether string starts with Welcome using endsWith : true
 Check whether string starts with Welcome using Matches: true
 ```

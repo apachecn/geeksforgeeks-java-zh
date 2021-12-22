@@ -19,7 +19,7 @@ Java 是一种面向对象编程语言。我们需要创建对象来访问类内
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program Illustrating Calling Static Data Members
 // Without the Instance or object of that class
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 5
 I am static method
 ```

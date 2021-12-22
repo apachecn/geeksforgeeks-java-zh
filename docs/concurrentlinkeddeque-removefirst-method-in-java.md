@@ -6,7 +6,7 @@ concurrentlinkeDeque . removefirst()是 Java 中的内置函数，它从 deque �
 
 **语法:**
 
-```
+```java
 Conn_Linked_Deque.removeFirst()
 ```
 
@@ -20,7 +20,7 @@ Conn_Linked_Deque.removeFirst()
 
 **程序 1:** 该程序涉及带有*整数*元素的德格。
 
-```
+```java
 // Java Program to demonstrate removeFirst() 
 // method of ConcurrentLinkedDeque   
 
@@ -57,7 +57,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Elements inthe LinkedDeque: [475, 1009, 70, 12]
 Element removed : 475
 Elements inthe LinkedDeque: [1009, 70, 12]
@@ -66,7 +66,7 @@ Elements inthe LinkedDeque: [1009, 70, 12]
 
 **节目 2:** 这个节目涉及到带有*弦*元素的德格。
 
-```
+```java
 // Java Program Demonstrate removeFirst() 
 // method of ConcurrentLinkedDeque   
 
@@ -103,7 +103,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Elements inthe LinkedDeque: [Geeks, GeeksforGeeks, Gfg, GFG]
 Element removed : Geeks
 Elements inthe LinkedDeque: [GeeksforGeeks, Gfg, GFG]

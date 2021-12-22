@@ -22,7 +22,7 @@
 
 *   Person.java
 
-```
+```java
 public class Person {
 
    private String name;
@@ -51,7 +51,7 @@ public class Person {
 
 *   Criteria.java
 
-```
+```java
 import java.util.List;
 
 public interface Criteria {
@@ -63,7 +63,7 @@ public interface Criteria {
 
 *   策略名称. java
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -85,7 +85,7 @@ public class CriteriaMale implements Criteria {
 
 *   CriteriaFemale.java
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -107,7 +107,7 @@ public class CriteriaFemale implements Criteria {
 
 *   CriteriaSingle.java
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -129,7 +129,7 @@ public class CriteriaSingle implements Criteria {
 
 *   AndCriteria.java
 
-```
+```java
 import java.util.List;
 
 public class AndCriteria implements Criteria {
@@ -153,7 +153,7 @@ public class AndCriteria implements Criteria {
 
 *   半兽人. java
 
-```
+```java
 import java.util.List;
 
 public class OrCriteria implements Criteria {
@@ -187,7 +187,7 @@ public class OrCriteria implements Criteria {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing ArrayList and List class 
 // from java.util package 
 import java.util.ArrayList;
@@ -248,7 +248,7 @@ public class CriteriaPatternDemo {
 
 **步骤 5:** 验证输出。
 
-```
+```java
 Males: 
 Person : [ Name : Robert, Gender : Male, Marital Status : Single ]
 Person : [ Name : John, Gender : Male, Marital Status : Married ]

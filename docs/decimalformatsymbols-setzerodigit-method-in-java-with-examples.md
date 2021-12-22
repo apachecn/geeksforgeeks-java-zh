@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setZeroDigit(char zeroDigit)
 
 ```
@@ -19,7 +19,7 @@ public void setZeroDigit(char zeroDigit)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -50,7 +50,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current Character used for zero: 0
 Updated Character used for zero: *
 

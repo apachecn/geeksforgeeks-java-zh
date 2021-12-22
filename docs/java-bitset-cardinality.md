@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 public int cardinality()
 ```
 
@@ -16,7 +16,7 @@ public int cardinality()
 
 **示例:**
 
-```
+```java
 Input : 
 set1 : {1, 2, 4}
 set2 : {}
@@ -28,7 +28,7 @@ Output :
 
 ## Java
 
-```
+```java
 // Java program illustrating Bitset Class functions.
 import java.util.*;
 public class GFG {
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6}
 bs3 : {}

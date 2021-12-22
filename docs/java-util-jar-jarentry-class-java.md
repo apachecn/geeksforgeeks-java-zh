@@ -13,7 +13,7 @@
 
 *   **属性 getAttributes() :** 返回此条目的清单属性，如果没有，则返回空值。
 
-    ```
+    ```java
     Syntax :public Attributes getAttributes()
                              throws IOException
     Returns: the Manifest Attributes for this entry, or null if none
@@ -21,14 +21,14 @@
 
 *   **证书[]获取证书():**返回该条目的证书对象，如果没有，则返回空值。
 
-    ```
+    ```java
     Syntax :public Certificate[] getCertificates()
     Returns: the Certificate objects for this entry, or null if none.
     ```
 
 *   **代码设计者[] getCodeSigners() :** 返回此项的代码设计者对象，如果没有，则返回 null。
 
-    ```
+    ```java
     Syntax :public CodeSigner[] getCodeSigners()
     Returns:
     the CodeSigner objects for this entry, or null if none.
@@ -40,7 +40,7 @@
 注意:由于无法读取文件
 **程序 1:** ，程序不会在在线 IDE 上运行
 
-```
+```java
 //Java program demonstrating JarEntry method
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -71,7 +71,7 @@ class JarEntryDemo
 
 **程序 2:**
 
-```
+```java
 //Java program demonstrating JarEntry method
 package java.util.jar;
 

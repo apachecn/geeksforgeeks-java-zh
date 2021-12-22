@@ -6,7 +6,7 @@ java.lang.Math.sqrt()返回作为参数传递给它的 double 类型值的平方
 
 **语法**:
 
-```
+```java
 public static double sqrt(double a)
 Parameter :
 a : the value whose square root is to be returned.
@@ -18,7 +18,7 @@ the argument passed to it.
 
 **例 1** :展示 **java.lang.Math.sqrt()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.sqrt() method
 import java.lang.Math;
@@ -49,7 +49,7 @@ class Gfg {
 
 输出:
 
-```
+```java
 5.477225575051661
 6.708203932499369
 7.745966692414834
@@ -59,7 +59,7 @@ class Gfg {
 
 **例 2** :展示参数为 NaN 或+infinity 时 **java.lang.Math.sqrt()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.sqrt() method
 import java.lang.Math; // importing java.lang package
@@ -92,7 +92,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 NaN
 Infinity
 NaN

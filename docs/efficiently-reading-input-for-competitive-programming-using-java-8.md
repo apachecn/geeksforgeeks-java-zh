@@ -20,7 +20,7 @@ java.util.Scanner 类提供了从控制台读取原始数据和文本行的内�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Reading Input
 // Using Scanner class
 
@@ -63,7 +63,7 @@ class GFG {
 
 从上面的 Linux shell 输出我们可以得出结论，输入给出如下:
 
-```
+```java
 4
 5.6
 1 2 3 4 5
@@ -71,7 +71,7 @@ class GFG {
 
 生成的输出如下:
 
-```
+```java
 Integer value: 4
 Float value: 5.6
 [1, 2, 3, 4, 5]
@@ -85,7 +85,7 @@ java.io.BufferedReader class does 类不提供任何读取原语数据输入的�
 
 **输入:**
 
-```
+```java
 4
 5.6
 1 2 3 4 5
@@ -95,7 +95,7 @@ java.io.BufferedReader class does 类不提供任何读取原语数据输入的�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Reading Input
 // Using
 
@@ -142,7 +142,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Integer value: 4
 Float value: 5.6
 [1, 2, 3, 4, 5]
@@ -156,7 +156,7 @@ Float value: 5.6
 
 **输入:**
 
-```
+```java
 34 55 78 43 78 43 22
 94 67 96 32 79 6 33
 ```
@@ -165,7 +165,7 @@ Float value: 5.6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Read Separated Data
 // Using BufferedReader class voa enhanced for loopd
 
@@ -213,7 +213,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [34, 55, 78, 43, 78, 43, 22]
 [94, 67, 96, 32, 79, 6, 33]
 ```

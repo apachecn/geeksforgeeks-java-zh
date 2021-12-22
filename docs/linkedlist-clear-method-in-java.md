@@ -6,7 +6,7 @@ Java.util.LinkedList.clear()方法用于从链表中移除所有元素。使用 
 
 **语法:**
 
-```
+```java
 void clear()
 
 ```
@@ -17,7 +17,7 @@ void clear()
 
 下面的程序说明了 Java.util.LinkedList.clear()方法:
 
-```
+```java
 // Java code to illustrate boolean clear()
 import java.io.*;
 import java.util.LinkedList;
@@ -58,7 +58,7 @@ public class LinkedListDemo {
 
 输出:
 
-```
+```java
 Original LinkedList:[Geeks, for, Geeks, 10, 20]
 List after clearing all elements: []
 After adding elements to empty list:[Geeks, for, Geeks]

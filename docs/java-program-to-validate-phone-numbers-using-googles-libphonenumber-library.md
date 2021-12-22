@@ -60,7 +60,7 @@ libphonenumber 是一个来自谷歌的开源库，用于格式化、解析和�
 
 ## 可扩展标记语言
 
-```
+```java
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -84,7 +84,7 @@ libphonenumber 是一个来自谷歌的开源库，用于格式化、解析和�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
@@ -153,7 +153,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Type: MOBILE
 +91 94483 76473 is valid.
 Type: TOLL_FREE

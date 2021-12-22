@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -20,7 +20,7 @@ public String toString()
 下面的程序说明了 toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.toString() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 0=123
 1=130
 2=994
@@ -73,7 +73,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.toString() method
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 001AB = Emp 1
 011AC = Emp 2
 111AD = Emp 3

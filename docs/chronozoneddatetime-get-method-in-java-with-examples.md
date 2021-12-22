@@ -6,7 +6,7 @@ Java 中**时区数据时间**接口的 **get()** 方法用于获取作为输入
 
 **语法:**
 
-```
+```java
 default int get(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ default int get(TemporalField field)
 下面的程序说明了 get()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.get() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 123000000
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.get() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 123
 
 ```

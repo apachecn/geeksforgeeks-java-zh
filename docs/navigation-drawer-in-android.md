@@ -40,7 +40,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```java
 **<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -67,7 +67,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```java
 **<?xml version="1.0" encoding="utf-8"?>
 
 <!--the root view must be the DrawerLayout-->
@@ -119,7 +119,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```java
 **<resources>
     <string name="app_name">Navigation Drawer</string>
 
@@ -137,7 +137,7 @@
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;

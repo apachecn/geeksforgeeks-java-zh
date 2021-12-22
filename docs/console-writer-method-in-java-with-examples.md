@@ -6,7 +6,7 @@ Java 中**控制台**类的 **writer()** 方法用于检索与控制台关联的
 
 **语法:**
 
-```
+```java
 public PrintWriter writer()
 
 ```
@@ -23,7 +23,7 @@ public PrintWriter writer()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Console writer() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Console writer() method
 

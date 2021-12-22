@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **withSecond()** 方法用于获取该 LocalDa
 
 **语法:**
 
-```
+```java
 public LocalDateTime withSecond(int seconds)
 ```
 
@@ -20,7 +20,7 @@ public LocalDateTime withSecond(int seconds)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withSecond() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2018-11-30T10:39:52.924
 New LocalDateTime: 2018-11-30T10:39:00.924
 
@@ -53,7 +53,7 @@ New LocalDateTime: 2018-11-30T10:39:00.924
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withSecond() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2015-04-06T10:15:30
 New LocalDateTime: 2015-04-06T10:15:59
 

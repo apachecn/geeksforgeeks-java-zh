@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static JapaneseDate now(Clock clock)
 
 ```
@@ -21,7 +21,7 @@ public static JapaneseDate now(Clock clock)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate now() method
 
 import java.util.*;
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 JapaneseDate: Japanese Heisei 32-03-23
 
 ```
@@ -67,7 +67,7 @@ JapaneseDate: Japanese Heisei 32-03-23
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate now() method
 
 import java.util.*;
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 JapaneseDate: Japanese Heisei 32-03-23
 
 ```

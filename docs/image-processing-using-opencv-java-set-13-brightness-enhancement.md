@@ -10,7 +10,7 @@
 1.  **convertTo(目的地，rtype，alpha，beta)** :此方法驻留在 OpenCv 的 Mat 包中。
     **语法:**
 
-    ```
+    ```java
     sourceImage.convertTo(destination, rtype, alpha, beta);
     parameters:
     destination: is the destination image
@@ -23,7 +23,7 @@
 2.  **imread()**–该方法用于将图像读取为由 OpenCV 渲染的 Mat 对象。
     **语法:**
 
-```
+```java
 Imgcodecs.imread(filename);
 parameters:
 filename: filename of the image file.If the image is 
@@ -34,7 +34,7 @@ in another directory whole path of image must be mentioned.
 *   **imwrite()** – This method is used to write Mat objects to image file.
     **Syntax:**
 
-    ```
+    ```java
     Imgcodecs.imwrite(filename, mat_img);
     parameters:
     filename: filename of the image file.If the image is 
@@ -43,7 +43,7 @@ in another directory whole path of image must be mentioned.
 
     ```
 
-    ```
+    ```java
     package ocv;
 
     import org.opencv.core.Core;

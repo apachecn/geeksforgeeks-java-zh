@@ -5,7 +5,7 @@
 Java 中 **CharArrayWriter** 类的 **writeTo(Writer)** 方法用于将 CharArrayWriter 的内容写入另一个字符流。
 **语法:**
 
-```
+```java
 public void writeTo(Writer out)
              throws IOException
 
@@ -19,7 +19,7 @@ public void writeTo(Writer out)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // CharArrayWriter writeTo(Writer) method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
@@ -62,7 +62,7 @@ GEEKS
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // CharArrayWriter writeTo(Writer) method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKSFORGEEKS
 
 ```

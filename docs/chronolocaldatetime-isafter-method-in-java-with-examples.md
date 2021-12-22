@@ -6,7 +6,7 @@ Java 中**计时本地日期时间接口**的 **isAfter()** 方法用于检查�
 
 **语法:**
 
-```
+```java
 default boolean isAfter(ChronoLocalDateTime otherDate)
 ```
 
@@ -18,7 +18,7 @@ default boolean isAfter(ChronoLocalDateTime otherDate)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -50,7 +50,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03T12:45:30
 2016-12-04T12:45:30
 true
@@ -59,7 +59,7 @@ true
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -91,7 +91,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03T12:45:30
 2019-12-04T12:45:30
 false

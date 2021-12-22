@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Instant 
     parse(CharSequence text)
 ```
@@ -21,7 +21,7 @@ public static Instant
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.parse() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2018-11-30T18:35:24Z
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.parse() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2019-10-01T08:25:24Z
 
 ```

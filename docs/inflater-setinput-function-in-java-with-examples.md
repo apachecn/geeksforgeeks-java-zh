@@ -6,7 +6,7 @@
 
 **功能签名:**
 
-```
+```java
 public void setInput(byte[] b)
 public void setInput(byte[] b, int offset, int len)
 
@@ -14,7 +14,7 @@ public void setInput(byte[] b, int offset, int len)
 
 **语法:**
 
-```
+```java
 i.setInput(byte[]);
 i.setInput(byte[], int, int);
 
@@ -32,7 +32,7 @@ i.setInput(byte[], int, int);
 
 **示例 1:**setInput(字节[] b)函数的使用
 
-```
+```java
 // Java program to describe the use
 // of setInput(byte[] b) function
 
@@ -104,7 +104,7 @@ class GFG {
 
 **示例 2:**setInput(byte[]b，int offset，int len)函数的使用
 
-```
+```java
 // Java program to describe the use
 // of setInput(byte[] b, int offset, int len) function
 

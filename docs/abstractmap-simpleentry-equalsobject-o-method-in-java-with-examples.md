@@ -8,7 +8,7 @@
 
 两个条目 e1 和 e2 表示相同的映射 if
 
-```
+```java
  (e1.getKey()==null ?
     e2.getKey()==null :
     e1.getKey().equals(e2.getKey()))
@@ -20,7 +20,7 @@
 
 **语法:**
 
-```
+```java
 public V equals(Object o)
 
 ```
@@ -32,7 +32,7 @@ public V equals(Object o)
 下面的程序说明了 equals(Object o)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.equals() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map 1 is equal to Map2 -> true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.equals() method
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map 1 is equal to Map2 -> false
 
 ```

@@ -23,7 +23,7 @@ POIFS(不良混淆实现文件系统)-该组件是所有其他 POI 元素的基�
 
 **依赖关系:**
 
-```
+```java
 poi.ooxml
 ```
 
@@ -31,7 +31,7 @@ poi.ooxml
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Creating Hyperlink on a slide in a PPT using Java
 
 import java.io.File;

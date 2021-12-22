@@ -16,7 +16,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -45,7 +45,7 @@
 
 > **注:**要求 API 等级 11。
 
-```
+```java
 datePicker.getDatePicker().setMaxDate(calendar.getTimeInMillis());
 ```
 
@@ -53,7 +53,7 @@ datePicker.getDatePicker().setMaxDate(calendar.getTimeInMillis());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.DatePickerDialog;
 import android.os.Build;
 import android.os.Bundle;
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
 同样，用 **getDatePicker()** 从 datepickerlog 获取日期选择器。使用**设置日期()**:**T5 将最小日期设置为当前日期**
 
-```
+```java
 datePicker.getDatePicker().setMinDate(calendar.getTimeInMillis());
 ```
 
@@ -123,7 +123,7 @@ datePicker.getDatePicker().setMinDate(calendar.getTimeInMillis());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.DatePickerDialog;
 import android.os.Build;
 import android.os.Bundle;

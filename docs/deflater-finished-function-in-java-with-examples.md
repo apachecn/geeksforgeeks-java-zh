@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public boolean finished()
 
 ```
 
 **语法:**
 
-```
+```java
 d.finished();
 
 ```
@@ -26,7 +26,7 @@ d.finished();
 
 **示例 1:** 演示成品()功能的使用
 
-```
+```java
 // Java program to demonstrate
 // the use of finished() function
 
@@ -86,7 +86,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 end of compressed data output stream reached :false
 Compressed String :x?sOM?.N?/r???q??
  Size 21

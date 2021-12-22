@@ -32,7 +32,7 @@
 
 RHEL 5 支持增加了 RHEL 6 支持增加了 RHEL 7 支持增加了 RHEL 8 支持增加了结束对 OpenJDK 版本的支持如下:
 
-```
+```java
 OpenJDK  6 (1.6) 5.3 6.0 7.0 N/A December 2016
 OpenJDK  7 (1.7) 5.9 6.3 7.0 N/A June 2020
 OpenJDK  8 (1.8) N/A 6.6 7.1 8.0 May 2026

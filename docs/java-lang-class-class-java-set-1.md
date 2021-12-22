@@ -12,7 +12,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
 1.  ****Class.forName(“className”) :** Since class Class doesn’t contain any constructor, there is static **factory** method present in class Class, which is *Class.forName()* , used for creating object of class Class. Below is the syntax :
 
-    ```
+    ```java
     Class c = Class.forName(String className)
 
     ```
@@ -20,14 +20,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     上面的语句为作为字符串参数(类名)传递的类创建了类对象。请注意，参数类名必须是要为其创建类对象的所需类的完全限定名。java 中返回相同类对象的任何类中的方法也称为工厂方法。要为其创建类对象的类名在运行时确定。** 
 2.  ****Myclass.class :** When we write .class after a class name, it references the Class object that represents the given class. It is mostly used with primitive data types and only when we know the name of class. The class name for which Class object is to be created is determined at compile-time. Below is the syntax :
 
-    ```
+    ```java
     Class c = int.class
 
     ```
 
     请注意，此方法与类名一起使用，而不是与类实例一起使用。例如
 
-    ```
+    ```java
     A a = new A();   // Any class A
     Class c = A.class; // No error
     Class c = a.class; // Error 
@@ -35,7 +35,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 3.  ****obj.getClass() :** 这个方法出现在 [Object](https://www.geeksforgeeks.org/object-class-in-java/) 类中。它返回这个(obj)对象的运行时类。下面是语法:
 
-    ```
+    ```java
     A a = new A();   // Any class A
     Class c = a.getClass();
 
@@ -45,7 +45,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
 1.  ****String toString()** : This method converts the Class object to a string. It returns the string representation which is the string “class” or “interface”, followed by a space, and then by the fully qualified name of the class. If the Class object represents a primitive type, then this method returns the name of the primitive type and if it represents *void* then it returns “void”.
 
-    ```
+    ```java
     Syntax : 
     public String toString()
     Parameters : 
@@ -57,7 +57,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate toString() method
     public class Test
     {
@@ -90,7 +90,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Class represented by c1: class java.lang.String
     Class represented by c2: int
     Class represented by c3: void
@@ -98,7 +98,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 2.  ****Class<?> forName(String className)** : As discussed earlier, this method returns the Class object associated with the class or interface with the given string name. The other variant of this method is discussed next.
 
-    ```
+    ```java
     Syntax : 
     public static Class<?> forName(String className) throws ClassNotFoundException
     Parameters : 
@@ -112,7 +112,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate forName() method
     public class Test
     {
@@ -131,7 +131,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Class represented by c : class java.lang.String
 
     ```** 
@@ -139,7 +139,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     指定的类加载器用于加载类或接口。如果参数加载器为空，则通过中的引导类加载器加载该类。只有当 initialize 参数为 true 并且该类之前没有初始化过时，该类才会初始化。
 
-    ```
+    ```java
     Syntax : 
     public static Class<?> forName(String className,boolean initialize, ClassLoader loader) 
     throws ClassNotFoundException
@@ -156,7 +156,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate forName() method
     public class Test
     {
@@ -180,13 +180,13 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Class represented by c : class java.lang.String
 
     ```** 
 4.  ****T newInstance()** : This method creates a new instance of the class represented by this Class object. The class is created as if by a *new* expression with an empty argument list. The class is initialized if it has not already been initialized.
 
-    ```
+    ```java
     Syntax : 
     public T newInstance() throws InstantiationException,IllegalAccessException
     TypeParameters : 
@@ -206,7 +206,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate newInstance() method
     public class Test
     {
@@ -229,13 +229,13 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Class of obj : class Test
 
     ```** 
 5.  ****boolean isInstance(Object obj)** : This method determines if the specified Object is assignment-compatible with the object represented by this Class. It is equivalent to [instanceof](https://www.geeksforgeeks.org/java-instanceof-and-its-applications/) operator in java.
 
-    ```
+    ```java
     Syntax : 
     public boolean isInstance(Object obj)
     Parameters : 
@@ -245,7 +245,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isInstance() method
     public class Test
     {
@@ -273,14 +273,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     is s instance of String : true
     is i instance of String : false
 
     ```** 
 6.  ****boolean isAssignableFrom(Class<?> cls)** : This method determines if the class or interface represented by this Class object is either the same as, or is a superclass or superinterface, of the class or interface represented by the specified Class parameter.
 
-    ```
+    ```java
     Syntax : 
     public boolean isAssignableFrom(Class<?> cls)
     Parameters : 
@@ -292,7 +292,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isAssignableFrom() method
     public class Test extends Thread
     {
@@ -325,14 +325,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     is Thread class Assignable from Test : true
     is String class Assignable from Test : false
 
     ```** 
 7.  ****boolean isInterface()** : This method determines if the specified Class object represents an [interface](https://www.geeksforgeeks.org/interfaces-in-java/) type.
 
-    ```
+    ```java
     Syntax : 
     public boolean isInterface()
     Parameters : 
@@ -342,7 +342,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isInterface() method
     public class Test
     {
@@ -370,14 +370,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     is java.lang.String an interface : false
     is java.lang.Runnable an interface : true
 
     ```** 
 8.  ****boolean isPrimitive()** : This method determines if the specified Class object represents a primitive type.
 
-    ```
+    ```java
     Syntax : 
     public boolean isPrimitive() 
     Parameters : 
@@ -387,7 +387,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isPrimitive method
     public class Test
     {
@@ -415,14 +415,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     is int primitive : true
     is class Test primitive : false
 
     ```** 
 9.  ****boolean isArray()** : This method determines if the specified Class object represents an array class.
 
-    ```
+    ```java
     Syntax : 
     public boolean isArray() 
     Parameters : 
@@ -432,7 +432,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isArray method
     public class Test
     {
@@ -463,14 +463,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     is class [I an array : true
     is class Test an array : false
 
     ```** 
 10.  ****boolean is onymous class()**:当且仅当这个类是匿名类时，这个方法返回 true。匿名类类似于本地类，只是它们没有名称。
 
-    ```
+    ```java
     Syntax : 
     public boolean isAnonymousClass() 
     Parameters : 
@@ -482,7 +482,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 11.  ****布尔 isLocalClass()** :当且仅当此类是本地类时，此方法返回 true。本地类是在 Java 代码块中本地声明的类，而不是作为类的成员。
 
-    ```
+    ```java
     Syntax : 
     public boolean isLocalClass()
     Parameters : 
@@ -494,7 +494,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 12.  ****boolean isMemberClass()** : This method returns true if and only if the this class is a Member class.A member class is a class that is declared as a non-static member of a containing class.
 
-    ```
+    ```java
     Syntax : 
     public boolean isMemberClass() 
     Parameters : 
@@ -507,7 +507,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     下面是解释 isAnonymousClass()方法、isLocalClass 方法和 isMemberClass()方法的使用的 Java 程序。
 
-    ```
+    ```java
     // Java program to demonstrate isAnonymousClass() ,isLocalClass 
     // and isMemberClass() method
 
@@ -554,7 +554,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     is class Test$1 an anonymous class : true
     is class Test a local class : false
     is class Test$A a member class : true
@@ -562,7 +562,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 13.  ****boolean isEnum()** : This method returns true if and only if this class was declared as an enum in the source code.
 
-    ```
+    ```java
     Syntax : 
     public boolean isEnum() 
     Parameters : 
@@ -573,7 +573,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isEnum() method
 
     enum Color
@@ -604,14 +604,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     is class Color an Enum class : true
     is class Test an Enum class : false
 
     ```** 
 14.  ****boolean isAnnotation()** : This method determines if this Class object represents an annotation type. Note that if this method returns true, isInterface() method will also return true, as all annotation types are also interfaces.
 
-    ```
+    ```java
     Syntax : 
     public boolean isAnnotation() 
     Parameters : 
@@ -621,7 +621,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isAnnotation() method
 
     // declaring an Annotation Type
@@ -655,14 +655,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     is interface A an annotation  : true
     is class Test an annotation : false
 
     ```** 
 15.  ****String getName()** : This method returns the name of the entity (class, interface, array class, primitive type, or void) represented by this Class object, as a String.
 
-    ```
+    ```java
     Syntax : 
     public String getName()
     Parameters : 
@@ -673,7 +673,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getName() method
     public class Test
     {
@@ -693,7 +693,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Class Name associated with c : Test
 
     ```** 
@@ -701,7 +701,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     数组的简单名称是附加了“]”的组件类型的简单名称。特别是组件类型为匿名的数组的简单名称是“[]”。
 
-    ```
+    ```java
     Syntax : 
     public String getSimpleName()
     Parameters : 
@@ -711,7 +711,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getSimpleName() method
     public class Test
     {
@@ -739,7 +739,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Class Name associated with c : java.lang.String
     Simple class Name associated with c : String
 
@@ -747,7 +747,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 17.  ****ClassLoader getClassLoader()** : This method returns the class loader for this class. If the class loader is bootstrap classloader then this method returned null, as bootstrap classloader is implemented in native languages like C, C++.
     If this object represents a primitive type or void,then also null is returned.
 
-    ```
+    ```java
     Syntax : 
     public ClassLoader getClassLoader()
     Parameters : 
@@ -761,7 +761,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getClassLoader() method
     public class Test
     {
@@ -803,7 +803,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Test class loader : sun.misc.Launcher$AppClassLoader@73d16e93
     String class loader : null
     primitive int loader : null
@@ -811,7 +811,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 18.  ****TypeVariable<Class<T>>[ ] getTypeParameters()** : This method returns an array of [TypeVariable](https://docs.oracle.com/javase/7/docs/api/java/lang/reflect/TypeVariable.html) objects that represent the type variables declared by the generic declaration represented by this [GenericDeclaration](https://docs.oracle.com/javase/7/docs/api/java/lang/reflect/GenericDeclaration.html) object, in declaration order
 
-    ```
+    ```java
     Syntax : 
     public TypeVariable<Class<T>>[] getTypeParameters()
     Specified by:
@@ -827,7 +827,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getTypeParameters() method
 
     import java.lang.reflect.TypeVariable;
@@ -859,7 +859,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     TypeVariables in java.util.Set class : 
     E
 
@@ -868,7 +868,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     If this Class represents either the Object class, an interface, a primitive type, or void, then null is returned.
     If this object represents an array class then the Class object representing the Object class is returned.
 
-    ```
+    ```java
     Syntax : 
     public Class<? super T> getSuperclass() 
     Parameters : 
@@ -878,7 +878,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getSuperclass() method
 
     // base class
@@ -937,7 +937,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Test superclass : class java.lang.Object
     A superclass : class java.lang.Object
     B superclass : class A
@@ -948,7 +948,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     如果此类表示对象类、接口、基元类型或 void，则返回 null。如果此对象表示数组类，则返回表示对象类的类对象。
 
-    ```
+    ```java
     Syntax : 
     public Type getGenericSuperclass()
     Parameters : 
@@ -965,7 +965,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate 
     // getGenericSuperclass() method
     public class Test
@@ -1006,7 +1006,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Test superclass : class java.lang.Object
     Set superclass : java.util.AbstractList<E>
     Object superclass : null
@@ -1017,7 +1017,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     如果此对象表示不实现接口的类或接口，则方法返回长度为 0 的数组。
     如果这个对象表示一个基元类型或者 void，那么这个方法返回一个长度为 0 的数组。
 
-    ```
+    ```java
     Syntax : 
     public Class<?>[] getInterfaces()
     Parameters : 
@@ -1027,7 +1027,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getInterfaces() method
 
     // base interface
@@ -1083,7 +1083,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     interfaces implemented by B class : 
     interface A
     interfaces implemented by String class : 
@@ -1097,7 +1097,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     如果此对象表示不实现接口的类或接口，则方法返回长度为 0 的数组。
     如果这个对象表示一个基元类型或者 void，那么这个方法返回一个长度为 0 的数组。
 
-    ```
+    ```java
     Syntax : 
     public Type[] getGenericInterfaces()
     Parameters : 
@@ -1114,7 +1114,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getGenericInterfaces() method
 
     import java.lang.reflect.Type;
@@ -1146,14 +1146,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     interfaces implemented by Set interface : 
     java.util.Collection<E>
 
     ```** 
 23.  ****Package getPackage()** : This method returns the package for this class. The classloader subsystem in [JVM Architecture](https://www.geeksforgeeks.org/jvm-works-jvm-architecture/) used this method to find the package of a class or interface.
 
-    ```
+    ```java
     Syntax : 
     public Package getPackage()
     Parameters : 
@@ -1165,7 +1165,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getPackage() method
     public class Test
     {
@@ -1190,14 +1190,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     package java.lang, Java Platform API Specification, version 1.8
     package java.util, Java Platform API Specification, version 1.8
 
     ```** 
 24.  ****Field[] getFields()** : This method returns an array of Field objects reflecting all the accessible public fields of the class(and of all its superclasses) or interface(and of all its superclasses) represented by this Class object.
 
-    ```
+    ```java
     Syntax : 
     public Field[] getFields()  throws SecurityException
     Parameters : 
@@ -1211,7 +1211,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getFields() method
 
     import java.lang.reflect.Field;
@@ -1242,7 +1242,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Below are the fields of Integer class :
     public static final int java.lang.Integer.MIN_VALUE
     public static final int java.lang.Integer.MAX_VALUE
@@ -1256,7 +1256,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     如果此类对象没有公共成员类或接口，则此方法返回长度为 0 的数组。
     如果这个 Class 对象表示一个基元类型、一个数组类或 void，那么这个方法也返回一个长度为 0 的数组。
 
-    ```
+    ```java
     Syntax : 
     Class<?>[ ] getClasses()
     Parameters : 
@@ -1268,7 +1268,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getClasses() method
 
     public class Test
@@ -1311,7 +1311,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     public members of Test class : 
     interface Test$A
     class Test$B
@@ -1319,7 +1319,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 26.  ****Method[] getMethods()** : This method returns an array of Method objects reflecting all the accessible public methods of the class or interface and those inherited from superclasses and super interfaces represented by this Class object.
 
-    ```
+    ```java
     Syntax : 
     public Method[] getMethods() throws SecurityException
     Parameters : 
@@ -1333,7 +1333,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getMethods() method
 
     import java.lang.reflect.Method;
@@ -1364,7 +1364,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Below are the methods of Object class : 
     public final void java.lang.Object.wait() throws java.lang.InterruptedException
     public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
@@ -1379,7 +1379,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 27.  ****Constructor<?>[] getConstructors()** : This method returns an array of Constructor objects reflecting all the public constructors of the class represented by this Class object.
 
-    ```
+    ```java
     Syntax : 
     public Constructor<?>[] getConstructors() throws SecurityException
     Parameters : 
@@ -1393,7 +1393,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getConstructors() method
 
     import java.lang.reflect.Constructor;
@@ -1424,7 +1424,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     Below are the constructors of Boolean class :
     public java.lang.Boolean(boolean)
     public java.lang.Boolean(java.lang.String)
@@ -1432,7 +1432,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 28.  ****Field getField(String fieldName)** : This method returns a Field object that reflects the specified public member field of the class or interface represented by this Class object.
 
-    ```
+    ```java
     Syntax : 
     public Field getField(String fieldName) throws NoSuchFieldException,SecurityException
     Parameters : 
@@ -1446,7 +1446,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getField() method
 
     import java.lang.reflect.Field;
@@ -1473,14 +1473,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     public field in Integer class with MIN_VALUE name :
     public static final int java.lang.Integer.MIN_VALUE
 
     ```** 
 29.  ****Method getMethod(String methodName,Class… parameterTypes)** : This method returns a Method object that reflects the specified public member method of the class or interface represented by this Class object.
 
-    ```
+    ```java
     Syntax : 
     public Method getMethod(String methodName,Class... parameterTypes) throws 
     NoSuchFieldException,SecurityException
@@ -1496,7 +1496,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getMethod() method
 
     import java.lang.reflect.Method;
@@ -1524,7 +1524,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     public method in Integer class specified by parseInt : 
     public static int java.lang.Integer.parseInt(java.lang.String) 
     throws java.lang.NumberFormatException
@@ -1532,7 +1532,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     ```** 
 30.  ****Constructor<?> getConstructor(Class<?>… parameterTypes)** : This method returns a Constructor object that reflects the specified public constructor of the class represented by this Class object.The parameterTypes parameter is an array of Class objects that identify the constructor’s formal parameter types, in declared order.
 
-    ```
+    ```java
     Syntax : 
     public Constructor<?> getConstructor(Class<?>... parameterTypes) 
     throws NoSuchMethodException,SecurityException
@@ -1546,7 +1546,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate 
     // getConstructor() Constructor
 
@@ -1576,7 +1576,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     public Constructor in Integer class with String parameterType : 
     public java.lang.Integer(java.lang.String) throws java.lang.NumberFormatException
 
@@ -1585,7 +1585,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
     **注:**方法 getFields()、getMethods()、getConstructors()、getField()、getMethod()、getConstructor()在 Reflection 中被广泛使用(参考[这篇](https://www.geeksforgeeks.org/reflection-in-java/)举例)** 
 31.  ****T cast(Object obj)** : This method is used to casts an object to the class or interface represented by this Class object.
 
-    ```
+    ```java
     Syntax : 
     public T cast(Object obj)
     TypeParameters : 
@@ -1599,7 +1599,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate cast() method
     class A
     {
@@ -1634,14 +1634,14 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     class A
     class B
 
     ```** 
 32.  ****<U> Class<? extends U> asSubclass(Class<U> clazz)** : This method is used to cast this Class object to represent a subclass of the class represented by the specified class object.It always returns a reference to this class object.
 
-    ```
+    ```java
     Syntax : 
     public <U> Class<? extends U> asSubclass(Class<U> class)
     TypeParameters : 
@@ -1657,7 +1657,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate asSubclass() method
     class A
     {
@@ -1696,7 +1696,7 @@ Java 在 java.lang 包中提供了一个名为 **Class** 的类。类的实例�
 
     输出:
 
-    ```
+    ```java
     class B
 
     ```

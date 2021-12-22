@@ -41,7 +41,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a simple bevel
 // border with specified type
 import java.awt.event.*;
@@ -99,7 +99,7 @@ class bevel extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to  apply bevel border with
 // specified colors to highlight and shadow
 import java.awt.event.*;
@@ -161,7 +161,7 @@ class bevel1 extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a simple Soft bevel border
 // with specified type
 import java.awt.event.*;
@@ -219,7 +219,7 @@ class bevel2 extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to  apply soft bevel border with
 // specified colors to highlight and shadow
 import java.awt.event.*;

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static <T 
   extends Object & Comparable<? super T>> T 
     min(Collection<? extends T> coll)
@@ -26,7 +26,7 @@ public static <T
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // min() method
 // for <Integer> Value
@@ -69,7 +69,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 List: [10, 20, 30, 40]
 Minimum value is: 10
 
@@ -77,7 +77,7 @@ Minimum value is: 10
 
 **例 2:** 演示*无故障元素异常*
 
-```
+```java
 // Java program to demonstrate
 // min() method for NoSuchElementException
 
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 List: []
 Trying to get the minimum value with empty list
 Exception thrown : java.util.NoSuchElementException
@@ -144,7 +144,7 @@ Exception thrown : java.util.NoSuchElementException
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // min() method
 // for Integer
@@ -187,7 +187,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 List: [10, 20, 30, 40]
 Min value by reverse order is: 40
 
@@ -195,7 +195,7 @@ Min value by reverse order is: 40
 
 **例 2:** 演示*无故障元素异常*
 
-```
+```java
 // Java program to demonstrate
 // min() method for NoSuchElementException
 
@@ -237,7 +237,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 List: []
 Trying to get the minimum value with empty list
 Exception thrown : java.util.NoSuchElementException

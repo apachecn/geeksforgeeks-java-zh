@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static double[] concat(double[]... arrays)
 
 ```
@@ -22,7 +22,7 @@ public static double[] concat(double[]... arrays)
 
 **实施例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Doubles.concat() method
 
@@ -50,14 +50,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [1.2, 2.3, 3.5, 4.4, 5.1, 6.2, 2.1, 7.2, 0.4, 8.7]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Doubles.concat() method
 
@@ -88,7 +88,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [1.2, 2.3, 3.4, 4.5, 5.6, 6.4, 7.6, 8.7, 9.7, 0.8]
 
 ```

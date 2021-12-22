@@ -6,7 +6,7 @@ Java 中 CopyOnWriteArrayList 类的 containsAll()方法用于检查此列表是
 
 **语法** :
 
-```
+```java
 boolean containsAll(Collection col)
 
 ```
@@ -21,7 +21,7 @@ boolean containsAll(Collection col)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate CopyOnWriteArrayList
 //  containsAll() method
 
@@ -82,7 +82,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList1: [geeks, shaan, gfg, programming]
 CopyOnWriteArrayList2: [geeks, gfg]
 All list2 elements are present in list1
@@ -93,7 +93,7 @@ All list3 elements are not present in list1
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate CopyOnWriteArrayList
 // containsAll() method
 
@@ -154,7 +154,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList1: [23, 65, 91, 126]
 CopyOnWriteArrayList2: [23, 126]
 All list2 elements are present in list1

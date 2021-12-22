@@ -6,7 +6,7 @@ Calendar 类中的**setTimeZone(Time _ Zone)**方法以时区值为参数，修�
 
 **语法:**
 
-```
+```java
 public void setTimeZone(TimeZone *time_zone*)
 ```
 
@@ -17,7 +17,7 @@ public void setTimeZone(TimeZone *time_zone*)
 以下程序说明了日历类 setTimeZone()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // setTime() method
 
@@ -53,7 +53,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Time Zone: Coordinated Universal Time
 Modified Zone: Greenwich Mean Time
 
@@ -61,7 +61,7 @@ Modified Zone: Greenwich Mean Time
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // setTimeZone() method
 
@@ -97,7 +97,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Time Zone: Coordinated Universal Time
 Modified Zone: Tahiti Time
 

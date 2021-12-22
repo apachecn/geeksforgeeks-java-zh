@@ -6,7 +6,7 @@ java.net.SocketPermisson 类表示您是否有权通过套接字访问网络。S
 
 **类申报:**
 
-```
+```java
 public final class SocketPermission
 extends Permission
 implements Serializable
@@ -45,7 +45,7 @@ implements Serializable
 
 ## Java
 
-```
+```java
 // Java Program to show the usage of
 // java.net.SocketPermission Class
 import java.io.IOException;
@@ -90,7 +90,7 @@ public class Socket {
 
 **输出**
 
-```
+```java
 connect,resolve
 -1204607085
 java.net.SocketPermissionCollection@30dae81 (

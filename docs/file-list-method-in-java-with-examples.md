@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public String[] list()
 public String[] list(FilenameFilter f)
 ```
 
 **函数语法:**
 
-```
+```java
 file.list()
 file.list(filter)
 ```
@@ -28,7 +28,7 @@ file.list(filter)
 
 **示例 1:** 我们将尝试查找给定目录
 
-```
+```java
 // Java program to demonstrate the
 // use of list() function
 
@@ -66,7 +66,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Files are:
 1232.txt
 1245.txt
@@ -77,7 +77,7 @@ program1
 
 **示例 2:** 我们将尝试查找给定目录中所有以“12”
 
-```
+```java
 // Java program to demonstrate the
 // use of list() function
 
@@ -123,7 +123,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Files are:
 1232.txt
 1245.txt

@@ -31,7 +31,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
@@ -57,7 +57,7 @@ ic_mic.xml
 
 ## 可扩展标记语言
 
-```
+```java
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
@@ -82,7 +82,7 @@ ic_copy.xml
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_focused="true">

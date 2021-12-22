@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toEpochDay()
 ```
 
@@ -20,7 +20,7 @@ public long toEpochDay()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toEpochDay() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 EpochDay : 18379
 
 ```
@@ -67,7 +67,7 @@ EpochDay : 18379
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toEpochDay() method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 EpochDay : 0
 
 ```

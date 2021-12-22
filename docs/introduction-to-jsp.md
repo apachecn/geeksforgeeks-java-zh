@@ -37,7 +37,7 @@
 
     1.  **声明标签**:-用于声明变量。
 
-        ```
+        ```java
         Syntax:- 
         <%!  Dec var  %>
         Example:-
@@ -47,7 +47,7 @@
 
     2.  **Java 脚本** :-它允许我们添加任意数量的 Java 代码、变量和表达式。
 
-        ```
+        ```java
          Syntax:- 
         <% java code %>
 
@@ -55,7 +55,7 @@
 
     3.  **JSP 表达式** :-它计算表达式并将其转换为字符串。
 
-        ```
+        ```java
          Syntax:- 
         <%= expression %> 
          Example:- 
@@ -65,7 +65,7 @@
 
     4.  **JAVA Comments** :- It contains the text that is added for information which has to be ignored.
 
-        ```
+        ```java
          Syntax:- 
         <% -- JSP Comments %>
 
@@ -87,7 +87,7 @@
         **Hello World 的例子**
         我们来做一个。html 文件和。jsp 文件
 
-        ```
+        ```java
         demo.jsp
         <html>
         <head>

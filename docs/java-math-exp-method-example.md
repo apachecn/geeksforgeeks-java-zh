@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static double exp(double a)
 Parameter : 
 a : the exponent part which raises to e. 
@@ -22,7 +22,7 @@ a : the exponent part which raises to e.
 
 **示例:**展示 java.lang.Math.exp()函数的工作原理
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.exp() method
 import java.lang.Math;
@@ -60,7 +60,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 20.085536923187668
 NaN
 Infinity

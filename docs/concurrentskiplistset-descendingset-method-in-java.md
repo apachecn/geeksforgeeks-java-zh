@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.descendingSet()
 ```
 
@@ -16,7 +16,7 @@ ConcurrentSkipListSet.descendingSet()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate descendingSet()
 // method of ConcurrentSkipListSet */
 import java.util.NavigableSet;
@@ -52,7 +52,7 @@ class ConcurrentSkipListSetIteratorExample1 {
 
 **输出:**
 
-```
+```java
 Contents of the set: [10, 20, 25, 35]
 Contents of the descending set: [35, 25, 20, 10]
 
@@ -60,7 +60,7 @@ Contents of the descending set: [35, 25, 20, 10]
 
 **程序 2:** 演示在下降集合中插入元素时原始集合发生变化的程序。
 
-```
+```java
 // Java Program Demonstrate descendingSet()
 // method of ConcurrentSkipListSet */
 import java.util.NavigableSet;
@@ -100,7 +100,7 @@ class ConcurrentSkipListSetIteratorExample2 {
 
 **输出:**
 
-```
+```java
 Contents of the set: [alex, bob, chuck, drake, eric, fred]
 Contents of the descending set: [fred, eric, drake, chuck, bob, alex]
 

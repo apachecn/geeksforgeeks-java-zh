@@ -29,7 +29,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Increment
 // and Decrement Operators
 // Can be Applied to Variables Only
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 11
 ```
 
@@ -60,7 +60,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Increment and Decrement
 // operators Can be applied to variables only
 
@@ -95,7 +95,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Nesting Can Not be Applied
 // to Increment and Decrement Operators
 
@@ -126,7 +126,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Increment and Decrement
 // Operators Can not be applied to final variables
 
@@ -159,7 +159,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Increment and Decrement
 // Operators Can not be applied boolean data type
 

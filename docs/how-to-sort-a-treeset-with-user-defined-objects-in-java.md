@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 public int compare(Object obj1, Object obj2):
 ```
 
@@ -27,7 +27,7 @@ public int compare(Object obj1, Object obj2):
 
 用于对列表元素进行排序的 Collections 类的方法用于根据给定的比较器对列表元素进行排序。
 
-```
+```java
 // To sort a given list. ComparatorClass must implement 
 // Comparator interface.
 
@@ -38,7 +38,7 @@ public void sort(List list, ComparatorClass c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Sort a TreeSet with
 // User Defined Objects
 
@@ -135,7 +135,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -------increasing Order with the Marks
 Daniel 134
 Ronaldo 341

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : str = " Hi, I am Hritik and I am a programmer. "
 Output: I am
 Explanation: We are printing duplicate words in the given Expression.
@@ -29,7 +29,7 @@ Explanation: There are no duplicate words present in the given Expression.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Find Duplicate Words in a Regular Expression in Java
 import java.util.*;
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 I
 am
 ```
@@ -99,7 +99,7 @@ am
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Find Duplicate Words in a Regular Expression in Java
 import java.util.*;
 
@@ -139,6 +139,6 @@ public class Main {
 
 **Output**
 
-```
+```java
 [I, am]
 ```

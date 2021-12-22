@@ -54,7 +54,7 @@ Proguard 是一个 java 工具，存在于安卓系统中，用来缩小你的�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -71,7 +71,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -88,7 +88,7 @@ import java.io.*;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -105,7 +105,7 @@ import java.io.*;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Duration parse(CharSequence text)
 
 ```
@@ -21,7 +21,7 @@ public static Duration parse(CharSequence text)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate parse() method
 
 import java.time.Duration;
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 183840
 
 ```
 
 **示例 2:** 演示日期时间例外
 
-```
+```java
 // Java code to illustrate parse() method
 
 import java.time.Duration;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception:
  java.time.format.DateTimeParseException:
  Text cannot be parsed to a Duration

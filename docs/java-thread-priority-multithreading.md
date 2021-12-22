@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Priorities in Multithreading
 // via help of getPriority() and setPriority() method
 
@@ -120,7 +120,7 @@ class ThreadDemo extends Thread {
 
 **Output**
 
-```
+```java
 t1 thread priority : 5
 t2 thread priority : 5
 t3 thread priority : 5
@@ -143,7 +143,7 @@ Main thread priority : 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that a Child thread
 // Getting Same Priority as Parent thread
 
@@ -196,7 +196,7 @@ class GFG extends Thread {
 
 **Output**
 
-```
+```java
 main thread priority : 6
 t1 thread priority : 6
 ```

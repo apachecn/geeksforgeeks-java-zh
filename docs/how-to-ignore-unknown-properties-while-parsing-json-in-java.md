@@ -19,7 +19,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program that demonstrates the use of
 // @JsonIgnoreProperties
 
@@ -107,7 +107,7 @@ class StudentMain {
 
 **输出:**
 
-```
+```java
 Input json string :
 {"name":"Krish","phone":"111-111-1111"}
 
@@ -125,7 +125,7 @@ Employee{name='Krish', id='2019071075', school='null', section='null', major='nu
 
 通过调用 ***配置()方法*** 来启用此设置，如下所示:
 
-```
+```java
 import com.fasterxml.jackson.databind.DeserializationFeature; 
 import com.fasterxml.jackson.databind.ObjectMapper; 
 
@@ -139,7 +139,7 @@ objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
 
 ## 爪哇
 
-```
+```java
 // Java Program that demonstrates the use of ObjectMapper
 // Configuration
 
@@ -222,7 +222,7 @@ class Student {
 
 **输出:**
 
-```
+```java
 Input json string
  {
    "name" : "Jack Ryan",

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.descendingIterator()
 ```
 
@@ -16,7 +16,7 @@ ConcurrentSkipListSet.descendingIterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate descendingIterator()
 // method of ConcurrentSkipListSet 
 
@@ -48,14 +48,14 @@ class ConcurrentSkipListSetIteratorExample1 {
 
 **输出:**
 
-```
+```java
 is fun!! Gfg
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate descendingIterator()
 // method of ConcurrentSkipListSet 
 
@@ -88,7 +88,7 @@ class ConcurrentSkipListSetIteratorExample1 {
 
 **输出:**
 
-```
+```java
 25 20 15 10
 
 ```

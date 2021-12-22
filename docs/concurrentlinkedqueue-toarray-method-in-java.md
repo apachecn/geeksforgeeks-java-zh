@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public Object[] toArray()
     ```
 
@@ -16,7 +16,7 @@
 
     **例 1:**
 
-    ```
+    ```java
     // Java Program Demonstrate toArray()
     // method of ConcurrentLinkedQueue
 
@@ -53,7 +53,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Queue Contains [2300, 1322, 8945, 6512]
     The array contains:
     2300    1322    8945    6512
@@ -62,7 +62,7 @@
 
     **例 2:**
 
-    ```
+    ```java
     // Java Program Demonstrate toArray()
     // method of ConcurrentLinkedQueue
 
@@ -96,7 +96,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The ConcurrentLinkedQueue: [Welcome, To, Jungle]
     The array is:
     Welcome
@@ -109,7 +109,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public <T> T[] toArray(T[] a)
     ```
 
@@ -126,7 +126,7 @@
 
     **例 1:**
 
-    ```
+    ```java
     // Java Program Demonstrate toArray()
     // method of ConcurrentLinkedQueue
 
@@ -174,7 +174,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Queue Contains [Welcome, To, Jungle]
 
     The array passed :
@@ -187,7 +187,7 @@
 
     **例 2:** 显示**数组异常**
 
-    ```
+    ```java
     // Java Program Demonstrate toArray()
     // method of ConcurrentLinkedQueue
 
@@ -224,14 +224,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Exception: java.lang.ArrayStoreException: java.lang.Integer
 
     ```
 
     **示例 2:** 显示**空指针异常**
 
-    ```
+    ```java
     // Java Program Demonstrate toArray()
     // method of ConcurrentLinkedQueue
 
@@ -267,7 +267,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Exception: java.lang.NullPointerException
 
     ```

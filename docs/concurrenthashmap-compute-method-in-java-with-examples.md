@@ -9,7 +9,7 @@
 *   During the calculation, the updating process of this mapping by other threads has been blocked, so the calculation must not try to update any other mappings of this mapping.
 *   For example, this mapping appends the mapped string value:
 
-    ```
+    ```java
     ConcurrentHashMap.compute(key, 
     (key, value) -> (value == null) ? msg : value.concat(msg))
 
@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```java
 public V 
        compute(K key,
                BiFunction<? super K, ? super V, 
@@ -41,7 +41,7 @@ public V
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // compute(Key, BiFunction) method.
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentHashMap: {Book3=400, Book1=10, Book2=500}
 New ConcurrentHashMap: {Book3=400, Book1=522, Book2=600}
 
@@ -88,7 +88,7 @@ New ConcurrentHashMap: {Book3=400, Book1=522, Book2=600}
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // compute(Key, BiFunction) method.
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentHashMap: {1=Kolkata, 2=Nadia, 3=Howrah}
 New ConcurrentHashMap: {1=Kolkata, 2=Nadia (West-Bengal), 3=Howrah (West-Bengal)}
 
@@ -135,7 +135,7 @@ New ConcurrentHashMap: {1=Kolkata, 2=Nadia (West-Bengal), 3=Howrah (West-Bengal)
 
 **程序 3:** 显示空指针异常
 
-```
+```java
 // Java program to demonstrate NullPointerException
 // for compute(Key, BiFunction) method.
 
@@ -172,7 +172,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

@@ -12,7 +12,7 @@ SynchronousQueue 是一个没有内部容量的特殊阻塞队列。它有助于
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 try
 {
   synchronousQueue.put("data or information goes here");
@@ -28,7 +28,7 @@ catch(InterruptedException iex)
 
 ## Java
 
-```
+```java
 try
 {
   // data type according to the data or information
@@ -51,7 +51,7 @@ catch(InterruptedException iex)
 
 T5】Java
 
-```
+```java
 // Java program to implement SynchronousQueue API.
 
 import java.util.concurrent.BlockingQueue;
@@ -168,7 +168,7 @@ public class SynchronousQAPI<E> {
 
 **输出**
 
-```
+```java
 1 added to synchronous queue.
 1 removed from synchronous queue.
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getParameterCount()
 
 ```
@@ -18,7 +18,7 @@ public int getParameterCount()
 下面的程序说明了 getParameterCount()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate getParameterCount() method
 
 import java.lang.reflect.Constructor;
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 No of Parameters: 3
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate getParameterCount() method
 
 import java.lang.reflect.Constructor;
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 public java.util.ArrayList(java.util.Collection)-> parameter count = 1
 public java.util.ArrayList()-> parameter count = 0
 public java.util.ArrayList(int)-> parameter count = 1

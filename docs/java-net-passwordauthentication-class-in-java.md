@@ -6,7 +6,7 @@ PasswordAuthentication 类是由 java.net 包提供的，用于实现网络应�
 
 **其构造函数的语法:**
 
-```
+```java
 PasswordAuthentication(String userName, char[] password)
 ```
 
@@ -39,7 +39,7 @@ PasswordAuthentication(String userName, char[] password)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the 
 // java.net.PasswordAuthentication
 // Class
@@ -90,7 +90,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 UserName: Geek
 Password: [C@4e50df2e
 Password: geekgorgeeks

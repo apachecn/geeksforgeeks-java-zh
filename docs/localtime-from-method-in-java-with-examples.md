@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static LocalTime from(TemporalAccessor temporal)
 
 ```
@@ -21,7 +21,7 @@ public static LocalTime from(TemporalAccessor temporal)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.from() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime value : 06:17:32.760
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.from() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime value : 06:17:35.131
 
 ```

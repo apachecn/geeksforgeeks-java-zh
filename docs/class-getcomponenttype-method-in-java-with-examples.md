@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Class getComponentType()
 
 ```
@@ -19,7 +19,7 @@ public Class getComponentType()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getComponentType() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 ComponentType of myClass: null
 
@@ -53,7 +53,7 @@ ComponentType of myClass: null
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getComponentType() method
 
 import java.util.*;
@@ -79,7 +79,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 ComponentType of myClass: int
 
 ```

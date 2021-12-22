@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void set(boolean newVal)
 
 ```
@@ -19,7 +19,7 @@ public final void set(boolean newVal)
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the set() function
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: false
 Current value: true
 
@@ -55,7 +55,7 @@ Current value: true
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the set() function
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: true
 Current value: false
 

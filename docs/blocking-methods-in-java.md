@@ -22,7 +22,7 @@ java 中的阻塞方法是阻塞线程直到其操作完成的一组特定方法
 
 ## Java
 
-```
+```java
 // Java Program to illsutare Blocking methods
 
 // Importing all input output classes
@@ -51,7 +51,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 GFG
 Geeks for Geeks
 ```
@@ -62,7 +62,7 @@ Geeks for Geeks
 
 ## 爪哇
 
-```
+```java
 // Java Program to illsutare Blocking methods
 
 // Importing all input output classes
@@ -155,7 +155,7 @@ class Person extends Thread {
 
 **输出**
 
-```
+```java
 PERSON-1 has finished his work
 PERSON-2 has finished his work
 PERSON-3 has finished his work

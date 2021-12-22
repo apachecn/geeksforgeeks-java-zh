@@ -25,7 +25,7 @@ GridBagLayout 类是一个灵活的布局管理器。它用于水平、垂直或
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate GridBagLayout class.
 import java.awt.*;
 import java.awt.event.*;
@@ -147,7 +147,7 @@ public class GridbagDemo extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate GridBagLayout class.
 import java.awt.*;
 import javax.swing.JButton;

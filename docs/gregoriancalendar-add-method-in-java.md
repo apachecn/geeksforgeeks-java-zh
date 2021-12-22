@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void add*(int calendarfield, int time)*
 ```
 
@@ -21,7 +21,7 @@ public void add*(int calendarfield, int time)*
 
 **示例:**
 
-```
+```java
 Current Date and Time : Mon Jul 23 12:46:05 UTC 2018
 
 Input : calendarfied = GregorianCalendar.YEAR, time = 2
@@ -35,7 +35,7 @@ Output : Sat Nov 23 12:46:45 UTC 2019
 下面的程序说明了 java 中 Java . util . gregoriancalendar . add()方法的使用:
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrate add() method
 
 import java.io.*;
@@ -64,7 +64,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Aug 03 11:48:38 UTC 2018
  Modified Date and Time : Wed Oct 03 11:48:38 UTC 2018
 
@@ -72,7 +72,7 @@ Current Date and Time : Fri Aug 03 11:48:38 UTC 2018
 
 **程序 2:**
 
-```
+```java
 // Java Program to demonstrate add() method
 import java.io.*;
 import java.util.*;
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Aug 03 11:48:40 UTC 2018
  Modified Date and Time : Tue Aug 03 11:48:40 UTC 2038
 
@@ -107,7 +107,7 @@ Current Date and Time : Fri Aug 03 11:48:40 UTC 2018
 
 **程序 3:**
 
-```
+```java
 // Java Program to illustrate
 // GregorianCalendar.add()
 // function 
@@ -143,7 +143,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Aug 03 11:48:43 UTC 2018
  Modified Date and Time : Mon Apr 03 11:48:43 UTC 2017
  Modified Date and Time : Sun Apr 03 11:48:43 UTC 2016

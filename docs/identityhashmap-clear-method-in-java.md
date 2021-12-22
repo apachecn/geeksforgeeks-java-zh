@@ -6,7 +6,7 @@ java 中的 Java . util . identity hashmap . clear()方法用于清除和移除�
 
 **语法:**
 
-```
+```java
 Identity_HashMap.clear()
 ```
 
@@ -18,7 +18,7 @@ Identity_HashMap.clear()
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class Identity_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 Final Map: {}
 
@@ -60,7 +60,7 @@ Final Map: {}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -93,7 +93,7 @@ public class Identity_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Geeks=20, Welcomes=25, You=30, 4=15}
 Final Map: {}
 

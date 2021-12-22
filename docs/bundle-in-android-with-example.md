@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // creating a intent
 Intent intent = new Intent(this, SecondActivity.class);
 
@@ -42,7 +42,7 @@ startActivity(intent);
 
 ## 我的锅
 
-```
+```java
 // creating the instance of the bundle
 val bundle = Bundle()
 
@@ -64,7 +64,7 @@ startActivity(intent)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // getting the bundle back from the android
 Bundle bundle = getIntent().getExtras();
 
@@ -74,7 +74,7 @@ String title = bundle.getString("key1", "Default");
 
 ## 我的锅
 
-```
+```java
 // getting the bundle back from the android
 val bundle = intent.extras
 
@@ -106,7 +106,7 @@ s = bundle!!.getString("key1", "Default"))
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -157,7 +157,7 @@ s = bundle!!.getString("key1", "Default"))
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -191,7 +191,7 @@ MainActivity 的完整代码如下。添加注释是为了方便理解代码。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -253,7 +253,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 ## 我的锅
 
-```
+```java
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -312,7 +312,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -339,7 +339,7 @@ public class SecondActivity extends AppCompatActivity {
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity

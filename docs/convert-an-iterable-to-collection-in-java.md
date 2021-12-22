@@ -12,7 +12,7 @@ Iterable 向 Collection 的转换可以通过以下方式进行:**
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Below is the program to convert an Iterable
 // into a Collection using for loop
 
@@ -49,7 +49,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 Iterable List : [1, 2, 3, 4]
 Collection List : [1, 2, 3, 4]
 ```** 
@@ -59,7 +59,7 @@ Collection List : [1, 2, 3, 4]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Below is the program to convert an Iterable
 // into a Collection using iterable.forEach
 
@@ -96,7 +96,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 Iterable List : [1, 2, 3, 4]
 Collection List : [1, 2, 3, 4]
 ```** 
@@ -105,7 +105,7 @@ Collection List : [1, 2, 3, 4]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Below is the program to convert an Iterable
 // into a Collection using Iterator
 
@@ -146,7 +146,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 Iterable List : [1, 2, 3, 4]
 Collection List : [1, 2, 3, 4]
 ```** 
@@ -155,7 +155,7 @@ Collection List : [1, 2, 3, 4]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Program to convert an Iterable
 // into a Collection
 
@@ -188,7 +188,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 Iterable List : [1, 2, 3, 4]
 Collection List : [1, 2, 3, 4]
 ```**

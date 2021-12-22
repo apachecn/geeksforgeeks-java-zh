@@ -6,7 +6,7 @@
 
 **例**
 
-```
+```java
 Input : ArrayList = {2, 9, 1, 3, 4}
 Output: Min = 1
 
@@ -25,7 +25,7 @@ Output: Min = 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Finding Minimum Element of Java ArrayList
 import java.util.ArrayList;
 import java.util.Collections;
@@ -60,7 +60,7 @@ class MinElementInArrayList {
 
 **Output**
 
-```
+```java
 Minimum element in ArrayList = 3
 ```
 
@@ -70,7 +70,7 @@ java 集合类的 min '方法可以用来查找 ArrayList。' min '方法根据�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Finding Minimum Element of Java ArrayList
 import java.util.ArrayList;
 import java.util.Collections;
@@ -102,6 +102,6 @@ class MinElementInArrayList {
 
 **Output**
 
-```
+```java
 Minimum Element in ArrayList = 3
 ```

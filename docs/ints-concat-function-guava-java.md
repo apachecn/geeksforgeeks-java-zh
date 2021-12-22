@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int[] concat(int[]... arrays)
 ```
 
@@ -16,7 +16,7 @@ public static int[] concat(int[]... arrays)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.concat() method
 
@@ -46,14 +46,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Combined Array: [1, 2, 3, 4, 5, 6, 2, 7, 0, 8]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.concat() method
 
@@ -85,7 +85,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Combined Array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
 ```

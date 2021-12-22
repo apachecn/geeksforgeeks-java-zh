@@ -14,7 +14,7 @@
 
 *   ***Determinant of 2 * 2 matrix:***
 
-```
+```java
 [4, 3]
 [2, 3]
 
@@ -25,7 +25,7 @@
 
 *   ***Determinant of 3 * 3 matrix:***
 
-```
+```java
 [1, 3, -2]
 [-1, 2, 1]
 [1, 0, -2]
@@ -46,7 +46,7 @@
 
 ## Java
 
-```
+```java
 // Java program to find
 // Determinant of a matrix
 class GFG {
@@ -140,7 +140,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Determinant of the matrix is : 6
 ```
 
@@ -150,7 +150,7 @@ Determinant of the matrix is : 6
 
 ## Java
 
-```
+```java
 // Java program to find Determinant of a matrix
 class GFG {
 
@@ -249,7 +249,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Determinant of the matrix is : 30
 ```
 

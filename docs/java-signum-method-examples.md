@@ -12,7 +12,7 @@ java.lang.Math.signum()返回作为参数传递给它的值的 Sign 函数。sig
 
 **语法**:
 
-```
+```java
 public static double signum(double d)
 Parameter :
 a : the value whose signum function is to be returned.
@@ -24,7 +24,7 @@ the argument passed to it.
 
 **例 1** :展示 **java.lang.Math.signum()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.signum() method
 import java.lang.Math;
@@ -51,7 +51,7 @@ class Gfg {
 
 输出:
 
-```
+```java
 1.0
 0
 -1.0
@@ -60,7 +60,7 @@ class Gfg {
 
 **例 2** :展示参数为 NaN 时 **java.lang.Math.signum()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.signum() method
 import java.lang.Math; // importing java.lang package
@@ -89,7 +89,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 NaN
 0.0
 0.0

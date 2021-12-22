@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int read(CharBuffer target)
 ```
 
@@ -24,7 +24,7 @@ public int read(CharBuffer target)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // read() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharBuffer Before operation is: [x, y, z]
 Target Charbuffer: [a, b, c, d, e]
 
@@ -106,7 +106,7 @@ no of value changed: 3
 
 **示例 2:** 为空指针异常
 
-```
+```java
 // Java program to demonstrate
 // read() method
 
@@ -158,7 +158,7 @@ public class GFG {
 
 T5】输出:
 
-```
+```java
 CharBuffer Before operation is: [x, y, z]
 
 target charbuffer is null
@@ -168,7 +168,7 @@ Exception throws: java.lang.NullPointerException
 
 **例 3:** 为 readonly buffer exception
 
-```
+```java
 // Java program to demonstrate
 // read() method
 
@@ -240,7 +240,7 @@ public class GFG {
 
 T5】输出:
 
-```
+```java
 CharBuffer Before operation is: [x, y, z]
 Target Charbuffer: [a, b, c, d, e]
 

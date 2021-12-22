@@ -10,7 +10,7 @@
 
 下面的程序说明了上述数据丢失的情况:
 
-```
+```java
 // Java program to illustrate loss of information
 // because of transient keyword.
 import java.io.*;
@@ -55,7 +55,7 @@ class CustomizedSerializationDemo {
 
 **输出**:
 
-```
+```java
 Username : gfg_admin    Password : geeks
 Username : gfg_admin    Password : null
 
@@ -72,7 +72,7 @@ Username : gfg_admin    Password : null
 
     **注意:**在执行对象序列化时，我们必须在那个类中定义上面两个方法。
 
-    ```
+    ```java
     // Java program to illustrate customized serialization
     import java.io.*;
 
@@ -144,7 +144,7 @@ Username : gfg_admin    Password : null
 
     **输出**:
 
-    ```
+    ```java
     Username :gfg_admin    Password :geeks
     Username :gfg_admin    Password :geeks
 

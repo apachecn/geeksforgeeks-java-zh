@@ -6,7 +6,7 @@ java.util.LinkedHashMap.clear()是 java 中 LinkedHashMap 类的一个内置方�
 
 **语法:**
 
-```
+```java
 Linked_Hash_Map.clear()
 ```
 
@@ -17,7 +17,7 @@ Linked_Hash_Map.clear()
 下面的程序说明了 java.util.LinkedHashMap.clear()方法:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Linked_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Finally the maps look like this: {}
 
@@ -57,7 +57,7 @@ Finally the maps look like this: {}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class Linked_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Geeks=20, 4=15, Welcomes=25, You=30}
 Finally the maps look like this: {}
 

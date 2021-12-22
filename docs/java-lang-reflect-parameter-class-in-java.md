@@ -41,7 +41,7 @@ java.lang.reflect.Parameter 类的所有方法如下:
 
 ## Java
 
-```
+```java
 // Java program to illustrate Parameter class of
 // java.lang.reflect package
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Method Name: subtract 
 parameters of subtract() methods: 
 long arg0 long arg1 

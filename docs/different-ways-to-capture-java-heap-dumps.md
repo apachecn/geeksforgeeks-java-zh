@@ -22,7 +22,7 @@ JDK 有几种工具可以用不同的方式捕捉垃圾场。所有这些工具�
 
 jmap 是一个工具，用来打印关于运行中的 JVM 内存的统计数据。我们可以将其用于本地或远程进程。要使用 jmap 捕获头转储，我们需要使用转储选项:
 
-```
+```java
  jmap -dump:[live],format=b,file=<file-path> <pid>
 ```
 
@@ -37,7 +37,7 @@ jmap 是一个工具，用来打印关于运行中的 JVM 内存的统计数据�
 
 **例**
 
-```
+```java
 jmap -dump:live,format=b,file=/tmp/dump.hprof 12587
 ```
 
@@ -45,13 +45,13 @@ jmap -dump:live,format=b,file=/tmp/dump.hprof 12587
 
 “jcmd”是一个非常完整的工具，它通过向 JVM 发送命令请求来工作。我们必须在运行 Java 进程的同一台机器上使用它。它的许多命令之一是 GC.heap-dump。我们可以通过指定进程的 pid 和输出文件路径来获得堆转储:
 
-```
+```java
  jcmd <pid> GC.head_dump <file-path>
 ```
 
 我们可以使用之前使用的相同参数来执行它:
 
-```
+```java
 jcmd 12587  GC.head_dump  /tmp/dump.hprof
 ```
 
@@ -71,19 +71,19 @@ JVisualVM 是一个带有图形用户界面的工具，允许我们监控、排�
 
 对于这些情况，Java 提供了 HeadDumpOnOutOfMemoryError 命令行选项，该选项在抛出 java.lang.OutOfMemoryError 时生成堆转储:
 
-```
+```java
 java -XX:+HeadDumpOnOutOfMemoryError
 ```
 
 默认情况下，它将转储存储在一个 **java_pid < pid >中。hprof** 文件在我们运行应用程序的目录中。如果我们想指定另一个文件或目录，我们可以在 HeadDumpPath 选项中设置它:
 
-```
+```java
 java -XX:+HeadDumpOnOutOfMemoryError -XX:HeapDumpPath=<file-or-dir-path>
 ```
 
 当我们的应用程序使用此选项耗尽内存时，我们将能够在日志中看到包含堆转储的已创建文件:
 
-```
+```java
 java.lang.OutOfMemoryError: Requested array size exceeds VM limit
 During heap to java_pid12587.hprof...
   Exception in thread "main" Head dump file created [4744371 bytes in 0.029 secs]
@@ -114,7 +114,7 @@ During heap to java_pid12587.hprof...
 
 使用 HotSpotDiagnostic MBean 的另一种方法是从 Java 代码中以编程方式调用它。为此，我们需要获取一个 MBeanServer 实例，以便获取在应用程序中注册的 MBean。之后，我们只需要获取一个 HotSpotDiagnosticMXBean 的实例，并将其称为 dumpHeap 方法。
 
-```
+```java
 public static void dumpHeap(String filePath, boolean live) throws IOException {
 MBeanServer server = ManagementFactory.getPlatformMBeanServer();
 HotSpotDiagnosticMXBean mxBean = ManagementFactory.newPlatformMXBeanProxy
@@ -127,7 +127,7 @@ mxBean.dumpHeap(filePath, live);
 
 请注意 **hprof** 文件不能被覆盖。因此，在创建打印堆转储的应用程序时，我们应该考虑这一点。如果我们做不到这一点，我们将得到一个例外:
 
-```
+```java
 Exception in thread "main" java.io.IOException: File exists 
 at sun.management.HotSpotDianostic.dumpHeap0(Native Method) at 
 sun.management.HotSpotDiagnostic.dumpHeap(HotSpotDiagnostic.java:60)

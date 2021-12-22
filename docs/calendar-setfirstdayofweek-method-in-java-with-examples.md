@@ -6,7 +6,7 @@ Calendar 类中的**setfirst dayofweek(int day _ val)**方法用于使用本 Cal
 
 **语法:**
 
-```
+```java
 public void set(int *day_val*)
 ```
 
@@ -17,7 +17,7 @@ public void set(int *day_val*)
 以下程序说明了日历类的 setFirstDayOfWeek()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // setFirstDayOfWeek() method
 
@@ -50,7 +50,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current First day of the week: 1
 The new first day of the week: 5
 
@@ -58,7 +58,7 @@ The new first day of the week: 5
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // setFirstDayOfWeek() method
 
@@ -91,7 +91,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The First day of the week: 1
 The new first day of the week: 2
 

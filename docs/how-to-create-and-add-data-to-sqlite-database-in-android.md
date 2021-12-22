@@ -63,7 +63,7 @@ SQLite 数据库是 Android 中提供的开源数据库，用于以文本文件�
 
 ## 可扩展标记语言
 
-```
+```java
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
 
@@ -73,7 +73,7 @@ SQLite 数据库是 Android 中提供的开源数据库，用于以文本文件�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,7 +133,7 @@ SQLite 数据库是 Android 中提供的开源数据库，用于以文本文件�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -233,7 +233,7 @@ public class DBHandler extends SQLiteOpenHelper {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

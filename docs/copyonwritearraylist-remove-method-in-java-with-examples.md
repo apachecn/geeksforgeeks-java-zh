@@ -6,7 +6,7 @@ Java 中**copy onarraylist**的 **remove()** 方法用于移除列表中的元�
 
 **语法:**
 
-```
+```java
 1\. public E remove(int index)
 2\. public boolean remove(Object o)
 
@@ -18,7 +18,7 @@ Java 中 CopyOnArrayList 的 **remove(int index)** 方法用于移除列表中�
 
 **语法:**
 
-```
+```java
 public E remove(int index)
 
 ```
@@ -33,7 +33,7 @@ public E remove(int index)
 
 **程序 1:** 该程序涉及整数类型
 
-```
+```java
 // Java Program to illustrate CopyOnArrayList
 // remove(int index) method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **的 CopyOnArrayList remove(int index)输出:**
 
-```
+```java
 CopyOnWriteArrayList: [63, 54, 81, 96]
 [63, 54, 96]
 
@@ -73,7 +73,7 @@ CopyOnWriteArrayList: [63, 54, 81, 96]
 
 **程序 2:** 该程序涉及字符串类型
 
-```
+```java
 // Java Program to illustrate CopyOnArrayList
 // remove(int index) method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **的 CopyOnArrayList 移除(int index)输出:**
 
-```
+```java
 CopyOnWriteArrayList: [geeks, gfg, programming]
 [gfg, programming]
 

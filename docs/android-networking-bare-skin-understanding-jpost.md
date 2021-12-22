@@ -23,7 +23,7 @@
 
 首先创建一个安卓工作室项目，并选择“空活动”模板。在选择了空的活动之后，我们现在已经准备好完成事情，让项目发生。将以下库导入应用程序的 build . gradle:
 
-```
+```java
 dependencies {
     implementation 'com.geeks-for-geeks-jpost:0.0.4'
     implementation 'com.google.code.gson:gson:2.7'
@@ -38,7 +38,7 @@ dependencies {
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -64,7 +64,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -171,7 +171,7 @@ dependencies {
 
 ## 爪哇
 
-```
+```java
 public class GeeksforGeeks extends android.app.Application {
     @Override
     public void onCreate() {
@@ -189,7 +189,7 @@ public class GeeksforGeeks extends android.app.Application {
 
 ## Java
 
-```
+```java
 public class GfgRepoGit {
     @SerializedName("sno")
     private Integer sno;
@@ -234,7 +234,7 @@ public class GfgRepoGit {
 
 ## 爪哇
 
-```
+```java
 public class GfGRepoMsg{
     private static List< GfGRepoMsg> gfgRepoList;
     public GfGRepoMsg (List<GitRepo> gitRepoList) {
@@ -255,7 +255,7 @@ public class GfGRepoMsg{
 
 ## 【Java】
 
-```
+```java
 public class gfgRepoList extends BaseAdapter {
     private List<gfgRepoList> gfgRepoList;
     private Context gfgcontext;
@@ -328,7 +328,7 @@ public class gfgRepoList extends BaseAdapter {
 
 ## 【Java】
 
-```
+```java
 public class sampleAPIHandler{
 
     public static String GIT_REPO_URL = "https://api.github.com/users/the-rebooted-coder/repos";
@@ -405,7 +405,7 @@ public class sampleAPIHandler{
 
 ## 【Java】
 
-```
+```java
 public class MainActivity extends AppCompatActivity {
 
     private ListView GFGREPOLIST;

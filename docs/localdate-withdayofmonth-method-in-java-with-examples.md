@@ -6,7 +6,7 @@ Java 中 **LocalDate 类**的 **withDayOfMonth()** 方法返回一个更改了�
 
 **语法:**
 
-```
+```java
 public LocalDate withDayOfMonth(int dayOfMonth)
 ```
 
@@ -20,7 +20,7 @@ public LocalDate withDayOfMonth(int dayOfMonth)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withDayOfMonth() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 The date with day of the month is: 2018-12-01
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withDayOfMonth() method
 // Exceptions
 import java.util.*;
@@ -77,7 +77,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 java.time.DateTimeException: Invalid value for DayOfMonth (valid values 1 - 28/31): 35
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract boolean isOpen()
 
 ```
@@ -18,7 +18,7 @@ public abstract boolean isOpen()
 以下程序说明了 isOpen()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // FileSystem.isOpen() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // FileSystem.isOpen() method
 

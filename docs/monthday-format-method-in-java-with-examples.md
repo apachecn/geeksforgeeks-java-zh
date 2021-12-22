@@ -6,7 +6,7 @@ Java 中**月日类**的 **format()** 方法使用指定的格式化程序格式
 
 **语法:**
 
-```
+```java
 public String format(DateTimeFormatter formatter)
 ```
 
@@ -18,7 +18,7 @@ public String format(DateTimeFormatter formatter)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the format() method
 
 import java.util.*;
@@ -45,14 +45,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the format() method
 
 import java.util.*;
@@ -79,7 +79,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 --10-06
 
 ```

@@ -24,7 +24,7 @@ ChoiceBox 是 JavaFX 包的一部分。ChoiceBox 显示一组项目，并允许�
 
 1.  **Program to create a ChoiceBox and add items to it**: This program creates a ChoiceBox named c and add a list of string to it using(ChoiceBox(FXCollections.observableArrayList(string_array))). We would add the choice and a label to the tilepane(getChildren().add() function). Then we will create a stage (container) and add the tilepane to the scene and add the scene to the stage. Then display the stage using show() function.
 
-    ```
+    ```java
     // Java  Program to create a ChoiceBox and add items to it.
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -83,7 +83,7 @@ ChoiceBox 是 JavaFX 包的一部分。ChoiceBox 显示一组项目，并允许�
 
 2.  **Program to create a ChoiceBox and add listener to it**: This program creates a ChoiceBox named c and add a list of string to it using(ChoiceBox(FXCollections.observableArrayList(string_array))). We would add a change listener to detect when the user selects an item of the choice (we will add the listener using addListener() function ). The change listener has a function(public void changed(ObservableValue ov, Number value, Number new_value)) which is invoked when the selection of choice is changed. We would add the choice and a label to the tilepane(getChildren().add() function). Then we will create a stage (container) and add the tilepane to the scene and add the scene to the stage. Finally, display the stage using show() function.
 
-    ```
+    ```java
     // Java  Program to create a ChoiceBox and add listener to it.
     import javafx.application.Application;
     import javafx.scene.Scene;

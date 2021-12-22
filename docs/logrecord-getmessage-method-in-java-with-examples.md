@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getMessage()
 
 ```
@@ -18,7 +18,7 @@ public String getMessage()
 下面的程序说明了 getMessage()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate getMessage() method
 
 import java.util.logging.Level;
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Message of Log Record = Hi message
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate getMessage() method
 
 import java.util.logging.Level;
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Message of Log Record = Some Warning Message
 
 ```

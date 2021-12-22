@@ -8,7 +8,7 @@ Java 中**计时周期类**的**是零()方法**用来检查这个周期中的�
 
 **语法:**
 
-```
+```java
 boolean isZero()
 ```
 
@@ -20,7 +20,7 @@ boolean isZero()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function isZero()
 // to check whether all of the three given units
 // YEAR, MONTH, DAY are zero.
@@ -54,14 +54,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function isZero()
 // to check whether all of the three given units
 // YEAR, MONTH, DAY are zero.
@@ -95,7 +95,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 false
 
 ```

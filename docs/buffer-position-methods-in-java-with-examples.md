@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Buffer position(int newPosition)
 ```
 
@@ -18,7 +18,7 @@ public Buffer position(int newPosition)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // position() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 4
 position after reset: 2
 
@@ -74,7 +74,7 @@ position after reset: 2
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // position() method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before clear: 3
 position after clear: 0
 

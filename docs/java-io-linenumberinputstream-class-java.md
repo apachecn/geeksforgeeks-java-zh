@@ -8,14 +8,14 @@ java.io.LineNumberInputStream 类只是输入流的一个扩展，提供了一�
 
 **申报:**
 
-```
+```java
 public class LineNumberInputStream
    extends Reader
 ```
 
 **施工人员:**
 
-```
+```java
 LineNumberInputStream(InputStream in) : 
 Constructs a newline no. stream that reads 
 it's input from the specified Input Stream.
@@ -28,7 +28,7 @@ it's input from the specified Input Stream.
 *   **read():Java . io . LineNumberInputStream . read()**从输入流中读取下一个字节的数据。它返回表示“0–255”范围内的字节的 int 值。它返回“-1”表示输入流结束。
     **语法:**
 
-```
+```java
 public int read()
 Parameters : 
 -------
@@ -43,7 +43,7 @@ IOException : in case I/O error occurs
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of read() method
 
 import java.io.*;
@@ -99,7 +99,7 @@ public class NewClass
 
 程序中使用的 **ABC.txt** 文件包含:
 
-```
+```java
 Hello
 Geeks.
 Explaining 
@@ -108,7 +108,7 @@ read() method
 
 **输出:**
 
-```
+```java
 Hello
 Geeks.
 Explaining 
@@ -118,7 +118,7 @@ read() method
 *   **getline number():Java . io . line number inputstream . getline number()**返回当前行号。
     **语法:**
 
-```
+```java
  public int getLineNumber()
 Parameters : 
 -------
@@ -130,7 +130,7 @@ no. of current line
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of getLineNumber() method
 
 import java.io.*;
@@ -191,14 +191,14 @@ public class NewClass
 
 程序中使用的 **ABC.txt** 文件包含:
 
-```
+```java
 no. of
 lines
 ```
 
 **输出:**
 
-```
+```java
  At line : 0
 n At line : 0
 o At line : 0
@@ -218,7 +218,7 @@ s at line: 1
 *   **available():Java . io . LineNumberInputStream . available()**返回可以从输入流中读取而不阻塞的字节数。
     **语法:**
 
-```
+```java
 public int available()
 Parameters : 
 -------
@@ -232,7 +232,7 @@ IOException : in case I/O error occurs
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of available() method
 
 import java.io.*;
@@ -290,13 +290,13 @@ public class NewClass
 
 程序中使用的 **ABC.txt** 文件包含:
 
-```
+```java
 available
 ```
 
 **输出:**
 
-```
+```java
 a Bytes available : 4
 v Bytes available : 3
 a Bytes available : 3
@@ -311,7 +311,7 @@ e Bytes available : 0
 *   **setline number():Java . io . line number inputstream . setline number(int arg)**为我们想要的参数分配行号。
     **语法:**
 
-```
+```java
 public void setLineNumber(int arg)
 Parameters : 
 arg : line number to assign
@@ -325,7 +325,7 @@ Exception:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of setLineNumber() method
 
 import java.io.*;
@@ -385,13 +385,13 @@ public class NewClass
 
 程序中使用的 **ABC.txt** 文件包含:
 
-```
+```java
 LineNumber
 ```
 
 **输出:**
 
-```
+```java
 L Line No. Set : 100
 i Line No. Set : 101
 n Line No. Set : 102
@@ -407,7 +407,7 @@ r Line No. Set : 109
 *   **skip():Java . io . LineNumberInputStream . skip(long arg)**跳过并丢弃输入流数据中的‘arg’字节。LineNumberInputStream 的 skip 方法创建一个字节数组，然后反复读取，直到读取了 n 个字节或到达了流的末尾。
     **语法:**
 
-```
+```java
 public long skip(long arg)
 Parameters : 
 arg : no. of bytes of Input Stream data to skip.
@@ -421,7 +421,7 @@ IOException : in case I/O error occurs
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of setLineNumber() method
 
 import java.io.*;
@@ -476,7 +476,7 @@ public class NewClass
 
 程序中使用的 **ABC.txt** 文件包含:
 
-```
+```java
 Program
 Explaining
 Skip() method
@@ -484,7 +484,7 @@ Skip() method
 
 **输出:**
 
-```
+```java
 P
 r
 E
@@ -498,7 +498,7 @@ t
 *   **read():Java . io . LineNumberInputStream . read(byte[]buffer，int offset，int maxlen)** 从 InputStream 读取最多‘maxlen’个字节为字节。
     **语法:**
 
-```
+```java
 public int read(byte[] buffer, int offset, int maxlen)
 Parameters : 
 buffer : buffer whose data to read
@@ -514,7 +514,7 @@ IOException : in case I/O error occurs
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of read() method
 
 import java.io.*;
@@ -570,14 +570,14 @@ public class NewClass
 
 程序中使用的 **ABC.txt** 文件包含:
 
-```
+```java
 Read() method
 ```
 
 该方法的作用是 offset = r，maxlen = 5…so—即 3 个偏移量，然后是 5 个字节即 Read(，然后再次是 offset，so —
 **输出:**
 
-```
+```java
 The number of char read: 5
 
 ---Read(--
@@ -586,7 +586,7 @@ The number of char read: 5
 *   **mark():Java . io . LineNumberInputStream . mark(int arg)**标记输入流的当前位置。它设置 readlimit，即在标记位置无效之前可以读取的最大字节数。
     **语法:**
 
-```
+```java
 public void mark(int arg)
 Parameters :
 arg : integer specifying the read limit of the input Stream
@@ -597,7 +597,7 @@ void
 *   **reset():通过 mark()方法调用 Java . io . LineNumberInputStream . reset()**。它将输入流重新定位到标记的位置。
     **语法:**
 
-```
+```java
 public void reset()
 Parameters :
 ----
@@ -611,7 +611,7 @@ Exception :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of LineNumberInputStream method
 // mark() and reset()
 
@@ -688,13 +688,13 @@ public class NewClass
 
 **ABC.txt** 文件中使用的代码有
 
-```
+```java
 HelloGeeks
 ```
 
 **输出:**
 
-```
+```java
 Char : H
 Char : e
 Char : l

@@ -16,7 +16,7 @@ T3【效果】T4
 
     1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。该库具有上述各种动画效果。它有助于使我们的应用程序更加灵敏和动态。
 
-        ```
+        ```java
         dependencies {
             implementation 'com.daimajia.easing:library:2.0@aar'
             implementation 'com.daimajia.androidanimations:library:2.3@aar'
@@ -27,7 +27,7 @@ T3【效果】T4
 
         ## activity _ main . XML
 
-        ```
+        ```java
         <?xml version="1.0" encoding="utf-8"?>
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -76,7 +76,7 @@ T3【效果】T4
 
         ## MainActivity.java
 
-        ```
+        ```java
         package org.geeksforgeeks.gfgviewshaker;
 
         import androidx.appcompat.app.AppCompatActivity;

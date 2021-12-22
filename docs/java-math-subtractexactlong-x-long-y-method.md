@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static long subtractExact(long x, long y)
 Parameter :
  x : the first value
@@ -22,7 +22,7 @@ It throws ArithmeticException - if the result overflows a long.
 
 **示例:**展示 **java.lang.Math .减法精确()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.subtractExact() method
 import java.lang.Math;
@@ -42,12 +42,12 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 11111110112
 
 ```
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.subtractExact() method
 import java.lang.Math;
@@ -67,7 +67,7 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 Runtime Error :
 Exception in thread "main" java.lang.ArithmeticException: long overflow
     at java.lang.Math.subtractExact(Math.java:849)

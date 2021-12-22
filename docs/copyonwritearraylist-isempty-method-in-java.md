@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ public boolean isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the 
 // isEmpty() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 98, 100]
 List is not empty
 List is empty
@@ -69,7 +69,7 @@ List is empty
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the 
 // isEmpty() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 List is not empty
 List is empty

@@ -12,7 +12,7 @@
 
 *   **void close() :** 关闭 ZIP 输出流以及正在过滤的流。
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Overrides:
@@ -24,7 +24,7 @@
 
 *   **void closeEntry() :** 关闭当前的 ZIP 条目，并定位流以写入下一个条目。
 
-    ```
+    ```java
     Syntax :public void closeEntry()
                     throws IOException
     Throws:
@@ -34,7 +34,7 @@
 
 *   **void finish() :** 在不关闭底层流的情况下完成 ZIP 输出流的内容写入。当对同一输出流连续应用多个过滤器时，请使用此方法。
 
-    ```
+    ```java
     Syntax :public void finish()
                 throws IOException
     Overrides:
@@ -45,7 +45,7 @@
 
 *   **void putNextEntry(zipcentry e):**开始写入一个新的 ZIP 文件条目，并将流定位到条目数据的开头。如果当前条目仍处于活动状态，则将其关闭。如果没有为条目指定压缩方法，将使用默认压缩方法，如果条目没有设置修改时间，将使用当前时间。
 
-    ```
+    ```java
     Syntax :public void putNextEntry(ZipEntry e)
                       throws IOException
     Parameters: e - the ZIP entry to be written
@@ -56,7 +56,7 @@
 
 *   **作废设置注释(字符串注释):**设置 ZIP 文件注释。
 
-    ```
+    ```java
     Syntax :public void setComment(String comment)
     Parameters:
     comment - the comment string
@@ -66,7 +66,7 @@
 
 *   **void setLevel(int level) :** 为后续被放气的条目设置压缩级别。默认设置是 DEFAULT _ COMPRESSION。
 
-    ```
+    ```java
     Syntax :public void setLevel(int level)
     Parameters:
     level - the compression level (0-9)
@@ -76,7 +76,7 @@
 
 *   **void setMethod(int method):**设置后续条目的默认压缩方法。只要没有为单个 ZIP 文件条目指定压缩方法，并且最初设置为放气，就会使用此默认值。
 
-    ```
+    ```java
     Syntax :public void setMethod(int method)
     Parameters:
     method - the default compression method
@@ -85,7 +85,7 @@
 
 *   **void write(byte[] b，int off，int len)** :向当前 ZIP 条目数据写入一个字节数组。此方法将阻塞，直到所有字节都被写入。
 
-    ```
+    ```java
     Syntax :public void write(byte[] b,
              int off,
              int len)
@@ -100,7 +100,7 @@
 
 **程序:**
 
-```
+```java
 //Java program demonstrating ZipOutputStream methods
 
 import java.io.FileInputStream;
@@ -184,7 +184,7 @@ class ZipOutputStreamDemo
 
 **输出:**
 
-```
+```java
 ZipEntry1
 8
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13]

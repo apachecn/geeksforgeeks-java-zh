@@ -6,7 +6,7 @@
 
 一种解决方案是使用 Java compareTo()方法。方法 compareTo()用于在 Java 中按字典顺序比较两个字符串。两个字符串的每个字符都被转换为 Unicode 值进行比较。
 
-```
+```java
 int compareTo(String str) :
 ```
 
@@ -17,7 +17,7 @@ int compareTo(String str) :
     (即 string1 == string2)，则返回 0。
 3.  如果(string1 < string2 ),则返回负值。
 
-```
+```java
 // Java program to show how to compare Strings
 // using library function
 public class Test
@@ -39,7 +39,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 Comparing strings with compareTo:
 0
 -1
@@ -51,7 +51,7 @@ Comparing strings with compareTo:
 
 **不使用库函数如何比较两个字符串？**
 
-```
+```java
 1\. Input two strings string 1 and string 2.
 2\. for (int i = 0; i < str1.length() && 
         i < str2.length(); i ++) 
@@ -72,7 +72,7 @@ Comparing strings with compareTo:
 
 下面是上述算法的实现。
 
-```
+```java
 // Java program to Compare two strings
 // lexicographically
 class Compare {
@@ -139,7 +139,7 @@ class Compare {
 
 **输出:**
 
-```
+```java
 -9
 0
 9

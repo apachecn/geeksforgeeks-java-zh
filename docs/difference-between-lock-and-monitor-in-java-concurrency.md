@@ -16,7 +16,7 @@ Java Concurrency 主要处理[多线程](https://www.geeksforgeeks.org/multithre
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Monitoe in Java Concurrency
 
 // Importing input output classes

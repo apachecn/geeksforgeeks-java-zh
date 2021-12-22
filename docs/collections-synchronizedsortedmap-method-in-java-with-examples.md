@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <K, V> SortedMapK, V>
   synchronizedSortedMap(SortedMapK, V> m)
 ```
@@ -19,7 +19,7 @@ public static <K, V> SortedMapK, V>
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedSortedMap() method
 // for <String, String> Value
@@ -64,7 +64,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Sorted Map : {1=A, 2=B, 3=C}
 Synchronized sorted map is :{1=A, 2=B, 3=C}
 
@@ -72,7 +72,7 @@ Synchronized sorted map is :{1=A, 2=B, 3=C}
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedSortedMap() method
 // for <Integer, Boolean> Value
@@ -117,7 +117,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Sorted Map : {100=true, 200=true, 300=true}
 Synchronized sorted map is :{100=true, 200=true, 300=true}
 

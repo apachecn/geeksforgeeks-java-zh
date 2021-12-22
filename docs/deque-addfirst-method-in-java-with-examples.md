@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void addFirst(E e)
 ```
 
@@ -25,7 +25,7 @@ void addFirst(E e)
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java Program Demonstrate addFirst()
 // method of Deque
 import java.util.*;
@@ -53,14 +53,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [74381793, 5278367, 35658786, 7855642]
 
 ```
 
 **节目 2:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate addFirst()
 // method of Deque
 import java.util.*;
@@ -88,14 +88,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [74381793, 5278367, 35658786, 7855642]
 
 ```
 
 **程序 3:** 在**的帮助下**同意链接请求。
 
-```
+```java
 // Java Program Demonstrate addFirst()
 // method of Deque
 import java.util.*;
@@ -123,7 +123,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [74381793, 5278367, 35658786, 7855642]
 
 ```

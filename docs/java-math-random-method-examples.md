@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public static double random()
 
 Return :
@@ -16,7 +16,7 @@ This method returns a pseudorandom double greater than or equal to 0.0 and less 
 
 **例 1 :** 展示 **java.lang.Math.random()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.random() method
 import java.lang.Math;
@@ -37,14 +37,14 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 0.5568515217910215
 
 ```
 
 **例 2 :** 展示 **java.lang.Math.random()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.random() method
 import java.lang.Math;
@@ -72,7 +72,7 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 6
 8
 10

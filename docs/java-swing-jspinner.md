@@ -22,7 +22,7 @@ JSpinner 是 javax.swing 包的一部分。JSpinner 包含一行输入，可能�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a
 // simple JSpinner
 import java.awt.event.*;
@@ -71,7 +71,7 @@ class spinner extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to select your
 // date of birth using JSpinner
 import java.awt.event.*;

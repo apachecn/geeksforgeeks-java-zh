@@ -13,7 +13,7 @@
 1.  简单的固定大小阵列
 2.  动态调整数组大小
 
-```
+```java
 int arr[] = new int[10]   
 ```
 
@@ -26,7 +26,7 @@ int arr[] = new int[10]
 
 **类型 1**
 
-```
+```java
 Type array_name [array_size] ;
 Type array_name = { Element1, Element2, Element3, Element4,...., ElementN } ;
 // It is preferable if we have very limited array elements 
@@ -34,7 +34,7 @@ Type array_name = { Element1, Element2, Element3, Element4,...., ElementN } ;
 
 **2 型**
 
-```
+```java
 int arr [100] ;
 // This does means we are declaring a memory block named 'arr' 
 // which is containing continuous 100 block associated in it
@@ -46,7 +46,7 @@ int arr [100] ;
 
 **语法:**声明数组列表
 
-```
+```java
 Arraylist<Type> al = new ArrayList<Type> ;
 // Here Type is the type of elements in ArrayList to be created
 ```
@@ -61,7 +61,7 @@ Arraylist<Type> al = new ArrayList<Type> ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate differences between
 // Array and ArrayList
 
@@ -102,7 +102,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1
 1
 ```
@@ -113,7 +113,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate differences between
 // Array and ArrayList
 
@@ -159,7 +159,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [1, 2, 3, 4]
 [1, 2, 3]
 ```
@@ -172,7 +172,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.ArrayList;
 class Test
 {
@@ -200,7 +200,7 @@ class Test
 
 **Output**
 
-```
+```java
 Successfully compiled and executed
 ```
 

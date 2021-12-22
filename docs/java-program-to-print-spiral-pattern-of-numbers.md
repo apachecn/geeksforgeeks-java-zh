@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : n = 4
 Output: 1   2  3 4 
     12 13 14 5 
@@ -20,7 +20,7 @@ Output: 1   2  3 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG {
 
     public static void printSpiral(int size)
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 4 5 
 16 17 18 19 6 
 15 24 25 20 7 

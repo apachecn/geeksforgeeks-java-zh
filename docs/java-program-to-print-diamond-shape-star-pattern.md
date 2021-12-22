@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input: number = 7
 
 Output:
@@ -32,7 +32,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Print Diamond Star Pattern
 // Using do-while loop
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
        *
       ***
      *****
@@ -165,7 +165,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print diamond star pattern
 // Using while loop
 
@@ -271,7 +271,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
        *
       ***
      *****
@@ -291,7 +291,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print diamond star pattern
 // Using for loop
 
@@ -355,7 +355,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
       *
      ***
     *****

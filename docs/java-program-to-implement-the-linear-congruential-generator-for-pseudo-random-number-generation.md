@@ -39,7 +39,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the above approach
 import java.util.*;
 
@@ -102,7 +102,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 5 4 1 6 0 3 5 4 1 6
 ```
 

@@ -6,7 +6,7 @@
 
 在**正常换循环**中，我们写了三个语句:
 
-```
+```java
 for( *statement1*; *statement 2*; *statement3* )
 {
      //code to be executed 
@@ -26,7 +26,7 @@ for( *statement1*; *statement 2*; *statement3* )
 
 **语法**
 
-```
+```java
 for( ObjectType variable : iterable/array/collections ){
 
      // code using name variable
@@ -36,7 +36,7 @@ for( ObjectType variable : iterable/array/collections ){
 
 **相当于**
 
-```
+```java
 for( int i=0 ; i< list.size() ; i++) {
 
    ObjectType variable = list.get(i);
@@ -50,7 +50,7 @@ for( int i=0 ; i< list.size() ; i++) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Generic for loop
 
 import java.io.*;
@@ -89,7 +89,7 @@ class GenericsForLoopExample {
 
 **Output**
 
-```
+```java
 379
 ```
 
@@ -97,7 +97,7 @@ class GenericsForLoopExample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that Generic
 // for loop can be used in iterating 
 // Collections like HashMap
@@ -139,7 +139,7 @@ class EnhancedForLoopExample {
 
 **Output**
 
-```
+```java
 key :Quiz
 key :Github
 key :Practice
@@ -154,7 +154,7 @@ value :geeksforgeeks.org
 
 **1。不合适**当我们想要修改列表的时候。
 
-```
+```java
 for( Integer var : arr)
 {
      // only changes the var value and not the value of the data stored inside the arr
@@ -165,7 +165,7 @@ for( Integer var : arr)
 
 **2。**我们**无法跟踪指数。**
 
-```
+```java
 for( Integer var : arr){
 
      if(var == target)
@@ -179,7 +179,7 @@ for( Integer var : arr){
 
 **4。仅向前迭代一步**。
 
-```
+```java
 // This cannot be converted to Generic for loop
 for( int i = n-1 ; i >= 0 ; i-- ) {
 
@@ -191,7 +191,7 @@ for( int i = n-1 ; i >= 0 ; i-- ) {
 
 **4。**无法同时处理**两个**决策**报表**。
 
-```
+```java
 // This loop cannot be converted to Generic for loop
 for( int i = 0; i < arr.length; i++ ) {
 

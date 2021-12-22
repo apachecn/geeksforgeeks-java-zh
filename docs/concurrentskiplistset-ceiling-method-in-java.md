@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
  ConcurrentSkipListSet.ceiling(E e)
 
 ```
@@ -23,7 +23,7 @@
 
     **程序 1:** 求一个数的上限。
 
-    ```
+    ```java
     // Java Program Demonstrate ceiling()
     // method of ConcurrentSkipListSet 
 
@@ -59,7 +59,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The set contains: 
     13 31 45 72 89 
     Ceiling of 35: 45
@@ -70,7 +70,7 @@
 
     **程序 2:** 显示天花板()中的空指针异常。
 
-    ```
+    ```java
     // Java Program Demonstrate ceiling()
     // method of ConcurrentSkipListSet
 
@@ -105,7 +105,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.NullPointerException
 
     ```

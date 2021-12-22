@@ -21,7 +21,7 @@ Java 版本 11 支持这种方法。该方法可以采用四个参数。这些�
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Write Into a File
 // using writeString() Method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 ***Output**
 
-```
+```java
 Welcome to geekforgeeks
 Happy Learning!
 ```* 
@@ -76,7 +76,7 @@ Happy Learning!
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Write into a File
 // using FileWriterClass
 
@@ -133,7 +133,7 @@ public class GFG {
 
 ***Output**
 
-```
+```java
 File is created successfully with the content.
 ```* 
 
@@ -147,7 +147,7 @@ File is created successfully with the content.
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to write into a File
 // Using BufferedWriter Class
 
@@ -206,7 +206,7 @@ public class GFG {
 
 ***Output**
 
-```
+```java
 File is created successfully with the content.
 ```* 
 
@@ -224,7 +224,7 @@ File is created successfully with the content.
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Write into a File
 // using FileOutputStream Class
 
@@ -297,6 +297,6 @@ public class GFG {
 
 ***Output**
 
-```
+```java
 File is created successfully with the content.
 ```*

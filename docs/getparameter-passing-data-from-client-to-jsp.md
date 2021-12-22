@@ -13,7 +13,7 @@
 
 **接受客户端数据页面:exGetParameter.html 页面**
 
-```
+```java
 <html>
     <head>
         <title>Get Parameter Example</title>
@@ -36,7 +36,7 @@
 
 **获取客户端数据页面:getparam.jsp**
 
-```
+```java
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

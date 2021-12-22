@@ -6,7 +6,7 @@ Java 中[比较器接口](https://www.geeksforgeeks.org/comparator-interface-jav
 
 **语法:**
 
-```
+```java
 static <T extends Comparable<T>> 
     Comparator<T> reverseOrder()
 
@@ -19,7 +19,7 @@ static <T extends Comparable<T>>
 下面的程序说明了 reverseOrder()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.reverseOrder()  method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.reverseOrder()  method
 

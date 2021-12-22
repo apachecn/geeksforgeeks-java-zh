@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractSet.hashCode()
 ```
 
@@ -18,7 +18,7 @@ AbstractSet.hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the hashCode() method
 
 import java.util.*;
@@ -51,7 +51,7 @@ public class Abstract_Set_Demo {
 
 **输出:**
 
-```
+```java
 Initial Set is: [4, Geeks, You, Welcomes]
 The hashcode value of the set-295204749
 
@@ -59,7 +59,7 @@ The hashcode value of the set-295204749
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate the hashCode() method
 
 import java.util.*;
@@ -92,7 +92,7 @@ public class Abstract_Set_Demo {
 
 **输出:**
 
-```
+```java
 Initial Set is: [15, 20, 30, 40, 50]
 The hashcode value of the set: 155
 

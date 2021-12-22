@@ -48,7 +48,7 @@ JList 是 Java Swing 包的一部分。JList 是一个显示一组对象并允�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a simple JList
 import java.awt.event.*;
 import java.awt.*;
@@ -109,7 +109,7 @@ class solve extends JFrame
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a list and add itemListener to it
 // (program to select your birthday using lists) .
 import javax.swing.event.*;

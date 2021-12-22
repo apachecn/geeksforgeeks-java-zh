@@ -18,7 +18,7 @@ XML 中有 5 个最常用的特殊字符，当用作 Java 字符串时需要转�
 
 **示例:**
 
-```
+```java
 *<GeeksForGeeks> Data Structures & Java </GeeksForGeeks>*
 
 // is an invalid string in java because '&' is a reserved literal 
@@ -36,7 +36,7 @@ XML 中有 5 个最常用的特殊字符，当用作 Java 字符串时需要转�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to escape all the five characters
 // mentioned above using the StringEscapeUtils class
 
@@ -99,7 +99,7 @@ class GeeksForGeeks {
 
 **输出:**
 
-```
+```java
 Program to escape XML Special Characters !!
 Unescaped String: DataStructures & Java
 Escaped String: DataStructures &amp; Java

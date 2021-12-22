@@ -6,7 +6,7 @@ java 中的 java.util.Hashtable.clear()方法用于清除和移除指定 Hashtab
 
 **语法:**
 
-```
+```java
 Hash_table.clear()
 ```
 
@@ -17,7 +17,7 @@ Hash_table.clear()
 下面的程序用来说明 java.util.Hashtable.clear()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 The Hashtable is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 Finally the table looks like this: {}
 
@@ -57,7 +57,7 @@ Finally the table looks like this: {}
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 The Hashtable is: {You=30, Welcomes=25, 4=15, Geeks=20}
 Finally the table looks like this: {}
 

@@ -6,12 +6,12 @@
 
 **示例:**
 
-```
+```java
 Input: N = 11
 Output: 2, 3, 5, 7, 11
 ```
 
-```
+```java
 Input: N = 7
 Output: 2, 3, 5, 7 
 ```
@@ -24,7 +24,7 @@ Output: 2, 3, 5, 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find all the
 // prime numbers from 1 to N
 class gfg {
@@ -80,7 +80,7 @@ class gfg {
 
 **Output**
 
-```
+```java
 All the Prime numbers within 1 and 45 are:
 2 3 5 7 11 13 17 19 23 29 31 37 41 43 
 ```
@@ -95,7 +95,7 @@ All the Prime numbers within 1 and 45 are:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find all the
 // prime numbers from 1 to N
 class gfg {
@@ -146,7 +146,7 @@ class gfg {
 
 **Output**
 
-```
+```java
 All the Prime numbers within 1 and 45 are:
 2 3 5 7 11 13 17 19 23 29 31 37 41 43 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ boolean isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // isEmpty method in Map interface
 import java.util.*;
@@ -40,7 +40,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 {}
 true
 
@@ -48,7 +48,7 @@ true
 
 **程序 2:** 下面是展示 hashCode()实现的代码。
 
-```
+```java
 // Java code to show the implementation of
 // isEmpty method in Map interface
 import java.util.*;
@@ -74,7 +74,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Ninde}
 false
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static int pow(int b, int k)
 
 ```
@@ -17,7 +17,7 @@ public static int pow(int b, int k)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // pow(int b, int k) method of Guava's
 // IntMath class
@@ -64,7 +64,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 4 to the 5th power is: 1024
 12 to the 3th power is: 1728
 
@@ -72,7 +72,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // pow(int b, int k) method of Guava's
 // IntMath class
@@ -122,7 +122,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException: exponent (-5) must be >= 0
 
 ```

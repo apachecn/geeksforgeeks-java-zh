@@ -14,7 +14,7 @@
 
 *   **int available ():** Return 0 after reaching EOF, otherwise always return 1\.
 
-    ```
+    ```java
     Syntax :public int available()
                   throws IOException
     Parameters: n - number of bytes to be skipped
@@ -26,7 +26,7 @@
 
 *   **void close():** Close this input stream and its underlying input stream, and discard any pending uncompressed data.
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Overrides:
@@ -36,7 +36,7 @@
 
 *   **Invalid flag (intlimit):** This operation is not supported.
 
-    ```
+    ```java
     Syntax :public void mark(int limit)
     Parameters:
     limit - maximum bytes that can be read before invalidating the position marker
@@ -45,7 +45,7 @@
 
 *   **Boolean marksupported ():** always returns false because this input stream does not support the mark () and reset () methods.
 
-    ```
+    ```java
     Syntax :public boolean markSupported()
     Returns:
     false, always
@@ -53,7 +53,7 @@
 
 *   **intread ():** Read compressed data of a single byte from the input stream.
 
-    ```
+    ```java
     Syntax :public int read()
              throws IOException
     Returns:
@@ -65,7 +65,7 @@
 
 *   **int read (byte [] b, int off, int len):** Read compressed data into byte array.
 
-    ```
+    ```java
     Syntax :public int read(byte[] b,
            int off,
            int len)
@@ -82,7 +82,7 @@
 
 *   **Invalid reset ():** This operation is not supported.
 
-    ```
+    ```java
     Syntax :public void reset()
                throws IOException
     Throws: IOException
@@ -90,7 +90,7 @@
 
 *   **Long skip (length n):** Skip and discard the data in the input stream.
 
-    ```
+    ```java
     Syntax :public long skip(long n)
               throws IOException
     Parameters:
@@ -105,7 +105,7 @@
 
 **程序:**
 
-```
+```java
 //Java program to illustrate DeflaterInputStream class
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -157,7 +157,7 @@ class DeflaterInputStreamDemo
 
 **输出:**
 
-```
+```java
 false
 1
 -1009996100981029710199231224400175046-1

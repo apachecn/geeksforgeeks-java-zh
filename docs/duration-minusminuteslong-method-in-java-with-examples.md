@@ -5,7 +5,7 @@
 **java.time 包**中 **Duration 类**的**minutes(long)**方法用于获取该持续时间的不可变副本，减去指定的分钟数，作为参数传递。
 **语法:**
 
-```
+```java
 public Duration minusMinutes(long numberOfMinutes)
 ```
 
@@ -17,7 +17,7 @@ public Duration minusMinutes(long numberOfMinutes)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusMinutes() method
 
 import java.time.Duration;
@@ -39,7 +39,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT51H2M
 ```
 
@@ -47,7 +47,7 @@ PT51H2M
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusMinutes() method
 
 import java.time.Duration;
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT-1M
 ```
 

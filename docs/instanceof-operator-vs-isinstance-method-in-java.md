@@ -7,7 +7,7 @@
 运算符的**实例和**实例()**方法都返回布尔值。isInstance()方法是 java 中 class 的一个方法，而 instanceof 是一个运算符。
 举个例子:**
 
-```
+```java
 // Java program to demonstrate working of
 // instanceof operator
 public class Test
@@ -25,14 +25,14 @@ public class Test
 
 输出:
 
-```
+```java
 true
 
 ```
 
 现在如果我们想在运行时检查对象的类，那么我们必须使用 **isInstance()** 方法。
 
-```
+```java
 // Java program to demonstrate working of isInstance() 
 // method 
 public class Test 
@@ -74,7 +74,7 @@ public class Test 
 
 输出:
 
-```
+```java
 true
 false
 true
@@ -83,7 +83,7 @@ true
 
 **注意:**如果我们用其他没有实例化的类检查对象，instanceof 运算符会引发编译时错误(不兼容的条件操作数类型)。
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -100,7 +100,7 @@ public class Test
 
 输出:
 
-```
+```java
 13: error: incompatible types: Integer cannot be converted to String
         System.out.println(i instanceof String);
                            ^

@@ -8,7 +8,7 @@ Java 中的[数组列表](https://www.geeksforgeeks.org/arraylist-in-java/)不�
 
 **语法:**
 
-```
+```java
 Stream<T> distinct()
 ```
 
@@ -16,7 +16,7 @@ Stream<T> distinct()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // how to Get Unique Values from ArrayList
 
@@ -55,7 +55,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Unique Values of ArrayList
 1
 2
@@ -66,7 +66,7 @@ Unique Values of ArrayList
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // how to Get Unique Values from ArrayList
 
@@ -106,7 +106,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Unique Values of ArrayList
 1
 2
@@ -119,7 +119,7 @@ Unique Values of ArrayList
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Maintaining order with no duplicate elements insertion in
 // the ArrayList.
 
@@ -155,6 +155,6 @@ public class Main {
 
 **Output**
 
-```
+```java
 [1, 2, 3]
 ```

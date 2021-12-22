@@ -7,7 +7,7 @@ java.lang.Math.toRadians()用于将以度为单位的角度转换为以弧度为
 
 **语法**:
 
-```
+```java
 public static double toRadians(double deg)
 
 Parameter:
@@ -22,7 +22,7 @@ This method returns the measurement of the angle
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.toRadians() method
 import java.lang.Math;
@@ -49,7 +49,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 3.141592653589793
 1.5707963267948966
 0.7853981633974483

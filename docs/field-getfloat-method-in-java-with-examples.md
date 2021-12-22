@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public float getFloat(Object obj)
              throws IllegalArgumentException,
                     IllegalAccessException
@@ -27,7 +27,7 @@ public float getFloat(Object obj)
 以下程序说明 getFloat()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the getFloat() method
 
 import java.lang.reflect.Field;
@@ -110,7 +110,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Value of float Field Marks is 94.13
 Value of float Field Fees is 1343414.0
 
@@ -118,7 +118,7 @@ Value of float Field Fees is 1343414.0
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the getFloat() method
 
 import java.lang.reflect.Field;
@@ -171,7 +171,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 1.2343212E8
 
 ```

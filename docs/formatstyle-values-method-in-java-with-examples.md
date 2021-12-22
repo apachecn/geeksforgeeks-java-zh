@@ -5,7 +5,7 @@
 **FormatStyle 枚举**的**值()**方法用于包含该 FormatStyle 的单位的数组，按照它们被声明的顺序。
 **语法:**
 
-```
+```java
 public static FormatStyle[] values()
 ```
 
@@ -16,7 +16,7 @@ public static FormatStyle[] values()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // FormatStyle.values() method
 
@@ -43,7 +43,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 FULL
 LONG
 MEDIUM
@@ -54,7 +54,7 @@ SHORT
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // FormatStyle.values() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 FormatStyle length: 4
 ```
 

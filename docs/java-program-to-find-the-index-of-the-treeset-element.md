@@ -16,7 +16,7 @@
 
 ***语法:***
 
-```
+```java
 *public int indexOf(Object o) ;*
 ```
 
@@ -28,7 +28,7 @@
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to find the index of TreeSet element
 // using List by converting TreeSet to a List
 
@@ -96,7 +96,7 @@ public class GFG {
 
 ***Output**
 
-```
+```java
 TreeSet contains: [23, 33, 34, 35, 41, 43]
 Index of 23: 0
 Index of 43: 5
@@ -115,7 +115,7 @@ Index of 55: -1
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Java Program to find the index of the element
 // in the TreeSet using Iterator
 // Using an Iterator
@@ -200,7 +200,7 @@ public class GFG {
 
 *****Output**
 
-```
+```java
 TreeSet contains: [23, 33, 34, 35, 41, 43]
 Index of 23: 0
 Index of 43: 5
@@ -220,7 +220,7 @@ Index of 55: -1
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Java Program to find the index of element
 // in TreeSet using HeadSet
 // Using the headSet() method of the TreeSet class
@@ -286,7 +286,7 @@ public class GFG {
 
 *****Output**
 
-```
+```java
 TreeSet contains: [23, 33, 34, 35, 41, 43]
 Index of 23: 0
 Index of 43: 5

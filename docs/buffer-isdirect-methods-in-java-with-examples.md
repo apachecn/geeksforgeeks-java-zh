@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract boolean isDirect()
 ```
 
@@ -16,7 +16,7 @@ public abstract boolean isDirect()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isDirect() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 buffer is direct
 
 ```
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isDirect() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 buffer is not direct
 
 ```

@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger negate()
 ```
 
@@ -17,7 +17,7 @@ public BigInteger negate()
 
 **示例:**
 
-```
+```java
 Input: value = 2300
 Output: -2300
 Explanation:
@@ -34,7 +34,7 @@ Output: -567689
 
 下面的程序说明了 BigInteger 的否定()方法。
 
-```
+```java
 /*
 *Program Demonstrate negate() method of BigInteger 
 */
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result of negate operation on 2300 is -2300
 
 ```

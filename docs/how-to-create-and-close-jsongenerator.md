@@ -4,7 +4,7 @@
 
 首先，什么是 **JSON** ？JSON 代表 **JavaScript 对象符号**。这是一种在服务器和客户端之间使用的数据交换格式。JSON 数据示例:
 
-```
+```java
 {
 "name" : "Sonali Singh",
 "age": 40,
@@ -17,19 +17,19 @@
 
 JSONGenerator 是一个接口，它以流的方式将 JSON 数据写入输出源。为了创建 JSONGenerator 的实例，我们需要使用 JSONFactory 实例。
 
-```
+```java
 JsonFactory factory = new JsonFactory();
 ```
 
 这个工厂实例有一个名为 **CreateGenerator** 的方法，它将创建 JSONGenerator。
 
-```
+```java
 JsonGenerator generator = factory.createGenerator(new File("test.json"));
 ```
 
 createGenerator 将我们希望写入 JSON 的目标作为第一个参数。如果我们使用 bytestream 作为第一个参数，我们还可以选择指定字符集
 
-```
+```java
 createGenerator(OutputStream out, Charset charset)
 ```
 
@@ -39,17 +39,17 @@ createGenerator(OutputStream out, Charset charset)
 
 **写起始对象：**
 
-```
+```java
 generator.writeStartObject().write("name": "Sonali Singh").write("age":40).writeEnd().close()
 ```
 
-```
+```java
 The JSON generated is {"name" : "Sonali Singh","age": 40,}
 ```
 
 **writestararray:**
 
-```
+```java
 generator
     .writeStartObject().write("name", "Sonali Singh").write("age", 25)
         .writeStartArray("education")
@@ -66,7 +66,7 @@ generator
 generator.close();
 ```
 
-```
+```java
 The JSON generated is 
 {"name": :Sonali Singh", "age" : 25,
 "education" : [ {"type", "college", "course", "B.Com},

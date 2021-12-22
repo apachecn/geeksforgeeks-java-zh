@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test {
 
     // i could be assigned a value here
@@ -27,7 +27,7 @@ class Test {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test {
 
     // Since i is static final,

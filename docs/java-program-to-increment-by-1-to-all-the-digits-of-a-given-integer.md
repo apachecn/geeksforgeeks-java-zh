@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: 12345
 Output: 23456
 
@@ -26,7 +26,7 @@ Output: 221213
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Increment by 1 All the Digits of a given
 // Integer
 
@@ -66,7 +66,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 221213
 
 ```
@@ -83,7 +83,7 @@ class GFG {
 
 ## Java
 
-```
+```java
 // Java Program to Increment by 1 All the Digits of a given
 // Integer
 
@@ -116,7 +116,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 221213
 
 ```

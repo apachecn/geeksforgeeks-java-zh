@@ -17,14 +17,14 @@
 
 *   **线号()**线粗.
 
-    ```
+    ```java
     Syntax :public int getLineNumber()
     Returns: The current line number
     ```
 
 *   **Invalid mark (int readahead limit):** Mark the current position in the stream. Subsequent calls to reset () will attempt to relocate the stream to this point and will reset the line number appropriately.
 
-    ```
+    ```java
     Syntax :public void mark(int readAheadLimit)
               throws IOException
     Parameters:
@@ -37,7 +37,7 @@
 
 *   **int read ():** Read a single character. The line terminator is compressed into a single line feed ('\n'). Whenever the line terminator is read, the current line number is incremented.
 
-    ```
+    ```java
     Syntax :public int read()
              throws IOException
     Returns:
@@ -48,7 +48,7 @@
 
 *   **int read (char [] cbuf, int off, int len):** Read characters into a part of the array. Whenever the line terminator is read, the current line number is incremented.
 
-    ```
+    ```java
     Syntax :public int read(char[] cbuf,
            int off,
            int len)
@@ -65,7 +65,7 @@
 
 *   **String readline ():** Read a line of text. Whenever the line terminator is read, the current line number is incremented.
 
-    ```
+    ```java
     Syntax :public String readLine()
                     throws IOException
     Returns: A String containing the contents of the line, not including any line 
@@ -76,7 +76,7 @@
 
 *   **Void reset ():** Reset the stream to the nearest mark.
 
-    ```
+    ```java
     Syntax :public void reset()
                throws IOException
     Throws:
@@ -85,7 +85,7 @@
 
 *   **无效设置行号(内部行号):**设置当前行号
 
-    ```
+    ```java
     Syntax :public void setLineNumber(int lineNumber)
     Parameters:
     lineNumber - An int specifying the line number
@@ -93,7 +93,7 @@
 
 *   **Long skip (length n):** Skip characters.
 
-    ```
+    ```java
     Syntax :public long skip(long n)
               throws IOException
     Parameters:
@@ -109,7 +109,7 @@
 
 **程序:**
 
-```
+```java
 //Java program demonstrating LineNumberReader methods
 import java.io.FileReader;
 import java.io.IOException;
@@ -182,7 +182,7 @@ class LineNumberReaderDemo
 
 **输出:**
 
-```
+```java
 0
 mark() method is supported
 this is second line

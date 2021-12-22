@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final KeyStore.Entry
   getEntry(String alias, 
            KeyStore.ProtectionParameter protParam)
@@ -35,7 +35,7 @@ public final KeyStore.Entry
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getEntry() method
 
 import java.security.*;

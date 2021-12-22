@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final StringBuffer format(Object[] arguments,
                                  StringBuffer result,
                                  FieldPosition pos)
@@ -26,7 +26,7 @@ public final StringBuffer format(Object[] arguments,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // format() method
 
@@ -72,14 +72,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 formated array : 10, 9.57, 9.568
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // format() method
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 old pattern : {0, date, #}, {1, date, #}, {0, number}
 
 String is Null

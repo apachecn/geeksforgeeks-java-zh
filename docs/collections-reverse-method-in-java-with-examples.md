@@ -4,24 +4,24 @@
 
 **reverse()**Collections 类的方法(顾名思义)用于反转存储元素的对象中的元素。它颠倒了作为参数传递的列表中元素的顺序。这个类存在于 java.util 包中，所以做语法如下:
 
-```
+```java
 import java.util.Collections;
 ```
 
-```
+```java
 Collections.reverse(class_obj);
 ```
 
 **插图:**
 
-```
+```java
 Input  : {1, 2, 3, 4}
 Output : {4, 3, 2, 1}
 ```
 
 **参数:**元素要反转的类的对象。
 
-```
+```java
 public static void reverse(List myList)
 ```
 
@@ -39,7 +39,7 @@ public static void reverse(List myList)
 
 T5】JAVAT7
 
-```
+```java
 // Java program to illustrate reverse() method
 // of Collections class over ArrayList
 
@@ -82,7 +82,7 @@ T8T10**输出**T1
 
 T5】JavaT7
 
-```
+```java
 // Java program to illustrate reverse() method
 // of Collections class over ArrayList
 
@@ -123,7 +123,7 @@ T8T10**输出**T1
 
 如果我们浏览一下上面的程序，那么只有一个微小的签名细节，那就是我们正在创建一个 LinkedList 类的对象，而不是 Array 类，如示例 1A 所示。对于 LinkedList，我们只是在上面的代码中进行了如下所示的更改:
 
-```
+```java
 LinkedList in "List mylist = new ArrayList();".
 ```
 
@@ -133,7 +133,7 @@ LinkedList in "List mylist = new ArrayList();".
 
 ## Java
 
-```
+```java
 // Java program to Illustrate Reversal of Array
 // using reverse() method of Collections class
 
@@ -168,7 +168,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Original Array : [10, 20, 30, 40, 50]
 Modified Array : [50, 40, 30, 20, 10]
 ```

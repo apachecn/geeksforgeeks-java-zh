@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public void add(int index, E element);
 ```
 
@@ -30,7 +30,7 @@ T3】例外:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to change Collection to an array
 
 import java.util.Arrays;
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks for Geeks is the Best
 ```
 
@@ -84,7 +84,7 @@ Geeks for Geeks is the Best
 
 **语法:**
 
-```
+```java
  public Object[] toArray() ;
 ```
 
@@ -96,7 +96,7 @@ Geeks for Geeks is the Best
 
 **返回类型:**值
 
-```
+```java
 An array of sequential elements of the list
 ```
 
@@ -104,7 +104,7 @@ An array of sequential elements of the list
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Collections into Array
 
 // Importing generic Java libraries
@@ -151,7 +151,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 User Input : Geeks for Geeks
 Output     : Geeks for Geeks
 ```

@@ -15,7 +15,7 @@
 
 在下面显示的代码示例中，我们创建了一个名为 custom annotation 的自定义注释。之后，我们用它注释了我们的类 DocumentedAnnotationDemo。最后，我们使用 Javadoc 工具创建了文档。下面提到了在命令提示符下使用 Javadoc 实用程序的语法。
 
-```
+```java
 javadoc NameOfClassFile.java
 ```
 
@@ -23,7 +23,7 @@ javadoc NameOfClassFile.java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Documented Annotations
 // Without using @Documented annotation
 
@@ -42,7 +42,7 @@ public class DocumentedAnnotationDemo {
 
 **Output**
 
-```
+```java
 This is the main method
 ```
 
@@ -60,7 +60,7 @@ This is the main method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Documented Annotations
 // With using @Documented annotation
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 This is the main function
 ```
 

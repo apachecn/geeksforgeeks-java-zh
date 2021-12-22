@@ -6,7 +6,7 @@ Java 中**计时周期类**的 **hashCode()方法**用来获取这个周期生�
 
 **语法:**
 
-```
+```java
 int hashCode()
 ```
 
@@ -18,7 +18,7 @@ int hashCode()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function hashCode()
 // to get the hashCode for the given period
 
@@ -49,14 +49,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 2032396
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function hashCode()
 // to get the hashCode for the given period
 
@@ -87,7 +87,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 2032372
 
 ```

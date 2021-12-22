@@ -18,7 +18,7 @@ Notes 应用程序用于制作简短的文本笔记，需要时更新，完成�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -66,7 +66,7 @@ Notes 应用程序用于制作简短的文本笔记，需要时更新，完成�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--Adding Menu to show the function to 
     User to delete and edit the data-->

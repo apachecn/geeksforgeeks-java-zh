@@ -16,13 +16,13 @@
 
 **语法:**
 
-```
+```java
 ArrayList1.addAll(ArrayList2);
 ```
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to demonstrate
 // How to sort ArrayList in descending order
 

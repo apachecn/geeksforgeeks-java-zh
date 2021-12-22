@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract LongBuffer put(Long i)
 ```
 
@@ -25,7 +25,7 @@ public abstract LongBuffer put(Long i)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -70,14 +70,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original LongBuffer:  [8, 9, 7]
 
 ```
 
 **例 2:** 演示 BufferOverflowException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Trying to put the Long at the position more than its limit
 Exception throws : java.nio.BufferOverflowException
 
@@ -139,7 +139,7 @@ Exception throws : java.nio.BufferOverflowException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -185,7 +185,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Trying to put the Long value in read only buffer
 Exception throws : java.nio.ReadOnlyBufferException
 

@@ -21,7 +21,7 @@ java 中异常主要有两种[类型，如下所示:](https://www.geeksforgeeks.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // ConcurrentModificationException
 
@@ -91,7 +91,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // ConcurrentModificationException
 
@@ -155,7 +155,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List Value Before Iteration:[1, 2, 3, 4, 5]
 List Value After iteration:[1, 2, 4, 5]
 ```

@@ -6,7 +6,7 @@ java 中 HashMap 类的 java.util.HashMap.values()方法用于从映射的值中
 
 **语法:**
 
-```
+```java
 Hash_Map.values()
 ```
 
@@ -17,7 +17,7 @@ Hash_Map.values()
 下面的程序用来说明 java.util.HashMap.values()的工作方式方法:
 **程序 1:** 将字符串值映射为整数键。
 
-```
+```java
 // Java code to illustrate the values() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The collection is: [Geeks, Welcomes, Geeks, You, 4]
 
@@ -54,7 +54,7 @@ The collection is: [Geeks, Welcomes, Geeks, You, 4]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the values() method
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The collection is: [15, 20, 30, 25]
 

@@ -20,14 +20,14 @@ Java 9 更新附带了一个更新的 Java 文档。我们不再需要使用谷�
 列表和集合接口有“of()”方法创建一个空的或非空的不可变列表或集合对象如下所示:
 **空列表示例:**
 
-```
+```java
 List immutableList = List.of();
 
 ```
 
 **非空列表示例:**
 
-```
+```java
 List immutableList = List.of("one", "two", "three");
 
 ```
@@ -35,7 +35,7 @@ List immutableList = List.of("one", "two", "three");
 Map 有两组方法:of()方法和 ofEntries()方法来创建一个不可变 Map 对象和一个不可变 Map。分别录入对象。
 **空图示例:**
 
-```
+```java
 jshell> Map emptyImmutableMap = Map.of()
 emptyImmutableMap ==> {}
 
@@ -43,7 +43,7 @@ emptyImmutableMap ==> {}
 
 **非空地图示例:**
 
-```
+```java
 jshell> Map nonemptyImmutableMap = Map.of(1, "one", 2, "two", 3, "three")
 nonemptyImmutableMap ==> {2=two, 3=three, 1=one}
 
@@ -62,7 +62,7 @@ nonemptyImmutableMap ==> {2=two, 3=three, 1=one}
 
 在 Java 8 中，我们可以使用默认和静态方法在接口中提供方法实现。然而，我们不能在接口中创建私有方法。为了避免冗余代码和更多的可重用性，甲骨文公司在 Java SE 9 接口中引入了私有方法。从 Java SE 9 开始，我们也可以使用“private”关键字在接口中编写私有和私有静态方法。
 
-```
+```java
 public interface Card{
 
   private Long createCardID(){
@@ -105,7 +105,7 @@ Java SE 9 在过程应用编程接口方面有所改进。他们增加了几个�
 
 Java 9 提供了一种执行 HTTP 调用的新方法。由于现有的或传统的 HTTP 客户端应用编程接口有许多问题(如支持 HTTP/1.1 协议，不支持 HTTP/2 协议和网络套接字，仅在阻塞模式下工作)和许多性能问题。)，他们正在用新的 HTTP 客户端替换这个 HTTP 连接 API。他们将在“java.net.http”包下引入新的 HTTP 2 Client API。它支持 HTTP/1.1 和 HTTP/2 协议。它支持同步(阻塞模式)和异步模式。它支持使用网络套接字接口的异步模式。
 
-```
+```java
 HttpClient client = HttpClient.newHttpClient();
 
 HttpRequest req =

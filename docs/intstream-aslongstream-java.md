@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LongStream asLongStream()
 
 Where, LongStream is a sequence of 
@@ -18,7 +18,7 @@ primitive long-valued element.
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream asLongStream()
 // to return a LongStream consisting of
 // the elements of this stream
@@ -46,7 +46,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3
 5
 9
@@ -57,7 +57,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream asLongStream()
 // to return a LongStream consisting of
 // the elements of this stream
@@ -82,7 +82,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3
 4
 5

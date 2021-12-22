@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public E ceiling(E e)
 ```
 
@@ -18,7 +18,7 @@ public E ceiling(E e)
 
 **异常:**如果指定的元素为空，并且该集合使用自然排序，或者其比较器不允许空元素，则该方法抛出**空指针异常**。
 
-```
+```java
 set = {10,20,30,40,50}
 
 // Least element in the set greater than or equal to the 23
@@ -32,7 +32,7 @@ Ceiling value of 55: null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program demonstrate how to get TreeSet Element
 // Greater than Specified Element using ceiling() Method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 TreeSet: [10, 20, 30, 40, 50]
 Ceiling value of 23: 30
 ```
@@ -73,7 +73,7 @@ Ceiling value of 23: 30
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program demonstrate how to get TreeSet Element
 // Greater than Specified Element using ceiling() Method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 TreeSet: [10, 20, 30, 40, 50]
 Ceiling value of 55: null
 ```

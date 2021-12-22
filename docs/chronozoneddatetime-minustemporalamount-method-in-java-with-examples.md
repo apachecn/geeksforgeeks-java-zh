@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default ChronoZonedDateTime minus(TemporalAmount amountTosubtract)
 
 ```
@@ -24,7 +24,7 @@ default ChronoZonedDateTime minus(TemporalAmount amountTosubtract)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.minus() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime after subtracting Days:
  2018-11-26T19:21:12.123+05:30[Asia/Calcutta]
 

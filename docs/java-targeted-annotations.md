@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```java
 @Target(ElementType.TYPE)
 @interface CustomAnnotation {}
 ```
@@ -31,7 +31,7 @@
 
 **语法:**
 
-```
+```java
 @Target({ElementType.METHOD, ElementType.PACKAGE})
 @interface CustomAnnotation {}
 ```
@@ -44,7 +44,7 @@
 
 ## Java
 
-```
+```java
 // Java program to Illustrate Targeted Annotations
 
 // Importing required classes from java.lang package 
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 @ClassAnnotation(value="Can annotate a class")
 @MultipleElementTypeAnnotation(value="Can annotate a class, method, annotation, or constructor")
 ```

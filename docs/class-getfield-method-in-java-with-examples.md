@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Field getField(String fieldName)
        throws NoSuchFieldException,
               SecurityException
@@ -27,7 +27,7 @@ public Field getField(String fieldName)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getField() method
 
 import java.util.*;
@@ -59,7 +59,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 obj Field of myClass: public java.lang.Object Test.obj
 
@@ -67,7 +67,7 @@ obj Field of myClass: public java.lang.Object Test.obj
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getField() method
 
 import java.util.*;
@@ -111,7 +111,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 java.lang.NoSuchFieldException: obj
 
 ```

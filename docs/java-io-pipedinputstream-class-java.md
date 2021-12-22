@@ -11,7 +11,7 @@
 
 **申报:**
 
-```
+```java
 public class PipedInputStream
   extends InputStream
 ```
@@ -27,7 +27,7 @@ public class PipedInputStream
 
 *   **int read():** Reads the next byte of data from this piped input stream.The value byte is returned as an int in the range 0 to 255\. This method blocks until input data is available, the end of the stream is detected, or an exception is thrown.
 
-    ```
+    ```java
     // Java program illustrating the working of read() method
     import java.io.*;
     public class NewClass
@@ -60,7 +60,7 @@ public class PipedInputStream
 
     **输出:**
 
-    ```
+    ```java
     using read() : G
     using read() : E
     using read() : K
@@ -69,7 +69,7 @@ public class PipedInputStream
 *   **read(byte[] buffer，int offset，int maxlen):****Java . io . pipedinputstream . read(byte[]buffer，int offset，int maxlen)** 从管道输入流读取最多 maxlen 字节的数据到缓冲区数组。如果到达流的末尾或引发异常，该方法将阻塞。
     **语法:**
 
-    ```
+    ```java
     public int read(byte[] buffer, int offset, int maxlen)
     Parameters : 
     buffer : the destination buffer into which the data is to be read
@@ -89,7 +89,7 @@ public class PipedInputStream
 *   **接收(int byte):****Java . io . pipedinputstream . receive(int byte)**接收字节的数据。如果没有可用的输入，则该方法阻塞。
     **语法:**
 
-    ```
+    ```java
     protected void receive(int byte)
     Parameters : 
     byte : the bytes of the data received
@@ -102,7 +102,7 @@ public class PipedInputStream
 *   **close():****Java . io . pipe dinputstream . close()**关闭管道输入流并释放分配的资源。
     **语法:**
 
-    ```
+    ```java
     public void close()
     Parameters : 
     --------------
@@ -115,7 +115,7 @@ public class PipedInputStream
 *   **connect(PipedOutputStream 源):****Java . io . pipe dinputstream . connect(pipe doutputstream 源)**将管道输入流连接到“源”管道输出流，如果“源”是带有其他流的管道，则会引发 IO 异常
     **语法:**
 
-    ```
+    ```java
     public void connect(PipedOutputStream source)
     Parameters : 
     source : the Piped Output Stream to be connected to
@@ -128,7 +128,7 @@ public class PipedInputStream
 *   **available() :** **java.io.PipedInputStream.available()** returns no. of bytes that can be read from Input Stream without actually being blocked.
     **Syntax :**
 
-    ```
+    ```java
     public int available()
     Parameters : 
     -------------
@@ -141,7 +141,7 @@ public class PipedInputStream
 
     **解释 PipedInputStream 类方法工作的 Java 程序:**
 
-    ```
+    ```java
     // Java program illustrating the working of PipedInputStream
     // connect(), read(byte[] buffer, int offset, int maxlen),
     // close(), available()
@@ -190,7 +190,7 @@ public class PipedInputStream
 
     **输出:**
 
-    ```
+    ```java
     Use of available() : 5
     Using read(buffer, offset, maxlen) : GEEKS
     Closing the stream

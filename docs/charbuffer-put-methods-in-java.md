@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract CharBuffer put(char i)
 
 ```
@@ -28,7 +28,7 @@ public abstract CharBuffer put(char i)
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate
 // put(char i) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original CharBuffer: [a, b, c]
 
 ```
@@ -84,7 +84,7 @@ Original CharBuffer: [a, b, c]
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -137,7 +137,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Trying to put the Int at the position more than its limit
 Exception throws : java.nio.BufferOverflowException
 
@@ -147,7 +147,7 @@ Exception throws : java.nio.BufferOverflowException
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -195,7 +195,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Trying to put the Int value in read only buffer
 Exception throws : java.nio.ReadOnlyBufferException
 

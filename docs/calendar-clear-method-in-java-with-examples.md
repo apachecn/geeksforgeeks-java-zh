@@ -7,7 +7,7 @@ Calendar 类中的 **clear()** 方法用于设置所有的日历字段值，该�
 
 **语法:**
 
-```
+```java
 public final void clear()
 ```
 
@@ -18,7 +18,7 @@ public final void clear()
 下面的程序说明了 Calendar 类的 clear()方法的工作:
 **示例:**
 
-```
+```java
 // Java Code to illustrate clear() Method
 
 import java.util.Calendar;
@@ -46,7 +46,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 Current Date&Time: Tue Feb 12 13:01:42 UTC 2019
 After clear method: Thu Jan 01 00:00:00 UTC 1970
 
@@ -54,7 +54,7 @@ After clear method: Thu Jan 01 00:00:00 UTC 1970
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate clone() Method
 
 import java.util.*;
@@ -82,7 +82,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 Original calendar: Wed Jan 02 00:00:00 UTC 2019
 After clear method: Thu Jan 01 00:00:00 UTC 1970
 

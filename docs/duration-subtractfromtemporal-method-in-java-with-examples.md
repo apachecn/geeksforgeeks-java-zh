@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Temporal subtractFrom?(Temporal temporalObject)
 
 ```
@@ -24,7 +24,7 @@ public Temporal subtractFrom?(Temporal temporalObject)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate subtractFrom() method
 
 import java.time.*;
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original time: 2018-11-26T06:48:30.256
 2018-11-24T03:44:30.256
 
@@ -63,7 +63,7 @@ Original time: 2018-11-26T06:48:30.256
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate subtractFrom() method
 
 import java.time.*;
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original time: 2018-11-26T06:48:33.319
 2018-12-01T06:48:33.319
 

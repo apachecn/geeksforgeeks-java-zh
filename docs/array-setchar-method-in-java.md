@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Array.setChar(Object []array, int index, char value)
 ```
 
@@ -28,7 +28,7 @@ Array.setChar(Object []array, int index, char value)
 
     **程序 1:**
 
-    ```
+    ```java
     // Java code to demonstrate setChar()
     // method of Array class
 
@@ -66,7 +66,7 @@ Array.setChar(Object []array, int index, char value)
 
     **Output:**
 
-    ```
+    ```java
     Before Set : a b c d e 
     After Set : a g c d e
 
@@ -74,7 +74,7 @@ Array.setChar(Object []array, int index, char value)
 
     **程序 2:** 演示 java.lang.NullPointerException
 
-    ```
+    ```java
     // Java code to demonstrate setChar()
     // method of Array class
 
@@ -103,14 +103,14 @@ Array.setChar(Object []array, int index, char value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.NullPointerException
 
     ```
 
     **程序 3:** 演示 Java . lang . arrayindexoutofboundsexception
 
-    ```
+    ```java
     // Java code to demonstrate
     // setChar() method of Array class
 
@@ -138,14 +138,14 @@ Array.setChar(Object []array, int index, char value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.ArrayIndexOutOfBoundsException
 
     ```
 
     **程序 4:** 演示 Java . lang . illegalargumentexception
 
-    ```
+    ```java
     // Java code to demonstrate setChar()
     // method of Array class
 
@@ -174,7 +174,7 @@ Array.setChar(Object []array, int index, char value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.IllegalArgumentException: Argument is not an array
 
     ```

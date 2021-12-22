@@ -6,7 +6,7 @@ Java.util.TreeMap 中有两个 contains()的**和**变体，本文将对这两�
 
 **1。containskey(对象 o) :** 如果映射包含指定键的映射，则返回 true。
 
-```
+```java
 Parameters:
 o : The key which will be tested whether present or not.
 Return Value:
@@ -18,7 +18,7 @@ NullPointerException : This is thrown if the specified key is null.
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of containsKey()
 
@@ -50,7 +50,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 true
 false
 
@@ -58,7 +58,7 @@ false
 
 **2。containsValue(对象 o) :** 如果此映射将一个或多个键映射到指定值，则返回 true。
 
-```
+```java
 Parameters:
 o : This is the value whose presence in this map is to be tested.
 Return Value:
@@ -67,7 +67,7 @@ NA
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of containsValue()
 
@@ -99,7 +99,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 true
 false
 

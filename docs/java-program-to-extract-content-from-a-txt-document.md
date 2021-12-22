@@ -21,7 +21,7 @@ Java 支持多个内置的类和包来提取和访问 PDF 文档中的内容。�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Extract Content from a TXT document
 
 // Importing java input/output classes

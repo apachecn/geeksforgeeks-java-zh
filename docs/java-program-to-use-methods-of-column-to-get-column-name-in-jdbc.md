@@ -18,7 +18,7 @@ Java 数据库连接或 JDBC 是一个 Java API(应用程序编程接口)，用�
 
 ## 爪哇
 
-```
+```java
 // Java Program to Use Methods of Column
 // to get column name in JDBC
 

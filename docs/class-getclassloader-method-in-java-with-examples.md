@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ClassLoader getClassLoader()
 
 ```
@@ -19,7 +19,7 @@ public ClassLoader getClassLoader()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getClassLoader() method
 
 public class Test {
@@ -43,7 +43,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 ClassLoader of myClass: sun.misc.Launcher$AppClassLoader@42a57993
 
@@ -51,7 +51,7 @@ ClassLoader of myClass: sun.misc.Launcher$AppClassLoader@42a57993
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getClassLoader() method
 
 public class Test {
@@ -75,7 +75,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 ClassLoader of arrClass: sun.misc.Launcher$AppClassLoader@42a57993
 
 ```

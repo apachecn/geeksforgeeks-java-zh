@@ -55,7 +55,7 @@ FileWriter 扩展了 OutputStreamWriter 和 [Writer](https://www.geeksforgeeks.o
 
 **申报**
 
-```
+```java
 public class FileWriter extends OutputStreamWriter 
 ```
 
@@ -63,7 +63,7 @@ public class FileWriter extends OutputStreamWriter
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a text File using FileWriter
 
 import java.io.FileWriter;
@@ -104,7 +104,7 @@ class GFG {
 
 在创建 Java FileWriter 时，我们可以决定是将文件追加到现有文件，还是覆盖任何现有文件。这可以通过选择适当的构造函数来决定。覆盖任何现有文件的**构造函数只接受**一个参数，即文件名。****
 
-```
+```java
 Writer fileWriter = new FileWriter("c:\\data\\output.txt");
 ```
 
@@ -126,7 +126,7 @@ Writer fileWriter = new FileWriter("c:\\data\\output.txt");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to write text to file
 
 import java.io.FileWriter;
@@ -163,7 +163,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to show the usage
 // of getEncoding() function
 
@@ -204,7 +204,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 The character encoding of output1: Cp1253
 The character encoding of output2: UTF11
 ```
@@ -218,7 +218,7 @@ The character encoding of output2: UTF11
 
 在完成向文件写入器写入字符后，我们应该关闭它。这是通过调用 close()方法来完成的。
 
-```
+```java
  try {
      // Creates a FileReader with default encoding
      FileWriter o1 = new FileWriter(file);

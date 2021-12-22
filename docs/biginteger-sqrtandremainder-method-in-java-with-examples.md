@@ -8,7 +8,7 @@ java.math.BigInteger 。sqrtAndRemainder()方法对调用此方法的当前 BigI
 
 **语法:**
 
-```
+```java
 public BigInteger[] sqrtAndRemainder()
 
 ```
@@ -23,7 +23,7 @@ public BigInteger[] sqrtAndRemainder()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // sqrtAndRemainder() method of BigInteger
 
@@ -66,7 +66,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 The square root of
 15
 is 3
@@ -76,7 +76,7 @@ and remainder is 6
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // sqrtAndRemainder() method of BigInteger
 
@@ -119,7 +119,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 The square root of
 625
 is 25
@@ -130,7 +130,7 @@ and remainder is 0
 **例 3:**
 数值为负时显示异常的程序。
 
-```
+```java
 // Java program to demonstrate
 // sqrtAndRemainder() method of BigInteger
 
@@ -173,7 +173,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: Negative BigInteger
 
 ```

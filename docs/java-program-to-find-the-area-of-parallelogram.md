@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```java
 Input : base = 4, height = 6
 Output: area = 24
 
@@ -34,7 +34,7 @@ Output: area = 150
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Area of Parallelogram
 
 import java.io.*;
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of the parallelogram = 1207.5
 ```
 
@@ -71,7 +71,7 @@ Area of the parallelogram = 1207.5
 
 **示例:**
 
-```
+```java
 Input : length = 4, breadth = 6, angle(in degrees) = 30
 Output: area = 11.999999999999998
 
@@ -89,7 +89,7 @@ Output: area = 28.2842712474619
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Area of Parallelogram
 
 import java.io.*;
@@ -115,6 +115,6 @@ import java.io.*;
 
 **Output**
 
-```
+```java
 Area of the parallelogram = 138.56406460551017
 ```

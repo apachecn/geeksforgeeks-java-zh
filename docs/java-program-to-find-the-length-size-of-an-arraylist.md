@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: ArrayList: [1, 2, 3, 4, 5]
 Output: 5
 
@@ -22,7 +22,7 @@ Output: 3
 
 **语法:**
 
-```
+```java
 int size = ArrayList.size();
 ```
 
@@ -32,7 +32,7 @@ int size = ArrayList.size();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the size
 // of an ArrayList
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: [1, 2, 3, 4, 5]
 Size of ArrayList = 5
 ```
@@ -80,7 +80,7 @@ Size of ArrayList = 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the size
 // of an String ArrayList
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: [GeeksforGeeks, a, computer, science, portal, for, geeks]
 Size of ArrayList = 7
 ```

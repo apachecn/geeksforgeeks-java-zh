@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final V compareAndExchange(V expectedValue,
                                   V newValue)
 
@@ -19,7 +19,7 @@ public final V compareAndExchange(V expectedValue,
 下面的程序说明了 compareAndExchange()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.compareAndExchange() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.compareAndExchange() method
 

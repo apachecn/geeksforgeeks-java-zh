@@ -5,7 +5,7 @@
 [**Java . lang . Class**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/)的 **forName(String，boolean，ClassLoader)** 方法用于使用指定的类加载器获取该类的具有指定类名的实例。只有当 initialize 参数为 true 并且该类之前没有初始化过时，该类才会初始化。
 **语法:**
 
-```
+```java
 public static Class<T>
  forName(String className, 
          boolean initialize, 
@@ -32,7 +32,7 @@ public static Class<T>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate forName() method
 
 public class Test {
@@ -59,7 +59,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by c1: class java.lang.String
 ```
 
@@ -67,7 +67,7 @@ Class represented by c1: class java.lang.String
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate forName() method
 
 public class Test {
@@ -94,7 +94,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by c1: class java.lang.Integer
 ```
 

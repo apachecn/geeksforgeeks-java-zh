@@ -8,14 +8,14 @@
 
 1.  **applyAsInt()** : This function takes two Int values, performs the required operation, and returns the result as int.
 
-    ```
+    ```java
     public int applyAsInt(int val1, int val2)
 
     ```
 
 用[λ表达式](https://www.geeksforgeeks.org/lambda-expressions-java-8/)演示 IntBinaryOperator 接口的示例。
 
-```
+```java
 // Java program to demonstrate IntBinaryOperator
 
 import java.util.function.IntBinaryOperator;
@@ -48,7 +48,7 @@ public class IntBinaryOperatorDemo {
 
 **输出:**
 
-```
+```java
 5! divided by 7! = 0
 7! divided by 5! = 42
 

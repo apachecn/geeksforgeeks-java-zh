@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert timestamp to Date
 
 // Importing java Date libraries
@@ -54,7 +54,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Tue Nov 24 00:28:31 UTC 2020
 ```
 
@@ -64,7 +64,7 @@ Tue Nov 24 00:28:31 UTC 2020
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert timestamp to Date
 // Importing java Date libraries
 import java.sql.Timestamp;
@@ -94,7 +94,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2020-11-24 00:28:30.646
 ```
 
@@ -104,7 +104,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert timestamp to Date
 
 // Importing java Date libraries
@@ -136,6 +136,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Tue Nov 24 00:28:31 UTC 2020
 ```

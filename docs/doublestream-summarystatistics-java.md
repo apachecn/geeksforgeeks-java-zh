@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 DoubleSummaryStatistics summaryStatistics()
 
 ```
@@ -21,7 +21,7 @@ DoubleSummaryStatistics summaryStatistics()
 
 **示例:**使用双流汇总统计()获取给定双流中存在的元素的双流汇总统计。
 
-```
+```java
 // Java code for DoubleStream summaryStatistics()
 // to get various summary data about the
 // elements of the stream.
@@ -50,7 +50,7 @@ class GFG {
 
 输出:
 
-```
+```java
 DoubleSummaryStatistics{count=4, sum=23.100000, min=4.200000, average=5.775000, max=7.100000}
 
 ```

@@ -5,7 +5,7 @@
 [**Java 抽象集合**](https://www.geeksforgeeks.org/abstractcollection-in-java-with-examples/) 的 **contains()** 方法用于检查集合中是否存在元素。它将元素作为参数，如果集合中存在该元素，则返回 True。
 **语法:**
 
-```
+```java
 AbstractCollection.contains(Object element)
 ```
 
@@ -16,7 +16,7 @@ AbstractCollection.contains(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate boolean contains()
 
 import java.util.*;
@@ -62,7 +62,7 @@ public class AbstractCollectionDemo {
 
 **Output:** 
 
-```
+```java
 Abstract Collection:[Geeks, for, Geeks, 10, 20]
 
 Does the Collection contains 'Hello': false
@@ -74,7 +74,7 @@ Does the Collection contains 'Geeks': true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate boolean contains()
 
 import java.util.*;
@@ -125,7 +125,7 @@ public class AbstractCollectionDemo {
 
 **Output:** 
 
-```
+```java
 Abstract Collection:[20, Geeks, TreeSet, for]
 
 Does the Collection contains 'TreeSet': true

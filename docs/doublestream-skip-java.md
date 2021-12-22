@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream skip(long n)
 
 ```
@@ -24,7 +24,7 @@ DoubleStream skip(long n)
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream skip() function
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 7.0
 13.2
 15.4
@@ -56,7 +56,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream skip() function
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -79,7 +79,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 13.2
 7.0
 15.4

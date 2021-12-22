@@ -5,7 +5,7 @@
 [**Java . text . choice format**](https://www.geeksforgeeks.org/tag/java-choiceformat/)类的 **format()** 方法用于获取该方法中作为参数传递的特定限值的格式值和作为参数传递的文本的追加字符串生成器。
 **语法:**
 
-```
+```java
 public StringBuffer format(double number,
                          StringBuffer toAppendTo,
                          FieldPosition status)
@@ -24,7 +24,7 @@ public StringBuffer format(double number,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // format() method
 
@@ -64,6 +64,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Formated text with appended value: Sunfri 
 ```

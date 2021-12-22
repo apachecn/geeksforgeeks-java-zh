@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final String toString()
 ```
 
@@ -18,7 +18,7 @@ public final String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 UTF-8
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 UTF-16
 
 ```

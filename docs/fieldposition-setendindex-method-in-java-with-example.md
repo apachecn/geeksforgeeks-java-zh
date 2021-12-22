@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setEndIndex(int ei)
 ```
 
@@ -18,7 +18,7 @@ public void setEndIndex(int ei)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getEndIndex() method
 
@@ -58,14 +58,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 end index :- 10
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getEndIndex() method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 end index :- 5
 
 ```

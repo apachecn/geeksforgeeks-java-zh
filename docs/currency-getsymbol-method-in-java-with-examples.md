@@ -6,7 +6,7 @@ Java 中 Currency 类的 **getSymbol()** 方法用于检索货币代码的官方
 
 **语法:**
 
-```
+```java
 CURRENCY.getSymbol()
 ```
 
@@ -20,7 +20,7 @@ CURRENCY.getSymbol()
 
 **程序 1:**
 
-```
+```java
 // Java Code to illustrate getSymbol() method
 
 import java.util.*;
@@ -44,14 +44,14 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 Symbol for the currency of India is: INR
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java Code to illustrate getSymbol() method
 
 import java.util.*;
@@ -75,14 +75,14 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 Symbol for the currency of USA is: $
 
 ```
 
 **程序 3:** 为无效的货币代码。
 
-```
+```java
 // Java Code to illustrate getSymbol() method
 
 import java.util.*;
@@ -111,7 +111,7 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean contains(float[] array,
                                float target)
 
@@ -23,7 +23,7 @@ public static boolean contains(float[] array,
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.contains() method
 
@@ -57,14 +57,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is present in the array
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.contains() method
 
@@ -98,7 +98,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is not present in the array
 
 ```

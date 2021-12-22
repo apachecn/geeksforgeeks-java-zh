@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static void 
     setDefault(Locale.Category cate,  
                Locale newLocale)
@@ -27,7 +27,7 @@ public static void
 下面的程序说明了区域设置类的 setDefault()方法:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate setDefault() method
 
 import java.util.*;
@@ -59,7 +59,7 @@ class Locale_Demo {
 
 **输出:**
 
-```
+```java
 First Locale: nu_NO_NY
 The Hash Code: en_US
 
@@ -67,7 +67,7 @@ The Hash Code: en_US
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate setDefault() method
 
 import java.util.*;
@@ -99,7 +99,7 @@ class Locale_Demo {
 
 **输出:**
 
-```
+```java
 First Locale: en_IN
 The Hash Code: en_US
 

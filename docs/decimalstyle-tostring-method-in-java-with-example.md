@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的 **toString()** 方法用�
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -48,7 +48,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 String value of DS 1: DecimalStyle[0+-.]
 String value of DS 2: DecimalStyle[0+-.]
 

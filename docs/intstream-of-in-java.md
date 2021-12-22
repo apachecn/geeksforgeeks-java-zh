@@ -7,7 +7,7 @@
 **IntStream of(int t)** 返回包含单个元素的顺序 IntStream。
 **语法:**
 
-```
+```java
 static IntStream of(int t)
 ```
 
@@ -21,7 +21,7 @@ static IntStream of(int t)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for IntStream of(int t)
 // to get a sequential IntStream
 // containing a single element.
@@ -44,7 +44,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -7
 ```
 
@@ -53,7 +53,7 @@ class GFG {
 **IntStream of(int… values)** 返回一个顺序有序的流，其元素是指定的值。
 **语法:**
 
-```
+```java
 static IntStream of(int... values)
 ```
 
@@ -67,7 +67,7 @@ static IntStream of(int... values)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for IntStream of(int... values)
 // to get a sequential ordered stream whose
 // elements are the specified values.
@@ -90,7 +90,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -7
 -9
 -11
@@ -100,7 +100,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for IntStream of(int... values)
 // to get a sequential ordered stream whose
 // elements are the specified values.
@@ -126,7 +126,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3
 ```
 
@@ -136,7 +136,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.stream.IntStream;
 import java.io.PrintStream;
 class GFG{
@@ -155,7 +155,7 @@ class GFG{
 
 输出:
 
-```
+```java
 OptionalInt[10]
 
 java.lang.IllegalStateException: stream has already been operated upon or closed
@@ -165,7 +165,7 @@ java.lang.IllegalStateException: stream has already been operated upon or closed
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.stream.IntStream;
 import java.io.PrintStream;
 import java.util.function.Supplier;
@@ -206,7 +206,7 @@ public class IntStreamClass{
 
 输出:
 
-```
+```java
 1
 61
 343
@@ -233,7 +233,7 @@ public class IntStreamClass{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.stream.IntStream;
 import java.io.PrintStream;
 import java.util.function.Supplier;
@@ -263,7 +263,7 @@ public class IntStreamClass{
 
 输出:
 
-```
+```java
 Average : 77572.5
 Sum : 620580
 min : 1
@@ -276,7 +276,7 @@ max : 613434
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.stream.IntStream;
 import java.io.PrintStream;
 import java.util.function.Supplier;

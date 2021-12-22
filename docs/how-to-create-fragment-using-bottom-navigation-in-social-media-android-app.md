@@ -17,7 +17,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
@@ -57,7 +57,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -97,7 +97,7 @@
 
 在这个文件中，我们只是根据选择的导航项目显示片段。然后我们将展示各自的片段。
 
-```
+```java
 HomeFragment fragment=new HomeFragment();
         FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.content,fragment,"");
@@ -108,7 +108,7 @@ HomeFragment fragment=new HomeFragment();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.socialmediaapp;
 
 import android.os.Bundle;

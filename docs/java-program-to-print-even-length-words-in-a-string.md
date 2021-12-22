@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: s = "This is a java language"
 Output: This
         is
@@ -23,13 +23,13 @@ Output: am
 *   Take strings
 *   With the help of [split () method in string class, the string is broken into words. It is a rope used to break sentences. So here **""(space)** is passed as a parameter. As a result, the words of the string are split into string arrays
 
-    ```
+    ```java
     String[] words = str.split(" ");
 
     ```](https://www.geeksforgeeks.org/split-string-java-examples/) 
 *   Returns, with the help of [foreach loop](https://www.geeksforgeeks.org/for-each-loop-in-java/) in Java, traversing every word in the returned string array.
 
-    ```
+    ```java
     for(String word : words)
     { }
 
@@ -37,7 +37,7 @@ Output: am
 
 *   Use the [string.length ()](https://www.geeksforgeeks.org/how-to-determine-length-or-size-of-a-string-in-java/) function to calculate the length of each word.
 
-    ```
+    ```java
     int lengthOfWord = word.length();
 
     ```
@@ -46,7 +46,7 @@ Output: am
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to print
 // even length words in a string
 
@@ -76,7 +76,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 am
 Geek
 

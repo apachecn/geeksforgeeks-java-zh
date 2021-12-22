@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Temporal adjustInto(Temporal temporal)
 
 ```
@@ -24,7 +24,7 @@ public Temporal adjustInto(Temporal temporal)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.adjustInto() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime before adjustInto():2018-12-03T06:30:31.142Z[Etc/UTC]
 ZonedDateTime after adjustInto():2018-12-03T09:32:42Z[Etc/UTC]
 
@@ -68,7 +68,7 @@ ZonedDateTime after adjustInto():2018-12-03T09:32:42Z[Etc/UTC]
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.adjustInto() method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before adjustInto() OffsetDateTime: 2018-12-03T06:30:33.927Z
 After adjustInto() OffsetDateTime: 2018-12-03T19:52:43Z
 

@@ -6,7 +6,7 @@ HashMap 类的 java.util.HashMap.get()方法用于检索或获取参数中提到
 
 **语法:**
 
-```
+```java
 Hash_Map.get(*Object key_element*)
 ```
 
@@ -17,7 +17,7 @@ Hash_Map.get(*Object key_element*)
 下面的程序说明了 java.util.HashMap.get()方法的工作原理:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The Value is: Welcomes
 The Value is: Geeks
@@ -58,7 +58,7 @@ The Value is: Geeks
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The Value is: 20
 The Value is: 30

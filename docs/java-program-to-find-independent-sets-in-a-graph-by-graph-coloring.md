@@ -42,7 +42,7 @@ java 中引用调用的功能的基本思想和向量的概念是必须的。此
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find Independent Sets in a Graph
 // by Graph Coloring
 
@@ -384,7 +384,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The number of vertices in the graph is taken as 4
 The minimum size of the set required is taken as 2
 Searching for the set

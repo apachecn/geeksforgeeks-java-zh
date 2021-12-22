@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String group(String string)
 
 ```
@@ -24,7 +24,7 @@ public String group(String string)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate end() method
 
 import java.util.regex.*;
@@ -70,7 +70,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate end() method
 
 import java.util.regex.*;

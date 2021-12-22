@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean containsKey(Object ob)
 
 ```
@@ -19,7 +19,7 @@ public boolean containsKey(Object ob)
 
 **节目 1:**
 
-```
+```java
 // Java Program Demonstrate containsKey()
 // method of ConcurrentSkipListMap
 
@@ -51,7 +51,7 @@ class GFG {
 
 **节目 2:**
 
-```
+```java
 // Java Program Demonstrate containsKey()
 // method of ConcurrentSkipListMap
 

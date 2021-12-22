@@ -23,7 +23,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Illustration of TreeMap and TreeSet in Java
 import java.io.*;
 import java.util.*;
@@ -50,7 +50,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 [3, 4, 5]
 {2=3, 3=5, 4=5}
 ```** 
@@ -59,7 +59,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Illustration of TreeMap and TreeSet in Java
 import java.io.*;
 import java.util.*;
@@ -87,7 +87,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 [FOR, geeks, tutorial]
 {1=geeks, 2=FOR, 3=geeks, 4=tutorial}
 ```** 

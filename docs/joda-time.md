@@ -6,7 +6,7 @@ Joda-Time 是由*joda.org*创建的一个 API，它提供了比 java.util 包中
 
 **要包含我们需要导入的内容:**
 
-```
+```java
 import java.time.*;
 ```
 
@@ -24,7 +24,7 @@ import java.time.*;
 
 1.  **DateTime :** Immutable replacement for JDK Calendar.
 
-    ```
+    ```java
         DateTime dt = new DateTime(); 
     ```
 
@@ -32,7 +32,7 @@ import java.time.*;
 
 2.  **LocalDate :** 这个类以年-月-日的形式表示日期，用于表示没有时间和时区的日期。
 
-    ```
+    ```java
     LocalDate today = LocalDate.now()
     //gives System date into LocalDate object using now method.
 
@@ -45,7 +45,7 @@ import java.time.*;
 
 3.  **LocalTime :** 这个类代表一天中没有时区的时间。
 
-    ```
+    ```java
     LocalTime time = LocalTime.now(); //gives System time into localTime object
     System.out.println(time); // 10:19:58
 
@@ -53,7 +53,7 @@ import java.time.*;
 
 4.  **LocalDateTime :** This class handles both date and time without considering the time zone.
 
-    ```
+    ```java
     // get current date and time
     LocalDateTime dt = LocalTime.now(); 
     System.out.println("%s", dt);
@@ -69,13 +69,13 @@ import java.time.*;
     5.  再次右键单击您的项目(在包资源管理器中)，然后选择属性-> Java 构建路径->库->添加 jar-> joda-time-2.1 . jar
     6.  现在你可以用这个代码进行测试:
 
-        ```
+        ```java
         DateTime test = new DateTime();
         ```
 
     **基本示例**
 
-    ```
+    ```java
     // Java program to illustrate
     // functions of JODA time
     import org.joda.time.DateTime;
@@ -99,7 +99,7 @@ import java.time.*;
 
     **输出**
 
-    ```
+    ```java
     Current Day: Monday
     Current Month: August
     Current Year: 2018

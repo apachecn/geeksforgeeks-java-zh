@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public List eras()
 ```
 
@@ -18,7 +18,7 @@ public List eras()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // eras() method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoEra is: BEFORE_ROC
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // eras() method
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List of MinguoEra : 
 BEFORE_ROC
 ROC

@@ -6,7 +6,7 @@ Java 中的[比较器](https://www.geeksforgeeks.org/comparator-interface-java/)
 
 **语法**
 
-```
+```java
 public static int binarySearch(List list, T key)
 ```
 
@@ -25,7 +25,7 @@ public static int binarySearch(List list, T key)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -117,7 +117,7 @@ public class BinarySearchDemo {
 
 **Output**
 
-```
+```java
 Index of the searched key: 6
 Index of the searched key: -1
 ```
@@ -130,7 +130,7 @@ Index of the searched key: -1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -223,7 +223,7 @@ public class BinarySearchDemo {
 
 **Output**
 
-```
+```java
 0 Liam 100
 1 Jane 98
 2 Archie 96

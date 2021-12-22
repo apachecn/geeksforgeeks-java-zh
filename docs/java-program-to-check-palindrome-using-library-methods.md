@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : malayalam
 Output : Yes
 
@@ -15,7 +15,7 @@ Output : No
 
 ```
 
-```
+```java
 // Java program to illustrate checking of a string
 // if its palindrome or not using reverse function
 class Palindrome
@@ -44,7 +44,7 @@ class Palindrome
 
 输出:
 
-```
+```java
 Yes
 No
 

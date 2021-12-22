@@ -6,7 +6,7 @@
 
 **朴素模式搜索算法:**
 
-```
+```java
 Input   :  "AABACACAACAC"
 Pattern :  "CAC"
 Output  :  [4,9]
@@ -18,7 +18,7 @@ AABACACAACAC
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Search for a Pattern String in the Input
 // String returning the indicies
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Pattern is found at the indicies : 4 , 9 , 
 ```
 
@@ -110,7 +110,7 @@ Pattern is found at the indicies : 4 , 9 ,
 
 插图:
 
-```
+```java
 Input:  txt[] = "THIS IS A TEST TEXT"
         pat[] = "TEST"
 Output: Pattern found at index 10
@@ -139,7 +139,7 @@ Output: Pattern found at index 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrating Simple Rolling Hashing
 
 // Importing input output classes
@@ -238,7 +238,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 0
 9
 12

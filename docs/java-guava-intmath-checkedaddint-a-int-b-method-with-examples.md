@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int checkedAdd(int a, int b)
 
 ```
@@ -21,7 +21,7 @@ public static int checkedAdd(int a, int b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // checkedAdd(int a, int b) method
 // of Guava's IntMath class
@@ -59,7 +59,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Sum of 25 and 36 is: 61
 Sum of 150 and 667 is: 817
 
@@ -67,7 +67,7 @@ Sum of 150 and 667 is: 817
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // checkedAdd(int a, int b) method
 // of Guava's IntMath class

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 IntStream filter(IntPredicate predicate)
 
 Where, IntStream is a sequence of primitive int-valued elements.
@@ -17,7 +17,7 @@ of one int-valued argument and the function returns the new stream.
 
 **示例 1 :** 在 IntStream 上使用 filter()方法。
 
-```
+```java
 // Java code for IntStream filter
 // (IntPredicate predicate) to get a stream
 // consisting of the elements of this
@@ -45,7 +45,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5
 8
 
@@ -53,7 +53,7 @@ class GFG {
 
 **示例 2 :** 在 IntStream 上使用 filter()方法。
 
-```
+```java
 // Java code for IntStream filter
 // (IntPredicate predicate) to get a stream
 // consisting of the elements of this
@@ -80,7 +80,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1
 2
 

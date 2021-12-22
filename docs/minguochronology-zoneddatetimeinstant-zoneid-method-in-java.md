@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime zonedDateTime(
        Instant instant, ZoneId zone)
 ```
@@ -24,7 +24,7 @@ public ZonedDateTime zonedDateTime(
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -73,14 +73,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate and time is: Minguo ROC 109-04-20T14:24:49.696Z[Etc/UTC]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate and time is: Minguo ROC 59-01-01T06:56:40Z[Etc/UTC]
 
 ```

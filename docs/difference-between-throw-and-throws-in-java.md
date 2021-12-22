@@ -41,7 +41,7 @@ throw 和 throw 是 Java 中异常处理的概念，throw 关键字显式地从�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working 
 // of throw keyword in exception handling
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException
     at GFG.main(GFG.java:10)
 ```
@@ -71,7 +71,7 @@ java.lang.ArithmeticException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working
 // of throws keyword in exception handling
 import java.io.*;
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.security.AccessControlException: access denied ("java.io.FilePermission" "myFile.txt" "write")
   at GFG.writeToFile(GFG.java:10)
 ```

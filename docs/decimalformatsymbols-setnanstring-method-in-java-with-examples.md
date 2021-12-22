@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setNaN(String NaN)
 
 ```
@@ -19,7 +19,7 @@ public void setNaN(String NaN)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -50,7 +50,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current String used for NaN: ?
 Updated String used for NaN: *
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 new_abstract_map.putAll(*exist_abstract_map*)
 ```
 
@@ -20,7 +20,7 @@ new_abstract_map.putAll(*exist_abstract_map*)
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the putAll() method
 
 import java.util.*;
@@ -59,7 +59,7 @@ public class Abstract_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The new map looks like this: {25=Welcomes, 10=Geeks, 20=Geeks, 30=You, 15=4}
 
@@ -67,7 +67,7 @@ The new map looks like this: {25=Welcomes, 10=Geeks, 20=Geeks, 30=You, 15=4}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the putAll() method
 
 import java.util.*;
@@ -106,7 +106,7 @@ public class Abstract_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The new map looks like this: {Geeks=20, 4=15, You=30, Welcomes=25}
 

@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 DoubleObject.floatValue()
 
 ```
@@ -19,7 +19,7 @@ DoubleObject.floatValue()
 
 **代码 1 :**
 
-```
+```java
 // Java Code to implement 
 // floatValue() method of Double class
 class GFG {
@@ -41,14 +41,14 @@ class GFG {
 
 **输出**
 
-```
+```java
 23.0
 
 ```
 
 **代码 2 :**
 
-```
+```java
 // Java Code to implement 
 // floatValue() method 
 // of Double class
@@ -71,7 +71,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 -1023.15
 
 ```

@@ -6,28 +6,28 @@
 
 **签名:**
 
-```
+```java
 public boolean endsWith(String suff)     
 
 ```
 
 **参数:**
 
-```
+```java
 suff- specified suffix part 
 
 ```
 
 **返回:**
 
-```
+```java
 true or false
 
 ```
 
 **示例:**显示 **endsWith()** 方法的工作
 
-```
+```java
 // Java program to demonstrate
 // working of endsWith() method
 
@@ -45,12 +45,12 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of endsWith() method
 
@@ -69,12 +69,12 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of endsWith() method
 
@@ -93,7 +93,7 @@ class Gfg3 {
 
 **输出:**
 
-```
+```java
 true
 
 ```

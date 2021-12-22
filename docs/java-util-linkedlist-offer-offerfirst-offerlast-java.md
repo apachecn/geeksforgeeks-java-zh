@@ -6,7 +6,7 @@
 
 **1。offer(E e) :** 此方法添加**指定元素作为此列表的尾部**(最后一个元素)。
 
-```
+```java
 Declaration : 
    public boolean offer(E e)
 Parameters : 
@@ -17,7 +17,7 @@ Return Value :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the working
 // of offer(E e) in linked list
 import java.util.*;
@@ -50,14 +50,14 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial Linked list is : [Geeks, 4, Geeks, 8]
 LinkedList after insertion using offer() : [Geeks, 4, Geeks, 8, Astha]
 ```
 
 **2。offerFirst(E e) :** 这个方法**在这个列表的前面**插入指定的元素**。**
 
-```
+```java
 Declaration : 
    public boolean offerFirst(E e)
 Parameters : 
@@ -68,7 +68,7 @@ Return Value :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the working
 // of offerFirst(E e) in linked list
 import java.util.*;
@@ -101,14 +101,14 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial Linked list is : [Geeks, 4, Geeks, 8]
 LinkedList after insertion using offerFirst() : [Astha, Geeks, 4, Geeks, 8]
 ```
 
 **3。offerLast(E e) :** 此方法**在此列表的末尾**插入指定元素**。**
 
-```
+```java
 Declaration : 
      public boolean offerLast(E e)
 Parameters : 
@@ -119,7 +119,7 @@ Return Value :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the working
 // of offerLast(E e) in linked list
 import java.util.*;
@@ -152,7 +152,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial Linked list is : [Geeks, 4, Geeks, 8]
 LinkedList after insertion using offerLast() : [Geeks, 4, Geeks, 8, Astha]
 ```
@@ -161,7 +161,7 @@ LinkedList after insertion using offerLast() : [Geeks, 4, Geeks, 8, Astha]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the application
 // of offer() in linked list
 import java.util.*;
@@ -207,7 +207,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial Linked list is : [12, 4, 8, 10, 3, 15]
 The prioritized Linked list is : [15, 10, 12, 4, 8, 3]
 ```

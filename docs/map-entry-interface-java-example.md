@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 Interface Map.Entry
 k -> Key
 V -> Value
@@ -17,7 +17,7 @@ V -> Value
 1.  **等于(对象 o)**–它比较对象(调用对象)和对象 o 是否相等。
     **语法:**
 
-```
+```java
 boolean equals(Object o)
 Parameters :
 o -> Object to which we want to compare
@@ -30,7 +30,7 @@ false: otherwise
 *   **K getKey()** – Returns the key for the corresponding map entry.
     **Syntax :**
 
-    ```
+    ```java
     K getKey()
     Parameters :
     -------------
@@ -44,7 +44,7 @@ false: otherwise
     *   当条目从地图中移除时，将引发 **IllegalSateException** 。*   **V getValue()**–返回相应地图条目的值。
     **语法:**
 
-    ```
+    ```java
     V getValue()
     Parameters :
     -------------
@@ -56,7 +56,7 @@ false: otherwise
     *   **int hashcode()**–返回对应地图条目的 hashcode。
     **语法:**
 
-    ```
+    ```java
     int hashcode()
     Parameters :
     -------------
@@ -67,7 +67,7 @@ false: otherwise
 
     *   **V setValue(V v)** – Sets the value of the map with specified value v
 
-    ```
+    ```java
     V setValue(V v)
     Parameters :
     v -> Value which was earlier stored in the entry on which it is invoked
@@ -86,7 +86,7 @@ false: otherwise
     **设置<地图。条目>entrySet()–**返回整个地图的设置视图。
     **注:**这不是 Map.entry 接口的一种方法，但这里讨论是因为这个方法在使用 Map 时很有用。入口界面。
 
-    ```
+    ```java
     Set<Map.Entry> entrySet() 
     Parameters :
     ---------------
@@ -96,7 +96,7 @@ false: otherwise
 
     **下面的程序演示了 Map 的工作原理。条目:**
 
-    ```
+    ```java
     // Java Program to demonstrate the
     // methods of Map.Entry 
     import java.util.LinkedHashMap;
@@ -145,7 +145,7 @@ false: otherwise
 
     输出:
 
-    ```
+    ```java
     Before change of value = 1 - Bedroom   25000
     After change of value = 1 - Bedroom   59475
     Before change of value = 2 - Bedroom   50000

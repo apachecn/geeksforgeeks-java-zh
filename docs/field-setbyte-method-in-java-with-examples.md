@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setByte(Object obj, byte b)
             throws IllegalArgumentException,
                    IllegalAccessException
@@ -30,7 +30,7 @@ public void setByte(Object obj, byte b)
 下面的程序说明了 setByte()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setByte() method
 
 import java.lang.reflect.Field;
@@ -95,7 +95,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of leaveLeft before applying setByte is 12
 Value of leaveLeft after applying setByte is 2
 Value of age before applying setByte is 45
@@ -105,7 +105,7 @@ Value of age after applying setByte is 56
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setByte() method
 
 import java.lang.reflect.Field;
@@ -144,7 +144,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Value after applying setByte is 20
 
 ```

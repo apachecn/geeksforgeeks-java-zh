@@ -10,7 +10,7 @@ servlet 中的属性是一个对象，可以通过以下方面进行设置、获
 
 要将值从 servlet 传递到 html/jsp 文件，请求对象调用 **setAttribute()** 方法。setAttribute()方法将输入作为对象，将数据从 servlet 发送到请求网站
 
-```
+```java
 public void setAttribute(String name, Object obj)
 ```
 
@@ -18,7 +18,7 @@ public void setAttribute(String name, Object obj)
 
 在用户端，html 使用一种语法来获取属性
 
-```
+```java
 ${ var-name }
 ```
 
@@ -30,7 +30,7 @@ ${ var-name }
 
 代码会将输入数据发送给 Servlet 来处理验证，如果发生任何验证，Servlet 会返回错误文本。
 
-```
+```java
 <body>
 <h1>Demo</h1>
 <p style="color: black;">* required field</p> 
@@ -62,7 +62,7 @@ ${ var-name }
 
 该程序处理请求的数据并检查其有效性，如果遇到任何错误，它将在称为映射类的包中添加错误文本。这个包再次被发送到请求站点进行纠错
 
-```
+```java
 // Servlet code
 import java.io.IOException;
 import java.util.HashMap;
@@ -144,7 +144,7 @@ public class CommitServlet extends HttpServlet {
 
 如果没有出现错误，将打印成功消息
 
-```
+```java
 <body>
     <center>
         <h1>Comment Successfully Stored</h1>

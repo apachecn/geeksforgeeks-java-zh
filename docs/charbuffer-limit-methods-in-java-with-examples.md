@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public CharBuffer limit(int newLimit)
 ```
 
@@ -16,7 +16,7 @@ public CharBuffer limit(int newLimit)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // limit() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharBuffer before setting buffer's limit: [a, b,,  ]
 Position: 2
 Limit: 4
@@ -77,7 +77,7 @@ Limit: 1
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // limit() method
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharBuffer before setting buffer's limit: [a, b, c,,  ]
 Position: 3
 Limit: 5

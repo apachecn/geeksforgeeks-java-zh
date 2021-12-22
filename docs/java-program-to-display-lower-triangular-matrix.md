@@ -6,7 +6,7 @@
 
 **示例**
 
-```
+```java
 Input 1: mat[][] = { {2, 1, 4},
                      {1, 2, 3},  
                      {3, 6, 2}}
@@ -39,7 +39,7 @@ Output :   Matrix should be a Square Matrix
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for displaying lower triangular matrix
 import java.io.*;
 
@@ -94,7 +94,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Lower Triangular Matrix is given by :-
 2 0 0 
 1 2 0 

@@ -10,7 +10,7 @@
 
 **1。**使用构造函数将 LinkedHashSet 转换为 ArrayList。
 
-```
+```java
 // Convert LinkedHashSet to ArrayList using constructor
 ArrayList<Integer> elements = new ArrayList<>(set);
 ```
@@ -19,7 +19,7 @@ ArrayList<Integer> elements = new ArrayList<>(set);
 
 **语法:**
 
-```
+```java
 public int indexOf(Object o)
 ```
 
@@ -31,7 +31,7 @@ public int indexOf(Object o)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the element
 // index in LinkedHashSet
 import java.util.*;
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 LinkedHashSet: [10, 20, 50, 30]
 Index of 10: 0
 Index of 20: 1
@@ -93,7 +93,7 @@ Index of 60: -1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the 
 // element index in LinkedHashSet
 import java.util.*;
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 LinkedHashSet: [10, 20, 50, 30]
 Index of 10: 0
 Index of 20: 1
@@ -173,7 +173,7 @@ Index of 60: -1
 
 **1。**使用[到数组()](https://www.geeksforgeeks.org/linkedhashset-toarray-method-in-java-with-example/)方法将链接的哈希集转换为数组。
 
-```
+```java
 // New Array
 
 Integer[] array = new Integer[set.size()];
@@ -187,7 +187,7 @@ array = set.toArray(array);
 
 **语法:**
 
-```
+```java
 Object[] arr = LinkedHashSet.toArray()
 ```
 
@@ -199,7 +199,7 @@ Object[] arr = LinkedHashSet.toArray()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the 
 // element index in LinkedHashSet
 import java.util.*;
@@ -258,7 +258,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 LinkedHashSet: [10, 20, 50, 30]
 Index of 10:0
 Index of 20:1

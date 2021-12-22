@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean desiredAssertionStatus()
 
 ```
@@ -19,7 +19,7 @@ public boolean desiredAssertionStatus()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // desiredAssertionStatus() method
 
@@ -49,7 +49,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Assertion Status of myClass: false
 
@@ -57,7 +57,7 @@ Assertion Status of myClass: false
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // desiredAssertionStatus() method
 
@@ -93,7 +93,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Main
 Assertion Status of myClass: false
 

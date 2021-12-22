@@ -21,7 +21,7 @@ ProgressBar 类的构造函数有:
 
 该程序创建一个进度条，由名称 *pb* 表示。进度指示器将在场景中创建，而场景又将托管在舞台(顶级 JavaFX 容器)中。函数 setTitle()用于为舞台提供标题。然后创建一个平铺窗格，在该窗格上调用 addChildren()方法来附加场景内的进度指示器和按钮，以及代码中由(200，200)指定的分辨率。最后调用 show()方法显示最终结果。
 
-```
+```java
 // Java program to illustrate the use of progressbar
 import javafx.application.Application;
 import javafx.scene.Scene;

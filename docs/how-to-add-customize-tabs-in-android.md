@@ -16,7 +16,7 @@
 
 ## 片段 _ 算法. xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -44,7 +44,7 @@
 
 ## fragment_course.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -72,7 +72,7 @@
 
 ## fragment_profile.xml
 
-```
+```java
 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -101,7 +101,7 @@
 
 ## tab_bar.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:background="@color/colorPrimaryDark"
@@ -201,7 +201,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -227,7 +227,7 @@
 
 ## MainActivity.java
 
-```
+```java
 package org.geeksforgeeks.customtabs;
 
 import androidx.appcompat.app.AppCompatActivity;

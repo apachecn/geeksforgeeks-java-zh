@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public boolean needsInput()
 
 ```
 
 **语法:**
 
-```
+```java
 i.needsInput();
 
 ```
@@ -26,7 +26,7 @@ i.needsInput();
 
 **示例 1:**needsInput()函数的使用
 
-```
+```java
 // Java program to describe the use
 // of needsInput() function
 

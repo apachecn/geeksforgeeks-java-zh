@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **withYear()** 方法用于获取该 LocalDate
 
 **语法:**
 
-```
+```java
 public LocalDateTime withYear(int year)
 ```
 
@@ -20,7 +20,7 @@ public LocalDateTime withYear(int year)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withYear() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2018-11-30T10:35:17.833
 New LocalDateTime: 1998-11-30T10:35:17.833
 
@@ -53,7 +53,7 @@ New LocalDateTime: 1998-11-30T10:35:17.833
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withYear() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2015-04-06T10:15:30
 New LocalDateTime: +20129-04-06T10:15:30
 

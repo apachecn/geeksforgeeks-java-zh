@@ -7,7 +7,7 @@ Calendar 类中的**internal get(int*calndr _ field*)**方法用于返回给定�
 
 **语法:**
 
-```
+```java
 protected final int internalGet(int *calndr_field*)
 ```
 
@@ -18,7 +18,7 @@ protected final int internalGet(int *calndr_field*)
 下面的程序说明了日历类的 internalGet()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // internalGet() method
 
@@ -51,7 +51,7 @@ public class CalendarDemo
 
 **Output:**
 
-```
+```java
 The current date is: Wed Feb 20 16:11:36 UTC 2019
 Month is: 1
 Year is: 2019
@@ -60,7 +60,7 @@ Year is: 2019
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // internalGet() method
 
@@ -98,7 +98,7 @@ public class Calendar_Demo
 
 **Output:**
 
-```
+```java
 Calendar: Thu Feb 21 09:43:53 UTC 2019
 Year: 2019
 Month: 1

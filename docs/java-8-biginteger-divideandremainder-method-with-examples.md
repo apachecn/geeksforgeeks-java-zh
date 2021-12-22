@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger[] divideAndRemainder(BigInteger val)
 ```
 
@@ -18,7 +18,7 @@ public BigInteger[] divideAndRemainder(BigInteger val)
 
 **例:**
 
-```
+```java
 Input: 42245, 23
 Output: [1836, 17]
 
@@ -38,7 +38,7 @@ These are also of BigInteger type
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate divideAndRemainder() method
 
 import java.math.*;
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Dividend : 25556
 Divisor : 444
 Quotient  : 57
@@ -75,7 +75,7 @@ Remainder : 248
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate divideAndRemainder() method
 
 import java.math.*;
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Dividend : 32345678987
 Divisor : 1537862842
 Quotient  : 21
@@ -112,7 +112,7 @@ Remainder : 50559305
 
 **程序 3:** 演示算术异常
 
-```
+```java
 // Java program to demonstrate divideAndRemainder() method
 
 import java.math.*;
@@ -148,7 +148,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Dividend : 32345678987
 Divisor : 0
 Exception: java.lang.ArithmeticException: BigInteger divide by zero

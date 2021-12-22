@@ -32,7 +32,7 @@ MenuButton 是 JavaFX 库的一部分。当按下菜单按钮时，显示一个�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to create a menubutton and add menuitems to it
 import javafx.application.Application;
 import javafx.scene.Scene;

@@ -18,7 +18,7 @@ NullPointRexception–如果指定的元素为空，并且该集合不允许
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate working of list remove
 // when Object to be removed is passed.
 import java.util.*;
@@ -50,7 +50,7 @@ public class GFG
 
 **Output**
 
-```
+```java
 Original ArrayList : [Geeks, Practice, Quiz]
 Modified ArrayList : [Geeks, Practice]
 Original LinkedList : [Geeks, Practice, Quiz]
@@ -67,7 +67,7 @@ Modified LinkedList : [Geeks, Practice]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate working of list remove
 // when index is passed.
 import java.util.*;
@@ -99,7 +99,7 @@ public class GFG
 
 **Output**
 
-```
+```java
 Original ArrayList : [Geeks, Practice, Quiz]
 Modified ArrayList : [Geeks, Practice]
 Original LinkedList : [Geeks, Practice, Quiz]

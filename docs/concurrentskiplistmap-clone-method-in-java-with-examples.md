@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListMap.clone()
 
 ```
@@ -21,7 +21,7 @@ ConcurrentSkipListMap.clone()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate clone()
 // method of ConcurrentSkipListMap
 
@@ -60,7 +60,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Map: {1=1, 2=7, 5=2}
 Cloned map is:  {1=1, 2=7, 5=2, 7=9}
 
@@ -68,7 +68,7 @@ Cloned map is:  {1=1, 2=7, 5=2, 7=9}
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate clone()
 // method of ConcurrentSkipListMap
 
@@ -107,7 +107,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Map: {2=7, 10=5, 54=20}
 Cloned map is:  {2=7, 10=5, 17=9, 54=20}
 

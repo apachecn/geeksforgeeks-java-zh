@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate toString()
 // method of LinkedBlockingQueue
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Queue: [7855642, 35658786, 5278367, 74381793]
 Linked Blocking Queue in string [7855642, 35658786, 5278367, 74381793]
 
@@ -59,7 +59,7 @@ Linked Blocking Queue in string [7855642, 35658786, 5278367, 74381793]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate toString()
 // method of LinkedBlockingQueue
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Queue: [gopal, gate, GRE, CAT]
 Linked Blocking Queue in string [gopal, gate, GRE, CAT]
 

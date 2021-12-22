@@ -20,7 +20,7 @@ Java.io.BufferedOutputStream class 类实现了一个缓冲输出流。通过设
 
 *   **void flush() :** 刷新该缓冲输出流。
 
-    ```
+    ```java
     Syntax :public void flush()
                throws IOException
     Overrides:
@@ -32,7 +32,7 @@ Java.io.BufferedOutputStream class 类实现了一个缓冲输出流。通过设
 
 *   **无效写入(字节[] b，int off，int len) :** 将从 offset off 开始的指定字节数组中的 len 字节写入该缓冲输出流。
 
-    ```
+    ```java
     Syntax :
     Parameters:
     b - the data.
@@ -45,7 +45,7 @@ Java.io.BufferedOutputStream class 类实现了一个缓冲输出流。通过设
 
 *   **无效写入(int b) :** 将指定字节写入该缓冲输出流。
 
-    ```
+    ```java
     Syntax :
     Parameters:
     b - the byte to be written.
@@ -56,7 +56,7 @@ Java.io.BufferedOutputStream class 类实现了一个缓冲输出流。通过设
 
 **程序:**
 
-```
+```java
 //Java program demonstrating BufferedOutputStream
 
 import java.io.*;
@@ -91,7 +91,7 @@ class BufferedOutputStreamDemo
 
 **输出:**
 
-```
+```java
 ABCDEFGHIJKLMNOP
 ```
 

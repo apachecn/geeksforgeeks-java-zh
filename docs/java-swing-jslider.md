@@ -92,7 +92,7 @@ JSlider 是 Java Swing 包的一部分。JSlider 是 Slider 的一个实现。�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a simple JSlider
 import javax.swing.event.*;
 import java.awt.*;
@@ -141,7 +141,7 @@ class solve extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a slider with min and
 // max value and major and minor ticks painted.
 import javax.swing.event.*;
@@ -219,7 +219,7 @@ class solve extends JFrame implements ChangeListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a vertical slider with
 // min and max value and major and minor ticks
 // painted and set the font of the slider.

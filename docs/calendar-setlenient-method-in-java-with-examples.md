@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setLenient(boolean *leniency*)
 ```
 
@@ -17,7 +17,7 @@ public void setLenient(boolean *leniency*)
 以下程序说明了日历类的 setFirstDayOfWeek()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // setLenient() method
 
@@ -49,7 +49,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 Is the Calendar lenient? true
 The altered Leniency: false
 
@@ -57,7 +57,7 @@ The altered Leniency: false
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // isLenient() method
 
@@ -98,7 +98,7 @@ public class CalendarDemo {
 
 **Output:**
 
-```
+```java
 Current Calendar: Thu Feb 21 11:00:50 UTC 2019
 Calendar is lenient? false
 Calendar is lenient: true

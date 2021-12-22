@@ -32,7 +32,7 @@ MatteBorder 是一个类，用于制作纯色或平铺图标的类似哑光的�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to apply matte border using solid colors
 import java.awt.event.*;
 import java.awt.*;
@@ -89,7 +89,7 @@ class matte1 extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to apply matte border using  icons
 import java.awt.event.*;
 import java.awt.*;
@@ -146,7 +146,7 @@ class matte extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to apply matte border using
 // solid color and image by specifying insets
 import java.awt.event.*;

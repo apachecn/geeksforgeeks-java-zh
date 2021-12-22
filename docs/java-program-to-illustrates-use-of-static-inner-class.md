@@ -15,7 +15,7 @@ Java 还允许在另一个类中定义一个类。这些被称为嵌套类。定
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrates Use of Static Inner Class
 
 // Outer class
@@ -50,7 +50,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Welcome to GeeksForGeeks
 ```
 
@@ -58,7 +58,7 @@ Welcome to GeeksForGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrates Use of Static Inner Class
 
 // Outer class
@@ -93,6 +93,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Welcome to GeeksForGeeks
 ```

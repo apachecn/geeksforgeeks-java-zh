@@ -25,13 +25,13 @@
 5.  **搜索内容**在一个表中，假设我的“cuslogin”表有列，分别是“id”、“姓名”、“电子邮件”、“密码”，我们要搜索 id 为 1 的客户。
 6.  用 SQL 查询初始化一个字符串，如下所示
 
-```
+```java
 String sql="select * from cuslogin where id=1";
 ```
 
 如果我们想搜索任何 id，那么 SQL 查询就变成了
 
-```
+```java
 String sql="select * from cuslogin where id="+Integer.parseInt(textfield.getText());
 ```
 
@@ -39,7 +39,7 @@ textfield 是用户在“cuslogin”表中键入他想要搜索的 id 的区域(
 
 **4.1:** 初始化连接类、准备状态类和结果集类(JDBC 需要)的以下对象，并按如下方式连接数据库
 
-```
+```java
 Connection con = null;
 PreparedStatement p = null;
 ResultSet rs = null;
@@ -48,7 +48,7 @@ con = connection.connectDB();
 
 **4.2:** 现在，在 [prepareStatement](https://www.geeksforgeeks.org/how-to-use-preparedstatement-in-java/) 中添加步骤 3.1 的 SQL 查询，执行如下:
 
-```
+```java
 p =con.prepareStatement(sql);
 rs =p.executeQuery();
 ```
@@ -67,7 +67,7 @@ rs =p.executeQuery();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to search the contents of
 // a table in JDBC Connection class for JDBC
 // Connection class of JDBC
@@ -138,7 +138,7 @@ public class connectionDB {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Search the
 // contents of a table in JDBC
 

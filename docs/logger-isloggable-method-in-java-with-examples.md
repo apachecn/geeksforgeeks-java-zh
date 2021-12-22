@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isLoggable(Level level)
 
 ```
@@ -19,7 +19,7 @@ public boolean isLoggable(Level level)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.isLoggable() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Level.INFO is currently being logged - true
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.isLoggable() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Level.OFF is currently being logged - true
 
 ```

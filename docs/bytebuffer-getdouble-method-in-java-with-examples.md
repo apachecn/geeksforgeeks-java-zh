@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract double getDouble()
 ```
 
@@ -20,7 +20,7 @@ public abstract double getDouble()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDouble() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1234.3456 2884.4444 
 
@@ -95,7 +95,7 @@ Next Byte Value: 2884.4444
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDouble() method
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1234.3456 2884.4444 
 
@@ -183,7 +183,7 @@ Exception Thrown : java.nio.BufferUnderflowException
 
 **语法:**
 
-```
+```java
 public abstract double getDouble(int index)
 ```
 
@@ -197,7 +197,7 @@ public abstract double getDouble(int index)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDouble() method
 
@@ -266,7 +266,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1234.3456 2884.4444 
 
@@ -278,7 +278,7 @@ Next Byte Value: 2884.4444
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDouble() method
 
@@ -347,7 +347,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1234.3456 2884.4444 
 

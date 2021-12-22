@@ -28,7 +28,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 gpr.usr = github_username_here
 gpr.key = github_generated_token_here
 ```
@@ -43,7 +43,7 @@ gpr.key = github_generated_token_here
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 def githubProperties = new Properties()
     githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
     repositories {
@@ -68,7 +68,7 @@ def githubProperties = new Properties()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 implementation 'com.cuberto:liquid-swipe:1.0.0'
 implementation 'androidx.core:core-ktx:1.3.2'
 implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"
@@ -86,7 +86,7 @@ implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -116,7 +116,7 @@ implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -137,7 +137,7 @@ implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -182,7 +182,7 @@ public class viewPager extends FragmentPagerAdapter {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -208,7 +208,7 @@ public class viewPager extends FragmentPagerAdapter {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;

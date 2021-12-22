@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getType()
 
 ```
@@ -18,7 +18,7 @@ public String getType()
 以下程序说明 getType()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate getType() method
 
 import java.lang.reflect.Field;
@@ -84,7 +84,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Type is double
 Type is float
 
@@ -92,7 +92,7 @@ Type is float
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate getType() method
 
 import java.lang.reflect.Field;
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Name of Field: class java.time.Month
 Name of Field: class java.time.Month
 Name of Field: class java.time.Month

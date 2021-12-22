@@ -4,7 +4,7 @@
 
 An [**enum**](https://www.geeksforgeeks.org/enum-in-java/) 是代表一组常量的特殊类。要创建枚举，请使用 enum 关键字(而不是类或接口)，并用逗号分隔常数。
 
-```
+```java
 enum Day{
 
 SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
@@ -17,7 +17,7 @@ SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
 
 因此 values()函数列出了枚举的所有值。
 
-```
+```java
 Day days[] = Day.values();  
 
 for(Day d : days)  
@@ -26,7 +26,7 @@ for(Day d : days)
 
 ## 爪哇
 
-```
+```java
 // Java program to show the usage of  
 // values() method of java enumeration  
 
@@ -49,7 +49,7 @@ class Main{ 
 
 **输出**
 
-```
+```java
 SUNDAY
 MONDAY
 TUESDAY

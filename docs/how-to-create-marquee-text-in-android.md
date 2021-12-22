@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,7 +57,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="Green">#0F9D58</color>
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.MarqueeText"
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG | MarqueeText</string>
 </resources>

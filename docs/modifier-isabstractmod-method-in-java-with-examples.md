@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isAbstract(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isAbstract(int mod)
 下面的程序说明了 isAbstract()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isAbstract() method
 
 import java.lang.reflect.*;
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1025 is Abstract : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isAbstract()
 
 import java.lang.reflect.*;
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1025 for method initializeNumber is Abstract : true
 Mod integer value 17 for methoddeclareNumbers is Abstract : false
 

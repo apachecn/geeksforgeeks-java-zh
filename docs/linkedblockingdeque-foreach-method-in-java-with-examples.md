@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void forEach(Consumer<E> action)
 
 ```
@@ -21,7 +21,7 @@ public void forEach(Consumer<E> action)
 
 **例:**
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of LinkedBlockingDeque
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [11, 22, 33, 44, 55, 66, 77]
 Traversing this Deque: 
 11
@@ -75,7 +75,7 @@ Traversing this Deque:
 
 **示例:2**
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of LinkedBlockingDeque
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [GeeksforGeeks, Gfg, Geeks, Computer, Science, Portal]
 Traversing this deque: 
 GeeksforGeeks

@@ -14,7 +14,7 @@ Java 中 **LocalDate** 类的 **plusMonths()** 方法用于在这个 LocalDate �
 
 **语法:**
 
-```
+```java
 public LocalDate plusMonths(long monthsToAdd)
 
 ```
@@ -28,7 +28,7 @@ public LocalDate plusMonths(long monthsToAdd)
 下面的程序说明了 plusMonths()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plusMonths() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before adding months: 2018-11-13
 LocalDate after  adding months: 2019-04-13
 
@@ -67,7 +67,7 @@ LocalDate after  adding months: 2019-04-13
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plusMonths() method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before adding months: 2018-12-31
 LocalDate after  adding months: 2019-09-30
 

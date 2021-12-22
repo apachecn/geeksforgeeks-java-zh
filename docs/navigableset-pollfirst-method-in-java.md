@@ -6,7 +6,7 @@ Java 中[navigatableset 接口的 pollFirst()方法用于检索并移除第一�
 
 **语法** :
 
-```
+```java
 E pollFirst()
 
 ```
@@ -21,7 +21,7 @@ E pollFirst()
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // pollFirst() method of NavigableSet
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 First lowest element removed is : 0
 
 ```
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // pollFirst() method of NavigableSet
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 First lowest element removed is : A
 
 ```

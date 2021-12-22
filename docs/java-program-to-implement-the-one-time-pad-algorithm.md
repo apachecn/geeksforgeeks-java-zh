@@ -21,7 +21,7 @@ One Time Pad 算法也被称为 [**【弗南密码】**](https://www.geeksforgee
 
 **示例:**
 
-```
+```java
 ***Input:** * plain text - HELLO
         Key - MONEY
 ***Output:*** Cipher - TSYPM
@@ -61,7 +61,7 @@ One Time Pad 算法也被称为 [**【弗南密码】**](https://www.geeksforgee
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program which implements
 // one time pad algorithm
 
@@ -181,7 +181,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Cipher Text - TSYPM
 Message - HELLO
 ```

@@ -6,7 +6,7 @@
 函数的语法给出了对指定元素的清晰理解，后面是示例。
 **语法:****](https://www.geeksforgeeks.org/concurrentskiplistset-in-java-with-examples/) 
 
-```
+```java
 tailSet(E fromElement)
            or 
 tailSet(E fromElement, boolean inclusive)
@@ -27,7 +27,7 @@ tailSet(E fromElement, boolean inclusive)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ConcurrentSkipListSet tailSet() method
 
 import java.util.concurrent.ConcurrentSkipListSet;
@@ -61,7 +61,7 @@ class ConcurrentSkipListSetLastExample1 {
 
 **Output:** 
 
-```
+```java
 ConcurrentSkipListSet: [80, 199, 256, 421, 958]
 The returned elements are: [256, 421, 958]
 ```
@@ -71,7 +71,7 @@ The returned elements are: [256, 421, 958]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ConcurrentSkipListSet tailSet() method
 
 import java.util.concurrent.ConcurrentSkipListSet;
@@ -105,7 +105,7 @@ class ConcurrentSkipListSetLastExample1 {
 
 **Output:** 
 
-```
+```java
 ConcurrentSkipListSet: [9, 13, 35, 41, 90]
 The returned elements are: [41, 90]
 ```

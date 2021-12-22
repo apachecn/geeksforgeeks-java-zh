@@ -38,7 +38,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate various
 // Inet4Address class methods
 import java.net.Inet4Address;
@@ -102,7 +102,7 @@ public class inet4add
 
 **输出:**
 
-```
+```java
 Address : [52, 84, 102, -116]
 Host Address : 52.84.102.140
 isAnyLocalAddress : false

@@ -6,7 +6,7 @@ Java . util . IdentityHashMap . putall()是用于复制操作的 identity hashma
 
 **语法:**
 
-```
+```java
 new_Identityhash_map.putAll(*exist_Identityhash_map*)
 ```
 
@@ -19,7 +19,7 @@ new_Identityhash_map.putAll(*exist_Identityhash_map*)
 下面的程序说明了 Java . util . identity hashmap . putall()方法的工作原理:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the putAll() method
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 The new map: {15=4, 30=You, 10=Geeks, 25=Welcomes, 20=Geeks}
 
@@ -64,7 +64,7 @@ The new map: {15=4, 30=You, 10=Geeks, 25=Welcomes, 20=Geeks}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the putAll() method
 import java.util.*;
 
@@ -101,7 +101,7 @@ public class IdentityHash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 The new map: {Welcomes=25, 4=15, You=30, Geeks=20}
 

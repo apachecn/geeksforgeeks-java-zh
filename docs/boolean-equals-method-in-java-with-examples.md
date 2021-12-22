@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 BooleanObject.equals(Object ob)
 ```
 
@@ -18,7 +18,7 @@ BooleanObject.equals(Object ob)
 
 **程序 1:**
 
-```
+```java
 // Java code to implement
 // equals() method of Boolean class
 
@@ -43,14 +43,14 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 true comparing with true = true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java code to implement
 // equals() method of Java class
 
@@ -75,14 +75,14 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 true comparing with false = false
 
 ```
 
 **程序 3:**
 
-```
+```java
 // Java code to implement
 // equals() method of Java class
 
@@ -107,7 +107,7 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 false comparing with true = false
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.toString() method
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.toString() method
 

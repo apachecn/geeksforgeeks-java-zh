@@ -5,13 +5,13 @@
 getInputStream()函数是 java.util.zip 包的一部分。该函数返回作为参数传递的特定 ZipEntry 的 InputStream。关闭压缩文件也将关闭该函数生成的所有输入流。
 **功能签名:**
 
-```
+```java
 public InputStream getInputStream(ZipEntry e)
 ```
 
 **语法:**
 
-```
+```java
 zip_file.getInputStream(entry);
 ```
 
@@ -25,7 +25,7 @@ zip_file.getInputStream(entry);
 
     **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取 Input Stream 对象来读取文件的内容。“file.zip”是 f:目录中的一个 zip 文件。
 
-    ```
+    ```java
     // Java program to demonstrate the
     // use of getInputStream() function
 
@@ -72,7 +72,7 @@ zip_file.getInputStream(entry);
 
     **Output:**
 
-    ```
+    ```java
     Contents:
     This is a file in ZIP file.
 
@@ -80,7 +80,7 @@ zip_file.getInputStream(entry);
 
     **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取 Input Stream 对象来读取文件的内容。zip 文件中不存在“file4.cpp”。
 
-    ```
+    ```java
     // Java program to demonstrate the
     // use of getInputStream() function
 
@@ -127,7 +127,7 @@ zip_file.getInputStream(entry);
 
     **Output:**
 
-    ```
+    ```java
     null
 
     ```

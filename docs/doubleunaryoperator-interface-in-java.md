@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 static  DoubleUnaryOperator identity()
 ```
 
@@ -28,7 +28,7 @@ static  DoubleUnaryOperator identity()
 
 **程序**
 
-```
+```java
 import java.util.function.DoubleUnaryOperator;
 
 public class GFG {
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 12.0
 
 ```
@@ -56,7 +56,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 double applyAsDouble(double operand)
 ```
 
@@ -68,7 +68,7 @@ double applyAsDouble(double operand)
 
 **程序**
 
-```
+```java
 import java.util.function.DoubleUnaryOperator;
 
 public class GFG {
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 24.0
 
 ```
@@ -94,7 +94,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 default DoubleUnaryOperator andThen(DoubleUnaryOperator after)
 ```
 
@@ -108,7 +108,7 @@ default DoubleUnaryOperator andThen(DoubleUnaryOperator after)
 
 **程序 1:**
 
-```
+```java
 import java.util.function.DoubleUnaryOperator;
 
 public class GFG {
@@ -126,14 +126,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 72.0
 
 ```
 
 **程序 2:** 演示何时返回 NullPointerException。
 
-```
+```java
 import java.util.function.DoubleUnaryOperator;
 
 public class GFG {
@@ -156,7 +156,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```
@@ -167,7 +167,7 @@ Exception: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 default DoubleUnaryOperator compose(DoubleUnaryOperator before)
 ```
 
@@ -181,7 +181,7 @@ default DoubleUnaryOperator compose(DoubleUnaryOperator before)
 
 **程序 1:**
 
-```
+```java
 import java.util.function.DoubleUnaryOperator;
 
 public class GFG {
@@ -199,14 +199,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 24.0
 
 ```
 
 **程序 2:** 演示何时返回 NullPointerException。
 
-```
+```java
 import java.util.function.DoubleUnaryOperator;
 
 public class GFG {
@@ -229,7 +229,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isBoundary(int offset)
 ```
 
@@ -18,7 +18,7 @@ public boolean isBoundary(int offset)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate isBoundary() method
 
 import java.text.*;
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 offset is a boundary
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate isBoundary() method
 
 import java.text.*;
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 offset is not a boundary
 
 ```

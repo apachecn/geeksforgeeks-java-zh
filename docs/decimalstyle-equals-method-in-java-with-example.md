@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的 **equals()** 方法用于
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object obj)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -53,7 +53,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 Comparing DS 1 and DS 2: true
 Comparing DS 2 and DS 3: false
 Comparing DS 1 and DS 3: false

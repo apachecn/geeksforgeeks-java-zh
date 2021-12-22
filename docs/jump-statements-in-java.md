@@ -14,7 +14,7 @@
 
 #### 语法:
 
-```
+```java
 break;
 ```
 
@@ -22,7 +22,7 @@ break;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the 
 // break keyword in Java
 import java.io.*;
@@ -42,7 +42,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 0
 1
 2
@@ -61,7 +61,7 @@ Java 没有 goto 语句，因为它产生了一种非结构化的方式来改变
 
 #### **语法:**
 
-```
+```java
 break label;
 ```
 
@@ -71,7 +71,7 @@ break label;
 
 T3】爪哇 T5
 
-```
+```java
 // Java program to illustrate the 
 // break keyword as a Goto statement in Java
 import java.io.*;
@@ -113,7 +113,7 @@ T6T8**输出**T1
 
 T3】爪哇 T5
 
-```
+```java
 // Java program to illustrate the 
 // continue keyword in Java
 import java.io.*;

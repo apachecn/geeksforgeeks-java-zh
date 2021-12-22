@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public short shortValueExact()
 ```
 
@@ -16,7 +16,7 @@ public short shortValueExact()
 
 **例:**
 
-```
+```java
 Input: 15,564
 Output: 15,564
 Explanation: 15,564 is given as input which is BigInteger
@@ -39,7 +39,7 @@ therefore it throws an arithmetic exception.
 
 **程序 1:** 演示正数< 32，767
 
-```
+```java
 // Java program to demonstrate shortValueExact()
 // method of BigInteger Class
 
@@ -69,7 +69,7 @@ public class GFG {
 
 T5】的 shortValueExact()方法输出:
 
-```
+```java
 BigInteger value : 15564
 short converted value : 15564
 
@@ -77,7 +77,7 @@ short converted value : 15564
 
 **程序 2:** 演示负数> -32，768
 
-```
+```java
 // Java program to demonstrate shortValueExact()
 // method of BigInteger Class
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **的 shortValueExact()方法输出:**
 
-```
+```java
 BigInteger value : -17584
 short converted value : -17584
 
@@ -115,7 +115,7 @@ short converted value : -17584
 
 **程序 3:** 演示负数< -32，768 的 shortValueExact()方法。它会抛出算术异常
 
-```
+```java
 // Java program to demonstrate shortValueExact()
 // method of BigInteger Class
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : -40000
 Exception: java.lang.ArithmeticException: BigInteger out of short range
 
@@ -158,7 +158,7 @@ Exception: java.lang.ArithmeticException: BigInteger out of short range
 
 **程序 4:** 演示正数> 32，767 的 shortValueExact()方法。它会抛出算术异常
 
-```
+```java
 // Java program to demonstrate shortValueExact()
 // method of BigInteger Class
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : 40000
 Exception: java.lang.ArithmeticException: BigInteger out of short range
 

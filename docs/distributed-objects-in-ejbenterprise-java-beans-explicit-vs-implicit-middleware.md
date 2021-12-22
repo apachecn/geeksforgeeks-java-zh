@@ -29,7 +29,7 @@
 
 **示例:**您可以通过写入事务 API 来获得事务，如图所示:
 
-```
+```java
 transferAmount(Account acc1, Account acc2, long amount)
 {
     // 1\. Call middleware API to perform a security check
@@ -64,7 +64,7 @@ transferAmount(Account acc1, Account acc2, long amount)
 
 **示例:**在分布式对象内部运行的代码是:
 
-```
+```java
 transferAmount(Account acc1, Account acc2, long amount){
 // 1\. subtract the amount from the balance of acc1 & add amount to balance of acc2
 }

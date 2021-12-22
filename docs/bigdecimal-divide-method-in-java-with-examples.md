@@ -19,7 +19,7 @@ Java 中有五个 divide 方法重载，如下所示:
 **商**由**(这个/除数)**给出，其优选标度是(这个。[刻度()](https://www.geeksforgeeks.org/bigdecimal-scale-method-in-java/)–除数。[刻度()](https://www.geeksforgeeks.org/bigdecimal-scale-method-in-java/))。
 **语法:**
 
-```
+```java
 public BigDecimal divide(BigDecimal divisor)
 
 ```
@@ -30,7 +30,7 @@ public BigDecimal divide(BigDecimal divisor)
 
 下面的程序用来说明 BigDecimal 的 divide()方法。
 
-```
+```java
 // Java program to demonstrate
 // divide() method of BigDecimal
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 800000
 
 ```
@@ -81,7 +81,7 @@ public class GFG {
 该方法用于计算值为 **(this /除数)**的两个大小数的商，根据上下文设置取整。
 **语法:**
 
-```
+```java
 public BigDecimal divide(BigDecimal divisor,
                          MathContext mc)
 
@@ -98,7 +98,7 @@ public BigDecimal divide(BigDecimal divisor,
 
 下面的程序用来说明 BigDecimal 的 divide()方法。
 
-```
+```java
 // Java program to demonstrate
 // divide() method of BigDecimal
 
@@ -141,7 +141,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 92941
 
 ```
@@ -153,7 +153,7 @@ public class GFG {
 **商**由**(这个/除数)**给出，其优选标度是这个。[刻度()](https://www.geeksforgeeks.org/bigdecimal-scale-method-in-java/)。如果需要舍入来生成给定比例的结果，则应用特定的舍入模式。
 **语法:**
 
-```
+```java
 public BigDecimal divide(BigDecimal divisor,
                          RoundingMode roundingMode)
 
@@ -169,7 +169,7 @@ public BigDecimal divide(BigDecimal divisor,
 
 下面的程序用来说明 BigDecimal 的 divide()方法。
 
-```
+```java
 // Java program to demonstrate
 // divide() method of BigDecimal
 
@@ -209,7 +209,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 9294122934
 
 ```
@@ -221,7 +221,7 @@ public class GFG {
 **商**由**(这个/除数)**给出，其优选标度是指定的。如果需要舍入来生成具有指定比例的结果，则应用指定的舍入模式。
 **语法:**
 
-```
+```java
 public BigDecimal divide(BigDecimal divisor, 
                          int scale, 
                          RoundingMode roundingMode)
@@ -239,7 +239,7 @@ public BigDecimal divide(BigDecimal divisor,
 
 下面的程序用来说明 BigDecimal 的 divide()方法。
 
-```
+```java
 // Java program to demonstrate
 // divide() method of BigDecimal
 
@@ -283,7 +283,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 9294122933.8713
 
 ```

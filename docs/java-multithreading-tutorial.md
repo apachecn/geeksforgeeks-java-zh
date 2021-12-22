@@ -87,13 +87,13 @@ Java 提供了 Thread 类来实现调用线程的编程，因此线程类的一�
 
 **(a)** 返回线程的名称
 
-```
+```java
 public String getName() ;
 ```
 
 **(b)** 更改线程名称
 
-```
+```java
  public void setName(String name);
 ```
 
@@ -107,7 +107,7 @@ public String getName() ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Case 1
 // Java Program to illustrate Creation and execution of
 // thread via start() and run() method in Single inheritance
@@ -174,7 +174,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Case 2
 // Java Program to illustrate Difference between Runnable
 // & Non-runnable Threads And Single Inheritance
@@ -232,7 +232,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate difference between
 // start() method thread vs show() method
 
@@ -292,7 +292,7 @@ class GFG {
 
 **案例 1:**
 
-```
+```java
 Thread1 is running
 Thread2 is running
 ```
@@ -301,7 +301,7 @@ Thread2 is running
 
 **案例 2:**
 
-```
+```java
 Thread 1 is running
 ```
 
@@ -309,7 +309,7 @@ Thread 1 is running
 
 **案例 3:**
 
-```
+```java
 Thread 2
 Thread 1 is running
 ```
@@ -322,7 +322,7 @@ Thread 1 is running
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Runnable Interface in threads
 // as multiple inheritance is not allowed
 
@@ -418,7 +418,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Thread2
 Thread1
 Thread2
@@ -460,7 +460,7 @@ Thread1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example 1
 // Java Program to illustrate Output Without sleep() Method
 
@@ -524,7 +524,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example 2
 // Java Program to illustrate Output Using sleep() Method
 // in Serial Execution
@@ -609,7 +609,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example 3
 // Java Program to illustrate Output Using sleep() Method
 // in Parallel Execution
@@ -696,7 +696,7 @@ public class GFG {
 
 **案例 1:**
 
-```
+```java
 Shot
 Shot
 Shot
@@ -713,7 +713,7 @@ Miss
 
 **情况 2: V** 视频输出
 
-```
+```java
 Shot
 Shot
 Shot
@@ -730,7 +730,7 @@ Miss
 
 **情况 3:** 视频输出
 
-```
+```java
 Shot
 Miss
 Shot
@@ -768,7 +768,7 @@ Miss
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Priority Threads
 // Case 1: No priority is assigned (Default priority)
 
@@ -818,7 +818,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Priority Threads
 // Case 2: NORM_PRIORITY
 
@@ -876,7 +876,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Priority Threads
 // Case 3: MIN_PRIORITY
 
@@ -934,7 +934,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Priority Threads
 // Case 4: MAX_PRIORITY
 
@@ -997,7 +997,7 @@ class GFG {
 
 **情况 1:** 默认优先级
 
-```
+```java
 Running Thread : Thread-0
 Running Thread : Thread-1
 Running Thread Priority : 5
@@ -1006,7 +1006,7 @@ Running Thread Priority : 5
 
 **情况 2:** NORM_PRIORITY
 
-```
+```java
 Running Thread : Thread-0
 Running Thread : Thread-1
 Running Thread Priority : 5
@@ -1015,7 +1015,7 @@ Running Thread Priority : 5
 
 **情况 3:** MIN_PRIORITY
 
-```
+```java
 Running Thread : Thread-0
 Running Thread : Thread-1
 Running Thread Priority : 1
@@ -1024,7 +1024,7 @@ Running Thread Priority : 1
 
 **情况 4:** 最大 _ 优先级
 
-```
+```java
 Running Thread : Thread-1
 Running Thread : Thread-0
 Running Thread Priority : 10
@@ -1066,7 +1066,7 @@ Running Thread Priority : 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show Working of Daemon Thread
 // with users threads
 
@@ -1135,7 +1135,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show Working of Daemon Thread
 // with users threads where start() is invoked
 // prior before setting thread to Daemon
@@ -1252,7 +1252,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Output Conflict between
 // Execution of Main thread vs Thread created
 
@@ -1351,7 +1351,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example 1
 // Java Program to illustrate Incomplete Thread Iterations
 // Returning Counter Value to Zero
@@ -1421,7 +1421,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example 2
 // Java Program to Illustrate Complete Thread Iterations
 // illustrating join() Method
@@ -1494,7 +1494,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example 3
 // Java Program to Illustrate Thread Unsafe Or
 // Non-synchronizing Programs as of Incomplete Iteations
@@ -1587,7 +1587,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example 4
 // Java Program to Illustrate Thread Safe And
 // Synchronized Programs as of Complete Iteations
@@ -1681,25 +1681,25 @@ class GFG {
 
 **案例 1**
 
-```
+```java
 Count : 0
 ```
 
 **案例 2**
 
-```
+```java
 Count : 10000
 ```
 
 **案例 3**
 
-```
+```java
 Count : 151138
 ```
 
 **案例 4**
 
-```
+```java
 Count : 200000
 ```
 

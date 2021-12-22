@@ -13,7 +13,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get the attributes of a file
 import java.nio.file.*;
 import java.nio.file.attribute.*;
@@ -72,7 +72,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get the attributes of a file
 import java.util.Scanner;
 import java.nio.file.attribute.*;

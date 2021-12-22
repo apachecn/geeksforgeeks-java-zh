@@ -26,7 +26,7 @@
 
 让我们以一个名为 **books_data** 的自定义注释为例，来了解不同形式的注释是如何声明的。
 
-```
+```java
 @interface books_data //using the syntax : @interface Annotation_name, we declared a new annotation here.
 { //beginning of annotation declaration and defination
 
@@ -42,7 +42,7 @@ The number of variables declared inside an annotation will describe its form.
 
 ## Java
 
-```
+```java
 // Java Programwhere Illustrating Declaration of
 // Custom Marker Annotation
 
@@ -71,7 +71,7 @@ class books {
 
 **Output**
 
-```
+```java
 example of Marker Annotations.
 ```
 
@@ -81,7 +81,7 @@ example of Marker Annotations.
 
 ## 爪哇
 
-```
+```java
 // Java Program Illustrating Declaration of
 // Custom Single Value Annotation
 

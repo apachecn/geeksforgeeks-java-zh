@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 TreeSet<String> gfg= new TreeSet<>();
 ```
 
@@ -14,7 +14,7 @@ TreeSet<String> gfg= new TreeSet<>();
 
 ## Java
 
-```
+```java
 // Java program for TreeSet
 import java.io.*;
 import java.util.TreeSet;
@@ -43,7 +43,7 @@ class GFG {
 
 输出
 
-```
+```java
 fifth
 first
 fourth

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean containsAlias(String alias)
   throws KeyStoreException
 ```
@@ -23,7 +23,7 @@ public final boolean containsAlias(String alias)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 This aliases is present
 ```
 
@@ -105,7 +105,7 @@ This aliases is present
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -151,7 +151,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception thrown :
  java.security.KeyStoreException:
  Uninitialized keystore

@@ -8,7 +8,7 @@
 
     下面是代码片段:
 
-    ```
+    ```java
     public class Testing {
         public static void main(String[] args)
          {
@@ -20,13 +20,13 @@
 
     输出:
 
-    ```
+    ```java
     comment executed
     ```
 
     原因是 Java 编译器将 unicode 字符\u000d 解析为新行，并转换为:
 
-    ```
+    ```java
     public class Testing {
         public static void main(String[] args)
         {
@@ -39,7 +39,7 @@
 
 2.  **Named loops :**
 
-    ```
+    ```java
     // A Java program to demonstrate working of named loops.
     public class Testing 
     {
@@ -61,7 +61,7 @@
 
     输出:
 
-    ```
+    ```java
     i = 0 j = 0
     i = 0 j = 1
     i = 0 j = 2

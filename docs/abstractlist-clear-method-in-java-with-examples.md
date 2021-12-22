@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -16,7 +16,7 @@ public void clear()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 // for String value
@@ -64,7 +64,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Original ArrayListlist : [A, B, C, D, E]
 New ArrayList : []
 
@@ -72,7 +72,7 @@ New ArrayList : []
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 // for Integer value
@@ -119,7 +119,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Original ArrayListlist : [10, 20, 30, 40, 50]
 New ArrayList : []
 

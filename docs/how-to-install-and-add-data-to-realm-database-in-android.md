@@ -33,7 +33,7 @@
 
 导航到**应用程序>渐变脚本> build.gradle(项目)**，并在依赖项部分添加类路径依赖项。你可以在下面的部分看到依赖性。
 
-```
+```java
 dependencies {
         classpath "com.android.tools.build:gradle:4.1.2"
 
@@ -47,13 +47,13 @@ dependencies {
 
 添加后，现在导航到 build.gradle (Module)并将下面的代码添加到其中。在这个文件上面添加插件。
 
-```
+```java
 apply plugin: 'realm-android'     
 ```
 
 之后，在依赖项部分上方添加下面的代码。
 
-```
+```java
 realm {
     syncEnabled = true
 }
@@ -63,7 +63,7 @@ realm {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 plugins {
     id 'com.android.application'
 }
@@ -117,7 +117,7 @@ dependencies {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Application;
 
 import io.realm.Realm;
@@ -164,7 +164,7 @@ public class RealmDb extends Application {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -224,7 +224,7 @@ public class RealmDb extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
@@ -293,7 +293,7 @@ public class DataModal extends RealmObject {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;

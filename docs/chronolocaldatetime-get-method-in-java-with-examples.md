@@ -6,7 +6,7 @@ Java 中**ChronalDateTiME**类的 **get()** 方法用于从该 ChronalDateTiME �
 
 **语法:**
 
-```
+```java
 default int get(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ default int get(TemporalField field)
 下面的程序说明了 get()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.get() method
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.get() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 123
 
 ```

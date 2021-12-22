@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```java
 Input : M = 3
     N = 5
 Output: Odd Number Frequency  = 9
@@ -40,7 +40,7 @@ Output: Odd Number Frequency  = 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing Classes/Files
 import java.io.*;
 
@@ -103,7 +103,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Odd Number Frequency: 9
 Even Number Frequence: 6
 ```
@@ -112,7 +112,7 @@ Even Number Frequence: 6
 
 [**【空间复杂度】**](https://www.geeksforgeeks.org/g-fact-86/) **:** 只是给变量分配内存，随后用变量的范围释放。因为没有为要执行的操作创建其他辅助空间。因此，所需的空间是恒定的，随后释放。默认分配 1，因此空间复杂度为 1。
 
-```
+```java
 Time Complexity  = O(Rows*Columns) or O(m * n)
 Space Complexity = O(1)
 

@@ -6,7 +6,7 @@
 
 **例**
 
-```
+```java
 Input 1 :- N = 7
 Output  :- 
      7 * 1 = 7
@@ -30,7 +30,7 @@ Output  :-
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to print the multiplication table of the
 // number N.
 
@@ -55,7 +55,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 7 * 1 = 7
 7 * 2 = 14
 7 * 3 = 21
@@ -72,7 +72,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to print the multiplication table of
 // number N using while loop
 
@@ -103,7 +103,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 7 * 1 = 7
 7 * 2 = 14
 7 * 3 = 21

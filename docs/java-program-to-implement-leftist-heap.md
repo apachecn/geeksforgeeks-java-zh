@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```java
 LEFTIST HEAP
 Functions to do
 2\. delete min
@@ -67,7 +67,7 @@ If you wish to continue type Y or y
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Leftist Heap
 
 // Declare all libraries

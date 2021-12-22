@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 class derived-class extends base-class  
 {  
    //methods and fields  
@@ -27,7 +27,7 @@ class derived-class extends base-class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // concept of inheritance
 
@@ -106,7 +106,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 No of gears are 3
 speed of bicycle is 100
 seat height is 25
@@ -131,7 +131,7 @@ seat height is 25
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // concept of single inheritance
 import java.io.*;
@@ -162,7 +162,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Geeks
 for
 Geeks
@@ -175,7 +175,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // concept of Multilevel inheritance
 import java.io.*;
@@ -214,7 +214,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Geeks
 for
 Geeks
@@ -227,7 +227,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // concept of Hierarchical  inheritance
 
@@ -268,7 +268,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 Class A
 Class B
 Class A

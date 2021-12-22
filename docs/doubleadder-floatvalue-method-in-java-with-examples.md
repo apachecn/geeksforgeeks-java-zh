@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public float floatValue()
 
 ```
@@ -17,7 +17,7 @@ public float floatValue()
 
 下面的程序说明了上面的方法:
 
-```
+```java
 // Program to demonstrate the floatValue() method
 
 import java.lang.*;
@@ -43,12 +43,12 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after floatValue() is: 21.0
 
 ```
 
-```
+```java
 // Program to demonstrate the floatValue() method
 
 import java.lang.*;
@@ -73,7 +73,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after floatValue() is: 10.0
 
 ```

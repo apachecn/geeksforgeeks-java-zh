@@ -6,13 +6,13 @@
 注释的最大长度为 0xffff，如果字符串的长度大于 0xffff，则将考虑前 0xffff 个字符。
 **功能签名:**
 
-```
+```java
 public void setComment(String s)
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.setComment(s);
 ```
 
@@ -24,7 +24,7 @@ zip_entry.setComment(s);
 
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后设置指定 ZipEntry 的注释。“file.zip”是 f:目录中的一个 zip 文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of setComment() function
 
@@ -66,7 +66,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Comment : This is a Zip Entry comment)
 
 ```

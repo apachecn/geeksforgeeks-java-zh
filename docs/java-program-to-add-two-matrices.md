@@ -5,7 +5,7 @@
 给定两个相同大小的矩阵 **A** 和 **B** ，在 Java 中添加它们的任务。
 **例:**
 
-```
+```java
 Input: A[][] = {{1, 2}, 
                 {3, 4}}
        B[][] = {{1, 1}, 
@@ -32,7 +32,7 @@ Output: {{3, 6},
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for addition of two matrices
 
 import java.io.*;
@@ -100,7 +100,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Matrix A:
 1 1 1 1 
 2 2 2 2 

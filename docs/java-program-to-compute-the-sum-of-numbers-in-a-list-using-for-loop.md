@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : List = [1, 2, 3]
 Output: Sum = 6
 
@@ -26,7 +26,7 @@ Output: Sum = 11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compute the Sum of
 // Numbers in a List Using For-Loop
 import java.util.*;
@@ -52,7 +52,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 sum-> 37
 ```
 
@@ -70,7 +70,7 @@ sum-> 37
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Compute the Sum of
 // Numbers in a List Using Enhanced For-Loop
 import java.util.*;

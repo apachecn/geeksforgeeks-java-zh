@@ -22,7 +22,7 @@ HashSet 的要点是:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert HashSet to array
 
 import java.io.*;
@@ -56,7 +56,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hash Set Contains :[1, 13, 27, 19, 87]
 1
 13
@@ -69,7 +69,7 @@ Hash Set Contains :[1, 13, 27, 19, 87]
 
 **语法:**
 
-```
+```java
 public Object[] toArray()
            or
 public <T> T[] toArray(T[] a)
@@ -81,7 +81,7 @@ public <T> T[] toArray(T[] a)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert HashSet to array
 
 import java.io.*;
@@ -111,7 +111,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hash Set Contains :[1, 13, 27, 19, 87]
 1
 13

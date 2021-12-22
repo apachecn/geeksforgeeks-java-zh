@@ -4,7 +4,7 @@
 
 CacheResponse 是一个抽象类，表示从响应缓存中检索资源的通道。这个类的对象提供了一个返回实体主体和相关响应头的输入流。此类从 java.lang.Object 继承方法，如 as clone、equals、finalize、 *getClass()* 、 *hashCode()* 、 *notify()* 、 *notifyAll()* 、 *toString()* 、 *wait()* 。
 
-```
+```java
 public abstract class CacheResponse  extends Object
 ```
 
@@ -17,7 +17,7 @@ public abstract class CacheResponse  extends Object
 
 **语法:**
 
-```
+```java
 public abstract InputStream getBody()  throws IOException 
 ```
 
@@ -33,7 +33,7 @@ public abstract InputStream getBody()  throws IOException
 
 ## Java
 
-```
+```java
 // Java Program to illustrate CacheResponse Class
 // showcasing getBody() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 getbody() has been tested
 ```
 
@@ -98,7 +98,7 @@ getbody() has been tested
 
 **语法:**
 
-```
+```java
 public abstract Map<String,List<String>> getHeaders()   throws IOException  
 ```
 

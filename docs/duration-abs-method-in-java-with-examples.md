@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration abs()
 
 ```
@@ -21,7 +21,7 @@ public Duration abs()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate abs() method
 
 import java.time.Duration;
@@ -42,14 +42,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT51H4M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate abs() method
 
 import java.time.Duration;
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT120H
 
 ```

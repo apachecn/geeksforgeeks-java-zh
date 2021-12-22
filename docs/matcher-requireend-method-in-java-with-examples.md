@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean requireEnd()
 
 ```
@@ -19,7 +19,7 @@ public boolean requireEnd()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate requireEnd() method
 
 import java.util.regex.*;
@@ -57,14 +57,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Has any anchor bounded the search: true
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate requireEnd() method
 
 import java.util.regex.*;
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Has any anchor bounded the search: false
 
 ```

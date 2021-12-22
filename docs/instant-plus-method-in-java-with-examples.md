@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Instant plus(long amountToAdd,
                     TemporalUnit unit)
 
@@ -23,7 +23,7 @@ public Instant plus(long amountToAdd,
 下面的程序说明了加号()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.plus() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant after adding 30 DAYS: 2019-01-29T19:34:50.630Z
 
 ```
@@ -62,7 +62,7 @@ Instant after adding 30 DAYS: 2019-01-29T19:34:50.630Z
 
 **语法:**
 
-```
+```java
 public Instant plus(TemporalAmount amountToAdd)
 
 ```
@@ -74,7 +74,7 @@ public Instant plus(TemporalAmount amountToAdd)
 下面的程序说明了加号()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.plus() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant after adding Days: 2019-01-09T19:34:50.630Z
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static byte getDirectionality(char ch)
 ```
 
@@ -18,7 +18,7 @@ public static byte getDirectionality(char ch)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.getDirectionality() method
 // when the passed parameter is an integer
@@ -44,7 +44,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 Directionality of first primitive is 13
 Directionality of first primitive is 0
 
@@ -52,7 +52,7 @@ Directionality of first primitive is 0
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.getDirectionality() method
 // when the passed parameter is a character
@@ -78,7 +78,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 Directionality of first primitive is 0
 Directionality of first primitive is 2
 

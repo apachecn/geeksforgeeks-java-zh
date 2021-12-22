@@ -110,7 +110,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Implemention of Shunting Yard Algorithm
 
 // Importing stack class for stacks DS
@@ -227,7 +227,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 5238-5^2^/+
 ```
 

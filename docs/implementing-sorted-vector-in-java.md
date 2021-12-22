@@ -36,7 +36,7 @@ Vector 是一个实现 List 接口的类。这是一种动态数组，意味着�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // We are going to implement sorted vector
 // from inbuilt Vector class.
 import java.util.*;
@@ -161,7 +161,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 After 1nd element Insertion:
 After 1st element Insertion:
 1

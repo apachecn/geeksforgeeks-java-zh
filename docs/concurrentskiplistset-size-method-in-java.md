@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.size()
 ```
 
@@ -18,7 +18,7 @@ ConcurrentSkipListSet.size()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate size()
 // method of ConcurrentSkipListSet
 
@@ -46,7 +46,7 @@ class ConcurrentSkipListSetSizeExample1 {
 
 **输出:**
 
-```
+```java
 Number of elements in the set = 10
 set : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -54,7 +54,7 @@ set : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate size()
 // method of ConcurrentSkipListSet
 
@@ -85,7 +85,7 @@ class ConcurrentSkipListSetSizeExample2 {
 
 **输出:**
 
-```
+```java
 Number of elements in the set = 5
 set : [A, B, C, D, E]
 

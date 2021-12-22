@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract boolean isReadOnly()
 ```
 
@@ -16,7 +16,7 @@ public abstract boolean isReadOnly()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isReadOnly() method
 
@@ -58,14 +58,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 buffer is not ReadOnly buffer
 
 ```
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isReadOnly() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 buffer is ReadOnly buffer
 
 ```

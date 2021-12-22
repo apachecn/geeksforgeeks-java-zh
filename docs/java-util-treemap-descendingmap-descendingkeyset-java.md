@@ -6,7 +6,7 @@ Java.util.TreeMap 中有两个降序()的**变体，本文将对这两个变体�
 
 **1。下行键集()**:返回地图中包含的键的**逆序导航集视图**。**
 
-```
+```java
 **Syntax :** 
 public NavigableSet descendingKeySet()
 **Parameters:**
@@ -17,7 +17,7 @@ It returns a reverse order navigable set view of the keys in this map.
 **NA** 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // descendingKeySet()
 import java.io.*;
@@ -49,13 +49,13 @@ public static void main(String[] args)
 
 **输出:**
 
-```
+```java
 Navigable set values are: [9, 7, 6, 3, 2, 0] 
 ```
 
 ****2。下行映射():**返回映射中包含的映射的**逆序视图。**** 
 
-```
+```java
 **Syntax :** 
 public NavigableMap descendingMap()
 **Parameters:**
@@ -66,7 +66,7 @@ It returns a reverse order view of the map.
 **NA** 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of descendingMap()
 import java.io.*;
@@ -98,13 +98,13 @@ public static void main(String[] args)
 
 **输出:**
 
-```
+```java
 Navigable map values are: {9=nine, 7=seven, 6=six, 3=three, 2=two, 0=zero} 
 ```
 
 ****实际应用:**本文解释的下降函数有很多可能的应用。其中一些是**优先调度，或者设计一个排名系统**。下面的代码演示了后一种方法。**
 
-```
+```java
 // Java code to demonstrate the application
 // of descendingMap() and descendingKetSet()
 import java.io.*;
@@ -145,7 +145,7 @@ public static void main(String[] args)
 
 **输出:**
 
-```
+```java
 The ranks according to scores are : 
 Rank 1: Shavi
 Rank 2: Ashty

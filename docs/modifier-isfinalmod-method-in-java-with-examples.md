@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isFinal(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isFinal(int mod)
 以下程序说明 isFinal()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isFinal() method
 
 import java.lang.reflect.*;
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 17 is final : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isFinal()
 
 import java.lang.reflect.*;
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1025 for method initializeNumber is final : false
 Mod integer value 17 for methoddeclareNumbers is final : true
 

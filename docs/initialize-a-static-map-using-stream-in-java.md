@@ -19,7 +19,7 @@ A **静态地图**是定义为[静态](https://www.geeksforgeeks.org/static-keyw
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to create a static map using Stream
 
 import java.util.*;
@@ -46,7 +46,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 {1=GFG, 2=Geek, 3=GeeksForGeeks}
 
 ```

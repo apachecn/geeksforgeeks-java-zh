@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public List eras()
 ```
 
@@ -18,7 +18,7 @@ public List eras()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // eras() method
 
@@ -58,14 +58,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahEra is: AH
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // eras() method
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahEra is: AH
 
 ```

@@ -8,7 +8,7 @@ Clock 类的 instant()方法返回 Clock 对象的当前瞬间作为 instant 类
 
 **语法:**
 
-```
+```java
 public abstract Instant instant()
 ```
 
@@ -18,7 +18,7 @@ public abstract Instant instant()
 
 **示例:**
 
-```
+```java
 Input:: 
 a clock class Object e.g Clock.systemDefaultZone()
 
@@ -34,7 +34,7 @@ when instant() is called, it returns a current instant of Clock Class Object.
 
 **程序 1** :使用 instant()获取 systemDefaultZone 的时钟对象
 
-```
+```java
 // Java Program to demonstrate
 // instant() method of Clock class
 
@@ -63,7 +63,7 @@ public class instantMethodDemo {
 
 **Output:**
 
-```
+```java
 Instant for class SystemClock[Etc/UTC] is 2018-08-21T05:31:10.662Z
 
 ```
@@ -74,7 +74,7 @@ Instant for class SystemClock[Etc/UTC] is 2018-08-21T05:31:10.662Z
 
 **语法:**
 
-```
+```java
 // get ZonedDateTime object from instant object returned by instant() method of Clock class
 ZonedDateTime time = Clock.systemDefaultZone().instant().atZone(Clock.getZone());
 
@@ -82,7 +82,7 @@ ZonedDateTime time = Clock.systemDefaultZone().instant().atZone(Clock.getZone())
 
 **代码:**
 
-```
+```java
 // Java Program to demonstrate
 // instant() method of Clock class
 
@@ -118,7 +118,7 @@ public class instantMethodDemo {
 
 **Output:**
 
-```
+```java
 Instant for class SystemClock[Europe/Paris] is 2018-08-21T07:31:13.525+02:00[Europe/Paris]
 
 ```

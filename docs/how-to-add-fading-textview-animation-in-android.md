@@ -12,7 +12,7 @@
 
 1.  将此添加到您的根 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中(不是您的模块 build.gradle 文件):
 
-```
+```java
 allprojects {
     repositories {
            jcenter()
@@ -22,7 +22,7 @@ allprojects {
 
 *   在模块的 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。
 
-    ```
+    ```java
     dependencies {
         implementation 'com.tomer:fadingtextview:2.5'
     }
@@ -32,7 +32,7 @@ allprojects {
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout 
 
@@ -63,7 +63,7 @@ allprojects {
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgFadingTextView;
 
     import androidx.appcompat.app.AppCompatActivity;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toNanosPart()
 
 ```
@@ -19,7 +19,7 @@ public long toNanosPart()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate toNanosPart() method
 
 import java.time.Duration;
@@ -44,7 +44,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT51H4M
 0
 
@@ -52,7 +52,7 @@ Duration: PT51H4M
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate toNanosPart() method
 
 import java.time.Duration;
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT0.00000001S
 10
 

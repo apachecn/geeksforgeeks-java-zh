@@ -10,7 +10,7 @@ Lambda 表达式在行为上与匿名内部类非常相似。他们可以完全�
 
 **匿名内部类:**
 
-```
+```java
     Thread thread = new Thread(new Runnable() {
       @Override
       public void run() {
@@ -26,7 +26,7 @@ Lambda 表达式在行为上与匿名内部类非常相似。他们可以完全�
 
 **实际执行:**
 
-```
+```java
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -85,7 +85,7 @@ public class MyClass {
 
 **输出:**
 
-```
+```java
 
 pool-1-thread-1 Counter:0
 pool-1-thread-2 Counter:0

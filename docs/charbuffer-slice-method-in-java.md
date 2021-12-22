@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract CharBuffer slice()
 ```
 
@@ -20,7 +20,7 @@ public abstract CharBuffer slice()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // slice() method
 import java.nio.*;
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, b, , , , , , , , ]
 position: 2
 capacity: 10
@@ -97,7 +97,7 @@ capacity: 8
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // slice() method
 
@@ -167,7 +167,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, b, c, d, , , , , , ]
 position: 4
 capacity: 10

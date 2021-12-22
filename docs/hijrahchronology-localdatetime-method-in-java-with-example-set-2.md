@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ChronoLocalDateTime localDateTime(TemporalAccessor temporal)
 ```
 
@@ -20,7 +20,7 @@ public ChronoLocalDateTime localDateTime(TemporalAccessor temporal)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // localDateTime() method
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 HijrahDate is: Hijrah-umalqura AH 1440-02-16T23:12:31.123
 ```
 
@@ -79,7 +79,7 @@ HijrahDate is: Hijrah-umalqura AH 1440-02-16T23:12:31.123
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // localDateTime() method
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 HijrahDate is: Hijrah-umalqura AH 1440-04-23T19:34:50.630
 ```
 

@@ -21,7 +21,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate that Annotations
 // are Not Barely Comments
 
@@ -61,7 +61,7 @@ class Derived extends Base {
 
 ****输出:****
 
-```
+```java
 10: error: method does not override or implement
     a method from a supertype
 ```
@@ -86,7 +86,7 @@ class Derived extends Base {
 
 ****例****
 
-```
+```java
 @TestAnnotation()
 ```
 
@@ -96,7 +96,7 @@ class Derived extends Base {
 
 ****例****
 
-```
+```java
 @TestAnnotation(“testing”);
 ```
 
@@ -106,7 +106,7 @@ class Derived extends Base {
 
 ****例****
 
-```
+```java
 @TestAnnotation(owner=”Rahul”, value=”Class Geeks”)
 ```
 
@@ -118,7 +118,7 @@ class Derived extends Base {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate Type Annotation
 
 // Importing required classes
@@ -155,7 +155,7 @@ public class GFG {
 
 ****Output:** 
 
-```
+```java
 I am annotated with a type annotation
 This function's  return type is annotated
 ```** 
@@ -168,7 +168,7 @@ This function's  return type is annotated
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate a Repeatable Annotation
 
 // Importing required classes
@@ -223,7 +223,7 @@ public class Main {
 
 ****Output:** 
 
-```
+```java
 @MyRepeatedAnnos(value={@Words(value=1, word="First"), @Words(value=2, word="Second")})
 ```** 
 
@@ -245,7 +245,7 @@ public class Main {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class DeprecatedTest
 {
     @Deprecated
@@ -264,7 +264,7 @@ public class DeprecatedTest
 
 ****Output**
 
-```
+```java
 Deprecatedtest display()
 ```** 
 
@@ -276,7 +276,7 @@ Deprecatedtest display()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Illustrate Override Annotation
 
 // Class 1
@@ -308,7 +308,7 @@ class Derived extends Base
 
 ****Output**
 
-```
+```java
 Derived display()
 ```** 
 
@@ -322,7 +322,7 @@ Derived display()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate SuppressWarnings Annotation
 
 // Class 1
@@ -351,7 +351,7 @@ public class SuppressWarningTest
 
 ****Output**
 
-```
+```java
 Deprecatedtest display()
 ```** 
 
@@ -387,7 +387,7 @@ Deprecatedtest display()
 
 ****语法:**声明**
 
-```
+```java
 [Access Specifier] @interface<AnnotationName>
 {         
    DataType <Method Name>() [default value];
@@ -406,7 +406,7 @@ Deprecatedtest display()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate User-defined Annotations
 
 package source;
@@ -448,7 +448,7 @@ public class Test
 
 ****输出:****
 
-```
+```java
 Hello
 ```
 

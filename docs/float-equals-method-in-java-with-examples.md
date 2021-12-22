@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -22,7 +22,7 @@ public boolean equals(Object obj)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Float.equals() method
 
@@ -61,7 +61,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 The objects 123123.0 and 164165.0are : Not equal
 The objects 12345.0 and 12345.0are : Equal
 
@@ -69,7 +69,7 @@ The objects 12345.0 and 12345.0are : Equal
 
 **程序 2:** 使用浮动。NaN
 
-```
+```java
 // Java program to demonstrate
 // Float.equals() method
 
@@ -96,7 +96,7 @@ class Gfg1 {
 
 T4**输出:**
 
-```
+```java
 The objects NaN and NaNare : Equal
 
 ```
@@ -105,7 +105,7 @@ T7】
 
 **程序 3:** 使用浮点值 0.0f
 
-```
+```java
 // Java program to demonstrate
 // Float.equals() method
 
@@ -132,7 +132,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 The objects 0.0 and -0.0are : Not equal
 
 ```

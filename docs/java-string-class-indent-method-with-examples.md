@@ -6,7 +6,7 @@ JDK 12 在 Java.lang.String 类中引入了*缩进()*方法。此方法用于在
 
 ****语法:****
 
-```
+```java
 public String indent(int n)
 ```
 
@@ -39,7 +39,7 @@ public String indent(int n)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate indent() method of
 // String class
 
@@ -106,7 +106,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 GeeksforGeeks
 A Computer Science portal for geeks.
 Input String length: 50
@@ -128,7 +128,7 @@ New String length: 51
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate indent() method of
 // String class
 
@@ -173,7 +173,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 GeeksforGeeks
 Input String length: 13
     GeeksforGeeks

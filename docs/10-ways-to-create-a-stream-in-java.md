@@ -24,7 +24,7 @@ Java 流的特点是–
 
     **程序:**
 
-    ```
+    ```java
     // Java program to create Stream from Collections
 
     import java.util.*;
@@ -67,7 +67,7 @@ Java 流的特点是–
 
     **Output:**
 
-    ```
+    ```java
     Geeks for Geeks
 
     ```
@@ -80,7 +80,7 @@ Java 流的特点是–
 
     **程序:**
 
-    ```
+    ```java
     // Java program to create Stream from values
 
     import java.util.*;
@@ -115,7 +115,7 @@ Java 流的特点是–
 
     **Output:**
 
-    ```
+    ```java
     1 2 3 4 5 6 7 8 9
 
     ```
@@ -128,7 +128,7 @@ Java 流的特点是–
 
         **程序:**
 
-        ```
+        ```java
         // Java program to create Stream from Collections
 
         import java.util.*;
@@ -170,7 +170,7 @@ Java 流的特点是–
 
         **Output:**
 
-        ```
+        ```java
         a b c
 
         ```
@@ -180,7 +180,7 @@ Java 流的特点是–
 
         **程序:**
 
-        ```
+        ```java
         // Java program to create Stream from Collections
 
         import java.util.*;
@@ -220,7 +220,7 @@ Java 流的特点是–
 
         **Output:**
 
-        ```
+        ```java
         a b c
 
         ```
@@ -231,7 +231,7 @@ Java 流的特点是–
 
     **程序:**
 
-    ```
+    ```java
     // Java program to create empty Stream
 
     import java.util.*;
@@ -273,7 +273,7 @@ Java 流的特点是–
 
     **程序:**
 
-    ```
+    ```java
     // Java program to create Stream from Collections
 
     import java.util.*;
@@ -315,7 +315,7 @@ Java 流的特点是–
 
     **Output:**
 
-    ```
+    ```java
     a b c
 
     ```
@@ -326,7 +326,7 @@ Java 流的特点是–
 
     **程序:**
 
-    ```
+    ```java
     // Java program to create infinite Stream
     // using Stream.iterate() method
 
@@ -365,7 +365,7 @@ Java 流的特点是–
 
     **Output:**
 
-    ```
+    ```java
     2
     4
     16
@@ -380,7 +380,7 @@ Java 流的特点是–
 
     **程序:**
 
-    ```
+    ```java
     // Java program to create infinite Stream
     // using Stream.generate() method
 
@@ -414,7 +414,7 @@ Java 流的特点是–
 
     **Output:**
 
-    ```
+    ```java
     0.2293502475696314
     0.5650334795948209
     0.3418138293253522
@@ -429,7 +429,7 @@ Java 流的特点是–
 
     **程序:**
 
-    ```
+    ```java
     // Java program to create Stream from Collections
 
     import java.util.*;
@@ -472,7 +472,7 @@ Java 流的特点是–
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     Geek
     GeeksForGeeks

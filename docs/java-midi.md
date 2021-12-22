@@ -57,7 +57,7 @@ javax . sound . midi 软件包用于创建和使用 midi 事件，以 Java 制�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program showing the implementation of a simple record
 import javax.sound.midi.*;
 import java.util.*;
@@ -158,7 +158,7 @@ public class MyMidiPlayer {
 }
 ```
 
-```
+```java
 Input: Enter the number of notes to be played: 
        15 
 Output: 15 sound notes with increasing pitch are played
@@ -176,7 +176,7 @@ Output: 25 sound notes with increasing pitch are played
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program showing how to change the instrument type
 import javax.sound.midi.*;
 import java.util.*;
@@ -255,7 +255,7 @@ public class MyMidiPlayer1 {
 }
 ```
 
-```
+```java
 Input : Enter the instrument to be played
         102
         Enter the note to be played

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String replaceFirst(String stringToBeReplaced)
 ```
 
@@ -18,7 +18,7 @@ public String replaceFirst(String stringToBeReplaced)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate replaceFirst() Method
 // of Matcher class
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Before Replacement: GeeksForGeeks Geeks for For Geeks Geek
 After Replacement: GFGForGeeks Geeks for For Geeks Geek
 ```
@@ -74,7 +74,7 @@ After Replacement: GFGForGeeks Geeks for For Geeks Geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate replaceFirst() Method
 
 // Importing required classes
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Before Replacement: FGF FGF FGF FGF
 After Replacement: GFG FGF FGF FGF
 ```

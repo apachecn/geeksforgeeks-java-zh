@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean add(E e)
           or
 public void add(int index, E element)
@@ -24,7 +24,7 @@ public void add(int index, E element)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // add(element) method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [2, 3, 4, 7]
 On adding 45 it returns true
 
@@ -63,7 +63,7 @@ On adding 45 it returns true
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // add(index, element) method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [2]
 CopyOnWriteArrayList: [3, 2]
 CopyOnWriteArrayList: [3, 4, 2]

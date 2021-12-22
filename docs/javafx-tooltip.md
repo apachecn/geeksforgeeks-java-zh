@@ -26,7 +26,7 @@
 
 **程序创建一个标签并给标签添加 tooltip 文本**:我们将为标签 l，l1，l2 创建 3 个 Tooltip 对象 t，T1，t2。然后我们将为两个标签 t1 和 t2 设置字体。对于 t，我们将设置 Arial 字体，对于 t1 Tooltip，我们将设置 Verdana 字体。我们将 t1 和 t2 的文本分别设置为左对齐和右对齐，我们可以使用两种方式将工具提示设置为标签:第一种是使用 setTooltip()函数，另一种是使用 install()函数。然后创建一个平铺窗格，在该窗格上调用 addChildren()方法来附加场景内部的标签，以及代码中由(200，200)指定的分辨率。最后调用 show()方法显示最终结果。
 
-```
+```java
 // Java program to create label and add Tooltip text to the labels
 import javafx.application.Application;
 import javafx.scene.Scene;

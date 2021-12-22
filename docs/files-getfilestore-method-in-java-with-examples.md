@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static FileStore
   getFileStore(Path path)
     throws IOException
@@ -25,7 +25,7 @@ public static FileStore
 下面的程序说明了 getFileStore(路径)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Files.getFileStore() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Files.getFileStore() method
 

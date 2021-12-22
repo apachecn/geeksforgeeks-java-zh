@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static ByteBuffer wrap(byte[] array)
 ```
 
@@ -20,7 +20,7 @@ public static ByteBuffer wrap(byte[] array)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length: 3
 
 Array element: [10, 20, 30]
@@ -86,7 +86,7 @@ bytebuffer position:  0
 
 **语法:**
 
-```
+```java
 public static ByteBuffer 
     wrap(byte[] array, int offset, int length)
 ```
@@ -105,7 +105,7 @@ public static ByteBuffer
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length: 3
 
 Array element: [10, 20, 30]
@@ -179,7 +179,7 @@ bytebuffer position:  0
 
 **示例 2:** 演示 IndexOutOfBoundsException
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -238,7 +238,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length: 3
 
 Array element: [10, 20, 30]

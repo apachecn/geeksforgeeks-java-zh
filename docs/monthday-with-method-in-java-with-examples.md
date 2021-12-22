@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MonthDay with(Month month)
 
 ```
@@ -18,7 +18,7 @@ public MonthDay with(Month month)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.with() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MonthDay before applying method: --08-28
 MonthDay after applying method: --10-28
 
@@ -60,7 +60,7 @@ MonthDay after applying method: --10-28
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.with() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MonthDay before applying method: --10-31
 MonthDay after applying method: --02-29
 

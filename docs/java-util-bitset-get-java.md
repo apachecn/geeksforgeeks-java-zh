@@ -6,7 +6,7 @@ Bitset 中有两个 get()的**变体，本文将对这两个变体进行讨论�
 
 **1.**布尔 get( int 值):**如果位集中存在**值，则返回 true，否则返回 false。****
 
-```
+```java
 ****Declaration :** 
 public boolean get(int value)
 **Parameters :** 
@@ -15,7 +15,7 @@ public boolean get(int value)
 Returns boolean true, if element present else returns false.** 
 ```
 
- ****```
+ ```java
 // Java code to demonstrate the
 // working of get() in Bitset
 
@@ -46,7 +46,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 Does 3 exist in Bitset? : false
 Does 4 exist in Bitset? : true
 
@@ -54,7 +54,7 @@ Does 4 exist in Bitset? : true
 
 2. **BitSet get(int fromval，int toval) :** 方法返回一个新的 Bitset，该 Bitset 由从 fromvale(包含)到 toval(不包含)的 Bitset 中存在的元素组成。
 
-```
+```java
 Declaration : 
 public BitSet get(int fromval, int toval)
 Parameters : 
@@ -67,7 +67,7 @@ This method returns a new BitSet from a range of this BitSet.
 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of get(int fromval, int toval)
 // in Bitset
@@ -96,7 +96,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 Values in BitSet from 0-2 are : {0, 1, 2}
 
 ```

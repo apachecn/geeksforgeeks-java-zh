@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setText(String source)
 ```
 
@@ -19,7 +19,7 @@ public void setText(String source)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setText() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 primary order for order 1 is 84
 primary order for order 2 is 97
 primary order for order 3 is 85
@@ -81,7 +81,7 @@ primary order for order 4 is 87
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setText() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 primary order for order 1 is 102
 primary order for order 2 is 82
 primary order for order 3 is 92

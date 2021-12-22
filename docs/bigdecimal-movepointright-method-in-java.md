@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal movePointRight(*int n*)
 ```
 
@@ -25,7 +25,7 @@ public BigDecimal movePointRight(*int n*)
 
 **例:**
 
-```
+```java
 Input: value = 2300.9856, rightshift = 3
 Output: 2300985.6
 Explanation:
@@ -40,7 +40,7 @@ Output: 3500100
 
 下面的程序说明了大十进制的 movePointRight()方法:
 
-```
+```java
 // Program to demonstrate movePointRight() method of BigDecimal 
 
 import java.math.*;
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After applying decimal move right by move Distance 3 on 2300.9856 New Value is 2300985.6
 
 ```

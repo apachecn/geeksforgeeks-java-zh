@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getOffset()
 ```
 
@@ -18,7 +18,7 @@ public int getOffset()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getOffset() method
 
 import java.text.*;
@@ -57,14 +57,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current offset is 4
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getOffset() method
 
 import java.text.*;
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current offset is 5
 
 ```

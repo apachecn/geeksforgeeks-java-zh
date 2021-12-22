@@ -20,7 +20,7 @@ length()方法也可以用于 StringBuilder 和 StringBuffer 类。length()方�
 
 **方法签名–**length()方法的方法签名如下–
 
-```
+```java
 public int length()  
 ```
 
@@ -32,7 +32,7 @@ public int length()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // how to get the length of String
 // in Java using length() method
@@ -53,7 +53,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 The size of the String is 13
 ```
 
@@ -61,7 +61,7 @@ The size of the String is 13
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate how to check
 // whether the length of two strings is
 // equal or not using the length() method.
@@ -96,6 +96,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 The length of both the strings are equal and is 3
 ```

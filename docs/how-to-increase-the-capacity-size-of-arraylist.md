@@ -18,7 +18,7 @@ ArrayList 类是一个可调整大小的数组，存在于 [java.util](https://w
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // ensureCapacity() method for String values
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: [10, 20, 30]
 Increasing the capacity of ArrayList numbers to store upto 500 elements.
 ArrayList numbers can now store upto 500 elements.

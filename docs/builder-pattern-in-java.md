@@ -6,7 +6,7 @@
 
 **实现:**由于链中方法的返回值是[这个](https://www.geeksforgeeks.org/this-reference-in-java/)引用，这个实现允许我们通过对链中前一个方法的返回值进行下一个方法调用来调用链中的方法。
 
-```
+```java
 // Java code to demonstrate method chaining
 final class Student {
 
@@ -62,7 +62,7 @@ public class MethodChainingDemo {
 
 输出:
 
-```
+```java
 id = 1, name = Ram, address = Noida
 id = 2, name = Shyam, address = Delhi
 
@@ -70,7 +70,7 @@ id = 2, name = Shyam, address = Delhi
 
 **构建器模式的需求:**方法链接是一种有用的设计模式，但是如果**同时访问**，线程可能会观察到一些字段包含不一致的值。虽然上面例子中的所有 setter 方法都是*原子*，但是当对象被并发修改时，方法链中的调用会导致对象状态不一致。下面的例子可以让我们看到一个*学生*处于**不一致状态**的实例，比如一个名字为 *Ram* 地址为*德里*的学生。
 
-```
+```java
 // Java code to demonstrate need of Builder Pattern
 
 // Server Side Code
@@ -156,14 +156,14 @@ public class BuilderNeedDemo {
 
 输出可能是:
 
-```
+```java
 id = 2, name = Shyam, address = Noida
 
 ```
 
 另一个不一致的输出可能是
 
-```
+```java
 id = 0, name = null, address = null
 
 ```
@@ -174,7 +174,7 @@ id = 0, name = null, address = null
 
 **实现:**在构建器模式中，我们在服务器类中有一个名为*构建器*的[内部静态类](https://www.geeksforgeeks.org/nested-classes-java/)，该类有实例字段，并且还有一个[工厂方法](https://www.geeksforgeeks.org/design-patterns-set-2-factory-method/)，用于在每次调用时返回*构建器*类的一个**新**实例。setter 方法现在将返回 *Builder* 类引用。我们还将有一个*构建*方法来返回服务器端类，即外部类的实例。
 
-```
+```java
 // Java code to demonstrate Builder Pattern
 
 // Server Side Code
@@ -296,14 +296,14 @@ public class BuilderDemo {
 
 输出保证为以下之一:
 
-```
+```java
 id = 1, name = Ram, address = Noida
 
 ```
 
 运筹学
 
-```
+```java
 id = 2, name = Shyam, address = Delhi
 
 ```

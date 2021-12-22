@@ -6,7 +6,7 @@
 
 一个**约简操作**或**折叠**取一个输入元素序列，并把它们组合成一个单一的汇总结果，比如求一组数字的和或最大值。如果满足以下条件，则运算符或函数 **op** 是关联的:
 
-```
+```java
 (a op b) op c == a op (b op c)
 
 ```
@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 OptionalInt reduce(IntBinaryOperator op)
 
 ```
@@ -30,7 +30,7 @@ OptionalInt reduce(IntBinaryOperator op)
 
 **例 1 :**
 
-```
+```java
 // Java code for IntStream reduce
 // (IntBinaryOperator op)
 import java.util.OptionalInt;
@@ -63,14 +63,14 @@ class GFG {
 
 输出:
 
-```
+```java
 20
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for IntStream reduce
 // (IntBinaryOperator op)
 import java.util.OptionalInt;
@@ -103,7 +103,7 @@ class GFG {
 
 输出:
 
-```
+```java
 720
 
 ```

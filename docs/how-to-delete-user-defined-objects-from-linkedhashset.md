@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: ["Geeks", "for", "geeks"]
 DELETE = "geeks"
 Output: "Geeks"
@@ -26,7 +26,7 @@ Output: [1, 3, 4, 5]
 
 **语法:**
 
-```
+```java
 LinkedHashSet.remove(Object O)
 ```
 
@@ -36,7 +36,7 @@ LinkedHashSet.remove(Object O)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program  to delete user defined 
 // objects from LinkedHashSet
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before deleting an element :
 [GEEKS, FOR]
 After deleting an element:
@@ -82,7 +82,7 @@ After deleting an element:
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -92,7 +92,7 @@ public void clear()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to delete elements
 // from LinkedHashSet
 
@@ -128,7 +128,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before deleting an element :
 [GEEKS, FOR]
 After deleting all element:

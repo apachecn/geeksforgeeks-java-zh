@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime zonedDateTime(
        Instant instant, ZoneId zone)
 ```
@@ -24,7 +24,7 @@ public ZonedDateTime zonedDateTime(
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseDate and time is:
  Japanese Heisei 32-03-15T06:55:36.135Z[Etc/UTC]
 
@@ -81,7 +81,7 @@ JapaneseDate and time is:
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseDate and time is:
  Japanese Showa 45-01-01T06:56:40Z[Etc/UTC]
 

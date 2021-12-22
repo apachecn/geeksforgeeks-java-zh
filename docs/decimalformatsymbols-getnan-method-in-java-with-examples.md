@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getNaN()
 
 ```
@@ -19,7 +19,7 @@ public String getNaN()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -42,7 +42,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Character used for NaN: ?
 
 ```

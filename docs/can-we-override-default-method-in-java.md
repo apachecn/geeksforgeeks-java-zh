@@ -18,7 +18,7 @@ Java 接口默认方法也称为 Defender 方法或虚拟扩展方法。
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Creating Interface
 interface  GfG{
 
@@ -40,7 +40,7 @@ public class InterfaceExample implements GfG{
 
 ****Output**
 
-```
+```java
 GEEKSFORGEEKS
 ```** 
 
@@ -50,7 +50,7 @@ GEEKSFORGEEKS
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the case when 
 // two interfaces are not overridden
 
@@ -81,7 +81,7 @@ public class InterfaceExample implements GfG,gfg {
 
 ****输出:****
 
-```
+```java
 InterfaceExample.java:18: error: types GfG and gfg are incompatible;
 public class InterfaceExample implements GfG,gfg {
        ^
@@ -93,7 +93,7 @@ public class InterfaceExample implements GfG,gfg {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the case
 // when two interfaces are overridden
 
@@ -133,7 +133,7 @@ public static void main(String args[]) {
 
 ****Output**
 
-```
+```java
 GEEKSFORGEEKS
 geeksforgeeks
 ```**

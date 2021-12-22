@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getNano()
 
 ```
@@ -19,7 +19,7 @@ public int getNano()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.getNano() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Nano Field: 630000000
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.getNano() method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Nano Field: 530000000
 
 ```

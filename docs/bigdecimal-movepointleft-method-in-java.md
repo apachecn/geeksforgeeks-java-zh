@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal movePointLeft(*int n*)
 ```
 
@@ -24,7 +24,7 @@ public BigDecimal movePointLeft(*int n*)
 **异常:**如果刻度溢出，方法抛出*算法异常*。
 **例:**
 
-```
+```java
 Input: value = 2300.9856, Leftshift = 3
 Output: 2.3009856
 Explanation:
@@ -39,7 +39,7 @@ Output: 350.01
 
 下面的程序说明了大十进制的 movePointLeft()方法:
 
-```
+```java
 // Program to demonstrate movePointLeft() method of BigDecimal 
 
 import java.math.*;
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 After applying decimal move left by move Distance 3 on 2300.9856 New Value is 2.3009856
 
 ```

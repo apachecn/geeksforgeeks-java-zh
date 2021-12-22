@@ -85,7 +85,7 @@ java.net.Socket 类允许我们创建套接字对象，帮助我们实现所有�
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import java.io.*;
 import java.net.*;
 public class MyServer {
@@ -124,7 +124,7 @@ public class MyServer {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import java.io.*;
 import java.net.*;
 public class MyClient {

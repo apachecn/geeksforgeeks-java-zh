@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Locale.Builder setRegion(String region)
 
 ```
@@ -21,7 +21,7 @@ public Locale.Builder setRegion(String region)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -57,7 +57,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Setting the region: IN
 Updated LocaleBuilder: java.util.Locale$Builder@232204a1
@@ -66,7 +66,7 @@ Updated LocaleBuilder: java.util.Locale$Builder@232204a1
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -107,7 +107,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Setting the region: asdasf@!vsd#
 java.util.IllformedLocaleException:

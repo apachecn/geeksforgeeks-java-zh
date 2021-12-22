@@ -7,7 +7,7 @@
 **注意:** IntStream mapToDouble()是一个*的**中间操作。*** 这些操作总是偷懒。中间操作在流实例上被调用，在它们完成处理后，它们给出一个流实例作为输出。
 **语法:**
 
-```
+```java
 DoubleStream mapToDouble(IntToDoubleFunction mapper)
 
 ```
@@ -21,7 +21,7 @@ DoubleStream mapToDouble(IntToDoubleFunction mapper)
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream mapToDouble
 // (IntToDoubleFunction mapper)
 import java.util.*;
@@ -50,7 +50,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2.0
 4.0
 6.0
@@ -61,7 +61,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream mapToDouble
 // (IntToDoubleFunction mapper)
 import java.util.*;
@@ -90,7 +90,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1.6666666666666667
 2.0
 2.3333333333333335
@@ -101,7 +101,7 @@ class GFG {
 
 **例 3 :**
 
-```
+```java
 // Java code for DoubleStream mapToDouble
 // (IntToDoubleFunction mapper)
 import java.util.*;
@@ -130,7 +130,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -0.9589242746631385
 -0.27941549819892586
 0.6569865987187891

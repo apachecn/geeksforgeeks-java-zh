@@ -10,7 +10,7 @@ java 中还有其他几个概念，增加了 java 代码和程序员之间的用
 
 **语法:**
 
-```
+```java
 @GetMapping()
 ```
 
@@ -25,7 +25,7 @@ java 中还有其他几个概念，增加了 java 代码和程序员之间的用
 1.  转至[弹簧初始化器](https://start.spring.io/)
 2.  按照要求填写细节。对于如下所示的应用:
 
-```
+```java
 Project: Maven
 Language: Java 
 Spring Boot: 2.2.8 
@@ -46,7 +46,7 @@ Dependencies: Spring Web
 
 **第三步:**转到***src*****->*****主*****->*****java*****->***T21】com . gfg . spring . boot . app*创建一个名称为 **Controller** 的 Java 类，并添加注释**现在创建一个 GET 应用编程接口，如下所示:"**
 
-```
+```java
 @RestController
 
 public class Controller {

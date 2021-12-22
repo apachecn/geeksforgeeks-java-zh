@@ -28,7 +28,7 @@ T0T6】
 
 **语法:**
 
-```
+```java
 ArrayList<String> ArrList = new ArrayList<String>(vector);
 ```
 
@@ -36,7 +36,7 @@ ArrayList<String> ArrList = new ArrayList<String>(vector);
 
 T3】JavaT5
 
-```
+```java
 // Convert Vector to ArrayList in Java
 import java.util.Vector;
 import java.util.ArrayList;

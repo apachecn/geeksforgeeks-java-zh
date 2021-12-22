@@ -6,7 +6,7 @@ Java 中 Dictionary 类的 keys()方法用于获取字典中存在的值的枚�
 
 **语法:**
 
-```
+```java
 Enumeration enu = DICTIONARY.elements()
 ```
 
@@ -17,7 +17,7 @@ Enumeration enu = DICTIONARY.elements()
 下面的程序用来说明 java.util.Dictionary.elements()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the elements() method
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class Dictionary_Demo {
 
 **Output:**
 
-```
+```java
 The Dictionary is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 The enumeration of values are:
 Geeks
@@ -67,7 +67,7 @@ Welcomes
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the elements() method
 import java.util.*;
 
@@ -104,7 +104,7 @@ public class Dictionary_Demo {
 
 **Output:**
 
-```
+```java
 The Dictionary is: {You=30, Welcomes=25, 4=15, Geeks=20}
 The enumeration of values are:
 30

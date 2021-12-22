@@ -6,7 +6,7 @@ Java 中 **MonthDay** 类的 **now(ZoneId zone)** 方法用于从指定时区的
 
 **语法:**
 
-```
+```java
 public static MonthDay now(ZoneId zone)
 ```
 
@@ -18,7 +18,7 @@ public static MonthDay now(ZoneId zone)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.now(ZoneId zone) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MonthDay: --05-09
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.now(ZoneId zone) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Month: MAY
 
 ```

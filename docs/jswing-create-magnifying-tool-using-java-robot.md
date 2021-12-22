@@ -16,7 +16,7 @@ Java 机器人是 Java AWT(抽象窗口工具包)包的一部分。Java Robot �
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a Magnifying tool
 // using Java Robot
 

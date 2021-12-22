@@ -46,7 +46,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.GFG" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -66,7 +66,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -109,7 +109,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import dagger.Component;
 
 @Component
@@ -127,7 +127,7 @@ public interface BikeComponent {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Activity;
 import android.util.Log;
 
@@ -159,7 +159,7 @@ public class GFG_Bike extends Activity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Activity;
 import android.util.Log;
 
@@ -179,7 +179,7 @@ public class GFG_Engine extends Activity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Activity;
 import android.util.Log;
 
@@ -201,7 +201,7 @@ public class GFG_Wheels extends Activity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

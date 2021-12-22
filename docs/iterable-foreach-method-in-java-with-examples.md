@@ -8,7 +8,7 @@ Java 8 发布已经有一段时间了。随着该版本的发布，他们改进�
 
 **forEach 方法在 Iterable 接口的实现为:**
 
-```
+```java
 default void forEach(Consumer action) {
         Objects.requireNonNull(action);
         for (T t : this) {
@@ -25,7 +25,7 @@ default void forEach(Consumer action) {
 
 **程序 1:** 使用迭代器迭代字符串列表的程序。
 
-```
+```java
 // Java program to demonstrate
 // forEach() method of Iterable interface
 
@@ -58,7 +58,7 @@ public class ForEachExample {
 
 **输出:**
 
-```
+```java
 New Delhi
 New York
 Mumbai
@@ -68,7 +68,7 @@ London
 
 **程序 2:** 在包含城市列表的列表上演示 forEach()方法的程序。
 
-```
+```java
 // Java program to demonstrate
 // forEach() method of Iterable interface
 
@@ -102,7 +102,7 @@ public class ForEachExample {
 
 **输出:**
 
-```
+```java
 New Delhi
 New York
 Mumbai
@@ -114,7 +114,7 @@ London
 
 **程序 3:** 在这个程序中，我们将分别演示消费者接口的实现，以便我们可以重用它。让我们创建一个实现消费者接口并覆盖其接受方法的类 CityConsumer。
 
-```
+```java
 // Java program to demonstrate
 // forEach() method of Iterable interface
 
@@ -154,7 +154,7 @@ public class ForEachExample {
 
 **输出:**
 
-```
+```java
 New Delhi
 New York
 Mumbai

@@ -18,7 +18,7 @@ java 应用程序可以通过使用运行时对象与虚拟机通信。java.lang
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import required packages
 import java.io.*;
 import java.lang.*;
@@ -55,7 +55,7 @@ class heapMemory {
 
 **Output**
 
-```
+```java
 Max memory 134217728
 Initial memory 134217728
 Free memory 132286176
@@ -72,7 +72,7 @@ Consume memory 1931552
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import required packages
 import java.io.*;
 import java.lang.*;
@@ -112,7 +112,7 @@ class heapMemory {
 
 **Output**
 
-```
+```java
 Max memory 134.217728
 Initial memory 134.217728
 Free memory 132.285184
@@ -127,7 +127,7 @@ Consume memory 1.932544
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import required packages
 import java.io.*;
 import java.lang.*;
@@ -167,7 +167,7 @@ class heapMemory {
 
 **Output**
 
-```
+```java
 Max memory 134.217728
 Initial memory 134.217728
 Free memory 132.285192

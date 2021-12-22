@@ -7,7 +7,7 @@
 **OutputStreamWriter** 类将字符流连接到字节流。它使用指定的字符集将字符编码成字节。
 **申报:**
 
-```
+```java
 public class OutputStreamWriter
    extends Writer
 ```
@@ -25,7 +25,7 @@ public class OutputStreamWriter
 *   **flush():Java . io . outputstreamwriter . flush()**刷新流。
     **语法:**
 
-```
+```java
 public void flush()
 Parameters : 
 ------
@@ -38,7 +38,7 @@ Exception :
 *   **close():Java . io . outputstreamwriter . close()**关闭刷新的流。
     **语法:**
 
-```
+```java
 public void close()
 Parameters : 
 ------
@@ -51,7 +51,7 @@ Exception :
 *   **write(int char):Java . io . outputstreamwriter . write(int char)**写单个字符。
     **语法:**
 
-```
+```java
 public void write(int char)
 Parameters : 
 char : character to be written
@@ -61,7 +61,7 @@ void
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code explaining the working of write(int char), flush(), close()
 
 import java.io.*;
@@ -108,7 +108,7 @@ public class NewClass
 
 *   **输出:**
 
-```
+```java
 write(int char) : G
 write(int char) : E
 write(int char) : E
@@ -119,7 +119,7 @@ write(int char) : S
 *   **write(String geek，int offset，int strlen):Java . io . outputstreamwriter . write(String geek，int offset，int strlen)** 从“offset position”开始到“strlen”长度写一部分“geek”字符串。
     **语法:**
 
-```
+```java
 public void write(String geek, int offset, int strlen)
 Parameters : 
 geek : string whose portion is to be written 
@@ -133,7 +133,7 @@ Exception :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code explaining the working of write(String geek, int offset, int strlen))
 
 import java.io.*;
@@ -177,7 +177,7 @@ public class NewClass
 
 *   **输出:**
 
-```
+```java
 write(int char) : S
 write(int char) : F
 write(int char) : o
@@ -188,7 +188,7 @@ write(int char) : G
 *   **write(char[] geek，int offset，int strlen):Java . io . outputstreamwriter . write(char[]geek，int offset，int strlen)** 写一部分“geek”字符数组，从“offset position”开始，到“strlen”长度。
     **语法:**
 
-```
+```java
 public void write(char[] geek, int offset, int strlen)
 Parameters : 
 geek : character array whose portion is to be written 
@@ -205,7 +205,7 @@ Exception :
     如果流已经关闭，则返回空。
     **语法:**
 
-```
+```java
 public String getEncoding()
 Parameters : 
 ------
@@ -217,7 +217,7 @@ Exception :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code explaining write(char[] geek, int offset, int strlen)
 // and getEncoding() method
 
@@ -270,7 +270,7 @@ public class NewClass
 
 *   **输出:**
 
-```
+```java
 char[] geek, int offset, int strlen) : G
 char[] geek, int offset, int strlen) : E
 char[] geek, int offset, int strlen) : E

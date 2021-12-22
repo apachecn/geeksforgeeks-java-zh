@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.clear()方法用于从映射中移除所有映射�
 
 **语法:**
 
-```
+```java
 enum_map.clear()
 ```
 
@@ -17,7 +17,7 @@ enum_map.clear()
 下面的程序说明了 Java.util.EnumMap.clear()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate clear() method
 import java.util.*;
 
@@ -53,7 +53,7 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 Values in map before removing {Global=800, India=72}
 Values in map after removing {}
 
@@ -61,7 +61,7 @@ Values in map after removing {}
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate clear() method
 import java.util.*;
 
@@ -103,7 +103,7 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 Values in map before removing {Orange=30, Apple=50, Banana=40, 
                                     Pomegranate=120, Guava=20}
 Values in map after removing {}

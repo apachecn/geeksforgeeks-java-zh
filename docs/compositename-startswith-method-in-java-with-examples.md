@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean startsWith(Name n)
 
 ```
@@ -18,7 +18,7 @@ public boolean startsWith(Name n)
 以下程序说明了 CompositeName.startsWith()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.startsWith()
 
@@ -57,14 +57,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompositeName1 not starts with  CompositeName2
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.startsWith() method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompositeName1 starts with  CompositeName2
 
 ```

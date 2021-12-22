@@ -6,7 +6,7 @@ Java 方法中 LocalDate 类的 get()方法从该日期中获取指定字段的�
 
 **语法**:
 
-```
+```java
 public int get(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ public int get(TemporalField field)
 下面的程序说明了 Java 中 LocalDate 的 **get()** 方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the get() method
 
 import java.util.*;
@@ -43,14 +43,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the get() method
 // Exception Program
 
@@ -74,7 +74,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 java.time.format.DateTimeParseException: 
 Text '2017-02-30' could not be parsed: Invalid date 'FEBRUARY 30'
 

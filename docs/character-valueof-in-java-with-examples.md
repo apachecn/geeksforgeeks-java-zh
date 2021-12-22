@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Character valueOf(char ch)
 
 Parameter: 
@@ -20,7 +20,7 @@ ch- this parameter specifies the character.
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // Java.lang.Character.valueOf() method
 // when the assigned char is a character
@@ -44,14 +44,14 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 Character value of z is z
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the
 // Java.lang.Character.valueOf() method
 // when the assigned char is a number
@@ -75,7 +75,7 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 Character value of 5 is 5
 
 ```

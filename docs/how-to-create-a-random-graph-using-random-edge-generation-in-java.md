@@ -19,7 +19,7 @@
 
 T3】JavaT5
 
-```
+```java
 // Create a Random Graph Using
 // Random Edge Generation in Java
 import java.util.*;
@@ -135,7 +135,7 @@ T6T8**输出**T1
 
 T3】JavaT5
 
-```
+```java
 // Create a Random Graph Using
 // Random Edge Generation in Java
 import java.util.*;
@@ -260,7 +260,7 @@ T6T8**输出**T1
 
 现在，输出无向图不包含相同顶点之间的任何多条边。虽然图可能包含自循环(但现在每个顶点只有一个)。但是，如果您想要生成没有自循环的无向图，那么您可以在上面的代码中添加另一个条件
 
-```
+```java
 //Check if there is already an edge between v and w or v and w are equal
 if((v == w ) || adjacencyList.get(v).contains(w)) {
     //Reduce the value of i
@@ -288,7 +288,7 @@ if((v == w ) || adjacencyList.get(v).contains(w)) {
 
 ## Java
 
-```
+```java
 // Create a Random Graph Using
 // Random Edge Generation in Java
 import java.util.*;
@@ -403,7 +403,7 @@ public class GFGRandomGraph {
 
 **Output**
 
-```
+```java
 The generated random graph :
 0 -> { 4 , 3 , 5 , 15 , 13}
 1 -> { 2 , 6 , 9 , 7 , 12 , 4}
@@ -441,7 +441,7 @@ The generated random graph :
 
 T3】JavaT5
 
-```
+```java
 // Create a Random Graph Using
 // Random Edge Generation in Java
 import java.util.*;

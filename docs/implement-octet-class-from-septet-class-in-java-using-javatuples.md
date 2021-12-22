@@ -10,7 +10,7 @@
 
 1.  **Using direct values**
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Octet Class 
     // from Septet Class 
@@ -51,7 +51,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -59,7 +59,7 @@
 
 2.  **Using Septet.add() method**
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Octet Class 
     // from Septet Class 
@@ -91,7 +91,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit, Octet]
 
@@ -101,7 +101,7 @@
 
     **程序 1:** 使用 addAt0()在位置 0 添加
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Octet Class 
     // from Septet Class 
@@ -133,7 +133,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -141,7 +141,7 @@
 
     **程序 2:** 使用 addAt1()在位置 1 添加
 
-    ```
+    ```java
     import java.util.*;
     import org.javatuples.*;
 
@@ -168,7 +168,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Septet, Octet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -176,7 +176,7 @@
 
     **程序 3:** 使用 addAt2()在位置 2 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt2() method with
     // direct value
@@ -207,7 +207,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Septet, Sextet, Octet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -215,7 +215,7 @@
 
     **程序 4:** 使用 addAt3()在位置 3 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt3() method with
     // direct value
@@ -246,7 +246,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Septet, Sextet, Quintet, Octet, Quartet, Triplet, Pair, Unit]
 
@@ -254,7 +254,7 @@
 
     **程序 5:** 使用 addAt4()在位置 4 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt4() method with
     // direct value
@@ -285,7 +285,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Septet, Sextet, Quintet, Quartet, Octet, Triplet, Pair, Unit]
 
@@ -293,7 +293,7 @@
 
     **程序 6:** 使用 addAt5()在位置 5 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt5() method with
     // direct value
@@ -324,7 +324,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Septet, Sextet, Quintet, Quartet, Triplet, Octet, Pair, Unit]
 
@@ -332,7 +332,7 @@
 
     **程序 7:** 使用 addAt6()在位置 6 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt6() method with
     // direct value
@@ -363,7 +363,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Octet, Unit]
 
@@ -371,7 +371,7 @@
 
     **程序 8:** 使用 addAt6()在位置 7 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt7() method with
     // direct value
@@ -402,7 +402,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Octet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit, Octet]
 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime plus(long amountToAdd,
                       TemporalUnit unit)
 
@@ -23,7 +23,7 @@ public LocalTime plus(long amountToAdd,
 下面的程序说明了加号()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.plus() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime after adding 2 Hours: 21:34:50.630
 
 ```
@@ -62,7 +62,7 @@ LocalTime after adding 2 Hours: 21:34:50.630
 
 **语法:**
 
-```
+```java
 public LocalTime plus(TemporalAmount amountToAdd)
 
 ```
@@ -74,7 +74,7 @@ public LocalTime plus(TemporalAmount amountToAdd)
 下面的程序说明了加号()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.plus() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime after adding 55 Minutes: 20:29:50.630
 
 ```

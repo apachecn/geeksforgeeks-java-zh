@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **isSupported()** 方法检查是否支持指�
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalUnit unit)
            or
 public boolean isSupported(TemporalField field)
@@ -21,7 +21,7 @@ public boolean isSupported(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the isSupported(TemporalUnit) method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03T12:45:30
 true
 
@@ -53,7 +53,7 @@ true
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the isSupported(TemporalField) method
 
 import java.util.*;
@@ -79,7 +79,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03T12:45:30
 true
 

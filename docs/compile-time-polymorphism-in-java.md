@@ -25,7 +25,7 @@
 
 **例:**
 
-```
+```java
 void gfg() { ... }
 void gfg(int num1 ) { ... }
 void gfg(float num1) { ... }
@@ -38,7 +38,7 @@ void gfg(int num1 , float num2 ) { ... }
 
 **例:**
 
-```
+```java
 show( char a )
 show( char a ,char b )
 ```
@@ -49,7 +49,7 @@ show( char a ,char b )
 
 T0】输出
 
-```
+```java
 number 1 : 3
 number 1 : 4  number 2 : 5
 ```

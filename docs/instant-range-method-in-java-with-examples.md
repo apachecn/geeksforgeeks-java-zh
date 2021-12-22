@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ValueRange range(TemporalField field)
 ```
 
@@ -23,7 +23,7 @@ public ValueRange range(TemporalField field)
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.range() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.range() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **程序 3:** 获取不支持的临时异常
 
-```
+```java
 // Java program to demonstrate
 // Instant.range() method
 

@@ -6,7 +6,7 @@ Java 中**计时日期**界面的 **isEqual()** 方法检查该日期是否等�
 
 **语法** :
 
-```
+```java
 public boolean isEqual(ChronoLocalDate date2)
 
 ```
@@ -19,7 +19,7 @@ public boolean isEqual(ChronoLocalDate date2)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isEqual() method
 
 import java.util.*;
@@ -45,14 +45,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the isEqual() method
 
 import java.util.*;
@@ -78,7 +78,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 false
 
 ```

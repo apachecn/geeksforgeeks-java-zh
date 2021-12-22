@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration minusMillis(long numberOfMillis)
 ```
 
@@ -22,7 +22,7 @@ public Duration minusMillis(long numberOfMillis)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusMillis() method
 
 import java.time.Duration;
@@ -44,7 +44,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT51H3M59.998S
 ```
 
@@ -52,7 +52,7 @@ PT51H3M59.998S
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusMillis() method
 
 import java.time.Duration;
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT3M59.995S
 ```
 

@@ -28,7 +28,7 @@ Point2D 类是 JavaFX 的一部分。这个类定义了空间中的一个二维�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a point 2D
 // object and display its coordinates
 // and find its distance from origin
@@ -62,7 +62,7 @@ public class Point2D_1 {
 
 **输出:**
 
-```
+```java
 x coordinate = 20.0, y coordinate = 150.0
 distance from origin = 151.32745950421557
 ```
@@ -71,7 +71,7 @@ distance from origin = 151.32745950421557
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create 3 Point2D objects and display
 // their coordinates and distance from origin and
 // check which of the 3 points are similar and
@@ -138,7 +138,7 @@ public class Point2D_2 {
 
 **输出:**
 
-```
+```java
 x coordinate = 120.0, y coordinate = 50.0
 Distance from origin = 130.0
 x coordinate = 120.0, y coordinate = 50.0

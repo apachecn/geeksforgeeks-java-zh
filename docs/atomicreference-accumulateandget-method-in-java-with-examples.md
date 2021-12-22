@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final E accumulateAndGet(E x,
      BinaryOperator<E> accumulatorFunction)
 
@@ -22,7 +22,7 @@ public final E accumulateAndGet(E x,
 下面的程序说明了累计数()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.accumulateAndGet() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.accumulateAndGet() method
 

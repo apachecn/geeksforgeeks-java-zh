@@ -6,7 +6,7 @@ Java 中 **[IntSummaryStatistics 类的 **getMax()** 方法用于获取该 IntSu
 
 **语法:**
 
-```
+```java
 public int getMax()
 
 ```
@@ -17,7 +17,7 @@ public int getMax()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -48,7 +48,7 @@ public class IntSummaryStatisticsDemo {
 
 **输出:**
 
-```
+```java
 The maximum of values is 50
 
 ```

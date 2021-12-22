@@ -8,13 +8,13 @@ Arrays.sort()方法由两种变体组成，一种是我们不传递任何参数�
 
 **语法:**排序()方法
 
-```
+```java
 Arrays.sort(); 
 ```
 
 **语法:**重载排序()方法
 
-```
+```java
 public static void sort(int[] arr, int from_Index, int to_Index) ;
 ```
 
@@ -32,7 +32,7 @@ public static void sort(int[] arr, int from_Index, int to_Index) ;
 
 ## 爪哇
 
-```
+```java
 // Java Program to Sort Array of Integers
 // by Default Sorts in an Ascending Order
 // using Arrays.sort() Method
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modified arr[] : [6, 7, 9, 13, 21, 45, 101, 102]
 ```
 
@@ -70,7 +70,7 @@ Modified arr[] : [6, 7, 9, 13, 21, 45, 101, 102]
 
 ## 爪哇
 
-```
+```java
 // Java program to Sort a Subarray in Array
 // Using Arrays.sort() method
 

@@ -6,7 +6,7 @@ Java 中 **LocalDateTime** 类的**(local date date，LocalTime time)** 方法�
 
 **语法:**
 
-```
+```java
 public static LocalDateTime of(LocalDate date, 
                                LocalTime time)
 
@@ -25,7 +25,7 @@ public static LocalDateTime of(LocalDate date,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.of(LocalDate date,
 // LocalTime time) method
@@ -58,14 +58,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DateTime: 2020-05-13T06:30
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.of(LocalDate date,
 // LocalTime time) method
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DateTime: 2019-12-31T06:30:45
 
 ```

@@ -34,7 +34,7 @@ DropShadow 类是 JavaFX 的一部分。DropShadow 类创建一个高级效果�
 
 1.  **Java program to create a Circle and add DropShadow effect to it:** In this program we will create a Circle named *circle* and create a DropShadow effect *drop_shadow* with specified radius and color. The DropShadow effect will be added to the circle using the *setEffect()* function and the circle will be added to the group. The circles will be translated to specific position in the stage using *setTranslateX()* and *setTranslateY()* function. The group will be added to the scene and the scene will be added to the stage.
 
-    ```
+    ```java
     // Java program to create a Circle and
     // add DropShadow effect to it
     import javafx.application.Application;
@@ -102,7 +102,7 @@ DropShadow 类是 JavaFX 的一部分。DropShadow 类创建一个高级效果�
 
 2.  **Java program to create four Circles and add DropShadow effect to it, which are of different blur types and different values of offsetX, offsetY and radius:** In this program we will create Circles named *circle*, *circle1*, *circle2*, *circle3* and create a DropShadow effects named *drop_shadow1*, *drop_shadow2*, *drop_shadow3*, *drop_shadow4* with specified radius, color, offsetX, offsetY, spread and blur type. The DropShadow effect will be added to the circle using the *setEffect()* function and the circles will be added to the group. The circles will be translated to specific position in the stage using *setTranslateX()* and *setTranslateY()* function. The group will be added to the scene and the scene will be added to the stage.
 
-    ```
+    ```java
     // Java program to create four Circles and 
     // add DropShadow effect to it which are of
     // different blur types and different values 

@@ -28,7 +28,7 @@
 
 1.  **Java program to add a reflection to the image using the reflection class:** In this program a *FileInputStream* is created and an image is taken as input from a file. An Image named *image* is created using the input from the file input stream. From the image, an *image view object* is created and it is added to the *VBox*. The VBox is then added to the scene and the scene is added to the stage. A Reflection effect is created and the effect is set to the image view using *setEffect()* function.
 
-    ```
+    ```java
     // Java program to add a reflection to 
     // the image using the reflection class
     import javafx.application.Application;
@@ -93,7 +93,7 @@
 
 2.  **Java program to add a reflection to the image using the reflection class and set the *top offset, top opacity, bottom opacity and fraction* of image which will appear as a reflection:** In this program a FileInputStream is created and an image is taken as input from a file. Image named *image* is created using the input from the file input stream. From the image, an *image view object* is created and it is added to the *VBox* . The *VBox* is then added to the scene and the scene is added to the stage. A Reflection effect is created and the effect is set to the image view using *setEffect()* function. The *bottom Opacity, top Opacity, top offset, and fraction* are set using the *setBottomOpacity(), setTopOpacity(), setFraction(), and setTopOffset()* function respectively.
 
-    ```
+    ```java
     // Java program to add a reflection to the image
     // using the reflection class and set the top 
     // offset, top opacity bottom opacity and fraction

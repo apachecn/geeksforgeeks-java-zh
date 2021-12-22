@@ -7,7 +7,7 @@
 因为 null 被认为是任何引用类型的值，所以只要支持集允许插入 null 元素，返回集就允许插入 null 元素。
 **语法:**
 
-```
+```java
 public static  Set checkedSet(Set s, Class type)
 ```
 
@@ -22,7 +22,7 @@ public static  Set checkedSet(Set s, Class type)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // checkedSet() method
 // for String value
@@ -65,7 +65,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Set: [Gopal, Ram, Verma]
 Typesafe view of Set: [Gopal, Ram, Verma]
 ```
@@ -74,7 +74,7 @@ Typesafe view of Set: [Gopal, Ram, Verma]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // checkedSet() method
 // for Integer value
@@ -115,7 +115,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Set: [20, 30, 40]
 Typesafe view of Set: [20, 30, 40]
 ```

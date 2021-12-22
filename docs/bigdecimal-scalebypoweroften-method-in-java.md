@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal scaleByPowerOfTen(int n)
 
 ```
@@ -20,7 +20,7 @@ public BigDecimal scaleByPowerOfTen(int n)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // scaleByPowerOfTen() method
 
@@ -49,7 +49,7 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 754.000 raised to power is 7.54000E+6
 75400 raised to power is 7.5400
 
@@ -57,7 +57,7 @@ public class Gfg {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the
 // scaleByPowerOfTen() method
 
@@ -86,7 +86,7 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 200 raised to power is 2.00E+6
 7540000000 raised to power is 754000.0000
 

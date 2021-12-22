@@ -6,7 +6,7 @@ Java . util . LinkedList . listiterator()方法用于返回一个列表迭代器
 
 **语法:**
 
-```
+```java
 ListIterator *new_list* = LinkedList.listIterator(int index);
 
 ```
@@ -17,7 +17,7 @@ ListIterator *new_list* = LinkedList.listIterator(int index);
 
 下面的程序说明了 Java . util . linkedlist . listiterator()方法:
 
-```
+```java
 // Java code to illustrate listIterator()
 import java.io.*;
 import java.util.LinkedList;
@@ -53,7 +53,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 The list is as follows:
 Geeks

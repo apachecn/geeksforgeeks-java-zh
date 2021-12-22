@@ -5,7 +5,7 @@
 **Java Date 类**的 **setTime()** 方法设置日期对象。它将 date 对象设置为表示 1970 年 1 月 1 日 00:00:00 GMT 之后的时间毫秒。
 **语法:**
 
-```
+```java
 public void setTime(long time)
 
 ```
@@ -20,7 +20,7 @@ public void setTime(long time)
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // setTime() function of Date class
 
@@ -50,7 +50,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date initially: Wed Jan 02 09:34:03 UTC 2019
 Date after setting the time: Thu Jan 01 00:00:01 UTC 1970
 
@@ -58,7 +58,7 @@ Date after setting the time: Thu Jan 01 00:00:01 UTC 1970
 
 **程序 2:**
 
-```
+```java
 // Java code to demonstrate
 // setTime() function of Date class
 
@@ -101,7 +101,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date initially: Thu Dec 05 09:32:53 UTC 1996
 Date after setting the time: Thu Jan 01 00:16:40 UTC 1970
 

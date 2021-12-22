@@ -30,7 +30,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +56,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 PageCurlView pageCurlView;
 List<Integer> images;
 ```
@@ -67,7 +67,7 @@ List<Integer> images;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 pageCurlView = findViewById(R.id.pagecurlView);
 images= new ArrayList<>();
 
@@ -83,7 +83,7 @@ pageCurlView.setCurlSpeed(600); // Set the speed in ms
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

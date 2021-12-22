@@ -32,7 +32,7 @@
 
 **第三步:**使用以下公式求解矩阵的第一部分
 
-```
+```java
 M1:=(A1+A3)×(B1+B2)
 M2:=(A2+A4)×(B3+B4)
 M3:=(A1−A4)×(B1+A4)
@@ -59,7 +59,7 @@ S:=M1−M3−M4−M5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Strassen Algorithm
 
 // Class Strassen matrix multiplication
@@ -311,7 +311,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Strassen Multiplication Algorithm Implementation For Matrix Multiplication :
 
 Product of matrices A and  B : 
@@ -327,19 +327,19 @@ Product of matrices A and  B :
 
 通过分析，时间复杂度函数可以写成:
 
-```
+```java
 T(N) = 7T(N/2) +  O(N2)
 ```
 
 通过使用主定理解决这个问题，我们得到:
 
-```
+```java
 T(n)=O(nlog7)
 ```
 
 因此，斯特拉森矩阵乘法算法的时间复杂度推导如下:
 
-```
+```java
 O(nlog7) = O (n2.81)
 ```
 

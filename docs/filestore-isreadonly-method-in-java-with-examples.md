@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract String isReadOnly()
 
 ```
@@ -18,7 +18,7 @@ public abstract String isReadOnly()
 下面的程序说明了 isReadOnly()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // FileStore.isReadOnly() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // FileStore.isReadOnly() method
 

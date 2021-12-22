@@ -10,14 +10,14 @@
 
 **创建工作簿:**
 
-```
+```java
 // Create a Work Book
 XSSFWorkbook workbook = new XSSFWorkbook();
 ```
 
 **在工作簿中创建电子表格:**
 
-```
+```java
 // Create spreadsheet named "Print Area"
 XSSFSheet spreadsheet = workbook.createSheet("Print Area");
 ```
@@ -26,7 +26,7 @@ XSSFSheet spreadsheet = workbook.createSheet("Print Area");
 
 现在我们使用**设置打印区域()**功能设置打印区域。在这个函数中，我们发送五个值。
 
-```
+```java
 workbook.setPrintArea(
            0, // sheet index
            0, // start column
@@ -38,21 +38,21 @@ workbook.setPrintArea(
 
 我们可以使用**设置显示网格线()**功能在打印区域显示网格线。
 
-```
+```java
 // set display grid lines or not
 spreadsheet.setDisplayGridlines(true);
 ```
 
 要设置纸张尺寸，我们使用**设定纸张尺寸()**功能。
 
-```
+```java
 // set paper size
 spreadsheet.getPrintSetup().setPaperSize(XSSFPrintSetup.A4_PAPERSIZE);
 ```
 
 如果我们想打印网格线和我们的内容，我们可以通过**设置打印网格线()**功能来实现。
 
-```
+```java
 // set print grid lines or not
 spreadsheet.setPrintGridlines(true);
 ```
@@ -61,7 +61,7 @@ spreadsheet.setPrintGridlines(true);
 
 ## 【Java】
 
-```
+```java
 // Java program to set the print area in spreadsheet
 
 import java.io.*;

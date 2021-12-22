@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long mean(long x, long y)
 
 ```
@@ -19,7 +19,7 @@ public static long mean(long x, long y)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // mean(long x, long y) method of Guava's
 // LongMath class
@@ -48,14 +48,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Mean of 1542 and 421 is : 981
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // mean(long x, long y) method of Guava's
 // LongMath class
@@ -84,7 +84,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Mean of 65 and 41 is : 53
 
 ```

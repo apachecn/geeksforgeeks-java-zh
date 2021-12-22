@@ -6,13 +6,13 @@ Java 中[文件](https://www.geeksforgeeks.org/file-class-in-java/)类的 **read
 
 **语法:**
 
-```
+```java
 Files.readString(filePath)
 ```
 
 **参数:**
 
-```
+```java
 path - File path with data type as Path
 ```
 
@@ -20,7 +20,7 @@ path - File path with data type as Path
 
 下面是 readString()方法的两种重载形式。
 
-```
+```java
 public static String readString​(Path path) throws IOException 
 public static String readString​(Path path, Charset cs) throws IOException
 ```
@@ -38,7 +38,7 @@ public static String readString​(Path path, Charset cs) throws IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implementation fo readString() method in Java
 import java.io.IOException;
 import java.nio.file.Files;
@@ -68,6 +68,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Hello from GFG!
 ```

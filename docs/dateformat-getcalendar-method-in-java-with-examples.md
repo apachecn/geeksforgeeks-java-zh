@@ -6,7 +6,7 @@ Java 中 **DateFormat 类**的 **getCalendar()** 方法用于获取与该日期/
 
 **语法:**
 
-```
+```java
 public Calendar getCalendar()
 ```
 
@@ -17,7 +17,7 @@ public Calendar getCalendar()
 下面的程序说明了 getCalendar()方法在 Java 中的使用:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // getCalendar() method
 
@@ -42,7 +42,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 java.util.GregorianCalendar[time=1553691245240, areFieldsSet=true, areAllFieldsSet=true,
 lenient=true, zone=sun.util.calendar.ZoneInfo[id="Etc/UTC", offset=0, dstSavings=0,
 useDaylight=false, transitions=0, lastRule=null], firstDayOfWeek=1, minimalDaysInFirstWeek=1,
@@ -54,7 +54,7 @@ MILLISECOND=240, ZONE_OFFSET=0, DST_OFFSET=0]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getCalendar() method
 
@@ -79,7 +79,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 java.util.GregorianCalendar[time=1553691264669, areFieldsSet=true, areAllFieldsSet=true,
 lenient=true, zone=sun.util.calendar.ZoneInfo[id="Etc/UTC", offset=0, dstSavings=0,
 useDaylight=false, transitions=0, lastRule=null], firstDayOfWeek=1, minimalDaysInFirstWeek=1,

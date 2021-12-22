@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public final class StrictMath
    extends Object
 ```
@@ -23,7 +23,7 @@ acos(arg) = cos <sup>-1</sup> 的 arg
 
 **语法:**
 
-```
+```java
 public static double acos(double a)
 Parameters:
 a - the argument whose arc cosine value we need.
@@ -40,7 +40,7 @@ arc cosine value of the argument.
 
 **语法:**
 
-```
+```java
 public static datatype abs(datatype arg)
 Parameters:
 arg - the argument whose absolute value we need
@@ -53,7 +53,7 @@ absolute value of the passed argument.
 
 **语法:**
 
-```
+```java
 public static double toRadians(double deg)
 Parameters:
 deg - degree angle needs to be in radian.
@@ -65,7 +65,7 @@ radians equivalent of the degree-argument passed.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining lang.StrictMath class methods
 // abs(), acos(), toRadians()
 
@@ -107,7 +107,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Initial value of int  : -1
 Initial value of int  : 0.5
 Absolute value of int : 1
@@ -127,7 +127,7 @@ acos value of Acosj : 1.5159376794536454
 
 **语法:**
 
-```
+```java
 public static double cbrt(double arg)
 Parameters:
 arg - argument passed. 
@@ -146,7 +146,7 @@ asin(arg) =正弦 <sup>-1</sup> 的 arg
 
 **语法:**
 
-```
+```java
 public static double asin(double arg)
 Parameters:
 arg - argument passed. 
@@ -158,7 +158,7 @@ arc sine of the argument passed.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining lang.StrictMath class methods
 // asin(), cbrt()
 
@@ -193,7 +193,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 asin value of Asini : NaN
 asin value of Asinj : 0.054858647341251204
 
@@ -202,7 +202,7 @@ cube root : 6.0
 
 **6。log():Java . lang . strict math . log()**方法返回传递的参数的对数值。
 
-```
+```java
 Syntax:
 public static double log(double arg)
 Parameters:
@@ -219,7 +219,7 @@ logarithmic value of the argument passed.
 *   如果任一参数为无穷大，则结果为正无穷大。
 *   如果任一参数为 NaN，且任一参数都不是无穷大，则结果为 NaN。
 
-```
+```java
 Syntax:
 public static double hypot(double p, double b)
 Parameters:
@@ -234,7 +234,7 @@ hypotenuse of the right triangle
 
 **重要提示:**如果通过了安南或无限参数，会产生相同的参数。
 
-```
+```java
 Syntax:
 public static double floor(double arg)
 Parameters:
@@ -248,7 +248,7 @@ Returns:closest possible value that is either less than
 其中，
 n = D1/D2 的最接近精确值
 
-```
+```java
 Syntax:
 public static double IEEEremainder(double d1, double d2)
 Parameters:
@@ -262,7 +262,7 @@ remainder when f1(dividend) is divided by(divisor)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining lang.MATH class methods
 // floor(), hypot(), IEEEremainder(), log()
 
@@ -304,7 +304,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Floor value of f1 : 30.0
 Floor value of f2 : -57.0
 
@@ -323,7 +323,7 @@ Log value of 10 : 2.302585092994046
 
 **语法:**
 
-```
+```java
 public static double ceil(double arg)
 Parameters:
 arg - the argument value
@@ -336,7 +336,7 @@ which is either greater or equal to the argument passed
 
 **语法:**
 
-```
+```java
 public static double copySign(double m, double s)
                     or
 public static float copySign(float m, float s)
@@ -358,7 +358,7 @@ atan(arg)= arg 的 tan 逆
 
 **语法:**
 
-```
+```java
 public static double atan(double a)
 Parameters:
 a - the argument whose arc tangent value we need.
@@ -371,7 +371,7 @@ arc tan value of the argument.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining lang.StrictMath class methods
 // atan(), ceil(), copySign()
 
@@ -414,7 +414,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 atan value of Atani : 0.0
 atan value of Atanj : 0.0274087022410345
 

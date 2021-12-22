@@ -6,7 +6,7 @@
 
 **功能签名:**
 
-```
+```java
 public File[] listFiles()
 public File[] listFiles(FilenameFilter f)
 public File[] listFiles(FileFilter f)
@@ -14,7 +14,7 @@ public File[] listFiles(FileFilter f)
 
 **函数语法:**
 
-```
+```java
 file.listFiles()
 file.listFiles(filter)
 ```
@@ -33,7 +33,7 @@ file.listFiles(filter)
 
 **示例 1:** 我们将尝试查找给定目录
 
-```
+```java
 // Java program to demonstrate the
 // use of listFiles() function
 
@@ -71,7 +71,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Files are:
 1232.txt
 1245.txt
@@ -82,7 +82,7 @@ program1
 
 **示例 2:** 我们将尝试查找给定目录中所有以“12”
 
-```
+```java
 // Java program to demonstrate the
 // use of listFiles() function
 
@@ -130,7 +130,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Files are:
 1232.txt
 1245.txt
@@ -139,7 +139,7 @@ Files are:
 
 **示例 3:** 我们将尝试查找给定目录中的所有文件和目录，它们是文本文件
 
-```
+```java
 // Java program to demonstrate the
 // use of listFiles() function
 
@@ -185,7 +185,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Files are:
 1232.txt
 1245.txt

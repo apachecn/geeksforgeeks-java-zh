@@ -5,7 +5,7 @@
 [**java.lang.Class 类**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/) 的**getDeclaredConstructors()**方法用于获取该类的构造函数，这些构造函数是私有的、公共的、受保护的或默认的。方法以构造函数对象数组的形式返回该类的构造函数。
 **语法:**
 
-```
+```java
 public Constructor[] getDeclaredConstructors()
                       throws SecurityException
 ```
@@ -18,7 +18,7 @@ public Constructor[] getDeclaredConstructors()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getDeclaredConstructors() method
 
@@ -47,7 +47,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Test
 DeclaredConstructors of myClass: [public Test()]
 ```
@@ -56,7 +56,7 @@ DeclaredConstructors of myClass: [public Test()]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 //getDeclaredConstructors() method
 
@@ -96,7 +96,7 @@ class Main {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Main
 DeclaredConstructors of myClass: [private Main()]
 ```

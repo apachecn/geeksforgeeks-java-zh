@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 public static List asList(T... a) ;
 ```
 
@@ -31,7 +31,7 @@ public static List asList(T... a) ;
 
 ## Java
 
-```
+```java
 // Java Program to convert Array to LinkedList
 
 // Importing array, List & LinkedList classes from
@@ -67,7 +67,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 LinkedList of above array : [A, B, C, D, E]
 ```
 
@@ -77,7 +77,7 @@ LinkedList of above array : [A, B, C, D, E]
 
 **语法:**
 
-```
+```java
 *boolean* addAll(Collection C) ;
 ```
 
@@ -97,7 +97,7 @@ LinkedList of above array : [A, B, C, D, E]
 
 ## Java
 
-```
+```java
 // Java Program to convert Array to LinkedList
 
 // Importing array, List & LinkedList, Collections classes
@@ -134,6 +134,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Converted LinkeddList : [G, E, E, K, S]
 ```

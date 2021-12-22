@@ -5,7 +5,7 @@
 以下是**替换()**方法的三个**变体。本文对它们全部进行了描述，如下:
 **1。String replace() :** 此方法**返回**一个新字符串，该字符串是用新字符替换字符串中所有出现的旧字符而得到的。**
 
-```
+```java
 Syntax:
 public String replace(char oldch, char newch)
 Parameters:
@@ -16,7 +16,7 @@ It returns a string derived from this string by replacing every occurrence of ol
 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of  replace() 
 public class rep1 {
@@ -39,7 +39,7 @@ public class rep1 {
 
 输出:
 
-```
+```java
 After replacing all o with T : WelcTme tT geeksfTrgeeks
 After replacing all e with D : WDlcomD to gDDksforgDDks
 
@@ -47,7 +47,7 @@ After replacing all e with D : WDlcomD to gDDksforgDDks
 
 **2。String replaceAll() :** 此方法用给定的 replace_str 替换与给定正则表达式匹配的字符串的每个子字符串**。**
 
-```
+```java
 Syntax:
 public String replaceAll(String regex, String replace_str)
 Parameters:
@@ -58,7 +58,7 @@ This method returns the resulting String.
 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of  replaceAll() 
 public class rep2 {
@@ -81,7 +81,7 @@ public class rep2 {
 
 输出:
 
-```
+```java
 Original String : Welcome to geeksforgeeks
 After replacing regex with replace_str : ASTHA TYAGI
 
@@ -89,7 +89,7 @@ After replacing regex with replace_str : ASTHA TYAGI
 
 **3。String replaceFirst() :** 该方法用给定的 replace_str 替换该字符串中与给定正则表达式匹配的第一个子字符串**。**
 
-```
+```java
 **Syntax**
 public String replaceFirst(String regex, String replace_str)
 **Parameters**
@@ -99,7 +99,7 @@ public String replaceFirst(String regex, String replace_str)
 This method returns a resulting String. 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of  replaceFirst() 
 public class rep3 {
@@ -123,7 +123,7 @@ public class rep3 {
 
 **输出:**
 
-```
+```java
 Original String : Welcome to geeksforgeeks
 After replacing 1st occurrence of regex with replace_str  : Welcome to ASTHAforgeeks 
 ```

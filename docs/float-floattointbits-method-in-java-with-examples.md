@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int floatToIntBits(float val)
 
 ```
@@ -23,7 +23,7 @@ public static int floatToIntBits(float val)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Float.floatToIntBits() method
 import java.lang.*;
@@ -47,14 +47,14 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 1.5 in int bits: 1069547520
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Float.floatToIntBits() method
 
@@ -95,7 +95,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 Infinity in int bits: 2139095040
 -Infinity in int bits: -8388608
 NaN in int bits: 2139095040

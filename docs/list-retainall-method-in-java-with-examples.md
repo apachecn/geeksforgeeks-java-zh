@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean retainAll(Collection c)
 ```
 
@@ -18,7 +18,7 @@ boolean retainAll(Collection c)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // retainAll method in list interface
 import java.util.*;
@@ -49,7 +49,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [1, 3, 5, 7, 9]
 [3, 5]
 
@@ -57,7 +57,7 @@ public class GfG {
 
 **程序 2:** 下面是显示使用 Linkedlist 实现 list.retainAll()的代码。
 
-```
+```java
 // Java code to show the implementation of
 // retainAll method in list interface
 import java.util.*;
@@ -88,7 +88,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 30, 50, 70, 90]
 [30, 50]
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractList.set(*int index, Object element*)
 ```
 
@@ -19,7 +19,7 @@ AbstractList.set(*int index, Object element*)
 
 下面的程序说明了 AbstractList.set()方法:
 
-```
+```java
 // Java code to illustrate set()
 
 import java.util.*;
@@ -58,7 +58,7 @@ public class AbstractListDemo {
 
 **Output:**
 
-```
+```java
 AbstractList:[Geeks, for, Geeks, 10, 20]
 The Object that is replaced is: Geeks
 The Object that is replaced is: 20
@@ -68,7 +68,7 @@ The new AbstractList is:[Geeks, for, GFG, 10, 50]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate set()
 
 import java.util.*;
@@ -107,7 +107,7 @@ public class LinkedListDemo {
 
 **Output:**
 
-```
+```java
 AbstractList:[10, 20, 30, 40, 50]
 The Object that is replaced is: 10
 The Object that is replaced is: 20

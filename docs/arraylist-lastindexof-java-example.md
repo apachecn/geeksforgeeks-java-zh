@@ -6,7 +6,7 @@ Java 中 [**数组列表**](https://www.geeksforgeeks.org/arraylist-in-java/) �
 
 **语法:**
 
-```
+```java
 lastIndexOf(element)
 ```
 
@@ -17,7 +17,7 @@ lastIndexOf(element)
 
 演示 lastIndexOf()工作原理的程序:
 
-```
+```java
 // Java code to demonstrate the working of
 // lastIndexOf() method in ArrayList
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The list initially [10, 20, 30, 40, 30, 30, 40]
 the lastIndexof of 30 is 5
 100 is not present in the list

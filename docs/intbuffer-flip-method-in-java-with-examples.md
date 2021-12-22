@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final IntBuffer flip()
 ```
 
@@ -18,7 +18,7 @@ public final IntBuffer flip()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // flip() method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Buffer before flip: [10, 20, 30]
 Position: 1
 Limit: 3
@@ -85,7 +85,7 @@ Limit: 1
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // flip() method
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Buffer before flip: [20, 34, 0, 0]
 Position: 1
 Limit: 4

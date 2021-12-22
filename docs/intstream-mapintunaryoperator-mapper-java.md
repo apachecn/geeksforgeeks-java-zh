@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 IntStream map(IntUnaryOperator mapper)
 
 ```
@@ -21,7 +21,7 @@ IntStream map(IntUnaryOperator mapper)
 
 **例 1 :** 利用 IntStream map()得到 IntStream 元素平方的负值。
 
-```
+```java
 // Java code for IntStream map
 // (IntUnaryOperator mapper) to get a
 // stream by applying the given function.
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 -16
 -25
 -36
@@ -57,7 +57,7 @@ class GFG {
 
 **例 2 :** 利用 IntStream map()得到给定范围内 IntStream 的一半元素。
 
-```
+```java
 // Java code for IntStream map
 // (IntUnaryOperator mapper) to get a
 // stream by applying the given function.
@@ -83,7 +83,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1
 1
 2

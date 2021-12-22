@@ -5,7 +5,7 @@
 **是 [**java.lang.Class 类**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/) 的**方法，用于检查该类是否为注释类型。如果此类是批注类型，则方法返回 true。否则返回 false。
 **语法:**
 
-```
+```java
 public boolean isAnnotation()
 ```
 
@@ -16,7 +16,7 @@ public boolean isAnnotation()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate isAnnotation() method
 
 public class Test {
@@ -40,7 +40,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Test
 Is Test an annotation: false
 ```
@@ -49,7 +49,7 @@ Is Test an annotation: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate isAnnotation() method
 
 // declaring an Annotation Type
@@ -75,7 +75,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Is A an annotation: true
 ```
 

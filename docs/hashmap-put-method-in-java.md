@@ -5,7 +5,7 @@
 HashMap 的 java.util.HashMap.put()方法用于将映射插入到映射中。这意味着我们可以将特定的键及其映射到的值插入到特定的映射中。如果传递了一个现有的键，那么前一个值将被新值替换。如果传递了一个新的对，那么该对将作为一个整体被插入。
 **语法:**
 
-```
+```java
 Hash_Map.put(*key, value*)
 ```
 
@@ -20,7 +20,7 @@ Hash_Map.put(*key, value*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class Hash_Map_Demo {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Returned value is: Geeks
 New map is: {20=All, 25=Welcomes, 10=Geeks, 30=You, 15=4}

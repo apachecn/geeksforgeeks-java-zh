@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(FloatBuffer that)
 ```
 
@@ -18,7 +18,7 @@ public int compareTo(FloatBuffer that)
 
 **例 1:** 当两个浮动缓冲器相等时。
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer fb: [9.56, 7.61, 4.61]
 FloatBuffer fb1: [9.56, 7.61, 4.61]
 
@@ -103,7 +103,7 @@ both buffer are lexicographically equal
 
 **示例 2:** 当该浮动填充大于传递的浮动填充时
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -178,7 +178,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer fb: [9.56, 7.61, 4.61]
 FloatBuffer fb1: [8.56, 7.61, 4.61]
 
@@ -188,7 +188,7 @@ fb is lexicographically greater than fb1
 
 **示例 3:** 当该浮动填充小于传递的浮动填充时
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -263,7 +263,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer fb: [8.56, 7.61, 4.61]
 FloatBuffer fb1: [9.56, 7.61, 4.61]
 

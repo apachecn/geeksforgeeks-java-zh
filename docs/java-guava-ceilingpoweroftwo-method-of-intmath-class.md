@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int ceilingPowerOfTwo(int x)
 
 ```
@@ -24,7 +24,7 @@ public static int ceilingPowerOfTwo(int x)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of 
 // isPrime(int n) method of Guava's 
 // IntMath class
@@ -59,7 +59,7 @@ class GFG { 
 
 **输出**:
 
-```
+```java
 Smallest power of 2 greater than or equal to 25 is : 32
 Smallest power of 2 greater than or equal to 65 is : 128
 
@@ -67,7 +67,7 @@ Smallest power of 2 greater than or equal to 65 is : 128
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of 
 // ceilingPowerOfTwo(int x) method of Guava's
 // IntMath class
@@ -113,7 +113,7 @@ class GFG { 
 
 **输出**:
 
-```
+```java
 java.lang.IllegalArgumentException: x (-4) must be > 0
 
 ```

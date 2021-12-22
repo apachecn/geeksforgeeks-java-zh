@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> List<T>
   synchronizedList(List<T> list)
 ```
@@ -19,7 +19,7 @@ public static <T> List<T>
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedList() method for String Value
 
@@ -60,7 +60,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 List : [A, B, C, D, E]
 Synchronized list is : [A, B, C, D, E]
 
@@ -68,7 +68,7 @@ Synchronized list is : [A, B, C, D, E]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedList() method for Integer Value
 
@@ -111,7 +111,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 List : [20, 30, 40, 50, 60]
 Synchronized list is : [20, 30, 40, 50, 60]
 

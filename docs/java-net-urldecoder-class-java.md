@@ -11,13 +11,13 @@
 
 例如，编码的字符串
 
-```
+```java
 u%40geeks+for+geeks
 ```
 
 将被转换为字符串表示形式，其中%40 将被@符号替换，而+符号将被转换为空格字符。
 
-```
+```java
 u@geeks for geeks
 ```
 
@@ -25,14 +25,14 @@ u@geeks for geeks
 
 **decode() :**
 
-```
+```java
 Syntax :public static String decode(String s)- @Deprecated
 Parameters :
 s : encoded string to be decoded
 
 ```
 
-```
+```java
 Syntax :public static String decode(String s,
             String enc)
                      throws UnsupportedEncodingException
@@ -46,7 +46,7 @@ UnsupportedEncodingException : If the specified encoding is not used
 
 **Java 实现:**
 
-```
+```java
 // Java program to show decode() method of 
 // URLDecoder class
 import java.io.UnsupportedEncodingException;
@@ -71,7 +71,7 @@ public class urlDecoder 
 
 **输出:**
 
-```
+```java
 Encoded String :
 u%40geeks+for+geeks
 Decoded String :

@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Creating our Own Custom Class
 
 // Importing input output classes
@@ -97,7 +97,7 @@ class Custom {
 
 **Output**
 
-```
+```java
 This is the custom class
 My id is 23
 This is my name Ritu bhatiya

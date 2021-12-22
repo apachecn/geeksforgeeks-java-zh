@@ -8,7 +8,7 @@
 
 考虑以下示例:
 
-```
+```java
 // Java program to illustrate need
 // of Synchronization
 import java.io.*;
@@ -40,7 +40,7 @@ class GfG
 
 输出:
 
-```
+```java
 1
 ```
 
@@ -73,7 +73,7 @@ Java 编程语言提供了两种同步习惯用法:
 
 **示例:这显示了是否有多个线程在没有同步的情况下访问 getLine()方法。**
 
-```
+```java
 // Example illustrates multiple threads are executing
 // on the same Object at same time without synchronization.
 import java.io.*;
@@ -140,7 +140,7 @@ class GFG
 
 输出
 
-```
+```java
 0
 0
 1
@@ -154,7 +154,7 @@ class GFG
 
 **示例:同步访问同一对象上的 getLine()方法**
 
-```
+```java
 // Example that shows multiple threads
 // can execute the same method but in
 // synchronized way.
@@ -219,7 +219,7 @@ class GFG
 
 输出:
 
-```
+```java
 0
 1
 2
@@ -234,7 +234,7 @@ class GFG
 如果我们只需要执行一些后续代码行，而不是一个方法中的所有代码行(指令)，那么我们应该只同步其中存在所需指令的代码块。
 例如，假设有一个方法包含 100 行代码，但是只有 10 行(一个接一个)代码包含代码的关键部分，即这些行可以修改(改变)对象的状态。因此，我们只需要同步这 10 行代码方法，以避免对象状态的任何修改，并确保其他线程可以在同一方法中执行其余行，而不会中断。
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -274,7 +274,7 @@ class GFG
 
 输出:
 
-```
+```java
 mohit
 
 ```

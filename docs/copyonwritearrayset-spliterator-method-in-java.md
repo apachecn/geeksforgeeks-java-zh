@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Spliterator spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator spliterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // spliterator() method in Java
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [32, 67, 100]
 Set of Numbers:
 32
@@ -68,7 +68,7 @@ Set of Numbers:
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // spliterator() method in Java
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [gopal, gfg, jgec, sudo]
 Set of strings:
 gopal

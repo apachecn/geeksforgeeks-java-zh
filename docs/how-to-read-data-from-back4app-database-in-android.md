@@ -16,7 +16,7 @@
 
 ## <u>可扩展标记语言</u>
 
-```
+```java
 <!--Button for reading your course to Firebase-->
 <Button
   android:id="@+id/idBtnReadCourse"
@@ -31,7 +31,7 @@
 
 ## <u>XML</u>
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -108,7 +108,7 @@
 
  <u>## 爪哇
 
-```
+```java
 public class CourseModal {
 
     // variables for our course name,

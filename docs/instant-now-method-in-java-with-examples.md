@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static Instant now()
 
 ```
@@ -22,7 +22,7 @@ public static Instant now()
 下面的程序说明了 now()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.now() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant : 2019-01-21T05:47:26.853Z
 
 ```
@@ -56,7 +56,7 @@ Instant : 2019-01-21T05:47:26.853Z
 
 **语法:**
 
-```
+```java
 public static Instant now(Clock clock)
 
 ```
@@ -68,7 +68,7 @@ public static Instant now(Clock clock)
 下面的程序说明了 now()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.now() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant : 2019-01-21T05:47:29.886Z
 
 ```

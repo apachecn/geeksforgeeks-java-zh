@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -39,7 +39,7 @@ public class SortHashtable {
 
 **Output**
 
-```
+```java
 3 orange
 2 mango
 1 apple
@@ -75,7 +75,7 @@ public class SortHashtable {
 
 **语法:**
 
-```
+```java
 TreeMap<K, V> tm = new TreeMap<K, V>(Map m);
 ```
 
@@ -85,7 +85,7 @@ TreeMap<K, V> tm = new TreeMap<K, V>(Map m);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -121,7 +121,7 @@ public class SortHashtable {
 
 **Output**
 
-```
+```java
 1 apple
 2 mango
 3 orange
@@ -134,7 +134,7 @@ public class SortHashtable {
 
 **语法:**
 
-```
+```java
 LinkedHashMap<K, V> lhm = new LinkedHashMap<K, V>();
 ```
 
@@ -142,7 +142,7 @@ LinkedHashMap<K, V> lhm = new LinkedHashMap<K, V>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -174,7 +174,7 @@ public class SortHashTable {
 
 **Output**
 
-```
+```java
 2 mango
 3 orange
 1 apple

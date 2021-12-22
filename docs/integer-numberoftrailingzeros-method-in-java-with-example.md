@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int numberOfTrailingZeros(int a)
 ```
 
@@ -25,7 +25,7 @@ public static int numberOfTrailingZeros(int a)
 
 **程序 1:** 为正数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.numberOfTrailingZeros() method
 import java.lang.*;
@@ -55,7 +55,7 @@ public static void main(String[] args) {
 
 **Output:**
 
-```
+```java
 Integral Number = 155
 Number of Trailing Zeros = 0
 Integral Number = 24
@@ -67,7 +67,7 @@ Number of Trailing Zeros = 3
 
 **程序 2:** 为负数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.numberOfTrailingZeros() method
 import java.lang.*;
@@ -97,7 +97,7 @@ public static void main(String[] args) {
 
 **Output:**
 
-```
+```java
 Integral Number = -1
 Number of Trailing Zeros = 0
 Integral Number = -90
@@ -108,7 +108,7 @@ Number of Trailing Zeros = 1
 **程序 3:** 为十进制值。
 **注意:**当十进制值作为参数传递时，它会返回一条错误消息。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.numberOfTrailingZeros() method
 import java.lang.*;
@@ -126,7 +126,7 @@ public static void main(String[] args) {
 
 **输出:**
 
-```
+```java
 prog.java:10: error: incompatible types: possible lossy conversion from double to int
      Integer.numberOfTrailingZeros(12.66));
                                    ^
@@ -139,7 +139,7 @@ Note: Some messages have been simplified; recompile with
 **程序 4:** 为字符串值。
 **注意:**当字符串值作为参数传递时，它会返回一条错误消息。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.numberOfTrailingZeros() method
 import java.lang.*;
@@ -156,7 +156,7 @@ public static void main(String[] args) {
 
 **输出:**
 
-```
+```java
 prog.java:10: error: incompatible types: String cannot be converted to int
                            + Integer.numberOfTrailingZeros("12"));
                                                            ^

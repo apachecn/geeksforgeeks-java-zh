@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 getDayOfWeek()方法获取星期几字段，这是一�
 
 **语法** :
 
-```
+```java
 public DayOfWeek getDayOfWeek()
 
 ```
@@ -19,7 +19,7 @@ public DayOfWeek getDayOfWeek()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getDayOfWeek() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 TUESDAY
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the getDayOfWeek() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 TUESDAY
 
 ```

@@ -12,13 +12,13 @@ A **矩形**是四个直角(90°)的四边形。在矩形中，相对的边是�
 
 矩形的**周长**是其所有四条边的总长度。它可以简单地用它的四个边来计算。
 
-```
+```java
 Perimeter of rectangle ABCD = A+B+C+D
 ```
 
 由于矩形中相对的边相等，它可以计算为其一边的两倍和其相邻边的两倍之和。
 
-```
+```java
 Perimeter of rectangle ABCD = 2A + 2B = 2(A+B)
 ```
 
@@ -26,7 +26,7 @@ Perimeter of rectangle ABCD = 2A + 2B = 2(A+B)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the perimeter of a Rectangle
 
 import java.io.*;
@@ -65,6 +65,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 The perimeter of the given rectangle of length 10 and breadth 20 = 60
 ```

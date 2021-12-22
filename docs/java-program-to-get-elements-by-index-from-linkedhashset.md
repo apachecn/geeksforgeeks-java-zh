@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input      : 2, 3, 4, 2, 7;
 Processing : index = 4;
 Output     : Element at index 4 is : 7
@@ -26,7 +26,7 @@ Output     : Element at index 4 is : 7
 2.  启动输出索引指针 currentindex = 0
 3.  使用 while 循环开始迭代，如果当前索引等于给定索引，则打印元素。
 
-```
+```java
 Pseudo Code: 
 Iterator<Integer> it = LHS.iterator();
 while(it.hasNext()) {}
@@ -38,7 +38,7 @@ while(it.hasNext()) {}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get Elements by Index from LinkedHashSet
 // Using iteration count method
 
@@ -98,7 +98,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Element at index 4 is : 7
 ```
 
@@ -111,7 +111,7 @@ Element at index 4 is : 7
 1.  使用 [*到*](https://www.geeksforgeeks.org/arraylist-toarray-method-in-java-with-examples/) 的方法将给定的链接数据集转换为数组。
 2.  访问数组中给定索引上的元素。
 
-```
+```java
 Pseudo Code:
 Integer[] LHSArray = new Integer[LHS.size()];
 LHSArray = LHS.toArray(LHSArray);
@@ -121,7 +121,7 @@ LHSArray = LHS.toArray(LHSArray);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get Elements by Index from LinkedHashSet
 // By converting LinkedHashSet to Array
 
@@ -163,7 +163,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Element at index 4 is : 7
 ```
 
@@ -176,7 +176,7 @@ Element at index 4 is : 7
 1.  将我们的链接哈希表转换为类似数组列表的列表。
 2.  使用 [*get()方法*](https://www.geeksforgeeks.org/array-get-method-in-java/) 获取给定索引中的元素。
 
-```
+```java
 Pseudo Code :List<Integer> LHSList =new ArrayList<>(LHS);
               where LHS is name of our LinkedHashSet
 ```
@@ -185,7 +185,7 @@ Pseudo Code :List<Integer> LHSList =new ArrayList<>(LHS);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get Elements by Index from LinkedHashSet
 // By converting LinkedHashSet to List
 
@@ -243,6 +243,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Element at index 4 is : 7
 ```

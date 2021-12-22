@@ -6,7 +6,7 @@
 
 **程序 1:** 将字符串转换为字节[]并写入文件。
 
-```
+```java
 // Java Program to convert
 // byte array to file
 import java.io.File;
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Successfully byte inserted
 
 ```
 
 **程序 2:** 在文件中写入整数、双精度、字符值(使用包装类)。
 
-```
+```java
 // Java Program to convert
 // int, char and double into bytes
 // and write it in a file
@@ -140,7 +140,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Successfully byte inserted
 
 ```

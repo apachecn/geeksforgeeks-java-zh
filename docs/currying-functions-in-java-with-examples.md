@@ -28,7 +28,7 @@ Currying 将高阶函数分解成一系列较小的级联函数，这些函数�
 
 **例 1:** 用函数 currency 加 2
 
-```
+```java
 // Java Program to demonstrate Function Currying
 
 import java.util.function.Function;
@@ -60,14 +60,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Add 2, 3 :5
 
 ```
 
 **例 2:** 用函数 Currying 乘以 2
 
-```
+```java
 // Java Program to demonstrate Function Currying
 
 import java.util.function.Function;
@@ -98,14 +98,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Multiply 2, 3 :6
 
 ```
 
 **例 3:** 用函数 currency 加 3 个数
 
-```
+```java
 // Java Program to demonstrate Function Currying
 
 import java.util.function.Function;
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Add 2, 3, 4 :9
 
 ```

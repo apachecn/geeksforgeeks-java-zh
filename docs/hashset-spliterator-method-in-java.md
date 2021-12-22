@@ -6,7 +6,7 @@ HashSet 的 **spliterator()** 方法返回一个 **[Spliterator](https://www.gee
 
 **语法:**
 
-```
+```java
 public Spliterator<E> spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator<E> spliterator()
 
 **示例 1:** 演示包含一组数字的 HashSet 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of HashSet
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Numbers:
 32
 23
@@ -61,7 +61,7 @@ list of Numbers:
 
 **示例 2:** 演示包含一组学生姓名的 HashSet 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of HashSet
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Students:
 Student Name: Rabi
 Student Name: Mohan

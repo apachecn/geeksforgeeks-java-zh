@@ -23,13 +23,13 @@ Java 一元运算符是只需要一个操作数来执行任何操作的类型，
 
 **语法:**
 
-```
+```java
 ~(operand)
 ```
 
 **插图:**
 
-```
+```java
 a = -10
 ```
 
@@ -37,7 +37,7 @@ a = -10
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Unary - Operator
 
 // Importing required classes
@@ -67,7 +67,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Number = 20
 Result = -20
 ```
@@ -78,13 +78,13 @@ Result = -20
 
 **语法:**
 
-```
+```java
 !(operand)
 ```
 
 **插图:**
 
-```
+```java
 cond = !true;
 *// cond < false*
 ```
@@ -93,7 +93,7 @@ cond = !true;
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate Unary NOT Operator
 
 // Importing required classes
@@ -125,7 +125,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Cond is: true
 Var1 = 10
 Var2 = 1

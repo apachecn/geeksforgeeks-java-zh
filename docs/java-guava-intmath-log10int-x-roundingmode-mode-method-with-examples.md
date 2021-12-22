@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int log10(int x, RoundingMode mode)
 
 ```
@@ -40,7 +40,7 @@ public static int log10(int x, RoundingMode mode)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // log10(int x, RoundingMode mode) method
 // of Guava's IntMath class
@@ -80,7 +80,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4
 1
 
@@ -88,7 +88,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // log10(int x, RoundingMode mode) method
 // of Guava's IntMath class
@@ -138,7 +138,7 @@ class GFG {
 
 输出:
 
-```
+```java
 java.lang.IllegalArgumentException: x (-152) must be > 0
 
 ```

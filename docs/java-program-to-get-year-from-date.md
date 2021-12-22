@@ -20,7 +20,7 @@ Java 方法中 LocalDate 类的 get()方法从该日期中获取指定字段的�
 
 **语法**:
 
-```
+```java
 public int get(TemporalField field)
 ```
 
@@ -38,7 +38,7 @@ public int get(TemporalField field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get Year From Date
 //  Using LocalDate class
 
@@ -79,7 +79,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Year: 2021
 ```
 
@@ -89,7 +89,7 @@ Calendar 类的 get(int *field_value* )方法用于返回参数中给定日历�
 
 **语法:**
 
-```
+```java
 public int get(int field)
 ```
 
@@ -103,7 +103,7 @@ public int get(int field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get Year From Date
 // using Calendar class
 
@@ -133,7 +133,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Year: 2021
 ```
 
@@ -156,7 +156,7 @@ Year: 2021
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get Year From Date
 // Using String.split() method
 
@@ -193,6 +193,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Year: 2021
 ```

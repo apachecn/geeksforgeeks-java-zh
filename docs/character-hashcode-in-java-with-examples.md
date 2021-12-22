@@ -6,7 +6,7 @@ Java.lang.Character.hashCode()是 Java 中的一个内置方法，它为这个�
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 This function does not accepts any parameter.
@@ -19,7 +19,7 @@ This function does not accepts any parameter.
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate the
 // function when the value passed in the parameter
 // is a character 
@@ -45,14 +45,14 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 Hashcode of B is 66
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Java program to demonstrate the
 // function when the value passed in the parameter
 // is a number 
@@ -78,7 +78,7 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 Hashcode of 6 is 54
 
 ```

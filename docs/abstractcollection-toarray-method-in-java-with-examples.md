@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Object[] arr = AbstractCollection.toArray()
 ```
 
@@ -20,7 +20,7 @@ Object[] arr = AbstractCollection.toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -56,7 +56,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 The AbstractCollection: [For, Geeks, To, Welcome, Geeks]
 The array is:
 For
@@ -69,7 +69,7 @@ Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -106,7 +106,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 The AbstractCollection: [5, 10, 25, 20, 15, 30]
 The array is:
 5
@@ -125,7 +125,7 @@ Java 中**抽象集合类**的 **toArray(arr[])** 方法方法用于形成一个
 
 **语法:**
 
-```
+```java
 Object[] arr1 = AbstractCollection.toArray(arr[])
 ```
 
@@ -142,7 +142,7 @@ Object[] arr1 = AbstractCollection.toArray(arr[])
 
 **程序 1:** 当数组具有抽象集合的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -180,7 +180,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 The AbstractCollection: [For, Geeks, To, Welcome, Geeks]
 The arr[] is:
 For
@@ -193,7 +193,7 @@ Geeks
 
 **程序 2:** 当数组小于抽象集合的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -231,7 +231,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 The AbstractCollection: [For, Geeks, To, Welcome, Geeks]
 The arr[] is:
 For
@@ -244,7 +244,7 @@ Geeks
 
 **程序 3:** 当数组大于抽象集合的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -282,7 +282,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 The AbstractCollection: [For, Geeks, To, Welcome, Geeks]
 The arr[] is:
 For
@@ -300,7 +300,7 @@ null
 
 **程序 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -346,7 +346,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 The AbstractCollection: [For, Geeks, To, Welcome, Geeks]
 Exception: java.lang.NullPointerException
 

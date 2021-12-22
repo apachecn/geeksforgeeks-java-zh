@@ -5,7 +5,7 @@
 [**DelayQueue**](https://www.geeksforgeeks.org/delayqueue-class-in-java-with-example/) 的**迭代器()**方法用于返回 DelayQueue 中所有元素的迭代器。这些元素可以过期或未过期。
 **语法:**
 
-```
+```java
 public Iterator iterator ()
 ```
 
@@ -16,7 +16,7 @@ public Iterator iterator ()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue iterator() method
 
 import java.util.concurrent.*;
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The iterator values are: 
 
 { A, time=1545818784540}

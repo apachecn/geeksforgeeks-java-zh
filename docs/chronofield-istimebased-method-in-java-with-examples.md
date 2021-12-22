@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isTimeBased()
 
 ```
@@ -18,7 +18,7 @@ public boolean isTimeBased()
 以下程序说明了基于时间域的()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.isTimeBased() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HOUR_OF_DAY is Time based attribute:true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.isTimeBased() method
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YEAR_OF_ERA is Time based attribute:false
 
 ```

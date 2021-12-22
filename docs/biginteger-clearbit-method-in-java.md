@@ -6,7 +6,7 @@
 **clear bit()**方法返回一个大整数，用于清除大整数中的特定位位置。BigInteger 的二进制表示的索引 n 处的位将被清除，意味着转换为零。数学上我们可以说是用来计算*这个& ~(1 < < n)。*
 **语法:**
 
-```
+```java
 public BigInteger clearBit(int n)
 ```
 
@@ -15,7 +15,7 @@ public BigInteger clearBit(int n)
 **抛出:**当 n 为负时，该方法可能抛出*算术异常*。
 **举例:**
 
-```
+```java
 Input: value = 2300, index = 3
 Output: 2292
 Explanation:
@@ -32,7 +32,7 @@ Output: 5482548
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*
 *Program Demonstrate clearBit() method of BigInteger
 */
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 After applying clearbit at index 0 of 5482549 New Value is 5482548
 ```
 

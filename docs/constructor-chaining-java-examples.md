@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Constructor Chaining
 // within same class Using this() keyword
 class Temp
@@ -58,7 +58,7 @@ class Temp
 
 **输出:**
 
-```
+```java
 75
 5
 The Default constructor
@@ -75,7 +75,7 @@ The Default constructor
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Constructor Chaining
 // within same class Using this() keyword
 // and changing order of constructors
@@ -113,7 +113,7 @@ class Temp
 
 **输出:**
 
-```
+```java
 default
 5
 80
@@ -125,7 +125,7 @@ default
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Constructor Chaining to
 // other class using super() keyword
 class Base
@@ -180,7 +180,7 @@ class Derived extends Base
 
 **输出:**
 
-```
+```java
 Calling parameterized constructor of base
 Calling parameterized constructor of derived
 ```
@@ -192,7 +192,7 @@ Calling parameterized constructor of derived
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Temp
 {
     // block to be executed before any constructor.
@@ -227,7 +227,7 @@ class Temp
 
 **输出:**
 
-```
+```java
 init block
 default
 init block
@@ -239,7 +239,7 @@ init block
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Temp
 {
     // block to be executed first
@@ -270,7 +270,7 @@ class Temp
 
 **输出:**
 
-```
+```java
 init
 second
 default

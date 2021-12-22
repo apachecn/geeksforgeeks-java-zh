@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的**withour()**方法用于获取该 LocalDateTim
 
 **语法:**
 
-```
+```java
 public LocalDateTime withHour(int hours)
 ```
 
@@ -20,7 +20,7 @@ public LocalDateTime withHour(int hours)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withHour() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2018-11-30T12:53:06.591
 New LocalDateTime: 2018-11-30T00:53:06.591
 
@@ -53,7 +53,7 @@ New LocalDateTime: 2018-11-30T00:53:06.591
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withHour() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2015-04-06T10:15:30
 New LocalDateTime: 2015-04-06T20:15:30
 

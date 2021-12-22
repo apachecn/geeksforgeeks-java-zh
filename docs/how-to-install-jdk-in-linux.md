@@ -32,7 +32,7 @@
 
 **第 5 步:**键入命令。
 
-```
+```java
 sudo dpkg -i package_name
 ```
 
@@ -44,7 +44,7 @@ sudo dpkg -i package_name
 
 **第 6 步**:完成上述步骤后，进行下一步更新路径和备选方案。
 
-```
+```java
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-15.0.2/bin/java 1
 ```
 
@@ -56,7 +56,7 @@ sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-15.0.2/bi
 
 **对于备选方案**:
 
-```
+```java
 sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-15.0.2/bin/javac 1
 ```
 

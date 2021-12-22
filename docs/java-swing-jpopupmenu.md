@@ -33,7 +33,7 @@ JPopupMenu 是 javax.swing 包的一个类。它是 PopupMenu 的一个实现。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show a simple popup menu
 import java.awt.*;
 import java.awt.event.*;
@@ -111,7 +111,7 @@ class Popup extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show a popup menu
 // and menu items to it
 import java.awt.*;

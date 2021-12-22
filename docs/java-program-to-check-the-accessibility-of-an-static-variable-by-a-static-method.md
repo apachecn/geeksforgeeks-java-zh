@@ -29,7 +29,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate Accessibility of a static
 // method/s by static variable/s
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Static Variable = 10
 ```
 
@@ -65,7 +65,7 @@ Static Variable = 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate Accessibility of an static
 // variable by static method
 
@@ -128,7 +128,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Static variable : 10
 Array = 20 60 30 0 10 70 
 ```

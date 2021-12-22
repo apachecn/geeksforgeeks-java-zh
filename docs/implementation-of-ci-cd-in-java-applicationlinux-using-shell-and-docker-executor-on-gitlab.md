@@ -37,43 +37,43 @@
 
 **1。**在 Linux 机器上下载 GitLab Runner
 
-```
+```java
 sudo curl -L --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64
 ```
 
 **2。使用以下命令授予其执行**的权限:
 
-```
+```java
 sudo chmod +x /usr/local/bin/gitlab-runner
 ```
 
 **3。使用以下命令创建一个 GitLab 配置项:**
 
-```
+```java
 sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
 ```
 
 **4。使用以下命令安装并作为** **服务**运行:
 
-```
+```java
 sudo gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
 ```
 
 **5。使用以下命令启动 gitrab Runner**:
 
-```
+```java
 sudo gitlab-runner start
 ```
 
 **6。在使用以下命令注册存储库之前，停止 gitrab Runner**:
 
-```
+```java
 sudo gitlab-runner stop
 ```
 
 **7。**一旦 GitLab Runner 成功停止，在终端输入以下命令进行存储库注册。
 
-```
+```java
 sudo gitlab-runner register
 ```
 
@@ -89,7 +89,7 @@ sudo gitlab-runner register
 
 **9。**成功注册**后，**使用以下命令启动 GitLab Runner
 
-```
+```java
 sudo gitlab-runner start
 ```
 
@@ -122,7 +122,7 @@ sudo gitlab-runner start
 
 **。gitlab-ci.yml_shell Executor** :以下是的内容。外壳执行器模式下的 gitlab-ci.yml。但是，如果需要，可以根据需求进行更改。
 
-```
+```java
 stages:
  - build
  - execute
@@ -150,7 +150,7 @@ execute:
 
 **。gitlab-ci.yml_ Docker 执行器**:以下是的内容。docker 执行器模式下的 gitlab-ci.yml。但是，如果需要，可以更改它。
 
-```
+```java
 image: ubuntu:latest
 
 stages:

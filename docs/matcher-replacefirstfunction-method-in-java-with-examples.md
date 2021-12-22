@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String replaceFirst(
         Function replacerFunction)
 
@@ -25,7 +25,7 @@ public String replaceFirst(
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate replaceFirst() method
 
 import java.util.regex.*;
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before Replacement: GeeksForGeeks Geeks for For Geeks Geek
 After Replacement: GEEKSForGeeks Geeks for For Geeks Geek
 
@@ -78,7 +78,7 @@ After Replacement: GEEKSForGeeks Geeks for For Geeks Geek
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate replaceFirst() method
 
 import java.util.regex.*;
@@ -123,7 +123,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before Replacement: GFG FGF GFG GFG FGF
 After Replacement: GFG fgf GFG GFG FGF
 

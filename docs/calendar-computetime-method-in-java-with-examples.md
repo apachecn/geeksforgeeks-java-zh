@@ -6,7 +6,7 @@ Calendar 类中的 **computeTime()** 方法用于字段[]中当前日历字段�
 
 **语法:**
 
-```
+```java
 protected abstract void computeTime()
 ```
 
@@ -17,7 +17,7 @@ protected abstract void computeTime()
 下面的程序说明了 Calendar 类的 computeTime()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate
 // computeTime() Method
 
@@ -51,7 +51,7 @@ public class CalendarClassDemo
 
 **Output:**
 
-```
+```java
 The Current date is: Wed Feb 13 16:27:12 UTC 2019
 The recent date is: Fri Jan 01 00:00:00 UTC 2016
 
@@ -59,7 +59,7 @@ The recent date is: Fri Jan 01 00:00:00 UTC 2016
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate
 // computeTime() Method
 
@@ -93,7 +93,7 @@ public class CalendarClassDemo
 
 **Output:**
 
-```
+```java
 The Current date is: Wed Feb 13 16:27:15 UTC 2019
 The recent date is: Sat Jan 01 00:00:00 UTC 2000
 

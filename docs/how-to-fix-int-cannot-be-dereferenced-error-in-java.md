@@ -14,7 +14,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate Dereference
 
 // Importing required classes

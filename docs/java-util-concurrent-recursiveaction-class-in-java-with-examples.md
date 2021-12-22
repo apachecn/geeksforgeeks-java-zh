@@ -8,7 +8,7 @@ RecursiveAction 用于可以划分并并行执行的任务。这些任务不应�
 
 **阶级等级**
 
-```
+```java
 java.lang.Object
 ↳ java.util.concurrent.ForkJoinTask<Void>
   ↳ java.util.concurrent.RecursiveAction
@@ -21,7 +21,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public RecursiveAction()
 
     ```
@@ -32,7 +32,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     protected abstract void compute()
 
     ```
@@ -41,7 +41,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     protected final boolean exec()
 
     ```
@@ -50,7 +50,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public final Void getRawResult()
 
     ```
@@ -59,14 +59,14 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     protected final void setRawResult(Void mustBeNull)
 
     ```
 
 **示例**:演示递归动作类
 
-```
+```java
 // Java program to demonstrate RecursiveAction Class
 
 import java.util.concurrent.ForkJoinPool;
@@ -144,7 +144,7 @@ class SqrtTransform extends RecursiveAction {
 
 **输出:**
 
-```
+```java
 
 A portion of the original sequence
 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 

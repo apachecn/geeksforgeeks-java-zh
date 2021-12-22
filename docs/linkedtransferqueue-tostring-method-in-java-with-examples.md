@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString ()
 ```
 
@@ -20,7 +20,7 @@ public String toString ()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate LinkedTransferQueue
 // toString() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 String Representation: [101, 202, 58, 796, 641]
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate LinkedTransferQueue
 // toString() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 String Representation: [GeeksforGeeks, Gfg, gfg, Geeks, geeks]
 
 ```

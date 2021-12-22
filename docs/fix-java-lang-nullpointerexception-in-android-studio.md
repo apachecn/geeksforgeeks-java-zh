@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Scanner;
 public class Main
 {
@@ -27,7 +27,7 @@ public class Main
 
 **输出:**
 
-```
+```java
 null
 ```
 
@@ -35,7 +35,7 @@ null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Scanner;
 public class Main
 {
@@ -48,7 +48,7 @@ public class Main
 
 **输出:**
 
-```
+```java
 Main.java:5: error: incompatible types:  cannot be converted to int
         int i = null;
                 ^
@@ -61,7 +61,7 @@ Main.java:5: error: incompatible types:  cannot be converted to int
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import java.util.Scanner;
 public class Main
 {
@@ -79,7 +79,7 @@ public class Main
 
 ****输出:****
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException                                                                                      
         at Main.main(Main.java:6) 
 ```
@@ -92,13 +92,13 @@ Exception in thread "main" java.lang.NullPointerException
 
 **如上图所示，它包含一个初始化为空的文本视图。**
 
-```
+```java
 TextView textview = null;
 ```
 
 **文本视图引用变量(即文本视图)被访问，这给出了一个空指针异常。**
 
-```
+```java
 textview.setText("Hello world");
 ```
 
@@ -110,7 +110,7 @@ textview.setText("Hello world");
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

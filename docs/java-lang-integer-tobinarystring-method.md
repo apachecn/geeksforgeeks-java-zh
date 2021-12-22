@@ -6,7 +6,7 @@ Java . lang . integer . tobinarystring()方法返回整数参数的字符串表�
 
 **语法:**
 
-```
+```java
 public static String toBinaryString(int num)
 
 Parameter : The function accepts a single mandatory parameter num 
@@ -17,7 +17,7 @@ It is of int data-type
 **返回值:**该函数返回由二进制(基数为 2)中的参数表示的无符号整数值的字符串表示形式。
 **例:**
 
-```
+```java
 Input : 10 
 Output : 1010 
 
@@ -26,7 +26,7 @@ Output : 1001
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // java.lang.Integer.toBinaryString() method
 import java.lang.Math;
@@ -50,7 +50,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Binary is 1010
 Binary is 1001
 

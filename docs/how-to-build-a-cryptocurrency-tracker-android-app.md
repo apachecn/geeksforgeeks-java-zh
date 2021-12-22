@@ -24,7 +24,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#0F9D58</color>
@@ -48,7 +48,7 @@
 
 转到**梯度脚本>构建.梯度(模块:应用)**部分，导入以下依赖项，并单击上面弹出窗口中的“**立即同步**”。
 
-```
+```java
 // Volley library
 implementation 'com.android.volley:volley:1.1.1'
 ```
@@ -59,7 +59,7 @@ implementation 'com.android.volley:volley:1.1.1'
 
 ## 可扩展标记语言
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
@@ -69,7 +69,7 @@ implementation 'com.android.volley:volley:1.1.1'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -115,7 +115,7 @@ implementation 'com.android.volley:volley:1.1.1'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.gtappdevelopers.cryptotracker;
 
 public class CurrencyModal {
@@ -163,7 +163,7 @@ public class CurrencyModal {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView 
     xmlns:android="http://schemas.android.com/apk/res/android"

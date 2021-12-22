@@ -16,7 +16,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input 1: GeeksforGeeks
     Input 2: Practice
     Output: -9
@@ -33,7 +33,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to Compare two strings
     // lexicographically
     public class GFG {
@@ -95,7 +95,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Comparing Geeksforgeeks and Practice : -9
     Comparing Geeks and Geeks : 0
     Comparing Geeksforgeeks and Geeks : 8
@@ -106,7 +106,7 @@
 
     **语法:**
 
-    ```
+    ```java
     str1.equals(str2);
     ```
 
@@ -114,7 +114,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input 1: GeeksforGeeks
     Input 2: Practice
     Output: false
@@ -131,7 +131,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to Compare two strings
     // lexicographically
     public class GFG {
@@ -164,7 +164,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Comparing Geeksforgeeks and Practice : false
     Comparing Geeks and Geeks : true
     Comparing Geeks and geeks : false
@@ -176,7 +176,7 @@
 
     **语法:**
 
-    ```
+    ```java
     str2.equalsIgnoreCase(str1);
     ```
 
@@ -184,7 +184,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input 1: GeeksforGeeks
     Input 2: Practice
     Output: false
@@ -201,7 +201,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to Compare two strings
     // lexicographically
     public class GFG {
@@ -234,7 +234,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Comparing Geeksforgeeks and Practice : false
     Comparing Geeks and Geeks : true
     Comparing Geeks and geeks : true
@@ -246,7 +246,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static boolean equals(Object a, Object b)
     ```
 
@@ -254,7 +254,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input 1: GeeksforGeeks
     Input 2: Practice
     Output: false
@@ -271,7 +271,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to Compare two strings
     // lexicographically
 
@@ -307,7 +307,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Comparing Geeksforgeeks and Geeks : false
     Comparing Geeks and Geeks : true
     Comparing Geeksforgeeks and null : false
@@ -319,7 +319,7 @@
 
     **语法:**
 
-    ```
+    ```java
     int str1.compareTo(String str2)
     ```
 
@@ -333,7 +333,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input 1: GeeksforGeeks
     Input 2: Practice
     Output: -9
@@ -350,7 +350,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to Compare two strings
     // lexicographically
 
@@ -381,7 +381,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Comparing Geeksforgeeks and Practice : -9
     Comparing Geeks and Geeks : 0
     Comparing Geeksforgeeks and Geeks : 8
@@ -399,7 +399,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to understand
     // why to avoid == operator
 
@@ -418,7 +418,7 @@
 
     **Output:**
 
-    ```
+    ```java
     false
     true
 

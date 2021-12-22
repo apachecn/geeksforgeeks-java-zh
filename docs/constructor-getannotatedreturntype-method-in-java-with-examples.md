@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public AnnotatedType getAnnotatedReturnType()
 
 ```
@@ -18,7 +18,7 @@ public AnnotatedType getAnnotatedReturnType()
 下面的程序说明了 getAnnotatedReturnType()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getAnnotatedReturnType() method
 
@@ -87,7 +87,7 @@ class Demo {
 
 **Output:**
 
-```
+```java
 Type: Demo
 Annotations: [@customAnnotatedType()]
 
@@ -95,7 +95,7 @@ Annotations: [@customAnnotatedType()]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getAnnotatedReturnType() method
 
@@ -162,7 +162,7 @@ class Shape {
 
 **Output:**
 
-```
+```java
 Type: Shape
 Annotations: [@ShapeProperties()]
 

@@ -5,7 +5,7 @@
 我们可以使用 Java 中 file 类的 is hidden()方法来检查一个文件在 Java 中是否隐藏。此方法返回一个布尔值-真或假。
  **语法:**
 
-```
+```java
 public static boolean isHidden(Path path) throws IOException
 parameters:
 path – the path to the file to test.
@@ -25,7 +25,7 @@ false: if file is not hidden
 
 根据实现的不同，isHidden()方法可能需要访问文件系统来确定文件是否被认为是隐藏的。
 
-```
+```java
 // Java program to check if the given 
 // file is hidden or not
 import java.io.File;

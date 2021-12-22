@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void add(int index, E element)
 ```
 
@@ -29,7 +29,7 @@ public void add(int index, E element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate AbstractList
 // add(int index, int position) method
 
@@ -70,7 +70,7 @@ public class ArrayListDemo {
 
 **输出:**
 
-```
+```java
 Before: [3, 6, 9, 12]
 After: [3, 4, 6, 9, 12]
 
@@ -78,7 +78,7 @@ After: [3, 4, 6, 9, 12]
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate AbstractList
 // add(int index, int position) method
 
@@ -117,7 +117,7 @@ public class ArrayListDemo {
 
 **输出:**
 
-```
+```java
 Before: [Geeks, for, Computer, Portal]
 After: [Geeks, for, Geeks, Computer, Portal]
 

@@ -14,7 +14,7 @@ JDBC(Java 数据库连接)是 Java 编程语言和各种数据库(如 Oracle、S
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Create JDBC Connection
 import java.sql.*;
 
@@ -63,7 +63,7 @@ public class connection {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 import java.sql.*;
 public class result {

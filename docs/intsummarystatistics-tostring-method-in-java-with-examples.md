@@ -6,7 +6,7 @@ Java 中 **IntSummaryStatistics 类的 **toString()** 方法用于获取该 IntS
 
 **语法:**
 
-```
+```java
 public long toString()
 
 ```
@@ -17,7 +17,7 @@ public long toString()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -49,7 +49,7 @@ public class IntSummaryStatisticsDemo {
 
 **输出:**
 
-```
+```java
 The String representation of values is IntSummaryStatistics
 {count=5, sum=150, min=10, average=30.000000, max=50}
 

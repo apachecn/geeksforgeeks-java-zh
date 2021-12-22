@@ -16,7 +16,7 @@
 
 ******语法:**为了获取当前线程的 ID 号已经创建****
 
-```
+```java
 **Thread.currentThread( ).getId( ) ;**
 ```
 
@@ -32,7 +32,7 @@
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to suspend a thread temporarily
 
 // Importing all classes from
@@ -106,7 +106,7 @@ public class GFG {
 
 ******输出:******
 
-```
+```java
 **Thread 13 is running
 Thread Suspended
 Thread going to sleep for 5 seconds

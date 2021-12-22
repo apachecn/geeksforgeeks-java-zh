@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int regionStart()
 
 ```
@@ -19,7 +19,7 @@ public int regionStart()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate regionStart() method
 
 import java.util.regex.*;
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before changing region,  Region starts from: 0
 After changing region,  Region starts from: 2
 
@@ -71,7 +71,7 @@ After changing region,  Region starts from: 2
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate regionStart() method
 
 import java.util.regex.*;
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before changing region,  Region starts from: 0
 After changing region,  Region starts from: 5
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <A, B, ..> <em>TupleClass<A, B, ..> with(A a, B b, ..)
 ```
 
@@ -32,7 +32,7 @@ public static <A, B, ..> <em>TupleClass<A, B, ..> with(A a, B b, ..)
 
 **程序 1:** 当正确使用 with()方法时，此处为 Unit 类:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from with() method
 
@@ -52,13 +52,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [GeeksforGeeks]
 ```
 
 **程序 2:** 当通过的值*与*的预期类型不匹配时:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from with() method
 
@@ -82,7 +82,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.RuntimeException: 
 Uncompilable source code - incompatible types: inference variable A has incompatible bounds
     equality constraints: java.lang.Integer
@@ -92,7 +92,7 @@ Uncompilable source code - incompatible types: inference variable A has incompat
 
 **程序 3:** 当通过的数值数量*小于预期*时:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from with() method
 
@@ -115,7 +115,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.RuntimeException: 
 Uncompilable source code - Erroneous sym type: org.javatuples.Quartet.with
     at MainClass.GfG.main
@@ -123,7 +123,7 @@ Uncompilable source code - Erroneous sym type: org.javatuples.Quartet.with
 
 **程序 4:** 当通过的数值数量*超过预期*时:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from with() method
 
@@ -148,7 +148,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.RuntimeException: 
 Uncompilable source code - Erroneous sym type: org.javatuples.Quartet.with
     at MainClass.GfG.main

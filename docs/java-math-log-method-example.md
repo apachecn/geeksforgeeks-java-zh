@@ -10,25 +10,25 @@
 
 **语法:**
 
-```
+```java
 public static double log(double a)
 ```
 
 **参数:**
 
-```
+```java
 a : User input
 ```
 
 **返回:**
 
-```
+```java
 This method returns the value ln a.
 ```
 
 **例:**展示 **java.lang.Math.log()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.log() method
 import java.lang.Math;
@@ -61,7 +61,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 NaN
 Infinity
 -Infinity

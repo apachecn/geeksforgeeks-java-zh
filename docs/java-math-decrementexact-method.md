@@ -6,7 +6,7 @@ java . strict math . lang . reducture()是 Java 中的内置函数，它返回�
 
 **语法:**
 
-```
+```java
 int decrementExact(int num)
 long decrementExact(long num)
 
@@ -19,7 +19,7 @@ long decrementExact(long num)
 
 **示例:**
 
-```
+```java
 Input : 12
 Output : 11
 
@@ -32,7 +32,7 @@ Output : -4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.decrementExact() method
 import java.lang.Math;
@@ -54,7 +54,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 11
 -4
 
@@ -64,7 +64,7 @@ class Gfg1 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate overflow
 // of java.lang.Math.decrementExact() method
 import java.lang.Math;
@@ -83,7 +83,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.ArithmeticException: integer overflow
     at java.lang.Math.decrementExact(Math.java:943)
     at Gfg1.main(File.java:12)

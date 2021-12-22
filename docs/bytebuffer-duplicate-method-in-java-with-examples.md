@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract ByteBuffer duplicate()
 ```
 
@@ -20,7 +20,7 @@ public abstract ByteBuffer duplicate()
 
 **示例 1:** 使用直接字节缓冲
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // Using direct ByteBuffer
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40, 50]
 
 Duplicate ByteBuffer: [20, 30, 40, 50]
@@ -87,7 +87,7 @@ Duplicate ByteBuffer: [20, 30, 40, 50]
 
 **示例 2:** 使用只读字节缓冲区
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // using read-only ByteBuffer
@@ -161,7 +161,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40, 50]
 
 Read-only ByteBuffer:  20, 30, 40, 50, 

@@ -22,7 +22,7 @@
 
 **语法、参数**、**和使用的内置函数的返回类型:**
 
-```
+```java
 1\. Connection getConnection(String URL, String username, String Password);
 2\. Statement createStatement();
 3\. ResultSet executeQuery(String sql_query);
@@ -38,7 +38,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Insert Data
 // from a Database to a Spread Sheet
 

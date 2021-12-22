@@ -4,7 +4,7 @@
 
 [LinkedHashSet 类](https://www.geeksforgeeks.org/linkedhashset-in-java-with-examples/)的 clone()方法用于返回上述哈希集的浅拷贝。它只是创建了一个集合的副本。
 
-```
+```java
 --> java.util Package
      --> LinkedHashSet Class
          --> ***clone()*** Method   
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 linked_hash_set.clone()
 ```
 
@@ -24,7 +24,7 @@ linked_hash_set.clone()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate clone() Method
 // of LinkedHashSet Class
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LinkedHashSet: [Welcome, To, Geeks, 4]
 The new set: [Welcome, To, Geeks, 4]
 ```

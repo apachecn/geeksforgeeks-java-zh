@@ -6,7 +6,7 @@ calendar 类的**getActualMaximum(int*field _ value*)**方法用于根据此 Cal
 
 **语法:**
 
-```
+```java
 public int getActualMaximum(int *field_value*)
 ```
 
@@ -17,7 +17,7 @@ public int getActualMaximum(int *field_value*)
 下面的程序说明了日历类 getActualMaximum()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate
 // getActualMaximum() Method
 
@@ -49,7 +49,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 The Maximum year: 292278994
 The Maximum Month is: 11
 
@@ -57,7 +57,7 @@ The Maximum Month is: 11
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate
 // getActualMaximum() Method
 
@@ -89,7 +89,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 The Maximum year: 292278993
 The Maximum Month is: 11
 

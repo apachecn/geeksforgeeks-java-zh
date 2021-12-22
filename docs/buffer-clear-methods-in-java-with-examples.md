@@ -6,7 +6,7 @@
 
 **例如:**
 
-```
+```java
 
 buf.clear();     // Prepare buffer for reading
 in.read(buf);    // Read data
@@ -17,7 +17,7 @@ in.read(buf);    // Read data
 
 **语法:**
 
-```
+```java
 public Buffer clear()
 ```
 
@@ -27,7 +27,7 @@ public Buffer clear()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 4
 position after reset: 0
 
@@ -93,7 +93,7 @@ position after reset: 0
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 
@@ -144,7 +144,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before clear: 3
 position after clear: 0
 

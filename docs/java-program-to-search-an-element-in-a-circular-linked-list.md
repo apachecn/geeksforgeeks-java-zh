@@ -4,7 +4,7 @@
 
 链表是一种线性数据结构，其中每个节点都有一个数据部分和指向下一个节点的地址部分。循环链表是一种链表，其中最后一个节点指向第一个节点，形成一个节点圈。**例:**
 
-```
+```java
 Input : CList = 6->5->4->3->2, find = 3
 Output: Element is present
 
@@ -28,7 +28,7 @@ Output: Element is not present
 
 T3】JavaT5
 
-```
+```java
 // Java program to Search an Element
 // in a Circular Linked List
 public class search {

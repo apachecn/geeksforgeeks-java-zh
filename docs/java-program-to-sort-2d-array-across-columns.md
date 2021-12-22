@@ -17,7 +17,7 @@
 
 这里我们创建一个初始容量为 10 的默认向量，语法如下:
 
-```
+```java
 Vector<E> v = new Vector<E>();
 ```
 
@@ -27,7 +27,7 @@ Vector<E> v = new Vector<E>();
 
 **语法:**
 
-```
+```java
 Vector.removeAll(Vector)  
 ```
 
@@ -35,7 +35,7 @@ Vector.removeAll(Vector)
 
 **语法:**
 
-```
+```java
 Collections.sort(Vector)
 ```
 
@@ -43,7 +43,7 @@ Collections.sort(Vector)
 
 **语法:**
 
-```
+```java
 Vector.add(value)
 ```
 
@@ -51,7 +51,7 @@ Vector.add(value)
 
 **语法:**
 
-```
+```java
 Vector.get(3);
 ```
 
@@ -59,7 +59,7 @@ Vector.get(3);
 
 ## Java
 
-```
+```java
 // Java Program to Sort 2D array across Columns
 
 // Importing required classes
@@ -141,7 +141,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Matrix without sorting 
 
 7 2 0 5 1 

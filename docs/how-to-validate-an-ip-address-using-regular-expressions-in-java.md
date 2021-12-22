@@ -6,7 +6,7 @@
 [IP 地址](https://www.geeksforgeeks.org/program-determine-class-network-host-id-ipv4-address/)是“A.B.C.D”形式的字符串，其中 A、B、C 和 D 的值的范围可以从 0 到 255。允许前导零。A、B、C 或 D 的长度不能大于 3。
 **示例:**
 
-```
+```java
 Input: str = "000.12.12.034"
 Output: True
 
@@ -26,7 +26,7 @@ Output: False
 1.  去拿绳子。
 2.  验证 IP 地址的正则表达式:
 
-```
+```java
 // ReGex to numbers from 0 to 255
 zeroTo255 -> (\\d{1, 2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])
 
@@ -50,7 +50,7 @@ IPAddress -> zeroTo255 + "\\." + zeroTo255
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to validate an IP address
 // using Regular Expression or ReGex
 
@@ -137,7 +137,7 @@ class IPAddressValidation {
 
 **Output:** 
 
-```
+```java
 Test Case 1:
 Input: 000.12.12.034
 Output: true

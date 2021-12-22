@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public final Long arrayOffset()
 ```
 
@@ -20,7 +20,7 @@ public final Long arrayOffset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // arrayOffset() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LongBuffer: [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 arrayOffset: 0
 
@@ -75,7 +75,7 @@ arrayOffset: 0
 
 **程序 2:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // arrayOffset() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Read only buffer : 8, 0, 9, 0, 0, 0, 0, 0, 0, 0, 
 
 Try to prLong the array offset of read only buffer

@@ -6,7 +6,7 @@ Java 中的 Java.util.ArrayDeque.isEmpty()方法用于检查和验证 ArrayDeque
 
 **语法:**
 
-```
+```java
 Array_Deque.isEmpty()
 ```
 
@@ -18,7 +18,7 @@ Array_Deque.isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The Deque is empty? false
 The Deque is empty? true
@@ -63,7 +63,7 @@ The Deque is empty? true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.util.*;
 
@@ -85,7 +85,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: []
 The Deque is empty? true
 

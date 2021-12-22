@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int accumulateAndGet(int y, 
              IntBinaryOperator function)
 ```
@@ -19,7 +19,7 @@ public final int accumulateAndGet(int y,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicInteger accumulateAndGet() method
 
@@ -61,7 +61,7 @@ class UserThread implements Runnable {
 
 **Output:** 
 
-```
+```java
 Thread A 5
 Thread A 10
 Thread A 15

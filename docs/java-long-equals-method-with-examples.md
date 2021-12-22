@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj) 
 
 Parameter: 
@@ -19,7 +19,7 @@ obj - The passed object is the object that is to be compared with.
 
 **程序 1:** 下面的程序演示了功能的工作。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.equals() method
 import java.lang.Math;
@@ -52,7 +52,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 object1 and object2 are not equal
 object1 and object2 are equal
 
@@ -60,7 +60,7 @@ object1 and object2 are equal
 
 **程序 2:** 下面的程序演示了没有传递参数时函数的工作
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.equals() method
 import java.lang.Math;
@@ -85,7 +85,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 prog.java:15: error: no suitable method found for equals(no arguments)
       if(obj1.equals())
              ^
@@ -99,7 +99,7 @@ prog.java:15: error: no suitable method found for equals(no arguments)
 
 **程序 3:** 下面的程序演示了在参数中传递对象以外的任何东西时函数的工作
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.equals() method
 import java.lang.Math;
@@ -125,7 +125,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Object1 & Object2:  Not Equal
 
 ```

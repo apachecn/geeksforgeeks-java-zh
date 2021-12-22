@@ -6,7 +6,7 @@ Java 中[navigatableset 接口的天花板()方法用于返回该集合中大于
 
 **语法** :
 
-```
+```java
 E ceiling(E ele)
 
 ```
@@ -21,7 +21,7 @@ E ceiling(E ele)
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // working of NavigableSet
 import java.util.NavigableSet;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Least element greater than or equal to 4 is: 4
 
 ```
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // working of NavigableSet
 import java.util.NavigableSet;
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Least element greater than or equal to D is: D
 
 ```

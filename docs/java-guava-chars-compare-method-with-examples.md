@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int compare(char a, char b)
 
 ```
@@ -26,7 +26,7 @@ public static int compare(char a, char b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.compare() method
 import com.google.common.primitives.Chars;
@@ -50,14 +50,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing c and c : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.compare() method
 import com.google.common.primitives.Chars;
@@ -81,14 +81,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing d and D : 32
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.compare() method
 import com.google.common.primitives.Chars;
@@ -112,7 +112,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing E and c : -30
 
 ```

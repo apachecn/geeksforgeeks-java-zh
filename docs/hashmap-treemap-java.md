@@ -8,13 +8,13 @@ HashMap 和 TreeMap 是[集合框架](https://docs.oracle.com/javase/tutorial/co
 
 java.util.HashMap class is a Hashing based implementation. In HashMap, we have a key and a value pair<Key, Value>.
 
-```
+```java
  HashMap<K, V> hmap = new HashMap<K, V>();
 ```
 
 让我们考虑下面的例子，其中我们必须计算给定整数数组中每个整数的出现次数。
 
-```
+```java
 Input: arr[] = {10, 3, 5, 10, 3, 5, 10};
 Output: Frequency of 10 is 3
         Frequency of 3 is 2
@@ -22,7 +22,7 @@ Output: Frequency of 10 is 3
 
 ```
 
-```
+```java
 /* Java program to print frequencies of all elements using 
    HashMap */
 import java.util.*;
@@ -67,7 +67,7 @@ class Main
 
 输出:
 
-```
+```java
 Frequency of 34 is 1
 Frequency of 3 is 1
 Frequency of 5 is 2
@@ -86,13 +86,13 @@ HashMap 基本上是[哈希](http://geeksquiz.com/hashing-set-1-introduction/)�
 
 TreeMap can be a bit handy when we only need to store unique elements in a sorted order. Java.util.TreeMap uses a [red-black tree](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/) in the background which makes sure that there are no duplicates; additionally it also maintains the elements in a sorted order.
 
-```
+```java
  TreeMap<K, V> hmap = new TreeMap<K, V>();
 ```
 
 下面是同样问题的基于 TreeMap 的实现。与以前的 O(n)解决方案相比，该解决方案具有更高的时间复杂度 O(n)。这种方法的优点是，我们按照排序的顺序获取元素。
 
-```
+```java
 /* Java program to print frequencies of all elements using 
    TreeMap */
 import java.util.*;
@@ -137,7 +137,7 @@ class Main
 
 输出:
 
-```
+```java
 Frequency of 3 is 1
 Frequency of 5 is 2
 Frequency of 10 is 3

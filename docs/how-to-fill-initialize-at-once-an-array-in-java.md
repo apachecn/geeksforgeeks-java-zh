@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to fill the element in an array
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Gfg {
 
 #### **输出:**
 
-```
+```java
 1 2 3 4 5 6 7 8 9 10
 
 ```
@@ -62,7 +62,7 @@ public class Gfg {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to fill the element in an array
 import java.util.*;
 
@@ -88,7 +88,7 @@ public class GFG
 
 #### **输出:**
 
-```
+```java
 1 2 3 4 5
 
 ```
@@ -101,7 +101,7 @@ java.util.Arrays.fill()方法在 java.util.Arrays 类中。此方法将指定的
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to fill the element in an array
 import java.util.*;
 
@@ -125,7 +125,7 @@ public class Gfg {
 
 #### **输出:**
 
-```
+```java
 Array completely filled with 10
 [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
 
@@ -139,7 +139,7 @@ Array completely filled with 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate copyOf when new array 
 // is of higher length. 
 import java.util.Arrays; 
@@ -168,7 +168,7 @@ public static void main(String args[])
 
 #### **输出:**
 
-```
+```java
 Original Array:
 1 2 3 
 New array copy (of higher length):
@@ -184,7 +184,7 @@ New array copy (of higher length):
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate setAll to set value
 import java.util.Arrays; 
 
@@ -207,7 +207,7 @@ public static void main(String args[]) { 
 
 #### **输出:**
 
-```
+```java
 Array completely filled: 
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
@@ -221,7 +221,7 @@ Java.util.ArrayList.clone()方法用于创建上述数组列表的浅层副本�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate clone() method 
 
 import java.io.*; 
@@ -261,7 +261,7 @@ public class ArrayListDemo { 
 
 #### **输出:**
 
-```
+```java
 First ArrayList: [Geeks, for, Geeks, 10, 20]
 Second ArrayList is: [Geeks, for, Geeks, 10, 20]
 

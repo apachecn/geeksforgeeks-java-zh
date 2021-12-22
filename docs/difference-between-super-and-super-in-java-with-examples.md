@@ -12,7 +12,7 @@ java 中的 [super 关键字](https://www.geeksforgeeks.org/super-keyword/)是�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate super keyword
 
 // Class 1
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Maximum Speed: 120
 ```
 
@@ -71,7 +71,7 @@ super 关键字也可以用来访问父类构造函数，方法是在其后添�
 
 ## Java
 
-```
+```java
 // Java code to demonstrate super()
 
 // Class 1
@@ -119,7 +119,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Person class Constructor
 Student class Constructor
 ```

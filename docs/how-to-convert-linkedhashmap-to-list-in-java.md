@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input : { 1 = 3, 4 = 2, 6 = 5, 2 = 1 }
 
 output : Key   -> [ 1, 4, 6, 2 ]
@@ -30,7 +30,7 @@ output : Key   -> [ 2, 4, 6, 6 ]
 
 **伪代码:**
 
-```
+```java
 for (Map.Entry<Object, Object> it : l.entrySet()) {
             l1.add(it.getKey());
             l2.add(it.getValue());
@@ -45,7 +45,7 @@ Here, l is LinkedHashMap
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert LinkedHashMap
 // to List
 
@@ -84,7 +84,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Key -> [2, 4, 5, 6, 3]
 Value -> [5, 6, 16, 63, 18]
 ```

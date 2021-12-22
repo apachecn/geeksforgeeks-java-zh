@@ -6,7 +6,7 @@ Java 中 **DoubleSummaryStatistics 类的 **getMax()** 方法用来获取这个 
 
 **语法:**
 
-```
+```java
 public double getMax()
 
 ```
@@ -17,7 +17,7 @@ public double getMax()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 

@@ -8,7 +8,7 @@ Calendar 类中的 **computeFields()** 方法用于将当前毫秒时间值 time
 
 **语法:**
 
-```
+```java
 protected abstract void computeFields()
 ```
 
@@ -19,7 +19,7 @@ protected abstract void computeFields()
 下面的程序说明了 Calendar 类的 computeFields()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate
 // computeFields() Method
 
@@ -53,7 +53,7 @@ public class CalendarClassDemo
 
 **Output:**
 
-```
+```java
 The Current date is: Wed Feb 13 16:15:15 UTC 2019
 The recent date is: Wed Feb 13 16:15:15 UTC 2019
 
@@ -61,7 +61,7 @@ The recent date is: Wed Feb 13 16:15:15 UTC 2019
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate
 // computeFields() Method
 
@@ -95,7 +95,7 @@ public class CalendarClassDemo
 
 **Output:**
 
-```
+```java
 The Current date is: Wed Feb 13 16:15:18 UTC 2019
 The recent date is: Wed Feb 13 16:15:18 UTC 2019
 

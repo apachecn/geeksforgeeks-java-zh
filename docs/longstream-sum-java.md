@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 long sum()
 
 ```
@@ -17,7 +17,7 @@ long sum()
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream.sum() to
 // find the sum of elements in LongStream
 import java.util.*;
@@ -43,14 +43,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 6
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream.sum() to
 // find the sum of elements
 // divisible by 3 in given range
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 18
 
 ```

@@ -29,7 +29,7 @@ JAVA 是一种面向对象编程语言，由詹姆斯·高斯林和他在太阳�
     a = null` 
 *   **数据类:**我们经常创建类来保存其中的一些数据。在这样的类中，一些标准函数通常可以从数据中导出。在科特林，这种类型的类被称为[数据类](https://www.geeksforgeeks.org/kotlin-data-classes/)，并被标记为数据。
 
-    ```
+    ```java
     data class User(val name: String, val age: Int)
     ```
 

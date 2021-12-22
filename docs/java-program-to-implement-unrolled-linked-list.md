@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement Unrolled Linked List
 
 // Importing all input output classes
@@ -129,7 +129,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [10, 20, 30]
 [40, 50, 60]
 [70]
@@ -139,7 +139,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement Unrolled Linked List
 
 // Importing all input output classes
@@ -290,7 +290,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 After Inserting all elements : 
 [10, 20, 30]
 [40, 50, 60]

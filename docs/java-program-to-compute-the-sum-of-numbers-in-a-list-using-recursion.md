@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input  : [1, 3, 9]  
 Output : 13
 ```
@@ -37,7 +37,7 @@ Output : 13
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compute Sum of Numbers in a List
 // by converting to arrays and applying recursion
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Elements in List : 1 2 3 4 5 
 Sum of elements  : 15
 ```
@@ -115,7 +115,7 @@ Sum of elements  : 15
 
 **语法:**
 
-```
+```java
 public boolean add(E element) ;
 ```
 
@@ -129,7 +129,7 @@ public boolean add(E element) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compute the Sum of Numbers in a List
 // using Recursion via ArrayList.add() method
 
@@ -218,7 +218,7 @@ public class GFG
 
 **Output**
 
-```
+```java
 Elements in List : [10, 90, 30, 40, 70, 100, 0]
 Sum of elements in List :340
 ```

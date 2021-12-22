@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean
   isEqual(byte[] digesta, byte[] digestb)
 ```
@@ -19,7 +19,7 @@ public static boolean
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isEqual() method
 
@@ -67,7 +67,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 msd1 is equals to msd2
 ```
 
@@ -75,7 +75,7 @@ msd1 is equals to msd2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isEqual() method
 
@@ -122,7 +122,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 msd1 is not equals to msd2
 ```
 

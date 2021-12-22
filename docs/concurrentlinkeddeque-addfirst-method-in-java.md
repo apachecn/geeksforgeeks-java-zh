@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 conn_linked_deque.addFirst*(elem)*
 ```
 
@@ -20,7 +20,7 @@ conn_linked_deque.addFirst*(elem)*
 
 **程序 1:** 该程序涉及一个整数类型的并发链接请求。
 
-```
+```java
 // Java Program Demonstrate addFirst()
 // method of ConcurrentLinkedDeque 
 
@@ -53,7 +53,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Initial Elements inthe LinkedDeque: [76, 55, 110, 12]
 Initial Elements inthe LinkedDeque: [21, 76, 55, 110, 12]
 
@@ -61,7 +61,7 @@ Initial Elements inthe LinkedDeque: [21, 76, 55, 110, 12]
 
 **程序 2:** 当*空值*作为参数传递给函数时，该程序涉及带有异常处理的整数类型的并发链接请求。
 
-```
+```java
 // Java Program Demonstrate addFirst()
 // method of ConcurrentLinkedDeque 
 
@@ -104,7 +104,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Initial Elements inthe LinkedDeque: [Contribute, Gfg, Geek, Geeks]
 NullPointerExceptionthrown
 Initial Elements inthe LinkedDeque: [Sudo Placement, Contribute, Gfg, Geek, Geeks]

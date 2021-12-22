@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input    : This is the Geeks For Geeks
            word="the"
 Output   : This is Geeks For Geeks
@@ -38,7 +38,7 @@ Explanation: word doesn't exists in the string
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove a Given Word From a String
 // using searching techniques
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 This is Geeks For Geeks 
 ```
 
@@ -105,7 +105,7 @@ This is Geeks For Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove a Given Word From a String
 
 // Importing input output classes
@@ -139,6 +139,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 This is  Geeks For Geeks
 ```

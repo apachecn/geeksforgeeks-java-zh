@@ -6,7 +6,7 @@ calendar 类中的**getMinimum(int*calndr _ field*)**方法用于返回此 Calen
 
 **语法:**
 
-```
+```java
 public abstract int getMinimum(int *calndr_field*)
 ```
 
@@ -17,7 +17,7 @@ public abstract int getMinimum(int *calndr_field*)
 下面的程序说明了日历类的 getMinimum()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // getMinimum() method
 
@@ -51,7 +51,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 Required days: 3
 The Minimum days: 1
 
@@ -59,7 +59,7 @@ The Minimum days: 1
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getMinimum() method
 
@@ -92,7 +92,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 Required Months: 6
 The Minimum months: 0
 

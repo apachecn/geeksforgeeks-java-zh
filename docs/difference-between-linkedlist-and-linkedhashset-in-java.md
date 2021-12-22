@@ -37,7 +37,7 @@ Java LinkedHashSet 类是一个哈希表和链表实现的集合接口。它继�
 
 **链接列表示例:**
 
-```
+```java
 // Java code for Linked List implementation
 
 import java.util.*;
@@ -65,7 +65,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Linked list : [D, A, E, B, C, null, null]
 Size of List:7
 
@@ -73,7 +73,7 @@ Size of List:7
 
 **linked hashset 示例:**
 
-```
+```java
 import java.util.LinkedHashSet;
 public class Demo {
     public static void main(String[] args)
@@ -105,7 +105,7 @@ public class Demo {
 
 **输出:**
 
-```
+```java
 Original LinkedHashSet:[A, B, C, D]
 Size of LinkedHashSet = 4
 After adding duplicate element [A, B, C, D]

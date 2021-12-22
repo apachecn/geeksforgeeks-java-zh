@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input :- 10->11->12->13->14->15
          element1 = 11
          element2 = 14
@@ -22,7 +22,7 @@ Output :- 10->14->12->13->11->15
 
 T3】JavaT5
 
-```
+```java
 // Swaping two elements in a Linked List in Java
 
 import java.util.*;
@@ -97,7 +97,7 @@ T6T8**输出**T1
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Swap Two Elements in a LinkedList
 class Node {
     int data;

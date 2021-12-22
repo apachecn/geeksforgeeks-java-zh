@@ -14,7 +14,7 @@
 1.  The **poll()** method **retrieves and removes element from head of this queue**.If queue is empty then method will return null.
     **Syntax:**
 
-    ```
+    ```java
     public E poll()
     ```
 
@@ -24,7 +24,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     /*
     *Program Demonstrate poll() method of ArrayBlockingQueue.
     */
@@ -69,7 +69,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Queue Contains[423, 233, 356]
     Removing From head: 423
     Queue Contains[233, 356]
@@ -84,7 +84,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     /*
     * Program Demonstrate poll() method of ArrayBlockingQueue.
     */
@@ -150,7 +150,7 @@
 
     **Output:**
 
-    ```
+    ```java
     removing user having name = Aman
     removing user having name = Sanjeet
     removing user having name = null
@@ -160,7 +160,7 @@
 2.  The **poll(*long timeout, TimeUnit unit*)** method **retrieves and removes element from head of this queue**. If the queue is empty then it will, wait till a specified time for an element to become available.
     **Syntax:**
 
-    ```
+    ```java
     public E poll(*long timeout, TimeUnit unit*) throws InterruptedException
     ```
 
@@ -174,7 +174,7 @@
 
     下面的程序说明了 ArrayBlockingQueue 的轮询(长超时，时间单位)方法。
 
-    ```
+    ```java
     /*
     * Program Demonstrate offer(E e, long timeout, TimeUnit unit)
     * method of ArrayBlockingQueue.
@@ -221,7 +221,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Queue Contains[423, 233, 356]
     Removing From head: 423
     Queue Contains[233, 356]

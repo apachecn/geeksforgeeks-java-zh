@@ -49,7 +49,7 @@ ZoneOffsetTransition 的功能是对这两个偏移量之间的转换进行建�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.time.*;
 import java.time.chrono.*;
@@ -96,7 +96,7 @@ public class GeeksForGeeks {
 
 **Output**
 
-```
+```java
 Sorry, the transition zones do not match!
 The offsetAfter of the first transition zone is+00:00:02
 ```

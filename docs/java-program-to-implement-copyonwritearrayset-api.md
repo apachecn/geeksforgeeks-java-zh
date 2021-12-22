@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement CopyOnWriteArraySet API
 
 // Importing required utility classes
@@ -260,7 +260,7 @@ public class<E> GFG {
 
 **输出:**
 
-```
+```java
 Element 12 added to Set
 Element 13 added to Set
 Element 14 added to Set

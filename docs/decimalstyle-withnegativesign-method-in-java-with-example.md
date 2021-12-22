@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的**with negative design()**
 
 **语法:**
 
-```
+```java
 public DecimalStyle withNegativeSign(char negativeSign)
 
 ```
@@ -19,7 +19,7 @@ public DecimalStyle withNegativeSign(char negativeSign)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -50,7 +50,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 Current Character used for negative sign: -
 Updated Character used for negative sign: *
 

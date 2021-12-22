@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public void setTime(long t)
 ```
 
 **语法:**
 
-```
+```java
 ts1.setTime(l);
 ```
 
@@ -26,7 +26,7 @@ ts1.setTime(l);
 
 **示例 1:** 创建时间戳，并使用 setTime()来更改时间戳对象的时间。
 
-```
+```java
 // Java program to demonstrate the
 // use of setTime() function
 
@@ -55,7 +55,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Timestamp time: 1970-01-01 00:00:10.0
 New Timestamp time: 1970-01-12 13:46:40.0
 
@@ -63,7 +63,7 @@ New Timestamp time: 1970-01-12 13:46:40.0
 
 **示例 2:** 创建一个时间戳，并使用 setTime()通过传递负长值作为参数来更改时间戳对象的时间。给出负长值代表 1970 年 1 月 1 日之前的时间
 
-```
+```java
 // Java program to demonstrate the
 // use of setTime() function
 
@@ -92,7 +92,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Timestamp time: 1970-01-01 00:00:10.0
 New Timestamp time: 1969-12-20 10:13:20.0
 

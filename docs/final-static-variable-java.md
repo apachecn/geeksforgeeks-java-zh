@@ -15,7 +15,7 @@
 
 1.  **Initialization of variable Mandatory** : If the static variable declared as final, then we have to perform initialization explicitly whether we are using it or not and JVM won’t provide any default value for the final static variable.
 
-    ```
+    ```java
     // Java program to illustrate the behavior of
     // final static variable
     class Test {
@@ -28,14 +28,14 @@
 
     输出:
 
-    ```
+    ```java
     error: variable x not initialized in the default constructor
 
     ```
 
 2.  **类加载前初始化**:对于最终静态变量，强制要求我们在类加载完成前进行初始化。我们可以在声明时初始化一个最终的静态变量。
 
-    ```
+    ```java
     // Java program to illustrate that final
     // static variable can be initialized
     // at the time of declaration
@@ -50,14 +50,14 @@
 
     输出:
 
-    ```
+    ```java
     10
 
     ```
 
 3.  **在静态块内部初始化**:我们也可以在静态块内部初始化一个最终的静态变量，因为我们应该在类之前初始化一个最终的静态变量，而且我们知道静态块是在 main()方法之前执行的。
 
-    ```
+    ```java
     // Java program to illustrate that final
     // static variable can be initialized
     // inside static block
@@ -76,14 +76,14 @@
 
     输出:
 
-    ```
+    ```java
     10
 
     ```
 
 除了上面提到的方法，如果我们试图在其他地方初始化一个最终的静态变量，那么我们会得到编译时错误。
 
-```
+```java
 // Java program to illustrate
 // that we can't declare
 // final static variable
@@ -103,14 +103,14 @@ class Test {
 
 输出:
 
-```
+```java
 error: cannot assign a value to final variable x
 
 ```
 
 **最终静态变量**的实现
 
-```
+```java
 class MainClass {
     final static String company = "GFG";
     String name;
@@ -136,7 +136,7 @@ public
 
 输出:
 
-```
+```java
 error: cannot assign a value to final variable company
 
 ```

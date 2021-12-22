@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <--!MainActivity.xml-->
 <androidx.constraintlayout.widget.ConstraintLayout
        xmlns:android="http://schemas.android.com/apk/res/android"
@@ -44,7 +44,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.appwidget.AppWidgetManager;
 import android.os.Bundle;
 import android.view.View;
@@ -165,7 +165,7 @@ public class DetailsActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <--!DetailsActivity.xml>
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -221,7 +221,7 @@ public class DetailsActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.appwidget.AppWidgetManager;
 import android.os.Bundle;
 import android.view.View;
@@ -342,7 +342,7 @@ public class DetailsActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.tanya.widgettutorial;
 
 public class Recipe {
@@ -373,7 +373,7 @@ public class Recipe {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.tanya.widgettutorial;
 
 public class Recipe {

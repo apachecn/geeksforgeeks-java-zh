@@ -12,22 +12,22 @@
 
 插图:
 
-```
+```java
 // a final variable
 final int THRESHOLD = 5;
 ```
 
-```
+```java
 // a blank final variable
 final int THRESHOLD;
 ```
 
-```
+```java
 // a final static variable PI
 static final double PI = 3.141592653589793;
 ```
 
-```
+```java
 // a  blank final static  variable
 static final double PI;
 ```
@@ -45,7 +45,7 @@ static final double PI;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate Different
 // Ways of Initializing a final Variable
 
@@ -103,7 +103,7 @@ class GFG {
 
 当最终变量是对对象的引用时，这个最终变量称为引用最终变量。例如，最终的 StringBuffer 变量如下所示:
 
-```
+```java
 final StringBuffer sb;
 ```
 
@@ -113,7 +113,7 @@ final StringBuffer sb;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // Reference of Final Variable
 
@@ -143,7 +143,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 GeeksForGeeks
 ```
@@ -156,7 +156,7 @@ GeeksForGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Re-assigning
 // Final Variable will throw Compile-time Error
 
@@ -179,7 +179,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 prog.java:16: error: cannot assign a value to final variable CAPACITY
         CAPACITY = 5;
         ^
@@ -192,7 +192,7 @@ prog.java:16: error: cannot assign a value to final variable CAPACITY
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // local final variable
 
@@ -216,7 +216,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 20
 ```
 
@@ -229,7 +229,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate Final
 // with for-each Statement
 
@@ -254,7 +254,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 
 ```
 
@@ -270,7 +270,7 @@ class GFG {
 
 **用法 1:** 一个肯定是防止[继承](https://www.geeksforgeeks.org/inheritance-in-java/)，因为最终类不能扩展。例如所有[包装类](https://www.geeksforgeeks.org/wrapper-classes-java/)如[整数](https://www.geeksforgeeks.org/java-lang-integer-class-java/)、[浮点](https://www.geeksforgeeks.org/java-lang-float-class-in-java/)等。是最后一堂课。我们不能扩展它们。
 
-```
+```java
 final class A
 {
      // methods and fields
@@ -290,7 +290,7 @@ class B extends A
 
 **图解:**用方法的最终关键字
 
-```
+```java
 class A 
 {
     final void m1() 

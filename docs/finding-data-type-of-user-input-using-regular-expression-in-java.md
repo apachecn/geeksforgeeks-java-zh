@@ -36,7 +36,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG {
 
     // method stub
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The datatype of 56.73 is: java.lang.Double
 
 ```

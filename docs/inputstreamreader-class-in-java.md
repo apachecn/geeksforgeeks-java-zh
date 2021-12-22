@@ -7,7 +7,7 @@
 输入流阅读器是从[字节流到字符流](https://www.geeksforgeeks.org/character-stream-vs-byte-stream-java/)的桥梁。它读取字节，并使用指定的字符集将其解码为字符。它使用的字符集可以通过名称指定，也可以显式给出，或者可以接受平台的默认字符集。
 T3】申报:
 
-```
+```java
 public class InputStreamReader
    extends Reader
 ```
@@ -24,7 +24,7 @@ public class InputStreamReader
 *   **ready():Java . io . inputstreamreader . ready()**告知 Character 流是否准备好被读取。如果输入缓冲区不为空，或者可以从基础字节流中读取字节，那么输入流读取器就准备好了。
     **语法:**
 
-```
+```java
 public boolean ready()
 Returns :
 True : if the Character stream is ready to be read
@@ -34,7 +34,7 @@ False : if the Character stream is not ready to be read
 *   **close():Java . io . InputStreamReader . close()**关闭 InputStreamReader 并释放与其关联的所有流。一旦流被关闭，进一步的 read()、ready()、mark()、reset()或 skip()调用将引发 IOException。
     **语法:**
 
-```
+```java
 public void close()
 Returns :
 No value is returned
@@ -44,7 +44,7 @@ No value is returned
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating ready() and close() method
 
 import java.io.*;
@@ -102,7 +102,7 @@ public class NewClass
     极客
     T9】输出:
 
-```
+```java
 Character : G
 Ready? : true
 Character : e
@@ -148,7 +148,7 @@ Ready? : false
 *   **getEncoding():Java . io . inputstreamreader . getEncoding()**返回该流正在使用的字符编码的名称。
     **语法:**
 
-```
+```java
 public String getEncoding()
 Parameters : 
 Returns :
@@ -159,7 +159,7 @@ No value is returned
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating getEncoding() method
 
 import java.io.*;
@@ -202,14 +202,14 @@ public class NewClass
 
 *   **输出:**
 
-```
+```java
 Encoding used : UTF8
 ```
 
 *   **read():Java . io . inputstreamreader . read()**读取后返回单个字符。
     **语法:**
 
-```
+```java
 public int read()
 Returns :
 Returns single character after reading or -1 if the end of the stream has been reached
@@ -219,7 +219,7 @@ Returns single character after reading or -1 if the end of the stream has been r
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating read() method
 
 import java.io.*;
@@ -258,7 +258,7 @@ public class NewClass
     极客
     T10】输出:
 
-```
+```java
 1
 Geeks 
 2

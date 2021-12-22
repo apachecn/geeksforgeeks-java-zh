@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object o)
 ```
 
@@ -20,7 +20,7 @@ public boolean equals(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate equals()
 // method of LinkedBlockingDeque
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Blocking Deque 1: [7855642, 35658786, 5278367, 74381793]
 Linked Blocking Deque 2: [1, 2, 3, 4]
 Are both Linked Blocking Deque equal: false
@@ -74,7 +74,7 @@ Are both Linked Blocking Deque equal: false
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate equals()
 // method of LinkedBlockingDeque
 // when the list contains characters
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Blocking Deque 1: [1, 2, 3, 4]
 Is LBD1 equal to LBD1: true
 

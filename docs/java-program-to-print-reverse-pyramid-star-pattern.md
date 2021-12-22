@@ -14,7 +14,7 @@
 
 插图:
 
-```
+```java
 Input: number = 7
 
 Output:
@@ -38,7 +38,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Print Reverse Pyramid Star Pattern
 // Using While loop
 
@@ -94,7 +94,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 *************
  ***********
   *********
@@ -108,7 +108,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print reverse pyramid star pattern
 // Using for loop
 import java.io.*;
@@ -147,7 +147,7 @@ public static void main (String[] args) 
 
 **Output**
 
-```
+```java
 *************
  ***********
   *********
@@ -161,7 +161,7 @@ public static void main (String[] args) 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Print Reverse Pyramid Star Pattern
 // Using do-while loop
 
@@ -217,7 +217,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
  *************
   ***********
    *********

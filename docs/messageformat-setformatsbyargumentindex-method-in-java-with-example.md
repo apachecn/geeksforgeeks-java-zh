@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setFormatsByArgumentIndex(Format[] newFormats)
 ```
 
@@ -20,7 +20,7 @@ public void setFormatsByArgumentIndex(Format[] newFormats)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setFormatsByArgumentIndex() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 pattern : {0, date, #}, {2, number, #0.##}, {4, time}
 Required Formats are : 
 java.text.SimpleDateFormat@403
@@ -98,7 +98,7 @@ java.text.SimpleDateFormat@8400729
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setFormatsByArgumentIndex() method
 
@@ -159,7 +159,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 pattern : {0, date, #}, {2, number, #0.##}, {4, time}
 Required Formats are : 
 java.text.SimpleDateFormat@403

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Annotation[] getAnnotatedInterfaces()
 
 ```
@@ -19,7 +19,7 @@ public Annotation[] getAnnotatedInterfaces()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotatedInterfaces() method
 
@@ -67,7 +67,7 @@ class Test implements CustomInterfaceImp{
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotatedInterfaces() method
 

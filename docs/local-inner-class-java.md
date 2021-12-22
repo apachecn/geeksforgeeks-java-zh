@@ -31,7 +31,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // working of local inner classes
 
@@ -85,7 +85,7 @@ public class Outer
 
 **Output**
 
-```
+```java
 Divisor = 4
 Remainder = 0
 Inside inner class
@@ -96,7 +96,7 @@ Quotient = 5
 
 例如，如果您在上述示例中的*内部*类构造函数或*内部*类的任何方法中添加突出显示的赋值语句:
 
-```
+```java
 public Inner()
 {
    sum = 50;
@@ -111,7 +111,7 @@ public Inner()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Declaration of
 // local inner classes inside an if statement
 
@@ -151,7 +151,7 @@ public class Outer
 
 **Output**
 
-```
+```java
 Inside Inner class
 10
 ```
@@ -160,7 +160,7 @@ Inside Inner class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate that inner
 // classes cannot be declared as static
 
@@ -198,7 +198,7 @@ public class Outer
 
 **输出**
 
-```
+```java
 Compilation error
 ```
 
@@ -206,7 +206,7 @@ Compilation error
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // the scope of inner class
 
@@ -234,7 +234,7 @@ public class Outer
 
 **输出**
 
-```
+```java
 prog.java:20: error: cannot find symbol
         Inner inner = new Inner();
         ^

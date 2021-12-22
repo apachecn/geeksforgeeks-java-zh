@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public T[] getEnumConstants()
 
 ```
@@ -19,7 +19,7 @@ public T[] getEnumConstants()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getEnumConstants() method
 
@@ -52,7 +52,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class A
 Enum constants of myClass: []
 
@@ -60,7 +60,7 @@ Enum constants of myClass: []
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getEnumConstants() method
 
@@ -103,7 +103,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class A
 Enum constants of myClass: [RED, GREEN, BLUE]
 

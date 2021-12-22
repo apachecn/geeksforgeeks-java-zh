@@ -19,7 +19,7 @@ Java 中有三种类型的[变量:](https://www.geeksforgeeks.org/variables-in-j
 
     下面是 Java 程序，演示了静态块和静态变量是按照它们在程序中出现的顺序执行的。
 
-    ```
+    ```java
     // Java program to demonstrate execution
     // of static blocks and variables
     class Test {
@@ -50,7 +50,7 @@ Java 中有三种类型的[变量:](https://www.geeksforgeeks.org/variables-in-j
 
     **输出:**
 
-    ```
+    ```java
     from m1
     Inside static block
     Value of a : 20
@@ -71,7 +71,7 @@ Java 中有三种类型的[变量:](https://www.geeksforgeeks.org/variables-in-j
 
     **示例:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // non-static variables
 
@@ -97,7 +97,7 @@ Java 中有三种类型的[变量:](https://www.geeksforgeeks.org/variables-in-j
 
     **Output:**
 
-    ```
+    ```java
     Non static variable accessed using instance of a class.
     Non Static variable 10
 

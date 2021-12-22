@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program showcasing uses of call by value in examples
 
 // Importing java input output classes
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 before swaping x = 5 and y = 7
 after swaping x = 5 and y = 7
 ```
@@ -78,7 +78,7 @@ after swaping x = 5 and y = 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program showcasing uses of call by value in examples
 
 // Importing java input output classes
@@ -117,7 +117,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 before change a = 30
 after change a = 30
 ```

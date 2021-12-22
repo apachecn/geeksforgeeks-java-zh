@@ -15,7 +15,7 @@ Java **集合**提供了一个存储和操作对象组的架构。这里我们�
 
 ## Java
 
-```
+```java
 // Java program implementing
 // Comparing elements of Collections
 
@@ -51,7 +51,7 @@ public class ArrayCompareExample {
 
 **输出**
 
-```
+```java
 false
 ```
 
@@ -59,7 +59,7 @@ false
 
 ## Java
 
-```
+```java
 // Java program implementing
 // Comparing elements of Collections
 
@@ -95,6 +95,6 @@ public class ArrayCompareExample {
 
 **输出**
 
-```
+```java
 true
 ```

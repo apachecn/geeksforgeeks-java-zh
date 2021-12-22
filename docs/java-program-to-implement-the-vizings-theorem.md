@@ -43,7 +43,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Implement
 // Vizing's Theorem
 
@@ -157,7 +157,7 @@ public class chromaticIndex {
 
 **Output**
 
-```
+```java
 Chromatic Index = 3
 Edge from 1 to 2 : Color 1
 Edge from 2 to 3 : Color 2

@@ -6,7 +6,7 @@ LinkedBlockingQueue 的 **size()** 方法返回 LinkedBlockingQueue 包含的元
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -16,7 +16,7 @@ public int size()
 
 **程序 1:** 在 LinkedBlockingQueue 上执行添加和删除操作，每次操作后使用 size()
 
-```
+```java
 // Java Program Demonstrate size()
 // method of LinkedBlockingQueue
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **打印队列大小输出:**
 
-```
+```java
 Items in Queue are [Karan, Suraj]
 Size of Queue is 2
 
@@ -88,7 +88,7 @@ Size of Queue is 3
 
 **程序 2:** 对包含 Employee 对象的 LinkedBlockingQueue 执行添加和删除操作，每次操作后使用 size()
 
-```
+```java
 // Java Program Demonstrate size()
 // method of LinkedBlockingQueue
 
@@ -189,7 +189,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Size of Queue 0
 
 After Adding some Elements queue has

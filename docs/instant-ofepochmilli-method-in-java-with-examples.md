@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Instant 
     ofEpochMilli(long epochMilli)
 ```
@@ -21,7 +21,7 @@ public static Instant
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.ofEpochMilli() method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 1970-01-12T13:46:39Z
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.ofEpochMilli() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 1972-04-27T23:11:11.044Z
 
 ```

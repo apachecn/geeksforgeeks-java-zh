@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Difference
 // Between Arrays and Collection
 
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [Ljava.lang.String;@3d075dc0
 [g, e, e, k, s]
 ```

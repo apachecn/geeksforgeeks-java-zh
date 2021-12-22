@@ -36,7 +36,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -102,7 +102,7 @@
 
 ## text_view_emoji.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <com.vanniktech.emoji.EmojiTextView
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -125,7 +125,7 @@
 
 ## EmojiApplication.java
 
-```
+```java
 import android.app.Application;
 
 import com.vanniktech.emoji.EmojiManager;
@@ -145,7 +145,7 @@ public class EmojiApplication extends Application {
 
 ## AndroidManifest.xml
 
-```
+```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.emojigfg">
 
@@ -175,7 +175,7 @@ public class EmojiApplication extends Application {
 
 ## MainActivity.java
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;

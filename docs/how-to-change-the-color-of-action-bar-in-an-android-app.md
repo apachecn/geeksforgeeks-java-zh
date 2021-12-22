@@ -10,7 +10,7 @@
 
     ## style . XML
 
-    ```
+    ```java
     <resources>
 
         <!-- Base application theme. -->
@@ -34,7 +34,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <!--Relative Layout-->
@@ -66,7 +66,7 @@
 
     ## 【MainActivity.java】
 
-    ```
+    ```java
     package com.geeksforgeeks.changecolor;
 
     import android.support.v7.app.ActionBar;
@@ -100,7 +100,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <!--Relative Layout-->

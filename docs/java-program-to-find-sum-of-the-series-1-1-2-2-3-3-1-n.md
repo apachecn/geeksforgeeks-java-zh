@@ -8,7 +8,7 @@
 
 > n！= n *(n-1)×(n-2)×(n-3)×(n-4)×……××4×3×2×1
 
-```
+```java
 Input      : n = 5
 Processing : 1/1! + 2/2! + 3/3! + 4/4! + 5/5!
              1    + 2/2  + 3/6  + 4/24 + 5/120
@@ -28,7 +28,7 @@ Output     : 2.708333333333333
 
 T5】Java
 
-```
+```java
 // Java Program to Find Sum of the Series
 // 1/1! + 2/2! + 3/3! + ……1/N!
 
@@ -81,7 +81,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 The sum of series upto 5 terms is : 2.708333333333333
 ```
 

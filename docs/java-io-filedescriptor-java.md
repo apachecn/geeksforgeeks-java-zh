@@ -17,7 +17,7 @@
 
 **申报:**
 
-```
+```java
 public final class FileDescriptor
    extends Object
 ```
@@ -31,7 +31,7 @@ public final class FileDescriptor
 *   **sync() :** **java.io.File.sync()** synchronizes all the buffers with the underlying device. When all the modified data of the FileDescriptor have been written to the underlying device, the method returns.
     **Syntax :**
 
-    ```
+    ```java
     public void sync()
     Parameters :
     -----------
@@ -43,7 +43,7 @@ public final class FileDescriptor
 
     ```
 
-    ```
+    ```java
     // Java program explaining the working of sync() method
 
     import java.io.*;
@@ -92,21 +92,21 @@ public final class FileDescriptor
     你看不到这段代码对 codea 中提到的“FILE.txt”文件所做的更改，因为 Online IDE 上没有这样的文件。因此，您需要将代码复制到您的系统编译器，并观察文件的变化
     无论文件中存在什么内容，它都会将您的文件同步到设备并覆盖数据。现在文件“FILE.txt”的内容将是
 
-    ```
+    ```java
     GEEKS
     ```
 
     您提到，即使不存在这样的文件，它也会自己创建该文件，同步该文件并写入内容。
     **输出:**
 
-    ```
+    ```java
     Use of Sync Successful :) 
     ```
 
 *   **valid() :** **java.io.File.valid()** checks whether the FileDescriptor object is valid or not.
     **Syntax :**
 
-    ```
+    ```java
     public boolean valid()
     Parameters :
     -----------
@@ -117,7 +117,7 @@ public final class FileDescriptor
 
     ```
 
-    ```
+    ```java
     // Java program explianing the working of valid() method
 
     import java.io.*;
@@ -166,7 +166,7 @@ public final class FileDescriptor
 
     **输出:**
 
-    ```
+    ```java
     FileDescriptor is valid : true
     ```
 

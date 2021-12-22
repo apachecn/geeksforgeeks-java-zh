@@ -32,7 +32,7 @@
 
 **睡眠方法示例:**
 
-```
+```java
 synchronized(monitor)
 {
 Thread.sleep(1000);  Here Lock Is Held By The Current Thread
@@ -42,7 +42,7 @@ Thread.sleep(1000);  Here Lock Is Held By The Current Thread
 
 **等待方法示例:**
 
-```
+```java
 synchronized(monitor)
 {
 monitor.wait()  Here Lock Is Released By Current Thread 
@@ -58,7 +58,7 @@ monitor.wait()  Here Lock Is Released By Current Thread
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 synchronized(monitor){
     while(condition == true)
     {
@@ -75,7 +75,7 @@ synchronized(monitor){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the difference
 // between wait and sleep
 
@@ -104,7 +104,7 @@ public static void main(String[] args)
 
 **Output**
 
-```
+```java
 Thread 'main' is woken after sleeping for 1 second
 Object 'java.lang.Object@1d81eb93' is woken after waiting for 1 second
 ```

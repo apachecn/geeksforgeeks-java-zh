@@ -8,7 +8,7 @@ clock 类的 fixed()方法返回一个 Clock 对象，Clock 对象返回相同�
 
 **语法:**
 
-```
+```java
 public static Clock fixed(Instant fixedInstant, ZoneId zone)
 ```
 
@@ -21,7 +21,7 @@ public static Clock fixed(Instant fixedInstant, ZoneId zone)
 
 **示例:**
 
-```
+```java
 Input:: 
 Instance object as parameter : Instant.parse("2018-08-19T16:45:42.00Z");
 TimeZone Object as parameter : ZoneId.of("Asia/Calcutta");
@@ -40,7 +40,7 @@ in return with fixed time zone and instance.
 
 **程序 1:** 定义区域时使用固定()
 
-```
+```java
 // Java program to demonstrate
 // fixed() method of Clock class
 
@@ -70,14 +70,14 @@ public class fixedMethodDemo {
 
 **Output:**
 
-```
+```java
 FixedClock[2018-08-19T16:02:42Z, Asia/Calcutta]
 
 ```
 
 **程序 2:** 使用固定()作为默认区域
 
-```
+```java
 // Java program to demonstrate 
 // fixed() method of Clock class
 
@@ -106,7 +106,7 @@ public class fixedMethodDemo {
 
 **Output:**
 
-```
+```java
 FixedClock[2018-08-21T08:10:32.498Z, Etc/UTC]
 
 ```

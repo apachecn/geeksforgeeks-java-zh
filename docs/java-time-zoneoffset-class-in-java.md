@@ -52,7 +52,7 @@ ZoneOffset 类有三个字段:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example of ofHoursMinutes() Method
 import java.time.ZoneOffset; 
 public class GFG { 
@@ -65,7 +65,7 @@ public class GFG { 
 
 **Output**
 
-```
+```java
 +07:15
 ```
 
@@ -79,7 +79,7 @@ public class GFG { 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Example of ofHours() Method
 import java.time.*;
 import java.time.ZoneOffset; 
@@ -93,6 +93,6 @@ public class GFG { 
 
 **Output**
 
-```
+```java
 +04:00
 ```

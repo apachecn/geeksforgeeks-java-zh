@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public Month minus(long months)
 
 ```
@@ -19,7 +19,7 @@ public Month minus(long months)
 
 **程序 1** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.ChronoField;
@@ -39,14 +39,14 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 JANUARY
 
 ```
 
 **程序二** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.ChronoField;
@@ -66,7 +66,7 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 FEBRUARY
 
 ```

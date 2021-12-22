@@ -9,7 +9,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class ShutDownHook
 {
   public static void main(String[] args)
@@ -30,7 +30,7 @@ public class ShutDownHook
 当我们运行上面的代码时，您会看到当 JVM 完成主方法的执行时，关机钩子正在被 JVM 调用。
 输出:
 
-```
+```java
 Application Terminating ...
 Shutdown Hook is running !
 ```
@@ -39,7 +39,7 @@ Shutdown Hook is running !
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class ThreadChild extends Thread {
 
     public void run() {
@@ -64,7 +64,7 @@ class Demo {
 
 输出:
 
-```
+```java
 2 X 1 = 2
 2 X 2 = 4
 2 X 3 = 6

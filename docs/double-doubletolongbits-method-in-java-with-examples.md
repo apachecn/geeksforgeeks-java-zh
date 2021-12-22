@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long doubleToLongBits(double val)
 
 ```
@@ -23,7 +23,7 @@ public static long doubleToLongBits(double val)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Double.doubleToLongBits() method
 
@@ -48,14 +48,14 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 1.5 in long bits: 4609434218613702656
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Double.doubleToLongBits() method
 
@@ -96,7 +96,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 Infinity in long bits: 9218868437227405312
 -Infinity in long bits: -4503599627370496
 NaN in long bits: 9221120237041090560

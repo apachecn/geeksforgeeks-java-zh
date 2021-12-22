@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to fix java.lang.ClassCastException
 // in TreeSet using Comparator
 
@@ -188,7 +188,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Sorting on the basis of marks
 friendsMarks{name='Shivam', nickName='Gorilla', marks=47}
 friendsMarks{name='Himanshu', nickName='Lalten', marks=57}

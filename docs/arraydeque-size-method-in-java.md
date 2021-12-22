@@ -6,7 +6,7 @@ Java 中的 Java.util.ArrayDeque.size()方法用于获取 Deque 的大小或 Deq
 
 **语法:**
 
-```
+```java
 Array_Deque.size()
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.size()
 下面的程序说明了 Java.util.ArrayDeque.size()方法:
 **程序 1:** 将字符串元素添加到 Deque 中。
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -45,7 +45,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The size is: 5
 
@@ -53,7 +53,7 @@ The size is: 5
 
 **程序 2:** 将整数元素加入到德格中。
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.*;
 
@@ -79,7 +79,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30]
 The size is: 3
 

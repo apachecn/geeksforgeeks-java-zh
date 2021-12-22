@@ -6,7 +6,7 @@
 
 在 Java 中，参数总是按值传递的。例如，以下程序打印 i = 10，j = 20。
 
-```
+```java
 //  Test.java
 class Test {
    // swap() doesn't swap i and j

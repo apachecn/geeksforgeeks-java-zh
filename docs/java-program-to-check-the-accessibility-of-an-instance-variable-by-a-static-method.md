@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check the Accessibility
 // of an Instance variable by a Static Method
 
@@ -35,7 +35,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 prog.java:16: error: non-static variable k cannot be referenced from a static context
         System.out.print("value of a is: " + k);
                                              ^
@@ -48,7 +48,7 @@ prog.java:16: error: non-static variable k cannot be referenced from a static co
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to check accessibility of
 // instance variables by static method
 
@@ -85,6 +85,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Value of k is: 10
 ```

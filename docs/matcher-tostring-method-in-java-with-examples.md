@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate toString() method
 
 import java.util.regex.*;
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.util.regex.Matcher[pattern=(Geeks) region=0,25 lastmatch=]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate toString() method
 
 import java.util.regex.*;
@@ -91,7 +91,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.util.regex.Matcher[pattern=(GFG) region=0,15 lastmatch=]
 
 ```

@@ -12,7 +12,7 @@
 *   **void gc():** 运行垃圾收集器。调用此方法建议 Java 虚拟机将精力扩展到回收未使用的对象，以便使它们当前占用的内存可用于快速重用。当控制从方法调用返回时，虚拟机已经尽最大努力回收所有丢弃的对象。
     **语法:**
 
-```
+```java
 public void gc()
 Returns: NA.
 Exception: NA.
@@ -21,7 +21,7 @@ Exception: NA.
 *   **long freeMemory():** 此方法返回 Java 虚拟机中的空闲内存量。调用 gc 方法可能会导致 freeMemory 返回的值增加。
     **语法:**
 
-```
+```java
 public long freeMemory()
 Returns: an approximation to the total
 amount of memory currently available for
@@ -32,7 +32,7 @@ Exception: NA.
 *   **long totalMemory():** 此方法返回 Java 虚拟机中的内存总量。此方法返回的值可能会随着时间的推移而变化，具体取决于主机环境。
     **语法:**
 
-```
+```java
 public long totalMemory()
 Returns: the total amount of memory 
 currently available for current and future 
@@ -42,7 +42,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating gc(), freeMemory()
 // and totalMemory() methods
 class memoryDemo
@@ -96,7 +96,7 @@ class memoryDemo
 
 输出:
 
-```
+```java
 Total memory is: 128974848
 Initial free memory: 126929976
 Free memory after garbage collection: 128632384

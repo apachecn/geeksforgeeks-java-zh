@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input  : arr[] = {25, 60, 18, 3, 10}
 Output : Element to be searched : 3
 
@@ -24,7 +24,7 @@ Element x is not present in arr[]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Search an element in an Array Recursively
 
 // Main class
@@ -95,6 +95,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Element 3 is present at index 3
 ```

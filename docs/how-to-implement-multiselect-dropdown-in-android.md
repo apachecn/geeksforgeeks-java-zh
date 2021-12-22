@@ -36,7 +36,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Relative layout as parent layout-->
 <RelativeLayout 
@@ -72,7 +72,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;

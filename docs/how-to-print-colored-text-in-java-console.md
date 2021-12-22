@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 System.out.println(ANSI_COLORNAME + "This text is colored" + ANSI_RESET);
 ```
 
@@ -37,7 +37,7 @@ System.out.println(ANSI_COLORNAME + "This text is colored" + ANSI_RESET);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Colored Text in Console
 
 // Importing input output classes
@@ -73,7 +73,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Colored Text in Console
 
 // Importing required classes

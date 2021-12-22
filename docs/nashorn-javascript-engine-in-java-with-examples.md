@@ -9,7 +9,7 @@
 *   创建一个名为 geeks.js 的文件。
 *   打开 geeks.js，将以下代码写入文件并保存。
 
-    ```
+    ```java
     var gfg= function(){  
         print("Welcome to Geeksforgeeks!!!");  
     };  
@@ -18,7 +18,7 @@
 
 *   打开 CMD，写 **jjl geeks.js** 按回车键。它将生成以下输出:
 
-    ```
+    ```java
     Welcome to Geeksforgeeks!!!
 
     ```
@@ -27,7 +27,7 @@
 
 **例 1:**
 
-```
+```java
 // Program to illustrate embedding
 // of JavaScript file into Java code
 
@@ -51,14 +51,14 @@ public class Geeksforgeeks {
 
 **输出:**
 
-```
+```java
 Welcome to Geeksforgeeks!!!
 
 ```
 
 **例 2:**
 
-```
+```java
 // Program to illustrate embedding
 // of JavaScript code into Java code
 
@@ -94,14 +94,14 @@ public class Geeksforgeeks {
 
     **示例 1:** geeks.js 文件，需要**名**变量才能执行
 
-    ```
+    ```java
     // JavaScript file name with geeks.js
     print("Welcome to Geeksforgeeks!!! Mr. "+name);  
     ```
 
     **示例 2:** 为 JS 文件提供**名称**变量的 Java 代码
 
-    ```
+    ```java
     // Program to illustrate passing of variable
     // from java code to javascript file
 
@@ -126,14 +126,14 @@ public class Geeksforgeeks {
 
     **输出:**
 
-    ```
+    ```java
     Welcome to Geeksforgeeks!!! Mr. Bishal Kumar Dubey
 
     ```
 
 2.  **Calling JavaScript function from Java code:** We can call JavaScript function from Java code with the help of Nashorn. Suppose we create one file name with geeks.js and the file contains two functions like below:
 
-    ```
+    ```java
     // JavaScript file name with geeks.js
 
     var func1 = function(){  
@@ -145,7 +145,7 @@ public class Geeksforgeeks {
     }  
     ```
 
-    ```
+    ```java
     // Program to illustrate calling of
     // JavaScript function from Java code
 
@@ -175,7 +175,7 @@ public class Geeksforgeeks {
 
     **输出:**
 
-    ```
+    ```java
     Simple JavaScript function!!!
     Hello Bishal Kumar Dubey
 

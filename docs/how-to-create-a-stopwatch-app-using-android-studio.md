@@ -42,7 +42,7 @@
 
     ## strings . XML
 
-    ```
+    ```java
     <resources>
         <string name="app_name">GFG|Stopwatch</string>
         <string name="start">Start</string>
@@ -55,7 +55,7 @@
 
     ## 活动 _ 秒表。xml
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -144,7 +144,7 @@
 
     ## StopwatchActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.stopwatch;
 
     import android.app.Activity;

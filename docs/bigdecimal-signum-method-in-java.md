@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int signum()
 
 ```
@@ -23,7 +23,7 @@ public int signum()
 
 **程序 1:**
 
-```
+```java
 // Program to demonstrate signum() method of BigDecimal 
 
 import java.math.*;
@@ -53,7 +53,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Signum function on 12743 is 1
 Signum function on 0 is 0
 Signum function on -4512 is -1
@@ -62,7 +62,7 @@ Signum function on -4512 is -1
 
 **程序二:**
 
-```
+```java
 // Program to demonstrate signum() method of BigDecimal 
 
 import java.math.*;
@@ -92,7 +92,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Signum function on 17845452743 is 1
 Signum function on 0 is 0
 Signum function on -444512 is -1

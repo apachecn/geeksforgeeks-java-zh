@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: 1.0
 Output: "1.0"
 
@@ -34,7 +34,7 @@ Output: "3.14"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert float value to String value
 class GFG {
 
@@ -71,7 +71,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1.0 after converting into string = 1.0
 ```
 
@@ -81,7 +81,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 String.valueOf(floatValue);
 ```
 
@@ -89,7 +89,7 @@ String.valueOf(floatValue);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert float value to String value
 class GFG {
 
@@ -126,7 +126,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1.0 after converting into string = 1.0
 ```
 
@@ -136,7 +136,7 @@ Float.toString()方法也可用于将浮点值转换为字符串。toString()是
 
 **语法:**
 
-```
+```java
 String str = Float.toString(val);
 ```
 
@@ -144,7 +144,7 @@ String str = Float.toString(val);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert float value to String value
 import java.util.*;
 class GFG {
@@ -182,6 +182,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 1.0 after converting into string = 1.0
 ```

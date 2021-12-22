@@ -8,7 +8,7 @@
 HashMap():初始容量 16，负载系数 0.75 的默认构造函数。
 `HashMap hs=new HashMap();`
 
-```
+```java
 // Java program to demonstrate simple initialization 
 // of HashMap
 import java.util.*;
@@ -26,7 +26,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Values {1=Ram, 2=Shyam, 3=Sita}
 
 ```
@@ -35,7 +35,7 @@ Values {1=Ram, 2=Shyam, 3=Sita}
 HashMap(int initial capacity)用于在默认负载系数为 0.75 的情况下，创建具有指定初始容量的空 HashMap 对象。
 `HashMap hs=new HashMap(10);`
 
-```
+```java
 // Java program to demonstrate initialization 
 // of HashMap with given capacity.
 import java.util.*;
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Values of hm{1=C, 2=C++, 3=Java}
 
 ```

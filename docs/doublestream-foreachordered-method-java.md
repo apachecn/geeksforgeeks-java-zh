@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void forEachOrdered(DoubleConsumer action)
 
 ```
@@ -17,7 +17,7 @@ void forEachOrdered(DoubleConsumer action)
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream forEachOrdered
 // (DoubleConsumer action) in Java 8
 import java.util.*;
@@ -40,7 +40,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2.2
 3.3
 4.4
@@ -50,7 +50,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream forEachOrdered
 // (DoubleConsumer action) in Java 8
 import java.util.*;
@@ -74,7 +74,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5.3
 6.4
 7.3

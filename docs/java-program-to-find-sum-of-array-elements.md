@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : arr[] = {1, 2, 3}
 Output : 6
 1 + 2 + 3 = 6
@@ -30,7 +30,7 @@ Output : 50
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find sum of elements in a given array
 class Test {
     static int arr[] = { 12, 3, 4, 15 };
@@ -59,6 +59,6 @@ class Test {
 
 **Output**
 
-```
+```java
 Sum of given array is 34
 ```

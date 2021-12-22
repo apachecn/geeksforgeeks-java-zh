@@ -5,7 +5,7 @@
 **编码(CharBuffer input)** 方法是**Java . nio . charset . charsetencoder**的内置方法，它将单个输入字符缓冲区剩余的内容编码到新分配的字节缓冲区。encode()方法本身实现了整个编码操作。如果操作正在进行，则不应调用此函数。
 **语法** :
 
-```
+```java
 public final ByteBuffer encode(CharBuffer input)
 ```
 
@@ -23,7 +23,7 @@ public final ByteBuffer encode(CharBuffer input)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -46,6 +46,6 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 java.nio.HeapByteBuffer[pos=0 lim=6 cap=6]
 ```

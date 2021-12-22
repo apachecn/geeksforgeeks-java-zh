@@ -5,7 +5,7 @@
 **即时类**的**负秒()**方法从该即时中减去指定的第二个值，并将结果作为即时对象返回。这一瞬间是不可改变的。
 **语法:**
 
-```
+```java
 public Instant minusSeconds(long secondsToSubtract)
 ```
 
@@ -22,7 +22,7 @@ public Instant minusSeconds(long secondsToSubtract)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Instant.minusSeconds() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initialize instant: 2018-10-30T09:05:55.130Z
 Returned Instant: 2018-10-30T07:54:15.130Z
 
@@ -63,7 +63,7 @@ Returned Instant: 2018-10-30T07:54:15.130Z
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Instant.minusSeconds() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Current instant: 2018-11-27T06:44:04.901Z
 Returned Instant: 2018-11-26T15:44:04.901Z
 ```

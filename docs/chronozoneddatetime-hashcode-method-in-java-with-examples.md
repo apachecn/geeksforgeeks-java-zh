@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default int hashCode()
 
 ```
@@ -19,7 +19,7 @@ default int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.hashCode() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashcode:1966859253
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.hashCode() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashcode:1110445649
 
 ```

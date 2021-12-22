@@ -10,7 +10,7 @@ JSON(Javascript 对象符号)是网络应用程序世界中最流行的数据交
 
 我们有一个学生类，有身份、姓名、地址、城市、爱好等属性。让我们理解相应的 json 文件是什么样子，如下所示:
 
-```
+```java
 {"id":"S1122","name":"Jane","address":"XYZ Street","city":"Mumbai","hobby":"Badminton, Dancing"}
 ```
 
@@ -26,7 +26,7 @@ JSON 数据被写成名称/值对，其中名称是属性/属性名称，值是�
 
 为了在我们的应用程序中使用 Jackson 库，我们需要在 maven 项目的 pom.xml 文件中添加以下依赖项。
 
-```
+```java
 <dependency>
    <groupId>com.fasterxml.jackson.core</groupId>
    <artifactId>jackson-core</artifactId>
@@ -62,7 +62,7 @@ JSON 数据被写成名称/值对，其中名称是属性/属性名称，值是�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //  Java Program to Illustrate Setting Up of Jackson by
 //  parsing Jackson library json files and
 //  generating the same
@@ -207,7 +207,7 @@ class Employee {
 
 **输出:**
 
-```
+```java
 The employee object in json format:{"id":"E010890","name":"James","deptName":"DBMS","salary":1000000.0,"rating":5}
 Updating the dept of emp object
 Deserializing updated emp json 
@@ -216,7 +216,7 @@ Updated emp object is Employee [id=E010890, name=James, deptName=Devops, salary=
 
 > 在 src/main/resources 文件夹中，创建了 employee.json。
 > 
-> ```
+> ```java
 > {"id":"E010890","name":"James","deptName":"DBMS","salary":1000000.0,"rating":5}
 > ```
 
@@ -224,13 +224,13 @@ Updated emp object is Employee [id=E010890, name=James, deptName=Devops, salary=
 
 > **注意:**这里我们将在 src/main/resources 文件夹中有一个名为 employee.json 的文件
 > 
-> ```
+> ```java
 > {"id":"E010890","name":"James","deptName":"DBMS","salary":1000000.0,"rating":5}
 > ```
 
 我们将使用[对象映射器类](https://www.geeksforgeeks.org/convert-java-object-to-json-string-using-jackson-api/) *readValue()方法*来读取文件。
 
-```
+```java
 ObjectMapper mapper = new ObjectMapper();
 InputStream inputStream = new FileInputStream("file-path"); 
 Employee emp = mapper.readValue(inputStream, Employee.class);
@@ -240,7 +240,7 @@ Employee emp = mapper.readValue(inputStream, Employee.class);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //  Java Program to Illustrate Setting Up of Jackson by
 //  Reading an object from an InputStream
 // Using Object Mapper & deserializing to object
@@ -360,6 +360,6 @@ class Employee {
 
 **输出:**
 
-```
+```java
 Employee [id=E010890, name=James, deptName=DBMS, salary=1000000.0, rating=5]
 ```

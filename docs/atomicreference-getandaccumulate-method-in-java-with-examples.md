@@ -5,7 +5,7 @@
 **原子引用**类的 **getAndAccumulate()** 方法用于自动更新原子引用的当前值，将给定的累积函数应用于当前值和给定值，并返回前一个值。累积函数应该没有副作用，因为当尝试的更新由于线程之间的争用而失败时，它可以被重新应用。应用函数时，当前值作为其第一个参数，给定的更新作为第二个参数。
 **语法:**
 
-```
+```java
 public final E getAndAccumulate(E x,
      BinaryOperator<E> accumulatorFunction)
 ```
@@ -21,7 +21,7 @@ public final E getAndAccumulate(E x,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.getAndAccumulate() method
 

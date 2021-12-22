@@ -22,7 +22,7 @@ HBox 是 JavaFX 的一部分。HBox 以水平列的形式显示其子代。如�
 
 1.  **Java Program to create a HBox and add it to the stage:** In this program we will create a HBox named *hbox*. Now create a label and add it to the *hbox*. We will also create some buttons and add them to the HBox using the *getChildren().add()* function. Now create a scene and add the hbox to the scene and add the scene to the stage and call *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a HBox
     // and add it to the stage
     import javafx.application.Application;
@@ -94,7 +94,7 @@ HBox 是 JavaFX 的一部分。HBox 以水平列的形式显示其子代。如�
 
 2.  **Java Program to create a HBox, add spaces between its elements and add it to the stage:** In this program we will create a HBox named *hbox*. Set the spacing by passing a double value of space as an argument to the constructor. Now create a label and add it to the *hbox*. To add some buttons to the HBox use the *getChildren().add()* function. Finally, create a scene and add the *hbox* to the scene and add the scene to the stage and call *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a HBox, add
     // spaces between its elements and add
     // it to the stage
@@ -167,7 +167,7 @@ HBox 是 JavaFX 的一部分。HBox 以水平列的形式显示其子代。如�
 
 3.  **Java Program to create a HBox, add spaces between its elements, set an alignment and add it to the stage:** In this program we will create a HBox named *hbox*. Set the spacing by passing a double value of space as an argument to the constructor. Set the alignment of the HBox using the *setAlignment()* function. Then create a label and add it to the *hbox*. Add some buttons to the HBox using the *getChildren().add()* function. Finally, create a scene and add the *hbox* to the scene and add the scene to the stage and call *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a HBox, add spaces
     // between its elements, set an alignment
     // and add it to the stage

@@ -22,7 +22,7 @@ JVM 解释代码时出错
 
 **语法:**
 
-```
+```java
 >java -cp <directory_location> <class name>
 ```
 
@@ -30,7 +30,7 @@ JVM 解释代码时出错
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This code is located in F:\workspace\src
 // It's class file is located in F:\workspace\bin
 class GFG {
@@ -47,19 +47,19 @@ class GFG {
 
 ### 命令行设置–
 
-```
+```java
 >java -cp <directory_location> <class name>
 ```
 
 **或**
 
-```
+```java
 >java -classpath <directory_location> <class name>
 ```
 
 **或**
 
-```
+```java
 >java --class-path <directory_location> <class name>
 ```
 
@@ -68,7 +68,7 @@ class GFG {
 
 ### 临时设置:
 
-```
+```java
 >set classpath=<directory_location>
 ```
 
@@ -99,7 +99,7 @@ class GFG {
 
 我们必须包括**。；**在类路径中开始，以便 **JVM** 可以分别访问当前工作目录和所需类文件的目录。
 
-```
+```java
 >java -cp <.;directory_location> <class name>
 ```
 
@@ -111,7 +111,7 @@ class GFG {
 
 我们必须用**分号**分隔每个文件夹位置。
 
-```
+```java
 java -cp ./folder1/*;./folder2/*;./folder3/* com.xyz.MainClass
 ```
 

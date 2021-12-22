@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **compareTo()** 方法用于将该日期时间
 
 **语法:**
 
-```
+```java
 public int compareTo(ChronoLocalDateTime anotherDate)
 
 ```
@@ -19,7 +19,7 @@ public int compareTo(ChronoLocalDateTime anotherDate)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Date 1: 2018-11-03T12:45:30
 Date 2: 2015-01-05T12:45:30
 After comparison: -3
@@ -62,7 +62,7 @@ After comparison: -3
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -96,7 +96,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Date 1: 2010-12-05T12:50:30
 Date 2: 2012-05-10T12:50:30
 After comparison: 2

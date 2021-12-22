@@ -7,7 +7,7 @@
 
 **类申报**
 
-```
+```java
 public class PrintStream
   extends FilterOutputStream
     implements Appendable, Closeable
@@ -15,7 +15,7 @@ public class PrintStream
 
 **场**
 
-```
+```java
  protected OutputStream out:This is the output stream to be filtered. 
 ```
 
@@ -33,7 +33,7 @@ public class PrintStream
 
 *   **打印流追加(字符 c) :** 将指定的字符追加到该输出流。
 
-    ```
+    ```java
     Syntax :public PrintStream append(char c)
     Parameters: c - The 16-bit character to append
     Returns: This output stream
@@ -41,7 +41,7 @@ public class PrintStream
 
 *   **打印流追加(CharSequence csq，int start，int end):** 向该输出流追加指定的字符序列。
 
-    ```
+    ```java
     Syntax :public PrintStream append(CharSequence csq,
                      int start,
                      int end)
@@ -57,7 +57,7 @@ public class PrintStream
 
 *   **打印流追加(CharSequence csq) :** 向该输出流追加指定字符序列的子序列。
 
-    ```
+    ```java
     Syntax :public PrintStream append(CharSequence csq)
     Parameters:
     csq - The character sequence to append. 
@@ -68,7 +68,7 @@ public class PrintStream
 
 *   **布尔检查器错误():**刷新流并检查其错误状态。
 
-    ```
+    ```java
     Syntax :public boolean checkError()
     Returns:
     true if and only if this stream has encountered an IOException 
@@ -77,28 +77,28 @@ public class PrintStream
 
 *   **受保护的 void clearError() :** 清除此流的内部错误状态。
 
-    ```
+    ```java
     Syntax :protected void clearError()
 
     ```
 
 *   **虚空关闭():**关闭溪流。
 
-    ```
+    ```java
     Syntax :public void close()
     Overrides: close in class FilterOutputStream
     ```
 
 *   **虚空冲():**冲溪。
 
-    ```
+    ```java
     Syntax :public void flush()
     Overrides: flush in class FilterOutputStream
     ```
 
 *   **打印流格式(Locale l，String 格式，Object… args):** 使用指定的格式字符串和参数将格式化的字符串写入该输出流。
 
-    ```
+    ```java
     Syntax :public PrintStream format(Locale l,
                      String format,
                      Object... args)
@@ -116,7 +116,7 @@ public class PrintStream
 
 *   **打印流格式(字符串格式，对象…参数):**使用指定的格式字符串和参数将格式化的字符串写入该输出流。
 
-    ```
+    ```java
     Syntax :public PrintStream format(String format,
                      Object... args)
     Parameters:
@@ -132,61 +132,61 @@ public class PrintStream
 
 *   **无效打印(布尔值 b):** 打印布尔值。
 
-    ```
+    ```java
     Syntax :public void print(boolean b)
     ```
 
 *   **无效打印(字符 c):** 打印字符。
 
-    ```
+    ```java
     Syntax :public void print(char c)
     ```
 
 *   **无效打印(字符[]):**打印字符数组。
 
-    ```
+    ```java
     Syntax :public void print(char[] s)
 
     ```
 
 *   **空打印(双 d) :** 打印双精度浮点数。
 
-    ```
+    ```java
     Syntax :public void print(double b)
 
     ```
 
 *   **void print(float f):** 打印浮点数。
 
-    ```
+    ```java
     Syntax :public void print(float f)
     ```
 
 *   **无效打印(int i):** 打印整数。
 
-    ```
+    ```java
     Syntax :public void print(int i)
     ```
 
 *   **无效打印(长 l):** 打印长整数。
 
-    ```
+    ```java
     Syntax :public void print(long l)
     ```
 
 *   **无效打印(对象对象):**打印对象。
 
-    ```
+    ```java
     Syntax :public void print(Object obj)
     ```
 
 *   **无效打印(字符串):**打印字符串。
 
-    ```
+    ```java
     Syntax :public void print(String s)
     ```
 
-```
+```java
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
@@ -244,7 +244,7 @@ class Printstream
 注意:输出可能在联机集成开发环境中不可见，因为它无法读取文件。
 **输出:**
 
-```
+```java
 true14.533GeeksforGeeks
 java.io.FileOutputStream@1540e19dGeek
 false

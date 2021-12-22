@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int[] 
     toArray(Collection<? extends Number> collection)
 
@@ -22,7 +22,7 @@ public static int[]
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.toArray() method
 
@@ -56,14 +56,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Array from given List: [1, 2, 3, 4, 5]
 
 ```
 
 **示例 2:** 演示 NullPointerException
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.toArray() method
 
@@ -102,7 +102,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

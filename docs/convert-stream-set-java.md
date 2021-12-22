@@ -10,7 +10,7 @@ Stream collect()方法从流中获取元素，并将它们存储在集合中。*
 
 Stream.collect()方法可用于收集容器中的流元素。可以传递由 Collectors.toSet()返回的收集器，它将流的元素累积到一个新的集合中。
 
-```
+```java
 // Java code for converting 
 // Stream to Set using Collectors
 import java.util.*;
@@ -37,7 +37,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 -1
 0
 -2

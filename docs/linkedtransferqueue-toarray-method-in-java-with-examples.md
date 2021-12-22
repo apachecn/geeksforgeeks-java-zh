@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public Object[] toArray()
 ```
 
@@ -22,7 +22,7 @@ public Object[] toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // toarray() method of LinkedTransferQueue
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Transfer Queue: [GeeksforGeeks, GFG, Geeks, gfg]
 Array representation: [GeeksforGeeks, GFG, Geeks, gfg]
 
@@ -73,7 +73,7 @@ Array representation: [GeeksforGeeks, GFG, Geeks, gfg]
 
 **语法:**
 
-```
+```java
 public T[] toArray (T[] a)
 ```
 
@@ -88,7 +88,7 @@ public T[] toArray (T[] a)
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate
 // toarray(a[]) method of LinkedTransferQueue
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Transfer Queue: [Welcome, to, Geeks, for, Geeks]
 Array representation: [Welcome, to, Geeks, for, Geeks]
 
@@ -137,7 +137,7 @@ Array representation: [Welcome, to, Geeks, for, Geeks]
 
 **程序 3:** 显示空指针异常的程序。
 
-```
+```java
 // Java code to illustrate
 // toarray(a[]) method of LinkedTransferQueue
 
@@ -180,7 +180,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Transfer Queue: [Welcome, to, Geeks, for, Geeks]
 Trying to get array representation by passing null.
 java.lang.NullPointerException

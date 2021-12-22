@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.entrySet()方法用于创建一组包含在 EnumMa
 
 **语法:**
 
-```
+```java
 enum_map.entrySet()
 ```
 
@@ -18,7 +18,7 @@ enum_map.entrySet()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate entrySet() method
 import java.util.*;
 
@@ -62,7 +62,7 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 Map view: {India=72, United_States=1083, China=4632, Japan=6797}
 Set view of the map: [India=72, United_States=1083, China=4632, Japan=6797]
 
@@ -70,7 +70,7 @@ Set view of the map: [India=72, United_States=1083, China=4632, Japan=6797]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate entrySet() method
 import java.util.*;
 
@@ -107,7 +107,7 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 Mapping view: {Global_2018=800, India_2018=72}
 Set view of the map: [Global_2018=800, India_2018=72]
 

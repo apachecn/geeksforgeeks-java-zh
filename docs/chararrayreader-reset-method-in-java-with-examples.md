@@ -6,7 +6,7 @@ Java 中 **[CharArrayReader](https://www.geeksforgeeks.org/java-io-chararrayread
 
 **语法:**
 
-```
+```java
 public void reset()
 ```
 
@@ -23,7 +23,7 @@ public void reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CharArrayReader reset() method
 
@@ -82,7 +82,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksForGe
 eks??
 
@@ -90,7 +90,7 @@ eks??
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // CharArrayReader reset() method
 
@@ -144,7 +144,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksForGe
 Geeks
 

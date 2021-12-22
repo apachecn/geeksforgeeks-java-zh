@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E poll()
 ```
 
@@ -20,7 +20,7 @@ public E poll()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of BlockingDeque
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Front element in Deque: 7855642
 Blocking Deque: [35658786, 5278367, 74381793]
@@ -64,7 +64,7 @@ Blocking Deque: [35658786, 5278367, 74381793]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of BlockingDeque
 // when Deque is empty
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Front element in Deque: null
 

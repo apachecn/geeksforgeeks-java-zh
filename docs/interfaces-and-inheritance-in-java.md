@@ -7,7 +7,7 @@
 一个类可以扩展另一个类，并且/可以实现一个和多个接口。
 [![interface_2](img/bfd0a696fdcd3ced316698e1ab5c840c.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/extends.png)
 
-```
+```java
 // Java program to demonstrate that a class can
 // implement multiple interfaces
 import java.io.*;
@@ -54,7 +54,7 @@ class GFG
 
 输出；
 
-```
+```java
 Welcome: inside the method m1
 Welcome: inside the method m2
 
@@ -63,7 +63,7 @@ Welcome: inside the method m2
 **接口继承:**一个接口可以扩展其他接口。
 [![interface_inheritance](img/852f23de670529429dab55edd1266525.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/interfaceee.png)
 
-```
+```java
 // Java program to demonstrate inheritance in 
 // interfaces.
 import java.io.*;
@@ -107,7 +107,7 @@ class sample implements intfB
 
 输出:
 
-```
+```java
 Rohit
 JIIT
 
@@ -115,7 +115,7 @@ JIIT
 
 **一个接口也可以扩展多个接口。**
 
-```
+```java
 // Java program to demonstrate multiple inheritance 
 // in interfaces
 import java.io.*;
@@ -168,7 +168,7 @@ class sample implements intfC
 
 输出:
 
-```
+```java
 Rohit
 JIIT
 CSE

@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input:
 size = 7
 
@@ -43,7 +43,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Upper Part of Mirror Upper Star
 // Triangle Pattern
 
@@ -104,7 +104,7 @@ class GFG {
 
 **Output**
 
-```
+```java
       * 
      * * 
     * * * 
@@ -118,7 +118,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Lower Part of Mirror Upper Star
 // Triangle Pattern
 
@@ -178,7 +178,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 * * * * * * * 
  * * * * * * 
   * * * * * 
@@ -192,7 +192,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Mirror upper Star triangle Pattern
 
 // Importing input output classes
@@ -286,7 +286,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
       * 
      * * 
     * * * 

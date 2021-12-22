@@ -5,7 +5,7 @@
 **【比较】()**法有三个**变型。本文对它们的描述如下
 **1。int compareTo(对象对象)** **:** 这个方法将这个字符串与另一个对象进行比较。**
 
-```
+```java
 Syntax : 
 int compareTo(Object obj)
 Parameters : 
@@ -17,7 +17,7 @@ and a value greater than 0 if the argument is a string lexicographically less th
 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of compareTo()
 public class Cmp1 {
@@ -44,7 +44,7 @@ public static void main(String args[])
 
 输出:
 
-```
+```java
 Difference of geeksforgeeks(obj) and geeksforgeeks(str) : 0
 Difference of astha(obj) and geeksforgeeks(str) : 6
 
@@ -52,7 +52,7 @@ Difference of astha(obj) and geeksforgeeks(str) : 6
 
 **2。int compare to(String other String)**:这个方法按照字典顺序比较两个字符串。
 
-```
+```java
 Syntax : 
 int compareTo(String anotherString)
 Parameters : 
@@ -64,7 +64,7 @@ and a value greater than 0 if the argument is a string lexicographically less th
 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of compareTo()
 public class Cmp2 {
@@ -91,7 +91,7 @@ public static void main(String args[])
 
 输出:
 
-```
+```java
 Difference of geeksforgeeks(str) and geeksforgeeks(str) : 0
 Difference of astha(str) and geeksforgeeks(str) : 6
 
@@ -99,7 +99,7 @@ Difference of astha(str) and geeksforgeeks(str) : 6
 
 **3。int compareToIgnoreCase(String str):**此方法按字典顺序比较两个字符串，忽略大小写差异。
 
-```
+```java
 Syntax :
 int compareToIgnoreCase(String str)
 Parameters : 
@@ -111,7 +111,7 @@ ignoring case considerations.
 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of compareToIgnoreCase()
 public class Cmp3 {
@@ -140,7 +140,7 @@ public static void main(String args[])
 
 输出:
 
-```
+```java
 Difference of geeks and gEEkS (case sensitive) : 32
 Difference of geeks and gEEkS (case insensitive)  : 0
 

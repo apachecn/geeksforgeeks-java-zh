@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final long incrementAndGet()
 ```
 
@@ -19,7 +19,7 @@ public final long incrementAndGet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the incrementAndGet() function
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Previous value: 0
 Current value: 1
 ```
@@ -58,7 +58,7 @@ Current value: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the incrementAndGet() function
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Previous value: 18
 Current value: 19
 ```

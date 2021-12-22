@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check if
 // two out of three boolean
 // variables are true
@@ -60,7 +60,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Two flags are true!
 ```
 
@@ -71,7 +71,7 @@ Two flags are true!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check 
 // if two out of three boolean
 // variables are true
@@ -105,7 +105,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Two flags are true!
 ```
 
@@ -116,7 +116,7 @@ Two flags are true!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check if
 // two out of three boolean
 // variables are true
@@ -144,7 +144,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Two flags are not true!
 ```
 

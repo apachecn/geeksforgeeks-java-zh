@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Locale getLocale()
 ```
 
@@ -18,7 +18,7 @@ public Locale getLocale()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getLocale() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Locale is : en_US
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getLocale() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Locale is : zh-hant-tw
 
 ```

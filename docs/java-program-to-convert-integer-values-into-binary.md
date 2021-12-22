@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input:  = 45
 Output: = 101101
 
@@ -27,7 +27,7 @@ Output: = 100000
 
 **T3】JavaT5
 
-```
+```java
 // Java Program to Convert Integer Values into Binary
 
 // Importing CLasses/Files
@@ -77,7 +77,7 @@ T6****T8**输出**T1
 
 ## Java
 
-```
+```java
 // Java Program to Convert Integer Values into Binary
 
 // Importing Classes/Files
@@ -122,7 +122,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 101101
 ```
 
@@ -130,7 +130,7 @@ public class GFG {
 
 ## **Java**
 
-```
+```java
 // Java Program to Convert Integer Values into Binary
 
 // Importing Classes/Files
@@ -159,7 +159,7 @@ class GFG {
 
 ****输出**
 
-```
+```java
 101101
 ```
 

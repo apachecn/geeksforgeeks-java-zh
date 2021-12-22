@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle Divide By Zero Exception
 import java.io.*;
 class GFG {
@@ -39,7 +39,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle Divide By Zero Exception
 import java.io.*;
 class GFG {
@@ -71,7 +71,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle multiple exception
 import java.io.*;
 
@@ -106,7 +106,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle multiple exception
 import java.io.*;
 

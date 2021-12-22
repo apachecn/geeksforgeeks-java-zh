@@ -49,7 +49,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Creating Multiple Pools Of Objects of
 // Variable Size
 
@@ -426,7 +426,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 *****************POOL1 Of Threads Created*****************
 Pool 1 initialized
 1 is the thread number of the pool 1
@@ -443,7 +443,7 @@ Pool 1 not initialized as it was already initialized
 
 *   这里，我们通过以下方式创建两个线程对象池:
 
-```
+```java
 ThreadPool p1 = new ThreadPool() & ThreadPool p2 = new ThreadPool() 
 ```
 

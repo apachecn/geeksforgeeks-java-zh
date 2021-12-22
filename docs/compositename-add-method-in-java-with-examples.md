@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public Name add(int posn, String comp)
        throws InvalidNameException
 ```
@@ -29,7 +29,7 @@ public Name add(int posn, String comp)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.add()
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Updated CompositeName Object: 000/1/2/3/4/5/6/7
 ```
 
@@ -70,7 +70,7 @@ Updated CompositeName Object: 000/1/2/3/4/5/6/7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.add() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Updated CompositeName Object: c/e/d/v/a/b/z/y/x/zzzzz/f
 ```
 
@@ -111,7 +111,7 @@ Updated CompositeName Object: c/e/d/v/a/b/z/y/x/zzzzz/f
 
 **语法:**
 
-```
+```java
 public Name add(String comp)
        throws InvalidNameException
 ```
@@ -128,7 +128,7 @@ public Name add(String comp)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.add()
 
@@ -161,7 +161,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Updated CompositeName Object: a/b/c/d/e/f/g/h/i/j/k
 ```
 
@@ -169,7 +169,7 @@ Updated CompositeName Object: a/b/c/d/e/f/g/h/i/j/k
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.add() method
 
@@ -202,7 +202,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Updated CompositeName Object: c/e/d/v/a/b/z/y/x/f/ppp
 ```
 

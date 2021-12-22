@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getMillis()
 
 ```
@@ -18,7 +18,7 @@ public long getMillis()
 下面的程序说明了 getMillis()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getMillis() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Event Time 09 Sep 2001 07:16:39:900 +0530
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getMillis() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Event Time 22 Apr 1970 17:15:36:138 +0530
 
 ```

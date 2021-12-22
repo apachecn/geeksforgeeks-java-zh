@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ArrayList list(Enumeration e)
 ```
 
@@ -18,7 +18,7 @@ public static ArrayList list(Enumeration e)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // list() method
 // for String value
@@ -66,7 +66,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Current list : []
 Returned list: [A, B, C, D, E]
 
@@ -74,7 +74,7 @@ Returned list: [A, B, C, D, E]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // list() method
 // for Integer value
@@ -123,7 +123,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Current list : []
 Returned list: [10, 20, 30, 40, 50]
 

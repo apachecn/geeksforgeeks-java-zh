@@ -4,7 +4,7 @@
 
 Java 中的 [**数组列表**](https://www.geeksforgeeks.org/custom-arraylist-java/) (相当于 C++中的向量)具有动态大小。它可以根据大小缩小或扩展。ArrayList 是集合框架的一部分，存在于 java.util 包中。
 
-```
+```java
 ArrayList <E> list = new ArrayList <> ();
 ```
 
@@ -27,7 +27,7 @@ ArrayList <E> list = new ArrayList <> ();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort the ArrayList
 // of objects by property
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 A
 Aa
 B
@@ -113,7 +113,7 @@ Z
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort ArrayList of
 // custom object using Comparable class
 
@@ -195,7 +195,7 @@ public class Student implements Comparable<Student> {
 
 **Output**
 
-```
+```java
 [ rollno=12, name=Riya, age=15]
 [ rollno=13, name=Shubhi, age=15]
 [ rollno=14, name=Mahima, age=16]
@@ -208,7 +208,7 @@ public class Student implements Comparable<Student> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort the ArrayList
 // of custom object using Comparator class
 
@@ -328,7 +328,7 @@ class Details {
 
 **Output**
 
-```
+```java
 Student Name Sorting:
 [ rollno=505, name=Abey, age=24]
 [ rollno=809, name=Vignesh, age=32]

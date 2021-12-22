@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream asDoubleStream()
 
 Where, DoubleStream is a sequence of 
@@ -18,7 +18,7 @@ primitive double-valued element.
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream asDoubleStream()
 // to return a DoubleStream consisting of
 // the elements of this stream
@@ -46,7 +46,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3.0
 5.0
 9.0
@@ -57,7 +57,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream asDoubleStream()
 // to return a DoubleStream consisting of
 // the elements of this stream
@@ -83,7 +83,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3.0
 4.0
 5.0
@@ -94,7 +94,7 @@ class GFG {
 
 **例 3 :**
 
-```
+```java
 // Java code for DoubleStream asDoubleStream()
 // to return a DoubleStream consisting of
 // the elements of this stream
@@ -123,7 +123,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3
 3.0
 4

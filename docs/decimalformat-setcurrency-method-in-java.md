@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void setCurrency(Currency currency)
 
 ```
@@ -19,7 +19,7 @@ public void setCurrency(Currency currency)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setCurrency() method
 
@@ -45,14 +45,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 EUR
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setCurrency() method
 
@@ -78,7 +78,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 CAD
 
 ```

@@ -10,13 +10,13 @@
 
 **语法:**导入文件库或类
 
-```
+```java
 import java.util.File ;
 ```
 
 **语法:**创建新文件
 
-```
+```java
 File object_name = new File(Directory)
 ```
 
@@ -24,13 +24,13 @@ File object_name = new File(Directory)
 
 在 Linux 和 Mac 中
 
-```
+```java
 /Users/mayanksolanki/Desttop/Folder/
 ```
 
 在 Windows 中，使用“\\”代替“/”来转义“\”字符。所以访问相同的目录
 
-```
+```java
 \\Users\\mayanksolanki\\Desktop\\Folder\\
 ```
 
@@ -75,7 +75,7 @@ File object_name = new File(Directory)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create new file using File class
 
 // Importing new files
@@ -135,14 +135,14 @@ public class GFG {
 
 ![](img/0e4af85b1d438dbc8287ce151a6b1495.png)
 
-```
+```java
 Name of file to be added                    : newFile.txt
 Directory where file is to be added         : /Users/mayanksolanki/Desktop/Folder/
 ```
 
 ![](img/ef0752a74dc47165c7e314822c513802.png)
 
-```
+```java
 Added file name            : newFile.txt
 Added file name directory : /Users/mayanksolanki/Desktop/Folder/
 ```
@@ -165,7 +165,7 @@ Added file name directory : /Users/mayanksolanki/Desktop/Folder/
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create new file
 // using FileOutputStream class
 
@@ -238,7 +238,7 @@ public class GFG {
 
 **输出:**它将与前一个相同，因为只是创建新文件的方法改变了文件名的其余部分，并且添加它的目录保持不变。
 
-```
+```java
 Added file name            : newFile.txt
 Added file name directory : /Users/mayanksolanki/Desktop/Folder/
 ```

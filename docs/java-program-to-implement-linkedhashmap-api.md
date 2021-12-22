@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate LinkedHashMap API
 
 import java.util.Collection;
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Size of the LinkedHashMap: 3
 
 The key value pairs of LinkedHashMap:

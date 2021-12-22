@@ -23,7 +23,7 @@
 
 **插图:**
 
-```
+```java
 Input 1: year = 2020, N = 15
 Output: 2024
        2028
@@ -50,7 +50,7 @@ Output:    2024
 
 T5】JavaT7
 
-```
+```java
 // Java program to print the next n leap years
 
 // Importing generic Classes/Files

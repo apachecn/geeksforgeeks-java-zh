@@ -8,7 +8,7 @@ Java 8 有一个重要的内置功能接口，就是[谓词](https://www.geeksfo
 
 **语法:**
 
-```
+```java
 public boolean removeIf(Predicate<? super E> filter)
 ```
 
@@ -22,7 +22,7 @@ public boolean removeIf(Predicate<? super E> filter)
 
 **示例 1:** 演示 ArrayDeque 上的 removeIf()方法，该方法包含一组 String，remove strings 以 a 开头。
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of ArrayDeque
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Students name do not starts with A
 Sanjeet
 Rabi
@@ -70,7 +70,7 @@ Shabbir
 
 **示例 2:** 演示 ArrayDeque 上的 removeIf()方法，该方法包含一组学生对象，用于移除所有分数低于 40 分的学生。
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of ArrayDeque
 
@@ -121,7 +121,7 @@ class student {
 
 **输出:**
 
-```
+```java
 Students list who score above 40
 Aman, 78
 Amar, 79
@@ -132,7 +132,7 @@ Sanju, 62
 
 **示例 3:** 演示 removeIf()方法中的 NullpointerException。
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of ArrayDeque
 
@@ -167,7 +167,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert HashSet to ArrayList
 import java.io.*;
 import java.util.ArrayList;
@@ -45,7 +45,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements of flower Arraylist are :
 [marie-gold, rose, tulip, orchid]
 Element at index 0 is : marie-gold
@@ -55,7 +55,7 @@ Element at index 0 is : marie-gold
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert the HashSet to ArrayList
 // Using Stream Api Java 8
 
@@ -93,7 +93,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements of flower Arraylist are :
 [marie-gold, rose, tulip, orchid]
 Element at index 0 is : marie-gold

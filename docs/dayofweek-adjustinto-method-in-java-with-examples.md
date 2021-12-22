@@ -6,14 +6,14 @@
 
 **方法声明:**
 
-```
+```java
  public Temporal adjustInto(Temporal temporal)
 
 ```
 
 **语法:**
 
-```
+```java
  Temporal newLocalDate = DayOfWeek.ANYWEEKDAY.adjustInto(Temporal temporal)
 
 ```
@@ -27,7 +27,7 @@
     以下程序说明了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     import java.time.*;
     import java.time.DayOfWeek;
     import java.time.temporal.Temporal;
@@ -67,7 +67,7 @@
 
     **Output:**
 
-    ```
+    ```java
     1947-08-15 which is FRIDAY
     1947-08-11 which is MONDAY
 
@@ -75,7 +75,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     import java.time.*;
     import java.time.DayOfWeek;
     import java.time.temporal.Temporal;
@@ -115,7 +115,7 @@
 
     **Output:**
 
-    ```
+    ```java
     2019-03-18 which is MONDAY
     2019-03-20 which is WEDNESDAY
 

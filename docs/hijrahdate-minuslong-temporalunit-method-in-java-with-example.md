@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public HijrahDate minus(long amountToSubtract,
                         TemporalUnit unit)
 ```
@@ -24,7 +24,7 @@ public HijrahDate minus(long amountToSubtract,
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate minus() method
 
 import java.util.*;
@@ -67,7 +67,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 old hijrah date: Hijrah-umalqura AH 1441-06-25
 new hijrah date: Hijrah-umalqura AH 1441-06-03
 ```
@@ -76,7 +76,7 @@ new hijrah date: Hijrah-umalqura AH 1441-06-03
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate minus() method
 
 import java.util.*;
@@ -120,7 +120,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 old hijrah date: Hijrah-umalqura AH 1441-06-25
 new hijrah date: Hijrah-umalqura AH 1401-06-25
 ```

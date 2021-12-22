@@ -66,13 +66,13 @@
 
 **注意:**如果文件保存在保存 java 程序的相同位置，那么按照下面的程序操作。如果文件保存在某个特定的位置，那么写下细节。
 
-```
+```java
 FileInputStream fileIn=new FileInputStream("C:\\gfg.txt"); 
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Imported to use methods
 import java.io.FileInputStream;
 
@@ -99,7 +99,7 @@ public class InputStreamExample {
 
 **输出:**
 
-```
+```java
 GEEKSFORGEEKS 
 ```
 
@@ -109,7 +109,7 @@ GEEKSFORGEEKS
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Imported to use inbuilt methods
 import java.io.FileOutputStream;
 
@@ -139,12 +139,12 @@ public class OutputStreamExample {
 
 **输出:**
 
-```
+```java
 file is successfully updated!!
 ```
 
 当我们再次使用第一个程序读取文件时，输出如下所示:
 
-```
+```java
 GeeksforGeeks
 ```

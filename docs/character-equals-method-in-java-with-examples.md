@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object obj)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the function
 // Character.equals() when two objects are same
 import java.lang.*;
@@ -43,14 +43,14 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 Z and Z are equal is true
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate function
 // when two objects are different
 
@@ -77,7 +77,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 a and A are equal is false
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getName()
 
 ```
@@ -18,7 +18,7 @@ public String getName()
 下面的程序说明了 getName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getName() method
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 logger1 name = global
 logger2 name = com.gfg
 
@@ -55,7 +55,7 @@ logger2 name = com.gfg
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getName() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 logger name = com.gfg.logger.
 
 ```

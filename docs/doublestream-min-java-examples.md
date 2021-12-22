@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 OptionalDouble() min()
 
 Where, OptionalDouble is a container object which 
@@ -21,7 +21,7 @@ may or may not contain a double value.
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream min()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -55,14 +55,14 @@ class GFG {
 
 输出:
 
-```
+```java
 -18.6
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream min()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -92,7 +92,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -1
 
 ```

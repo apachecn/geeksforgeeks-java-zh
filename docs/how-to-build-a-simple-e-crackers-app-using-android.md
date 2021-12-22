@@ -25,7 +25,7 @@
 
 在进入编码部分之前，让我们添加必要的依赖项。我们必须为项目添加的唯一依赖项是**洛蒂文件**。洛蒂是一个开源的动画文件格式，可以在我们的应用程序中使用。转到应用级 **build.gradle** 文件并添加以下依赖项，然后单击立即同步。
 
-```
+```java
 def lottieVersion = "3.4.0"
 implementation "com.airbnb.android:lottie:$lottieVersion"
 ```
@@ -42,7 +42,7 @@ implementation "com.airbnb.android:lottie:$lottieVersion"
 
 ## 可扩展标记语言
 
-```
+```java
 <vector android:height="24dp" android:tint="#FFFFFF"
     android:viewportHeight="24" android:viewportWidth="24"
     android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">

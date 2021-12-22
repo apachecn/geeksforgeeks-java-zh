@@ -6,7 +6,7 @@ java.util.Calendar.get()方法是 **java.util.Calendar** 类的一个方法。Ca
 
 **语法:**
 
-```
+```java
 public int get(int field)
 
 where, field represents the given calendar
@@ -20,7 +20,7 @@ given field.
 **应用程序:**
 **示例 1:** 获取日期、月份、年份
 
-```
+```java
 // Java code to implement calendar.get() function
 import java.util.*;
 
@@ -49,7 +49,7 @@ public static void main(String[] args) {
 
 输出:
 
-```
+```java
 Day : 1
 Month : 2
 Year : 2018
@@ -58,7 +58,7 @@ Year : 2018
 
 **示例 2 :** 获取一周中的某一天、一年中的某一天、一月中的某一周、一年中的某一周。
 
-```
+```java
 // Java Code of calendar.get() function
 import java.util.*;
 
@@ -95,7 +95,7 @@ public static void main(String[] args) {
 
 输出:
 
-```
+```java
 Day of week : 5
 Day of year : 60
 Week in Month : 1
@@ -106,7 +106,7 @@ Day of Week in Month : 1
 
 **示例 3 :** 获取小时、分钟、秒和 AM_PM。
 
-```
+```java
 // Implementation of calendar.get()
 // function in Java
 import java.util.*;
@@ -139,7 +139,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Hour : 6
 Minute : 51
 Second : 53

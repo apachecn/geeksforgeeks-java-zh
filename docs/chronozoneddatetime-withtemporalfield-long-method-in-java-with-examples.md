@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ChronoZonedDateTime with(TemporalField field, 
                          long newValue)
 
@@ -29,7 +29,7 @@ ChronoZonedDateTime with(TemporalField field,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.with() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime before adjustment: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ChronoZonedDateTime after adjustment: 2017-12-06T19:21:12.123+05:30[Asia/Calcutta]
 
@@ -74,7 +74,7 @@ ChronoZonedDateTime after adjustment: 2017-12-06T19:21:12.123+05:30[Asia/Calcutt
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.with() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime before adjustment: 1918-10-25T23:12:38.543Z[Europe/Paris]
 ChronoZonedDateTime after adjustment: 1918-01-25T23:12:38.543Z[Europe/Paris]
 

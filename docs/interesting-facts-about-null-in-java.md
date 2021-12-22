@@ -9,7 +9,7 @@
 
 **1。null 区分大小写:** null 在 java 中是字面意思，因为关键字在 Java 中是**区分大小写的**，所以我们不能像 C 语言那样写 null 或 0。
 
-```
+```java
 public class Test
 {
     public static void main (String[] args) throws java.lang.Exception
@@ -25,7 +25,7 @@ public class Test
 
 输出:
 
-```
+```java
 5: error: cannot find symbol
  can't find symbol 'NULL'
                  ^
@@ -37,7 +37,7 @@ public class Test
 
 **2。引用变量值:**Java 中任何引用变量都有默认值 null。
 
-```
+```java
 public class Test
 {
     private static Object obj; 
@@ -51,7 +51,7 @@ public class Test
 
 输出:
 
-```
+```java
 Value of object obj is : null 
 
 ```
@@ -59,7 +59,7 @@ Value of object obj is : null
 **3。null 的类型:**与常见的误解不同，null 不是 Object 或者既不是类型。这只是一个特殊的值，可以分配给任何引用类型，您可以将空值转换为任何类型
 示例:
 
-```
+```java
     // null can be assigned to String
     String str = null; 
 
@@ -82,7 +82,7 @@ Value of object obj is : null
 
 **4。自动装箱和取消装箱:**在自动装箱和取消装箱操作期间，如果将空值赋给基元装箱数据类型，编译器只需抛出空指针异常错误。
 
-```
+```java
 public class Test
 {
     public static void main (String[] args) throws java.lang.Exception
@@ -98,7 +98,7 @@ public class Test
 
 输出:
 
-```
+```java
  Exception in thread "main" java.lang.NullPointerException
     at Test.main(Test.java:6) 
 
@@ -107,7 +107,7 @@ public class Test
 **5。instanceof 运算符:**Java instance of 运算符用于测试对象是否是指定类型(类或子类或接口)的实例。在运行时，如果表达式的值不为空，instanceof 运算符的结果为真。
 这是 instanceof 操作的一个重要属性，这使得它对于类型转换检查非常有用。
 
-```
+```java
 public class Test
 {
     public static void main (String[] args) throws java.lang.Exception
@@ -126,7 +126,7 @@ public class Test
 
 输出:
 
-```
+```java
 false 
 true
 
@@ -134,7 +134,7 @@ true
 
 **6。静态 vs 非静态方法:**我们不能对空值的引用变量调用非静态方法，它会抛出 NullPointerException，但是我们可以对空值的引用变量调用静态方法。因为静态方法是使用静态绑定绑定的，所以它们不会抛出空指针异常。
 
-```
+```java
 public class Test
 {             
     public static void main(String args[])
@@ -164,7 +164,7 @@ public class Test
 
 输出:
 
-```
+```java
 static method, can be called by null referenceException in thread "main" 
 java.lang.NullPointerException
     at Test.main(Test.java:5) 
@@ -173,7 +173,7 @@ java.lang.NullPointerException
 
 **7。==还有！=** 在 Java 中允许用 null 进行比较和不等于运算符。这对于用 java 中的对象检查 null 非常有用。
 
-```
+```java
 public class Test
 {             
     public static void main(String args[])
@@ -191,7 +191,7 @@ public class Test
 
 输出:
 
-```
+```java
 true
 false
 

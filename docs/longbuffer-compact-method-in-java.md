@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract LongBuffer compact()
 ```
 
@@ -20,7 +20,7 @@ public abstract LongBuffer compact()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LongBuffer: [8, 9, 9, 0, 0, 0, 0, 0, 0, 0]
 Position: 3
 limit: 10
@@ -96,7 +96,7 @@ limit: 10
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -158,7 +158,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ReadOnlyBuffer LongBuffer: 8, 9, 9, 0, 0, 0, 0, 0, 0, 0, 
 
 Position: 0

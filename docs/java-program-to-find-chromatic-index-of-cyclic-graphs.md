@@ -41,7 +41,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the chromatic
 // index of a cyclic graph
 import java.util.*;
@@ -137,14 +137,14 @@ public class chromaticIndex {
 
 **Output**
 
-```
+```java
 Chromatic Index = 2
 
 ```
 
 **输出:**
 
-```
+```java
 Chromatic Index = 2
 ```
 

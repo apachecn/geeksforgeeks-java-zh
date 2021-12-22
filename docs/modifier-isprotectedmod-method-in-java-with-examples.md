@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isProtected(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isProtected(int mod)
 下面的程序说明了 isProtected()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isProtected() method
 
 import java.lang.reflect.*;
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 4 is protected : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isProtected()
 
 import java.lang.reflect.*;
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1 is protected : false
 
 ```

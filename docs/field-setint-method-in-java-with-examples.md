@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setInt(Object obj, int i)
             throws IllegalArgumentException,
                    IllegalAccessException
@@ -30,7 +30,7 @@ public void setInt(Object obj, int i)
 下面的程序说明了 setInt()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setInt() method
 import java.lang.reflect.Field;
 
@@ -92,7 +92,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of salary before applying setInt is 1125213
 Value of salary after applying setInt is 2243599
 Value of uniqueNo before applying setInt is 234289
@@ -102,7 +102,7 @@ Value of uniqueNo after applying setInt is 123434
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setInt() method
 
 import java.lang.reflect.Field;
@@ -141,7 +141,7 @@ class Numbers {
 
 **Output:**
 
-```
+```java
 Value after applying setInt is 53266
 
 ```

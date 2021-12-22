@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final CharsetEncoder reset()
 ```
 
@@ -18,7 +18,7 @@ public final CharsetEncoder reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -45,14 +45,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 sun.nio.cs.US_ASCII$Encoder@232204a1
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -79,7 +79,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 sun.nio.cs.UTF_8$Encoder@232204a1
 
 ```

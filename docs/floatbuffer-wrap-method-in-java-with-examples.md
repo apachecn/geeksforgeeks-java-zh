@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static FloatBuffer wrap(float[] array)
 ```
 
@@ -20,7 +20,7 @@ public static FloatBuffer wrap(float[] array)
 
 示例 1:
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1.23, 2.34, 4.56]
@@ -84,7 +84,7 @@ floatbuffer position:  0
 
 **语法:**
 
-```
+```java
 public static FloatBuffer wrap (float[] array, int offset, int length)
 ```
 
@@ -102,7 +102,7 @@ public static FloatBuffer wrap (float[] array, int offset, int length)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -149,7 +149,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1.23, 2.34, 4.56]
@@ -164,7 +164,7 @@ floatbuffer position:  0
 
 **示例 2:** 演示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -219,7 +219,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1.23, 2.34, 4.56]

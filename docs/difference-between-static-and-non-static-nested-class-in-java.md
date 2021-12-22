@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // static nested class
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 x: 10
 z: 30
 ```
@@ -86,7 +86,7 @@ z: 30
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing all input output classes
 import java.io.*;
 
@@ -140,7 +140,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 x: 10
 y: 20
 z: 30

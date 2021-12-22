@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration minus(long amountToAdd, TemporalUnit unit)
 ```
 
@@ -28,7 +28,7 @@ public Duration minus(long amountToAdd, TemporalUnit unit)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minus() method
 
 import java.time.Duration;
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT46H4M
 ```
 
@@ -61,7 +61,7 @@ PT46H4M
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minus() method
 
 import java.time.Duration;
@@ -86,7 +86,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT-47H-56M
 ```
 

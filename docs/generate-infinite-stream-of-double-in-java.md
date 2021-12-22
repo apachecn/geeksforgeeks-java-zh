@@ -10,7 +10,7 @@
     1.  使用 DoubleStream.iterate()方法，通过将值增加 1 来用 I 迭代 DoubleStream。
     2.  借助 forEach()方法打印双流。
 
-    ```
+    ```java
     import java.util.stream.*;
 
     public class GFG {
@@ -34,7 +34,7 @@
 
     **输出:**
 
-    ```
+    ```java
     0.0
     1.0
     2.0
@@ -52,7 +52,7 @@
     1.  使用 doubles()方法获取下一个双精度值
     2.  借助 forEach()方法打印双流。
 
-    ```
+    ```java
     import java.util.stream.*;
     import java.util.*;
 
@@ -80,7 +80,7 @@
 
     **输出:**
 
-    ```
+    ```java
     0.3668625445505631
     0.4385898887922953
     0.23333911864591927
@@ -98,7 +98,7 @@
     1.  使用 DoubleStream.generate()和 Random.nextDouble()生成下一个双精度值
     2.  借助 forEach()方法打印双流。
 
-    ```
+    ```java
     import java.util.stream.*;
     import java.util.*;
 
@@ -127,7 +127,7 @@
 
     **输出:**
 
-    ```
+    ```java
     0.025801080723973246
     0.5115037630832635
     0.030815898624858784

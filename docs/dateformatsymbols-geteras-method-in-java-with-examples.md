@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的 **getEras()方法**用于获取字符串�
 
 **语法:**
 
-```
+```java
 public String[] getEras()
 ```
 
@@ -17,7 +17,7 @@ public String[] getEras()
 下面的程序说明了 getEras()方法的使用。
 **例 1:**
 
-```
+```java
 // Java code to demonstrate getEras()
 
 import java.text.DateFormatSymbols;
@@ -43,7 +43,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 EraString 0 = BC
 EraString 1 = AD
 
@@ -51,7 +51,7 @@ EraString 1 = AD
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate getEras()
 
 import java.text.DateFormatSymbols;
@@ -77,7 +77,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 EraString 0 = BC
 
 ```

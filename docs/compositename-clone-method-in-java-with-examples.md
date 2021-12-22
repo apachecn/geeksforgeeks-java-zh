@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 
 ```
@@ -18,7 +18,7 @@ public Object clone()
 下面的程序说明了 CompositeName.clone()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.clone()
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Clone CompositeName: x/y
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.clone() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Clone CompositeName: x/y/z/a
 Members: x, y, z, a,
 

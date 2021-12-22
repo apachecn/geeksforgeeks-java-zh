@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 AbstractSequentialList.get(int index)
 ```
 
@@ -18,7 +18,7 @@ AbstractSequentialList.get(int index)
 
 ****例 1:****
 
-```
+```java
 // Java code to illustrate get() method
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class AbstractSequentialListDemo {
 
 ****Output:**
 
-```
+```java
 AbstractSequentialList:[Geeks, for, Geeks, 10, 20]
 The element is: Geeks
 
@@ -60,7 +60,7 @@ The element is: Geeks
 
 ****例 2:****
 
-```
+```java
 // Java code to illustrate get() method
 
 import java.util.*;
@@ -94,7 +94,7 @@ public class AbstractSequentialListDemo {
 
 ****Output:**
 
-```
+```java
 AbstractSequentialList:[1, 2, 3, 4, 5]
 The element is: 5
 

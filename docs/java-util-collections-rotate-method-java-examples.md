@@ -4,7 +4,7 @@
 
 **java.util.Collections . rotate()**方法存在于 Java . util . collections 类中。它用于将集合的指定列表中的元素旋转给定的距离。
 
-```
+```java
 Syntax:
 public static void rotate(List< type > list, int distance)
 Parameters : 
@@ -22,7 +22,7 @@ its list-iterator does not support the set operation.
 
 距离值没有限制。它可以是零、负数或大于 list.size()。调用此方法后，对于介于 0 和 list.size()-1 之间的 I 的所有值，索引 I 处的元素将是先前索引(I–distance)mod list . size()处的元素。
 
-```
+```java
 // Java program to demonstrate working of 
 // java.utils.Collections.rotate()
 
@@ -52,7 +52,7 @@ public class RotateDemo
 
 输出:
 
-```
+```java
 Original List : [practice, code, quiz, geeksforgeeks]
 Rotated List: [quiz, geeksforgeeks, practice, code]
 
@@ -62,7 +62,7 @@ Rotated List: [quiz, geeksforgeeks, practice, code]
 
 [Java 中的数组类](https://www.geeksforgeeks.org/array-class-in-java/)没有旋转方法。我们也可以使用 Collections.rotate()来快速旋转数组。
 
-```
+```java
 // Java program to demonstrate rotation of array
 // with Collections.rotate()
 import java.util.*;
@@ -90,7 +90,7 @@ public class RotateDemo
 
 输出:
 
-```
+```java
 Original Array : [10, 20, 30, 40, 50]
 Modified Array : [40, 50, 10, 20, 30]
 

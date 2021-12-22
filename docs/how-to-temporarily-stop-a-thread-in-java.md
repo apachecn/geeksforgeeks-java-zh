@@ -8,7 +8,7 @@
 
 **语法**
 
-```
+```java
 public final void suspend()
 ```
 
@@ -20,7 +20,7 @@ public final void suspend()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate suspend() method
 // of Thread class
 
@@ -70,6 +70,6 @@ class GFG extends Thread {
 
 **注意:**螺纹 **t2** 可以通过**恢复()**方法恢复。
 
-```
+```java
 t2.resume() 
 ```

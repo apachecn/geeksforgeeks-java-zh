@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Iterator iterator()
 ```
 
@@ -18,7 +18,7 @@ Iterator iterator()
 
 **节目 1:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of Deque
 import java.util.*;
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of Deque are:
 7855642
 35658786
@@ -67,7 +67,7 @@ The iterator values of Deque are:
 
 **程序二:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of Deque
 import java.util.*;
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of Deque are:
 7855642
 35658786
@@ -116,7 +116,7 @@ The iterator values of Deque are:
 
 **程序 3:** 在**的帮助下链接锁定程序**。
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of Deque
 import java.util.*;
@@ -155,7 +155,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of Deque are:
 7855642
 35658786
@@ -166,7 +166,7 @@ The iterator values of Deque are:
 
 **程序 4:** 在**的配合下**。
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of Deque
 import java.util.*;
@@ -205,7 +205,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of Deque are:
 7855642
 35658786

@@ -32,7 +32,7 @@ BoxBlur 类是 JavaFX 的一部分。框模糊使用简单的框过滤器来模�
 
 1.  **Java program to import an image and add Box Blur effect to it:** In this program a *FileInputStream* is created and an image is taken as input from a file. Image named *image* is created using the input from the file input stream. From the image, an *image view object* is created and it is added to the *VBox*. The VBox is then added to the scene and the scene is added to the stage. A BoxBlur effect is created with a specified level passed as parameters and the effect is set to the image view using *setEffect()* function.
 
-    ```
+    ```java
     // Java program to import an image and 
     // add Box Blur effect to it
     import javafx.application.Application;
@@ -103,7 +103,7 @@ BoxBlur 类是 JavaFX 的一部分。框模糊使用简单的框过滤器来模�
 
 2.  **Java program to import an image and blur effect to it with separately configurable sizes in both dimensions, and an iteration parameter:** In this program a *FileInputStream* is created and an image is taken as input from a file. Image named *image* is created using the input from file input stream. From the image, an *image view object* is created and it is added to the *VBox*. The VBox is then added to the scene and the scene is added to the stage. A BoxBlur effect is created with a specified level passed as parameters and the effect is set to the image view using *setEffect()* function. The width, height and the number of iterations of the effect is set using *setHeight()*, *setWidth()* and *setIterations()* function respectively.
 
-    ```
+    ```java
     // Java program to import an image and blur effect 
     // to it with separately configurable sizes in both
     // dimensions, and an iteration parameter

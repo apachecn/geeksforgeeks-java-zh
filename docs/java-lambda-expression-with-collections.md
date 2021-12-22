@@ -15,7 +15,7 @@
 
     compare()方法以两个对象作为参数。
 
-    ```
+    ```java
     public int compare(Object obj1, Object obj2)
 
     ```
@@ -31,7 +31,7 @@
     **使用 lambda 表达式对列表(I)的元素进行排序:–**
     使用 Lambda 表达式代替比较器对象来定义我们自己在集合中的排序。
 
-    ```
+    ```java
     import java.util.*;
 
     public class Demo {
@@ -58,7 +58,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Elements of the ArrayList before sorting : [205, 102, 98, 275, 203]
     Elements of the ArrayList after sorting : [275, 205, 203, 102, 98]
 
@@ -66,7 +66,7 @@
 
     **使用λ表达式对树集进行排序:–**
 
-    ```
+    ```java
     import java.util.*;
 
     public class Demo {
@@ -88,7 +88,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Elements of the TreeSet after sorting are: [1080, 850, 235, 15, 5]
 
     ```
@@ -96,7 +96,7 @@
     **使用 Lambda 表达式对 TreeMap 的元素进行排序:–**
     排序将根据关键字而不是其值进行。
 
-    ```
+    ```java
     import java.util.*;
 
     public class Demo {
@@ -118,7 +118,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Elements of the TreeMap after sorting are : {5=Orange, 4=Mango, 3=Grapes, 2=Banana, 1=Apple}
 
     ```

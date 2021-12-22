@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger sqrt()
 ```
 
@@ -16,7 +16,7 @@ public BigInteger sqrt()
 
 **示例:**
 
-```
+```java
 Input: 234876543456
 Output: 484640
 Explanation: 122 is given as input which is the bigInteger.
@@ -35,7 +35,7 @@ Output: 11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Please run this program in JDK 9 or JDK 10
 // Java program to demonstrate sqrt() method
 import java.math.*;
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Square root value of BigInteger 31739 is 178
 ```
 
@@ -71,7 +71,7 @@ Square root value of BigInteger 31739 is 178
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Please run this program in JDK 9 or JDK 10
 // Java program to demonstrate sqrt() method
 //and exception thrown by it
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: Negative BigInteger
     at java.base/java.math.BigInteger.sqrt(Unknown Source)
     at GFG.main(GFG.java:19)

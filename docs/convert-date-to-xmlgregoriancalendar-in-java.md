@@ -10,7 +10,7 @@ XML 公历:在 XML *模式*标准中定义了以 XML 格式指定日期的规则
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Date to XMLGregorianCalendar
 
 // importing necessary packages
@@ -56,7 +56,7 @@ public class DateToXMLGregorianCalendar {
 
 **Output**
 
-```
+```java
 Standard Format :- Tue Feb 16 17:44:25 UTC 2021
 XMLGregorianCalendar Format :- 2021-02-16T17:44:25.164Z
 ```

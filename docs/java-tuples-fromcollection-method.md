@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public static <X> TupleClass<X> fromCollection(Collection<X> collection)
 ```
 
 **语法:**
 
-```
+```java
 TupleClass<X> obj = TupleClass.fromCollection(Collection<X> collection)
 ```
 
@@ -28,7 +28,7 @@ TupleClass<X> obj = TupleClass.fromCollection(Collection<X> collection)
 
 **程序 1:** 使用单位类为
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from fromCollection() method
 
@@ -54,7 +54,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [GeeksforGeeks]
 ```
 
@@ -62,7 +62,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [Geeks, for, Geeks, A, Computer, Science, Portal, for, Geeks, RishabhPrabhu]
 ```
 

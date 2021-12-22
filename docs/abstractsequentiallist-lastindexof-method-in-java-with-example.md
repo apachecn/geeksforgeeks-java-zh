@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int lastIndexOf(Object o)
 ```
 
@@ -23,7 +23,7 @@ public int lastIndexOf(Object o)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate lastIndexOf()
 // method for AbstractSequentialList
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [10, 20, 30, 40, 50]
 Last Index of 30: 2
 
@@ -69,7 +69,7 @@ Last Index of 30: 2
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate lastIndexOf()
 // method for AbstractSequentialList
 
@@ -106,7 +106,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 LinkedListlist: [10, 20, 30, 40, 50]
 Last Index of 100: -1
 

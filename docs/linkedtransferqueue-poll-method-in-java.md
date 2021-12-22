@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.poll()  
 
 ```
@@ -19,7 +19,7 @@ LinkedTransferQueue.poll()
 
 **程序 1:**
 
-```
+```java
 /* Java Program Demonstrate poll()
    method of LinkedTransferQueue */
 
@@ -51,7 +51,7 @@ class LinkedTransferQueuePollExample1 {
 
 **输出:**
 
-```
+```java
 The head of the queue is A
 The elements in the queue :
 B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -60,7 +60,7 @@ B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 **程序二:**
 
-```
+```java
 /* Java Program Demonstrate poll()
    method of LinkedTransferQueue */
 
@@ -91,7 +91,7 @@ class LinkedTransferQueuePollExample2 {
 
 **输出:**
 
-```
+```java
 The head of the queue is 10
 The elements in the queue :
 20 30 40 50

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : GeeksforGeeks
 Output:    skeegrofskeeG
 
@@ -25,7 +25,7 @@ Output: ecilA
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Reverse a Sentence Using Recursion
 import java.io.*;
 

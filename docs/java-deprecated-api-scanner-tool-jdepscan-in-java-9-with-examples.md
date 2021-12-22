@@ -6,14 +6,14 @@
 
 **使用 jdeprscan 工具的语法:**
 
-```
+```java
 jdeprscan [options] {class|dir|jar}
 
 ```
 
 **示例:**
 
-```
+```java
 // Program to illustrate the output of jdeprscan tool
 
 import java.awt.*;
@@ -40,7 +40,7 @@ class Geeks extends Thread {
 
 **编译时控制台:**
 
-```
+```java
 Note: Geeks.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
@@ -50,7 +50,7 @@ Note: Recompile with -Xlint:deprecation for details.
 
 **输出:**
 
-```
+```java
 jdeprscan Geeks.class
 ```
 
@@ -62,13 +62,13 @@ jdeprscan Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeprscan --release 6  Geeks.class
     ```
 
     [![](img/46723bf7ad69f45bb3557e3e4f7613d5.png)](https://media.geeksforgeeks.org/wp-content/uploads/20200128161022/Capture347.png)
 
-    ```
+    ```java
     jdeprscan --release 7  Geeks.class
     ```
 
@@ -78,7 +78,7 @@ jdeprscan Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeprscan --verbose Geeks.class
     ```
 
@@ -90,11 +90,11 @@ jdeprscan Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeprscan --version
     ```
 
-    ```
+    ```java
     9.0.4
 
     ```
@@ -105,11 +105,11 @@ jdeprscan Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeprscan --full-version
     ```
 
-    ```
+    ```java
     9.0.4+11
 
     ```
@@ -120,7 +120,7 @@ jdeprscan Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeprscan --help
     ```
 
@@ -130,7 +130,7 @@ jdeprscan Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeprscan --list
     ```
 

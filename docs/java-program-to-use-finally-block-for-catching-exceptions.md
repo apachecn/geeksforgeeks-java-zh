@@ -12,7 +12,7 @@ java 中的[**final block**](https://www.geeksforgeeks.org/g-fact-24-finalfinall
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // finally block in java When
 // exception does not rise 
@@ -48,7 +48,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 inside try block
 17
 finally : i execute always.
@@ -60,7 +60,7 @@ finally : i execute always.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate finally block in java
 // When exception rise and handled by catch
 
@@ -95,7 +95,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 inside try block
 catch : exception handled.
 finally : i execute always.
@@ -107,7 +107,7 @@ finally : i execute always.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate finally block 
 // When exception rise and not handled by catch
 
@@ -145,7 +145,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Inside try block
 finally : i will execute always.
 Exception in thread "main" java.lang.ArithmeticException: / by zero

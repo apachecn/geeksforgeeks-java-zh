@@ -8,7 +8,7 @@ java.lang.Math.toDegrees()用于将以弧度度量的角度转换为以度数度
 
 **语法** :
 
-```
+```java
 public static double toDegrees(double rad)
 
 Parameter:
@@ -22,7 +22,7 @@ rad in degrees.
 
 **示例**:展示**Java . lang . math . todegrees()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.toDegrees() method
 import java.lang.Math;
@@ -49,7 +49,7 @@ class Gfg {
 
 输出:
 
-```
+```java
 180.0
 90.0
 45.0

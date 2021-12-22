@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Rotate Elements of the List
 import java.io.*;
 import java.util.*;
@@ -76,7 +76,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List Before Rotation : [10, 20, 30, 40, 50, 60, 70]
 List After Rotation :  [40, 50, 60, 70, 10, 20, 30]
 ```
@@ -101,7 +101,7 @@ List After Rotation :  [40, 50, 60, 70, 10, 20, 30]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Rotate Elements of the List
 
 import java.io.*;
@@ -145,7 +145,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List Before Rotation : [10, 20, 30, 40, 50, 60, 70]
 List After Rotation :  [50, 60, 70, 10, 20, 30, 40]
 ```

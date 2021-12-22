@@ -5,7 +5,7 @@
 **java . util . Gregoriancalendar . GetLestMaximum()**方法是 Java 中的一个内置函数，它返回日历字段的最低最大值，作为参数传递给这个 GregorianCalendar 实例的*函数。任何可能的时间值的最低最大值定义为 get 方法返回的最大值，同时考虑了 *getFirstDayOfWeek* 、*getminimaldaysinfirst week*、 *getGregorianChange* 和 *getTimeZone* 方法的当前值。
 **语法:*** 
 
-```
+```java
 public int getMaximum(*int calendarfield*)
 ```
 
@@ -13,7 +13,7 @@ public int getMaximum(*int calendarfield*)
 **返回值:**该方法返回一个*整数*值，该值等于指定日历字段的最低最大值。
 **举例:**
 
-```
+```java
 Input : DAY_OF_MONTH
 Output : 28
 
@@ -26,7 +26,7 @@ Output : 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate getLeastMaximum()
 
 import java.io.*;
@@ -60,7 +60,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Current Date and Time : Wed Aug 01 06:48:43 UTC 2018
 Lowest Maximum for WEEK_OF_MONTH field :3
 Lowest Maximum for DAY_OF_MONTH field:28

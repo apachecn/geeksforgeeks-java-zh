@@ -14,7 +14,7 @@ Java 5 中实现的协变方法重写方法通过使您能够返回被重写方�
 
 ## Java
 
-```
+```java
 // Covariant Method Overriding of Java
 import java.util.ArrayList;
 // Student class
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Name : Kapil, RollNo: 1, Class Name : MCA
 Name : Sachin, RollNo: 2, Class Name : MCA
 
@@ -91,7 +91,7 @@ Name : Sachin, RollNo: 2, Class Name : MCA
 
 在上面的例子中，当我们使用 clone()方法时，它返回 object 类的对象，然后我们将其类型转换为 Student 类。
 
-```
+```java
 Student student2 = (Student) student1.clone();
 ```
 
@@ -103,7 +103,7 @@ Student student2 = (Student) student1.clone();
 
 ## Java
 
-```
+```java
 // Covariant Method Overriding of Java
 import java.util.ArrayList;
 // Student class
@@ -171,7 +171,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Name : Kapil, RollNo: 1, Class Name : MCA
 Name : Sachin, RollNo: 2, Class Name : MCA
 

@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 Input : byteArray = { 9, 2, 14, 10 }
 Output: 9 2 E A
 
@@ -39,7 +39,7 @@ Output: 7 C D 7F
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert byte
 // array to hex string
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 070C0D7F
 ```
 
@@ -84,7 +84,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert byte
 // array to hex string
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 09020E7F
 ```
 
@@ -135,7 +135,7 @@ Integer 类有[to exstring()](https://www.geeksforgeeks.org/java-lang-integer-to
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert byte
 // array to hex string
 
@@ -175,7 +175,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 09020e7f
 ```
 
@@ -187,7 +187,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert byte
 // array to hex string
 
@@ -217,6 +217,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 11020e7f
 ```

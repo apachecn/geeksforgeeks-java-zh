@@ -14,7 +14,7 @@
 
 并发问题最常见的情况是**“先检查后行动”**的方法。当代码首先检查变量值，然后基于该值进行操作时，就会发生“先检查后操作”的情况。这里有一个简单的例子:
 
-```
+```java
 public boolean lock() {
     if(!locked) {
         lock = true;
@@ -36,7 +36,7 @@ public boolean lock() {
 
 **同步代码示例:**
 
-```
+```java
 class GFG {
 
     private boolean locked = false;
@@ -61,7 +61,7 @@ class GFG {
 
 下面是一个示例，展示了如何使用**原子工具**实现 lock()方法:
 
-```
+```java
 public static class MyLock {
     private AtomicBoolean locked = new AtomicBoolean(false);
 
@@ -87,7 +87,7 @@ public static class MyLock {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to demonstrates 
 // the compareAndSet() function 
 
@@ -122,7 +122,7 @@ public class GFG { 
 
 ****Output**
 
-```
+```java
 Previous value: 0
 The value was updated and it is 6
 

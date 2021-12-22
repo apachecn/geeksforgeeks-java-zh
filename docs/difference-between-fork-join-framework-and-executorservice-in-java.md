@@ -23,7 +23,7 @@ Java 叉连接池计算模型
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working of Fork/Join
 // Framework
 
@@ -124,6 +124,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 6 found 3 times 
 ```

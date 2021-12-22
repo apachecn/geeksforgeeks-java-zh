@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to run the applet 
 // using the web browser
 
@@ -56,7 +56,7 @@ public class GfgApplet extends Applet
 
 **GfgApplet.html**
 
-```
+```java
 <html>
 <body>
 <applet code="GfgApplet.class" width=300 height=100></applet>
@@ -82,7 +82,7 @@ public class GfgApplet extends Applet
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to run the applet 
 // using the applet viewer 
 
@@ -115,7 +115,7 @@ public class GfgApplet extends Applet
 
 要使用 applet viewer 实用程序运行 applet，请在命令提示符下键入以下内容:
 
-```
+```java
 c:\>javac GfgApplet.java
 c:\>appletviewer GfgApplet.java
 ```

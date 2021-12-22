@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```java
 Two dimensional array:
 int[][] twoD_arr = new int[10][20];
 
@@ -42,7 +42,7 @@ int[][][] threeD_arr = new int[10][20][30];
 
 *   **声明–语法:**
 
-    ```
+    ```java
     data_type[][] array_name = new data_type[x][y];
             For example: int[][] arr = new int[10][20];
 
@@ -50,7 +50,7 @@ int[][][] threeD_arr = new int[10][20][30];
 
 *   **初始化–语法:**
 
-    ```
+    ```java
     array_name[row_index][column_index] = value;
             For example: arr[0][0] = 1;
 
@@ -58,7 +58,7 @@ int[][][] threeD_arr = new int[10][20][30];
 
 **示例:**
 
-```
+```java
 class GFG {
     public static void main(String[] args)
     {
@@ -73,7 +73,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 arr[0][0] = 1
 
 ```

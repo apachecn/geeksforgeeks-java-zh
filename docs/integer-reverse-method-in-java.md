@@ -6,7 +6,7 @@ java.lang.Integer.reverse()是 java 中的一个内置方法，用于返回指�
 
 **语法:**
 
-```
+```java
 public static int reverse(*int a*)
 ```
 
@@ -16,7 +16,7 @@ public static int reverse(*int a*)
 
 **示例:**
 
-```
+```java
 Input: 86
 Output: 1778384896
 Explanation:
@@ -33,7 +33,7 @@ Output: 352321536
 下面的程序说明了 java.lang.Integer.reverse()方法:
 **程序 1:** 为正数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.reverse() method
 import java.lang.*;
@@ -54,7 +54,7 @@ public class geeks {
 
 **Output:**
 
-```
+```java
 Number = 168
 By reversing we get = 352321536
 
@@ -62,7 +62,7 @@ By reversing we get = 352321536
 
 **程序 2:** 为负数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.reverse() method
 import java.lang.*;
@@ -83,7 +83,7 @@ public class geeks {
 
 **Output:**
 
-```
+```java
 Number = -72
 By reversing we get = 503316479
 
@@ -92,7 +92,7 @@ By reversing we get = 503316479
 **程序 3:** 为十进制值和字符串。
 **注意:**当十进制值或字符串作为参数传递时，它会抛出一条错误消息。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.reverse() method
 import java.lang.*;
@@ -120,7 +120,7 @@ public class geeks {
 
 **Output:**
 
-```
+```java
 prog.java:9: error: incompatible types: possible lossy conversion from double to int
     int a = 37.9;
             ^

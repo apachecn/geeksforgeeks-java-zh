@@ -19,7 +19,7 @@ T0T6】
 
 **输出:**
 
-```
+```java
 Fee :1000
 Hello! Ashish your roll_no is :12345
 
@@ -36,21 +36,21 @@ Hello! Ashish your roll_no is :12345
 
 **示例–**
 
-```
+```java
 x % 2  =  0
 
 ```
 
 它描述了一个计算，当我们把一个数 x 除以 2，余数等于零，我们用它来发现给定的数 x 是偶数还是不是。
 
-```
+```java
 x : int(x % 2 == 0)(y)
 
 ```
 
 其含义与
 
-```
+```java
 y % 2==0
 
 ```
@@ -63,7 +63,7 @@ y % 2==0
 
 T5
 
-```
+```java
 class Abstraction {
 
     // Abstraction by parameterization

@@ -37,7 +37,7 @@ Java 中的**linkedblockingrequest**类是 [Java 集合框架](https://www.geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate LinkedBlockingDeque
 
 import java.util.concurrent.LinkedBlockingDeque;
@@ -104,7 +104,7 @@ public class LinkedBlockingDequeDemo {
 
 **Output**
 
-```
+```java
 Linked Blocking Deque1: [7855642, 35658786, 5278367, 74381793]
 Size of Linked Blocking Deque1: 4
 Exception: java.lang.IllegalStateException: Deque full
@@ -117,7 +117,7 @@ Linked Blocking Deque3: [7855642, 35658786, 5278367]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate methods of LinkedBlockingDeque
 
 import java.util.concurrent.LinkedBlockingDeque;
@@ -180,7 +180,7 @@ public class LinkedBlockingDequeDemo {
 
 **Output**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Size of Linked Blocking Deque: 4
 First element: 7855642
@@ -198,7 +198,7 @@ linkedblockingrequest 提供了各种方法在两端添加或插入元素。分�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate adding
 // elements to LinkedBlockingDeque
 
@@ -251,7 +251,7 @@ public class AddingElementsExample {
 
 **Output**
 
-```
+```java
 Linked Blocking Deque: [35658786, 7855642, 5278367]
 ArrayList: [55, 66, 77, 88]
 Linked Blocking Deque: [35658786, 7855642, 5278367, 55, 66, 77, 88]
@@ -260,7 +260,7 @@ Linked Blocking Deque: [35658786, 7855642, 5278367, 55, 66, 77, 88]
 
 **Output**
 
-```
+```java
 Linked Blocking Deque: [35658786, 7855642, 5278367]
 ArraList: [55, 66, 77, 88]
 Linked Blocking Deque: [35658786, 7855642, 5278367, 55, 66, 77, 88]
@@ -272,7 +272,7 @@ linkedblockingrequest 提供了各种方法来从两端删除或移除元素。�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate removing
 // elements of LinkedBlockingDeque
 
@@ -321,7 +321,7 @@ public class RemovingElementsExample {
 
 **Output**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793, 12345566]
 Linked Blocking Deque: [35658786, 5278367, 74381793, 12345566]
 Linked Blocking Deque: [5278367, 74381793, 12345566]
@@ -334,7 +334,7 @@ LinkedBlockingDeque 的 iterator()方法返回一个迭代器，该迭代器以�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate iterating
 // over LinkedBlockingDeque
 
@@ -374,7 +374,7 @@ public class IteratingExample {
 
 **Output**
 
-```
+```java
 The iterator values of LinkedBlockingDeque are:
 74381793
 5278367

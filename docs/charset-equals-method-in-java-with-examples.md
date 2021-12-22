@@ -6,7 +6,7 @@ equals()方法是 **java.nio.charset** 的内置方法，用于检查 charset �
 
 **语法**:
 
-```
+```java
 public final boolean equals(Object other)
 ```
 
@@ -20,7 +20,7 @@ public final boolean equals(Object other)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 false
 ```
 
@@ -53,7 +53,7 @@ false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 true
 ```
 

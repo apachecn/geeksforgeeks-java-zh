@@ -10,7 +10,7 @@ java 中 HashMap 类的 java.util.HashMap.values()方法用于从映射的值中
 
 **语法:**
 
-```
+```java
 Hash_Map.values()
 ```
 
@@ -22,7 +22,7 @@ Hash_Map.values()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrating use of values() method
 
 // Importing all input output classes
@@ -98,7 +98,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks For Geeks 
 Geeks
 For
@@ -113,7 +113,7 @@ java 中的*Java . util . hashmap . entryset()*方法用于创建一组包含在
 
 **语法:**
 
-```
+```java
 hash_map.entrySet()
 ```
 
@@ -127,7 +127,7 @@ hash_map.entrySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrating use of entrySet() method
 
 //  Importing Map,Stream, hashMap and Iterator classes
@@ -203,7 +203,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1=Geeks
 2=For
 3=Geeks

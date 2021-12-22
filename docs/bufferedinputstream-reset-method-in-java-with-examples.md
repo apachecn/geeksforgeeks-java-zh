@@ -16,7 +16,7 @@ Java 中 **BufferedInputStream** 类的 **reset()** 方法用于将流的位置�
 
 **语法:**
 
-```
+```java
 public void reset()
 ```
 
@@ -32,7 +32,7 @@ public void reset()
 
 **程序 1:** 假设存在文件“c:/demo.txt”。
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream reset() method
 import java.io.*;
@@ -91,7 +91,7 @@ public class GFG {
 
 **程序 2:** 假设存在文件“c:/demo.txt”。
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream reset() method
 import java.io.*;

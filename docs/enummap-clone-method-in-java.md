@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.clone()方法用于将一个映射的值复制到�
 
 **语法:**
 
-```
+```java
 Enum_map_2 = Enum_map_1.clone()
 ```
 
@@ -18,7 +18,7 @@ Enum_map_2 = Enum_map_1.clone()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate clone() method
 import java.util.*;
 
@@ -62,7 +62,7 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 Price of fruits in 1st map {Orange=30, Apple=60, Banana=40, Pomegranate=120, Guava=20}
 Price of fruits in 2nd map {Orange=30, Apple=60, Banana=40, Pomegranate=120, Guava=20}
 
@@ -70,7 +70,7 @@ Price of fruits in 2nd map {Orange=30, Apple=60, Banana=40, Pomegranate=120, Gua
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate clone() method
 import java.util.*;
 
@@ -108,7 +108,7 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 GeeksforGeeks ranking in first map {Global_2018=800, India_2018=72}
 GeeksforGeeks ranking in second map {Global_2018=800, India_2018=72}
 

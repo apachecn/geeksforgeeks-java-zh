@@ -14,7 +14,7 @@ Java 中 **LocalDate** 类的 **plusYears()** 方法用于在这个 LocalDate �
 
 **语法:**
 
-```
+```java
 public LocalDate plusYears(long yearsToAdd)
 
 ```
@@ -29,7 +29,7 @@ public LocalDate plusYears(long yearsToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plusYears() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before adding years: 2018-11-13
 LocalDate after  adding years: 2021-11-13
 
@@ -68,7 +68,7 @@ LocalDate after  adding years: 2021-11-13
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plusYears() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before adding years: 2016-02-29
 LocalDate after  adding years: 2018-02-28
 

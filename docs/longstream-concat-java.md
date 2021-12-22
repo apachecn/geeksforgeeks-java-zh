@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static LongStream concat(LongStream a, LongStream b)
 
 ```
@@ -25,7 +25,7 @@ static LongStream concat(LongStream a, LongStream b)
 
 **注意:**longstream . concat()方法返回的元素是有序的。例如，以下两行返回相同的结果:
 
-```
+```java
 LongStream.concat(LongStream.concat(stream1, stream2), stream3);
 LongStream.concat(stream1, LongStream.concat(stream2, stream3));
 
@@ -33,7 +33,7 @@ LongStream.concat(stream1, LongStream.concat(stream2, stream3));
 
 但是下面两个的结果是不同的。
 
-```
+```java
 LongStream.concat(LongStream.concat(stream1, stream2), stream3); 
 LongStream.concat(LongStream.concat(stream2, stream1), stream3);
 
@@ -41,7 +41,7 @@ LongStream.concat(LongStream.concat(stream2, stream1), stream3);
 
 **例 1 :**
 
-```
+```java
 // Implementation of LongStream concat()
 // method in Java 8 with 2 LongStreams
 import java.util.*;
@@ -68,7 +68,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 4
 6
@@ -80,7 +80,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Implementation of LongStream concat()
 // method in Java 8 with 2 LongStreams
 import java.util.*;
@@ -108,7 +108,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 4
 6

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double get(Object obj)
              throws IllegalArgumentException,
                     IllegalAccessException
@@ -27,7 +27,7 @@ public double get(Object obj)
 下面的程序说明 get()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate get() method
 
 import java.lang.reflect.Field;
@@ -99,7 +99,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Value of Field Marks is 34.13
 Value of Field Fees is 34199
 Value of Field name is Aman
@@ -108,7 +108,7 @@ Value of Field name is Aman
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate get() method
 
 import java.lang.reflect.Field;
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value of Field doubleValue is 9999999.34567
 Value of Field intValue is 9999999
 Value of Field floatValue is 9999999.0

@@ -86,7 +86,7 @@ JInternalFrame 是 Java Swing 的一部分。JInternalFrame 是一个容器，�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a simple JInternalFrame
 import java.awt.event.*;
 import java.awt.*;
@@ -149,7 +149,7 @@ class solution extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create multiple internal frames
 import java.awt.event.*;
 import java.awt.*;
@@ -223,7 +223,7 @@ class solution extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create multiple frame and set icon to the frame
 import java.awt.event.*;
 import java.awt.*;

@@ -6,7 +6,7 @@ Java 中 **MonthDay 类**的**getmonthvvalue()**方法获取 1 到 12 的年月�
 
 **语法:**
 
-```
+```java
 public int getMonthValue()
 ```
 
@@ -18,7 +18,7 @@ public int getMonthValue()
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the getMonthValue() method
 
 import java.util.*;
@@ -41,14 +41,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 12
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the getMonthValue() method
 
 import java.util.*;
@@ -71,7 +71,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 1
 
 ```

@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input: x = 7, y = 20, z = 56
 Output: 56                    // value stored in variable z
 ```
@@ -19,7 +19,7 @@ Output: 56                    // value stored in variable z
 
 **求三个数中最大值的算法:**
 
-```
+```java
 1\. Start
 2\. Read the three numbers to be compared, as A, B and C
 3\. Check if A is greater than B.
@@ -43,20 +43,20 @@ Output: 56                    // value stored in variable z
 
 条件运算符的语法:
 
-```
+```java
 ans = (conditional expression) ? execute if true : execute if false
 ```
 
 *   如果条件为真，则在冒号前执行语句
 *   如果条件为假，那么在冒号 so 之后执行一个语句
 
-```
+```java
 largest = z > (x>y ? x:y) ? z:((x>y) ? x:y);
 ```
 
 插图:
 
-```
+```java
 x = 5, y= 10, z = 3
 
 largest  = 3>(5>10 ? 5:10) ? 3: ((5>10) ? 5:10);
@@ -66,7 +66,7 @@ largest  = 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Biggest of 3 Numbers
 
 // Importing generic Classes/Files
@@ -105,6 +105,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 10 is the largest number.
 ```

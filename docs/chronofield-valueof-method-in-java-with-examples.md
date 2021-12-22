@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ChronoField valueOf(String name)
 
 ```
@@ -18,7 +18,7 @@ public static ChronoField valueOf(String name)
 以下程序说明了计时场.值 Of()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.valueOf() method
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ENUM: HourOfDay
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.valueOf() method
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ENUM: YearOfEra
 
 ```

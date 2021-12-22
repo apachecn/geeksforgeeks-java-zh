@@ -21,7 +21,7 @@
 
 DateFormat 类有一个内置的方法 Format()，其语法如下:
 
-```
+```java
 DateFormat.format(date_type_object) 
 ```
 
@@ -37,7 +37,7 @@ DateFormat.format(date_type_object)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert date to string
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -66,7 +66,7 @@ public class DateToString {
 
 **Output**
 
-```
+```java
 Date to String : 2020-06-12
 ```
 
@@ -76,7 +76,7 @@ SimpleDateFormat 类用于格式化和解析日期。它有一个内置的 forma
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert date to string
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -109,7 +109,7 @@ public class DateToString {
 
 **Output**
 
-```
+```java
 MM/dd/yyyy : 11/12/2020
 dd MMMM yyyy zzzz : 12 November 2020 Coordinated Universal Time
 ```
@@ -124,7 +124,7 @@ dd MMMM yyyy zzzz : 12 November 2020 Coordinated Universal Time
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Date to String 
 
 import java.time.LocalDate; 
@@ -165,6 +165,6 @@ class GFG { 
 
 **Output**
 
-```
+```java
 2020-11-13
 ```

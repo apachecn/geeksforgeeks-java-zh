@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int mod(int x, int m)
 
 ```
@@ -21,7 +21,7 @@ public static int mod(int x, int m)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // mod(int x, int m) method of Guava's
 // IntMath class
@@ -56,7 +56,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -84 mod 5 is : 1
 14 mod 6 is : 2
 
@@ -64,7 +64,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // mod(int x, int m) method of Guava's
 // IntMath class
@@ -110,7 +110,7 @@ class GFG {
 
 输出:
 
-```
+```java
 java.lang.ArithmeticException: Modulus -3 must be > 0
 
 ```

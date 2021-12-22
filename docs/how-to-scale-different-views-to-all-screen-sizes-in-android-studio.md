@@ -19,7 +19,7 @@
 
     既然我们知道了使用密度像素胜过像素的优势，让我们来看看这样做的代码:
 
-    ```
+    ```java
     <TextView
         android:text="You are in GeeksforGeeks!"
         android:background="#66bb6a"
@@ -37,7 +37,7 @@
 
 2.  **Using wrap_content:** Generally, hard-coding the values in dp isn’t a good practice. Take the above output as an example: our text is quite tiny but we are using a gigantic green box to enclose it. Not only it looks weird but it also takes a lot of unnecessary space. Also, many times we don’t know how much content will there be in the view; say user-input, if it’s a long input then the size which we specified in dp might be small to hold the content thus cutting it off and if the input is very small, there will be a lot of space left inside the specified view thus resulting in poor design.
 
-    ```
+    ```java
     <TextView
         android:text="This is a very very large input in a very very small view size!"
         android:background="#ffff00"
@@ -50,7 +50,7 @@
 
     为了解决这个问题，我们使用`wrap_content`函数。它使视图的大小受限于它所覆盖的内容。因此，视图大小将随着其覆盖的内容的增长或缩小而增长和缩小。让我们看看它的代码:
 
-    ```
+    ```java
     <TextView
         android:text="This is a very very large input in a view size which will grow accordingly!"
         android:background="#42a5f5"
@@ -73,7 +73,7 @@
 
     下面是显示上述方法的代码:
 
-    ```
+    ```java
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="horizontal"
@@ -95,7 +95,7 @@
 
     如果我们在图像视图中使用 match_parent，它将采用整个设备显示的大小，从而创建一个全出血图像:
 
-    ```
+    ```java
     <ImageView
             android:src="@drawable/rainbow"
             android:layout_width="match_parent"

@@ -6,7 +6,7 @@ Calendar 类中的 **roll(int *calndr_field* 、boolean *up_down* )** 方法用�
 
 **语法:**
 
-```
+```java
 public abstract void roll(int *calndr_field*, boolean *up_down*)
 ```
 
@@ -20,7 +20,7 @@ public abstract void roll(int *calndr_field*, boolean *up_down*)
 以下程序说明了日历类 roll()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // isSet() method
 
@@ -61,7 +61,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Year is: 2019
 The New Year is: 2018
 The new year is: 2019
@@ -70,7 +70,7 @@ The new year is: 2019
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // isSet() method
 
@@ -111,7 +111,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Month is: 1
 The New Month is: 2
 The new month is: 1

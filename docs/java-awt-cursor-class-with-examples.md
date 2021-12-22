@@ -24,7 +24,7 @@ Cursor 类主要用于封装鼠标光标的位图表示。
 
 **1。将一些预定义光标和系统光标应用于组件(标签)的程序**
 
-```
+```java
 // Java  Program to apply some predefined and system cursors to components (label)
 import java.awt.*;
 import javax.swing.*;
@@ -92,7 +92,7 @@ class cursor extends JFrame {
 
 **2\. Program to add all predefined cursors to a choice**
 
-```
+```java
 // Java Program to add all predefined cursors to a choice
 import java.awt.*;
 import java.awt.event.*;
@@ -164,7 +164,7 @@ class cursor extends JFrame implements ItemListener {
 
 **3\. program to create a custom cursor and add it to labels**
 
-```
+```java
 // Java program to create a custom cursor and add it to labels
 import java.awt.*;
 import javax.swing.*;

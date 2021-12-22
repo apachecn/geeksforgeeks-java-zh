@@ -6,7 +6,7 @@ Java 中**ChronalDate**界面的**adjustitinto()**方法用于调整指定的时
 
 **语法** :
 
-```
+```java
 public Temporal adjustInto(Temporal temporal)
 
 ```
@@ -24,7 +24,7 @@ public Temporal adjustInto(Temporal temporal)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the adjustInto() method
 
 import java.util.*;
@@ -56,7 +56,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2019-04-28T19:58:13.775Z[Etc/UTC]
 2015-01-31T19:58:13.775Z[Etc/UTC]
 
@@ -64,7 +64,7 @@ public class GfG {
 
 **节目 2** :举例说明异常。下面的程序抛出一个异常，因为 2 月是 28 天，而不是 31 天。
 
-```
+```java
 // Program to illustrate the adjustInto() method
 // Exception Program
 
@@ -101,7 +101,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2019-04-28T19:58:17.219Z[Etc/UTC]
 java.time.format.DateTimeParseException: Text '2015-02-31' could not be parsed: Invalid date 'FEBRUARY 31'
 

@@ -6,7 +6,7 @@ java 中的 java.util.HashMap.keySet()方法用于创建一组包含在哈希映
 
 **语法:**
 
-```
+```java
 hash_map.keySet()
 ```
 
@@ -17,7 +17,7 @@ hash_map.keySet()
 下面的程序用来说明 java.util.HashMap.keySet()的工作方法:
 **程序 1:** 将字符串值映射为整数键。
 
-```
+```java
 // Java code to illustrate the keySet() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The set is: [20, 25, 10, 30, 15]
 
@@ -54,7 +54,7 @@ The set is: [20, 25, 10, 30, 15]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the keySet() method
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The set is: [4, Geeks, You, Welcomes]
 

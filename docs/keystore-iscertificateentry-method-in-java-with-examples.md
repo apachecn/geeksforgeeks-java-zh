@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean isCertificateEntry(String alias)
     throws KeyStoreException
 ```
@@ -23,7 +23,7 @@ public final boolean isCertificateEntry(String alias)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getCertificate() method
 
 import java.security.*;
@@ -100,7 +100,7 @@ public class GFG {
 
 **示例 2:** 适用于*密钥库异常*
 
-```
+```java
 // Java program to demonstrate getCertificate() method
 
 import java.security.*;

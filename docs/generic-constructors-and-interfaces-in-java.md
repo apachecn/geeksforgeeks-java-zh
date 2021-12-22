@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Generic constructors
 
 // Importing input output classes
@@ -68,7 +68,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Number to Double Conversion:
 v: 10.0
 v: 136.8000030517578
@@ -85,7 +85,7 @@ v: 136.8000030517578
 
 **语法:**
 
-```
+```java
 interface interface-Name < type-parameter-list > {//....}
 
 class class-name <type-parameter-list> implements interface-name <type-arguments-list> {//...}
@@ -97,7 +97,7 @@ class class-name <type-parameter-list> implements interface-name <type-arguments
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Generic interfaces
 
 // Importing java input output classes
@@ -185,7 +185,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Minimum value: 2
 Maximum value: 8
 ```

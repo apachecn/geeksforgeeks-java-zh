@@ -54,7 +54,7 @@ JDBC 应用编程接口的 CallableStatement 用于调用存储过程。可调�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program  to use Callable Statement
 // in Java to call Stored Procedure
 

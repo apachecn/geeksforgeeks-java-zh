@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public class AttributeList extends ArrayList
 {
   // code
@@ -38,7 +38,7 @@ public class AttributeList extends ArrayList
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement AttributeList API
 
 import java.util.Collection;
@@ -208,7 +208,7 @@ public class AttributeListImpl {
 
 **Output**
 
-```
+```java
 The elements of the attributelist are
 rose = 1 sun-flower = 2 tulip = 3 orchid = 4 marie-gold = 5 hibiscus = 0 
 

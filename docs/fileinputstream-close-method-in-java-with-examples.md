@@ -10,7 +10,7 @@ FileInputStream 类有助于以字节序列的形式从文件中读取数据。F
 
 **语法:**
 
-```
+```java
 FileInputStream.close()
 ```
 
@@ -22,13 +22,13 @@ FileInputStream.close()
 
 **步骤 1:** 将文件附加到文件输入流，因为这将使我们能够关闭文件，如下所示:
 
-```
+```java
 FileInputStream  fileInputStream =new FileInputStream(“file.txt”);
 ```
 
 **第二步:**要关闭文件，我们必须使用上面的实例调用 close()方法。
 
-```
+```java
 fileInputStream.close(); 
 ```
 
@@ -40,7 +40,7 @@ fileInputStream.close();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working
 // of the FileInputStream close() method
 
@@ -86,7 +86,7 @@ public class abc {
 
 **输出**
 
-```
+```java
 GeeksforGeeks is a computer science portal
 File is Closed
 Now we will again try to read

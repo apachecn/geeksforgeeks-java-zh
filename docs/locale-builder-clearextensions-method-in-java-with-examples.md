@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Locale.Builder clearExtensions()
 
 ```
@@ -19,7 +19,7 @@ public Locale.Builder clearExtensions()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -55,7 +55,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Clearing the extensions.
 Updated LocaleBuilder: java.util.Locale$Builder@232204a1
@@ -64,7 +64,7 @@ Updated LocaleBuilder: java.util.Locale$Builder@232204a1
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -110,7 +110,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Extension set of LocaleBuilder: java.util.Locale$Builder@232204a1
 Clearing the extensions.

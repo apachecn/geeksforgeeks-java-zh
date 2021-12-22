@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final boolean isRegistered()
 ```
 
@@ -18,7 +18,7 @@ public final boolean isRegistered()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```

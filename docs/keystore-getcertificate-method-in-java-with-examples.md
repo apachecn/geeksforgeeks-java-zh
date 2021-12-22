@@ -5,7 +5,7 @@
 **java.security.KeyStore** 类的 **getCertificate()** 方法用于为请求的别名提供证书。。
 **语法:**
 
-```
+```java
 public final Certificate
   getCertificate(String alias)
   throws KeyStoreException
@@ -20,7 +20,7 @@ public final Certificate
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getCertificate() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Certificate version : 3
 ```
 
@@ -99,7 +99,7 @@ Certificate version : 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getCertificate() method
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception thrown :
  java.security.KeyStoreException:
  Uninitialized keystore

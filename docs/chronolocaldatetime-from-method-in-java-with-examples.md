@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static ChronoLocalDateTime<T> 
         from(TemporalAccessor temporal)
 
@@ -22,7 +22,7 @@ static ChronoLocalDateTime<T>
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the from() method
 
 import java.util.*;
@@ -44,7 +44,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2019-05-29T11:53:52.135
 
 ```

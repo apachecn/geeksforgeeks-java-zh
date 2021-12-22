@@ -54,7 +54,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for implementation
 // of above approach
 import java.util.*;
@@ -205,7 +205,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Wire froms 3 to 1 with length 4
 Path is : 3 4 5 1 
 ```

@@ -67,7 +67,7 @@
 
 ***例***
 
-```
+```java
 *package amar;
 
 import javax.ejb.ActivationConfigProperty;
@@ -134,7 +134,7 @@ public class Student implements MessageListener {
 
 ***例***
 
-```
+```java
 *<!DOCTYPE html>
 <html>
    <head>
@@ -162,7 +162,7 @@ public class Student implements MessageListener {
 
 ***例***
 
-```
+```java
 *package amar;
 
 import java.io.IOException;

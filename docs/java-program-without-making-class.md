@@ -8,7 +8,7 @@
 
 我们可以在枚举中声明 main()方法。因此，我们可以直接从命令提示符调用枚举。
 
-```
+```java
 // A Java program to demonstrate that we can have
 // main() inside enum class.
 enum Color
@@ -26,7 +26,7 @@ enum Color
 
 输出:
 
-```
+```java
 RED
 ```
 

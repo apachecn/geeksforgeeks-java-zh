@@ -25,7 +25,7 @@ Java 双括号初始化用于将创建和初始化合并在一条语句中。使
 
 ## Java
 
-```
+```java
 // Java program to demonstrate working of Collections
 // without double brace initialization.
 
@@ -57,7 +57,7 @@ public class DoubleBrace
 
 **输出**
 
-```
+```java
 [one, two, three]
 ```
 
@@ -77,7 +77,7 @@ public class DoubleBrace
 
 ## Java
 
-```
+```java
 // Java program to demonstrate working of Double
 // Brace Initialization
 
@@ -112,7 +112,7 @@ public class DoubleBrace
 
 **输出**
 
-```
+```java
 [one, two, three]
 ```
 

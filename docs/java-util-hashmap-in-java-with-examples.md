@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate HashMap class of java.util
 // package
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Size of map is:- 3
 {vaibhav=20, vishal=10, sachin=30}
 value for key "vishal" is:- 10
@@ -68,7 +68,7 @@ value for key "vishal" is:- 10
 
 **语法:**声明
 
-```
+```java
 public class HashMap<K,V> extends AbstractMap<K,V>
                           implements Map<K,V>, Cloneable, Serializable
 ```
@@ -97,7 +97,7 @@ HashMap 提供了 4 个构造函数，每个构造函数的访问修饰符都是
 
 **语法:**
 
-```
+```java
 HashMap<K, V> hm = new HashMap<K, V>();
 ```
 
@@ -105,7 +105,7 @@ HashMap<K, V> hm = new HashMap<K, V>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate the HashMap() constructor
 
 // Importing bsiic required classes
@@ -150,7 +150,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Mappings of HashMap hm1 are : {1=one, 2=two, 3=three}
 Mapping of HashMap hm2 are : {4=four, 5=five, 6=six}
 ```
@@ -161,7 +161,7 @@ Mapping of HashMap hm2 are : {4=four, 5=five, 6=six}
 
 **语法:**
 
-```
+```java
 HashMap<K, V> hm = new HashMap<K, V>(int initialCapacity);
 ```
 
@@ -169,7 +169,7 @@ HashMap<K, V> hm = new HashMap<K, V>(int initialCapacity);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate
 // HashMap(int initialCapacity) Constructor
 
@@ -218,7 +218,7 @@ class AddElementsToHashMap {
 
 **Output**
 
-```
+```java
 Mappings of HashMap hm1 are : {1=one, 2=two, 3=three}
 Mapping of HashMap hm2 are : {4=four, 5=five, 6=six}
 ```
@@ -229,7 +229,7 @@ Mapping of HashMap hm2 are : {4=four, 5=five, 6=six}
 
 **语法:**
 
-```
+```java
 HashMap<K, V> hm = new HashMap<K, V>(int initialCapacity, int  loadFactor);
 ```
 
@@ -237,7 +237,7 @@ HashMap<K, V> hm = new HashMap<K, V>(int initialCapacity, int  loadFactor);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate
 // HashMap(int initialCapacity,float loadFactor) Constructor
 
@@ -283,7 +283,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Mappings of HashMap hm1 are : {1=one, 2=two, 3=three}
 Mapping of HashMap hm2 are : {4=four, 5=five, 6=six}
 ```
@@ -294,7 +294,7 @@ Mapping of HashMap hm2 are : {4=four, 5=five, 6=six}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // HashMap(Map map) Constructor
 
@@ -329,7 +329,7 @@ class AddElementsToHashMap {
 
 **Output**
 
-```
+```java
 Mappings of HashMap hm1 are : {1=one, 2=two, 3=three}
 Mapping of HashMap hm2 are : {1=one, 2=two, 3=three}
 ```
@@ -340,7 +340,7 @@ Mapping of HashMap hm2 are : {1=one, 2=two, 3=three}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add elements
 // to the HashMap
 
@@ -378,7 +378,7 @@ class AddElementsToHashMap {
 
 **Output**
 
-```
+```java
 Mappings of HashMap hm1 are : {1=Geeks, 2=For, 3=Geeks}
 Mapping of HashMap hm2 are : {1=Geeks, 2=For, 3=Geeks}
 ```
@@ -387,7 +387,7 @@ Mapping of HashMap hm2 are : {1=Geeks, 2=For, 3=Geeks}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to change
 // elements of HashMap
 
@@ -417,7 +417,7 @@ class ChangeElementsOfHashMap {
 
 **Output**
 
-```
+```java
 Initial Map {1=Geeks, 2=Geeks, 3=Geeks}
 Updated Map {1=Geeks, 2=For, 3=Geeks}
 ```
@@ -426,7 +426,7 @@ Updated Map {1=Geeks, 2=For, 3=Geeks}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove
 // elements from HashMap
 
@@ -462,7 +462,7 @@ class RemoveElementsOfHashMap{
 
 **Output**
 
-```
+```java
 Mappings of HashMap are : {1=Geeks, 2=For, 3=Geeks, 4=For}
 Mappings after removal are : {1=Geeks, 2=For, 3=Geeks}
 ```
@@ -473,7 +473,7 @@ Mappings after removal are : {1=Geeks, 2=For, 3=Geeks}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to traversal a
 // Java.util.HashMap
 
@@ -502,7 +502,7 @@ public class TraversalTheHashMap {
 
 **Output**
 
-```
+```java
 Key: vaibhav Value: 20
 Key: vishal Value: 10
 Key: sachin Value: 30
@@ -562,7 +562,7 @@ HashMap 的几个重要特性是:
 
 因为它被告知 HashMap 是不同步的，即多个线程可以同时访问它。如果多个线程同时访问这个类，并且至少有一个线程在结构上操作它，那么有必要使它在外部同步。这是通过同步一些封装地图的对象来完成的。如果不存在这样的对象，那么它可以被包装在 Collections.synchronizedMap()中，以使 HashMap 同步，并避免意外的不同步访问。如下例所示:
 
-```
+```java
 Map m = Collections.synchronizedMap(new HashMap(...));
 ```
 

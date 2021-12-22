@@ -6,7 +6,7 @@
 
 **<u>例:</u>**
 
-```
+```java
 Input : 0
 Output: 32
 Input :-40
@@ -27,7 +27,7 @@ Output:-40
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Convert Celsius into Fahrenheit
 class celsiustofahrenheit {
     public static void main(String[] args)

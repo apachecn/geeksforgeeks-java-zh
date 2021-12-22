@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger xor(BigInteger val)
 ```
 
@@ -17,7 +17,7 @@ public BigInteger xor(BigInteger val)
 
 **示例:**
 
-```
+```java
 Input: value1 = 2300 , value2 = 3400
 Output: 1460
 Explanation:
@@ -33,7 +33,7 @@ Output: 12059
 
 下面的程序说明了大整数类的异或()方法:
 
-```
+```java
 /*
 *Program Demonstrate xor() method of BigInteger 
 */

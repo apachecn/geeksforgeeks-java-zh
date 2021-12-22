@@ -26,7 +26,7 @@
     *   [遍历流的每个元素](https://www.geeksforgeeks.org/how-to-print-elements-of-a-stream-in-java-8/)
     *   对于流中的每个元素，如果它不在集合中，则添加它。这可以使用 [Set.add()](https://www.geeksforgeeks.org/set-add-method-in-java-with-examples/) 方法来完成。
 
-        ```
+        ```java
         Set.add()
         ```
 
@@ -37,7 +37,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to find the duplicate
     // elements in a Stream using Set
 
@@ -88,7 +88,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [59, 13]
 
     ```
@@ -101,7 +101,7 @@
     *   [遍历流的每个元素](https://www.geeksforgeeks.org/how-to-print-elements-of-a-stream-in-java-8/)
     *   对于流中的每个元素，使用 [Collectors.groupingBy()方法](https://www.geeksforgeeks.org/collectors-groupingby-method-in-java-with-examples/)，将它们与它们在地图中的频率分组。
 
-        ```
+        ```java
         stream.collect(
             Collectors.groupingBy(Function.identity(), 
             Collectors.counting())); 
@@ -115,7 +115,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to find the duplicate
     // elements in a Stream using Collectors.groupingBy()
 
@@ -175,7 +175,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [59, 13]
 
     ```
@@ -188,7 +188,7 @@
     *   [遍历流的每个元素](https://www.geeksforgeeks.org/how-to-print-elements-of-a-stream-in-java-8/)
     *   对于流中的每个元素，使用 [Collections.frequency()](https://www.geeksforgeeks.org/java-util-collections-frequency-java/) 方法计算每个元素的频率。
 
-        ```
+        ```java
         Collections.frequency(list, i) 
 
         ```
@@ -200,7 +200,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to find the duplicate
     // elements in a Stream
     // using Collections.frequency()
@@ -249,7 +249,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [59, 13]
 
     ```

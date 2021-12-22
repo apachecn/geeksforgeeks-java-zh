@@ -7,7 +7,7 @@
 **java.io.CharArrayWriter** 类创建一个可以作为编写器使用的字符缓冲区。当数据写入流时，缓冲区会自动增长。可以使用 toCharArray()和 toString()检索数据。
 **申报:**
 
-```
+```java
 public class CharArrayWriter
    extends Writer
 ```
@@ -22,7 +22,7 @@ public class CharArrayWriter
 *   **write(int char):Java . io . chararraywriter . write(int char)**向 Writer 写入单个字符。
     **语法:**
 
-```
+```java
 public void write(int char)
 Parameters : 
 char : int value of the character to be written.
@@ -33,7 +33,7 @@ void
 *   **write(String str，int offset，int maxlen):Java . io . chararraywriter . write(String str，int offset，int maxlen)** 将字符串的某一部分写入 Writer。
     **语法:**
 
-```
+```java
 public void write(String str, int offset, int maxlen)
 Parameters : 
 str : string to be written to the Writer.
@@ -46,7 +46,7 @@ void
 *   **write(char[] carray，int offset，int maxlen):Java . io . chararraywriter . write(char[]carray，int offset，int maxlen)** 将字符数组的某个部分写入 Writer。
     **语法:**
 
-```
+```java
 public void write(char[] carray, int offset, int maxlen)
 Parameters : 
 carray : character to be written to the Writer
@@ -59,7 +59,7 @@ void
 *   **write to(Writer out _ stream):Java . io . chararraywriter . write to(Writer out _ stream)**将缓冲区的内容写入另一个指定的流。
     **语法:**
 
-```
+```java
 public void writeTo(Writer out_stream)
 Parameters : 
 out_stream : destination stream to be write into
@@ -72,7 +72,7 @@ IOException : In case of I/O error occurs
 *   **toString():Java . io . chararraywriter . toString()**从 Writer 以字符串形式返回缓冲区内容。
     **语法:**
 
-```
+```java
 public String toString()
 Parameters : 
 -----------
@@ -83,7 +83,7 @@ returns buffer content as a string from the Writer.
 *   **close():Java . io . stringwriter . close()**关闭 Writer 流但不释放缓冲区
     **语法:**
 
-```
+```java
 public void close()
 Parameters : 
 -----------
@@ -94,7 +94,7 @@ void
 *   **size():Java . io . stringwriter . size()**以整数值形式返回缓冲区的当前大小。
     **语法:**
 
-```
+```java
 public int size()
 Parameters : 
 -----------
@@ -106,7 +106,7 @@ integer value representing the current size of the buffer.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of CharArrayWriter class methods
 // write(int char), toString(), write(char[] carray, int offset, int maxlen)
 // write(String str, int offset, int maxlen), size()
@@ -167,7 +167,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Using write(int char) : HIJKL
 write(str, offset, maxlen) : JKL
 write(carray, offset, maxlen) : EKS

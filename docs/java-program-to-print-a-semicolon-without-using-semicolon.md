@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print ; without using ;
 // using if statement
 
@@ -24,7 +24,7 @@ class PrintSemicolonExample {
 
 **Output**
 
-```
+```java
 ;
 
 ```
@@ -33,7 +33,7 @@ class PrintSemicolonExample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print ; without using ;
 // using while loop
 
@@ -48,7 +48,7 @@ class PrintSemicolonExample {
 
 **Output**
 
-```
+```java
 ;
 
 ```

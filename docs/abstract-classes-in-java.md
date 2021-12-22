@@ -6,7 +6,7 @@
 
 **图解:**抽象类
 
-```
+```java
 abstract class Shape 
 {
     int color;
@@ -33,7 +33,7 @@ abstract class Shape
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate That an Iinstance of Abstract
 // Class Can not be created
 
@@ -72,7 +72,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Derived fun() called
 ```
 
@@ -82,7 +82,7 @@ Derived fun() called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Abstract Class
 // Can contain Constructors
 
@@ -133,7 +133,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Base Constructor Called
 Derived Constructor Called
 ```
@@ -144,7 +144,7 @@ Derived Constructor Called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Abstract class
 // Without any abstract method
 
@@ -183,7 +183,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Function of Base class is called
 ```
 
@@ -193,7 +193,7 @@ Function of Base class is called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Abstract classes
 // Can also have Final Methods
 
@@ -231,7 +231,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Base fun() called
 
 ```
@@ -242,7 +242,7 @@ Base fun() called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Abstract Class
 
 // Main class
@@ -269,7 +269,7 @@ abstract class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Static Methods in Abstract
 // Class Can be called Independently
 
@@ -303,7 +303,7 @@ public class GFG extends Helper {
 
 **Output**
 
-```
+```java
 Geeks for Geeks
 ```
 

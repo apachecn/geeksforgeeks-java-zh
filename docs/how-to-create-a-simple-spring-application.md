@@ -8,7 +8,7 @@ Java 语言是所有编程语言中最流行的语言之一。使用 java 编程
 
 **第一步:**转[此链接](https://start.spring.io/)。按照要求填写细节。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.5.6
@@ -31,7 +31,7 @@ Dependencies: Spring Web
 
 **例 1:Controller.java**
 
-```
+```java
 @RestController
 
 // Class
@@ -59,7 +59,7 @@ public class Controller {
 
 **输出:**
 
-```
+```java
 Aayush
 2 
 ```

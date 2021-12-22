@@ -10,7 +10,7 @@
 java 8 中的[数组类](https://www.geeksforgeeks.org/array-class-in-java/)引入了 parallelPrefix 方法。parallelPrefix 方法对数组的元素累计执行给定的数学函数，它们同时修改数组。
 **语法:**
 
-```
+```java
 parallelPrefix(int[] array, IntBinaryOperator op)
 Parameters :
 array : integer array on which operation is to be performed
@@ -22,7 +22,7 @@ NullPointerException- Throws if the array or function passed as a parameter is n
 
 **变化:**T2]
 
-```
+```java
 parallelPrefix(double[] array, DoubleBinaryOperator op)
 parallelPrefix(double[] array, int fromIndex, int toIndex, DoubleBinaryOperator op)
 parallelPrefix(int[] array, IntBinaryOperator op)
@@ -39,7 +39,7 @@ parallelPrefix(T[] array, int fromIndex, int toIndex, BinaryOperator op)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate parallelPrefix()
 // and demonstrate different ways of
 // passing parameter to it
@@ -78,7 +78,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 2   3   10   18   22   27   33   42   50   57   58   60   63   69   74   78   85   90   
 ```
 
@@ -87,7 +87,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate parallelPrefix
 // on a range of a given array
 
@@ -154,7 +154,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Example 1: with Primitive type
 1   3   0   4   9   3   10   2   11   1   
 Example 2: with primitives
@@ -168,7 +168,7 @@ T5】parallelPrefix(T[]数组，int fromIndex，int toIndex，BinaryOperator op)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate parallelPrefix
 // on a user defined array
 import java.util.Arrays;
@@ -226,7 +226,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Example 1 :
 Geek1   10
 GEEK1Geek2   30

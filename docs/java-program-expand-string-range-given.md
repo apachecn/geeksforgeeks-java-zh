@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input  : string x = "1-5, 8, 11-14, 18, 20, 26-29" 
 Output : string y = "1, 2, 3, 4, 5, 8, 11, 12, 
                     13, 14, 18, 20, 26, 27, 28, 29"
@@ -33,7 +33,7 @@ Output : string y = "1, 2, 3, 4, 5, 8, 11, 12,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Expand a String if Range is Given
 
 // Main class
@@ -99,7 +99,7 @@ public class Solution {
 
 **Output:** 
 
-```
+```java
 1 2 3 4 5 8 11 12 13 14 18 20 26 27 28 29
 ```
 
@@ -107,7 +107,7 @@ public class Solution {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Expansion of String
 
 // Main class
@@ -229,7 +229,7 @@ public class StringExpand {
 
 **Output:** 
 
-```
+```java
 1, 2, 3, 4, 5, 8, 11, 12, 13, 14, 18, 20, 26, 27, 28, 29
 ```
 
@@ -237,7 +237,7 @@ public class StringExpand {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Expand a String if Range is Given
 
 // Main class
@@ -307,6 +307,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 1, 2, 3, 4, 5, 8, 11, 12, 13, 14, 18, 20, 26, 27, 28, 29, 
 ```

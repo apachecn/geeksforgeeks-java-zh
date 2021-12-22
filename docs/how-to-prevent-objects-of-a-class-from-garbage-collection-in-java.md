@@ -4,7 +4,7 @@
 
 Java 中的垃圾收集器是自动的，即用户不必手动释放动态分配的已占用内存。垃圾收集器如何决定删除哪个对象？很简单:丢失引用的对象被标记为从堆内存中删除。例如，看看下面这段代码:
 
-```
+```java
 // Java code to demonstrate when an object would
 // be deleted by the garbage collector
 
@@ -46,7 +46,7 @@ Java 在一个名为“堆”的分区中为它的对象分配内存(除了字�
 
     Xmx 指定 Java 虚拟机(JVM)的最大内存分配池，而 Xms 指定初始内存分配池。以下是一个例子:
 
-    ```
+    ```java
     java -Xms256m -Xmx2048m classfile
     ```
 
@@ -58,7 +58,7 @@ Java 在一个名为“堆”的分区中为它的对象分配内存(除了字�
 
     在单例类的情况下，唯一创建的对象的引用可以存储在静态引用中。由于静态成员存储在类区域(一个内存段)中，它们的生命周期跨越了程序的生命周期。以下程序解释了如何做到这一点:
 
-    ```
+    ```java
     public class Singleton {
 
         /* static class member which 
@@ -89,7 +89,7 @@ Java 在一个名为“堆”的分区中为它的对象分配内存(除了字�
 
     可以重写类的 finalize 方法，以保留对将要删除的对象的引用。以下程序演示了如何:
 
-    ```
+    ```java
     // Java code to demonstrate how to prevent garbage collection
     // of an object using finalize method
     class A {
@@ -115,7 +115,7 @@ Java 在一个名为“堆”的分区中为它的对象分配内存(除了字�
 
     输出:
 
-    ```
+    ```java
     Object reference saved. The object won't be collected by the garbage collector
     ```
 

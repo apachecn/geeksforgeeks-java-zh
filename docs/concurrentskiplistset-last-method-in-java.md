@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E last()
 ```
 
@@ -18,7 +18,7 @@ public E last()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate last()
 // method of ConcurrentSkipListSet
 
@@ -48,14 +48,14 @@ class ConcurrentSkipListSetLastExample1 {
 
 **输出:**
 
-```
+```java
 The highest element of the set: 78
 
 ```
 
 **程序 2:** 程序在最后()显示 NoSuchElementException。
 
-```
+```java
 // Java program to demonstrate last()
 // method of ConcurrentSkipListSet
 
@@ -82,7 +82,7 @@ class ConcurrentSkipListSetLastExample1 {
 
 **输出:**
 
-```
+```java
 Exception: java.util.NoSuchElementException
 
 ```

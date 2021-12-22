@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(Calendar *Calendar2*)
 ```
 
@@ -21,7 +21,7 @@ public int compareTo(Calendar *Calendar2*)
 下面的程序说明了 Calendar 类的 compareTo()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate compareTo() Method
 
 import java.util.*;
@@ -58,7 +58,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 First comparison result is: 1
 Second comparison result is: -1
 
@@ -66,7 +66,7 @@ Second comparison result is: -1
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate compareTo() Method
 
 import java.util.*;
@@ -93,7 +93,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 The comparison result is: -1
 
 ```

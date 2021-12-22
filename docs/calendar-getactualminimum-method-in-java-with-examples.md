@@ -6,7 +6,7 @@ calendar 类的**getactuallminimum(int*field _ value*)**方法用于根据此 Ca
 
 **语法:**
 
-```
+```java
 public int getActualMinimum(int *field_value*)
 ```
 
@@ -17,7 +17,7 @@ public int getActualMinimum(int *field_value*)
 下面的程序说明了 Calendar 类的 getActualMinimum()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate
 // getActualMinimum() Method
 
@@ -48,7 +48,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 The Minimum year: 1
 The Minimum Month is: 0
 
@@ -56,7 +56,7 @@ The Minimum Month is: 0
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate
 // getActualMinimum() Method
 
@@ -88,7 +88,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 The Minimum year: 1
 The Minimum Month is: 0
 

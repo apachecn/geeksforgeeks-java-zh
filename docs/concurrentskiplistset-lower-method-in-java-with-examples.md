@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 public E lower (E e)
 ```
 
@@ -23,7 +23,7 @@ public E lower (E e)
 
 ****程序 1:** 在下面的程序中，指定的元素是 67，我们的集合也包含了元素 67，但是没有返回，因为 lower()方法返回的值严格来说比较少。**
 
-```
+```java
 // Java program to demonstrate
 // ConcurrentSkipListSet lower() method.
 
@@ -61,14 +61,14 @@ class GfgCSLS {
 
 ****输出:****
 
-```
+```java
 ConcurrentSkipListSet: [17, 24, 35, 67, 98]
 Largest element: 35
 ```
 
 ****程序 2:** 显示空指针异常**
 
-```
+```java
 // Java program to demonstrate
 // ConcurrentSkipListSet lower() method.
 
@@ -111,7 +111,7 @@ class GfgCSLS {
 
 ****输出:****
 
-```
+```java
 ConcurrentSkipListSet: [17, 24, 35, 67, 98]
 java.lang.NullPointerException
 ```

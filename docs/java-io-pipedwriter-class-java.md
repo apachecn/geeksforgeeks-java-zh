@@ -9,7 +9,7 @@
 
 **申报:**
 
-```
+```java
 public class PipedWriter
   extends Writer
 ```
@@ -24,7 +24,7 @@ public class PipedWriter
 *   **write(int char):****Java . io . PipedWriter . write(int char)**将指定的字符写入 pipe dwriter。
     **语法:**
 
-    ```
+    ```java
     public void write(int char)
     Parameters : 
     char : character to be written
@@ -37,7 +37,7 @@ public class PipedWriter
 *   **write(char[] carray, int offset, int maxlen) :** **java.io.PipedWriter.write(char[] carray, int offset, int maxlen)** writes maxlen character from ‘carray’ to the PipedWriter. The method blocks if no characters are left to be written to the Stream.
     **Syntax :**
 
-    ```
+    ```java
     public void write(char[] carray, int offset, int maxlen)
     Parameters : 
     carray : data of the carray
@@ -51,7 +51,7 @@ public class PipedWriter
 
     **实施:**
 
-    ```
+    ```java
     // Java program illustrating the working of PipedWriter
     // write(char[] carray, int offset, int maxlen)
 
@@ -83,14 +83,14 @@ public class PipedWriter
 
     **输出:**
 
-    ```
+    ```java
     Use of write(carray, offset, maxlen) :  J A V A
     ```
 
 *   **close():****Java . io . PipedWriter . close()**关闭 pipe dwriter 并释放分配的资源。
     **语法:**
 
-    ```
+    ```java
     public void close()
     Parameters : 
     --------------
@@ -103,7 +103,7 @@ public class PipedWriter
 *   **connect(PipedReader 目的地):****Java . io . PipedWriter . connect(PipedReader 目的地)**将 pipe dwriter 连接到“目的地”pipe dreader，如果“目的地”是具有其他流的管道，则会引发 IO 异常
     **语法:**
 
-    ```
+    ```java
     public void connect(PipedReader destination)
     Parameters : 
     destination : the PipedReader to be connected to
@@ -116,7 +116,7 @@ public class PipedWriter
 *   **flush() :** **java.io.PipedWriter.flush()** flushes the Output Stream.
     **Syntax :**
 
-    ```
+    ```java
     public void flush()
     Parameters : 
     ------------
@@ -128,7 +128,7 @@ public class PipedWriter
 
     **说明 PipedWriter 类方法工作的 Java 代码:**
 
-    ```
+    ```java
     // Java program illustrating the working of PipedWriter
     // write(), connect
     // close(), flush()
@@ -178,7 +178,7 @@ public class PipedWriter
 
     **输出:**
 
-    ```
+    ```java
     Use of flush() method : 
      G E E K S
     Closing the Writer stream

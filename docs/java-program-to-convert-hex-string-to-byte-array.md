@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 Input - Hex String : "2f4a33"
 Output - Byte Array : 47 74 51
 
@@ -34,7 +34,7 @@ Java 中的 [integer.parseInt()](https://www.geeksforgeeks.org/string-to-integer
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert hex
 // string to byte array
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Hex String : 2f4a33
 Byte Array : 47 74 51 
 ```
@@ -85,7 +85,7 @@ Byte Array : 47 74 51
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert hex
 // string to byte array
 
@@ -119,7 +119,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hexadecimal String : 3b4a11
 Byte Array : 59 74 17 
 ```
@@ -132,7 +132,7 @@ Byte Array : 59 74 17
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert hex
 // string to byte array
 
@@ -168,7 +168,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hex String : 1f3d44
 Byte Array : 31 61 68 
 ```

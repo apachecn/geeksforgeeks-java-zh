@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Locale[] getAvailableLocales()
 ```
 

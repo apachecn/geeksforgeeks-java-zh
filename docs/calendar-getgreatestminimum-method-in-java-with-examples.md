@@ -6,7 +6,7 @@ calendar 类中的**getgreateestminimum(int*calndr _ field*)**方法用于返回
 
 **语法:**
 
-```
+```java
 public abstract int getGreatestMinimum(int *calndr_field*)
 ```
 
@@ -17,7 +17,7 @@ public abstract int getGreatestMinimum(int *calndr_field*)
 下面的程序说明了日历类的 getGreatestMinimum()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // getGreatestMinimum() method
 
@@ -39,14 +39,14 @@ public class Java_Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The minimum year is: 1
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getGreatestMinimum() method
 
@@ -68,7 +68,7 @@ public class Java_Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The minimum month is: 0
 
 ```

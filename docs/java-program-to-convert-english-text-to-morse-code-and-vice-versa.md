@@ -8,7 +8,7 @@
 
 ***表:***
 
-```
+```java
 *[".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",
 ".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]*
 ```
@@ -17,7 +17,7 @@
 
 ***示例:***
 
-```
+```java
 ***Input:**  geeks
 **Output:** --. . . -.- ...
 **Explanation:** Here each letter in string is converted into morse code given at Table
@@ -39,7 +39,7 @@
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Convert English
 // Text to Morse Code and Vice Versa
 import java.util.*;
@@ -109,7 +109,7 @@ public class Main {
 
 ***Output**
 
-```
+```java
 Morse code ... -.-. .... --- --- .-.. to English is s c h o o l 
 Morse code of alice is .- .-.. .. -.-. . 
 ```* 
@@ -121,7 +121,7 @@ Morse code of alice is .- .-.. .. -.-. .
 
 ***示例:***
 
-```
+```java
 ***Input**: ... -.-. .... --- --- .-.. 
 **Output**: school
 **Explanation**: Just reverse the step of previous one "..."=>s, "-.-"=>c, "...."=>h, "---"=>o, "---"=>o, ".-.."=> l
@@ -148,7 +148,7 @@ Morse code of alice is .- .-.. .. -.-. .
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Convert English
 // Text to Morse Code and Vice Versa
 import java.util.*;
@@ -209,7 +209,7 @@ public class Main {
 
 ***Output**
 
-```
+```java
 Morse code ... -.-. .... --- --- .-.. to English is s c h o o l 
 .- .-.. .. -.-. . 
 ```* 

@@ -6,7 +6,7 @@ Java 中**buffere reader**类的 **close()** 方法用于关闭流并释放与�
 
 **语法:**
 
-```
+```java
 public void close() 
             throws IOException
 
@@ -22,7 +22,7 @@ public void close()
 
 **程序 1:** 假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedReader close() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **程序 2:** 假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedReader close() method
 

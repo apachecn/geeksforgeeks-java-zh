@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object remove(int posn)
        throws InvalidNameException
 
@@ -21,7 +21,7 @@ public Object remove(int posn)
 以下程序说明了 CompoundName.remove()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.remove()
 import java.util.Properties;
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Component: 5
 CompoundName After removal:0@1@2@3@4@6@7
 
@@ -71,7 +71,7 @@ CompoundName After removal:0@1@2@3@4@6@7
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.remove() method
 import java.util.Properties;
@@ -124,7 +124,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Component: e
 CompoundName After removal:c/d/v/a/b/z/y/x/f
 Removed Component: v

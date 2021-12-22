@@ -6,7 +6,7 @@ Java 中的**抽象集合**类是 [Java 集合框架](https://www.geeksforgeeks.
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
  ↳ java.util
     ↳ Class AbstractCollection<E>
@@ -15,7 +15,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 public abstract class AbstractCollection<E>
     extends Object
        implements Collection<E>
@@ -31,7 +31,7 @@ by this collection.
 
 下面是用 Java 举例说明 AbstractCollection 的示例程序:
 
-```
+```java
 // Java code to illustrate AbstractCollection
 
 import java.util.*;
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 AbstractCollection: [Welcome, To, Geeks, 4, Geeks]
 
 ```
@@ -83,7 +83,7 @@ AbstractCollection: [Welcome, To, Geeks, 4, Geeks]
 
 **例:**
 
-```
+```java
 // Java code to illustrate
 // methods of AbstractCollection
 
@@ -139,7 +139,7 @@ public class AbstractCollectionDemo {
 
 **输出:**
 
-```
+```java
 AbstractCollection 1: [4, Geeks, To, TreeSet, Welcome]
 AbstractCollection 2: []
 AbstractCollection 2: [4, Geeks, To, TreeSet, Welcome]

@@ -10,7 +10,7 @@ For-loop 提供了编写循环结构的简洁方式。for 语句在一行中消�
 
 **语法:**
 
-```
+```java
 for (initialization; test condition; 
                               increment/decrement)
 {
@@ -36,7 +36,7 @@ For-each 是一种数组遍历技术，类似于 Java5 中引入的 For 循环�
 
 **语法**
 
-```
+```java
 for (type var : array) 
 { 
     //statements
@@ -71,7 +71,7 @@ for (type var : array)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java for and foreach loop in list
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -104,7 +104,7 @@ public class App {
 
 **Output**
 
-```
+```java
 iterating over a List using for loop in Java:
 Mac
 Samsung Gear 
@@ -119,7 +119,7 @@ iPhone 12+
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for Iteration in Array
 public class GFG {
 
@@ -149,7 +149,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 iterating over an array using for loop in Java:
 1
 9

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractMap.remove(*Object key*)
 ```
 
@@ -18,7 +18,7 @@ AbstractMap.remove(*Object key*)
 
 **程序 1:** 传递现有密钥时。
 
-```
+```java
 // Java code to illustrate the remove() method
 
 import java.util.*;
@@ -60,7 +60,7 @@ public class Abstract_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Returned value is: Geeks
 New map is: {25=Welcomes, 10=Geeks, 30=You, 15=4}
@@ -69,7 +69,7 @@ New map is: {25=Welcomes, 10=Geeks, 30=You, 15=4}
 
 **程序 2:** 传递新钥匙时。
 
-```
+```java
 // Java code to illustrate the remove() method
 
 import java.util.*;
@@ -110,7 +110,7 @@ public class Abstract_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Returned value is: null
 New map is: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}

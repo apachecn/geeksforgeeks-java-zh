@@ -12,7 +12,7 @@
 **add (E e)** 方法将作为参数传递的元素插入该队列的**尾部**处的方法。如果添加元素超出了队列的容量，那么该方法将抛出一个 IllegalStateException。如果元素添加成功，此方法返回 true，否则将引发 IllegalStateException。
 **语法:**
 
-```
+```java
 public boolean add(E e)
 ```
 
@@ -27,7 +27,7 @@ null pointerexception–如果指定的元素为空
 **示例 1**
 下面的程序说明了向 ArrayBlockingQueue 添加元素。
 
-```
+```java
 // Java Program to Demonstrate add(E e) method
 // of ArrayBlockingQueue.
 import java.util.ArrayList;
@@ -70,7 +70,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output :
 After adding 23
 [23]
@@ -84,7 +84,7 @@ After adding 27, 67
 **示例 2**
 下面的程序演示了向 ArrayBlockingQueue 添加元素，以及如果队列已满时引发的异常。
 
-```
+```java
 // Java Program to Demonstrate add(E e) method
 // of ArrayBlockingQueue.
 import java.util.ArrayList;
@@ -132,7 +132,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output :
 After adding all 5 elements to queue
 [23, 32, 45, 12, 27]

@@ -6,7 +6,7 @@ Java 中 **[IntSummaryStatistics 类](https://www.geeksforgeeks.org/java-util-in
 
 **语法:**
 
-```
+```java
 public void accept(int value)
 
 ```
@@ -17,7 +17,7 @@ public void accept(int value)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -47,7 +47,7 @@ public class IntSummaryStatisticsDemo {
 
 **输出:**
 
-```
+```java
 IntSummaryStatistics{count=5, sum=150, min=10, average=30.000000, max=50}
 
 ```

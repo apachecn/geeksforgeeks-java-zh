@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 Input : 16
 Output: 17
 
@@ -35,7 +35,7 @@ itself as the distance is 0 (97-97).
 
 ## 爪哇
 
-```
+```java
 // Closest Prime Number in Java
 
 import java.util.*;
@@ -141,7 +141,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 101
 
 ```

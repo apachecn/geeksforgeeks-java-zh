@@ -6,7 +6,7 @@
 
 在这里，我们将使用**简单日期格式**来转换格林尼治标准时间中的当地时间。它可以在课堂上获得，如前所述:
 
-```
+```java
 java.util.SimpleDateFormat
 ```
 
@@ -21,7 +21,7 @@ Java 中 *DateFormat 类*的 [*format()*](https://www.geeksforgeeks.org/simpleda
 
 **语法:**
 
-```
+```java
 public final String format(Date date)
 ```
 
@@ -39,7 +39,7 @@ public final String format(Date date)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert local time to GMT
 
 // Importing libraries
@@ -90,7 +90,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 local Time:Thu Feb 04 11:34:15 UTC 2021
 Time IN Gmt : 04/02/2021  11:34:15
 ```

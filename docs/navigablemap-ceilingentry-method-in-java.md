@@ -6,7 +6,7 @@ Java 中[导航映射接口的 cielingEntry()方法用于返回与大于或等�
 
 **语法** :
 
-```
+```java
 Map.Entry< K, V > ceilingEntry(K key)
 
 ```
@@ -19,7 +19,7 @@ Map.Entry< K, V > ceilingEntry(K key)
 
 **程序 1** :按键为整数时。
 
-```
+```java
 // Java code to demonstrate the working of
 // ceilingEntry()  method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The next greater key-value of 5 is : 7=seven
 The next greater key-value of 8 is : null
 
@@ -63,7 +63,7 @@ The next greater key-value of 8 is : null
 
 **程序 2** :当按键为字符串时。
 
-```
+```java
 // Java code to demonstrate the working of
 // ceilingEntry()  method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The next greater key-value of a is : one=Geeks
 The next greater key-value of p is : three=Geeks
 

@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```java
 LinkedList.remove()
 ```
 
@@ -34,7 +34,7 @@ LinkedList.remove()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate remove() method
 // of LinkedList class
 // Default removal from the last of List
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 Final LinkedList:[for, Geeks, 10, 20]
 ```
@@ -87,7 +87,7 @@ Final LinkedList:[for, Geeks, 10, 20]
 
 **语法:**
 
-```
+```java
 LinkedList.remove(int index)
 ```
 
@@ -99,7 +99,7 @@ LinkedList.remove(int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate remove() when position of
 // element is passed as parameter
 import java.io.*;
@@ -133,7 +133,7 @@ public class LinkedListDemo {
 
 **Output:** 
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 Final LinkedList:[Geeks, for, Geeks, 10]
 ```
@@ -144,7 +144,7 @@ Final LinkedList:[Geeks, for, Geeks, 10]
 
 **语法:**
 
-```
+```java
 LinkedList.remove(Object O)
 ```
 
@@ -156,7 +156,7 @@ LinkedList.remove(Object O)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate remove() method
 
 // Importing required classes
@@ -198,7 +198,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 Final LinkedList:[for, Geeks, 10]
 ```

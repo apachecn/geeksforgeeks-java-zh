@@ -40,7 +40,7 @@ java 数据库连接基本上是 Java 编程语言和各种数据库(如 Oracle�
 
 **3.2:** 初始化 Connection 类的以下对象，准备 Statement 类(JDBC 需要)并按如下方式连接数据库
 
-```
+```java
 Connection con=null;
 PreparedStatement p=null;
 con=connection.connectDB();
@@ -48,7 +48,7 @@ con=connection.connectDB();
 
 **3.3** :现在，在 PrepareStatement 里面加入步骤 3.1 的 SQL 查询，执行如下
 
-```
+```java
 p =con.prepareStatement(sql);
 p.execute();
 ```
@@ -66,7 +66,7 @@ p.execute();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Insert Details in a Table using JDBC
 // Connections class
 
@@ -121,7 +121,7 @@ public class connection {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Insert Details in a Table using JDBC
 // Main class
 

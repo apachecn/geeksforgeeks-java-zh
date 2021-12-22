@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator iterator()
 ```
 
@@ -18,7 +18,7 @@ public Iterator iterator()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // iterator() method
 // for Integer value
@@ -67,7 +67,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayList : [10, 20, 30, 40, 50]
 Value is : 10
 Value is : 20
@@ -79,7 +79,7 @@ Value is : 50
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // iterator() method
 // for String value
@@ -128,7 +128,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayList : [A, B, C, D, E]
 Value is : A
 Value is : B

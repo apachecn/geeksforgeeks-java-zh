@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public static int rotateLeft(*int value, int shifts*)
 ```
 
@@ -19,7 +19,7 @@ public static int rotateLeft(*int value, int shifts*)
 **返回值:**该方法返回通过将指定 int 值的二进制补码二进制表示向左旋转指定数量的移位位而获得的值。
 **例:**
 
-```
+```java
 Input: 12
 Output: 24
 Explanation:
@@ -33,7 +33,7 @@ So that is= 24
 下面的程序说明了 java.lang.Integer.rotateLeft()方法。
 **程序 1:** 为正数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.rotateLeft() method
 import java.lang.*;
@@ -58,7 +58,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 8
 32
 128
@@ -70,7 +70,7 @@ public class Geeks {
 
 **程序 2:** 为负数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.rotateLeft() method
 import java.lang.*;
@@ -95,7 +95,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 -16
 -31
 
@@ -104,7 +104,7 @@ public class Geeks {
 **程序 3:** 为十进制值和字符串。
 **注意:**当十进制值和字符串作为参数传递时，它会返回一条错误消息
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.rotateLeft() method
 import java.lang.*;
@@ -138,7 +138,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 prog.java:9: error: incompatible types: possible lossy conversion from double to int
     int a = 15.71;
             ^

@@ -4,7 +4,7 @@
 
 试着算出这段代码的输出:
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -16,7 +16,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 50=455
 ```
 
@@ -25,7 +25,7 @@ public class Test
 *   To make the output 50=50, we need to add a bracket around the sum statement to overload the concatenation operation.
 *   This will force the sum `to occur before string concatenation, with brackets as the highest priority.`
 
- ````
+ ```java`
 public class Test
 {
     public static void main(String[] args)
@@ -37,7 +37,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 50=50
 ```
 

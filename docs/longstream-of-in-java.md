@@ -7,7 +7,7 @@
 **LongStream of(long t)** 返回包含单个元素的连续 LongStream。
 **语法:**
 
-```
+```java
 static LongStream of(long t)
 
 ```
@@ -21,7 +21,7 @@ static LongStream of(long t)
 
 **示例:**
 
-```
+```java
 // Java code for LongStream of(long t)
 // to get a sequential LongStream
 // containing a single element.
@@ -44,7 +44,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 -7
 
 ```
@@ -54,7 +54,7 @@ class GFG {
 **LongStream of(long…values)**返回一个顺序的有序流，其元素是指定的值。
 **语法:**
 
-```
+```java
 static LongStream of(long... values)
 
 ```
@@ -68,7 +68,7 @@ static LongStream of(long... values)
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream of(long... values)
 // to get a sequential ordered stream whose
 // elements are the specified values.
@@ -91,7 +91,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 -7
 -9
 -11
@@ -100,7 +100,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream of(long... values)
 // to get a sequential ordered stream whose
 // elements are the specified values.
@@ -126,7 +126,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3
 
 ```

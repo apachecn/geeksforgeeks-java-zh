@@ -24,7 +24,7 @@
 
 ## java 描述语言
 
-```
+```java
 "Name_of_the_snippet ":
 {                    
   "prefix": "prefix_of_the_snippet",          
@@ -44,7 +44,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create Java snippets
 // in VSCode for Competitive Programming
 
@@ -141,7 +141,7 @@ VSCode 是一个文本编辑器，为开发操作和版本控制系统提供支�
 
 ## java 描述语言
 
-```
+```java
 {
 "User-Defined_SnippetGFG": {   //Name of the snippet
     "prefix": "FastClass",    //keyword to generate

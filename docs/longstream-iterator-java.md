@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 PrimitiveIterator.OfLong iterator()
 
 Where, PrimitiveIterator.OfLong is an Iterator 
@@ -18,7 +18,7 @@ specialized for long values.
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream iterator()
 import java.util.*;
 import java.util.stream.LongStream;
@@ -45,7 +45,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 4
 6
@@ -55,7 +55,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream iterator()
 import java.util.*;
 import java.util.stream.LongStream;
@@ -84,7 +84,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 3
 4

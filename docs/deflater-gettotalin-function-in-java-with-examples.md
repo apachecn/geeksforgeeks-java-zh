@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public int getTotalIn()
 
 ```
 
 **语法:**
 
-```
+```java
 d.getTotalIn();
 
 ```
@@ -26,7 +26,7 @@ d.getTotalIn();
 
 **例 1:**
 
-```
+```java
 // Java program to describe the use
 // of getTotalIn() function
 
@@ -82,7 +82,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Compressed String :x?sOM?.N?/r???q??
  Size 21
 Original String :GeeksforGeeksGeeksforGeeksGeeksforGeeksGeeksforGeeks

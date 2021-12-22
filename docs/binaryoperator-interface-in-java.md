@@ -24,7 +24,7 @@
 
 ****语法:****
 
-```
+```java
 static <T> BinaryOperator<T> 
     maxBy(Comparator<? super T> comparator)
 ```
@@ -39,7 +39,7 @@ static <T> BinaryOperator<T>
 
 ## **Java**
 
-```
+```java
 import java.util.function.BinaryOperator;
 
 public class GFG {
@@ -57,6 +57,6 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 98
 ```

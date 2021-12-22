@@ -34,7 +34,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Concept of Composition
 
 // Importing required classes
@@ -135,7 +135,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Title : EffectiveJ Java and  Author : Joshua Bloch
 Title : Thinking in Java and  Author : Bruce Eckel
 Title : Java: The Complete Reference and  Author : Herbert Schildt

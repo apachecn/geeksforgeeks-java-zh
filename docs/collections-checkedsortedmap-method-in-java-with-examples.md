@@ -7,7 +7,7 @@
 因为 null 被认为是任何引用类型的值，所以返回的映射允许在后备映射插入 null 键或值时插入。
 **语法:**
 
-```
+```java
 public static  SortedMap
  checkedSortedMap(SortedMap m, Class keyType, Class valueType)
 ```
@@ -24,7 +24,7 @@ public static  SortedMap
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // checkedSortedMap() method
 // for <String, String> type
@@ -74,7 +74,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Sorted map:
 {Karan=Arjun, Karn=Veer, Ram=Gopal}
 Typesafe view of sorted map:
@@ -85,7 +85,7 @@ Typesafe view of sorted map:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // checkedSortedMap() method
 // for <String, Integer> type
@@ -129,7 +129,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Sorted map:
 {Karan=39, Karn=40, Ram=20}
 Typesafe view of sorted map:

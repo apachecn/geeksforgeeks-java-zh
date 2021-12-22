@@ -27,7 +27,7 @@ XML 文件包含标签之间的数据，因此与 docx 和 txt 等其他文件�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0"?>  
 <class>  
     <geek>  
@@ -69,7 +69,7 @@ XML 文件包含标签之间的数据，因此与 docx 和 txt 等其他文件�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document;
@@ -172,7 +172,7 @@ public class GfgXmlExtractor {
 
 **输出**
 
-```
+```java
 Root element: class
 
 Node Name :geek
@@ -215,7 +215,7 @@ java 中的 SAX Parser 提供了解析 XML 文档的 API。SAX 解析器与 DOM 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.Attributes;
@@ -335,7 +335,7 @@ public class GfgSaxXmlParser {
 
 **输出**
 
-```
+```java
 ID : 1
 User Name: geek1
 Enrolled Course: D.S.A

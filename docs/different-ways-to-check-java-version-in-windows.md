@@ -16,7 +16,7 @@ Java 是一种独立于平台、流行、简单、安全和静态类型的编程
 
 这是一个机器**–**专用软件，负责该机器上的[字节码](https://www.geeksforgeeks.org/difference-between-byte-code-and-machine-code/)，并将其转换为机器专用指令。
 
-```
+```java
 JVM is different for Windows 
 JVM is different for Linux
 JVM is different for Different Platforms
@@ -50,7 +50,7 @@ JVM is different for Different Platforms
 
 T2 CMDT4(命令解释器是一个 **命令行** 界面。它支持一组命令和实用程序；并且有自己的编程语言来编写批处理文件。打开 CMD，搜索**Java-版本。**首先，我们要一个环境变量到 java 文件夹的安装路径位置。否则会显示无效命令。在 mac 操作系统的情况下，它被称为“终端”。
 
-```
+```java
 java -version  // CMD/Terminal command to check java version on the machine
 
 ```

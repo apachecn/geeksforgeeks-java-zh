@@ -6,7 +6,7 @@ Java 中 [**数组列表**](https://www.geeksforgeeks.org/arraylist-in-java/) �
 
 **语法:**
 
-```
+```java
 get(index)
 ```
 
@@ -22,7 +22,7 @@ get(index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate the working of
 // get() method in ArrayList
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 List: [10, 20, 30, 40]
 the element at index 2 is 30
 ```
@@ -70,7 +70,7 @@ the element at index 2 is 30
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Error Generated
 // while using get() method in ArrayList
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 5, Size: 4
     at java.util.ArrayList.rangeCheck(ArrayList.java:657)
     at java.util.ArrayList.get(ArrayList.java:433)

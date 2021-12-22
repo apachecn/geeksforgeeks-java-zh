@@ -8,13 +8,13 @@ CyclicBarrier 用于使线程相互等待。当不同的线程处理一部分计
 
 CyclicBarriers 在 java.util.concurrent package 中定义。首先，创建一个 CyclicBarriers 的新实例，指定 barriers 应该等待的线程数。
 
-```
+```java
 CyclicBarrier newBarrier = new CyclicBarrier(numberOfThreads);
 ```
 
 每个线程都进行一些计算，在完成计算后，调用 wait()方法，如图所示:
 
-```
+```java
 public void run()
 {
     // thread does the computation
@@ -28,7 +28,7 @@ public void run()
 ![](img/30c9c648b258abc23029c57a92abece6.png)
 一旦调用 await()的线程数等于**的线程数**，屏障就会为等待的线程让路。CyclicBarrier 也可以通过一些操作来初始化，一旦所有线程都到达了该屏障，就会执行这些操作。这个动作可以组合/利用在屏障中等待的单个线程的计算结果。
 
-```
+```java
 Runnable action = ... 
 //action to be performed when all threads reach the barrier;
 CyclicBarrier newBarrier = new CyclicBarrier(numberOfThreads, action);
@@ -39,7 +39,7 @@ CyclicBarrier newBarrier = new CyclicBarrier(numberOfThreads, action);
 1.  **getParties:** Returns the number of parties required to trip this barrier.
     **Syntax:**
 
-    ```
+    ```java
     public int getParties()
     ```
 
@@ -49,7 +49,7 @@ CyclicBarrier newBarrier = new CyclicBarrier(numberOfThreads, action);
 2.  **reset:** Resets the barrier to its initial state.
     **Syntax:**
 
-    ```
+    ```java
     public void reset()
     ```
 
@@ -59,7 +59,7 @@ CyclicBarrier newBarrier = new CyclicBarrier(numberOfThreads, action);
 3.  **isBroken:** Queries if this barrier is in a broken state.
     **Syntax:**
 
-    ```
+    ```java
     public boolean isBroken()
     ```
 
@@ -69,7 +69,7 @@ CyclicBarrier newBarrier = new CyclicBarrier(numberOfThreads, action);
 4.  **getNumberWaiting:** Returns the number of parties currently waiting at the barrier.
     **Syntax:**
 
-    ```
+    ```java
     public int getNumberWaiting()
     ```
 
@@ -79,7 +79,7 @@ CyclicBarrier newBarrier = new CyclicBarrier(numberOfThreads, action);
 5.  **等待:**等待，直到各方在此屏障上调用了等待。
     **语法:**
 
-```
+```java
 public int await() throws InterruptedException, BrokenBarrierException
 ```
 
@@ -89,7 +89,7 @@ public int await() throws InterruptedException, BrokenBarrierException
 10.  **await:** Waits until all parties have invoked await on this barrier, or the specified waiting time elapses.
     **Syntax:**
 
-    ```
+    ```java
     public int await(long timeout, TimeUnit unit) 
     throws InterruptedException,
     BrokenBarrierException, TimeoutException
@@ -98,7 +98,7 @@ public int await() throws InterruptedException, BrokenBarrierException
     **返回:**
     当前线程的到达索引，其中索引 getParties()–1 表示第一个到达，零表示最后一个到达
 
-```
+```java
 //JAVA program to demonstrate execution on Cyclic Barrier
 
 import java.util.concurrent.TimeUnit;
@@ -204,7 +204,7 @@ public class Tester implements Runnable
 
 **输出:**
 
-```
+```java
 <Number of parties required to trip the barrier = 3
 Sum of product and sum = 0
 Is the barrier broken? - false
@@ -219,7 +219,7 @@ Barrier reset successful
 
 当任何等待的线程离开屏障时，屏障就会被破坏。当一个或多个等待线程被中断或等待时间结束时，会发生这种情况，因为线程调用了 await()方法，超时如下:
 
-```
+```java
 newBarrier.await(1000, TimeUnit.MILLISECONDS);
 // thread calling this await() 
 // methods waits for only 1000 milliseconds.

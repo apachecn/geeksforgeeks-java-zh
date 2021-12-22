@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int intValue()
 
 ```
@@ -19,7 +19,7 @@ public int intValue()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // intValue() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old value is: 52.0
 Current int value is: 52
 
@@ -59,7 +59,7 @@ Current int value is: 52
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // intValue() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old value is: 64.0
 Current int value is: 64
 

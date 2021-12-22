@@ -10,19 +10,19 @@
 
 **1。**创建空白工作簿。
 
-```
+```java
 XSSFWorkbook workbook = new XSSFWorkbook();
 ```
 
 **2。**创建一个工作表并命名。
 
-```
+```java
 XSSFSheet spreadsheet = workbook.createSheet(" Student Data ");
 ```
 
 **3。**创建一行
 
-```
+```java
 Row row = sheet.createRow(rownum++);
 ```
 
@@ -36,7 +36,7 @@ Row row = sheet.createRow(rownum++);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to write data in excel sheet using java code
 
 import java.io.File;

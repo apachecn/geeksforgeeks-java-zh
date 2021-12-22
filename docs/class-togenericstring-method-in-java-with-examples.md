@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toGenericString()
 
 ```
@@ -19,7 +19,7 @@ public String toGenericString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate toGenericString() method
 
 public class Test {
@@ -40,14 +40,14 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by c1: public final class java.lang.String
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate toGenericString() method
 
 public class Test {
@@ -74,7 +74,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by c2: int
 Class represented by c3: void
 

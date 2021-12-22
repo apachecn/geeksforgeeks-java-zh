@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Program to demonstrate how to apply toString() method
 // of ArrayBlockingQueue Class.
 
@@ -55,7 +55,7 @@ public static void main(String[] args) {
 
 **输出:**
 
-```
+```java
 Queue is [423, 422, 421, 420, 424]
 
 The String returned by toString():
@@ -65,7 +65,7 @@ The String returned by toString():
 
 **程序二:**
 
-```
+```java
 // Program Demonstrate how to apply toString() method
 // of ArrayBlockingQueue Class.
 
@@ -105,7 +105,7 @@ public static void main(String[] args) {
 
 **输出:**
 
-```
+```java
 Queue is [User, Employee, Manager, Analyst, HR, Tester]
 
 The String returned by toString():

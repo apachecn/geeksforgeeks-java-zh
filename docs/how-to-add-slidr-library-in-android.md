@@ -10,7 +10,7 @@
 
     1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。这将帮助我们直接添加主题和方法来添加动画。
 
-        ```
+        ```java
         dependencies {         
               implementation 'com.r0adkll:slidableactivity:2.1.0'     
         }         
@@ -18,7 +18,7 @@
 
     2.  现在为 Slidr 活动添加主题。将这些属性添加到主题中，这是 Slidr 正常工作所必需的。
 
-    ```
+    ```java
     <style name="AppTheme.SlidrActivityTheme">
             <item name="android:windowIsTranslucent">true</item>
             <item name="android:windowBackground">@android:color/transparent

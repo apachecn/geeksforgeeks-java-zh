@@ -6,7 +6,7 @@ Java 中 **[Locale 类](https://www.geeksforgeeks.org/java-util-locale-class-jav
 
 **语法:**
 
-```
+```java
 public String getDisplayVariant(Locale inLoc)
 ```
 
@@ -19,7 +19,7 @@ public String getDisplayVariant(Locale inLoc)
 以下程序说明了 getDisplayVariant()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate getDisplayVariant() method
 
 import java.util.*;
@@ -46,7 +46,7 @@ public class Locale_Demo {
 
 **Output:**
 
-```
+```java
 First Locale: th_TH_TH_#u-nu-thai
 Variant: TH
 
@@ -54,7 +54,7 @@ Variant: TH
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate getDisplayVariant() method
 
 import java.util.*;
@@ -81,7 +81,7 @@ public class Locale_Demo {
 
 **Output:**
 
-```
+```java
 First Locale: en_US
 Variant:
 

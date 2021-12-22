@@ -8,7 +8,7 @@
 
 战略接口必须由所有战略实施。
 
-```
+```java
 public interface Strategy {
   public void execute();
 }
@@ -16,7 +16,7 @@ public interface Strategy {
 
 所有策略都必须实现策略接口两个类显示了策略接口的实现并创建了一个执行方法。
 
-```
+```java
 public class StrategyA implements Strategy {
  @Override
  public void execute(){
@@ -25,7 +25,7 @@ public class StrategyA implements Strategy {
 }
 ```
 
-```
+```java
 public class StrategyB implements Strategy {
  @Override
  public void execute() {
@@ -36,7 +36,7 @@ public class StrategyB implements Strategy {
 
 主类将选择策略并执行我们选择的策略的执行方法。
 
-```
+```java
 public class GFG {
 
  private Strategy strategy;
@@ -53,7 +53,7 @@ public class GFG {
 
 使用策略的示例。
 
-```
+```java
 public class UseStrategy {
 
 public static void main(String[] args){
@@ -75,7 +75,7 @@ context.executeStrategy();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Implement a Strategy Pattern using Enum
 
 enum Strategy {
@@ -114,7 +114,7 @@ enum Strategy {
 
 **Output**
 
-```
+```java
 Executing strategy A
 Executing strategy B
 ```

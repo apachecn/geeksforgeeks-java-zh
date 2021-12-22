@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static final short tertiaryOrder(int order)
 ```
 
@@ -18,7 +18,7 @@ public static final short tertiaryOrder(int order)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // tertiaryOrder() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 tertiary order for order 1 is 1
 tertiary order for order 2 is 0
 tertiary order for order 3 is 0
@@ -82,7 +82,7 @@ tertiary order for order 13 is 0
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // tertiaryOrder() method
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 tertiary order for order 1 is 0
 tertiary order for order 2 is 1
 tertiary order for order 3 is 0

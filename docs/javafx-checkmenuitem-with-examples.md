@@ -21,7 +21,7 @@ CheckMenuItem 是 JavaFX 库的一部分。CheckMenuItem 可以添加到菜单�
 
 1.  **Java program to create a menu bar and add a menu to it and also add checkmenuitems to menu:** This program creates a menubar indicated by the name menu_bar. A menu will be created by name menu and 3 checkmenuitems menuitem1, menuitem2, menuitem3 will be added to the menu and the menu will be added to the menubar menu_bar. The menubar will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a VBox is created, on which addChildren() method is called to attach the menubar inside the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a menu bar and add
     // menu to it and also add checkmenuitems to menu
     import javafx.application.Application;
@@ -86,7 +86,7 @@ CheckMenuItem 是 JavaFX 库的一部分。CheckMenuItem 可以添加到菜单�
 
 2.  **Java program to create a menu bar and add menu to it and also add checkmenuitems to menu and also add an event handler to handle the events:** This program creates a menubar indicated by the name menu_bar. A menu will be created by name menu and 3 checkmenuitems menuitem1, menuitem2, menuitem3 will be added to the menu and the menu will be added to the menubar menu_bar. The menubar will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a VBox is created, on which addChildren() method is called to attach the menubar inside the scene. Finally, the show() method is called to display the final results. A label will also be created that will show which checkmenuitem is selected. An action event will be created to process the action when the check menu item is clicked by the user.
 
-    ```
+    ```java
     // Java program to create a menu bar and add
     // menu to it and also add checkmenuitems to menu
     // and also add event handler to handle the events

@@ -6,7 +6,7 @@ T2。floatValue() 将此 BigDecimal 转换为浮点数。如果这个大十进�
 
 **语法:**
 
-```
+```java
 public float floatValue()
 
 ```
@@ -17,7 +17,7 @@ public float floatValue()
 
 **例:**
 
-```
+```java
 Input: BigDecimal1 = 1234
 Output: 1234.0
 
@@ -37,7 +37,7 @@ Float.POSITIVE_INFINITY as appropriate.
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // floatValue() method of BigDecimal
 
@@ -69,14 +69,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 5.4545646E23
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // floatValue() method of BigDecimal
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 984522.0
 
 ```

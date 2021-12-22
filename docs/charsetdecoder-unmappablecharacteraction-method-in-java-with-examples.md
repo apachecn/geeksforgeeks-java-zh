@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public CodingErrorAction unmappableCharacterAction()
 ```
 
@@ -18,7 +18,7 @@ public CodingErrorAction unmappableCharacterAction()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharsetDecoder: sun.nio.cs.ext.ISO2022_CN$Decoder@232204a1
 Current action for unmappable-character errors: REPORT
 
@@ -57,7 +57,7 @@ Current action for unmappable-character errors: REPORT
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharsetDecoder: sun.nio.cs.ext.DoubleByte$Decoder@232204a1
 Current action for unmappable-character errors: REPORT
 

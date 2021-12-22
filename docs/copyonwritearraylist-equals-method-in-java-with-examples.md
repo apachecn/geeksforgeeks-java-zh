@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean equals(Object o)
 ```
 
@@ -18,7 +18,7 @@ boolean equals(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // addAll method in list interface
 
@@ -56,7 +56,7 @@ public class GfG {
 
 **程序 2:**
 
-```
+```java
 // Java code to show the implementation of
 // addAll method in list interface
 

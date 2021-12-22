@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static LocalTime ofNanoOfDay(long nanoOfDay)
 
 ```
@@ -21,7 +21,7 @@ public static LocalTime ofNanoOfDay(long nanoOfDay)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.ofNanoOfDay() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime: 03:57:25
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.ofNanoOfDay() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime: 00:00:05
 
 ```

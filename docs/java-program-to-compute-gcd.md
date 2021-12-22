@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```java
 Input: 20, 30
 Output: GCD(20, 30) =10
 Explanation: 10 is the highest integer which divides both 20 and 30 leaving 0 remainder
@@ -36,7 +36,7 @@ Explanation: 36 and 37 don't have any factors in common except 1\. So, 1 is the 
 
 **例:**
 
-```
+```java
 A = 20, B = 30
 Factors of A : (1, 2, 4, 5, 10, 20)
 Factors of B : (1, 2, 3, 5, 6, 10, 15, 30)
@@ -48,7 +48,7 @@ Highest of the Common factors (GCD) = 10
 
 ## 爪哇
 
-```
+```java
 // Java program to compute GCD of
 // two numbers using general
 // approach
@@ -94,7 +94,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 GCD = 10
 ```
 
@@ -104,7 +104,7 @@ GCD = 10
 
 **示例**
 
-```
+```java
 A = 30, B = 20
 gcd(30, 20) -> gcd(A, B)
 gcd(20, 30 - 20) = gcd(20,10) -> gcd(B,B-A)
@@ -116,7 +116,7 @@ So stop the procedure. And 10 is the GCD of 30 and 20
 
 ## Java
 
-```
+```java
 // Java program to compute GCD
 // of two numbers using Euclid's
 // repeated subtraction approach
@@ -152,7 +152,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 GCD = 10
 ```
 
@@ -162,7 +162,7 @@ GCD = 10
 
 **示例:**
 
-```
+```java
 A = 30, B = 20
 gcd(30, 20) -> gcd(A, B)
 gcd(20, 30 % 20) = gcd(20, 10) -> gcd(B, A % B)
@@ -174,7 +174,7 @@ So, stop the procedure. And 10 is the GCD of 30 and 20
 
 ## Java
 
-```
+```java
 // Java program to compute GCD
 // of two numbers using Euclid's
 // repeated division approach
@@ -210,7 +210,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 GCD = 10
 ```
 

@@ -5,7 +5,7 @@
 **字节缓冲类**的 **toString()** 方法是用于返回表示字节缓冲对象包含的数据的字符串的内置方法。创建并初始化一个新的字符串对象，从这个字节缓冲对象中获取字符序列，然后由 toString()返回字符串。对象包含的对该序列的后续更改不会影响字符串的内容。
 **语法:**
 
-```
+```java
 public abstract String toString()
 ```
 
@@ -15,7 +15,7 @@ public abstract String toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original ByteBuffer: [10, 20, 0, 0, 0]
 
 string representation of ByteBuffer:  java.nio.HeapByteBuffer[pos=2 lim=5 cap=5]
@@ -65,7 +65,7 @@ string representation of ByteBuffer:  java.nio.HeapByteBuffer[pos=2 lim=5 cap=5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original ByteBuffer: [10, 20, 30, 40]
 
 string representation of ByteBuffer:  java.nio.HeapByteBuffer[pos=4 lim=4 cap=4]

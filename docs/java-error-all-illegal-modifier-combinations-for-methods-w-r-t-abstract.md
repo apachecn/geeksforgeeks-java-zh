@@ -8,7 +8,7 @@
 
 ## Java
 
-```
+```java
 // Java program to illustrate
 // illegal modifier combination
 
@@ -28,7 +28,7 @@ class GFG {
 
 上面的代码抛出编译时错误如下:
 
-```
+```java
 GFG.java:13: error: illegal combination of modifiers: public and protected
    protected public void m1() {}
                          ^
@@ -49,7 +49,7 @@ GFG.java:13: error: illegal combination of modifiers: public and protected
 
 ## Java
 
-```
+```java
 // Java program to illustrate
 // Abstract method
 
@@ -86,7 +86,7 @@ class Cat extends Animal {
 
 **Output**
 
-```
+```java
 Meow!
 ```
 
@@ -96,7 +96,7 @@ Meow!
 
 任何作为继承它的类的一般化的类都可以被声明为抽象的。例如，动物类是对各种动物的概括。所有的动物都有一些共同的属性，但是有不同的价值和实现。因此，动物类可能看起来像这样:
 
-```
+```java
 abstract class Animal {
 
     public abstract String getSound();

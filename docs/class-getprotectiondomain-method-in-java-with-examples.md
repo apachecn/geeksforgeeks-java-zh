@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ProtectionDomain getProtectionDomain()
 
 ```
@@ -23,7 +23,7 @@ public ProtectionDomain getProtectionDomain()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getProtectionDomain() method
 
@@ -59,7 +59,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "getProtectionDomain")
 
@@ -67,7 +67,7 @@ java.security.AccessControlException: access denied ("java.lang.RuntimePermissio
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getProtectionDomain() method
 
@@ -104,7 +104,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Main
 java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "getProtectionDomain")
 

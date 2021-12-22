@@ -6,7 +6,7 @@ Java 中[比较器接口](https://www.geeksforgeeks.org/comparator-interface-jav
 
 **语法:**
 
-```
+```java
 default Comparator<T> reversed()
 ```
 
@@ -20,7 +20,7 @@ default Comparator<T> reversed()
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // Comparator.reversed()  method
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 before sort : [aman, amar, avik]
 after sort : [avik, amar, aman]
 
@@ -56,7 +56,7 @@ after sort : [avik, amar, aman]
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // Comparator.reversed()  method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Before sorting:
 [KKR, CSK, MI, KXIP, RCB, SRH, DC, RR]
 After sorting:

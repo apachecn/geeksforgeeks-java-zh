@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Byte Array to String
 // Without character encoding
 
@@ -47,7 +47,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [71, 101, 101, 107, 115, 102, 111, 114, 103, 101, 101, 107, 115]
 Geeksforgeeks
 ```
@@ -62,7 +62,7 @@ Geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Byte Array to String
 // With character encoding
 
@@ -96,7 +96,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeksforgeeks
 ```
 

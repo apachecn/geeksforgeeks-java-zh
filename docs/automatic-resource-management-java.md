@@ -12,7 +12,7 @@ Java 提供了一个功能，使代码更加健壮，并减少了代码行。从
 
 在 JDK 1.7 之前的早期版本的 Java 中，关闭资源是使用 finally 块完成的。
 
-```
+```java
 // Java program to illustrate cleaning of 
 // resources before Java 7
 
@@ -76,7 +76,7 @@ class Resource 
 
 输出:
 
-```
+```java
 hello
 java
 ```
@@ -87,7 +87,7 @@ java
 **语法:**
 以下示例读取文件的第一行。它使用一个 BufferedReader 实例从文件中读取数据。缓冲区缓存器是一种资源，在程序结束后必须关闭:
 
-```
+```java
 static String readFirstLineFromFile(String path) throws IOException
 {
     try (BufferedReader br = new BufferedReader(new FileReader(path)))
@@ -97,7 +97,7 @@ static String readFirstLineFromFile(String path) throws IOException
 }
 ```
 
-```
+```java
 // Java program to illustrate 
 // Automatic Resource Management 
 // in Java without finally block
@@ -143,7 +143,7 @@ class Resource 
 
 输出:
 
-```
+```java
 hello 
 java
 ```
@@ -152,7 +152,7 @@ java
 
 在资源尝试块中可以使用多个资源，并自动关闭它们。在这种情况下，资源将以它们在括号内创建的相反顺序关闭。
 
-```
+```java
 // Java program to illustrate 
 // Automatic Resource Management 
 // in Java with multiple resource
@@ -203,7 +203,7 @@ class Demo1 implements AutoCloseable 
 
 输出:
 
-```
+```java
 close from demo1
 close from demo
 ```

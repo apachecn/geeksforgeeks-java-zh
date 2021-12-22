@@ -10,7 +10,7 @@
 *   compute()方法可用于更新哈希表中的现有值。
     例如，该映射追加映射的字符串值:
 
-    ```
+    ```java
     Hashtable.compute(key, (k, v) -> v.append("strValue"))
 
     ```
@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 public V 
        compute(K key,
              BiFunction<? super K, ? super V, ? extends V> remappingFunction)
@@ -40,7 +40,7 @@ public V
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // compute(Key, BiFunction) method.
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashTable: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 new hashTable: {Book=500, Mobile=5000, Pen=25, Clothes=280}
 
@@ -85,7 +85,7 @@ new hashTable: {Book=500, Mobile=5000, Pen=25, Clothes=280}
 
 **输出:**
 
-```
+```java
 hashTable: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 new hashTable: {Book=500, Mobile=5000, Pen=25, Clothes=280}
 
@@ -93,7 +93,7 @@ new hashTable: {Book=500, Mobile=5000, Pen=25, Clothes=280}
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // compute(Key, BiFunction) method.
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashTable: {3=1000RS, 2=500RS, 1=100RS}
 new hashTable: {3=100000RS, 2=50$, 1=100RS}
 

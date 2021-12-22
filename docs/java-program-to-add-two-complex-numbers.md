@@ -6,7 +6,7 @@
 
 **任何复数的一般形式为:**
 
-```
+```java
 a+ib
 
 Where "a" is real number and "b" is Imaginary number.
@@ -18,7 +18,7 @@ Where "a" is real number and "b" is Imaginary number.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to construct the complex number
 
 class ComplexNumber {
@@ -64,7 +64,7 @@ class ComplexNumber {
 
 **功能定义:**
 
-```
+```java
 ComplexNumber add(ComplexNumber n1, ComplexNumber n2){
 
   ComplexNumber res = new ComplexNumber(0,0); //creating blank complex number 
@@ -85,7 +85,7 @@ ComplexNumber add(ComplexNumber n1, ComplexNumber n2){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add two complex numbers
 
 class ComplexNumber {
@@ -153,7 +153,7 @@ class ComplexNumber {
 
 **Output**
 
-```
+```java
 first Complex number: 4 +i5
 Second Complex number: 10 +i5
 Addition is :

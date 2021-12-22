@@ -8,14 +8,14 @@ ConcurrentSkipListMap API 是基于 ConcurrentNavigableMap 的实现的。此地
 
 **所有实现的接口:**
 
-```
+```java
 Serializable, Cloneable, ConcurrentMap<K,V>, ConcurrentNavigableMap<K,V>, Map<K,V>, 
 NavigableMap<K,V>, SortedMap<K,V>
 ```
 
 **语法:**
 
-```
+```java
 public class ConcurrentSkipListMap<K,V>
  extends AbstractMap<K,V>
 implements ConcurrentNavigableMap<K,V>, Cloneable, Serializable
@@ -66,7 +66,7 @@ implements ConcurrentNavigableMap<K,V>, Cloneable, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -372,7 +372,7 @@ public class ConcurrentSkipList<K, V> {
 
 **输出:**
 
-```
+```java
 The key set of the map is 
 1    2    3    4    5    6    
 The values of the concurrentSkipListMap is 

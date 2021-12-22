@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int get(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ public int get(TemporalField field)
 
 **程序 1** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.*;
@@ -44,14 +44,14 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 3
 
 ```
 
 **程序二** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.*;
@@ -71,7 +71,7 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 11
 
 ```

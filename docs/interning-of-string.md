@@ -17,7 +17,7 @@
 
 建议使用 equals()，而不是==，来比较两个字符串。这是因为==运算符比较内存位置，而 equals()方法比较存储在两个对象中的内容。
 
-```
+```java
 // Java program to illustrate 
 // intern() method 
 class GFG { 
@@ -47,7 +47,7 @@ class GFG { 
 
 输出:
 
-```
+```java
 false
 true
 true
@@ -60,7 +60,7 @@ true
 
 如果相应的字符串常量池(SCP)对象不可用，那么 intern()方法本身将创建相应的 SCP 对象。
 
-```
+```java
 // Java program to illustrate 
 // intern() method 
 class GFG { 
@@ -87,7 +87,7 @@ class GFG { 
 
 输出:
 
-```
+```java
 true
 true
 

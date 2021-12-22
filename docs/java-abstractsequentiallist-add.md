@@ -10,7 +10,7 @@ abstractsequentialilist**add(int index，E element)** 方法将指定的元素�
 
 **语法**
 
-```
+```java
 public void add(int index, E element)
 ```
 
@@ -31,7 +31,7 @@ public void add(int index, E element)
 
 **程序 1:** 添加元素，不通过索引
 
-```
+```java
 // Java program to demonstrate
 // add() method
 
@@ -57,7 +57,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [5, 6, 7]
 
 ```
@@ -65,7 +65,7 @@ public class GfG {
 Java-collections 移除术语:Java-函数 Java-函数
 **程序 2:** 通过传递索引来添加元素
 
-```
+```java
 // Java program to demonstrate
 // add() method
 
@@ -92,14 +92,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [8, 9, 7, 10]
 
 ```
 
 **程序 3:** 演示 IndexOutOfBoundException
 
-```
+```java
 // Java code to show IndexOutofBoundException
 
 import java.util.*;
@@ -137,7 +137,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [5, 9, 6, 7, 10, 8, 7]
 Exception: java.lang.IndexOutOfBoundsException: Index: 10, Size: 7
 

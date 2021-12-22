@@ -6,7 +6,7 @@ Java 方法中**时空数据时间**接口的 **from()** 方法从时态对象�
 
 **语法** :
 
-```
+```java
 static ChronoZonedDateTime 
     from(TemporalAccessor temporal)
 
@@ -22,7 +22,7 @@ static ChronoZonedDateTime
 
 **注意**:每次运行输出都会改变。
 
-```
+```java
 // Program to illustrate the from() method
 
 import java.util.*;
@@ -43,7 +43,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2019-05-26T12:36:04.419Z[Etc/UTC]
 
 ```

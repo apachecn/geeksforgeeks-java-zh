@@ -17,7 +17,7 @@ HashMap 是一种以“键/值”对存储项目的数据结构。它们可以�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to convert ArrayList
 // to Hashmap before Java 8
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: 
 
 Car
@@ -101,7 +101,7 @@ Cycle : 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to convert ArrayList
 // to Hashmap before Java 8
 
@@ -163,7 +163,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: 
 
 Car

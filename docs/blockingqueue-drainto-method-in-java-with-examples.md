@@ -14,7 +14,7 @@ BlockingQueue 的 **drainTo(Collection col)** 方法从这个 LinkedBlocking Que
 
 **语法:**
 
-```
+```java
 public int drainTo(Collection<? super E> col)
 ```
 
@@ -33,7 +33,7 @@ public int drainTo(Collection<? super E> col)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate drainTo(Collection c)
 // method of BlockingQueue.
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before drainTo():
 LinkedBlockingQueue : 
 [Employee [name=Aman, position=Analyst, salary=24000], Employee [name=Sachin, position=Developer, salary=39000]]
@@ -134,7 +134,7 @@ ArrayList :
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate
 // drainTo(Collection C)
 // method of BlockingQueue.
@@ -176,7 +176,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```
@@ -187,7 +187,7 @@ Exception: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 public int drainTo(Collection<? super E> col, int maxElements)
 ```
 
@@ -211,7 +211,7 @@ public int drainTo(Collection<? super E> col, int maxElements)
 
 下面的程序有一个存储员工对象的阻塞队列，还有一个存储阻塞队列中所有员工对象的哈希集。所以 BlockingQueue 的 drainTo()用于将某个员工从队列传递到数组列表。因此，没有要传输的元素作为参数在方法中传递。
 
-```
+```java
 // Java program  to demonstrate drainTo()
 // method of BlockingQueue.
 
@@ -311,7 +311,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before drainTo():
 No of Elements in Queue is 3
 Elements in Queue is as follows

@@ -13,7 +13,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to convert pre defined class object
 // (Helper class) to string using value() method
 
@@ -50,7 +50,7 @@ class Helper {
 
 **输出**
 
-```
+```java
 Converted string object || using toString() Method: Helper@214c265e
 Converted string object || using valueOf() Method: Helper@214c265e
 ```

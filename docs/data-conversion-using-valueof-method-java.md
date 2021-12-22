@@ -6,7 +6,7 @@
 
 当需要其他类型数据的字符串表示时调用，例如在串联操作中，你可以用任何数据类型调用这个方法，得到一个合理的字符串表示 **valueOf()** 返回 java.lang.Integer，它是整数的对象表示**value of()的几种形式:**
 
-```
+```java
 static String valueOf(int num)
 static String valueOf(float num)
 static String valueOf(boolean sta)
@@ -29,7 +29,7 @@ static String valueOf(char chars[])
 
 **例 1:**
 
-```
+```java
 Input : 30
 // concatenating  integer value with a String 
 Output: 3091
@@ -41,7 +41,7 @@ Output: 914.56589
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // working of valueOf() methods
 class ValueOfExa {
@@ -73,7 +73,7 @@ class ValueOfExa {
 
 **Output**
 
-```
+```java
 30
 3091
 4.56789
@@ -85,7 +85,7 @@ class ValueOfExa {
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // working of valueOf() methods
 class ValueOfExa {
@@ -118,7 +118,7 @@ class ValueOfExa {
 
 **输出**
 
-```
+```java
 GEEKS FOR GEEKS
 GEEKS
 FOR GEEK
@@ -127,7 +127,7 @@ FOR GEEK
 
 **例 3:**
 
-```
+```java
 Input :Geeks for Geeks
 // check if String value contains a 
 // specific string by method contains("Geeks");
@@ -136,7 +136,7 @@ Output:true
 
 ## Java
 
-```
+```java
 // The following example shows the
 // usage of <strong>valueOf(boolean sta)</strong method.
 public class StringValueOfBoolean {
@@ -156,7 +156,7 @@ public class StringValueOfBoolean {
 
 **输出**
 
-```
+```java
 true
 
 ```

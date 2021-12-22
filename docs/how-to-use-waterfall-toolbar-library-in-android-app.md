@@ -18,7 +18,7 @@
 
 要添加库依赖项**请转到应用程序** > **梯度脚本** > **梯度构建(模块:应用程序)**并添加以下依赖项。
 
-```
+```java
 dependencies {
     // library required to add the waterfall effect
     implementation 'com.github.hugocastelani:waterfall-toolbar:0.5.0'
@@ -53,7 +53,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"

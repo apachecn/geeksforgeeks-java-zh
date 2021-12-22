@@ -4,7 +4,7 @@
 
 我们已经讨论过数组列表的[数组在没有警告的情况下是不可能的。更好的方法是使用数组列表的数组列表。](https://www.geeksforgeeks.org/array-of-arraylist-in-java/)
 
-```
+```java
 // Java code to demonstrate the concept of
 // array of ArrayList
 
@@ -47,7 +47,7 @@ public class Arraylist {
 
 **Output:**
 
-```
+```java
 1 2 
 5 
 10 20 30

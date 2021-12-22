@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for Stream filter
 // (Predicate predicate) to get a stream
 // consisting of the elements of this
@@ -45,7 +45,7 @@ class StreamFilterExample {
 
 **Output**
 
-```
+```java
 https://www.geeksforgeeks.org/
 
 ```
@@ -56,7 +56,7 @@ https://www.geeksforgeeks.org/
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // filter by Object properties
 
@@ -126,7 +126,7 @@ class FilterByObjectProperties {
 
 **Output**
 
-```
+```java
 4
 10
 ======
@@ -150,7 +150,7 @@ in
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // filter by Object Indices
 // using AtomicInteger
@@ -191,7 +191,7 @@ class FilterByObjectIndex {
 
 **Output**
 
-```
+```java
 stream
 a
 of
@@ -205,7 +205,7 @@ like
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // filter by Object properties
 // using IntSteam Approach
@@ -240,7 +240,7 @@ class FilterByObjectIndexUsingIntStream {
 
 **Output**
 
-```
+```java
 stream
 a
 of
@@ -254,7 +254,7 @@ like
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // filter by Custom Properties
 
@@ -311,7 +311,7 @@ class CustomFiltering {
 
 **Output**
 
-```
+```java
 Employee [name=Kumar]
 Employee [name=Rakesh]
 
@@ -321,7 +321,7 @@ Employee [name=Rakesh]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Custom filter
 
@@ -362,7 +362,7 @@ class CustomFilterExample {
 
 **Output**
 
-```
+```java
 madam
 refer
 racecar

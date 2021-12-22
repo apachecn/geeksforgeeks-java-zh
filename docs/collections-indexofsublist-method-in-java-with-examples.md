@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static int indexOfSubList(List source, List target)
 ```
 
@@ -23,7 +23,7 @@ public static int indexOfSubList(List source, List target)
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // indexOfSubList() method
     // for String value
@@ -77,7 +77,7 @@ public static int indexOfSubList(List source, List target)
 
     **Output:**
 
-    ```
+    ```java
     Source list: [A, B, C, D, E]
     Target list: [C, D, E]
     Target list starts at index: 2
@@ -86,7 +86,7 @@ public static int indexOfSubList(List source, List target)
 
     **例 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // indexOfSubList() method
     // for Integer value
@@ -139,7 +139,7 @@ public static int indexOfSubList(List source, List target)
 
     **Output:**
 
-    ```
+    ```java
     Source list: [20, 30, 40, 50, 60]
     Target list: [40, 50]
     Target list starts at index: 2

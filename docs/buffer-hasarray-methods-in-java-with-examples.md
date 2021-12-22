@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract boolean hasArray()
 ```
 
@@ -16,7 +16,7 @@ public abstract boolean hasArray()
 
 **示例 1:** 当缓冲区由数组
 
-```
+```java
 // Java program to demonstrate
 // hasArray() method
 
@@ -70,14 +70,14 @@ public class GFG {
 
 **支持时，输出:**
 
-```
+```java
 buffer is backed by array
 
 ```
 
 **示例 2:** 当缓冲区没有数组支持时
 
-```
+```java
 // Java program to demonstrate
 // hasArray() method
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 buffer is not backed by any array
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object o)
 ```
 
@@ -20,7 +20,7 @@ public boolean contains(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of BlockingQueue
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Queue: [10, 20, 30, 40]
 Blocking Queue contains 10
 
@@ -67,7 +67,7 @@ Blocking Queue contains 10
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of BlockingQueue
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Queue: [ab, cd, fg, xz]
 Blocking Queue does not contain 'go'
 

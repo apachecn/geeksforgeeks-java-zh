@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Return the Elements
 // at Odd Positions in a List
 import java.io.*;
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements at odd position are : 20 40 60
 ```
 
@@ -75,7 +75,7 @@ Elements at odd position are : 20 40 60
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Return the Elements
 // at Odd Positions in a List
 
@@ -109,6 +109,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements at odd positions are : 20 40 60
 ```

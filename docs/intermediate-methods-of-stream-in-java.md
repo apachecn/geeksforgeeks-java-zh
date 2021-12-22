@@ -28,7 +28,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to illustrate Intermediate Methods of Streams
 // Case 1: filter(predicate) Method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Even numbers are : 20 48 56 32 
 ```
 
@@ -88,7 +88,7 @@ Even numbers are : 20 48 56 32
 
 ## Java
 
-```
+```java
 // Java Program to illustrate Intermediate Method of Stream
 // Case 2: sorted() Method
 
@@ -136,7 +136,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 8
 19
 21
@@ -155,7 +155,7 @@ class GFG {
 
 ## Java
 
-```
+```java
 // Java Program to illustrate Intermediate Method of Stream
 // Case 3: distinct() Method
 
@@ -204,7 +204,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 12 54 63 7 98 72 
 
 Sorted List is 
@@ -217,7 +217,7 @@ Sorted List is
 
 **语法:**
 
-```
+```java
 stream().map(mapper)
 ```
 
@@ -227,7 +227,7 @@ stream().map(mapper)
 
 ## Java
 
-```
+```java
 // Java Program to illustrate Intermediate Stream Methods
 // Case 4: map() Method
 
@@ -308,7 +308,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 125 6859 512 12167 216 157464 32768 125 12167 
 
 Output after distinct() implementation : 

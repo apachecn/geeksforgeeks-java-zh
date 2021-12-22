@@ -5,7 +5,7 @@
 **DoubleStream count()** 返回流中元素的计数。DoubleStream count()存在于 java.util.stream.DoubleStream 中，这是一种**约简**的特殊情况，即它采用一系列输入元素，并将它们组合成一个汇总结果。
 **语法:**
 
-```
+```java
 long count()
 
 ```
@@ -14,7 +14,7 @@ long count()
 
 **例 1 :** 计算双流中的元素。
 
-```
+```java
 // Java code for DoubleStream count()
 // to count the number of elements in
 // given stream
@@ -42,14 +42,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 7
 
 ```
 
 **例 2 :** 计算双流中不同的元素。
 
-```
+```java
 // Java code for DoubleStream count()
 // to count the number of distinct
 // elements in given stream
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5
 
 ```

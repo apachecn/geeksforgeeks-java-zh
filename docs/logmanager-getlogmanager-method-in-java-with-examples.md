@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static LogManager getLogManager()
 
 ```
@@ -17,7 +17,7 @@ public static LogManager getLogManager()
 
 下面程序说明 getLogManager()方法:
 
-```
+```java
 // Java program to illustrate
 // LogManager getLogManager() method
 
@@ -40,7 +40,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Global LogManager object: java.util.logging.LogManager@1540e19d
 
 ```

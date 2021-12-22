@@ -5,14 +5,14 @@
 **LongStream count()** 返回流中元素的计数。LongStream count()存在于 Java . util . stream . LongStream
 **语法:**
 
-```
+```java
 long count()
 
 ```
 
 **例 1 :** 计算 LongStream 中的元素。
 
-```
+```java
 // Java code for LongStream count()
 // to count the number of elements in
 // given stream
@@ -40,14 +40,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 7
 
 ```
 
 **例 2 :** 统计给定范围内的元素。
 
-```
+```java
 // Java code for LongStream count()
 // to count the number of elements in
 // given range excluding the last element
@@ -74,14 +74,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 48
 
 ```
 
 **例 3 :** 计算 LongStream 中不同的元素。
 
-```
+```java
 // Java code for LongStream count()
 // to count the number of distinct
 // elements in given stream
@@ -109,7 +109,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5
 
 ```

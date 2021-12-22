@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: str = "geeksforgeeks", c = 'e'
 Output: 4
 'e' appears four times in str.
@@ -25,7 +25,7 @@ Output: 3
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to count occurrences
 // of a character using Stream
 
@@ -55,7 +55,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 4
 
 ```

@@ -5,7 +5,7 @@
 Calendar 类中的 **isLenient()** 方法是用来了解和理解这个 Calendar 的日期和时间解释是否算宽大。
 **语法:**
 
-```
+```java
 public boolean isLenient()
 ```
 
@@ -16,7 +16,7 @@ public boolean isLenient()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // isLenient() method
 
@@ -45,7 +45,7 @@ public class CalendarDemo {
 
 **Output**
 
-```
+```java
 Current Calendar: Tue Nov 30 10:25:50 UTC 2021
 Calendar is lenient: true
 ```
@@ -54,7 +54,7 @@ Calendar is lenient: true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // isLenient() method
 
@@ -85,7 +85,7 @@ public class CalendarDemo {
 
 **Output**
 
-```
+```java
 Current Calendar: Tue Nov 30 10:26:18 UTC 2021
 Calendar is lenient: false
 ```

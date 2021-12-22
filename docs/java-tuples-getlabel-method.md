@@ -6,13 +6,13 @@
 
 **方法声明:**
 
-```
+```java
 public A getLabel()
 ```
 
 **语法:**
 
-```
+```java
 LabelValue 
 ```
 
@@ -22,7 +22,7 @@ LabelValue
 
 **例 1** :
 
-```
+```java
 // Below is a Java program to get
 // a LabelValue value
 
@@ -47,14 +47,14 @@ class GfG {
 
 **输出**:
 
-```
+```java
 1
 
 ```
 
 **例 2** :
 
-```
+```java
 // Below is a Java program to get
 // a LabelValue value
 
@@ -80,7 +80,7 @@ class GfG {
 
 **输出**:
 
-```
+```java
 GeeksforGeeks
 
 ```

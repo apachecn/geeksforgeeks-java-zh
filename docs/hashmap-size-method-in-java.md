@@ -6,7 +6,7 @@ HashMap 类的 java.util.HashMap.size()方法用于获取映射的大小，该�
 
 **语法:**
 
-```
+```java
 Hash_Map.size()
 ```
 
@@ -17,7 +17,7 @@ Hash_Map.size()
 下面的程序说明了 java.util.HashMap.size():
 程序 1:将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the size() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The size of the map is 5
 
@@ -54,7 +54,7 @@ The size of the map is 5
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the size() method
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The size of the map is 4
 

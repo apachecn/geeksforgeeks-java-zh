@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **withDayOfMonth()** 方法用于获取该 Loc
 
 **语法:**
 
-```
+```java
 public LocalDateTime withDayOfMonth(int dayOfMonth)
 ```
 
@@ -20,7 +20,7 @@ public LocalDateTime withDayOfMonth(int dayOfMonth)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withDayOfMonth() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2018-11-30T10:38:27.429
 New LocalDateTime: 2018-11-25T10:38:27.429
 
@@ -53,7 +53,7 @@ New LocalDateTime: 2018-11-25T10:38:27.429
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withDayOfMonth() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2015-04-06T10:15:30
 New LocalDateTime: 2015-04-01T10:15:30
 

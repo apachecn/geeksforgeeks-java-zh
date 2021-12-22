@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final long updateAndGet(LongUnaryOperator function)
 ```
 
@@ -18,7 +18,7 @@ public final long updateAndGet(LongUnaryOperator function)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicLong updateAndGet() method
 
@@ -46,7 +46,7 @@ public class Demo {
 
 **Output:** 
 
-```
+```java
 Initial Value is -20000
 Updated value is 20000
 ```

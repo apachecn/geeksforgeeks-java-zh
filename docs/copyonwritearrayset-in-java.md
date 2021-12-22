@@ -17,7 +17,7 @@
 
 ****阶级等级:**** 
 
-```
+```java
 java.lang.Object
    ↳ java.util.AbstractCollection<E>
         ↳ java.util.AbstractSet<E>
@@ -26,7 +26,7 @@ java.lang.Object
 
 ****申报:****
 
-```
+```java
 public class CopyOnWriteArraySet<E> extends AbstractSet<E> implements Serializable 
 ```
 
@@ -46,7 +46,7 @@ public class CopyOnWriteArraySet<E> extends AbstractSet<E> implements Serializab
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate 
 // CopyOnWriteArraySet class
 import java.util.concurrent.*;
@@ -111,7 +111,7 @@ public class ConcurrentDemo extends Thread {
 
 ****输出:**** 
 
-```
+```java
 [A, B, C, D]
 A
 B
@@ -125,7 +125,7 @@ Exception in thread "main" java.lang.UnsupportedOperationException
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate
 // Iterating over CopyOnWriteArraySet class
 import java.io.*;
@@ -166,7 +166,7 @@ class IteratingCopyOnWriteArraySet {
 
 ****Output:**
 
-```
+```java
 Set contains: 
 Set contains:
 GeeksforGeeks

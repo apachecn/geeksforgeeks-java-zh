@@ -6,7 +6,7 @@
 
 **插图:**
 
-```
+```java
 Input : Set: ["A"=36678 , "B"=456456 ,"C"=76434 ,"D"=4564]
 Output: Least value => element: D, value: 4564
 
@@ -28,7 +28,7 @@ Output: Set: Least value =>element: x, value: 1
 
 ## Java
 
-```
+```java
 // Java program to find out the least value element
 // in a TreeSet
 
@@ -133,6 +133,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 Least value =>element: D, value: 4564
 ```

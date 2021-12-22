@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to print  
 public class GFG { 
     public static void main(String args[]) 
@@ -20,7 +20,7 @@ public class GFG { 
 
 **输出:**
 
-```
+```java
 Welcome to GFG
 ```
 
@@ -30,7 +30,7 @@ Welcome to GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php 
 
 // Here echo command is
@@ -41,7 +41,7 @@ echo "Welcome to GFG!"; 
 
 **输出:**
 
-```
+```java
 Welcome to GFG!
 ```
 

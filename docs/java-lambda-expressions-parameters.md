@@ -8,7 +8,7 @@ Lambda 表达式只实现一个抽象函数，因此实现函数接口。谓词�
 
 插图:
 
-```
+```java
 interface Predicate
 {
     ......
@@ -32,13 +32,13 @@ interface Predicate
 
 **语法:**
 
-```
+```java
 () -> System.out.println("Hello");
 ```
 
 它采用以下形式的接口:
 
-```
+```java
 interface Test1
 {
     void print()
@@ -49,7 +49,7 @@ interface Test1
 
 **语法:**
 
-```
+```java
 (p) -> System.out.println(p);
 ```
 
@@ -57,7 +57,7 @@ interface Test1
 
 它采用以下形式的接口:
 
-```
+```java
 interface Test2
 {
     void print(Integer p)
@@ -68,7 +68,7 @@ lamdas 的类型和返回类型是自动推断的。
 
 **类型 3:** 多参数
 
-```
+```java
 (p1, p2) -> System.out.println(p1 + " " + p2);
 ```
 
@@ -76,7 +76,7 @@ lamdas 的类型和返回类型是自动推断的。
 
 它采用以下形式的接口:
 
-```
+```java
 interface Test3
 {
     void print(Integer p1, Integer p2)
@@ -95,7 +95,7 @@ lamdas 的类型和返回类型是自动推断的。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate lambda expression
 // without parameters
 
@@ -119,7 +119,7 @@ class GfG {
 
 **Output**
 
-```
+```java
 Hello
 ```
 
@@ -127,7 +127,7 @@ Hello
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate lambda expression
 // with single parameter
 
@@ -162,7 +162,7 @@ class GfG {
 
 **Output**
 
-```
+```java
 10
 ```
 
@@ -170,7 +170,7 @@ class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate lambda expression
 // with multi parameters
 
@@ -207,6 +207,6 @@ class GfG {
 
 **Output**
 
-```
+```java
 10 20
 ```

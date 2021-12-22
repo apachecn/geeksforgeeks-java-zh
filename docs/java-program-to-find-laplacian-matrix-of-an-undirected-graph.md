@@ -10,7 +10,7 @@
 
 ![](img/230501c67a908597ba183e89852449b5.png)
 
-```
+```java
 Laplacian Matrix: 
  2  -1   0   0  -1   0  
 -1   3  -1   0  -1   0  
@@ -35,7 +35,7 @@ Laplacian Matrix:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find laplacian
 // matrix of an undirected graph
 class Graph {
@@ -159,7 +159,7 @@ class Graph {
 
 **Output**
 
-```
+```java
 Adjacency matrix : 
 0 1 0 0 1 0 
 1 0 1 0 1 0 

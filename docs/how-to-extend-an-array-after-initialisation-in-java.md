@@ -12,7 +12,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // java program to demonstrate
 // extending an array
 import java.lang.*;
@@ -50,7 +50,7 @@ class ExtendingArray {
 
 ****Output**
 
-```
+```java
 GEEKS
 ```** 
 
@@ -58,7 +58,7 @@ GEEKS
 
 ## **Java**
 
-```
+```java
 // Java program to demonstrate
 // extending an array
 
@@ -104,7 +104,7 @@ class ExtendingArray {
 
 ****输出**
 
-```
+```java
 1
 2
 3

@@ -14,7 +14,7 @@ T3】问题:T5】隔离一个 0，1 和 2s 的数组
 简单来说，问题是，给定一个 0，1 和 2s 的数组。我们必须将数组开头的所有 0、数组中间的所有 1 以及数组最后的所有 2 隔离开来。
 示例:
 
-```
+```java
 Input : 1 1 2 0 0 2 1
 Output : 0 0 1 1 1 2 2
 ```
@@ -25,7 +25,7 @@ Output : 0 0 1 1 1 2 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to segragate the
 // array of 0s, 1s and 2s
 import java.util.*;
@@ -123,7 +123,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to segragate
 // array of 0s, 1s and 2s
 import java.io.*;

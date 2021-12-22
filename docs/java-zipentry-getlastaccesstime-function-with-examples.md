@@ -6,13 +6,13 @@
 函数返回 FileTime 对象，表示 ZipEntry 的上次访问时间(文件上次被访问的时间)，如果没有指定上次访问时间，则返回 null。
 **功能签名:**
 
-```
+```java
 public FileTime getLastAccessTime()
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.getLastAccessTime();
 ```
 
@@ -24,7 +24,7 @@ zip_entry.getLastAccessTime();
 
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取指定 ZipEntry 的 LastAccessTime。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。zip”文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of getLastAccessTime() function
 
@@ -63,14 +63,14 @@ public class solution {
 
 **Output:**
 
-```
+```java
 LastAccessTime : 2019-02-24T18:42:15.847545Z
 
 ```
 
 **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取指定 ZipEntry 的 LastAccessTime。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。cpp "文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of getLastAccessTime() function
 
@@ -109,7 +109,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 LastAccessTime : 2018-12-07T13:11:25.38081Z
 
 ```

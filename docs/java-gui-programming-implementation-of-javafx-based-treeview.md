@@ -33,7 +33,7 @@
 
 首先，我们通过调用 TreeView 类的新实例来创建一个 TreeView 对象，下面演示的示例显示了如何为 TreeView 类设置对象的示例:
 
-```
+```java
 TreeView tV = new TreeView();  
 ```
 
@@ -107,13 +107,13 @@ TreeView tV = new TreeView();
 
 最后也是最重要的一步是隐藏根项目，即 JavaFx 树形视图的根节点。我们通过调用 setShowRoot()方法来实现，该方法使用布尔参数 false 进行初始化。
 
-```
+```java
 tV.setShowRoot(false);
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement javaFx based TreeView
 
 // Importing all necessary libraries

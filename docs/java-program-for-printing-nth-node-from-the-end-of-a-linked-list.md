@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Simple Java program to find n'th node from end of linked list
 class LinkedList {
     Node head; // head of the list
@@ -89,7 +89,7 @@ class LinkedList {
 
 **Output**
 
-```
+```java
 35
 ```
 
@@ -97,7 +97,7 @@ class LinkedList {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 static void printNthFromLast(Node head, int n)
 {
     static int i = 0;
@@ -124,7 +124,7 @@ static void printNthFromLast(Node head, int n)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find n'th 
 // node from end using slow and
 // fast pointers
@@ -220,7 +220,7 @@ class LinkedList 
 
 **Output**
 
-```
+```java
 Node no. 4 from last is 35 
 ```
 

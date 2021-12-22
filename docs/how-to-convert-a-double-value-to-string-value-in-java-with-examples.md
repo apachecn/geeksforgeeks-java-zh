@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: 1.0
 Output: "1.0"
 
@@ -22,7 +22,7 @@ Output: "3.14"
 
 **例 1:**
 
-```
+```java
 // Java Program to convert double value to String value
 
 class GFG {
@@ -64,7 +64,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1.0 after converting into string = 1.0
 
 ```
@@ -74,7 +74,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 String.valueOf(doubleValue);
 
 ```
@@ -83,7 +83,7 @@ String.valueOf(doubleValue);
 
 **例 1:**
 
-```
+```java
 // Java Program to convert double value to String value
 
 class GFG {
@@ -123,7 +123,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1.0 after converting into string = 1.0
 
 ```

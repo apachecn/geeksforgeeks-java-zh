@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean offer(E elem)
 ```
 
@@ -20,7 +20,7 @@ public boolean offer(E elem)
 
 **程序 1** :
 
-```
+```java
 // Java Program to Demonstrate offer()
 // method of ConcurrentLinkedDeque
 
@@ -66,14 +66,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 Element Inserted
 ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks, GFG]
 
 ```
 
-```
+```java
 // Java Program to Demonstrate offer()
 // method of ConcurrentLinkedDeque
 
@@ -112,7 +112,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 java.lang.NullPointerException
 

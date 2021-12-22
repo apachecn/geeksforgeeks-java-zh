@@ -14,7 +14,7 @@
 
 因此，如果超类包含被子类覆盖的方法，那么当通过超类引用变量引用不同类型的对象时，就会执行不同版本的方法。下面是一个说明动态方法分派的示例:
 
-```
+```java
 // A Java program to illustrate Dynamic Method
 // Dispatch using hierarchical inheritance
 class A
@@ -83,7 +83,7 @@ class Dispatch
 
 输出:
 
-```
+```java
 Inside A's m1 method
 Inside B's m1 method
 Inside C's m1 method
@@ -96,7 +96,7 @@ Inside C's m1 method
 
 1.  Inside the main() method in Dispatch class, initially objects of type A, B, and C are declared.
 
-    ```
+    ```java
     A a = new A(); // object of type A
     B b = new B(); // object of type B
     C c = new C(); // object of type C
@@ -107,7 +107,7 @@ Inside C's m1 method
 
 2.  Now a reference of type A, called ref, is also declared, initially it will point to null.
 
-    ```
+    ```java
     A ref; // obtain a reference of type A
 
     ```
@@ -116,7 +116,7 @@ Inside C's m1 method
 
 3.  Now we are assigning a reference to each **type of object** (either A’s or B’s or C’s) to *ref*, one-by-one, and uses that reference to invoke m1( ). As the output shows, the version of m1( ) executed is determined **by the type of object being referred to at the time of the call.**
 
-    ```
+    ```java
     ref = a; // r refers to an A object
     ref.m1(); // calling A's version of m1()
 
@@ -124,7 +124,7 @@ Inside C's m1 method
 
     [![q](img/5c4fc94b05d78b4bf93b623a7ed864e0.png)](https://media.geeksforgeeks.org/wp-content/uploads/q1.jpeg)
 
-    ```
+    ```java
     ref = b; // now r refers to a B object
     ref.m1(); // calling B's version of m1()
 
@@ -132,7 +132,7 @@ Inside C's m1 method
 
     [![q](img/9bb9b42fa00c1950c966b96ebae49e77.png)](https://media.geeksforgeeks.org/wp-content/uploads/q2.jpeg)
 
-    ```
+    ```java
     ref = c; // now r refers to a C object
     ref.m1(); // calling C's version of m1()
 
@@ -144,7 +144,7 @@ Inside C's m1 method
 
 在 Java 中，我们只能覆盖方法，不能覆盖变量(数据成员)，所以**运行时多态不能通过数据成员来实现。**例如:
 
-```
+```java
 // Java program to illustrate the fact that
 // runtime polymorphism cannot be achieved
 // by data members
@@ -176,7 +176,7 @@ public class Test
 
 输出:
 
-```
+```java
 10
 
 ```

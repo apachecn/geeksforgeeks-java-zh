@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Iterator descendingIterator()
 ```
 
@@ -18,7 +18,7 @@ Iterator descendingIterator()
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java code to illustrate descendingIterator()
 // method of Deque in Java
 import java.util.*;
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of deque are:
 Welcome
 To
@@ -66,7 +66,7 @@ Geeks
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate descendingIterator()
 // method of Deque in Java
 import java.util.*;
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of deque are:
 10
 15
@@ -114,7 +114,7 @@ The iterator values of deque are:
 
 **节目 3:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java code to illustrate descendingIterator()
 // method of Deque in Java
 import java.util.*;
@@ -150,7 +150,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of deque are:
 Welcome
 To
@@ -162,7 +162,7 @@ Geeks
 
 **程序 4:** 在**的帮助下链接锁定程序**。
 
-```
+```java
 // Java code to illustrate descendingIterator()
 // method of Deque in Java
 import java.util.*;
@@ -199,7 +199,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of deque are:
 Welcome
 To
@@ -211,7 +211,7 @@ Geeks
 
 **方案五:**在**的配合下**。
 
-```
+```java
 // Java code to illustrate descendingIterator()
 // method of Deque in Java
 import java.util.*;
@@ -248,7 +248,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of deque are:
 Welcome
 To

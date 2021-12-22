@@ -18,7 +18,7 @@
 
 *   **void close() :** 关闭流并释放与其相关联的任何系统资源。一旦流被关闭，进一步的 read()、ready()、mark()、reset()或 skip()调用将引发 IOException。关闭以前关闭的流没有效果。
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Throws:
@@ -27,7 +27,7 @@
 
 *   **空标记(int readAheadLimit) :** 标记溪流中的当前位置。对 reset()的后续调用将尝试将流重新定位到这一点。
 
-    ```
+    ```java
     Syntax :public void mark(int readAheadLimit)
               throws IOException
     Parameters:
@@ -40,14 +40,14 @@
 
 *   **布尔型 markSupported() :** 告诉这个流是否支持 mark()操作，它确实支持。
 
-    ```
+    ```java
     Syntax :public boolean markSupported()
     Returns: true if and only if this stream supports the mark operation.
     ```
 
 *   **int read() :** 读取单个字符。
 
-    ```
+    ```java
     Syntax :public int read()
              throws IOException
     Returns: The character read, as an integer in the range 0 to 65535 (0x00-0xffff),
@@ -65,7 +65,7 @@
 
 如果对基础流的第一次读取返回-1 表示文件结束，则此方法返回-1。否则，此方法返回实际读取的字符数。
 
-```
+```java
 Syntax :public int read(char[] cbuf,
        int off,
        int len)
@@ -82,7 +82,7 @@ IOException
 
 *   **字符串 readLine() :** 读取一行文本。行被认为是由换行符(' \n ')、回车符(' \r ')或紧跟换行符的回车符中的任何一个结束的。
 
-    ```
+    ```java
     Syntax :public String readLine()
                     throws IOException
     Returns:
@@ -95,7 +95,7 @@ IOException
 
     *   **布尔就绪():**告知该流是否准备好被读取。
 
-    ```
+    ```java
     Syntax :public boolean ready()
                   throws IOException
     Returns:
@@ -106,7 +106,7 @@ IOException
 
     *   **无效重置():**将流重置为最近的标记。
 
-    ```
+    ```java
     Syntax :public void reset()
                throws IOException
     Throws:
@@ -115,7 +115,7 @@ IOException
 
     *   **long skip(long n) :** Skips characters.
 
-    ```
+    ```java
     Syntax :public long skip(long n)
               throws IOException
     Parameters:
@@ -125,7 +125,7 @@ IOException
     IOException
     ```
 
-    ```
+    ```java
     //Java program demonstrating BufferedReader methods
     import java.io.BufferedReader;
     import java.io.FileReader;
@@ -183,7 +183,7 @@ IOException
 
     **输出:**
 
-    ```
+    ```java
     mark() method is supported
     first line
     this is second line

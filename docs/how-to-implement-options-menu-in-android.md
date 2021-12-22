@@ -16,14 +16,14 @@
 
     **语法:**
 
-    ```
+    ```java
     app:showAsAction="always"
 
     ```
 
     **示例:**
 
-    ```
+    ```java
     <item
             android:id="@+id/message"
             android:icon="@android:drawable/ic_menu_send"
@@ -38,14 +38,14 @@
 
     **语法:**
 
-    ```
+    ```java
     app:showAsAction="never"
 
     ```
 
     **示例:**
 
-    ```
+    ```java
     <item
             android:id="@+id/exit"  
             app:showAsAction="never" 
@@ -58,7 +58,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <menu 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -98,7 +98,7 @@
 
 ## MainActivity.java
 
-```
+```java
 package com.example.menu;
 
 import androidx.appcompat.app.AppCompatActivity;

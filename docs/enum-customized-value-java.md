@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```java
 enum  Fruits
 {
     APPLE(“RED”), BANANA(“YELLOW”), GRAPES(“GREEN”);
@@ -23,7 +23,7 @@ enum  Fruits
 1.  We must create a parameterized constructor for this enumeration class. Why? Because we know that enumeration class objects cannot be explicitly created, we use parameterized constructors when initializing. The constructor cannot be public or protected, it must have a private or default modifier. Why? If we create public or protected, it will allow multiple objects to be initialized. This completely violates the concept of enumeration.
 2.  We must create a getter method to get the value of the enumeration.
 
-```
+```java
 // Java program to demonstrate how values can
 // be assigned to enums.
 enum TrafficSignal
@@ -69,7 +69,7 @@ public class EnumConstructorExample
 
 输出:
 
-```
+```java
 name : RED action: STOP
 name : GREEN action: GO 
 name : ORANGE action: SLOW DOWN 

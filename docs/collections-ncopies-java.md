@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> List<T> nCopies(int number, T object)
 
 where, number is the number of copies
@@ -22,7 +22,7 @@ in the returned list. T represents generic type.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation
 // of Collections.nCopies()
 import java.util.*;
@@ -63,7 +63,7 @@ class GFG {
 
 Output :
 
-```
+```java
 The list returned is :
 GeeksforGeeks GeeksforGeeks GeeksforGeeks GeeksforGeeks 
 

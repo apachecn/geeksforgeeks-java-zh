@@ -5,7 +5,7 @@
 java.util.HashMap.remove()是 HashMap 类的内置方法，用于从映射中移除任何特定键的映射。它基本上删除了地图中任何特定键的值。
 **语法:**
 
-```
+```java
 Hash_Map.remove(*Object key*)
 ```
 
@@ -16,7 +16,7 @@ Hash_Map.remove(*Object key*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the remove() method
 import java.util.*;
 
@@ -50,7 +50,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Returned value is: Geeks
 New map is: {25=Welcomes, 10=Geeks, 30=You, 15=4}
@@ -60,7 +60,7 @@ New map is: {25=Welcomes, 10=Geeks, 30=You, 15=4}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the remove() method
 import java.util.*;
 
@@ -94,7 +94,7 @@ public class Hash_Map_Demo {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Returned value is: null
 New map is: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}

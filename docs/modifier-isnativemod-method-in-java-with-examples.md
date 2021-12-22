@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isNative(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isNative(int mod)
 下面的程序说明了 isNative()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isNative() method
 
 import java.lang.reflect.Method;
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 17 is native : false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isNative()
 
 import java.lang.reflect.*;
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1025 for method initializeNumber is native : false
 Mod integer value 17 for methodwait is native : false
 

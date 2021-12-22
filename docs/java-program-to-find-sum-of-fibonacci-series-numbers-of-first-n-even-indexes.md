@@ -6,13 +6,13 @@
 
 斐波那契数列是下面给出的整数序列中的数字。
 
-```
+```java
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ……
 ```
 
 **示例:**
 
-```
+```java
 Input: n = 4
 Output: 33
 N = 4, So here the fibonacci series will be produced from 0th term till 8th term:
@@ -30,7 +30,7 @@ Output: 609
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find even sum of
 // fibonacci Series Till number N
 import java.io.*;
@@ -78,7 +78,7 @@ class geeksforgeeks {
 
 **Output**
 
-```
+```java
 Even sum of fibonacci series till number 11 is: 28656
 
 ```
@@ -108,7 +108,7 @@ Even sum of fibonacci series till number 11 is: 28656
 
 ## <u><u>Java 语言(一种计算机语言，尤用于创建网站)</u></u>
 
-```
+```java
 <u>// Java Program to find even indexed
 // Fibonacci Sum in O(Log n) time.
 
@@ -170,7 +170,7 @@ class GFG {
 
 <u><u>**Output**
 
-```
+```java
 Even indexed Fibonacci Sum upto 8 terms: 1596
 
 ```</u></u> 

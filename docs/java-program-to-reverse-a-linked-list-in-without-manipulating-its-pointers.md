@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 ***Input:*** Original linked list
 1->2->3->4->5->null
 ***Output:*** Linked list after reversal
@@ -39,7 +39,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse a linked list without pointer
 // manipulation
 
@@ -133,7 +133,7 @@ public class LinkedList {
 
 **Output**
 
-```
+```java
 Linked List Before Reversal: 
 1 2 3 4 5 
 Linked List After Reversal: 

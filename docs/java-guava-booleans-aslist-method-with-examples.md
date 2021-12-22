@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.asList() method
 
@@ -46,14 +46,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [true, false, true, true, true]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.asList() method
 
@@ -82,7 +82,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [false, true, false]
 
 ```

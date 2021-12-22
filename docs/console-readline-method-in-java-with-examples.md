@@ -8,7 +8,7 @@ Java 中**控制台**类的 **readLine()** 方法有两种类型:
 
 **语法:**
 
-```
+```java
 public String readLine()
 
 ```
@@ -25,7 +25,7 @@ public String readLine()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Console readLine() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Console readLine() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public String readLine(String fmt,
                       Object... args)
 
@@ -117,7 +117,7 @@ public String readLine(String fmt,
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Console readLine(String, Object) method
 
@@ -154,7 +154,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Console readLine(String, Object) method
 

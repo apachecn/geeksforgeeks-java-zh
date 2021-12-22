@@ -28,7 +28,7 @@ J package 工具是在 java 14 中作为孵化工具引入的。直到 java 15 �
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to b Associated with JAR File to
 // Illustrate JEP Package Tool
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **示例 2:** JAR 文件
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

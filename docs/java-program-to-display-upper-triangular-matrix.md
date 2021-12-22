@@ -6,7 +6,7 @@
 
 ### 例子
 
-```
+```java
 Input 1: mat[][] = { {2, 1, 4},
                      {1, 2, 3},  
                      {3, 6, 2} }
@@ -40,7 +40,7 @@ Output :   Matrix should be a Square Matrix
 
 T0T7**输出**
 
-```
+```java
 Upper Triangular Matrix is given by :-
 2 1 4 
 0 2 3 

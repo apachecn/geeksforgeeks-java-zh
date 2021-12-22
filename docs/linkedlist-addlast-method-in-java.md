@@ -5,7 +5,7 @@
 java 中的 java.util.LinkedList.addLast()方法用于在 LinkedList 的末尾插入特定的元素。
 **语法:**
 
-```
+```java
 void addLast(Object element)
 ```
 
@@ -15,7 +15,7 @@ void addLast(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate boolean addLast()
 import java.io.*;
 import java.util.LinkedList;
@@ -48,7 +48,7 @@ public class LinkedListDemo {
 
 输出:
 
-```
+```java
 The list is:[Geeks, for, Geeks, 10, 20]
 The new List is:[Geeks, for, Geeks, 10, 20, At, Last]
 ```

@@ -8,7 +8,7 @@
 
 插图:
 
-```
+```java
 Input : N = 5
 Output:
           1
@@ -44,7 +44,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Pascal's Triangle
 
 // Importing input output classes
@@ -117,7 +117,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
       1
      1 1
     1 2 1
@@ -129,7 +129,7 @@ public class GFG {
 
 行号*行*中的第‘A’项是二项式系数 *C(行，a)* ，所有行都以值 1 开始。想法是用 C(线，a-1)计算 C(线，a)。
 
-```
+```java
 C(line, i) = C(line, i-1) * (line - i + 1) / i
 ```
 
@@ -139,7 +139,7 @@ C(line, i) = C(line, i-1) * (line - i + 1) / i
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Pascal's Triangle
 
 // Importing input output classes
@@ -193,7 +193,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
       1 
      1 1 
     1 2 1 

@@ -8,7 +8,7 @@
 
 1.  **Using direct values**
 
-    ```
+    ```java
     import java.util.*;
     import org.javatuples.*;
 
@@ -35,7 +35,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Unit: [GeeksforGeeks]
     Pair: [1, GeeksforGeeks]
 
@@ -43,7 +43,7 @@
 
 2.  **Using Unit.add() method**
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of add() method with
     // single value
@@ -71,7 +71,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Unit: [Geeks]
     Pair: [Geeks, forGeeks]
 
@@ -80,7 +80,7 @@
 3.  **使用 Unit.addAtX()方法**
     *   **Program 1:** Adding Unit at Position 0 using addAt0()
 
-        ```
+        ```java
         // Below is a Java program to demonstrate
         // use of addAt0() method with
         // direct value
@@ -109,7 +109,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Unit: [Geeks]
         Pair: [forGeeks, Geeks]
 
@@ -117,7 +117,7 @@
 
     *   **Program 2:** Adding Unit at Position 1 using addAt1()
 
-        ```
+        ```java
         // Below is a Java program to demonstrate
         // use of addAt1() method with
         // direct value
@@ -146,7 +146,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Unit: [Geeks]
         Pair: [Geeks, forGeeks]
 

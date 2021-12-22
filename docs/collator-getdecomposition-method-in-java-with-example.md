@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getDecomposition()
 ```
 
@@ -18,7 +18,7 @@ public int getDecomposition()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDecomposition() method
 
@@ -79,14 +79,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 decompostiton mode is :- CANONICAL_DECOMPOSITION
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDecomposition() method
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 decompostiton mode is :- NO_DECOMPOSITION
 
 ```

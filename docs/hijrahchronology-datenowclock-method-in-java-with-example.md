@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public HijrahDate dateNow(Clock clock)
 ```
 
@@ -18,7 +18,7 @@ public HijrahDate dateNow(Clock clock)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -59,14 +59,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahDate is: Hijrah-umalqura AH 1441-05-27
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahDate is: Hijrah-umalqura AH 1441-03-03
 
 ```

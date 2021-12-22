@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public LocalDateTime plusDays(long days)
 
 ```
@@ -21,7 +21,7 @@ public LocalDateTime plusDays(long days)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the plusDays() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 LocalDateTime with 15 days added: 2018-01-26T10:15:30
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the plusDays() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 LocalDateTime with -2 days added: 2018-01-09T08:15:30
 
 ```

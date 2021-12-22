@@ -6,7 +6,7 @@ java . util . concurrentlinkeDequest . getfirst()方法是 Java 中的内置方�
 
 **语法:**
 
-```
+```java
 Conn_Linked_Deque.getFirst()
 ```
 
@@ -20,7 +20,7 @@ Conn_Linked_Deque.getFirst()
 
 **程序 1** :
 
-```
+```java
 /* Java Program to Demonstrate getFirst()
    method of ConcurrentLinkedDeque */
 
@@ -52,7 +52,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Elements in the Deque: [Welcome, To, Geeks, 4, Geeks]
 The first element is: Welcome
 
@@ -60,7 +60,7 @@ The first element is: Welcome
 
 **程序二:**
 
-```
+```java
 /* Java Program to Demonstrate getFirst()
    method of ConcurrentLinkedDeque */
 
@@ -101,7 +101,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.util.NoSuchElementException
 Elements in the Deque: [12, 43, 29, 16, 70]
 The first element is: 12

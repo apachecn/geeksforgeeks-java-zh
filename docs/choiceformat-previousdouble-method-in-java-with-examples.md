@@ -5,7 +5,7 @@
 [**Java . text . choice format**](https://www.geeksforgeeks.org/tag/java-choiceformat/)类的 **previousDouble()** 方法用于获取仅小于传递的双精度值的双精度值。
 **语法:**
 
-```
+```java
 public static final double previousDouble(double d)
 ```
 
@@ -16,7 +16,7 @@ public static final double previousDouble(double d)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // previousDouble() method
 
@@ -42,7 +42,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Lesser double value: 21.999999999999996
 ```
 
@@ -50,7 +50,7 @@ Lesser double value: 21.999999999999996
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // previousDouble() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Just lesser than 1.23: 1.2299999999999998
 Just lesser than 10.0: 9.999999999999998
 Just lesser than -12.0: -12.000000000000002

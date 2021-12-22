@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static final double nextDouble(double d)
 ```
 
@@ -17,7 +17,7 @@ public static final double nextDouble(double d)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // nextDouble() method
 
@@ -44,6 +44,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Next greater double value than 22: 22.000000000000004
 ```

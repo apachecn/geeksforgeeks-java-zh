@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public K NavigableMap.lowerKey(K key)
 ```
 
@@ -24,7 +24,7 @@ public K NavigableMap.lowerKey(K key)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate lowerKey() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class FloorKeyDemo {
 
 **Output:**
 
-```
+```java
 TreeMap: {1=One, 3=Three, 5=Five, 6=Six, 8=Eight, 10=Ten}
 Lower Key Entry of Element 9 is: 8
 Lower Key Entry of Element 3 is: 1
@@ -75,7 +75,7 @@ Lower Key Entry of Element 3 is: 1
 
 **示例 2:** 演示空指针异常
 
-```
+```java
 // Java program to demonstrate lowerKey() method
 
 import java.util.*;
@@ -113,7 +113,7 @@ public class FloorKeyDemo {
 
 **Output:**
 
-```
+```java
 TreeMap: {1=One, 3=Three, 5=Five, 6=Six, 8=Eight, 10=Ten}
 Exception: java.lang.NullPointerException
 

@@ -5,7 +5,7 @@
 **Java . lang . integer . number of leading zeros()**是返回指定整数值的二进制补码二进制表示中最高阶(即最左边或最高有效的“1”位)一位之前的零(0)位总数的方法，或者我们可以说它是将 int 值转换为 binary 然后考虑最高一位并返回其之前的零位数的函数。如果指定的整数值在其二进制补码表示中没有一位，换句话说，如果它等于零，那么它将返回 32。
 **语法:**
 
-```
+```java
 public static int numberOfLeadingZeros(int arg)
 ```
 
@@ -23,7 +23,7 @@ public static int numberOfLeadingZeros(int arg)
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.numberOfLeadingZeros()
 import java.lang.*;
@@ -53,7 +53,7 @@ public class LeadingZeros {
 
 **Output:** 
 
-```
+```java
 Integral Number = 155
 Number of Leading Zeros = 24
 Integral Number = 10

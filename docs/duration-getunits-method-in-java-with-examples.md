@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public List<TemporalUnit> getUnits()
 
 ```
@@ -19,7 +19,7 @@ public List<TemporalUnit> getUnits()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate getUnits() method
 
 import java.time.Duration;
@@ -49,14 +49,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List of Units: [Seconds, Nanos]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getUnits() method
 
 import java.time.Duration;
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List of Units: [Seconds, Nanos]
 
 ```

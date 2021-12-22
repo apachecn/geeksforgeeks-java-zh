@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final char charAt(int index)
 ```
 
@@ -20,7 +20,7 @@ public final char charAt(int index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // charAt() method
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original CharBuffer:  [a, b, c]
 
 value at Index 0 is : c
@@ -80,7 +80,7 @@ value at Index 0 is : c
 
 **示例 2:** 演示 IndexOutOfBoundsException。
 
-```
+```java
 // Java program to demonstrate
 // charAt() method
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original CharBuffer:  [a, b, c]
 
 index is greater than the capacity minus 1

@@ -6,7 +6,7 @@ NavigableMap 接口的 isEmpty()方法用于检查地图的空白。如果映射
 
 **语法:**
 
-```
+```java
 NavigableMap.isEmpty()
 ```
 
@@ -17,7 +17,7 @@ NavigableMap.isEmpty()
 下面的程序说明了 isEmpty()方法的工作原理:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the isEmpty() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class NavigableMap_Demo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 Is the map empty? false
 
@@ -54,7 +54,7 @@ Is the map empty? false
 
 **程序 2:** 为空标识哈希映射
 
-```
+```java
 // Java code to illustrate the isEmpty() method
 import java.util.*;
 
@@ -76,7 +76,7 @@ public class NavigableMap_Demo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {}
 Is the map empty? true
 

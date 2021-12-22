@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default Instant toInstant(ZoneOffset offset)
 
 ```
@@ -19,7 +19,7 @@ default Instant toInstant(ZoneOffset offset)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.toInstant() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime: 2019-12-31T19:15:30
 Passed ZoneOffset: Z
 Instant: 2019-12-31T19:15:30Z
@@ -64,7 +64,7 @@ Instant: 2019-12-31T19:15:30Z
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.toInstant() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime: 2018-10-25T23:12:31.123
 Passed ZoneOffset: Z
 Instant: 2018-10-25T23:12:31.123Z

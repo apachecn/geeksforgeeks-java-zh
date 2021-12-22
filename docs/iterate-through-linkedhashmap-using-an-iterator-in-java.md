@@ -12,7 +12,7 @@
 
 2.我们使用
 
-```
+```java
 Set s = lhm.entrySet();
 ```
 
@@ -20,14 +20,14 @@ Set s = lhm.entrySet();
 
 3.我们为集合定义迭代器。
 
-```
+```java
 Iterator it=s.iterator();
 
 ```
 
 4.使用 while 循环，我们遍历我们的 linkedHashMap。
 
-```
+```java
 while(it.hasNext())                      
      System.out.println(it.next()); 
 ```
@@ -36,7 +36,7 @@ while(it.hasNext())
 
 T5】Java
 
-```
+```java
 // Java program to Iterate through LinkedHashMap using an
 // Iterator
 
@@ -74,7 +74,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 key=Value
 2=6
 3=4

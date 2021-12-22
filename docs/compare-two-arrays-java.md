@@ -4,7 +4,7 @@
 
 预测后续 Java 程序的输出。
 
-```
+```java
 class Test
 {
     public static void main (String[] args) 
@@ -21,7 +21,7 @@ class Test
 
 输出:
 
-```
+```java
 Not Same
 ```
 
@@ -30,7 +30,7 @@ Not Same
 **如何比较数组内容？**
 一个简单的方法是运行一个循环，逐个比较元素。Java 提供了一个直接的方法 *Arrays.equals()* 来比较两个数组。实际上，对于不同的基元类型(int、char，..一个用于对象类型(它是 Java 中所有类的基础)。
 
-```
+```java
 // we need to import java.util.Arrays to use Arrays.equals().
 import java.util.Arrays;
 class Test
@@ -49,14 +49,14 @@ class Test
 
 输出:
 
-```
+```java
 Same
 ```
 
 **如何深度比较数组内容？**
 如上所述，Arrays.equals()工作正常，可以比较数组内容。现在的问题是，如果数组内部包含数组或者引用不同对象但具有相同值的其他引用，该怎么办。例如，请参见以下程序。
 
-```
+```java
 import java.util.Arrays;
 class Test
 {
@@ -77,13 +77,13 @@ class Test
 
 输出:
 
-```
+```java
 Not Same
 ```
 
 所以 *Arrays.equals()* 是不能做深度比较的。Java 为这个 Arrays.deepEquals()提供了另一种方法，可以进行深度比较。
 
-```
+```java
 import java.util.Arrays;
 class Test
 {
@@ -103,7 +103,7 @@ class Test
 
 输出:
 
-```
+```java
 Same
 ```
 
@@ -113,7 +113,7 @@ Same
 
 **练习:**预测以下程序的输出
 
-```
+```java
 import java.util.Arrays;
 class Test
 {

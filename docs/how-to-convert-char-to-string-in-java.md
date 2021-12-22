@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input  : 'G'
 Output : "G"
 ```
@@ -30,7 +30,7 @@ Output : "G"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Char to String
 // Using Concatenation in Strings 
 
@@ -62,7 +62,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Char to String using Concatenation : G
 ```
 
@@ -74,7 +74,7 @@ Char to String using Concatenation : G
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Chhar to String
 // Using toString() method of Character class
 
@@ -107,7 +107,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Char to String using Character.toString method : G
 ```
 
@@ -121,7 +121,7 @@ Char to String using Character.toString method : G
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Chhar to String
 // Using Character wrapper class
 
@@ -161,7 +161,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Chhar to String
 // Using String.valueOf() method of String class
 
@@ -193,7 +193,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Char to String using String.valueOf(new char[]) method : G
 ```
 
@@ -205,7 +205,7 @@ Char to String using String.valueOf(new char[]) method : G
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Chhar to String
 // Using valueOf() method of String class
 
@@ -236,6 +236,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Char to String using String.valueOf() method : G
 ```

@@ -10,7 +10,7 @@ Java.io.Console 类提供了访问与当前 Java 虚拟机关联的基于字符�
 *   控制台主要是一个便利类，因为它的大部分功能都可以通过 System.in 和 System.out 获得。但是，它的使用可以简化某些类型的控制台交互，尤其是在从控制台读取字符串时。
 *   Console supplies no constructors. Instead, a Console object is obtained by calling System.console( ), which is shown here:
 
-    ```
+    ```java
     static  Console console( )
     ```
 
@@ -23,7 +23,7 @@ Java.io.Console 类提供了访问与当前 Java 虚拟机关联的基于字符�
 *   **writer :** 检索与此控制台关联的唯一 PrintWriter 对象。
     **语法:** 
 
-```
+```java
 public PrintWriter writer() 
 Returns: The printwriter associated with this console
 ```
@@ -31,7 +31,7 @@ Returns: The printwriter associated with this console
 *   **读取器:**检索与此控制台关联的唯一读取器对象。
     **语法:** 
 
-    ```
+    ```java
     public Reader reader()  
     Returns: The reader associated with this console
 
@@ -40,7 +40,7 @@ Returns: The printwriter associated with this console
     *   **格式:**使用指定的格式字符串和参数将格式化字符串写入控制台的输出流。
     **语法:** 
 
-    ```
+    ```java
     public Console format(String fmt, Object... args)
     Parameters:
     fmt - A format string as described in Format string syntax
@@ -54,7 +54,7 @@ Returns: The printwriter associated with this console
     *   **printf :** 使用指定的格式字符串和参数将格式化字符串写入控制台输出流的便捷方法。
     **语法:**
 
-    ```
+    ```java
     public Console printf(String format, Object... args) Parameters:
     format - A format string as described in Format string syntax.
     args - Arguments referenced by the format specifiers in the format string. 
@@ -67,7 +67,7 @@ Returns: The printwriter associated with this console
     *   **readLine :** 提供格式化提示，然后从控制台读取单行文本。
     **语法:**
 
-    ```
+    ```java
     public String readLine(String fmt,Object... args) 
     Parameters:
     fmt - A format string as described in Format string syntax.
@@ -84,7 +84,7 @@ Returns: The printwriter associated with this console
     *   **读取线:**从控制台读取单行文本。
     **语法:**
 
-    ```
+    ```java
     public String readLine() 
     Returns: A string containing the line read from the console,
      not including any line-termination characters, or null 
@@ -96,7 +96,7 @@ Returns: The printwriter associated with this console
     *   **读取密码:**提供格式化提示，然后在禁用回显的情况下从控制台读取密码或密码短语。
     **语法:**
 
-    ```
+    ```java
     public char[] readPassword(String fmt,Object... args)
     Parameters:
     fmt - A format string as described in Format string syntax for the prompt text.
@@ -111,7 +111,7 @@ Returns: The printwriter associated with this console
     *   **读取密码:**从禁用回显的控制台读取密码或密码短语
     **语法:**
 
-    ```
+    ```java
     public char[] readPassword() Returns: A character array containing the password or passphrase 
     read from the console, not including any line-termination characters, or null 
     if an end of stream has been reached.
@@ -121,13 +121,13 @@ Returns: The printwriter associated with this console
     *   **flush : **Flushes the console and forces any buffered output to be written immediately .
     **Syntax:**
 
-    ```
+    ```java
     public void flush() Specified by: flush in interface Flushable
     ```
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to demonstrate Console Methods
 
     import java.io.*;
@@ -164,7 +164,7 @@ Returns: The printwriter associated with this console
 
     **输出:**
 
-    ```
+    ```java
     Enter your name: Nishant Sharma
     Here is your name: Nishant Sharma
     Enter the password: 

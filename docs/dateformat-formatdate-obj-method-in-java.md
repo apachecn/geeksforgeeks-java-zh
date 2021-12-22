@@ -6,7 +6,7 @@ Java 中 DateFormat 类的 format()方法用于将给定的 Date 对象格式化
 
 **语法** :
 
-```
+```java
 String format(Date date)
 
 ```
@@ -19,7 +19,7 @@ String format(Date date)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // format() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Formatted Date String: 2/27/19 3:31 PM
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // format() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Formatted Date String: 1/27/70 9:20 PM
 
 ```

@@ -11,7 +11,7 @@ Java 是一种面向对象的编程语言。大部分工作是在物体的帮助
 
 插图:
 
-```
+```java
 Book[] b = new Book[array_length];
 ```
 
@@ -23,19 +23,19 @@ Book[] b = new Book[array_length];
 
 **方式 1**
 
-```
+```java
 ClassName object[]=new ClassName[array_length];
 ```
 
 **方式二**
 
-```
+```java
 ClassName[] objArray; 
 ```
 
 **方式 3**
 
-```
+```java
 ClassName objectArray[];  
 ```
 
@@ -43,7 +43,7 @@ ClassName objectArray[];
 
 假设我们创建了一个名为 Employee 的类。我们想保存一家有三个部门的公司的 20 名员工的记录。在这种情况下，我们不会创建 20 个单独的变量。相反，我们将创建一个对象数组:
 
-```
+```java
 Employee_department1[20];  
 Employee_department2[20]; 
 Employee_department3[20];
@@ -53,7 +53,7 @@ Employee_department3[20];
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Array Of Objects
 
 // Class 1
@@ -128,7 +128,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Product Object 1:
 Product Id = 23907   Product Name = Hp Omen Gaming 15
 Product Object 2:

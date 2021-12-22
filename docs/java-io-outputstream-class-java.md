@@ -13,7 +13,7 @@
 
 *   **void close() :** 关闭此输出流并释放与此流关联的任何系统资源。
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Throws:
@@ -22,7 +22,7 @@
 
 *   **void flush() :** 刷新此输出流，并强制写出任何缓冲的输出字节。
 
-    ```
+    ```java
     Syntax :public void flush()
                throws IOException
     Throws:
@@ -31,7 +31,7 @@
 
 *   **无效写入(字节[] b) :** 将指定字节数组中的 b.length 字节写入此输出流。
 
-    ```
+    ```java
     Syntax :public void write(byte[] b)
                throws IOException
     Parameters:
@@ -42,7 +42,7 @@
 
 *   **无效写入(字节[] b，int off，int len) :** 将从 offset off 开始的指定字节数组中的 len 字节写入此输出流。
 
-    ```
+    ```java
     Syntax :public void write(byte[] b,
              int off,
              int len)
@@ -57,7 +57,7 @@
 
 *   **抽象 void write(int b) :** 将指定的字节写入该输出流。
 
-    ```
+    ```java
     Syntax :public abstract void write(int b)
                         throws IOException
     Parameters:
@@ -66,7 +66,7 @@
     IOException
     ```
 
-```
+```java
 import java.io.*;
 //Java program to demonstrate OutputStream
 class OutputStreamDemo
@@ -98,7 +98,7 @@ class OutputStreamDemo
 
 **输出:**
 
-```
+```java
 ABCDEFGHIJ
 ```
 

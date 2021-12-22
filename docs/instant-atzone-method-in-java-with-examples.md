@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime atZone(ZoneId zone)
 ```
 
@@ -20,7 +20,7 @@ public ZonedDateTime atZone(ZoneId zone)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.atZone() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2018-10-20T16:55:30Z
 ZonedDateTime: 2018-10-20T18:55:30+02:00[Europe/Paris]
 
@@ -61,7 +61,7 @@ ZonedDateTime: 2018-10-20T18:55:30+02:00[Europe/Paris]
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.atZone() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2018-11-18T06:55:30Z
 ZonedDateTime: 2018-11-18T09:55:30+03:00[Asia/Aden]
 
@@ -103,7 +103,7 @@ ZonedDateTime: 2018-11-18T09:55:30+03:00[Asia/Aden]
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.atZone() method
 
@@ -137,7 +137,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2018-11-22T08:11:48.029Z
 ZonedDateTime: 2018-11-21T21:11:48.029-11:00[Pacific/Midway]
 

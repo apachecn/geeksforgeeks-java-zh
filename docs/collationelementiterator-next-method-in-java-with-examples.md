@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int next()
 ```
 
@@ -18,7 +18,7 @@ public int next()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate next() method
 
 import java.text.*;
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current offset before calling next() 1
 
 current element value after calling next() 5439488
@@ -72,7 +72,7 @@ current element value after calling next() 5439488
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate next() method
 
 import java.text.*;
@@ -117,7 +117,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current offset before calling next() 2
 
 current offset after calling next() 3

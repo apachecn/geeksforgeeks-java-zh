@@ -6,14 +6,14 @@
 
 说到 Java 编程的函数风格，我们通常很少有广泛使用的函数，这些函数是 **filter()** 、 **map()** 、 **reduce()** 、属于 [Streams API](https://www.geeksforgeeks.org/stream-in-java/) 的 **collect()** 。 **collect()** 和 **reduce()** 方法被称为终端方法，因为在这里，操作会因某种结果而终止。与 Collectors 相关联的函数通常在 collect()方法中使用。收集器类是流包的一部分，可以导入为:
 
-```
+```java
 import static java.util.stream.Collectors.*;
 
 ```
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
     ↳ java.util.stream
         ↳ class Collectors
@@ -22,7 +22,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 public final
   class Collectors
     extends Object
@@ -35,7 +35,7 @@ public final
 
 下面是城市类的实现:
 
-```
+```java
 // Java program to implement a
 // City class
 
@@ -79,7 +79,7 @@ public class City {
 
 在进入不同的方法之前，让我们创建一个有名称和温度的城市列表。下面是创建带有名称和温度的城市列表的方法的实现:
 
-```
+```java
 // Java program to create a list
 // of cities with name and
 // temperature
@@ -109,7 +109,7 @@ private static List<City> prepareTemperature()
 
 为此，我们使用**滤镜()**对温度进行滤镜检查，使用**地图()**变换城市名称，使用**采集()**采集这些城市名称。现在这个 **collect()** 方法基本上是用来收集通过 stream 及其各种函数传递的元素，并返回一个[列表实例](https://www.geeksforgeeks.org/list-interface-java-examples/)。
 
-```
+```java
 // Java program to implement the 
 // toList() method 
 import java.util.ArrayList; 
@@ -145,7 +145,7 @@ public class GFG { 
 
 **2。[收集器< T，？，Set<T>>toSet():](https://www.geeksforgeeks.org/collectors-toset-in-java-with-examples/)**将输入元素转换为新的 Set 并返回一个 Collector。该方法将返回[集合](https://www.geeksforgeeks.org/set-in-java/)实例，并且不包含任何重复。
 
-```
+```java
 // Java program to implement the
 // toSet() method
 import java.util.ArrayList;
@@ -178,7 +178,7 @@ public class GFG {
 
 **3。[收藏家< T，？，C >到集合(供应商< C >集合工厂):](https://www.geeksforgeeks.org/java-stream-collectors-tocollection-in-java/)** 将输入元素转换为新的集合，并返回一个集合。如果我们观察上面讨论的 toList()和 toSet()方法，我们就无法控制它们的实现。因此，使用 toCollection()我们可以实现自定义实现，其中 C 是结果集合的类型，T 是输入元素的类型。
 
-```
+```java
 // Java program to implement the
 // toCollection() method
 import java.util.ArrayList;
@@ -209,7 +209,7 @@ public class GFG {
 
 **4。[收集器< T，？，Map < K，U>>to Map(Function key mapper，Function valueMapper):](https://www.geeksforgeeks.org/collectors-tomap-method-in-java-with-examples/)** 将元素转换为 [Map](https://www.geeksforgeeks.org/map-interface-java-examples/) ，其键和值是将传递的映射函数应用于输入元素的结果，并返回一个 Collector。toMap()用于收集元素的输入，并将其转换为 Map 实例。toMap()方法要求以下参数:
 
-```
+```java
 K - Key function
 U - Value Function
 BinaryOperator(optional)
@@ -224,7 +224,7 @@ Supplier(Optional)
 
 如果列表中没有重复项，上述语句可以完美地工作。因为我们的列表包含重复项，所以它不会像 toSet()那样默默过滤掉。相反，它会抛出一个 IllegalStateException。我们可以通过使用第三个参数 BinaryOperator 来避免密钥冲突(在密钥重复的情况下)，从而避免并解决这个问题。例如:
 
-```
+```java
 // Java program to implement the
 // Map() method
 
@@ -257,7 +257,7 @@ public class GFG {
 
 **5。[收集器收集(收集器下游，功能整理器):](https://www.geeksforgeeks.org/collectors-collectingandthen-method-in-java-with-examples/)** 此方法允许我们在收集收集的输入元素后对结果执行另一个操作。
 
-```
+```java
 // Java program to implement the
 // collectingAndThen() method
 import java.util.ArrayList;
@@ -287,7 +287,7 @@ public class GFG {
 
 **6。 [Collector counting():](https://www.geeksforgeeks.org/java-8-collectors-counting-with-examples/)** 对 T 类型的输入元素个数进行计数，返回一个 Collector。此方法用于我们希望对元素集合中每个城市的出现次数进行分组和计数的情况。
 
-```
+```java
 // Java program to implement the
 // counting() method
 import java.util.ArrayList;
@@ -315,7 +315,7 @@ public class GFG {
 
 **7。[收藏家< T，？，Map < K，List>>group bingby(函数分类器):](https://www.geeksforgeeks.org/collectors-groupingby-method-in-java-with-examples/)** 对类型 t 的输入元素执行分组操作。元素的分组是根据传递的分类器函数进行的，并在 Map 中返回带有结果的 Collector。
 
-```
+```java
 // Java program to implement the
 // groupingBy() method
 import java.util.ArrayList;
@@ -347,7 +347,7 @@ public class GFG {
 
 **11 时。[收集器连接(字符序列分隔符):](https://www.geeksforgeeks.org/java-8-streams-collectors-joining-method-with-examples/)** 连接由指定分隔符分隔的输入元素，并返回收集器。
 
-```
+```java
 // Java program to implement the
 // joining() method
 import java.util.ArrayList;
@@ -375,7 +375,7 @@ public class GFG {
 
 **12 时。[收集器连接(字符序列分隔符、字符序列前缀、字符序列后缀):](https://www.geeksforgeeks.org/java-8-streams-collectors-joining-method-with-examples/)** 根据指定的前缀和后缀，连接由指定分隔符分隔的输入元素，并返回收集器。
 
-```
+```java
 // Java program to implement the
 // joining() method
 import java.util.ArrayList;
@@ -402,7 +402,7 @@ public class GFG {
 
 **13。收集器映射(函数映射器，收集器下游):**通过在转换前对每个输入元素应用映射函数，将一个 U 型输入元素的收集器转换为一个 T 型输入元素。
 
-```
+```java
 // Java program to implement the
 // mapping() method
 import java.util.ArrayList;
@@ -431,7 +431,7 @@ public class GFG {
 在上面的输出中，每个城市组只包含温度，这是借助
 **mapping()** 方法完成的，该方法采用类型函数和收集器两个函数参数。上面的映射方法返回一个列表，最后上面 groupingBy()方法的返回类型变成**映射<字符串，List>T4。我们还可以使用 toSet()方法来获取元素集，而不是列表，如下所示:**
 
-```
+```java
 // Java program to implement the
 // joining() method
 
@@ -462,7 +462,7 @@ public class GFG {
 
 **14。[收藏家< T，？，Map < Boolean，List > > partitioningBy(谓词谓词):](https://www.geeksforgeeks.org/collectors-partitioningby-method-in-java/)** 根据传递的谓词对输入元素进行分区，并将它们转换为 Map 并返回 Collector。
 
-```
+```java
 // Java program to implement the
 // partitioningBy() method
 import java.util.ArrayList;

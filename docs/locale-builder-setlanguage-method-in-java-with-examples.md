@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Locale.Builder
   setLanguage(String language)
 
@@ -22,7 +22,7 @@ public Locale.Builder
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -58,7 +58,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Setting the language: FRENCH
 Updated LocaleBuilder: java.util.Locale$Builder@232204a1
@@ -67,7 +67,7 @@ Updated LocaleBuilder: java.util.Locale$Builder@232204a1
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -109,7 +109,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Setting the language: asdasf@!vsd#
 java.util.IllformedLocaleException: Ill-formed language: asdasf@!vsd# [at index 0]

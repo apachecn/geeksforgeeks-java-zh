@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getSimpleName()
 
 ```
@@ -19,7 +19,7 @@ public String getSimpleName()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getSimpleName() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 SimpleName of myClass: Test
 
@@ -53,7 +53,7 @@ SimpleName of myClass: Test
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getSimpleName() method
 
 import java.util.*;
@@ -89,7 +89,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 SimpleName of myClass: Arr
 
 ```

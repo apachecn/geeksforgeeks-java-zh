@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 OptionalLong findFirst()
 
 ```
@@ -21,7 +21,7 @@ OptionalLong findFirst()
 
 **例 1 :** 在长流上查找 First()方法。
 
-```
+```java
 // Java code for LongStream findFirst()
 // which returns an OptionalLong describing
 // first element of the stream, or an
@@ -54,7 +54,7 @@ class GFG {
 
 输出:
 
-```
+```java
 6
 
 ```
@@ -63,7 +63,7 @@ class GFG {
 
 **示例 2 :** findFirst()方法返回第一个可被 4 整除的元素。
 
-```
+```java
 // Java code for LongStream findFirst()
 // which returns an OptionalLong describing
 // first element of the stream, or an
@@ -96,7 +96,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4
 
 ```

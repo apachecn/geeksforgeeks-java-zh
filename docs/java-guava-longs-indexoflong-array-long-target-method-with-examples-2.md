@@ -23,7 +23,7 @@
 
 ****例 1:****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.indexOf(long[] array,
 // long target) method
@@ -67,7 +67,7 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 Array: [1, 2, 3, 4, 3, 5]
 Target: 3
 Target is present at index 2
@@ -76,7 +76,7 @@ Target is present at index 2
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.indexOf(long[] array,
 // long target) method
@@ -120,7 +120,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Array: [3, 5, 7, 11, 13]
 Target: 23
 Target is not present in the array

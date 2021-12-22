@@ -7,7 +7,7 @@
 
 *   **PrintWriter printf(Locale l，String format，Object… args) :** 一种使用指定的格式字符串和参数将格式化字符串写入此编写器的便捷方法。
 
-    ```
+    ```java
     Syntax :public PrintWriter printf(Locale l,
             String format,
             Object... args)
@@ -20,7 +20,7 @@
     NullPointerException
     ```
 
-    ```
+    ```java
     import java.io.*;
     import java.util.Locale;
     //Java program to demonstrate printf method
@@ -41,14 +41,14 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     GeeksforGeeks
     ```
 
 *   **PrintWriter printf(字符串格式，Object… args) :** 使用指定的格式字符串和参数将格式化字符串写入此编写器的一种方便方法。
 
-    ```
+    ```java
     Syntax :public PrintWriter printf(String format,
             Object... args)
     Parameters:
@@ -60,7 +60,7 @@
     NullPointerException
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate printf(String format, Object... args) method
     public class PrintWriterDemo {
@@ -80,18 +80,18 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     GeeksforGeeks
     ```
 
 *   **void println():** 通过写入行分隔符字符串终止当前行。
 
-    ```
+    ```java
     Syntax :public void println()
     ```
 
-    ```
+    ```java
       import java.io.*;
     //Java program to demonstrate println() method
     public class PrintWriterDemo {
@@ -111,18 +111,18 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     GeeksforGeeks
     ```
 
 *   **void println(布尔值 x):** 打印一个布尔值，然后终止该行。
 
-    ```
+    ```java
     Syntax :public void println(boolean x)
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate println(boolean) method
     public class PrintWriterDemo {
@@ -142,7 +142,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     true
     New Line
@@ -150,11 +150,11 @@
 
 *   **void println(char x):** 打印一个字符，然后结束该行。
 
-    ```
+    ```java
     Syntax :public void println(char x)
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate println(char x) method
     public class PrintWriterDemo {
@@ -176,7 +176,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     a
     b
@@ -184,11 +184,11 @@
 
 *   **void println(char[] x):** 打印一个字符数组，然后结束该行。
 
-    ```
+    ```java
     Syntax :public void println(char[] x)
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate println(char[] x) method
     public class PrintWriterDemo {
@@ -208,7 +208,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     abc
 
@@ -216,11 +216,11 @@
 
 *   **void println(double x):** Prints a double and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(double x)
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate println(double x) method
     public class PrintWriterDemo {
@@ -242,17 +242,17 @@
 
     **输出:**
 
-    ```
+    ```java
     176.348
     ```
 
 *   **void println(float x):** Prints a float and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(float x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(float x) method
      import java.io.*;
     public class PrintWriterDemo {
@@ -275,17 +275,17 @@
 
     **输出:**
 
-    ```
+    ```java
     5.76348
     ```
 
 *   **void println(int x):** Prints an integer and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(boolean x)
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate println(int x) method
     public class PrintWriterDemo {
@@ -308,18 +308,18 @@
 
     **输出:**
 
-    ```
+    ```java
     15
 
     ```
 
 *   **void println(long x):** Prints a long integer and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(long x)
     ```
 
-    ```
+    ```java
             import java.io.*;
     //Java program to demonstrate println(long x) method
     public class PrintWriterDemo {
@@ -345,17 +345,17 @@
 
     **输出:**
 
-    ```
+    ```java
     1252344125
     ```
 
 *   **void println(Object x) :**Prints an Object and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(Object x)
     ```
 
-    ```
+    ```java
             import java.io.*;
     //Java program to demonstrate println(Object x) method
     public class PrintWriterDemo {
@@ -378,17 +378,17 @@
 
     **输出:**
 
-    ```
+    ```java
     10
     ```
 
 *   **void println(String x) : **Prints a String and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(boolean x)
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate println(String x) method
     public class PrintWriterDemo {
@@ -411,17 +411,17 @@
 
     **输出:**
 
-    ```
+    ```java
     GeeksforGeeks
     ```
 
 *   **protected void setError() : **Sets the error state of the stream to true.
 
-    ```
+    ```java
     Syntax :public void println(String x)
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate setError() method
     public class PrintWriterDemo extends PrintWriter {
@@ -450,14 +450,14 @@
 
     **输出:**
 
-    ```
+    ```java
     GHI
 
     ```
 
 *   **void write(char [] buf, int off, int len) : **Writes len char from the specified char array starting at offset off to this stream.
 
-    ```
+    ```java
     Syntax :public void write(char [] buf,
             int off,
             int len)
@@ -469,7 +469,7 @@
     len - Number of char to write
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate write() method
     public class PrintWriterDemo {
@@ -491,13 +491,13 @@
 
     **输出:**
 
-    ```
+    ```java
     GHI
     ```
 
 *   **void write(int b) : **Writes the specified char to this stream.
 
-    ```
+    ```java
     Syntax :public void write(int b)
     Overrides:
     write in class Writer
@@ -505,7 +505,7 @@
      b - The char to be written
     ```
 
-    ```
+    ```java
     import java.io.*;
     //Java program to demonstrate write(int b) method
     public class PrintWriterDemo {
@@ -528,20 +528,20 @@
 
     **输出:**
 
-    ```
+    ```java
     F
     ```
 
 *   **空写(字符串):**写字符串。
 
-    ```
+    ```java
     Syntax :public void write(String s)
     Parameters:
     s - String to be written
 
     ```
 
-    ```
+    ```java
     import java.io.*;
     public class PrintWriterDemo {
 
@@ -566,13 +566,13 @@
     }
     ```
 
-    ```
+    ```java
     Hello World
     ```
 
 *   **无效写入(字符串 s，int off，int len) :** 写入字符串的一部分。
 
-    ```
+    ```java
     Syntax :public void write(String s,
              int off,
              int len)
@@ -583,7 +583,7 @@
 
     ```
 
-    ```
+    ```java
     import java.io.*;
 
     public class PrintWriterDemo {
@@ -609,7 +609,7 @@
     }
     ```
 
-    ```
+    ```java
     HelloWorld
     ```
 

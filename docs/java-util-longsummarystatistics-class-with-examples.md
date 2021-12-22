@@ -8,7 +8,7 @@
 
 **等级体系**
 
-```
+```java
 java.lang.Object
 ↳ java.util.LongSummaryStatistics
 
@@ -18,7 +18,7 @@ java.lang.Object
 
 1.  **LongSummaryStatistics()** :默认构造函数，将计数和求和初始化为零，将 max 设置为 **Long。MIN_VALUE** 和 MIN 至**长。最大值**。
 
-    ```
+    ```java
     public LongSummaryStatistics()
 
     ```
@@ -27,7 +27,7 @@ java.lang.Object
 
 1.  **accept()** :函数重载，将传递的整数或长值加入统计数据。
 
-    ```
+    ```java
     public void accept(int value)
     public void accept(long value)
 
@@ -35,56 +35,56 @@ java.lang.Object
 
 2.  **combine()** :该函数将传递的 LongSummaryStatistics 对象的统计数据与当前统计数据进行合并。
 
-    ```
+    ```java
     public void combine(LongSummaryStatistics other)
 
     ```
 
 3.  **getCount()** :返回已处理的长值数的计数。
 
-    ```
+    ```java
     public final long getCount()
 
     ```
 
 4.  **getSum()** :返回所有已处理长值的总和。
 
-    ```
+    ```java
     public final long getSum()
 
     ```
 
 5.  **getAverage()** :返回所有已处理长值的平均值。
 
-    ```
+    ```java
     public final double getAverage()
 
     ```
 
 6.  **getMin()** :返回所有已处理长值的最小整数。
 
-    ```
+    ```java
     public final long getMin()
 
     ```
 
 7.  **getMax()** :返回所有已处理长值的最大整数。
 
-    ```
+    ```java
     public final long getMax()
 
     ```
 
 8.  **toString()**: Returns the string representation of all the statistical data contained in the object.
 
-    ```
+    ```java
     public String toString()
 
     ```
 
     **示例**演示 LongSummaryStatistics 在运行。
 
-    ```
+    ```java
     // Java program to demonstrate
     // LongSummaryStatistics class
 
@@ -132,7 +132,7 @@ java.lang.Object
 
     **Output:**
 
-    ```
+    ```java
     The count of values is 10
     The average of values is 550.0
     The sum of values is 5500

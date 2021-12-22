@@ -13,13 +13,13 @@ ConcurrentHashMap 扩展了抽象映射<k>和对象类。此应用编程接口�
 
 **所有实现的接口:**
 
-```
+```java
 Serializable, ConcurrentMap<K,V>, Map<K,V>
 ```
 
 **语法:**
 
-```
+```java
 public class ConcurrentHashMap<K,V>
 extends AbstractMap<K,V>
 implements ConcurrentMap<K,V>, Serializable
@@ -37,7 +37,7 @@ implements ConcurrentMap<K,V>, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement ConcurrentHashMap API
 
 import java.util.Collection;
@@ -252,7 +252,7 @@ public class ConcurrentMap<K, V> {
 
 **Output**
 
-```
+```java
 The Keys of the ConcurrentHashMap is 
 1 2 3 4 
 The values of the ConcurrentHashMap is 

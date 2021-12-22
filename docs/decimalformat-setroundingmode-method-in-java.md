@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void setRoundingMode(RoundingMode roundingMode)
 
 ```
@@ -19,7 +19,7 @@ public void setRoundingMode(RoundingMode roundingMode)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setRoundingMode() method
 
@@ -46,14 +46,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1, 234.556
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setRoundingMode() method
 
@@ -80,7 +80,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1, 234.555
 
 ```

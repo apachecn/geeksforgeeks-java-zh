@@ -6,7 +6,7 @@ java 中 **java.util.Locale.Builder 类**的 **clear()** 方法用来重置这�
 
 **语法:**
 
-```
+```java
 public Locale.Builder clear()
 
 ```
@@ -19,7 +19,7 @@ public Locale.Builder clear()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -51,7 +51,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Clearing the LocaleBuilder
 Cleared LocaleBuilder: java.util.Locale$Builder@232204a1

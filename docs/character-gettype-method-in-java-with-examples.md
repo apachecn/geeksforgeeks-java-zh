@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static int getType(char ch)
     ```
 
@@ -17,7 +17,7 @@
     下面的程序说明了 Character.getType(char ch)方法的使用:
     **程序 1:**
 
-    ```
+    ```java
     import java.lang.*;
 
     public class gfg {
@@ -42,7 +42,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Category of K is 1
     Category of % is 24
 
@@ -50,7 +50,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     import java.lang.*;
 
     public class gfg {
@@ -75,7 +75,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Category of T is 1
     Category of ^ is 27
 
@@ -85,7 +85,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static int getType(int codePoint)
 
     ```
@@ -97,7 +97,7 @@
     以下程序演示了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // the above method
     import java.lang.*;
@@ -122,7 +122,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Category of c1 is 9
     Category of c1 is 2
 
@@ -130,7 +130,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // the above method
     import java.lang.*;
@@ -155,7 +155,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Category of c1 is 2
     Category of c1 is 2
 

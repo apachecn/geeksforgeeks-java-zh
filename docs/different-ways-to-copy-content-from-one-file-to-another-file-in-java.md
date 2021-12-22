@@ -44,7 +44,7 @@ fileinputstream 类
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to copy content from
 // one file to another
 
@@ -116,7 +116,7 @@ public class CopyFromFileaToFileb {
 
 ****输出****
 
-```
+```java
 **Enter the source filename from where you have to read/copy :**
 sourcefile.txt
 **Enter the destination filename where you have to write/paste :**

@@ -6,7 +6,7 @@
 
 [Java 中的 Arrays 类](https://www.geeksforgeeks.org/array-class-in-java/)提供方法 *Arrays.equals()* 检查两个数组是否相等。
 
-```
+```java
 Syntax :
 public static boolean equals(int[] a, int[] a2)
 Parameters :
@@ -28,7 +28,7 @@ true if the two arrays are equal
 
 输出:
 
-```
+```java
 is arr1 equals to arr2 : true
 is arr1 equals to arr3 : false
 
@@ -38,7 +38,7 @@ is arr1 equals to arr3 : false
 
 **注意:-** 在对象数组的情况下，必须[覆盖 equals 方法](https://www.geeksforgeeks.org/overriding-equals-method-in-java/)来提供您自己的相等定义，否则您将获得输出取决于 *equals()* 方法对[对象类](https://www.geeksforgeeks.org/object-class-in-java/)的返回。在下面的程序中，我们正在检查学生的 rollno、姓名和地址是否相等。
 
-```
+```java
 // Java program to demonstrate working of Arrays.equals()
 // for user defined objects.
 
@@ -97,7 +97,7 @@ class Student
 
 输出:
 
-```
+```java
 is arr1 equals to arr2 : true
 is arr1 equals to arr3 : false
 

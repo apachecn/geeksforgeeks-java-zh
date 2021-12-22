@@ -24,7 +24,7 @@ MotionBlur 是 JavaFX 的一部分。运动模糊类使用高斯卷积核实现�
 
 1.  **Java program to import an image and add Motion Blur effect to it:** In this program a *FileInputStream* is created and an image is taken as input from a file. Image named *image* is created using the input from the file input stream. From the image, an *image view object* is created and it is added to the *VBox*. The *VBox* is then added to the scene and the scene is added to the stage. A *MotionBlur* effect is created with a specified level passed as parameters and the effect is set to the image view using *setEffect()* function.
 
-    ```
+    ```java
     // Java program to import an image and
     // add Motion Blur effect to it
     import javafx.application.Application;
@@ -94,7 +94,7 @@ MotionBlur 是 JavaFX 的一部分。运动模糊类使用高斯卷积核实现�
 
 2.  **Java program to import an image and add Motion Blur effect to it with specified angle and radius:** In this program a *FileInputStream* is created and an image is taken as input from a file. Image named *image* is created using the input from the file input stream. From the image, an *image view object* is created and it is added to the *VBox*. The *VBox* is then added to the scene and the scene is added to the stage. A *MotionBlur* effect is created with a specified level passed as parameters and the effect is set to the image view using *setEffect()* function. The radius and the angle for the motion blur is specified using the *setRadius()* and *setAngle()* function.
 
-    ```
+    ```java
     // Java program to import an image and
     // add Motion Blur effect to it with 
     // specified angle and radius

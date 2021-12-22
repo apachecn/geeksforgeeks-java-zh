@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int length()
 
 ```
@@ -18,7 +18,7 @@ public final int length()
 下面的程序说明了 length()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.length() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 length of AtomicReferenceArray = 5
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.length() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 length of AtomicReferenceArray = 3
 
 ```

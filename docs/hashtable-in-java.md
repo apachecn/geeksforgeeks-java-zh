@@ -14,7 +14,7 @@
 
 **申报:**
 
-```
+```java
 public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneable, Serializable
 ```
 
@@ -39,7 +39,7 @@ public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneab
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // adding elements to Hashtable
 
@@ -77,7 +77,7 @@ class AddElementsToHashtable {
 
 **Output**
 
-```
+```java
 Mappings of ht1 : {3=three, 2=two, 1=one}
 Mappings of ht2 : {6=six, 5=five, 4=four}
 ```
@@ -88,7 +88,7 @@ Mappings of ht2 : {6=six, 5=five, 4=four}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // adding elements to Hashtable
 
@@ -126,7 +126,7 @@ class AddElementsToHashtable {
 
 **Output**
 
-```
+```java
 Mappings of ht1 : {3=three, 2=two, 1=one}
 Mappings of ht2 : {4=four, 6=six, 5=five}
 ```
@@ -137,7 +137,7 @@ Mappings of ht2 : {4=four, 6=six, 5=five}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // adding elements to Hashtable
 
@@ -176,7 +176,7 @@ class AddElementsToHashtable {
 
 **Output**
 
-```
+```java
 Mappings of ht1 : {3=three, 2=two, 1=one}
 Mappings of ht2 : {6=six, 5=five, 4=four}
 ```
@@ -187,7 +187,7 @@ Mappings of ht2 : {6=six, 5=five, 4=four}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // adding elements to Hashtable
 
@@ -221,7 +221,7 @@ class AddElementsToHashtable {
 
 **Output**
 
-```
+```java
 Mappings of ht2 : {3=three, 2=two, 1=one}
 ```
 
@@ -229,7 +229,7 @@ Mappings of ht2 : {3=three, 2=two, 1=one}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Java.util.Hashtable
 
@@ -263,7 +263,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Size of map is:- 3
 {vaibhav=20, vishal=10, sachin=30}
 value for key "vishal" is:- 10

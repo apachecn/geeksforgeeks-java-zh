@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int intValue()
 ```
 
@@ -26,7 +26,7 @@ public int intValue()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate
 // the Usage of intValue() method
 // of Integer class
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The integer Value of i = 68
 ```
 
@@ -65,7 +65,7 @@ The integer Value of i = 68
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // use of intValue() method of
 // Integer class of java.lang package
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The integer Value of i = -76
 ```
 
@@ -105,7 +105,7 @@ The integer Value of i = -76
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java Program to illustrate
 // Usage of intValue() method
 // of Integer class of java.lang package

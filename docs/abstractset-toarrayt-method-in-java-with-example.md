@@ -9,7 +9,7 @@ Java 中**抽象集类**的 **toArray(T[])** 方法方法用于形成与抽象�
 
 **语法:**
 
-```
+```java
 public <T> T[] toArray(T[] a)
 ```
 
@@ -26,7 +26,7 @@ public <T> T[] toArray(T[] a)
 
 **程序 1:** 当数组具有抽象集的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -64,7 +64,7 @@ public class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSet: [For, Geeks, To, Welcome]
 The arr[] is:
 For
@@ -77,7 +77,7 @@ null
 
 **程序 2:** 当数组小于抽象集的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -115,7 +115,7 @@ public class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSet: [For, Geeks, To, Welcome]
 The arr[] is:
 For
@@ -127,7 +127,7 @@ Welcome
 
 **程序 3:** 当数组大于抽象集的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -165,7 +165,7 @@ public class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSet: [For, Geeks, To, Welcome]
 The arr[] is:
 For
@@ -183,7 +183,7 @@ null
 
 **程序 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -229,7 +229,7 @@ public class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSet: [For, Geeks, To, Welcome]
 Exception: java.lang.NullPointerException
 

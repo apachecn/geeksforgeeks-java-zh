@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate abstract class
 // cannot have instance
 
@@ -32,7 +32,7 @@ class CreateClassOne {
 
 **输出**
 
-```
+```java
 prog.java:17: error: ClassOne is abstract; cannot be instantiated
         ClassOne obj = new ClassOne();
                        ^
@@ -43,7 +43,7 @@ prog.java:17: error: ClassOne is abstract; cannot be instantiated
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // Anonymous class
 
@@ -72,7 +72,7 @@ class InheritClassOne {
 
 **Output**
 
-```
+```java
 Hello in abstract class
 ```
 
@@ -84,7 +84,7 @@ Hello in abstract class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to demonstrate anonymous class
 
 interface NewClass {
@@ -114,7 +114,7 @@ class AnonymousClassExample {
 
 **Output**
 
-```
+```java
 This is an anonymous class implementing interface
 ```
 
@@ -124,7 +124,7 @@ This is an anonymous class implementing interface
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Anonymous class implementing abstract class
 
 public abstract class ClassOne {
@@ -167,7 +167,7 @@ class AnonymousClassExample {
 
 **Output**
 
-```
+```java
 Anonymous(Unnamed) Subclass object Created
 Hello,in abstract class:printSomething method
 Implemented abstract method in anonymous class

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public boolean tryTransfer(E e)
 
 ```
@@ -31,7 +31,7 @@ public boolean tryTransfer(E e)
 
     **程序 1:** 用 Java 来说明 tryTransfer()方法。
 
-    ```
+    ```java
     // Java program to demonstrate
     // the tryTransfer() Method.
 
@@ -88,7 +88,7 @@ public boolean tryTransfer(E e)
 
     **Output:**
 
-    ```
+    ```java
     transferring an element
     element transfer is complete
     Geeks for Geeks is a computer science portal.
@@ -97,7 +97,7 @@ public boolean tryTransfer(E e)
 
     **程序 2:** 空指针异常。
 
-    ```
+    ```java
     // Java program to demonstrate NullPointerException
     // thrown by the tryTransfer() Method.
 
@@ -153,7 +153,7 @@ public boolean tryTransfer(E e)
 
     **Output:**
 
-    ```
+    ```java
     transferring an element
     java.lang.NullPointerException
 
@@ -165,7 +165,7 @@ public boolean tryTransfer(E e)
 
     **语法:**
 
-    ```
+    ```java
     public boolean tryTransfer(E e, long timeout, TimeUnit)
 
     ```
@@ -184,7 +184,7 @@ public boolean tryTransfer(E e)
 
     **程序 1:** 通过设置等待作为其参数来说明 Java 中的 tryTransfer()方法。
 
-    ```
+    ```java
     // Java program to demonstrate
     // the tryTransfer() Method.
 
@@ -248,7 +248,7 @@ public boolean tryTransfer(E e)
 
     **Output:**
 
-    ```
+    ```java
     transferring an element
     Geeks for Geeks is a computer science portal.
     element transfer is complete
@@ -257,7 +257,7 @@ public boolean tryTransfer(E e)
 
     **程序 2:** 空指针异常。
 
-    ```
+    ```java
     // Java program to demonstrate NullPointerException
     // thrown by the tryTransfer() Method.
 
@@ -314,7 +314,7 @@ public boolean tryTransfer(E e)
 
     **Output:**
 
-    ```
+    ```java
     transferring an element
     java.lang.NullPointerException
 

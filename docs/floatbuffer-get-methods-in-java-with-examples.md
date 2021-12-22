@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract float get()
 ```
 
@@ -20,7 +20,7 @@ public abstract float get()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original FloatBuffer:  [8.56, 9.61, 1.24, 0.0, 0.0]
 
 Float Value: 8.56
@@ -98,7 +98,7 @@ Next Float Value: 9.61
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -166,7 +166,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original FloatBuffer:  [8.56, 9.61, 0.0]
 
 Float Value: 0.0
@@ -182,7 +182,7 @@ FloatBuffer 的 **get(int index)** 方法用于读取指定索引处的文章。
 
 **语法:**
 
-```
+```java
 public abstract float get(int index)
 ```
 
@@ -196,7 +196,7 @@ public abstract float get(int index)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get(int index) method
 
@@ -269,7 +269,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original FloatBuffer:  [8.56, 9.61, 6.61]
 
 Float Value at index 0: 8.56
@@ -282,7 +282,7 @@ Float Value at index 2: 6.61
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -357,7 +357,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original FloatBuffer:  [8.56, 9.61, 6.61]
 
 Float Value at index 0: 8.56

@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 getDayOfMonth()方法获取月中的某一天字段。
 
 **语法** :
 
-```
+```java
 public int getDayOfMonth()
 
 ```
@@ -19,7 +19,7 @@ public int getDayOfMonth()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getDayOfMonth() method
 
 import java.util.*;
@@ -37,14 +37,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 27
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the getDayOfMonth() method
 
 import java.util.*;
@@ -62,7 +62,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 1
 
 ```

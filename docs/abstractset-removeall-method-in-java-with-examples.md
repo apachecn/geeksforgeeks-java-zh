@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection c)
 ```
 
@@ -24,7 +24,7 @@ public boolean removeAll(Collection c)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // removeAll() method for Integer value
 
@@ -84,7 +84,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 AbstractSet before removeAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be removed : [1, 2, 3]
 AbstractSet after removeAll() operation : [4, 5]
@@ -93,7 +93,7 @@ AbstractSet after removeAll() operation : [4, 5]
 
 **示例 2:** 适用于*空指针异常*
 
-```
+```java
 // Java program to demonstrate
 // removeAll() method for Integer value
 
@@ -151,7 +151,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 AbstractSet before removeAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be removed : null
 Exception thrown : java.lang.NullPointerException

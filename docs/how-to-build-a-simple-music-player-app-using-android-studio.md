@@ -65,7 +65,7 @@
 
     设置所有组件的 id，并用按钮添加 onClick 方法。下面是 activity_main.xml 文件的 XML 代码。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -166,7 +166,7 @@
 
         **完整的 Java 代码:MainActivity.java 文件**
 
-        ```
+        ```java
         package com.example.amusinz;
 
         import android.media.MediaPlayer;

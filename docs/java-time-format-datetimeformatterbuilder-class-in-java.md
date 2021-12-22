@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final class DateTimeFormatterBuilder
 extends Object
 ```
@@ -25,7 +25,7 @@ extends Object
 
 让我们讨论一下这个类中的方法，它在这个类中声明如下:
 
-```
+```java
 clone()
 equals()
 finalize()
@@ -95,7 +95,7 @@ wait()
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to illustrate DateTimeFormatterBuilder class
 // by invoking appendValue() Method of this class
 
@@ -142,7 +142,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 Day is:7, month is:7
 ```**** 
 
@@ -152,7 +152,7 @@ Day is:7, month is:7
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to illustrate DateTimeFormatterBuilder
 // Using optionalStart() and optionalEnd() Methods
 
@@ -203,7 +203,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 2021-01-01
 2021-06-01
 2021-06-30
@@ -213,7 +213,7 @@ public class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to illustrate DateTimeFormatterBuilder class
 
 // Importing required classes from respective packages
@@ -279,7 +279,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 2021-06-30
 30/06/2021
 30\. giugno 2021

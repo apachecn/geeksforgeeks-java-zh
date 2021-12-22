@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public void warning(String msg)
 
 ```
@@ -24,7 +24,7 @@ public void warning(String msg)
 以下程序说明警告(字符串消息)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.warning(String msg) method
 
@@ -59,7 +59,7 @@ public class GFG {
 
     **语法:**
 
-    ```
+    ```java
     public void warning(Supplier msgSupplier)
 
     ```
@@ -72,7 +72,7 @@ public class GFG {
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.warning(Supplier<String>) method
 

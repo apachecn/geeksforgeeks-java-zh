@@ -8,7 +8,7 @@ A **回文串**是反串等于原串的串。在这个 Java 程序中，我们�
 
 ### 示例:
 
-```
+```java
 Input: Wow madam is driving racecar.
 
 Smallest Palindrome: Wow
@@ -32,7 +32,7 @@ Longest Palindrome: Nitin
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print the smallest and
 // longest palindromic word out of the words of a sentence
 
@@ -149,7 +149,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Inputted String : Wow Madam is driving racecar 
 Smallest palindrome: Wow
 Biggest palindrome: racecar

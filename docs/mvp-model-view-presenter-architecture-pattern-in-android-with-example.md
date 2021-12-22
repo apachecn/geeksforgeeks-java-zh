@@ -43,7 +43,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GfG | MVP Architecture</string>
     <string name="buttonText">Display Next Course</string>
@@ -59,7 +59,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -173,7 +173,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public interface Contract {
     interface View {
         // method to display progress bar
@@ -219,7 +219,7 @@ public interface Contract {
 
 ## 我的锅
 
-```
+```java
 interface Contract {
     interface View {
         // method to display progress bar
@@ -267,7 +267,7 @@ interface Contract {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Handler;
 
 import java.util.Arrays;
@@ -317,7 +317,7 @@ public class Model implements Contract.Model {
 
 ## 我的锅
 
-```
+```java
 import android.os.Handler
 import java.util.*
 
@@ -363,7 +363,7 @@ class Model : Contract.Model {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Presenter implements Contract.Presenter, Contract.Model.OnFinishedListener {
 
     // creating object of View Interface
@@ -408,7 +408,7 @@ public class Presenter implements Contract.Presenter, Contract.Model.OnFinishedL
 
 ## 我的锅
 
-```
+```java
 // instantiating the objects of View and Model Interface
 // creating object of View Interface
 // creating object of Model Interface
@@ -449,7 +449,7 @@ class Presenter(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -536,7 +536,7 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import android.view.View
 import android.widget.Button

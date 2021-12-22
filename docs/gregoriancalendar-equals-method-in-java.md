@@ -6,7 +6,7 @@
 
 ***语法:***
 
-```
+```java
 *public boolean equals*(Object obj)**
 ```
 
@@ -16,7 +16,7 @@
 
 ***示例:***
 
-```
+```java
 *Input : c1 = Mon Jul 23 23:46:14 UTC 2018, c2 = Mon Jul 23 23:46:14 UTC 2018
 Output : true
 
@@ -30,7 +30,7 @@ Output : false*
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to illustrate the equals() function
 // of GregorianCalendar class
 
@@ -73,7 +73,7 @@ class GFG {
 
 ***Output:** 
 
-```
+```java
 Current Date and Time : Fri Jul 27 12:05:05 UTC 2018
 Both calendars are equal:true
 Modified Date and Time : Sun Oct 27 12:05:05 UTC 2019
@@ -84,7 +84,7 @@ Both calendars are equal:false
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to illustrate the equals() function
 // of GregorianCalendar class
 
@@ -123,7 +123,7 @@ class GFG {
 
 ***Output:** 
 
-```
+```java
 Current Date and Time : Fri Jul 27 12:05:08 UTC 2018
 Both calendars are equal:true
 Both calendars are equal:false

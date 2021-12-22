@@ -21,7 +21,7 @@
 
     **加入示例**
 
-    ```
+    ```java
     // Java program to explain the use of join()
 
     class A extends Thread {
@@ -85,14 +85,14 @@
 
     **输出:**
 
-    ```
+    ```java
     1 2 3 4 a b c d 
 
     ```
 
     **等待示例**
 
-    ```
+    ```java
     // Java program to explain the
     // concept of Waiting a thread.
 
@@ -167,7 +167,7 @@
 
     **输出:**
 
-    ```
+    ```java
     withdrawing...
     Amount is not enough; waiting for deposit...
     going to deposit...

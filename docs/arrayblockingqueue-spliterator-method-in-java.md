@@ -5,7 +5,7 @@
 [**ArrayBlockingQueue**](https://www.geeksforgeeks.org/arrayblockingqueue-class-in-java/)的**拆分器()**方法在 ArrayBlockingQueue 的元素上返回一个[拆分器](https://www.geeksforgeeks.org/java-util-interface-spliterator-java8/)。返回的迭代器弱一致。在 Java 8 中，拆分器可以与 Streams 一起使用。分割器也可以单独和批量遍历元素。
 **语法:**
 
-```
+```java
 public Spliterator spliterator()
 ```
 
@@ -15,7 +15,7 @@ public Spliterator spliterator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of ArrayBlockingQueue
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of Spliterator : 4
 list of Numbers:
 22
@@ -68,7 +68,7 @@ list of Numbers:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of ArrayBlockingQueue
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of Spliterator : 6
 list of Country names:
 Value = India

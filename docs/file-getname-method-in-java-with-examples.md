@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public String getName()
 ```
 
 **函数语法:**
 
-```
+```java
 file.getName()
 ```
 
@@ -24,7 +24,7 @@ file.getName()
 
 **例 1:** 给我们一个文件的文件对象，我们要得到文件对象的名称。
 
-```
+```java
 // Java program to demonstrate the
 // use of getName() function
 
@@ -55,7 +55,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 File Name : program.txt
 
 ```
@@ -64,7 +64,7 @@ File Name : program.txt
 
 **例 2:** 给我们一个目录的文件对象，我们要得到文件对象的名称。
 
-```
+```java
 // Java program to demonstrate the
 // use of getName() function
 
@@ -97,7 +97,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 File Name :program
 
 ```

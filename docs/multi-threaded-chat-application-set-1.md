@@ -20,7 +20,7 @@
 
 *   每当处理程序接收到任何字符串时，它都会将其分解为消息和接收方部分。为此，它使用 Stringtokenizer，以“#”作为分隔符。这里假设字符串的格式始终为:
 
-```
+```java
 message # recipient
 ```
 
@@ -28,7 +28,7 @@ message # recipient
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of  Server side
 // It contains two classes : Server and ClientHandler
 // Save file as Server.java
@@ -169,7 +169,7 @@ class ClientHandler implements Runnable
 
 输出:
 
-```
+```java
 New client request received : Socket[addr=/127.0.0.1,port=61818,localport=1234]
 Creating a new handler for this client...
 Adding this client to active client list

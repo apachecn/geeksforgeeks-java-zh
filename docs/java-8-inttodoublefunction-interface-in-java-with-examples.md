@@ -12,7 +12,7 @@ IntToDoubleFunction 接口只有一个功能:
 
 **语法:**
 
-```
+```java
 double applyAsDouble(int value)
 ```
 
@@ -24,7 +24,7 @@ double applyAsDouble(int value)
 
 **程序**
 
-```
+```java
 // Java Program to demonstrate
 // IntToDoubleFunction's applyAsDouble() method
 
@@ -46,7 +46,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 6.24
 
 ```

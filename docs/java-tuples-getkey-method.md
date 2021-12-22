@@ -6,13 +6,13 @@
 
 **方法声明:**
 
-```
+```java
 public A getKey()
 ```
 
 **语法:**
 
-```
+```java
 KeyValue<A, B> KeyValueClassObject = KeyValue.with(A a, B b);
 A val = KeyValueClassObject.getKey()
 ```
@@ -23,7 +23,7 @@ A val = KeyValueClassObject.getKey()
 
 **例 1** :
 
-```
+```java
 // Below is a Java program to get
 // a KeyValue value
 
@@ -49,14 +49,14 @@ class GfG {
 
 **输出**:
 
-```
+```java
 1
 
 ```
 
 **例 2** :
 
-```
+```java
 // Below is a Java program to get
 // a KeyValue value
 
@@ -82,7 +82,7 @@ class GfG {
 
 **输出**:
 
-```
+```java
 GeeksforGeeks
 
 ```

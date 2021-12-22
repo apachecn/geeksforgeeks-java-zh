@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 TreeMap<String,Integer> map = new TreeMap<>();
 ```
 
@@ -16,7 +16,7 @@ TreeMap<String,Integer> map = new TreeMap<>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to remove the first entry
 // or last entry from TreeMap
 import java.io.*;
@@ -50,7 +50,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 c++,99
 competitive programming,95
 dsa,99
@@ -67,7 +67,7 @@ TreeMap 有两种方法可以删除第一个和最后一个条目。 [pollFirstE
 
 **语法:**
 
-```
+```java
 mapObject.pollFirstEntry();
 mapObject.pollLastEntry();
 ```
@@ -80,7 +80,7 @@ mapObject.pollLastEntry();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program remove the first entry
 // or last entry from the TreeMap
 import java.io.*;
@@ -136,7 +136,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -------before removing first and last entry-------
 Interviews,97
 c++,99
@@ -159,7 +159,7 @@ fang,86
 
 **语法:**
 
-```
+```java
 map.remove(map.lastKey());
 map.remove(map.firstKey());
 ```
@@ -172,7 +172,7 @@ map.remove(map.firstKey());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to remove the first entry
 // or last entry from the TreeMap
 import java.io.*;
@@ -221,7 +221,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -------before removing first and last entry-------
 Interviews,97
 c++,99
@@ -242,7 +242,7 @@ fang,86
 
 **语法:**
 
-```
+```java
 firsrkey = map.entrySet().stream().findFirst().get()
 treemap.remove(firstkey);
 
@@ -260,7 +260,7 @@ treemap.remove(key);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program remove the first entry
 // or last entry from the TreeMap
 import java.io.*;
@@ -316,7 +316,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -------before removing first and last entry-------
 Interviews,97
 c++,99

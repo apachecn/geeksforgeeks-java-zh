@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Java Program to move last element to 
    front in a given linked list */
 class LinkedList
@@ -125,7 +125,7 @@ class LinkedList
 
 **输出:**
 
-```
+```java
 Linked list before moving last to front 
 1 2 3 4 5 
 Linked list after removing last to front 

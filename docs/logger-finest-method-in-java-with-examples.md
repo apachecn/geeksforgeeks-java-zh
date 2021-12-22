@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public void finest(String msg)
 
 ```
@@ -24,7 +24,7 @@ public void finest(String msg)
 下面的程序说明了最精细的(字符串消息)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.finest(String msg) method
 
@@ -68,7 +68,7 @@ logs.txt 文件上打印的输出如下所示。
 
     **语法:**
 
-    ```
+    ```java
     public void finest(Supplier msgSupplier)
 
     ```
@@ -80,7 +80,7 @@ logs.txt 文件上打印的输出如下所示。
     以下程序说明了最佳(供应商 msgSupplier)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.finest(Supplier<String>) method
 

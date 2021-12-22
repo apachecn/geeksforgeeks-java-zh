@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean weakCompareAndSet(V expectedValue,
                                        V newValue)
 
@@ -19,7 +19,7 @@ public final boolean weakCompareAndSet(V expectedValue,
 以下程序说明了 weakCompareAndSet()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.weakCompareAndSet() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Setting new value is successful = false
 New Value = 999
 
@@ -62,7 +62,7 @@ New Value = 999
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.weakCompareAndSet() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value  = GFG
 
 ```

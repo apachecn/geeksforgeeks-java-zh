@@ -6,14 +6,14 @@
 
 1.  **clear() :** The clear() method sets all of the bits in this BitSet to false.
 
-    ```
+    ```java
     public void clear()
     Return Value
     This method does not return a value.
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate the working
     // of clear() in BitSet
     import java.util.*;
@@ -45,7 +45,7 @@
 
     输出:
 
-    ```
+    ```java
     The bitset before clear() operation is : {0, 1, 2, 3, 4}
     The bitset after clear() operation is : {}
 
@@ -53,7 +53,7 @@
 
 2.  **clear(int pos) :** The clear(int pos) method sets the bit specified by the index to false. i.e **removes from bitset**.
 
-    ```
+    ```java
     public void clear(int pos)
     Parameters
        pos : the index of the bit to be cleared.
@@ -64,7 +64,7 @@
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate the working
     // of clear(int pos) in BitSet
     import java.util.*;
@@ -96,7 +96,7 @@
 
     输出:
 
-    ```
+    ```java
     The bitset before clear(pos) operation is : {0, 1, 2, 3, 4}
     The bitset after clear(pos) operation is : {0, 1, 2, 4}
 
@@ -104,7 +104,7 @@
 
 3.  **clear(int frompos, int topos) :** The clear(int frompos, int topos) method sets the bits from the specified frompos (inclusive) to the specified topos (exclusive) to false i.e **performs removal in a range**.
 
-    ```
+    ```java
     public void clear(int frompos, int topos)
     Parameters
         frompos : index of the first bit to be cleared
@@ -117,7 +117,7 @@
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate the working
     // of clear(int frompos, int topos) in BitSet
     import java.util.*;
@@ -149,7 +149,7 @@
 
     输出:
 
-    ```
+    ```java
     The bitset before clear(frompos, topos) operation is : {0, 1, 2, 3, 4}
     The bitset after clear(frompos, topos) operation is : {0, 1, 4}
 

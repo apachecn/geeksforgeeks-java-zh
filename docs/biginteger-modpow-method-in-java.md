@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger modPow(*BigInteger exponent*, *BigInteger m*)
 ```
 
@@ -25,7 +25,7 @@ public BigInteger modPow(*BigInteger exponent*, *BigInteger m*)
 
 示例:
 
-```
+```java
 Input: biginteger1 = 23895 
                         exponent = 15
                         biginteger2 = 14189
@@ -46,7 +46,7 @@ Explanation:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Code to illustrate modpow() method of BigInteger
 import java.math.*;
 import java.util.Scanner;
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 23895^15 % 14189 = 344
 ```
 

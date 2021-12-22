@@ -9,7 +9,7 @@ Java 语言规范说复合赋值 E1 op= E2 相当于简单赋值，
 
 考虑下面的例子-
 
-```
+```java
 // A Java program that uses compound assignment
 // for different types.
 class GFG{
@@ -24,14 +24,14 @@ class GFG{
 
 输出:
 
-```
+```java
 -7616
 
 ```
 
 在此语句执行后，您可能期望 x 的值为 123456，但事实并非如此；是-7616。int 值 123456 太大，短时间内无法容纳。自动生成的强制转换。它会无声地移除 int 值的两个高位字节。
 
-```
+```java
 // A Java program that uses simple addition
 // for different types.
 class GFG{
@@ -46,7 +46,7 @@ class GFG{
 
 输出:
 
-```
+```java
 prog.java:5: error: incompatible types: possible 
 lossy conversion from int to short
 x = x + i;

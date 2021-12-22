@@ -82,7 +82,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java.time.ZoneId Class in Java with example
 import java.time.*;
 public class GFG {
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 22:34:11.044312
 17:04:11.044385
 false

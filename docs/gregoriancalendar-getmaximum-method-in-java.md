@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getMaximum**(int calendarfield*)*
 ```
 
@@ -16,7 +16,7 @@ public int getMaximum**(int calendarfield*)*
 
 **示例:**
 
-```
+```java
 Input : DAY_OF_MONTH
 Output : 31
 
@@ -28,7 +28,7 @@ Output : 6
 下面的程序说明了 Java . util . gregoriancalendar . getmaximum()函数:
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate getMaximum() function
 
 import java.io.*;
@@ -63,7 +63,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 12:44:38 UTC 2018
 Maximum for WEEK_OF_MONTH field :6
 Maximum for DAY_OF_MONTH field:31
@@ -72,7 +72,7 @@ Maximum for DAY_OF_MONTH field:31
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate getMaximum() function
 
 import java.io.*;
@@ -105,7 +105,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 12:44:40 UTC 2018
 Maximum for YEAR field :292278994
 Maximum for HOUR_OF_DAY field:23

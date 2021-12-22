@@ -4,7 +4,7 @@
 
 **java.util.Observable** 用于创建程序其他部分可以观察的子类。当这种子类的对象发生变化时，观察类会得到通知。当观察者被告知有变化时，调用 **update( )** 方法。
 
-```
+```java
 Note:
 ```
 
@@ -15,7 +15,7 @@ Note:
 1.  如果改变，必须调用 **setChanged( )** 方法。
 2.  当它准备通知观察者这个变化时，它必须调用 **notifyObservers( )** 方法。这导致调用观察对象中的**更新()**方法。
 
-```
+```java
 Be careful, if the object calls *notifyObservers( )* method without having previously called
 *setChanged( )* method, no action will take place.
 ```
@@ -30,13 +30,13 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
 1.  **addObserver(Observer observer) :** Adds observer to the list of objects observing the invoking object.
 
-    ```
+    ```java
     Syntax : public void addObserver(Observer observer)
     Exception : NullPointerException -> if the parameter observer is null
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate addObserver() method
     import java.util.*;
 
@@ -73,19 +73,19 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
     输出:
 
-    ```
+    ```java
     Observer1 is added
     ```
 
 2.  **setChanged() :** Called when the invoking object has changed.
 
-    ```
+    ```java
     Syntax : protected void setChanged( )
     Exception : NA.
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate setChanged() method
     import java.util.*;
 
@@ -128,20 +128,20 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
     输出:
 
-    ```
+    ```java
     Change status with setChanged :true
     Change status without setChanged :false
     ```
 
 3.  **clearChanged():** Indicates that this object has no longer changed, or that it has already notified all of its observers of its most recent change, so that the **hasChanged( )** method will now return **false**.
 
-    ```
+    ```java
     Syntax : protected void clearChanged( )
     Exception : NA
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate clearChanged() method
     import java.util.*;
 
@@ -181,7 +181,7 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
     输出:
 
-    ```
+    ```java
     No Output
     ```
 
@@ -190,13 +190,13 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 4.  **notifyObservers() :** Notifies all observers of the invoking object that it has changed by calling **update( )**.
     A null is passed as the second argument to **update( )**.
 
-    ```
+    ```java
     Syntax : public void notifyObservers( )
     Exception : NA
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate notifyObservers( ) method
     import java.util.*;
 
@@ -247,7 +247,7 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
     输出:
 
-    ```
+    ```java
     Observer2 Notified
     Observer1 Notified
     ```
@@ -255,13 +255,13 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 5.  **notifyObservers(Object obj) :** Notifies all observers of the invoking object that it has changed by calling **update( )**.
     *obj* is passed as an argument to **update( )**.
 
-    ```
+    ```java
     Syntax : public void notifyObservers(Object obj)
     Exception : NA
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate notifyObservers(Object obj) method
     import java.util.*;
 
@@ -314,21 +314,21 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
     输出:
 
-    ```
+    ```java
     Observer2 Notified with value : 10
     Observer1 Notified with value : 10
     ```
 
 6.  **countObservers( ) :** Returns the number of objects observing the invoking object.
 
-    ```
+    ```java
     Syntax : public int countObservers( )
     Returns : the number of observers of this object
     Exception : NA
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate countObservers() method
     import java.util.*;
 
@@ -378,7 +378,7 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
     输出:
 
-    ```
+    ```java
     Number of observers is 2
     Observer2
     Observer1
@@ -387,13 +387,13 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 7.  **deleteObserver(Observer observer):** Removes *observer* from the list of objects observing the invoking object.
     Passing **null** to this method will have no effect.
 
-    ```
+    ```java
     Syntax : public void deleteObserver(Observer observer)
     Exception : NA
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate deleteObserver(Observer observer) method
     import java.util.*;
 
@@ -454,7 +454,7 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
     输出:
 
-    ```
+    ```java
     Number of observers before calling deleteObserver(): 2
     Observer2
     Observer1
@@ -464,13 +464,13 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
 8.  **deleteObservers() :** Removes all observers for the invoking object.
 
-    ```
+    ```java
     Syntax : public void deleteObservers()
     Exception : NA
 
     ```
 
-    ```
+    ```java
     // Java code to demonstrate deleteObservers() method
     import java.util.*;
 
@@ -531,7 +531,7 @@ Be careful, if the object calls *notifyObservers( )* method without having previ
 
     输出:
 
-    ```
+    ```java
     Number of observers before calling deleteObserver(): 2
     Observer2
     Observer1

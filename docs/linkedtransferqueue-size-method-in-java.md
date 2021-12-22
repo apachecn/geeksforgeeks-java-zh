@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.size()
 ```
 
@@ -18,7 +18,7 @@ LinkedTransferQueue.size()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate size()
 // method of LinkedTransferQueue 
 
@@ -46,7 +46,7 @@ class LinkedTransferQueueSizeExample1 {
 
 **输出:**
 
-```
+```java
 Number of elements in the queue = 10
 Queue : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -54,7 +54,7 @@ Queue : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate size()
 // method of LinkedTransferQueue 
 
@@ -85,7 +85,7 @@ class LinkedTransferQueueSizeExample2 {
 
 **输出:**
 
-```
+```java
 Number of elements in the queue = 5
 Queue : [A, B, C, D, E]
 

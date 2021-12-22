@@ -6,7 +6,7 @@ Java 中[naviglambleap 接口的 pollFirstEntry()方法用于移除并返回与�
 
 **语法** :
 
-```
+```java
 Map.Entry< K, V > pollFirstEntry()
 
 ```
@@ -21,7 +21,7 @@ Map.Entry< K, V > pollFirstEntry()
 
 **程序 1** :按键为整数时。
 
-```
+```java
 // Java code to demonstrate the working of
 // pollFirstEntry() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 First removed key-value from the map : 2=two
 
 ```
 
 **程序二**:钥匙串的时候。
 
-```
+```java
 // Java code to demonstrate the working of
 // pollFirstEntry() method
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 First removed key-value from the map : one=two
 
 ```

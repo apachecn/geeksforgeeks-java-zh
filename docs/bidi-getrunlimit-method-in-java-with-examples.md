@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getRunLimit(int run)
 ```
 
@@ -18,7 +18,7 @@ public int getRunLimit(int run)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getRunLimit() method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 level of first run is : 8
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getRunLimit() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 level of first run is : 15
 
 ```

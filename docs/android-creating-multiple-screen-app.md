@@ -47,7 +47,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -87,7 +87,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Each new activity has its own layout and Java files,
 package org.geeksforgeeks.navedmalik.multiplescreenapp;
 
@@ -152,7 +152,7 @@ public class Oneactivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -201,7 +201,7 @@ public class Oneactivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package org.geeksforgeeks.navedmalik.multiplescreenapp;
 
 import android.support.v7.app.AppCompatActivity;
@@ -282,7 +282,7 @@ public class SecondActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -319,7 +319,7 @@ public class SecondActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package org.geeksforgeeks.navedmalik.multiplescreenapp;
 
 import android.support.v7.app.AppCompatActivity;

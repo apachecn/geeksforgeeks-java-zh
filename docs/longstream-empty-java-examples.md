@@ -5,7 +5,7 @@
 **LongStream empty()** 是 java.util.stream.LongStream 中的一个方法，这个方法返回一个空的顺序 LongStream。
 **语法:**
 
-```
+```java
 static LongStream empty() 
 
 ```
@@ -18,7 +18,7 @@ static LongStream empty()
 
 **示例 1 :** 创建空的长流。
 
-```
+```java
 // Java code for LongStream empty()
 import java.util.*;
 import java.util.stream.LongStream;
@@ -41,7 +41,7 @@ class GFG {
 
 输出:
 
-```
+```java
 0
 
 ```

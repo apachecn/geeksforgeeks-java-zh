@@ -14,7 +14,7 @@
 
 ## Java
 
-```
+```java
 // Java program to check if a class is inner
 // local class using isLocalClass() method
 
@@ -45,6 +45,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 Is inner a local class object? :true
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(*BigDecimal bg*)
 ```
 
@@ -22,7 +22,7 @@ public int compareTo(*BigDecimal bg*)
 
 **示例:**
 
-```
+```java
 Input : b1 = new BigDecimal("4743.0008"),  b2 = new BigDecimal("4743.00001")
         b1.compareTo(b2)
 Output : 1
@@ -36,7 +36,7 @@ Output : 0
 下面的程序说明了 BigDecimal 类的 compareTo()函数的工作:
 **程序 1:** 对于大于条件:
 
-```
+```java
 // Java program to demonstrate compareTo() method
 
 import java.io.*;
@@ -68,14 +68,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 67891 is greater than 12346.
 
 ```
 
 **程序 2:** 同等条件下:
 
-```
+```java
 // Java program to demonstrate compareTo() method
 
 import java.io.*;
@@ -107,14 +107,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 67891 and 67891.000 are equal.
 
 ```
 
 **程序 3:** 小于条件:
 
-```
+```java
 // Java program to demonstrate compareTo() method
 
 import java.io.*;
@@ -146,7 +146,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 4743.00001 is lesser than 4743.0008.
 
 ```

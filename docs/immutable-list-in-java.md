@@ -17,7 +17,7 @@
 
 **类别申报:**
 
-```
+```java
 @GwtCompatible(serializable=true,
                emulated=true)
 public abstract class ImmutableList
@@ -28,7 +28,7 @@ implements List, RandomAccess
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
   ↳ java.util.AbstractCollection
       ↳ com.google.common.collect.ImmutableCollection
@@ -41,7 +41,7 @@ java.lang.Object
 
 1.  **From existing List using copyOf() function of Guava**
 
-    ```
+    ```java
     // Below is the Java program to create ImmutableList
 
     import com.google.common.collect.ImmutableList;
@@ -72,14 +72,14 @@ java.lang.Object
 
     输出:
 
-    ```
+    ```java
     [Geeks, For, Geeks]
 
     ```
 
 2.  **New ImmutableList using of() function from Guava**
 
-    ```
+    ```java
     // Below is the Java program to create ImmutableList
 
     import com.google.common.collect.ImmutableList;
@@ -107,7 +107,7 @@ java.lang.Object
 
     输出:
 
-    ```
+    ```java
     [Geeks, For, Geeks]
 
     ```
@@ -118,7 +118,7 @@ java.lang.Object
 
     **请注意:下面的程序都是 Java 9 的。因此，您需要一个 Java 9 编译器来运行它们。**
 
-    ```
+    ```java
     // Java code illustrating of() method to
     // create a ImmutableSet
     import java.util.*;
@@ -138,7 +138,7 @@ java.lang.Object
 
     输出:
 
-    ```
+    ```java
     [Geeks, For, Geeks]
 
     ```
@@ -149,7 +149,7 @@ java.lang.Object
 
     *   **Creating a new ImmutableList**
 
-        ```
+        ```java
         // Java code illustrating of() method to
         // create a ImmutableList
         import java.util.*;
@@ -171,14 +171,14 @@ java.lang.Object
 
         输出:
 
-        ```
+        ```java
         [Geeks, For, Geeks]
 
         ```
 
     *   **Creating an ImmutableList from existing List**
 
-        ```
+        ```java
         // Java code illustrating of() method to
         // create a ImmutableList
         import java.util.*;
@@ -201,14 +201,14 @@ java.lang.Object
 
         输出:
 
-        ```
+        ```java
         [Geeks, For, Geeks]
 
         ```
 
     *   **Creating a new ImmutableList including the existing List**
 
-        ```
+        ```java
         // Java code illustrating of() method to
         // create a ImmutableList
         import java.util.*;
@@ -232,7 +232,7 @@ java.lang.Object
 
         输出:
 
-        ```
+        ```java
         [Geeks, For, Geeks, Computer, Portal]
 
         ```
@@ -241,7 +241,7 @@ java.lang.Object
 
 如前所述，下面的程序将抛出**不支持操作异常**。
 
-```
+```java
 // Java code to show that UnsupportedOperationException
 // will be thrown when ImmutableList is modified.
 import java.util.*;
@@ -260,7 +260,7 @@ class GfG {
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.UnsupportedOperationException
     at com.google.common.collect.ImmutableCollection.add(ImmutableCollection.java:218)
     at ImmutableListDemo.main(Main.java:16)
@@ -271,7 +271,7 @@ Exception in thread "main" java.lang.UnsupportedOperationException
 
 集合。未修改列表在相同的现有列表周围创建一个包装，这样包装就不能用于修改它。但是，我们仍然可以更改原始列表。
 
-```
+```java
 // Java program to demonstrate that a List created using
 // Collections.unmodifiableList() can be modified indirectly.
 import java.io.*;
@@ -297,14 +297,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [Geeks, For, Geeks]
 
 ```
 
 如果我们从现有列表中创建一个不变列表并更改现有列表，则不变列表不会因为创建了副本而更改。
 
-```
+```java
 // Below is a Java program for
 // Creating an immutable List using copyOf()
 // and modifying original List.
@@ -332,7 +332,7 @@ class GFG {
 
 输出:
 
-```
+```java
 [Geeks]
 
 ```

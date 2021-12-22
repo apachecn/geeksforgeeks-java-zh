@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default long toEpochDay()
 
 ```
@@ -19,7 +19,7 @@ default long toEpochDay()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.toEpochDay() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDate as EpochDay: 17871
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.toEpochDay() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDate as EpochDay: 18808
 
 ```

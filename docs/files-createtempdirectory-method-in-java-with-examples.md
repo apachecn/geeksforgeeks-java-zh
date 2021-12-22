@@ -27,7 +27,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to show the usage of
 // public static Path createTempDirectory
 import java.nio.file.Files;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Temporary Directory created at: 
 /usr/local/bin/directory/TempDirectory1472243991754401317
 ```
@@ -95,7 +95,7 @@ Temporary Directory created at:
 
 **输出:**
 
-```
+```java
 Temporary Directory created at: 
 /var/folders/13/jsq29lh11bn7kgwnzpggqytr0000gn/T/TempDirectory4403940384431706243
 ```

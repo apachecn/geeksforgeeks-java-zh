@@ -6,7 +6,7 @@
 
 1.  **java.util.Random.nextInt() :** The **nextInt()** is used to get the next random integer value from this random number generator’s sequence.
 
-    ```
+    ```java
     Declaration : 
     public int nextInt()
     Parameters : 
@@ -20,7 +20,7 @@
 
     下面的例子展示了 java.util.Random.nextInt()的用法
 
-    ```
+    ```java
     // Java code to demonstrate the working
     // of nextInt()
     import java.util.*;
@@ -43,14 +43,14 @@
 
     **输出:**
 
-    ```
+    ```java
     The Randomly generated integer is : -2052834321
 
     ```
 
 2.  **java.util.Random.nextInt(int n)** : The **nextInt(int n)** is used to get a random number between 0(inclusive) and the number passed in this argument(n), exclusive.
 
-    ```
+    ```java
     Declaration : 
     public int nextInt(int n)
     Parameters : 
@@ -65,7 +65,7 @@
 
     下面的例子展示了 java.util.Random.nextInt(int n)的用法
 
-    ```
+    ```java
     // Java code to demonstrate the working
     // of nextInt(n)
     import java.util.*;
@@ -90,7 +90,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Random number between 0 and 9 is : 4
 
     ```
@@ -100,7 +100,7 @@
 **IllegalArgumentException:**当传递的参数不是正数时，就会出现这种情况。
 举例说明当 n 不是正数时产生的异常:
 
-```
+```java
 // Java code to demonstrate the Exception
 // of nextInt(n)
 import java.util.*;
@@ -123,7 +123,7 @@ public class NextInt2 {
 
 **运行时错误:**
 
-```
+```java
 Exception in thread "main" java.lang.IllegalArgumentException: bound must be positive
     at java.util.Random.nextInt(Random.java:388)
     at NextInt2.main(NextInt2.java:14)
@@ -134,7 +134,7 @@ Exception in thread "main" java.lang.IllegalArgumentException: bound must be pos
 
 生成随机数有许多应用，无论是彩票、赌博还是小规模游戏。下面演示了一个小骰子游戏，其中一个 6 马克的骰子由两个玩家投掷，一个人获得 30 分，获胜。
 
-```
+```java
 // Java code to demonstrate the Application
 // of nextInt(n)
 import java.util.*;
@@ -184,7 +184,7 @@ public class NextIntAppli {
 
 输出:
 
-```
+```java
 Player 1 after turn 0 is : 0
 Player 2 after turn 1 is : 4
 Player 1 after turn 2 is : 2

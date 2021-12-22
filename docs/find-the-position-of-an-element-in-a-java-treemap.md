@@ -21,7 +21,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java code to find the position
 // of an element in a Java TreeMap
 
@@ -99,7 +99,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 TreeMap: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 20 found at position = 2
 5 not found. Hence position = -1

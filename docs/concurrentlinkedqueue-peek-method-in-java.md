@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E peek()
 ```
 
@@ -16,7 +16,7 @@ public E peek()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of ConcurrentLinkedQueue
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 Head: 4353
 ConcurrentLinkedQueue after peek: [4353, 7824, 78249, 8724]
@@ -62,7 +62,7 @@ ConcurrentLinkedQueue after peek: [4353, 7824, 78249, 8724]
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of ConcurrentLinkedQueue
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar, Sanjeet, Rabi]
 
 Head: Aman

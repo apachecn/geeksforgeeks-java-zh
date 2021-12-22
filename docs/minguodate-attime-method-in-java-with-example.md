@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final ChronoLocalDateTime
       atTime(LocalTime localTime)
 
@@ -20,7 +20,7 @@ public final ChronoLocalDateTime
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // atTime() method
 
@@ -66,14 +66,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Chrono LocalDateTime is: Minguo ROC 109-04-20T14:28:17.085
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // atTime() method
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Chrono LocalDateTime is: Minguo ROC 109-04-20T08:20
 
 ```

@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 variable1 *relation_operator* variable2
 ```
 
@@ -31,13 +31,13 @@ variable1 *relation_operator* variable2
 
 **语法:**
 
-```
+```java
 var1 == var2
 ```
 
 插图:
 
-```
+```java
 var1 = "GeeksforGeeks"
 var2 = 20
 var1 == var2 results in false
@@ -47,7 +47,7 @@ var1 == var2 results in false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate equal to Operator
 
 // Importing I/O classes
@@ -82,7 +82,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Var1 = 5
 Var2 = 10
 Var3 = 5
@@ -96,13 +96,13 @@ var1 == var3: true
 
 **语法:**
 
-```
+```java
 var1 != var2
 ```
 
 插图:
 
-```
+```java
 var1 = "GeeksforGeeks"
 var2 = 20
 
@@ -113,7 +113,7 @@ var1 != var2 results in true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate No- equal-to Operator
 
 // Importing I/O classes
@@ -148,7 +148,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Var1 = 5
 Var2 = 10
 Var3 = 5
@@ -162,13 +162,13 @@ var1 == var3: false
 
 **语法:**
 
-```
+```java
 var1 > var2
 ```
 
 插图:
 
-```
+```java
 var1 = 30
 var2 = 20
 
@@ -179,7 +179,7 @@ var1 > var2 results in true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to Illustrate Greater than operator
 
 // Importing I/O classes
@@ -213,7 +213,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Var1 = 30
 Var2 = 20
 Var3 = 5
@@ -227,13 +227,13 @@ var3 > var1: false
 
 **语法:**
 
-```
+```java
 var1 < var2
 ```
 
 插图:
 
-```
+```java
 var1 = 10
 var2 = 20
 
@@ -244,7 +244,7 @@ var1 < var2 results in true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to Illustrate Less than Operator
 
 // Importing I/O classes
@@ -277,7 +277,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Var1 = 10
 Var2 = 20
 Var3 = 5
@@ -291,13 +291,13 @@ var2 < var3: false
 
 **语法:**
 
-```
+```java
 var1 >= var2
 ```
 
 插图:
 
-```
+```java
 var1 = 20
 var2 = 20
 var3 = 10
@@ -310,7 +310,7 @@ var2 >= var3 results in true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Greater than or equal to
 // Operator
 
@@ -346,7 +346,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Var1 = 20
 Var2 = 20
 Var3 = 10
@@ -360,13 +360,13 @@ var2 >= var3: false
 
 **语法:**
 
-```
+```java
 var1 <= var2
 ```
 
 插图:
 
-```
+```java
 var1 = 10
 var2 = 10
 var3 = 9
@@ -379,7 +379,7 @@ var2 <= var3 results in false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Less
 // than or equal to operator
 
@@ -415,7 +415,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Var1 = 10
 Var2 = 10
 Var3 = 9

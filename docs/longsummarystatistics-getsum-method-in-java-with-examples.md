@@ -6,7 +6,7 @@ Java 中 **LongSummaryStatistics 类的 **getSum()** 方法用来获取这个 Lo
 
 **语法:**
 
-```
+```java
 public long getSum()
 
 ```
@@ -17,7 +17,7 @@ public long getSum()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -48,7 +48,7 @@ public class LongSummaryStatisticsDemo {
 
 **输出:**
 
-```
+```java
 The sum of values is 150
 
 ```

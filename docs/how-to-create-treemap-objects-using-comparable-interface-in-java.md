@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 compareTo(Object o) ;
 ```
 
@@ -26,7 +26,7 @@ compareTo(Object o) ;
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Creating TreeMap objects using
 // Comparable interface in Java
 
@@ -95,7 +95,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Creating TreeMap objects using
 // Comparable interface in Java
 
@@ -166,7 +166,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 1 Pathak First
 2 Anshu Second
 ```**

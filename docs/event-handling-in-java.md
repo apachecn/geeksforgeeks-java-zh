@@ -46,7 +46,7 @@
 
 **语法:**
 
-```
+```java
 addTypeListener()
 ```
 
@@ -210,7 +210,7 @@ addTypeListener()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // event handling within the class
 
@@ -275,7 +275,7 @@ class GFG extends Frame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // event handling by the other class
 
@@ -320,7 +320,7 @@ class GFG1 extends Frame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /// import necessary packages
 import java.awt.event.*;
 
@@ -352,7 +352,7 @@ class Other implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // event handling by the anonymmous class
 

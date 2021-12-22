@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setTimeZone(*TimeZone tz*)
 ```
 
@@ -16,7 +16,7 @@ public void setTimeZone(*TimeZone tz*)
 
 **例:**
 
-```
+```java
 Input : IST
 Output : India Standard Time
 
@@ -29,7 +29,7 @@ Output : Coordinated Universal Time
 
 **程序 1:**
 
-```
+```java
 // Java Program to  illustrate 
 // GregorianCalendar.setTimeZone()
 // function 
@@ -60,7 +60,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Wed Jul 25 11:11:14 UTC 2018
 Current Time Zone : Coordinated Universal Time
 New Time Zone : Central Standard Time
@@ -69,7 +69,7 @@ New Time Zone : Central Standard Time
 
 **程序二:**
 
-```
+```java
 // Java Program to  illustrate 
 // GregorianCalendar.setTimeZone()
 // function 
@@ -100,7 +100,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Wed Jul 25 11:11:21 UTC 2018
 Current Time Zone : Coordinated Universal Time
 New Time Zone : India Standard Time

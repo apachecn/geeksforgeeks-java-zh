@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public void forEach(Consumer<? super E> action)
 ```
 
@@ -24,7 +24,7 @@ public void forEach(Consumer<? super E> action)
 
 **程序 1:** 在包含数字列表的数组列表上演示 forEach()方法的程序。
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of ArrayList
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 23
 32
 45
@@ -62,7 +62,7 @@ public class GFG {
 
 **程序 2:** 在包含学生姓名列表的数组列表上演示 forEach()方法的程序。
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of ArrayList
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Students:
 Student Name is Ram
 Student Name is Mohan

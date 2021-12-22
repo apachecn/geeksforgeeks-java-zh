@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse a number
 
 import java.io.*;
@@ -60,7 +60,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reversed Number is 6254
 ```
 
@@ -76,7 +76,7 @@ Reversed Number is 6254
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse a number recursively
 
 import java.io.*;
@@ -113,6 +113,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reversed Number is 6254
 ```

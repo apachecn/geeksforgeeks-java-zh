@@ -8,7 +8,7 @@ HashSet remove()方法用于从 HashSet 中移除特定元素。请注意，它�
 
 **语法:**
 
-```
+```java
 HashSet.remove(Object O)
 ```
 
@@ -20,7 +20,7 @@ HashSet.remove(Object O)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // HashSet.remove() method
 // over String Elements
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 HashSet: [Geeks, For, Welcome, To]
 HashSet after removing elements: [To]
 ```
@@ -76,7 +76,7 @@ HashSet after removing elements: [To]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate remove()
 // method of Hashset class
 // over Integer Elements
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 HashSet: [1, 3, 4, 5]
 HashSet after removing elements: [4, 5]
 ```

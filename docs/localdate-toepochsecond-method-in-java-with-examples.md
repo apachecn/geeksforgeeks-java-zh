@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toEpochSecond(LocalTime time,
                           ZoneOffset offset)
 
@@ -20,7 +20,7 @@ public long toEpochSecond(LocalTime time,
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.toEpochSecond() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate: 2018-12-06
 Passed LocalTime: 20:12:32
 Passed ZoneOffset: Z
@@ -72,7 +72,7 @@ Epoch Second: 1544127152
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.toEpochSecond() method
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate: 2019-01-01
 Passed LocalTime: 00:00
 Passed ZoneOffset: Z

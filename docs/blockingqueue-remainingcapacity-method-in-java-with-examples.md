@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public int remainingCapacity()
 ```
 
@@ -24,7 +24,7 @@ public int remainingCapacity()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate remainingCapacity()
 // method of BlockingQueue
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue is [John, Tom, Clark, Kat]
 Remaining Capacity of Queue is 3
 
@@ -73,7 +73,7 @@ Remaining Capacity of Queue is 3
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate remainingCapacity()
 // method of BlockingQueue
 
@@ -158,7 +158,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Adding employee is success true
 Remaining Capacity of list :4
 Adding employee is success true

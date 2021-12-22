@@ -10,7 +10,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to illustrate Serializable
 
 // Importing utility classes

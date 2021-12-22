@@ -34,7 +34,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Usage of Floating
 import java.io.*;
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Start range: 1.4E-45
 End range: 3.4028235E38
 ```
@@ -67,7 +67,7 @@ End range: 3.4028235E38
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Usage of Floating
 import java.io.*;
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The result of n1 x n2 is: 80.912704
 ```
 
@@ -104,7 +104,7 @@ The result of n1 x n2 is: 80.912704
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Usage of Floating
 import java.io.*;
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Simple Float: 283.75
 Scientific Notation: 283.75
 ```

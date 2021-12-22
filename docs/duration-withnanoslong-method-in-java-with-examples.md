@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration withNanos(long amountOfNanos)
 
 ```
@@ -21,7 +21,7 @@ public Duration withNanos(long amountOfNanos)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate withNanos() method
 
 import java.time.Duration;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT51H4M0.00003S
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate withNanos() method
 
 import java.time.Duration;
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT5H0.0001S
 
 ```

@@ -4,7 +4,7 @@
 
 使用 Java 中的 [floor()方法](https://www.geeksforgeeks.org/treeset-floor-method-in-java-with-examples/)获取小于指定元素的 [**树集**](https://www.geeksforgeeks.org/treeset-in-java/) 元素。TreeSet 用于按排序顺序存储元素。floor 方法返回集合中小于或等于给定元素的最大元素，如果没有这样的元素，则返回 null。
 
-```
+```java
 set = {10,20,30,40,50}
 
 // greatest element in the set less than or equal to the 23
@@ -18,7 +18,7 @@ Floor value of 5: null
 
 **语法:**
 
-```
+```java
 public E floor(E e)
 ```
 
@@ -32,7 +32,7 @@ public E floor(E e)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program demonstrate how to get TreeSet Element
 // Smaller than Specified Element using Floor Method 
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 TreeSet: [10, 20, 30, 40, 50]
 Floor value of 23: 20
 ```
@@ -73,7 +73,7 @@ Floor value of 23: 20
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program demonstrate how to get TreeSet Element
 // Smaller than Specified Element using Floor Method 
 
@@ -105,7 +105,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 TreeSet: [10, 20, 30, 40, 50]
 Floor value of 5: null
 ```

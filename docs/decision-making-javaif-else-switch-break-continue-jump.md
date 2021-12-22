@@ -18,7 +18,7 @@
 *   **[if](https://www.geeksforgeeks.org/java-if-statement-with-examples/)**: if statement is the most simple decision making statement. It is used to decide whether a certain statement or block of statements will be executed or not i.e if a certain condition is true then a block of statement is executed otherwise not.
     **Syntax**:
 
-    ```
+    ```java
     if(condition) 
     {
        // Statements to execute if
@@ -30,7 +30,7 @@
     这里，评估后的**条件**不是真就是假。如果语句接受布尔值——如果值为真，则它将执行其下的语句块。
     如果我们没有在 **if(条件)**之后提供花括号“{”和“}”，那么默认情况下 If 语句将认为紧接的 one 语句在其块内。例如，
 
-    ```
+    ```java
     if(condition)
        statement1;
        statement2;
@@ -44,7 +44,7 @@
     ![if-statement-in-java](img/1cf2d2fad443c34fd3d010407a0b9fb8.png)
     例:
 
-    ```
+    ```java
     // Java program to illustrate If statement
     class IfDemo
     {
@@ -64,7 +64,7 @@
 
     输出:
 
-    ```
+    ```java
     I am Not in if
 
     ```
@@ -72,7 +72,7 @@
 *   **[if-else](https://www.geeksforgeeks.org/java-if-else-statement-with-examples/)**: The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false. Here comes the else statement. We can use the else statement with if statement to execute a block of code when the condition is false.
     **Syntax**:
 
-    ```
+    ```java
     if (condition)
     {
         // Executes this block if
@@ -89,7 +89,7 @@
     ![if-else-statement](img/58616f7570c97d6a6e15e58fa2754f88.png)
     例:
 
-    ```
+    ```java
     // Java program to illustrate if-else statement
     class IfElseDemo
     {
@@ -107,14 +107,14 @@
 
     输出:
 
-    ```
+    ```java
     i is smaller than 15
     ```
 
 *   A nested if is an if statement that is the target of another if or else. Nested if statements means an if statement inside an if statement. Yes, java allows us to nest if statements within if statements. i.e, we can place an if statement inside another if statement.
     Syntax:
 
-    ```
+    ```java
     if (condition1) 
     {
        // Executes when condition1 is true
@@ -129,7 +129,7 @@
     ![nested-if](img/d11f1e24984285c6f05966fb7016412f.png)
     例:
 
-    ```
+    ```java
     // Java program to illustrate nested-if statement
     class NestedIfDemo
     {
@@ -157,7 +157,7 @@
 
     输出:
 
-    ```
+    ```java
     i is smaller than 15
     i is smaller than 12 too
 
@@ -165,7 +165,7 @@
 
 *   **[if-else-if 阶梯:](https://www.geeksforgeeks.org/java-if-else-if-ladder-with-examples/)** 在这里，用户可以在多个选项中进行选择。if 语句从上到下执行。一旦控制 if 的条件之一为真，就执行与该 if 关联的语句，并绕过阶梯的其余部分。如果这些条件都不成立，那么将执行最后的 else 语句。
 
-```
+```java
 if (condition)
     statement;
 else if (condition)
@@ -180,7 +180,7 @@ else
 ![if-else-if-ladder](img/d4d028963be8049afc973c24b4d951f5.png)
 例:
 
-```
+```java
 // Java program to illustrate if-else-if ladder
 class ifelseifDemo
 {
@@ -202,7 +202,7 @@ class ifelseifDemo
 
 输出:
 
-```
+```java
 i is 20
 
 ```
@@ -210,7 +210,7 @@ i is 20
 *   **[switch-case](https://www.geeksforgeeks.org/switch-statement-in-java/)** The switch statement is a multiway branch statement. It provides an easy way to dispatch execution to different parts of code based on the value of the expression.
     Syntax:
 
-    ```
+    ```java
     switch (expression)
     {
       case value1:
@@ -238,7 +238,7 @@ i is 20
     ![switch-case-in-java](img/ace858f9fd5f1cb7a352c4233ee3febd.png)
     例:
 
-    ```
+    ```java
     // Java program to illustrate switch-case
     class SwitchCaseDemo
     {
@@ -265,7 +265,7 @@ i is 20
 
     输出:
 
-    ```
+    ```java
     i is greater than 2.
 
     ```
@@ -283,7 +283,7 @@ i is 20
         ![using-break-to-exit-a-loop-in-java](img/4ecc3b70e7926f90bd482c56231cc21e.png)
         例:
 
-        ```
+        ```java
         // Java program to illustrate using
         // break to exit a loop
         class BreakLoopDemo
@@ -306,7 +306,7 @@ i is 20
 
         输出:
 
-        ```
+        ```java
         i: 0
         i: 1
         i: 2
@@ -321,7 +321,7 @@ i is 20
         Java 没有 goto 语句，因为它提供了一种以任意和非结构化方式进行分支的方法。Java 使用标签。标签用于标识代码块。
         语法:
 
-        ```
+        ```java
         label:
         {
           statement1;
@@ -336,13 +336,13 @@ i is 20
         注意:您不能打断任何没有为封闭块定义的标签。
         语法:
 
-        ```
+        ```java
         break label;
         ```
 
         示例:
 
-        ```
+        ```java
         // Java program to illustrate using break with goto
         class BreakLabelDemo
         {
@@ -380,7 +380,7 @@ i is 20
 
         输出:
 
-        ```
+        ```java
         Before the break.
         This is after second block.
 
@@ -390,7 +390,7 @@ i is 20
         ![continue-in-java](img/65b295701d491651a2126bca6a5eba44.png)
         Example:
 
-        ```
+        ```java
         // Java program to illustrate using
         // continue in an if statement
         class ContinueDemo
@@ -413,7 +413,7 @@ i is 20
 
         输出:
 
-        ```
+        ```java
         1 3 5 7 9 
 
         ```
@@ -421,7 +421,7 @@ i is 20
     3.  **[Return:](https://www.geeksforgeeks.org/return-keyword-java/)**The return statement is used to explicitly return from a method. That is, it causes a program control to transfer back to the caller of the method.
         Example:
 
-        ```
+        ```java
         // Java program to illustrate using return
         class Return
         {
@@ -442,7 +442,7 @@ i is 20
 
         **输出:**
 
-        ```
+        ```java
         Before the return.
 
         ```

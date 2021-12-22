@@ -8,7 +8,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to try MultiSet as an
 // alternative to Count-min sketch
 
@@ -40,7 +40,7 @@ public class MultiSetDemo {
 **<u>理解使用 multist</u>**
 的问题现在让我们看看这种方法消耗的时间和空间。
 
-```
+```java
 ----------------------------------------------
 |Number of UUIDs          Insertion Time(ms)  |
 ----------------------------------------------
@@ -55,7 +55,7 @@ public class MultiSetDemo {
 
 我们来看看消耗的内存(空间):
 
-```
+```java
 ----------------------------------------------
 |Number of UUIDs            JVM heap used(MB) |
 ----------------------------------------------
@@ -80,11 +80,11 @@ public class MultiSetDemo {
 
 2.  现在让我们给它添加一些元素。为此，我们必须用所有四个散列函数传递该元素，结果如下。
 
-```
+```java
 Input : 192.170.0.1 
 ```
 
-```
+```java
 hashFunction1(192.170.0.1): 1
 hashFunction2(192.170.0.1): 6
 hashFunction3(192.170.0.1): 3
@@ -97,11 +97,11 @@ hashFunction4(192.170.0.1): 1
 
 2.  同样，通过将第二个输入传递给所有四个散列函数来处理它。
 
-```
+```java
 Input : 75.245.10.1 
 ```
 
-```
+```java
 hashFunction1(75.245.10.1): 1
 hashFunction2(75.245.10.1): 2
 hashFunction3(75.245.10.1): 4
@@ -114,11 +114,11 @@ hashFunction4(75.245.10.1): 6
 
 2.  让我们处理下一个输入
 
-```
+```java
 Input : 10.125.22.20 
 ```
 
-```
+```java
 hashFunction1(10.125.22.20): 3
 hashFunction2(10.125.22.20): 4
 hashFunction3(10.125.22.20): 1
@@ -131,11 +131,11 @@ hashFunction4(10.125.22.20): 6
 
 2.  同样处理下一个输入。
 
-```
+```java
 Input : 192.170.0.1 
 ```
 
-```
+```java
 hashFunction1(192.170.0.1): 1
 hashFunction2(192.170.0.1): 6
 hashFunction3(192.170.0.1): 3
@@ -148,13 +148,13 @@ hashFunction4(192.170.0.1): 1
 
 现在让我们测试一些元素，看看它们出现了多少次。
 
-```
+```java
 Test Input #1: 192.170.0.1 
 ```
 
 1.  将上述输入传递给所有四个散列函数，并获取散列函数生成的索引号。
 
-```
+```java
 hashFunction1(192.170.0.1): 1
 hashFunction2(192.170.0.1): 6
 hashFunction3(192.170.0.1): 3
@@ -167,13 +167,13 @@ hashFunction4(192.170.0.1): 1
 
 1.  所以每个指数的最终条目是 **3，2，2，2** 。现在取这些条目中的最小计数，这就是结果。所以 min(3，2，2，2)是 2，这意味着上面的测试输入在上面的列表中被处理了两次。
 
-```
+```java
 Test Input #1: 10.125.22.20 
 ```
 
 1.  将上述输入传递给所有四个散列函数，并获取散列函数生成的索引号。
 
-```
+```java
 hashFunction1(10.125.22.20): 3
 hashFunction2(10.125.22.20): 4
 hashFunction3(10.125.22.20): 1
@@ -205,7 +205,7 @@ hashFunction4(10.125.22.20): 6
 
 ## 可扩展标记语言
 
-```
+```java
 <dependency>
     <groupId>com.clearspring.analytics</groupId>
     <artifactId>stream</artifactId>
@@ -217,7 +217,7 @@ hashFunction4(10.125.22.20): 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import com.clearspring.analytics
     .stream.frequency.CountMinSketch;
 
@@ -253,7 +253,7 @@ public class CountMinSketchDemo {
 
 2.  上面的例子在构造函数中取了三个参数
 
-```
+```java
 - 0.001 = the epsilon i.e., error rate
 - 0.99 = the delta i.e., confidence or accuracy rate
 - 1 = the seed
@@ -261,7 +261,7 @@ public class CountMinSketchDemo {
 
 2.  现在让我们来看看这种方法消耗的时间和空间。
 
-```
+```java
 -----------------------------------------------------------------------------
 |Number of UUIDs | Multiset Insertion Time(ms)  | CMS Insertion Time(ms)    |
 -----------------------------------------------------------------------------
@@ -276,7 +276,7 @@ public class CountMinSketchDemo {
 
 2.  现在，让我们看看消耗的内存:
 
-```
+```java
 --------------------------------------------------------------------------
 |Number of UUIDs | Multiset JVM heap used(MB) | CMS JVM heap used(MB)    | 
 --------------------------------------------------------------------------
@@ -291,7 +291,7 @@ public class CountMinSketchDemo {
 
 2.  **建议:**
 
-```
+```java
 -------------------------------------------------------------------------------------
 |Epsilon  | Delta  | width/Row (hash functions)| Depth/column| CMS JVM heap used(MB) |
 -------------------------------------------------------------------------------------

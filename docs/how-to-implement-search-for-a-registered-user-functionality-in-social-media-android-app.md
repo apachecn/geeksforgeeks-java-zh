@@ -17,7 +17,7 @@
 
 ## XML
 
-```
+```java
 <item
   android:id="@+id/search"
   android:icon="@drawable/ic_search"

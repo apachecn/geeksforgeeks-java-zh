@@ -6,7 +6,7 @@
 
 枚举对象可以通过调用 Vector 类中的 elements()方法来创建。
 
-```
+```java
 // Here "v" is a vector object. enum is of
 // type Enumeration interface and refers to "v"
 Enumeration enum = v.elements();
@@ -17,7 +17,7 @@ Enumeration enum = v.elements();
 
 **迭代器对象可以通过调用集合接口中的迭代器()方法来创建**
 
-```
+```java
 // Here "c" is any collection object. itr is of
 // type Iterator interface and refers to "c"
 Iterator itr = c.iterator(); 
@@ -27,7 +27,7 @@ Iterator itr = c.iterator();
 
 **listIterator 对象可以通过调用列表界面中的 ListIterator()方法来创建。**
 
-```
+```java
 // Here "l" is any list object. ltr is of
 // type ListIterator interface and refers to "l"
 ListIterator ltr = l.listIterator(); 
@@ -35,7 +35,7 @@ ListIterator ltr = l.listIterator();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A Java program to demonstrates the 
 // difference between Enumeration,
 // Iterator, and ListIterator
@@ -124,7 +124,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 Enumeration: 
 10 20 30 40 50 
 

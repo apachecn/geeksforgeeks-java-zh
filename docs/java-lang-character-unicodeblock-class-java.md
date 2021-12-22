@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public static final class Character.UnicodeBlock
    extends Character.Subset
 ```
@@ -17,7 +17,7 @@ public static final class Character.UnicodeBlock
     根据 Unicode 标准，该方法接受作为规范块的参数。
     **语法:**
 
-```
+```java
 public static final Character.UnicodeBlock forName(String block)
 Parameters : 
 block : Name of UniCode Block.
@@ -32,7 +32,7 @@ Exception :
 *   (char ch)的**:****Java . lang . character . subset of(char ch)**返回具有参数字符的 Unicode 块，如果该字符不是任何已定义的 UniCode 块的一部分，则返回 null。
     **语法:**
 
-    ```
+    ```java
     public static Character.UnicodeBlock of(char ch)
     Parameters : 
     ch : character to be found.
@@ -46,7 +46,7 @@ Exception :
     *   **of(int UCPoint) :** **java.lang.Character.Subset.of(int UCPoint)**returns the object having the argumented UniCode – Point or null if the character is not a part of any defined Unicode Block.
     **Syntax :**
 
-    ```
+    ```java
     public final String toString()
     Parameters : 
     ---
@@ -57,7 +57,7 @@ Exception :
 
     ```
 
-    ```
+    ```java
     // Java Program illustrating the use of
     // Character.UnicodeBlock class Methods.
     import java.lang.*;
@@ -89,7 +89,7 @@ Exception :
 
     **输出:**
 
-    ```
+    ```java
     Using UnicodeBlock.forName() : 
     OLD_ITALIC
     NUMBER_FORMS

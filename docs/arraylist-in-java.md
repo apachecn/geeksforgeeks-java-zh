@@ -14,7 +14,7 @@ ArrayList 是 [**集合框架**](https://www.geeksforgeeks.org/collections-in-ja
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // working of ArrayList in Java
 
@@ -57,7 +57,7 @@ class ArrayListExample {
 
 **Output**
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5 
@@ -144,7 +144,7 @@ class ArrayListExample {
 
 > **注意:**还可以创建通用数组列表:
 > 
-> ```
+> ```java
 > // Creating generic integer ArrayList
 > ArrayList<Integer> arrli = new ArrayList<Integer>();
 > ```
@@ -167,7 +167,7 @@ class ArrayListExample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add elements to An ArrayList
 
 // Importing all utility classes
@@ -199,7 +199,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 [Geeks, For, Geeks]
 ```
 
@@ -211,7 +211,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Change elements in ArrayList
 
 // Importing all utility classes
@@ -248,7 +248,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Initial ArrayList [Geeks, Geeks, Geeks]
 Updated ArrayList [Geeks, For, Geeks]
 ```
@@ -264,7 +264,7 @@ Updated ArrayList [Geeks, For, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Remove Elements in ArrayList
 
 // Importing all utility classes
@@ -307,7 +307,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Initial ArrayList [Geeks, For, Geeks]
 After the Index Removal [Geeks, Geeks]
 After the Object Removal [Geeks]
@@ -321,7 +321,7 @@ After the Object Removal [Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate the elements
 // in an ArrayList
 
@@ -361,7 +361,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Geeks For Geeks 
 Geeks For Geeks
 ```

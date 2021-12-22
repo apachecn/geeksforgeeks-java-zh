@@ -20,7 +20,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- First make the layout file xml and add button, edit text, text view -->
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -87,7 +87,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Build the java logic for multiplication table
 // using button, text view, edit text
 

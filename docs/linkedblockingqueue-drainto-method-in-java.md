@@ -10,7 +10,7 @@ LinkedBlocking Queue 的 **drainTo(Collection col)** 方法从该 LinkedBlocking
 尝试从队列中向集合 c 添加元素时也可能遇到失败，并且由于该失败，当引发相关异常时，元素会在两个集合之间分布。如果一个队列试图将 drainTo()排入队列本身，那么将引发 IllegalArgumentException。如果在操作过程中修改了指定的集合，则此操作的行为未定义。因此，为了使用这样的方法，需要注意这种类型的情况来克服异常。
 **语法:**
 
-```
+```java
 public int drainTo(Collection<? super E> col)
 ```
 
@@ -29,7 +29,7 @@ public int drainTo(Collection<? super E> col)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate drainTo(Collection c)
 // method of LinkedBlockingQueue.
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Before drainTo():
 LinkedBlockingQueue : 
 [Employee [name=Aman, position=Analyst, salary=24000],
@@ -131,7 +131,7 @@ ArrayList :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate
 // drainTo(Collection C)
 // method of LinkedBlockingQueue.
@@ -172,7 +172,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception: java.lang.NullPointerException
 ```
 
@@ -181,7 +181,7 @@ Exception: java.lang.NullPointerException
 **排水(收集<？super E > col，int maxElements)** 用于将在 drainTo()中作为整数传递的定数元传递给集合，集合也作为参数传递给方法。传输元素后，LinkedBlockingQueue 只有那些没有传输到集合的元素。该函数与上面的函数相同，只是在传递固定数量的元素时有一些限制。
 **语法:**
 
-```
+```java
 public int drainTo(Collection<? super E> col, int maxElements)
 ```
 
@@ -204,7 +204,7 @@ public int drainTo(Collection<? super E> col, int maxElements)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program  to demonstrate drainTo()
 // method of LinkedBlockingQueue.
 
@@ -303,7 +303,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Before drainTo():
 No of Elements in Queue is 3
 Elements in Queue is as follows

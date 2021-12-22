@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LongStream filter(LongPredicate predicate)
 
 Where, LongStream is a sequence of primitive long-valued elements.
@@ -17,7 +17,7 @@ of one long-valued argument and the function returns the new stream.
 
 **例 1:**LongStream 上的 filter()方法。
 
-```
+```java
 // Java code for LongStream filter
 // (LongPredicate predicate) to get a stream
 // consisting of the elements of this
@@ -45,7 +45,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5
 8
 
@@ -53,7 +53,7 @@ class GFG {
 
 **例 2:**LongStream 上的 filter()方法。
 
-```
+```java
 // Java code for LongStream filter
 // (LongPredicate predicate) to get a stream
 // consisting of the elements of this
@@ -80,7 +80,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1
 2
 

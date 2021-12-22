@@ -5,7 +5,7 @@
 **Java . time . chrono . Japanese 年表**类的 **date()** 方法用于根据日本日历系统获取给定年、月和日的当地日期。
 **语法:**
 
-```
+```java
 public JapaneseDate date(int prolepticYear,
                          int month,
                          int dayOfMonth)
@@ -24,7 +24,7 @@ public JapaneseDate date(int prolepticYear,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -69,6 +69,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 JapaneseDate is: Japanese Heisei 30-05-24
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger multiply(BigInteger val)
 
 ```
@@ -19,7 +19,7 @@ public BigInteger multiply(BigInteger val)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // multiply() method of BigInteger
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // multiply() method of BigInteger
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate toString()
 // method of LinkedBlockingQueue
 
@@ -53,13 +53,13 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue Representation:
 [2300, 1322, 8945, 6512]
 
 ```
 
-```
+```java
 // Java Program Demonstrate toString()
 // method of LinkedBlockingQueue.
 
@@ -126,7 +126,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue Representation:
 [Employee [name=Aman, position=Analyst, salary=24000], Employee [name=Sachin, position=Developer, salary=39000]]
 

@@ -6,7 +6,7 @@ Float 类是原语类型 float 的包装类，它包含几个方法来有效地�
 
 *   **Float(float b:** 创建一个用提供的值初始化的 Float 对象。
 
-```
+```java
 Syntax: public Float(Float d)
 Parameters:
 
@@ -15,7 +15,7 @@ d : value with which to initialize
 
 *   **Float(字符串):**创建一个 Float 对象，用字符串表示提供的解析后的 Float 值初始化。默认基数为 10。
 
-```
+```java
 Syntax:  public Float(String s) throws NumberFormatException
 Parameters: 
 s : string representation of the byte value 
@@ -28,7 +28,7 @@ float value.
 
 **1.toString():** 返回浮点值对应的字符串。
 
-```
+```java
 Syntax : public String toString(float b)
 Parameters :
 b : float value for which string representation required.
@@ -36,7 +36,7 @@ b : float value for which string representation required.
 
 **2.valueOf() :** 返回用提供的值初始化的浮点对象。
 
-```
+```java
 Syntax : public static Float valueOf(float b)
 Parameters :
 b : a float value
@@ -45,7 +45,7 @@ b : a float value
 另一个重载的函数值(字符串值)，它提供了类似于
 的新浮点(浮点.解析浮点(值，10))
 
-```
+```java
 Syntax : public static Float valueOf(String s)
            throws NumberFormatException
 Parameters :
@@ -56,7 +56,7 @@ NumberFormatException : if String cannot be parsed to a float value.
 
 **3.parseFloat() :** 通过解析字符串返回浮点值。不同于()的值，因为它返回一个基本浮点值，而()的值返回浮点对象。
 
-```
+```java
 Syntax : public static float parseFloat(String val)
              throws NumberFormatException
 Parameters :
@@ -68,55 +68,55 @@ in given radix.
 
 **4.byteValue() :** 返回与此浮点对象对应的字节值。
 
-```
+```java
 Syntax : public byte byteValue()
 ```
 
 **5.shortValue() :** 返回对应于此浮点对象的短值。
 
-```
+```java
 Syntax : public short shortValue()
 ```
 
 **6.intValue() :** 返回与此浮点对象对应的 int 值。
 
-```
+```java
 Syntax : public int intValue()
 ```
 
 **7.longValue() :** 返回与此浮点对象对应的长值。
 
-```
+```java
 Syntax : public long longValue()
 ```
 
 **8.doubleValue() :** 返回与此浮点对象对应的双精度值。
 
-```
+```java
 Syntax : public double doubleValue()
 ```
 
 **9 .浮点值():**返回与该浮点对象对应的浮点值。
 
-```
+```java
 Syntax : public float floatValue()
 ```
 
 **10.hashCode() :** 返回这个 Float 对象对应的 hashCode。
 
-```
+```java
 Syntax : public int hashCode()
 ```
 
 **11.isNaN() :** 如果考虑的浮点对象不是数字，则返回 true，否则返回 false。
 
-```
+```java
 Syntax : public boolean isNaN()
 ```
 
 如果我们不需要创建任何 float 对象，可以使用另一个静态方法 isNaN(float val)。它提供了与上述版本相似的功能。
 
-```
+```java
 Syntax : public static boolean isNaN(float val)
 Parameters :
 val : float value to check for
@@ -124,13 +124,13 @@ val : float value to check for
 
 **12 . IsInfinish():**如果考虑的浮点对象非常大，则返回 true，否则返回 false。具体来说，在正端超过 0x7f800000，在负端低于 0xff800000 的任何数字都是无穷大值。
 
-```
+```java
 Syntax : public boolean isInfinite()
 ```
 
 如果我们不需要创建任何浮点对象，可以使用另一个静态方法 isInfinite(浮点值)。它提供了与上述版本相似的功能。
 
-```
+```java
 Syntax : public static boolean isInfinte(float val)
 Parameters :
 val : float value to check for
@@ -138,7 +138,7 @@ val : float value to check for
 
 **13 . TooExString():**返回参数浮点值的十六进制表示形式。
 
-```
+```java
 Syntax : public static String toHexString(float val)
 Parameters : 
 val : float value to be represented as hex string
@@ -146,7 +146,7 @@ val : float value to be represented as hex string
 
 **14。float pointbits():**返回给定浮点参数的 IEEE 754 浮点“单格式”位布局。IEEE 754 浮点“单格式”的详细总结可以在[这里](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_math.html)找到。
 
-```
+```java
 Syntax : public static int floatToIntBits(float val)
 Parameters :
 val : float value to convert
@@ -154,7 +154,7 @@ val : float value to convert
 
 **15 . floatittorawintbits():**返回给定浮点参数的 IEEE 754 浮点“单格式”位布局。它不同于以前的方法，因为它保留了南值。
 
-```
+```java
 Syntax : public static int floatToRawIntBits(float val)
 Parameters :
 val : float value to convert
@@ -162,7 +162,7 @@ val : float value to convert
 
 **16。IntBitsToFloat() :** 返回与参数的长位模式对应的浮点值。它确实与前面两种方法相反。
 
-```
+```java
 Syntax : public static float IntBitsToFloat(long b)
 Parameters :
 b : long bit pattern
@@ -170,7 +170,7 @@ b : long bit pattern
 
 **17.equals() :** 用于比较两个 Float 对象的相等性。如果两个对象包含相同的浮点值，则此方法返回 true。仅当检查是否相等时才应使用。在所有其他情况下，应该首选 compareTo 方法。
 
-```
+```java
 Syntax : public boolean equals(Object obj)
 Parameters :
 obj : object to compare with
@@ -178,7 +178,7 @@ obj : object to compare with
 
 **18。compareTo() :** 用于比较两个 Float 对象的数值是否相等。当比较两个浮点值的数值相等时，应该使用这种方法，因为它可以区分较小值和较大值。返回小于 0，0 的值，对于小于、等于和大于，返回大于 0 的值。
 
-```
+```java
 Syntax : public int compareTo(Float b)
 Parameters :
 b : Float object to compare with
@@ -186,7 +186,7 @@ b : Float object to compare with
 
 **19。compare() :** 用于比较数值相等的两个原始浮点值。由于它是一个静态方法，因此可以在不创建任何浮点对象的情况下使用。
 
-```
+```java
 Syntax : public static int compare(float x,float y)
 Parameters :
 x : float value
@@ -197,7 +197,7 @@ y : another float value
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // various float class methods
 // of Java.lang class
@@ -277,7 +277,7 @@ public class GfG
 
 **输出:**
 
-```
+```java
 toString(b) = 55.05
 valueOf(b) = 55.05
 ValueOf(bb) = 45.0

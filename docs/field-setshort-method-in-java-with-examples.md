@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setShort(Object obj, short s)
          throws IllegalArgumentException,
                 IllegalAccessException
@@ -30,7 +30,7 @@ public void setShort(Object obj, short s)
 下面的程序说明了 setShort()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setShort() method
 
 import java.lang.reflect.Field;
@@ -76,7 +76,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of uniqueNo before applying setShort is 239
 Value of uniqueNo after applying setShort is 134
 
@@ -84,7 +84,7 @@ Value of uniqueNo after applying setShort is 134
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate setShort() method
 
 import java.lang.reflect.Field;
@@ -123,7 +123,7 @@ class Numbers {
 
 **Output:**
 
-```
+```java
 Value after applying setShort is 5366
 
 ```

@@ -28,7 +28,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the area of
 // the square using Method Overloading
 // of parameters with different datatype
@@ -75,7 +75,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of the Square: 100.0
 Area of the Square: 10.240000000000002
 
@@ -87,7 +87,7 @@ Area of the Square: 10.240000000000002
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the area of
 // the multiple shapes
 // using Method Overloading
@@ -145,7 +145,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of the Circle: 346.36059005827474
 Area of the Square: 9.0
 Area of the Rectangle: 20

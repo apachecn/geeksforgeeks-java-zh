@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> Set<T>
   synchronizedSet(Set<T> s)
 ```
@@ -19,7 +19,7 @@ public static <T> Set<T>
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedSet() method
 // for String Value
@@ -62,7 +62,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Set : [1, 2, 3]
 Synchronized set is : [1, 2, 3]
 
@@ -70,7 +70,7 @@ Synchronized set is : [1, 2, 3]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedSet() method
 // for Integer Value
@@ -113,7 +113,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Set : [100, 200, 300]
 Synchronized set is : [100, 200, 300]
 

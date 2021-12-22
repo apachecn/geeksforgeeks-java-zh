@@ -15,7 +15,7 @@
 
 **申报**
 
-```
+```java
 public interface Enumeration<E>
 ```
 
@@ -25,7 +25,7 @@ public interface Enumeration<E>
 
 **创建枚举对象**
 
-```
+```java
 Vector ve = new Vector();
 Enumeration e = v.elements();
 ```
@@ -34,7 +34,7 @@ Enumeration e = v.elements();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to test Enumeration
 import java.util.Vector;
 import java.util.Enumeration;
@@ -69,7 +69,7 @@ public class EnumerationClass {
 
 **Output**
 
-```
+```java
 January
 February
 March
@@ -88,7 +88,7 @@ December
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 class GFG {
@@ -134,7 +134,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Enumeration;
 import java.lang.reflect.Array;
 
@@ -167,7 +167,7 @@ public class EnumerationClass implements Enumeration {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 import java.io.*;
 

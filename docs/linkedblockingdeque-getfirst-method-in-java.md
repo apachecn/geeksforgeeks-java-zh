@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E getLast()
 ```
 
@@ -20,7 +20,7 @@ public E getLast()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate getFirst()
 // method of LinkedBlockingDeque
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [74381793, 5278367, 35658786, 7855642]
 Linked Blocking Deque first element: 74381793
 
@@ -62,7 +62,7 @@ Linked Blocking Deque first element: 74381793
 
 **节目 2:**
 
-```
+```java
 // Java Program Demonstrate getFirst()
 // method of LinkedBlockingDeque
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.util.NoSuchElementException
     at java.util.concurrent.LinkedBlockingDeque.getFirst(LinkedBlockingDeque.java:553)
     at GFG.main(GFG.java:28)

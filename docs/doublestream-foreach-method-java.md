@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void forEach(DoubleConsumer action)
 
 ```
@@ -19,7 +19,7 @@ void forEach(DoubleConsumer action)
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream forEach
 // (DoubleConsumer action) in Java 8
 import java.util.*;
@@ -41,7 +41,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 7.3
 8.2
 9.5
@@ -53,7 +53,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream forEach
 // (DoubleConsumer action) in Java 8
 import java.util.*;
@@ -75,7 +75,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 9.5
 7.3
 8.2

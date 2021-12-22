@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean startsWith(String prefix)
 ```
 
@@ -35,7 +35,7 @@ startWith()有两种替代品，如下所示:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to Illustrate Usage of Regular Expressions
 // as a Substitute of startWith() method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Check whether string starts with Welcome using startsWith : true
 Check whether string starts with Welcome using Regex: true
 ```
@@ -86,7 +86,7 @@ Check whether string starts with Welcome using Regex: true
 
 **语法:**
 
-```
+```java
 public boolean matches(String regex)
 ```
 
@@ -98,7 +98,7 @@ public boolean matches(String regex)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to Illustrate Usage of String.matches()
 // as a Substitute of startWith() method
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Check whether string starts with Welcome using startsWith : true
 Check whether string starts with Welcome using Matches: true
 ```

@@ -6,7 +6,7 @@
 
 **示例**
 
-```
+```java
 Input: A[][] = {{1, 3}, 
                 {2, 4}}
        B[][] = {{1, 1}, 
@@ -34,7 +34,7 @@ Output: {{3, 6},
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add Two 
 // Matrix Using Iterative Approach
 import java.io.*;
@@ -75,7 +75,7 @@ class Main {
 
 **Output**
 
-```
+```java
 The sum is 
 2 4 
 3 5 

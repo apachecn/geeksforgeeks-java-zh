@@ -37,7 +37,7 @@ Choice 类是 Java 抽象窗口工具包(AWT)的一部分。Choice 类为用户�
 
 *   **Program to create a simple choice and add elements to it**:
 
-    ```
+    ```java
     // Java Program to create a simple 
     // choice and add elements to it .
     import java.awt.*;
@@ -92,7 +92,7 @@ Choice 类是 Java 抽象窗口工具包(AWT)的一部分。Choice 类为用户�
 
 *   **Program to create a simple choice and add ItemListener to it**:
 
-    ```
+    ```java
     // Java  Program to create a simple
     // choice and add ItemListener to it
     import java.awt.*;
@@ -171,7 +171,7 @@ Choice 类是 Java 抽象窗口工具包(AWT)的一部分。Choice 类为用户�
 
 *   **用于创建选项并手动添加元素的程序(使用添加(字符串)功能)**:
 
-    ```
+    ```java
     // Java Program to create a choice and
     // manually add elements to it 
     // (using add(String s) function)

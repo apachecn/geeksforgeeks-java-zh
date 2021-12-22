@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.contains(Object o)
 ```
 
@@ -18,7 +18,7 @@ ConcurrentSkipListSet.contains(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of ConcurrentSkipListSet
 
@@ -47,14 +47,14 @@ class ConcurrentSkipListSetContainsExample1 {
 
 **输出:**
 
-```
+```java
 9 is not present in the set.
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of ConcurrentSkipListSet */
 
@@ -84,7 +84,7 @@ class ConcurrentSkipListSetContainsExample2 {
 
 **输出:**
 
-```
+```java
 Gfg is present in the set.
 
 ```

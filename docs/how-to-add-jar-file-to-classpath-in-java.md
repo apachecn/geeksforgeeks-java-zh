@@ -53,7 +53,7 @@ JAR 是 JAVA Archive 的缩写。它用于将多个文件聚合成一个文件�
 
 从 Java 1.6+开始，我们可以使用通配符来包含目录中的所有 jar，以设置类路径，或者使用类路径命令行选项来提供 Java 程序。我们可以举例说明使用 Java 6 通配符方法将多个 JAR 添加到类路径中的 Java 命令示例，如下所示，
 
-```
+```java
 java.exe -classpath D:\lib\*Main
 ```
 
@@ -63,7 +63,7 @@ java.exe -classpath D:\lib\*Main
 
 每当 JAR 和类文件出现在同一个目录中时，我们就需要分别包含它们
 
-```
+```java
  Java -*classpath* /classes: /lib/*
 ```
 

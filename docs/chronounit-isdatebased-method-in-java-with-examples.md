@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isDateBased()
 
 ```
@@ -18,7 +18,7 @@ public boolean isDateBased()
 下面的程序说明了计时单位的方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.isDateBased() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DECADES is Date based attribute:true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.isDateBased() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MINUTES is Date based attribute:false
 
 ```

@@ -15,7 +15,7 @@ IPv4 地址由 32 位组成，将地址空间限制为 4294967296 (232)个可能
 
 > 伪代码如下:
 > 
-> ```
+> ```java
 > InetAddress myIP = InetAddress.getLocalHost();
 > System.out.println(myIP.getHostAddress());
 > ```
@@ -24,7 +24,7 @@ IPv4 地址由 32 位组成，将地址空间限制为 4294967296 (232)个可能
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find IP address of Own Device
 
 // Importing input output class
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 My IP Address is:
 127.0.0.1
 ```

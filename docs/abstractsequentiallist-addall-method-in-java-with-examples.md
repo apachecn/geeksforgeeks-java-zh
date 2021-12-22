@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean addAll(int index, Collection C)
 ```
 
@@ -21,7 +21,7 @@ boolean addAll(int index, Collection C)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate addAll() method
 
 import java.util.*;
@@ -67,7 +67,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [Geeks, for, Geeks, 10, 20]
 The new list is: [Geeks, A, Computer, Portal, for, Geeks, for, Geeks, 10, 20]
 
@@ -75,7 +75,7 @@ The new list is: [Geeks, A, Computer, Portal, for, Geeks, for, Geeks, 10, 20]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate boolean addAll()
 
 import java.util.*;
@@ -120,7 +120,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSequentialList is: [10, 20, 30, 10, 20]
 The new list is: [10, 1, 2, 3, 4, 5, 20, 30, 10, 20]
 

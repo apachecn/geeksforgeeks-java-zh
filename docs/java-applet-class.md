@@ -71,7 +71,7 @@ java 小程序类的生命周期有四个主要方法
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This is a Simple Java Applet
 // program using appletviewer
 

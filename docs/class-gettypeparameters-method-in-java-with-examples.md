@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public TypeVariable<Class<T>> getTypeParameters()
 
 ```
@@ -19,7 +19,7 @@ public TypeVariable<Class<T>> getTypeParameters()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getTypeParameters() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 TypeParameters of myClass: []
 

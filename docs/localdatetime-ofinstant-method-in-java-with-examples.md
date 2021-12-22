@@ -8,7 +8,7 @@ Java 中 **LocalDateTime** 类的**方法用于使用一个即时和区域 Id �
 
 **语法:**
 
-```
+```java
 public static LocalDateTime 
        ofInstant(Instant instant,
                  ZoneId zone)
@@ -28,7 +28,7 @@ public static LocalDateTime
 
 ****程序 1:****
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.ofInstant(
 // Instant instant, ZoneId zone) method
@@ -54,14 +54,14 @@ public class GFG {
 
 ****输出:**
 
-```
+```java
 Date: 2020-05-13T12:40:38.087
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.ofInstant(
 // Instant instant, ZoneId zone) method
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Year: 2020
 
 ```

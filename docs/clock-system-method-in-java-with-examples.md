@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static Clock system(ZoneId zone)
 ```
 
@@ -18,7 +18,7 @@ public static Clock system(ZoneId zone)
 
 **示例:**
 
-```
+```java
 Code:
 // create a Zone Id for Europe/Paris
 ZoneId zoneId = ZoneId.of("Europe/Paris");
@@ -41,7 +41,7 @@ date and time of clock by using instant of class.
 
 **程序 1:** 用系统(ZoneId)创建时钟时，其中 ZoneId 为“欧洲/巴黎”，并打印时钟的日期和时间。
 
-```
+```java
 // Java program to demonstrate
 // system(ZoneId) method of Clock class
 
@@ -74,14 +74,14 @@ public class systemMethodDemo {
 
 **Output:**
 
-```
+```java
 Instant for class is 2018-08-22T13:53:35.779+02:00[Europe/Paris]
 
 ```
 
 **程序 2:** 使用系统()创建带“美国/亚利桑那州”区域的时钟，并使用 getZone()打印区域标识。
 
-```
+```java
 // Java program to demonstrate
 // system(ZoneId) method of Clock class
 
@@ -109,7 +109,7 @@ public class systemMethodDemo {
 
 **Output:**
 
-```
+```java
 ZoneID of class is US/Arizona
 
 ```

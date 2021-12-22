@@ -14,7 +14,7 @@
     程序不应该指望这个方法返回实际的字节数
     可以不阻塞地读取。
 
-    ```
+    ```java
     Syntax :public int available()
                   throws IOException
     Overrides:
@@ -29,7 +29,7 @@
 
 *   **void close() :** 关闭此输入流并释放与该流相关联的任何系统资源。
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Overrides:
@@ -39,7 +39,7 @@
 
 *   **void closeEntry() :** 关闭当前的 ZIP 条目，并定位流以读取下一个条目。
 
-    ```
+    ```java
     Syntax :public void closeEntry()
                     throws IOException
     Throws:
@@ -49,7 +49,7 @@
 
 *   **受保护的子条目创建子条目(字符串名称):**为指定的条目名称创建一个新的子条目对象。
 
-    ```
+    ```java
     Syntax :protected ZipEntry createZipEntry(String name)
     Parameters:
     name - the ZIP file entry name
@@ -59,7 +59,7 @@
 
 *   **ZipEntry getNextEntry() :** 读取下一个 ZIP 文件条目，并将流定位在条目数据的开头。
 
-    ```
+    ```java
     Syntax :public ZipEntry getNextEntry()
                           throws IOException
     Returns:
@@ -71,7 +71,7 @@
 
 *   **int read(byte[] b，int off，int len) :** 从当前 ZIP 条目读取到一个字节数组中。如果 len 不为零，则该方法阻塞，直到某个输入可用；否则，不读取字节，返回 0。
 
-    ```
+    ```java
     Syntax :public int read(byte[] b,
            int off,
            int len)
@@ -91,7 +91,7 @@
 
 *   **长跳过(长 n) :** 跳过当前 ZIP 条目中指定的字节数。
 
-    ```
+    ```java
     Syntax :public long skip(long n)
               throws IOException
     Parameters:
@@ -103,7 +103,7 @@
     IllegalArgumentException 
     ```
 
-```
+```java
 //Java program demonstrating ZipInputStream methods
 
 import java.io.FileInputStream;
@@ -156,7 +156,7 @@ class ZipInputStreamDemo extends ZipInputStream
 
 **输出:**
 
-```
+```java
 ZipEntry
 awesome-cv.cls
 [35, 32, 65, 119, 101, 115, 111, 109, 101, 32]

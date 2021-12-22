@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 
 ```
@@ -19,7 +19,7 @@ public void clear()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate clear()
 // method of ConcurrentSkipListMap
 
@@ -53,7 +53,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 map elements are: {1=1, 2=2, 3=3, 4=4, 5=5}
 after clear the map is: {}
 
@@ -61,7 +61,7 @@ after clear the map is: {}
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate clear()
 // method of ConcurrentSkipListMap
 
@@ -95,7 +95,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 map elements are: {1=1, 2=2, 3=3, 4=4, 5=5, 6=6, 7=7, 8=8, 9=9, 10=10}
 after clear the map is: {}
 

@@ -12,7 +12,7 @@
 
 1.  首先，我们需要定义员工实体。因此，定义了以下员工类别:
 
-    ```
+    ```java
     package com.example.demo;
 
     // Creating an entity Employee
@@ -119,7 +119,7 @@
 
 2.  现在，我们需要创建一个存储所有员工列表的存储类:
 
-    ```
+    ```java
     package com.example.demo;
 
     import java.util.ArrayList;
@@ -160,7 +160,7 @@
 
 3.  到目前为止，我们已经定义了实体员工并创建了存储类。现在，我们需要接触员工。因此，我们创建了一个类，我们将从其中创建一个存储类的对象来存储员工:
 
-    ```
+    ```java
     package com.example.demo;
 
     import org.springframework
@@ -231,7 +231,7 @@
 
 4.  最后，我们需要创建一个控制器类，它是 REST API 的实际实现。根据 REST 规则，数据库中的每个新条目都必须由 POST 方法调用，来自数据库的所有请求都必须使用 GET 方法调用。相同的方法在下面的代码中实现:
 
-    ```
+    ```java
     package com.example.demo;
 
     import java.net.URI;
@@ -324,7 +324,7 @@
 
 5.  实现项目中的所有类后，将项目作为 **Spring Boot 应用运行。**一旦服务器开始运行，我们就可以通过浏览器或邮递员发送请求。我们可以通过进入以下网址来访问正在运行的应用程序:
 
-    ```
+    ```java
     http://localhost:8080/employees/
 
     ```

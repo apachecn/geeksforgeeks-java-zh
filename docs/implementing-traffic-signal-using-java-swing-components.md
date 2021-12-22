@@ -10,7 +10,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to Implement Traffic signal
 // Using Java Swing Components
 

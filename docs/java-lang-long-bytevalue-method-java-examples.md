@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public byte byteValue()
 Parameters: The function does not accept any parameter.
 Return :
@@ -17,7 +17,7 @@ represented by this object after conversion to byte type.
 
 示例:
 
-```
+```java
 Input : 12
 Output : 12
 
@@ -30,7 +30,7 @@ Output : -1
 
 **程序 1 :**
 
-```
+```java
 // Java program that demonstrates the use of
 // Long.byteValue() function
 
@@ -58,7 +58,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Byte Value of num = -1
 Byte Value of num = 12
 
@@ -66,7 +66,7 @@ Byte Value of num = 12
 
 **程序 2 :** 演示负数的字节值
 
-```
+```java
 // Java program that demonstrates the use of
 // Long.byteValue() function
 // negative number
@@ -95,7 +95,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Byte Value of num = 1
 Byte Value of num = -12
 
@@ -103,7 +103,7 @@ Byte Value of num = -12
 
 **程序 3 :** 当一个十进制值在参数中传递时。
 
-```
+```java
 // Java program that demonstrates the use of
 // Long.byteValue() function
 // decimal number
@@ -127,7 +127,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:13: error: incompatible types: double cannot be converted to Long
         Long value = 11.24;
 
@@ -135,7 +135,7 @@ prog.java:13: error: incompatible types: double cannot be converted to Long
 
 **程序 4 :** 当一个字符串值在参数中传递时。
 
-```
+```java
 // Java program that demonstrates the use of
 // Long.byteValue() function
 // string number
@@ -159,7 +159,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:13: error: incompatible types: String cannot be converted to Long
         Long value = "24";
 

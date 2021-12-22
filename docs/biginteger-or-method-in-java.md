@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger or(BigInteger val)
 ```
 
@@ -18,7 +18,7 @@ public BigInteger or(BigInteger val)
 
 **例:**
 
-```
+```java
 Input: value1 = 2300 , value2 = 3400
 Output: 3580
 Explanation:
@@ -34,7 +34,7 @@ Output: 65307
 
 下面程序举例说明 BigInteger 类的 or()方法:
 
-```
+```java
 /*
 *Program Demonstrate or() method of BigInteger 
 */
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Result of OR operation between 2300 and 3400 is 3580
 
 ```

@@ -4,7 +4,7 @@
 
 给定一个字符串，查找给定的字符串是否是有效的电子邮件。
 
-```
+```java
 Input : email = "review-team@geeksforgeeks.org"
 Output : Yes
 
@@ -21,7 +21,7 @@ Explanation : There is an extra dot(.) before org.
 
 为了检查电子邮件地址是否有效，我们使用下面给出的正则表达式，该表达式在 OWASP Validation Regex 存储库中提供。
 
-```
+```java
 ^[a-zA-Z0-9_+&*-] + (?:\\.[a-zA-Z0-9_+&*-]
 + )*@(?:[a-zA-Z0-9-]+\\.) + [a-zA-Z]{2, 7}$ 
 ```
@@ -30,7 +30,7 @@ Explanation : There is an extra dot(.) before org.
 
 ## Java
 
-```
+```java
 // Java program to check if an email address
 // is valid using Regex.
 import java.util.regex.Matcher;
@@ -71,7 +71,7 @@ class Test
 
 **输出**
 
-```
+```java
 review-team@geeksforgeeks.org - Yes
 writing.geeksforgeeks.org - No
 ```

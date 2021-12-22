@@ -5,7 +5,7 @@
 [延迟队列](https://www.geeksforgeeks.org/delayqueue-class-in-java-with-example/)的 **toArray()** 方法用于返回包含延迟队列中所有元素的数组。数组中没有任何特定顺序的元素。
 **语法:**
 
-```
+```java
 public Object[] toArray ()
            or
 public T[] toArray (T[] a)
@@ -23,7 +23,7 @@ public T[] toArray (T[] a)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue toArray() method
 
 import java.util.concurrent.*;
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 DelayQueue: [
 { A, time=1546842694862}, 
 { B, time=1546842694863}, 
@@ -128,7 +128,7 @@ Elements of DelayQueue as Array: [
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue toArray() method
 
 import java.util.concurrent.*;
@@ -217,7 +217,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 DelayQueue: [
 { A, time=1546842699503}, 
 { B, time=1546842699504}, 

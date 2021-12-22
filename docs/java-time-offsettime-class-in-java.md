@@ -6,7 +6,7 @@ Java OffsetTime 类是一个不可变的日期-时间对象，它表示时间，
 
 **语法:**类声明
 
-```
+```java
 public final class OffsetTime extends Object   
 implements Temporal, TemporalAdjuster, Comparable<OffsetTime>, Serializable  
 ```
@@ -85,7 +85,7 @@ implements Temporal, TemporalAdjuster, Comparable<OffsetTime>, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement OffsetTime class
 // via now() method
 
@@ -117,7 +117,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 4
 253
 15211
@@ -127,7 +127,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement OffsetTime Class
 // via getHour() method
 
@@ -157,7 +157,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 4 hours
 ```
 
@@ -165,7 +165,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement OffsetTime Class
 // via getMinute() Method
 
@@ -193,6 +193,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 12 minutes
 ```

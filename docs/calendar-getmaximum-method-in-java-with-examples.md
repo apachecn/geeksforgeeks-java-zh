@@ -6,7 +6,7 @@ calendar 类中的**getMaximum(int*calndr _ field*)**方法用于返回此 Calen
 
 **语法:**
 
-```
+```java
 public abstract int getMaximum(int *calndr_field*)
 ```
 
@@ -17,7 +17,7 @@ public abstract int getMaximum(int *calndr_field*)
 下面的程序说明了日历类的 getMaximum()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // getMaximum() method
 
@@ -46,7 +46,7 @@ public class Calendar_Demo {
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getMaximum() method
 

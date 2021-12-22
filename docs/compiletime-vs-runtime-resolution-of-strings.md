@@ -10,7 +10,7 @@
 
 考虑下面的代码:
 
-```
+```java
 String str = "Geeks "
              + "for"
              + "Geeks";
@@ -18,7 +18,7 @@ String str = "Geeks "
 
 上面的代码由编译器通过字符串的编译时解析进行优化，如下所示:
 
-```
+```java
 String str = "GeeksforGeeks";
 ```
 
@@ -30,7 +30,7 @@ String str = "GeeksforGeeks";
 
 考虑下面的代码:
 
-```
+```java
 String str = "Geeks " + var + "Geeks";
 ```
 
@@ -40,7 +40,7 @@ String str = "Geeks " + var + "Geeks";
 
 1.  Suppose the String is defined using a StringBuffer:
 
-    ```
+    ```java
     String str = (new StringBuffer())
                      .append("Geeks")
                      .append("for")
@@ -54,7 +54,7 @@ String str = "Geeks " + var + "Geeks";
 
 2.  Suppose the String is defined using a StringBuffer:
 
-    ```
+    ```java
     String str = "Geeks"
                  + " "
                  + "for"
@@ -68,7 +68,7 @@ String str = "Geeks " + var + "Geeks";
 
 3.  Suppose the String is defined in a return statement:
 
-    ```
+    ```java
     public static String func(String var)
     {
         return "Geeks" + var + "Geeks";

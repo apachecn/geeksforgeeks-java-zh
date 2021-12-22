@@ -8,7 +8,7 @@
 
 具有部分实现的类(即，不是类中存在的所有方法都有方法定义)。要声明类抽象，请使用以下通用形式:
 
-```
+```java
 abstract class class-name{
     //body of class
 }
@@ -21,7 +21,7 @@ abstract class class-name{
 
 有时，我们只需要超类中的方法声明。这可以通过指定**抽象**类型修改器来实现。这些方法有时被称为*子类责任*，因为它们在超类中没有指定实现。因此，子类必须[覆盖](https://www.geeksforgeeks.org/overriding-in-java/)它们来提供方法定义。要声明抽象方法，请使用以下通用形式:
 
-```
+```java
 abstract type method-name(parameter-list);
 
 ```
@@ -40,7 +40,7 @@ abstract type method-name(parameter-list);
 
 考虑下面的 java 程序，它说明了类和方法使用*抽象*关键字。
 
-```
+```java
 // A java program to demonstrate 
 // use of abstract keyword.
 
@@ -83,7 +83,7 @@ public class AbstractDemo 
 
 输出:
 
-```
+```java
 B's implementation of m2.
 This is a concrete method.
 

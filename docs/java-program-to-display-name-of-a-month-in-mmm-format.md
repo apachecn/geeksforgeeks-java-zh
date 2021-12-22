@@ -16,7 +16,7 @@ Java 是一种最强大的编程语言，通过它我们可以做很多事情，
 
 ## Java
 
-```
+```java
 // Java Program to format the date in MMM
 // format using SimpleDateFormat() method
 
@@ -43,6 +43,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Nov
 ```

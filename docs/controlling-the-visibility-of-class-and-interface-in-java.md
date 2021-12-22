@@ -47,7 +47,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for showcasing the behaviour
 // of Private Access Modifier
 
@@ -70,7 +70,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Main.java:18: error: name has private access in Data
      d.name = "Programiz";
       ^
@@ -82,7 +82,7 @@ Main.java:18: error: name has private access in Data
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for showcasing the behaviour
 // of Protected Access Modifier
 
@@ -109,7 +109,7 @@ class Dog extends Animal {
 
 **Output**
 
-```
+```java
 I am an animal
 ```
 
@@ -117,7 +117,7 @@ I am an animal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for showcasing the behaviour
 // of Public Access Modifier
 
@@ -152,7 +152,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 I am an animal.
 I have 4 legs.
 ```

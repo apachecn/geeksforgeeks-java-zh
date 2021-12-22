@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public final void clear(int *cal_field*)
 ```
 
@@ -18,7 +18,7 @@ public final void clear(int *cal_field*)
 下面的程序说明了 Calendar 类的 clear()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate clear() Method
 
 import java.util.Calendar;
@@ -46,7 +46,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 Current Date&Time: Wed Mar 27 09:03:26 UTC 2019
 After clear method: Sun Jan 27 09:03:26 UTC 2019
 
@@ -54,7 +54,7 @@ After clear method: Sun Jan 27 09:03:26 UTC 2019
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate clear() Method
 
 import java.util.Calendar;
@@ -82,7 +82,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 Current Date&Time: Wed Mar 27 09:03:32 UTC 2019
 After clear method: Fri Mar 27 09:03:32 UTC 1970
 

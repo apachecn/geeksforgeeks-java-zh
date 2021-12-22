@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public V put(K key, V value)
 
 ```
@@ -22,7 +22,7 @@ public V put(K key, V value)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate put()
 // method of ConcurrentSkipListMap
 
@@ -50,14 +50,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 After put(): {1=1, 2=2, 3=3, 4=4, 5=5}
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate put()
 // method of ConcurrentSkipListMap
 
@@ -85,7 +85,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 After put(): {1=1, 2=2, 3=3, 4=4, 5=5, 6=6, 7=7, 8=8, 9=9}
 
 ```

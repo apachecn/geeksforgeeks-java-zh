@@ -6,7 +6,7 @@ Java 中的 Java.util.ArrayDeque.clear()方法用于从 Deque 中移除所有元
 
 **语法:**
 
-```
+```java
 Array_Deque.clear()
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.clear()
 下面的程序说明了 Java.util.ArrayDeque.clear()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.*;
 
@@ -48,7 +48,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 ArrayDeque: []
 
@@ -56,7 +56,7 @@ ArrayDeque: []
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.*;
 
@@ -87,7 +87,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 ArrayDeque: []
 

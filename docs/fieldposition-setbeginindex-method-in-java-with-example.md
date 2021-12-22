@@ -5,7 +5,7 @@
 **java.text.FieldPosition** 类的 **setBeginIndex()** 方法用于设置 FieldPosition 对象开始字符的索引。
 **语法:**
 
-```
+```java
 public void setBeginIndex(int index)
 ```
 
@@ -16,7 +16,7 @@ public void setBeginIndex(int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setBeginIndex() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 begin index :- 5
 ```
 
@@ -63,7 +63,7 @@ begin index :- 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setBeginIndex() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 begin index :- 10
 ```
 

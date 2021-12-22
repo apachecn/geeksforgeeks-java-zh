@@ -10,7 +10,7 @@ A [类](https://www.geeksforgeeks.org/classes-objects-java/)根据用户需求�
 
 1.  In this example, **class A is created** successfully and one can call the class methods by creating an object of class A.
 
-    ```
+    ```java
     C:\Windows\SysWOW64>jshell
     |  Welcome to JShell -- Version 13.0.1
     |  For an introduction type: /help intro
@@ -35,7 +35,7 @@ A [类](https://www.geeksforgeeks.org/classes-objects-java/)根据用户需求�
 
 2.  In this example, **due to ‘;’, an error occurs** and this **can be solved** it easily because the line of code is small and easy.
 
-    ```
+    ```java
     jshell> class A{
        ...> int x;
        ...> int y;
@@ -59,7 +59,7 @@ A [类](https://www.geeksforgeeks.org/classes-objects-java/)根据用户需求�
 
 3.  Example to **access the methods of the class**:
 
-    ```
+    ```java
     jshell>A a=new A();
     a ==> A@42dafa95
     jshell>a.get(10, 20);
@@ -71,7 +71,7 @@ A [类](https://www.geeksforgeeks.org/classes-objects-java/)根据用户需求�
 
 4.  In the above examples, the objects of class A is created and denoted by ‘a’ and we call the get and show methods. We can also **override the methods of class** A. After overriding the methods, a message will be displayed that “the method is modified” and now we can call the modified methods and get the answers.
 
-    ```
+    ```java
     jshell> void show();
        ...> {
        ...> System.out.println("sum="+(x-y));

@@ -26,7 +26,7 @@
 
 1.  **Java Program to create a Spot light and add it to a rectangle:** In this program we will create a Rectangle named *rectangle* with specified height and width. We will also create a *Light.Spot object* named *light*. We will set the x, y, z values using *setX()*, *setY()* and *setZ()* function. Now create a lighting object and add the light object to lighting using *setLight()* function. We will set the Lighting effect to the Rectangle and add it to the scene and add the scene to the stage and call the show function to display the results.
 
-    ```
+    ```java
     // Java Program to create a Spot light
     // and add it to a rectangle
     import javafx.application.Application;
@@ -99,7 +99,7 @@
 
 2.  **Java Program to create a Spotlight and add it to a rectangle and set the coordinates of the direction vector of light and color of light:** In this program we will create a Rectangle named *rectangle* with specified height and width. We will also create a *Light.Spot object* named *light*. We will set the x, y, z values using *setX()*, *setY()* and *setZ()* function. The coordinate of the direction vector of light is set using *setPointsAtX()*, *setPointsAtY()* and *setPointsAtX()*, and specify the value of color using *setColor()* function Now create a lighting object and add the light object to lighting using *setLight()* function. We will set the Lighting effect to the Rectangle and add it to the scene and add the scene to the stage and call the show function to display the results.
 
-    ```
+    ```java
     // Java Program to create a Spot light
     // and add it to a rectangle and set the
     // coordinates of direction vector of 

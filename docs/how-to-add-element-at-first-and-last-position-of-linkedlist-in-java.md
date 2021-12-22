@@ -6,12 +6,12 @@ LinkedList 是存在于 [java.util](https://www.geeksforgeeks.org/java-util-pack
 
 插图:
 
-```
+```java
 Input : LinkedList: ['e', 'e', 'k'], insert at first = 'G', insert at last = 's' 
 Output: LinkedList: ['G', 'e', 'e', 'k', 's']  
 ```
 
-```
+```java
 Input : LinkedList: [2, 3, 4], insert at first = 1, insert at last = 5 
 Output: LinkedList: [1, 2, 3, 4, 5] 
 ```
@@ -22,7 +22,7 @@ Output: LinkedList: [1, 2, 3, 4, 5] 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Insert Elements in LinkedList
 // at first and last position to showcase
 // addFirst() and addlast() Method
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Linked list: [e, e, k]
 Updated Linked list: [G, e, e, k, s]
 ```

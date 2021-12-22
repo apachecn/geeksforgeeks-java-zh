@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration plusNanos(long numberOfNanos)
 
 ```
@@ -21,7 +21,7 @@ public Duration plusNanos(long numberOfNanos)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate plusNanos() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT51H4M0.000000002S
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate plusNanos() method
 
 import java.time.Duration;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT4M0.000000005S
 
 ```

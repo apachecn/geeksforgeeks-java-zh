@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input:
 
 Enter the dimensions of the matrices:  
@@ -54,7 +54,7 @@ Output: Yes, The matrix multiplication is correct.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing class to create objects
 // generating pseudo random numbers
 import java.util.Random;

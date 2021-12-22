@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E takeLast()
 ```
 
@@ -18,7 +18,7 @@ public E takeLast()
 
 **节目 1:**
 
-```
+```java
 // Java Program to demonstrate takeLast()
 // method of LinkedBlockingDeque
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Head of Linked Blocking Deque: 74381793
 Linked Blocking Deque: [7855642, 35658786, 5278367]
@@ -64,7 +64,7 @@ Linked Blocking Deque: [7855642, 35658786, 5278367]
 
 **节目 2:**
 
-```
+```java
 // Java Program to demonstrate takeLast()
 // method of LinkedBlockingDeque
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **运行时错误:**
 
-```
+```java
 Max real time limit exceeded due to either by heavy load on server or by using sleep function
 
 ```

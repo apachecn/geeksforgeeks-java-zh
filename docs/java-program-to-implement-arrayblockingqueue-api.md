@@ -43,7 +43,7 @@ ArrayBlockingQueue 的这种绑定大小特性可以通过最初将容量作为�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -256,7 +256,7 @@ public class ArrayBlockingQueueImpl<E> {
 
 **Output**
 
-```
+```java
 ArrayBlockingQueue (when fair policy is true):[one, two, three, four, five]
 Peek element of the queue : one
 Deleting the element 'five' from the queue : true

@@ -29,13 +29,13 @@
 
 **5。**现在为了创建一个新线程
 
-```
+```java
 runner = new Thread(this,threadName) ;
 ```
 
 **6。**为了启动新线程。
 
-```
+```java
 runner. start() ;
 ```
 
@@ -56,7 +56,7 @@ runner. start() ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Use exceptions with thread
 
 // Importing Classes/Files
@@ -102,7 +102,7 @@ class GFG extends Thread {
 
 **输出:**
 
-```
+```java
 Another thread is not supported
 ```
 
@@ -144,7 +144,7 @@ Another thread is not supported
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Use exceptions with thread
 
 /* Note: Dont confuse main method with Main class*/
@@ -190,7 +190,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Throwing in MyThread
 Exception in thread "Thread-0" java.lang.RuntimeException
         at testapp.MyThread.run(Main.java:19)

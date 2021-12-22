@@ -22,12 +22,12 @@
 
 插图:
 
-```
+```java
 Input  : Enter Mobile Number: 7873923408
 Output : Valid Mobile Number
 ```
 
-```
+```java
 Input  : Enter Mobile Number: 5678729234
 Output : Invalid Mobile Number
 ```
@@ -40,7 +40,7 @@ Output : Invalid Mobile Number
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check if Mobile Number is Valid or Not
 
 // Importing all regex classes from java.util package to
@@ -110,7 +110,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Valid Number
 Invalid Number
 ```
@@ -128,12 +128,12 @@ Invalid Number
 
 插图:
 
-```
+```java
 Input  : Enter Mobile Number : +1 212 555-3458 (USA)
 Output : Valid Mobile Number
 ```
 
-```
+```java
 Input  : Enter Mobile Number : +4934 351 125-3456
 Output : Invalid Mobile Number
 ```
@@ -142,7 +142,7 @@ Output : Invalid Mobile Number
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Check if Mobile Number is Valid or Not
 
 // Importing all regex classes for
@@ -210,7 +210,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Valid Number
 Invalid Number
 ```

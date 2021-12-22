@@ -15,7 +15,7 @@
 
 ## XML
 
-```
+```java
 <Button
   android:id="@+id/like"
   android:layout_width="wrap_content"

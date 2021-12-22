@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Control Table in Java
 
 import java.util.*;
@@ -90,7 +90,7 @@ public class ControlTables {
 
 **Output**
 
-```
+```java
 Input values 
 ( A B C D )
 New Index from Control table

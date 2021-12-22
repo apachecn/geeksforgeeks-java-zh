@@ -4,7 +4,7 @@
 
 为了计算三角形的面积，需要两个参数，即底和高。简单地说，变量被赋零。三角形的面积可以用同样的三年级数学公式计算出来。
 
-```
+```java
 *Area = 1/2(Base * Height)*
 ```
 
@@ -29,7 +29,7 @@
 
 **语法:**
 
-```
+```java
 datatype typename = Math.abs(value)
 ```
 
@@ -41,7 +41,7 @@ datatype typename = Math.abs(value)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program for computing area of
 // triangle by using determinant
 
@@ -97,6 +97,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of triangle: 2.0
 ```

@@ -6,14 +6,14 @@
 
 **方法声明:**
 
-```
+```java
 public int getValue()
 
 ```
 
 **语法:**
 
-```
+```java
 int val = DayOfWeekObject.getValue()
 
 ```
@@ -25,7 +25,7 @@ int val = DayOfWeekObject.getValue()
 下面程序举例说明上面的方法:
 **程序一:**
 
-```
+```java
 // Java Program Demonstrate getValue()
 // method of DayOfWeek
 import java.time.*;
@@ -60,7 +60,7 @@ class DayOfWeekExample {
 
 **Output:**
 
-```
+```java
 Day of the Week on 15th August 1947 - FRIDAY
 Int Value of FRIDAY - 5
 
@@ -68,7 +68,7 @@ Int Value of FRIDAY - 5
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate getValue()
 // method of DayOfWeek
 import java.time.*;
@@ -103,7 +103,7 @@ class DayOfWeekExample {
 
 **Output:**
 
-```
+```java
 Day of the Week on 13th July 2015 - MONDAY
 Int Value of MONDAY - 1
 

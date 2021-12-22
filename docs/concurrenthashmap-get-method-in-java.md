@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Concurrent.get(Object key_element)
 ```
 
@@ -20,7 +20,7 @@ Concurrent.get(Object key_element)
 
 **程序 1:** 该程序涉及将字符串值映射到整数键。
 
-```
+```java
 // Java Program Demonstrate get()
 // method of ConcurrentHashMap
 
@@ -55,7 +55,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The Mappings are: 
 {100=Geeks, 101=for, 102=Geeks, 103=Contribute}
 The Value associated to 100 is : Geeks
@@ -65,7 +65,7 @@ The Value associated to 103 is : Contribute
 
 **程序 2:** 该程序涉及将整数值映射到字符串键。
 
-```
+```java
 // Java Program Demonstrate get()
 // method of ConcurrentHashMap
 
@@ -100,7 +100,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The Mappings are: 
 {GeeksforGeeks=25, Geeks=100, GFG=10, Contribute=102}
 The Value associated to Geeks is : 100

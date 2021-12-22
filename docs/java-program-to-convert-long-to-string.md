@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input:Long = 20L
 Output:"20"
 
@@ -22,13 +22,13 @@ Output:"999999999999"
 
 **语法:**
 
-```
+```java
 String str = l+" ";
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Long to String 
 // using + operator
 
@@ -56,7 +56,7 @@ public class GFG { 
 
 **Output**
 
-```
+```java
 Converted type : java.lang.String
 999999999999
 ```
@@ -68,13 +68,13 @@ Converted type : java.lang.String
 
 **语法:**
 
-```
+```java
 String str = String.valueOf(varLong);
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Long to String
 // using valueOf() Method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Converted type : java.lang.String
 999999999999
 ```
@@ -114,13 +114,13 @@ Converted type : java.lang.String
 
 **语法:**
 
-```
+```java
 String str = Long.toString(varLong);
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Long to String 
 // using toString() method
 
@@ -149,7 +149,7 @@ public class GFG { 
 
 **Output**
 
-```
+```java
 Converted type : java.lang.String
 999999999999
 ```

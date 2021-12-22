@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public byte byteValueExact()
 ```
 
@@ -18,7 +18,7 @@ public byte byteValueExact()
 
 **示例:**
 
-```
+```java
 Input : 127
 Output : 127
 
@@ -30,7 +30,7 @@ Output : -67
 下面的程序将说明 byteValueExact()函数的使用:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate byteValueExact() method
 import java.io.*;
 import java.math.*;
@@ -59,14 +59,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exact byte value of 47 is 47
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate byteValueExact() method
 import java.io.*;
 import java.math.*;
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 BigDecimal value : -128.0564000
 Rounded value : -128
 Byte converted value : -128

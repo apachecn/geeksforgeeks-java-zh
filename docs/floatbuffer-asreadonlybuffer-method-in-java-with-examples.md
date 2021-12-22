@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract FloatBuffer asReadOnlyBuffer()
 ```
 
@@ -18,7 +18,7 @@ public abstract FloatBuffer asReadOnlyBuffer()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original FloatBuffer:  [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 ReadOnlyBuffer FloatBuffer: 8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
@@ -84,7 +84,7 @@ ReadOnlyBuffer FloatBuffer: 8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -165,7 +165,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer fb: [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 FloatBuffer fb1:  [0.0, 4.56, 6.45, 0.0, 0.0]

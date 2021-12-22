@@ -8,7 +8,7 @@
 
 在 Java 中，回调可以使用接口来实现。实施的一般程序如下。
 
-```
+```java
   1\. Define the methods in an interface that we want to invoke after callback.
   2\. Define a class that will implement the callback methods of the interface.
   3\. Define a reference in other class to register the callback interface.
@@ -22,7 +22,7 @@
 
 下面是这个原则的简单实现
 
-```
+```java
 // Java program to illustrate synchronous callback
 interface OnGeekEventListener {
 
@@ -79,7 +79,7 @@ class A implements OnGeekEventListener {
 
 输出:
 
-```
+```java
 Performing callback before synchronous Task
 Performing callback after synchronous Task
 
@@ -91,7 +91,7 @@ Performing callback after synchronous Task
 
 下面是这个原理的简单实现。
 
-```
+```java
 // Java program to illustrate Asynchronous callback
 
 interface OnGeekEventListener {
@@ -157,7 +157,7 @@ class A implements OnGeekEventListener {
 
 输出:
 
-```
+```java
 Performing operation in Asynchronous Task
 Performing callback after Asynchronous Task
 

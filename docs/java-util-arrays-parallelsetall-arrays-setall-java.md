@@ -12,7 +12,7 @@ java 8 中的[数组类](https://www.geeksforgeeks.org/array-class-in-java/)引�
 *   **parallels tall():**通过计算每个元素的函数，将指定数组中的所有元素设置在 **parallel** 中。
     **语法:**
 
-```
+```java
 public static void parallelSetAll(double[] arr, IntToDoubleFunction g)
 Parameters :
 arr :  Array to which the elements to be set 
@@ -22,7 +22,7 @@ and returns the computed value to that index
 
 *   变化:
 
-```
+```java
 parallelSetAll(double[] arr, IntToDoubleFunction g)
 parallelSetAll(int[] arr, IntUnaryOperator g)
 parallelSetAll(long[] arr, IntToLongFunction g)
@@ -32,7 +32,7 @@ parallelSetAll(T[] arr, IntFunction g)
 *   **setAll() :** 它通过计算每个元素的函数来设置指定数组中的所有元素。
     **语法:**
 
-```
+```java
 public static void setAll(int[] arr, IntUnaryOperator g)
 Parameters :
     arr :  Array to which the elements to be set
@@ -42,7 +42,7 @@ and returns the computed value to that index
 
 *   变化:
 
-```
+```java
 setAll(double[] array, IntToDoubleFunction generator)
 setAll(int[] array, IntUnaryOperator generator)
 setAll(long[] array, IntToLongFunction generator)
@@ -59,7 +59,7 @@ setAll(T[] array, IntFunction generator)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate setAll()
 // and ParallelSetAll()
 import java.util.Arrays;
@@ -131,7 +131,7 @@ class GFG
 
 输出:
 
-```
+```java
 Example 1: Modifying the values at even index and storing the square of index
 0  1  4  3  16  5  36  7  64  9  100  11  144  13  196  15  256  17  324  19  
 
@@ -146,7 +146,7 @@ Example 3:setAll gives exactly same output as parallelSetAll
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate setAll()
 // and ParallelSetAll
 import java.util.Arrays;
@@ -211,7 +211,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Example 1; Modifying the name that starts with s
 You are a geek   100
 anil   25

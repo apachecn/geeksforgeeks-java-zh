@@ -23,7 +23,7 @@
 
 **语法:**
 
-```
+```java
 void accept(T t, U u)
 ```
 
@@ -40,7 +40,7 @@ void accept(T t, U u)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // BiConsumer's accept() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 False
 ```
 
@@ -99,7 +99,7 @@ False
 
 **语法:**
 
-```
+```java
 default BiConsumer <T, U> 
         andThen(BiConsumer<? super T, ? super U> after)
 ```
@@ -115,7 +115,7 @@ default BiConsumer <T, U>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // BiConsumer's andThen() method
 
@@ -172,7 +172,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 False
 2 1 3 
 2 1 2
@@ -182,7 +182,7 @@ False
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // BiConsumer's andThen() method
 
@@ -243,7 +243,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Exception : java.lang.NullPointerException
 ```
 
@@ -251,7 +251,7 @@ Exception : java.lang.NullPointerException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // BiConsumer's andThen() method
 
@@ -306,7 +306,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 2 1 3 
 2 1 
 Exception : java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2

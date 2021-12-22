@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getMonthValue()
 
 ```
@@ -19,7 +19,7 @@ public int getMonthValue()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getMonthValue() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Month Value: 10
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getMonthValue() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Month Value: 12
 
 ```

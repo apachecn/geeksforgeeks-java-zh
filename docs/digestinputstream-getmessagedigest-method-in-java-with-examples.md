@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MessageDigest getMessageDigest()
 ```
 
@@ -20,7 +20,7 @@ public MessageDigest getMessageDigest()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Status : MD5 Message Digest from SUN, 
 ```
 
@@ -82,7 +82,7 @@ Status : MD5 Message Digest from SUN,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -135,7 +135,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Status : SHA-1 Message Digest from SUN, 
 ```
 

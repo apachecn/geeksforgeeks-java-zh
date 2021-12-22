@@ -12,7 +12,7 @@ Java Locale 类对象表示特定的地理、文化或政治区域。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display Time in Different Country Format
 
 import java.text.DateFormat;
@@ -94,7 +94,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 England Format: Tuesday, 5 January 2021
 Italian Format: marted?, 5 gennaio 2021
 Russian Format: ???????, 5 ?????? 2021 ?.

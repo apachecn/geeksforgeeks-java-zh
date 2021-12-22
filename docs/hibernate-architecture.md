@@ -14,7 +14,7 @@
 
 *   Configuration 是 org.hibernate.cfg 包中的一个类。它激活了 Hibernate 框架。它读取配置文件和映射文件。
 
-    ```
+    ```java
     It activate Hibernate Framework
     Configuration cfg=new Configuration();
     It read both cfg file and mapping files
@@ -30,7 +30,7 @@
 *   会话工厂是一个存在于组织休眠包中的接口，用于创建会话对象。
 *   它本质上是不可变的和线程安全的。
 
-    ```
+    ```java
     buildSessionFactory() method gathers the meta-data which is in the cfg Object. 
     From cfg object it takes the JDBC information and create a JDBC Connection.
     SessionFactory factory=cfg.buildSessionFactory();
@@ -44,7 +44,7 @@
 *   这是一个重量轻的物体，它不是线程安全的。
 *   会话对象用于执行 CRUD 操作。
 
-    ```
+    ```java
     Session session=factory.buildSession();
 
     ```
@@ -54,7 +54,7 @@
 *   每当我们执行任何操作时都会使用事务对象，并且基于该操作，数据库中会有一些变化。
 *   事务对象用于向数据库发出指令，通过使用 commit()方法，使由于操作而发生的更改永久化。
 
-    ```
+    ```java
     Transaction tx=session.beginTransaction();
     tx.commit();
 
@@ -66,7 +66,7 @@
 *   查询实例通过调用 Session.createQuery()获得。
 *   除了 Session.iterate()和 Session.find()提供的功能之外，这个接口还公开了一些额外的功能:
 
-    ```
+    ```java
     Query query=session.createQuery();
 
     ```
@@ -79,7 +79,7 @@
 *   标准是一个简化的应用编程接口，用于通过组合标准对象来检索实体。
 *   进程是标准工厂。标准实例通常通过工厂限制方法获得。
 
-    ```
+    ```java
     Criteria criteria=session.createCriteria();
 
     ```

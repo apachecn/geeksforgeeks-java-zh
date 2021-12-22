@@ -10,7 +10,7 @@ JobState 是一个打印属性类，而不是一个标识打印作业当前状�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implementing JobStateReasons API
 
 // Importing java libraries
@@ -156,7 +156,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Category Name: job-state-reasons
 
 The JobStateReasons are: 

@@ -8,7 +8,7 @@
 
 **申报:**
 
-```
+```java
 public interface Collection<E> extends Iterable<E>
 
 Type Parameters: E - the type of elements returned by this iterator
@@ -19,7 +19,7 @@ Type Parameters: E - the type of elements returned by this iterator
 
 **申报:**
 
-```
+```java
 public class Collections extends Object
 
 ```
@@ -38,7 +38,7 @@ public class Collections extends Object
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the difference  
 // between Collection and Collections
 
@@ -88,7 +88,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 Elements of arrlist before the operations:
 [geeks, for, geeks]
 Elements of arrlist after the operations:

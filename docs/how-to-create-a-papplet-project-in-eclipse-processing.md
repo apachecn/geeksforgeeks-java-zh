@@ -22,7 +22,7 @@ Java 中的[处理库](https://www.geeksforgeeks.org/introduction-to-processing-
 
 下面是上面小程序的实现:
 
-```
+```java
 // Java program to demonstrate
 // how to create an applet
 

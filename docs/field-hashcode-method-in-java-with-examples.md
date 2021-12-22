@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -18,7 +18,7 @@ public int hashCode()
 下面的程序说明了 hashCode()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate hashCode() method
 
 import java.lang.reflect.Field;
@@ -106,7 +106,7 @@ class User {
 
 **Output:**
 
-```
+```java
 HashCode of Marks field is 71482573
 HashCode of Fees field is 591398
 HashCode of name field is 1779040
@@ -115,7 +115,7 @@ HashCode of name field is 1779040
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate hashCode() method
 
 import java.lang.reflect.Field;
@@ -142,7 +142,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HashCode of Field: -297508095
 HashCode of Field: 1296412905
 HashCode of Field: 1475695976

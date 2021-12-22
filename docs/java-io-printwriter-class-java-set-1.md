@@ -21,7 +21,7 @@
 
 *   **PrintWriter 追加(char c) :** 向该 Writer 追加指定字符
 
-    ```
+    ```java
     Syntax :public PrintWriter append(char c)
     Parameters: c - The 16-bit character to append
     Returns: This writer
@@ -29,7 +29,7 @@
 
 *   **PrintWriter 追加(CharSequence csq，int start，int end):** 向该 Writer 追加指定的字符序列。
 
-    ```
+    ```java
     Syntax :public PrintWriter append(CharSequence csq,
             int start,
             int end)
@@ -44,7 +44,7 @@
 
 *   **print Writer append(CharSequence csq):**将指定字符序列的子序列附加到此 writer。
 
-    ```
+    ```java
     Syntax :public PrintWriter append(CharSequence csq)
     Parameters:
             csq - The character sequence to append.
@@ -54,7 +54,7 @@
 
 *   **布尔检查器错误():**刷新流并检查其错误状态。
 
-    ```
+    ```java
     Syntax :public boolean checkError()
     Returns: true if and only if this stream 
     has encountered an IOException other than InterruptedIOException, 
@@ -63,21 +63,21 @@
 
 *   **受保护的 void clearError() :** 清除此流的内部错误状态。
 
-    ```
+    ```java
     Syntax :protected void clearError()
 
     ```
 
 *   **void close() :** 关闭流并释放与其相关联的任何系统资源。
 
-    ```
+    ```java
     Syntax :public void close()
     Specified by:close in class Writer
     ```
 
 *   **虚空冲():**冲溪。
 
-    ```
+    ```java
     Syntax :public void flush()
     Specified by:flush in interface Flushable
     Specified by:flush in class Writer
@@ -86,7 +86,7 @@
 
 *   **PrintWriter 格式(Locale l，String 格式，Object… args):** 使用指定的格式字符串和参数将格式化的字符串写入此 Writer。
 
-    ```
+    ```java
     Syntax :public PrintWriter format(Locale l,
             String format,
             Object... args)
@@ -104,7 +104,7 @@
 
 *   **PrintWriter 格式(字符串格式，Object… args):** 使用指定的格式字符串和参数将格式化的字符串写入此 Writer。
 
-    ```
+    ```java
     Syntax :public PrintWriter format(String format,
             Object... args)
     Parameters:
@@ -119,63 +119,63 @@
 
 *   **无效打印(布尔值 b):** 打印布尔值。
 
-    ```
+    ```java
     Syntax :public void print(boolean b)
     ```
 
 *   **无效打印(字符 c):** 打印字符。
 
-    ```
+    ```java
     Syntax :public void print(char c)
     ```
 
 *   **无效打印(字符[]):**打印字符数组。
 
-    ```
+    ```java
     Syntax :public void print(char[] s)
 
     ```
 
 *   **空打印(双 d) :** 打印双精度浮点数。
 
-    ```
+    ```java
     Syntax :public void print(double b)
 
     ```
 
 *   **void print(float f):** 打印浮点数。
 
-    ```
+    ```java
     Syntax :public void print(float f)
     ```
 
 *   **无效打印(int i):** 打印整数。
 
-    ```
+    ```java
     Syntax :public void print(int i)
     ```
 
 *   **无效打印(长 l):** 打印长整数。
 
-    ```
+    ```java
     Syntax :public void print(long l)
     ```
 
 *   **无效打印(对象对象):**打印对象。
 
-    ```
+    ```java
     Syntax :public void print(Object obj)
     ```
 
 *   **无效打印(字符串):**打印字符串。
 
-    ```
+    ```java
     Syntax :public void print(String s)
     ```
 
 **节目:** 
 
-```
+```java
 import java.io.*;
 import java.util.Locale;
 //Java program to demonstrate PrintWriter
@@ -225,7 +225,7 @@ class PrintWriterDemo {
 }
 ```
 
-```
+```java
 Output:
         true14.533GeeksforGeeks
         java.io.PrintWriter@1540e19d

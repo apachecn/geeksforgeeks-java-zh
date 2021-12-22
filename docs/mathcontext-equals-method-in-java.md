@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -16,7 +16,7 @@ public boolean equals(Object obj)
 
 **示例:**
 
-```
+```java
 Input : m1 = new MathContext(2, RoundingMode.UP), 
         m2 = new MathContext(2, RoundingMode.HALF_UP)
 Output : false
@@ -30,7 +30,7 @@ Output : true
 下面的程序将说明 Java . math . mathcontext . equals():
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate equals() method
 import java.math.*;
 import java.io.*;
@@ -54,14 +54,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```
 
 **程序 2 :**
 
-```
+```java
 // Java program to demonstrate equals() method
 import java.math.*;
 import java.io.*;
@@ -85,7 +85,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 
 ```

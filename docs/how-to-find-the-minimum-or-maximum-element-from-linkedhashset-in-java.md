@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```java
 Input : LinkedHashset : {1, 56, 8, 24, 50}
 Output: Maximum Element: 56
        Minimum Element: 1
@@ -30,7 +30,7 @@ Collections 类的 max 和 min 方法返回指定集合对象的最大和最小�
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to find the minimum or
 // maximum element from LinkedHashSe
 import java.io.*;
@@ -64,7 +64,7 @@ class Main {
 
 ******Output**
 
-```
+```java
 Maximum element: 56
 Minimum element: 1
 ```**** 
@@ -77,7 +77,7 @@ Minimum element: 1
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to find the minimum or
 // maximum element from LinkedHashSet
 import java.io.*;
@@ -120,7 +120,7 @@ class Main {
 
 ******Output**
 
-```
+```java
 Maximum element: 56
 Minimum element: 1
 ```****

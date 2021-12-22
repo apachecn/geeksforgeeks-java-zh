@@ -4,7 +4,7 @@
 
 使用迭代方法打印前 N 个自然数，即使用 for 循环。For 循环有三个参数初始化、测试条件和递增/递减。
 
-```
+```java
 Input:     N = 10
 Output:    First 10 Numbers = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
            Sum of first 10 Natural Number = 55
@@ -28,7 +28,7 @@ Output:    First 5 Numbers = 1, 2, 3, 4, 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display Numbers
 // from 1 to N Using For Loop and
 // sum of First N Natural Number
@@ -58,7 +58,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 First 10 Numbers = 1 2 3 4 5 6 7 8 9 10 
 Sum of first 10 Natural Number = 55
 ```

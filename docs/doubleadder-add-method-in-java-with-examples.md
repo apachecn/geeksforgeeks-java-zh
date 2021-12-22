@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void add(double x)
 
 ```
@@ -19,7 +19,7 @@ public void add(double x)
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the add() method
 
 import java.lang.*;
@@ -42,14 +42,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the current value is: 52.0
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the add() method
 
 import java.lang.*;
@@ -71,7 +71,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the current value is: 1.0
 
 ```

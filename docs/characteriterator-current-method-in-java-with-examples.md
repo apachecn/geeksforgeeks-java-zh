@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public char current()
 
 ```
@@ -19,7 +19,7 @@ public char current()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -43,7 +43,7 @@ public class CharacterIteratorDemo {
 
 **输出:**
 
-```
+```java
 Current character: G
 
 ```

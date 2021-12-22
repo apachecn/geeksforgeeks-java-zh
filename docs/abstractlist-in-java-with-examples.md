@@ -12,7 +12,7 @@ Java 中的**抽象列表**类是 [Java 集合框架](https://www.geeksforgeeks.
 
 **申报:**
 
-```
+```java
 public abstract class AbstractList<E> extends AbstractCollection<E> implements List<E>
 
 where E is the type of elements maintained by this collection.
@@ -27,7 +27,7 @@ where E is the type of elements maintained by this collection.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate AbstractList
 import java.util.*;
 
@@ -53,7 +53,7 @@ public class AbstractListDemo {
 
 **输出:**
 
-```
+```java
 AbstractList:[Geeks, for, Geeks, 10, 20]
 ```
 
@@ -61,7 +61,7 @@ AbstractList:[Geeks, for, Geeks, 10, 20]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate 
 // methods of AbstractCollection 
 
@@ -104,7 +104,7 @@ public class AbstractListDemo { 
 
 **输出:**
 
-```
+```java
 AbstractList: [Geeks, for, Geeks, 10, 20]
 Final AbstractList: [Geeks, for, Geeks, 20]
 Last index of A : -1

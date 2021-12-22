@@ -15,7 +15,7 @@
 
     **注意:**日期类的最后 4 个构造函数被弃用。
 
-    ```
+    ```java
     // Java program to demonstrate constuctors of Date
     import java.util.*;
 
@@ -33,7 +33,7 @@
 
     输出:
 
-    ```
+    ```java
     Current date is Tue Jul 12 18:35:37 IST 2016
     Date represented is Wed Jan 28 02:50:23 IST 1970
 
@@ -47,7 +47,7 @@
     *   **long getTime()** :返回自 1970 年 1 月 1 日 00:00:00 GMT 以来该 Date 对象表示的毫秒数。
     *   **void setTime(长时间)**:将当前日期和时间更改为给定时间。
 
-    ```
+    ```java
     // Program to demonstrate methods of Date class
     import java.util.*;
 
@@ -83,7 +83,7 @@
 
     输出:
 
-    ```
+    ```java
     Date d3 comes after date d2: true
     Date d3 comes before date d2: false
     1

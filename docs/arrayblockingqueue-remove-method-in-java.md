@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public boolean remove(Object o)
 ```
 
@@ -27,7 +27,7 @@ o–要从该队列中删除的元素(如果存在)。
 
 **例 1**
 
-```
+```java
 // Java Program Demonstrate remove(Object o)
 // method of ArrayBlockingQueue.
 import java.util.concurrent.ArrayBlockingQueue;
@@ -78,7 +78,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output :
 queue contains [223, 546, 986]
 Removal of 223 :true
@@ -92,7 +92,7 @@ queue contains [986]
 
 **例 2**
 
-```
+```java
 // Java Program Demonstrate remove(Object o)
 // method of ArrayBlockingQueue.
 
@@ -138,7 +138,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output :
 queue contains [StarWars, SuperMan, Flash, BatMan, Avengers]
 Removal of StarWars :true

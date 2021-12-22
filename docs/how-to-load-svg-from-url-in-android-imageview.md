@@ -25,7 +25,7 @@
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -54,7 +54,7 @@
 
 ## Java
 
-```
+```java
 import android.content.Context;
 import android.widget.ImageView;
 import com.pixplicity.sharp.Sharp;

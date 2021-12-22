@@ -19,7 +19,7 @@ PIP 是一种特殊类型的多窗口模式，主要用于需要在屏幕上活�
 1.  [在安卓工作室](https://www.geeksforgeeks.org/android-how-to-create-start-a-new-project-in-android-studio/)创建一个安卓项目。
 2.  **声明画中画支持:**默认情况下，没有活动启用画中画模式。这需要通过清单文件
 
-    ```
+    ```java
     <activity android:name="VideoActivity"
         android:supportsPictureInPicture="true"
         android:configChanges=
@@ -39,7 +39,7 @@ PIP 是一种特殊类型的多窗口模式，主要用于需要在屏幕上活�
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -79,7 +79,7 @@ PIP 是一种特殊类型的多窗口模式，主要用于需要在屏幕上活�
 
 ## MainActivity.java
 
-```
+```java
 package com.vaibhav.pictureinpicture;
 
 import androidx.appcompat.app.AppCompatActivity;

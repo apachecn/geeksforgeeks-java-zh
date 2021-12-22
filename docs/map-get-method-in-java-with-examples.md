@@ -6,7 +6,7 @@ Java 中 Map 接口的 get()方法用于检索或获取参数中提到的特定�
 
 **语法:**
 
-```
+```java
 thisMap.get(*Object key_element*)
 ```
 
@@ -18,7 +18,7 @@ thisMap.get(*Object key_element*)
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The Value is: Welcomes
 The Value is: Geeks
@@ -58,7 +58,7 @@ The Value is: Geeks
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the get() method
 
 import java.util.*;
@@ -90,7 +90,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The Value is: 20
 The Value is: 30

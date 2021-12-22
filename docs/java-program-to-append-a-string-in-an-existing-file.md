@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```java
 void write(String s,int off,int len);
 ```
 
@@ -40,7 +40,7 @@ void write(String s,int off,int len);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Append a String to the
 // End of a File
 

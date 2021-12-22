@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract LongBuffer duplicate()
 ```
 
@@ -16,7 +16,7 @@ public abstract LongBuffer duplicate()
 
 **实施例 1:** 使用直接长臂
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // Using direct Longbuffer
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LongBuffer: [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 Duplicate LongBuffer: [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 
@@ -80,7 +80,7 @@ Duplicate LongBuffer: [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 
 **示例 2:** 使用只读 Longbuffer
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // using read-onlyLongbuffer
@@ -150,7 +150,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LongBuffer:  [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 read-only LongBuffer:  8, 0, 9, 0, 0, 0, 0, 0, 0, 0, 
 duplicate copy of read-only LongBuffer:  8, 0, 9, 0, 0, 0, 0, 0, 0, 0,

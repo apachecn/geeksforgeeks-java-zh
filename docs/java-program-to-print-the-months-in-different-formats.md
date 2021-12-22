@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : 18-11-2020
 Output: December Dec 12
 Explaination: Here, month starts from 0.
@@ -17,7 +17,7 @@ Output: June Jun 06
 
 **语法:**
 
-```
+```java
 public static Calendar getInstance()
 ```
 
@@ -33,7 +33,7 @@ java 中的 Formatter 类主要用来显示数字、字符串、时间、日期�
 
 下面实现中使用的格式:
 
-```
+```java
 "November" "NOV" "11"
 ```
 
@@ -41,7 +41,7 @@ java 中的 Formatter 类主要用来显示数字、字符串、时间、日期�
 
 ## Java
 
-```
+```java
 // Java Program to Print the Months in Different Formats
 import java.util.Calendar;
 import java.util.Formatter;
@@ -70,7 +70,7 @@ public class MonthFormates {
 
 **输出**
 
-```
+```java
 Output: June Jun 06
 
 ```

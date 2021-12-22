@@ -5,7 +5,7 @@
 java 中的 java.util.ArrayDeque.getLast()方法用于检索或获取 ArrayDeque 的最后一个元素。在这个过程中，该方法并不从 deque 中删除元素，而是返回 deque 的最后一个元素。
 **语法:**
 
-```
+```java
 Array_Deque.getLast()
 
 ```
@@ -20,7 +20,7 @@ Array_Deque.getLast()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate getLast() method of ArrayDeque
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class ArrayDequeDemo {
 
 **Output:** 
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The last element is: Geeks
 
@@ -66,7 +66,7 @@ The last element is: Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate getLast() method of ArrayDeque
 import java.util.*;
 
@@ -94,7 +94,7 @@ public class ArrayDequeDemo {
 
 **Output:** 
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 The last element is: 5
 

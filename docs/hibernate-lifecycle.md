@@ -32,7 +32,7 @@ Hibernate 生命周期主要有四种状态:
 
 在这里，我们为雇员类创建了一个新对象。下面是显示雇员对象初始化的代码:
 
-```
+```java
 //Here, The object arrives in the transient state.
 Employee e = new Employee();   
 e.setId(21);  
@@ -65,7 +65,7 @@ e.setLastName("Rudra");
 
 **示例:**
 
-```
+```java
 // Transient State
 Employee e = new Employee("Neha Shri Rudra", 21, 180103); 
 
@@ -97,7 +97,7 @@ session.save(e);
 
 **例**
 
-```
+```java
 // Transient State
 Employee e = new Employee("Neha Shri Rudra", 21, 180103);
 
@@ -120,7 +120,7 @@ session.close();
 
 **例**
 
-```
+```java
 // Java Pseudo code to Illustrate Remove State
 
 // Transient State

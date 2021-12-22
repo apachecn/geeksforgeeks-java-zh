@@ -6,13 +6,13 @@
 
 **空幻灯片的语法**
 
-```
+```java
 XMLSlideShow ppt = new XMLSlideShow();
 ```
 
 **创建幻灯片的语法**
 
-```
+```java
 XSLFSlide slide = ppt.createSlide();
 ```
 
@@ -25,13 +25,13 @@ XSLFSlide slide = ppt.createSlide();
 
 **语法:**
 
-```
+```java
 int idx = ppt.addPicture(photo, XSLFPictureData.PICTURE_TYPE_PNG);
 ```
 
 使用 createPicture()将图像插入幻灯片。
 
-```
+```java
 XSLFPictureShape pic = slide.createPicture(idx);
 ```
 
@@ -39,7 +39,7 @@ XSLFPictureShape pic = slide.createPicture(idx);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Adding Images to a slide in a PPT using java
 import java.io.File;
 import java.io.FileInputStream;
@@ -87,14 +87,14 @@ public class InsertingImage {
 
 **编译和执行命令:**
 
-```
+```java
 $javac InsertingImage.java
 $java InsertingImage
 ```
 
 **输出:**
 
-```
+```java
 Reordering of the slides is done.
 ```
 

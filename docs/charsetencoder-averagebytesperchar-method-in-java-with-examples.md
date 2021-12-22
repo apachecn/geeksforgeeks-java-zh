@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final float averageBytesPerChar()
 ```
 
@@ -18,7 +18,7 @@ public final float averageBytesPerChar()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -40,14 +40,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1.0
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -69,7 +69,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1.1
 
 ```

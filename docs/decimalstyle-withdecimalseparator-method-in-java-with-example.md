@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的 **withDecimalSeparator()*
 
 **语法:**
 
-```
+```java
 public void withDecimalSeparator(char decimalSeparator)
 
 ```
@@ -19,7 +19,7 @@ public void withDecimalSeparator(char decimalSeparator)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -53,7 +53,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 Current Character used for decimal separator: .
 Updated Character used for decimal separator: *
 

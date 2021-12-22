@@ -13,7 +13,7 @@ Java 中有两种 add 方法重载，如下所示:
 
 **语法:**
 
-```
+```java
 public BigDecimal add(BigDecimal val)
 
 ```
@@ -24,7 +24,7 @@ public BigDecimal add(BigDecimal val)
 
 下面的程序是用来说明 BigDecimal 的 add()方法的。
 
-```
+```java
 // Java program to demonstrate
 // add() method of BigDecimal
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public BigDecimal add(BigDecimal val, MathContext mc)
 
 ```
@@ -86,7 +86,7 @@ public BigDecimal add(BigDecimal val, MathContext mc)
 
 下面的程序是用来说明 BigDecimal 的 add()方法的。
 
-```
+```java
 // Java program to demonstrate
 // add() method of BigDecimal
 

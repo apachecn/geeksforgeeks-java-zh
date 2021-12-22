@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setCurrencySymbol(String currency symbol)
 
 ```
@@ -19,7 +19,7 @@ public void setCurrencySymbol(String currency symbol)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -50,7 +50,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current String used for currency symbol: $
 Updated String used for currency symbol: *
 

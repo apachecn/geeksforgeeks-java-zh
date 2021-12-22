@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // below is the method for deleting our course.
 public void deleteCourse(String courseName) {
 
@@ -37,7 +37,7 @@ public void deleteCourse(String courseName) {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -203,7 +203,7 @@ public class DBHandler extends SQLiteOpenHelper {
 
 ## **可扩展标记语言**
 
-```
+```java
 <!--button for deleting our course-->
 <Button
   android:id="@+id/idBtnDelete"
@@ -218,7 +218,7 @@ public class DBHandler extends SQLiteOpenHelper {
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"

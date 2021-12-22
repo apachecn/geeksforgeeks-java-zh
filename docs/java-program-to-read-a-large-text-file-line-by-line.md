@@ -4,7 +4,7 @@
 
 由于我们对这个话题很熟悉，让我们多加强调，找出它们之间的细微差别。在这里，我们应该从本地目录中的一个文件中读取一个文本文件，说它是' gfg.txt '。让文件中的内容如下所示:
 
-```
+```java
 Geeks for Geeks.
 A computer science portal.
 Welcome to this portal.
@@ -26,7 +26,7 @@ Scanner 是 java.util 包中的一个类，用于获取 int、double 等原语�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Read a Large Text File Line by Line
 // Using Scanner class
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks for Geeks.
 A computer science portal.
 Welcome to this portal.
@@ -87,7 +87,7 @@ BufferedReader 用于逐行读取文件。基本上**、** BufferedReader()是�
 
 **语法:**
 
-```
+```java
 BufferedReader in = new BufferedReader(Reader in, int size);
 ```
 
@@ -95,7 +95,7 @@ BufferedReader in = new BufferedReader(Reader in, int size);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Read a Large Text File Line by Line
 // Using BufferedReader class
 
@@ -144,7 +144,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks for Geeks.
 A computer science portal.
 Welcome to this portal.

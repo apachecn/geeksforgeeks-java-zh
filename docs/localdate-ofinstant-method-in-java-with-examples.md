@@ -9,7 +9,7 @@ Java 中 **LocalDate** 类的 **ofInstant(Instant instant，ZoneId zone)** 方�
 
 **语法:**
 
-```
+```java
 public static LocalDate 
        ofInstant(Instant instant,
                  ZoneId zone)
@@ -30,7 +30,7 @@ public static LocalDate
 下面的程序说明了 Java 中的 Instant(Instant instant，ZoneId zone)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.ofInstant(
 // Instant instant, ZoneId zone) method
@@ -56,14 +56,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Date: 2020-05-13
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate ofInstant() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year: 2020
 
 ```

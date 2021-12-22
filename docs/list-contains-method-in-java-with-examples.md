@@ -6,7 +6,7 @@ Java 中 List 接口的 contains()方法用于检查指定的元素是否存在�
 
 **语法:**
 
-```
+```java
 public boolean contains(Object obj)
 
 object-element to be searched for
@@ -21,7 +21,7 @@ object-element to be searched for
 
 **程序 1:** 演示整数列表中包含()的方法的工作。
 
-```
+```java
 // Java code to demonstrate the working of
 // contains() method in List interface
 
@@ -63,7 +63,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The list contains 2
 The list does not contains 5
 
@@ -71,7 +71,7 @@ The list does not contains 5
 
 **程序 2:** 演示字符串列表中包含()的方法的工作。
 
-```
+```java
 // Java code to demonstrate the working of
 // contains() method in List of string
 
@@ -112,7 +112,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The list contains geeks
 The list does not contains coding
 

@@ -6,7 +6,7 @@
 也有失败的可能。如果延迟队列试图将队列排到自身，将导致 IllegalArgumentException。此外，如果在操作过程中修改了指定的集合，则此操作的行为是未定义的。
 **语法:**
 
-```
+```java
 public int drainTo (Collection<E> c)
 ```
 
@@ -24,7 +24,7 @@ public int drainTo (Collection<E> c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue drainTo() method
 
 import java.util.concurrent.*;
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Before drainTo():
 DelayQueue: [
 { A, time=1546842375114}, 

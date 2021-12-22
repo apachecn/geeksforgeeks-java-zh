@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: ArrayList: [1, 2, 3, 4, 5]
 Output: Read-only ArrayList: [1, 2, 3, 4, 5] 
 
@@ -19,13 +19,13 @@ Output: Read-only ArrayList: [geeks, for, geeks]
 
 **语法:**
 
-```
+```java
 readOnlyArrayList = Collections.unmodifiableList(ArrayList);
 ```
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to demonstrate
 // unmodifiableList() method
 
@@ -74,7 +74,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Initial list: [X, Y, Z]
 ReadOnly ArrayList: [X, Y, Z]
 

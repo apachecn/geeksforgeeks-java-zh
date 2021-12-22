@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = "1234"
 Output: 1234
 
@@ -19,7 +19,7 @@ Output: 456
     The Integer class has a static method that returns an integer object representing the specified String parameter.
     **Syntax :**
 
-    ```
+    ```java
     public static int parseInt(String str) throws NumberFormatException
     or
     public static int parseInt(String str, int radix) throws NumberFormatException
@@ -43,7 +43,7 @@ Output: 456
 
     **示例:**
 
-    ```
+    ```java
     class GfG {
         public static void main(String args[])
         {
@@ -66,7 +66,7 @@ Output: 456
 
     **Output:**
 
-    ```
+    ```java
     Integer using first variant of praseInt = 1234
     Integer using second (radix) variant of praseInt = 4660
 
@@ -76,7 +76,7 @@ Output: 456
 
     **语法:**
 
-    ```
+    ```java
     public static Integer valueOf(String str)
 
     ```
@@ -87,7 +87,7 @@ Output: 456
 
     **示例:**
 
-    ```
+    ```java
     class GfG {
         public static void main(String args[])
         {
@@ -103,7 +103,7 @@ Output: 456
 
     **Output:**
 
-    ```
+    ```java
     Integer using valueOf() = 1234
 
     ```

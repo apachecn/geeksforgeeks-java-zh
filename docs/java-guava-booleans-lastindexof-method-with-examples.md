@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int lastIndexOf(boolean[] array,
                               boolean target)
 
@@ -23,7 +23,7 @@ public static int lastIndexOf(boolean[] array,
 
 **示例-1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.lastIndexOf() method
 
@@ -62,14 +62,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is present at index 4
 
 ```
 
 **示例-2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.lastIndexOf() method
 
@@ -107,7 +107,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is not present in the array
 
 ```

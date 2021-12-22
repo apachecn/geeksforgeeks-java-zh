@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的 **getAvailableLocales()**
 
 **语法:**
 
-```
+```java
 public static Set<Locales> getAvailableLocales()
 
 ```

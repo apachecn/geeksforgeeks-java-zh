@@ -19,7 +19,7 @@
 
 **语法:**定义类型安全映射
 
-```
+```java
 Map hm = new HashMap(); 
 // Obj is the type of the object to be stored in Map
 ```
@@ -60,7 +60,7 @@ Map hm = new HashMap(); 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate
 // Working of Map interface
 
@@ -98,7 +98,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 a:100
 b:200
 c:300
@@ -117,7 +117,7 @@ d:400
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the Hashmap Class
 
 // Importing required classes
@@ -151,7 +151,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 vaibhav 20
 vishal 10
 sachin 30
@@ -165,7 +165,7 @@ LinkedHashMap 就像 HashMap 一样，有一个额外的特性，即维护插入
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the LinkedHashmap Class
 
 // Importing required classes
@@ -199,7 +199,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 vishal 10
 sachin 30
 vaibhav 20
@@ -213,7 +213,7 @@ Java 中的树形图与抽象类一起用于实现地图接口和导航地图。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate TreeMap Class
 
 // Importing required classes
@@ -247,7 +247,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 sachin 30
 vaibhav 20
 vishal 10
@@ -265,7 +265,7 @@ vishal 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the working of Map interface
 
@@ -299,7 +299,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 {1=Geeks, 2=For, 3=Geeks}
 {1=Geeks, 2=For, 3=Geeks}
 ```
@@ -312,7 +312,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the working of Map interface
 
@@ -342,7 +342,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Map {1=Geeks, 2=Geeks, 3=Geeks}
 Updated Map {1=Geeks, 2=For, 3=Geeks}
 ```

@@ -10,7 +10,7 @@
 
 1)将变量 m、a、q、r 和 r_seed(X <sub>0</sub> )声明为常量变量并赋值
 
-```
+```java
 m = 2145678965L;
 a = 48271L;
 q = 44488L;
@@ -56,7 +56,7 @@ r_seed = 12345678L
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of Park-Miller algorithm
 
 public class Park_Miller_Random_Numbers {
@@ -106,6 +106,6 @@ public class Park_Miller_Random_Numbers {
 
 **Output**
 
-```
+```java
   1.085252519E9  5.08259731E8  1.352291773E9  1.563240271E9  8.90733155E8
 ```

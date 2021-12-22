@@ -6,7 +6,7 @@
 
 **功能签名:**
 
-```
+```java
 public int inflate(byte[] b)
 public int inflate(byte[] b, int offset, int length)
 
@@ -14,7 +14,7 @@ public int inflate(byte[] b, int offset, int length)
 
 **语法:**
 
-```
+```java
 i.inflate(byte[])
 i.inflate(byte[], int, int )
 
@@ -31,7 +31,7 @@ i.inflate(byte[], int, int )
 
 **示例 1:** 充气(字节[] b)功能的使用
 
-```
+```java
 // Java program to describe the use
 // of inflate function
 
@@ -104,7 +104,7 @@ class GFG {
 
 **示例 2:** 使用膨胀(字节[] b，int 偏移量，int 长度)函数
 
-```
+```java
 // Java program to describe the use
 // of inflate function
 

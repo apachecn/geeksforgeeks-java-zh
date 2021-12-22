@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static String quoteReplacement(String string)
 
 ```
@@ -19,7 +19,7 @@ public static String quoteReplacement(String string)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate quoteReplacement() method
 
 import java.util.regex.*;
@@ -58,14 +58,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate quoteReplacement() method
 
 import java.util.regex.*;
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 GFG
 GGFGGGFGGGFGGGFGGFG GFG GFG GFG GFG
 

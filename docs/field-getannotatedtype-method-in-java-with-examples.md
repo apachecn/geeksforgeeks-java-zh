@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public AnnotatedType getAnnotatedType()
 
 ```
@@ -18,7 +18,7 @@ public AnnotatedType getAnnotatedType()
 下面的程序举例说明了 getAnnotatedType()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getAnnotatedType() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Type: int
 Annotations: []
 
@@ -69,7 +69,7 @@ Annotations: []
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate
 // getAnnotatedType() method
 
@@ -122,7 +122,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Type: int[]
 Annotations: [@GFG$SpecialNumber()]
 Declared Annotations: [@GFG$SpecialNumber()]

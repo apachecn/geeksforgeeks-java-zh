@@ -4,13 +4,13 @@
 
 给定一个数字 n，任务是编写一个程序来寻找下面系列中的第 n 项:
 
-```
+```java
 1, 8, 54, 384...
 ```
 
 **例:**
 
-```
+```java
 Input : 3
 Output : 54
 For N = 3
@@ -23,7 +23,7 @@ Output : 8
 
 仔细观察，上述级数中的第 n 项可以概括为:
 
-```
+```java
 Nth term = ( N*N ) * ( N! )
 ```
 
@@ -31,7 +31,7 @@ Nth term = ( N*N ) * ( N! )
 
 ## C++
 
-```
+```java
 // CPP program to find N-th term of the series:
 // 1, 8, 54, 384...
 #include <iostream>
@@ -65,7 +65,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find N-th term of the series:
 // 1, 8, 54, 384...
 
@@ -98,7 +98,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python 3 program to find
 # N-th term of the series:
 # 1, 8, 54, 384...
@@ -126,7 +126,7 @@ if __name__ =="__main__":
 
 ## C#
 
-```
+```java
 // C# program to find N-th
 // term of the series:
 // 1, 8, 54, 384...
@@ -165,7 +165,7 @@ public static void Main(String[] args)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP program to find N-th
 /// term of the series:
@@ -198,7 +198,7 @@ echo nthTerm($N);
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // JavaScript program to find N-th term of the series:
@@ -231,7 +231,7 @@ function nthTerm( N)
 
 **Output:** 
 
-```
+```java
 384
 ```
 

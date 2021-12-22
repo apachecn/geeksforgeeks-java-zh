@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 long[] toArray()
 
 ```
@@ -15,7 +15,7 @@ long[] toArray()
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream toArray()
 import java.util.*;
 import java.util.stream.LongStream;
@@ -40,14 +40,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [1, 3, 5, -9223372036854775808]
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream toArray()
 import java.util.*;
 import java.util.stream.LongStream;
@@ -71,7 +71,7 @@ class GFG {
 
 输出:
 
-```
+```java
 [5, 6, 7, 8, 9, 10, 11]
 
 ```

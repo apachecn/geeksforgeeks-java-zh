@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean useTransparentBounds(
                boolean setTransparentBounds)
 
@@ -20,7 +20,7 @@ public boolean useTransparentBounds(
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate useTransparentBounds() method
 
 import java.util.regex.*;
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Does this matcher has transparent bounds: true
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate useTransparentBounds() method
 
 import java.util.regex.*;
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Does this matcher has transparent bounds: false
 
 ```

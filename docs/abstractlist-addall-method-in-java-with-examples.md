@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public boolean addAll(int index, Collection c)
 ```
 
@@ -30,7 +30,7 @@ public boolean addAll(int index, Collection c)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // addAll() method
 // for String value
@@ -100,7 +100,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Original ArrayListlist : [A, B, C, D, E]
 ArrayList elements to be added : [X, Y, Z]
 Operation successful : true
@@ -110,7 +110,7 @@ New ArrayList : [A, B, X, Y, Z, C, D, E]
 
 **示例 2:** 适用于*空指针异常*
 
-```
+```java
 // Java program to demonstrate
 // addAll() method
 // for NullPointerException
@@ -173,7 +173,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Original ArrayListlist : [A, B, C, D, E]
 ArrayList to be added : null
 
@@ -184,7 +184,7 @@ Exception thrown : java.lang.NullPointerException
 
 **示例 3:** 适用于*指数出界异常*
 
-```
+```java
 // Java program to demonstrate
 // addAll() method
 // for IndexOutOfBoundsException
@@ -254,7 +254,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Original ArrayListlist : [A, B, C, D, E]
 ArrayList elements to be added : [X, Y, Z]
 

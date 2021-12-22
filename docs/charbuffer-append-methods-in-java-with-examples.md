@@ -9,7 +9,7 @@
 dst.put(c)
 **语法:**完全相同
 
-```
+```java
 public CharBuffer append(char c)
 ```
 
@@ -25,7 +25,7 @@ public CharBuffer append(char c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // append() method
 
@@ -75,6 +75,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original CharBuffer:  [a, b, c]
 ```

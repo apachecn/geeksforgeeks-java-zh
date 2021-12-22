@@ -9,7 +9,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An iterative Java program to check if two 
 // linked lists are identical or not
 class LinkedList
@@ -98,7 +98,7 @@ class LinkedList
 
 **输出:**
 
-```
+```java
 Identical
 ```
 
@@ -107,7 +107,7 @@ Identical
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A recursive Java method to check if two 
 // linked lists are identical or not
 boolean areIdenticalRecur(Node a, Node b)

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : file1.pptx, file2.pptx
 Output: merged.pptx
 
@@ -41,7 +41,7 @@ merged.pptx
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Merging Multiple PPTs using java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

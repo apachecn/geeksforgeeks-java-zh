@@ -8,7 +8,7 @@
 该签名对象被重置为其初始状态(在调用 initSign 方法之一后的状态)，并且可以被重用以使用相同的私钥生成进一步的签名。
 **语法:**
 
-```
+```java
 public final int sign( byte[] data, int offset, int length )
 ```
 
@@ -25,7 +25,7 @@ public final int sign( byte[] data, int offset, int length )
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // sign() method
 

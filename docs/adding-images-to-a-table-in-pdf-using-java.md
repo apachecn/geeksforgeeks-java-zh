@@ -19,7 +19,7 @@
 
 首先，我们创建一个属于 org.apache.pdfbox.pdmodel 包的 **PDDocument** 类的实例。通过获取一个 PDDocument 类的实例，我们能够创建一个空的 PDF 文档。
 
-```
+```java
 PDDocument doc = new PDDocument();   
 
 ```
@@ -28,7 +28,7 @@ PDDocument doc = new PDDocument();
 
 PDPage 类用于在 PDF 文档中创建空白页。下面的代码在我们的 PDF 文档中创建了一个页面。
 
-```
+```java
 PDPage blankPage = new PDPage();  
 
 ```
@@ -37,7 +37,7 @@ PDPage blankPage = new PDPage();
 
 **addPage()** 方法用于在 PDF 文档中添加页面。下面的代码在我们的 PDF 文档中添加了一页。
 
-```
+```java
 doc.addPage( blankPage );  
 
 ```
@@ -46,7 +46,7 @@ doc.addPage( blankPage );
 
 当我们创建文档时，我们必须将文档保存到我们想要的位置。所以，我们使用 **save()** 方法保存文档。save()方法接受一个字符串值，并将文档路径作为参数传递。
 
-```
+```java
 doc.save("Path of Document");  
 
 ```
@@ -55,7 +55,7 @@ doc.save("Path of Document");
 
 完成任务后，我们需要使用 close()方法关闭 PDDocument 类对象
 
-```
+```java
 doc.close();  
 
 ```
@@ -64,7 +64,7 @@ doc.close();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing the required library functions
 
 import java.io.FileInputStream;
@@ -152,7 +152,7 @@ public class image_insert {
 
 **2** 。编辑【项目文件】下的 **pom.xml** 文件。您应该添加如下所示的粗体部分。
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -185,7 +185,7 @@ public class image_insert {
 
 类代表属于 com.itextpdf.kernel.pdf 包的一个 PDF 的文档作者。构造函数将一个字符串作为输入，该字符串表示要创建 PDF 的文件的路径。然后通过将一个字符串值(表示我们需要创建一个 PDF 的路径)传递给它的构造函数来初始化 PdfWriter 类，如下所示。
 
-```
+```java
 String destination = "D:/Downloads/My_pdf.pdf";  
 PdfWriter writer = new PdfWriter(destination);
 
@@ -199,7 +199,7 @@ PdfDocument 类是在 iText 中表示 PDF 文档的类。这个班属于 com.ite
 
 通过将上面创建的 PdfWriter 对象传递给它的构造函数来初始化 PdfDocument 类，如下所示。
 
-```
+```java
 PdfDocument pdfdocument= new PdfDocument(writer);  
 
 ```
@@ -210,7 +210,7 @@ PdfDocument pdfdocument= new PdfDocument(writer);
 
 创建一个自给自足的 PDF 时，根元素是包 com.itextpdf.layout 的 Document 类。该类的一个构造函数接受一个类 PdfDocument 的对象。通过传递在前面步骤中创建的类 PdfDocument 的对象来初始化 Document 类，如下所示。
 
-```
+```java
 Document document = new Document(pdfdocument);  
 
 ```
@@ -219,7 +219,7 @@ Document document = new Document(pdfdocument);
 
 为了创建图像对象，首先，我们使用 ImageDataFactory 类的 create()方法创建一个 ImageData 对象。然后，我们传递一个表示图像路径的字符串参数作为这个方法的参数。
 
-```
+```java
 String imgFile = "D:/img.jpg";  
 ImageData data = ImageDataFactory.create(imgFile);
 
@@ -227,7 +227,7 @@ ImageData data = ImageDataFactory.create(imgFile);
 
 现在，初始化 com.itextpdf.layout.element 包的 Image 类。实例化时，我们将上面创建的 ImageData 对象作为参数传递给它的构造函数，如图所示
 
-```
+```java
 Image img = new Image(data);  
 
 ```
@@ -236,7 +236,7 @@ Image img = new Image(data);
 
 我们可以使用 Document 类的 add()方法添加上一步创建的图像对象。
 
-```
+```java
 document.add(img);
 
 ```
@@ -245,7 +245,7 @@ document.add(img);
 
 我们需要使用 document 类的 close()方法关闭文档
 
-```
+```java
 document.close(); 
 
 ```
@@ -254,7 +254,7 @@ document.close();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Adding image to pdf
 
 import com.itextpdf.io.image.ImageData;
@@ -297,7 +297,7 @@ public class Itext_final {
 
 **输出**
 
-```
+```java
 Image added successfully!!
 
 ```

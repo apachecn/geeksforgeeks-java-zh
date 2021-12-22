@@ -31,7 +31,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to Segregate 0s and 1s in an array
 
 // Importing generic libraries
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Array after segregation is 0 0 1 1 1 1 
 ```
 
@@ -106,13 +106,13 @@ Array after segregation is 0 0 1 1 1 1
 
 **语法:**
 
-```
+```java
 public static void sort(int[] arr, int from_Index, int to_Index)
 ```
 
 **参数:**
 
-```
+```java
 arr        - the array to be sorted
 from_Index - the index of the first element, inclusive, to be sorted
 to_Index   - the index of the last element, exclusive, to be sorted
@@ -120,13 +120,13 @@ to_Index   - the index of the last element, exclusive, to be sorted
 
 **返回类型:**
 
-```
+```java
 This method doesn't return any value
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to Segregate 0s and 1s in an array
 
 // Importing generic libraries
@@ -167,7 +167,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Array after segregation is 0 0 1 1 1 1 
 ```
 
@@ -177,7 +177,7 @@ Array after segregation is 0 0 1 1 1 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to Segregate 0s and 1s in an array
 
 // Importing generic libraries
@@ -236,7 +236,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Array after segregation is: 0 0 0 0 1 1 1 1 
 ```
 

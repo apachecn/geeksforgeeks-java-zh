@@ -16,7 +16,7 @@
 
 导航至 **Gradle 脚本> build.gradle(模块:app)** 并在依赖项部分添加以下依赖项。
 
-```
+```java
 implementation 'tyrantgit:explosionfield:1.0.1'
 ```
 
@@ -26,7 +26,7 @@ implementation 'tyrantgit:explosionfield:1.0.1'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -51,7 +51,7 @@ implementation 'tyrantgit:explosionfield:1.0.1'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;

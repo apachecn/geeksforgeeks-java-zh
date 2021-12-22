@@ -11,7 +11,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program illustrating TreeSet API by creating
 // all the methods of TreeSet API
 
@@ -204,7 +204,7 @@ class TreeSetImplementation<E> {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program demonstrate TreeSet API
 import java.util.Collection;
 import java.util.Comparator;
@@ -501,7 +501,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Elements of the TreeSet:
 10 20 30 40 50 
 

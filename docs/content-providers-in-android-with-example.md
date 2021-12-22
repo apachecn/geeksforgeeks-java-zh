@@ -92,7 +92,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">Content_Provider_In_Android</string>
     <string name="hintText">Enter User Name</string>

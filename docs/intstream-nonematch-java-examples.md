@@ -5,7 +5,7 @@
 **int stream none match(int predicate 谓词)**返回此流中是否没有元素与提供的谓词匹配。如果不是确定结果所必需的，它可能不会计算所有元素上的谓词。这是一次 ***短路端子操作。*** 如果终端操作在无限输入时可能在有限时间内终止，则该操作为短路。
 **语法:**
 
-```
+```java
 boolean noneMatch(IntPredicate predicate)
 
 Where, IntPredicate represents a predicate (boolean-valued function)
@@ -19,7 +19,7 @@ the stream is empty, otherwise false.
 
 **例 1 :** noneMatch()函数检查 IntStream 的元素是否没有被 5 整除。
 
-```
+```java
 // Java code for IntStream noneMatch
 // (Predicate predicate) to check whether
 // no element of this stream match
@@ -49,7 +49,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```

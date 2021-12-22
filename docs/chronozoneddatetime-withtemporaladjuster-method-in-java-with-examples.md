@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default ChronoZonedDateTime with(TemporalAdjuster adjuster)
 
 ```
@@ -24,7 +24,7 @@ default ChronoZonedDateTime with(TemporalAdjuster adjuster)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.with() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime before adjustment: 1918-10-25T23:12:38.543Z[Europe/Paris]
 ChronoZonedDateTime after adjustment: 1918-10-01T23:12:38.543+01:00[Europe/Paris]
 
@@ -71,7 +71,7 @@ ChronoZonedDateTime after adjustment: 1918-10-01T23:12:38.543+01:00[Europe/Paris
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.with() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime before adjustment: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ChronoZonedDateTime after adjustment: 2018-01-01T19:21:12.123+05:30[Asia/Calcutta]
 

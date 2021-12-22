@@ -12,14 +12,14 @@
 
 > 例 1
 > 
-> ```
+> ```java
 > Input  : Plaintext  : how are you
 > Output : Ciphertext : a e oowu hyr
 > ```
 > 
 > 例 2
 > 
-> ```
+> ```java
 > Input  : Plaintext  : you are a champion
 > Output : Ciphertext : h aa ep o nuc i yaorm
 > ```
@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Perform Cryptography
 // using Transposition Technique
 
@@ -233,7 +233,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Cipher Text : l-o-G-ekl-e-He -
 
 ```

@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Final Method Extension
 
 // Importing input output classes
@@ -58,7 +58,7 @@ class GFGParent {
 
 **Output**
 
-```
+```java
 GFG!
 Data Structure
 ```
@@ -69,7 +69,7 @@ Data Structure
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Final Method Extension
 // Where method Overrides
 

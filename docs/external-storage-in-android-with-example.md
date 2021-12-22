@@ -17,7 +17,7 @@
 
 ## 爪哇
 
-```
+```java
 boolean isAvailable= false;
 boolean isWritable= false;
 boolean isReadable= false;

@@ -6,7 +6,7 @@ Java 中系统类 中定义的 **getproperty()方法** ，用于检索参数列�
 
 **语法:**
 
-```
+```java
 public static String getProperty(String key)
 
 ```
@@ -24,7 +24,7 @@ public static String getProperty(String key)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find 
 // current working directory
 import java.io.*;

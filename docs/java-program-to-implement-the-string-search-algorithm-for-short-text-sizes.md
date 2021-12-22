@@ -9,7 +9,7 @@
 
 ****示例:****
 
-```
+```java
 Input:  txt[] = "THIS IS A TEST TEXT"
         pat[] = "TExT"
 Output: Pattern found at index 15
@@ -36,7 +36,7 @@ Output: Pattern found at index 0
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Implement the String Search
 // Algorithm for Short Text Sizes
 
@@ -88,7 +88,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 Pattern Found at Position: 0
 Pattern Found at Position: 8
 Pattern Found at Position: 38
@@ -106,7 +106,7 @@ Total Instances Found = 3
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Implement the String Search
 // Algorithm for Short Text Sizes
 
@@ -200,7 +200,7 @@ class KMP_String_Matching {
 
 ****Output**
 
-```
+```java
 Found pattern at index 0
 Found pattern at index 8
 Found pattern at index 38

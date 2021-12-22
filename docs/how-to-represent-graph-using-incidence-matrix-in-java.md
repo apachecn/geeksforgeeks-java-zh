@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert adjacency matrix
 // to incidence matrix
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1001
 1100
 0110

@@ -6,7 +6,7 @@ Java 中 **LocalDate 类**的 **withYear()** 方法返回一个更改了年份�
 
 **语法:**
 
-```
+```java
 public LocalDate withYear(int year)
 ```
 
@@ -20,7 +20,7 @@ public LocalDate withYear(int year)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withYear() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 The date with year is: 2018-12-07
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withYear() method
 
 import java.util.*;
@@ -71,7 +71,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 The date with year is: 2014-01-07
 
 ```

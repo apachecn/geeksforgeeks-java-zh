@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public int available()
 ```
 
@@ -19,7 +19,7 @@ public int available()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above function
 import java.io.*;
@@ -48,7 +48,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 Use of available() method : 5
 ```
 
@@ -56,7 +56,7 @@ Use of available() method : 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above function
 import java.io.*;
@@ -85,7 +85,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 Use of available() method : 4
 ```
 

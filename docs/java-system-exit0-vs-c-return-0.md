@@ -11,7 +11,7 @@ Java 和 C++是具有不同应用和设计目标的语言。C++是过程编程�
 
 在 *stdlib.h* 中，宏*退出 _ 成功*和*退出 _ 失败*是这样定义的:
 
-```
+```java
 #define EXIT_SUCCESS    0
 #define EXIT_FAILURE    1
 
@@ -23,7 +23,7 @@ Java 和 C++是具有不同应用和设计目标的语言。C++是过程编程�
 
 ## C++
 
-```
+```java
 #include <iostream>
 
 using namespace std;
@@ -38,7 +38,7 @@ int main()
 }
 ```
 
-```
+```java
 Input:
 54
 4
@@ -57,7 +57,7 @@ Output:
 
 ****Java . lang . system . exit()方法的声明:****
 
-```
+```java
 public static void exit(int status)
 **exit(0) -->**successful termination.
 **exit(1)** or **exit(-1)** or any other non-zero value –-> unsuccessful termination. 
@@ -65,7 +65,7 @@ public static void exit(int status)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -75,7 +75,7 @@ class GFG {
 }
 ```
 
-```
+```java
 **Output:**
 GeeksforGeeks
 ```

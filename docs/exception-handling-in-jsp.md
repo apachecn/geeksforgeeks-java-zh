@@ -16,14 +16,14 @@ JSP 中的 page 指令提供了两个用于异常处理的属性。他们是:
 *   **错误页面**:用于设置出现异常时显示哪个页面。
     语法:
 
-```
+```java
  <%@page errorPage="url of the error page"%>
 ```
 
 *   **isErrorPage** :用于将显示异常的页面标记为错误页面。
     语法:
 
-```
+```java
  <%@page isErrorPage="true"%>
 ```
 
@@ -35,7 +35,7 @@ JSP 中的 page 指令提供了两个用于异常处理的属性。他们是:
 
 ## 超文本标记语言
 
-```
+```java
 <html>
 <head>
 <body>
@@ -52,7 +52,7 @@ Number2:<input type="text" name="second" >
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // JSP code to divide two numbers
 <% @page errorPage = "error.jsp" %> < %
 
@@ -73,7 +73,7 @@ out.print("division of numbers is: " + z); // result
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // JSP code for error page, which displays the exception
 <% @page isErrorPage = "true" %>
 
@@ -97,7 +97,7 @@ T3】index.html
 
 ## 超文本标记语言
 
-```
+```java
 <web-app> 
 
  <error-page> 
@@ -114,7 +114,7 @@ T3】index.html
 
 ## 超文本标记语言
 
-```
+```java
 <html>
 <head>
 <body>
@@ -131,7 +131,7 @@ Number2:<input type="text" name="second" >
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // JSP code to divide two numbers
 < %
 
@@ -151,7 +151,7 @@ out.print("division of numbers is: " + z); // result
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // JSP code for error page, which displays the exception
 <%@ page isErrorPage="true" %> 
 
@@ -165,7 +165,7 @@ The exception is: <%= exception %>
 
 ## 超文本标记语言
 
-```
+```java
 <web-app> 
 
  <error-page> 

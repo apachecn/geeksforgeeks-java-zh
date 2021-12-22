@@ -9,7 +9,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double tan(double angle)
     Parameters :
     The function has one mandatory parameter angle which is in radians. 
@@ -21,7 +21,7 @@
 
     **例 1 :** 展示 java.lang.Math.tan()方法的工作原理。
 
-    ```
+    ```java
     // Java program to demonstrate working
     // of java.lang.Math.tan() method
     import java.lang.Math;
@@ -64,7 +64,7 @@
 
     输出:
 
-    ```
+    ```java
     0.5773502691896257
     0.9999999999999999
     1.7320508075688767
@@ -74,7 +74,7 @@
 
     **例 2 :** 展示当参数为 n an 或无穷大时，java.lang.Math.tan()方法的工作原理。
 
-    ```
+    ```java
     // Java program to demonstrate working
     // of java.lang.Math.tan() method infinity case
     import java.lang.Math;
@@ -109,7 +109,7 @@
 
     输出:
 
-    ```
+    ```java
     NaN
     NaN
     NaN

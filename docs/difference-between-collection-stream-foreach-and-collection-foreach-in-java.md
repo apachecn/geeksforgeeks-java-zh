@@ -29,7 +29,7 @@ Collection.forEach()和 Collection.stream()。forEach()用于迭代集合，两�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the demonstration of
 // Collection.stream().forEach()
 import java.io.*;
@@ -52,7 +52,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 5634
 ```
 
@@ -60,7 +60,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the demonstration of
 // Collection.forEach()
 import java.io.*;
@@ -83,6 +83,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 5634
 ```

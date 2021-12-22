@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void setPlain(V newValue)
 
 ```
@@ -18,7 +18,7 @@ public final void setPlain(V newValue)
 以下程序说明了 setPlain()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.setPlain() method
 import java.util.concurrent.atomic.AtomicReference;
@@ -44,7 +44,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.setPlain() method
 import java.util.concurrent.atomic.AtomicReference;

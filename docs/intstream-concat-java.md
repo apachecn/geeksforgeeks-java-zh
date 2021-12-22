@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static IntStream concat(IntStream a,  IntStream b)
 
 Where, IntStream is a sequence of primitive int-valued elements,
@@ -24,7 +24,7 @@ the two input IntStreams.
 
 **注意:**int stream . concat()方法返回的元素是有序的。例如，以下两行返回相同的结果:
 
-```
+```java
 IntStream.concat(IntStream.concat(stream1, stream2), stream3);
 IntStream.concat(stream1, IntStream.concat(stream2, stream3));
 
@@ -32,7 +32,7 @@ IntStream.concat(stream1, IntStream.concat(stream2, stream3));
 
 但是下面两个的结果是不同的。
 
-```
+```java
 IntStream.concat(IntStream.concat(stream1, stream2), stream3); 
 IntStream.concat(IntStream.concat(stream2, stream1), stream3);
 
@@ -40,7 +40,7 @@ IntStream.concat(IntStream.concat(stream2, stream1), stream3);
 
 **例 1 :**
 
-```
+```java
 // Implementation of IntStream.concat()
 // method in Java 8 with 2 IntStreams
 import java.util.*;
@@ -67,7 +67,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 4
 6
@@ -79,7 +79,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Implementation of IntStream.concat()
 // method in Java 8 with 2 IntStreams
 import java.util.*;
@@ -107,7 +107,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 4
 6

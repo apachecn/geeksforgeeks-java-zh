@@ -7,7 +7,7 @@ Hashcode 是 JVM 在创建对象时生成的唯一代码。我们可以使用 ha
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -15,7 +15,7 @@ public int hashCode()
 
 **示例:**
 
-```
+```java
 Input: BigInteger1=32145
 Output: 32145
 Explanation: BigInteger1.hashCode()=32145.
@@ -28,7 +28,7 @@ Explanation: BigInteger1.hashCode()=-1255493552.
 
 **示例 1:下面的程序说明了 BigInteger 类**的 hashCode()方法
 
-```
+```java
 // Java program to demonstrate 
 // hashCode() method of BigInteger
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashCode of 32145 : 32145
 hashCode of 7613721467324 : -1255493552
 
@@ -68,7 +68,7 @@ hashCode of 7613721467324 : -1255493552
 
 **例 2:当两个 bigInteger 的值相同时**
 
-```
+```java
 // Java program to demonstrate 
 // hashCode() method of BigInteger
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashCode of 4326516236135 : 1484200280
 hashCode of 4326516236135 : 1484200280
 

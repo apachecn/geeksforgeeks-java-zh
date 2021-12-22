@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void setRelease(V newValue)
 
 ```
@@ -18,7 +18,7 @@ public final void setRelease(V newValue)
 下面的程序说明了 setRelease()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.setRelease() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.setRelease() method
 import java.util.concurrent.atomic.AtomicReference;

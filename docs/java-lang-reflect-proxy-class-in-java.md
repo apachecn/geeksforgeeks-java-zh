@@ -8,7 +8,7 @@ java.lang 包中有一个代理类。代理类有特定的方法用于创建动�
 
 **字段:**
 
-```
+```java
 protected InvocationHandler h
 ```
 
@@ -16,7 +16,7 @@ protected InvocationHandler h
 
 **建造师:**
 
-```
+```java
 protected Proxy(InvocationHandler h) 
 ```
 
@@ -26,7 +26,7 @@ protected Proxy(InvocationHandler h)
 
 ## Java
 
-```
+```java
 // Invocation handler implementation
 import java.lang.reflect.InvocationHandler;
 
@@ -68,6 +68,6 @@ public class GFG {
 
 T0】输出
 
-```
+```java
 demoInvocationHandler@378fd1ac
 ```

@@ -68,7 +68,7 @@
 
 **例:**假设 4 站 S1、S2、S3、S4。我们将使用 4×4 沃尔什表为它们分配代码。
 
-```
+```java
 C1 = [+1 +1 +1 +1]
 C2 = [+1 -1 +1 -1]
 C3 = [+1 +1 -1 -1]
@@ -95,7 +95,7 @@ Data bit that was sent = -4/4 = -1.
 
 下面程序说明了一个简单的码分多址信道的实现:
 
-```
+```java
 // Java code illustrating a simple implementation of CDMA
 
 import java.util.*;
@@ -238,7 +238,7 @@ public class CDMA {
 
 **输出**:
 
-```
+```java
 1  1  1  1 
 1 -1  1 -1 
 1  1 -1 -1 

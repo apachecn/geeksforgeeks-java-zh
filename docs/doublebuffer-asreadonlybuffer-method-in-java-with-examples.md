@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract DoubleBuffer asReadOnlyBuffer()
 
 ```
@@ -19,7 +19,7 @@ public abstract DoubleBuffer asReadOnlyBuffer()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original DoubleBuffer: [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 ReadOnlyBuffer DoubleBuffer: 8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
@@ -85,7 +85,7 @@ ReadOnlyBuffer DoubleBuffer: 8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -165,7 +165,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleBuffer db: [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 DoubleBuffer db1: [0.0, 4.56, 6.45, 0.0, 0.0]

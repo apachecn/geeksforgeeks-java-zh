@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static LongStream rangeClosed(long startInclusive, long endInclusive)
 
 ```
@@ -21,7 +21,7 @@ static LongStream rangeClosed(long startInclusive, long endInclusive)
 
 **例:**
 
-```
+```java
 // Implementation of LongStream rangeClosed
 // (long startInclusive, long endInclusive)
 import java.util.*;
@@ -44,7 +44,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 -4
 -3
 -2
@@ -58,7 +58,7 @@ class GFG {
 
 **注意:**LongStream range closed(long start inclusive，long endInclusive)基本上像 for 循环一样工作。递增值的等价序列可以按如下顺序产生:
 
-```
+```java
 for (int i = startInclusive; i <= endInclusive ; i++) 
 {
  ...

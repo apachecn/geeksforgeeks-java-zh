@@ -31,7 +31,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program showing the working of abstraction
 
 // Importing generic libraries
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 It has two legs
 It has four legs
 ```
@@ -143,7 +143,7 @@ Getter 用于访问私有数据，setter 仅在身份验证后用于修改私有
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program showing working of data hiding
 
 // Importing generic libraries
@@ -223,7 +223,7 @@ public class Emp {
 
 **输出:**
 
-```
+```java
 User Name Roshan
 Bank_ID 12345
 Current Balance 10000

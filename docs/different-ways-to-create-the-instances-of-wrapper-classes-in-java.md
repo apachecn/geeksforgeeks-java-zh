@@ -18,13 +18,13 @@
 
 **语法:**
 
-```
+```java
 ClassName object = new ClassName(argument);
 ```
 
 **插图:**
 
-```
+```java
 Integer number = new Integer(5);
 ```
 
@@ -32,13 +32,13 @@ Integer number = new Integer(5);
 
 **语法:**
 
-```
+```java
 ClassName object = ClassName.valueOf(argument);
 ```
 
 **插图:**
 
-```
+```java
 Integer number = Integer.valueOf(5);
 ```
 
@@ -50,7 +50,7 @@ Integer number = Integer.valueOf(5);
 
 ## 爪哇
 
-```
+```java
 // Importing input output classes 
 import java.io.*;
 
@@ -96,7 +96,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false
 true
 ```
@@ -121,13 +121,13 @@ true
 
 **说明:**在上面的例子中，也可以写成 *Integer.valueOf(15)* )并把它的引用放在对象中(即一个数字)。
 
-```
+```java
 Integer number = 15;
 ```
 
 **语法:**
 
-```
+```java
 ClassName object = value;                 
 // of primitive data type associated with the wrapper class.
 ```
@@ -136,7 +136,7 @@ ClassName object = value;
 
 ## Java
 
-```
+```java
 // Importing input output classes
 import java.io.*;
 
@@ -158,7 +158,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 true
 ```
 

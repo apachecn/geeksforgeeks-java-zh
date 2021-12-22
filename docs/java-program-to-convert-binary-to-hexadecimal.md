@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: 11011111
 Output: DF
 
@@ -28,7 +28,7 @@ Output: 8D
 
 **语法:**
 
-```
+```java
 public static String toHexString(int num)
 ```
 
@@ -51,7 +51,7 @@ public static String toHexString(int num)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert binary to hexadecimal
 
 class GFG {
@@ -122,7 +122,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Inputted number : 10011110
 9E
 ```
@@ -144,7 +144,7 @@ Inputted number : 10011110
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert binary to hexadecimal
 
 class GFG {
@@ -241,7 +241,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Input : 11000011
 Output : C3
 ```

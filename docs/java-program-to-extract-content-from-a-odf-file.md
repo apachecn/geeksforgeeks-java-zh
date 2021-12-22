@@ -13,7 +13,7 @@ ODF 的全部是开放文档格式。它是一个国际标准家族，继承了�
 
 **以下是执行以下 java 代码所需的依赖项:**
 
-```
+```java
 tika-parsers-1.24.1.jar
 commons-io-2.8.0.jar
 slf4j-api-2.0.0-alpha0.jar
@@ -23,7 +23,7 @@ slf4j-api-2.0.0-alpha0.jar
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Extract Content from a ODF file
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.metadata.Metadata;
@@ -86,7 +86,7 @@ public class OdfContentExtractor {
 
 **输出:**
 
-```
+```java
 Content in the document :Geekforgeeks has a great content on DSA.
 
 Metadata of the document:

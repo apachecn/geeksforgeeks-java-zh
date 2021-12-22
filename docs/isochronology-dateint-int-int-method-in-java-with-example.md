@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate date(int prolepticYear,
                       int month,
                       int dayOfMonth)
@@ -25,7 +25,7 @@ public LocalDate date(int prolepticYear,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LocalDate is: 1440-05-24
 ```
 
@@ -71,7 +71,7 @@ LocalDate is: 1440-05-24
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 passed parameter can not form a date
 Exception thrown: java.time.DateTimeException: Invalid value for DayOfMonth (valid values 1 - 28/31): 34
 

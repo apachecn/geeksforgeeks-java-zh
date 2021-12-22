@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean getAndSet(boolean val)
 
 ```
@@ -19,7 +19,7 @@ public final boolean getAndSet(boolean val)
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndSet() function
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: false
 Current value: true
 
@@ -56,7 +56,7 @@ Current value: true
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndSet() function
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: true
 Current value: false
 

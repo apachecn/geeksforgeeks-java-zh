@@ -6,7 +6,7 @@
 
 **示例**
 
-```
+```java
 Input 1: K = 1, L = 2,
 
           mat[][] = {{2, 1, 4},
@@ -48,7 +48,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to interchange
 // two row in a Matrix
 import java.io.*;
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2 1 4 
 3 6 2 
 1 2 3 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long longValueExact()
 ```
 
@@ -18,7 +18,7 @@ public long longValueExact()
 
 **示例:**
 
-```
+```java
 Input : "1987812456121"
 Output : 1987812456121
 
@@ -30,7 +30,7 @@ Output : 721111
 下面的程序说明了 Java . math . bigdecimal . longvalueexact()方法的使用:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // longValueExact() method
 import java.math.*;
@@ -57,7 +57,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exact Long Value of 267694723232 is 267694723232
 Exact Long Value of 721111845617 is 721111845617
 
@@ -67,7 +67,7 @@ Exact Long Value of 721111845617 is 721111845617
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Arithmetic Exception occurrence
 // in longValueExact() method
@@ -104,7 +104,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Output by longValue() Function
 The Long Value of 267694723232435121868 is -9006437873208152372
 The Long Value of 72111184561789104423 is -1675791733049102041

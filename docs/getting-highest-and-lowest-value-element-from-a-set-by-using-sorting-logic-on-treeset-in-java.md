@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 TreeSet<Comparator> name = new TreeSet<Comparator>(new ComparatorClass());
 ```
 
@@ -22,7 +22,7 @@ TreeSet<Comparator> name = new TreeSet<Comparator>(new ComparatorClass());
 
 **例 1:**
 
-```
+```java
 Input :
 Name - "Ramesh" Age - 20
 Name - "Suresh" Age - 48
@@ -36,7 +36,7 @@ Lowest Age Person: Name : Ankit-- Age : 14
 
 **例 2:**
 
-```
+```java
 Input :
 Name - "Ramesh" Age - 20
 Name - "Suresh" Age - 20
@@ -58,7 +58,7 @@ Lowest Age Person: Name : Suresh-- Age : 14
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Getting Highest and Lowest Value 
 // Element From a Set by Using Sorting 
 // Logic on TreeSet in Java
@@ -136,7 +136,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Highest Age Person: Name: Ankit-- age: 78
 Lowest Age Person: Name: Suresh-- age: 20
 ```

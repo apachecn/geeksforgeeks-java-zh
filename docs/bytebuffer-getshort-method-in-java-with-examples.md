@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract short getShort()
 ```
 
@@ -20,7 +20,7 @@ public abstract short getShort()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getShort() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1034 1035 1036 
 
@@ -96,7 +96,7 @@ Next Byte Value: 1035
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getShort() method
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1034 1036 
 
@@ -182,7 +182,7 @@ Exception Thrown : java.nio.BufferUnderflowException
 
 **语法:**
 
-```
+```java
 public abstract long getLong(int index)
 ```
 
@@ -196,7 +196,7 @@ public abstract long getLong(int index)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getShort() method
 
@@ -262,7 +262,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1034 1036 
 
@@ -274,7 +274,7 @@ Next Byte Value: 1036
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getShort() method
 
@@ -340,7 +340,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1034 1036 
 

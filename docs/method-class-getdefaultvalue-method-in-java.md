@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public Object getDefaultValue()
 ```
 
@@ -19,7 +19,7 @@ public Object getDefaultValue()
 
 **示例 1:** 下面的程序包含一个接口名称演示，其中包含由接口方法表示的注释成员的一些默认值。程序的主方法为接口的每个方法创建方法对象，如果方法包含注释的默认值，则打印注释的默认值。
 
-```
+```java
 /*
 * Program Demonstrate getDefaultValue() method 
 * of Method Class.
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Inception
 9.6
 null
@@ -86,7 +86,7 @@ null
 
 **示例 2:** 下面的程序包含一个接口名称演示和一个类名演示，接口名称演示带有由接口方法表示的注释成员的一些默认值，类名演示没有注释的默认值。程序的 Main 方法为接口和类的每个方法创建方法对象，如果方法包含注释的默认值，则打印注释的默认值。
 
-```
+```java
 /*
 * Program Demonstrate getDefaultValue() method 
 * of Method Class.
@@ -150,7 +150,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 default value of demoMethod():null
 default value of getValue():51
 

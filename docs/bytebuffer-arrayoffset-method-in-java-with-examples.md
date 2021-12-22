@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public final int arrayOffset()
 ```
 
@@ -22,7 +22,7 @@ public final int arrayOffset()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // arrayOffset() method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ByteBuffer: [20, 30, 40, 50]
 arrayOffset: 0
 
@@ -80,7 +80,7 @@ arrayOffset: 0
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // arrayOffset() method
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Read only buffer : 20, 30, 40, 
 
 Try to print the array offset of read only buffer

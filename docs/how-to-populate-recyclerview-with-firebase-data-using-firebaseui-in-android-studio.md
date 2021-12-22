@@ -58,7 +58,7 @@
 *   ****第二步:** [将你的 Firebase 项目与你的应用程序连接起来。](https://www.geeksforgeeks.org/adding-firebase-to-android-app/)**
 *   ****第三步:**在你的 **应用程序/build.gradle** 文件中添加以下依赖项，以便在应用程序中获得 FirebaseUI 和 Firebase 实时数据库支持。
 
-    ```
+    ```java
     dependencies {
        // Dependency FirebaseUI for Firebase Realtime Database
        implementation 'com.firebaseui:firebase-ui-database:6.2.1'
@@ -72,7 +72,7 @@
 
 *   ****第一步:**添加以下依赖项，获得 app 中 **Cardview** 的支持。
 
-    ```
+    ```java
     dependencies {
         // This dependency includes all material components of the android app.
         implementation 'com.google.android.material:material:1.1.0'
@@ -82,7 +82,7 @@
 
     ## 可扩展标记语言
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout 
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -104,7 +104,7 @@
 
     ## 可扩展标记语言
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.cardview.widget.CardView 
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -202,7 +202,7 @@
 
     ## 爪哇语言（一种计算机语言,尤用于创建网站)
 
-    ```
+    ```java
     // Your package name can be different depending
     // on your project name
     package com.example.recyclerview;
@@ -256,7 +256,7 @@
 
     ## 爪哇语言（一种计算机语言,尤用于创建网站)
 
-    ```
+    ```java
     package com.example.recyclerview;
     import android.view.LayoutInflater;
     import android.view.View;
@@ -340,7 +340,7 @@
 
     ## Java 语言（一种计算机语言,尤用于创建网站)
 
-    ```
+    ```java
     package com.example.recyclerview;
     import androidx.appcompat.app.AppCompatActivity;
     import androidx.recyclerview.widget.LinearLayoutManager;

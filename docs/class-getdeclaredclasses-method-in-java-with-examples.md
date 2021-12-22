@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Class[] getDeclaredClasses()
                throws SecurityException
 
@@ -22,7 +22,7 @@ public Class[] getDeclaredClasses()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDeclaredClasses() method
 
@@ -51,7 +51,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 DeclaredClasses of myClass: []
 
@@ -59,7 +59,7 @@ DeclaredClasses of myClass: []
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDeclaredClasses() method
 
@@ -91,7 +91,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Main
 DeclaredClasses of myClass: [class Main$Arr]
 

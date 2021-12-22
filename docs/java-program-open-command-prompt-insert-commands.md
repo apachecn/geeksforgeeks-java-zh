@@ -8,7 +8,7 @@
 
 **Java . lang . runtime . exec(String 命令):**方法在执行指定的 String 命令中起主要作用。它在单独的进程中执行指定的字符串命令。
 
-```
+```java
 Syntax: 
 public Process exec(String command)
 Parameters : 
@@ -26,7 +26,7 @@ IllegalArgumentException - If command is empty
 
 **如何运行命令提示符**
 
-```
+```java
 // Java program to illustrate
 // open cmd prompt
 
@@ -60,7 +60,7 @@ class NewClass
 
 使用这段代码，您可以在 cmd 中执行某些命令。给定程序在 cmd 中执行**“dir”**(列出所有目录)和**“ping”**(测试源计算机到达指定目标计算机的能力)命令。
 
-```
+```java
 // Java program to illustrate
 // executing commands on cmd prompt
 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public long getTime()
 ```
 
@@ -24,7 +24,7 @@ public long getTime()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert java.sql.Date to java.util.Date
 
 // Importing utility package
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Util Package date in Java is : Wed Mar 17 11:56:06 UTC 2021
 SQL Package  date in Java : 2021-03-17
 

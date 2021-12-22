@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static BigInteger valueOf(long val)
 ```
 
@@ -18,7 +18,7 @@ public static BigInteger valueOf(long val)
 
 **示例 1:** 在不创建大整数对象的情况下应用()的值。
 
-```
+```java
 // Java program to demonstrate valueOf() method of BigInteger
 
 import java.math.BigInteger;
@@ -44,7 +44,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value of BigInteger b1: 456782765
 Value of BigInteger b2: 12345543
 
@@ -52,7 +52,7 @@ Value of BigInteger b2: 12345543
 
 **示例 2:** 通过创建大整数对象来应用()的值。
 
-```
+```java
 // Java program to demonstrate valueOf() method of BigInteger
 
 import java.math.BigInteger;
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value of BigInteger 1: 234567898
 Value of BigInteger 2: 98765432
 

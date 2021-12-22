@@ -33,7 +33,7 @@ Java 是一种流行的面向对象编程语言，被开发人员和程序员用
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Demonstration of Lazy Instantiation in
 // Thread-Safe Environment Using synchronized method and
 // Double-Checked Locking

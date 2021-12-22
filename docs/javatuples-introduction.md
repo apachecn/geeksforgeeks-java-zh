@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 [Geeks, 123,  &#*@]
 
 ```
@@ -23,7 +23,7 @@ JavaTuples 提供以下类来使用:
 
 *   JavaTuples 最多允许 10 个元组。每个类别的类别为:
 
-    ```
+    ```java
     For 1 element   - Unit<A>
     For 2 elements  - Pair<A, B> 
     For 3 elements  - Triplet<A, B, C> 
@@ -39,7 +39,7 @@ JavaTuples 提供以下类来使用:
 
 *   JavaTuples 还给出了两个非常常见的 2 元素元组类，相当于 Pair:
 
-    ```
+    ```java
     KeyValue<A, B>
     LabelValue<A, B>
 
@@ -90,7 +90,7 @@ JavaTuples 的**基本特征**是:
 
         **语法**:
 
-        ```
+        ```java
         NthTuple<type 1, type 2, .., type n> nthTuple = new NthTuple
                         <type 1, type 2, .., type n>(value 1, value 2, .., value n);
 
@@ -98,7 +98,7 @@ JavaTuples 的**基本特征**是:
 
         **例**:
 
-        ```
+        ```java
         Pair<Integer, String> pair = new Pair<Integer, String>( 
                                       Integer.valurOf(1), "Geeks");
 
@@ -115,7 +115,7 @@ JavaTuples 的**基本特征**是:
 
         **语法**:
 
-        ```
+        ```java
         NthTuple<type 1, type 2, .., type n> nthTuple 
             = NthTuple.with(value 1, value 2, .., value n);
 
@@ -123,7 +123,7 @@ JavaTuples 的**基本特征**是:
 
         **例**:
 
-        ```
+        ```java
         Pair<Integer, String> pair = Pair.with(Integer.valurOf(1), "Geeks");
 
         Sextet<Integer, String, Integer, String, Integer, String> sextet
@@ -136,7 +136,7 @@ JavaTuples 的**基本特征**是:
 
         **语法**:
 
-        ```
+        ```java
         NthTuple<type, type, .., type> nthTuple 
                  = NthTuple.fromCollection(collectionWith_n_values);
 
@@ -144,7 +144,7 @@ JavaTuples 的**基本特征**是:
 
         **例**:
 
-        ```
+        ```java
         Pair<String, String> pair = Pair.fromCollection(collectionWith2Values);
 
         Sextet<Integer, String, Integer, String, Integer, String> sextet
@@ -155,7 +155,7 @@ JavaTuples 的**基本特征**是:
 
 *   **语法** :
 
-    ```
+    ```java
     NthTuple<type 1, type 2, .., type n> nthTuple = new NthTuple
                     <type 1, type 2, .., type n>(value 1, value 2, .., value n);
     typeX valX = nthTuple.getValueX-1();
@@ -164,7 +164,7 @@ JavaTuples 的**基本特征**是:
 
 *   **Example**:
 
-    ```
+    ```java
     Pair < Integer, String >
     pair = new Pair<Integer, String>(Integer.valurOf(1), "Geeks");
 
@@ -197,7 +197,7 @@ JavaTuples 的**基本特征**是:
 
 ****语法**:**
 
-```
+```java
 NthTuple<type 1, type 2, .., type n> nthTuple = new NthTuple
                 <type 1, type 2, .., type n>(value 1, value 2, .., value n);
 nthTuple = nthTuple.setAtX(val); 
@@ -205,7 +205,7 @@ nthTuple = nthTuple.setAtX(val);
 
 ****例**:**
 
-```
+```java
 Pair<Integer, String> pair = new Pair<Integer, String>(
                             Integer.valueOf(1), "Geeks");
 
@@ -229,7 +229,7 @@ Sextet<Integer, String, Integer, String, Integer, String> otherSextet
 
 ****例**:**
 
-```
+```java
 Triplet<String, Integer, Double> triplet = ...... 
 
 for (Object value : tuple)

@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A server that sends messages to the client
 
 import java.net.*;
@@ -67,7 +67,7 @@ class UDPServerEx {
 
 **编译 UDPServerEx.java 文件:**
 
-```
+```java
 D:\UDPExample>javac UDPServerEx.java
 ```
 
@@ -81,7 +81,7 @@ D:\UDPExample>javac UDPServerEx.java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // UDPClient that receives and
 // displays messages sent from the server
 
@@ -119,7 +119,7 @@ class UDPClient {
 
 **使用以下命令编译 UDPClient.java 文件:**
 
-```
+```java
 D:\UDPExample>javac UDPClient.java
 ```
 

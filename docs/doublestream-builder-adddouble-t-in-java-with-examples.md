@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default DoubleStream.Builder add(double t)
 ```
 
@@ -18,7 +18,7 @@ default DoubleStream.Builder add(double t)
 
 **例 1:**
 
-```
+```java
 // Java code to show the implementation
 // of DoubleStream.Builder add(double t)
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Stream successfully built
 4.4
 5.84
@@ -62,7 +62,7 @@ Stream successfully built
 
 **示例 2:** 说明 IllegalStateException
 
-```
+```java
 // Java code to show the implementation
 // of DoubleStream.Builder add(T t)
 
@@ -108,7 +108,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Stream successfully built
 4.7
 5.9

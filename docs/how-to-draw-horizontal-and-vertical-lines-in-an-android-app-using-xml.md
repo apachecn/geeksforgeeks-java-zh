@@ -11,7 +11,7 @@
 <u>**如何画垂直线？**</u>
 考虑下面的 XML 代码，在安卓中画一条垂直线:
 
-```
+```java
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -45,7 +45,7 @@
 **画水平线:**
 水平线可以用与垂直线非常相似的方式画出。下面是水平线的 XML 代码:
 
-```
+```java
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"

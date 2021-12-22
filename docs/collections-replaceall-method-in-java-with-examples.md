@@ -4,7 +4,7 @@
 
 **java.util.Collections** 类的 **replaceAll()** 方法用于将列表中一个指定值的所有出现替换为另一个。更正式地说，用 newVal 替换列表中的每个元素 e，这样
 
-```
+```java
 oldVal == null ? e==null : oldVal.equals(e) 
 ```
 
@@ -18,13 +18,13 @@ oldVal == null ? e==null : oldVal.equals(e)
 
 **返回值:**如果列表包含如下所示的一个或多个元素 e，则该方法返回 **true** 否则返回 false
 
-```
+```java
 oldVal== null ? e==null : oldVal.equals(e)
 ```
 
 **语法:**
 
-```
+```java
 public static  boolean replaceAll(List list, T oldVal, T newVal)
 ```
 
@@ -32,7 +32,7 @@ public static  boolean replaceAll(List list, T oldVal, T newVal)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // replaceAll() method for String value
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initial Vector :[A, B, A, C]
 Vector after replace :[TAJMAHAL, B, TAJMAHAL, C]
 ```
@@ -93,7 +93,7 @@ Vector after replace :[TAJMAHAL, B, TAJMAHAL, C]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // replaceAll() method for Integer value
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial values are :[20, 30, 20, 30]
 Value after replace :[400, 30, 400, 30]
 ```

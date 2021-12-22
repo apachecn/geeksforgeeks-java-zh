@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isISOControl(data_type ch)
 
 ```
@@ -19,7 +19,7 @@ public static boolean isISOControl(data_type ch)
 
 **程序 1:**
 
-```
+```java
 // java program to demonstrate
 // Character.isISOControl() method
 // when the parameter is a character
@@ -57,7 +57,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 - is not an ISO control character
  is an ISO control character
 
@@ -65,7 +65,7 @@ public class gfg {
 
 **程序 2:**
 
-```
+```java
 // java program to demonstrate
 // Character.isISOControl(char ch) method
 // when the parameter is an integer
@@ -101,7 +101,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 143 is an ISO control character
 291 is not an ISO control character
 

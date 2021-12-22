@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract FloatBuffer compact()
 ```
 
@@ -20,7 +20,7 @@ public abstract FloatBuffer compact()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original FloatBuffer: [8.56, 9.61, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 Position: 3
 limit: 10
@@ -96,7 +96,7 @@ limit: 10
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ReadOnlyBuffer FloatBuffer: 8.56, 9.61, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 
 
 Position: 0

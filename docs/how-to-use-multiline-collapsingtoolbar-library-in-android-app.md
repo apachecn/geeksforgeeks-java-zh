@@ -18,7 +18,7 @@
 
 导航到 **Gradle 脚本> build.gradle(模块:应用程序)**在依赖项部分添加库，并同步项目。
 
-```
+```java
 dependencies {
     // use the same version of Android support libraries as of collapsing toolbar
     implementation 'net.opacapp:multiline-collapsingtoolbar:27.1.1' 
@@ -33,7 +33,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -97,7 +97,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -132,7 +132,7 @@ dependencies {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
 
 导航到**应用程序** > **清单** > **安卓清单. xml** 并在主要活动标签中添加以下代码。
 
-```
+```java
 android:theme="@style/AppTheme.NoActionBar"
 ```
 

@@ -15,7 +15,7 @@
 
 **1。静态空数组副本(对象源，int sourceStart，对象目标，int targetStart，int size):** 复制数组。要复制的数组在 source 中传递，复制将在 source 中开始的索引在 sourceStart 中传递。将接收拷贝的数组被传入目标，拷贝将从目标中的哪个点开始的索引被传入目标开始。大小是复制的元素数量。
 
-```
+```java
 Syntax: public static void arraycopy(Object source, 
 int sourceStart, Object Target, int targetStart, int size)
 Returns: NA.
@@ -29,7 +29,7 @@ NullPointerException - if either source or target is null.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating arraycopy() method
 import java.lang.*;
 import java.util.Arrays;
@@ -51,13 +51,13 @@ class SystemDemo
 
 **输出:**
 
-```
+```java
 [6, 7, 1, 2, 10]
 ```
 
 **2。静态字符串 clearProperty(字符串键):**删除指定键指示的系统属性。
 
-```
+```java
 Syntax: public static String clearProperty(String key)
 Returns: the previous string value 
 of the system property, or null if there was no property 
@@ -72,7 +72,7 @@ IllegalArgumentException - if key is empty.
 
 **3。静态字符串 getProperty(字符串键):**获取指定键指示的系统属性。
 
-```
+```java
 Syntax: public static String getProperty(String key)
 Returns: the string value of the system 
 property, or null if there is no property with that key.
@@ -86,7 +86,7 @@ IllegalArgumentException - if key is empty.
 
 **4。静态字符串获取属性(字符串键，字符串定义):**获取指定键指示的系统属性。
 
-```
+```java
 Syntax: public static String getProperty(String key, String def)
 Returns: the string value of the system property,
  or the default value if there is no property with that key.
@@ -100,7 +100,7 @@ IllegalArgumentException - if key is empty.
 
 **5。静态字符串设置属性(字符串键，字符串值):**设置由指定键指示的系统属性。
 
-```
+```java
 Syntax: public static String setProperty(String key, String value)
 Returns: the previous value of the system 
 property, or null if it did not have one.
@@ -113,7 +113,7 @@ IllegalArgumentException - if key is empty.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating clearProperty(), getProperty()
 // and setProperty() methods
 import java.lang.*;
@@ -148,7 +148,7 @@ class SystemDemo
 
 **输出:**
 
-```
+```java
 /Users/abhishekverma
 null
 US
@@ -157,7 +157,7 @@ none of your business
 
 **6。static Console():**返回与当前 Java 虚拟机关联的唯一 Console 对象(如果有)。
 
-```
+```java
 Syntax: public static Console console()
 Returns: The system console, if any, otherwise null.
 Exception: NA
@@ -165,7 +165,7 @@ Exception: NA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating console() method
 import java.io.Console;
 import java.lang.*;
@@ -191,13 +191,13 @@ class SystemDemo
 
 输出:
 
-```
+```java
 No console attached
 ```
 
 **7。静态长 currentimemillis():**以毫秒为单位返回当前时间。请注意，虽然返回值的时间单位是毫秒，但值的粒度取决于底层操作系统，可能会更大。例如，许多操作系统以几十毫秒为单位测量时间。
 
-```
+```java
 Syntax: public static long currentTimeMillis()
 Returns: the difference, measured in milliseconds,
  between the current time and midnight, January 1, 1970 UTC.
@@ -206,7 +206,7 @@ Exception: NA.
 
 **8。static long nanoTime():** 返回正在运行的 Java 虚拟机的高分辨率时间源的当前值，单位为纳秒。
 
-```
+```java
 Syntax: public static long nanoTime()
 Returns: the current value of the running Java
  Virtual Machine's high-resolution time source, in nanoseconds
@@ -215,7 +215,7 @@ Exception: NA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating currentTimeMillis() method
 import java.lang.*;
 class SystemDemo
@@ -235,7 +235,7 @@ class SystemDemo
 
 输出:
 
-```
+```java
 difference between the current time 
 and midnight, January 1, 1970 UTC is: 
 1499520649545
@@ -247,7 +247,7 @@ current time in nano sec: 29976939759226
 调用 System.exit(n)实际上相当于调用:
 Runtime.getRuntime()。出口(n)
 
-```
+```java
 Syntax: public static void exit(int status)
 Returns: NA
 Exception: 
@@ -257,7 +257,7 @@ checkExit method doesn't allow exit with the specified status.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating exit() method
 import java.lang.*;
 class SystemDemo
@@ -279,14 +279,14 @@ class SystemDemo
 
 输出:
 
-```
+```java
 Garbage collector executed 
 Mac OS X
 ```
 
 **10。静态 void gc():** 运行垃圾收集器。调用 gc 方法建议 Java 虚拟机扩展回收未使用对象的工作，以便使它们当前占用的内存可用于快速重用。当方法调用返回控制权时，Java 虚拟机已经尽最大努力从所有丢弃的对象中回收空间。
 
-```
+```java
 Syntax: public static void gc()
 Returns: NA
 Exception: NA
@@ -294,7 +294,7 @@ Exception: NA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating gc() method
 import java.lang.*;
 class SystemDemo
@@ -348,7 +348,7 @@ class SystemDemo
 
 输出:
 
-```
+```java
 Total memory is: 128974848
 Initial free memory: 126929976
 Free memory after garbage collection: 128632160
@@ -360,7 +360,7 @@ Free memory after  collecting discarded Integers: 128643472
 **11 时。静态映射 getenv():** 返回当前系统环境的不可修改的字符串映射视图。环境是从名称到值的依赖于系统的映射，从父进程传递到子进程。
 如果系统不支持环境变量，则返回一个空映射。
 
-```
+```java
 Syntax: public static Map getenv()
 Returns: the environment as a map of variable names to values.
 Exception: 
@@ -372,7 +372,7 @@ environment
 **12 时。静态字符串 getenv(字符串名称):**获取指定环境变量的值。环境变量是依赖于系统的外部命名值。
 系统属性和环境变量在概念上都是名称和值之间的映射。这两种机制都可以用来将用户定义的信息传递给 Java 进程。环境变量具有更全局的效果，因为它们对定义它们的过程的所有后代都是可见的，而不仅仅是直接的 Java 子过程。它们在不同的操作系统上可能有微妙的不同语义，例如不区分大小写。由于这些原因，环境变量更有可能产生意想不到的副作用。最好尽可能使用系统属性。当需要全局效果时，或者当外部系统接口需要环境变量(如 PATH)时，应该使用环境变量。
 
-```
+```java
 Syntax: public static String getenv(String name)
 Returns: the string value of the variable,
  or null if the variable is not defined in the system environment.
@@ -385,7 +385,7 @@ its checkPermission method doesn't allow access to the
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating getenv() method
 import java.lang.*;
 import java.util.Map;
@@ -409,7 +409,7 @@ class SystemDemo
 
 输出:
 
-```
+```java
 key= JAVA_MAIN_CLASS_5396
 key= PATH
 key= J2D_PIXMAPS
@@ -434,7 +434,7 @@ key= _
 
 **13。静态属性 getProperties():** 确定当前系统属性。
 
-```
+```java
 Syntax: public static Properties getProperties()
 Returns: the system properties.
 Exception: 
@@ -445,7 +445,7 @@ to the system properties.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating getProperties() method
 import java.lang.*;
 import java.util.Properties;
@@ -466,7 +466,7 @@ class SystemDemo
 
 输出:
 
-```
+```java
 key= java.runtime.name
 key= sun.boot.library.path
 key= java.vm.version
@@ -527,7 +527,7 @@ key= sun.cpu.isalist
 
 **14。静态 SecurityManager getSecurityManager():**获取系统安全接口。
 
-```
+```java
 Syntax: static SecurityManager getSecurityManager()
 Returns: if a security manager has 
 already been established for the current application,
@@ -538,7 +538,7 @@ Exception: NA
 
 **15。静态无效设置安全管理器:**设置系统安全性。
 
-```
+```java
 Syntax: public static void setSecurityManager(SecurityManager s)
 Returns: NA.
 Exception: 
@@ -549,7 +549,7 @@ doesn't allow it to be replaced.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating setSecurityManager()
 // and getSecurityManager() method
 import java.lang.*;
@@ -571,13 +571,13 @@ class SystemDemo
 
 输出:
 
-```
+```java
 Security manager is configured
 ```
 
 **16。静态 void setErr(PrintStream err):** 重新分配“标准”错误输出流。
 
-```
+```java
 Syntax: public static void setErr(PrintStream err)
 Returns: NA
 Exception: 
@@ -588,7 +588,7 @@ SecurityException - if a security manager exists and its
 
 **17。静态 void setIn(InputStream in):** 重新分配“标准”输入流。
 
-```
+```java
 Syntax: public static void setIn(InputStream in)
 Returns: NA.
 Exception: 
@@ -599,7 +599,7 @@ SecurityException - if a security manager exists and its
 
 **18。静态无效设置(打印流输出):**重新分配“标准”输出流。
 
-```
+```java
 Syntax: public void setOut(PrintStream out)
 Returns: NA
 Exception: 
@@ -610,7 +610,7 @@ SecurityException - if a security manager exists and its
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating setOut(), setIn() and setErr() method
 import java.lang.*;
 import java.util.Properties;
@@ -643,7 +643,7 @@ class SystemDemo
 
 **19。静态空加载(字符串文件名):**从本地文件系统加载一个具有指定文件名的代码文件作为动态库。文件名参数必须是完整的路径名。
 
-```
+```java
 Syntax: public static void load(String filename)
 Returns: NA
 Exception: 
@@ -656,7 +656,7 @@ NullPointerException - if filename is null
 
 **20。静态 void loadLibrary(字符串 libname):** 加载 libname 参数指定的系统库。库名映射到实际系统库的方式取决于系统。
 
-```
+```java
 Syntax: public static void loadLibrary(String libname)
 Returns: NA
 Exception: 
@@ -669,7 +669,7 @@ NullPointerException - if libname is null
 
 **21。静态字符串映射库名(String libname):** 将库名映射为表示本机库的平台特定字符串。
 
-```
+```java
 Syntax: public static String mapLibraryName(String libname)
 Returns: a platform-dependent native library name.
 Exception: NullPointerException - if libname is null
@@ -677,7 +677,7 @@ Exception: NullPointerException - if libname is null
 
 **22。static void run finalization():**运行任何等待终结的对象的终结方法。调用此方法表明，Java 虚拟机将努力扩展到运行已被发现被丢弃但其最终方法尚未运行的对象的最终方法。当控制从方法调用返回时，Java 虚拟机已经尽了最大努力来完成所有未完成的终结。
 
-```
+```java
 Syntax: public static void runFinalization()
 Returns: NA
 Exception: NA.
@@ -685,7 +685,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating runFinalization(), load()
 // loadLibrary() and mapLibraryName() method
 import java.lang.*;
@@ -711,13 +711,13 @@ class SystemDemo
 
 输出:
 
-```
+```java
 os.name library= libos.name.dylib
 ```
 
 **23。静态 int identity HashCode(Object x):**为给定对象返回与默认方法 hash code()返回的哈希代码相同的哈希代码，无论给定对象的类是否覆盖 hashCode()。空引用的哈希代码为零。
 
-```
+```java
 Syntax: public static int identityHashCode(Object x)
 Returns: the hashCode.
 Exception: NA.
@@ -725,7 +725,7 @@ Exception: NA.
 
 **24。静态通道继承通道():**返回从创建该 Java 虚拟机的实体继承的通道。
 
-```
+```java
 Syntax: public static Channel inheritedChannel().
 Returns:  inherited channel, if any, otherwise null.
 Exception: 
@@ -736,7 +736,7 @@ SecurityException - If a security manager is present and
 
 **25。静态字符串行分隔符():**返回依赖于系统的行分隔符字符串。它总是返回相同的值-系统属性行分隔符的初始值。
 
-```
+```java
 Syntax: public static String lineSeparator()
 Returns: On UNIX systems, it returns "\n";
  on Microsoft Windows systems it returns "\r\n".
@@ -745,7 +745,7 @@ Exception: NA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating lineSeparator(), inherentChannel()
 // and identityHashCode() method
 import java.io.IOException;
@@ -772,7 +772,7 @@ class SystemDemo
 
 输出:
 
-```
+```java
 1735600054
 null
 "\r\n"

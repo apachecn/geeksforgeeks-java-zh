@@ -54,7 +54,7 @@
 
 导航到**应用程序> res >布局> activity_main.xml** 并将下面的代码添加到该文件中。
 
-```
+```java
 <com.pd.lookatme.LookAtMe
     android:id="@+id/lookme"
     android:layout_width="match_parent"
@@ -65,7 +65,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -118,7 +118,7 @@
 
 转到**MainActivity.java**文件，参考以下代码。我们必须在 java 文件中使用下面这段代码。
 
-```
+```java
 private LookAtMe lookAtMe;
 lookAtMe = findViewById(R.id.lookme);
 lookAtMe.init(this);
@@ -135,7 +135,7 @@ lookAtMe.setLookMe();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;

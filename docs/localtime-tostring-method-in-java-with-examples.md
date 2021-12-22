@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -25,7 +25,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.toString() method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime : 19:34:50.630
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.toString() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Old LocalTime: 01:00:01
 New LocalTime: 11:00:01
 

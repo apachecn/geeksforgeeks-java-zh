@@ -23,7 +23,7 @@ Java 中的数组是一组相似类型的变量，由一个通用名称引用。
 
 一维数组声明的一般形式是
 
-```
+```java
 type var-name[];
 OR
 type[] var-name;
@@ -33,7 +33,7 @@ type[] var-name;
 
 **示例:**
 
-```
+```java
 // both are valid declarations
 int intArray[]; 
 or int[] intArray; 
@@ -62,7 +62,7 @@ Collection[] ca;  // array of Collection
 
 声明数组时，只创建数组的引用。要创建数组或给数组分配内存，您可以这样创建一个数组:应用于一维数组的 *new* 的一般形式如下所示:
 
-```
+```java
 var-name = new type [size];
 ```
 
@@ -70,14 +70,14 @@ var-name = new type [size];
 
 **示例:**
 
-```
+```java
 int intArray[];    //declaring array
 intArray = new int[20];  // allocating memory to array
 ```
 
 运筹学
 
-```
+```java
 int[] intArray = new int[20]; // combining both statements in one
 ```
 
@@ -90,7 +90,7 @@ int[] intArray = new int[20]; // combining both statements in one
 
 **在已知数组大小和数组变量的情况下，可以使用数组文字。**
 
-```
+```java
  int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10 }; 
  // Declaring array literal
 ```
@@ -102,7 +102,7 @@ int[] intArray = new int[20]; // combining both statements in one
 
 **数组中的每个元素都是通过其索引来访问的。索引以 0 开始，以(总数组大小)-1 结束。使用 Java for Loop 可以访问数组的所有元素。**
 
-```
+```java
  // accessing the elements of the specified array
 for (int i = 0; i < arr.length; i++)
   System.out.println("Element at index " + i + 
@@ -113,7 +113,7 @@ for (int i = 0; i < arr.length; i++)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate creating an array
 // of integers,  puts some values in the array,
 // and prints each value to standard output.
@@ -149,7 +149,7 @@ class GFG
 
 ****Output**
 
-```
+```java
 Element at index 0 : 10
 Element at index 1 : 20
 Element at index 2 : 30
@@ -165,19 +165,19 @@ Element at index 4 : 50
 
 **对象数组的创建方式类似于基本类型数据项的数组。**
 
-```
+```java
  Student[] arr = new Student[7]; //student is a user-defined class
 ```
 
 **studentArray 包含七个学生类大小的内存空间，其中可以存储七个学生对象的地址。必须使用 Student 类的构造函数实例化 Student 对象，并且应该以下列方式将它们的引用分配给数组元素。**
 
-```
+```java
 Student[] arr = new Student[5];
 ```
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate creating
 //  an array of objects
 
@@ -224,7 +224,7 @@ public class GFG
 
 ****Output**
 
-```
+```java
 Element at 0 : 1 aman
 Element at 1 : 2 vaibhav
 Element at 2 : 3 shikar
@@ -238,7 +238,7 @@ Element at 4 : 5 mohit
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class GFG
 {
     public static void main (String[] args)
@@ -255,14 +255,14 @@ public class GFG
 
 ****运行时错误****
 
-```
+```java
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
     at GFG.main(File.java:12)
 ```
 
 ****输出****
 
-```
+```java
 10
 20
 ```
@@ -271,14 +271,14 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
 
 **多维数组是**数组的数组**，数组的每个元素保存其他数组的引用。这些也被称为[锯齿状阵列](https://www.geeksforgeeks.org/jagged-array-in-java/)。多维数组是通过每个维度附加一组方括号([])来创建的。示例:**
 
-```
+```java
 int[][] intArray = new int[10][20]; //a 2D array or matrix
 int[][][] intArray = new int[10][20][10]; //a 3D array
 ```
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class multiDimensional
 {
     public static void main(String args[])
@@ -300,7 +300,7 @@ public class multiDimensional
 
 ****Output**
 
-```
+```java
 2 7 9 
 3 6 1 
 7 4 2 
@@ -314,7 +314,7 @@ public class multiDimensional
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // passing of array to method
 
@@ -345,7 +345,7 @@ public class Test
 
 ****Output**
 
-```
+```java
 sum of array values : 15
 ```** 
 
@@ -355,7 +355,7 @@ sum of array values : 15
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // return of array from method
 
@@ -381,7 +381,7 @@ class Test
 
 ****Output**
 
-```
+```java
 1 2 3 
 ```** 
 
@@ -391,7 +391,7 @@ class Test
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // Class Objects for Arrays
 
@@ -417,7 +417,7 @@ class Test
 
 ****Output**
 
-```
+```java
 class [I
 class java.lang.Object
 class [B
@@ -460,7 +460,7 @@ class [Ljava.lang.String;
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // cloning of one-dimensional arrays
 
@@ -485,7 +485,7 @@ class Test
 
 ****Output**
 
-```
+```java
 false
 1 2 3 
 ```** 
@@ -496,7 +496,7 @@ false
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // cloning of multi-dimensional arrays
 
@@ -522,7 +522,7 @@ class Test
 
 ****Output**
 
-```
+```java
 false
 true
 true

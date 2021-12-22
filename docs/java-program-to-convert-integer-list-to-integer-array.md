@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Integer List to Integer Array
 
 // Importing Arrays and List classes
@@ -55,7 +55,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [1,3,5,7,9]
 ```
 
@@ -72,7 +72,7 @@ Apache Commons Lang 的 ArrayUtils 类提供了 ***toPrimitive()方法*** ，可
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Integer List to Integer Array
 
 // Importing ArrayUtis class
@@ -103,7 +103,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [1,2,3,4,5]
 ```
 
@@ -115,7 +115,7 @@ Guava library 是一个开源的分散软件开发模型，它是 java 的一组
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert List to Integer Array
 // Using Guava Library
 
@@ -148,6 +148,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 3,7,8,6,1
 ```

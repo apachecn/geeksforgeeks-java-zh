@@ -28,7 +28,7 @@
 
 **示例:**
 
-```
+```java
 Input n    : 464565625
 Processing : n % 5 == 0 
 Output : Yes
@@ -51,7 +51,7 @@ Output     : Yes
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find if a number
 // is divisible by 5 or not
 
@@ -82,7 +82,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Yes
 
 ```
@@ -100,7 +100,7 @@ Yes
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find if a number
 // is divisible by 5 or not
 
@@ -144,7 +144,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Yes
 
 ```

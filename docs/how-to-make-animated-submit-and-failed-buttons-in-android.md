@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 implementation 'me.spark:submitbutton:1.0.1'
 implementation 'com.unstoppable:submitbutton:1.1.3'
 ```
@@ -35,7 +35,7 @@ implementation 'com.unstoppable:submitbutton:1.1.3'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -124,7 +124,7 @@ implementation 'com.unstoppable:submitbutton:1.1.3'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.AsyncTask;

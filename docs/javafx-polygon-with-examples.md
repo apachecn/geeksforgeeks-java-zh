@@ -20,7 +20,7 @@
 
 1.  **Program to create a polygon with a given set of vertices**: This program creates a Polygon indicated by the name polygon. The coordinates for the vertices of the polygon are passed as arguments. The Polygon will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a Group is created, and the polygon is attached. The group is attached to the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java Program to create a polygon with a given set of vertices
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -72,7 +72,7 @@
 
 2.  **Program to create a polygon with a given set of vertices and specified fill**: This program creates a Polygon indicated by the name polygon. The coordinates for the vertices of the polygon are passed as arguments. The function set Fill() is used to set the fill of the polygon. The Polygon will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a Group is created, and the polygon is attached. The group is attached to the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java Program to create a polygon with a
     // given set of vertices and specified fill
     import javafx.application.Application;

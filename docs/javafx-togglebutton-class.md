@@ -25,7 +25,7 @@ ToggleButton 也可以分组放置。默认情况下，ToggleButton 不在一个
 
 1.  **Simple Java program to demonstrate ToggleButton Class:** In this program we are trying to select the gender of a person. We first Create *HBox* and then set the *Layout* for it. Create a ToggleGroup and new Toggle Buttons named”*Male*” and “*Female*“. Set the Toggle Group (in a group only one button can be selected at a time) using *setToggleGroup()* method. By default Male button is selected. Create the scene and set scene to the stage using *setScene() method.* And launch the application.
 
-    ```
+    ```java
     // Java program to demonstrate ToggleButton Class
     import javafx.application.Application;
     import javafx.geometry.Insets;
@@ -91,7 +91,7 @@ ToggleButton 也可以分组放置。默认情况下，ToggleButton 不在一个
     <video class="wp-video-shortcode" id="video-222117-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20180825_200037.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20180825_200037.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20180825_200037.mp4)</video>
 2.  **Java program to demonstrate ToggleButton Class using ChangeListener:** In this program, we first create a label. Then we will create Toggle Buttons using *ToggleButton()* and Toggle Group is created using *ToggleGroup()* method. Add all the Toggle Buttons to the ToggleGroup. Now create a *ChangeListener* for the ToggleGroup. A ChangeListener is notified whenever the value of an ObservableValue change. An ObservableValue is an entity that wraps a value and allows to observe the value for changes. Now, create the label for the selection of the subjects. Create a HBox using *HBox()* Now, add ToggleButtons to an HBox. Set the spacing between the buttons using *setSpacing()* method. Create the VBox, add labels and *HBox* to the *VBox*. Set the size of the VBox and set padding of the VBox (e.g border-style, border-width, border-radius, border-insets, border-color). Create the scene and add it to the stage. Set the title of the stage and display.
 
-    ```
+    ```java
     // Java program to demonstrate ToggleButton
     // Class using ChangeListener
     import javafx.application.Application;

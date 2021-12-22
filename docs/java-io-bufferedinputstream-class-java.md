@@ -14,7 +14,7 @@
 *   **int available() :** 返回
     可以从该输入流中读取(或跳过)的字节数的估计值，而不会被该输入流的方法的下一次调用所阻塞。
 
-```
+```java
 Syntax:public int available()
               throws IOException
 Returns: an estimate of the number of bytes that can be 
@@ -26,7 +26,7 @@ IOException
 
 *   **void close() :** 关闭此输入流并释放与该流相关联的任何系统资源。
 
-    ```
+    ```java
     Syntax:public void close()
                throws IOException
     Overrides: close in class FilterInputStream
@@ -37,7 +37,7 @@ IOException
 
     *   **无效标记(int readlimit) :** 标记该输入流中的当前位置。
 
-    ```
+    ```java
     Syntax:public void mark(int readlimit)
     Overrides:
     mark in class FilterInputStream
@@ -49,7 +49,7 @@ IOException
 
     *   **布尔标记支持():**测试该输入流是否支持标记和重置方法。
 
-    ```
+    ```java
     Syntax:public boolean markSupported()
     Overrides:
     markSupported in class FilterInputStream
@@ -59,7 +59,7 @@ IOException
 
     *   **int read() :** 从输入流中读取下一个字节的数据。
 
-    ```
+    ```java
     Syntax:public int read()
              throws IOException
     Returns: the next byte of data, or -1 if the end of the stream is reached.
@@ -70,7 +70,7 @@ IOException
 
     *   **int read(byte[] b，int off，int len) :** 从给定的偏移量开始，将该字节输入流中的字节读入指定的字节数组。
 
-    ```
+    ```java
     Syntax:public int read(byte[] b,
            int off,
            int len)
@@ -88,7 +88,7 @@ IOException
 
     *   **void reset() :** 将此流重新定位到上次在此输入流上调用 mark 方法时的位置。
 
-    ```
+    ```java
     Syntax:public void reset()
                throws IOException
     Overrides:
@@ -100,7 +100,7 @@ IOException
 
     *   **long skip(long n) :**Skips over and discards n bytes of data from this input stream
 
-    ```
+    ```java
     Syntax:public long skip(long n)
               throws IOException
     Parameters: n - the number of bytes to be skipped.
@@ -112,7 +112,7 @@ IOException
 
     **程序:**
 
-    ```
+    ```java
     // Java program to demonstrate working of BufferedInputStream
     import java.io.BufferedInputStream;
     import java.io.FileInputStream;
@@ -163,7 +163,7 @@ IOException
 
     输出:
 
-    ```
+    ```java
     Number of remaining bytes:47
     FileContents :
      is my first line

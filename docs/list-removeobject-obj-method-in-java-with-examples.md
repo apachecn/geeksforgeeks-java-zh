@@ -6,7 +6,7 @@ Java 中 List 接口的 **remove(Object obj)** 方法用于从这个 List 中移
 
 **语法** :
 
-```
+```java
 boolean remove(Object obj)
 
 ```
@@ -19,7 +19,7 @@ boolean remove(Object obj)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the
 // remove(int index) method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Initial List: [5.0, 10.5, 15.1, 20.6, 25.2]
 Final List: [5.0, 10.5, 20.6, 25.2]
 
@@ -64,7 +64,7 @@ Final List: [5.0, 10.5, 20.6, 25.2]
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the
 // remove(int index) method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Initial List: [Welcome, to, Geeks, for, Geeks]
 Final List: [Welcome, to, Geeks, Geeks]
 

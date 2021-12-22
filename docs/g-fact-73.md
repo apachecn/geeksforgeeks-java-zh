@@ -6,7 +6,7 @@
 
 考虑下面的例子， *x* 默认为*公共静态最终*， *foo()* 为*公共*即使没有说明符。
 
-```
+```java
 interface Test {
   int x = 10;  // x is public static final and must be initialized here
   void foo();  // foo() is public

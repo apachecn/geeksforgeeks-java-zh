@@ -18,7 +18,7 @@ IdentityHashMap 和 java 中的 HashMap 的主要区别在于，IdentityHashMap 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate IdentityHashMap by
 // Differenciating between HashMap and IdentityHashMap
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Size of HashMap is : 2
 Size of IdentityHashMap is : 4
 ```
@@ -78,7 +78,7 @@ Size of IdentityHashMap is : 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate IdentityHashMap by
 // Differenciating between HashMap and IdentityHashMap
 
@@ -255,7 +255,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before modifying keys  :  
 Does Groovy language exists in HashMap? Yes
 Does Groovy language in IdenityHashMap? Yes

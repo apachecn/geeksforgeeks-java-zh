@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 Enter the number of vertices:  
 4
@@ -61,7 +61,7 @@ The set of edges in FeedBack arc set: None
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find a Good Feedback Vertex Set in a
 // Graph
 
@@ -404,7 +404,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Number of vertices: 4
 Number of edges: 5
 The Graph is:

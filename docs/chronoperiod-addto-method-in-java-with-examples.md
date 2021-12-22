@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Temporal addTo(Temporal temporalObject)
 
 ```
@@ -24,7 +24,7 @@ Temporal addTo(Temporal temporalObject)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function addTo()
 // to add the two given periods
 
@@ -57,14 +57,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 2024-05-27T14:23:35.242
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function addTo()
 // to add the two given periods
 
@@ -97,7 +97,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 2022-01-25T14:23:50.411
 
 ```

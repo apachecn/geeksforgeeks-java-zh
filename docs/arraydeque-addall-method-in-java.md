@@ -6,7 +6,7 @@ ArrayDeque 的 **addAll()** 方法用于在这个 ArrayDeque 的末尾插入作�
 
 **语法:**
 
-```
+```java
 public boolean addAll(Collection<? extends E> c)
 ```
 
@@ -19,7 +19,7 @@ public boolean addAll(Collection<? extends E> c)
 下面的程序演示了 ArrayDeque 的 addAll()方法:
 **程序 1:** 程序演示了 ArrayDeque 上的 addAll()方法，该方法将添加一个包含数字的集合。
 
-```
+```java
 // Java Program Demonstrate addAll()
 // method of ArrayDeque
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before calling addAll()
 23 32 45 63 
 After calling addAll()
@@ -84,7 +84,7 @@ After calling addAll()
 
 **程序 2:** 在 ArrayDeque 上演示 addAll()方法的程序，该方法将添加一组学生姓名。
 
-```
+```java
 // Java Program Demonstrate addAll()
 // method of ArrayDeque
 
@@ -141,7 +141,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before calling addAll()
 List of Students Name:
  | Ram |  | Mohan |  | Sohan |  | Rabi | 
@@ -154,7 +154,7 @@ List of Students Name:
 
 **程序 3:** 演示 addAll()方法抛出异常的程序。
 
-```
+```java
 // Java Program Demonstrate Exception thrown by addAll()
 // method of ArrayDeque
 
@@ -190,7 +190,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.NullPointerException
 
 ```

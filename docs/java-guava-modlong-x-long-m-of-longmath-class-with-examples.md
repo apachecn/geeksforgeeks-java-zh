@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long mod(long x, long m)
 
 ```
@@ -21,7 +21,7 @@ public static long mod(long x, long m)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // mod(long x, long m) method of Guava's
 // LongMath class
@@ -58,7 +58,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 -77 mod 4 is : 3
 22 mod 6 is : 4
 
@@ -66,7 +66,7 @@ class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // mod(long x, long m) method of Guava's
 // LongMath class
@@ -112,7 +112,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: Modulus must be positive
 
 ```

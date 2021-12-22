@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isPowerOfTwo(int x)
 
 ```
@@ -21,7 +21,7 @@ public static boolean isPowerOfTwo(int x)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // isPowerOfTwo(int x) method of Guava's
 // IntMath class
@@ -56,7 +56,7 @@ class GFG {
 
 输出:
 
-```
+```java
 63 is not power of 2
 1024 is power of 2
 
@@ -64,7 +64,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // isPowerOfTwo(int x) method of Guava's
 // IntMath class
@@ -99,7 +99,7 @@ class GFG {
 
 输出:
 
-```
+```java
 10 is not power of 2
 256 is power of 2
 

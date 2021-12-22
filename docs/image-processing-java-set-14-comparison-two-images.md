@@ -23,7 +23,7 @@
 
 **实施:**
 
-```
+```java
 // Java Program to compare two images
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;

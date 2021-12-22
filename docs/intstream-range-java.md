@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static IntStream range(int startInclusive,   int endExclusive)
 
 ```
@@ -19,7 +19,7 @@ static IntStream range(int startInclusive,   int endExclusive)
 
     **示例:**
 
-    ```
+    ```java
     // Implementation of IntStream range
     // (int startInclusive, int endExclusive)
     import java.util.*;
@@ -43,7 +43,7 @@ static IntStream range(int startInclusive,   int endExclusive)
 
     **Output:**
 
-    ```
+    ```java
     6
     7
     8
@@ -53,7 +53,7 @@ static IntStream range(int startInclusive,   int endExclusive)
 
     **注意:**int stream range(int startInclusive，int endExclusive)基本上像 for 循环一样工作。递增值的等价序列可以按如下顺序产生:
 
-    ```
+    ```java
     for (int i = startInclusive; i < endExclusive ; i++) 
     {
      ...

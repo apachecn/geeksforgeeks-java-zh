@@ -10,7 +10,7 @@ Java 中的[树形图](https://www.geeksforgeeks.org/treemap-in-java/)与[抽象
 
 **语法:**
 
-```
+```java
 public K firstKey()
 ```
 
@@ -22,7 +22,7 @@ public K firstKey()
 
 ## Java
 
-```
+```java
 //  Java Program to illustrate firstKey() method of TreeMap
 
 // Importing input output classes
@@ -65,7 +65,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Tree Map : {A=1, F=5, G=4, J=7, K=9, M=2}
 Lowest Key is : A
 ```
@@ -76,7 +76,7 @@ java.util.TreeMap.lastKey()用于检索地图中最后或最高的键。
 
 **语法:**
 
-```
+```java
 tree_map.lastKey();
 ```
 
@@ -88,7 +88,7 @@ tree_map.lastKey();
 
 ## Java
 
-```
+```java
 // Java Program to illustrate lastKey() Method in TreeMap
 
 // Importing input output classes
@@ -130,7 +130,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Tree Map : {A=1, F=5, G=4, J=7, K=9, M=2}
 Highest Key is : M
 ```
@@ -141,7 +141,7 @@ TreeMap 类的 Java . util . tree map . hear map(*key _ point*)方法用于获�
 
 **语法:**
 
-```
+```java
 sorted_map = old_treemap.headMap(*key_point*)
 ```
 
@@ -159,7 +159,7 @@ sorted_map = old_treemap.headMap(*key_point*)
 
 ## 爪哇
 
-```
+```java
 // Java Program to illustrate headMap() method of TreeMap
 
 // Importing input output classes
@@ -208,7 +208,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Tree Map : {A=1, F=5, G=4, J=7, K=9, M=2}
 Head Map exclusive of the key value : {A=1, F=5}
 Head Map inclusive of the key value : {A=1, F=5, G=4}

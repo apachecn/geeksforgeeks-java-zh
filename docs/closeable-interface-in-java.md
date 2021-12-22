@@ -12,7 +12,7 @@ A **可关闭**是需要关闭的数据的来源或目的地。当我们需要�
 
 **申报**
 
-```
+```java
 public interface Closeable extends AutoCloseable 
 {
     public void close() throws IOException;
@@ -21,7 +21,7 @@ public interface Closeable extends AutoCloseable
 
 **实现** **可关闭界面**
 
-```
+```java
 import java.io.Closeable;
 import java.io.IOException;
 
@@ -41,7 +41,7 @@ public class MyCustomCloseableClass implements Closeable {
 
 **语法**
 
-```
+```java
 public void close() throws IOException
 ```
 
@@ -84,7 +84,7 @@ Closeable 只抛出 **IOException** ，不破坏遗留代码是无法更改的�
 4.  可关闭的接口是**幂等的**(多次调用 close()方法没有任何副作用)，而 AutoCloseable 不提供这个功能。
 5.  AutoCloseable 是专门为处理**资源试用**语句而引入的。由于 Closeable 实现了 AutoCloseable，因此任何实现 Closeable 的类也实现了 AutoCloseable 接口，并且可以使用 try-with 资源来关闭文件。
 
-```
+```java
 try(FileInputStream fin = new FileInputStream(input)) {
     // Some code here
 }
@@ -96,7 +96,7 @@ try(FileInputStream fin = new FileInputStream(input)) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Automatic Resource Management
 // in Java with multiple resource
@@ -138,7 +138,7 @@ class Demo1 implements Closeable {
 
 **Output**
 
-```
+```java
 close from demo1
 close from demo
 java.lang.ArithmeticException: / by zero

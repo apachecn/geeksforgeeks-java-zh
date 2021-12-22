@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Format.Field getFieldAttribute()
 ```
 
@@ -18,7 +18,7 @@ public Format.Field getFieldAttribute()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getFieldAttribute() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 field identifier. :- java.text.MessageFormat$Field(message argument field)
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getFieldAttribute() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 field identifier. :- java.text.DateFormat$Field(am pm)
 
 ```

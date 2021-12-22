@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : LinkedHashMap = [2=6, 3=4, 5=7, 4=6]
 Output:
 Array of keys = [2, 3, 5, 4]
@@ -31,7 +31,7 @@ Array of Values = [a, b, c, d]
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Convert LinkedHashMap to Two Arrays
 import java.io.*;
 import java.util.*;

@@ -20,7 +20,7 @@ Synchronized 是仅适用于方法和块的修饰符，但不适用于变量和�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import required packages
 import java.io.*;
 import java.util.*;
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 count=10
 ```
 
@@ -92,7 +92,7 @@ count=10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import required packages
 import java.io.*;
 import java.util.*;
@@ -161,7 +161,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 count=10
 ```
 

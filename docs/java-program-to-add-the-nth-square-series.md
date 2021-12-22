@@ -8,7 +8,7 @@
 
 插图
 
-```
+```java
 Input : N = 4
 Output: 30
 Explanation: 12 + 22 + 32 + 42
@@ -33,7 +33,7 @@ Explanation: 12 + 22 + 32 + 42 + 52
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add the nth Square Series
 
 // Importing java input output libraries
@@ -73,7 +73,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 30
 ```
 
@@ -87,7 +87,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add the nth Square Series
 
 // Importing java input output libraries
@@ -114,7 +114,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 30
 ```
 

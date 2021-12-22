@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int groupCount()
 
 ```
@@ -19,7 +19,7 @@ public int groupCount()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate groupCount() method
 
 import java.util.regex.*;
@@ -53,14 +53,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate groupCount() method
 
 import java.util.regex.*;
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0
 
 ```

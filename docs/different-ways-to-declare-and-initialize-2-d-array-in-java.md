@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 data_type array_name[][];   (OR)     data_type[][] array_name;
 ```
 
@@ -23,7 +23,7 @@ data_type array_name[][];   (OR)     data_type[][] array_name;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program showing declaration of arrays
 import java.io.*;
 
@@ -43,7 +43,7 @@ class GFG {
 
 ### **Java 中二维数组的初始化:**
 
-```
+```java
 data_type[][] array_Name = new data_type[no_of_rows][no_of_columns];
 ```
 
@@ -60,7 +60,7 @@ data_type[][] array_Name = new data_type[no_of_rows][no_of_columns];
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to initialize a 2D array
 import java.io.*;
 
@@ -116,7 +116,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -143,7 +143,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -181,7 +181,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -225,7 +225,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -261,7 +261,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -304,7 +304,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 

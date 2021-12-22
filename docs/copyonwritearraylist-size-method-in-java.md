@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -18,7 +18,7 @@ public int size()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // size() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 98, 100]
 size of ArrLis: 4
 
@@ -59,7 +59,7 @@ size of ArrLis: 4
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // size() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 size of ArrLis: 4
 

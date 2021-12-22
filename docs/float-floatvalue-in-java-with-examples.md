@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public float floatValue()
 
 ```
@@ -19,7 +19,7 @@ public float floatValue()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // Float floatValue() method
 
@@ -46,7 +46,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Float value of 17.47 is : 17.47
 
 ```
@@ -55,7 +55,7 @@ Float value of 17.47 is : 17.47
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // Float floatValue() method
 
@@ -81,7 +81,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Float value of 54.1 is : 54.1
 
 ```

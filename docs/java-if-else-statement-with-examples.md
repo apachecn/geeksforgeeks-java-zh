@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 if (condition)
 {
     // Executes this block if
@@ -40,7 +40,7 @@ else
 
 **例 1:**
 
-```
+```java
 // Java program to illustrate if-else statement
 
 class IfElseDemo {
@@ -60,7 +60,7 @@ class IfElseDemo {
 
 **Output:**
 
-```
+```java
 i is greater than 15
 Outside if-else block
 
@@ -68,7 +68,7 @@ Outside if-else block
 
 **空转示例 1:**
 
-```
+```java
 1\. Program starts.
 2\. i is initialized to 20.
 3\. if-condition is checked. 20<15, yields false. 4\. flow enters the else block. 4.a) "i is greater than 15" printed 5\. "outside if-else block" printed. < pre>**例 2:** 
@@ -87,14 +87,14 @@ class IfElseDemo {
             System.out.println("Welcome to GeeksforGeeks");
     }
 }
-```
+```java
 
 **Output:**
 
 ```
 Welcome to GeeksforGeeks
 
-```
+```java
 
  **相关文章:**1.  [Java 中的决策](https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/)2.  [带示例的 Java if 语句](https://www.geeksforgeeks.org/java-if-statement-with-examples/)3.  [Java if-else-if 阶梯示例](https://www.geeksforgeeks.org/java-if-else-if-ladder-with-examples/)4.  [Java 中的 Switch 语句](https://www.geeksforgeeks.org/switch-statement-in-java/)5.  [Java 中的 Break 语句](https://www.geeksforgeeks.org/break-statement-in-java/)6.  [返回 Java 中的关键字](https://www.geeksforgeeks.org/return-keyword-java/)
 

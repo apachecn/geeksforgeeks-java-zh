@@ -12,7 +12,7 @@
 
 **例**
 
-```
+```java
 Input:    FirstNumber = 15
           SecondNumber= 15
 Output: Numbers are same
@@ -28,7 +28,7 @@ Output: Numbers are not same
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Check Two Integers are Equal or Not in Java
 // using arithmetic operator
 import java.io.*;
@@ -47,7 +47,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Numbers are equal
 ```
 
@@ -57,7 +57,7 @@ Numbers are equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Check Two Integers are Equal or Not in Java
 // using Comparison Operators
 import java.io.*;
@@ -76,7 +76,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Numbers are equal
 ```
 
@@ -86,7 +86,7 @@ Numbers are equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Check Two Integers are Equal or Not in Java
 // using String functions
 import java.io.*;
@@ -105,7 +105,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Numbers are equal
 ```
 
@@ -115,7 +115,7 @@ Numbers are equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Check Two Integers are Equal or Not in Java
 // using XOR Operation
 import java.io.*;
@@ -134,7 +134,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Numbers are equal
 ```
 
@@ -142,7 +142,7 @@ Numbers are equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Check Two Integers are Equal or Not in Java
 import java.io.*;
 
@@ -162,6 +162,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Numbers are equal
 ```

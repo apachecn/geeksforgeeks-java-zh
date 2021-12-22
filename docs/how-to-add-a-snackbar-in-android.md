@@ -8,7 +8,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加材料设计依赖项。它是**材料设计**的一部分，这就是为什么我们要增加一个依赖。
 
-    ```
+    ```java
     dependencies {
         implementation 'com.google.android.material:material:1.1.0'
     }
@@ -18,7 +18,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -44,7 +44,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgsnackbar;
 
     import androidx.appcompat.app.AppCompatActivity;

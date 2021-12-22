@@ -6,7 +6,7 @@
 该方法返回的队列上的每个方法调用都会导致后备队列上只有一个方法调用，只有一个例外。addAll 方法被实现为在后台数据库上的一系列 addFirst 调用。
 **语法:**
 
-```
+```java
 public static Queue asLifoQueue(Deque deque)
 ```
 
@@ -17,7 +17,7 @@ public static Queue asLifoQueue(Deque deque)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asLifoQueue() method
 
@@ -56,7 +56,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 View of the queue is: [1, 2, 3, 4, 5]
 ```
 
@@ -64,7 +64,7 @@ View of the queue is: [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asLifoQueue() method
 
@@ -100,6 +100,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 View of the queue is: [Ram, Gopal, Verma]
 ```

@@ -12,7 +12,7 @@ false
 0
 0.0
 
-```
+```java
 // Main.java
 class Test {
    int i;

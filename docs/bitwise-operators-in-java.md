@@ -27,7 +27,7 @@
 
 **示例:**
 
-```
+```java
 a = 5 = 0101 (In Binary)
 b = 7 = 0111 (In Binary)
 
@@ -44,7 +44,7 @@ Bitwise OR Operation of 5 and 7
 
 **示例:**
 
-```
+```java
 a = 5 = 0101 (In Binary)
 b = 7 = 0111 (In Binary)
 
@@ -61,7 +61,7 @@ Bitwise AND Operation of 5 and 7
 
 **示例:**
 
-```
+```java
 a = 5 = 0101 (In Binary)
 b = 7 = 0111 (In Binary)
 
@@ -78,7 +78,7 @@ Bitwise XOR Operation of 5 and 7
 
 **示例:**
 
-```
+```java
 a = 5 = 0101 (In Binary)
 
 Bitwise Complement Operation of 5
@@ -92,7 +92,7 @@ Bitwise Complement Operation of 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // bitwise operators
 
@@ -132,7 +132,7 @@ public class operators {
 
 **Output**
 
-```
+```java
 a&b = 5
 a|b = 7
 a^b = 2
@@ -146,7 +146,7 @@ a= 5
 
 **语法:**
 
-```
+```java
  number shift_op number_of_places_to_shift;
 ```
 

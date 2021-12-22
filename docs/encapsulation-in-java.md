@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate encapsulation
 class Encapsulate {
     // private variables declared
@@ -77,7 +77,7 @@ public class TestEncapsulation {
 
 **Output**
 
-```
+```java
 Geek's name: Harsh
 Geek's age: 19
 Geek's roll: 51

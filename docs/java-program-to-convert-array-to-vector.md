@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean addAll(Collection c, T... elements)
 ```
 
@@ -31,7 +31,7 @@ public static boolean addAll(Collection c, T... elements)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Array To Vector 
 // Using Collections.addAll() method
 
@@ -62,7 +62,7 @@ public class array_to_vector {
 
 **Output**
 
-```
+```java
 The vector is
 [I, love, geeks, for, geeks]
 ```
@@ -71,7 +71,7 @@ The vector is
 
 **语法:**
 
-```
+```java
 public static List asList(T... a)
 ```
 
@@ -81,7 +81,7 @@ public static List asList(T... a)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Array To Vector 
 // Using Arrays.asList() method
 
@@ -107,7 +107,7 @@ public class array_to_vector {
 
 **Output**
 
-```
+```java
 The vector is
 [I, love, geeks, for, geeks]
 ```
@@ -118,7 +118,7 @@ The vector is
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Array To Vector 
 // Using simple iteration method
 
@@ -147,7 +147,7 @@ public class array_to_vector {
 
 **Output**
 
-```
+```java
 The vector is
 [I, love, geeks, for, geeks]
 ```

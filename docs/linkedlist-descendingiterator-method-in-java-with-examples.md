@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator descendingIterator()
 ```
 
@@ -16,7 +16,7 @@ public Iterator descendingIterator()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // descendingIterator() method
 // for String value
@@ -62,7 +62,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 LinkedList:[A, B, C]
 Value is : C
 Value is : B
@@ -72,7 +72,7 @@ Value is : A
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // descendingIterator() method
 // for Integer value
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 LinkedList:[10, 20, 30]
 Value is : 30
 Value is : 20

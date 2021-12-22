@@ -22,7 +22,7 @@ Bloom 类是 JavaFX 的一部分。布隆是一种高级效果，根据可配置
 
 1.  **Java program to import an image and add bloom effect to it:** In this program a *FileInputStream* is created and an image is taken as input from a file. Image named *image* is created using the input from the file input stream. From the image, an *image view object* is created and it is added to the *VBox*.The VBox is then added to the scene and the scene is added to the stage. A Bloom effect is created with a specified level passed as parameters and the effect is set to the image view using *setEffect()* function.
 
-    ```
+    ```java
     // Java program to import an image
     // and add bloom effect to it
     import javafx.application.Application;
@@ -93,7 +93,7 @@ Bloom 类是 JavaFX 的一部分。布隆是一种高级效果，根据可配置
 
 2.  **Java program to import an image and set bloom effect to it, the Threshold value of the bloom effect can be controlled using a button:** In this program an *FileInputStream* is created and an image is taken as input from a file. Image named *image* is created using the input from the file input stream. From the image, an *image view object* is created and it is added to the *VBox*.The *VBox* is then added to the scene and the scene is added to the stage. A Bloom effect is created with a specified level passed as parameters and the effect is set to the image view using *setEffect()* function. A Button named button is created which is used to increase the bloom of the image. The button is also added to the *VBox*. The bloom of the image is increased using the *setThreshold()* function. The events related to button is handled using *EventHandler*.
 
-    ```
+    ```java
     // Java program to import an image and
     // set bloom effect to it. The Threshold
     // value of the bloom effect can be 

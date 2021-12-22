@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setOffset(int newOffset)
 ```
 
@@ -20,7 +20,7 @@ public void setOffset(int newOffset)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setOffset() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current offset is 4
 ```
 
@@ -65,7 +65,7 @@ current offset is 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setOffset() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current offset is 0
 ```
 

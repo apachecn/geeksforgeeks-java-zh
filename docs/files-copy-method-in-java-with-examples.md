@@ -36,7 +36,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Impoerting classes from java.nio package as
 // this package is responsible for network linking
 import java.io.ByteArrayInputStream;
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Path of target file: /usr/local/bin/fileIn.txt
 Number of bytes copied: 13
 ```
@@ -117,7 +117,7 @@ Number of bytes copied: 13
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Impoerting classes from java.nio package as
 // this package is responsible for network linking
 import java.io.ByteArrayOutputStream;
@@ -164,7 +164,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Path of source file: /usr/local/bin/fileOut.txt
 Number of bytes copied: 13
 ```
@@ -195,7 +195,7 @@ Number of bytes copied: 13
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Impoerting classes from java.nio package as
 // this package is responsible for network linking
 import java.io.IOException;
@@ -246,7 +246,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Path of target file: /usr/local/bin/fileIn.txt
 Path of source file: /usr/local/bin/fileOut.txt
 Number of bytes copied: 13 

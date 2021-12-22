@@ -6,7 +6,7 @@ Java . util . LinkedList . removeFirst()方法用于从链接列表中移除第�
 
 **语法:**
 
-```
+```java
 LinkedList.removeFirst();
 
 ```
@@ -17,7 +17,7 @@ LinkedList.removeFirst();
 
 下面的程序说明了 Java . util . linkedlist . removefirst()方法:
 
-```
+```java
 // Java code to illustrate removeFirst() method
 import java.io.*;
 import java.util.LinkedList;
@@ -49,7 +49,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 The first element is: Geeks
 Final LinkedList:[for, Geeks, 10, 20]

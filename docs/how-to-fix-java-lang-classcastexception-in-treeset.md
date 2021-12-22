@@ -8,7 +8,7 @@ Java 中的 [TreeSet](https://www.geeksforgeeks.org/treeset-in-java-with-example
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ClassCastException by TreeSet
 
 import java.util.TreeSet;
@@ -74,7 +74,7 @@ Java Comparable 接口是由一个类实现的，该类用于根据自然顺序�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort student data
 // according to marks
 // using Comparable interface
@@ -135,7 +135,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [Id: 2 Name: Ramesh Marks: 78, Id: 1 Name: Suresh Marks: 87, Id: 3 Name: Lokesh Marks: 95]
 ```
 
@@ -145,7 +145,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort student data
 // according to marks using custom class
 // which implements Comparator
@@ -217,6 +217,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 [Id: 2 Name: Ramesh Marks: 78, Id: 1 Name: Suresh Marks: 87, Id: 3 Name: Lokesh Marks: 95]
 ```

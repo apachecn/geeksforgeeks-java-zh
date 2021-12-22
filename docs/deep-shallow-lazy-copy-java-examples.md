@@ -13,7 +13,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //code illustrating shallow copy
 public class Ex {
 
@@ -38,7 +38,7 @@ public class Ex {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class UsesEx{
 
     public static void main(String[] args) {
@@ -55,7 +55,7 @@ public class UsesEx{
 }
 ```
 
-```
+```java
 Output 1 : [3, 7, 9]
 Output 2 : [13, 7, 9]
 ```
@@ -69,7 +69,7 @@ Output 2 : [13, 7, 9]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Code explaining deep copy
 public class Ex {
 
@@ -93,7 +93,7 @@ public class Ex {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class UsesEx{
 
     public static void main(String[] args) {
@@ -109,7 +109,7 @@ public class UsesEx{
 }
 ```
 
-```
+```java
 Output 1 : [3, 7, 9]
 Output 2 : [3, 7, 9]
 ```

@@ -15,7 +15,7 @@
 
 ## 爪哇
 
-```
+```java
 package com.example.socialmediaapp;
 
 public class ModelUsers {

@@ -14,7 +14,7 @@ PasswordField 类是 JavaFX 包的一部分。它是一个文本字段，用于�
 
 1.  **Java program to create a Password field**: This program creates a PasswordField indicated by the name b. The PasswordField will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a Title-pane is created, on which addChildren() method is called to attach the PasswordField inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a passwordfield
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -65,7 +65,7 @@ PasswordField 类是 JavaFX 包的一部分。它是一个文本字段，用于�
 
 2.  **Java program to create a passwordfield and add a event handler:** This program creates a PasswordField indicated by the name b. We will create a label which will display the password when the enter key is pressed. We will create an event handler that will handle the event of the password field and the event handler would be added to the passwordfield using setOnAction() method. The PasswordField will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a Title-pane is created, on which addChildren() method is called to attach the PasswordField and a label inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a passwordfield and add
     // a event handler to handle the event of Passwordfield
     import javafx.application.Application;

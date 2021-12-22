@@ -51,7 +51,7 @@
 
     另外，为按钮组件分配**标识**，如下图和代码所示。按钮的**指定标识**有助于识别和在 Java 文件中使用。
 
-    ```
+    ```java
     android:id="@+id/id_name"
     ```
 
@@ -78,7 +78,7 @@
 
         **语法:**
 
-        ```
+        ```java
         public static Toast makeText (Context context, 
                         CharSequence text, 
                         int duration)
@@ -89,25 +89,25 @@
 
         *   **上下文:**第一个参数是一个上下文对象，通过调用 getApplicationContext()获得。
 
-            ```
+            ```java
              Context context = getApplicationContext(); 
             ```
 
         *   **文字:**第二个参数是你要显示的短信。
 
-            ```
+            ```java
             CharSequence text=”Your text message here”
             ```
 
         *   **持续时间:**最后一个参数是消息的持续时间。
 
-            ```
+            ```java
             int duration=Toast.LENGTH_LONG;
             ```
 
         因此，发送祝酒信息的代码是:
 
-        ```
+        ```java
         Toast.makeText(getApplicationContext(),
                        "This a toast message",
                        Toast.LENGTH_LONG); 
@@ -117,13 +117,13 @@
 
         **语法:**
 
-        ```
+        ```java
         public void show ()
         ```
 
         **显示吐司信息的代码:**
 
-        ```
+        ```java
         Toast.makeText(getApplicationContext(),
                        "This a toast message",
                        Toast.LENGTH_LONG)
@@ -139,7 +139,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout 
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -168,7 +168,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 ## MainActivity.java
 
-```
+```java
 package org.geeksforgeeks.simpleToast_Example;
 
 import android.support.v7.app.AppCompatActivity;
@@ -215,7 +215,7 @@ public class MainActivity extends AppCompatActivity {
 
 如果需要设置吐司信息的位置，可以使用**设置重力()**方法。
 
-```
+```java
 public void setGravity (int gravity, 
                 int xOffset, 
                 int yOffset)
@@ -226,7 +226,7 @@ public void setGravity (int gravity,
 
 *   **gravity:** This sets the position of the Toast message. Following constants can be used to specify the position of a Toast:
 
-    ```
+    ```java
     1.TOP
     2.BOTTOM
     3.LEFT
@@ -264,7 +264,7 @@ public void setGravity (int gravity,
 
 **语法:**
 
-```
+```java
 Toast t = Toast.makeText(getApplicationContext(),
                          "This a positioned toast message",
                          Toast.LENGTH_LONG);
@@ -277,7 +277,7 @@ t.show();
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -306,7 +306,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 ## MainActivity.java
 
-```
+```java
 package org.geeksforgeeks.positionedToast_Example;
 
 import android.support.v7.app.AppCompatActivity;

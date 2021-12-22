@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```java
 Input : A = [true , true , false]
         A1 = [true, true, false]
 
@@ -27,13 +27,13 @@ Java 中的数组类提供了方法 **Arrays.equals()** 来检查两个数组是
 
 **语法:**
 
-```
+```java
 public static boolean equals(boolean[] a, boolean[] a1)
 ```
 
 **参数:**
 
-```
+```java
 a - one array to be tested for equality
 a1 - another array to be tested for equality
 ```
@@ -44,7 +44,7 @@ a1 - another array to be tested for equality
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compare two Boolean
 // Arrays using built-in function
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Array1...
 true
 true
@@ -110,7 +110,7 @@ Both the arrays equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compare two Boolean
 // Arrays using Naive approach
 
@@ -157,7 +157,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Array1...
 true
 true

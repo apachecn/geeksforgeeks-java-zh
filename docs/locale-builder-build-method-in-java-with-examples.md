@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Locale build()
 
 ```
@@ -19,7 +19,7 @@ public Locale build()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -58,7 +58,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 Setting the Locale: fr_FR
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Building the Locale.
@@ -68,7 +68,7 @@ Built Locale: fr_FR
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -107,7 +107,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 Setting the Locale: en
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Building the Locale.

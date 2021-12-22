@@ -11,7 +11,7 @@
 
     ## 安卓-清单
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>  
     <manifest xmlns:androclass="http://schemas.android.com/apk/res/android"  
         package="com.geeksforgeeks.phonecall"  
@@ -43,7 +43,7 @@
 
     ## activity _ main . XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--Relative Layout-->
 <RelativeLayout

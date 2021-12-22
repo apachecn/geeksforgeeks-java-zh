@@ -7,7 +7,7 @@
 Java.io.StreamTokenizer 类将输入流解析为“令牌”。它允许一次读取一个令牌。流标记器可以识别数字、带引号的字符串和各种注释样式。
 **申报:**
 
-```
+```java
 public class StreamTokenizer
   extends Object
 ```
@@ -22,7 +22,7 @@ public class StreamTokenizer
 
 **Syntax :**
 
-```
+```java
 public void commentChar(int arg) 
 Parameters : 
 arg : the character after which all characters are ignored in the line.
@@ -32,7 +32,7 @@ No value is returned.
 
 **实施:**
 
-```
+```java
 // Java Program illustrating use of commentChar() method
 
 import java.io.*;
@@ -79,7 +79,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Word : Progr
 Number : 1.0
 Number : 2.0
@@ -92,7 +92,7 @@ Word : Hello
 *   **lineno() : **java.io.StreamTokenizer.lineno()** returns the current line number of this StreamTokenizer.
     **Syntax :**
 
-    ```
+    ```java
     public int lineno()
     Parameters : 
     arg : the character after which all characters are ignored in the line.
@@ -102,7 +102,7 @@ Word : Hello
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of lineno() method
 
     import java.io.*;
@@ -146,7 +146,7 @@ Word : Hello
 
     **输出:**
 
-    ```
+    ```java
     Line Number:1
     Word : Progr
 
@@ -172,7 +172,7 @@ Word : Hello
     ```** *   ****toString() : **java.io.StreamTokenizer.toString()** represents current Stream token as a string along with it’s line no.
     **Syntax :**
 
-    ```
+    ```java
     public String toString()
     Return :
     represents current Stream token as a string along with it's line no.
@@ -180,7 +180,7 @@ Word : Hello
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of toString() method
 
     import java.io.*;
@@ -216,7 +216,7 @@ Word : Hello
 
     **输出:**
 
-    ```
+    ```java
     Word : Token[Programmers], line 1
     Number : 1.0
     Number : 2.0
@@ -235,7 +235,7 @@ Word : Hello
     If ‘arg’ is false then the End Of Line is treated simply as a white space.
     **Syntax :**
 
-    ```
+    ```java
     public void eolIsSignificant(boolean arg)
     Parameters :
     arg : boolean which tells whether to take EOL as a token or white space
@@ -245,7 +245,7 @@ Word : Hello
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of eolIsSignificant() method
 
     import java.io.*;
@@ -298,7 +298,7 @@ Word : Hello
 
     **输出:**
 
-    ```
+    ```java
     Number : 1.0
     End of Line encountered.
     Word : Geeks
@@ -313,7 +313,7 @@ Word : Hello
     ```****** *   ******nextToken() : **java.io.StreamTokenizer.nextToken()** parses the next token from the Input Stream and returns it’s value to the ttype field along with the additional fields like ‘sval’, ‘nval’.
     **Syntax :**
 
-    ```
+    ```java
     public int nextToken()
     Parameters :
     ------
@@ -323,7 +323,7 @@ Word : Hello
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of nextToken() method
 
     import java.io.*;
@@ -369,7 +369,7 @@ Word : Hello
 
     **输出:**
 
-    ```
+    ```java
     Word : This
     Word : program
     Word : tells
@@ -384,7 +384,7 @@ Word : Hello
     ```****** *   ******lowerCaseMode() : **java.io.StreamTokenizer.lowerCaseMode(boolean arg)** tells whether to lowercase the word tokens automatically or not. If the flag – ‘arg’ is set true, then the value of ‘sval’ field is lowered.
     **Syntax :**
 
-    ```
+    ```java
     public void lowerCaseMode(boolean arg)
     Parameters :
     arg : indicates whether to lowercase the word tokens automatically or not
@@ -394,7 +394,7 @@ Word : Hello
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of lowerCaseMode() method
 
     import java.io.*;
@@ -442,7 +442,7 @@ Word : Hello
 
     **输出:**
 
-    ```
+    ```java
     Word : hello
     Word : geeks
     Word : this
@@ -452,7 +452,7 @@ Word : Hello
     ```****** *   ******ordinaryChar() : **java.io.StreamTokenizer.ordinaryChar(int arg)** sets ‘arg’ character as an ordinary character. It will remove the arg character, if it has any significance as word, number, white space or comment Character.
     **Syntax :**
 
-    ```
+    ```java
     public void ordinaryChar(int arg)
     Parameters :
     arg : the character which is to be set as an Ordinary Character
@@ -462,7 +462,7 @@ Word : Hello
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of ordinaryChar() method
 
     import java.io.*;
@@ -510,7 +510,7 @@ Word : Hello
 
     **输出:**
 
-    ```
+    ```java
     Word : Hello
     Word : Geek
     Word : Thi
@@ -521,7 +521,7 @@ Word : Hello
     ```****** *   ******ordinaryChars() : **java.io.StreamTokenizer.ordinaryChars(int low, int high)** sets character in the range – ‘a to b’ to Ordinary character in the StreamTokenizer
     **Syntax :**
 
-    ```
+    ```java
     public void ordinaryChars(int low, int high)
     Parameters :
     low : lower limit of range
@@ -532,7 +532,7 @@ Word : Hello
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of ordinaryChars() method
 
     import java.io.*;
@@ -579,7 +579,7 @@ Word : Hello
 
     **输出:**
 
-    ```
+    ```java
     Word : Hello
     Word : Geeks
     Word : This

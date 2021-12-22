@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static double hypot(double x, double y)
 Parameter :
 x and y are the values. 
@@ -21,7 +21,7 @@ sqrt(x<sup>2</sup>+y<sup>2</sup>)无中间上溢或下溢。
 
 **例 1 :** 展示 java.lang.Math.hyptot()方法的工作原理。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.hypot() method
 import java.lang.Math;
@@ -58,7 +58,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 5.0
 NaN
 Infinity

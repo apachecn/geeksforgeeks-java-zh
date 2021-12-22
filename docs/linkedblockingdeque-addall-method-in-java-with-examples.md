@@ -5,7 +5,7 @@
 [的 **addAll()** 方法将指定集合的所有元素追加到这个 Deque 的末尾。
 **语法:**](https://www.geeksforgeeks.org/linkedblockingdeque-in-java-with-examples/) 
 
-```
+```java
 public void addAll(Collection<E> c)
 ```
 
@@ -21,7 +21,7 @@ public void addAll(Collection<E> c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate addAll()
 // method of LinkedBlockingDeque
 
@@ -76,7 +76,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate addAll()
 // method of LinkedBlockingDeque
 

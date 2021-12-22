@@ -27,7 +27,7 @@ java 中还有其他几个概念，增加了 java 代码和程序员之间的用
 
 **第二步:**按要求填写详细内容。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.2.8
@@ -48,7 +48,7 @@ Dependencies: Spring Web
 
 **应用属性:**
 
-```
+```java
 server.port=7000
 ```
 

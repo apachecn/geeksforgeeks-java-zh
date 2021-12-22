@@ -12,7 +12,7 @@ Java 中的 subMap()方法用于返回由参数中指定范围的键定义的映
 
 **语法:**
 
-```
+```java
 newTreeMap = oldTreeMap.subMap(startKey,endKey)
 ```
 
@@ -21,7 +21,7 @@ newTreeMap = oldTreeMap.subMap(startKey,endKey)
 
 **返回类型:**
 
-```
+```java
 Returns another map containing the portion of the map within the specified range.
 ```
 
@@ -29,7 +29,7 @@ Returns another map containing the portion of the map within the specified range
 
 T5】Java
 
-```
+```java
 // Java code to illustrate submap() Method
 
 import java.util.*;
@@ -68,7 +68,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 The original map is: 
 {47=Sashi, 66=Himanshu, 82=Ridhi, 85=Ritesh, 87=Sonika, 89=Yogesh, 98=Sarthak}
 The subMap is: 
@@ -83,13 +83,13 @@ Empty subMap:
 
 **语法:**
 
-```
+```java
 newTreeMap = oldTreeMap.headMap(specifiedKey)
 ```
 
 **返回类型:**
 
-```
+```java
 The method returns the portion of the map whose keys are less than the specified key.
 ```
 
@@ -97,7 +97,7 @@ The method returns the portion of the map whose keys are less than the specified
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate headmap() method
 import java.util.*;
 
@@ -130,7 +130,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The original map is: 
 {47=Sashi, 66=Himanshu, 82=Ridhi, 85=Ritesh, 87=Sonika, 89=Yogesh, 98=Sarthak}
 The headMap is: 
@@ -143,13 +143,13 @@ Java 中的 tailMap() 方法用于获取参数中键大于等于 from_key 的地
 
 **语法:**
 
-```
+```java
 newMap = oldMap.tailMap(specifiedKey)
 ```
 
 **返回类型:**
 
-```
+```java
 This method returns a map in which keys are greater than or equal to the specified key.
 ```
 
@@ -157,7 +157,7 @@ This method returns a map in which keys are greater than or equal to the specifi
 
 T5】Java
 
-```
+```java
 // Java code to illustrate tailmap() Method
 import java.util.*;
 
@@ -190,7 +190,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 The original map is: 
 {47=Sashi, 66=Himanshu, 82=Ridhi, 85=Ritesh, 87=Sonika, 89=Yogesh, 98=Sarthak}
 The tailMap is: 
@@ -203,7 +203,7 @@ The tailMap is:
 
 ## Java
 
-```
+```java
 // Combine operation on getting submap,
 // headmap, and tailmap from Java TreeMap
 
@@ -278,7 +278,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 The original map is: 
 {67=Shishya, 80=Yashdeep, 82=Ridhi, 85=Ritesh, 87=Sonika, 89=Yogesh, 99=Raushan}
 The original map after remove operation is: 

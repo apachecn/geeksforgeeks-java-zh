@@ -60,7 +60,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG Ringtone Manager</string>
     <string name="vibrate_mode">vibrate_mode</string>
@@ -77,7 +77,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--XML Code for your activity_main.xml-->
 <RelativeLayout
@@ -171,7 +171,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;

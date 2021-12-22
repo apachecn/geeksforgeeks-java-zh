@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Name addAll(int posn, Name n)
        throws InvalidNameException
 ```
@@ -30,7 +30,7 @@ public Name addAll(int posn, Name n)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.addAll()
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Updated CompoundName Object: 9@99@999@9999@1@2@3@4@5@6@7
 ```
 
@@ -86,7 +86,7 @@ Updated CompoundName Object: 9@99@999@9999@1@2@3@4@5@6@7
 
 **语法:**
 
-```
+```java
 public Name addAll(Name suffix)
        throws InvalidNameException
 ```
@@ -103,7 +103,7 @@ public Name addAll(Name suffix)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.addAll()
 
@@ -149,7 +149,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Updated CompoundName Object: 1@2@3@4@5@6@7@9@99@999@9999
 ```
 

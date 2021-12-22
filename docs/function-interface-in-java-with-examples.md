@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```java
 R apply(T t)
 ```
 
@@ -34,7 +34,7 @@ R apply(T t)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Functional Interface
 // Via apply() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 5.0
 ```
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 default <V> Function<T, V> 
 andThen(Function<? super R, ? extends V> after)
 ```
@@ -86,7 +86,7 @@ andThen(Function<? super R, ? extends V> after)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate addThen() method
 
 // Importing interface
@@ -114,7 +114,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 15.0
 ```
 
@@ -122,7 +122,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate addThen() method
 // When NullPointerException occurs
 
@@ -161,7 +161,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Exception thrown while passing null: java.lang.NullPointerException
 ```
 
@@ -171,7 +171,7 @@ Exception thrown while passing null: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 default <V> Function<V, R> 
 compose(Function<? super V, ? extends T> before)
 ```
@@ -188,7 +188,7 @@ compose(Function<? super V, ? extends T> before)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate compose() method
 
 // Importing Function interface
@@ -215,7 +215,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 7.5
 ```
 
@@ -223,7 +223,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate compose() method
 
 // Importing Function interface
@@ -260,7 +260,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Exception thrown while passing null: java.lang.NullPointerException
 ```
 
@@ -270,7 +270,7 @@ Exception thrown while passing null: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 static <T> Function<T, T> identity()
 ```
 
@@ -282,7 +282,7 @@ static <T> Function<T, T> identity()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate identity() method
 
 // Importing Function interface
@@ -306,6 +306,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 10
 ```

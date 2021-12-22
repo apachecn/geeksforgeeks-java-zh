@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 LongStream flatMap(LongFunction<? extends LongStream> mapper)
 
 ```
@@ -23,7 +23,7 @@ LongStream flatMap(LongFunction<? extends LongStream> mapper)
 
 **例 1 :** 使用 LongStream flatMap()获取 LongStream 元素的立方体。
 
-```
+```java
 // Java code for LongStream flatMap
 // (LongFunction mapper) to get a stream
 // consisting of the results of replacing
@@ -52,7 +52,7 @@ class GFG {
 
 输出:
 
-```
+```java
 64
 125
 216
@@ -62,7 +62,7 @@ class GFG {
 
 **示例 2 :** 使用 LongStream flatMap()获取 LongStream 元素的二进制表示中的集合位数。
 
-```
+```java
 // Java code for LongStream flatMap
 // (LongFunction mapper) to get a stream
 // consisting of the results of replacing
@@ -91,7 +91,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3
 1
 3

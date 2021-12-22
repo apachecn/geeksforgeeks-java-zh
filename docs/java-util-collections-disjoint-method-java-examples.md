@@ -4,7 +4,7 @@
 
 **java.util.Collections . distance()**方法存在于 Java . util . collections 类中。它用于检查两个指定的集合是否不相交。更正式地说，如果两个集合没有共同的元素，它们就是不相交的。
 
-```
+```java
 Syntax:
 public static boolean disjoint(Collection<?> c1, Collection<?> c2)
 Parameters : 
@@ -23,7 +23,7 @@ ClassCastException - if one collection contains an element that is of a type whi
 
 请注意，允许在两个参数中传递相同的集合，在这种情况下，当且仅当集合为空时，该方法将返回 **true。**
 
-```
+```java
 // Java program to demonstrate working of 
 // java.utils.Collections.disjoint()
 
@@ -77,7 +77,7 @@ public class DisjointDemo
 
 输出:
 
-```
+```java
 is mylist1 disjoint to mylist2 : true
 is mylist1 disjoint to mylist3 : false
 is mylist1 disjoint to mylist4 : false
@@ -88,7 +88,7 @@ is mylist1 disjoint to mylist4 : false
 
 [Java 中的数组类](https://www.geeksforgeeks.org/array-class-in-java/)没有不相交的方法。我们可以使用 Collections.disjoint()来快速检查两个数组的分离。
 
-```
+```java
 // Java program to demonstrate disjoint 
 // method with arrays
 
@@ -123,7 +123,7 @@ public class DisjointDemo
 
 输出:
 
-```
+```java
 is arr1 disjoint to arr2 : true
 is arr1 disjoint to arr3 : false
 is arr1 disjoint to arr4 : true

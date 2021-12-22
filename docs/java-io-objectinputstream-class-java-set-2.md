@@ -10,7 +10,7 @@
 *   **defaultReadObject():Java . io . objectinputstream . defaultReadObject()**从输入流中读取当前类的非静态字段。我们使用序列化类的 readObject()方法来调用这个方法。
     **语法:**
 
-```
+```java
 public void defaultReadObject()
 Parameters : 
 -----------
@@ -25,7 +25,7 @@ Exception :
 *   **ReadObject():Java . io . objectInputStream . ReadObject()**从序列化的类中读取一个对象。此方法用于调用 defaultReadObject。如果默认情况下反序列化该类，则可以使用 readObject 和 writeObject 方法重写该类。
     **语法:**
 
-```
+```java
 public void defaultReadObject()
 Parameters : 
 public final Object readObject()
@@ -41,7 +41,7 @@ Exception :
 *   **available():Java . io . objectinputstream . available()**表示在不被阻塞的情况下可以读取的字节数
     **语法:**
 
-```
+```java
 public int available()
 Parameters : 
 -----------
@@ -54,7 +54,7 @@ Exception :
 *   **close():Java . io . objectinputstream . close()**关闭输入流并释放分配给该流的所有资源
     **语法:**
 
-```
+```java
 public void close()
 Parameters : 
 -----------
@@ -67,7 +67,7 @@ Exception :
 *   **read short():Java . io . objectinputstream . read short()**读取 16 位短。
     **语法:**
 
-```
+```java
 public short readShort()
 Parameters : 
 public final Object readObject()
@@ -81,7 +81,7 @@ Exception :
 *   **readUTF():Java . io . objectinputstream . readUTF()**读取修改后的 UTF-8 (Unicode 转换格式)格式的字符串。UTF -8 表示它使用 8 位块来表示一个字符。
     **语法:**
 
-```
+```java
 public String readUTF()
 Parameters : 
 public final Object readObject()
@@ -94,7 +94,7 @@ Exception :
 *   **skip bytes(int maxlen):Java . io . objectinputstream . skip bytes(int max len)**读取时跳过' max len '字节数。
     **语法:**
 
-```
+```java
 public int skipBytes(int maxlen)
 Parameters : 
 maxlen : max. no. of bytes to be skipped
@@ -107,7 +107,7 @@ Exception :
 *   **readFully(byte[]目的地):Java . io . objectinputstream . readFully(byte[]目的地)**读取从源到目的地数组的所有字节。
     **语法:**
 
-```
+```java
 public void readFully(byte[] destination)
 Parameters : 
 destination : the buffer in which the data is to be read
@@ -121,7 +121,7 @@ Exception :
 *   **readFully(byte[] destination，int offset，int maxlen):Java . io . objectinputstream . readFully(byte[]destination，int offset，int maxlen)** 从源数组到目标数组读取一些字节(从 offset 到 maxlen 位置开始)。
     **语法:**
 
-```
+```java
 public void readFully(byte[] destination, int offset, int maxlen)
 Parameters : 
 destination : the buffer in which the data is to be read
@@ -137,7 +137,7 @@ Exception :
 *   **readFields():Java . io . objectinputstream . readFields()**从输入流中读取常量字段，并指示名称。
     **语法:**
 
-```
+```java
 public ObjectInputStream.GetField readFields()
 Parameters : 
 -------
@@ -151,7 +151,7 @@ Exception :
 *   **resolveClass():Java . io . objectinputstream . resolveClass(objectstream Class INS _ Class)**将一个实例类加载到指定的 StreamClass 中来代替它。
     **语法:**
 
-```
+```java
 protected Class resolveClass(ObjectStreamClass desc)
 
  : means that the class object can be of any type, it is to be specified by the coder.
@@ -167,7 +167,7 @@ Exception :
 *   **register validation():Java . io . objectinputstream . register validation(ObjectInputValidation object，int order)** 注册对象进行验证。
     **语法:**
 
-```
+```java
 public void registerValidation(ObjectInputValidation object, int order)
 Parameters : 
 -------
@@ -183,7 +183,7 @@ Exception :
     启用解析对象之前，我们无法替换对象。它在对象被读取后被调用。
     **语法:**
 
-```
+```java
 protected Object resolveObject(Object o)
 Parameters : 
 o : object we want to substitute
@@ -197,7 +197,7 @@ Exception :
     调用 enableResolveObject。它在对象被读取后被调用。
     **语法:**
 
-```
+```java
 protected boolean enableResolveObject(boolean enable)
 Parameters : 
 check : "true" to allow resolveObject() method
@@ -208,7 +208,7 @@ Return :
 *   **readClassDescriptor():Java . io . ObjectInputStream . readClassDescriptor()**从序列化流中读取类描述符，如果 ObjectInputStream 接受描述符，则调用此方法。默认情况下，描述符由 readClassDescriptor()方法 acc 调用。对象序列化
     **中定义的格式语法:**
 
-```
+```java
 protected ObjectStreamClass readClassDescriptor()
 Parameters : 
 -------
@@ -219,7 +219,7 @@ reads class descriptor
 *   **ReadBJExterverride():Java . io . ObjectInputStream . ReadBJExterverride()**使用受保护的无参数构造函数从对象输出流中读取对象
     **语法:**
 
-```
+```java
 protected Object readObjectOverride()
 Parameters : 
 -------
@@ -230,7 +230,7 @@ reads object from the Stream
 *   **readStreamHeader():Java . io . objectinputstream . readStreamHeader()**允许子类读取和验证它们的头并验证版本号
     **语法:**
 
-```
+```java
 protected void readStreamHeader()
 Parameters : 
 -------
@@ -241,7 +241,7 @@ void
 *   **resolveproxclass(String[]in _ list):Java . io . resolveproxclass(String[]in _ list)**返回一个代理类，实现那些在代理类描述符中命名的接口。使用这种方法，我们可以从动态代理类
     **语法:**中读取描述符
 
-```
+```java
 protected Class resolveProxyClass(String[] in_list)
 Parameters : 
 in_List : interface names list, deserialized in the proxy class descriptor

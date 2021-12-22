@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractList.remove(int index)
 ```
 
@@ -18,7 +18,7 @@ AbstractList.remove(int index)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate remove() method
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class AbstractListDemo {
 
 **Output:**
 
-```
+```java
 AbstractList: [Geeks, for, Geeks, 10, 20]
 Final AbstractList: [Geeks, for, Geeks, 20]
 
@@ -61,7 +61,7 @@ Final AbstractList: [Geeks, for, Geeks, 20]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate remove() when position of
 // element is passed as parameter
 
@@ -96,7 +96,7 @@ public class AbstractListDemo {
 
 **Output:**
 
-```
+```java
 AbstractList:[Geeks, for, Geeks, 10, 20]
 Final AbstractList:[for, Geeks, 10, 20]
 

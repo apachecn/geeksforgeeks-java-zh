@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final long getAndIncrement()
 
 ```
@@ -19,7 +19,7 @@ public final long getAndIncrement()
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndIncrement() function
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 0
 Current value: 1
 
@@ -57,7 +57,7 @@ Current value: 1
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndIncrement() function
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 18
 Current value: 19
 

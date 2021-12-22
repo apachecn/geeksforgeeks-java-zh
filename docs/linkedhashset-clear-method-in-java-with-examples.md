@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -16,7 +16,7 @@ public void clear()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 // for Integer value
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 LinkedHashSet: [10, 20, 30]
 LinkedHashSet after use of clear() method: []
 
@@ -69,7 +69,7 @@ LinkedHashSet after use of clear() method: []
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 // for String value
@@ -114,7 +114,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 LinkedHashSet: [A, B, C]
 LinkedHashSet after use of clear() method: []
 

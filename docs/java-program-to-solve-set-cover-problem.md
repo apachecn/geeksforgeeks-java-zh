@@ -37,7 +37,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Solve Set Cover Problem
 // assuming at Maximum 2 Elements in a Subset
 
@@ -215,6 +215,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The short combination was : [[1, 2], [3, 4], [8, 9], [10, 7], [5, 8], [11, 6]]
 ```

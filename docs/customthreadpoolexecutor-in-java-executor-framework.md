@@ -35,7 +35,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Concept of
 // CustomThreadPoolExecutor Executor Framework
 
@@ -231,7 +231,7 @@ public class ExecutorServiceCustom {
 
 **输出:**
 
-```
+```java
 Current Thread :-> Thread-0
 Current Thread :-> Thread-1
 Current Thread :-> Thread-2

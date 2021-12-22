@@ -14,7 +14,7 @@
 *   需要迭代这些定义变量的特定条件
 *   一个终止部分，我们通常使用变量来达到终止条件状态。
 
-```
+```java
 for(initialization; boolean expression; update statement) { 
 // Body of for loop 
 } 
@@ -28,7 +28,7 @@ for(initialization; boolean expression; update statement) {
 
 For 循环必须由循环语句中的有效表达式组成，否则会导致无限循环。声明
 
-```
+```java
 for ( ; ; ) 
 is similar to
 while(true)
@@ -40,7 +40,7 @@ while(true)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Infinite For loop
 
 // Main class
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**重复打印语句“这是一个无限循环”。
 
-```
+```java
 This is an infinite loop
 This is an infinite loop
 This is an infinite loop
@@ -80,7 +80,7 @@ This is an infinite loop
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Initializing Multiple
 // Variables in Initialization Block
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 0 
 1 
 2 
@@ -132,7 +132,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Redeclaring a Variable
 // in Initialization Block
 
@@ -158,7 +158,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Example3.java:12: error: variable x is already defined in method main(String[])
         for(long y = 0, x = 1; x < 5; x++)
 ```
@@ -169,7 +169,7 @@ Example3.java:12: error: variable x is already defined in method main(String[])
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Redeclaring a Variable
 // in Initialization Block
 
@@ -197,7 +197,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 1 2 3 4
 ```
 
@@ -205,7 +205,7 @@ public class GFG {
 
 当我们声明如下所示的变量时，这只是常识:
 
-```
+```java
  int x, y;
 ```
 
@@ -215,7 +215,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Declaring a Variable
 // in Initialization Block
 
@@ -242,7 +242,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 4 
 ```
 
@@ -254,7 +254,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Scope of Initializing
 // Variables Within the oop
 
@@ -280,7 +280,7 @@ public class GFG {
 
 **错误:**
 
-```
+```java
 Example5.java:13: error: cannot find symbol
         System.out.println(x);
 ```

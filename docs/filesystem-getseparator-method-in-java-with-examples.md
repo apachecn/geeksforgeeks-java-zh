@@ -5,7 +5,7 @@
 一个**文件系统**类的 **getSeparator()** 方法用于将该文件系统的名称分隔符作为字符串返回。名称分隔符用于分隔路径字符串中的名称。在默认提供程序的情况下，此方法返回与字符串相同的分隔符。
 **语法:**
 
-```
+```java
 public abstract String getSeparator()
 ```
 
@@ -16,7 +16,7 @@ public abstract String getSeparator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // FileSystem.getSeparator() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // FileSystem.getSeparator() method
 

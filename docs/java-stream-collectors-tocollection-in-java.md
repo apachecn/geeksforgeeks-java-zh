@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T, C extends Collection<T>> Collector<T, ?, C>
       toCollection(Supplier<C> collectionFactory)
 
@@ -30,7 +30,7 @@ public static <T, C extends Collection<T>> Collector<T, ?, C>
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate Collectors
 // toCollection(Supplier collectionFactory) method
 
@@ -61,14 +61,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [Geeks, GeeksClasses, for]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate Collectors
 // toCollection(Supplier collectionFactory) method
 
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [2.5, 4, 6]
 
 ```

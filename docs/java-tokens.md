@@ -12,7 +12,7 @@
 
 1.  **[关键词](https://www.geeksforgeeks.org/list-of-all-java-keywords/) :** 关键词是编程语言中预先定义或保留的词。每个关键字都意味着在程序中执行特定的功能。因为关键字是编译器的参考名称，所以它们不能用作变量名，因为这样做，我们试图给关键字赋予一个不允许的新含义。 **Java** 语言支持以下关键词:
 
-    ```
+    ```java
      abstract     assert      boolean      
     break        byte        case
     catch        char        class        
@@ -39,7 +39,7 @@
 
     **有效标识符示例:**
 
-    ```
+    ```java
     MyVariable
     MYVARIABLE
     myvariable
@@ -55,7 +55,7 @@
 
     **无效标识符示例:**
 
-    ```
+    ```java
     My Variable  // contains a space
     123geeks   // Begins with a digit
     a+c // plus sign is not an alphanumeric character
@@ -69,13 +69,13 @@
     常量可以属于任何数据类型。
     **语法:**
 
-    ```
+    ```java
     final data_type variable_name;
     ```
 
 4.  **特殊符号:**以下特殊符号在 Java 中使用，有一些特殊含义，因此不能用于其他目的。
 
-    ```
+    ```java
     [] () {}, ; * =
     ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final long decrementAndGet(int i)
 
 ```
@@ -18,7 +18,7 @@ public final long decrementAndGet(int i)
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the compareAndSet() function
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The array after update : [1, 2, 3, 3, 5]
 
@@ -60,7 +60,7 @@ The array after update : [1, 2, 3, 3, 5]
 
 **程序 2:**
 
-```
+```java
 // Java program that demonstrates
 // the compareAndSet() function
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The array after update : [0, 2, 3, 4, 5]
 

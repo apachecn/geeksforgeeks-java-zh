@@ -8,7 +8,7 @@
 1.  **Tight coupling :** In general, Tight coupling means the two classes often change together. In other words, if A knows more than it should about the way in which B was implemented, then A and B are tightly coupled.
     **Example :** If you want to change the skin, you would also have to change the design of your body as well because the two are joined together – they are tightly coupled. The best example of tight coupling is RMI(Remote Method Invocation).
 
-    ```
+    ```java
     // Java program to illustrate
     // tight coupling concept
     class Subject {
@@ -28,7 +28,7 @@
 
     **说明:**在上面的程序中，主题类依赖于主题类。在上面的程序中，主题类与主题类紧密耦合，这意味着如果主题类中的任何变化都需要主题类的变化。例如，如果 Topic 类的 understand()方法更改为 gotit()方法，那么您必须更改 startReading()方法将调用 gotit()方法，而不是调用 understand()方法。
 
-    ```
+    ```java
     // Java program to illustrate
     // tight coupling concept
     class Volume 
@@ -51,7 +51,7 @@
 
     输出:
 
-    ```
+    ```java
     125
 
     ```
@@ -61,7 +61,7 @@
 2.  **Loose coupling :** In simple words, loose coupling means they are mostly independent. If the only knowledge that class A has about class B, is what class B has exposed through its interface, then class A and class B are said to be loosely coupled. In order to over come from the problems of tight coupling between objects, spring framework uses dependency injection mechanism with the help of POJO/POJI model and through dependency injection its possible to achieve loose coupling.
     **Example :** If you change your shirt, then you are not forced to change your body – when you can do that, then you have loose coupling. When you can’t do that, then you have tight coupling. The examples of Loose coupling are Interface, JMS.
 
-    ```
+    ```java
     // Java program to illustrate 
     // loose coupling concept
     public interface Topic
@@ -89,7 +89,7 @@
 
     **说明:**在上例中，Topic1 和 Topic2 对象是松散耦合的。这意味着主题是一个接口，我们可以在运行时注入任何实现的类，并且我们可以向最终用户提供服务。
 
-    ```
+    ```java
     // Java program to illustrate
     // loose coupling concept
     class Volume 
@@ -117,7 +117,7 @@
 
     输出:
 
-    ```
+    ```java
     125
 
     ```

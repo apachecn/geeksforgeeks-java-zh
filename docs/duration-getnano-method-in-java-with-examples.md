@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getNano()
 
 ```
@@ -19,7 +19,7 @@ public long getNano()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate getNano() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getNano() method
 
 import java.time.Duration;
@@ -71,7 +71,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static JapaneseDate from(
        TemporalAccessor temporal)
 
@@ -20,7 +20,7 @@ T3】例 1:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate from() method
 
 import java.util.*;
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 JapaneseDate: Japanese Heisei 30-10-25
 
 ```
@@ -72,7 +72,7 @@ JapaneseDate: Japanese Heisei 30-10-25
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate from() method
 
 import java.util.*;
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 JapaneseDate: Japanese Heisei 30-12-30
 
 ```

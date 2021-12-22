@@ -5,13 +5,13 @@
 函数是 java.util.zip 包的一部分。该函数返回作为参数传递的特定 ZipEntry 的未压缩大小，如果未知，则返回-1。
 **功能签名:**
 
-```
+```java
 public long getSize()
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.getSize();
 ```
 
@@ -23,7 +23,7 @@ zip_entry.getSize();
 
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取指定 ZipEntry 的未压缩大小。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。zip”文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of getSize() function
 
@@ -60,14 +60,14 @@ public class solution {
 
 **Output:**
 
-```
+```java
 uncompressed Size : 2153
 
 ```
 
 **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取指定 ZipEntry 的未压缩大小。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。cpp "文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of getSize() function
 
@@ -104,7 +104,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 uncompressed Size : 783
 
 ```

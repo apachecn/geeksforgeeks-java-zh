@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toSeconds()
 
 ```
@@ -19,7 +19,7 @@ public long toSeconds()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate toSeconds() method
 
 import java.time.Duration;
@@ -44,7 +44,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT51H4M
 183840
 
@@ -52,7 +52,7 @@ Duration: PT51H4M
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate toSeconds() method
 
 import java.time.Duration;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT10S
 10
 

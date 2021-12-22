@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract long getTotalSpace()
                 throws IOException
 
@@ -22,7 +22,7 @@ public abstract long getTotalSpace()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // FileStore.getTotalSpace() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // FileStore.getTotalSpace() method
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getLong(TemporalField field)
 ```
 
@@ -24,7 +24,7 @@ public int getLong(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.getLong(TemporalField field) method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 field : NanoOfSecond || value : 930000000
 field : NanoOfDay is not supported
 field : MicroOfSecond || value : 930000
@@ -97,7 +97,7 @@ field : OffsetSeconds is not supported
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.getLong(TemporalField field) method
 
@@ -127,14 +127,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant Seconds: 1546133690
 
 ```
 
 **程序 3:** 获取不支持的临时异常
 
-```
+```java
 // Java program to demonstrate
 // Instant.getLong(TemporalField field) method
 
@@ -169,7 +169,7 @@ public class GFG {
 
 T5】输出:
 
-```
+```java
 Exception:
  java.time.temporal.UnsupportedTemporalTypeException:
  Unsupported field: AmPmOfDay

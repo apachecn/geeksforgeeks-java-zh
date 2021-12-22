@@ -18,7 +18,7 @@ RenderingHints 类定义并管理键和相关值的集合，这些键和相关�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the demonstration to 
 // Implement RenderingHints API
 
@@ -240,7 +240,7 @@ public class RenderingHintsImpl
 
 **Output**
 
-```
+```java
 the key set of the renderingHints is - 
 Alpha blending interpolation method key
 Fractional metrics enable key

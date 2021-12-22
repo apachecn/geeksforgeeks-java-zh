@@ -14,7 +14,7 @@
 > 
 > **输出:**出现次数最多的单词列表
 > 
-> ```
+> ```java
 > in = 3
 > each = 3
 > of = 3
@@ -29,7 +29,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the
 // Most Repeated Word in a Text File
 

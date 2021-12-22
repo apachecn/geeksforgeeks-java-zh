@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isTimeBased()
 
 ```
@@ -18,7 +18,7 @@ public boolean isTimeBased()
 下面的程序说明了基于计时单位的()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.isTimeBased() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 NANOS is Date based attribute:true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.isTimeBased() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DAYS is Date based attribute:false
 
 ```

@@ -5,7 +5,7 @@
 Java 中的 Java . util . EnumMap . equals(*obj*)用于将传递的对象与**这个 EnumMap** 进行比较，以获得相等性。必须记住，传递的对象必须是与 EnumMap 类型相同的映射。
 **语法:**
 
-```
+```java
 boolean equals(Object obj)
 ```
 
@@ -16,7 +16,7 @@ boolean equals(Object obj)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate equals() method
 import java.util.*;
 
@@ -63,7 +63,7 @@ class Enum_map {
 
 **Output:** 
 
-```
+```java
 Map1 equal to Map2: true
 Map1 equal to Map2: false
 ```
@@ -72,7 +72,7 @@ Map1 equal to Map2: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate equals() method
 import java.util.*;
 
@@ -126,7 +126,7 @@ class Enum_map {
 
 **Output:** 
 
-```
+```java
 Map1 equal to Map2: true
 Map1 equal to Map2: false
 ```

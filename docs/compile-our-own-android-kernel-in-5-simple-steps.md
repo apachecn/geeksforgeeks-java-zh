@@ -22,7 +22,7 @@
     *   阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金·阿金 [Github](https://www.geeksforgeeks.org/ultimate-guide-git-github/)
     *   Equipment [Source code [T2】 T30 Open the terminal and paste it as follows:
 
-        ```
+        ```java
         sudo apt-get install
              git ccache automake flex lzop bison \
              gperf build-essential zip curl
@@ -43,14 +43,14 @@
     *   **Download required documents:**
         *   Clone the device source on the local disk:
 
-            ```
+            ```java
             mkdir mykernel
               git clone {link to your device kernel source}
             ```
 
         *   Download a compatible [GCC](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/) tool chain. In this paper, GCC of AOSP is used.
 
-            ```
+            ```java
             cd mykernel
                git clone https://android.googlesource.com/platform/
                          prebuilts/gcc/linux-x86/aarch64/
@@ -61,13 +61,13 @@
         *   Download a compatible CLANG tool chain. This paper uses Clang of [AOSP.](https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/android-9.0.0_r48/clang-4691093.tar.gz)
         *   Move the downloaded file to the **mykernel folder** , and then use the following command to extract it:
 
-            ```
+            ```java
             tar vxzf linux-x86-android-9.0.0_r48-clang-4691093.tar.gz
             ```
 
     *   **编译内核:**
 
-        ```
+        ```java
         cd mykernel
         rm -rf out
         mkdir out
@@ -93,7 +93,7 @@
         *   Download [Android mirror kitchen](https://forum.xda-developers.com/showthread.php?t=2073775) and decompile your stock boot image. Once you decompile it, you will find the stock code in the decompiled folder. Replace it with the previously copied one and recompile the boot image.
         *   Flash [Fast boot](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) uses the following commands:
 
-            ```
+            ```java
             fastboot flash boot mykernel.img
             ```
 

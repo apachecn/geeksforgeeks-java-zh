@@ -14,7 +14,7 @@ float [类](https://www.geeksforgeeks.org/java-lang-float-class-in-java/) 是一
 
 ## Java
 
-```
+```java
 // Java Program to print Multiplication of two floating
 // point Number.
 
@@ -39,6 +39,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 The product is: 3.0
 ```

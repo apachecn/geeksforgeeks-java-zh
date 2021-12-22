@@ -21,7 +21,7 @@
 
 插图:
 
-```
+```java
 Input :  a = [1, 3, 5, 7, 9]
          b = [0, 2, 4, 6, 8]
 Output : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -31,7 +31,7 @@ Output : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Merging of two sets in Java
 // Using Double brace Initialization
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Set a: [1, 3, 5, 7, 9]
 Set b: [0, 2, 4, 6, 8]
 Merged Set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -104,7 +104,7 @@ addAll()方法由 Set 接口提供。它将作为参数传递的元素添加到�
 
 插图:
 
-```
+```java
 Input  : a = [1, 3, 5, 7, 9]
          b = [0, 2, 4, 6, 8]
 Output : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -114,7 +114,7 @@ Output : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Merging of Two Sets
 // Using SetAll() method
 
@@ -172,7 +172,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Set a: [1, 3, 5, 7, 9]
 Set b: [0, 2, 4, 6, 8]
 Merged Set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]

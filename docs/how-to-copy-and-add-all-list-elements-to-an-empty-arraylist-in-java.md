@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to clone the list
 
 import java.util.ArrayList;
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList = [item 1, item 2, item 3]
 After Adding List Item in ArrayList = [item 1, item 2, item 3, item 4, item 5]
 ```
@@ -70,7 +70,7 @@ After Adding List Item in ArrayList = [item 1, item 2, item 3, item 4, item 5]
 
 **语法:**
 
-```
+```java
 ArrayList arrlist = new ArrayList(collection c);
 
 ```
@@ -84,7 +84,7 @@ ArrayList arrlist = new ArrayList(collection c);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to clone a List in Java 
 
 import java.util.ArrayList; 
@@ -111,6 +111,6 @@ class Example { 
 
 **Output**
 
-```
+```java
 [GeeksForGeeks, Coding, Portal]
 ```

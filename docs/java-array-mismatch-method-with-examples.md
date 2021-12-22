@@ -12,7 +12,7 @@
 
 ****语法:****
 
-```
+```java
 Arrays.mismatch(first_array, second_array);
 ```
 
@@ -34,7 +34,7 @@ Arrays.mismatch(first_array, second_array);
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the working of
 // mismatch() method with arrays of integer type
 
@@ -90,7 +90,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The index at which array1 and array2 have first unequal element: -1
 The index at which array1 and array3 have first unequal element: 2
 The index at which array2 and array3 have first unequal element: 2
@@ -100,7 +100,7 @@ The index at which array2 and array3 have first unequal element: 2
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the working of
 // mismatch() method with arrays of double type
 
@@ -158,7 +158,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The index at which array1 and array2 have first unequal element: -1
 The index at which array1 and array3 have first unequal element:1
 The index at which array2 and array3 have first unequal element: 1
@@ -168,7 +168,7 @@ The index at which array2 and array3 have first unequal element: 1
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the working of
 // mismatch() method with arrays of character type
 
@@ -224,7 +224,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The index at which array1 and array2 have first unequal element: -1
 The index at which array1 and array3 have first unequal element: 4
 The index at which array2 and array3 have first unequal element: 4
@@ -234,7 +234,7 @@ The index at which array2 and array3 have first unequal element: 4
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the working of
 // mismatch() method with arrays of boolean type
 
@@ -290,7 +290,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The index at which array1 and array2 have first unequal element: -1
 The index at which array1 and array3 have first unequal element: 2
 The index at which array2 and array3 have first unequal element: 2

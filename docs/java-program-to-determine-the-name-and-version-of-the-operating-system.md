@@ -13,7 +13,7 @@ Java 中内置的 System 类提供了[*【getProperty()*](https://www.geeksforge
 
 **语法:**
 
-```
+```java
 String System.getProperty( String key ) ;
 ```
 
@@ -28,7 +28,7 @@ String System.getProperty( String key ) ;
 
 **语法:**
 
-```
+```java
 String System.getProperty( String key, String value ) ;
 ```
 
@@ -46,7 +46,7 @@ String System.getProperty( String key, String value ) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Determine the name
 // and version of the operating system
 

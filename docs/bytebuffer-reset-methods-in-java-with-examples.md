@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ByteBuffer reset()
 ```
 
@@ -16,7 +16,7 @@ public ByteBuffer reset()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // reset() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 4
 position after reset: 2
 
@@ -78,7 +78,7 @@ position after reset: 2
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // reset() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 1
 
 new position is less than the position we marked before 

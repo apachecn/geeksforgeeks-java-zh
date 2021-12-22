@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean hasMoreElements()
 
 ```
@@ -18,7 +18,7 @@ boolean hasMoreElements()
 下面的程序说明了 hasMoreElements()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Enumeration.hasMoreElements() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Day = Sunday
 Day = Monday
 Day = Tuesday
@@ -65,7 +65,7 @@ Day = Saturday
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Enumeration.hasMoreElements() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Roll No = 1
 Roll No = 2
 Roll No = 3

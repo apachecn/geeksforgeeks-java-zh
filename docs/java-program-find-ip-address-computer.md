@@ -15,7 +15,7 @@ InetAddress.getLocalHost()用于查找局域网或任何其他本地网络中使
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find IP address of your computer
 // java.net.InetAddress class provides method to get
 // IP of any host name
@@ -57,7 +57,7 @@ public class JavaProgram
 
 **输出:**
 
-```
+```java
  System IP Address : 10.0.8.204
  Public IP Address : 35.166.48.97
 ```

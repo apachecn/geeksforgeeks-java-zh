@@ -6,7 +6,7 @@ Hashtable 类的 java.util.Hashtable.isEmpty()方法用于检查表的空性。�
 
 **语法:**
 
-```
+```java
 Hash_Table.isEmpty()
 ```
 
@@ -17,7 +17,7 @@ Hash_Table.isEmpty()
 下面的程序说明了 java.util.Hashtable.isEmpty()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the isEmpty() method
 import java.util.*;
 
@@ -48,7 +48,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 The table is: {You=30, Welcomes=25, 4=15, Geeks=20}
 Is the table empty? false
 
@@ -56,7 +56,7 @@ Is the table empty? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the isEmpty() method
 import java.util.*;
 
@@ -78,7 +78,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 The table is: {}
 Is the table empty? true
 

@@ -5,7 +5,7 @@
 **Java . time . chrono . mingodate**类的 **toString()** 方法用于将民国日期表示为字符串格式。
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Minguodate : Minguo ROC 109-04-27
 ```
 
@@ -63,7 +63,7 @@ Minguodate : Minguo ROC 109-04-27
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Minguodate : Minguo ROC 1345-05-23
 ```
 

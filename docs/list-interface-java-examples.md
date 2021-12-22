@@ -8,7 +8,7 @@
 
 **声明:**列表界面声明为:
 
-```
+```java
 public interface List<E> extends Collection<E> ; 
 ```
 
@@ -16,7 +16,7 @@ public interface List<E> extends Collection<E> ;
 
 **语法:**这种类型的安全列表可以定义为:
 
-```
+```java
 List<Obj> list = new ArrayList<Obj> (); 
 ```
 
@@ -26,7 +26,7 @@ List<Obj> list = new ArrayList<Obj> ();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate List Interface
 
 // Importing alll utility classes
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [1, 2]
 [1, 1, 2, 3, 2]
 [1, 2, 3, 2]
@@ -124,7 +124,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add Elements to a List
 
 // Importing all utility classes
@@ -155,7 +155,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [Geeks, For, Geeks]
 ```
 
@@ -167,7 +167,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Update Elements in a List
 
 // Importing utility classes
@@ -202,7 +202,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Initial ArrayList [Geeks, Geeks, Geeks]
 Updated ArrayList [Geeks, For, Geeks]
 ```
@@ -220,7 +220,7 @@ Updated ArrayList [Geeks, For, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove Elements from a List
 
 // Importing List and ArrayList classes
@@ -269,7 +269,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Initial ArrayList [Geeks, For, Geeks]
 After the Index Removal [Geeks, Geeks]
 After the Object Removal [Geeks]
@@ -285,7 +285,7 @@ After the Object Removal [Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate the Elements
 // in an ArrayList
 
@@ -332,7 +332,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Geeks For Geeks 
 Geeks For Geeks
 ```
@@ -401,7 +401,7 @@ Geeks For Geeks
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the
 // creation of list object using the
 // ArrayList class
@@ -442,7 +442,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5
@@ -456,7 +456,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the
 // creation of list object using the
 // Vector class
@@ -496,7 +496,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5
@@ -510,7 +510,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the
 // creation of list object using the
 // Stack class
@@ -550,7 +550,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5
@@ -564,7 +564,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the
 // creation of list object using the
 // LinkedList class
@@ -604,7 +604,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5

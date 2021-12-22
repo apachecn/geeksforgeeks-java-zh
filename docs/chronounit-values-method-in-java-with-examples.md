@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ChronoUnit[] values()
 
 ```
@@ -18,7 +18,7 @@ public static ChronoUnit[] values()
 以下程序说明了计时单位值()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.values() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Nanos
 Micros
 Millis
@@ -67,7 +67,7 @@ Forever
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.values() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ChronoUnit length:16
 
 ```

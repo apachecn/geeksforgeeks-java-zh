@@ -4,13 +4,13 @@
 
 **番石榴的 BigIntegerMath 类的二项式(int n，int k)** 方法返回 ***n 选择 k*** ，也称为 n 和 k 的 ***二项式系数*** ，即
 
-```
+```java
 n! / (k! (n - k)!)
 ```
 
 **语法:**
 
-```
+```java
 public static BigInteger binomial(int n, int k)
 
 ```
@@ -30,7 +30,7 @@ public static BigInteger binomial(int n, int k)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // binomial(int n, int k) method
 // of Guava's BigIntegerMath class
@@ -70,7 +70,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Binomial Coefficient of 5 & 2 is: 10
 Binomial Coefficient of 15 & 9 is: 5005
 
@@ -78,7 +78,7 @@ Binomial Coefficient of 15 & 9 is: 5005
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // binomial(int n, int k) method
 // of Guava's BigIntegerMath class
@@ -115,7 +115,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.IllegalArgumentException: k (7) > n (5)
 
 ```

@@ -28,7 +28,7 @@ Ellipse2D 类存在于 java.awt.geom 包中，它用于通过声明椭圆的框�
 
 1.  **Java program to create two ellipses and draw them to a java applet**: To create ellipse shape on Java applet, we will initialize Ellipse2d class objects named “ed” and “ed1”. The 4 parameters passed in the constructor of the “ed” object are the X coordinate of the upper-left corner of the framing rectangle, the Y coordinate of the upper-left corner of the framing rectangle, the width of the framing rectangle and the height of the framing rectangle. In the constructor of “ed”, we pass nothing, which means the ellipse is initialized to location (0, 0) and size (0, 0). To show them on screen, we create an object of Graphics2d class “g1” and call g1.draw() method.
 
-    ```
+    ```java
     // java program to create two ellipse and 
     // draw them to a java applet
     import java.awt.*;
@@ -73,7 +73,7 @@ Ellipse2D 类存在于 java.awt.geom 包中，它用于通过声明椭圆的框�
 
 2.  **Java program to create two ellipse and check whether a point or a rectangle is contained in that ellipse or intersected by it**: To check whether a point or a rectangle is contained in that ellipse or intersected by the 2 ellipses, we first create the 2 ellipses in the similar way we created above. Then we create 2 rectangles, by calling the method drawRect() on Graphics2d object “g1”. The parameters in drawRect() method specify the x coordinate of the rectangle to be drawn, the y coordinate of the rectangle to be drawn, the width of the rectangle to be drawn and the height of the rectangle to be drawn. To check whether they contain it or not, we call ed.contains() method and pass the coordinate of the point or rectangle in it, and show the results on a message dialog.
 
-    ```
+    ```java
     // java program to create two ellipse and check whether
     // a point or a rectangle is contained in that ellipse
     // or intersected by it

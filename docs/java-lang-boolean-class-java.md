@@ -12,14 +12,14 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 *   下面的语句创建了一个包含值参数的布尔对象。
 
-    ```
+    ```java
     Boolean b = new Boolean(boolean value);
 
     ```
 
 *   下面的语句创建一个布尔对象，如果字符串参数不为空并且等于字符串“真”，则该对象包含值“真”，忽略大小写，否则创建值为“假”的布尔对象。
 
-    ```
+    ```java
     Boolean b = new Boolean(String s);
 
     ```
@@ -34,7 +34,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 1.  **static boolean parseBoolean(String s)** : This method parses the string argument as a boolean. The boolean returned represents the value true if the string argument is not null and is equal, ignoring case, to the string “true”, otherwise return false.
 
-    ```
+    ```java
     Syntax : 
     public static boolean parseBoolean(String s)
     Parameters : 
@@ -44,7 +44,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate parseBoolean() method
     public class Test
     {
@@ -69,7 +69,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     true
     true
     false
@@ -80,7 +80,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 2.  **boolean booleanValue()** : This method returns the value of this Boolean object as a boolean primitive.
 
-    ```
+    ```java
     Syntax : 
     public boolean booleanValue()
     Parameters : 
@@ -90,7 +90,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate booleanValue() method
     public class Test
     {
@@ -116,7 +116,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     true
     false
     false
@@ -125,7 +125,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 3.  **static Boolean valueOf(boolean b)** : This method returns a Boolean instance representing the specified boolean value. If the specified boolean value is true, it returns Boolean.TRUE or if it is false, then this method returns Boolean.FALSE. The other variant of this method is discussed next.
 
-    ```
+    ```java
     Syntax : 
     public static boolean valueOf(boolean b)
     Parameters : 
@@ -135,7 +135,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate valueOf() method
     public class Test
     {
@@ -158,7 +158,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     true
     false
 
@@ -166,7 +166,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 4.  **static Boolean valueOf(String s)** : This method returns a Boolean with a value represented by the specified string ‘s’. The Boolean returned represents a true value if the string argument is not null and is equal, ignoring case, to the string “true”.
 
-    ```
+    ```java
     Syntax : 
     public static boolean valueOf(String s)
     Parameters : 
@@ -176,7 +176,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate valueOf() method
     public class Test
     {
@@ -201,7 +201,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     true
     true
     false
@@ -212,7 +212,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 5.  **static String toString(boolean b)** : This method returns a String object representing the specified boolean. If the specified boolean is true, then the string “true” will be returned, otherwise the string “false” will be returned.The other variant of this method is discussed next.
 
-    ```
+    ```java
     Syntax : 
     public static String toString(boolean b)
     Parameters : 
@@ -222,7 +222,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate toString() method
     public class Test
     {
@@ -244,7 +244,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     true
     false
 
@@ -252,7 +252,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 6.  **String toString()** : This method returns a String object representing this Boolean’s value. If this object represents the value true, a string equal to “true” is returned. Otherwise, the string “false” is returned.
 
-    ```
+    ```java
     Syntax : 
     public String toString()
     Parameters : 
@@ -264,7 +264,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate toString() method
     public class Test
     {
@@ -292,7 +292,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     true
     false
     false
@@ -302,7 +302,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 7.  **int hashCode()** : This method returns a hash code for this Boolean object. Note that hashcode for true is 1231 and for false is 1237\. To find reason for choosing this integers as hashcode, refer [here](http://stackoverflow.com/questions/3912303/boolean-hashcode).
 
-    ```
+    ```java
     Syntax : 
     public int hashCode()
     Parameters : 
@@ -315,7 +315,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate hashCode() method
     public class Test
     {
@@ -337,7 +337,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     1231
     1237
     1231
@@ -347,7 +347,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 8.  **boolean equals(Object obj)** : This method returns true iff the argument is not null and is a Boolean object that represents the same boolean value as this object.
 
-    ```
+    ```java
     Syntax : 
     public boolean equals(Object obj)
     Parameters : 
@@ -360,7 +360,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate equals() method
     public class Test
     {
@@ -383,7 +383,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     false
     true
     true
@@ -393,7 +393,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 9.  **int compareTo(Boolean b)** : This method “compares” this Boolean instance with passed argument ‘b’.
 
-    ```
+    ```java
     Syntax : 
     public int compareTo(Boolean b)
     Parameters : 
@@ -407,7 +407,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate compareTo() method
     public class Test
     {
@@ -434,7 +434,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     1
     0
     -1
@@ -445,7 +445,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
 10.  **int compare(boolean x, boolean y)** : This method is used to “compares” primitives boolean variables.
 
-    ```
+    ```java
     Syntax : 
     public static int compare(boolean x, boolean y)
     Parameters : 
@@ -460,7 +460,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate compare() method
     public class Test
     {
@@ -486,7 +486,7 @@ Java 在 java.lang 包中提供了一个包装类**布尔**。布尔类包装对
 
     输出:
 
-    ```
+    ```java
     1
     0
     -1

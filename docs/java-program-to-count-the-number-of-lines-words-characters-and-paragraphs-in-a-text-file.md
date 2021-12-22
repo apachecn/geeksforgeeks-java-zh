@@ -14,13 +14,13 @@
 
 **语法:**
 
-```
+```java
 public File(String pathname)
 ```
 
 **参数:**
 
-```
+```java
 pathname - A pathname string
 ```
 
@@ -30,13 +30,13 @@ pathname - A pathname string
 
 **语法:**
 
-```
+```java
 public FileInputStream(File file) throws FileNotFoundException
 ```
 
 **参数:**
 
-```
+```java
 file - the file to be opened for reading.
 ```
 
@@ -51,13 +51,13 @@ file - the file to be opened for reading.
 
 **语法:**
 
-```
+```java
 public InputStreamReader(InputStream in)
 ```
 
 **参数:**
 
-```
+```java
 in - An InputStream
 ```
 
@@ -67,13 +67,13 @@ in - An InputStream
 
 **语法:**
 
-```
+```java
 public BufferedReader(Reader in)
 ```
 
 **参数:**
 
-```
+```java
 in - A Reader
 ```
 
@@ -81,7 +81,7 @@ in - A Reader
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to count the
 // number of lines, words, sentences,  
 // characters, and whitespaces in a file
@@ -130,7 +130,7 @@ public class Test {
 
 **文本阅读器. txt** 文件包含以下数据–
 
-```
+```java
 Hello Geeks. My name is Nishkarsh Gandhi.
 GeeksforGeeks is a Computer Science portal for geeks.
 ```

@@ -6,7 +6,7 @@ java 中的 java.util.ArrayDeque.poll()方法用于检索或获取并移除出�
 
 **语法:**
 
-```
+```java
 Array_Deque.poll()
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.poll()
 下面的程序说明了 Java.util.ArrayDeque.poll()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate poll()
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The element at head is: Welcome
 ArrayDeque after operation: [To, Geeks, 4, Geeks]
@@ -59,7 +59,7 @@ ArrayDeque after operation: [To, Geeks, 4, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate poll()
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 The element at head is: 10
 ArrayDeque after operation: [15, 30, 20, 5]
@@ -101,7 +101,7 @@ ArrayDeque after operation: [15, 30, 20, 5]
 
 **程序 3:** 对于空车:
 
-```
+```java
 // Java code to illustrate poll()
 import java.util.*;
 
@@ -123,7 +123,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: []
 The element at head is: null
 

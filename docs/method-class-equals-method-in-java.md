@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object obj)
 
 **例 1:** 当两个物体相同时。
 
-```
+```java
 /*
 * Program Demonstrate equals(Object Obj)
 * method of Method Class.
@@ -83,7 +83,7 @@ class GFGClass {
 
 **Output:**
 
-```
+```java
 First Method object from array create by getMethods():
 public java.lang.String GFGClass.add(java.lang.String)
 Method object created by getMethod():
@@ -94,7 +94,7 @@ Both Method objects are equal
 
 **例 2:** 当两个物体不同时。
 
-```
+```java
 /*
 * Program Demonstrate equals(Object Obj) method of Method Class.
 */
@@ -159,7 +159,7 @@ class GFGClass {
 
 **Output:**
 
-```
+```java
 Methods are :
 public java.lang.String GFGClass.getField1()
 public void GFGClass.setField1(java.lang.String)

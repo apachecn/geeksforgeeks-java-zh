@@ -4,7 +4,7 @@
 
 如果我们有 SQL 包的日期对象，那么我们可以很容易地将其转换成一个实用的日期对象。在创建 util Date 对象时，我们需要传递[**【getTime()**](https://www.geeksforgeeks.org/date-gettime-method-in-java-with-examples/)方法。
 
-```
+```java
 java.util.Date  utilDate = new java.util.Date(sqlDate.getTime());
 ```
 
@@ -14,7 +14,7 @@ java.util.Date  utilDate = new java.util.Date(sqlDate.getTime());
 
 **语法:**
 
-```
+```java
 public long getTime()
 ```
 
@@ -26,7 +26,7 @@ public long getTime()
 
 ## 爪哇
 
-```
+```java
 // Java program to Convert java.sql.Date to java.util.Date
 
 import java.sql.*;
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 utilDate:2021-01-20
 sqlDate:2021-01-20
 ```

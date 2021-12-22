@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getCalendarType()
 ```
 
@@ -17,7 +17,7 @@ public String getCalendarType()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getCalendarType() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Type of Calendar : islamic-umalqura
 
 ```

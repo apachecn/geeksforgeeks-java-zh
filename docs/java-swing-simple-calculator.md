@@ -17,7 +17,7 @@ Java Swing 是一个面向 Java 的图形用户界面小部件工具包。Java S
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a simple calculator
 // with basic +, -, /, * using java swing elements
 

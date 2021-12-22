@@ -6,7 +6,7 @@ Java 中[navigatable set 接口的 descendingSet()方法用于返回该集合中
 
 **语法** :
 
-```
+```java
 Iterator<E> descendingSet()
 
 ```
@@ -21,7 +21,7 @@ Iterator<E> descendingSet()
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // descendingSet() method of NavigableSet
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value: 6 
 Value: 5 
 Value: 4 
@@ -68,7 +68,7 @@ Value: 0
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to illustrate descendingSet()
 // method of NavigableSet
 import java.util.NavigableSet;
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value: G 
 Value: F 
 Value: E 

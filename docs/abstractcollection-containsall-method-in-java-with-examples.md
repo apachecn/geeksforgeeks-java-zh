@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractCollection.containsAll(Collection C)
 ```
 
@@ -18,7 +18,7 @@ AbstractCollection.containsAll(Collection C)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate boolean containsAll()
 
 import java.util.*;
@@ -61,14 +61,14 @@ class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 Both the collections same: true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate boolean containsAll()
 
 import java.util.*;
@@ -106,7 +106,7 @@ class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 Both the collections same: false
 
 ```

@@ -6,7 +6,7 @@
 
 ### 签名
 
-```
+```java
 public final class MarshalledObject<T> extends Object implements Serializable
 ```
 
@@ -14,7 +14,7 @@ public final class MarshalledObject<T> extends Object implements Serializable
 
 **marshalleobject(T 对象)**–marshalleobject(T 对象)初始化 marshalleobject 类的新实例，该实例包含所提供对象的当前状态的序列化表示。
 
-```
+```java
 MarshalledObject m = new MarshalledObject(T object);
 ```
 
@@ -36,7 +36,7 @@ MarshalledObject 类包含三个名为–
 
 **语法:**
 
-```
+```java
 public int hashCode().
 ```
 
@@ -46,13 +46,13 @@ public int hashCode().
 
 **步骤 1:** 首先创建一个 MarshalledObject 的实例，并传递要序列化的对象。
 
-```
+```java
 MarshalledObject marshalledObject = new MarshalledObject(object);
 ```
 
 **第 2 步:**现在调用 hashCode()方法来获取这个 marshalledObject 的哈希代码
 
-```
+```java
 int code = marshalledObject.hashCode();
 ```
 
@@ -60,7 +60,7 @@ int code = marshalledObject.hashCode();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to 
 // get the hash code
 import java.io.*;
@@ -96,7 +96,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Hash code for this marshalled object is -571669764
 ```
 
@@ -106,7 +106,7 @@ Hash code for this marshalled object is -571669764
 
 **方法签名**
 
-```
+```java
 public T get() throws IOException,
 ClassNotFoundException.
 ```
@@ -121,13 +121,13 @@ ClassNotFoundException.
 
 **步骤 1:** 首先创建一个 MarshalledObject 的实例，并传递要序列化的对象。
 
-```
+```java
 MarshalledObject marshalledObject = new MarshalledObject(object);
 ```
 
 **第 2 步:**现在调用 get()方法来获取这个 marshalledObject 的新副本。
 
-```
+```java
 Object obj = marshalledObject.get();
 ```
 
@@ -135,7 +135,7 @@ Object obj = marshalledObject.get();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get 
 // copy of marshalledObject
 import java.io.*;
@@ -175,7 +175,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Copy marshalled object is tmp@66cd51c3
 Original marshalled object is tmp@63c12fb0
 ```
@@ -186,7 +186,7 @@ Original marshalled object is tmp@63c12fb0
 
 **方法签名**
 
-```
+```java
 public boolean equals(Object obj).
 ```
 
@@ -198,14 +198,14 @@ public boolean equals(Object obj).
 
 **步骤 1:** 首先创建一个 MarshalledObject 的实例，并传递要序列化的对象。
 
-```
+```java
 MarshalledObject marshalledObjectOne = new MarshalledObject(object);
 MarshalledObject marshalledObjectTwo = new MarshalledObject(object);
 ```
 
 **第 2 步:**现在调用 equals()方法，将 marshalledObject 与传递给 equals()方法的参数进行比较。
 
-```
+```java
 boolean isSame = marshalledObjectOne.equals(marshalledObjectTwo);
 ```
 
@@ -213,7 +213,7 @@ boolean isSame = marshalledObjectOne.equals(marshalledObjectTwo);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to compare 
 // two marshalled object
 import java.io.*;
@@ -253,6 +253,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 marshalledObjectOne and marshalledObjectTwo are same : true
 ```

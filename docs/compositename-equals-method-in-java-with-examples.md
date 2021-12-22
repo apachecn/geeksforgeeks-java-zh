@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -18,7 +18,7 @@ public boolean equals(Object obj)
 下面的程序说明了 CompositeName.equals()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.equals()
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompositeName1 is equal to CompositeName2
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.equals() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompositeName1 is not equal to CompositeName2
 
 ```

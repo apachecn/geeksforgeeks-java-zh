@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MatchResult toMatchResult()
 
 ```
@@ -19,7 +19,7 @@ public MatchResult toMatchResult()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate toMatchResult() method
 
 import java.util.regex.*;
@@ -58,7 +58,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate toMatchResult() method
 
 import java.util.regex.*;

@@ -9,7 +9,7 @@ Java 中 **HashSet 类**的 **toArray(T[])** 方法方法用于形成一个与 H
 
 **语法:**
 
-```
+```java
 public <T> T[] toArray(T[] a)
 ```
 
@@ -26,7 +26,7 @@ public <T> T[] toArray(T[] a)
 
 **程序 1:** 当数组的大小为 HashSet 时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -64,7 +64,7 @@ public class HashSetDemo {
 
 **Output:**
 
-```
+```java
 The HashSet: [Geeks, For, Welcome, To]
 The arr[] is:
 Geeks
@@ -77,7 +77,7 @@ null
 
 **程序 2:** 当数组小于 HashSet 的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -115,7 +115,7 @@ public class HashSetDemo {
 
 **Output:**
 
-```
+```java
 The HashSet: [Geeks, For, Welcome, To]
 The arr[] is:
 Geeks
@@ -127,7 +127,7 @@ To
 
 **程序 3:** 当数组大于 HashSet 的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -165,7 +165,7 @@ public class HashSetDemo {
 
 **Output:**
 
-```
+```java
 The HashSet: [Geeks, For, Welcome, To]
 The arr[] is:
 Geeks
@@ -183,7 +183,7 @@ null
 
 **程序 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -229,7 +229,7 @@ public class HashSetDemo {
 
 **Output:**
 
-```
+```java
 The HashSet: [Geeks, For, Welcome, To]
 Exception: java.lang.NullPointerException
 

@@ -23,7 +23,7 @@
 
 **使用的命令:**
 
-```
+```java
 sudo dmidecode -s baseboard-serial-number
 ```
 
@@ -31,7 +31,7 @@ sudo dmidecode -s baseboard-serial-number
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to get the system
 // motherboard serial number on linux
 
@@ -104,7 +104,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 PGPPP018J940BP
 ```
 
@@ -114,7 +114,7 @@ PGPPP018J940BP
 
 **使用的命令:**
 
-```
+```java
 wmic baseboard get serialnumber
 ```
 
@@ -122,7 +122,7 @@ wmic baseboard get serialnumber
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to get the system
 // motherboard serial number on Windows
 
@@ -194,6 +194,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 PGPPP018J940BP
 ```

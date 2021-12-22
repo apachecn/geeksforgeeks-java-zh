@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Without Involving Concepts
 // of Java 5 Features
 
@@ -65,7 +65,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 int = 5
 int = 5
 long = 5
@@ -80,7 +80,7 @@ double = 5.0
 
 ## Java
 
-```
+```java
 // Main class
 // To test Method Overloading
 class TestMethodOverloading {
@@ -105,7 +105,7 @@ class TestMethodOverloading {
 
 **输出**
 
-```
+```java
 double = 5.0
 double = 5.0
 double = 5.0
@@ -120,7 +120,7 @@ T23】的所有四个调用
 
 ## Java
 
-```
+```java
 // Java Program Illustrating Maintenance of Backward
 // Compatibility
 
@@ -159,7 +159,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 long = 5
 ```
 

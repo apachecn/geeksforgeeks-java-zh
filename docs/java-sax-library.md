@@ -31,7 +31,7 @@ SAX 应用编程接口就像一个串行输入/输出流，因此强烈建议需
 
 ***待解析的 XML 文件*** :
 
-```
+```java
 <?xml version="1.0"?>
 <GFG>
     <contributor>
@@ -43,7 +43,7 @@ SAX 应用编程接口就像一个串行输入/输出流，因此强烈建议需
 
 ***Java 程序解析文件*** :
 
-```
+```java
 // Java Code to describe implementation
 // of SAX library
 

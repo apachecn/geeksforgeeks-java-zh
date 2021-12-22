@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long longValue()
 ```
 
@@ -14,7 +14,7 @@ public long longValue()
 
 **示例:**
 
-```
+```java
 Input: BigInteger1=3214558191
 Output: 3214558191
 Explanation: BigInteger1.longValue()=3214558191.
@@ -28,7 +28,7 @@ longValue so it is returning lower 64 bit.
 
 **例 1:以下程序说明了 BigInteger 类**的 longValue()方法
 
-```
+```java
 // Java program to demonstrate longValue() method of BigInteger
 
 import java.math.BigInteger;
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 longValue of 3214553537 : 3214553537
 longValue of 76137217351 : 76137217351
 
@@ -67,7 +67,7 @@ longValue of 76137217351 : 76137217351
 
 **例 2:当返回 long 对于 long 值太大时。**
 
-```
+```java
 // Java program to demonstrate longValue() method of BigInteger
 
 import java.math.BigInteger;
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 longValue of 32145535361361525377 : -4747952786057577855
 longValue of 7613721535372632367351 : -4783767069412450057
 

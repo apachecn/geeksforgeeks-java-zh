@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing util package
 import java.util.*;
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 15 Kia Vadodara 560
 20 Audi Surat 269
 26 Creta Ahmedabad 109
@@ -90,7 +90,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing util package
 import java.util.*;
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Audi 20 Surat 269
 BMW 35 Rajkot 132
 Creta 26 Ahmedabad 109

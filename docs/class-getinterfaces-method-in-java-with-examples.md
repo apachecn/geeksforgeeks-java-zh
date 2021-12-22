@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Class<T>[] getInterfaces()
 
 ```
@@ -19,7 +19,7 @@ public Class<T>[] getInterfaces()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getInterfaces() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Interfaces of myClass: []
 
@@ -55,7 +55,7 @@ Interfaces of myClass: []
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getInterfaces() method
 
 import java.util.*;
@@ -83,7 +83,7 @@ public class Test implements Arr {
 
 **输出:**
 
-```
+```java
 Interfaces of myClass: [interface Arr]
 
 ```

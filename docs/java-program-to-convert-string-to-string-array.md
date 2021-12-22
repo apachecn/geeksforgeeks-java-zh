@@ -6,12 +6,12 @@
 
 插图:
 
-```
+```java
 Input:  String : "Geeks for Geeks"
 Output: String[]: [Geeks for Geeks]
 ```
 
-```
+```java
 Input: String    : "A computer science portal"
 Output: String[] : [A computer science portal]
 ```
@@ -41,7 +41,7 @@ Output: String[] : [A computer science portal]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to String Array
 // Using str.split() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 String : Geeks for Geeks
 String array : [ 
 Geeks, for, Geeks, ]
@@ -93,7 +93,7 @@ Geeks, for, Geeks, ]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to String Array
 // Using HashSet and Set classes
 
@@ -152,7 +152,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String: Geeks for Geeks
 Array of String: [Geeks for Geeks]
 ```
@@ -170,7 +170,7 @@ Array of String: [Geeks for Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to String Array
 // Using Set.toArray() method
 
@@ -224,7 +224,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 String: Geeks for Geeks
 String array : [Geeks for Geeks]
 ```
@@ -242,7 +242,7 @@ String array : [Geeks for Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to String Array
 // Using Set.toArray() method
 
@@ -296,7 +296,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 String :Geeks for Geeks
 String array : [ Geeks for Geeks ]
 ```
@@ -316,7 +316,7 @@ String array : [ Geeks for Geeks ]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to String Array
 // Using Set.toArray() method
 
@@ -360,7 +360,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 String : Geeks for Geeks
 String array : [ Geeks for Geeks ]
 ```

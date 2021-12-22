@@ -7,14 +7,14 @@
 **hashCode()** 方法的**抽象图。简单条目< K，V >** 返回该地图条目的哈希码值。
 地图条目 e 的哈希代码可以通过以下方式计算:
 
-```
+```java
 (e.getKey()==null   ? 0 : e.getKey().hashCode()) ^
    (e.getValue()==null ? 0 : e.getValue().hashCode())
 ```
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -26,7 +26,7 @@ public int hashCode()
 下面的程序说明了 hashCode()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.hashCode() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HashCode = 123
 HashCode = 131
 HashCode = 992
@@ -79,7 +79,7 @@ HashCode = 992
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.hashCode() method
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashCode = -873386249
 hashCode = -874293612
 hashCode = -910934441

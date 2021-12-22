@@ -16,7 +16,7 @@
 5.  为了集成谷歌地图应用编程接口，你的机器的 SHA1 证书是必需的。因此要找到 SHA1 证书，请按照以下步骤操作:
     *   打开命令提示符，进入你的 Java bin 文件夹
 
-        ```
+        ```java
         cd C:\Program Files\Java\jdk1.8.0_91\bin
         ```
 
@@ -36,13 +36,13 @@
     ![](img/589d61e32dbf66d4ec20a583411113d6.png)
 11.  在项目->应用->src ->构建.梯度->依赖项中插入以下内容
 
-```
+```java
 compile 'com.google.android.gms:play-services:11.6.0'
 ```
 
 *   在 AndroidManifest.xml
 
-    ```
+    ```java
     <meta-data
         android:name="com.google.android.gms.version"
         android:value="@integer/google_play_services_version" />
@@ -53,7 +53,7 @@ compile 'com.google.android.gms:play-services:11.6.0'
 
     元素中添加以下声明*   在清单
 
-    ```
+    ```java
     <uses-permission
             android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission
@@ -64,7 +64,7 @@ compile 'com.google.android.gms:play-services:11.6.0'
 
     中添加以下权限*   在 Manifest.xml
 
-    ```
+    ```java
     <uses-feature
             android:glEsVersion="0x00020000"
             android:required="true"/>
@@ -72,7 +72,7 @@ compile 'com.google.android.gms:play-services:11.6.0'
 
     中指定以下规格*   在 ActivityMain.xml 中添加以下片段代码，以便将谷歌地图添加到您的活动中。
 
-    ```
+    ```java
     <fragment
         android:id="@+id/map"
         class="com.google.android.gms.maps.SupportMapFragment"
@@ -83,7 +83,7 @@ compile 'com.google.android.gms:play-services:11.6.0'
 
     *   在 MainActivity.java 添加以下代码
 
-    ```
+    ```java
     public class MapsMarkerActivity extends AppCompatActivity implements OnMapReadyCallback {
         @Override
         protected void onCreate(Bundle savedInstanceState)

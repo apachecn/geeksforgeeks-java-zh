@@ -38,13 +38,13 @@
 
 *   **打开终端，输入以下命令:**
 
-```
+```java
 sudo nano /etc/environment.
 ```
 
 *   **将打开一个文件，并向该文件添加以下命令:**
 
-```
+```java
 JAVA_HOME = "YOUR_PATH". 
 ```
 
@@ -52,7 +52,7 @@ JAVA_HOME = "YOUR_PATH".
 *   **现在重新启动您正在使用的计算机或虚拟机(或)重新加载文件:源/etc/环境**
 *   **您可以通过执行以下命令来测试路径**
 
-```
+```java
  echo $JAVA_HOME
 ```
 

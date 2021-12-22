@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static LocalDateTime
     from(TemporalAccessor temporal)
 
@@ -22,7 +22,7 @@ public static LocalDateTime
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the from() method
 
 import java.util.*;
@@ -43,7 +43,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-30T07:53:17.939
 
 ```

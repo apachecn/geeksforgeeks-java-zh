@@ -24,7 +24,7 @@ Java 中提供了通缩输出流和通胀输出流类来压缩和解压缩文件
 *   Fileoutputstream is assigned to the compressed output stream to compress data.
 *   Now, read the data from the file input stream and write it into the flat output stream. It will compress the data and send it to fileoutputstream, and fileoutputstream will store the compressed data in the output file.
 
-```
+```java
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -81,7 +81,7 @@ class zip
 *   Assign the output file' File 3' to fileoutputstream. This will help to write uncompressed data to File 3.
 *   Now, read the uncompressed data from the inflation computer stream and write it into the fileoutputstream. This will write uncompressed data to File 3.
 
-```
+```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;

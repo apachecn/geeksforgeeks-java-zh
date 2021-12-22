@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the toString() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleAccumulator: 52.0
 String representation: 52.0
 
@@ -58,7 +58,7 @@ String representation: 52.0
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the toString() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleAccumulator: 76.0
 String representation: 76.0
 

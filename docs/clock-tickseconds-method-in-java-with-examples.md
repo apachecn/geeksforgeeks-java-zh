@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static Clock tickSeconds(ZoneId zone)
 ```
 
@@ -18,7 +18,7 @@ public static Clock tickSeconds(ZoneId zone)
 
 **示例:**
 
-```
+```java
 Code:
 ZoneId zoneId = ZoneId.of("Asia/Calcutta");
 Clock clock = Clock.tickSeconds(zoneId);
@@ -38,7 +38,7 @@ nanosecond field is zero.
 
 **程序 1；**当用加尔各答区创建时钟并以整秒为单位打印时钟的滴答声时。
 
-```
+```java
 // Java program to demonstrate
 // tickSeconds() method of Clock class
 
@@ -64,14 +64,14 @@ public class tickSecondsMethodDemo {
 
 **Output:**
 
-```
+```java
 2018-08-22T11:27:38Z
 
 ```
 
 **程序 2:** 打印带有欧洲/巴黎区域的时钟日期和时间，以及每秒钟的时钟节拍。
 
-```
+```java
 // Java program demonstrate
 // tickSeconds() method of Clock class
 
@@ -103,7 +103,7 @@ public class tickSecondsMethodDemo {
 
 **Output:**
 
-```
+```java
 Date and Time :2018-08-22T13:27:41+02:00[Europe/Paris]
 
 ```

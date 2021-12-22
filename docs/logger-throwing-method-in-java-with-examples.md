@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void throwing(String sourceClass,
                      String sourceMethod,
                      Throwable thrown)
@@ -25,7 +25,7 @@ public void throwing(String sourceClass,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // throwing(String, String, Throwable) method
 
@@ -77,7 +77,7 @@ log.txt 上打印的输出如下所示。
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // throwing(String, String, Throwable) method
 

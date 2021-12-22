@@ -6,7 +6,7 @@
 
 考虑一个由 6 个数字组成的例子，然后为了计算标准差，首先我们需要计算 6 个数字的总和，然后计算平均值。然后使用标准差公式计算标准差。
 
-```
+```java
 Standard deviation = square root of ∑(X<sub>i</sub> - ų)<sup>2</sup> / N 
               where, 
                 Xi = each element of the array
@@ -15,7 +15,7 @@ Standard deviation = square root of ∑(X<sub>i</sub> - ų)<sup>2</sup> / N
                 ∑ = Sum of the each element
 ```
 
-```
+```java
 Input : [12, 32, 11, 55, 10, 23, 14, 30]
 Output : 14.438988
 
@@ -37,7 +37,7 @@ Output : 8.541663
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to calculate the standard deviation
 
 class calculateSD2 {
@@ -90,7 +90,7 @@ public class Standard {
 
 **Output**
 
-```
+```java
 Elements are:
 12
 32

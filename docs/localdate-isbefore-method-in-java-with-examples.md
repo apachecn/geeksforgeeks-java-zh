@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 isBefore()方法检查该日期是否在指定日期�
 
 **语法**:
 
-```
+```java
 public boolean isBefore(ChronoLocalDate date2)
 
 ```
@@ -21,7 +21,7 @@ public boolean isBefore(ChronoLocalDate date2)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -43,7 +43,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 false
 
 ```
@@ -52,7 +52,7 @@ false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -74,7 +74,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 true
 
 ```

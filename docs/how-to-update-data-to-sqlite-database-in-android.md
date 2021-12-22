@@ -22,7 +22,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -82,7 +82,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // below is the method for updating our courses
 public void updateCourse(String originalCourseName, String courseName, String courseDescription,
                              String courseTracks, String courseDuration) {
@@ -109,7 +109,7 @@ public void updateCourse(String originalCourseName, String courseName, String co
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;

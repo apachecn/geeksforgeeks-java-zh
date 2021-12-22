@@ -8,7 +8,7 @@
 
 T5】JavaT7
 
-```
+```java
 // Java program to demonstrate that a method
 // can have same name as a Constructor or
 // class name
@@ -39,7 +39,7 @@ T8T10**输出**T1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // checking whether a method is acting like a
 // constructor or just a method
@@ -75,7 +75,7 @@ public class Main {
 
 **错误:**
 
-```
+```java
 error: constructor Main in class Main cannot be applied to given types;
     Main() { this(5); }
              ^
@@ -89,7 +89,7 @@ error: constructor Main in class Main cannot be applied to given types;
 
 ## Java
 
-```
+```java
 // Java program to demonstrate that
 // constructor is different from method
 
@@ -120,7 +120,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 5
 ```
 
@@ -128,7 +128,7 @@ public class Main {
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // checking whether a method is acting like a
 // constructor or just a method
@@ -156,7 +156,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 Hey
 ```
 

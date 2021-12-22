@@ -24,7 +24,7 @@
 
 下面是 Java 实现上面是方法:
 
-```
+```java
 // Java program to read all mobile numbers
 // present in given file
 import java.util.regex.*;
@@ -64,7 +64,7 @@ class MobileNumberExtraction 
 
 输出:
 
-```
+```java
 7873923408
 7205435005
 
@@ -72,7 +72,7 @@ class MobileNumberExtraction 
 
 上面的输出是针对这个 input.txt 文件的:
 
-```
+```java
 Abstract classes may have some executable methods
 and 7873923408 methods left unimplemented. Interfaces 
 contain no implementation code. An abstract

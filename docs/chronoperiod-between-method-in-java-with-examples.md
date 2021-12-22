@@ -16,7 +16,7 @@ Java 中**计时周期界面**的 **between()** 方法用来获取由两个给�
 
 **语法:**
 
-```
+```java
 static ChronoPeriod between(ChronoLocalDate startDateInclusive,
                             ChronoLocalDate endDateExclusive)
 
@@ -31,7 +31,7 @@ static ChronoPeriod between(ChronoLocalDate startDateInclusive,
 
 下面是上面功能的实现:
 
-```
+```java
 // Java code to show the chronoPeriod
 // between the given start and end date
 
@@ -70,7 +70,7 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 ChronoPeriod between start and end date is : P1Y6M7D
 
 ```

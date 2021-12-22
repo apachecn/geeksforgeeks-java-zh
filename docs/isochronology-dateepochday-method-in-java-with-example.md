@@ -5,7 +5,7 @@
 **Java . time . chrono . isochronology**类的 **dateEpochDay()** 方法用于从大纪元日获取符合 ISO 系统的本地日期。
 **语法:**
 
-```
+```java
 public IsoDate dateEpochDay(long epochDay)
 ```
 
@@ -16,7 +16,7 @@ public IsoDate dateEpochDay(long epochDay)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateEpochDay() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current LocalDate is: 2021-06-25
 
 LocalDate(according to ephochday) is: 2034-03-22
@@ -71,7 +71,7 @@ LocalDate(according to ephochday) is: 2034-03-22
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateEpochDay() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current LocalDate is: 0000-01-01
 
 LocalDate(according to ephochday) is: -2735938-12-30

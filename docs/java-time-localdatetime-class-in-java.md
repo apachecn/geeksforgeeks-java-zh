@@ -40,7 +40,7 @@ plusYears()、plusMonths()、plusDays()、plusHours()、plusMinutes()、plusSeco
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate LocalDateTime Class of java.time package 
 
 // Importing LocalDateTime class from java.time package
@@ -107,7 +107,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate LocalDateTime Class
 // of java.time package by creating specific time
 
@@ -168,7 +168,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate LocalDateTime Class by
 // Formatting LocalDateTime to string
 

@@ -25,7 +25,7 @@ Java 允许在线程的帮助下并行执行程序的不同部分。Java 中的�
 
 ## Java
 
-```
+```java
 // Java program to get the id of a 
 // thread
 
@@ -67,7 +67,7 @@ public class ThreadDemo1 extends Thread {
 
 **输出**
 
-```
+```java
 Current Thread Name: Thread-0
 Current Thread Name: Thread-1
 Current Thread ID: 11
@@ -87,7 +87,7 @@ Current Thread ID: 12
 
 ## Java
 
-```
+```java
 // Java program to get the id of a 
 // thread
 
@@ -122,7 +122,7 @@ public class ThreadDemo2 implements Runnable {
 
 **输出**
 
-```
+```java
 Current Thread Name: First Thread
 Current Thread Name: Second Thread
 Current Thread ID: 11

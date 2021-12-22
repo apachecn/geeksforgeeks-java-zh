@@ -6,7 +6,7 @@ Java 中**ChronalDate**接口的**getTehrography()**方法获取这个日期的�
 
 **语法** :
 
-```
+```java
 public IsoChronology getChronology()
 
 ```
@@ -19,7 +19,7 @@ public IsoChronology getChronology()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getChronology() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 ISO
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the getChronology() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 ISO
 
 ```

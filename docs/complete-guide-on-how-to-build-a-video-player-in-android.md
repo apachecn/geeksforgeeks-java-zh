@@ -7,7 +7,7 @@
 在安卓中插入视频，我们放入**原始文件夹**。“原始”文件夹出现在
 中
 
-```
+```java
 "app"--> "res" --> "raw"
 ```
 
@@ -44,7 +44,7 @@
 
 7.  最后，我们处理了用户动作的编码，即用户点击了什么(重放或下一步)。使用简单的逻辑，如递增和递减。
 
-    ```
+    ```java
     public void onClick(DialogInterface dialog, int which) {
       if (which == -1) {
         vw.seekTo(0);
@@ -63,7 +63,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -84,7 +84,7 @@
 
 ## MainActivity.java
 
-```
+```java
 package com.example.videoapp_demo;
 
 import android.content.DialogInterface;

@@ -6,7 +6,7 @@ Java 中 **[Locale 类](https://www.geeksforgeeks.org/java-util-locale-class-jav
 
 **语法:**
 
-```
+```java
 public static void setDefault(Locale newLoc)
 ```
 
@@ -22,7 +22,7 @@ public static void setDefault(Locale newLoc)
 下面的程序说明了区域设置类的 setDefault()方法:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate hashCode() method
 
 import java.util.*;
@@ -53,7 +53,7 @@ class Locale_Demo {
 
 **Output:**
 
-```
+```java
 First Locale: nu_NO_NY
 The Hash Code: ar_SA
 
@@ -61,7 +61,7 @@ The Hash Code: ar_SA
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate hashCode() method
 
 import java.util.*;
@@ -92,7 +92,7 @@ class Locale_Demo {
 
 **Output:**
 
-```
+```java
 First Locale: en_IN
 The Hash Code: en_GB
 

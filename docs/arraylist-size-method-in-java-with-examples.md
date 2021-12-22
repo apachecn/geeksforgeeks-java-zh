@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -16,7 +16,7 @@ public int size()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // size() method
 // for Integer value
@@ -64,7 +64,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Before operation: [1, 2, 3, 4, 5]
 Size of list = 5
 
@@ -72,7 +72,7 @@ Size of list = 5
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // size() method
 // for String value
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Before operation: [A, B, C]
 Size of list = 3
 

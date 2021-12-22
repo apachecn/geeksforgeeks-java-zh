@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate minusYears(long yearsToSubtract)
 
 ```
@@ -29,7 +29,7 @@ public LocalDate minusYears(long yearsToSubtract)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.minusYears() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before subtracting years:2020-10-22
 LocalDate after  subtracting years:1990-10-22
 
@@ -68,7 +68,7 @@ LocalDate after  subtracting years:1990-10-22
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.minusYears() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before subtracting years: 2020-02-29
 LocalDate after  subtracting years: 2041-02-28
 

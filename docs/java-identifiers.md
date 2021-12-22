@@ -4,7 +4,7 @@
 
 在编程语言中，标识符用于识别目的。在 Java 中，标识符可以是类名、方法名、变量名或标签。例如:
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -35,7 +35,7 @@ public class Test
 
 **有效标识符示例:**
 
-```
+```java
 MyVariable
 MYVARIABLE
 myvariable
@@ -52,7 +52,7 @@ geeks123
 
 **无效标识符示例:**
 
-```
+```java
 My Variable  // contains a space
 123geeks   // Begins with a digit
 a+c // plus sign is not an alphanumeric character

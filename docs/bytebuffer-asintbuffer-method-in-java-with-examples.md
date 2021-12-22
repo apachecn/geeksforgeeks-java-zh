@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract IntBuffer asIntBuffer()
 ```
 
@@ -22,7 +22,7 @@ public abstract IntBuffer asIntBuffer()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asIntBuffer() method
 // for ByteBuffer
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 IntBuffer : 10  20  30  30
 ```
 
@@ -88,7 +88,7 @@ IntBuffer : 10  20  30  30
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asIntBuffer() method
 // for ByteBuffer
@@ -161,7 +161,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 IntBuffer : 10  20  30  
 
 Trying to put the value in read only IntBuffer

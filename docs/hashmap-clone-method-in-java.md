@@ -10,7 +10,7 @@ java.util.HashMap.clone()方法存在于 java.util 包中，该包通常用于�
 
 **语法:**
 
-```
+```java
 Hash_Map.clone()
 ```
 
@@ -22,7 +22,7 @@ Hash_Map.clone()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the clone() Method by
 // Mapping String Values to Integer Keys
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The cloned map look like this: {25=Welcomes, 10=Geeks, 20=Geeks, 30=You, 15=4}
 ```
@@ -73,7 +73,7 @@ The cloned map look like this: {25=Welcomes, 10=Geeks, 20=Geeks, 30=You, 15=4}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the clone() method by
 // Mapping Integer Values to String Keys
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The cloned map look like this: {Geeks=20, 4=15, You=30, Welcomes=25}
 ```

@@ -29,7 +29,7 @@ Rectangle2D 类是 JavaFX 的一部分。Rectangle2D 类使用矩形左上角的
 
 1.  **Java Program to create an object of Rectangle2D and display its details and whether it contains a point and check whether it intersects a rectangle or not:** This program creates a Rectangle2D object named *rectangle* with *minX*, *minY*, *height* and *width* as parameters. The details of the Rectangle2D object is displayed using the display function. The display function displays the upper left coordinate of the rectangle and the bottom right corner of the rectangle and its width and height using the *getMinX()*, *getMinY()*, *getMaxX()*, *getMaxY()*, *getHeight()*, and *getWidth()* function. We will see whether the rectangle contains a point using the *contains()* function and also check whether it intersects the other rectangle using the intersects function and display the results.
 
-    ```
+    ```java
     // Java Program to create an object of 
     // Rectangle2D and display its details
     // and whether it contains a point and 
@@ -99,7 +99,7 @@ Rectangle2D 类是 JavaFX 的一部分。Rectangle2D 类使用矩形左上角的
 
 2.  **Java Program to create two objects of Rectangle2D and display its details and check whether it intersects each other or not:** This program creates two Rectangle2D objects named *rectangle_1*, and *rectangle_2* with *minX*, *minY*, *height*, and *width* as parameters. The details of the Rectangle2D object is displayed using the *display function*. The display function displays the upper left coordinate of the rectangle and the bottom right corner of the rectangle and its width and height using the *getMinX()*, *getMinY()*, *getMaxX()*, *getMaxY()*, *getHeight()*, and *getWidth()* function. We will check whether it intersects the other rectangle or not using the intersects function and display the results.
 
-    ```
+    ```java
     // Java Program to create two objects of
     // Rectangle2D and display its details and
     // check whether it intersects each other or not

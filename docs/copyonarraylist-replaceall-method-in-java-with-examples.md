@@ -6,7 +6,7 @@ java 中的**Java . util . concurrent . copyonarraylist . replace all()**方法�
 
 **语法:**
 
-```
+```java
  public void replaceAll(UnaryOperator operator)
 ```
 
@@ -18,7 +18,7 @@ java 中的**Java . util . concurrent . copyonarraylist . replace all()**方法�
 
 **程序 1:** 该程序涉及字符串类型的 CopyOnArraylist replaceAll()方法:
 
-```
+```java
 // Java Program to illustrate CopyOnArrayList
 // replaceAll() method
 
@@ -64,7 +64,7 @@ class MyOperator implements UnaryOperator<String> {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArrayList: [White, Red, Blue, Green]
 After replacement CopyonWriteArrayList: [White, White, Blue, Green]
 

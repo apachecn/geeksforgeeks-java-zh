@@ -5,7 +5,7 @@
 ***Java 8 中的 Java . util . stream . double stream***处理原语的双打。它有助于以一种新的方式解决在数组中寻找最大值、在数组中寻找最小值、在数组中所有元素的和以及在数组中所有值的平均值等老问题。 **DoubleStream average()** 返回描述该流元素算术平均值的 OptionalDouble，如果该流为空，则返回空的可选值。如果任何记录的值是 NaN 或者总和在任何点都是 NaN，那么平均值就是 NaN。
 **语法:**
 
-```
+```java
 OptionalDouble average()
 
 Where, OptionalDouble is a container object 
@@ -17,7 +17,7 @@ which may or may not contain a double value.
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream average()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -50,7 +50,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 4.4
 
 ```

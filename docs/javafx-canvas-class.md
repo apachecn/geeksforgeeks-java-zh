@@ -23,7 +23,7 @@ Canvas 类是 JavaFX 的一部分。Canvas 类基本上创建了一个图像，�
 
 1.  **Java Program to create a canvas with specified width and height(as arguments of constructor), add it to the stage and also add a circle and rectangle on it:** In this program we will create a Canvas named *canvas* with specified width and height. We will extract the *GraphicsContext* using the *getGraphicsContext2D()* function and draw a rectangle and a oval of different color. Now we will create a Group named *group* and add the canvas to the group. Now create a scene and add the group to the scene and then attach the scene to the stage and call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java Program to create a canvas with specified
     // width and height(as arguments of constructor),
     // add it to the stage and also add a circle and
@@ -91,7 +91,7 @@ Canvas 类是 JavaFX 的一部分。Canvas 类基本上创建了一个图像，�
 
 2.  **Java Program to create a canvas and use setHeight() and setWidth() function to set canvas size and add it to the stage and also add a circle and rectangle on it:** In this program we will create a Canvas named *canvas* and set the width and height using the *setWidth()* and *setHeight()* function. We will extract the GraphicsContext using the *getGraphicsContext2D()* function and draw two rectangles and a oval of different color. We will create a Group named *group* and add the canvas to the group. We will create a scene and add the group to the scene and then attach the scene to the stage. Finally, call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java Program to create a canvas and use 
     // setHeight() and setWidth() function to
     // set canvas size and add it to the stage

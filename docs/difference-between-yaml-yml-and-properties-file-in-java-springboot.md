@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 #.yml file
 
 some_key:value
@@ -20,7 +20,7 @@ some_bool:true
 
 **筑巢:**对于筑巢来说。yml 文件支持使用空格的层次结构。
 
-```
+```java
 # .yml file
 
 somemap:
@@ -33,7 +33,7 @@ somemap:
 
 **让我们在这样的文件中定义一个列表:**作为其规范的一部分，YAML 支持该列表。
 
-```
+```java
 #.properties file
 
 # A List
@@ -48,7 +48,7 @@ numbers = one, two
 
 **示例:**
 
-```
+```java
 #.properties file
 
 some_key = value
@@ -58,7 +58,7 @@ some_bool = true
 
 **筑巢:**对于筑巢来说。属性文件支持点(。)符号。中的内联格式。yml 文件与 JSON 非常相似
 
-```
+```java
 #.properties file
 
 somemap.key = value 
@@ -70,7 +70,7 @@ map2.date = 2016-01-01
 
 **我们在这样的文件中定义一个列表:**。属性文件不支持列表，但是 spring 使用数组作为约定来定义。属性文件。
 
-```
+```java
 #.yml file
 
 numbers:

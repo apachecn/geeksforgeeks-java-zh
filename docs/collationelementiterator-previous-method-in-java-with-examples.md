@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int previous()
 ```
 
@@ -18,7 +18,7 @@ public int previous()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate previous() method
 
 import java.text.*;
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current offset before calling previous() 3
 
 current element value after calling previous() 5505024
@@ -72,7 +72,7 @@ current element value after calling previous() 5505024
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate previous() method
 
 import java.text.*;
@@ -117,7 +117,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current offset before calling previous() 2
 
 current offset after calling previous() 1

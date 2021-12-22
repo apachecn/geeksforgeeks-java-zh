@@ -8,14 +8,14 @@ HTTP 协议处理程序也使用的系统范围的 CookieHandler 通常通过执
 
 **申报:**
 
-```
+```java
 public abstract class CookieHandler
 extends Object
 ```
 
 **施工方:**
 
-```
+```java
 CookieHandler();
 ```
 
@@ -23,7 +23,7 @@ CookieHandler();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the usage
 // of CookieHandler Class
 
@@ -70,7 +70,7 @@ public class JavaCookieHandlerExample1 {
 
 **输出:**
 
-```
+```java
 The domain is: .google.com
 ```
 

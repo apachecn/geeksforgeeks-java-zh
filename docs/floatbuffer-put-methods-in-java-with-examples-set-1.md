@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract FloatBuffer put(float f)
 ```
 
@@ -25,7 +25,7 @@ public abstract FloatBuffer put(float f)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -72,14 +72,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original FloatBuffer:  [8.56, 9.61, 7.86]
 
 ```
 
 **例 2:** 演示 BufferOverflowException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Trying to put the float at the position more than its limit
 Exception throws : java.nio.BufferOverflowException
 
@@ -140,7 +140,7 @@ Exception throws : java.nio.BufferOverflowException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -188,7 +188,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Trying to put the float value in read only buffer
 Exception throws : java.nio.ReadOnlyBufferException
 

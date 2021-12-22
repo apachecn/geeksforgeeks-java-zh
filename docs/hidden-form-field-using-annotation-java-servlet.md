@@ -9,7 +9,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 out.print("<form action='SecondServlet'>");
 out.print("<input type='hidden' name='username'
 value='" + n + "'>");
@@ -25,7 +25,7 @@ out.print("</form>");
 
 ## 超文本标记语言
 
-```
+```java
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ out.print("</form>");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Hidden form field method
 
@@ -123,7 +123,7 @@ for maintaining session of user.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Hidden form field method
 

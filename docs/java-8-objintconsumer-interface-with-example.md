@@ -20,7 +20,7 @@ ObjIntConsumer 界面由以下两个功能组成:
 
 **语法:**
 
-```
+```java
 void accept(T t, int value)
 ```
 
@@ -35,7 +35,7 @@ void accept(T t, int value)
 
 **程序:**
 
-```
+```java
 // Java code to demonstrate
 // accept() method of ObjIntConsumer Interface
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 6
 4
 10

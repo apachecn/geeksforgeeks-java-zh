@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public String getParent()
 ```
 
 **函数语法:**
 
-```
+```java
 file.getParent()
 ```
 
@@ -24,7 +24,7 @@ file.getParent()
 
 **例 1:** 给我们一个文件的文件对象，我们要得到文件对象的 Parent。
 
-```
+```java
 // Java program to demonstrate the
 // use of getParent() function
 
@@ -59,7 +59,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 File Parent : c:\users
 
 ```
@@ -68,7 +68,7 @@ File Parent : c:\users
 
 **例 2:** 给我们一个目录的文件对象，我们要得到文件对象的 Parent。
 
-```
+```java
 // Java program to demonstrate the
 // use of getParent() function
 
@@ -103,7 +103,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 File Parent : c:\users
 
 ```

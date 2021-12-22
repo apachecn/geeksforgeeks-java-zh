@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract IntBuffer asReadOnlyBuffer()
 ```
 
@@ -18,7 +18,7 @@ public abstract IntBuffer asReadOnlyBuffer()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original IntBuffer:  [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 
 ReadOnlyBuffer IntBuffer: 8, 0, 9, 0, 0, 0, 0, 0, 0, 0,
@@ -82,7 +82,7 @@ ReadOnlyBuffer IntBuffer: 8, 0, 9, 0, 0, 0, 0, 0, 0, 0,
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -159,7 +159,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 IntBuffer ib: [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 
 IntBuffer ib1:  [0, 4, 6, 0, 0]

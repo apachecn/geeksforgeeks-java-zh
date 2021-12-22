@@ -14,7 +14,7 @@
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java Program to add an element in an Array
 
     import java.io.*;
@@ -74,7 +74,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Initial Array:
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -85,7 +85,7 @@
 
 2.  **通过使用数组列表作为中间存储:**
 
-    ```
+    ```java
     // Java Program to add an element in an Array
 
     import java.io.*;
@@ -145,7 +145,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Initial Array:
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 

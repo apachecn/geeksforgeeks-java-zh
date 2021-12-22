@@ -30,13 +30,13 @@ Java 8: 时间日期 API 存在于 java.time 包中。
 
 **语法:**
 
-```
+```java
 date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert java.util.Date to
 // java.time.LocalDate
 //  Using Instance and ZonedDateTime
@@ -68,7 +68,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2020-12-21
 ```
 
@@ -81,13 +81,13 @@ class GFG {
 
 **语法:**
 
-```
+```java
 Instant.ofEpochMilli(date.getTime()) .atZone(ZoneId.systemDefault()).toLocalDate()
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert java.util.Date to
 // java.time.LocalDate
 // Using Instant and Date.getTime()
@@ -119,7 +119,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2020-12-21
 ```
 
@@ -131,13 +131,13 @@ class GFG {
 
 **语法**
 
-```
+```java
 LocalDate.ofInstant(date.toInstant(), ZoneId.systemDefault());
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert java.util.Date to
 // java.time.LocalDate
 //  Using ofInstant() and ZoneId.systemDefault()
@@ -167,6 +167,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 2020-12-21
 ```

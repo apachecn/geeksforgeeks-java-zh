@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     New_Enum_Set = EnumSet.copyOf(*Collection collect*)
     ```
 
@@ -21,7 +21,7 @@
 
     下面的程序说明了 java.util.EnumSet.copyOf()方法的工作原理:
 
-    ```
+    ```java
     // Java program to demonstrate copyOf() method
     import java.util.*;
 
@@ -62,7 +62,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The collection is: [Welcome, World, Geeks]
     The enum set is:[Welcome, World, Geeks]
 
@@ -72,7 +72,7 @@
 
     **语法:**
 
-    ```
+    ```java
     New_Enum_Set = EnumSet.copyOf(*EnumSet e_set*)
     ```
 
@@ -84,7 +84,7 @@
 
     下面的程序说明了 java.util.EnumSet.copyOf()方法的工作原理:
 
-    ```
+    ```java
     // Java program to demonstrate copyOf() method
     import java.util.*;
 
@@ -121,7 +121,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Initial set is: [RANGE_ROVER, MUSTANG, CAMARO, AUDI, BMW]
     The new set is: [RANGE_ROVER, MUSTANG, CAMARO, AUDI, BMW]
 

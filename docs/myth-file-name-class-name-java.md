@@ -6,7 +6,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /***** File name: Trial.java ******/
 public class Geeks {
     public static void main(String[] args)
@@ -18,7 +18,7 @@ public class Geeks {
 
 **输出:**
 
-```
+```java
 javac Trial.java
 Trial.java:9: error: class Geeks is public, should be
                     declared in a file named Geeks.java
@@ -32,7 +32,7 @@ public class Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /***** File name: Trial.java ******/
 class Geeks {
     public static void main(String[] args)
@@ -44,7 +44,7 @@ class Geeks {
 
 **第一步:**
 
-```
+```java
 javac Trial.java
 
 ```
@@ -52,7 +52,7 @@ javac Trial.java
 步骤 1 将创建一个 Geeks.class(字节码)，没有任何错误消息，因为这个类不是公共的。
 **第二步:**
 
-```
+```java
 java Geeks
 
 ```
@@ -69,7 +69,7 @@ java Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*** File name: Trial.java ***/
 class ForGeeks {
     public static void main(String[] args)
@@ -96,7 +96,7 @@ class GeeksTest {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to find area of triangle
 class Triangle {
     int x, y;
@@ -121,7 +121,7 @@ class Demo {
 **注:**这里有两个班，**三角**和**演示**。那么文件名必须考虑哪个类名呢？
 类名 Demo 必须作为文件名。以 Demo 为文件名背后的原因是它有主方法，执行从主方法开始。
 
-```
+```java
 Filename: Demo.java
 Compilation: javac Demo.java
 Run: java Demo

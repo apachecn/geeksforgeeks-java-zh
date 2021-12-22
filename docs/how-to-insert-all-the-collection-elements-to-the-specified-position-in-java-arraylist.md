@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to insert Collection element at
 // specified index
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The ArrayList is : [Computer, Science, Portal, GeeksforGeeks]
 List after addition of element at specific index : 
 [Computer, x, y, z, Science, Portal, GeeksforGeeks]
@@ -88,7 +88,7 @@ List after addition of element at specific index :
 
 **Output**
 
-```
+```java
 The ArrayList is : [Computer, Science, Portal, GeeksforGeeks]
 List after addition of element at specifc index : 
 [Computer, x, y, z, Science, Portal, GeeksforGeeks]

@@ -5,7 +5,7 @@
 **Java . util . concurrent . atomic . AtomicIntegerArray . GetAnDadd()**是 Java 中的一个内置方法，它在 atomicntegerarray 的索引处自动给元素添加给定值。此方法将原子数组的索引值和要添加的值作为参数，并在添加操作之前返回该值。函数 **getAndAdd()** 与 **addAndGet()** 类似，但前者函数返回加法运算前的值，后者返回加法运算后的值。
 **语法:**
 
-```
+```java
 public final int getAndAdd(int i, int delta)
 ```
 
@@ -20,7 +20,7 @@ public final int getAndAdd(int i, int delta)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the getAndAdd() function
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The array : [10, 22, 33, 44, 55]
 Value at index 0 before update is 10
 The array after update : [26, 22, 33, 44, 55]

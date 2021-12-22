@@ -12,25 +12,25 @@
 
 **语法:**
 
-```
+```java
 public static double log1p(double a)
 ```
 
 **参数:**
 
-```
+```java
 a : User input
 ```
 
 **返回:**
 
-```
+```java
 This method returns the value ln(x + 1), the natural log of x + 1.
 ```
 
 **示例:**展示 **java.lang.Math.log1p()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.log1p() method
 import java.lang.Math;
@@ -71,7 +71,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 3.196630215920881
 NaN
 Infinity

@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```java
 Input : www.google.com
 Output : 216.58.199.164
 
@@ -23,7 +23,7 @@ Output : 127.0.0.1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // how to fetch public IP Address
 import java.net.*;
@@ -54,7 +54,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Public IP Address of: www.google.com/216.58.196.164
 ```
 
@@ -63,7 +63,7 @@ Public IP Address of: www.google.com/216.58.196.164
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // how to fetch public IP Address
 import java.net.*;
@@ -95,6 +95,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Public IP Address: 103.62.239.242
 ```

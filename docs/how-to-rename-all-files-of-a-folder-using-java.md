@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : Read 50 files from the folder 
 "C:\Users\Anannya Uberoi\Desktop\myfolder":
 Snapshot 1 (12-05-2017 11-57).png
@@ -21,7 +21,7 @@ Snapshot 4 (12-05-2017 11-57).png   and so on.
 
 ```
 
-```
+```java
 // Java program to illustrate
 // how to rename Multiple Files
 // together using single program
@@ -68,7 +68,7 @@ public class rename
 
 输出:
 
-```
+```java
 The files get renamed successfully.
 
 ```

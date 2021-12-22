@@ -22,7 +22,7 @@
 
 **Java 中的简单代码片段**
 
-```
+```java
 int index = 0;
 while(true)
 {
@@ -35,7 +35,7 @@ while(true)
 
 **JAVA 中的变异代码**
 
-```
+```java
 int index = 0;
 while (true)
 {
@@ -50,7 +50,7 @@ while (true)
 
 **Jumble 示例** 下面写的代码已经在 Eclipse 中用 Jumble 插件测试过了。该代码检测到第一次出现重复，并将该值返回给调用函数。这个程序在很多方面都有缺陷，你可以试着弄清楚。
 
-```
+```java
 // Java program to illustrate mutation Testing
 // The code detects the first occurrence of a 
 // duplicate and returns the value to the calling
@@ -93,7 +93,7 @@ public class SampProg
 
 写完程序后，我们用 Java 中的 [JUnit](http://junit.org/junit4/) 创建测试用例。下面给出了执行旧杂货分析时获得的输出:
 
-```
+```java
 Mutating testPackage.SampProg
 Tests: testPackage.SampProgTest
 Mutation points = 11, unit test time limit 2.94s

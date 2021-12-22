@@ -28,7 +28,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG | Change App Language</string>
     <string name="selected_language">हिन्दी</string>
@@ -40,7 +40,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG | Change App Language</string>
     <string name="selected_language">English</string>
@@ -52,7 +52,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources> 
     <color name="colorPrimary">#0F9D58</color> 
     <color name="colorPrimaryDark">#16E37F</color> 
@@ -66,7 +66,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -115,7 +115,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -188,7 +188,7 @@ public class LocaleHelper {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;

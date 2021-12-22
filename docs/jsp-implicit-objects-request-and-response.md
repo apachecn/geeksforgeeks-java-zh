@@ -7,7 +7,7 @@ JSP 代表 Java Server Pages，是服务器端技术。它用于创建网络应�
 
 ## 超文本标记语言
 
-```
+```java
 <%@ page language = "java" contentType = "text/html; charset = UTF-8"
     pageEncoding = "UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01
@@ -44,7 +44,7 @@ Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 JSP 请求是一个隐式对象，由 HttpServletRequest 提供。在 servlet 中，我们必须首先导入 javax . servlet . http . HttpServletrequest，然后我们必须创建它的对象，用于从任何 HTML 表单中获取输入。
 **语法:**
 
-```
+```java
 import javax.servlet.http.HttpServletRequest;
 
 public class LoginServlet extends HttpServlet 
@@ -62,7 +62,7 @@ public class LoginServlet extends HttpServlet
 
 ## 超文本标记语言
 
-```
+```java
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -90,7 +90,7 @@ public class LoginServlet extends HttpServlet
 
 ## 超文本标记语言
 
-```
+```java
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -118,7 +118,7 @@ out.print("Welcome "+ name); 
 
 ## 超文本标记语言
 
-```
+```java
 <!DOCTYPE html>
 <html>
 <head>

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void set(V newValue)
 
 ```
@@ -18,7 +18,7 @@ public final void set(V newValue)
 下面的程序说明了 set()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.set() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value 1 = 13243546
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.set() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 V  = WELCOME TO GEEKS FOR GEEKS
 
 ```

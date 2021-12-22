@@ -16,7 +16,7 @@
 
 导航到 **Gradle 脚本> build.gradle(模块:应用)**，在依赖项部分添加库，并同步项目。
 
-```
+```java
 dependencies {
     implementation 'com.github.florent37:awesomebar:1.0.3'
 }
@@ -30,7 +30,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.DrawerLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -82,7 +82,7 @@ dependencies {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;

@@ -4,7 +4,7 @@
 
 给定一个[列表](https://www.geeksforgeeks.org/list-interface-java-examples/)，找到其中最大的元素。有多种方法可以解决这个问题，比如遍历列表或者使用各种内置函数。
 
-```
+```java
 Input  : List = [5, 3, 234, 114, 154]
 Output : 234
 
@@ -26,6 +26,6 @@ Output : 20
 
 T0T7**输出**
 
-```
+```java
 The maximum value is 1540
 ```

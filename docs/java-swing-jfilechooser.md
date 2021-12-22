@@ -11,7 +11,7 @@ JFileChooser 是 java Swing 包的一部分。java Swing 包是 JavaTM 基础类
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Using this process to invoke the constructor,
 // JFileChooser points to user's default directory
 JFileChooser j = new JFileChooser();
@@ -28,7 +28,7 @@ j.showSaveDialog(null);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Using this process to invoke the constructor,
 // JFileChooser points to the mentioned path
 JFileChooser j = new JFileChooser("d:");
@@ -45,7 +45,7 @@ j.showSaveDialog(null);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Using this process to invoke the constructor,
 // JFileChooser points to the mentioned path
 // of the file passed
@@ -63,7 +63,7 @@ j.showSaveDialog(null);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // In this process argument passed
 // is an object of File System View
 JFileChooser j = new JFileChooser(FileSystemView.getFileSystemView());
@@ -80,7 +80,7 @@ j.showSaveDialog(null);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // In this process argument passed is an object
 // of File System View, and a path
 JFileChooser j = new JFileChooser("d:", FileSystemView.getFileSystemView());
@@ -97,7 +97,7 @@ j.showSaveDialog(null);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // In this process argument passed is an object
 // of File System View and a object of
 // File class
@@ -122,7 +122,7 @@ j.showSaveDialog(null);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create open or
 // save dialog using JFileChooser
 import java.io.*;
@@ -235,7 +235,7 @@ class filechooser extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to use JFileChooser
 // to select  directory only
 import java.io.*;
@@ -346,7 +346,7 @@ class filechooser extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to use JFileChooser to allow multiple selection of files
 import java.io.*;
 import javax.swing.*;
@@ -473,7 +473,7 @@ class filechooser extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to use JFileChooser to restrict
 // the type of files shown to the user
 import java.io.*;

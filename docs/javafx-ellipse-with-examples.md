@@ -30,7 +30,7 @@
 
     该程序创建一个由名称椭圆指示的椭圆(中心和半径的坐标作为参数传递)。椭圆将在场景内创建，而场景又将在舞台内托管。函数 setTitle()用于为舞台提供标题。然后创建一个组，并附加椭圆。这个小组附属于现场。最后，调用 show()方法显示最终结果。
 
-    ```
+    ```java
     // Java program to create ellipse by passing the
     // coordinates of the center and radius as arguments in constructor
     import javafx.application.Application;
@@ -80,7 +80,7 @@
 
     该程序创建一个由名称椭圆表示的椭圆。中心和半径的坐标将使用函数 setCenterX()、setCenterY()、setRadiusX()和 setRadiusY()函数来设置。椭圆将在场景内创建，而场景又将在舞台内托管。函数 setTitle()用于为舞台提供标题。然后创建一个组，并附加椭圆。这个小组附属于现场。最后，调用 show()方法显示最终结果。
 
-    ```
+    ```java
     // Java program to create ellipse by passing the
     // coordinates of the center and radius using
     // functions setCenterX(), setCenterY() etc.
@@ -139,7 +139,7 @@
 
     该程序创建一个由名称椭圆表示的椭圆。中心和半径的坐标将使用函数 setCenterX()、setCenterY()、setRadiusX()和 setRadiusY()函数来设置。函数 setFill()将用于设置椭圆的填充。椭圆将在场景内创建，而场景又将在舞台内托管。函数 setTitle()用于为舞台提供标题。然后创建一个组，并附加椭圆。这个小组附属于现场。最后，调用 show()方法显示最终结果。
 
-    ```
+    ```java
     // Java program to create ellipse by passing the
     // coordinates of the center and radius using
     // functions setCenterX(), setCenterY(), and

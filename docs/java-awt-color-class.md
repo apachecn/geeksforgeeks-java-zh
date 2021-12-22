@@ -52,7 +52,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to set the background color of panel
 // using the color specified in the constants
 // of the class.
@@ -97,7 +97,7 @@ class color extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a new Color by stating
 // the RGB value and set it as background of panel
 import java.awt.*;
@@ -142,7 +142,7 @@ class color extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a new Color by stating the
 // RGB value and alpha value, set it as background
 // of panel .
@@ -190,7 +190,7 @@ class color extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a new Color by using
 // Color(int rgb) method, set it as background
 // of panel .
@@ -238,7 +238,7 @@ class color extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to take RGBA value from
 // user and set it as background of panel
 import java.awt.*;
@@ -360,7 +360,7 @@ class color extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to take HSB value from
 // user and set it as background of panel
 import java.awt.*;

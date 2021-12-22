@@ -8,7 +8,7 @@ LinkedBlockingQueue 的 **toArray** 方法用于创建一个数组，该数组�
 
 **语法:**
 
-```
+```java
 public Object[] toArray()
 ```
 
@@ -20,7 +20,7 @@ public Object[] toArray()
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate toArray()
 // method of LinkedBlockingQueue
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue Contains [2300, 1322, 8945, 6512]
 The array contains:
 2300    1322    8945    6512
@@ -71,7 +71,7 @@ The array contains:
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate toArray()
 // method of LinkedBlockingQueue
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The array contains:
 User Employee Manager Analyst HR
 ```
@@ -119,7 +119,7 @@ User Employee Manager Analyst HR
 
 **语法:**
 
-```
+```java
 public <T> T[] toArray(T[] a)
 ```
 
@@ -138,7 +138,7 @@ public <T> T[] toArray(T[] a)
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // toArray(T[] a) method
 // method of LinkedBlockingQueue
@@ -191,7 +191,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Queue Contains : [Sonali, Sonam, Kajal, Komal]
 
 The array passed :
@@ -205,7 +205,7 @@ Sonali    Sonam    Kajal    Komal
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate
 // toArray()
 // method Exceptions.
@@ -252,7 +252,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.ArrayStoreException: java.lang.Integer
 ```
 
@@ -260,7 +260,7 @@ Exception: java.lang.ArrayStoreException: java.lang.Integer
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // toArray() method Exceptions.
 
@@ -305,7 +305,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 ```
 

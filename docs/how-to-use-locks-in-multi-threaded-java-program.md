@@ -4,7 +4,7 @@
 
 锁可能是比标准同步块更灵活和复杂的线程同步机制。锁可以是用于控制多个线程对共享资源的访问的工具。通常，锁提供对共享资源的独占访问:一次只有一个线程可以获取锁，每个访问共享资源的人都需要先获取锁。然而，有些锁可能允许对共享资源的并发访问，比如读写锁的读锁。
 
-```
+```java
 // Example of lock interface
 Lock lock = new ReentrantLock();
 lock.lock();
@@ -36,7 +36,7 @@ lock.unlock();
 
 [T2【1 .读写锁()T4](https://www.geeksforgeeks.org/readwritelock-interface-in-java/#:~:text=A%20java.util.concurrent.,resource%20without%20causing%20concurrency%20errors.)
 
-```
+```java
 ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
 
 readWriteLock.readLock().lock();
@@ -59,7 +59,7 @@ readWriteLock.writeLock().unlock();
 
 T3】JavaT5
 
-```
+```java
 // Implementation of ReadWriteLock in Java
 import java.io.*;
 import java.util.ArrayList;
@@ -131,7 +131,7 @@ T6T8**输出**T1
 
 [**2。重入锁定()**](https://www.geeksforgeeks.org/reentrant-lock-java/)
 
-```
+```java
 public class lockImplement {
     //...
     ReentrantLock lock = new ReentrantLock();
@@ -158,7 +158,7 @@ T0T6】
 
 **输出:**
 
-```
+```java
 task name - Job2 waiting for lock
 task name - Job1 outer lock acquired at 09:49:42 Doing outer work
 task name - Job2 waiting for lock

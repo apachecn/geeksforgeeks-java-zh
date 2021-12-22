@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: ArrayList: [Geeks, forGeeks, A computer Portal] 
 Output: LinkedList: [Geeks, forGeeks, A computer Portal]
 Input: ArrayList: [1, 2, 3, 4, 5] 
@@ -45,7 +45,7 @@ Output: LinkedList: [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // ArrayList to LinkedList 
 // using Naive method
@@ -95,7 +95,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: [Geeks, forGeeks, A computer Portal]
 LinkedList: [Geeks, forGeeks, A computer Portal]
 ```
@@ -114,7 +114,7 @@ LinkedList: [Geeks, forGeeks, A computer Portal]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // ArrayList to LinkedList
 // using List Constructor
@@ -158,7 +158,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: [Geeks, forGeeks, A computer Portal]
 LinkedList: [Geeks, forGeeks, A computer Portal]
 ```
@@ -179,7 +179,7 @@ LinkedList: [Geeks, forGeeks, A computer Portal]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // ArrayList to LinkedList
 // using Streams API
@@ -230,7 +230,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: [Geeks, forGeeks, A computer Portal]
 LinkedList: [Geeks, forGeeks, A computer Portal]
 ```
@@ -250,7 +250,7 @@ Guava 还提供了一个 LinkedList 实现，可以使用 Collection.addAll()方
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // ArrayList to LinkedList
 // using Google's Guave library
@@ -297,7 +297,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: [Geeks, forGeeks, A computer Portal]
 LinkedList: [Geeks, forGeeks, A computer Portal]
 ```
@@ -319,7 +319,7 @@ LinkedList: [Geeks, forGeeks, A computer Portal]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // ArrayList to LinkedList for
 // Conversion between incompatible types
@@ -371,7 +371,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 ArrayList: [1, 2, 3, 4, 5]
 LinkedList: [1, 2, 3, 4, 5]
 ```

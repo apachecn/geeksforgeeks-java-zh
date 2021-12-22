@@ -8,7 +8,7 @@
 
 **阶级等级**
 
-```
+```java
 java.lang.Object
 ↳ java.util.concurrent.ForkJoinTask
   ↳ java.util.concurrent.RecursiveTask<V>
@@ -19,7 +19,7 @@ java.lang.Object
 
 1.  **RecursiveTask()**–使用默认设置创建 RecursiveTask 对象。
 
-    ```
+    ```java
     public RecursiveTask()
 
     ```
@@ -28,35 +28,35 @@ java.lang.Object
 
 1.  **Calculation ()** – The method of defining the task.
 
-    ```
+    ```java
     protected abstract void compute()
 
     ```
 
 2.  **【 exec ()** –This method realizes the basic rules necessary for executing tasks.
 
-    ```
+    ```java
     protected final boolean exec()
 
     ```
 
 3.  **Getrawesult ()** –The function returns the value obtained after the task is completed, even if the task is abnormally completed. If the task has not been completed, it will return null.
 
-    ```
+    ```java
     public final Void getRawResult()
 
     ```
 
 4.  **setrawesult ()** –The function sets the return value of the task to the value passed in the parameter.
 
-    ```
+    ```java
     protected final void setRawResult(Void mustBeNull)
 
     ```
 
 示例演示 RecursiveTask
 
-```
+```java
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
@@ -113,7 +113,7 @@ class Sum extends RecursiveTask<Double> {
 
 **输出:**
 
-```
+```java
 Summation 6245000.0
 
 ```

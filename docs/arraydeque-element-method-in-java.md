@@ -6,7 +6,7 @@ java 中的 java.util.ArrayDeque.element()方法用于检索或获取 ArrayDeque
 
 **语法:**
 
-```
+```java
 Array_Deque.element()
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.element()
 下面的程序说明了 Java.util.ArrayDeque.element()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate ArrayDeque element() method
 import java.util.*;
 
@@ -45,7 +45,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The head element is: Welcome
 
@@ -53,7 +53,7 @@ The head element is: Welcome
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate ArrayDeque element() method
 import java.util.*;
 
@@ -81,7 +81,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 The head element is: 10
 

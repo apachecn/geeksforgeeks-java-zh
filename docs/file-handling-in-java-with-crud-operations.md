@@ -74,7 +74,7 @@
 
 **使用 RandomAccessFile 打开文件的语法:**
 
-```
+```java
 File file = new File( filename )
 RandomAccessFile raf = new RandomAccessFile(file, mode)
 ```
@@ -85,7 +85,7 @@ RandomAccessFile raf = new RandomAccessFile(file, mode)
 
 【friendsContact.txt 文件中联系人的语法:
 
-```
+```java
 Name!Number
 ```
 
@@ -93,7 +93,7 @@ Name!Number
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a file "friendsContact.txt"
 // and add a new contact in the file
 
@@ -213,7 +213,7 @@ class AddFriend {
 
 **在新创建的文件中编译并添加联系人:**
 
-```
+```java
 javac AddFriend.java 
 
 java AddFriend abc 1111111111 
@@ -231,7 +231,7 @@ Input name or number already exist
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to read from file "friendsContact.txt"
 // and display the contacts
 
@@ -308,7 +308,7 @@ class DisplayFriends {
 
 **从文件中编译和读取联系人:**
 
-```
+```java
 javac DisplayFriends.java 
 
 java DisplayFriends
@@ -330,7 +330,7 @@ Contact Number: 4444444444
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to update in the file "friendsContact.txt"
 // and change the number of an old contact
 
@@ -503,7 +503,7 @@ class UpdateFriend {
 
 **编译并更新文件中的联系人:**
 
-```
+```java
 javac UpdateFriend.java 
 
 java UpdateFriend abc 1234567890
@@ -521,7 +521,7 @@ Input name does not exists.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to delete a contact
 // from the file "friendsContact.txt"
 
@@ -683,7 +683,7 @@ class DeleteFriend {
 
 **编辑和删除文件中的联系人:**
 
-```
+```java
 javac DeleteFriend.java 
 
 java DeleteFriend pqr
@@ -699,7 +699,7 @@ Input name does not exists.
 
 ## 创造
 
-```
+```java
 // Java program to create a file "friendsContact.txt"
 // and add a new contact in the file
 
@@ -817,7 +817,7 @@ class AddFriend {
 
 ## 阅读
 
-```
+```java
 // Java program to read from file "friendsContact.txt"
 // and display the contacts
 
@@ -892,7 +892,7 @@ class DisplayFriends {
 
 ## 更新
 
-```
+```java
 // Java program to update in the file "friendsContact.txt"
 // and change the number of an old contact
 
@@ -1063,7 +1063,7 @@ class UpdateFriend {
 
 ## 删除
 
-```
+```java
 // Java program to delete a contact
 // from the file "friendsContact.txt"
 

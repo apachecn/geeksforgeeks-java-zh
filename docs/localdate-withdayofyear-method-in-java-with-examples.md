@@ -6,7 +6,7 @@ Java 中 **LocalDate 类**的 **withDayOfYear()** 方法返回一个该 LocalDat
 
 **语法:**
 
-```
+```java
 public LocalDate withDayOfYear(int dayOfYear)
 ```
 
@@ -20,7 +20,7 @@ public LocalDate withDayOfYear(int dayOfYear)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withDayOfYear() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 The date with day of year is: 2018-01-01
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withDayOfYear() method
 // Exceptions
 import java.util.*;
@@ -77,7 +77,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 java.time.DateTimeException: Invalid value for DayOfYear (valid values 1 - 365/366): 370
 
 ```

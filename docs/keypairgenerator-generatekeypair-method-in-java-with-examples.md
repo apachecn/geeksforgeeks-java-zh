@@ -7,7 +7,7 @@
 这将在每次调用时生成一个新的密钥对。
 **语法:**
 
-```
+```java
 public KeyPair generateKeyPair()
 ```
 
@@ -18,7 +18,7 @@ public KeyPair generateKeyPair()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // generateKeyPair() method
 
@@ -55,7 +55,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Keypair : java.security.KeyPair@12a3a380
 ```
 
@@ -63,7 +63,7 @@ Keypair : java.security.KeyPair@12a3a380
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // generateKeyPair() method
 
@@ -96,6 +96,6 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Keypair : java.security.KeyPair@12a3a380
 ```

@@ -12,7 +12,7 @@
 
 1.  **Initialization of variable Mandatory :** If the instance variable declared as final, then we have to perform initialization explicitly whether we are using it or not and JVM won’t provide any default value for the final instance variable.
 
-    ```
+    ```java
     // Java program to illustrate the behavior 
     // of final instance variable
     class Test {
@@ -27,14 +27,14 @@
 
     输出:
 
-    ```
+    ```java
     error: variable x not initialized in the default constructor
 
     ```
 
 2.  **Initialization before constructor completion :** For final instance variable we have to perform initialization before constructor completion. We can initialize a final instance variable at the time of declaration.
 
-    ```
+    ```java
     // Java program to illustrate that 
     // final instance variable
     // should be declared at the 
@@ -51,14 +51,14 @@
 
     输出:
 
-    ```
+    ```java
     10
 
     ```
 
 3.  **Initialize inside a non-static or instance block :** We can also initialize a final instance variable inside a non-static or instance block also.
 
-    ```
+    ```java
     // Java program to illustrate 
     // that final instance variable
     // can be initialize within instance block
@@ -77,14 +77,14 @@
 
     输出:
 
-    ```
+    ```java
     10
 
     ```
 
 4.  **Initialization in default constructor :** Inside default constructor we can also initialize a final instance variable.
 
-    ```
+    ```java
     // Java program to illustrate that 
     // final instance variable
     // can be initialized 
@@ -105,14 +105,14 @@
 
     输出:
 
-    ```
+    ```java
     10
 
     ```
 
 上面提到的是执行最终实例变量初始化的唯一可能的地方。如果我们试图在其他任何地方执行初始化，那么我们将得到编译时错误。
 
-```
+```java
 // Java program to illustrate 
 // that we cant declare
 // final instance variable 
@@ -130,12 +130,12 @@ class Test {
 
 输出:
 
-```
+```java
 error: non-static variable x cannot be referenced from a static context
 
 ```
 
-```
+```java
 // Java program to illustrate that we
 //  cant declare or initialize
 // final instance variable within any methods
@@ -150,7 +150,7 @@ class Test {
 
 输出:
 
-```
+```java
 error: cannot assign a value to final variable x
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getSequenceNumber()
 
 ```
@@ -18,7 +18,7 @@ public long getSequenceNumber()
 下面的程序说明了 getSequenceNumber()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getSequenceNumber() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 SequenceNumber = 1213425
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getSequenceNumber() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 SequenceNumber = 9243254365
 
 ```

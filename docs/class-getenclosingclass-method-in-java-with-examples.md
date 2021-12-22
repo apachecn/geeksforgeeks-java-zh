@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Class getEnclosingClass() throws SecurityException
 
 ```
@@ -21,7 +21,7 @@ public Class getEnclosingClass() throws SecurityException
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getEnclosingClass() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 EnclosingClass of myClass: null
 
@@ -55,7 +55,7 @@ EnclosingClass of myClass: null
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getEnclosingClass() method
 
 import java.util.*;
@@ -91,7 +91,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 EnclosingClass of myClass: class Main
 
 ```

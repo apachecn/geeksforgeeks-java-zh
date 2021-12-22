@@ -6,7 +6,7 @@
 
 ****申报:****
 
-```
+```java
 @GwtCompatible(emulated=true)
 public final class Ints
 extends Object 
@@ -30,7 +30,7 @@ Ints 类提供的一些方法有:
 下面给出了一些示例，显示了番石榴 Ints 类的方法的实现:
 **示例 1 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Ints.asList() method
 
@@ -56,13 +56,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [5, 10, 15, 20, 25] 
 ```
 
 ****例 2 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Ints.toArray() method
 
@@ -88,13 +88,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [5, 10, 15, 20, 25] 
 ```
 
 ****例 3 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Ints.concat() method
 
@@ -121,13 +121,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [5, 10, 15, 20, 25] 
 ```
 
 ****例 4 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Ints.contains() method
 
@@ -150,14 +150,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 true
 false 
 ```
 
 ****例 5 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Ints.min() method
 
@@ -177,13 +177,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 5 
 ```
 
 ****例 6 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Ints.max() method
 
@@ -203,6 +203,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 20 
 ```

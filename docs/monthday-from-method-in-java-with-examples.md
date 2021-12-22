@@ -6,7 +6,7 @@ Java 中 **MonthDay 类**的 **from()** 方法从时态对象中获取 MonthDay 
 
 **语法:**
 
-```
+```java
 public static MonthDay from(TemporalAccessor temporal)
 ```
 
@@ -20,7 +20,7 @@ public static MonthDay from(TemporalAccessor temporal)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the from() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 --12-06
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the from() method
 
 import java.util.*;
@@ -63,7 +63,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 --12-06
 
 ```

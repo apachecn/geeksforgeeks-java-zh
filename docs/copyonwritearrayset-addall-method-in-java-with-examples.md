@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean addAll(Collection<E> c)
 ```
 
@@ -20,7 +20,7 @@ public boolean addAll(Collection<E> c)
 
 **程序 1:** 在下面的程序中，指定的集合元素被添加到 CopyOnWriteArraySet 中。由于 50 在两个集合中都很常见，所以只添加一次。
 
-```
+```java
 // Java Program to illustrate the
 // CopyOnWriteArraySet addall() method in Java
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArraySet: [10, 20, 30, 50]
 ArrayList:  [50, 60, 70, 80]
 Updated CopyOnWriteArraySet: [10, 20, 30, 50, 60, 70, 80]
@@ -81,7 +81,7 @@ Updated CopyOnWriteArraySet: [10, 20, 30, 50, 60, 70, 80]
 
 **程序 2:** 显示空指针异常
 
-```
+```java
 // Java Program to illustrate the
 // CopyOnWriteArraySet addall() method in Java
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArraySet: [10, 20, 30, 50]
 java.lang.NullPointerException
 

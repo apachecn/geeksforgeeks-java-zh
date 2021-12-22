@@ -14,7 +14,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Iterate LinkedHashSet Elements
 
 import java.util.*;
@@ -50,7 +50,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Element is 1
 Element is 2
 Element is 3

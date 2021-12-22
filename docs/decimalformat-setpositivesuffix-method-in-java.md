@@ -6,7 +6,7 @@ Java 中**十进制格式**类的**setpositionvesuffix()**方法用于为此十�
 
 **语法** :
 
-```
+```java
 public void setPositiveSuffix(String newValue)
 
 ```
@@ -17,7 +17,7 @@ public void setPositiveSuffix(String newValue)
 
 下面程序举例说明上面的方法:
 
-```
+```java
 // Java program to illustrate the
 // setPositiveSuffix() method
 
@@ -42,7 +42,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 12, 345positive
 
 ```

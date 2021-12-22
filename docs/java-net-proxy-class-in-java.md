@@ -8,13 +8,13 @@
 
 **语法:**类声明
 
-```
+```java
 public class Proxy extends Object
 ```
 
 让我们在跳到方法之前讨论一下这个类的构造函数
 
-```
+```java
 Proxy(Proxy.Type type, SocketAddress sa)
 ```
 
@@ -44,7 +44,7 @@ Proxy(Proxy.Type type, SocketAddress sa)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Proxy Class
 // of java.net package
 

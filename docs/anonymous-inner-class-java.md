@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 // Test can be interface,abstract/concrete class
 Test t = new Test() 
 {
@@ -62,7 +62,7 @@ Test t = new Test()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Need for
 // Anonymous Inner class
 
@@ -111,7 +111,7 @@ class GFG {
 
 在上面的程序中，接口 Age 是用 getAge()方法创建的，x=21。Myclass 是作为 Age 接口的实现类编写的。正如在程序中所做的，没有必要编写一个单独的类 Myclass。相反，直接将 Myclass 的代码复制到这个参数中，如下所示:
 
-```
+```java
 Age oj1 = new Age() 
 {
     @Override
@@ -128,7 +128,7 @@ Age oj1 = new Age()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Anonymous inner class
 
 // Interface
@@ -163,7 +163,7 @@ class AnonymousDemo {
 
 **Output**
 
-```
+```java
 Age is 21
 ```
 
@@ -183,7 +183,7 @@ Age is 21
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate creating an immediate thread
 // Using Anonymous Inner class that extends a Class
 
@@ -217,7 +217,7 @@ class MyThread {
 
 **Output**
 
-```
+```java
 Main Thread
 Child Thread
 ```
@@ -230,7 +230,7 @@ Child Thread
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate defining a thread
 // Using Anonymous Inner class that implements an interface
 
@@ -268,7 +268,7 @@ class MyThread {
 
 **Output**
 
-```
+```java
 Main Thread
 Child Thread
 ```
@@ -281,7 +281,7 @@ Child Thread
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate defining a thread
 // Using Anonymous Inner class that define inside argument
 
@@ -310,7 +310,7 @@ class MyThread {
 
 **Output**
 
-```
+```java
 Main Thread
 Child Thread
 ```

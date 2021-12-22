@@ -8,7 +8,7 @@
 *   If the number is less than zero, it is a negative integer.
 *   If the number is equal to zero, it is neither negative nor positive.
 
-```
+```java
 Input: X = 12
 Output: Positive
 Explanation: Value of X is greater than 0 so it is Positive.
@@ -28,7 +28,7 @@ Explanation: Value of X less than 0 so it is negative.
 
 ## Java
 
-```
+```java
 // Java Program to Check if a Given Integer
 // is Positive or Negative
 
@@ -64,6 +64,6 @@ class GFG {
 
 输出
 
-```
+```java
 912 is Positive
 ```

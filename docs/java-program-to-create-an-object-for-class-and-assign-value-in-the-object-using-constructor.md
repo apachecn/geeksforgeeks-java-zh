@@ -20,7 +20,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to show the class declaration 
 // and how to create an instance of this class
 
@@ -58,7 +58,7 @@ public class Student
 
 ****输出:****
 
-```
+```java
 Ravi 
 ```
 
@@ -66,7 +66,7 @@ Ravi
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to show the class declaration 
 // and how to create an instance of this class
 
@@ -129,7 +129,7 @@ public class Computer
 
 ****输出:****
 
-```
+```java
 The company name is Apple
 The configuration  is i5
 Its Cost is 50000

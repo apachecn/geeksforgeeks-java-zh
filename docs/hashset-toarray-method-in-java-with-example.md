@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Object[] arr = HashSet.toArray()
 ```
 
@@ -20,7 +20,7 @@ Object[] arr = HashSet.toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -56,7 +56,7 @@ public class HashSetDemo {
 
 **Output:**
 
-```
+```java
 The HashSet: [Geeks, For, Welcome, To]
 The array is:
 Geeks
@@ -68,7 +68,7 @@ To
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -105,7 +105,7 @@ public class HashSetDemo {
 
 **Output:**
 
-```
+```java
 The HashSet: [20, 5, 25, 10, 30, 15]
 The array is:
 20

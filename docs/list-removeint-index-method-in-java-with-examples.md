@@ -6,7 +6,7 @@ Java 中 List 接口的 **remove(int index)** 方法用于从 List 容器的指�
 
 **语法** :
 
-```
+```java
 E remove(int index)
 
 Where, E is the type of element maintained
@@ -22,7 +22,7 @@ by this List collection
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the
 // remove(int index) method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Initial List: [5, 10, 15, 20, 25]
 Final List: [5, 10, 20, 25]
 
@@ -67,7 +67,7 @@ Final List: [5, 10, 20, 25]
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the
 // remove(int index) method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Initial List: [Welcome, to, Geeks, for, Geeks]
 Final List: [Welcome, to, for, Geeks]
 

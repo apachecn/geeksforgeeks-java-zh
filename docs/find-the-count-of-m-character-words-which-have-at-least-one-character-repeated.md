@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```java
 // C++ implementation for the above approach
 #include <math.h>
 #include <iostream>
@@ -64,7 +64,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 class GFG {
 
@@ -102,7 +102,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 implementation for the above approach
 
 # Function to return the
@@ -134,7 +134,7 @@ print(countWords(N, M));
 
 ## C#
 
-```
+```java
 // C# implementation of the approach
 using System;
 
@@ -177,7 +177,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```java
 // javascript implementation of the approach
 
     // Function to return the
@@ -216,6 +216,6 @@ class GFG
 
 **Output:** 
 
-```
+```java
 69760
 ```

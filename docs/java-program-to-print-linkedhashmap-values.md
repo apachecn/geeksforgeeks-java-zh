@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input:
 
 Key- 2 : Value-5
@@ -27,7 +27,7 @@ Output: 5, 3, 10, 12, 6
 
 ## Java
 
-```
+```java
 // Java program to print all the values
 // of the LinkedHashMap
 
@@ -55,7 +55,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 5, 3, 10, 12, 6,
 ```
 

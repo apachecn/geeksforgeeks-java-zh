@@ -8,7 +8,7 @@
 
 [**等于()方法:**](https://www.geeksforgeeks.org/equals-hashcode-methods-java/)
 
-```
+```java
 public boolean equals  (Object obj)
 
 // This method checks if some other Object
@@ -18,7 +18,7 @@ public boolean equals  (Object obj)
 
 [**HashCode()方法:**](https://www.geeksforgeeks.org/equals-hashcode-methods-java/)
 
-```
+```java
 public int hashCode()
 
 // This method returns the hash code value 
@@ -33,7 +33,7 @@ public int hashCode()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program  to eliminate duplicate user 
 // defined Objects from LinkedHashSet
 import java.util.*;
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 cam 451
 sam 452
 ```

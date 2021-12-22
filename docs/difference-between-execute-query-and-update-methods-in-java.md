@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate usage of execute() Method
 
 // Loading the driver using forName() method 
@@ -88,7 +88,7 @@ else 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate execute Query() Method 
 
 // Again first step is to load and register drivers   
@@ -122,14 +122,14 @@ while (rs.next()) 
 *   **返回类型:**表示受查询影响的行数的整数值。对于不返回任何内容的语句，这将是 0。
 *   **示例:**
 
-```
+```java
 DML->INSERT , UPDATE and DELETE
 DDL-> CREATE, ALTER
 ```
 
 插图:
 
-```
+```java
   Class.forName("com.mysql.jdbc.Driver");
     // Load the database driver
  Connection  conn = null;

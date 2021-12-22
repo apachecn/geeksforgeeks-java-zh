@@ -36,7 +36,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illlustarte Rookie Approach
 // In Banking transaction system
 
@@ -153,7 +153,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 C:\Users\USER\Desktop\LearnCoding\MultiThreading>javac GFG.java
 C:\Users\USER\Desktop\LearnCoding\MultiThreading>java GFG
 Arnab withdrawn 20
@@ -192,7 +192,7 @@ Balance after withdrawal: 35
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illlustarte Multithreading Approach
 // In Banking transaction system
 
@@ -385,7 +385,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illlustarte Multithreading Approach
 // With Synchronization In Banking transaction system
 
@@ -566,7 +566,7 @@ class GFG {
 
 **输出(解释):**舒巴姆&莫诺德普未能取款
 
-```
+```java
 C:\Users\USER\Desktop\Network Java>java  GFG
 
 Arnab withdrawn 20
@@ -583,7 +583,7 @@ your balance is: 35
 
 **输出(解释):**林克尔取钱失败。
 
-```
+```java
 C:\Users\USER\Desktop\Network Java>java  GFG
 
 Arnab withdrawn 20
@@ -600,7 +600,7 @@ your balance is: 35
 
 **输出(解释):** Monodwip 取钱失败。
 
-```
+```java
 C:\Users\USER\Desktop\Network Java>java  GFG
 
 Arnab withdrawn 20

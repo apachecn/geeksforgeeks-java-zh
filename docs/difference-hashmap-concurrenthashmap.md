@@ -10,7 +10,7 @@
 
     **使用 HashMap**
 
-    ```
+    ```java
     // Java program to illustrate
     // HashMap drawbacks
     import java.util.HashMap;
@@ -56,7 +56,7 @@
 
     **输出:**
 
-    ```
+    ```java
     100=A
     Exception in thread "main" java.util.ConcurrentModificationException
 
@@ -64,7 +64,7 @@
 
     **使用 ConcurrentHashMap**
 
-    ```
+    ```java
     // Java program to illustrate
     // HashMap drawbacks
     import java.util.HashMap;
@@ -112,7 +112,7 @@
 
     **输出:**
 
-    ```
+    ```java
     100=A
     101=B
     102=C
@@ -125,7 +125,7 @@
 
     **使用 HashMap**
 
-    ```
+    ```java
     //Java Program to illustrate ConcurrentHashMap behaviour
     import java.util.*;
     class ConcurrentHashMapDemo
@@ -144,14 +144,14 @@
 
     输出:
 
-    ```
+    ```java
     {null=World, 100=Hello, 101=Geeks, 102=Geeks}
 
     ```
 
     **使用 ConcurrentHashMap**
 
-    ```
+    ```java
     //Java Program to illustrate HashMap behaviour
     import java.util.concurrent.*;
     class ConcurrentHashMapDemo
@@ -170,7 +170,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Exception in thread "main" java.lang.NullPointerException
 
     ```

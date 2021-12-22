@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isJavaIdentifierStart(char ch)
 
 ```
@@ -26,7 +26,7 @@ public static boolean isJavaIdentifierStart(char ch)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.isJavaIdentifierStart()
 import java.lang.*;
@@ -52,7 +52,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 9 may start a Java identifier is : false
 - may start a Java identifier is : false
 
@@ -60,7 +60,7 @@ public class gfg {
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.isJavaIdentifierStart()
 
@@ -87,7 +87,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 5 may start a Java identifier is : false
 _ may start a Java identifier is : true
 

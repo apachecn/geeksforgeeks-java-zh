@@ -6,7 +6,7 @@ Java 中 **LocalDate** 类的 **plusWeeks()** 方法用于在这个 LocalDate �
 
 **语法:**
 
-```
+```java
 public LocalDate plusWeeks(long weeksToAdd)
 
 ```
@@ -21,7 +21,7 @@ public LocalDate plusWeeks(long weeksToAdd)
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plusWeeks() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate before adding weeks: 2018-12-26
 LocalDate after  adding weeks: 2019-01-30
 

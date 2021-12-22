@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 do
 {
     // loop body
@@ -26,14 +26,14 @@ while (test_expression);
 1.  **测试表达式:**在这个表达式中，我们必须测试条件。如果条件评估为真，那么我们将执行循环体并更新表达式。否则，我们将退出 while 循环。
     **例:**
 
-    ```
+    ```java
     i <= 10
     ```
 
 2.  **更新表达式**:执行循环体后，该表达式将循环变量增加/减少某个值。
     **例:**
 
-    ```
+    ```java
     i++;
     ```
 
@@ -53,7 +53,7 @@ while (test_expression);
 
 **例 1:** 本程序将尝试打印《Hello World》5 次。
 
-```
+```java
 // Java program to illustrate the do-while loop
 
 class dowhileloopDemo {
@@ -78,7 +78,7 @@ class dowhileloopDemo {
 
 **Output:**
 
-```
+```java
 Hello World
 Hello World
 Hello World
@@ -89,7 +89,7 @@ Hello World
 
 **试运行示例 1:** 程序将以以下方式执行。
 
-```
+```java
 1\. Program starts.
 2\. i is initialized with value 1.
 3\. Execution enters the loop
@@ -118,7 +118,7 @@ Hello World
 
 **例 2:**
 
-```
+```java
 // Java program to illustrate the do-while loop
 
 class dowhileloopDemo {
@@ -142,7 +142,7 @@ class dowhileloopDemo {
 
 **Output:**
 
-```
+```java
 Summation: 176
 
 ```

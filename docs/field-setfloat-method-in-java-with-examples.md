@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setFloat(Object obj, float f)
             throws IllegalArgumentException,
                    IllegalAccessException
@@ -30,7 +30,7 @@ public void setFloat(Object obj, float f)
 下面的程序说明了 setFloat()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setFloat() method
 
 import java.lang.reflect.Field;
@@ -93,7 +93,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of salary before applying setFloat is 143125.0
 Value of salary after applying setFloat is 259939.98
 Value of pf before applying setFloat is 122342.89
@@ -103,7 +103,7 @@ Value of pf after applying setFloat is 234234.34
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setFloat() method
 
 import java.lang.reflect.Field;
@@ -142,7 +142,7 @@ class Numbers {
 
 **Output:**
 
-```
+```java
 Value after applying setFloat is 3244.466
 
 ```

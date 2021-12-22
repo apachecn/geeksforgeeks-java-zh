@@ -21,7 +21,7 @@
 
 ## 再见 java
 
-```
+```java
 // Creating a AddInterface interface
 import java.rmi.Remote;
 public interface AddInterface extends Remote {
@@ -32,7 +32,7 @@ public interface AddInterface extends Remote {
 
 ## 上来 java
 
-```
+```java
 // Creating a SubInterface interface
 import java.rmi.Remote;
 public interface SubInterface extends Remote {
@@ -43,7 +43,7 @@ public interface SubInterface extends Remote {
 
 ## MulI.java 档案
 
-```
+```java
 // Creating a MulInterface interface
 import java.rmi.Remote;
 public interface MulInterface extends Remote {
@@ -54,7 +54,7 @@ public interface MulInterface extends Remote {
 
 ## DivI.java
 
-```
+```java
 // Creating a DivInterface interface
 import java.rmi.Remote;
 public interface DivInterface extends Remote {
@@ -69,7 +69,7 @@ public interface DivInterface extends Remote {
 
 ## 部署. java
 
-```
+```java
 // Java program to implement the AddInterface,
 // subInterface, MulInterface, and DivInterface
 import java.rmi.*;
@@ -98,7 +98,7 @@ public class Impl extends UnicastRemoteObject
 
 ## Server.java
 
-```
+```java
 // Program for server application
 import java.rmi.*;
 import java.rmi.registry.*;
@@ -124,7 +124,7 @@ public class Server {
 
 ## Client.java
 
-```
+```java
 // Program for client application
 import java.rmi.*;
 import java.util.*;
@@ -184,7 +184,7 @@ public class Client {
 
 现在我们需要编译所有的 java 程序。为了编译所有的 java 程序，我们需要打开命令提示符并进入相应的文件夹。现在进入存储所有文件的文件夹。我们可以使用以下命令一次编译所有文件；
 
-```
+```java
 javac *.java
 ```
 
@@ -192,7 +192,7 @@ javac *.java
 
 rmic 工具用于调用创建 Stub 和 Skeleton 对象的 rmi 编译器。它的原型是:
 
-```
+```java
 rmic classname
 ```
 
@@ -200,7 +200,7 @@ rmic classname
 
 现在使用 rmi registry 工具启动 rmi 注册表服务。我们需要指定端口号。如果我们不指定端口号，它会使用默认端口号，例如我们使用的端口号是 5259。
 
-```
+```java
 rmiregistry 5259  or  rmiregistry &  or start rmiregistry(windows)
 ```
 

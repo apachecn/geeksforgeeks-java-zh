@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 long getAsLong()
 ```
 
@@ -26,7 +26,7 @@ long getAsLong()
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // getAsLong() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 6
 
 ```

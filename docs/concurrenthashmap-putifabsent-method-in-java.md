@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 chm.putIfAbsent*(key_elem, val_elem)*
 ```
 
@@ -23,7 +23,7 @@ chm.putIfAbsent*(key_elem, val_elem)*
 
 **程序 1:** 现有键作为参数传递给函数。
 
-```
+```java
 // Java Program Demonstrate putIfAbsent()
 // method of ConcurrentHashMap 
 
@@ -61,7 +61,7 @@ class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {100=Geeks, 101=for, 102=Geeks, 103=Gfg, 104=GFG}
 Returned value is: null
 New mappings are: {100=Geeks, 101=for, 102=Geeks, 103=Gfg, 104=GFG, 108=All}
@@ -70,7 +70,7 @@ New mappings are: {100=Geeks, 101=for, 102=Geeks, 103=Gfg, 104=GFG, 108=All}
 
 **程序 2:** 将一个不存在的键作为参数传递给函数。
 
-```
+```java
 // Java Program Demonstrate putIfAbsent()
 // method of ConcurrentHashMap 
 
@@ -107,7 +107,7 @@ class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {100=Geeks, 101=for, 102=Geeks, 103=Gfg, 104=GFG}
 Returned value is: Geeks
 New mappings are: {100=Geeks, 101=for, 102=Geeks, 103=Gfg, 104=GFG}

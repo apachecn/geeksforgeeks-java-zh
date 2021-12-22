@@ -12,7 +12,7 @@ Vector 是集合的子接口。如果我们想把一组单独的对象表示成�
 
 ****语法:****
 
-```
+```java
 public int compareTo(Object obj); 
 ```
 
@@ -34,7 +34,7 @@ public int compareTo(Object obj);
 
 ## **Java**
 
-```
+```java
 // Java Program to Sort Vector Elements
 // using Comparable Interface
 
@@ -114,7 +114,7 @@ class GFG {
 
 ****输出**
 
-```
+```java
 [Student[1], Student[2], Student[9], Student[4], Student[34]]
 [Student[1], Student[2], Student[4], Student[9], Student[34]]
 ```** 
@@ -123,7 +123,7 @@ class GFG {
 
 ## **Java**
 
-```
+```java
 // Java Program to Sort Vector Elements
 // using Comparable Interface
 
@@ -215,7 +215,7 @@ System.out.println("Name:"+s.name +"->"+"Marks:"+s.marks+"->"+"ID:"+s.id);
 
 ****输出**
 
-```
+```java
 Name:Roshan->Marks:86->ID:1
 Name:Ritik->Marks:96->ID:2
 Name:Ashish->Marks:99->ID:4

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long longValue()
 ```
 
@@ -16,7 +16,7 @@ public long longValue()
 
 **例:**
 
-```
+```java
 Input : 1987812456121.176
 Output : 1987812456121
 
@@ -29,7 +29,7 @@ Output : 721111
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // longValue() method
 import java.math.*;
@@ -56,7 +56,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The Long Value of 1987812456121.176 is 1987812456121
 The Long Value of 721111 is 721111
 
@@ -66,7 +66,7 @@ The Long Value of 721111 is 721111
 
 **程序 2:** 下面的程序说明了函数返回一个符号相反的结果的场景。
 
-```
+```java
 // Java program to illustrate
 // longValue() method
 import java.math.*;
@@ -93,7 +93,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The Long Value of 267694723232435121868 is -9006437873208152372
 The Long Value of 72111184561789104423 is -1675791733049102041
 

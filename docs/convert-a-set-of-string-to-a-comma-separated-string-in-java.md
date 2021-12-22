@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: Set<String> = ["Geeks", "ForGeeks", "GeeksForGeeks"]
 Output: "Geeks, For, Geeks"
 
@@ -23,7 +23,7 @@ Output: "G, e, e, k, s"
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to convert Set of String
 // to comma separated String
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Set of String: [ForGeeks, Geeks, GeeksForGeeks]
 Comma separated String: ForGeeks, Geeks, GeeksForGeeks
 

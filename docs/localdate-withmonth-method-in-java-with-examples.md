@@ -6,7 +6,7 @@ Java 中 **LocalDate 类**的 **withMonth()** 方法返回该 LocalDate 的一�
 
 **语法:**
 
-```
+```java
 public LocalDate withMonth(int month)
 ```
 
@@ -20,7 +20,7 @@ public LocalDate withMonth(int month)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withMonth() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 The date with month is: 2018-01-07
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withMonth() method
 // Exceptions
 import java.util.*;
@@ -77,7 +77,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 java.time.DateTimeException: Invalid value for MonthOfYear (valid values 1 - 12): 13
 
 ```

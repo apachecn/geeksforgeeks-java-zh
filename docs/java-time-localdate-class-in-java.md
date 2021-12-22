@@ -81,7 +81,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import package used to work with current date and time
 // api.
 import java.time.LocalDateTime;
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 03 16, 2021
 
 ```
@@ -117,7 +117,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -139,7 +139,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The date with day of year is: 2021-01-01
 
 ```

@@ -5,7 +5,7 @@
 类[中的 **set(E e)** 方法将指定索引处的元素替换为作为方法参数提供的元素。方法返回已被新元素替换的元素。
 **语法:**](https://www.geeksforgeeks.org/copyonwritearraylist-in-java/) 
 
-```
+```java
 public E set(int index, E element)
 ```
 
@@ -21,7 +21,7 @@ public E set(int index, E element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the use of set() method
 
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -66,7 +66,7 @@ public class CopyOnWriteArrayListDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the ArrayIndexOutOfBoundsException
 
 import java.util.concurrent.CopyOnWriteArrayList;

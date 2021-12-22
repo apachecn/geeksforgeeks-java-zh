@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ public abstract boolean isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate
 // Dictionary.isEmpty() method
 
@@ -55,7 +55,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Dictionary: {3=Geeks, 2=for, 1=Geeks}
 Dictionary is not empty
 
@@ -63,7 +63,7 @@ Dictionary is not empty
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate
 // Dictionary.isEmpty() method
 
@@ -129,7 +129,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Dictionary: {}
 Dictionary is empty
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static String deepToString(Object[] arr)
 
 arr - An array whose string representation is needed
@@ -19,7 +19,7 @@ It returns "null"   if the specified array is null.
 
 **示例:**
 
-```
+```java
 Let us suppose that we are making a 2-D array of
 3 rows and 3 column.
     2   3   4   
@@ -34,7 +34,7 @@ we will get string representation as :-
 
 **打印多维数组**
 
-```
+```java
 // A Java program to print 2D array using deepToString()
 import java.util.Arrays;
 
@@ -57,14 +57,14 @@ public class GfG
 
 输出:
 
-```
+```java
 [[99, 151], [30, 5]]
 ```
 
 **toString()vs deepToString()**
 toString()对于一维数组很好用，但是对于多维数组就不行了。
 
-```
+```java
 // Java program to demonstrate that toString works if we 
 // want to print single dimensional array, but doesn't work
 // for multidimensional array.
@@ -93,7 +93,7 @@ public class Deeptostring
 
 输出:
 
-```
+```java
 [practice.geeksforgeeks.org, quiz.geeksforgeeks.org]
 [[I@15db9742, [I@6d06d69c]
 
@@ -103,7 +103,7 @@ public class Deeptostring
 
 **deepToString()适用于单维和多维度，但不适用于图元的一维数组**
 
-```
+```java
 // Java program to demonstrate that deepToString(strs))
 // works for single dimensional arrays also, but doesn't
 // work single dimensional array of primitive types.
@@ -130,7 +130,7 @@ public class Deeptostring
 
 输出:
 
-```
+```java
 [practice.geeksforgeeks.org, quiz.geeksforgeeks.org]
 [10, 20, 30, 40]
 

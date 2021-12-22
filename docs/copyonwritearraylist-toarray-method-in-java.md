@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object[] toArray()
            or
 public <T> T[] toArray(T[] a)
@@ -25,7 +25,7 @@ public <T> T[] toArray(T[] a)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the
 // CopyOnWriteArrayList toArray() method in Java
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 98, 100]
 Elements of CopyOnWriteArrayList as Array: [32, 67, 98, 100]
 
@@ -72,7 +72,7 @@ Elements of CopyOnWriteArrayList as Array: [32, 67, 98, 100]
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the
 // CopyOnWriteArrayList toArray(T[]) method in Java
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 98, 100]
 Elements of CopyOnWriteArrayList as Array: [32, 67, 98, 100]
 

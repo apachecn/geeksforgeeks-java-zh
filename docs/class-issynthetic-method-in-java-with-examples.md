@@ -5,7 +5,7 @@
 [**Java . lang . Class**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/)的**issynamic()**方法用于检查该类是否为合成类。如果此类是合成类，则方法返回 true。否则返回 false。
 **语法:**
 
-```
+```java
 public boolean isSynthetic()
 ```
 
@@ -16,7 +16,7 @@ public boolean isSynthetic()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate isSynthetic() method
 
 public class Test {
@@ -40,7 +40,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Test
 Is Test an synthetic: false
 ```
@@ -49,7 +49,7 @@ Is Test an synthetic: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate isSynthetic() method
 
 // declaring an Annotation Type
@@ -75,7 +75,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Is A an synthetic: false
 ```
 

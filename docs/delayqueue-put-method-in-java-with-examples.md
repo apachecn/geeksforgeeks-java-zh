@@ -6,7 +6,7 @@ Java 中 DelayQueue 类的 put(E ele)方法用于将给定的元素插入延迟�
 
 **语法**:
 
-```
+```java
 public void put(E ele)
 ```
 
@@ -21,7 +21,7 @@ public void put(E ele)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the put()
 // method in Java
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Before calling put() : true
 After calling put() : false
 ```
@@ -80,7 +80,7 @@ After calling put() : false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the Exception thrown
 // by put() method of DelayQueue
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 java.lang.NullPointerException
 ```
 

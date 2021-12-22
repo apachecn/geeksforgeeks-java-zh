@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator descendingIterator()
 ```
 
@@ -18,7 +18,7 @@ public Iterator descendingIterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate descendingIterator()
 // method of LinkedBlockingDeque
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of LinkedBlockingDeque are:
 7855642
 35658786
@@ -69,7 +69,7 @@ The iterator values of LinkedBlockingDeque are:
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate descendingIterator()
 // method of LinkedBlockingDeque
 // when list is of strings
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of LinkedBlockingDeque are:
 Portal
 Computer

@@ -9,7 +9,7 @@
 1.  **第一步:** **在 <u>activity_main.xml</u> 文件中添加一个按钮，以自定义字体显示敬酒信息。**
     打开 activity_main.xml 文件，创建一个 id 为*的按钮 showToast。*
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <RelativeLayout 
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -47,7 +47,7 @@
 
 打开 style.xml 文件并添加以下代码。这里使用*无衬线黑色*字体。
 
-```
+```java
 <!-- Toast Style -->
 <style name="toastTextStyle" parent="TextAppearance.AppCompat">
     <item name="android:fontFamily">sans-serif-black</item>
@@ -58,7 +58,7 @@
 
     使用 **makeText()** 方法创建吐司的新实例。使用 getView()方法获取吐司的视图。打开 MainActivity.java 文件，添加显示祝酒词的功能。
 
-    ```
+    ```java
     private void showMessage(Boolean b, String msg)
     {
 
@@ -94,7 +94,7 @@
 
     要**setOnClickListener()**首先在 Java 文件中创建新的 button 类实例，并使用 xml 文件中给出的 id 找到 button 视图，然后在 Button 对象上调用 setOnClickListener()方法。
 
-    ```
+    ```java
     // Finding the button
     Button showToast
         = findViewById(R.id.showToast);
@@ -118,7 +118,7 @@
 
     ## activity_main.xml
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <RelativeLayout 
@@ -155,7 +155,7 @@
 
     ## styles.xml
 
-    ```
+    ```java
     <resources >
 
         <!-- Base application theme. -->
@@ -175,7 +175,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.customtoast;
 
     import android.os.Build;

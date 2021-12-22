@@ -10,7 +10,7 @@
 
 **例如，**
 
-```
+```java
 // A Java program to demonstrate flexible nature of
 // java.lang.Object
 public class GFG
@@ -39,7 +39,7 @@ public class GFG
 
 ****输出:****
 
-```
+```java
 java.lang.Character
 java.lang.Integer
 java.lang.String

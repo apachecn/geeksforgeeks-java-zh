@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public String getPath()
 ```
 
 **函数语法:**
 
-```
+```java
 file.getPath()
 ```
 
@@ -24,7 +24,7 @@ file.getPath()
 
 **例 1:** 给我们一个文件的文件对象，我们要得到文件对象的路径。
 
-```
+```java
 // Java program to demonstrate the
 // use of getPath() function
 
@@ -56,7 +56,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 File path : c:\users\program.txt
 
 ```
@@ -65,7 +65,7 @@ File path : c:\users\program.txt
 
 **例 2:** 给我们一个目录的文件对象，我们要得到文件对象的路径。
 
-```
+```java
 // Java program to demonstrate the
 // use of getPath() function
 
@@ -96,7 +96,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 File path : c:\users\program
 
 ```

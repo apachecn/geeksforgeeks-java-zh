@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 import java.io.*;
 public class InputStreamReaderDemo {
@@ -71,7 +71,7 @@ BufferedReader 类用于从输入源(这里是文件)读取字符流。BufferedR
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing java libraries
 import java.io.*;
 import java.util.Scanner;
@@ -124,7 +124,7 @@ Scanner 类用于从 stdin 读取输入。Scanner 类有接受基本类型输入
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing java libraries
 import java.io.FileInputStream;
 import java.io.IOException;

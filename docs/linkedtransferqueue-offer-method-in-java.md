@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public boolean offer(E e, long timeout, TimeUnit unit)
 ```
 
@@ -29,7 +29,7 @@ public boolean offer(E e, long timeout, TimeUnit unit)
 
 **程序 1:** 通过使用 offer(E e，长超时，时间单位)方法插入学生姓名来创建 LinkedTransferQueue，该方法的时间单位参数以秒为单位，超时参数为 5 秒
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of LinkedTransferQueue
 
@@ -68,7 +68,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 adding 15 true
 adding 25: true
 adding 35: true
@@ -80,7 +80,7 @@ list of numbers of queue: [15, 25, 35, 45, 55]
 
 **程序 2:** 显示空指针异常的程序。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of LinkedTransferQueue
 
@@ -108,7 +108,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```
@@ -119,7 +119,7 @@ Exception: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 public boolean offer(E e)
 ```
 
@@ -131,7 +131,7 @@ public boolean offer(E e)
 
 **程序 1:** 在队列中添加字符串。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of LinkedTransferQueue
 
@@ -162,14 +162,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Queue: alex bob chuck drake eric
 
 ```
 
 **程序 2:** 显示空指针异常的程序。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of LinkedTransferQueue
 
@@ -201,7 +201,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

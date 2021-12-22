@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean retainAll(Collection C)
 
 ```
@@ -24,7 +24,7 @@ public boolean retainAll(Collection C)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // retainAll() method of LinkedTransferQueue
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Transfer Queue : [3, 6, 10, 125, 205]
 ArrayList to be retained : [10, 100, 125]
 Linked Transfer Queue after retaining ArrayList : [10, 125]
@@ -87,7 +87,7 @@ Linked Transfer Queue after retaining ArrayList : [10, 125]
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate
 // retainAll() method of LinkedTransferQueue
 
@@ -141,7 +141,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Transfer Queue : [GeeksforGeeks, Geek, Gfg, Computer, Science]
 ArrayList to be retained : [Gfg, Science, Computer]
 Linked Transfer Queue after retaining ArrayList : [Gfg, Computer, Science]

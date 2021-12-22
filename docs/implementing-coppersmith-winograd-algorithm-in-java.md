@@ -10,7 +10,7 @@
 
 **例**
 
-```
+```java
 Input:M1={{1,2},
       {3,4}}
       M2={{3,2},
@@ -23,7 +23,7 @@ Output:Resultant matrix is matching
 
 **算法**
 
-```
+```java
 // Task is to verify matrix multiplication as M1*M2=M3 or not.
 1\. Start
 2\. Take Matrices M1, M2, M3 as an input of (n*n).
@@ -40,7 +40,7 @@ Output:Resultant matrix is matching
 
 ## 爪哇
 
-```
+```java
 // Implementing Coppersmith Winograd Algorithm in Java
 import java.io.*;
 import java.util.Random;
@@ -125,7 +125,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Resultant matrix is Matching
 
 ```

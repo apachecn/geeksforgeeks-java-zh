@@ -14,7 +14,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     // Java Program to demonstrate codePointAt
     // codePointBefore and codePointCount
     public class GFG_1 {
@@ -43,7 +43,7 @@
 
     输出:
 
-    ```
+    ```java
     Character (unicode point) at index 1 : 101  102
     Character (unicode point) before index 1 : 71  111
     Character code point count : 5
@@ -60,7 +60,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     // Java Program to demonstrate subSequence
     // and contains and contentEquals
     public class GFG_2 {
@@ -96,7 +96,7 @@
 
     输出:
 
-    ```
+    ```java
     Reult of contains on s_1 with charSequence cs true
     Reult of contains on s_1 with charSequence cs1 false
     Result of contentEqual true
@@ -110,7 +110,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     // Java Program to demonstrate endsWith
     // and startWith
     public class GFG_3 {
@@ -142,7 +142,7 @@
 
     输出:
 
-    ```
+    ```java
     geeksforgeeksend with geeks true
     geeksforgeeksend with eks true
     geeksforgeeksend with for false
@@ -159,7 +159,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     // Java Program to demonstrate getChars
     // and toCharArray
     public class GFG_4 {
@@ -186,7 +186,7 @@
 
     输出:
 
-    ```
+    ```java
     String toCharArray: 
     g e e k s f o r g e e k s 
     SubString to existing char array
@@ -196,7 +196,7 @@
 
 27.  **public int hashCode()**–返回给定字符串的 hashCode。有一个预定义的公式来计算字符串的哈希码:
 
-    ```
+    ```java
     s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
     where,
     n - is the length of the String
@@ -211,7 +211,7 @@
     为了更好地理解这个例子，请参考[初始化和比较字符串](https://www.geeksforgeeks.org/how-to-initialize-and-compare-strings-in-java/)
     **例子:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // hashCode and intern
     class GFG_5 {
@@ -239,7 +239,7 @@
 
     输出:
 
-    ```
+    ```java
     Hashcode of String s is 98232047
     false
     true
@@ -254,7 +254,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     import java.util.Locale;
     // Java program to demonstrate
     // isEmpty and format
@@ -292,7 +292,7 @@
 
     输出:
 
-    ```
+    ```java
     geeksforgeeks : 10
     Value of PI is = 3.141593 
     geeksforgeeks : 10
@@ -310,7 +310,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     // Java Program to demonstrate
     // matches and regionMatches
     class GFG_7 {
@@ -345,7 +345,7 @@
 
     输出:
 
-    ```
+    ```java
     Matches 1 :true
     Matches 2 :true
     Matches 3 :false
@@ -364,7 +364,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     // Java Program to demonstrate
     // split
     class GFG_8 {
@@ -397,7 +397,7 @@
 
     输出:
 
-    ```
+    ```java
     Splitting the string around spaces
     Geeks
     for
@@ -425,7 +425,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     // Java Program to demonstrate
     // join
     import java.util.LinkedList;
@@ -452,7 +452,7 @@
 
     输出:
 
-    ```
+    ```java
     Example of join 1 : Geeks, for, Geeks
     Example of join 2 : browsing-a-geeks-a-for-a-geeks-a-is-a-fun
 
@@ -465,7 +465,7 @@
     让我们看一个上述方法的例子:
     **例子:**
 
-    ```
+    ```java
     // Java Program to demonstrate
     // replaceAll and replaceFirst
     class GFG_10 {
@@ -493,7 +493,7 @@
 
     输出:
 
-    ```
+    ```java
     Replace all Geeks with Quiks :QuiksforQuiks
     Replace any UpperCase letter with F :FeeksforFeeks
     Replace first Occurrence of Geeks with Quiks :QuiksforGeeks

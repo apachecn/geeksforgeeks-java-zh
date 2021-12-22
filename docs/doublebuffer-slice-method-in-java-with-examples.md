@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract DoubleBuffer slice()
 ```
 
@@ -22,7 +22,7 @@ public abstract DoubleBuffer slice()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // slice() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original DoubleBuffer: [8.5600004196167, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 position:  2
@@ -106,7 +106,7 @@ capacity:  8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // slice() method
 
@@ -176,7 +176,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original DoubleBuffer: [8.5600004196167, 9.609999656677246, 0.5600000023841858, 3.609999895095825, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 position:  4

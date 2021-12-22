@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setThreadID(int threadID)
 
 ```
@@ -18,7 +18,7 @@ public void setThreadID(int threadID)
 以下程序说明 setThreadID()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // setThreadID() method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Thread ID = 53677
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // setThreadID() method
 
@@ -97,7 +97,7 @@ class Thread1 extends Thread {
 
 **Output:**
 
-```
+```java
 Thread is running...
 Thread ID = 8
 

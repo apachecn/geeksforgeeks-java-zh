@@ -14,7 +14,7 @@ Java 中**日期格式符号**类的 **getAvailableLocales()** 方法用于返�
 下面的程序说明了 getAvailableLocales()方法的工作原理。
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // getAvailableLocales() method
 
@@ -59,7 +59,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 DateFormatSymbols Locales :: Display names
 
  :: 

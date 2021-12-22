@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public float floatValue()
 ```
 
@@ -14,7 +14,7 @@ public float floatValue()
 
 **示例:**
 
-```
+```java
 Input: BigInteger1=32145
 Output: 32145.0
 Explanation: BigInteger1.floatValue()=32145.0.
@@ -31,7 +31,7 @@ Float.NEGATIVE_INFINITY or Float.POSITIVE_INFINITY as appropriate.
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate floatValue() method of BigInteger
 
 import java.math.BigInteger;
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 floatValue of 32145 : 32145.0
 floatValue of 7613721 : 7613721.0
 
@@ -70,7 +70,7 @@ floatValue of 7613721 : 7613721.0
 
 **例 2:当返回浮动太大，无法用一个量级表示为一个浮动时。**
 
-```
+```java
 // Java program to demonstrate floatValue() method of BigInteger
 
 import java.math.BigInteger;
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 floatValue of 32145535361361525377 : 3.2145535E19
 floatValue of 7613721535372632367351 : 7.6137214E21
 

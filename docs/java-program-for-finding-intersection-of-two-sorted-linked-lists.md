@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: 
 First linked list: 1->2->3->4->6
 Second linked list be 2->4->6->8, 
@@ -32,7 +32,7 @@ intersection list.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above approach
 class GFG 
@@ -145,7 +145,7 @@ class GFG 
 
 **输出:**
 
-```
+```java
 Linked list containing common items of a & b 
 2 4 6 
 ```
@@ -161,7 +161,7 @@ Linked list containing common items of a & b
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above approach
 import java.util.*;
@@ -270,7 +270,7 @@ public static void main(String[] args) 
 
 **输出:**
 
-```
+```java
 0
 3
 4

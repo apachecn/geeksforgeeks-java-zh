@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final int indexOf(Object value)
 ```
 
 **语法:**
 
-```
+```java
 int index = TupleClassObject.indexOf(Object value)
 ```
 
@@ -24,7 +24,7 @@ int index = TupleClassObject.indexOf(Object value)
 
 **程序 1:** 使用 indexOf()与单位类:
 
-```
+```java
 // Below is a Java program to use indexOf() method
 
 import java.util.*;
@@ -55,14 +55,14 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Index of GeeksforGeeks = 0
 Index of Present = -1
 ```
 
 **程序 2:** 使用 indexOf()与四方类:
 
-```
+```java
 // Below is a Java program to use indexOf() method
 
 import java.util.*;
@@ -97,7 +97,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Index of GeeksforGeeks = 1
 Index of 5 = -1
 ```

@@ -14,7 +14,7 @@ zip 文件是将一个或多个文件压缩在一起的文件，通常，zip 文
 
 **案例 1:**geek forkeks . zip
 
-```
+```java
 Input  : D:/geekforgeeks.zip
 Output : The files in the Zip are as follows:
          Java program to print a number.java
@@ -27,7 +27,7 @@ Output : The files in the Zip are as follows:
 
 **案例二:**D:/极客. zip
 
-```
+```java
 Input  :  D:/geeks.zip
 Output : java.io.FileNotFoundException: D:/geeks.zip (The system cannot find the file specified)
 ```
@@ -47,7 +47,7 @@ Output : java.io.FileNotFoundException: D:/geeks.zip (The system cannot find the
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to read and print all files
 // from a zip file
 

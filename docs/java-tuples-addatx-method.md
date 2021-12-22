@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Triplet<String, Integer, Double> triplet = ...
     ...
 Quartet<String, Integer, Double, type(s)> quartet = triplet.addAtX(value(s));
@@ -25,7 +25,7 @@ Quartet<String, Integer, Double, type(s)> quartet = triplet.addAtX(value(s));
 
 **程序 1:** 当 addAtX()方法用于从 Unit 到 Ennead 的任何类时，直接值作为参数:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of addAtX() method with
 // direct value
@@ -50,13 +50,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [forGeeks, Geeks]
 ```
 
 **程序 2:** 当 addAtX()方法用于从 Unit 到 Ennead 的任何类时，以另一个元组类对象作为参数:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of addAtX() method with
 // multiple value
@@ -84,7 +84,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [forGeeks, Geeks]
 ```
 

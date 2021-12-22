@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public LocalDateTime plusMinutes(long minutes)
 
 ```
@@ -21,7 +21,7 @@ public LocalDateTime plusMinutes(long minutes)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the plusMinutes() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 LocalDateTime with 15 minutes added: 2018-01-11T10:30:30
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the plusMinutes() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 LocalDateTime with -2 minutes added: 2018-01-11T08:13:30
 
 ```

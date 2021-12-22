@@ -49,7 +49,7 @@ JSplitPane 是 Java Swing 的一部分。JSplitPane 仅用于划分两个组件�
 **以下程序将说明 JSplitPane**
 **1 的使用。程序创建一个水平的 JSplitPane 来分隔两个文本区域**
 
-```
+```java
 // Java Program to create a horizontal JSplitPane 
 // to separate two text areas
 import javax.swing.event.*;
@@ -107,7 +107,7 @@ class solve extends JFrame {
 
 **2。创建垂直 JSplitPane 来分隔两个文本区域的程序**
 
-```
+```java
 // Java Program  to create a vertical 
 // JSplitPane to separate two text areas
 import javax.swing.event.*;
@@ -168,7 +168,7 @@ class solve extends JFrame {
 
 **2。Java 程序创建嵌套 JSplitPane，其中一个是一触可扩展**
 
-```
+```java
 // Java Program to create nested JSplitPane, 
 // one of them is one Touch Expandable
 import javax.swing.event.*;

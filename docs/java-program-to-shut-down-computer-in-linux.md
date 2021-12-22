@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Shut Down Computer
 // when Operating System is Linux.
 
@@ -63,7 +63,7 @@ public class SystemShutDown {
 
 **输出:**
 
-```
+```java
 Name of Operating System:Linux  
 //Shutting Down your Linux system
 ```

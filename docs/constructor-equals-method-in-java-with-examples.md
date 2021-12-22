@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object obj)
 下面的程序说明了 equals()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate equals() method
 
 import java.lang.reflect.Constructor;
@@ -48,7 +48,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Constructor 1: public java.lang.String(byte[], int, int)
 Constructor 2: public java.lang.String(byte[], java.nio.charset.Charset)
 Both constructor are equal: false
@@ -57,7 +57,7 @@ Both constructor are equal: false
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate equals() method
 
 import java.lang.reflect.Constructor;
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Constructor 1: public java.util.ArrayList(java.util.Collection)
 Object: public java.util.ArrayList(java.util.Collection)
 Both constructor are equal: true

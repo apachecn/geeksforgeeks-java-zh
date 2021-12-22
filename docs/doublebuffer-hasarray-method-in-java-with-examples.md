@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean hasArray()
 ```
 
@@ -16,7 +16,7 @@ public final boolean hasArray()
 
 **示例 1:** 当缓冲区由数组支持时
 
-```
+```java
 // Java program to demonstrate
 // hasArray() method
 
@@ -67,14 +67,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleBuffer fb is backed by array
 
 ```
 
 **示例 2:** 当缓冲区由数组支持时
 
-```
+```java
 // Java program to demonstrate
 // hasArray() method
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleBuffer fb is not backed by any array
 
 ```

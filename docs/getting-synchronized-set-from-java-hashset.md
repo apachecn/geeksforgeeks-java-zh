@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : HashSet = [3, 4, 5]
 Output: synchronizedSet = [3, 4, 5]
 
@@ -16,7 +16,7 @@ Output: synchronizedSet = ['a', 'b', 'c']
 
 **语法:**
 
-```
+```java
 public static <T> Set<T> synchronizedSet(Set<T> s)
 ```
 
@@ -35,7 +35,7 @@ public static <T> Set<T> synchronizedSet(Set<T> s)
 
 ## Java
 
-```
+```java
 // Java code to get synchronized
 // set from hash set
 import java.util.*;
@@ -62,6 +62,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Synchronized Set: [1, 2, 3, 4, 5]
 ```

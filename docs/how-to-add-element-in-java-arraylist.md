@@ -22,7 +22,7 @@ Java [**数组列表**](https://www.geeksforgeeks.org/arraylist-in-java/) 类使
 
 **例:**
 
-```
+```java
 Input:
 list.add("A");
 list.add("B");
@@ -45,6 +45,6 @@ list=[1,2,3,4]
 
 T0输出
 
-```
+```java
 [1, 2, 3, 4]
 ```

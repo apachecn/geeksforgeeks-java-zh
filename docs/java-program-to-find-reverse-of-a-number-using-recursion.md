@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```java
 Input:  14689
 Output: 98641
 
@@ -28,7 +28,7 @@ Output: 1234567
 
 **示例:**
 
-```
+```java
 
     num = 82695
         reverse(82695)
@@ -51,7 +51,7 @@ Output: 1234567
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse
 // an integer recursively
 class GFG {
@@ -96,7 +96,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reversed Number: 56789
 ```
 
@@ -108,7 +108,7 @@ Reversed Number: 56789
 
 **示例:**
 
-```
+```java
 num = 48291
 ans = 0       -> variable to store reversed number
 
@@ -147,7 +147,7 @@ Implementation:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse an integer recursively
 class GFG {
 
@@ -211,7 +211,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reversed number: 56789
 ```
 

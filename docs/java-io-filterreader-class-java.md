@@ -11,7 +11,7 @@
 
 *   **void close() :** 关闭流并释放与其相关联的任何系统资源。一旦流被关闭，进一步的 read()、ready()、mark()、reset()或 skip()调用将引发 IOException。关闭以前关闭的流没有效果。
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Throws:
@@ -20,7 +20,7 @@
 
 *   **空标记(int readAheadLimit) :** 标记溪流中的当前位置。
 
-    ```
+    ```java
     Syntax :public void mark(int readAheadLimit)
               throws IOException
     Parameters:
@@ -33,7 +33,7 @@
 
 *   **布尔型 markSupported() :** 告知此流是否支持 mark()操作。
 
-    ```
+    ```java
     Syntax :public boolean markSupported()
     Returns:
     true if and only if this stream supports the mark operation.
@@ -41,7 +41,7 @@
 
 *   **int read() :** 读取单个字符。
 
-    ```
+    ```java
     Syntax :public int read()
              throws IOException
     Returns: The character read, as an integer in the range 0 to 65535 (0x00-0xffff), 
@@ -52,7 +52,7 @@
 
 *   **int read(char[] cbuf，int off，int len) :** 将字符读入数组的一部分。
 
-    ```
+    ```java
     Syntax :public int read(char[] cbuf,
            int off,
            int len)
@@ -68,7 +68,7 @@
 
 *   **布尔就绪():**告知该流是否准备好被读取。
 
-    ```
+    ```java
     Syntax :public boolean ready()
                   throws IOException
     Returns:
@@ -80,7 +80,7 @@
 
 *   **无效重置():**重置流。
 
-    ```
+    ```java
     Syntax :public void reset()
                throws IOException
     Throws:
@@ -89,7 +89,7 @@
 
 *   **长跳过(长 n) :** 跳过字符。
 
-    ```
+    ```java
     Syntax :public long skip(long n)
               throws IOException
     Parameters:
@@ -102,7 +102,7 @@
 
 **程序:**
 
-```
+```java
 //Java program illustrating FilterReader class methods
 
 import java.io.*;
@@ -154,7 +154,7 @@ class FilterReaderdemo
 
 **输出:**
 
-```
+```java
 mark method is supported
 forGeeksGeeks
 ```

@@ -18,7 +18,7 @@
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;

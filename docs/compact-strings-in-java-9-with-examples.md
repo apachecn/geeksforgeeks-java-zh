@@ -17,7 +17,7 @@
 
 ## Java 8 或更早版本
 
-```
+```java
 import java.io.Serializable;
 
 public final class String

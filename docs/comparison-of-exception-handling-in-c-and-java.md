@@ -33,7 +33,7 @@ c++
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```java
 // CPP Program to demonstrate all types (including primitive
 // and pointer) can be thrown as exception.
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 **Output**
 
-```
+```java
 Exception occurred: thrown value is -1
 ```
 
@@ -68,7 +68,7 @@ Exception occurred: thrown value is -1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```java
 // CPP Program to demonstrate catch all
 #include <iostream>
 using namespace std;
@@ -101,13 +101,13 @@ int main()
 
 **Output**
 
-```
+```java
 Exception occurred: exiting 
 ```
 
 在 Java 中，出于所有实际目的，我们可以捕获异常对象来捕获各种异常。因为除了异常(即错误)之外，我们通常不会捕获可抛出的异常
 
-```
+```java
 catch(Exception e){
  …….
 }
@@ -117,7 +117,7 @@ catch(Exception e){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate creating an exception type
 class Test extends Exception {
 }
@@ -141,7 +141,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Got the Test Exception
 Inside finally block 
 ```

@@ -14,7 +14,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static datatype abs(datatype arg)
     Parameters:
     arg - the argument whose absolute value we need
@@ -29,7 +29,7 @@
     **特例:**结果为 NaN，如果自变量为 NaN 或其绝对值大于 1。
     **语法:**
 
-```
+```java
 public static double acos(double a)
 Parameters:
 a - the argument whose arc cosine value we need.
@@ -43,7 +43,7 @@ arc cosine value of the argument.
     **Special Point :** Math class usually takes radians as an input which is very much different in real life applications since angles is usually represented in degrees.
     **Syntax:**
 
-    ```
+    ```java
     public static double toRadians(double deg)
     Parameters:
     deg - degree angle needs to be in radian.
@@ -57,7 +57,7 @@ arc cosine value of the argument.
 
     **在 Math 类中解释 abs()、acos()、toRadians()方法的 Java 代码。**
 
-    ```
+    ```java
     // Java program explaining Math class methods
     // abs(), acos(), toRadians()
     import java.math.*;
@@ -99,7 +99,7 @@ arc cosine value of the argument.
 
     输出:
 
-    ```
+    ```java
     Initial value of int  : -1
     Initial value of int  : 0.5
     Absolute value of int : 1
@@ -114,7 +114,7 @@ arc cosine value of the argument.
     **特殊点:**如果 Result 溢出一个 int 或 long(根据传递的参数)，则方法抛出 ArithmeticException。
     **语法:**
 
-    ```
+    ```java
     public static int addExact(int x, int y)
                     or
     public static long addExact(long x, long y)
@@ -135,7 +135,7 @@ arc cosine value of the argument.
 
     **语法:**
 
-    ```
+    ```java
     public static double asin(double arg)
     Parameters:
     arg - argument passed. 
@@ -153,7 +153,7 @@ arc cosine value of the argument.
 
 **语法:**
 
-```
+```java
 public static double cbrt(double arg)
 Parameters:
 arg - argument passed. 
@@ -164,7 +164,7 @@ cube root of the argument passed
 
 **在 Math 类中解释 addExact()、asin()、cbrt()方法的 Java 代码。**
 
-```
+```java
 // Java program explaining Math class methods
 // addExact(), asin(), cbrt()
 import java.math.*;
@@ -202,7 +202,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 Using addExact() : 9
 
 acos value of Asini : NaN
@@ -216,7 +216,7 @@ cube root : 6.0
     例如:101.23 的地板值= 101
     **重要一点:**如果通过了安南或无限参数，则会产生相同的参数。
 
-    ```
+    ```java
     Syntax:
     public static double floor(double arg)
     Parameters:
@@ -234,7 +234,7 @@ cube root : 6.0
     *   如果任一参数为无穷大，则结果为正无穷大。
     *   如果任一参数为 NaN，且任一参数都不是无穷大，则结果为 NaN。
 
-    ```
+    ```java
     Syntax:
     public static double hypot(double p, double b)
     Parameters:
@@ -250,7 +250,7 @@ cube root : 6.0
     其中，
     n = D1/D2
 
-    ```
+    ```java
     Syntax:
     public static double IEEEremainder(double d1,double d2)
     Parameters:
@@ -263,7 +263,7 @@ cube root : 6.0
 
     的最接近精确值*   **log() :** **java.math.log()** method returns the logarithmic value of the passed argument.
 
-    ```
+    ```java
     Syntax:
     public static double log(double arg)
     Parameters:
@@ -275,7 +275,7 @@ cube root : 6.0
 
     **在 Math 类中解释 floor()，hypot()，IEEEremainder()，log()方法的 Java 代码。**
 
-    ```
+    ```java
     // Java program explaining MATH class methods
     // floor(), hypot(), IEEEremainder(), log()
     import java.lang.*;
@@ -316,7 +316,7 @@ cube root : 6.0
 
     输出:
 
-    ```
+    ```java
     Floor value of f1 : 30.0
     Floor value of f2 : -57.0
 

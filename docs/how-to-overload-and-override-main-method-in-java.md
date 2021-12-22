@@ -9,7 +9,7 @@
 以下示例说明 java 中 main()的重载
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // Overloading of main()
 
@@ -59,7 +59,7 @@ public class GFG {
 **示例 2:**
 在本例中，我们将逐一执行主方法的所有重载
 
-```
+```java
 // Java program to demonstrate
 // Overloading of main()
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original main() Executing
 Hello
 main() overloaded method 1 Executing

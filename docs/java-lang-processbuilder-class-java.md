@@ -19,7 +19,7 @@
 
 **1。List command():** 这个方法返回进程构建器的操作系统程序和参数。
 
-```
+```java
 Syntax: public List command().
 Returns: this process builder's program and its arguments.
 Exceptions: NullPointerException - if the argument is null.
@@ -27,7 +27,7 @@ Exceptions: NullPointerException - if the argument is null.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating command() method
 import java.io.*;
 import java.lang.*;
@@ -50,13 +50,13 @@ class ProcessBuilderDemo {
 
 **Output**
 
-```
+```java
 command: [notepad.exe]
 ```
 
 **2。ProcessBuilder 命令(List 命令):**此方法设置进程构建器的操作系统程序和参数。
 
-```
+```java
 Syntax: public ProcessBuilder command(List command).
 Returns: NA.
 Exception: NullPointerException - if the argument is null.
@@ -64,7 +64,7 @@ Exception: NullPointerException - if the argument is null.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating ProcessBuilder
 // command(List<String> command)
 import java.io.*;
@@ -89,13 +89,13 @@ class ProcessBuilderDemo {
 
 **Output**
 
-```
+```java
 command: [notepad.exe, xyz.txt]
 ```
 
 **3。ProcessBuilder 目录(文件目录):**此方法设置流程构建器的工作目录。随后由对象的 start()方法启动的子进程将使用它作为它们的工作目录。该参数可能为 null，这意味着使用当前 Java 进程的工作目录，通常是由 system 属性 user.dir 命名的目录，作为子进程的工作目录。
 
-```
+```java
 Syntax: public ProcessBuilder directory(File directory).
 Returns: this process builder.
 Exception: NA.
@@ -103,7 +103,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating directory() method
 import java.io.*;
 import java.lang.*;
@@ -132,13 +132,13 @@ class ProcessBuilderDemo {
 
 **Output**
 
-```
+```java
 directory: src
 ```
 
 **4。Map environment():** 此方法返回流程构建器环境的字符串映射视图。每当创建流程构建器时，环境都会被初始化为当前流程环境的副本。随后由对象的 start()方法启动的子进程将使用这个映射作为它们的环境。
 
-```
+```java
 Syntax: public Map environment()
 Returns: this process builder's environment
 Exception: SecurityException - if a security manager exists 
@@ -147,7 +147,7 @@ and its checkPermission method doesn't allow access to the process environment.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating environment() method
 import java.io.*;
 import java.util.*;
@@ -174,7 +174,7 @@ class ProcessBuilderDemo {
 
 **输出:**
 
-```
+```java
 Key = PATH, Value = /usr/bin:/bin:/usr/sbin:/sbin
 Key = JAVA_MAIN_CLASS_14267, Value = ProcessBuilderDemo
 Key = J2D_PIXMAPS, Value = shared
@@ -204,7 +204,7 @@ jdk1.8.0_121.jdk/Contents/Home/bin/java
 
 **5。boolean redirecterrortstream():**这个方法告诉流程构建器是否合并标准错误和标准输出。如果此属性为真，则由对象的 start()方法随后启动的子进程生成的任何错误输出都将与标准输出合并，以便可以使用 Process.getInputStream()方法读取两者。这使得将错误消息与相应的输出相关联变得更加容易。初始值为假。
 
-```
+```java
 Syntax: public boolean redirectErrorStream().
 Returns: this process builder's redirectErrorStream property.
 Exception: NA.
@@ -212,7 +212,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating redirectErrorStream() method
 import java.io.*;
 import java.lang.*;
@@ -238,13 +238,13 @@ class ProcessBuilderDemo {
 
 **输出:**
 
-```
+```java
 false
 ```
 
 **6。ProcessBuilder redirectErrorStream(布尔 redirectErrorStream):** 此方法设置此进程生成器的 redirectErrorStream 属性。如果此属性为真，则由该对象的 start()方法随后启动的子进程生成的任何错误输出都将与标准输出合并，以便可以使用 Process.getInputStream()方法读取两者。这使得将错误消息与相应的输出相关联变得更加容易。初始值为假。
 
-```
+```java
 Syntax: public ProcessBuilder redirectErrorStream(boolean redirectErrorStream).
 Returns: this process builder.
 Exception: NA.
@@ -252,7 +252,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating redirectErrorStream(boolean
 // redirectErrorStream) method
 import java.io.*;
@@ -282,13 +282,13 @@ class ProcessBuilderDemo {
 
 **输出:**
 
-```
+```java
 true
 ```
 
 **流程启动():**此方法使用流程构建器的属性启动一个新流程。新进程将调用由目录()给定的工作目录中的命令()给定的命令和参数，进程环境由环境()给定。此方法检查该命令是否是有效的操作系统命令。哪些命令有效取决于系统，但至少命令必须是非空字符串的非空列表。如果有一个安全管理器，它的 checkExec 方法是用这个对象的命令数组的第一个组件作为参数来调用的。这可能会导致引发安全异常。
 
-```
+```java
 Syntax: public Process start().
 Returns: a new Process object for managing the subprocess.
 Exception: NullPointerException - If an element of the command list is null
@@ -300,7 +300,7 @@ IOException - If an I/O error occurs.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating start() method
 import java.io.*;
 import java.lang.*;
@@ -335,7 +335,7 @@ class ProcessBuilderDemo {
 
 **输出:**
 
-```
+```java
 total 0
 drwxr-xr-x  10 abhishekverma  staff   340 Jun 20 02:24 AndroidStudioProjects
 drwx------@ 22 abhishekverma  staff   748 Jun 20 03:00 Desktop
@@ -352,7 +352,7 @@ drwxr-xr-x+  6 abhishekverma  staff   204 Jun 18 20:45 Public
 
 **process builder inherio():**将子进程标准 I/O 的源和目标设置为与当前 Java 进程相同。
 
-```
+```java
 Syntax: public ProcessBuilder inheritIO().
 Returns: this process builder.
 Exception: NA.
@@ -360,7 +360,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating inheritIO() method
 import java.io.*;
 import java.lang.*;
@@ -381,7 +381,7 @@ class ProcessBuilderDemo {
 
 **输出:**
 
-```
+```java
 Hello GeeksforGeeks
 This is ProcessBuilder Example
 ```

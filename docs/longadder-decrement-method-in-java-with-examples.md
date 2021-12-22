@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void decrement()
 
 ```
@@ -19,7 +19,7 @@ public void decrement()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the LongAdder.decrement() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial value is: 0
 After addition of 6, value is: 6
 After decrement,  value is: 5
@@ -67,7 +67,7 @@ After decrement,  value is: 5
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the LongAdder.decrement() method
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial value is: 0
 After addition of 10, value is: 10
 After decrement,  value is: 9

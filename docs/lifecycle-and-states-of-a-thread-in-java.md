@@ -44,7 +44,7 @@ Java 中任意时间点的[线程](https://www.geeksforgeeks.org/multithreading-
 
 1.  **Constant type:** New
 
-    ```
+    ```java
     Declaration: public static final Thread.State NEW
     ```
 
@@ -52,7 +52,7 @@ Java 中任意时间点的[线程](https://www.geeksforgeeks.org/multithreading-
 
 2.  **Constant type:** Runnable
 
-    ```
+    ```java
     Declaration: public static final Thread.State RUNNABLE
     ```
 
@@ -60,7 +60,7 @@ Java 中任意时间点的[线程](https://www.geeksforgeeks.org/multithreading-
 
 3.  **Constant type:** Blocked
 
-    ```
+    ```java
     Declaration: public static final Thread.State BLOCKED
     ```
 
@@ -68,7 +68,7 @@ Java 中任意时间点的[线程](https://www.geeksforgeeks.org/multithreading-
 
 4.  **常量类型:**等待
 
-```
+```java
 Declaration: public static final Thread.State WAITING
 ```
 
@@ -82,7 +82,7 @@ Declaration: public static final Thread.State WAITING
 
 *   **Constant type:** Timed Waiting
 
-    ```
+    ```java
     Declaration: public static final Thread.State TIMED_WAITING
     ```
 
@@ -94,13 +94,13 @@ Declaration: public static final Thread.State WAITING
     *   LockSupport.parkNanos
     *   锁定支持.停车直到*   **Constant type:** Terminated
 
-    ```
+    ```java
     Declaration: public static final Thread.State TERMINATED
     ```
 
     **描述:**终止线程的线程状态。线程已完成执行。
 
-```
+```java
 // Java program to demonstrate thread states
 class thread implements Runnable
 {
@@ -192,7 +192,7 @@ public class Test implements Runnable
 
 **输出:**
 
-```
+```java
 State of thread1 after creating it - NEW
 State of thread1 after calling .start() method on it - RUNNABLE
 State of thread2 after creating it - NEW

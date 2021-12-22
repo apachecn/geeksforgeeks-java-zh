@@ -6,7 +6,7 @@
 
 **数组声明语法:**
 
-```
+```java
 type var-name[]'
 OR
 type[] var-name;
@@ -16,7 +16,7 @@ type[] var-name;
 
 **示例:**
 
-```
+```java
 // both are valid declarations
 int intArray[]
 or int[] intArray
@@ -44,7 +44,7 @@ Collection[] collectionObject
 
 当一个数组被声明时，只创建一个引用。为了实际创建一个数组或为其提供内存，我们可以创建一个如下所示的数组:
 
-```
+```java
 var-name = new type[size];
 ```
 
@@ -52,7 +52,7 @@ var-name = new type[size];
 
 **示例:**
 
-```
+```java
 // Declaring an array
 int intArray[]
 
@@ -62,7 +62,7 @@ int Array = new int[10];
 
 运筹学
 
-```
+```java
 // Combining both statements in one
 int[] intArray = new int[10];
 ```
@@ -71,7 +71,7 @@ int[] intArray = new int[10];
 
 数组中的每个元素都是通过其索引来访问的。索引以 0 开始，以(数组大小)–1 结束。一个数组的所有元素都可以使用 Java [进行循环](https://www.geeksforgeeks.org/loops-in-java/)来访问。
 
-```
+```java
 // Accessing the elements of the specified array
 for(int i = 0; i < arr.length; i++)
    System.out.println("Element at index" + i + ": " + arr[i]);
@@ -81,7 +81,7 @@ for(int i = 0; i < arr.length; i++)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate creating an array
 // of integers, put some values in the array,
 // and prints each value to standard output
@@ -114,7 +114,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Element at index 0 : 10
 Element at index 1 : 20
 Element at index 2 : 30
@@ -131,14 +131,14 @@ Element at index 4 : 50
 
 **语法:**
 
-```
+```java
 <String_Type> <string_variable> = 
 "<sequence_of_string>";
 ```
 
 运筹学
 
-```
+```java
 <String_Type> <string_variable> = 
 <new> <String_Type>("<sequence_of_string>");
 ```
@@ -149,7 +149,7 @@ Element at index 4 : 50
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate String
 class GFG {
     public static void main(String args[])
@@ -171,7 +171,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String str = GeeksForGeeks
 String str1 = GeeksForGeeks
 

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public int scale()
 
 ```
@@ -22,7 +22,7 @@ public int scale()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // scale() method
 
@@ -50,7 +50,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 The scale of 456.0 is 1
 The scale of -1.456 is 3
 
@@ -58,7 +58,7 @@ The scale of -1.456 is 3
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate the
 // scale() method
 
@@ -86,7 +86,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 The scale of 745 is 0
 The scale of -174 is 0
 

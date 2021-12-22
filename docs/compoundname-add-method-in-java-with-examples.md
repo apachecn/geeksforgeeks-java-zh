@@ -9,7 +9,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public Name add(int posn, String comp)
              throws InvalidNameException
 
@@ -27,7 +27,7 @@
     下面的程序说明了 CompoundName.add()方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // CompoundName.add()
 
@@ -68,14 +68,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Updated CompoundName Object: 000@1@2@3@4@5@6@7
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // CompoundName.add() method
 
@@ -117,7 +117,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Updated CompoundName Object: c/e/d/v/a/b/z/y/x/zzzzz/f
 
     ```
@@ -125,7 +125,7 @@
 2.  **add(String)**: Thie method is used to add a single component to the end of this compound name.
     **Syntax:**
 
-    ```
+    ```java
     public Name add(String comp)
            throws InvalidNameException
 
@@ -140,7 +140,7 @@
     下面的程序说明了 CompoundName.add()方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // CompoundName.add()
 
@@ -181,14 +181,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Updated CompoundName Object: 1@2@3@4@5@6@7@9
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // CompoundName.add() method
 
@@ -229,7 +229,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Updated CompoundName Object: c/e/d/v/a/b/z/y/x/f/ppp
 
     ```

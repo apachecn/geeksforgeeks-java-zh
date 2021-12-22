@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static DoubleStream generate(DoubleSupplier s)
 
 ```
@@ -20,7 +20,7 @@ static DoubleStream generate(DoubleSupplier s)
 
 ****例 1 :** 生成随机双打流。**
 
-```
+```java
 // Java code for DoubleStream.generate()
 // to generate an infinite sequential
 // unordered DoubleStream
@@ -45,7 +45,7 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 2428.4470875214092
 1339.9762523410686
 302.44560518440267

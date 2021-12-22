@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/bitset-class-methods-Java-examples-set-3/](https://www.geeksforgeeks.org/bitset-class-methods-java-examples-set-3/)
 
-```
+```java
                        BitSet class methods in Set 3.
                /      /      |       |     |       \      \
             and  notand    flip  isEmpty  equal   get   intersect
@@ -17,7 +17,7 @@
     。and()方法执行位集(目标)的逻辑与运算，位集作为参数传递。当且仅当两个被操作的位都为真时，这将返回一个位(置位)。
     。notand()方法–使用此方法
 
-    ```
+    ```java
     Syntax:
     public void and(BitSet bitset)
                or
@@ -30,7 +30,7 @@
     清除所有设置了相应位的位
 2.  **equal:**T3】Java . util . BitSet . equal()方法在比较两个 bitset 时发挥作用。它是通过比较一个物体和其他物体来实现的。
 
-    ```
+    ```java
     Syntax:
     public boolean equals(Object o)
     Parameters: 
@@ -42,7 +42,7 @@
 
 3.  **get() :** **java.util.BitSet.get()** method creates a new BitSet with elements from the given Bitset having positions from from_Index (inclusive) to_Index(exclusive).
 
-    ```
+    ```java
     Syntax:
     public BitSet get(int from_Index,  int to_Index)
     Parameters:
@@ -56,7 +56,7 @@
 
     **解释 and()，notand()，equal()，get()方法使用的 Java 代码。**
 
-    ```
+    ```java
     // Java program explaining BitSet class methods
     // and(), notand(), equal(), get()
     import java.util.*;
@@ -113,7 +113,7 @@
 
     输出:
 
-    ```
+    ```java
     bs1         : {1, 2, 3, 4, 6, 7}
     bs2         : {2, 3, 4, 6, 9}
 
@@ -129,7 +129,7 @@
 
 4.  **flip():****Java . util . bitset . flip(from_Index，to_Index)** 方法将从给定的 from _ Index(包含)到指定的 to_Index(不包含)的每个位设置为当前值的补码。
 
-    ```
+    ```java
     Syntax:
     public void flip(int from_Index, int to_Index)
     Parameters:
@@ -143,7 +143,7 @@
 
 5.  **intersect():****Java . util . BitSet . intersect()**如果目标 BitSet 和给定 BitSet 中的位都被设置，则方法返回 true。
 
-    ```
+    ```java
     Syntax:
     public boolean intersects(BitSet set)
     Parameters:
@@ -154,7 +154,7 @@
 
 6.  **isEmpty() :** **java.util.BitSet.isEmpty()** method whether there is any bit, that is set to true or not in the given Bitset.
 
-    ```
+    ```java
     Syntax:
     public boolean isEmpty()
     Return: boolean indicating whether the given BitSet is empty
@@ -163,7 +163,7 @@
 
     **解释 intersect()，isEmpty()，flip()方法使用的 Java 代码。**
 
-    ```
+    ```java
     // Java program explaining BitSet class methods
     // intersect(), isEmpty(), flip() methods
     import java.util.*;
@@ -219,7 +219,7 @@
 
     输出:
 
-    ```
+    ```java
     bs1      : {1, 2, 3, 4, 6, 7}
     bs2      : {2, 3, 4, 6, 9}
 

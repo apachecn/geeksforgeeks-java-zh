@@ -28,7 +28,7 @@ TreeSet 提供的一些具体方法如下:
 
 **语法:**
 
-```
+```java
 treeSetObject.floor(argument) ;
 ```
 
@@ -36,7 +36,7 @@ treeSetObject.floor(argument) ;
 
 ## Java
 
-```
+```java
 // Java Program to demonstrate Floor Method in TreeSet
 
 // Importing input output classes
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Tree set = [12, 37, 54, 68, 98]
 floor(60) = 54
 floor(54) = 54
@@ -96,7 +96,7 @@ floor(54) = 54
 
 **语法:**
 
-```
+```java
 treeSetObject.lower(argument) ;
 ```
 
@@ -104,7 +104,7 @@ treeSetObject.lower(argument) ;
 
 ## Java
 
-```
+```java
 // Java Program to demonstrate Lower Method in TreeSet
 
 // Importing input output classes
@@ -152,7 +152,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 [12, 37, 54, 68, 98]
 lower(90) = 68
 lower(68) = 54
@@ -166,7 +166,7 @@ lower(68) = 54
 
 **语法:**
 
-```
+```java
 treeSetObject.lower(argument) ;
 ```
 
@@ -176,7 +176,7 @@ treeSetObject.lower(argument) ;
 
 T0输出
 
-```
+```java
 tree set = [12, 37, 54, 68, 98]
 ceiling(50) = 54
 ceiling(68) = 68

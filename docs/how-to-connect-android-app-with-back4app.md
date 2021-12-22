@@ -49,7 +49,7 @@ Back4App 是开发人员的社区中最优秀、最受欢迎的 Parse 替代品�
 
 ## XML
 
-```
+```java
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 <uses-permission android:name="android.permission.INTERNET"/>
 ```

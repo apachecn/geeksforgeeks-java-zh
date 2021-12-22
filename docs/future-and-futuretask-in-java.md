@@ -28,7 +28,7 @@ Future 和 FutureTask 都有 Java 1.5 的 **java.util.concurrent 包**提供。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program do two FutureTask
 // using Runnable Interface
 
@@ -136,7 +136,7 @@ class FutureTaskExample {
 
 **输出:**
 
-```
+```java
 FutureTask1 output=FutureTask1 is complete
 Waiting for FutureTask2 to complete
 Waiting for FutureTask2 to complete

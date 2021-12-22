@@ -13,7 +13,7 @@ SequenceInputStream 类允许您连接多个输入流。它一个接一个地读
 
 *   **读取:**从该输入流中读取下一个字节的数据。
 
-    ```
+    ```java
     Syntax:
     public int read()
              throws IOException 
@@ -24,7 +24,7 @@ SequenceInputStream 类允许您连接多个输入流。它一个接一个地读
 
 *   **读取(字节[] b，int off，int len) :** 从该输入流中读取多达 len 字节的数据到一个
 
-    ```
+    ```java
     Syntax:
     public int read(byte[] b,
            int off,
@@ -45,7 +45,7 @@ SequenceInputStream 类允许您连接多个输入流。它一个接一个地读
     数组中
 *   **可用:**返回可以从当前底层输入流读取(或跳过)的字节数的估计值，而不会被当前底层输入流的方法的下一次调用阻塞。
 
-    ```
+    ```java
     Syntax :
     public int available()
                   throws IOException 
@@ -58,7 +58,7 @@ SequenceInputStream 类允许您连接多个输入流。它一个接一个地读
 
 *   **关闭:**关闭该输入流并释放与该流相关联的任何系统资源。
 
-    ```
+    ```java
     Syntax :
     public void close()
                throws IOException
@@ -70,7 +70,7 @@ SequenceInputStream 类允许您连接多个输入流。它一个接一个地读
 下面是实现一些重要方法的 SequenceInputStream 类的示例。
 **程序:** 
 
-```
+```java
 //Java program to demonstrate SequenceInputStream
 import java.io.*;
 import java.util.*;
@@ -120,7 +120,7 @@ class SequenceISDemp
 
 **输出:** 
 
-```
+```java
 19
 This is first file This is second file This is third file
 

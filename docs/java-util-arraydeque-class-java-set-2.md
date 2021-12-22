@@ -8,7 +8,7 @@
 **16。offer(Element e):Java . util . arrayDeque . offer(Element e)**:在 deque 的末尾插入 Element。
 **语法:**
 
-```
+```java
 public boolean offer(Element e)
 Parameters : 
 e - element to add
@@ -19,7 +19,7 @@ true, if element is added else; false
 **17。offer first(Element e):Java . util . arrayDeque . offer first(Element e)**:在 deque 前面插入元素。
 **语法:**
 
-```
+```java
 public boolean offerFirst(Element e)
 Parameters : 
 e - element to add
@@ -30,7 +30,7 @@ true, if element is added else; false
 **18。offer last(Element e):Java . util . arrayDeque . offer last(Element e)**:在 deque 的末尾插入元素。
 **语法:**
 
-```
+```java
 public boolean offerLast(Element e)
 Parameters : 
 e - element to add
@@ -41,7 +41,7 @@ true, if element is added else; false
 **19。peek():Java . util . arraydeque . peek()**:返回 head 元素，不移除。
 **语法:**
 
-```
+```java
 public E peek()
 Parameters :
 --------
@@ -52,7 +52,7 @@ head of deque or null if deque is empty.
 **20。peek first():Java . util . arraydeque . peek first()**:返回第一个元素，不移除。
 **语法:**
 
-```
+```java
 public E peekFirst()
 Parameters :
 --------
@@ -63,7 +63,7 @@ first element of deque or null if deque is empty.
 **21。peek last():Java . util . Arraydeque . peek()**:返回最后一个元素，不移除。
 **语法:**
 
-```
+```java
 public E peekLast()
 Parameters :
 --------
@@ -74,7 +74,7 @@ Last element of deque or null if deque is empty.
 **22。poll():Java . util . arraydeque . peek()**:返回 head 元素并删除它
 **语法:**
 
-```
+```java
 public E poll()
 Parameters :
 --------
@@ -85,7 +85,7 @@ head of deque or null if deque is empty.
 **23。pollsfirst():Java . util . arraydeque . peek()**:返回第一个元素，同时删除它
 **语法:**
 
-```
+```java
 public E pollFirst()
 Parameters :
 --------
@@ -96,7 +96,7 @@ first element of deque or null if deque is empty.
 **24。poll last():Java . util . arraydeque . peek()**:返回最后一个元素，并删除它
 **语法:**
 
-```
+```java
 public E pollLast()
 Parameters :
 --------
@@ -107,7 +107,7 @@ last element of deque or null if deque is empty.
 **25。pop():Java . util . arraydeque . pop()**:弹出一个元素进行叠加，由
 表示**语法:**
 
-```
+```java
 public E pop()
 Parameters :
 ---------
@@ -118,7 +118,7 @@ element at front
 **26。push(Element e):Java . util . arraydeque . push(Element e)**:将一个元素推到由 deque
 表示的堆栈上**语法:**
 
-```
+```java
 public void push(Element e)
 Parameters :
 e : element to be pushed
@@ -129,7 +129,7 @@ Return :
 **27。remove():Java . util . arraydeque . remove()**:返回 head 元素，同时也删除它
 **语法:**
 
-```
+```java
 public E remove()
 Parameters :
 ------
@@ -140,7 +140,7 @@ head of the deque
 **28。remove first():Java . util . arraydeque . remove()**:返回第一个元素，同时删除它
 **语法:**
 
-```
+```java
 public E removeFirst()
 Parameters :
 ------
@@ -151,7 +151,7 @@ first element of the deque
 **29。remove last():Java . util . arraydeque . remove()**:返回最后一个元素，并将其删除
 **语法:**
 
-```
+```java
 public E removeLast()
 Parameters :
 ------
@@ -162,7 +162,7 @@ last element of the deque
 **30。remove first occurrence(Obj):Java . util . Arraydeque . remove first occurrence(Obj)**:移除元素中第一次出现的元素。
 **语法:**
 
-```
+```java
 public boolean removeFirstOccurrence(Object obj)
 Parameters :
 obj : element to be removed
@@ -173,7 +173,7 @@ true, if the element is removed; else False
 **31。removelastpoccurrence(Obj):Java . util . Arraydeque . removelastpoccurrence(Obj)**:移除元素中最后出现的元素。
 **语法:**
 
-```
+```java
 public boolean removeLastOccurrence(Object obj)
 Parameters :
 obj : element to be removed
@@ -185,7 +185,7 @@ true, if the element is removed; else False
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code explaining the use of ArrayDeque class methods
 // offer(), offerFirst(), offerLast(), peek(), peekFirst(), peekLast()
 // poll(), peekFirst(), peekLast(), pop(), push()
@@ -270,7 +270,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Element : 3333
 Element : 1111
 Element : 2

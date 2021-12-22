@@ -16,7 +16,7 @@ Node.js 是一个非阻塞的、事件驱动的 JavaScript 运行时平台，它
 
 ****语法:****
 
-```
+```java
 npm init
 ```
 
@@ -26,7 +26,7 @@ npm init
 
 ****语法:****
 
-```
+```java
 npm install java
 ```
 
@@ -50,7 +50,7 @@ npm install java
 
 ## **java 描述语言**
 
-```
+```java
 var java = require('java');
 var javaLangSystem = java.import('java.lang.System');
 
@@ -59,13 +59,13 @@ javaLangSystem.out.printlnSync('I love gfg!');
 
 **然后在项目的终端上执行以下命令:**
 
-```
+```java
 node test.js
 ```
 
 ****输出:****
 
-```
+```java
 I love gfg!
 ```
 
@@ -73,7 +73,7 @@ I love gfg!
 
 ## **java 描述语言**
 
-```
+```java
 var java = require('java');
 var javaLangSystem = java.import('java.lang.System');
 var n=10
@@ -81,13 +81,13 @@ var n=10
 javaLangSystem.out.printlnSync(n);
 ```
 
-```
+```java
 node test.js
 ```
 
 ****输出**:**
 
-```
+```java
 10
 ```
 

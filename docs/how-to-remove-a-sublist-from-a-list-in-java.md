@@ -16,14 +16,14 @@
 
     **语法:**
 
-    ```
+    ```java
     List.subList(int fromIndex, int toIndex).clear()
 
     ```
 
     **示例:**
 
-    ```
+    ```java
     // Java code to remove a subList using
     // subList(a, b).clear() method
 
@@ -63,7 +63,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Original List: [GFG, for, Geeks, computer, portal]
     Final List: [GFG, computer, portal]
 
@@ -79,14 +79,14 @@
 
     **语法:**
 
-    ```
+    ```java
     List.removeRange(int fromIndex, int toIndex)
 
     ```
 
     **示例:**
 
-    ```
+    ```java
     // Java code to remove a subList
     // using removeRange() method
 
@@ -129,7 +129,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Original List: [1, 2, 3, 4, 5, 6, 7, 8]
     Final List: [1, 2, 5, 6, 7, 8]
 

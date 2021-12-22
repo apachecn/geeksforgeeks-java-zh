@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: 0001
 Output: 0
         0
@@ -39,7 +39,7 @@ Output: G
 
 ## Java
 
-```
+```java
 // Java program to convert String to ArrayList
 
 import java.util.ArrayList;
@@ -68,7 +68,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 G
 e
 e

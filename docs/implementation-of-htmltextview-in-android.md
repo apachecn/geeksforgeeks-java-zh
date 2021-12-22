@@ -12,13 +12,13 @@
 
 **第二步:把这个添加到 AndroidManifest.xml 文件**
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
 将此添加到 **build.gradle** 文件中
 
-```
+```java
 implementation 'org.sufficientlysecure:html-textview:4.0'
 ```
 
@@ -28,7 +28,7 @@ implementation 'org.sufficientlysecure:html-textview:4.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -62,7 +62,7 @@ implementation 'org.sufficientlysecure:html-textview:4.0'
 
 转到**MainActivity.java**文件，参考以下代码。以下是**MainActivity.java**文件的代码
 
-```
+```java
 Spanned spanned= HtmlFormatter.formatHtml(new HtmlFormatterBuilder()
                 .setHtml("<p><big><bold>GeeksForGeeks</bold></big><p>"));
                 // load text using HtmlFormatterBuilder
@@ -82,7 +82,7 @@ text1.setHtml("Load Image From Asset<br><img src='image.png'/>",new HtmlAssetsIm
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.os.Bundle;
 import android.text.Spanned;
 import android.view.View;

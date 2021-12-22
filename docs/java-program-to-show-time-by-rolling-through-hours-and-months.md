@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract void roll(int calendar_field, boolean up_down)
 ```
 
@@ -23,7 +23,7 @@ public abstract void roll(int calendar_field, boolean up_down)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show how to roll through
 // hours or years or months using roll() method
 import java.util.Calendar;
@@ -87,7 +87,7 @@ public class CalendarExample1 {
 
 **Output**
 
-```
+```java
 Today is Fri Oct 30 06:19:15 UTC 2020
 Date after rolling by 50 over  month will be Wed Dec 30 06:19:15 UTC 2020
 Date after rolling by 70 over hours will be Wed Dec 30 04:19:15 UTC 2020
@@ -101,7 +101,7 @@ Date after true rolling over year is Thu Sep 30 07:19:15 UTC 2021
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // roll() method
 
@@ -139,7 +139,7 @@ public class CalendarExample2 {
 
 **Output**
 
-```
+```java
 The Current Month is: 9
 The New Month is: 10
 The new month is: 9

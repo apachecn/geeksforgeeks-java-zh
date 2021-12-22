@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 static Month from( TemporalAccessor temporal )
 
 ```
@@ -21,7 +21,7 @@ static Month from( TemporalAccessor temporal )
 
 **程序 1** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.Temporal;
@@ -39,14 +39,14 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 MARCH
 
 ```
 
 **程序二** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.Temporal;
@@ -68,7 +68,7 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 NOVEMBER
 
 ```

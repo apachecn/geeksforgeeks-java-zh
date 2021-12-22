@@ -14,7 +14,7 @@ font status 类是 JavaFX 的一部分。字体状态类指定字体是常规还
 
 **Java 程序创建一个字体对象并设置一个指定的姿势并将其应用于一个文本:**在这个程序中，我们将创建两个文本对象并将一个字体姿势设置为*常规*，另一个设置为*斜体*。然后将文本设置为 textflow 并将此 TextFlow 添加到 VBox 并将 *vbox* 添加到场景中，并将场景添加到舞台中。另外，设置 textflow 的行距和文本对齐方式以及 vbox 的间距。调用 *show()* 功能显示最终结果。
 
-```
+```java
 // Java Program to create a font object and set
 // a specified posture and  apply it to a text
 import javafx.application.Application;

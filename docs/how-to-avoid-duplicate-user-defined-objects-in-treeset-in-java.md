@@ -20,7 +20,7 @@ TreeSet 根据自然顺序对元素进行排序。所有的包装类和字符串
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Avoid Duplicate User
 // Defined Objects in TreeSet
 import java.util.*;
@@ -100,7 +100,7 @@ class Gfg {
 
 **Output**
 
-```
+```java
 Raghav (12)
 Raghav (32)
 Tilak (11)
@@ -110,7 +110,7 @@ Tilak (11)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Avoid Duplicate User
 // Defined Objects in TreeSet
 import java.util.*;
@@ -194,7 +194,7 @@ class Gfg {
 
 **Output**
 
-```
+```java
 Mumukshi (252)
 Tilak (435)
 Raghav (934)

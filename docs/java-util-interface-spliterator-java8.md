@@ -11,7 +11,7 @@
 
 对于集合，可以通过调用集合接口中的 spliterator()方法来创建 Spliterator 对象。
 
-```
+```java
 // Here "c" is any Collection object. splitr is of
 // type Spliterator interface and refers to "c"
 Spliterator splitr = c.spliterator();
@@ -22,7 +22,7 @@ Spliterator splitr = c.spliterator();
 
 1.  **int 特性()**:返回这个拆分器及其元素的一组特性。结果来自 ORDED(0x 000000010)、DISTINCT(0x 000000001)、SCORED(0x 00000004)、SIZED(0x00000040)、NONULL(0x 00000100)、INCOMPLETE(0x 0000400)、COMPLETE(0x 00001000)、SUBSIDED(0x 00004000)。
 
-    ```
+    ```java
     Syntax : 
     int characteristics()
     Parameters : 
@@ -35,7 +35,7 @@ Spliterator splitr = c.spliterator();
 
 2.  **long estimateSize( )** :返回需要迭代的元素个数的估计值，或者返回 long。MAX_VALUE 如果是无限的、未知的或太贵而无法计算。
 
-    ```
+    ```java
     Syntax : 
     long estimateSize( )
     Parameters : 
@@ -49,7 +49,7 @@ Spliterator splitr = c.spliterator();
 
 3.  **缺省长 getExactSizeIfKnown( )** :如果这个 Spliterator 是 Size，则返回 estimateSize()的便利方法，否则返回-1。
 
-    ```
+    ```java
     Syntax : 
     default long getExactSizeIfKnown( )
     Parameters : 
@@ -62,7 +62,7 @@ Spliterator splitr = c.spliterator();
 
 4.  **默认比较器<？超级测试>获取比较器()**:如果这个拆分器的源被一个比较器排序，返回那个比较器。如果源按自然顺序排序，则返回 null。否则，如果源未排序，将引发 IllegalStateException。
 
-    ```
+    ```java
     Syntax : 
     default Comparator<? super T> getComparator( )
     Parameters : 
@@ -78,7 +78,7 @@ Spliterator splitr = c.spliterator();
 
 5.  **默认布尔哈斯特徵(int val)** :如果这个拆分器的特徵()包含所有给定的特徵，则返回 true。
 
-    ```
+    ```java
     Syntax : 
     default boolean hasCharacteristics(int val)
     Parameters : 
@@ -91,7 +91,7 @@ Spliterator splitr = c.spliterator();
 
 6.  **布尔 tryAdvance(消费者<？超 T >动作)**:如果存在剩余元素，对其执行给定动作，返回 true 否则返回 false。如果此拆分器是有序的，则操作将在遇到顺序中的下一个元素上执行。该操作引发的异常被传递给调用方。
 
-    ```
+    ```java
     Syntax : 
     boolean tryAdvance(Consumer<? super T> action) 
     Parameters : 
@@ -106,7 +106,7 @@ Spliterator splitr = c.spliterator();
 
 7.  **默认作废 forEachRemaining(消费者<？super T >动作)**:对每个剩余的元素执行给定的动作，在当前线程中按顺序执行，直到所有元素都被处理完或者动作抛出异常。如果此拆分器是有序的，操作将按遇到顺序执行。该操作引发的异常被传递给调用方。
 
-    ```
+    ```java
     Syntax : 
     default void forEachRemaining(Consumer<? super T>action)
     Parameters : 
@@ -120,7 +120,7 @@ Spliterator splitr = c.spliterator();
 
 8.  **Spliterator<T> trySplit( )** : If possible, splits the invoking spliterator, returning a reference to a new spliterator for the partition. Otherwise, returns null. Thus, if successful, the original spliterator iterates over one portion of the sequence and the returned spliterator iterates over the other portion.
 
-    ```
+    ```java
     Syntax : 
     Spliterator<T> trySplit( )
     Parameters : 
@@ -133,7 +133,7 @@ Spliterator splitr = c.spliterator();
 
     下面的例子演示了拆分器的方法。
 
-    ```
+    ```java
     // Java program to demonstrate
     // methods of Spliterator
 
@@ -197,7 +197,7 @@ Spliterator splitr = c.spliterator();
 
     输出:
 
-    ```
+    ```java
     estimate size : 5
     exact size : 5
     true
@@ -222,7 +222,7 @@ Spliterator splitr = c.spliterator();
 
 看看 *tryAdvance()* 法。它对下一个元素执行*操作*，然后推进迭代器。如下所示:
 
-```
+```java
 boolean tryAdvance(Consumer<? super T> action)
 
 ```
@@ -230,7 +230,7 @@ boolean tryAdvance(Consumer<? super T> action)
 这里，*动作*指定在迭代中下一个元素上执行的动作，而 Consumer 是一个[功能接口](https://www.geeksforgeeks.org/functional-interfaces-java/)，它将动作应用于对象。这是一个在 *java.util.function* 中声明的通用函数接口。它只有一个抽象方法 *accept( )* ，这里显示的是
 :
 
-```
+```java
 void accept(T objRef)
 
 ```
@@ -241,7 +241,7 @@ void accept(T objRef)
 
 **如何对集合使用 Spliterator**:对基本迭代任务使用 Spliterator 相当容易，只需调用 *tryAdvance( )* 直到返回 false 即可。
 
-```
+```java
 // Java program to demonstrate simple Spliterator
 // using tryAdvance method
 
@@ -300,7 +300,7 @@ public class SpliteratorDemo 
 
 输出:
 
-```
+```java
 Contents of arraylist:
 1
 2

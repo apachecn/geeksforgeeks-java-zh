@@ -18,7 +18,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Search for a File in a Directory
 import java.io.*;
 

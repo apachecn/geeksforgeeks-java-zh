@@ -68,7 +68,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--In linearlayout, screen is rendered and hence all the below
     components come line by line and provide neat layout -->
@@ -138,7 +138,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.MultiAutoCompleteTextView;
@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.TextUtils;

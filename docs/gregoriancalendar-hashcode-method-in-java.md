@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -16,7 +16,7 @@ public int hashCode()
 
 **示例:**
 
-```
+```java
 Input : Thu Jul 24 00:53:29 UTC 1997
 Output : 2121703905
 
@@ -28,7 +28,7 @@ Output : -909136554
 下面的程序说明了 Java . util . gregoriancalendar . hashcode()函数:
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate hashCode() function
 // of GregorianCalendar class
 
@@ -54,7 +54,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 11:43:16 UTC 2018
 Hash Code:-612105832
 
@@ -62,7 +62,7 @@ Hash Code:-612105832
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate hashCode() function
 // of GregorianCalendar class
 
@@ -93,7 +93,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 11:43:18 UTC 2018
 Modified Date and Time : Thu Jul 27 11:43:18 UTC 2006
 Hash Code of the modified date and time:-1346149059

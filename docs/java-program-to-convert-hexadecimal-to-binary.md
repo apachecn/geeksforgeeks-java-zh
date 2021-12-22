@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Hexadecimal Sequence : 458A
 Binary Equivalent : 0100010110001010
 Explanation : Binary representation of A : 1010
@@ -41,7 +41,7 @@ Binary Equivalent : 101100110110
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Hexadecimal to Binary
 
 import java.util.HashMap;
@@ -134,7 +134,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 DEAFA
 11011110101011111010
 ```
@@ -155,7 +155,7 @@ DEAFA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Hexadecimal to Binary
 
 class GFG {
@@ -272,7 +272,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 abcfde
 101010111100111111011110
 ```

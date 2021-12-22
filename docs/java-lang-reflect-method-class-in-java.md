@@ -42,7 +42,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the
 // Implementation of getDefaultvalue()
 
@@ -75,7 +75,7 @@ class Demo {
 
 **Output**
 
-```
+```java
 null
 ```
 
@@ -83,7 +83,7 @@ null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the
 // Implementation of toString()
 
@@ -114,6 +114,6 @@ class SampleClass {
 
 **Output**
 
-```
+```java
 public void SampleClass.setSampleField(java.lang.String)
 ```

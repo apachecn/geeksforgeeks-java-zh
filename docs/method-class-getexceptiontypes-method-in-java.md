@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Class<?>[] getExceptionTypes()
 ```
 
@@ -16,7 +16,7 @@ public Class<?>[] getExceptionTypes()
 
 **示例 1:** 打印所有异常
 
-```
+```java
 /*
 * Program Demonstrate getExceptionTypes() method 
 * of Method Class.
@@ -81,7 +81,7 @@ class demoClass {
 
 **Output:**
 
-```
+```java
 Exception Thrown by Method: getValue
 Exception Array length: 0
 Exception Thrown by Method: setValue
@@ -94,7 +94,7 @@ java.lang.ArithmeticException
 
 **示例 2:** 检查方法对象是否抛出了某个定义的异常。如果是，则打印真，否则打印假。
 
-```
+```java
 // Program Demonstrate getExceptionTypes() method 
 // Using getExceptionTypes() method of Method Class
 
@@ -172,7 +172,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 IndexOutOfBoundsException is thrown by setValue(): false
 
 ```

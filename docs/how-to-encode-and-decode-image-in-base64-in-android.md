@@ -27,7 +27,7 @@
 
 **第 2 步:导航至应用>清单>和安卓清单. xml 文件，并向其添加以下权限**
 
-```
+```java
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 ```
 
@@ -43,7 +43,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Parent Linear layout -->
 <LinearLayout
@@ -119,7 +119,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;

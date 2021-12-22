@@ -11,7 +11,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
 1.  **super()** is use to call Base class’s(Parent class’s) constructor.
 
-    ```
+    ```java
     // Java code to illustrate usage of super()
 
     class Parent {
@@ -39,7 +39,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
     输出:
 
-    ```
+    ```java
     Parent class's No arg constructor
     Flow comes back from Parent class no arg const
     Inside Main
@@ -54,7 +54,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
     *   此外，在完成子类流的无参数构造函数后，现在再次返回 main，执行剩余的语句，并在 Main 内部打印*。*
 2.  *We can use super() **only inside constructor and nowhere else**, not even in static context not even inside methods and super() should be **first statement** inside constructor.
 
-    ```
+    ```java
     // Java program to illustrate usage of
     // super() as first statement
 
@@ -88,7 +88,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
     输出:
 
-    ```
+    ```java
     Parent class's No arg constructor
     Flow comes back from Parent class no arg const
     Inside main
@@ -101,7 +101,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
 1.  *this() is used to call **current class’s constructor**.
 
-    ```
+    ```java
     // Java code to illustrate usage of this()
 
     class RR {
@@ -126,7 +126,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
     输出:
 
-    ```
+    ```java
     RR class's 1 arg const
     Flow comes back from RR class's 1 arg const
     Inside Main
@@ -141,7 +141,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
     *   此外，在完成 RR 类流的无参数构造函数后，现在再次返回 main，执行剩余的语句，并在 Main 中打印*。** 
 2.  *We can use this() **only inside constructor and nowhere else**, not even in static context not even inside methods and this() should be **first statement** inside constructor.
 
-    ```
+    ```java
     // Java program to illustrate usage of
     // this() as first statement
 
@@ -169,7 +169,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
     输出:
 
-    ```
+    ```java
     RR class's 1 arg constructor
     Flow comes back from RR class 1 arg const
     Inside main
@@ -183,7 +183,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 1.  *我们也可以在构造函数中只使用 super()这个()**一次**。如果我们两次使用 super()或者两次使用 this()或者 super()后跟 this()或者 this()后跟 super()，那么我们会立即得到编译时错误，即我们可以使用**或者 super()或者 this()作为构造函数内部的第一个语句，而不是两者都使用**。*
 2.  *It is upto you that whether you use super() or this() or not because if we are not using this() or super() then **by default compiler will put super()** as first statement inside constructor.
 
-    ```
+    ```java
     // Java program to illustrate super() by default
     // executed by compiler if not provided explicitly
 
@@ -217,7 +217,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
     }
     ```
 
-    ```
+    ```java
     Output:
     Parent class's No argument constructor
     Base class's No argument constructor
@@ -236,7 +236,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
     但是，如果明确指定，您可以在 super 之前使用这个()。
 
-    ```
+    ```java
     // Java program to illustrate super() put by 
     // compiler always if not provided explicitly
 
@@ -279,7 +279,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
     输出:
 
-    ```
+    ```java
     Parent class's No argument constructor
     2 arg const
     1 arg const
@@ -289,7 +289,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
     ```* 
 3.  ***Recursive constructor call not allowed**
 
-    ```
+    ```java
     // Java program to illustrate recursive 
     // constructor call not allowed
 
@@ -311,7 +311,7 @@ super()以及这个()都是用来让**构造函数调用**的。super()用于调
 
     输出:
 
-    ```
+    ```java
     Compile time error saying recursive constructor invocation
 
     ```

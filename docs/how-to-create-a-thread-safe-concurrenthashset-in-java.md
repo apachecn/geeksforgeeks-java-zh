@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Create the ConcurrentHashMap
 ConcurrentHashMap<String, Integer> map
     = new ConcurrentHashMap<>();
@@ -42,7 +42,7 @@ set.remove("geeksforgeeks");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Create ConcurrentHashMap
 ConcurrentHashMap<String, Integer> map
     = new ConcurrentHashMap<>();
@@ -60,7 +60,7 @@ set.add("GeeksForGeeks"); // Value will remain same as 246
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Create ConcurrentHashMap
 ConcurrentHashMap<String, Integer> map
     = new ConcurrentHashMap<>();
@@ -80,7 +80,7 @@ set.add("GeeksForGeeks"); // Value will remain same as 246
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement thread safe ConcurrentHashSet
 
 import java.io.*;
@@ -148,7 +148,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Initial set: [Threads, Java, GeeksforGeeks, Geeks, Java 8]
 before adding element into concurrent set: [Cello, Reynolds, Flair]
 after adding element into concurrent set: [Cello, Classmate, Reynolds, Flair]

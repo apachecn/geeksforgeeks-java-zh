@@ -34,7 +34,7 @@ FlowPane 类是 JavaFX 的一部分。Flowpane 以在 flowpane 的边界处换�
 
 1.  **Java Program to create a FlowPane, add labels to the flow pane and add it to the stage:** In this program we will create a FlowPane and 5 Label named *label*, *label1*, *label2*, *label3*, *label4*. Add the labels to the *flow_pane* by passing it as the arguments. Set the FlowPane to the scene and add the scene to the stage. Call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a FlowPane,
     // add labels to the flow pane
     // and add it to the stage
@@ -103,7 +103,7 @@ FlowPane 类是 JavaFX 的一部分。Flowpane 以在 flowpane 的边界处换�
 
 2.  **Java Program to create a FlowPane set its orientation, add labels and buttons and add it to the stage:** In this program we will create a FlowPane and a Label named *label*. Add the label to the flow_pane by passing it through the argument, orientation and the hgap, and vgap values. Add the buttons using *getChildren().add()*. Set the FlowPane to the scene. Add the scene to the stage. Call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a FlowPane
     // set its orientation, add labels 
     // and buttons and add it to the stage
@@ -176,7 +176,7 @@ FlowPane 类是 JavaFX 的一部分。Flowpane 以在 flowpane 的边界处换�
 
 3.  **Java Program to create a FlowPane set its orientation, add labels and buttons, set the alignment, column alignment, row alignment of the FlowPane and add it to the stage:** In this program we will create a FlowPane and a Label named label. Add the label to the flow_pane by passing it through the argument, orientation, and the hgap, and vgap values. Now add the buttons using *getChildren().add()*. Set the FlowPane to the scene. Set the alignment of the FlowPane using functions using *setAlignment(), setColumnHalignment(), setRowValignment()*. Add the scene to the stage. Call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a FlowPane set its orientation,
     // add labels and buttons, set the alignment, column 
     // alignment, row alignment of the FlowPane and add it 

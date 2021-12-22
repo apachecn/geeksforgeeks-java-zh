@@ -23,7 +23,7 @@
 
 ## C++
 
-```
+```java
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -78,7 +78,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 class GFG {
 
@@ -129,7 +129,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Function to return the largest element
 # such that its previous and next
 # element product is maximum
@@ -170,7 +170,7 @@ print(maxElement(a, n))
 
 ## C#
 
-```
+```java
 // C# implementation of the approach
 using System;
 
@@ -229,7 +229,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```java
 <script>
 // Java script implementation of the approach
 
@@ -279,6 +279,6 @@ class GFG
 
 **Output:** 
 
-```
+```java
 6
 ```

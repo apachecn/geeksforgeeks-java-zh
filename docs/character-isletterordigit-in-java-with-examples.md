@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isLetterOrDigit(char ch)
 
 ```
@@ -19,7 +19,7 @@ public static boolean isLetterOrDigit(char ch)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Character.isLetterOrDigit() method
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Z is a letter/digit ? true
 2 is a letter/digit ? true
 
@@ -54,7 +54,7 @@ Z is a letter/digit ? true
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // Character.isLetterOrDigit() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 D is a letter/digit ? true
 / is a letter/digit ? false
 

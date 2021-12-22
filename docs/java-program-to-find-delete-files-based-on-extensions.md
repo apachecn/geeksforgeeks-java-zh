@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 accept(File dir, String name)
 ```
 
@@ -16,14 +16,14 @@ accept(File dir, String name)
 
 **功能签名:**
 
-```
+```java
 public String[] list()
 public String[] list(FilenameFilter f)
 ```
 
 **函数语法:**
 
-```
+```java
 file.list()
 file.list(filter)
 ```
@@ -45,7 +45,7 @@ file.list(filter)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find/delete files based on extensions
 
 // Importing input output classes

@@ -5,7 +5,7 @@
 该方法是一个 java.util.Collections 类方法。它计算给定列表中指定元素的频率。它[覆盖 equals()](https://www.geeksforgeeks.org/overriding-equals-method-in-java/) 方法来执行比较，以检查指定的对象和列表中的对象是否相等。
 **语法:**
 
-```
+```java
 public static int frequency(Collection c, Object o) 
 parameters:
 c: Collection in which to determine the frequency of o.
@@ -14,7 +14,7 @@ It throws Null Pointer Exception if the Collection c is null.
 
 ```
 
-```
+```java
 // Java program to demonstrate 
 // working of Collections.frequency()
 import java.util.*;
@@ -40,7 +40,7 @@ public class GFG
 
 输出:
 
-```
+```java
 The frequency of the word code is: 3
 
 ```
@@ -49,7 +49,7 @@ The frequency of the word code is: 3
 
 上述方法适用于 java 中已经定义的对象，但是自定义对象呢？为了计算 java 中自定义对象的出现频率，我们必须简单地重写 equals()方法。让我们看看如何做到这一点。
 
-```
+```java
 // Java program to demonstrate working of 
 // Collections.frequency()
 // for custom defined objects
@@ -127,7 +127,7 @@ class Student
 
 输出:
 
-```
+```java
 The frequency of the Student Ram,19 is: 2
 
 ```

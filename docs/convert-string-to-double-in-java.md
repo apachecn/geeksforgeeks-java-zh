@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: String = "20.156"
 Output: 20.156
 
@@ -21,12 +21,12 @@ Output: 456.21
 
     **语法:**
 
-    ```
+    ```java
     double str1 = Double.parseDouble(str); 
 
     ```
 
-    ```
+    ```java
     // Java program to convert String to Double
     // using parseDouble()
 
@@ -50,7 +50,7 @@ Output: 456.21
 
     **Output:**
 
-    ```
+    ```java
     2033.12244
 
     ```
@@ -59,14 +59,14 @@ Output: 456.21
 
     **语法:**
 
-    ```
+    ```java
     double str1 = Double.valueOf(str); 
 
     ```
 
     **示例:**
 
-    ```
+    ```java
     // Java program to convert String to Double
     // using parseDouble()
 
@@ -90,7 +90,7 @@ Output: 456.21
 
     **Output:**
 
-    ```
+    ```java
     2033.12244
 
     ```
@@ -99,14 +99,14 @@ Output: 456.21
 
     **语法:**
 
-    ```
+    ```java
     Double str1 = new Double(str); 
 
     ```
 
     **示例:**
 
-    ```
+    ```java
     // Java program to convert String to Double
     // using parseDouble()
 
@@ -130,7 +130,7 @@ Output: 456.21
 
     **Output:**
 
-    ```
+    ```java
     2033.12244
 
     ```

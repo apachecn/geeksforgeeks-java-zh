@@ -6,7 +6,7 @@ Instant 类的 **getEpochSecond()** 方法用于返回从 1970-01-01T00:00:00Z �
 
 **语法:**
 
-```
+```java
 public long getEpochSecond()
 ```
 
@@ -16,7 +16,7 @@ public long getEpochSecond()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.getEpochSecond() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2018-10-20T16:55:30Z
 Java epoch Value: 1540054530
 
@@ -53,7 +53,7 @@ Java epoch Value: 1540054530
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.getEpochSecond() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Instant: 2018-11-22T08:26:19.502Z
 Java epoch Value: 1542875179
 

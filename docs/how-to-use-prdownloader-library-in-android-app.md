@@ -6,13 +6,13 @@
 
 **暂停下载请求:**
 
-```
+```java
 PRDownloader.pause(downloadId);
 ```
 
 **取消下载请求:**
 
-```
+```java
 // Cancel with the download id
 PRDownloader.cancel(downloadId);
 // The tag can be set to any request and then can be used to cancel the request
@@ -23,13 +23,13 @@ PRDownloader.cancelAll();
 
 **恢复下载请求:**
 
-```
+```java
 PRDownloader.resume(downloadId);
 ```
 
 **获取下载请求的状态:**
 
-```
+```java
 Status status = PRDownloader.getStatus(downloadId);
 ```
 
@@ -49,7 +49,7 @@ Status status = PRDownloader.getStatus(downloadId);
 
 要添加依赖项，请导航至**应用程序>渐变脚本>渐变构建(模块:应用)**，并在依赖项部分添加以下依赖项。添加依赖项后，同步您的项目。
 
-```
+```java
 implementation 'com.mindorks.android:prdownloader:0.6.0'
 ```
 
@@ -57,7 +57,7 @@ implementation 'com.mindorks.android:prdownloader:0.6.0'
 
 导航至 **app >清单> AndroidManifest.xml** 并添加互联网权限。
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
@@ -67,7 +67,7 @@ implementation 'com.mindorks.android:prdownloader:0.6.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -180,7 +180,7 @@ implementation 'com.mindorks.android:prdownloader:0.6.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG PRDownloader Library</string>
     <string name="download">DOWNLOAD</string>
@@ -197,7 +197,7 @@ implementation 'com.mindorks.android:prdownloader:0.6.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
@@ -223,7 +223,7 @@ implementation 'com.mindorks.android:prdownloader:0.6.0'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.os.Environment;
 
@@ -263,7 +263,7 @@ public final class Utils {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;

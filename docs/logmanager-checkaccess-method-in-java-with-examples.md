@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void checkAccess()
   throws SecurityException
 
@@ -22,7 +22,7 @@ public void checkAccess()
 
 下面程序说明 checkAccess()方法:
 
-```
+```java
 // Java program to illustrate
 // LogManager checkAccess() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LogManager: java.util.logging.LogManager@1540e19d
 Checking for permissions
 

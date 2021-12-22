@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static int multiplyExact(int a, int b)
 public static double multiplyExact(int a, double b)
 Parameter :
@@ -23,7 +23,7 @@ It throws ArithmeticException - if the result overflows an int
 
 **示例:**展示**Java . lang . math . multiplyxact()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.multiplyExact() method
 import java.lang.Math;
@@ -44,13 +44,13 @@ class Gfg1 {
 
 **Output:**
 
-```
+```java
 125
 5000
 
 ```
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.multiplyExact() method
 import java.lang.Math;
@@ -70,7 +70,7 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 Runtime Error :
 Exception in thread "main" java.lang.ArithmeticException: integer overflow
     at java.lang.Math.multiplyExact(Math.java:867)

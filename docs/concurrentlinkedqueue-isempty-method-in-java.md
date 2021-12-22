@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -16,7 +16,7 @@ public boolean isEmpty()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of ConcurrentLinkedQueue
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar, Sanjeet, Rabi]
 Is Queue empty: false
 
@@ -58,7 +58,7 @@ Is Queue empty: false
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of ConcurrentLinkedQueue
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: []
 Is queue empty  : true
 

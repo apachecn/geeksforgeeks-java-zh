@@ -5,7 +5,7 @@
 **嵌套循环**是指另一个循环语句中的一个[循环语句](https://www.geeksforgeeks.org/loops-in-java/)。这就是为什么嵌套循环也被称为“循环内循环”。
 **嵌套 for 循环的语法:**
 
-```
+```java
 for ( initialization; condition; increment ) {
 
    for ( initialization; condition; increment ) {
@@ -19,7 +19,7 @@ for ( initialization; condition; increment ) {
 
 **嵌套 While 循环的语法:**
 
-```
+```java
 while(condition) {
 
    while(condition) {
@@ -33,7 +33,7 @@ while(condition) {
 
 **嵌套边做边循环的语法:**
 
-```
+```java
 do{
 
    do{
@@ -49,7 +49,7 @@ do{
 
 **语法:**
 
-```
+```java
 do{
 
    while(condition) {
@@ -71,7 +71,7 @@ do{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print the elements of
 // a 2 D array or matrix
 
@@ -104,7 +104,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 1 2 3 4 
 5 6 7 8 
 9 10 11 12
@@ -114,7 +114,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print all prime factors
 
 import java.io.*;
@@ -157,6 +157,6 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 3 3 5 7
 ```

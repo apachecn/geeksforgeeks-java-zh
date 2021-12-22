@@ -54,7 +54,7 @@ Room 是一个持久性库，它在 SQLite 数据库上提供了一个抽象层�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -94,7 +94,7 @@ Room 是一个持久性库，它在 SQLite 数据库上提供了一个抽象层�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 

@@ -5,7 +5,7 @@
 **java . lang . reflect . Array . getbyte()**是 Java 中的一个内置方法，用于将指定数组中给定索引处的元素作为字节返回。
 **语法** :
 
-```
+```java
 Array.getByte(Object []array, int index)
 ```
 
@@ -26,7 +26,7 @@ Array.getByte(Object []array, int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.lang.reflect.Array;
 
 public class GfG {
@@ -51,7 +51,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 1 2 3 4 5
 ```
 
@@ -59,7 +59,7 @@ public class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.lang.reflect.Array;
 
 public class GfG {
@@ -86,7 +86,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 Exception : java.lang.ArrayIndexOutOfBoundsException
 ```
 
@@ -94,7 +94,7 @@ Exception : java.lang.ArrayIndexOutOfBoundsException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.lang.reflect.Array;
 
 public class GfG {
@@ -124,7 +124,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 Exception : java.lang.NullPointerException
 ```
 
@@ -132,7 +132,7 @@ Exception : java.lang.NullPointerException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.lang.reflect.Array;
 
 public class GfG {
@@ -159,6 +159,6 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 Exception : java.lang.IllegalArgumentException: Argument is not an array
 ```

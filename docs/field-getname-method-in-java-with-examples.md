@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getName()
 
 ```
@@ -18,7 +18,7 @@ public String getName()
 以下程序说明 getName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate getName() method
 
 import java.lang.reflect.Field;
@@ -107,7 +107,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Name is Marks
 Name is Fees
 Name is name
@@ -116,7 +116,7 @@ Name is name
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate getName() method
 
 import java.lang.reflect.Field;
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Name of Field:JANUARY
 Name of Field:FEBRUARY
 Name of Field:MARCH

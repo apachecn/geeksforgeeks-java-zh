@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LongStream distinct()
 
 Where, LongStream is a sequence of 
@@ -17,7 +17,7 @@ primitive long-valued elements.
 下面给出了一些例子来更好地理解这个函数。
 **例 1 :** 印刷龙溪的鲜明元素。
 
-```
+```java
 // Java code for LongStream distinct()
 import java.util.*;
 import java.util.stream.LongStream;
@@ -41,7 +41,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 3
 5
@@ -52,7 +52,7 @@ class GFG {
 
 **示例 2 :** 计算流中不同元素的值。
 
-```
+```java
 // Java code for LongStream distinct() method
 // to count the number of distinct
 // elements in given stream
@@ -81,7 +81,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5
 
 ```

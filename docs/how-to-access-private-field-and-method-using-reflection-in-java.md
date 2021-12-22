@@ -10,7 +10,7 @@
 
 ## Java
 
-```
+```java
 // Access Private Field Using Reflection in Java
 import java.lang.reflect.Field;
 

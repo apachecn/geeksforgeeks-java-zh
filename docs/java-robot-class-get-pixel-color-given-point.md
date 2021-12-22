@@ -7,7 +7,7 @@ Robot 类生成的事件可以用来控制鼠标、键盘，也可以用来截�
 在本文中我们将讨论如何获取用户提到的屏幕上的点的像素颜色。
 **所用方法:**
 
-```
+```java
 getPixelColor(int x, int y)  
 This function returns an object of the color class 
 of the given screen coordinates. 
@@ -17,7 +17,7 @@ of the given screen coordinates.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get the pixel color of
 // given screen coordinates
 import java.awt.*;

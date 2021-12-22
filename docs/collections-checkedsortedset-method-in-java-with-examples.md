@@ -7,7 +7,7 @@
 因为 null 被认为是任何引用类型的值，所以返回的排序集允许在支持排序集插入 null 元素时插入 null 元素。
 **语法:**
 
-```
+```java
 public static  SortedSet checkedSortedSet(SortedSet s, Class type)
 ```
 
@@ -22,7 +22,7 @@ public static  SortedSet checkedSortedSet(SortedSet s, Class type)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // checkedSortedSet() method
 // for String value
@@ -67,7 +67,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Sorted Set: [Gopal, Ram, Verma]
 Typesafe view of sorted set: 
 [Gopal, Ram, Verma]
@@ -77,7 +77,7 @@ Typesafe view of sorted set:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // checkedSortedSet() method
 // for Integer value
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Sorted Set: [20, 30, 40]
 Typesafe view of sorted set: 
 [20, 30, 40]

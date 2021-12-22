@@ -6,7 +6,7 @@ java 中**[Java . util](https://www.geeksforgeeks.org/java-util-package-java/). 
 
 **语法:**
 
-```
+```java
 public static Locale.FilteringMode[] values()
 
 ```
@@ -19,7 +19,7 @@ public static Locale.FilteringMode[] values()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 

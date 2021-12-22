@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedMap() method
 // for <String, String> Value
@@ -60,7 +60,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Map : {Value3=40, Value1=20, Value2=30}
 Synchronized map is : {Value3=40, Value1=20, Value2=30}
 
@@ -68,7 +68,7 @@ Synchronized map is : {Value3=40, Value1=20, Value2=30}
 
 ****例 2:****
 
-```
+```java
 // Java program to demonstrate
 // synchronizedMap() method
 // for <String, Boolean> Value
@@ -112,7 +112,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Map : {Bramha=true, Vishnu=true, Mahesh=true}
 Synchronized map is : {Bramha=true, Vishnu=true, Mahesh=true}
 

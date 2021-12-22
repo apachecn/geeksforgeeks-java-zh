@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static DoubleBuffer wrap(double[] array)
 ```
 
@@ -18,7 +18,7 @@ public static DoubleBuffer wrap(double[] array)
 
 下面是说明 wrap()方法的示例:
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1.23, 2.34, 4.56]
@@ -82,7 +82,7 @@ doublebuffer position:  0
 
 **语法:**
 
-```
+```java
 public static FloatBuffer wrap (double[] array, int offset, int length)
 
 ```
@@ -101,7 +101,7 @@ public static FloatBuffer wrap (double[] array, int offset, int length)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -148,7 +148,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1.23, 2.34, 4.56]
@@ -163,7 +163,7 @@ doublebuffer position:  0
 
 **示例 2:** 演示 IndexOutOfBoundsException
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -218,7 +218,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1.23, 2.34, 4.56]

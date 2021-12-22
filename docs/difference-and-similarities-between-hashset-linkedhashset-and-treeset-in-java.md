@@ -45,7 +45,7 @@ TreeSet(树集)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate difference between
 // HashSet, LinkedHashSet and TreeSet according
 // to insertion order and insertion time
@@ -219,7 +219,7 @@ class GFG1 {
 
 **Output**
 
-```
+```java
 Insertion Order of objects in HashSet :[Geek3, Geek2, Geek1]
 Insertion Order of objects in LinkedHashSet :[Geek2, Geek1, Geek3]
 Insertion Order of objects in TreeSet :[Geek1, Geek2, Geek3]

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default LocalDate toLocalDate()
 
 ```
@@ -19,7 +19,7 @@ default LocalDate toLocalDate()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.toLocalDate() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 LocalDate: 2018-12-06
 
@@ -58,7 +58,7 @@ LocalDate: 2018-12-06
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.toLocalDate() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime: 1918-10-25T23:12:38.543Z[Europe/Paris]
 LocalDate: 1918-10-25
 

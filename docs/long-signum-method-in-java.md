@@ -7,7 +7,7 @@ Java . lang . long . signum()方法用于获取指定长值的 signum 函数。�
 
 **语法:**
 
-```
+```java
 public static int signum(*long num*)
 ```
 
@@ -21,7 +21,7 @@ public static int signum(*long num*)
 
 **示例:**
 
-```
+```java
 Input: (Long) 2731766
 Output: 1
 
@@ -36,7 +36,7 @@ Output: 0
 下面的程序说明了 Java.lang.Long.signum()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Long.signum() Method
 import java.lang.*;
@@ -60,7 +60,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 1
 -1
 0
@@ -69,7 +69,7 @@ public class Geeks {
 
 **程序 2:** 为十进制值和字符串。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Long.signum() Method
 import java.lang.*;
@@ -90,7 +90,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 
 prog.java:10: error: incompatible types: possible lossy conversion from double to long
     System.out.println(Long.signum(36565.531));

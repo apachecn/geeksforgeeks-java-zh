@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int getAndSet(int val)
 
 ```
@@ -19,7 +19,7 @@ public final int getAndSet(int val)
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndSet() function
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 0
 Current value: 10
 
@@ -57,7 +57,7 @@ Current value: 10
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndSet() function
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 18
 Current value: 12
 

@@ -22,7 +22,7 @@
 1.  **新字符串方法:**
     *   **isBlank():** This is a boolean method. It just returns true when a string is empty and vice-versa.
 
-        ```
+        ```java
         class GFG {
             public static void main(String args[])
             {
@@ -37,7 +37,7 @@
 
         **输出:**
 
-        ```
+        ```java
         True
         False
 
@@ -45,7 +45,7 @@
 
     *   **lines():** This method is to return a collection of strings which are divided by line terminators.
 
-        ```
+        ```java
         class GFG {
             public static void main(String args[])
             {
@@ -60,7 +60,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Geeks
         For
         Geeks
@@ -69,7 +69,7 @@
 
     *   **repeat(n):** Result is the concatenated string of original string repeated the number of times in the argument.
 
-        ```
+        ```java
         class GFG {
             public static void main(String args[])
             {
@@ -81,14 +81,14 @@
 
         **输出:**
 
-        ```
+        ```java
         GeeksForGeeksGeeksForGeeksGeeksForGeeksGeeksForGeeks
 
         ```
 
     *   **stripLeading():** It is used to remove the white-space which is in-front of the string
 
-        ```
+        ```java
         class GFG {
             public static void main(String args[])
             {
@@ -100,14 +100,14 @@
 
         **输出:**
 
-        ```
+        ```java
         GeeksForGeeks
 
         ```
 
     *   **stripTrailing():** It is used to remove the white-space which is in back of the string
 
-        ```
+        ```java
         class GFG {
             public static void main(String args[])
             {
@@ -119,14 +119,14 @@
 
         **输出:**
 
-        ```
+        ```java
         GeeksForGeeks
 
         ```
 
     *   **strip():** It is used to remove the white-spaces which are in-front and back of the string
 
-        ```
+        ```java
         class GFG {
             public static void main(String args[])
             {
@@ -138,7 +138,7 @@
 
         **输出:**
 
-        ```
+        ```java
         GeeksForGeeks
 
         ```
@@ -146,13 +146,13 @@
 2.  **新文件方法**
     *   writeString():-这是在文件中写入一些内容。
 
-        ```
+        ```java
         jshell>Files.writeString(Path.of(example.txt), "GeeksForGeeks!");
         ```
 
     *   readString():-用于读取文件的内容。
 
-        ```
+        ```java
         jshell>Files.readString(Path.of(example.txt));
 
         Output: "GeeksForGeeks!"
@@ -161,7 +161,7 @@
 
     *   isSameFile():-这个方法用来知道两个路径是否定位同一个文件。
 
-        ```
+        ```java
         jshell>Files.isSameFile(Path.of("example1.txt"), Path.of("example1.txt"));
         Output: true
 
@@ -173,7 +173,7 @@
 3.  **模式识别方法:**
     *   asmatchepredicate():-该方法类似于 Java 8 方法 asPredicate()。在 JDK 11 中引入，如果模式与输入字符串匹配，这个方法将创建一个谓词。
 
-        ```
+        ```java
         jshell>var str = Pattern.compile("aba").asMatchPredicate();
 
         jshell>str.test(aabb);
@@ -196,7 +196,7 @@
 6.  **移除线程功能:** **停止(可投掷对象)**和**销毁()**对象已从 JDK 11 中移除，因为它们分别仅投掷**不支持**和**不支持方法错误**。除此之外，它们毫无用处。
 7.  **时间单位转换:**该方法用于将给定时间转换为像日、月、年这样的单位，也用于时间。
 
-    ```
+    ```java
     jshell>TimeUnit c = TimeUnit.DAYS;
     Output: DAYS
 
@@ -210,7 +210,7 @@
 
 8.  **可选。isEmpty()** 如果任何对象的值为空，则该方法返回真，否则返回假。
 
-    ```
+    ```java
     jshell>Optional str = Optional.empty();
     jshell>str.isEmpty();
     Output: true
@@ -223,7 +223,7 @@
 
 9.  **Local-Variable Syntax for Lambda Parameters**: JDK 11 allows ‘var’ to be used in lambda expressions. This was introduced to be consistent with local ‘var’ syntax of Java 10.
 
-    ```
+    ```java
     //Variable used in lambda expression
 
     public class VarInLambdaExample {
@@ -237,13 +237,13 @@
 
     **输出:**
 
-    ```
+    ```java
     2
     6
 
     ```
 
-    ```
+    ```java
     //Variable without using lambda expression
 
     public class WithoutVarInLambdaExample {
@@ -257,7 +257,7 @@
 
     **输出:**
 
-    ```
+    ```java
     2
     6
 

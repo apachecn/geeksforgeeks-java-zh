@@ -12,13 +12,13 @@ Java 中的 Package 是封装一组类、子包和接口的机制。包用于:
 
 插图:
 
-```
+```java
  import org.company.Menu 
 ```
 
 这个进口是什么意思？它使菜单类在包 org.company 中对我们当前的类可用。这样当我们调用如下命令时:
 
-```
+```java
 Menu menu = new Menu();   
 ```
 
@@ -26,7 +26,7 @@ Menu menu = new Menu();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Usage of importing
 // Classes from packages and sub-packages
 
@@ -49,13 +49,13 @@ class GFG {
 
 **Output**
 
-```
+```java
 I/O classes are imported from java.io package
 ```
 
 这个包通过数据流、序列化和文件系统提供系统输入和输出。除非另有说明，否则将 null 参数传递给此包中任何类或接口中的构造函数或方法将导致引发 NullPointerException。这里列出的所有类都是导入的，或者如果我们想要导入一个特定的类，那么请按照下面的说明使用它。
 
-```
+```java
 import java.util.Scanner ;
 ```
 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static KeyPairGenerator 
     getInstance(String algorithm)
         throws NoSuchAlgorithmException
@@ -26,7 +26,7 @@ public static KeyPairGenerator
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -64,14 +64,14 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Algorithm : DSA
 
 ```
 
 **示例 2:** 显示 NoSuchAlgorithmException 异常
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -114,7 +114,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Trying to get the instance of unknown Algorithm
 Exception thrown : java.security.NoSuchAlgorithmException: TAJMAHAL KeyPairGenerator not available
 
@@ -127,7 +127,7 @@ java.security.KeyPairGenerator 类的 **getInstance()** 方法用于返回一个
 
 **语法:**
 
-```
+```java
 public static KeyPairGenerator 
     getInstance(String algorithm, Provider provider)
         throws NoSuchAlgorithmException
@@ -151,7 +151,7 @@ public static KeyPairGenerator
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getInstance() method
 
@@ -200,14 +200,14 @@ public static KeyPairGenerator
 
     **Output:**
 
-    ```
+    ```java
     Keypair : java.security.KeyPair@12a3a380
 
     ```
 
     **示例 2:** 显示 NoSuchAlgorithmException 异常
 
-    ```
+    ```java
     // Java program to demonstrate
     // getInstance() method
 
@@ -252,7 +252,7 @@ public static KeyPairGenerator
 
     **Output:**
 
-    ```
+    ```java
     Exception thrown : java.security.NoSuchAlgorithmException: 
     no such algorithm: TAJMAHAL for provider SUN
 
@@ -260,7 +260,7 @@ public static KeyPairGenerator
 
     **示例 3:** 显示 IllegalArgumentException
 
-    ```
+    ```java
     // Java program to demonstrate
     // getInstance() method
 
@@ -316,7 +316,7 @@ public static KeyPairGenerator
 
     **Output:**
 
-    ```
+    ```java
     Trying to assign null as a provider
     Exception thrown : java.lang.IllegalArgumentException:
      missing provider

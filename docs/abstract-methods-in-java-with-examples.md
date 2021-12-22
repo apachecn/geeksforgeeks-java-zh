@@ -4,7 +4,7 @@
 
 有时，我们只需要超类中的方法声明。这可以通过指定 [**抽象**](https://www.geeksforgeeks.org/abstract-keyword-in-java/) 类型修改器来实现。这些方法有时被称为*子类责任*，因为它们在超类中没有指定实现。因此，子类必须[覆盖](https://www.geeksforgeeks.org/overriding-in-java/)它们来提供方法定义。要声明抽象方法，请使用以下通用形式:
 
-```
+```java
 abstract type method-name(parameter-list);
 ```
 
@@ -24,7 +24,7 @@ abstract type method-name(parameter-list);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A java program to demonstrate
 // use of abstract keyword.
 
@@ -68,7 +68,7 @@ public class AbstractDemo {
 
 **输出:**
 
-```
+```java
 B's implementation of m1.
 This is a concrete method.
 ```

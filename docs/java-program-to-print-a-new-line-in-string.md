@@ -22,7 +22,7 @@ Java 是最强大的编程语言，通过它我们可以执行许多任务，Jav
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print a new line in string
 // Using System.lineSeparator() method
 
@@ -43,7 +43,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GFG
 gfg
 
@@ -57,7 +57,7 @@ gfg
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print a new line in string
 // Using platform-dependent Newline Character
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GFG
 gfg
 
@@ -88,7 +88,7 @@ gfg
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print a new line in string
 
 class GFG
@@ -110,7 +110,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 GFG
 gfg
 ```
@@ -123,7 +123,7 @@ gfg
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print a new line in string
 // Using %n Newline Character
 
@@ -145,7 +145,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GFG
 gfg
 ```
@@ -156,7 +156,7 @@ gfg
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print a new line in string
 // Using System.out.println() method
 
@@ -177,7 +177,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GFG
 gfg
 

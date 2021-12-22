@@ -7,7 +7,7 @@ T2。toPlainString() 方法用于表示当前的 BigDecimal，通过该方法将
 
 **语法:**
 
-```
+```java
 public String toPlainString()
 
 ```
@@ -20,7 +20,7 @@ public String toPlainString()
 
 **示例 1:** 将大十进制转换为不带指数符号的普通字符串的示例
 
-```
+```java
 // Java program to demonstrate
 // toPlainString() method of BigDecimal
 
@@ -80,7 +80,7 @@ class GFG {
 
 **示例 2:** 将大十进制转换为指数符号的普通字符串的示例
 
-```
+```java
 // Java program to demonstrate
 // toPlainString() method of BigDecimal
 

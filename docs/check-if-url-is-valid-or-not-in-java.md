@@ -4,7 +4,7 @@
 
 给定一个字符串形式的网址，我们需要找出给定的网址是否有效。
 
-```
+```java
 Input : str = "https://www.geeksforgeeks.org/"
 Output : Yes
 
@@ -17,7 +17,7 @@ Note that there is a space after https://
 **使用 java.net.url**
 我们可以使用 [java.net.url](https://www.geeksforgeeks.org/url-class-java-examples/) 类来验证一个 url。想法是从指定的字符串表示创建一个 URL 对象。如果我们在创建对象时没有得到异常，我们返回 true。否则我们返回假的。
 
-```
+```java
 // Java program to check if a URL is valid 
 // using java.net.url
 import java.net.URL;
@@ -60,7 +60,7 @@ class Test {
 
 输出:
 
-```
+```java
 Yes
 No
 

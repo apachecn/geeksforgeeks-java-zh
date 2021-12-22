@@ -12,7 +12,7 @@
 
 最大堆是一棵完整的二叉树。最大堆通常表示为一个数组。根元素将位于 Arr[0]。下表显示了第 I 个节点的其他节点的索引，即 Arr[i]:
 
-```
+```java
 Arr[(i-1)/2] Returns the parent node. 
 Arr[(2*i)+1] Returns the left child node. 
 Arr[(2*i)+2] Returns the right child node.
@@ -41,7 +41,7 @@ Arr[(2*i)+2] Returns the right child node.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement Max Heap
 
 // Main class
@@ -197,7 +197,7 @@ public class MaxHeap {
 
 **Output**
 
-```
+```java
 The Max Heap is 
 Parent Node : 84 Left Child Node: 84 Right Child Node: 22
 Parent Node : 22 Left Child Node: 19 Right Child Node: 17
@@ -215,7 +215,7 @@ The max val is 22
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of PriorityQueue as a Max Heap
 // Using Collections.reverseOrder() method
@@ -289,7 +289,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Head value using peek function:400
 The queue elements:
 400

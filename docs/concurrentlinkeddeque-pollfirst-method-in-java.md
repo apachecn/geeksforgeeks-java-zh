@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Conn_Linked_Deque.pollFirst()
 ```
 
@@ -18,7 +18,7 @@ Conn_Linked_Deque.pollFirst()
 
 **程序 1:** 该程序涉及带有*整数*元素的德格。
 
-```
+```java
 // Java Program Demonstrate pollFirst() 
 // method of ConcurrentLinkedDeque   
 
@@ -52,7 +52,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Elements inthe LinkedDeque: [475, 1009, 70, 12]
 Element removed : 475
 Elements inthe LinkedDeque: [1009, 70, 12]
@@ -61,7 +61,7 @@ Elements inthe LinkedDeque: [1009, 70, 12]
 
 **节目 2:** 这个节目涉及到带有*弦*元素的德格。
 
-```
+```java
 // Java Program Demonstrate pollFirst() 
 // method of ConcurrentLinkedDeque   
 
@@ -95,7 +95,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Elements inthe LinkedDeque: [Geeks, Gfg, Geeks, GFG]
 Element removed : Geeks
 Elements inthe LinkedDeque: [Gfg, Geeks, GFG]

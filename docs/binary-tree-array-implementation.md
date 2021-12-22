@@ -15,7 +15,7 @@
 
 插图:
 
-```
+```java
        A(0)    
      /   \
     B(1)  C(2)  
@@ -35,7 +35,7 @@ OR,
 
 **情况 1:** (0—n-1)
 
-```
+```java
 if (say)father=p; 
 then left_son=(2*p)+1; 
 and right_son=(2*p)+2;
@@ -43,7 +43,7 @@ and right_son=(2*p)+2;
 
 **病例 2:** 1—n
 
-```
+```java
 if (say)father=p; 
 then left_son=(2*p); 
 and right_son=(2*p)+1; 
@@ -55,7 +55,7 @@ and right_son=(2*p)+1; 
 
 ## C++
 
-```
+```java
 // C++ implementation of tree using array
 // numbering starting from 0 to n-1.
 #include<bits/stdc++.h>
@@ -115,7 +115,7 @@ int main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // JAVA implementation of tree using array
 // numbering starting from 0 to n-1.
 
@@ -209,7 +209,7 @@ class Array_imp {
 
 ## C#
 
-```
+```java
 // C# implementation of tree using array
 // numbering starting from 0 to n-1.
 using System;
@@ -280,7 +280,7 @@ class Array_imp {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 implementation of tree using array
 # numbering starting from 0 to n-1.
 tree = [None] * 10
@@ -324,7 +324,7 @@ print_tree()
 
 **Output**
 
-```
+```java
 Can't set child at3 , no parent found
 Can't set child at4 , no parent found
 A-C---F---

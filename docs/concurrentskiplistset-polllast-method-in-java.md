@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E pollLast()
 ```
 
@@ -16,7 +16,7 @@ public E pollLast()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate pollLast()
 // method of ConcurrentSkipListSet
 
@@ -46,7 +46,7 @@ class ConcurrentSkipListSetpollLastExample1 {
 
 **Output:**
 
-```
+```java
 Contents of the set: [10, 20, 30, 40, 50]
 The Last element of the set: 50
 Contents of the set after pollLast: [10, 20, 30, 40]
@@ -55,7 +55,7 @@ Contents of the set after pollLast: [10, 20, 30, 40]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate pollLast()
 // method of ConcurrentSkipListSet
 
@@ -78,7 +78,7 @@ class ConcurrentSkipListSetpollLastExample2 {
 
 **Output:**
 
-```
+```java
 Contents of the set: []
 The Last element of the set: null
 

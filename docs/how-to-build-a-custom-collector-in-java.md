@@ -23,7 +23,7 @@ Java **Collector** 是为收集器接口提供很多有用的方法和函数的�
 
 T5
 
-```
+```java
 public class Employee_GFG {
     private long id;
     private String firstName;

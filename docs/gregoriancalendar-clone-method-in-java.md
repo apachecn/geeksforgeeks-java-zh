@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 ```
 
@@ -16,7 +16,7 @@ public Object clone()
 
 **示例:**
 
-```
+```java
 Input: Mon Jul 23 14:35:27 UTC 2018
 Output: Mon Jul 23 14:35:27 UTC 2018
 
@@ -30,7 +30,7 @@ Output: Sat Dec 23 14:36:42 UTC 2017
 下面的程序说明了 Java . util . gregoriancalendar . clone()方法:
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate GregorianCalendar.clone()
 // function 
 
@@ -64,7 +64,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Date and Time in cal object : Fri Aug 03 11:01:24 UTC 2018
 Date and Time in newcalender object : Fri Aug 03 11:01:24 UTC 2018
 
@@ -72,7 +72,7 @@ Date and Time in newcalender object : Fri Aug 03 11:01:24 UTC 2018
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate 
 // GregorianCalendar.clone()
 // function 
@@ -108,7 +108,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Aug 03 11:01:27 UTC 2018
 New Date and Time : Wed Oct 03 11:01:27 UTC 2018
 

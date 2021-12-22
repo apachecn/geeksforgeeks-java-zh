@@ -6,7 +6,7 @@ Java 中**抽象顺序列表**的 **hashCode()** 方法用来获取抽象顺序�
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // hashCode() method in AbstractSequentialList
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [1, 2, 3, 4]
 HashCode value: 955331
 
@@ -60,7 +60,7 @@ HashCode value: 955331
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // hashCode() method in AbstractSequentialList
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [Geeks, For, ForGeeks, GeeksForGeeks]
 HashCode value: -927254198
 

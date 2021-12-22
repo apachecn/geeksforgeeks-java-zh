@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input 1:  1  1  5  0
           2  3  7  2
           8  9  1  3
@@ -35,7 +35,7 @@ Output 2: 11  21  30   1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Interchange Elements of First
 // and Last Row in a Matrix
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Input matrix is as follows : 
 2 3 4 5 
 8 9 6 15 

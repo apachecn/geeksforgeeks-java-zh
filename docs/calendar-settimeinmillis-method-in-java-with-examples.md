@@ -6,7 +6,7 @@ Calendar 类中的**setTimeInMillis(long*mill _ sec*)**方法用于根据传递�
 
 **语法:**
 
-```
+```java
 public void setTimeInMillis(long *mill_sec*)
 ```
 
@@ -17,7 +17,7 @@ public void setTimeInMillis(long *mill_sec*)
 以下程序说明了日历类 setTimeInMillis()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // setTimeInMillis() method
 
@@ -48,7 +48,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Time is: Fri Feb 22 08:00:54 UTC 2019
 After setting Time: Thu Jan 01 00:00:02 UTC 1970
 
@@ -56,7 +56,7 @@ After setting Time: Thu Jan 01 00:00:02 UTC 1970
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // setTimeInMillis() method
 
@@ -87,7 +87,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Time is: Fri Feb 22 08:01:02 UTC 2019
 After setting Time: Thu Jan 01 00:00:08 UTC 1970
 

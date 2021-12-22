@@ -7,7 +7,7 @@ Java . lang . inheritable ThreadLocal 类扩展 thread local 以提供从父线�
 父线程，默认情况下**线程本地**变量不可用于子线程。
 T3【建造师】T4:
 
-```
+```java
 **InheritableThreadLocal gfg_tl = new InheritableThreadLocal();**
 ```
 
@@ -15,7 +15,7 @@ T3【建造师】T4:
 只包含一种方法:
 **语法:**
 
-```
+```java
 public Object childValue(Object parentValue) 
 ```
 
@@ -26,7 +26,7 @@ public Object childValue(Object parentValue)
 
 示例:
 
-```
+```java
 // Java program to illustrate parent thread, ThreadLocal variable
 // by default not available to child thread
 
@@ -65,14 +65,14 @@ class ThreadLocalDemo {
 }
 ```
 
-```
+```java
 Output:
 Parent Thread Value:parent data
 Child Thread Value:null (by default initialValue is null)
 
 ```
 
-```
+```java
 // Java program to illustrate inheritance of customized value
 // from parent thread to child thread
 
@@ -113,7 +113,7 @@ class ThreadLocalDemo {
 }
 ```
 
-```
+```java
 Output:
 Parent Thread Value:parent data 
 Child Thread Value:child data
@@ -122,7 +122,7 @@ Child Thread Value:child data
 
 **第一个场景**:在上面的程序中，如果我们用 ThreadLocal 替换 InheritableThreadLocal，并且我们没有覆盖 childValue 方法，那么输出是:
 
-```
+```java
 Output:
 Parent Thread Value: parent data 
 Child Thread Value:null   (by default initialValue is null)
@@ -131,7 +131,7 @@ Child Thread Value:null   (by default initialValue is null)
 
 **第二个场景**:在上面的程序中，如果我们维护的是 InheritableThreadLocal，并且没有覆盖 childValue 方法，那么输出就是:
 
-```
+```java
 Output :
 Parent Thread Value:parent data 
 Child Thread Value:parent data
@@ -140,7 +140,7 @@ Child Thread Value:parent data
 
 **第三个场景**:在上面的程序中，如果我们维护的是 InheritableThreadLocal，同时我们也在覆盖 childValue 方法，那么输出就是:
 
-```
+```java
 Output:
 Parent Thread Value:parent data 
 Child Thread Value:child data

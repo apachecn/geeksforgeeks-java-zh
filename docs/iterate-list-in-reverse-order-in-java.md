@@ -6,7 +6,7 @@
 
 **例**
 
-```
+```java
 Input: ["geeks", "for", "Geeks"]
 Output: ["Geeks", "for", "geeks"]
 
@@ -23,7 +23,7 @@ output: [5, 4, 3, 2, 1]
 
 ****语法:****
 
-```
+```java
 public ListIterator listIterator()
 ```
 
@@ -34,7 +34,7 @@ public ListIterator listIterator()
 
 ****语法:****
 
-```
+```java
 ListIterator<Integer> listIterator( Index )
 
 Index = Index from where list element will reverse till index = 0.
@@ -42,7 +42,7 @@ Index = Index from where list element will reverse till index = 0.
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to iterate List in Reverse Order
 
 import java.util.*;
@@ -85,7 +85,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 geeks
 for
 GEEKS
@@ -100,7 +100,7 @@ GEEKS
 
 ****语法:****
 
-```
+```java
 static IntStream range(int startInclusive,   int endExclusive)
 ```
 
@@ -112,7 +112,7 @@ static IntStream range(int startInclusive,   int endExclusive)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to iterate List in reverse order
 
 import java.util.*;
@@ -147,7 +147,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 5
 4
 3
@@ -157,7 +157,7 @@ class GFG {
 
 ****注意:**int stream range(int startInclusive，int endExclusive)基本上像 for 循环一样工作。递增值的等价序列可以按如下顺序产生:**
 
-```
+```java
 for (int i = startInclusive; i < endExclusive ; i++) 
 {
  ...

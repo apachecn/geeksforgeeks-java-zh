@@ -12,7 +12,7 @@
 使用 **peek()** 方法返回队列的头。它检索但不删除该队列的头。如果队列为空，则此方法返回 null。
 **语法:**
 
-```
+```java
 public E peek()
 ```
 
@@ -23,7 +23,7 @@ public E peek()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to demonstrate peek() method of ArrayBlockingQueue
 
 import java.util.concurrent.ArrayBlockingQueue;
@@ -57,7 +57,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 After addding numbers queue is 
 [23, 32, 45, 12]
 Head of queue 23

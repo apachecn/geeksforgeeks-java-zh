@@ -8,7 +8,7 @@ Java 包含通过简单的 Java 代码启动外部进程的功能——系统上
 
 java.lang 包中的 Process 类包含许多有用的方法，如终止子进程、让线程等待一段时间、返回子进程的 I/O 流等。随后，运行时类提供了一个与 Java 运行时环境交互的入口。它包含执行进程的方法，给出可用处理器的数量，显示 JVM 中的空闲内存，等等。
 
-```
+```java
 // A sample Java program (Written for Windows OS)
 // to demonstrate creation of external process 
 // using Runtime and Process

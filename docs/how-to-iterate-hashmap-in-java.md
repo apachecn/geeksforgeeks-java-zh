@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate over HashMap
 
 // Importing Map and HashMap classes
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 P = Python
 A = Angular
 H = Hibernate
@@ -71,7 +71,7 @@ J = Java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate over HashMap
 // Iterating HashMap using forEach
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 P = Python
 A = Angular
 H = Hibernate
@@ -119,7 +119,7 @@ J = Java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate over HashMap
 // Using Iterator
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 = First
 2 = Second
 3 = Third
@@ -175,7 +175,7 @@ public class GFG {
 
 lambda 表达式是一小段接受参数并返回值的代码。Lambda 表达式类似于方法，但是它们不需要名称，并且可以直接在方法的主体中实现。最简单的 lambda 表达式包含一个参数和一个表达式:
 
-```
+```java
 parameter -> expression
 ```
 
@@ -183,7 +183,7 @@ parameter -> expression
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Iterating HashMap using Lambda Expressions- forEach()
 // Importing Map and HashMap classes
 // from java.util package
@@ -218,7 +218,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 A = Apple
 B = Basketball
 C = Cat
@@ -242,7 +242,7 @@ D = Dog
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate over HashMap
 // Loop through a HashMap using Stream API
 
@@ -282,7 +282,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 : First
 2 : Second
 3 : Third

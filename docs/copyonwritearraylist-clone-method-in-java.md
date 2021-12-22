@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 ```
 
@@ -18,7 +18,7 @@ public Object clone()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the 
 // CopyOnWriteArrayList clone() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 98, 100]
 CopyOnWriteArrayList: [32, 67, 98, 100]
 
@@ -59,7 +59,7 @@ CopyOnWriteArrayList: [32, 67, 98, 100]
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the 
 // CopyOnWriteArrayList clone() method in Java
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 

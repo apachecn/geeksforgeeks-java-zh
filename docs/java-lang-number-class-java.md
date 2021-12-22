@@ -17,7 +17,7 @@
 
 1.  **xxx xxxValue()** :这里 xxx 代表基元数数据类型(字节、短、int、long、float、double)。该方法用于将[这个](https://www.geeksforgeeks.org/this-reference-in-java/)数字对象的值转换为指定的原始数据类型。
 
-```
+```java
 Syntax : 
 byte byteValue()
 short shortValue()
@@ -35,7 +35,7 @@ after conversion to specified type
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to demonstrate xxxValue() method
 public class Test
 {
@@ -65,7 +65,7 @@ public class Test
 
 输出:
 
-```
+```java
 value of d after converting it to byte : 6
 value of d after converting it to short : 6
 value of d after converting it to int : 6
@@ -79,7 +79,7 @@ value of d after converting it to double : 6.9685
 
 *   **int compare to(Number subclass referenceName)**:此方法用于将[这个](https://www.geeksforgeeks.org/this-reference-in-java/) Number 对象与指定的参数进行比较。但是，不能比较两种不同的类型，因此调用该方法的参数和 Number 对象应该属于同一类型。引用名称可以是字节、双精度、整数、浮点、长或短。
 
-```
+```java
 Syntax : 
 public int compareTo( NumberSubClass referenceName )
 Parameters : 
@@ -93,7 +93,7 @@ the value -1 if the Number is greater than the argument.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to demonstrate compareTo() method
 public class Test
 {
@@ -112,7 +112,7 @@ public class Test
 
 输出:
 
-```
+```java
 1
 -1
 0
@@ -121,7 +121,7 @@ public class Test
 
 *   **boolean equals(Object obj)** :此方法判断[这个](https://www.geeksforgeeks.org/this-reference-in-java/) Number 对象是否等于自变量。
 
-```
+```java
 Syntax : 
 public boolean equals(Object obj)
 Parameters : 
@@ -135,7 +135,7 @@ otherwise false.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to demonstrate equals() method
 public class Test
 {
@@ -163,7 +163,7 @@ public class Test
 
 输出:
 
-```
+```java
 false
 false
 true
@@ -172,7 +172,7 @@ true
 
 *   **int parseInt(String s，int radix)** :此方法用于获取[字符串](https://www.geeksforgeeks.org/string-class-in-java/)的原始数据类型。基数用于返回十进制(10)、八进制(8)或十六进制(16)等表示作为输出。
 
-```
+```java
 Syntax : 
 static int parseInt(String s, int radix)
 Parameters : 
@@ -187,7 +187,7 @@ NumberFormatException : if the string does not contain a parsable integer.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to demonstrate Integer.parseInt() method
 public class Test
 {
@@ -216,7 +216,7 @@ public class Test
 
 输出:
 
-```
+```java
 428
 -255
 2158611234
@@ -229,7 +229,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "G
 
 *   **int parseInt(字符串)**:该方法是上述方法的另一个变体，默认情况下基数为 10(十进制)。
 
-```
+```java
 Syntax : 
 static int parseInt(String s)
 Parameters : 
@@ -243,7 +243,7 @@ NumberFormatException : if the string does not contain a parsable integer.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to demonstrate Integer.parseInt() method
 public class Test
 {
@@ -270,7 +270,7 @@ public class Test
 
 输出:
 
-```
+```java
 654
 2158611234
 Exception in thread "main" java.lang.NumberFormatException: For input string: "Geeks"
@@ -283,7 +283,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "G
 
 *   **String toString()**:toString()方法有两种变体。它们用于获取数字的字符串表示形式。这些方法的其他变体是**integer . tobinarystring(int I)**、**integer . toexstring(int I)**、**integer . tooctalstring(int I)**，它们将分别返回指定整数(I)的二进制、六进制、八进制字符串表示。
 
-```
+```java
 Syntax : 
 String toString()
 String toString(int i)
@@ -301,7 +301,7 @@ returns a decimal String object representing the specified integer(i)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to demonstrate Integer.toString()
 //and Integer.toString(int i) method
 public class Test
@@ -325,7 +325,7 @@ public class Test
 
 输出:
 
-```
+```java
 12
 12
 10011000
@@ -336,7 +336,7 @@ public class Test
 
 *   **整数值 of()**:value of()方法有三种变体。所有这三种方法都返回一个包含原始整数值的整数对象。
 
-```
+```java
 Syntax : 
 Integer valueOf(int i)
 Integer valueOf(String s)
@@ -360,7 +360,7 @@ NumberFormatException : if the string does not contain a parsable integer.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate valueOf() method
 public class Test
 {
@@ -398,7 +398,7 @@ public class Test
 
 输出:
 
-```
+```java
 Demonstrating valueOf(int i) method
 50
 9.36
@@ -423,7 +423,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "G
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Test
 {
    public static void main(String[] args)
@@ -436,7 +436,7 @@ public class Test
 
 **选项:**
 
-```
+```java
 A) NumberFormatException at run-time
 B) NumberFormatException at compile-time
 C) 411787
@@ -445,7 +445,7 @@ C) 411787
 
 **回答:**
 
-```
+```java
 C) 411787
 
 ```

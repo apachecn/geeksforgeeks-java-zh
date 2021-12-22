@@ -6,21 +6,21 @@ Java 中的并发应用编程接口提供了一个名为**执行器**的特性�
 
 **等级等级:**
 
-```
+```java
 java.util.concurrent
   ↳ Interface Executor
 ```
 
 **实现子接口:**
 
-```
+```java
 ExecutorService
 ScheduledExecutorService
 ```
 
 **实现类:**
 
-```
+```java
 AbstractExecutorService
 ForkJoinPool
 ScheduledThreadPoolExecutor
@@ -32,7 +32,7 @@ ThreadPoolExecutor
 1.  **execute()** :该函数在未来某个时间执行给定的命令。根据执行器实现的判断，该命令可以在新线程、池线程或调用线程中执行。
     **语法:**
 
-```
+```java
 void execute(Runnable task)
 ```
 
@@ -40,7 +40,7 @@ void execute(Runnable task)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.concurrent.Executor;
 import java.util.concurrent.RejectedExecutionException;
 
@@ -77,7 +77,7 @@ class NewThread implements Runnable {
 
 **Output:** 
 
-```
+```java
 Thread executed under an executor
 ```
 

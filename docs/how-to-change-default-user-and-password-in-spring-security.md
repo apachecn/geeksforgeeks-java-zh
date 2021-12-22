@@ -24,7 +24,7 @@
 
 按照要求填写细节。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.4.12
@@ -49,7 +49,7 @@ Dependencies: Spring Web, Spring Security
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @SpringBootApplication
 public class SpringBootAppApplication {
 
@@ -70,7 +70,7 @@ Spring security 生成默认密码为了覆盖，我们必须在 applications.pr
 
 **应用程序.属性**
 
-```
+```java
 spring.security.user.name=Aayush
 spring.security.user.password=12
 ```
@@ -95,7 +95,7 @@ spring.security.user.password=12
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @RestController
 public class controller {
 
@@ -113,7 +113,7 @@ public class controller {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @EnableWebSecurity
 public class config extends WebSecurityConfigurerAdapter {
 

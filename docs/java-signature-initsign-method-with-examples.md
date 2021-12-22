@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public final void 
     initSign(PrivateKey privateKey) 
         throws InvalidKeyException
@@ -25,7 +25,7 @@ public final void
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // initSign() method
 
@@ -95,7 +95,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Signature:[-109, -21, 90, -114, -22,
 ....
 ....
@@ -106,7 +106,7 @@ Signature:[-109, -21, 90, -114, -22,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // initSign() method
 
@@ -160,7 +160,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Trying to put null as private key 
 Exception thrown : java.security.InvalidKeyException: Key must not be null
 ```
@@ -171,7 +171,7 @@ Exception thrown : java.security.InvalidKeyException: Key must not be null
 
 **语法:**
 
-```
+```java
 public final void 
     initSign(PrivateKey privateKey, SecureRandom random)
         throws InvalidKeyException
@@ -192,7 +192,7 @@ public final void
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // sign() method
 
@@ -264,7 +264,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Signature:[-121, -82, ....
 ....
 ....104, 114, -67]
@@ -274,7 +274,7 @@ Signature:[-121, -82, ....
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // initSign() method
 
@@ -329,7 +329,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Trying to put the null as key
 Exception thrown : java.security.InvalidKeyException: Key must not be null
 ```

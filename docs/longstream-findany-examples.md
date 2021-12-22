@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 OptionalLong findAny() 
 
 ```
@@ -21,7 +21,7 @@ OptionalLong findAny()
 
 **例 1 :** 在长流上找到任意()方法。
 
-```
+```java
 // Java code for LongStream findAny()
 // which returns an OptionalLong describing
 // some element of the stream, or an
@@ -56,7 +56,7 @@ class GFG {
 
 输出:
 
-```
+```java
 6
 
 ```
@@ -65,7 +65,7 @@ class GFG {
 
 **示例 2 :** findAny()方法以非确定性方式返回可被 4 整除的元素。
 
-```
+```java
 // Java code for LongStream findAny()
 // which returns an OptionalLong describing
 // some element of the stream, or an
@@ -99,7 +99,7 @@ class GFG {
 
 输出:
 
-```
+```java
 16
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long multiplyHigh(long x, long y)
 ```
 
@@ -20,7 +20,7 @@ public static long multiplyHigh(long x, long y)
 
  ****程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // multiplyHigh() method of Math class
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 45267356745 * 45676556735 = 112
 
 ```
 
 **程序 2:** 乘法二长包含 long。最大值。
 
-```
+```java
 // Java program to demonstrate
 // multiplyHigh() method of Math class
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 9223372036854775807 * 9223372036854775807 = 4611686018427387903
 
 ```** 参考文献:[https://docs . Oracle . com/javase/10/docs/API/Java/lang/math . html # multiplyHigh(long，long)](https://docs.oracle.com/javase/10/docs/api/java/lang/Math.html#multiplyHigh(long, long))

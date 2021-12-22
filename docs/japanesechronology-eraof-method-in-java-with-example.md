@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public JapaneseEra eraOf(int eraValue)
 ```
 
@@ -18,7 +18,7 @@ public JapaneseEra eraOf(int eraValue)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // eraOf() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseEra is: Taisho
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // eraOf() method
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseEra is: Heisei
 
 ```

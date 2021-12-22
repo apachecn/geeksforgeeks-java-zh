@@ -15,7 +15,7 @@ Java 中的 String 类是一种不可变的非原语数据类型，用于存储�
 
 **语法:**
 
-```
+```java
 endsWith(String suffix)     
 ```
 
@@ -27,7 +27,7 @@ endsWith(String suffix)
 
 ## Java
 
-```
+```java
 // Java Program to illustrate endWith() Method
 
 // Importing required classes
@@ -62,7 +62,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 false
 true
 ```
@@ -73,7 +73,7 @@ true
 
 **语法:**
 
-```
+```java
 startsWith(String prefix)     
 ```
 
@@ -85,7 +85,7 @@ startsWith(String prefix)
 
 ## Java
 
-```
+```java
 // Java Program to illustrate startWith() Method
 
 // Importing required classes
@@ -119,7 +119,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 false
 true
 ```

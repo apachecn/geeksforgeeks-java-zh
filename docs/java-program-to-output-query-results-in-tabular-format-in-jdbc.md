@@ -36,7 +36,7 @@ JDBC (Java 数据库连接)是 Java 编程语言和各种数据库(如 oracle、
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Output Query Results in Tabular Format in
 // JDBC
 
@@ -98,7 +98,7 @@ public class connection {
 
 **3.3** 点击来源选项卡，导入以下库
 
-```
+```java
 import java.sql.*; //for handling jdbc related syntax
 import javax.swing.JOptionPane;  //for showing message
 import net.proteanit.sql.DbUtils; //for displaying the result of query to table form
@@ -114,7 +114,7 @@ import net.proteanit.sql.DbUtils; //for displaying the result of query to table 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for for jdbc connection
 // and for obtaining the result
 
@@ -152,7 +152,7 @@ catch (Exception e) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing input output java files
 import java.io.*;
 

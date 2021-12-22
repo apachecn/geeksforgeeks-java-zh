@@ -6,7 +6,7 @@ Java 中**concurrentlinkedeque**的 **hashCode()** 方法用于获取这个 conc
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate hashCode()
 // method of ConcurrentLinkedDeque
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 HashCode value: 2101973421
 
@@ -60,7 +60,7 @@ HashCode value: 2101973421
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate hashCode()
 // method of ConcurrentLinkedDeque
 // when the list contains characters
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Blocking Deque: [1, 2, 3, 4]
 HashCode value: 2101973421
 

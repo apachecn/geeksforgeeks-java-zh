@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input : char = 'r'
 Output : Consonant
 
@@ -22,7 +22,7 @@ Output : Vowel
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to check whether input
 // character is a vowel or consonant
 
@@ -52,7 +52,7 @@ public class geek {
 
 **Output**
 
-```
+```java
 It is a Consonant.
 It is a Vowel.
 ```
@@ -63,7 +63,7 @@ It is a Vowel.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to check whether input
 // character is a vowel or consonant
 
@@ -94,7 +94,7 @@ public class geek {
 
 **Output**
 
-```
+```java
 It is a Consonant.
 It is a Vowel.
 ```
@@ -105,7 +105,7 @@ It is a Vowel.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to check whether input
 // character is a vowel or consonant
 
@@ -133,7 +133,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 It is a Vowel
 It is a Consonant
 

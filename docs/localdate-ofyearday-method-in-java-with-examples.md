@@ -6,7 +6,7 @@ Java 中 **LocalDate** 类的**year(int year，int dayOfYear)** 方法用于从�
 
 **语法:**
 
-```
+```java
 public static LocalDate
           ofYearDay(int year, 
                     int dayOfYear)
@@ -26,7 +26,7 @@ public static LocalDate
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.ofYearDay(int year,
 // int dayOfYear) method
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Date: 2020-05-13
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.ofYearDay(int year,
 int dayOfYear) method
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Month: MAY
 
 ```

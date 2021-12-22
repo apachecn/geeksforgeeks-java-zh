@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toMillis()
 
 ```
@@ -19,7 +19,7 @@ public long toMillis()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate toMillis() method
 
 import java.time.Duration;
@@ -44,7 +44,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT51H4M
 183840000
 
@@ -52,7 +52,7 @@ Duration: PT51H4M
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate toMillis() method
 
 import java.time.Duration;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT0.01S
 10
 

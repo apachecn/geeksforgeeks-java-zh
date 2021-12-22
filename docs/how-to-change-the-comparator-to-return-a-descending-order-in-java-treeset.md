@@ -6,7 +6,7 @@
 
 **语法:**比较器如下:
 
-```
+```java
 public int compare(Object obj1, Object obj2):
 ```
 
@@ -23,11 +23,11 @@ public int compare(Object obj1, Object obj2):
 
 **语法:**传递下降运算符()
 
-```
+```java
 Pseudo Code: TreeSet<String> set = new TreeSet<>(new descendingComparator());
 ```
 
-```
+```java
 Pseudo Code: Approach
 class descendingComparator implements Comparator<String> {
 
@@ -43,7 +43,7 @@ public int compare(String i1, String i2) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Change the Comparator to Return a
 // Descending Order in Java TreeSet
 
@@ -93,7 +93,7 @@ public class GFG {
 
 [**【比较器】**](https://www.geeksforgeeks.org/comparator-interface-java/) 在创建 TreeSet 时返回 Java TreeSet 中的降序，而不是创建一个新类。
 
-```
+```java
 Pseudo Code: Approach
 
 TreeSet<Integer> set = new TreeSet<Integer>(new Comparator<Integer>()
@@ -110,7 +110,7 @@ TreeSet<Integer> set = new TreeSet<Integer>(new Comparator<Integer>()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Change the Comparator
 // to Return Descending Order in Java TreeSet
 
@@ -155,6 +155,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Descending Ordered set : [30, 20, 10]
 ```

@@ -28,7 +28,7 @@
 
 **图解:**内部工作
 
-```
+```java
 A. Decimal to Hexadecimal Number System
 
 (1) (13)10 --> (D)16
@@ -43,11 +43,11 @@ A. Decimal to Hexadecimal Number System
 
 **结论:**
 
-```
+```java
 For a Decimal Number system-> ( 421 )10 = (4 x 102) + (2 x 101) + (1 x 100)
 ```
 
-```
+```java
 B. Similarly ,Hexadecimal to Decimal Number System
  (8A)16 ---> (138)10
 (8A)16 --> (8 x 161) + (10 x 160)
@@ -55,7 +55,7 @@ B. Similarly ,Hexadecimal to Decimal Number System
 
 **结论:**
 
-```
+```java
 In Java programs, hexadecimal numbers are written by placing 0x before numbers.
 ```
 
@@ -70,7 +70,7 @@ In Java programs, hexadecimal numbers are written by placing 0x before numbers.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Hex number to Decimal number
 
 // Importing input/output java library
@@ -100,7 +100,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Decimal value is 256
 ```
 
@@ -108,7 +108,7 @@ Decimal value is 256
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Usage of HexaDecimal
 
 // Importing input/output java library
@@ -135,7 +135,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hex value is 101
 ```
 
@@ -143,7 +143,7 @@ Hex value is 101
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Usage of HexaDecimal
 
 // Importing input/output java library
@@ -170,7 +170,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Long value is 65536
 ```
 
@@ -178,7 +178,7 @@ Long value is 65536
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Usage of HexaDecimal
 
 // Importing java input/output library
@@ -204,7 +204,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hex value is 400
 ```
 

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input List: {10, 20, 8, 32, 21, 31};
 
 Output: 
@@ -25,7 +25,7 @@ Minimum is: 8
 
 ## Java
 
-```
+```java
 // Java program to find the minimum and
 // maximum value of the ArrayList
 
@@ -72,7 +72,7 @@ public class Max {
 
 **输出**
 
-```
+```java
 Maximum is : 32
 Minimum is : 8
 ```

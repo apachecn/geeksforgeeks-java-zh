@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isReadable(Path path)
 
 ```
@@ -30,7 +30,7 @@ public static boolean isReadable(Path path)
 下面的程序说明了一个可修改的(路径)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Files.isReadable() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Files.isReadable() method
 

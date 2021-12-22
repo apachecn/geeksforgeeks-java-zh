@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default ChronoLocalDateTime plus(TemporalAmount amountToadd)
 ```
 
@@ -23,7 +23,7 @@ default ChronoLocalDateTime plus(TemporalAmount amountToadd)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.plus() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original ChronoLocalDateTime: 2019-12-31T19:15:30
 ChronoLocalDateTime after adding Days: 2020-01-10T19:15:30
 ```

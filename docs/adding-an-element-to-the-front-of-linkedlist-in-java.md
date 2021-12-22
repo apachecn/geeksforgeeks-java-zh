@@ -15,7 +15,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java program to Add an Element
 // to the Front of LinkedList
 
@@ -81,6 +81,6 @@ class LinkedList {
 
 **输出**
 
-```
+```java
 9 8 5 6
 ```

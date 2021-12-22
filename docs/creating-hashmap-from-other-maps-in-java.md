@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for creating HashMap from Other Maps
 
 import java.util.*;
@@ -60,7 +60,7 @@ public class to_hashmap {
 
 **Output**
 
-```
+```java
 {Apurva=Bhatt, James=Bond, Scarlett =Johansson}
 {James=Bond, Apurva=Bhatt, Scarlett =Johansson}
 ```
@@ -71,7 +71,7 @@ public class to_hashmap {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for creating HashMap from Other Maps
 // using constructor
 
@@ -102,7 +102,7 @@ public class to_hashmap {
 
 **Output**
 
-```
+```java
 {Apurva=Bhatt, James=Bond, Scarlett =Johansson}
 {Apurva=Bhatt, James=Bond, Scarlett =Johansson}
 ```
@@ -113,7 +113,7 @@ public class to_hashmap {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for creating HashMap from Other Maps
 // using putAll() method
 
@@ -147,7 +147,7 @@ public class two_hashmap {
 
 **Output**
 
-```
+```java
 {Apurva=Bhatt, James=Bond, Scarlett =Johansson}
 {Apurva=Bhatt, James=Bond, Scarlett =Johansson}
 ```

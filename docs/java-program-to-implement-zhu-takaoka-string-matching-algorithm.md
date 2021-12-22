@@ -10,7 +10,7 @@
 
 首先，该算法的开始与 Boyer 的算法相同，即从右到左将模式与字符串进行比较。因此，模式的每个字符从右向左与字符串的字符进行比较。所以比较的起始索引应该是模式的长度。
 
-```
+```java
 String :     ABCDEFGH
 
 Pattern:    BCD
@@ -18,7 +18,7 @@ Pattern:    BCD
 
 因此，比较应该从字符串中的索引“C”开始，即 2(使用基于 0 的索引)。因此，比较从索引=模式长度–1 开始。如果找到匹配，则索引递减，直到找到匹配为止。一旦找不到匹配，就该给坏角色换班了。
 
-```
+```java
 String :     ABCDEFGH
 
 Pattern:    BCC
@@ -37,7 +37,7 @@ a)在索引 2 处，字符串包含字符“C”，由于模式[2]= =“C”，�
 
 该表是使用 2D 数组制作的，其中所有的列和行都是由模式的字符命名的。该表用模式的长度初始化，因为如果在模式中找不到字符对，那么唯一的方法是通过传递不匹配的字符来传递整个模式。
 
-```
+```java
 If pattern is  = "ABCD"
 
 The ZTBC =  A  B  C  D  E...
@@ -55,7 +55,7 @@ The ZTBC =  A  B  C  D  E...
 
 如果两个字符中的第二个字符是模式的起始字符，那么移动整个模式不是正确的想法，我们应该将第二个字符与模式的第一个字符进行匹配。所以我们应该通过 Len-1 来改变模式。
 
-```
+```java
 so For all i in size of array 
 
 ZTBC[i][pattern[0]] = len-1.
@@ -77,7 +77,7 @@ ZTBC =         A  B  C  D  E....
 
 现在，如果两个字符都连续出现在模式中，那么我们应该只移动模式那么多，以便字符串和模式中的一对字符匹配。
 
-```
+```java
 for all i in array.size
 
 ZTBC[pattern[i-1]][pattern[i]] = len-i-1 ; //This is the amount of shifts if two matching pair is found.
@@ -101,7 +101,7 @@ ZTBC =         A  B  C  D  E ......
 
 因此，假设字符串和模式如下所示:
 
-```
+```java
 String S  = "ABCABCDE"
 Pattern P = "ABCD"
 ```
@@ -112,31 +112,31 @@ Pattern P = "ABCD"
 
 因此，考虑基于 0 的索引，我们将从索引 3 开始
 
-```
+```java
 so s[3]!=P[3]  // p[3]=='D' and S[3]=='A'
 ```
 
 因此，出现了不匹配，我们将数组移动
 
-```
+```java
 ZTBC[C][A] since last two consecutive char is CA in string. 
 ```
 
 现在我们将模式改变 3
 
-```
+```java
 Since ZTBC[C][A] == 3, and now we are at index 6 ( 3+3 )
 ```
 
 现在我们应该像第 1 步一样再次开始字符串和模式的比较，然后我们会在字符串中找到匹配的模式，所以打印它。我们发现了一件事。现在，由于继续进一步**、**我们现在应该通过移动最后两个字符，即字符串中的 CD，因为它们只在先前的索引处。因此，我们应该将我们的模式改变 1，并继续同样的过程。此外，我们可以在这个程序中加入好后缀的概念，以找到必要的最大移位次数**，从而使我们的代码性能更好。好后缀的概念和博耶的一样。因此，如果字符串的字符处出现不匹配，我们将给出上述移位思想的一般公式。说**
 
-```
+```java
 Say S[i+m-k]!=P[m-k] //m is the size of pattern and j is the index of the start of matching .
 ```
 
 **那么**档的次数应该给出为:****
 
-```
+```java
 **ZTBC[S[i+m-2]][S[i+m-1]] // two consecutive char at the index where comparisons starts.**
 ```
 
@@ -144,7 +144,7 @@ Say S[i+m-k]!=P[m-k] //m is the size of pattern and j is the index of the start 
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Implement Zhu–Takaoka String Matching
 // Algorithm
 
@@ -239,7 +239,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 Pattern Found at 4
 Pattern Found at 9
 ```**** 

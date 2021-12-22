@@ -19,7 +19,7 @@
 
 **语法:**类声明
 
-```
+```java
 public final class MathContext extends Object  implements Serializable
 ```
 
@@ -55,7 +55,7 @@ public final class MathContext extends Object  implements Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate java.math.Context class
 
 // Importing all classes from
@@ -120,7 +120,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 246.8
 2.5E+2
 2.5E+2

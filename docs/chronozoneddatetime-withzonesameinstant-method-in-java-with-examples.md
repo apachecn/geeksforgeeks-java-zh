@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ChronoZonedDateTime withZoneSameInstant(ZoneId zone)
 
 ```
@@ -21,7 +21,7 @@ ChronoZonedDateTime withZoneSameInstant(ZoneId zone)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.withZoneSameInstant() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime of Calcutta: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ChronoZonedDateTime of Fuji: 2018-12-07T02:51:12.123+13:00[Pacific/Fiji]
 
@@ -65,7 +65,7 @@ ChronoZonedDateTime of Fuji: 2018-12-07T02:51:12.123+13:00[Pacific/Fiji]
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.withZoneSameInstant() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime of Calcutta: 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 ChronoZonedDateTime of yukon: 2018-10-25T14:12:31.123-07:00[Canada/Yukon]
 

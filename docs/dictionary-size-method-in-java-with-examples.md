@@ -6,7 +6,7 @@ Java 中 Dictionary 类的 size()方法用于知道字典的大小或字典中�
 
 **语法:**
 
-```
+```java
 DICTIONARY.size()
 ```
 
@@ -19,7 +19,7 @@ DICTIONARY.size()
 下面的程序说明了字典的大小()方法:
 **程序 1:**
 
-```
+```java
 // Java Code to illustrate size()
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class Dictionary_Demo {
 
 **Output:**
 
-```
+```java
 Dictionary: {10=Geeks, 30=You, 15=4, 25=Welcomes}
 The size of the dictionary is 4
 
@@ -58,7 +58,7 @@ The size of the dictionary is 4
 
 **程序 2:**
 
-```
+```java
 // Java Code to illustrate size()
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class Dictionary_Demo {
 
 **Output:**
 
-```
+```java
 Dictionary: {You=30, Welcomes=25, 4=15, Geeks=20, Geek=10}
 The size of the dictionary is 5
 

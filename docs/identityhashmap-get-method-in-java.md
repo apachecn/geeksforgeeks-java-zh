@@ -6,7 +6,7 @@ IdentityHashMap 类的 java.util.IdentityHashMap.get()方法用于检索或获�
 
 **语法:**
 
-```
+```java
 IdentityHashMap.get(*Object key_element*)
 ```
 
@@ -18,7 +18,7 @@ IdentityHashMap.get(*Object key_element*)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class Identity_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 The Value is: Welcomes
 The Value is: Geeks
@@ -63,7 +63,7 @@ The Value is: Geeks
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -99,7 +99,7 @@ public class Identity_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Geeks=20, Welcomes=25, You=30, 4=15}
 The Value is: 20
 The Value is: 30

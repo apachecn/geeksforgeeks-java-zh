@@ -6,7 +6,7 @@ Java 方法中**时区数据时间**接口的 **compareTo()** 方法将此日期
 
 **语法** :
 
-```
+```java
 default int compareTo(ChronoZonedDateTime other)
 
 ```
@@ -19,7 +19,7 @@ default int compareTo(ChronoZonedDateTime other)
 
 **节目 1** :
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -56,7 +56,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 0
@@ -65,7 +65,7 @@ public class GfG {
 
 **节目 2** :
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -102,7 +102,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 1

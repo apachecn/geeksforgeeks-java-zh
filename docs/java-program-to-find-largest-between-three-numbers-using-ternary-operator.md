@@ -6,14 +6,14 @@ Java 提供了很多[运算符](https://www.geeksforgeeks.org/operators-in-java/
 
 **三元运算符语法:**
 
-```
+```java
 variable = condition ? expression1 : expression2 ;
 
 ```
 
 **同样的语句可以写成 if-else 语句如下:**
 
-```
+```java
 if(condition){
       variable = expression1 ;
 }
@@ -27,7 +27,7 @@ else{
 
 **例:**
 
-```
+```java
 Input : a = 15 , b = 10 , c = 45
 Output : 45
 

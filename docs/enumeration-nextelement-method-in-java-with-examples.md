@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 E nextElement()
 
 ```
@@ -20,7 +20,7 @@ E nextElement()
 下面的程序说明了 nextElement()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Enumeration.nextElement() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Emp ID = 1001
 Emp ID = 2001
 Emp ID = 3001
@@ -64,7 +64,7 @@ Emp ID = 4001
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Enumeration.nextElement() method
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Aman Singh
 Raunak Singh
 Siddhant Gupta

@@ -33,7 +33,7 @@ NavigableSet 表示 [Java 集合框架](https://www.geeksforgeeks.org/collection
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the working of NavigableSet
 import java.util.NavigableSet;
@@ -89,7 +89,7 @@ public class NavigableSetDemo
 
 **Output**
 
-```
+```java
 Normal order: [0, 1, 2, 3, 4, 5, 6]
 Reverse order: [6, 5, 4, 3, 2, 1, 0]
 3 or  more:  [3, 4, 5, 6]
@@ -120,7 +120,7 @@ pollLast(): 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // adding of elements in
 // NavigableSet
@@ -146,7 +146,7 @@ class NavigableSetDemo {
 
 **输出:**
 
-```
+```java
 [A, B, C]
 
 ```
@@ -159,7 +159,7 @@ class NavigableSetDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access
 // the elements of NavigableSet
 import java.util.*;
@@ -199,7 +199,7 @@ class NavigableSetDemo {
 
 **输出:**
 
-```
+```java
 Navigable Set is [A, B, C]
 Contains D false
 First Value A
@@ -215,7 +215,7 @@ Last Value C
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to remove the
 // elements from NavigableSet
 import java.util.*;
@@ -259,7 +259,7 @@ class NavigableSetDemo {
 
 **输出:**
 
-```
+```java
 Initial TreeSet [A, B, C, D, E]
 After removing element [A, C, D, E]
 After the removal of First Element [C, D, E]
@@ -271,7 +271,7 @@ After the removal of Last Element [C, D]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate
 // through NavigableSet
 
@@ -302,7 +302,7 @@ class NavigableSetDemo {
 
 **输出:**
 
-```
+```java
 A, B, C, D, E, Z,  
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 V remove(Object key)
 ```
 
@@ -17,7 +17,7 @@ V remove(Object key)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show the implementation of
 // remove method in Map interface
 import java.util.*;
@@ -51,7 +51,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Nine}
 {1=One, 5=Five, 7=Seven, 9=Nine}
 {1=One, 5=Five, 7=Seven, 9=Nine}

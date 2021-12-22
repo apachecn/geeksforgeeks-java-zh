@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object element)
 ```
 
@@ -18,7 +18,7 @@ public boolean contains(Object element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // AbstractSet.contains()
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSet: [10, 20, Geeks, for]
 
 Does the set contains 'Hello': false
@@ -75,7 +75,7 @@ Does the set contains 'Geeks': true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate
 // AbstractSet.contains()
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSet:[10, 20, 30, 40, 50]
 
 Does the set contains '10': true

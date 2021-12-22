@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : ArrayList = [a, b, c], Vector = [d, e]
 Output: collection = [a, b, c, d, e]
 
@@ -22,7 +22,7 @@ Output: collection = [1, 2, 3, 5, 6]
 
 **语法:**
 
-```
+```java
 addAll(int index,Collection c)
 ```
 
@@ -39,7 +39,7 @@ addAll(int index,Collection c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Insert all Elements of Other Collection
 // to Specified Index of Java ArrayList
 import java.util.*;
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Elements of ArrayList: [Australia, Brazil, France, Germany, India]
 Elements of Collection(Vector): [Canada, Denmark, Egypt]
 After inserting elements of other collection elements of ArrayList:

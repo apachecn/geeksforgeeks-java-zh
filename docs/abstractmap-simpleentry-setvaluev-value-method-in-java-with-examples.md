@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public V setValue(V value)
 
 ```
@@ -20,7 +20,7 @@ public V setValue(V value)
 下面的程序说明了设置值(V 值)的方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.setValue() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value changed from 123 to 2122425
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.setValue() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value changed from Dhoni to Kohli
 
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: list = [2, 3, 6, 8]
 listiterator is at the beginning find previous index.
 
@@ -22,7 +22,7 @@ listiterator is at the beginning find next index.
 *   向数组列表中添加元素。
 *   使用[列表迭代器()](https://www.geeksforgeeks.org/arraylist-listiterator-method-in-java-with-examples/)方法创建一个列表迭代器。
 
-```
+```java
 Listiterator<Integer>iterator = arrList.listIterator();
 ```
 
@@ -30,7 +30,7 @@ Listiterator<Integer>iterator = arrList.listIterator();
 
 **语法**
 
-```
+```java
 iterator.previousIndex();
 ```
 
@@ -38,7 +38,7 @@ iterator.previousIndex();
 
 **语法**
 
-```
+```java
 iterator.nextIndex();
 ```
 
@@ -48,7 +48,7 @@ iterator.nextIndex();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get Previous and
 // next index using ListIterator
 
@@ -99,7 +99,7 @@ class PreviousAndNextIndex {
 
 **输出:**
 
-```
+```java
 Initial arraylist =>[5, 10, 15, 20, 25, 30]
 previous index =>-1
 Next index =>2

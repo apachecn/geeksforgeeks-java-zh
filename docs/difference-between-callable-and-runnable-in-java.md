@@ -12,7 +12,7 @@
 
 在一个可调用的接口中，它会抛出一个选中的异常并返回一些结果。这是即将到来的不返回值的 Runnable 接口的主要区别之一。在这个接口*、*中，它只是计算一个结果，否则如果做不到这一点，就会抛出一个异常。
 
-```
+```java
 public interface Callable<V> 
 {
   V call() throws exception ;
@@ -28,7 +28,7 @@ public interface Callable<V>
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 **// Java Program to illustrate Callable interface 
 
 // Importing classes from java.util package 
@@ -62,7 +62,7 @@ class CallableExample implements Callable {
 
 **当实现此接口的对象用于创建线程时，启动线程会导致在单独执行的线程中调用对象运行方法。将军。这个 run()方法的约定是它可以采取任何行动。**
 
-```
+```java
 **public interface Runnable 
 {
   public abstract void run();
@@ -78,7 +78,7 @@ class CallableExample implements Callable {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 **// Java Program to implement Runnable interface
 
 // Importing FileNotFound class from

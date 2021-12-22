@@ -43,7 +43,7 @@ JWindow 是 Java Swing 的一部分，它可以出现在用户桌面的任何部
 
 **1。程序创建一个简单的 JWindow**
 
-```
+```java
 // java Program to create a simple JWindow
 import java.awt.event.*;
 import java.awt.*;
@@ -123,7 +123,7 @@ class solveit extends JFrame implements ActionListener {
 
 **1。程序来创建一个多 JWindow。(其中一个窗口是另一个窗口的所有者)**
 
-```
+```java
 // java program to create a multiple  JWindow .( where one window is the owner of the other )<
 import java.awt.event.*;
 import java.awt.*;

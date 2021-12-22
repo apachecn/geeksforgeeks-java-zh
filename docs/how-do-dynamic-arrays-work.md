@@ -31,7 +31,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program deals with all operation of a dynamic array
 // add, remove, resize memory of array is the main feature
 public class DynamicArray {
@@ -261,7 +261,7 @@ public class DynamicArray {
 
 ## C#
 
-```
+```java
 // C# program deals with all operation 
 // of dynamic array add, remove, resize 
 // memory of array is the main feature
@@ -516,7 +516,7 @@ public class DynamicArray 
 
 **Output:**
 
-```
+```java
 Elements of array:
 1 2 3 4 5 6 7 8 9 0 0 0 0 0 0 0 
 Size of array: 16

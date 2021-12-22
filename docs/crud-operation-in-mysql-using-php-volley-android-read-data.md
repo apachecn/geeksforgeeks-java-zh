@@ -26,7 +26,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 $servername = "localhost";
 $username = "root";
@@ -85,7 +85,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 为了获得 PHP 脚本的 URL，我们只需在浏览器中键入 localhost，然后将它附加到我们的文件夹名和文件名中。您将看到下面突出显示的网址:
 
-```
+```java
 http://localhost/courseApp/readCourses.php
 ```
 
@@ -119,7 +119,7 @@ http://localhost/courseApp/readCourses.php
 
 下面是凌空的依赖，我们将使用它从应用编程接口获取数据。要添加此依赖项，请导航至**应用程序>渐变脚本> build.gradle(应用程序)**，并在依赖项部分添加以下依赖项。
 
-```
+```java
 implementation ‘com.android.volley:volley:1.1.1’
 ```
 
@@ -131,7 +131,7 @@ implementation ‘com.android.volley:volley:1.1.1’
 
 ## 可扩展标记语言
 
-```
+```java
 <!--permissions for INTERNET-->
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
@@ -142,7 +142,7 @@ implementation ‘com.android.volley:volley:1.1.1’
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -231,7 +231,7 @@ implementation ‘com.android.volley:volley:1.1.1’
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;

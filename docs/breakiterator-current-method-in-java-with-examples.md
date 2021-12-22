@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int current()
 ```
 
@@ -18,7 +18,7 @@ public abstract int current()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate current() method
 
 import java.text.*;
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current position before calling next(): 0
 
 current position after calling 1st next(): 4
@@ -87,7 +87,7 @@ current position after calling 2nd next(): 6
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate current() method
 
 import java.text.*;
@@ -145,7 +145,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current position before calling next(): 0
 
 current position after calling 1st next(): 13

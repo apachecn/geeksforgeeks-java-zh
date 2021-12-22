@@ -6,7 +6,7 @@ Java 中 [**数组列表**](https://www.geeksforgeeks.org/arraylist-in-java/) �
 
 **语法:**
 
-```
+```java
 trimToSize()
 ```
 
@@ -20,7 +20,7 @@ trimToSize()
 
 下面的程序说明了 trimTosize()方法:
 
-```
+```java
 // Java code to demonstrate the working of
 // trimTosize() method in ArrayList
 
@@ -56,7 +56,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 The List elements are:
 Number = 2
 Number = 4

@@ -6,7 +6,7 @@ Java 中 **DataInputStream** 类的 **readDouble()** 方法用于读取 8 个输
 
 **语法:**
 
-```
+```java
 public final double readDouble()
                   throws IOException
 
@@ -27,7 +27,7 @@ public final double readDouble()
 
 **程序 1:** 假设存在文件“demo.txt”。
 
-```
+```java
 // Java program to illustrate
 // DataInputStream readDouble() method
 import java.io.*;
@@ -76,7 +76,7 @@ public class GFG {
 
 **程序 2:** 假设文件“demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // DataInputStream readDouble() method
 import java.io.*;

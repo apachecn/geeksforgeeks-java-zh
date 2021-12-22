@@ -7,7 +7,7 @@
 **注意:** LongStream mapToObj()是一个*的**中间操作。*** 这些操作总是偷懒。中间操作在流实例上被调用，在它们完成处理后，它们给出一个流实例作为输出。
 **语法:**
 
-```
+```java
 <U> Stream<U> mapToObj(LongFunction<? extends U> mapper)
 
 ```
@@ -23,7 +23,7 @@
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream mapToObj
 // (LongFunction mapper)
 import java.util.*;
@@ -55,7 +55,7 @@ class GFG {
 
 输出:
 
-```
+```java
 11
 100
 101
@@ -66,7 +66,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream mapToObj
 // (LongFunction mapper)
 import java.util.*;
@@ -98,7 +98,7 @@ class GFG {
 
 输出:
 
-```
+```java
 13
 15
 17

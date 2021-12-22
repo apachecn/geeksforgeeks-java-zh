@@ -5,7 +5,7 @@
 1.  **java . math . BigDecimal . plus()**是 Java 中的一个内置方法，它返回一个 BigDecimal，其值为(+this)，其小数位数为 this.scale()。该方法简单地返回 BigDecimal，包含该方法是为了与一元减方法否定()保持对称。
     **语法:**
 
-```
+```java
 public BigDecimal plus()
 ```
 
@@ -16,7 +16,7 @@ public BigDecimal plus()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // plus() method
 
@@ -42,7 +42,7 @@ public class Gfg {
 
 **Output:** 
 
-```
+```java
 The value of the BigDecimal is -45.652
 ```
 
@@ -50,7 +50,7 @@ The value of the BigDecimal is -45.652
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // plus() method
 
@@ -76,14 +76,14 @@ public class gfg {
 
 **Output:** 
 
-```
+```java
 The value of the BigDecimal is 7458.3256
 ```
 
 2.  **java . math . BigDecimal . plus(math context MC)**是 Java 中的一个内置方法，它返回一个 big decimal，其值为(+this)，并根据上下文设置进行舍入。
     **语法:**
 
-```
+```java
 public BigDecimal plus(*MathContext mc*)
 ```
 
@@ -94,7 +94,7 @@ public BigDecimal plus(*MathContext mc*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // plus() method
 
@@ -120,7 +120,7 @@ public class gfg {
 
 **Output:** 
 
-```
+```java
 Result of plus is -452.3
 ```
 
@@ -128,7 +128,7 @@ Result of plus is -452.3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // plus() method
 
@@ -155,7 +155,7 @@ public class gfg {
 
 **Output:** 
 
-```
+```java
 Result of plus is -10.33
 ```
 

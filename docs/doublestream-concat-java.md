@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static DoubleStream concat(DoubleStream a,  DoubleStream b)
 
 ```
@@ -25,7 +25,7 @@ static DoubleStream concat(DoubleStream a,  DoubleStream b)
 
 **注意:**double stream . concat()方法返回的元素是有序的。例如，以下两行返回相同的结果:
 
-```
+```java
 DoubleStream.concat(DoubleStream.concat(stream1, stream2), stream3);
 DoubleStream.concat(stream1, DoubleStream.concat(stream2, stream3));
 
@@ -33,7 +33,7 @@ DoubleStream.concat(stream1, DoubleStream.concat(stream2, stream3));
 
 但是下面两个的结果是不同的。
 
-```
+```java
 DoubleStream.concat(DoubleStream.concat(stream1, stream2), stream3); 
 DoubleStream.concat(DoubleStream.concat(stream2, stream1), stream3);
 
@@ -41,7 +41,7 @@ DoubleStream.concat(DoubleStream.concat(stream2, stream1), stream3);
 
 **例 1 :**
 
-```
+```java
 // Implementation of DoubleStream.concat()
 // method in Java 8 with 2 DoubleStreams
 import java.util.*;
@@ -68,7 +68,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2.2
 4.3
 6.4
@@ -80,7 +80,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Implementation of DoubleStream.concat()
 // method in Java 8 with 2 DoubleStreams
 import java.util.*;
@@ -106,7 +106,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2.2
 4.3
 6.4

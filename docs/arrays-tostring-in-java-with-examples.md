@@ -32,7 +32,7 @@ arr 的字符串表示
 **用法:**
 下面提到的 Java 代码用例子描述了 Arrays 类的 toString()方法的用法:
 
-```
+```java
 // Java program to demonstrate working of Arrays.toString()
 import java.io.*;
 import java.util.*;
@@ -67,7 +67,7 @@ class GFG {
 
 输出:
 
-```
+```java
 [true, true, false, true]
 [10, 20, 30]
 [g, e, e, k, s]
@@ -83,7 +83,7 @@ class GFG {
 **我们还可以对用户定义类的对象使用 Arrays.toString()。**
 由于 Arrays.toString()对于[对象类](https://www.geeksforgeeks.org/object-class-in-java/)的数组是重载的(存在一个方法 Arrays.toString(Object []))，而 Object 是所有类的祖先，所以我们可以对任何类型的对象的数组使用 call。
 
-```
+```java
 // Java program to demonstrate working of Arrays.toString()
 // for user defined objects.
 import java.lang.*;
@@ -126,7 +126,7 @@ class Student {
 
 输出:
 
-```
+```java
 [111 bbbb london, 131 aaaa nyc, 121 cccc jaipur]
 
 ```

@@ -8,7 +8,7 @@ Java 中**数组类**的**流(T[]数组)**方法用于从作为参数传递的�
 
 **示例:**
 
-```
+```java
 // Java program to demonstrate Arrays.stream() method
 
 import java.util.*;
@@ -37,7 +37,7 @@ class GFG {
 
 **示例:**
 
-```
+```java
 // Java code for Stream of(T... values)
 // to get a sequential ordered stream whose
 // elements are the specified values.
@@ -71,7 +71,7 @@ class GFG {
 
     **示例:**传递一个整数数组，Stream.of()方法返回 Stream <int>，而 Arrays.stream()返回一个 IntStream。</int>
 
-    ```
+    ```java
     // Java program to demonstrate return type
     // of Arrays.stream() and Stream.of() method
     // for primitive arrays
@@ -111,7 +111,7 @@ class GFG {
 
     **示例:**
 
-    ```
+    ```java
     // Java program to demonstrate need of flattenning
     // Stream.of() method returned type for primitive arrays
 
@@ -159,7 +159,7 @@ class GFG {
 
     *   **For arrays . stream()方法:**
 
-        ```
+        ```java
         // Java program to demonstrate return type
         // of Arrays.stream() method
         // for primitive arrays of char
@@ -192,7 +192,7 @@ class GFG {
 
     *   **is the mainstay () method:**
 
-        ```
+        ```java
         // Java program to demonstrate return type
         // of Stream.of() method
         // for primitive arrays of char

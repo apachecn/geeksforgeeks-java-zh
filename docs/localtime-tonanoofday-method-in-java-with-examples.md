@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toNanoOfDay()
 
 ```
@@ -19,7 +19,7 @@ public long toNanoOfDay()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.toNanoOfDay() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Nano of day: 70490630000000
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.toNanoOfDay() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Nano of day: 84105980000000
 
 ```

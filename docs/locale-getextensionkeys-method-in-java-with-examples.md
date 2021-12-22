@@ -6,7 +6,7 @@ Java 中 **[Locale 类](https://www.geeksforgeeks.org/java-util-locale-class-jav
 
 **语法:**
 
-```
+```java
 public Set <Character> getExtensionKeys()
 ```
 
@@ -17,7 +17,7 @@ public Set <Character> getExtensionKeys()
 以下程序说明了 getExtensionKeys()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // getExtensionKeys() method
 
@@ -44,7 +44,7 @@ public class Locale_Demo {
 
 **Output:**
 
-```
+```java
 Locale: th_TH_TH_#u-nu-thai
 The KeySet: [u]
 
@@ -52,7 +52,7 @@ The KeySet: [u]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate
 // getExtensionKeys() method
 
@@ -79,7 +79,7 @@ public class Locale_Demo {
 
 **Output:**
 
-```
+```java
 Locale: en_US
 The KeySet: []
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int remainingCapacity ()
 ```
 
@@ -19,7 +19,7 @@ public int remainingCapacity ()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue remainingCapacity() method
 
 import java.util.concurrent.*;
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of the DelayQueue: 2
 DelayQueue Remaining Capacity:2147483647
 Size of the DelayQueue: 1

@@ -58,7 +58,7 @@
     *   现在该应用程序将在 firebase 注册。
 3.  Also, the SHA1 certificate, can be given, of the app by following steps:
 
-    ```
+    ```java
     Go to android studio project
      ↳ gradle
        ↳ root folder
@@ -78,7 +78,7 @@
     *   在项目中添加 sdk。
         将以下代码添加到应用程序的项目级 *build.gradle* 中。
 
-        ```
+        ```java
         buildscript {
           dependencies {
             classpath 'com.google.gms:google-services:4.0.0'
@@ -88,7 +88,7 @@
 
     *   将以下代码添加到应用程序的 APP-LEVEL *build.gradle* 中。
 
-        ```
+        ```java
         dependencies {
           compile 'com.google.firebase:firebase-core:16.0.0'
         }

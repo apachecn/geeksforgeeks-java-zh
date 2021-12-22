@@ -10,7 +10,7 @@ LinkedBlockingQueue 中有两种轮询()方法。
 
 **语法:**
 
-```
+```java
 public E poll()
 ```
 
@@ -20,7 +20,7 @@ public E poll()
 
 **程序 1:** 使用 poll()方法从 LinkedBlockingQueue 中移除元素，其中 LinkedBlockingQueue 包含名称列表。
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of LinkedBlockingQueue
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Items in Queue are [Ravi, Suraj, Harsh, Sayan]
 
 Removed Item is Ravi
@@ -83,7 +83,7 @@ Remaining Items in Queue are [Harsh, Sayan]
 
 **程序 2:** 从包含员工列表的链接锁定队列中删除元素，如果队列为空，则打印空。
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of LinkedBlockingQueue
 
@@ -171,7 +171,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Item is :
 Employee Name - Ravi
 Employee Position - Tester
@@ -196,7 +196,7 @@ Removed Item is : null
 
 **语法:**
 
-```
+```java
 public E poll(long timeout, TimeUnit unit) throws 
 ```
 
@@ -213,7 +213,7 @@ public E poll(long timeout, TimeUnit unit) throws
 
 **程序 1:** 使用 poll()方法从 LinkedBlockingQueue 中移除元素，其中 LinkedBlockingQueue 包含名称列表。
 
-```
+```java
 // Java program to demonstrate
 // poll(long timeout, TimeUnit unit)
 // method of LinkedBlockingQueue
@@ -274,7 +274,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Items in Queue are [Ravi, Suraj, Harsh]
 
 Removing item From head: Ravi

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getMinimum*(*int calendarfield*)*
 ```
 
@@ -17,7 +17,7 @@ public int getMinimum*(*int calendarfield*)*
 
 **示例:**
 
-```
+```java
 Input : DAY_OF_MONTH
 Output : 1
 
@@ -30,7 +30,7 @@ Output : 0
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate getMinimum() function 
 // GregorianCalender
 
@@ -63,7 +63,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 11:40:24 UTC 2018
 Minimum for WEEK_OF_MONTH field :0
 Minimum for DAY_OF_MONTH field:1
@@ -72,7 +72,7 @@ Minimum for DAY_OF_MONTH field:1
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate getMinimum() function 
 // GregorianCalender
 
@@ -105,7 +105,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 11:40:28 UTC 2018
 Minimum for YEAR field :1
 Minimum for HOUR_OF_DAY field :0

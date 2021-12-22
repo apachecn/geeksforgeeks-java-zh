@@ -26,7 +26,7 @@
 
 > **注意:**为了实现 Applet，我们需要导入 awt 包:
 > 
-> ```
+> ```java
 > java.awt.applet.*;
 > ```
 
@@ -34,7 +34,7 @@
 
 **步骤 1:** 初始化
 
-```
+```java
 public void init() 
 ```
 
@@ -42,7 +42,7 @@ public void init()
 
 **第二步:**开始
 
-```
+```java
 public void start()
 ```
 
@@ -50,7 +50,7 @@ public void start()
 
 **第三步:**上色
 
-```
+```java
 public void paint (Graphics g)
 ```
 
@@ -58,7 +58,7 @@ public void paint (Graphics g)
 
 **第四步:**停止
 
-```
+```java
 public void stop()
 ```
 
@@ -66,7 +66,7 @@ public void stop()
 
 **第五步:**摧毁
 
-```
+```java
 public void destroy()
 ```
 
@@ -83,7 +83,7 @@ java Applet 的实现可以通过以下两种方式完成:
 
 ## 超文本标记语言
 
-```
+```java
 <HTML>
 <applet>
 code,width,height

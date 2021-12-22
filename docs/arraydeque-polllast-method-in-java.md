@@ -6,7 +6,7 @@ java 中的 Java . util . arraydeque . pollast()方法用于检索或获取并�
 
 **语法:**
 
-```
+```java
 Array_Deque.pollLast()
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.pollLast()
 下面的程序说明了 Java . util . arraydeque . pollast()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate pollLast()
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The last element is: Geeks
 ArrayDeque after operation: [Welcome, To, Geeks, 4]
@@ -59,7 +59,7 @@ ArrayDeque after operation: [Welcome, To, Geeks, 4]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate pollLast()
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 The element at head is: 5
 ArrayDeque after operation: [10, 15, 30, 20]
@@ -101,7 +101,7 @@ ArrayDeque after operation: [10, 15, 30, 20]
 
 **程序 3:** 对于空车:
 
-```
+```java
 // Java code to illustrate pollLast()
 import java.util.*;
 
@@ -123,7 +123,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: []
 The element at head is: null
 

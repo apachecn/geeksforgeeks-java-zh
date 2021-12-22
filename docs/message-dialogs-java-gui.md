@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show ERROR_MESSAGE dialog
 // in Java. Importing different Package.
 import java.awt.*;
@@ -95,7 +95,7 @@ class MessageDialogs1 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show WARNING_MESSAGE dialog
 // in Java. Importing different Package.
 import java.awt.*;
@@ -165,7 +165,7 @@ class MessageDialogs2 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show QUESTION_MESSAGE
 // dialog in Java. Importing different Package.
 import java.awt.*;
@@ -235,7 +235,7 @@ class MessageDialogs3 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show INFORMATION_MESSAGE
 // dialog in Java. Importing different Package.
 import java.awt.*;

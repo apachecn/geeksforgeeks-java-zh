@@ -29,7 +29,7 @@
 
 ****第 1 步(b):** 要在同一个 Java 项目“MyFirstFrame”下创建“New File”，右键单击窗口左侧的项目名称，如下图所示点击，点击完成。**例如 MyFrame.java****
 
-```
+```java
 New -> JFrame Form and give a suitable file name
 ```
 
@@ -53,7 +53,7 @@ New -> JFrame Form and give a suitable file name
 
 ****第 6 步(a):** 现在通过如下所示的右键**写代码****
 
-```
+```java
 *MyFrame.java → Split → Horizontally*
 ```
 
@@ -85,7 +85,7 @@ New -> JFrame Form and give a suitable file name
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Take a Snapshot From System Camera
 
 package myfirstform;

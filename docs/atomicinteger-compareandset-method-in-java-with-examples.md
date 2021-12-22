@@ -19,7 +19,7 @@
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrates
 // the compareAndSet() function
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 0
 The value was updated and it is 6
 
@@ -62,7 +62,7 @@ The value was updated and it is 6
 
 **程序二:**
 
-```
+```java
 // Java Program to demonstrates
 // the compareAndSet() function
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 0
 The value was not updated
 

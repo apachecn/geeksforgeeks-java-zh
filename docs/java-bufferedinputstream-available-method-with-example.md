@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public int available()
 
 ```
@@ -21,7 +21,7 @@ public int available()
 
 **例 1:** 下面程序举例说明了 available()方法的使用，假设存在文件“d:/demo.txt”。
 
-```
+```java
 // Java code to illustrate available() method
 import java.io.*;
 class Testing {
@@ -53,14 +53,14 @@ class Testing {
 
 **输出:**
 
-```
+```java
 5
 
 ```
 
 **例 2:** 下面程序举例说明了 available()方法的使用，假设存在文件“d:/demo.txt”。
 
-```
+```java
 // Java code to illustrate available() method
 import java.io.*;
 class Testing {
@@ -93,7 +93,7 @@ class Testing {
 
 **输出:**
 
-```
+```java
 13
 
 ```

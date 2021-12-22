@@ -6,7 +6,7 @@
 
 **图解:**
 
-```
+```java
 Searching for 35 in byteArr[] = {10,20,15,22,35}
 will give result as 4 as it is the index of 35
 
@@ -30,7 +30,7 @@ will give result as -1 as it is the insertion point of 5
 
 **语法:**
 
-```
+```java
 public static int binarySearch(data_type arr, data_type key)
 ```
 
@@ -54,7 +54,7 @@ public static int binarySearch(data_type arr, data_type key)
 
 ## Java
 
-```
+```java
 // Java program to demonstrate working of Arrays.
 // binarySearch() in a sorted array
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 35 found at index = 4
 g found at index = 1
 22 found at index = 3
@@ -138,7 +138,7 @@ g found at index = 1
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate binarySearch() method
 //  of  Collections class
 
@@ -177,7 +177,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 2
 ```
 

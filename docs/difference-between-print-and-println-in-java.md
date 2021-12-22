@@ -26,7 +26,7 @@
 
 **示例:**
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -46,7 +46,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GfG1GfG2
 
 ```
@@ -77,7 +77,7 @@ GfG1GfG2
 
 **示例:**
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -98,7 +98,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GfG1
 GfG2
 

@@ -5,7 +5,7 @@
 [延迟队列](https://www.geeksforgeeks.org/delayqueue-class-in-java-with-example/)的 **take()** 方法用于检索延迟队列的头部并将其移除。因此，延迟队列的大小减小了。如果此队列中有延迟过期的元素，此函数将等待。
 **语法:**
 
-```
+```java
 public E take ()
 ```
 
@@ -17,7 +17,7 @@ public E take ()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue take() method
 
 import java.util.concurrent.*;
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of the DelayQueue: 4
 DelayQueue: [
 { A, time=1546842594283}, 

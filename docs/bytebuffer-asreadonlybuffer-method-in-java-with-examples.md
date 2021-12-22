@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public abstract ByteBuffer asReadOnlyBuffer()
 ```
 
@@ -22,7 +22,7 @@ public abstract ByteBuffer asReadOnlyBuffer()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40, 50]
 
 ReadOnlyBuffer ByteBuffer: 20, 30, 40, 50,
@@ -90,7 +90,7 @@ ReadOnlyBuffer ByteBuffer: 20, 30, 40, 50,
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -155,7 +155,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40, 50]
 
 ReadOnlyBuffer ByteBuffer: 20, 30, 40, 50, 

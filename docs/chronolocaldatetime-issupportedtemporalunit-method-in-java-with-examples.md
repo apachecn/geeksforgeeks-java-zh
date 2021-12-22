@@ -6,7 +6,7 @@ Java 中**计时本地日期时间接口**的 **isSupported()** 方法检查是�
 
 **语法:**
 
-```
+```java
 default boolean isSupported(TemporalUnit unit)
 
 ```
@@ -19,7 +19,7 @@ default boolean isSupported(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the isSupported(TemporalUnit) method
 
 import java.util.*;
@@ -44,7 +44,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03T12:45:30
 true
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getCanonicalName()
 
 ```
@@ -19,7 +19,7 @@ public String getCanonicalName()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getCanonicalName() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 CanonicalName of myClass: Test
 
@@ -53,7 +53,7 @@ CanonicalName of myClass: Test
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getCanonicalName() method
 
 import java.util.*;
@@ -92,7 +92,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Main$1Arr
 CanonicalName of myClass: null
 

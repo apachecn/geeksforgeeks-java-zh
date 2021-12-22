@@ -15,7 +15,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert the names of the months into the
 // shorter format using DateFormatSymbols class
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Name of Month In Shorter Format Jan
 Name of Month In Shorter Format Feb
 Name of Month In Shorter Format Mar
@@ -64,7 +64,7 @@ Name of Month In Shorter Format Dec
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to display the name of the month in shorter
 // format using SimpleDateFormat class
 
@@ -100,6 +100,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 01-Feb-2021
 ```

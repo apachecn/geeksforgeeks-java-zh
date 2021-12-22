@@ -8,7 +8,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Addition and Concatenation
 
 // Main class
@@ -32,7 +32,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 9GeeksforGeeks
 GeeksforGeeks2016
 8GeeksforGeeks2016
@@ -41,7 +41,7 @@ GeeksforGeeks2016
 
 **输出解释:**这种不可预测的输出是由于编译器从左到右计算给定的表达式，给定的运算符具有相同的优先级。一旦遇到字符串，它会将表达式的其余部分视为字符串(同样基于表达式的优先顺序)。
 
-```
+```java
 System.out.println(2 + 0 + 1 + 6 + "GeeksforGeeks");  
 ```
 
@@ -49,13 +49,13 @@ System.out.println(2 + 0 + 1 + 6 + "GeeksforGeeks");
 
 *它打印 2，0，1 和 6 的连接，这是 2016 年，因为它最初遇到字符串。基本上，字符串优先，因为它们比整数具有更高的转换优先级。*
 
-```
+```java
 System.out.println(2 + 0 + 1 + 5 + "GeeksforGeeks" + 2 + 0 + 1 + 6); 
 ```
 
 *打印 2，0，1 和 5 的相加，而 2，0，1 和 6 的拼接*是基于上面给出的*示例的*。**
 
-```
+```java
 *System.out.println(2 + 0 + 1 + 5 + "GeeksforGeeks" + (2 + 0 + 1 + 6));* 
 ```
 

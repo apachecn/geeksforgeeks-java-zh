@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public LocalDateTime plusHours(long hours)
 
 ```
@@ -21,7 +21,7 @@ public LocalDateTime plusHours(long hours)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the plusHours() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 LocalDateTime with 15 hours added: 2018-01-12T01:15:30
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the plusHours() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 LocalDateTime with -2 hours added: 2018-01-11T06:15:30
 
 ```

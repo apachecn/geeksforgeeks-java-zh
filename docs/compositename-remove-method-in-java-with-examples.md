@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object remove(int posn)
        throws InvalidNameException
 
@@ -21,7 +21,7 @@ public Object remove(int posn)
 下面的程序说明了 CompositeName.remove()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.remove()
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Component: h
 CompositeName After removal: a/b/d/e/g/j/k/l
 
@@ -65,7 +65,7 @@ CompositeName After removal: a/b/d/e/g/j/k/l
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.remove() method
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Component: bb
 CompositeName After removal: aa/cc/dd/ee/ff/gg/hh
 Removed Component: dd

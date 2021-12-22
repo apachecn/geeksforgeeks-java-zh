@@ -6,7 +6,7 @@ Java 中 **DoubleSummaryStatistics 类的 **getCount()** 方法用于获取这�
 
 **语法:**
 
-```
+```java
 public long getCount()
 
 ```
@@ -17,7 +17,7 @@ public long getCount()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 E getLast()
 
 ```
@@ -23,7 +23,7 @@ E getLast()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate getLast()
 // method of Deque
 import java.util.*;
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 Deque's head: 74381793
 
@@ -64,7 +64,7 @@ Deque's head: 74381793
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate getLast()
 // method of Deque
 import java.util.*;
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 Deque's head: 74381793
 
@@ -105,7 +105,7 @@ Deque's head: 74381793
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate getLast()
 // method of Deque
 import java.util.*;
@@ -137,7 +137,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 Deque's head: 74381793
 
@@ -147,7 +147,7 @@ Deque's head: 74381793
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate getLast()
 // method of Deque
 import java.util.*;
@@ -179,7 +179,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 Deque's head: 74381793
 
@@ -189,7 +189,7 @@ Deque's head: 74381793
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate getLast()
 // method of Deque when it is empty
 import java.util.*;
@@ -225,7 +225,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.util.NoSuchElementException
     at java.util.LinkedList.getLast(LinkedList.java:257)
     at GFG.main(GFG.java:29)

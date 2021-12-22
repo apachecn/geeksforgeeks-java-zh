@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle the exception hierarchies
 
 import java.io.*;
@@ -45,7 +45,7 @@ class GFG {
 
 **I/O 异常**:由于 FileNotFoundException 的原因，这个程序抛出 I/O 异常，是 Java 中的一个勾选异常。无论何时，当我们想从文件系统中读取一个文件时，Java 都会强制我们处理文件不在给定位置的错误情况。
 
-```
+```java
 Assumption: consider myfile.txt file does not exit 
 ```
 
@@ -53,7 +53,7 @@ Assumption: consider myfile.txt file does not exit
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle the exception hierarchies
 import java.io.*;
 class GFG {
@@ -73,7 +73,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 File not found
 ```
 
@@ -86,7 +86,7 @@ File not found
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle the exception hierarchies
 import java.io.*;
 
@@ -110,7 +110,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Out of index  please check your code
 ```
 
@@ -120,7 +120,7 @@ Out of index  please check your code
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 try {
     // Code where exception can occur
 }
@@ -136,7 +136,7 @@ catch (ExceptionB e2) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -156,6 +156,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Zero cannot divide any number
 ```

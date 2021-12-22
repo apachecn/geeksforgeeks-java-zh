@@ -55,7 +55,7 @@ FINEST 提供高度详细的追踪消息。
 记录器类提供记录的方法。因为日志管理器是进行实际日志记录的管理器，所以使用*日志管理器*的 getLogger 方法来访问它的实例。
 通过记录器类的静态字段“全局 _ 记录器 _ 名称”访问全局记录器实例。它是为了方便临时使用日志包而提供的。
 
-```
+```java
 // Java program to illustrate logging in Java
 // The following code shows a basic example how logging 
 // works in Java
@@ -107,7 +107,7 @@ public class GfG {
 
 输出；
 
-```
+```java
 May 12, 2018 7:56:33 AM DemoLogger makeSomeLog
 INFO: My first Log Message
 May 12, 2018 7:56:33 AM GfG main

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: map = {1=[1, 2], 2=[3, 4, 5, 6], 3=[7, 8, 9]}
 Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
@@ -26,7 +26,7 @@ Output: [G, e, e, k, s, F, o, r]
 
 **示例 1:** 使用整数列表。
 
-```
+```java
 // Java program to flatten a stream of map
 // using forEach() method
 
@@ -74,14 +74,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 ```
 
 **示例 2:** 使用字符列表。
 
-```
+```java
 // Java program to flatten a stream of map
 // using forEach() method
 
@@ -129,7 +129,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
 ```

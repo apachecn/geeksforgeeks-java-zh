@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void setMaximumIntegerDigits(int newVal)
 
 ```
@@ -19,7 +19,7 @@ public void setMaximumIntegerDigits(int newVal)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setMaximumIntegerDigits() method
 
@@ -44,14 +44,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 345, 678.346
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setMaximumIntegerDigits() method
 
@@ -76,7 +76,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1, 234.346
 
 ```

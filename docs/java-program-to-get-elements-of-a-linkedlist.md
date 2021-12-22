@@ -10,7 +10,7 @@
 
 ****语法:****
 
-```
+```java
 LinkedList.get(int index)
 ```
 
@@ -20,7 +20,7 @@ LinkedList.get(int index)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to get the elements of Linkedlist
 
 import java.io.*;
@@ -51,7 +51,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 LinkedList Elements : 
 Element at index 0 is: GEEKS
 Element at index 1 is: FOR
@@ -65,7 +65,7 @@ Element at index 2 is: GEEKS
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to iterate over linkedlist
 // to extract elements of linkedlist
 
@@ -112,7 +112,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The elements of the input LinkedList: 
 The element at the index 0 GEEKS 
 The element at the index 1 FOR 
@@ -128,7 +128,7 @@ The element at the index 2 GEEKS
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to iterate over the
 // linkedlist using listIterator()
 
@@ -194,7 +194,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The elements of the LinkedList: 
 The element at the index 0 GEEKS
 The element at the index 1 FOR

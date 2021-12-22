@@ -6,7 +6,7 @@
 
  **语法:**
 
-```
+```java
 public final int getAndIncrement(int i)
 ```
 
@@ -18,7 +18,7 @@ public final int getAndIncrement(int i)
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndIncrement() function
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [11, 12, 13, 14, 15]
 Value at index 0 before the update is 11
 The array after update : [12, 12, 13, 14, 15]
@@ -67,7 +67,7 @@ The array after update : [12, 12, 13, 14, 15]
 
 **程序 2:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndIncrement() function
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [11, 12, 13, 14, 15]
 Value at index 3 before the update is 14
 The array after update : [11, 12, 13, 15, 15]

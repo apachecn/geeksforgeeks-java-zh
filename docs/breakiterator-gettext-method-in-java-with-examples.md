@@ -5,7 +5,7 @@
 **java.text.BreakIterator** 类的 **getText()** 方法用于获取 BreakIterator 中 setText()方法预先设置的文本。
 **语法:**
 
-```
+```java
 public abstract CharacterIterator getText()
 ```
 
@@ -16,7 +16,7 @@ public abstract CharacterIterator getText()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getText() method
 
 import java.text.*;
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Retrieved text is : Code Geeks
 ```
 
@@ -59,7 +59,7 @@ Retrieved text is : Code Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getText() method
 
 import java.text.*;
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Retrieved text is : Geeks For GEeks
 ```
 

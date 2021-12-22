@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E higher(E e)
 ```
 
@@ -22,7 +22,7 @@ public E higher(E e)
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate higher()
     // method of ConcurrentSkipListSet
 
@@ -56,7 +56,7 @@ public E higher(E e)
 
     **Output:**
 
-    ```
+    ```java
     The higher of 20 in the set: 30
     The higher of 39 in the set: 40
     The higher of 50 in the set: null
@@ -65,7 +65,7 @@ public E higher(E e)
 
     **程序 2:** 以更高的()显示空指针异常的程序。
 
-    ```
+    ```java
     // Java program to demonstrate higher()
     // method of ConcurrentSkipListSet
 
@@ -96,7 +96,7 @@ public E higher(E e)
 
     **Output:**
 
-    ```
+    ```java
     Exception: java.lang.NullPointerException
 
     ```

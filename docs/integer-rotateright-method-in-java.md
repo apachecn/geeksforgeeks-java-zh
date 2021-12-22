@@ -7,7 +7,7 @@ Java . lang . integer . rotateright()是通过将指定 int 值 *a* 的二进制
 
 **语法:**
 
-```
+```java
 public static int rotateRight(*int a, int shifts*)
 ```
 
@@ -21,7 +21,7 @@ public static int rotateRight(*int a, int shifts*)
 下面的程序说明了 Java.lang.Integer.rotateRight()方法:
 **程序 1:** 为正数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.rotateRight() method
 import java.lang.*;
@@ -45,7 +45,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 16
 4
 1
@@ -54,7 +54,7 @@ public class Geeks {
 
 **程序 2:** 为负数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.rotateRight() method
 import java.lang.*;
@@ -79,7 +79,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 -42
 -1073741835
 1879048189

@@ -6,7 +6,7 @@
 函数的语法给出了对指定元素的清晰理解，后面是示例。
 **语法:**
 
-```
+```java
 subSet(E fromElement, E toElement)
            or 
 subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive)
@@ -26,7 +26,7 @@ subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ConcurrentSkipListSet subSet() method
 
 import java.util.concurrent.ConcurrentSkipListSet;
@@ -60,7 +60,7 @@ class ConcurrentSkipListSetExample {
 
 **Output:** 
 
-```
+```java
 ConcurrentSkipListSet: [34324, 41523, 65552, 90000, 93423]
 The returned elements are: [34324, 41523, 65552]
 ```
@@ -70,7 +70,7 @@ The returned elements are: [34324, 41523, 65552]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ConcurrentSkipListSet subSet() method
 
 import java.util.concurrent.ConcurrentSkipListSet;
@@ -104,7 +104,7 @@ class ConcurrentSkipListSetExample {
 
 **Output:** 
 
-```
+```java
 ConcurrentSkipListSet: [123, 200, 324, 400, 652]
 The returned elements are: [123, 200, 324, 400]
 ```

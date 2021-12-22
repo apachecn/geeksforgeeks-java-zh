@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Calling of a Static Method
 
 // Class 1
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 sum is = 9
 ```
 
@@ -65,7 +65,7 @@ sum is = 9
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Calling of a Non-Static Method
 
 // Class 1
@@ -104,7 +104,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 sum is = 9
 ```
 
@@ -114,7 +114,7 @@ sum is = 9
 
 **语法:**静态方法的调用
 
-```
+```java
 class GFG{
  public static void geek()
  { }
@@ -128,7 +128,7 @@ GFG.geek();
 
 **语法:**调用非静态方法
 
-```
+```java
 class GFG{
  public void geek()
  { }
@@ -154,7 +154,7 @@ g.geek();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Override of static method
 class Parent {
 
@@ -188,7 +188,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java:15: error: show() in Child cannot override show() in Parent
     void show()
          ^
@@ -201,7 +201,7 @@ java:15: error: show() in Child cannot override show() in Parent
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Override of non-static method
 
 class Parent {
@@ -237,7 +237,7 @@ class GFG {
 
 **输出:**错误
 
-```
+```java
 Parent
 Child
 ```

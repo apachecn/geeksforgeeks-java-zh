@@ -5,7 +5,7 @@
 给定一个由 N 个元素和 K 个元素组成的数组，在 Java 中找到一个数组元素的索引。
 示例:
 
-```
+```java
 Input: a[] = { 5, 4, 6, 1, 3, 2, 7, 8, 9 }, K = 5
 Output: 0
 
@@ -20,7 +20,7 @@ Output: 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find index of
 // an element in N elements
 import java.util.*;
@@ -72,7 +72,7 @@ public class index {
 
 **Output:** 
 
-```
+```java
 Index position of 5 is: 0
 Index position of 7 is: 6
 ```
@@ -82,7 +82,7 @@ Index position of 7 is: 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find index of
 // an element in N elements
 import java.util.Arrays;
@@ -114,7 +114,7 @@ public class index {
 
 **Output:** 
 
-```
+```java
 Index position of 5 is: 4
 Index position of 7 is: 6
 ```
@@ -124,7 +124,7 @@ Index position of 7 is: 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find index of
 // an element in N elements
 import java.util.List;
@@ -149,7 +149,7 @@ public class index {
 
 **Output:** 
 
-```
+```java
 Index position of 5 is: 0
 Index position of 7 is: 6
 ```
@@ -159,7 +159,7 @@ Index position of 7 is: 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find index of
 // an element in N elements
 import java.util.stream.IntStream;
@@ -187,7 +187,7 @@ public class index {
 
 **Output:** 
 
-```
+```java
 Index position of 5 is: 0
 Index position of 7 is: 6
 ```
@@ -198,7 +198,7 @@ Index position of 7 is: 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for the above approach
 import java.util.ArrayList;
 
@@ -232,7 +232,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Index position of 5 is: 0
 Index position of 7 is: 6
 ```
@@ -243,7 +243,7 @@ Index position of 7 is: 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for the above approach
 public class GFG {
 
@@ -285,7 +285,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Index position of 5 is: 0
 Index position of 7 is: 6
 ```

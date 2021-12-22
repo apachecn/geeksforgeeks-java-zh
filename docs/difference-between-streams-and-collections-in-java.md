@@ -18,7 +18,7 @@ A **集合**是内存中的数据结构，保存数据结构当前拥有的所�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Collection
 
 // Importing required classes
@@ -58,7 +58,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Apple
 Google
 Microsoft
@@ -68,7 +68,7 @@ Microsoft
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate streams
 
 // Importing required classes
@@ -100,7 +100,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Apple
 Google
 Microsoft

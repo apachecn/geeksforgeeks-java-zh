@@ -18,7 +18,7 @@
 
 ## Java
 
-```
+```java
 // Java program to get the first and
 // last element of vector
 
@@ -61,7 +61,7 @@ public class Example {
 
 **输出**
 
-```
+```java
 The Vector Elements are: [5, 9, 0, 5, 3]
 The First Element of the Vector is : 5
 The Last Element of the Vector is : 3

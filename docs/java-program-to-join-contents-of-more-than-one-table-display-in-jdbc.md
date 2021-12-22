@@ -14,7 +14,7 @@ Java 支持许多数据库，对于每个数据库，我们需要将它们各自
 
 第一张桌子
 
-```
+```java
 CREATE TABLE `studentsdetails` (
  `id` int(6) unsigned NOT NULL,
  `Name` varchar(50) NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE `studentsdetails` (
 
 第二张桌子
 
-```
+```java
 CREATE TABLE `studentspersonaldetails` (
  `id` int(6) unsigned NOT NULL AUTO_INCREMENT,
  `Name` varchar(30) NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE `studentspersonaldetails` (
 
 在这两个表中，“名称”是公共列。第一个表指定了性别、工作、种姓等，而第二个表指定了地址、电子邮件等。现在唯一需要的是创建一个 SQL 查询来连接表，如下所示:
 
-```
+```java
 SELECT * FROM " + "studentsdetails" + " NATURAL JOIN " + "studentspersonaldetails"
 ```
 
@@ -54,7 +54,7 @@ SELECT * FROM " + "studentsdetails" + " NATURAL JOIN " + "studentspersonaldetail
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Join Contents
 // of More than One Table & Display in JDBC
 
@@ -192,7 +192,7 @@ public class GFG {
 
 要使用的 jar:sqljdb C4 . jar
 
-```
+```java
 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 ```
 
@@ -206,12 +206,12 @@ Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
 要使用的 jar:ojdbc 14 . jar
 
-```
+```java
 Class.forName("oracle.jdbc.driver.OracleDriver");
 ```
 
 **步骤 2:** 创建一个连接对象，后跟用户名和密码
 
-```
+```java
 Connection con=DriverManager.getConnection( "jdbc:oracle:thin:@localhost:1521:xe","system","oracle");
 ```

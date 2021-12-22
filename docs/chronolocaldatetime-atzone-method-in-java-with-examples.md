@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ChronoZonedDateTime<D> atZone(ZoneId zone)
 ```
 
@@ -18,7 +18,7 @@ ChronoZonedDateTime<D> atZone(ZoneId zone)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.atZone() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime: 2018-12-06T19:21:12
 ChronoZonedDateTime: 2018-12-06T19:21:12+01:00[Europe/Paris]
 
@@ -60,7 +60,7 @@ ChronoZonedDateTime: 2018-12-06T19:21:12+01:00[Europe/Paris]
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.atZone() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime: 2018-12-06T19:21:12
 ChronoZonedDateTime: 2018-12-06T19:21:12+03:00[Asia/Aden]
 

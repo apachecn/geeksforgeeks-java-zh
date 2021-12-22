@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int countTrue(boolean... values)
 
 ```
@@ -17,7 +17,7 @@ public static int countTrue(boolean... values)
 
 **示例-1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.countTrue() method
 
@@ -43,14 +43,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 3
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.countTrue() method
 
@@ -75,7 +75,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 0
 
 ```

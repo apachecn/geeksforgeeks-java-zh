@@ -5,7 +5,7 @@
 [**Java 抽象集合**](https://www.geeksforgeeks.org/abstractcollection-in-java-with-examples/) 的 **size()** 方法用于获取集合的大小或集合中存在的元素数量。
 **语法:**
 
-```
+```java
 AbstractCollection.size()
 ```
 
@@ -16,7 +16,7 @@ AbstractCollection.size()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate size()
 
 import java.util.*;
@@ -51,7 +51,7 @@ public class AbstractCollectionDemo {
 
 **Output:** 
 
-```
+```java
 Collection: [4, Geeks, To, TreeSet, Welcome]
 The size of the Collection is: 5
 ```
@@ -60,7 +60,7 @@ The size of the Collection is: 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate size()
 
 import java.util.*;
@@ -94,7 +94,7 @@ public class AbstractCollectionDemo {
 
 **Output:** 
 
-```
+```java
 Collection:[Geeks, for, Geeks, 10, 20]
 The size of the Collection is: 5
 ```

@@ -6,7 +6,7 @@ equals()方法是 **java.text.DecimalFormat** 类的内置方法，它接受一�
 
 **语法** :
 
-```
+```java
 public boolean equals(Object arg)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object arg)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // equals() method
 
@@ -50,14 +50,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Yes both are equal
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // equals() method
 
@@ -88,7 +88,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Yes both are not equal
 
 ```

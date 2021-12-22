@@ -6,12 +6,12 @@
 
 **语法:**
 
-```
+```java
 public CookieManager()
 // Create a new cookie manager
 ```
 
-```
+```java
 public CookieManager(CookieStore store, CookiePolicy cookiePolicy)
 // Create a new cookie manager 
 // with specified cookie store and cookie policy
@@ -38,7 +38,7 @@ getCookieStore()方法检索当前的 cookie 存储，并返回 cookie 管理器
 
 **语法:**
 
-```
+```java
 public CookieStore getCookieStore() ;
 ```
 
@@ -48,7 +48,7 @@ public CookieStore getCookieStore() ;
 
 **语法:**
 
-```
+```java
 public void setCookiePolicy(CookiePolicy cookiePolicy) ;
 ```
 
@@ -58,7 +58,7 @@ get()方法从 cookie 缓存中获取请求头中所需 URI 的所有适用 cook
 
 **语法:**
 
-```
+```java
 public Map<String,List<String>> get(URI uri, Map<String,List<String>> requestHeaders)
 ```
 
@@ -70,7 +70,7 @@ put() 方法将所有适用的 Cookie 设置到 cookie 缓存中，例如，响�
 
 **语法:**
 
-```
+```java
 public void put(URI uri, Map<String,List<String>> responseHeaders)
 ```
 
@@ -80,7 +80,7 @@ public void put(URI uri, Map<String,List<String>> responseHeaders)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate getCookieStore()method of
 // java.net.CookieManager Class
 
@@ -157,7 +157,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Domain is: www.geeksforgeeks.org
 java.net.InMemoryCookieStore@4590c9c3
 ```

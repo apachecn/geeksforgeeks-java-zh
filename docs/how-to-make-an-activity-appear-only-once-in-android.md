@@ -28,7 +28,7 @@
 
 ## **activity_main.xml**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -68,7 +68,7 @@ activity_main.xml**
 
 ## **MainActivity.java**
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## **activity_secondary.xml**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -153,7 +153,7 @@ activity_secondary.xml**
 
 ## **SecondaryActivity.java**
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -173,7 +173,7 @@ public class SecondaryActivity extends AppCompatActivity {
 
 ## **AndroidManifest.xml**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="yourPackageName">

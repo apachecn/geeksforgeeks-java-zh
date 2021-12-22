@@ -5,7 +5,7 @@
 **ToString()**month day**类的**方法，用于将这个月日表示为类似–08-23 的字符串。输出格式为–MM-DD:
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.toString() method
 
@@ -37,7 +37,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 YearMonth: --10-12
 ```
 
@@ -45,7 +45,7 @@ YearMonth: --10-12
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.toString() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 YearMonth: --08-31
 ```
 

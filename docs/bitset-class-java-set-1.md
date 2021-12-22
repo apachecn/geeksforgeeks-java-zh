@@ -6,7 +6,7 @@
 
 **施工人员:**
 
-```
+```java
  BitSet class Constructors
     /                  \ 
  BitSet()          BitSet(int no_Of_Bits)
@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating Bitset Class constructors.
 import java.util.*;
 public class GFG
@@ -53,7 +53,7 @@ public class GFG
 
 输出:
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6}
 ```
@@ -73,7 +73,7 @@ bs2 : {1, 2, 3, 4, 5, 6}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating Exception when we access
 // out of index in BitSet class.
 import java.util.*;
@@ -106,7 +106,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.NegativeArraySizeException: nbits < 0: -1
     at java.util.BitSet.(BitSet.java:159)
     at GFG.main(NewClass.java:9)

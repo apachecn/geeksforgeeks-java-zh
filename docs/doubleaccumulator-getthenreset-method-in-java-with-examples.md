@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double getThenReset()
 
 ```
@@ -19,7 +19,7 @@ public double getThenReset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the getThenReset() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old value is: 52.0
 Current value is: 0.0
 
@@ -63,7 +63,7 @@ Current value is: 0.0
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the getThenReset() method import java.lang.*;
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old value is: 75.0
 Current value is: 0.0
 

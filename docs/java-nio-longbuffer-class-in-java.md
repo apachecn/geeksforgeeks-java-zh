@@ -19,7 +19,7 @@ LongBuffer 类的大多数方法都直接类似于 ByteBuffer 定义的方法。
 
 **语法:**类声明
 
-```
+```java
 public abstract class LongBuffer
 extends Buffer
 implements Comparable<LongBuffer>
@@ -72,7 +72,7 @@ implements Comparable<LongBuffer>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate LongBuffer class
 
 // Importing input output classes
@@ -158,7 +158,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original LongBuffer: [9, 8, 5, 0, 0]
 Long Value: 9
 Next Long Value: 8
@@ -168,7 +168,7 @@ Next Long Value: 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate LongBuffer class
 
 // Importing required libraries
@@ -205,6 +205,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 LongBuffer: [11, 0, 0, 0, 0, 22, 0, 0, 0, 0]
 ```

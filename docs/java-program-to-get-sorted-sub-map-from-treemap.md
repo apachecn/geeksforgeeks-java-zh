@@ -6,7 +6,7 @@ Java 中的树图是以键值和映射值对的映射方式存储元素的容器
 
 **树形图语法:**
 
-```
+```java
 TreeMap<Integer, String> tree_map= new TreeMap<Integer, String>();
 ```
 
@@ -14,19 +14,19 @@ TreeMap<Integer, String> tree_map= new TreeMap<Integer, String>();
 
 **情况 1:** 方法将包括开始键但不包括结束键
 
-```
+```java
 tree_map.submap(starting_key, ending_key);
 ```
 
 **情况 2:** 要包含两个键，用键传递真
 
-```
+```java
 tree_map.submap(starting_key, true, ending_key, true);
 ```
 
 **情况 3:** 要排除任何键，用键
 
-```
+```java
 tree_map.submap(starting_key, false, ending_key, true);
 ```
 
@@ -43,7 +43,7 @@ tree_map.submap(starting_key, false, ending_key, true);
 
 T5】JavaT7
 
-```
+```java
 // Java Program to  Get Sorted Sub-Map from TreeMap
 
 // Importing all classes of
@@ -83,7 +83,7 @@ T8T10**输出**T1
 
 ## 爪哇
 
-```
+```java
 // Java Program to  Get Sorted Sub-Map from TreeMap
 // using predefined functions
 
@@ -121,6 +121,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Elements:  {5=DoubleAlpha, 4=Theta, 3=Beta, 2=Gamma, 1=Alpha}
 ```

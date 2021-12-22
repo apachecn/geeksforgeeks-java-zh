@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=5DEHmN4PmA0
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG APP</string>
     <string name="toggle_flash">Toggle Flash</string>
@@ -67,7 +67,7 @@ https://www.youtube.com/watch?v=5DEHmN4PmA0
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gtappdevelopers.camviewlibrary">
@@ -102,7 +102,7 @@ https://www.youtube.com/watch?v=5DEHmN4PmA0
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -138,7 +138,7 @@ https://www.youtube.com/watch?v=5DEHmN4PmA0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.TextView;

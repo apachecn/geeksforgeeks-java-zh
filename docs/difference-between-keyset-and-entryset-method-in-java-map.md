@@ -10,7 +10,7 @@ java 中的 java.util.HashMap.keySet()方法用于创建一组包含在哈希映
 
 **语法:**
 
-```
+```java
 hash_map.keySet()
 ```
 
@@ -20,7 +20,7 @@ hash_map.keySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrating use of keySet()
 
 import java.util.HashMap;
@@ -67,7 +67,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 
 1 2 3 
 [1, 2, 3]
@@ -80,7 +80,7 @@ java 中的 java.util.HashMap.entrySet()方法用于创建一组包含在哈希�
 
 **语法:**
 
-```
+```java
 hash_map.entrySet()
 ```
 
@@ -90,7 +90,7 @@ hash_map.entrySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrating use of  entrySet()
 
 import java.util.HashMap;
@@ -138,7 +138,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1=Geeks
 2=For
 3=Geeks

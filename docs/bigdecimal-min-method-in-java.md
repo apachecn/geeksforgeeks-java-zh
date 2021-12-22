@@ -6,7 +6,7 @@ java 中的**Java . math . BigDecimal . min(BigDecimal val)**方法用于比较�
 
 **语法:**
 
-```
+```java
 public BigDecimal min(BigDecimal val)
 ```
 
@@ -16,7 +16,7 @@ public BigDecimal min(BigDecimal val)
 
 **例:**
 
-```
+```java
 Input :  a = 17.000041900, b = 17.0000418999
 Output : 17.0000418999
 
@@ -29,7 +29,7 @@ Output : 235900000146
 
 **程序 1:**
 
-```
+```java
 /*Java program to illustrate
 use of BigDecimal min() 
 function in Java      */
@@ -55,14 +55,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Minimum Value among 17.000041900 and 17.0000418999 is 17.0000418999
 
 ```
 
 **程序二:**
 
-```
+```java
 /*Java program to illustrate
 use of BigDecimal min() 
 to display minimum length
@@ -97,7 +97,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Length of string GeeksforGeeks is 13
 Length of string GeeksClasses is 12
 Minimum length is 12

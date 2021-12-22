@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final boolean contains(Object value)
 ```
 
 **语法:**
 
-```
+```java
 boolean result = TupleClassObject.contains(X value)
 ```
 
@@ -27,7 +27,7 @@ boolean result = TupleClassObject.contains(X value)
 
 **程序 1:** 使用包含()的单位类:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from contains() method
 
@@ -62,14 +62,14 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Is GeeksforGeeks present : true
 Is Geeks present : false
 ```
 
 **程序二:**使用包含()的带十年类:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from contains() method
 
@@ -117,7 +117,7 @@ T4】
 
 **输出:**
 
-```
+```java
 Is GeeksforGeeks present : true
 Is Geeks present : false
 ```

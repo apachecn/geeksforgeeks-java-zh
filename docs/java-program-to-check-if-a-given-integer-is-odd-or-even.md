@@ -4,12 +4,12 @@
 
 能被 2 整除并产生 0 的余数的数称为偶数。所有以 0、2、4、6 和 8 结尾的数字都是偶数。另一方面，不能被 2 整除并产生 1 的余数的数称为奇数。所有以 1、3、5、7 和 9 结尾的数字都是奇数。一定要参考下面的插图，通过任何随机整数的普通插图来了解这里应该传达的基本信息，检查它是偶数还是奇数。
 
-```
+```java
 Input : 13
 Output: ODD
 ```
 
-```
+```java
 Input : 24
 Output: EVEN
 ```
@@ -33,7 +33,7 @@ Output: EVEN
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check if Given Integer is Odd or Even
 // Using Brute Forcew Approach
 
@@ -70,7 +70,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Entered Number is Even
 ```
 
@@ -87,7 +87,7 @@ Entered Number is Even
 
 **图示:**按位“或”
 
-```
+```java
     Number = 12              1  1  0  0    - Representation of 12 in Binary Format
                 Bitwise OR   0  0  0  1    - Representation of  1 in Binary Format
 
@@ -95,7 +95,7 @@ Entered Number is Even
     Result- Number was even so bitwise Or by 1 increment the value by 1
 ```
 
-```
+```java
     Number = 15            1  1  1  1    - Representation of 15 in Binary Format
                Bitwise OR  0  0  0  1    - Representation of  1 in Binary Format
 
@@ -107,7 +107,7 @@ Entered Number is Even
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check if Given Integer is Odd or Even
 // Using Bitwise OR
 
@@ -142,7 +142,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Number is Even
 ```
 
@@ -152,7 +152,7 @@ Number is Even
 
 **图示:**按位“与”
 
-```
+```java
     Number = 5              0  1  0  1    - Representation of  5 in Binary Format
                Bitwise AND  0  0  0  1    - Representation of  1 in Binary Format
 
@@ -160,7 +160,7 @@ Number is Even
     Result- Number was odd so bitwise And by 1 is 1
 ```
 
-```
+```java
         Number = 8            1  0  0  0    - Representation of  8 in Binary Format
              Bitwise AND  0  0  0  1    - Representation of  1 in Binary Format
 
@@ -172,7 +172,7 @@ Number is Even
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check if Given Integer is Odd or Even
 // Using Bitwise AND
 
@@ -207,7 +207,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Number is Odd
 ```
 
@@ -217,7 +217,7 @@ Number is Odd
 
 **图示:**按位异或
 
-```
+```java
     Number = 5              0  1  0  1    - Representation of  5 in Binary Format
                Bitwise XOR  0  0  0  1    - Representation of  1 in Binary Format
 
@@ -225,7 +225,7 @@ Number is Odd
     Result- Number was odd so bitwise And by 1 decrement the value
 ```
 
-```
+```java
     Number = 8            1  0  0  0    - Representation of  8 in Binary Format
              Bitwise XOR  0  0  0  1    - Representation of  1 in Binary Format
 
@@ -237,7 +237,7 @@ Number is Odd
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check if Given Integer is Odd or Even
 // Using Bitwise XOR
 
@@ -273,7 +273,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Number is Odd
 ```
 
@@ -285,7 +285,7 @@ Number is Odd
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check if Given Integer is Odd or Even
 // by checking the LSB of the Number
 
@@ -336,7 +336,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 0 : Zero
 1 : Odd
 2 : Even

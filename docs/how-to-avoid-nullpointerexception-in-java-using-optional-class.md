@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```java
 // Java program to show NullPointerException
 
 public class Example {
@@ -40,7 +40,7 @@ public class Example {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at Example.main(Example.java:4)
 
@@ -58,7 +58,7 @@ Java 8 在 [java.util 包](https://www.geeksforgeeks.org/java-util-package-java/
 
     **语法:**
 
-    ```
+    ```java
     Optional is a generic type of type T.
 
     Optional<T>
@@ -67,7 +67,7 @@ Java 8 在 [java.util 包](https://www.geeksforgeeks.org/java-util-package-java/
 
     **使用可选类**纠正上述空指针异常的代码
 
-    ```
+    ```java
     // Java program to avoid NullPointerException
     // using Optional Class
 
@@ -104,7 +104,7 @@ Java 8 在 [java.util 包](https://www.geeksforgeeks.org/java-util-package-java/
 
     **Output:**
 
-    ```
+    ```java
     String value is not present
 
     ```
@@ -113,7 +113,7 @@ Java 8 在 [java.util 包](https://www.geeksforgeeks.org/java-util-package-java/
 
     **使用可选类处理空指针异常:**
 
-    ```
+    ```java
     // Java program to handle NullPointerException
     // using Optional Class
 
@@ -153,7 +153,7 @@ Java 8 在 [java.util 包](https://www.geeksforgeeks.org/java-util-package-java/
 
     **Output:**
 
-    ```
+    ```java
     GEEKSFORGEEKS
 
     ```

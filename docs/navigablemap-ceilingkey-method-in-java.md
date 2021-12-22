@@ -6,7 +6,7 @@ Java 中[导航映射接口的 ceilingKey()方法用于返回大于等于给定�
 
 **语法** :
 
-```
+```java
 K ceilingKey(K key)
 
 ```
@@ -21,7 +21,7 @@ K ceilingKey(K key)
 
 **程序 1** :按键为整数时。
 
-```
+```java
 // Java code to demonstrate the working of
 // ceilingKey()  method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The next greater key of 6 is : 7
 The next greater key of 3 is : 3
 
@@ -65,7 +65,7 @@ The next greater key of 3 is : 3
 
 **程序二**:钥匙串的时候。
 
-```
+```java
 // Java code to demonstrate the working of
 // ceilingKey()  method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The next greater key of five is : one
 The next greater key of six is : six
 

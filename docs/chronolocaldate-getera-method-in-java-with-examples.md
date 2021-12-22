@@ -6,7 +6,7 @@ Java 中**ChronalDate**接口的 **getEra()** 方法得到该日期适用的纪�
 
 **语法** :
 
-```
+```java
 public Era getEra()
 
 ```
@@ -19,7 +19,7 @@ public Era getEra()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getEra() method
 
 import java.util.*;
@@ -41,14 +41,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 CE
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the getEra() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 CE
 
 ```

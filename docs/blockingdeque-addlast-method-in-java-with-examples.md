@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void addLast(E e)
 ```
 
@@ -25,7 +25,7 @@ public void addLast(E e)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate addLast()
 // method of BlockingDeque
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 
 ```
 
 **节目 2:**
 
-```
+```java
 // Java Program Demonstrate addLast()
 // method of BlockingDeque
 // when it is Full
@@ -97,7 +97,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.IllegalStateException: Deque full
     at java.util.concurrent.LinkedBlockingDeque.addLast(LinkedBlockingDeque.java:335)
     at GFG.main(GFG.java:25)
@@ -106,7 +106,7 @@ Exception in thread "main" java.lang.IllegalStateException: Deque full
 
 **节目 3:**
 
-```
+```java
 // Java Program Demonstrate addLast()
 // method of BlockingDeque
 // when nill is inserted
@@ -140,7 +140,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at java.util.concurrent.LinkedBlockingDeque.offerLast(LinkedBlockingDeque.java:357)
     at java.util.concurrent.LinkedBlockingDeque.addLast(LinkedBlockingDeque.java:334)

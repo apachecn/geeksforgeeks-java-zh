@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: N = 2
 Output: 1
 
@@ -20,7 +20,7 @@ Output: 10
 *   [Java 中的 Math 类(java.lang.Math)](https://www.geeksforgeeks.org/java-lang-math-class-in-java-set-1/) 是一个保存计算此类值的函数的库，如 [sin()](https://www.geeksforgeeks.org/java-math-sin-method-examples/) 、 [cos()](https://www.geeksforgeeks.org/java-math-cos-method-examples/) 、 [log()](https://www.geeksforgeeks.org/java-math-log-method-example/) 等。但是数学课中的 [log()方法计算的是基数为 10 的对数。因此，在 Java 中没有直接的方法来计算到 base 2 的日志。](https://www.geeksforgeeks.org/java-math-log-method-example/)
 *   但是我们知道
 
-    ```
+    ```java
     loga b = log10 b / log10 a
     ```
 
@@ -29,7 +29,7 @@ Output: 10
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java code to Calculate log base 2 of an integer
 
     import java.io.*;
@@ -64,7 +64,7 @@ Output: 10
 
     **Output:**
 
-    ```
+    ```java
     Log 1024 to the base 2 = 10
 
     ```

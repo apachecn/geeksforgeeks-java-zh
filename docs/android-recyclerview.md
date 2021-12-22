@@ -14,7 +14,7 @@ RecyclerView 是作为 GridView 和 ListView 的继承者添加到 android studi
 
 ## 考试卡. xml
 
-```
+```java
 <!-- XML Code illustrating card layout usage. -->
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
@@ -95,7 +95,7 @@ RecyclerView 是作为 GridView 和 ListView 的继承者添加到 android studi
 
 ## examViewHolder.java
 
-```
+```java
 // ViewHolder code for RecyclerView
 package com.example.admin.example;
 
@@ -129,7 +129,7 @@ public class examViewHolder
 
 ## examData.java
 
-```
+```java
 package com.prodigieux.admin.prodigieux;
 
 public class examData {
@@ -152,7 +152,7 @@ public class examData {
 
 要点击回收视图的项目，请在适配器的构造函数中传递点击接口的实例
 
-```
+```java
 public class ClickListiner{
 
 // here index is index
@@ -173,7 +173,7 @@ public click(int index);
 
 *imagegallery adapter 2 . Java*
 
-```
+```java
 private class ImageGalleryAdapter2
     extends RecyclerView.Adapter<examViewHolder> {
 
@@ -255,7 +255,7 @@ private class ImageGalleryAdapter2
 
 ## exam.java
 
-```
+```java
 package com.example.admin.example;
 
 import android.content.Context;
@@ -344,7 +344,7 @@ public class exam extends AppCompatActivity
 
 ## activity_exam.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView 
     xmlns:android="http://schemas.android.com/apk/res/android" 

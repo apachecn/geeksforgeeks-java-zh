@@ -10,7 +10,7 @@ Java 中 **[CharArrayReader](https://www.geeksforgeeks.org/java-io-chararrayread
 
 **语法:**
 
-```
+```java
 public int read(char[] charArray)
 ```
 
@@ -24,7 +24,7 @@ public int read(char[] charArray)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CharArrayReader read(char[]) method
 
@@ -71,14 +71,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [G, e, e, k, s]
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // CharArrayReader read(char[]) method
 
@@ -126,7 +126,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
 ```

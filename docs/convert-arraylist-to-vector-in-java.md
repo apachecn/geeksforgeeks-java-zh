@@ -12,7 +12,7 @@
 
 **向量(** [集合](https://www.geeksforgeeks.org/collection-interface-in-java-with-examples/) **c):** 创建包含集合 c 元素的向量
 
-```
+```java
 *Vector<E> v = new Vector<E>(Collection c);*
 ```
 
@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert ArrayList to Vector
 
 import java.util.ArrayList;
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
  ArrayList : [10, 20, 30, 40, 50]
  Vector : [10, 20, 30, 40, 50]
 ```
@@ -73,7 +73,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert ArrayList to Vector
 
 import java.util.Vector;
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
  ArrayList :  [A, B, C, D, E]
 
  vector : [A, B, C, D, E]
@@ -130,7 +130,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 boolean addAll(Collection C)
 ```
 
@@ -142,7 +142,7 @@ boolean addAll(Collection C)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert ArrayList to Vector
 
 import java.io.*;
@@ -170,6 +170,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Vector contains: [Geeks, for, Geeks]
 ```

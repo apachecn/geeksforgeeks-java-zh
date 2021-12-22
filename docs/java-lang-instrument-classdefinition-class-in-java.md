@@ -6,7 +6,7 @@
 
 **类申报:**
 
-```
+```java
 public final class ClassDefinition
 extends Object
 ```
@@ -36,7 +36,7 @@ extends Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create new ClassDefinition object
 import java.lang.instrument.ClassDefinition;
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ClassDefinition object successfully created
 ```
 
@@ -83,7 +83,7 @@ ClassDefinition object successfully created
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate ClassDefinition class methods
 import java.lang.instrument.ClassDefinition;
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 class GFG$demoClass
 [B@448139f0
 ```

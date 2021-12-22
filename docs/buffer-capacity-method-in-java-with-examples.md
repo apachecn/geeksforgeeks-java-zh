@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int capacity()
 ```
 
@@ -16,7 +16,7 @@ public final int capacity()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // capacity() method
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 capacity is: 7
 
 ```
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // capacity() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 capacity is: 5
 
 ```

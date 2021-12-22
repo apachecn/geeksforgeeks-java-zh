@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: 1
 Output: "1"
 
@@ -22,7 +22,7 @@ Output: "3"
 
 **例 1:**
 
-```
+```java
 // Java Program to convert
 // byte value to String value
 
@@ -66,7 +66,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into string = 1
 
 ```
@@ -76,7 +76,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 String.valueOf(byteValue);
 
 ```
@@ -85,7 +85,7 @@ String.valueOf(byteValue);
 
 **例 1:**
 
-```
+```java
 // Java Program to convert
 // byte value to String value
 
@@ -127,7 +127,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into string = 1
 
 ```

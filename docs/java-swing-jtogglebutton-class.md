@@ -34,7 +34,7 @@ JToggleButton 是一个双态按钮。这两种状态被选中和取消选中。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.awt.BorderLayout;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
@@ -96,7 +96,7 @@ public class JToggleButtonExamp {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Instant truncatedTo(TemporalUnit unit)
 
 ```
@@ -24,7 +24,7 @@ public Instant truncatedTo(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.truncatedTo() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant before truncate: 2018-12-30T09:24:54.630Z
 Instant after  truncate: 2018-12-30T09:00:00Z
 
@@ -68,7 +68,7 @@ Instant after  truncate: 2018-12-30T09:00:00Z
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.truncatedTo() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant before truncate: 2018-12-30T09:24:54.630Z
 Instant after  truncate: 2018-12-30T00:00:00Z
 
@@ -112,7 +112,7 @@ Instant after  truncate: 2018-12-30T00:00:00Z
 
 **程序 3:** 显示异常:
 
-```
+```java
 // Java program to demonstrate
 // Instant.truncatedTo() method
 
@@ -141,7 +141,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception:
  java.time.temporal.UnsupportedTemporalTypeException:
  Unit is too large to be used for truncation

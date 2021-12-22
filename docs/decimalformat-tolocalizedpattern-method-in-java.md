@@ -6,7 +6,7 @@ Java 中的**十进制格式**类的**ToLocalizedPatten()**方法用于将该十
 
 **语法** :
 
-```
+```java
 public String toLocalizedPattern()
 
 ```
@@ -19,7 +19,7 @@ public String toLocalizedPattern()
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // toLocalizedPattern() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 #, ##0.###
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // toLocalizedPattern() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 #, #0.## ;#, #0.##
 
 ```

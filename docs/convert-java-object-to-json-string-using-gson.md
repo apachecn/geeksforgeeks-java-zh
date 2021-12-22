@@ -17,7 +17,7 @@
 
 1.  **Add jar files of Jackson (in case of Maven project add Gson dependencies in the pom.xml file)**
 
-    ```
+    ```java
     <dependency>
            <groupId>com.google.code.gson</groupId>
            <artifactId>gson</artifactId>
@@ -30,7 +30,7 @@
 
 2.  **Create a POJO (Plain Old Java Object) to be converted into JSON**
 
-    ```
+    ```java
     package GeeksforGeeks.Geeks;
 
     public class Organisation {
@@ -88,7 +88,7 @@
 
 3.  **Create a Java class for converting the Organisation object into JSON.**
 
-    ```
+    ```java
     package GeeksforGeeks.Geeks;
 
     import com.google.gson.Gson;
@@ -133,7 +133,7 @@
 4.  **执行流程**
 5.  **输出 Json**
 
-    ```
+    ```java
     Output
     {
       "organisation_name" : "GeeksforGeeks",

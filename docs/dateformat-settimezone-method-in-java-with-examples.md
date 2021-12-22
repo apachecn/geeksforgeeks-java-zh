@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setTimeZone(TimeZone *time_zone*)
 ```
 
@@ -17,7 +17,7 @@ public void setTimeZone(TimeZone *time_zone*)
  ****下面的程序说明了 DateFormat 类的 setTimeZone()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // getTimeZone() method
 
@@ -57,7 +57,7 @@ public class DateFormat_Demo {
 
 **输出:**
 
-```
+```java
 The original timezone is: Coordinated Universal Time
 New TimeZone is: Greenwich Mean Time
 
@@ -65,7 +65,7 @@ New TimeZone is: Greenwich Mean Time
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getTimeZone() method
 
@@ -105,7 +105,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The original timezone is: Coordinated Universal Time
 New TimeZone is: Tahiti Time
 

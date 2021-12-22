@@ -16,17 +16,17 @@ Swing 是 Java 的 **GUI 小部件工具包**。它是一个为 Java 程序提�
 
 我们可以使用 UIManager 直接从类路径加载 L&F 类。代码是这样的:
 
-```
+```java
 UIManager.setLookAndFeel("fully qualified name of look and feel");
 ```
 
 例如，以下代码将应用程序外观更改为 Motif 外观:
 
-```
+```java
 UIManager.setLookAndFeel ("com.sun.java.swing.plaf.motif.MotifLookAndFeel");
 ```
 
-```
+```java
 // Java sample code to get the list of
 // installed Look and Feel themes, here is a sample code:
 import javax.swing.UIManager;
@@ -47,7 +47,7 @@ public class MainClass {    public static void main(String[] a)
 
 1.  **CrossPlatformLookAndFeel:**
 
-    ```
+    ```java
     // Java program to illustrate
     // CrossPlatformLookAndFeel
     import java.awt.*;
@@ -136,13 +136,13 @@ public class MainClass {    public static void main(String[] a)
     还可以使用 Look And Feel 的实际类名作为 UIManager.setLookAndFeel()的参数。例如:
     //设置跨平台 Java L & F(也叫“金属”)
 
-    ```
+    ```java
     UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
     ```
 
 2.  **MotifLookAndFeel:** Just change Line number 14 and 79 to:
 
-    ```
+    ```java
      Line 14: f=new JFrame("Motif Look and Feel");
     Line 79: UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel");
     ```
@@ -151,7 +151,7 @@ public class MainClass {    public static void main(String[] a)
 
 3.  **SystemLookAndFeel:** Change Line number 14 and 79 to:
 
-    ```
+    ```java
     Line 14: f=new JFrame("System Look and Feel");
     Line 79: UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
     ```
@@ -160,7 +160,7 @@ public class MainClass {    public static void main(String[] a)
 
 4.  **WindowsClassicLookAndFeel:** Change Line number 14 and 79 to:
 
-    ```
+    ```java
     Line 14: f=new JFrame("WindowsClassic Look and Feel");
     Line 79: UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
     ```
@@ -169,7 +169,7 @@ public class MainClass {    public static void main(String[] a)
 
 5.  **NimbusLookAndFeel:** Change Line number 14 and 79 to:
 
-    ```
+    ```java
     Line 14: f=new JFrame("Nimbus Look and Feel");
     Line 79: UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
     ```
@@ -181,7 +181,7 @@ public class MainClass {    public static void main(String[] a)
 您可以通过在命令行使用-D 标志来设置 *swing.defaultlaf* 属性来指定外观和感觉。示例–
 我们将运行上述代码，但不包括第 76 行，并执行以下命令:
 
-```
+```java
 java -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel Awt
 ```
 
@@ -191,7 +191,7 @@ java -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel Awt
 
 在这里我们将编辑 swing.properties 文件来设置 *swing.defaultlaf* 属性。该文件位于 lib 目录中。这里有一个例子-
 
-```
+```java
 swing.defaultlaf=com.sun.java.swing.plaf.windows.WindowsLookAndFeel
 ```
 

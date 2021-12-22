@@ -8,7 +8,7 @@ Java 中**数据输入流**类的 **read()** 方法有两种类型:
 
     **语法:**
 
-    ```
+    ```java
     public final int read(byte[] b)
                    throws IOException
 
@@ -29,7 +29,7 @@ Java 中**数据输入流**类的 **read()** 方法有两种类型:
 
     **程序:**假设存在文件“c:/demo.txt”。
 
-    ```
+    ```java
     // Java program to illustrate
     // DataInputStream read(byte[]) method
     import java.io.*;
@@ -78,7 +78,7 @@ Java 中**数据输入流**类的 **read()** 方法有两种类型:
 
     **语法:**
 
-    ```
+    ```java
     public final int read(byte[] b,
                           int offset,
                           int length)
@@ -106,7 +106,7 @@ Java 中**数据输入流**类的 **read()** 方法有两种类型:
 
     **程序:**假设存在文件“c:/demo.txt”。
 
-    ```
+    ```java
     // Java program to illustrate
     // DataInputStream read(byte[], int, int) method
     import java.io.*;

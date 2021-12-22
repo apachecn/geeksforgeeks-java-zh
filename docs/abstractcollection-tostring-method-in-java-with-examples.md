@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Object.toString();
 ```
 
@@ -20,7 +20,7 @@ Object.toString();
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // Abstract Collection toString() method
 
@@ -49,14 +49,14 @@ public class collection {
 
 **输出:**
 
-```
+```java
 [For, Geeks, To, Welcome, Geeks]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // Abstract Collection toString() method
 
@@ -84,7 +84,7 @@ public class collection {
 
 **输出:**
 
-```
+```java
 [10, 20, 30, 40]
 
 ```

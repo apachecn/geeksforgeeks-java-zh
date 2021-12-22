@@ -8,7 +8,7 @@ LongStream parallel()是一个**中间操作**。这些操作总是偷懒。中�
 
 **语法:**
 
-```
+```java
 LongStream parallel()
 
 Where, LongStream is a sequence of 
@@ -20,7 +20,7 @@ returns a parallel LongStream.
 下面给出了一些例子来更好地理解这个函数。
 **例 1 :**
 
-```
+```java
 // Java program to demonstrate working of
 // LongStream parallel() on a given range
 import java.util.*;
@@ -43,7 +43,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The corresponding parallel LongStream is :
 9
 8
@@ -57,7 +57,7 @@ The corresponding parallel LongStream is :
 
 **例 2 :**
 
-```
+```java
 // Printing sequential stream for the
 // same input as above example 1.
 import java.util.*;
@@ -79,7 +79,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The corresponding sequential LongStream is :
 5
 6
@@ -93,7 +93,7 @@ The corresponding sequential LongStream is :
 
 **例 3 :**
 
-```
+```java
 // Java program to show sorted output
 // of parallel stream.
 import java.util.*;
@@ -117,7 +117,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The sorted parallel LongStream is :
 4
 2

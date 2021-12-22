@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean
        compareAndExchangeRelease(
            int i, E expectedValue, E newValue)
@@ -24,7 +24,7 @@ public final boolean
 下面的程序说明了 compareAndExchangeRelease()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // compareAndExchangeRelease() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // compareAndExchangeRelease() method
 

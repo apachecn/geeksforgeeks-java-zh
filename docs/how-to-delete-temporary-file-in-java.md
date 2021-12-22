@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Create temp file
 
 import java.io.File;
@@ -39,7 +39,7 @@ public class tempFile {
 
 **输出:**
 
-```
+```java
 Temporary file has been created in the specified path
 ```
 
@@ -53,7 +53,7 @@ Temporary file has been created in the specified path
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Delete File when JVM Exists
 
 import java.io.File;
@@ -84,7 +84,7 @@ public class tempFile {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Delete file using delete() method
 
 import java.io.File;

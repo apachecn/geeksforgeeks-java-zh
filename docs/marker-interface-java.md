@@ -4,7 +4,7 @@
 
 它是一个空接口(没有字段或方法)。标记接口的例子有可序列化、可克隆和远程接口。所有这些接口都是空接口。
 
-```
+```java
 public interface Serializable 
 {
   // nothing here
@@ -19,7 +19,7 @@ public interface Serializable
 
     ## 爪哇语言（一种计算机语言,尤用于创建网站)
 
-    ```
+    ```java
     // Java program to illustrate Cloneable interface
     import java.lang.Cloneable;
 
@@ -70,7 +70,7 @@ public interface Serializable
 
     输出:
 
-    ```
+    ```java
     20
     GeeksForGeeks
     ```
@@ -80,7 +80,7 @@ public interface Serializable
 
     ## Java 语言（一种计算机语言,尤用于创建网站)
 
-    ```
+    ```java
     // Java program to illustrate Serializable interface
     import java.io.*;
 
@@ -128,7 +128,7 @@ public interface Serializable
 
     输出:
 
-    ```
+    ```java
     20 GeeksForGeeks
     ```
 

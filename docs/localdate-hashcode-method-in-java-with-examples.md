@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 hashCode()方法获取年份字段。
 
 **语法** :
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the hashCode() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 4133595
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the hashCode() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 4127511
 
 ```

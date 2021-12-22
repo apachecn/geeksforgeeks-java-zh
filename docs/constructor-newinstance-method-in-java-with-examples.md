@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public T newInstance(Object... initargs)
   throws InstantiationException, IllegalAccessException,
          IllegalArgumentException, InvocationTargetException
@@ -30,7 +30,7 @@ public T newInstance(Object... initargs)
 下面的程序说明了 newInstance()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.newInstance() method
 
@@ -72,7 +72,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 New Instance is created
 New Instance
 
@@ -80,7 +80,7 @@ New Instance
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.newInstance() method
 
@@ -132,7 +132,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 New Field
 
 ```

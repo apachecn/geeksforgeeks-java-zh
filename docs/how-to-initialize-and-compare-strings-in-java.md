@@ -17,7 +17,7 @@
 
 插图:
 
-```
+```java
 String str = "GeeksForGeeks"; 
 
 str = "geeks"; // This statement will make str 
@@ -30,13 +30,13 @@ str = "geeks"; // This statement will make str
 
 来自左翼媒体
 
-```
+```java
 String str = "GeeksForGeeks"; 
 ```
 
 从上面的正确媒体
 
-```
+```java
 str = "geeks"; 
 ```
 
@@ -48,7 +48,7 @@ str = "geeks"; 
 
 插图:
 
-```
+```java
 String str = new String("very");
 str = "good";     
 ```
@@ -57,13 +57,13 @@ str = "good";
 
 在下面媒体的左边
 
-```
+```java
 String str = new String("very"); 
 ```
 
 在右下方的媒体中如下所示:
 
-```
+```java
 str = "good" 
 ```
 
@@ -90,7 +90,7 @@ str = "good" 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Comparison of Two Strings
 
 // Main class
@@ -144,7 +144,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
  Comparing strings with equals:
 true
 true

@@ -8,7 +8,7 @@ Bitap 算法也被称为**移位或、移位和**，或巴埃萨·耶茨·贡内
 
 **示例:**
 
-```
+```java
 Input:
 Text: geeksforgeeks
 Pattern: geeks
@@ -40,7 +40,7 @@ No Match.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement Bitap Algorithm.
 
 import java.io.*;
@@ -193,7 +193,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Bitap Algorithm!
 
 Pattern found at index: 

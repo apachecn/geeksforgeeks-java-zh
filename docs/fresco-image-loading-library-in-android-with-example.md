@@ -56,7 +56,7 @@ Fresco 是 Android 中著名的从 URL 加载图像的库之一。这是一个�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gtappdevelopers.frescoimageloading">
@@ -91,7 +91,7 @@ Fresco 是 Android 中著名的从 URL 加载图像的库之一。这是一个�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -126,7 +126,7 @@ Fresco 是 Android 中著名的从 URL 加载图像的库之一。这是一个�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.net.Uri;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;

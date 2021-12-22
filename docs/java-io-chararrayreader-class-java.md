@@ -8,7 +8,7 @@
 
 **申报:**
 
-```
+```java
 public class CharArrayReader
    extends Reader
 ```
@@ -23,7 +23,7 @@ public class CharArrayReader
 *   **read():Java . io . chararrayreader . read()**读取单个字符，如果到达 Stream 的末尾，则返回-1。
     **语法:**
 
-```
+```java
 public int read()
 Parameters : 
 -----------
@@ -35,7 +35,7 @@ Returns read character as an integer ranging from range 0 to 65535.
 *   **read(char【】char _ array，int offset，int maxlen):Java . io . chararrayreader . read(char【】char _ array，int offset，int maxlen))** 读取单个字符，如果到达 Stream 的末尾则返回-1
     **语法:**
 
-```
+```java
 public int read(char[] char_array, int offset, int maxlen))
 Parameters : 
 char_array : destination array  
@@ -50,7 +50,7 @@ Returns all the characters read
     字符阅读器总是准备好被阅读。
     **语法:**
 
-```
+```java
 public boolean ready()
 Parameters : 
 -----------
@@ -61,7 +61,7 @@ true if CharArrayReader is ready to be read.
 *   **跳过(长字符):java.io.CharArrayReader.skip(长字符 _no)** 跳过‘char _ no’个字符。如果 n 是负的，那么这个方法什么也不做，返回 0。
     **语法:**
 
-```
+```java
 public long skip(long char)
 Parameters : 
 char_no : char no. of characters to be skipped
@@ -73,7 +73,7 @@ IOException : In case of I/O error occurs
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of CharArrayReader class methods
 // read(), skip(), ready()
 // read(char[] char_array, int offset, int maxlen)
@@ -139,7 +139,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 char_array1 is ready
 Use of read() method : G
 Characters Skipped : 72
@@ -155,7 +155,7 @@ Use of read(char[] char_array, int offset, int maxlen) method : EKS
 *   **标记(int read limit):Java . io . chararrayreader . mark(int read limit)**标记当前在 Stream 中可以读取字符的位置。此方法总是调用 reset()方法。对 reset()的后续调用会将流重新定位到这一点。
     **语法:**
 
-```
+```java
 public long mark(int readLimit)
 Parameters : 
 readLimit : No. of characters that can be read up to the mark
@@ -168,7 +168,7 @@ IOException : In case of I/O error occurs
 *   **markSupported():Java . io . chararrayreader . markSupported()**告知流是否支持 mark 方法。
     **语法:**
 
-```
+```java
 public boolean markSupported()
 Parameters : 
 -------
@@ -181,7 +181,7 @@ IOException : In case of I/O error occurs
 *   **reset():Java . io . chararrayreader . reset()**将流重置为最近的标记，如果从未标记过，则重置为开头。
     **语法:**
 
-```
+```java
 public void reset()
 Parameters : 
 -------
@@ -194,7 +194,7 @@ IOException : In case of I/O error occurs
 *   **close():Java . io . chararrayreader . close()**关闭流并重新分配分配给它的资源。
     **语法:**
 
-```
+```java
 public void close()
 Parameters : 
 -------
@@ -206,7 +206,7 @@ IOException : In case of I/O error occurs
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of FilterInputStream method
 // mark(), reset()
 // markSupported(), close()
@@ -274,7 +274,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Char : H
 Char : E
 Char : L

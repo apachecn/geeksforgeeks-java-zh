@@ -6,7 +6,7 @@ Java . lang . integer . to exstring()是 Java 中的内置函数，它将整数�
 
 **语法:**
 
-```
+```java
 public static String toHexString(int num)
 
 Parameter : The function accepts a single mandatory parameter
@@ -18,7 +18,7 @@ to a Hexadecimal string. The data-type is int.
 
 示例:
 
-```
+```java
 Input : 11
 Output : b
 
@@ -29,7 +29,7 @@ Output : c
 
 **程序 1:** 下面的程序演示了功能的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.toHexString() method
 import java.lang.Math;
@@ -54,7 +54,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Hex string is ea
 Hex string is b
 
@@ -62,7 +62,7 @@ Hex string is b
 
 **程序二**:下面的程序演示了负数通过时的工作功能。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Integer.toHexString() method
 // negative number
@@ -82,7 +82,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Hex is fffffff6
 
 ```
@@ -91,7 +91,7 @@ Hex is fffffff6
 
 **程序 3:** 下面的程序演示了当一个字符串数字被传递时的工作函数。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Integer.toHexString() method
 // string number
@@ -111,14 +111,14 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 prog.java:13: error: incompatible types: String cannot be converted to int
     System.out.println("Hex is " + Integer.toHexString("12")); 
 ```
 
 **程序 4:** 下面的程序演示了传递小数时的工作功能。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Integer.toHexString() method
 // decimal
@@ -138,7 +138,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 prog.java:13: error: incompatible types: possible lossy conversion from double to int
     System.out.println("Hex is " + Integer.toHexString(12.34)); 
 ```

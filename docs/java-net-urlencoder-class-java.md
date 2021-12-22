@@ -11,13 +11,13 @@
 
 例如，如果我们有包含特殊字符和空格的参数值
 
-```
+```java
 u@geeks for geeks
 ```
 
 如果使用的编码是最常用的 UTF-8，则@符号将转换为%40，空格将转换为+符号，我们的编码字符串看起来像-
 
-```
+```java
 u%40geeks+for+geeks
 ```
 
@@ -25,14 +25,14 @@ u%40geeks+for+geeks
 
 1.  **encode() :** 这是这个类提供的唯一一个方法。顾名思义，它返回指定字符串的编码字符串。一种方法(现在已被否决)只有一个参数，即要编码的字符串。它不允许您指定要使用的编码，而是使用平台默认编码。另一个版本允许使用编码规范，因此被广泛使用。
 
-    ```
+    ```java
     Syntax :public static String encode(String s) - @Deprecated
     Parameters :
     s : String to be encoded
 
     ```
 
-    ```
+    ```java
     Syntax :public static String encode(String s,
                 String enc)
                          throws UnsupportedEncodingException
@@ -46,7 +46,7 @@ u%40geeks+for+geeks
 
 **Java 实现:**
 
-```
+```java
 // Java program to show encode() method of 
 // URLEncoder class
 import java.io.UnsupportedEncodingException;
@@ -80,7 +80,7 @@ public class UrlEncoder 
 
 **输出:**
 
-```
+```java
 URL without encoding :
 https://www.geeksforgeeks.org/?q=u@geeks for geeks
 URL after encoding :

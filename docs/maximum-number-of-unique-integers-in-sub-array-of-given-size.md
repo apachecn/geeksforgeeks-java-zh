@@ -31,7 +31,7 @@
 
 ## C++
 
-```
+```java
 // A C++ programme to find maximum distinct elements
 // in a subarray of size k
 #include<bits/stdc++.h>
@@ -73,7 +73,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find maximum number of
 // Unique integers in Sub-Array
 // of given size
@@ -128,7 +128,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # A python3 programme to find maximum
 # distinct elements in a subarray of size k
 
@@ -170,7 +170,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```java
 // C# Program to find maximum number of
 // Unique integers in Sub-Array
 // of given size
@@ -230,7 +230,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // JavaScript Program to find maximum number of
@@ -281,7 +281,7 @@ document.write(maxUniqueNum(arr, N, M));
 
 **Output:** 
 
-```
+```java
 3
 ```
 
@@ -296,7 +296,7 @@ T3】辅助空间: O(M)
 
 ## C++
 
-```
+```java
 // An efficient Approach to count distinct elements in
 // every window of size k
 #include<bits/stdc++.h>
@@ -376,7 +376,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An efficient Java program to count distinct elements in
 // every window of size k
 import java.util.HashMap;
@@ -454,7 +454,7 @@ class maxUniqueNumWindow {
 
 ## 蟒蛇 3
 
-```
+```java
 # An efficient Approach to count distinct elements in
 # every window of size k
 # Function to find maximum unique element in
@@ -528,7 +528,7 @@ print(max_U_element(arr, N, M))
 
 ## C#
 
-```
+```java
 // An efficient C# program to
 // count distinct elements in
 // every window of size k
@@ -620,7 +620,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // An efficient JavaScript program to
@@ -699,7 +699,7 @@ document.write(maxUniqueNum(arr, M));
 
 **Output:** 
 
-```
+```java
 4
 ```
 

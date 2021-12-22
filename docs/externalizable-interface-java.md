@@ -5,7 +5,7 @@
 外部化服务于自定义序列化的目的，在这里我们可以决定在流中存储什么。
 Java . io 中存在的可外化接口，用于扩展 Serializable 接口的外化。它由两种方法组成，我们必须覆盖这两种方法才能将对象写入流或从流中读取对象，这两种方法是-
 
-```
+```java
 // to read object from stream
 void readExternal(ObjectInput in) 
 
@@ -27,7 +27,7 @@ void writeExternal(ObjectOutput out)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Externalization
 // interface
 import java.io.*;
@@ -113,7 +113,7 @@ public class ExternExample {
 
 **输出:**
 
-```
+```java
 Default Constructor called
 The original car is:
 Name: Shubham

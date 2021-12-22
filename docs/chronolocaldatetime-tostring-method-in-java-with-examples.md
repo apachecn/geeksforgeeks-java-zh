@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 String toString()
 
 ```
@@ -19,7 +19,7 @@ String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.toString() method
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime: 2019-12-31T19:15:30
 String: 2019-12-31T19:15:30
 
@@ -56,7 +56,7 @@ String: 2019-12-31T19:15:30
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.toString() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime: 2018-10-25T23:12:31.123
 String: 2018-10-25T23:12:31.123
 

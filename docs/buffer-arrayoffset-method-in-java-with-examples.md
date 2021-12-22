@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int arrayOffset()
 ```
 
@@ -22,7 +22,7 @@ public abstract int arrayOffset()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // arrayOffset() method
 
@@ -76,14 +76,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 arrayOffset is : 0
 
 ```
 
 **例 2:** 为 readonly buffer exception
 
-```
+```java
 // Java program to demonstrate
 // arrayOffset() method
 
@@ -142,7 +142,7 @@ public class GFG {
 
 T5】输出:
 
-```
+```java
 buffer is backed by an array but is read-only
 Exception throws: java.nio.ReadOnlyBufferException
 

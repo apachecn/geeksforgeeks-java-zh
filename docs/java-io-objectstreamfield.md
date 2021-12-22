@@ -6,7 +6,7 @@
 
 【Java IO 对象流字段的类声明如下–
 
-```
+```java
 1\. public class ObjectStreamField extends Object       // extends Keyword is used  
 
 2\. public class ObjectStreamField implements Comparable<Object>   // implements Keyword is used
@@ -52,7 +52,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the working
 // of the Java IO ObjectStreamField class
 import java.io.ObjectStreamClass;  
@@ -81,7 +81,7 @@ public class ObjectStreamClassExample
 
 #### 输出–
 
-```
+```java
 I value
 Z isTimeSet
 ```
@@ -92,7 +92,7 @@ Z isTimeSet
 
 ## Java
 
-```
+```java
 // Java program to illustrate the working of the
 // Java IO ObjectStreamField(compareTo(Object obj)) class
 import java.io.*;
@@ -124,6 +124,6 @@ public class ObjectStreamField_ShowDemo {
 
 #### 输出:
 
-```
+```java
 0
 ```

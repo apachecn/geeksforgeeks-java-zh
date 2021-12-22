@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final float maxCharsPerByte()
 ```
 
@@ -18,7 +18,7 @@ public final float maxCharsPerByte()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The maxCharsPerByte for ISO-2022-CN is 1.0
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The maxCharsPerByte for ISO-2022-CN is 1.0
 
 ```

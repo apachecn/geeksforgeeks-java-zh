@@ -11,7 +11,7 @@
 
 **如何跑:**
 
-```
+```java
 1\. Save the file as analogClock.java 
    and run the following commands.
 2\. javac analogClock.java
@@ -23,7 +23,7 @@
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // analog clock using Applets
 

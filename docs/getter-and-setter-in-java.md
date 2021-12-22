@@ -10,7 +10,7 @@ Getter 和 Setter 是用于保护数据和使代码更加安全的方法。Gette
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate Getter and Setter
 
 // Importing input output classes
@@ -55,7 +55,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Geeks for Geeks
 
 ```

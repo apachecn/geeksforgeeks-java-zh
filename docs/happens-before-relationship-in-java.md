@@ -34,7 +34,7 @@ Java 内存模型
 
 在编译或处理过程中，编译器或中央处理器可能会对指令重新排序以并行运行它们，从而提高吞吐量和性能。例如，我们有 3 个指令:
 
-```
+```java
 FullName = FirstName + LastName        // Statement 1
 UniqueId = FullName + TokenNo         // Statement 2
 
@@ -43,7 +43,7 @@ Age = CurrentYear - BirthYear        // Statement 3
 
 编译器不能并行运行 1 和 2，因为 2 需要 1 的输出，但是 1 和 3 可以并行运行，因为它们彼此独立。因此，编译器或中央处理器可以这样重新排序这些指令:
 
-```
+```java
 FullName = FirstName + LastName      // Statement 1
 Age = CurrentYear - BirthYear       // Statement 3
 
@@ -58,7 +58,7 @@ UniqueId = FullName + TokenNo        // Statement 2
 
 对于声明为易失性的字段/变量，
 
-```
+```java
 private volatile count;
 ```
 
@@ -87,7 +87,7 @@ private volatile count;
 
 插图:
 
-```
+```java
 // Sample class
 class ClassRoom {
 
@@ -141,7 +141,7 @@ class ClassRoom {
 
 如果我们关注 submitAssignment()方法，语句 1、2 和 3 是相互独立的，因为没有语句使用另一个语句，因此您的 CPU 可能会想“为什么不重新排序它们？”无论出于什么原因，它都可以提供更好的性能。因此，让我们假设 CPU 以这种方式重新排序了三个语句:
 
-```
+```java
 this.newAssignment = true; // 3
 this.assgn = assgn;   // 1
 this.numOfAssgnSubmitted++; // 2

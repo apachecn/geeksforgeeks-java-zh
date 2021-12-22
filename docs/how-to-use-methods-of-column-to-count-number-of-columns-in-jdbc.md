@@ -36,13 +36,13 @@
 
 ****1。**加载和注册驱动程序:首先需要先加载驱动程序或注册驱动程序，然后才能在程序中使用。注册在你的程序中只需完成一次。您可以通过以下两种方式之一注册驾驶员:使用 [*Class.forName()*](https://www.geeksforgeeks.org/class-forname-method-in-java-with-examples/) 方法。用于在运行时将驱动程序的类文件加载到内存中，不需要使用新建或创建对象。为了说明 Oracle 驱动程序，如下所示:**
 
-```
+```java
  Class.forName(“oracle.jdbc.driver.OracleDriver”);
 ```
 
 ****2。**建立连接:加载驱动程序后，通过创建主类的连接类对象建立连接，如下图所示:**
 
-```
+```java
 Connection con = DriverManager.getConnection(url,user,password)
 ```
 
@@ -59,7 +59,7 @@ Connection con = DriverManager.getConnection(url,user,password)
 
 **这里的 3 个参数都是 String 类型的，在调用函数之前要由程序员声明，并且可以从最终代码中引用。它可以按如下方式创建:**
 
-```
+```java
 String url = “ jdbc:oracle:thin:@localhost:1521:xe”
 OR
 String mysqlUrl = "jdbc:mysql://localhost/Databasename";
@@ -67,7 +67,7 @@ String mysqlUrl = "jdbc:mysql://localhost/Databasename";
 
 ****3。**创建一条语句:一旦建立了连接，您就可以与数据库进行交互。JDBCStatement、Callable Statement 和 PreparedStatement 接口定义了能够发送 SQL 命令和从数据库接收数据的方法。JDBC 声明的用法如下。这里，con 是对上一步中使用的连接接口的引用。**
 
-```
+```java
 Statement st = con.createStatement();
 ```
 
@@ -82,7 +82,7 @@ Statement st = con.createStatement();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to use methods of column
 // to Count no of columns in JDBC
 

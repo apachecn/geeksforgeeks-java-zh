@@ -18,7 +18,7 @@
 
 插图:
 
-```
+```java
 if (condition1) {
 
     if (condition2) {
@@ -38,14 +38,14 @@ if (condition1) {
 
 插图:
 
-```
+```java
 List<String> objList = getData();
 for (int i = 0; i < objList.size(); i++) { execute code ..}
 ```
 
 > **注意:**应避免上述样品，并按如下方式使用:
 > 
-> ```
+> ```java
 > List<String> objList = getData();
 > int size = objList.size();
 > for (int i = 0; i < size; i++) { execute code ..} 
@@ -57,7 +57,7 @@ for (int i = 0; i < objList.size(); i++) { execute code ..}
 
 插图:
 
-```
+```java
  String query = String1+String2+String3;
 ```
 
@@ -95,7 +95,7 @@ for (int i = 0; i < objList.size(); i++) { execute code ..}
 
 插图:
 
-```
+```java
 Logger.debug("User info : " + user.toString());
 Logger.info("Method called for setting user data:" + user.getData());
 ```
@@ -112,7 +112,7 @@ Logger.info("Method called for setting user data:" + user.getData());
 
 插图:
 
-```
+```java
 select * from users where user_id = 100;
 ```
 

@@ -6,7 +6,7 @@ Java 中 **[CharArrayReader](https://www.geeksforgeeks.org/java-io-chararrayread
 
 **语法:**
 
-```
+```java
 public long skip(long numberOfChar)
 ```
 
@@ -24,7 +24,7 @@ public long skip(long numberOfChar)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CharArrayReader skip(long) method
 
@@ -81,7 +81,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Geeks
 Next 3 characters skipped.
 Geeks
@@ -90,7 +90,7 @@ Geeks
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // CharArrayReader skip(long) method
 
@@ -144,7 +144,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Geeks
 ?????
 

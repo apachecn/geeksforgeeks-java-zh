@@ -11,7 +11,7 @@ T3【注:
 
 **语法**:
 
-```
+```java
 public static double IEEEremainder(double dividend, double divisor)
 Parameter:
 dividend : the dividend.
@@ -23,7 +23,7 @@ This method returns the remainder when dividend is divided by divisor.
 
 **例 1** :展示**Java . lang . math . ieeereminder()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.IEEEremainder() method
 import java.lang.Math;
@@ -62,7 +62,7 @@ class Gfg {
 
 输出:
 
-```
+```java
 0.5399999999999974
 -0.0
 NaN

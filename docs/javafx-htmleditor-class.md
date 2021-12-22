@@ -20,7 +20,7 @@ HTMLEditor 类是 JavaFX 的一部分。HTML 编辑器允许用户编辑现有�
 
 1.  **Java program to create a HTMLEditor and add to the stage:** In this program we will create a HTMLEditor named *htmleditor*. We will also create a TilePane named *tilepane*,and then add the htmleditor to the tilepane using the *getChildren().add()* function. We will create a scene and add tilepane to it. We will add the scene to the stage using the *setScene()* function and display the stage using the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java program to create a html editor
     // and add to the stage
     import javafx.application.Application;
@@ -71,7 +71,7 @@ HTMLEditor 类是 JavaFX 的一部分。HTML 编辑器允许用户编辑现有�
     <video class="wp-video-shortcode" id="video-222381-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/Editor_1.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/Editor_1.mp4](https://media.geeksforgeeks.org/wp-content/uploads/Editor_1.mp4)</video>
 2.  **Java program to create a HTMLEditor and set initial HTML text to it and add to the stage:** In this program we will create a HTMLEditor named *htmleditor*. We will set the initial HTML text using *setHtmlText()* function. We will also create a TilePane named *tilepane*, we will add the htmleditor to the tilepane using the *getChildren().add()* function. We will create a scene and add tilepane to it. We will add the scene to the stage using the *setScene()* function and display the stage using the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java program to create a html editor 
     // and set initial HTML text to it and 
     // add to the stage

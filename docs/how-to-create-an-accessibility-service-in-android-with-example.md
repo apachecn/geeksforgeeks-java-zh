@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 import android.accessibilityservice.AccessibilityService;
 import android.view.accessibility.AccessibilityEvent;
@@ -35,7 +35,7 @@ public class MyService extends AccessibilityService {
 
 ## 可扩展标记语言
 
-```
+```java
 <application>
     <service android:name=".MyService"
         android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
@@ -55,7 +55,7 @@ public class MyService extends AccessibilityService {
 
 ## 可扩展标记语言
 
-```
+```java
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
     android:description="@string/accessibility_service_description"
     android:packageNames="com.example.android.sampleapp1,com.example.android.sampleapp2"
@@ -72,7 +72,7 @@ public class MyService extends AccessibilityService {
 
 ## 可扩展标记语言
 
-```
+```java
 <service android:name=".MyService">
   ...
   <meta-data
@@ -85,7 +85,7 @@ public class MyService extends AccessibilityService {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @Override
 public void onServiceConnected() {
     // pass the typeof events you want your service to listen to
@@ -128,7 +128,7 @@ public void onServiceConnected() {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
     android:packageNames=""
@@ -148,7 +148,7 @@ public void onServiceConnected() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.accessibilityservice.AccessibilityService;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -194,7 +194,7 @@ public class MyService extends AccessibilityService {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.raghav.gfgkeyevent">
@@ -237,7 +237,7 @@ public class MyService extends AccessibilityService {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;

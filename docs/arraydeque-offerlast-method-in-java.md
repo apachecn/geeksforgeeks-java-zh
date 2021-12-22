@@ -6,7 +6,7 @@ Java 中的 Java . util . arraydeque . offer last(*Object 元素*)方法用于�
 
 **语法:**
 
-```
+```java
 Array_Deque.offerLast(*Object element*)
 ```
 
@@ -20,7 +20,7 @@ Array_Deque.offerLast(*Object element*)
 
 **程序 1:** 将字符串元素添加到德格中。
 
-```
+```java
 // Java code to illustrate offerLast()
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial Deque: [Welcome, To, Geeks, 4, Geeks]
 Final Deque: [Welcome, To, Geeks, 4, Geeks, Hello, World]
 
@@ -60,7 +60,7 @@ Final Deque: [Welcome, To, Geeks, 4, Geeks, Hello, World]
 
 **程序 2:** 将整数元素加入到德格中。
 
-```
+```java
 // Java code to illustrate offerLast()
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial Deque: [10, 15, 30, 20, 5]
 Final Deque: [10, 15, 30, 20, 5, 1658, 2458]
 

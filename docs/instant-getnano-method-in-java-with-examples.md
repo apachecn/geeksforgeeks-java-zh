@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getNano()
 ```
 
@@ -16,7 +16,7 @@ public int getNano()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.getNano() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 nanoseconds value: 630000000
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.getNano() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Instant:2018-11-27T04:21:27.029Z
 nanoseconds value: 29000000
 

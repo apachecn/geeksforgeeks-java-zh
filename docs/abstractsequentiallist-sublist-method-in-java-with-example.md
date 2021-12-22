@@ -6,7 +6,7 @@ Java 中**抽象顺序列表**的**子列表()**方法用于获取此列表中�
 
 **语法:**
 
-```
+```java
 protected List<E> subList(int fromIndex, 
                                 int toIndex)
 
@@ -27,7 +27,7 @@ protected List<E> subList(int fromIndex,
 
 **例 1** :
 
-```
+```java
 // Java program to demonstrate the
 // working of subList() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [1, 2, 3, 12, 9, 13]
 subList of 1st 2 elements: [1, 2]
 
@@ -72,7 +72,7 @@ subList of 1st 2 elements: [1, 2]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate the
 // working of subList() method
 
@@ -117,7 +117,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [1, 2, 3, 12, 9, 13]
 Trying to get subList of 11th elements: 
 java.lang.IndexOutOfBoundsException: toIndex = 11

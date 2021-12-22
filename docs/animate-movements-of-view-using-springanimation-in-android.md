@@ -21,7 +21,7 @@
 
 我们可以使用 **SpringAnimation** 类为一个对象创建一个弹簧动画。首先，我们想要创建一个 SpringAnimation 类的实例，并提供一个对象(动画的目标对象)，一个我们想要制作动画的对象属性，以及动画的最终位置。
 
-```
+```java
 View object = findViewById(R.id.image);
 final SpringAnimation animation = new SpringAnimation(object, DynamicAnimation. TRANSLATION_Y, 0f);  
 ```
@@ -86,7 +86,7 @@ build.gradle 文件(应用程序模块)
 
 **2.2。**将支持库添加到**依赖项**
 
-```
+```java
 dependencies {
     def dynamicanimation_version = '1.0.0'
     implementation "androidx.dynamicanimation:dynamicanimation:$dynamicanimation_version"
@@ -111,7 +111,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -143,7 +143,7 @@ dependencies {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.dynamicanimation.animation.DynamicAnimation;
 import androidx.dynamicanimation.animation.SpringAnimation;

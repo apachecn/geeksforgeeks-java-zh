@@ -15,13 +15,13 @@ URI 代表统一资源标识符。统一资源标识符是用于标识特定资�
 
 例如，
 
-```
+```java
 https://www.geeksforgeeks.org/url-class-java-examples/
 ```
 
 表示一个 url，因为它告诉在网络上可以找到 URL 类文章的确切位置。
 
-```
+```java
 url-class-java-examples
 ```
 
@@ -31,41 +31,41 @@ URI 类的对象和 URL 类的区别在于，URI 字符串仅在考虑语法的�
 
 **URI 语法:**
 
-```
+```java
 scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
 ```
 
 1.  **方案:**方案组件列出了与 URI 相关的协议。在一些方案中，需要“//”，而另一些方案则不需要。
 
-    ```
+    ```java
     abc://admin:admin@geeksforgeeks.org:1234/path/data
                  ?key=value&key2=value2#fragid1
     ```
 
 2.  **权限:**权限组件由几个组件组成-身份验证部分、主机和前面带“:”的可选端口号。认证部分包括用户名和密码。主机可以是任何 ip 地址。
 
-    ```
+    ```java
     abc://admin:admin@geeksforgeeks.org:1234/path/data
                  ?key=value&key2=value2#fragid1
     ```
 
 3.  **路径:**该路径代表一个字符串，该字符串包含服务器内到资源的地址。
 
-    ```
+    ```java
     abc://admin:admin@geeksforgeeks.org:1234/path/data
                  ?key=value&key2=value2#fragid1
     ```
 
 4.  **查询:**查询表示非层次数据，通常是用于搜索特定资源的查询。它们之间用“？”隔开从前面的部分。
 
-    ```
+    ```java
     abc://admin:admin@geeksforgeeks.org:1234/path/data
                  ?key=value&key2=value2#fragid1
     ```
 
 5.  **片段:**片段用于将二级资源标识为页面内的标题或副标题等。
 
-    ```
+    ```java
     abc://admin:admin@geeksforgeeks.org:1234/path/data
                  ?key=value&key2=value2#fragid1
     ```
@@ -74,7 +74,7 @@ scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
 
 1.  **URI(字符串)**:通过解析指定的字符串构造一个 URI 对象。解析时使用的语法是 RFC 2396 附录 a
 
-    ```
+    ```java
     Syntax :public URI(String str)
         throws URISyntaxException
     Parameters : 
@@ -86,7 +86,7 @@ scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
     中规定的语法
 2.  **URI(String scheme, String ssp, String fragment)** : Constructs a URI from the given components. A component may be left undefined by passing null. Initially the result string is empty. If scheme is not null it is appended. Similarly the ssp and fragment part is appended if provided.
 
-    ```
+    ```java
     Syntax :public URI(String scheme, String ssp, String fragment)
         throws URISyntaxException
     Parameters : 
@@ -103,7 +103,7 @@ scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
 3.  **URI(字符串方案，字符串用户信息，字符串主机，内部端口，字符串路径，
     字符串查询，字符串片段)**
 
-```
+```java
 Syntax :public URI(String scheme, String userInfo, String host, int port, 
       String path, String query, String fragment)
 Parameters :
@@ -119,7 +119,7 @@ fragment :optional fragment
 
 *   **URI(字符串方案、字符串主机、字符串路径、字符串片段)**
 
-    ```
+    ```java
     Syntax :public URI(String scheme, String host, String path, String fragment)
     Parameters :
     scheme : string representing scheme
@@ -131,7 +131,7 @@ fragment :optional fragment
 
     *   **URI(String scheme, String authority, String path, String query, String fragment)**
 
-    ```
+    ```java
     Syntax :public URI(String scheme, String authority, String path,
      String query, String fragment)
     Parameters :
@@ -146,7 +146,7 @@ fragment :optional fragment
 
     1.  **创建():**创建一个新的 URI 对象。这个方法可以称为伪构造函数。它是在已知给定的字符串将被解析为 URI 对象的情况下使用的，如果不解析，它将被认为是程序员的错误。
 
-        ```
+        ```java
         Syntax : public static URI create(String str)
         Parameters :
         str : String to be parsed as URI
@@ -154,19 +154,19 @@ fragment :optional fragment
 
     2.  **parseServerAuthority() :** 如果提供了用户信息、主机和端口组件，该方法用于解析 URI 的权限组件。此方法返回一个 URI 对象，该对象的权限字段已被解析为基于服务器的权限。
 
-        ```
+        ```java
         Syntax : public URI parseServerAuthority()
         ```
 
     3.  **normalize() :** 使这个 URI 的路径正常化。URI 是通过使 URI 路径正常化来构建的，这与 RFC 2396 是一致的。返回一个规范化的 URI 对象。
 
-        ```
+        ```java
         Syntax : public URI normalize()
         ```
 
     4.  **resolve() :** Resolves the given URI with this URI. Returns a new hierarchical URI in a manner consistent with RFC 2396.
 
-        ```
+        ```java
         Syntax : public URI resolve(URI uri)
         Parameters :
         uri : URI to be resolved
@@ -175,7 +175,7 @@ fragment :optional fragment
 
         另一个重载方法，以字符串作为参数，相当于调用 resolve(URI.create(str))。
 
-        ```
+        ```java
         Syntax : public URI resolve(String str)
         Parameters :
         str : String to be parsed as URI
@@ -183,7 +183,7 @@ fragment :optional fragment
 
     5.  **relativize() :** Relativizes the given URI against this URI.
 
-        ```
+        ```java
         Syntax : public URI relativize(URI uri)
         ```
 
@@ -192,7 +192,7 @@ fragment :optional fragment
 
     6.  **Tour():**从这个 URI 构建一个网址。
 
-        ```
+        ```java
         Syntax : public URL toURL()
                   throws MalformedURLException
         Throws :
@@ -201,49 +201,49 @@ fragment :optional fragment
 
     7.  **getScheme() :** 返回 URI 的方案组件
 
-        ```
+        ```java
         Syntax : public String getScheme()
         ```
 
     8.  **GetRawSchemespecificpart():**返回 URI 的原始方案特定组件。
 
-        ```
+        ```java
         Syntax : public String getRawSchemeSpecificPart()
         ```
 
     9.  **getSchemeSpecificPart() :** 返回 URI 的解码方案特定组件
 
-        ```
+        ```java
         Syntax : public String getSchemeSpecificPart()
         ```
 
     10.  **getRawAuthority() :** 返回 URI 的权威组件。如果权限是基于服务器的，则返回进一步的用户信息、主机和端口组件。
 
-        ```
+        ```java
         Syntax : public String getRawAuthority()
         ```
 
     11.  **getAuthority() :** 返回与上述方法完全相似的结果，除了解码形式。
 
-        ```
+        ```java
         Syntax : public String getAuthority()
         ```
 
     12.  **getRawUserInfo() :** 返回 URI 的用户信息组件，如果未定义则返回 null。
 
-        ```
+        ```java
         Syntax : public String getRawUserInfo()
         ```
 
     13.  **getUserInfo() :** Returns the user info component of the URI in decoded form, or null if it is undefined.
 
-        ```
+        ```java
         Syntax : public String getUserInfo()
         ```
 
         **Java 实现:**
 
-        ```
+        ```java
         // Java program to illustrate various
         // URI class methods
         import java.net.*;
@@ -309,7 +309,7 @@ fragment :optional fragment
 
         **输出:**
 
-        ```
+        ```java
         Base URI = https://www.geeksforgeeks.org/
         Relative URI = languages/../java
         Resolved URI = https://www.geeksforgeeks.org/java
@@ -328,55 +328,55 @@ fragment :optional fragment
 
     14.  **getHost() :** 返回 URI 的主机组件。由于 URI 的主机组件不能包含转义八位字节，因此该方法不执行任何解码。
 
-        ```
+        ```java
         Syntax : public String getHost()
         ```
 
     15.  **getPort() :** 返回该 URI 的端口号。
 
-        ```
+        ```java
         Syntax : public int getPort()
         ```
 
     16.  **getRawPath() :** 返回此 URI 的原始路径，如果未定义，则返回 null。
 
-        ```
+        ```java
         Syntax : public String getRawPath()
         ```
 
     17.  **getPath() :** 返回这个 URI 的解码路径部分。
 
-        ```
+        ```java
         Syntax : public String getPath()
         ```
 
     18.  **getRawQuery() :** 返回 URI 的查询组件，如果未定义则返回 null。
 
-        ```
+        ```java
         Syntax : public String getRawQuery()
         ```
 
     19.  **getQuery() :** 以解码形式返回 URI 的查询组件，如果未定义则返回 null。
 
-        ```
+        ```java
         Syntax : public String getQuery()
         ```
 
     20.  **getrawlfragment():**返回 URI 的片段组件，如果未定义则返回 null。
 
-        ```
+        ```java
         Syntax : public String getRawFragment()
         ```
 
     21.  **getFragment() :** 返回该 URI 的解码片段组件，如果未定义则返回 null。
 
-        ```
+        ```java
         Syntax : public String getFragment()
         ```
 
     22.  **compareTo() :** 将这个 URI 对象与另一个 URI 对象进行比较。使用 String.compareTo()方法根据自然顺序执行比较。如果一个组件未定义，而另一个组件的定义小于第一个，则认为该组件小于第二个组件。要解析的组件以原始形式而不是编码形式进行比较。
 
-        ```
+        ```java
         Syntax : public int compareTo(URI uri)
         Parameters :
         uri : URI to be compared with
@@ -384,7 +384,7 @@ fragment :optional fragment
 
     23.  **等于():**用这个 URI 测试给定的对象。Ig 对象不是 URI，它返回 false。要让两个 URIs 被认为是平等的，就要求两者要么都不透明，要么都是等级制的。当检查不同组件的相等性时，会考虑它们的原始形式，而不是编码形式。
 
-        ```
+        ```java
         Syntax : public boolean equals(Object ob)
         Parameters :
         ob : object to be compared for equality
@@ -392,38 +392,38 @@ fragment :optional fragment
 
     24.  **isabsolut():**如果这个 URI 是绝对的，则返回真，否则返回假。一个 URI 是绝对的，当且仅当，它有一个计划的组成部分。
 
-        ```
+        ```java
         Syntax : public boolean isAbsolute()
         ```
 
     25.  **isOpaque() :** 如果该 URI 不透明，则返回 true，否则返回 false。当且仅当 URI 是绝对的，并且其方案特定部分不以斜杠字符('/')
 
-        ```
+        ```java
         Syntax : public boolean isOpaque()
         ```
 
         开头时，它是不透明的
     26.  **hashCode() :** 返回这个 URI 对象的 hashCode。为 URI 对象创建 hashcode 时，会考虑所有组件。
 
-        ```
+        ```java
         Syntax : public int hashCode()
         ```
 
     27.  **toString() :** 返回这个 URI 对象的字符串表示形式。
 
-        ```
+        ```java
         Syntax : public String toString()
         ```
 
     28.  **toASCIIString() :** Returns the string representation in ASCII format.
 
-        ```
+        ```java
         Syntax : public String toASCIIString()
         ```
 
         **Java 实现**:
 
-        ```
+        ```java
         //Java Program to illustrate various
         //URI class methods
         import java.net.*;
@@ -486,7 +486,7 @@ fragment :optional fragment
 
         **输出:**
 
-        ```
+        ```java
         Host = www.google.co.in
         Port = /
         Raw Path = /

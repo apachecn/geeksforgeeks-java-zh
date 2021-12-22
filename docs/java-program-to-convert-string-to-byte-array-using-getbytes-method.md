@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public byte[] getBytes()
 ```
 
@@ -19,7 +19,7 @@ public byte[] getBytes()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate how to
 // convert a string to byte array
 // Using getBytes()
@@ -53,7 +53,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String: Hello GeeksforGeeks
 Byte Array:
 72101108108111327110110110711510211111471101101107115
@@ -63,7 +63,7 @@ Byte Array:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate how to
 // convert a string to byte array
 // Using getBytes()
@@ -95,7 +95,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String: GeeksforGeeks
 Byte Array:[71, 101, 101, 107, 115, 102, 111, 114, 71, 101, 101, 107, 115]
 

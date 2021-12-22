@@ -5,7 +5,7 @@
 Calendar 类中的 **getTime()** 方法用于返回一个类似于由该 Calendar 的时间值表示的日期的对象。
 **语法:**
 
-```
+```java
 public final Date getTime()
 ```
 
@@ -16,7 +16,7 @@ public final Date getTime()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // getTime() method
 
@@ -53,7 +53,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The Current Time is: Wed Feb 20 14:40:37 UTC 2019
 The upcoming time is: Wed Feb 20 14:40:47 UTC 2019
 ```
@@ -62,7 +62,7 @@ The upcoming time is: Wed Feb 20 14:40:47 UTC 2019
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // getTime() method
 
@@ -99,7 +99,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The Current Time is: Wed Feb 20 14:40:50 UTC 2019
 The upcoming time is: Wed Feb 20 14:40:55 UTC 2019
 ```

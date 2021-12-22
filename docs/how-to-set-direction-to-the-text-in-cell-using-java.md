@@ -20,7 +20,7 @@ Apache 库允许您通过以不同的方向角度显示文本来更改单元格�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Set the Direction of Cell
 import java.io.File;
 import java.io.FileOutputStream;

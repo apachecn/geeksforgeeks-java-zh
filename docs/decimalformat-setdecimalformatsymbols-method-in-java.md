@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void setDecimalFormatSymbols(DecimalFormatSymbols newSymbols)
 
 ```
@@ -19,7 +19,7 @@ public void setDecimalFormatSymbols(DecimalFormatSymbols newSymbols)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setDecimalFormatSymbols() method
 
@@ -48,14 +48,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 12, 345.679
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setDecimalFormatSymbols() method
 
@@ -85,7 +85,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 ??, ???.???
 
 ```

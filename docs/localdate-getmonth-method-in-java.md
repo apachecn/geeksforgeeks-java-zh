@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 getMonth()方法使用 Month 枚举获取年月字段�
 
 **语法**:
 
-```
+```java
 public Month getMonth()
 
 ```
@@ -18,7 +18,7 @@ public Month getMonth()
 下面的程序说明了 Java 中 LocalDate 的 **getMonth()** 方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getMonth() method
 
 import java.util.*;
@@ -38,14 +38,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 NOVEMBER
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the getMonth() method
 
 import java.util.*;
@@ -65,7 +65,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 JANUARY
 
 ```

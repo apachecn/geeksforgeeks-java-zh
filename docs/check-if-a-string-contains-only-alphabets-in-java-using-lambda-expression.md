@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input : GeeksforGeeks
 Output : True
 
@@ -34,7 +34,7 @@ Output : False
 
 **伪代码:**
 
-```
+```java
 public static boolean isStringOnlyAlphabet(String str)
 {
     return ((!str.equals(""))
@@ -45,7 +45,7 @@ public static boolean isStringOnlyAlphabet(String str)
 
 **程序:**检查字符串是否只包含字母。
 
-```
+```java
 // Java program to check if String contains only Alphabets
 // using Lambda Expression
 
@@ -96,7 +96,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Test Case 1:
 Input: GeeksforGeeks
 Output: true

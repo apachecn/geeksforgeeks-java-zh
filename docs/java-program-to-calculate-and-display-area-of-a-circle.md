@@ -14,7 +14,7 @@
 
 ## Java
 
-```
+```java
 // Java program to calculate the area of the
 public class GFG {
     public static void main(String[] args)
@@ -32,7 +32,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Area of circle is :78.55
 
 ```

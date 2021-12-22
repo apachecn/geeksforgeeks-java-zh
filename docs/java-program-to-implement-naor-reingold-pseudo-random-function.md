@@ -6,7 +6,7 @@ Naor-Reingold 伪随机函数是一个生成随机数的函数。Moni Naor 和 O
 
 **示例:**
 
-```
+```java
 Input : N = 5
 Output: 9.0, 9.0, 3.0, 9.0, 3.0
 
@@ -20,7 +20,7 @@ Output: 9.0, 81.0, 9.0, 9.0, 3.0, 3.0, 9.0
 *   从用户那里获取生成随机数的输入
 *   生成随机数并使用定义的方法:
 
-```
+```java
 Let p and l be prime numbers with l|p−1.
 Select an element g ε Fp* of multiplicative order l. 
 Then for each n-dimensional vector a = (a0,a1, ..., an).
@@ -35,7 +35,7 @@ fa(x)=ga0.a1x1a2x2…..anxn ε Fp
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Naor-Reingold
 // Pseudo Random Function
 import java.util.*;
@@ -80,7 +80,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 The Random numbers are: 
 9.0, 9.0, 3.0, 81.0, 3.0, 81.0, 9.0, 9.0, 3.0, 3.0, 
 ```

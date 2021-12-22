@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Partition a Tree from a Given Element using DFS
 
 // Importing required libraries
@@ -139,7 +139,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 1Tree
 0 1 3 4 
 2Tree

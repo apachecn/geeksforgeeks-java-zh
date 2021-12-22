@@ -19,7 +19,7 @@
 
 **语法:**继续关键字和分号
 
-```
+```java
 continue;
 ```
 
@@ -35,7 +35,7 @@ continue;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of continue statement
 
 // Importing Classes/Files
@@ -64,7 +64,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0 1 2 3 4 5 6 7 8 9 11 13 14 15 
 ```
 
@@ -74,7 +74,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of continue statement
 // inside the While loop
 public class GFG {
@@ -110,7 +110,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 20 19 18 17 16 14 13 12 11 10 9 8 6 5 4 3 2 1 0 
 ```
 
@@ -120,7 +120,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of continue statement
 // inside the Do-While loop
 
@@ -161,7 +161,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0
 2
 6
@@ -186,7 +186,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of continue statement
 // inside an inner loop or simply nested loops
 
@@ -221,7 +221,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 1 * 1
 1 * 2
 1 * 3

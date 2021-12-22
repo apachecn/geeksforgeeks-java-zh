@@ -10,7 +10,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to demonstrate how
 // to use CountDownLatch, Its used
 // when a thread needs to wait for other
@@ -77,7 +77,7 @@ class Worker extends Thread {
 
 **输出**
 
-```
+```java
 WORKER-1 finished
 WORKER-2 finished
 WORKER-3 finished

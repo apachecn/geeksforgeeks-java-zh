@@ -32,7 +32,7 @@ TitledPane 类是 JavaFX 的一部分。标题类创建一个标题可以打开�
     *   现在将标题窗格添加到场景中，并将场景添加到舞台中。
     *   调用 *show()* 功能显示最终结果。
 
-    ```
+    ```java
     // Java program to create a TitledPane
     // and add a label to it.
     import javafx.application.Application;
@@ -113,7 +113,7 @@ TitledPane 类是 JavaFX 的一部分。标题类创建一个标题可以打开�
     *   调用 *show()* 功能显示最终结果。
     *   使用*设置动画()*功能将动画设置为假，并使用*设置可折叠()*功能将可折叠设置为假。
 
-    ```
+    ```java
     // Java program to create a TitledPane, state 
     // whether it is animated or not, collapsible
     // or not and add a label to it

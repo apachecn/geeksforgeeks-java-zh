@@ -9,7 +9,7 @@
 
 让我们举一个例子来理解回调可以在哪里使用。假设一个程序员想设计一个计算一个州总税收的税收计算器。假设只有两种税，中央税和州税。中央税收是常见的，而州税因州而异。总税收是两者的总和。这里，像 stateTax()这样的单独方法为每个州实现，并从另一个方法 calculateTax()调用该方法，如下所示:
 
-```
+```java
 static void calculateTax(address of stateTax() function)
 {
     ct = 1000.0
@@ -21,7 +21,7 @@ static void calculateTax(address of stateTax() function)
 在前面的代码中，stateTax()的地址被传递给 calculateTax()。calculateTax()方法将使用该地址调用特定州的 stateTax()方法，并计算州税“st”。
 由于 stateTax()方法的代码从一个状态变为另一个状态，不如在一个接口中声明为抽象方法，如:
 
-```
+```java
 interface STax
 {
      double stateTax();
@@ -30,7 +30,7 @@ interface STax
 
 以下是旁遮普邦州税()的执行情况:
 
-```
+```java
 class Punjab implements STax{
     public double stateTax(){
     return 3000.0;
@@ -40,7 +40,7 @@ class Punjab implements STax{
 
 以下是惠普状态的 stateTax()的实现:
 
-```
+```java
 class HP implements STax
 {
     public double stateTax()
@@ -52,7 +52,7 @@ class HP implements STax
 
 现在，calculateTax()方法可以设计为:
 
-```
+```java
 static void calculateTax(STax t)
 {
     // calculate central tax
@@ -69,7 +69,7 @@ static void calculateTax(STax t)
 
 这里，观察 calculateTax()方法中的参数“STax t”。“t”是“STax”接口的引用，该接口作为参数传递给方法。使用此引用，调用 stateTax()方法，如下所示:
 
-```
+```java
 double st = t.stateTax();
 ```
 
@@ -78,7 +78,7 @@ double st = t.stateTax();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate callback mechanism
 // using interface is Java
 
@@ -145,7 +145,7 @@ throws ClassNotFoundException, IllegalAccessException, InstantiationException
 
 **输出:**
 
-```
+```java
 Enter the state name
 Punjab
 Total tax = 5000.0

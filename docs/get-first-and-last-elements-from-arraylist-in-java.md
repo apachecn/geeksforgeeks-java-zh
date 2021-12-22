@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : aList = {10, 30, 20, 14, 2}
 Output : First = 10, Last = 2
 
@@ -19,7 +19,7 @@ Output : First = 10, Last = 60
 
 **查找数组列表中的第一个和最后一个:**
 
-```
+```java
 // java program print first and last element of a List
 import java.util.ArrayList;
 import java.util.List;
@@ -58,7 +58,7 @@ public class FindFirstLast {
 
 **Output:**
 
-```
+```java
 ArrayList contains: [3, 1, 4, 5, 2]
 First element is: 3
 Last element is: 2
@@ -67,7 +67,7 @@ Last element is: 2
 
 **应用:**在升序的情况下，第一个元素是最低的，最后一个元素是最高的，反之，则第一个元素是最大的，如果列表是降序的，则最后一个元素是最小的。
 
-```
+```java
 // java program print Maximum and Minimum Value of a
 // sorted List, List may be increasing or decreasing order
 import java.util.ArrayList;
@@ -122,7 +122,7 @@ public class FindFirstLast {
 
 **Output:**
 
-```
+```java
 ArrayList contains: [5, 4, 3, 2, 1]
 Minimum Value: 1
 Maximum Value: 5

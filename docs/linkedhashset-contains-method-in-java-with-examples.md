@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean contains(Object o)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate contains() Method
 // of LinkedHashSet class
 // For String value
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LinkedHashSet: [A, B, C]
 Is the element 'C' present: true
 ```
@@ -79,7 +79,7 @@ Is the element 'C' present: true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate contains() Method
 // of LinkedHashSet class
 // For Integer value
@@ -131,7 +131,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LinkedHashSet: [10, 20, 30]
 Is the element '25' present: false
 ```

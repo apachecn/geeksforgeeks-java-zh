@@ -6,7 +6,7 @@ java . lang . reflect . array . setbyte()是 Java 中的内置方法，用于将
 
 **语法**:
 
-```
+```java
 Array.setByte(Object []array, int index, byte value)
 
 ```
@@ -27,7 +27,7 @@ Array.setByte(Object []array, int index, byte value)
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // setByte() method of Array class
 
@@ -63,7 +63,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Befor Set : 1 2 3 4 
 After Set : 1 10 3 4
 
@@ -71,7 +71,7 @@ After Set : 1 10 3 4
 
 **程序 2:** 演示 java.lang.NullPointerException
 
-```
+```java
 // Java code to demonstrate
 // setByte() method of Array class
 
@@ -97,14 +97,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.NullPointerException
 
 ```
 
 **程序 3:** 演示 Java . lang . arrayindexoutofboundsexception
 
-```
+```java
 // Java code to demonstrate
 // setByte() method of Array class
 
@@ -130,14 +130,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.ArrayIndexOutOfBoundsException
 
 ```
 
 **程序 4:** 演示 Java . lang . illegalargumentexception
 
-```
+```java
 // Java code to demonstrate
 // setByte() method of Array class
 
@@ -163,7 +163,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.IllegalArgumentException: Argument is not an array
 
 ```

@@ -23,7 +23,7 @@ FlowLayout 用于按顺序一个接一个地排列组件。小程序和面板的
 1.  **Program 1:** The following program illustrates the use of FlowLayout by arranging several JLabel components in a JFrame, whose instance class is named as “Example”. We create 5 JLabel components named “l1”, “l2″… “l5” and then add them to the JFrame by the method this.add(). We set the title and bounds of the frame by method setTitle and setBounds.
     The layout is set by the method setLayout();
 
-    ```
+    ```java
     // Java program to show Example of FlowLayout.
     // in java. Importing different Package.
     import java.awt.*;
@@ -106,7 +106,7 @@ FlowLayout 用于按顺序一个接一个地排列组件。小程序和面板的
 2.  **Program 2:** The following program illustrates the use of FlowLayout using Right alignment by passing the argument FlowLayout.RIGHT in the constructor of FLowLayout. We create 5 JLabel components named “l1”, “l2″… “l5” and then add them to the JFrame by the method this.add(). We set the title and bounds of the frame by method setTitle and setBounds.
     The layout is set by the method setLayout();
 
-    ```
+    ```java
     // Java program to show example of
     // FlowLayout and using RIGHT alignment
     import java.awt.*;

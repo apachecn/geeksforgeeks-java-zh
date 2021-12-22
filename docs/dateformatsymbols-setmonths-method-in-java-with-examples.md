@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的**设置月份(字符串[] *newMonth* )** �
 
 **语法:**
 
-```
+```java
 public void setMonths(String[] *newMonth*)
 ```
 
@@ -17,7 +17,7 @@ public void setMonths(String[] *newMonth*)
 下面的程序说明了 setMonths()方法的使用。
 **例 1:**
 
-```
+```java
 // Java code to demonstrate setMonths()
 
 import java.text.DateFormatSymbols;
@@ -65,7 +65,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Original: 
 January  
 February  
@@ -93,7 +93,7 @@ FEB
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate setMonths()
 
 import java.text.DateFormatSymbols;
@@ -142,7 +142,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Original: 
 January  
 February  

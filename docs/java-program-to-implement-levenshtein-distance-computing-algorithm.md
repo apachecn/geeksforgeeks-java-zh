@@ -49,7 +49,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of recursive Levenshtein distance
 // calculation
 
@@ -137,7 +137,7 @@ class LevenshteinDistanceRecursive {
 
 **Output**
 
-```
+```java
 3
 ```
 
@@ -154,7 +154,7 @@ class LevenshteinDistanceRecursive {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of Levenshtein distance calculation
 // Using Dynamic Programming (Optimised solution)
 
@@ -239,7 +239,7 @@ class LevenshteinDistanceDP {
 
 **Output**
 
-```
+```java
 3
 ```
 

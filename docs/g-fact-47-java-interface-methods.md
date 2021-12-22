@@ -5,7 +5,7 @@
 有一个规则[接口的每一个成员都是唯一且唯一公开的，不管你是否定义](https://www.geeksforgeeks.org/g-fact-73/)。因此，当我们在实现接口的类中定义接口的方法时，我们必须给予它公共访问权，因为[子类不能将较弱的访问权分配给方法](https://www.geeksforgeeks.org/g-fact-69/)。
 正如定义的那样，无论我们是否声明，接口中的每个方法都是公开的和抽象的。因此，在接口内部，以下方法声明是相同的。
 
-```
+```java
 void methodOne();
 public Void methodOne();
 abstract Void methodOne();
@@ -25,7 +25,7 @@ public abstract Void methodOne();
 *   当地的
 *   严格 fp
 
-```
+```java
 // A Simple Java program to demonstrate that
 // interface methods must be public in 
 // implementing class
@@ -56,7 +56,7 @@ class C
 
 输出:
 
-```
+```java
 fun()
 ```
 

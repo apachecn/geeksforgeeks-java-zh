@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object)
 object-element to be searched for
 ```
@@ -19,7 +19,7 @@ object-element to be searched for
 
 **代码#1:** 演示包含整数()的方法的工作原理
 
-```
+```java
 // Java code to demonstrate the working of
 // contains() method in ArrayList
 
@@ -63,7 +63,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 The list contains 2
 The list does not contains 5
 
@@ -71,7 +71,7 @@ The list does not contains 5
 
 **代码#2:** 演示字符串形式的包含()的方法的工作原理
 
-```
+```java
 // Java code to demonstrate the working of
 // contains() method in ArrayList of string
 
@@ -114,7 +114,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 The list contains geeks
 The list does not contains coding
 

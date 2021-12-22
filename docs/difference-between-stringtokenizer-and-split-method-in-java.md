@@ -29,7 +29,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of StringTokenizer()
 
 import java.util.*;
@@ -54,7 +54,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Total tokens : 3
 #0: This
 #1: is
@@ -69,7 +69,7 @@ string split()方法在给定正则表达式的匹配项周围断开给定的字
 
 *   **弦类法**
 
-```
+```java
 public String [ ] split ( String regex, int limit )
 
 Here,
@@ -80,7 +80,7 @@ limit:the result threshold
 
 *   使用 **java.util.regex** 包
 
-```
+```java
 public String[] split(String regex) 
 
 Here,
@@ -91,7 +91,7 @@ limit: default is 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate split()
 
 import java.util.*;
@@ -110,7 +110,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 #0: 
 #1: This
 #2: 

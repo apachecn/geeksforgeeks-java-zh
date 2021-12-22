@@ -10,7 +10,7 @@
 Java . lang . boolean 类将基元类型的布尔值包装在对象中。
 **类申报**
 
-```
+```java
 public final class Boolean
    extends Object
       implements Serializable, Comparable
@@ -18,7 +18,7 @@ public final class Boolean
 
 **施工人员:**
 
-```
+```java
 Boolean(boolean val) : Assigning Boolean object representing the val argument.
 Boolean(String str)  : Assigning Boolean object representing the value true or false
                               according to the string.
@@ -29,7 +29,7 @@ Boolean(String str)  : Assigning Boolean object representing the value true or f
 *   **Boolean value():Java . lang . Boolean . Boolean value()**用于将布尔对象的值赋给布尔基元。
     **语法:**
 
-```
+```java
 public boolean booleanValue()
 Returns : 
 primitive boolean value of the boolean object.
@@ -38,7 +38,7 @@ primitive boolean value of the boolean object.
 *   **compare to():Java . lang . Boolean . compare to(Boolean arg)**将此布尔实例与传递的布尔实例进行比较。
     **语法:**
 
-```
+```java
 public int compareTo(Boolean arg)
 Parameter : 
 arg : boolean instance to be compared with this instance.
@@ -51,7 +51,7 @@ Returns :
 *   **hashCode():Java . lang . boolean . hashCode()**返回指定布尔对象的哈希码值。
     **语法:**
 
-```
+```java
 public int hashCode()
 Returns : 
 1231 : if the boolean value of object is true.
@@ -61,7 +61,7 @@ Returns :
 *   **toString():Java . lang . boolean . toString()**根据布尔值返回布尔对象的字符串表示形式。
     **语法:**
 
-```
+```java
 public String toString()
 Returns : 
 string value - 'true' if boolean object is true, else false.
@@ -71,7 +71,7 @@ string value - 'true' if boolean object is true, else false.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating Boolean class methods
 // booleanValue(), compareTo(), hashCode(), toString()
 import java.lang.*;
@@ -129,7 +129,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 Boolean object - bool1 : true
 Boolean object - bool2 : false
 Primitive value of object i.e. bool3 : true
@@ -148,7 +148,7 @@ String value of bool2 : false
     要给属性赋值，我们使用 System 类的 setProperty()方法。
     **语法:**
 
-```
+```java
 public static boolean getBoolean(String arg)
 Parameters : 
 arg - name of the property
@@ -161,7 +161,7 @@ false : if no such property exists or if exists then no value is assigned to it.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating getBoolean() method
 import java.lang.*; // Using Boolean and System classes
 public class NewClass
@@ -195,7 +195,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 Bool Value of p1 : false
 Bool Value of p2 : false
 
@@ -211,7 +211,7 @@ Bool Value of p2 : false
     要给属性赋值，我们使用的是 System 类的 setProperty()方法。
     **语法:**
 
-```
+```java
 public static Boolean valueOf(boolean arg)
 Parameters : 
 arg - boolean variable
@@ -223,7 +223,7 @@ True : if true value is assigned to the boolean variable, else false
     是不区分大小写的方法。
     **语法:**
 
-```
+```java
 public static boolean parseBoolean(String arg)
 Parameters : 
 arg - String argument taken as Boolean
@@ -235,7 +235,7 @@ Boolean value of a String argument
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustratingg parseBoolean() and valueOf() method
 import java.lang.*;
 public class NewClass
@@ -272,7 +272,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 Value of b1 : false
 Value of b2 : true
 

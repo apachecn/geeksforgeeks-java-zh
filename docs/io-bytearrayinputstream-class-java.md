@@ -8,7 +8,7 @@
 
 **申报:**
 
-```
+```java
 public class ByteArrayInputStream
    extends InputStream
 ```
@@ -30,7 +30,7 @@ public class ByteArrayInputStream
 *   **mark(int arg):Java . io . bytearrainputstream . mark(int arg)**标记输入流的当前位置。它设置 readlimit，即在标记位置无效之前可以读取的最大字节数。
     **语法:**
 
-```
+```java
 public void mark(int arg)
 Parameters :
 arg : integer specifying the read limit of the input Stream
@@ -41,7 +41,7 @@ void
 *   **read():Java . io . BytearrainputStream . read()**从输入流中读取下一个字节的数据。值字节在 0 到 255 的范围内返回。如果因为已经到达流的末尾而没有字节可用，则返回值-1。方法不阻止
     T3】语法:
 
-```
+```java
 public int read()
 Parameters :
 ------
@@ -54,7 +54,7 @@ Exception :
 *   **close():Java . io . BytearrainputStream . close()**关闭输入流，并将与该流相关联的系统资源释放给垃圾收集器。
     **语法:**
 
-```
+```java
 public void close()
 Parameters :
 ------
@@ -67,7 +67,7 @@ Exception :
 *   **read(byte[] buffer，int offset，int maxlen):Java . io . bytearrainputstream . read(byte[]buffer，int offset，int maxlen)** 从位置“offset”到 maxlen 读取 InputStream 的“buffer”字节数组。
     **语法:**
 
-```
+```java
 public int read(byte[] buffer, int offset, int maxlen)
 Parameters :
 arg : array whose number of bytes to be read
@@ -83,7 +83,7 @@ Exception :
 *   **reset():通过 mark()方法调用 Java . io . BytearrainputStream . reset()**。它将输入流重新定位到标记的位置。
     **语法:**
 
-```
+```java
 public void reset()
 Parameters :
 ----
@@ -96,7 +96,7 @@ Exception :
 *   **MarkSupported():Java . io . BytearrainputStream . MarkSupported()**方法测试此输入流是否支持标记和重置方法。ByteArrayInputStreamInputStream 的 markSupported 方法始终返回 true
     **语法:**
 
-```
+```java
 public boolean markSupported()
 Parameters :
 -------
@@ -107,7 +107,7 @@ true if input stream supports the mark() and reset() method  else,false
 *   **跳过(长参数):Java . io . Bytearrainputstream . skip(长参数)**跳过输入流中的**参数**字节。
     **语法:**
 
-```
+```java
 public long skip(long arg)
 Parameters :
 arg : no. of bytes to be skipped
@@ -120,7 +120,7 @@ Exception :
 *   **available():Java . io . Bytearrainputstream . available()**告知要读取的输入流的字节总数
     **语法:**
 
-```
+```java
 public int available()
 Parameters :
 -----------
@@ -134,7 +134,7 @@ Exception :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of ByteArrayInputStream method
 // mark(), read(), skip(), available()
 // markSupported(), close(), reset()
@@ -208,7 +208,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Use of available() method : 5
 
 Char : G

@@ -6,7 +6,7 @@
 
 我们在树集中有元素，我们希望使用索引打印树集中的元素。
 
-```
+```java
 TreeSet<Integer> set = new TreeSet();
 set.add(2);
 set.add(3);
@@ -33,7 +33,7 @@ Set Contains -> [2,3,5,9]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get the TreeSet Element By Index
 
 import java.io.*;
@@ -73,7 +73,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2 3 5 9 
 5
 ```
@@ -85,7 +85,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get the TreeSet Element By Index
 
 import java.io.*;
@@ -122,7 +122,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2 3 5 9 
 5
 ```
@@ -134,7 +134,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get the TreeSet Element By Index
 
 import java.io.*;
@@ -169,7 +169,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2 3 5 9 
 5
 ```

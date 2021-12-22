@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 File.createTempFile(String prefix, String suffix) throws IOException
 ```
 
@@ -23,7 +23,7 @@ File.createTempFile(String prefix, String suffix) throws IOException
 
 **语法**:
 
-```
+```java
 File.createTempFile(String prefix, String suffix, File directory) throws IOException
 ```
 
@@ -33,7 +33,7 @@ File.createTempFile(String prefix, String suffix, File directory) throws IOExcep
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.File;
 import java.io.IOException;
 
@@ -79,7 +79,7 @@ public class GeeksforGeeks {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;

@@ -13,12 +13,12 @@
 
 **插图:**
 
-```
+```java
 Input : Vector: ['G', 'e', 'e', 'k', 's'] 
 Output: Array: ['G', 'e', 'e', 'k', 's'] 
 ```
 
-```
+```java
 Input : Vector: [1, 2, 3, 4, 5]
 Output: Array: [1, 2, 3, 4, 5] 
 ```
@@ -36,7 +36,7 @@ Output: Array: [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Vector to Array
 
 // Importing required classes
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Vector: [G, e, e, k, s]
 Array: [G, e, e, k, s]
 ```
@@ -108,7 +108,7 @@ Array: [G, e, e, k, s]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Vector to Array
 
 // Importing required classes
@@ -147,7 +147,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Vector: [G, e, e, k, s]
 Array: [G, e, e, k, s]
 ```

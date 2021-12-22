@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Object[] arr = AbstractSequentialList.toArray()
 ```
 
@@ -18,7 +18,7 @@ Object[] arr = AbstractSequentialList.toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -54,7 +54,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSequentialList: [Welcome, To, Geeks, For, Geeks]
 The array is:
 Welcome
@@ -67,7 +67,7 @@ Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -104,7 +104,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSequentialList: [10, 15, 30, 20, 5, 25]
 The array is:
 10

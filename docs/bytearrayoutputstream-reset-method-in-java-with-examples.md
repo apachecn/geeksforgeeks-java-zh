@@ -6,7 +6,7 @@ Java 中 **ByteArrayOutputStream** 类的 **reset()** 方法用于重置 Bytearr
 
 **语法:**
 
-```
+```java
 public void reset()
 
 ```
@@ -21,7 +21,7 @@ public void reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream reset() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ABCDE
 GEEKS
 
@@ -74,7 +74,7 @@ GEEKS
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream reset() method
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 FOR
 GEEKS

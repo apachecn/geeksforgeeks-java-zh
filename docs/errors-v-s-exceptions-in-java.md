@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Error
 // Stack overflow error via infinite recursion
 
@@ -60,7 +60,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Run-time Errors
 
 // Main class
@@ -92,7 +92,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 8 is the smallest Number
 ```
 
@@ -107,7 +107,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program illustrating exception thrown
 // by AritmeticExcpetion class
 

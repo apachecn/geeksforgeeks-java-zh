@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 while (test_expression)
 {
    // statements
@@ -19,13 +19,13 @@ while (test_expression)
 
 **Sum:** 从‘1’到‘n’的自然数之和可以用数学方法写出来，其中 n 代表用户输入的或待求值的数字个数。利用数学归纳法原理，上述公式等于:
 
-```
+```java
 1 + 2 + 3 + 4 + 5 + ...+ (n-2) + (n-1) + n = [n(n+1)]/2
 ```
 
 **说明:**假设要计算 10 个自然数的和，那么通过上面的公式 55 应该是输出。
 
-```
+```java
 Input      : 5
 Processing :  1 + 2 + 3+ 4 + 5 
 Output     : 15
@@ -51,7 +51,7 @@ Output     : 15
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show sum of natural numbers
 // using the while loop
 
@@ -89,6 +89,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Sum of natural numbers using while loop is: 55
 ```

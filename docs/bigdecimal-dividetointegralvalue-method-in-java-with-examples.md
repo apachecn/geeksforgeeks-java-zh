@@ -13,7 +13,7 @@ Java 中有两种 divideToIntegralValue 方法重载，如下所示:
 
 **语法:**
 
-```
+```java
 public BigDecimal divideToIntegralValue(BigDecimal divisor)
 
 ```
@@ -24,7 +24,7 @@ public BigDecimal divideToIntegralValue(BigDecimal divisor)
 
 下面的程序用来说明大十进制的 divideToIntegralValue()方法。
 
-```
+```java
 // Java program to demonstrate
 // divideToIntegralValue() method of BigDecimal
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 12744197
 
 ```
@@ -74,7 +74,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public BigDecimal divideToIntegralValue(BigDecimal divisor,
                                         MathContext mc)
 
@@ -90,7 +90,7 @@ public BigDecimal divideToIntegralValue(BigDecimal divisor,
 下面的程序用来说明大十进制的 divideToIntegralValue()方法。
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // divideToIntegralValue() method of BigDecimal
 
@@ -133,14 +133,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 12268241
 
 ```
 
 **示例 2:** 说明 divideToIntegralValue()方法中发生异常的程序
 
-```
+```java
 // Java program to demonstrate
 // divideToIntegralValue() method of BigDecimal
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.ArithmeticException: Division impossible
 
 ```

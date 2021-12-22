@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public long getBytesRead()
 
 ```
 
 **语法:**
 
-```
+```java
 i.getBytesRead();
 
 ```
@@ -26,7 +26,7 @@ i.getBytesRead();
 
 **示例 1:**getBytesRead()函数的使用
 
-```
+```java
 // Java program to show the
 // use of getBytesRead() function
 

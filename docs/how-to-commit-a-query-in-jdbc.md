@@ -20,7 +20,7 @@
 
 **提交语法**
 
-```
+```java
 COMMIT;
 
 ```
@@ -29,21 +29,21 @@ COMMIT;
 
 **创建数据库**
 
-```
+```java
 CREATE DATABASE <DataBaseName>; 
 
 ```
 
 **当前数据库**
 
-```
+```java
 use <DataBaseName>;
 
 ```
 
 **在当前数据库中创建一个表**
 
-```
+```java
 CREATE TABLE <TableName> (usn int,, name varchar(20)  ,  place varchar (20) );
 
 ```
@@ -52,7 +52,7 @@ CREATE TABLE <TableName> (usn int,, name varchar(20)  ,  place varchar (20) );
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // importing the my sql package
 import java.sql.*;
 
@@ -226,7 +226,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Inserted row 1 FIRST TIME in the table....
 Inserted row 2 FIRST TIME in the table....
 printing data (without Rollback && without Commit )....

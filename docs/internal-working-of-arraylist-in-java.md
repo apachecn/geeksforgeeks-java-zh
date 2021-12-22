@@ -10,7 +10,7 @@
 
 **在内部，数组列表使用对象[]数组，这是一个对象数组。删除、添加和更新元素等所有操作都发生在这个对象[]数组中。**
 
-```
+```java
 /**
     * The array buffer into which the elements of the ArrayList are stored.
     * The capacity of the ArrayList is the length of this array buffer. Any
@@ -24,7 +24,7 @@ transient Object[] elementData; // non-private to simplify nested class access
 
 #### **初始化**
 
-```
+```java
 List<String> arrayList = new ArrayList<String>();
 ```
 
@@ -32,7 +32,7 @@ List<String> arrayList = new ArrayList<String>();
 
 ****在 Java 7 中****
 
-```
+```java
 public ArrayList() {
      this(10);
 }
@@ -42,7 +42,7 @@ public ArrayList() {
 
 ****在 Java 8 中****
 
-```
+```java
 private static final int DEFAULT_CAPACITY = 10;\\ Default initial capacity.
 
 // Shared empty array instance used for empty instances.
@@ -67,13 +67,13 @@ private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
 
 ****ArrayList():** 此构造函数用于创建初始容量为 10 的空 ArrayList，这是默认构造函数。我们可以通过引用 Array list 类的 arr_name 对象来创建一个空的 Array 列表，如下所示。**
 
-```
+```java
 ArrayList arr_name = new ArrayList(); 
 ```
 
 **下面是这个构造函数的内部代码(在 Java 8 中):**
 
-```
+```java
 // Constructs an empty Arraylist with an initial capacity of ten.
 
 public ArrayList() {
@@ -85,13 +85,13 @@ public ArrayList() {
 
 ****数组列表(int capacity):** 这个构造函数用于创建一个具有用户给定初始容量的数组列表。如果我们想创建一个特定大小的数组列表，我们可以通过这个构造函数传递这个值。内部创建的对象数组，大小由用户指定。例如，如果用户希望数组列表的大小为 7，那么可以在构造函数中传递值 7，可以创建如下所示:**
 
-```
+```java
 ArrayList arr = new ArrayList(7);
 ```
 
 ***下面是这个构造函数的内部代码(在 Java 8 中):***
 
-```
+```java
 public ArrayList(int initialCapacity) {
 
        if (initialCapacity > 0) {
@@ -111,13 +111,13 @@ public ArrayList(int initialCapacity) {
 
 ****数组列表(集合<？扩展 E>c:**这个构造函数用来创建一个数组列表，这个数组列表是用传递给构造函数(集合 c)的集合中的元素初始化的。数组列表的对象可以在传递给构造函数的特定集合上创建。**
 
-```
+```java
 ArrayList<String> arrayList = new ArrayList<String>(new LinkedList());
 ```
 
 ***下面是这个构造函数的内部代码(在 Java 8 中):***
 
-```
+```java
 public ArrayList(Collection<? extends E> c) {
        elementData = c.toArray();
        if ((size = elementData.length) != 0) {
@@ -139,7 +139,7 @@ public ArrayList(Collection<? extends E> c) {
 
 ## **Java**
 
-```
+```java
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -167,7 +167,7 @@ public class Main {
 
 ****输出**
 
-```
+```java
 This is arr [1, 2, 3, 4, 5]
 This is newList [1, 2, 3, 4, 5]
 This is newList after adding elements [1, 2, 3, 4, 5, 7, 700]
@@ -179,7 +179,7 @@ This is newList after adding elements [1, 2, 3, 4, 5, 7, 700]
 
 **让我们借助数组列表的[内部 Java 8 代码，深入探讨**如何在数组列表**中添加方法作品。如果我们尝试在数组列表中使用 add()方法添加一个元素，那么它会在内部检查存储新元素的容量，如果没有，那么新容量将按照 add()方法的内部代码所示进行计算。](https://hg.openjdk.java.net/jdk8/jdk8/jdk/file/tip/src/share/classes/java/util/ArrayList.java)**
 
-```
+```java
 [public boolean add(E e) {
        ensureCapacityInternal(size + 1);  // Size Increments
        elementData[size++] = e;
@@ -189,7 +189,7 @@ This is newList after adding elements [1, 2, 3, 4, 5, 7, 700]
 
 **这里在 add(Object)方法中对象被传递并且大小被增加。阵列的内部容量通过保证容量内部()方法**
 
-```
+```java
 private void ensureCapacityInternal(int minCapacity) {
 
        if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
@@ -203,7 +203,7 @@ private void ensureCapacityInternal(int minCapacity) {
 
 这个 ensureExplicitCapacity 方法确定元素的当前大小和数组的最大大小。在这里，最小容量将是默认容量的最大值，然后最小容量作为参数用于 ensureExplicitCapacity 方法。
 
-```
+```java
 private void ensureExplicitCapacity(int minCapacity) {
        modCount++;
 
@@ -215,7 +215,7 @@ private void ensureExplicitCapacity(int minCapacity) {
 
 这里，如果(mincapacity–arraylength)大于 0(>0)，则数组大小将随着参数的传递通过调用 grow()方法和 min capacity 而增大。
 
-```
+```java
 /**
     * Increases the capacity to ensure that it can hold at least the
     * number of elements specified by the minimum capacity argument.
@@ -237,13 +237,13 @@ private void ensureExplicitCapacity(int minCapacity) {
 
 ArrayList 类中的 grow 方法给出了新的大小数组。**在 Java 8 和更高版本的**中，计算出的新容量比旧容量多 50%，并且阵列会增加该容量。它使用 Arrays.copyOf，通过右移运算符将数组增加到新的长度，并且它将增长旧容量的 50%。
 
-```
+```java
 int newCapacity = oldCapacity + (oldCapacity >> 1);
 ```
 
 例如，如果数组大小为 10，并且所有的房间已经被元素填满，而我们现在正在添加一个新的元素，数组容量将增加为 10+ (10>>1) => 10+ 5 => 15。这里的尺寸从 10 增加到 15。所以将尺寸增加 **50%** 我们使用[右移操作符。](https://www.geeksforgeeks.org/bitwise-shift-operators-in-java/)而在 **Java 6** 中，增加数组大小的计算完全不同，在 Java 6 中，容量增加了 **1.5X**
 
-```
+```java
 int newCapacity = (oldCapacity * 3)/2 + 1;
 ```
 
@@ -251,7 +251,7 @@ int newCapacity = (oldCapacity * 3)/2 + 1;
 
 ****要从 Java 的数组列表中移除一个元素，我们可以使用 remove(int i) [0 基于索引]或 remove(Object o)。从数组列表中移除任何元素时，内部所有后续元素都将向左移动，以填充数组中被移除的元素所产生的间隙，然后从它们的索引中减去 1。阵列的大小将减少 1(**––大小**)。****
 
-```
+```java
 **// Removes the element at the specified position in this list.
 // Shifts any subsequent elements to the left (subtracts one from their indices).
 public E remove(int index) {
@@ -268,7 +268,7 @@ public E remove(int index) {
 
 ******系统排列复制**方法用于此目的。这里 index+1 是初始位置，index 是最终位置。因为位置索引处的元素被移除，所以从索引+1 开始的元素被复制到从索引开始的目的地。****
 
-```
+```java
 **System.arraycopy(elementData, index+1, elementData, index, numMoved);**
 ```
 

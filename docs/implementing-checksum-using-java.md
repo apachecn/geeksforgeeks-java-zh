@@ -9,7 +9,7 @@
 
 示例:
 
-```
+```java
 At sender side :
 Enter data length
 4
@@ -60,7 +60,7 @@ it indicates a successful data transfer.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for Checksum_Sender
 package checksum_sender;
 
@@ -166,7 +166,7 @@ public class Checksum_Sender
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for Checksum_Receiver
 package checksum_sender;
 

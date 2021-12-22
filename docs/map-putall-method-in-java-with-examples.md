@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void putAll(Map m)
 ```
 
@@ -18,7 +18,7 @@ void putAll(Map m)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // putAll method in Map interface
 
@@ -52,7 +52,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Nine}
 {1=One, 50=Fifty, 3=Three, 5=Five, 7=Seven, 9=Nine, 10=Ten, 30=Thirty}
 
@@ -60,7 +60,7 @@ public class GfG {
 
 **程序 2:** 下面是展示 put()实现的代码。
 
-```
+```java
 // Java code to show the implementation of
 // putAll method in Map interface
 import java.util.*;
@@ -93,7 +93,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Nine}
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Nine, 50=Fifty, 30=Thirty, 10=Ten}
 

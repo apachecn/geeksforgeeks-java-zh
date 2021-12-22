@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Way 1
 // Creating thread By Extending To Thread class
 
@@ -50,7 +50,7 @@ class MyThread extends Thread {
 
 **Output**
 
-```
+```java
 Thread is running created by extending to parent Thread class
 ```
 
@@ -58,7 +58,7 @@ Thread is running created by extending to parent Thread class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Way 2
 // Creating thread using Runnable interface
 
@@ -93,7 +93,7 @@ class ThreadUsingInterface implements Runnable {
 
 **Output**
 
-```
+```java
 Thread is created using Runnable interface
 ```
 
@@ -105,7 +105,7 @@ Thread is created using Runnable interface
 
 **语法:**
 
-```
+```java
 public class Thread extends Object implements Runnable
 ```
 
@@ -187,7 +187,7 @@ public class Thread extends Object implements Runnable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program Demonstrating Methods of Thread class
 
 // Importing package
@@ -362,7 +362,7 @@ public class Test implements Runnable {
 
 **输出:**
 
-```
+```java
 3
 main
 Thread1 name: Thread-0

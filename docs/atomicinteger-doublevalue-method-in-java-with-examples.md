@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double doubleValue()
 
 ```
@@ -19,7 +19,7 @@ public double doubleValue()
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrates
 // the doubleValue() function
 
@@ -50,13 +50,13 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 7
 Double value: 7.0
 
 ```
 
-```
+```java
 // Java Program to demonstrates
 // the doubleValue() function
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 25
 Double value: 25.0
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime toLocalTime()
 ```
 
@@ -18,7 +18,7 @@ public LocalTime toLocalTime()
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the toLocalTime() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 10:20:00.280
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the toLocalTime() method
 
 import java.util.*;
@@ -71,7 +71,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 12:45:30
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedList.lastIndexOf(Object element)
 ```
 
@@ -20,7 +20,7 @@ LinkedList.lastIndexOf(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate lastIndexOf() Method
 // of LinkedList class
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 Last occurrence of Geeks is at index: 2
 Last occurrence of 10 is at index: 3

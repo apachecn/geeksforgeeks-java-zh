@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Logger getLogger(Logger logger)
 
 ```
@@ -17,7 +17,7 @@ public Logger getLogger(Logger logger)
 
 下面程序举例说明 getLogger()方法:
 
-```
+```java
 // Java program to illustrate
 // LogManager getLogger() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List of Logger Names: 
 GFG
 global

@@ -28,7 +28,7 @@ Java 应用程序被称为 WORA(写一次运行在任何地方)。这意味着�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate working
 // of a Class type object created by JVM
 // to represent .class file in memory.
@@ -79,7 +79,7 @@ class Student {
 
 **Output**
 
-```
+```java
 Student
 getName
 setName
@@ -92,7 +92,7 @@ roll_No
 
 **注:**每装一个“*”。类“*文件中，只创建了类的**一个**对象。
 
-```
+```java
 Student s2 = new Student();
 // c2 will point to same object where 
 // c1 is pointing
@@ -115,7 +115,7 @@ System.out.println(c1==c2); // true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate Class Loader subsystem
 public class Test {
     public static void main(String[] args)
@@ -132,7 +132,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 null
 jdk.internal.loader.ClassLoaders$AppClassLoader@8bcc55f
 

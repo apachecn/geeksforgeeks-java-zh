@@ -22,7 +22,7 @@
 
 T3】JavaT5
 
-```
+```java
 // Print fast Output in Competitive Programming using JAVA
 import java.io.*;
 

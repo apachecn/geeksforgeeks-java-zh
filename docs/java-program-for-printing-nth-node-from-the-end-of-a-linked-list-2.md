@@ -16,7 +16,7 @@
 
 **Output**
 
-```
+```java
 35
 ```
 
@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 static void printNthFromLast(Node head, int n)
 {
     static int i = 0;
@@ -51,7 +51,7 @@ static void printNthFromLast(Node head, int n)
 
 **Output**
 
-```
+```java
 Node no. 4 from last is 35 
 ```
 

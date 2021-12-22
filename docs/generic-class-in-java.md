@@ -8,7 +8,7 @@
 
 **例:**单一类型参数
 
-```
+```java
 class Solution<T>
 {
    T data;
@@ -21,7 +21,7 @@ class Solution<T>
 
 **示例:**多个类型参数
 
-```
+```java
 public class Pair<K, V> {
 
     private K key;
@@ -55,7 +55,7 @@ public class Pair<K, V> {
 
 **例:**
 
-```
+```java
 ***Before Generics*** 
      List l= new ArrayList();
  l.add("India");
@@ -70,7 +70,7 @@ public class Pair<K, V> {
 
 **3。** **编译时检查**:它在编译时检查与泛型相关的数据类型的所有错误，因此在运行时不会出现 问题。
 
-```
+```java
 List<String> list = new ArrayList<String>(); 
 list.add("hello"); 
 list.add(32);   //Compile Time Error 
@@ -79,7 +79,7 @@ list.add(32);   //Compile Time Error
 
 对于泛型类的实例
 
-```
+```java
 BaseType <Type> object = new BaseType <Type>();
 
 ```
@@ -90,7 +90,7 @@ BaseType <Type> object = new BaseType <Type>();
 
 ## Java
 
-```
+```java
 // Java program to show the
 // instance of a generic class
 
@@ -147,7 +147,7 @@ public class Area<T> {
 
 **输出**
 
-```
+```java
 10
 2.5
 

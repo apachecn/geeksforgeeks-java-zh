@@ -17,7 +17,7 @@
 
 T5
 
-```
+```java
 // Java Program to check if 
 // a directory is empty or not
 

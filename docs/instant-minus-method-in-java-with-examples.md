@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Instant minus(long amountToSubtract,
                      TemporalUnit unit)
 
@@ -33,7 +33,7 @@ public Instant minus(long amountToSubtract,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.minus() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant after subtracting DAYS: 2018-12-10T19:34:50.630Z
 
 ```
@@ -72,7 +72,7 @@ Instant after subtracting DAYS: 2018-12-10T19:34:50.630Z
 
 **语法:**
 
-```
+```java
 public Instant minus(TemporalAmount amountTosubtract)
 
 ```
@@ -89,7 +89,7 @@ public Instant minus(TemporalAmount amountTosubtract)
 下面的程序说明了减()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.minus() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant after subtracting Days: 2018-12-20T19:34:50.630Z
 
 ```

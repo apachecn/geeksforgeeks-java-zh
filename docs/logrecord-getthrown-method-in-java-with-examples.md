@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Throwable getThrown()
 
 ```
@@ -18,7 +18,7 @@ public Throwable getThrown()
 以下程序说明 getThrown()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getThrown() method
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 throwable object = java.io.IOException: Error in Input
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getThrown() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 throwable object = java.lang.ArithmeticException
 
 ```

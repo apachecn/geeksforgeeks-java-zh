@@ -15,7 +15,7 @@ java 的数学库用于实现 Borwein 算法，该算法是库的幂和根函数
 
 **语法**:
 
-```
+```java
 public static double pow(double a, double b) ;
 ```
 
@@ -32,7 +32,7 @@ public static double pow(double a, double b) ;
 
 ***语法**:*
 
-```
+```java
 *public static double sqrt(double a) ;*
 ```
 
@@ -42,7 +42,7 @@ public static double pow(double a, double b) ;
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java program to implement Borwein Algorithm
 
 // Importing generic java classes
@@ -101,6 +101,6 @@ class GFG {
 
 ***输出:***
 
-```
+```java
 *Value of 1/pi : 0.31830988618379075*
 ```

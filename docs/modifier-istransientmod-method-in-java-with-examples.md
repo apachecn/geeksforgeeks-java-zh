@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isTransient(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isTransient(int mod)
 下面的程序说明了 isTransient()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isTransient() method
 
 import java.lang.reflect.*;
@@ -54,14 +54,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 137 is transient : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isTransient()
 
 import java.io.Serializable;
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 130 is transient : true
 
 ```

@@ -27,7 +27,7 @@
 
 1.  **Java program to create a Circle and add Shadow effect to it:** In this program we will create a Circle named *circle* and create a *Shadow effect shadow* with specified radius and color. The shadow effect will be added to the circle using the *setEffect()* function and the circle will be added to the group. The circles will be translated to specific position in the stage using *setTranslateX()* and *setTranslateY()* function. The group will be added to the scene and the scene will be added to the stage.
 
-    ```
+    ```java
     // Java program to create a Circle 
     // and add Shadow effect to it
     import javafx.application.Application;
@@ -92,7 +92,7 @@
 
 2.  **Java program to create four Circles and add Shadow effect to it( of different BlurType):** In this program we will create a Circles named *circle*, *circle1*, *circle2*, *circle3* and create a Shadow effects named *shadow1*, *shadow2*, *shadow3*, *shadow4* with specified radius, color and blur type. The shadow effect will be added to the circle using the setEffect() function and the circles will be added to the group.The circles will be translated to specific position in the stage using *setTranslateX()* and *setTranslateY()* function. The group will be added to the scene and the scene will be added to the stage.
 
-    ```
+    ```java
     // Java program to create four Circles and add Shadow
     // effect to it which are of different BlurType
     import javafx.application.Application;

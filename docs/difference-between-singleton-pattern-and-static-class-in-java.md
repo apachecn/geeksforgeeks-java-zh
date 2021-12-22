@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Difference Between
 // Singleton Pattern vs Static Class.
 
@@ -168,7 +168,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 SingletonEagar@2f4d3709 : Singleton Eager initialisation 
 Singleton@1d81eb93 : Singleton Lazy initialisation 
 SingletonSynchronized@34a245ab : Synchronized Singleton
@@ -199,7 +199,7 @@ SingletonSynchronized@34a245ab : Synchronized Singleton
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Difference Between
 // Singleton Pattern vs Static Class.
 
@@ -259,7 +259,7 @@ class GFG_Outer {
 
 **Output**
 
-```
+```java
 20
 20
 This is Inner Class Constructor...

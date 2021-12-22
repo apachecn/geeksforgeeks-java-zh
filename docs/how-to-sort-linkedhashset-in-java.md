@@ -14,7 +14,7 @@ Java 中有三种方法可以对 LinkedHashSet 进行排序。以下哪一项:
 
 在这个方法中，我们将 LinkedHashSet 转换成一个 ArrayList，然后使用[集合](https://www.geeksforgeeks.org/collections-in-java-2/)类的 [sort()](https://www.geeksforgeeks.org/collections-sort-java-examples/) **方法**对 ArrayList 进行排序。
 
-```
+```java
 // Convert LinkedHashSet to an ArrayList
 ArrayList<Integer> array = new ArrayList<>(set);
 
@@ -24,7 +24,7 @@ Collections.sort(array);
 
 **申报**
 
-```
+```java
 public static void sort(List myList)
 ```
 
@@ -34,7 +34,7 @@ public static void sort(List myList)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to sort LinkedHashSet
 import java.util.*;
 
@@ -68,7 +68,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before sort: [10, 50, 20, 40, 30]
 After sort: [10, 20, 30, 40, 50]
 ```
@@ -77,7 +77,7 @@ After sort: [10, 20, 30, 40, 50]
 
 在这个方法中，我们使用 [**构造函数**](https://www.geeksforgeeks.org/constructors-c/) 将 LinkedHashSet 转换为一个 TreeSet，以自动对元素进行排序。
 
-```
+```java
 // Convert LinkedHashSet to a TreeSet
 TreeSet<Integer> tree_set = new TreeSet<>(set);
 ```
@@ -86,7 +86,7 @@ TreeSet<Integer> tree_set = new TreeSet<>(set);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to sort LinkedHashSet
 import java.util.*;
 
@@ -118,7 +118,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before sort: [10, 50, 20, 40, 30]
 After sort: [10, 20, 30, 40, 50]
 ```
@@ -127,7 +127,7 @@ After sort: [10, 20, 30, 40, 50]
 
 在这个方法中，我们使用流和流的 [sorted()](https://www.geeksforgeeks.org/stream-sorted-in-java/) 函数对 LinkedHashSet 进行排序。
 
-```
+```java
 // Sort and print using stream
 set.stream().sorted().forEach(System.out::println);
 ```
@@ -138,7 +138,7 @@ set.stream().sorted().forEach(System.out::println);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to sort LinkedHashSet
 import java.util.*;
 
@@ -169,7 +169,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before sort: [10, 50, 20, 40, 30]
 After sort: 
 10

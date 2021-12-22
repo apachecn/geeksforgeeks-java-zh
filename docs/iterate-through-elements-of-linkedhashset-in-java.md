@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: 
 ["Geeks", "for", "Geeks"]
 
@@ -36,7 +36,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate through linkedHashset
 // Using the for-each loop
 
@@ -65,7 +65,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 for
 geeks
@@ -81,7 +81,7 @@ geeks
 
 **语法:**
 
-```
+```java
 public Iterator<E> iterator()
 ```
 
@@ -89,7 +89,7 @@ public Iterator<E> iterator()
 
 ## Java
 
-```
+```java
 // Java code to demonstrate 
 // the iterating over LinkedHashSet 
 // Using iterators
@@ -126,7 +126,7 @@ class IteratingLinkedHashSet { 
 
 **输出**
 
-```
+```java
 Geek
 For
 Geeks
@@ -141,7 +141,7 @@ Doubt Classes
 
 **语法:**
 
-```
+```java
 set.stream().forEach()
 ```
 
@@ -149,7 +149,7 @@ set.stream().forEach()
 
 ## Java
 
-```
+```java
 // Java code to demonstrate
 // the iterating over LinkedHashSet
 // Using JDK 1.8 streams
@@ -178,7 +178,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 9
 7
 11

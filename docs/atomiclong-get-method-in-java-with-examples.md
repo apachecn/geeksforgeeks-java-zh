@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final long get()
 
 ```
@@ -19,7 +19,7 @@ public final long get()
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the get() function
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 7
 current value: 7
 
@@ -57,7 +57,7 @@ current value: 7
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the get() function
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 25
 current value: 25
 

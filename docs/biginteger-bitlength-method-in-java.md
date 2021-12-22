@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int bitLength()
 ```
 
@@ -16,7 +16,7 @@ public int bitLength()
 
 **例:**
 
-```
+```java
 Input: value = 2300 
 Output: 12
 Explanation:
@@ -31,7 +31,7 @@ Output: 23
 
 下面的程序说明了 BigInteger 的 bitLength()方法的使用。
 
-```
+```java
 // Program to demonstrate bitLength() method of BigInteger 
 
 import java.math.*;
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 bitLength of  2300 is 12
 
 ```

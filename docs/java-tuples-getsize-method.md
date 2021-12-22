@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public abstract int getSize()
 ```
 
 **语法:**
 
-```
+```java
 int size = TupleClassObject.getSize()
 ```
 
@@ -26,7 +26,7 @@ int size = TupleClassObject.getSize()
 
 **程序 1:** 使用 getSize()配合单位类:
 
-```
+```java
 // Below is a Java program to use getSize() method
 
 import java.util.*;
@@ -48,13 +48,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Size = 1
 ```
 
 **程序二:**使用 getSize()配合四方类:
 
-```
+```java
 // Below is a Java program to use getSize() method
 
 import java.util.*;
@@ -81,7 +81,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Size = 4
 ```
 

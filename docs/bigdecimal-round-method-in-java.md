@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal round(*MathContext m*)
 
 ```
@@ -18,7 +18,7 @@ public BigDecimal round(*MathContext m*)
 以下程序说明了 Java . math . bigdecimal . round(*math context m*)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // round() method
 import java.math.*;
@@ -44,14 +44,14 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 The value of 4.2585 after rounding is 4.259
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the
 // round() method
 import java.math.*;
@@ -77,7 +77,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 The value of -4.2585 after rounding is -4.259
 
 ```

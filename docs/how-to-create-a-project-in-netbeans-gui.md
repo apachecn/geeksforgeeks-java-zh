@@ -29,7 +29,7 @@
 
 **第五步:**现在， ***对话框*** 也显示了 NetBeans 将要保存项目的位置。如果你想改变项目位置，你可以从这里进行设置，但是默认情况下，所有项目将保存在本地计算机的以下位置，如下所示:
 
-```
+```java
 C:\Users\Administrator\Documents\NetBeansProjects
 // As per windows operating system
 // Note: Will differ as per OS 

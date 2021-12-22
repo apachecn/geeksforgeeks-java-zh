@@ -17,7 +17,7 @@ EnumMap 和 HashMap 都是实现[映射](https://www.geeksforgeeks.org/map-inter
 
 ## 【Java】
 
-```
+```java
 // Java program to illustrate working
 // of EnumMap
 
@@ -58,7 +58,7 @@ class EnumMapExample {
 
 输出
 
-```
+```java
 Size of EnumMap: 4
 Sunday 1
 Monday 2

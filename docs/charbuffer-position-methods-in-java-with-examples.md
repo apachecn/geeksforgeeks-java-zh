@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public CharBuffer position(int newPosition)
 ```
 
@@ -18,7 +18,7 @@ public CharBuffer position(int newPosition)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // position() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 4
 position after reset: 2
 
@@ -71,7 +71,7 @@ position after reset: 2
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // position() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharBuffer: [,  x,,  y]
 
 ```

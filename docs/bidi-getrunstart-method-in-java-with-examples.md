@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getRunStart(int run)
 ```
 
@@ -18,7 +18,7 @@ public int getRunStart(int run)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getRunStart() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 start of run for index 0 is : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getRunStart() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 start of run for index 0 is : 0
 
 ```

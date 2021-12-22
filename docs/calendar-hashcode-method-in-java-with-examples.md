@@ -5,7 +5,7 @@
 Calendar 类中的 **hashCode()** 方法用于返回该 Calendar 对象的哈希代码。
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -16,7 +16,7 @@ public int hashCode()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // hashCode() method
 
@@ -44,7 +44,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The time on Calendar shows: Wed Feb 20 15:55:22 UTC 2019
 The hash code for this calendar is: 194416203
 ```
@@ -53,7 +53,7 @@ The hash code for this calendar is: 194416203
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // hashCode() method
 
@@ -82,7 +82,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The time on Calendar shows: Tue Jul 10 00:00:00 UTC 2018
 The hash code for this calendar is: -2123101761
 ```

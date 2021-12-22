@@ -27,7 +27,7 @@ SplitPane 类是 JavaFX 的一部分。SplitPane 类是一个包含两个或多�
     *   将 *split_pane* 添加到场景中，并将场景添加到舞台中。
     *   调用 *show()* 功能显示最终结果。
 
-    ```
+    ```java
     // Java program to create a split pane
     // and add labels to it
     import javafx.application.Application;
@@ -103,7 +103,7 @@ SplitPane 类是 JavaFX 的一部分。SplitPane 类是一个包含两个或多�
     *   使用*设置方向()*功能设置*分割窗格*的方向。
     *   调用 *show()* 功能显示最终结果。
 
-    ```
+    ```java
     // Java program to create a split pane, set
     // its orientation and add labels to it
     import javafx.application.Application;

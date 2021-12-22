@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static Locale getDefault()
 ```
 
@@ -18,7 +18,7 @@ public static Locale getDefault()
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // getLocale() method in Locale
 
@@ -42,7 +42,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 en_US
 
 ```
@@ -53,7 +53,7 @@ en_US
 
 **语法:**
 
-```
+```java
 Locale.getDefault(Locale.Category category)
 ```
 
@@ -67,7 +67,7 @@ Locale.getDefault(Locale.Category category)
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // getLocale() method in Locale
 
@@ -95,14 +95,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 en_US
 
 ```
 
 **程序 2:** 演示空指针异常
 
-```
+```java
 // Java code to demonstrate
 // getLocale() method in Locale
 
@@ -137,7 +137,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

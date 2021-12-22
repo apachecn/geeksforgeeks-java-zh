@@ -22,7 +22,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0F9D58</color>
@@ -53,7 +53,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -80,7 +80,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Application;
 import javax.inject.Singleton;
 import dagger.Module;
@@ -113,7 +113,7 @@ class AppModule {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Application;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
@@ -175,7 +175,7 @@ class ApiModule {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import javax.inject.Singleton;
 import dagger.Component;
 
@@ -192,7 +192,7 @@ public interface ApiComponent {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Application;
 
 public class MyApplication extends Application {

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getStrength()
 ```
 
@@ -19,7 +19,7 @@ public int getStrength()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getStrength() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current strength property :- IDENTICAL.
 ```
 
@@ -91,7 +91,7 @@ current strength property :- IDENTICAL.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getStrength() method
 
@@ -140,7 +140,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current strength property :-  TERTIARY.
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setLoggerName(String name)
 
 ```
@@ -18,7 +18,7 @@ public void setLoggerName(String name)
 下面的程序说明了 setLoggerName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setLoggerName() method
 
 import java.util.logging.Level;
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Logger Name = class java.lang.String
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setLoggerName() method
 
 import java.util.logging.Level;
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Logger Name = null
 
 ```

@@ -24,7 +24,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.notes">
@@ -79,7 +79,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -125,7 +125,7 @@ public class AppWidget extends AppWidgetProvider {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.content.Context;
 
 import java.io.BufferedReader;
@@ -212,7 +212,7 @@ class StickyNote {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
 import android.widget.EditText;
@@ -290,7 +290,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## **可扩展标记语言**
 
-```
+```java
 <FrameLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"

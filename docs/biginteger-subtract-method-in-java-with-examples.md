@@ -6,7 +6,7 @@ java.math.BigInteger 。减法(BigInteger val)用于计算两个 BigInteger 的�
 
 **语法:**
 
-```
+```java
 public BigInteger subtract(BigInteger val)
 
 ```
@@ -19,7 +19,7 @@ public BigInteger subtract(BigInteger val)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // subtract() method of BigInteger
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The difference of
 56454210032311316797946498748 
 and
@@ -72,7 +72,7 @@ is
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // subtract() method of BigInteger
 

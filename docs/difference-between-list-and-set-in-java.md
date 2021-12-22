@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public abstract interface List extends Collection
 ```
 
@@ -14,13 +14,13 @@ public abstract interface List extends Collection
 
 **声明:**设置界面声明为:
 
-```
+```java
 public interface Set extends Collection
 ```
 
 **示例:**
 
-```
+```java
 Input :  Add Elements = [1, 2, 3, 1]
 Output:  Set = [1, 2, 3]
      List = [1, 2, 3, 1]
@@ -34,7 +34,7 @@ Output:  Set = [a, b, d]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implementation of List and Set in Java
 import java.io.*;
 import java.util.*;
@@ -68,7 +68,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List = [5, 6, 3, 5, 4]
 Set = [3, 4, 5, 6]
 ```

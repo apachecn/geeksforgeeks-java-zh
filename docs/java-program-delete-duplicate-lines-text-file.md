@@ -8,7 +8,7 @@
 
 **朴素算法:**
 
-```
+```java
 1\. Create PrintWriter object for output.txt
 2\. Open BufferedReader for input.txt
 3\. Run a loop for each line of input.txt
@@ -29,7 +29,7 @@
 
 要成功运行以下程序，input.txt 必须存在于同一个文件夹中，或者为其提供完整路径。
 
-```
+```java
 // Java program to remove
 // duplicates from input.txt and 
 // save output to output.txt
@@ -96,7 +96,7 @@ public class FileOperation
 
 输出:
 
-```
+```java
 File operation performed successfully
 
 ```
@@ -107,7 +107,7 @@ File operation performed successfully
 
 要成功运行以下程序，input.txt 必须存在于同一文件夹中，或者为它们提供完整路径。
 
-```
+```java
 // Efficient Java program to remove
 // duplicates from input.txt and 
 // save output to output.txt
@@ -155,7 +155,7 @@ public class FileOperation
 
 输出:
 
-```
+```java
 File operation performed successfully
 
 ```

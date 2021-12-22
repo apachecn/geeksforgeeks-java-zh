@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Initial composition : 
 7 2 3 3 2 7 6 2 
 After removing duplicates : 
@@ -30,7 +30,7 @@ After removing duplicates :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove Duplicate Elements From LinkedList
 import java.io.*;
 
@@ -161,7 +161,7 @@ public class singlyLinkedList {
 
 **Output**
 
-```
+```java
 Initial composition : 
 9 1 1 3 4 8 2 1 
 After removing duplicates : 

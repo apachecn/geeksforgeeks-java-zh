@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public void fine(String msg)
 
 ```
@@ -25,7 +25,7 @@ public void fine(String msg)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.fine(String msg) method
 
@@ -69,7 +69,7 @@ logs.txt 文件上打印的输出如下所示。
 
     **语法:**
 
-    ```
+    ```java
     public void fine(Supplier msgSupplier)
 
     ```
@@ -82,7 +82,7 @@ logs.txt 文件上打印的输出如下所示。
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.fine(String msg) method
 

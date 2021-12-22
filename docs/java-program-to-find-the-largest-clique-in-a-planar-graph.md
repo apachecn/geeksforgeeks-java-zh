@@ -33,7 +33,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find Independent Sets in a Graph
 // By Graph Coloring
 
@@ -476,7 +476,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The number of vertices in the graph is taken as 5
 The maximal independent set's size to be find is 4
 Searching for the set
@@ -491,7 +491,7 @@ Found set of 4 size whose elements are displayed above as a clique for the input
 
 > **注意:**如果我们要提到图的全尺寸(即上面 eg 中的 5)，那么输出如下所示:
 
-```
+```java
 The number of vertices in the graph is taken as 5
 The maximal independent set's size to be find is 5
 Searching for the set

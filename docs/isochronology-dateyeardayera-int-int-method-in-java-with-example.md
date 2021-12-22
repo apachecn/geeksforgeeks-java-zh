@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate dateYearDay(Era era,
                              int yearOfEra,
                              int dayOfYear)
@@ -26,7 +26,7 @@ public LocalDate dateYearDay(Era era,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // dateYearDay() method
 
@@ -70,14 +70,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate is: -1439-01-24
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // dateYearDay() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate is: 0001-01-30
 
 ```

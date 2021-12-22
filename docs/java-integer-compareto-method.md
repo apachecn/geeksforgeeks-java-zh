@@ -6,7 +6,7 @@ java.lang 包的 Integer 类的 **compareTo()** 方法对两个 Integer 对象�
 
 **语法:**
 
-```
+```java
 public int compareTo(Integer anotherInt)
 Parameter :
 anotherInt- : the Integer to be compared.
@@ -23,7 +23,7 @@ numerically greater than the argument Integer
 
 **示例:**展示**Java . lang . integer . compare To()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.compareTo() method
 import java.lang.Integer;
@@ -56,7 +56,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 -1
 0
 1

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final char[] array()
 ```
 
@@ -18,7 +18,7 @@ public final char[] array()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -68,14 +68,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CharBuffer: [a, , b, , , , , , , ]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -155,7 +155,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CharBuffer cb: [a,, b, c,,,,,, ]
 
 CharBuffer cb1: [, d, e,, ]

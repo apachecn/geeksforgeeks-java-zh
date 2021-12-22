@@ -10,7 +10,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate Unsupportance of
 // Multiple Inheritance
 

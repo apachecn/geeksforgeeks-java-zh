@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <T extends Annotation> T
   getAnnotation(Class<T> annotationClass)
 
@@ -21,7 +21,7 @@ public <T extends Annotation> T
 下面的程序说明了 getAnnotation()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getAnnotation() method
 
@@ -75,14 +75,14 @@ class Demo {
 
 **输出:**
 
-```
+```java
 Path: Demo/usr
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getAnnotation() method
 
@@ -134,7 +134,7 @@ class Maths {
 
 **输出:**
 
-```
+```java
 Annotation : @Calculator(add=Adding value, subtract=Subtracting Value)
 
 ```

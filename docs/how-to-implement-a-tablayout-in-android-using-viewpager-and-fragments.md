@@ -21,7 +21,7 @@
 
     ## algorithm fragment . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -43,7 +43,7 @@
 
     ## course fragments。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -65,7 +65,7 @@
 
     ## loginfragment . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -87,7 +87,7 @@
 
     ## viewpragadapter。爪哇
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgtablayout;
 
     import androidx.annotation.NonNull;

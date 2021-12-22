@@ -21,7 +21,7 @@ GFG 目录
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to delete a directory
 
 import java.io.File;
@@ -82,7 +82,7 @@ GFG 文件夹已成功删除
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to delete a directory
 
 import java.io.File;

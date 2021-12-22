@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Array.setFloat(Object []array, int index, float value)
 ```
 
@@ -28,7 +28,7 @@ Array.setFloat(Object []array, int index, float value)
 
     **程序 1:**
 
-    ```
+    ```java
     // Java code to demonstrate
     // setFloat() method of Array class
 
@@ -65,7 +65,7 @@ Array.setFloat(Object []array, int index, float value)
 
     **Output:**
 
-    ```
+    ```java
     Before Set : 1.0 2.0 3.0 
     After Set : 1.0 4.0 3.0
 
@@ -73,7 +73,7 @@ Array.setFloat(Object []array, int index, float value)
 
     **程序 2:** 演示 java.lang.NullPointerException
 
-    ```
+    ```java
     // Java code to demonstrate
     // setFloat() method of Array class
 
@@ -100,14 +100,14 @@ Array.setFloat(Object []array, int index, float value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.NullPointerException
 
     ```
 
     **程序 3:** 演示 Java . lang . arrayindexoutofboundsexception
 
-    ```
+    ```java
     // Java code to demonstrate setFloat()
     // method of Array class
 
@@ -136,14 +136,14 @@ Array.setFloat(Object []array, int index, float value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.ArrayIndexOutOfBoundsException
 
     ```
 
     **程序 4:** 演示 Java . lang . illegalargumentexception
 
-    ```
+    ```java
     // Java code to demonstrate setFloat()
     // method of Array class
 
@@ -172,7 +172,7 @@ Array.setFloat(Object []array, int index, float value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.IllegalArgumentException: Argument is not an array
 
     ```

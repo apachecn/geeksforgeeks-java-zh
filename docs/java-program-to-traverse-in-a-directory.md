@@ -34,7 +34,7 @@ GFG 目录
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to traverse through a directory
 import java.io.File;
 
@@ -85,7 +85,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 File: article.docx
 File: GFG.txt
 File: numbers.txt
@@ -105,7 +105,7 @@ File: Payments.xlsx
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to display files with
 // complete path present in a directory
 
@@ -144,7 +144,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 c:\GFG
 c:\GFG\article.docx
 c:\GFG\GFG.txt

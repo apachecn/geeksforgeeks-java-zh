@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean remove(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean remove(Object o)
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of ConcurrentLinkedQueue
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 Removing Number 78249 successful: true
 Updated ConcurrentLinkedQueue: [4353, 7824, 8724]
@@ -64,7 +64,7 @@ Updated ConcurrentLinkedQueue: [4353, 7824, 8724]
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of ConcurrentLinkedQueue
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar, Sanjeet, Rabi]
 Removing String "Aman" successful: true
 Updated ConcurrentLinkedQueue: [Amar, Sanjeet, Rabi]

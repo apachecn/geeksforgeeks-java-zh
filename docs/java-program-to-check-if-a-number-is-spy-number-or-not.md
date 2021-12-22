@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : 22
 Output: Given number is a SPY number.
 Explanation: Sum of the number is 4 (2 + 2)
@@ -25,7 +25,7 @@ Output:  Given number is not a SPY number.
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Check If a Number is Spy number or not
 import java.io.*;
 

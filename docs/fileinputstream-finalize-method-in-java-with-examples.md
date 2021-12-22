@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 protected void finalize​() throws IOException
 ```
 
@@ -24,7 +24,7 @@ protected void finalize​() throws IOException
 
 **第 1 步**–首先，我们必须创建一个扩展 FileInputStream 的类，并将 fileName 传递给它的父类。
 
-```
+```java
 public class GFG extends FileInputStream
 {
     public GFG()
@@ -36,13 +36,13 @@ public class GFG extends FileInputStream
 
 **步骤 2**–创建我们在步骤 1 中创建的类的实例
 
-```
+```java
 GFG gfg=new GFG();
 ```
 
 **步骤 3**–调用 finalize()方法
 
-```
+```java
 gfg.finalize();
 ```
 
@@ -52,7 +52,7 @@ gfg.finalize();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of the
 // Java.io.FileInputStream.finalize() method
 
@@ -103,7 +103,7 @@ public class GFG extends FileInputStream {
 
 **输出-**
 
-```
+```java
 Content read from the file before finalize method is called :
 GeeksForGeeks
 Content read from the file after finalize method is called :

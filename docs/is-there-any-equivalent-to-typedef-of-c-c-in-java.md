@@ -9,14 +9,14 @@
 **typedef:** 它是一个**关键字**而不是一个在 C/C++语言中用于为现有数据类型指定替代名称的函数。当使用 **typedef 关键字**时，数据类型的名称变得有点复杂时，它与用户定义的数据类型一起使用，除非没有必要。
 **使用 typedef 的语法:**
 
-```
+```java
 typedef existing_name alias_name;
 
 ```
 
 ## C++
 
-```
+```java
 // C++ program to demonstrate typedef 
 #include <bits/stdc++.h>
 using namespace std;
@@ -38,7 +38,7 @@ int main() 
 
 ## C
 
-```
+```java
 // C program to demonstrate typedef
 #include <stdio.h>
 
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```java
 a
 
 ```

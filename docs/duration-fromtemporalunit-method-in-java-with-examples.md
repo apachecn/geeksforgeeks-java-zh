@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Duration from(TemporalUnit amount)
 
 ```
@@ -24,7 +24,7 @@ public static Duration from(TemporalUnit amount)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate from() method
 
 import java.time.Duration;
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 432000
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate from() method
 
 import java.time.Duration;
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 18000
 
 ```

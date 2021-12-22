@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find equilibrium
 // index of an array
 
@@ -69,7 +69,7 @@ class EquilibriumIndex {
 
 **Output**
 
-```
+```java
 3
 ```
 
@@ -78,7 +78,7 @@ class EquilibriumIndex {
 **方法二(刁钻高效)**
 思路是先得到阵的总和。然后迭代数组并不断更新初始化为零的左和。在循环中，我们可以通过逐个减去元素得到正确的和。感谢 Sambasiva 提出了这个解决方案，并为此提供了代码。
 
-```
+```java
 1) Initialize leftsum  as 0
 2) Get the total sum of the array as *sum*
 3) Iterate through the array and for each index i, do following.
@@ -101,7 +101,7 @@ class EquilibriumIndex {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find equilibrium
 // index of an array
 
@@ -144,7 +144,7 @@ class EquilibriumIndex {
 
 **Output**
 
-```
+```java
 First equilibrium index is 3
 ```
 
@@ -161,7 +161,7 @@ First equilibrium index is 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find equilibrium
 // index of an array
 class GFG{
@@ -231,7 +231,7 @@ public static void main(String[] args)
 
 **Output**
 
-```
+```java
 First Point of equilibrium is at index 3
 ```
 

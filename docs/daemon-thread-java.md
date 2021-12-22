@@ -29,7 +29,7 @@ Java 中的守护线程是一个低优先级线程，在后台运行，执行垃
 
 **语法:**
 
-```
+```java
 public final void setDaemon(boolean on)
 ```
 
@@ -48,7 +48,7 @@ public final void setDaemon(boolean on)
 
 **语法:**
 
-```
+```java
 public final boolean isDaemon()
 ```
 
@@ -62,7 +62,7 @@ T0T6】
 
 **输出:**
 
-```
+```java
 t1 is Daemon thread
 t3 is Daemon thread
 t2 is User thread
@@ -74,7 +74,7 @@ t2 is User thread
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate the usage of
 // exception in Daemon() Thread
 
@@ -103,7 +103,7 @@ public class DaemonThread extends Thread
 
 **运行时异常:**
 
-```
+```java
 Exception in thread "main" java.lang.IllegalThreadStateException
     at java.lang.Thread.setDaemon(Thread.java:1352)
     at DaemonThread.main(DaemonThread.java:19)
@@ -111,7 +111,7 @@ Exception in thread "main" java.lang.IllegalThreadStateException
 
 **输出:**
 
-```
+```java
 Thread name: Thread-0
 Check if its DaemonThread: false
 ```

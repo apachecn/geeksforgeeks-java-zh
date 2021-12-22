@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean find()
 
 ```
@@ -19,7 +19,7 @@ public boolean find()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate find() method
 
 import java.util.regex.*;
@@ -53,14 +53,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate find() method
 
 import java.util.regex.*;
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

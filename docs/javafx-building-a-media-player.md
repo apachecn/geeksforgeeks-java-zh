@@ -11,7 +11,7 @@
 对于媒体播放器应用程序，我们有三个不同的类，第一个是启动这个应用程序的 Main 类，然后是运行视频和音频的 player 类和控制媒体的 MediaBar 类。
  **实施:** 
 
-```
+```java
 // Java program to Build a Media 
 // Player in JavaFX
 import java.io.File;
@@ -253,20 +253,20 @@ public class Main extends Application { 
 
 在我们扩展到应用程序类的 Main.java 类中，我们有两种方法一种是启动程序的主要方法，另一种是启动方法，我们可以在其中设置舞台和媒体控制边界。然后我们在底部添加了滑块来控制视频的时间和音量。为了增加跳转到视频特定部分的功能，我们使用了-
 
-```
+```java
 player.seek(player.getMedia().
                   getDuration().multiply(time.getValue()/100));
 ```
 
 以及改变媒体
 
-```
+```java
  fileChooser.showOpenDialog(primaryStage) 
 ```
 
 已在上述程序中使用。出于造型目的，我们提出了 CSS，如中所示
 
-```
+```java
 -fx-background-color:#bfc2c7
 ```
 

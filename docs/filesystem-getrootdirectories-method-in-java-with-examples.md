@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract Iterable getRootDirectories()
 
 ```
@@ -18,7 +18,7 @@ public abstract Iterable getRootDirectories()
 下面的程序说明了 getRootDirectories()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // FileSystem.getRootDirectories() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // FileSystem.getRootDirectories() method
 import java.nio.file.FileSystem;

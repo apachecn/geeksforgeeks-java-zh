@@ -6,7 +6,7 @@
 
 **语法:** filter()方法
 
-```
+```java
 filter(Predicate predicate)
 ```
 
@@ -16,7 +16,7 @@ filter(Predicate predicate)
 
 你有没有想过，当我们编写下面的示例时会发生什么，这个示例是一个 lambda 表达式，它的元素映射到一个“*元素% 2 = = 0*”*？*那么屏幕背后到底发生了什么，它实际上是如何工作的？这一切的魔力都是基于一个叫做**功能接口**的东西，因为功能接口只有一个抽象方法。因为默认方法有实现，所以它们不是抽象的。例如，谓词接口、消费者接口都是功能接口。
 
-```
+```java
 List.of(10,5,23,54).stream().filter(element -> element%2==0);
 ```
 
@@ -26,7 +26,7 @@ List.of(10,5,23,54).stream().filter(element -> element%2==0);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate Use of filter() Method
 
 // Importing all. input output classes
@@ -58,7 +58,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 12
 34
 32
@@ -71,19 +71,19 @@ class GFG {
 *   现在，屏幕后面发生了什么？代码片段“ ***元素→元素%2 == 0*** 是如何被发送到过滤方法的。
 *   如果我们看一下 filter()方法的签名，可以看到它在参数中使用了一个谓词。
 
-```
+```java
 public abstract Stream<T> filter(Predicate<? super T> predicate)
 ```
 
 *   所以当我们查看谓词的文档时，它有如下签名，上面写着@FunctionalInterface 注释
 
-```
+```java
 public interface Predicate<T>
 ```
 
 *   谓词接口中的功能方法如下:
 
-```
+```java
 boolean Test(T t) ;
 ```
 
@@ -95,7 +95,7 @@ boolean Test(T t) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implementation of the Predicate interface
 
 // Importing input output classes
@@ -143,7 +143,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 12
 34
 32

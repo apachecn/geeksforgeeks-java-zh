@@ -6,7 +6,7 @@ Java 中 **Console** 类的 **flush()** 方法用于刷新控制台，并强制�
 
 **语法:**
 
-```
+```java
 public void flush()
 
 ```
@@ -25,7 +25,7 @@ public void flush()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Console flush() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Console flush() method
 

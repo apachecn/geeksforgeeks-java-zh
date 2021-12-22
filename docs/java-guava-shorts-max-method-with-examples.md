@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static short max(short... array)
 
 ```
@@ -21,7 +21,7 @@ public static short max(short... array)
 
 **示例-1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.max() method
 import com.google.common.primitives.Shorts;
@@ -43,14 +43,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Maximum value is : 15
 
 ```
 
 **示例-2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.max() method
 import com.google.common.primitives.Shorts;
@@ -74,7 +74,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.IllegalArgumentException
     at com.google.common.base.Preconditions.checkArgument(Preconditions.java:108)
     at com.google.common.primitives.Shorts.max(Shorts.java:254)

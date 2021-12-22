@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ValueRange range(TemporalField field)
 
 ```
@@ -23,7 +23,7 @@ public ValueRange range(TemporalField field)
 以下程序举例说明了 range()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.range() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Range in MONTH_OF_YEAR: 1 - 12
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.range() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Range in DAY_OF_MONTH: 1 - 31
 
 ```

@@ -33,7 +33,7 @@
 
 1.  **Java Program to create a font object and apply it to a text:** In this program we will create a Font named *font* and specify its family, its font weight and size. Apply this font to the text and add this text to the TextFlow named textflow. Create a VBox named *vbox* and add the textflow to the *vbox* and add the vbox to the scene and add the scene to stage. Call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java Program to create a font object 
     // and apply it to a text
     import javafx.application.Application;
@@ -117,7 +117,7 @@
 
 2.  **Java Program to create a font object and apply it to a text and allow the user to select the font from the combo box:** In this program we will create a Font named *font* and specify its family, its font weight and size. Apply this font to the text and add this text to the TextFlow named textflow. Create a VBox named *vbox* and add the textflow to the vbox and add the vbox to the scene and add the scene to stage. Create two combo box and add the font names to one and the font weight to the other and create an *EventHandler* to handle the events of the combo boxes and set the font to the type specified by the user.
 
-    ```
+    ```java
     // Java Program to create a font object 
     // and apply it to a text and allow the 
     // user to select font from the combo box

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void setGroupingSize(int newSize)
 
 ```
@@ -19,7 +19,7 @@ public void setGroupingSize(int newSize)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setGroupingSize() method
 
@@ -44,14 +44,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1234, 5678.9
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setGroupingSize() method
 
@@ -76,7 +76,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 12, 34, 56, 78.9
 
 ```

@@ -26,7 +26,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -73,7 +73,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--as we want to open main activity from our link so we are specifying
     only in main activity or we can specify that in different activity as well
     on below line we are adding intent filter to our MainActivity-->
@@ -112,7 +112,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.deeplinks">
@@ -172,7 +172,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.deeplinks;
 
 import android.net.Uri;

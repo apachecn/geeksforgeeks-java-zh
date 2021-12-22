@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract LongBuffer slice()
 ```
 
@@ -22,7 +22,7 @@ public abstract LongBuffer slice()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // slice() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original LongBuffer: [8, 9, 0, 0, 0, 0, 0, 0, 0, 0]
 position: 2
 capacity: 10
@@ -101,7 +101,7 @@ capacity: 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // slice() method
 
@@ -171,7 +171,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original LongBuffer: [8, 9, 5, 3, 0, 0, 0, 0, 0, 0]
 position: 4
 capacity: 10

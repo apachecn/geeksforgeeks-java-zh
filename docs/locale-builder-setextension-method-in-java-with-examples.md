@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Locale.Builder setExtension(
                           char extensionKey, 
                           String extensionValue)
@@ -26,7 +26,7 @@ public Locale.Builder setExtension(
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -66,7 +66,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Setting the extension: u/ca-japanese
 Updated LocaleBuilder: java.util.Locale$Builder@232204a1
@@ -75,7 +75,7 @@ Updated LocaleBuilder: java.util.Locale$Builder@232204a1
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -121,7 +121,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Setting the extension: @/fsdf#
 java.util.IllformedLocaleException:

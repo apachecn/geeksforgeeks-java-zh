@@ -6,7 +6,7 @@ Integer.shortValue()是 java.lang 的一个内置方法，它以 *short* 类型�
 
 **语法:**
 
-```
+```java
 public short shortValue()
 
 ```
@@ -18,7 +18,7 @@ public short shortValue()
 下面的程序说明了 Integer.shortValue()方法:
 **程序 1:** 为正整数。
 
-```
+```java
 // Java program that demonstrates
 // Integer.shortValue() method
 
@@ -40,14 +40,14 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The Value of sh_value = 763
 
 ```
 
 **程序 2:** 为负数。
 
-```
+```java
 // Java program that demonstrates
 // Integer.shortValue() method
 import java.lang.*;
@@ -68,7 +68,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The Value of sh_value = -43
 
 ```
@@ -76,7 +76,7 @@ The Value of sh_value = -43
 **程序 3:** 为十进制值和字符串。
 **注意:**当十进制值和字符串作为参数传递时，它会返回一条错误消息。
 
-```
+```java
 // java program that demonstrates
 // Integer.shortValue() method
 import java.lang.*;
@@ -103,7 +103,7 @@ public class Geeks {
 
 **输出:**
 
-```
+```java
 prog.java:10: error: no suitable constructor found for Integer(double)
     Integer sh_object = new Integer(27.51);
                         ^

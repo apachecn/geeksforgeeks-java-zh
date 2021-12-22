@@ -6,7 +6,7 @@ Java 中 BitSet 类的 length()方法用来知道这个 BitSet 的逻辑大小�
 
 **语法:**
 
-```
+```java
 BitSet.hashCode()
 ```
 
@@ -17,7 +17,7 @@ BitSet.hashCode()
 以下程序用于说明 BitSet.length()的工作方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate length()
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {25, 31, 40, 53, 100}
 The Length is: 101
 
@@ -54,7 +54,7 @@ The Length is: 101
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate length()
 import java.util.*;
 
@@ -76,7 +76,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {}
 The Length is: 0
 

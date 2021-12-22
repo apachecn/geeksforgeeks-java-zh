@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isSpaceChar(char ch)
 
 ```
@@ -25,7 +25,7 @@ public static boolean isSpaceChar(char ch)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Character.isSpaceChar() method
 import java.lang.*;
@@ -51,7 +51,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 is a space character? false
 c2 is a space character? false
 
@@ -59,7 +59,7 @@ c2 is a space character? false
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // Character.isSpaceChar() method
 import java.lang.*;
@@ -86,7 +86,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 is a space character? false
 c2 is a space character? true
 

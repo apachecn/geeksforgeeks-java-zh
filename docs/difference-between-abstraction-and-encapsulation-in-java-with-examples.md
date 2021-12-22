@@ -10,7 +10,7 @@
 和封装一样，一个类中的数据对其他类是隐藏的，所以也称为数据隐藏。
 封装可以通过将类中的所有变量声明为私有，并在类中编写公共方法来设置和获取变量的值来实现。
 
-```
+```java
 // Java program to demonstrate encapsulation
 
 public class Encapsulate {
@@ -91,7 +91,7 @@ class TestEncapsulation {
 
 **Output:**
 
-```
+```java
 Geek's name: Harsh
 Geek's age: 19
 Geek's roll: 51
@@ -104,7 +104,7 @@ Geek's roll: 51
 
 <u>数据抽象也可以定义为只识别对象所需特征而忽略无关细节的过程。对象的属性和行为使其区别于其他类似类型的对象，也有助于对对象进行分类/分组。</u>
 
-```
+```java
 // Java program to illustrate the concept of Abstraction
 
 abstract class Shape {
@@ -202,7 +202,7 @@ public class Test {
 
 <u>**Output:**
 
-```
+```java
 Shape constructor called
 Circle constructor called
 Shape constructor called

@@ -20,7 +20,7 @@ T0T6】
 
 #### 输出:
 
-```
+```java
 GeeksForGeeks <- Reverse -> skeeGroFskeeG
 Hello World <- Reverse -> dlroW olleH
 

@@ -39,7 +39,7 @@ Java 在编码领域有着巨大的应用，我们几乎都知道这个事实。
 
 t 便于使用 getter 方法返回映射。稍后，这些映射被用来以与其他属性相同的方式序列化 JSON 的附加属性。
 
-```
+```java
 public class ExtendableBean {
 
   public String name;
@@ -56,7 +56,7 @@ public class ExtendableBean {
 
 这个注释便于将特定的方法标记为 getter 方法。
 
-```
+```java
 public class MyBean {
 
   public int id;
@@ -73,7 +73,7 @@ public class MyBean {
 
 当您序列化一个 JSON 对象时，它的顺序可能会改变，但是这个注释有助于在这个过程中保持一个特定的顺序。
 
-```
+```java
 @JsonPropertyOrder({ "name", "id" })
 
 public class MyBean {
@@ -87,7 +87,7 @@ public class MyBean {
 
 使用这个注释，可以序列化任何单词，而无需任何修饰或转义。
 
-```
+```java
 public class RawBean {
 
   public String name;
@@ -101,7 +101,7 @@ public class RawBean {
 
 使用此注释，您可以使用单个方法序列化整个对象。
 
-```
+```java
 public enum TypeEnumWithValue {
 
   TYPE1(1, "Type A"), TYPE2(2, "Type 2");
@@ -122,7 +122,7 @@ public enum TypeEnumWithValue {
 
 这个注释方便了在 JSON 上指定的根节点的外观。包装根值也需要启用。
 
-```
+```java
 {
   "id": 1,
   "name": "John"
@@ -133,7 +133,7 @@ public enum TypeEnumWithValue {
 
 使用这个注释，您可以指定一个自定义序列化程序来整理 JSON 对象。
 
-```
+```java
 public class EventWithSerializer {
 
   public String name;
@@ -147,7 +147,7 @@ public class EventWithSerializer {
 
 在反序列化过程中，使用了一个工厂方法。此注释用于微调此方法。
 
-```
+```java
 {
   "id": 1,
   "theName": "My bean"
@@ -158,7 +158,7 @@ public class EventWithSerializer {
 
 当我们不必解析属性值，而是将其注入到 JSON 输入中时，我们使用这个注释。
 
-```
+```java
 public class BeanWithInject {
 
   @JacksonInject
@@ -172,7 +172,7 @@ public class BeanWithInject {
 
 就像 getter 注释一样，这有助于使用 Map 的 setter 方法，然后使用 Map 以与其他属性相同的方式反序列化 JSON 的附加属性。
 
-```
+```java
 public class ExtendableBean {
 
   public String name;
@@ -189,7 +189,7 @@ public class ExtendableBean {
 
 这个注释允许任何方法被标记为 setter 方法。
 
-```
+```java
 public class MyBean {
 
   public int id;
@@ -206,7 +206,7 @@ public class MyBean {
 
 此注释用于指定自定义反序列化程序，以便取消 JSON 对象的标记。
 
-```
+```java
 public class EventWithSerializer {
 
   public String name;
@@ -220,7 +220,7 @@ public class EventWithSerializer {
 
 使用这个注释，我们使用默认值来反序列化未知的枚举值。
 
-```
+```java
 public class AliasBean {
 
   @JsonAlias({ "fName", "f_name" })
@@ -233,7 +233,7 @@ public class AliasBean {
 
 使用此注释，您可以将一个属性或一组属性标记为忽略。这是在班级级别完成的。
 
-```
+```java
 @JsonIgnoreProperties({ "id" })
 public class BeanWithIgnore {
     public int id;
@@ -245,7 +245,7 @@ public class BeanWithIgnore {
 
 这一个服务于与上面相同的目的，唯一的区别是它在现场使用。
 
-```
+```java
 public class BeanWithIgnore {
 
   @JsonIgnore
@@ -259,7 +259,7 @@ public class BeanWithIgnore {
 
 使用此注释，您可以将特定类型的属性标记为忽略。
 
-```
+```java
 public class User {
 
   public int id;
@@ -278,7 +278,7 @@ public class User {
 
 此注释用于那些具有空默认值的排除属性。
 
-```
+```java
 @JsonInclude(Include.NON_NULL)
 
 public class MyBean {
@@ -292,7 +292,7 @@ public class MyBean {
 
 此注释有助于检测不可见或无法访问的属性。
 
-```
+```java
 @JsonAutoDetect(fieldVisibility = Visibility.ANY)
 
 public class PrivateBean {
@@ -314,7 +314,7 @@ public class PrivateBean {
 
 使用这个可以设置注释类必须使用的类型名。
 
-```
+```java
 public class Zoo {
 
   public Animal animal;
@@ -350,7 +350,7 @@ public class Zoo {
 
 该注释用于标记非标准的 setter 或 getter 方法，这些方法必须与 JSON 属性相关联。
 
-```
+```java
 public class MyBean {
 
   public int id;
@@ -372,7 +372,7 @@ public class MyBean {
 
 此注释通常用于日期字段，并在序列化或反序列化期间指定格式。
 
-```
+```java
 public class EventWithFormat {
 
   public String name;
@@ -388,7 +388,7 @@ public class EventWithFormat {
 
 在序列化或反序列化过程中，需要解包对象的值。这个注释是用来实现目的的。
 
-```
+```java
 public class UnwrappedUser {
 
   public int id;
@@ -408,7 +408,7 @@ public class UnwrappedUser {
 
 此注释用于控制要序列化或不序列化的值。
 
-```
+```java
 public class Views {
     public static class Public {}
     public static class Internal extends Public {}
@@ -419,7 +419,7 @@ public class Views {
 
 这种注释用于显示具有父子关系的对象。
 
-```
+```java
 public class ItemWithRef {
 
   public int id;
@@ -434,7 +434,7 @@ public class ItemWithRef {
 
 这与前一个功能相同。
 
-```
+```java
 private class Player {
 
   public int id;
@@ -458,7 +458,7 @@ player.info = new Info(1, player);
 
 ## 爪哇
 
-```
+```java
 @JsonIdentityInfo(
   generator = ObjectIdGenerators.PropertyGenerator.class,
   property = "id")
@@ -473,7 +473,7 @@ public class ItemWithIdentity {
 
 该注释可用于在序列化和反序列化过程中应用过滤器。
 
-```
+```java
 @JsonFilter("myFilter")
 
 public class BeanWithFilter {
@@ -487,7 +487,7 @@ public class BeanWithFilter {
 
 该注释可用于创建定制的杰克逊注释。
 
-```
+```java
 @Retention(RetentionPolicy.RUNTIME)
 @JacksonAnnotationsInside
 @JsonInclude(Include.NON_NULL)

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MinguoChronology getChronology()
 
 ```
@@ -21,7 +21,7 @@ T4】例 1:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getChronology() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MinguoChronology: Minguo
 
 ```
@@ -67,7 +67,7 @@ MinguoChronology: Minguo
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getChronology() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MinguoChronology: Minguo
 
 ```

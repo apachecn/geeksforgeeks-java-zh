@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate dateNow(ZoneId zone)
 ```
 
@@ -18,7 +18,7 @@ public LocalDate dateNow(ZoneId zone)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate is: 2020-03-08
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate is: 2020-03-08
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractSequentialList.set(int index, Object element)
 
 ```
@@ -22,7 +22,7 @@ AbstractSequentialList.set(int index, Object element)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate set()
 
 import java.util.*;
@@ -62,7 +62,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList:[Geeks, for, Geeks, 10, 20]
 The Object that is replaced is: Geeks
 The Object that is replaced is: 20
@@ -72,7 +72,7 @@ The new List is:[Geeks, for, GFG, 10, 50]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate set()
 
 import java.util.*;
@@ -113,7 +113,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList:[50, 40, 30, 20, 10]
 The Object that is replaced is: 40
 The Object that is replaced is: 10

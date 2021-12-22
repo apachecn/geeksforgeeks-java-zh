@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract ByteBuffer putChar(char value)
 ```
 
@@ -25,7 +25,7 @@ public abstract ByteBuffer putChar(char value)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // putChar() method
 
@@ -75,14 +75,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ a b c ]
 
 ```
 
 **例 2:** 演示 BufferOverflowException。
 
-```
+```java
 // Java program to demonstrate
 // putChar() method
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ a b c ]
 
 buffer's current position is not smaller than its limit
@@ -148,7 +148,7 @@ Exception throws : java.nio.BufferOverflowException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // putChar() method
 
@@ -206,7 +206,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ a b c ]
 
 Trying to put the char value in read-only buffer

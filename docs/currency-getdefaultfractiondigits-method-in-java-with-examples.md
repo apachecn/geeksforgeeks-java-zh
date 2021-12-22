@@ -6,7 +6,7 @@ Java 中 **[币类](https://www.geeksforgeeks.org/java-util-currency-methods-exa
 
 **语法:**
 
-```
+```java
 public int getDefaultFractionDigits()
 ```
 
@@ -20,7 +20,7 @@ public int getDefaultFractionDigits()
 
 **程序 1:**
 
-```
+```java
 // Java Code to illustrate
 // getDefaultFractionDigits() method
 
@@ -45,14 +45,14 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 INR's fractions digits are: 2
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java Code to illustrate
 // getDefaultFractionDigits() method
 
@@ -77,14 +77,14 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 Jordan's fractions digits are: 3
 
 ```
 
 **程序 3:** 为无效的货币代码。
 
-```
+```java
 // Java Code to illustrate
 // getDefaultFractionDigits() method
 
@@ -114,7 +114,7 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

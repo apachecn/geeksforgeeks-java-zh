@@ -14,7 +14,7 @@
 
 **申报:**
 
-```
+```java
 public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V>
 ```
 
@@ -31,7 +31,7 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 
 LinkedHashMap 是 **HashMap** 类的扩展，它实现了**映射**接口。因此，该类被声明为:
 
-```
+```java
 public class LinkedHashMap 
 extends HashMap 
 implements Map 
@@ -51,7 +51,7 @@ implements Map 
 
 LinkedHashMap 的实现不同步。如果多个线程同时访问链接的哈希映射，并且至少有一个线程在结构上修改了该映射，则必须在外部同步该映射。这通常是通过同步一些自然封装地图的对象来实现的。如果不存在这样的对象，应该使用**collections . synchronized map**方法“包装”地图。这最好在创建时完成，以防止对地图的意外非同步访问:
 
-```
+```java
 Map m = Collections.synchronizedMap(new LinkedHashMap(...));
 ```
 
@@ -61,31 +61,31 @@ Map m = Collections.synchronizedMap(new LinkedHashMap(...));
 
 **1。LinkedHashMap():** 用于构造默认的 LinkedHashMap 构造函数。
 
-```
+```java
 LinkedHashMap<K, V> lhm = new LinkedHashMap<K, V>();
 ```
 
 **2。LinkedHashMap(int capacity):** 用于初始化具有指定容量的特定 LinkedHashMap。
 
-```
+```java
 LinkedHashMap<K, V> lhm = new LinkedHashMap<K, V>(int capacity);
 ```
 
 **3。LinkedHashMap(地图** <？延伸 **K** ，？扩展 **V** >地图 **):** 它用于用指定地图的元素初始化特定的链接散列表。
 
-```
+```java
 LinkedHashMap<K, V> lhm = new LinkedHashMap<K, V>(Map<? extends K,​? extends V> map);
 ```
 
 **4。LinkedHashMap(int capacity，float fillRatio):** 用于初始化 LinkedHashMap 的容量和填充比率。填充率也称为**负载系数**是一个决定何时自动增加链接哈希表大小的指标。默认情况下，该值为 0.75，这意味着当地图已满 75%时，地图的大小会增加。
 
-```
+```java
 LinkedHashMap<K, V> lhm = new LinkedHashMap<K, V>(int capacity, float fillRatio);
 ```
 
 **5。LinkedHashMap(int capacity，float fillRatio，boolean Order):** 这个构造函数也用于初始化 LinkedHashMap 的容量和填充比，以及是否遵循插入顺序。
 
-```
+```java
 LinkedHashMap<K, V> lhm = new LinkedHashMap<K, V>(int capacity, float fillRatio, boolean Order);
 ```
 
@@ -120,7 +120,7 @@ LinkedHashMap<K, V> lhm = new LinkedHashMap<K, V>(int capacity, float fillRatio,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of LinkedHashMap
 
 // Importing required classes
@@ -185,7 +185,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 {one=practice.geeksforgeeks.org, two=code.geeksforgeeks.org, four=quiz.geeksforgeeks.org}
 Getting value for key 'one': practice.geeksforgeeks.org
 Size of the map: 3

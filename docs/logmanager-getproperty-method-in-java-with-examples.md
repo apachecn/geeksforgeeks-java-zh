@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getProperty(String propertyName)
 
 ```
@@ -17,7 +17,7 @@ public String getProperty(String propertyName)
 
 下面程序举例说明 getProperty()方法:
 
-```
+```java
 // Java program to illustrate
 // LogManager getProperty() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Get Property value of GFG: null
 
 Get Property value of Global: null

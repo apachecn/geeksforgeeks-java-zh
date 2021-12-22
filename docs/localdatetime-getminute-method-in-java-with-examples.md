@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getMinute()
 
 ```
@@ -19,7 +19,7 @@ public int getMinute()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getMinute() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinuteOfHour: 39
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getMinute() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinuteOfHour: 29
 
 ```

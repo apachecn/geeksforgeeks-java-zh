@@ -23,7 +23,7 @@
 
 ****例 1:****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.indexOf(char[] array,
 // char[] target) method
@@ -68,7 +68,7 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 Array: [G, F, G, E, E]
 Target Array: [E, E]
 Target is present at index 3
@@ -77,7 +77,7 @@ Target is present at index 3
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.indexOf(char[] array,
 // char[] target) method
@@ -122,7 +122,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Array: [H, E, L, L, O]
 Target Array: [G, E, E]
 Target is not present in the array

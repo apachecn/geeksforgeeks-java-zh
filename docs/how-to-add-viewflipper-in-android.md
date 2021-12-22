@@ -11,7 +11,7 @@
 
     ## slide _ left . XML
 
-    ```
+    ```java
 
     <?xml version="1.0" encoding="utf-8"?>
     <set xmlns:android="http://schemas.android.com/apk/res/android">
@@ -30,7 +30,7 @@
 
     ## 滑动 _ 右键
 
-```
+```java
 
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">

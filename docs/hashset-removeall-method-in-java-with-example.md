@@ -5,7 +5,7 @@
 **java.util.HashSet** 类的 **removeAll()** 方法用于从此集合中移除指定集合中包含的所有元素。
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection c)
 ```
 
@@ -17,7 +17,7 @@ public boolean removeAll(Collection c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // removeAll() method for Integer value
 
@@ -77,7 +77,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 HashSet before removeAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be removed : [1, 2, 3]
 HashSet after removeAll() operation : [4, 5]
@@ -87,7 +87,7 @@ HashSet after removeAll() operation : [4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // removeAll() method for Integer value
 
@@ -147,7 +147,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 HashSet before removeAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be removed : null
 

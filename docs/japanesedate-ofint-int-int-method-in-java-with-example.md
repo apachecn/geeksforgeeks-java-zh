@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static JapaneseDate of(int prolepticYear,
                               int month,
                               int dayOfMonth)
@@ -29,7 +29,7 @@ public static JapaneseDate of(int prolepticYear,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate of() method
 
 import java.util.*;
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 JapaneseDate: Japanese Heisei 20-04-24
 
 ```
@@ -74,7 +74,7 @@ JapaneseDate: Japanese Heisei 20-04-24
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate of() method
 
 import java.util.*;
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 passed parameter can not form a date
 Exception thrown: java.time.DateTimeException: JapaneseDate before Meiji 6 is not supported
 

@@ -13,7 +13,7 @@ probeContentType()是一个在 Java 文件类中预定义的方法。此方法�
 
 **语法:**在 Java 中，我们可以通过–
 
-```
+```java
 File file = new File("/home/mayur/GFG.java");
 String fileName = file.getName();
 
@@ -24,7 +24,7 @@ fileType = Files.probeContentType(f.toPath());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get the File Extension
 
 import java.io.*;

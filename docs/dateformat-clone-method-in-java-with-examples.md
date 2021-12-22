@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 ```
 
@@ -17,7 +17,7 @@ public Object clone()
 下面的程序说明了克隆()的工作方法日期格式:
 **示例 1:**
 
-```
+```java
 // Java to illustrate clone() method
 
 import java.text.*;
@@ -47,7 +47,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The Original: Mar 27, 2019 10:09:48 AM
 Is the clone equal? true
 
@@ -55,7 +55,7 @@ Is the clone equal? true
 
 **例 2:**
 
-```
+```java
 // Java to illustrate clone() method
 
 import java.text.*;
@@ -85,7 +85,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The Original: 03/27/2019
 Is the clone equal? true
 

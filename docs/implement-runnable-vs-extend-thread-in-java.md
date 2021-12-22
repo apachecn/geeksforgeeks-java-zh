@@ -17,7 +17,7 @@
 
 让我们看看下面的程序，以便更好地理解:
 
-```
+```java
 // Java program to illustrate defining Thread
 // by extending Thread class
 
@@ -39,13 +39,13 @@ class Test extends Thread 
 
 **输出:**
 
-```
+```java
 Main method executed by main thread
 Run method executed by child Thread
 
 ```
 
-```
+```java
 // Java program to illustrate defining Thread
 // by implements Runnable interface
 class Geeks {
@@ -74,7 +74,7 @@ class Test extends Geeks implements Runnable {
 
 **输出:**
 
-```
+```java
 Hello Visitors
 Main method executed by main thread
 Run method executed by child Thread

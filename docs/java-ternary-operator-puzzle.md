@@ -4,7 +4,7 @@
 
 找到程序的输出
 
-```
+```java
 public class GFG {
     public static void main(String[] args) {
     char x = 'X';

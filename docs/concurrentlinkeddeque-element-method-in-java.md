@@ -5,7 +5,7 @@
 [T1](https://www.geeksforgeeks.org/concurrentlinkeddeque-in-java-with-examples/)T4。element() 是 java 中的内置函数，它检索但不移除由 deque 表示的队列头，即 deque 的第一个元素。
 **语法:**
 
-```
+```java
 conn_linked_deque.element()
 ```
 
@@ -17,7 +17,7 @@ conn_linked_deque.element()
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java example illustrating
 // ConcurrentLinkedDeque element() method
 
@@ -50,7 +50,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:** 
 
-```
+```java
 ConcurrentLinkedDeque: [12, 70, 1009, 475]
 The Head of deque is: 12
 ```
@@ -59,7 +59,7 @@ The Head of deque is: 12
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java example illustrating
 // ConcurrentLinkedDeque element() method
 
@@ -92,7 +92,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:** 
 
-```
+```java
 ConcurrentLinkedDeque: [Gfg, Geeks, Programming, contribute]
 The Head of deque is: Gfg
 ```

@@ -16,7 +16,7 @@
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the length() function
 
@@ -40,14 +40,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The length of the array : 5
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program that demonstrates
 // the length() function
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The length of the array : 7
 
 ```

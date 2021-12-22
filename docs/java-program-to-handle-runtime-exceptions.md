@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Create public class
 public class GFG {
 
@@ -48,7 +48,7 @@ class Greeks extends RuntimeException {
 
 **Output**
 
-```
+```java
 example of runtime exception
 ```
 
@@ -58,7 +58,7 @@ example of runtime exception
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GFG {
     public static void main(String[] args)
     {
@@ -76,7 +76,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
 at GFG.main(File.java:10)
 ```

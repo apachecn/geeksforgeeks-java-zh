@@ -6,7 +6,7 @@ Java 中 [NavigableMap 接口的 floorEntry()方法用于返回与小于或等�
 
 **语法** :
 
-```
+```java
 Map.Entry<K, V> floorEntry(K key)
 
 ```
@@ -21,7 +21,7 @@ Map.Entry<K, V> floorEntry(K key)
 
 **程序 1** :按键为整数时。
 
-```
+```java
 // Java code to demonstrate the working of
 // floorEntry() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The mapping with greatest key is : 2=two
 
 ```
 
 **程序二**:钥匙串的时候。
 
-```
+```java
 // Java code to demonstrate the working of
 // floorEntry() method
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The mapping associated with greatest key is : one=two
 
 ```

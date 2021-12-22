@@ -16,7 +16,7 @@ JSON 是一种开放的标准文件格式，更容易的数据交换格式有助
 
 **步骤 2(A):** 对于 Maven 项目，在“ *pom.xml 文件中需要以下依赖项。”*
 
-```
+```java
 <dependency>
   <groupId>com.fasterxml.jackson.core</groupId>
    <artifactId>jackson-databind</artifactId>
@@ -26,7 +26,7 @@ JSON 是一种开放的标准文件格式，更容易的数据交换格式有助
 
 **第二步(B):** 对于**梯度**项目，如下:
 
-```
+```java
 dependencies
 {
 
@@ -47,7 +47,7 @@ dependencies
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Map to JSON to HashMap
 
 // Importing required basic libraries
@@ -141,7 +141,7 @@ public class GFG {
 
 继续下一个例子。在这个例子中，让我们看看如何使用对象映射器将 JSON 数据转换为 Map。我们将在这里使用 readValue()将 JSON 内容反序列化为非容器类型。在这个例子中，作为一个映射类，JSON 内容被反序列化。
 
-```
+```java
 readValue(JsonParser p, Class<T> valueType)
 ```
 
@@ -149,7 +149,7 @@ readValue(JsonParser p, Class<T> valueType)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Map to JSON to HashMap
 
 // Importing utility and input output classes
@@ -212,7 +212,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustratiing Simple POJO class only
 // containing 3 attributes namely color/type/name
 
@@ -272,7 +272,7 @@ public class Automobiles {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Map to JSON to HashMap
 
 import static org.junit.Assert.assertNotNull;

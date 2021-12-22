@@ -11,7 +11,7 @@
 
 *   **虚空关闭():**关闭溪流，先冲洗。一旦流被关闭，进一步的 write()或 flush()调用将导致引发 IOException。关闭以前关闭的流没有效果。
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Throws:
@@ -20,7 +20,7 @@
 
 *   **虚空冲():**冲溪。
 
-    ```
+    ```java
     Syntax :public void flush()
                throws IOException
     Throws:
@@ -29,7 +29,7 @@
 
 *   **void write(char[] cbuf，int off，int len) :** 写入字符数组的一部分。
 
-    ```
+    ```java
     Syntax :public void write(char[] cbuf,
              int off,
              int len)
@@ -44,7 +44,7 @@
 
 *   **void write(int c) :** 写单个字符。
 
-    ```
+    ```java
     Syntax :public void write(int c)
                throws IOException
     Parameters:
@@ -55,7 +55,7 @@
 
 *   **空写(字符串，int off，int len) :** 写字符串的一部分。
 
-    ```
+    ```java
     Syntax :public void write(String str,
              int off,
              int len)
@@ -70,7 +70,7 @@
 
 **程序:**
 
-```
+```java
 //Java program demonstrating FilterWriter methods
 import java.io.FilterWriter;
 import java.io.StringWriter;
@@ -107,7 +107,7 @@ class FilterWriterDemo
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 

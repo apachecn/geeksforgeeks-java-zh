@@ -23,7 +23,7 @@ Java 平台模块系统有时也被称为 **Java 拼图**或**项目拼图**视�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Geeksforgeeks {
     public static void main(String[] args)
     {
@@ -44,7 +44,7 @@ class Geeksforgeeks {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 module module4
 {
     requires module3;
@@ -53,7 +53,7 @@ module module4
 
 *   **安全问题:**假设我们有一个 jar，在这个 JAR 里面有 2 个包。
 
-```
+```java
 com.geeksforgeeks.demo.api.geeks
 com.geeksforgeeks.demo.impl.geeksImpl
 ```
@@ -62,7 +62,7 @@ com.geeksforgeeks.demo.impl.geeksImpl
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // com.geeksforgeeks.demo.api.geeks is accessible,
 // but com.geeksforgeeks.demo.impl.geeksImpl is not
 

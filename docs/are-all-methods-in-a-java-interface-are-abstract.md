@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 interface Building {
     // abstract methods
@@ -47,7 +47,7 @@ class GFG implements Building {
 
 **Output**
 
-```
+```java
 height is 5
 ```
 
@@ -62,7 +62,7 @@ height is 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 interface Building {
     // abstract methods
@@ -94,7 +94,7 @@ class GFG implements Building {
 
 **输出**
 
-```
+```java
 prog.java:10: error: interface abstract methods cannot have body
     {
     ^
@@ -120,7 +120,7 @@ prog.java:27: error: cannot find symbol
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 interface Building {
     // abstract methods
@@ -148,7 +148,7 @@ class GFG implements Building {
 
 **输出**
 
-```
+```java
 prog.java:9: error: modifier final not allowed here
     final void widthDisplay()
                ^
@@ -171,7 +171,7 @@ class GFG implements Building {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 interface Building {
     // abstract method
@@ -199,7 +199,7 @@ class GFG implements Building {
 
 **输出**
 
-```
+```java
 prog.java:10: error: interface abstract methods cannot have body
     {
     ^
@@ -221,7 +221,7 @@ class GFG implements Building {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 interface Building {
     // abstract method
@@ -255,7 +255,7 @@ class GFG implements Building {
 
 **Output**
 
-```
+```java
 height is 5
 width is 1
 ```
@@ -270,7 +270,7 @@ width is 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 interface Building {
     // abstract methods
@@ -303,7 +303,7 @@ class GFG implements Building {
 
 **Output**
 
-```
+```java
 height is 5
 width is 1
 ```

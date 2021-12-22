@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public static <X> TupleClass<X> fromIterable(Iterable<X> iterable)
 ```
 
 **语法:**
 
-```
+```java
 TupleClass<X> obj = TupleClass.fromIterable(Iterable<X> iterable)
 ```
 
@@ -28,7 +28,7 @@ TupleClass<X> obj = TupleClass.fromIterable(Iterable<X> iterable)
 
 **程序 1:** 使用 fromIterable()和单元类:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from fromIterable() method
 
@@ -51,13 +51,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [GeeksforGeeks]
 ```
 
 **程序 2:** 使用 fromIterable()配合十进制类:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from fromIterable() method
 
@@ -92,7 +92,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [Geeks, for, Geeks, A, Computer, Science, Portal, for, Geeks, RishabhPrabhu]
 ```
 

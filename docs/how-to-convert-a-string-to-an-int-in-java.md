@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = "1234"
 Output: 1234
 
@@ -22,7 +22,7 @@ hence the integer value will be 0
 
     **语法:**
 
-    ```
+    ```java
     public static int parseInt(String s)
                 throws NumberFormatException
 
@@ -30,7 +30,7 @@ hence the integer value will be 0
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to convert String to int
     // using Integer.parseInt() method
 
@@ -75,7 +75,7 @@ hence the integer value will be 0
 
     **Output:**
 
-    ```
+    ```java
     String = 1234
     Integer value = 1234
 
@@ -90,14 +90,14 @@ hence the integer value will be 0
 
     **语法:**
 
-    ```
+    ```java
     public static Integer tryParse(String s)
 
     ```
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to convert String to int
     // using Ints::tryParse method
 
@@ -139,7 +139,7 @@ hence the integer value will be 0
 
     **Output:**
 
-    ```
+    ```java
     String = 1234
     Integer value = 1234
 

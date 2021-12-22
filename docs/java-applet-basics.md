@@ -57,7 +57,7 @@ Java 于 1996 年 1 月 23 日(JDK 1.0)上线，当时只支持 CUI(字符用户
 
 ****Ans。**每当我们在参数中传递对象引用时，对象将由其调用者自己提供。在这种情况下，paint()方法的调用方是 browser，因此它将提供一个对象。当我们在普通的 Java 程序中创建一个非常基本的程序时，也会发生同样的事情。例如:**
 
-```
+```java
 public static void main(String []args){}
 ```
 
@@ -72,7 +72,7 @@ public static void main(String []args){}
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A Hello World Applet
 // Save file as HelloWorld.java
 
@@ -98,7 +98,7 @@ public class HelloWorld extends Applet
 2.  **程序的下一行声明了类 HelloWorld。此类必须声明为公共类，因为它将被程序外的代码访问。在 HelloWorld 内部，声明 **paint( )** 。这个方法是由 AWT 定义的，必须被 applet 覆盖。**
 3.  ****paint( )** 里面是对*drawl()*的调用，它是 [Graphics](https://docs.oracle.com/javase/7/docs/api/java/awt/Graphics.html) 类的成员。此方法输出从指定的 X，Y 位置开始的字符串。它有以下一般形式:**
 
-```
+```java
 void drawString(String message, int x, int y)
 ```
 
@@ -109,7 +109,7 @@ void drawString(String message, int x, int y)
 ****运行 HelloWorld Applet :**
 输入 HelloWorld.java 的源代码后，按照编译 java 程序的相同方式进行编译(使用 *javac* 命令)。但是，用 *java* 命令运行 HelloWorld 会产生错误，因为它不是一个应用程序。**
 
-```
+```java
 java HelloWorld
 
 Error: Main method not found in class HelloWorld, 
@@ -126,7 +126,7 @@ please define the main method as:
 
 ****1。使用支持 java 的网络浏览器:**要在网络浏览器中执行小程序，我们必须编写一个简短的 HTML 文本文件，其中包含一个加载小程序的标签。为此，我们可以使用 APPLET 或 OBJECT 标签。使用 APPLET，下面是执行 HelloWorld 的 HTML 文件:**
 
-```
+```java
 <applet code="HelloWorld" width=200 height=60>
 </applet>
 ```
@@ -138,7 +138,7 @@ please define the main method as:
 ****2。使用 appletviewer :** 这是运行 applet 最简单的方法。要使用小程序查看器执行 HelloWorld，您也可以执行前面显示的 HTML 文件。例如，如果前面的 HTML 文件与
 RunHelloWorld.html 一起保存，那么下面的命令行将运行 HelloWorld:**
 
-```
+```java
 appletviewer RunHelloWorld.html
 ```
 
@@ -148,7 +148,7 @@ appletviewer RunHelloWorld.html
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A Hello World Applet
 // Save file as HelloWorld.java
 
@@ -175,7 +175,7 @@ public class HelloWorld extends Applet
 
 **使用这种方法，首先编译 HelloWorld.java 文件，然后简单地运行下面的命令来运行 applet:**
 
-```
+```java
 appletviewer HelloWorld
 ```
 
@@ -193,7 +193,7 @@ appletviewer HelloWorld
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 //code to illustrate paint 
 //method gets called again
 //and again

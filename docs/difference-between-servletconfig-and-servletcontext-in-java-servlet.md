@@ -24,7 +24,7 @@
 
 ## web.xml
 
-```
+```java
 <web-app>
 
 <servlet>
@@ -65,7 +65,7 @@
 
 ## 招聘人员的 Servlet
 
-```
+```java
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -92,7 +92,7 @@ public class Recruiter extends HttpServlet {
 
 ## 申请人的 Servlet
 
-```
+```java
 import java.io.*;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;

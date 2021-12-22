@@ -21,7 +21,7 @@
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.join() method
 
@@ -47,14 +47,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 a#b#c#d#e
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.join() method
 
@@ -80,7 +80,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 G*E*E*K*S
 
 ```

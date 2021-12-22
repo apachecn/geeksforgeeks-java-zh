@@ -17,7 +17,7 @@ Java 中的局部变量**是一个在方法体中声明的变量。那么您只�
 
 1.  **Initialization of the variable is not Mandatory**: Even though local variable is final we have to perform initialization only if you want to use it i.e. if we are not using then it is not required to perform initialization even though it is final.
 
-    ```
+    ```java
     // Java program to illustrate the behavior of
     // final local variable
     class Test {
@@ -31,14 +31,14 @@ Java 中的局部变量**是一个在方法体中声明的变量。那么您只�
 
     输出:
 
-    ```
+    ```java
     GEEKS
 
     ```
 
 2.  **Final is the only applicable modifier for local variables** : The only applicable modifier for local variable is final. By mistake if we trying to apply any other modifier then we will get compile time error.
 
-    ```
+    ```java
     // Java program to illustrate that final is
     // the only applicable modifier for local variable
     class Test {
@@ -52,7 +52,7 @@ Java 中的局部变量**是一个在方法体中声明的变量。那么您只�
 
     输出:
 
-    ```
+    ```java
     error: illegal start of expression
 
     ```

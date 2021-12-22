@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Collection.addAll(Collection<E> collection)
 
 ```
@@ -23,7 +23,7 @@ Collection.addAll(Collection<E> collection)
 
 **示例 1:** 使用链接列表类
 
-```
+```java
 // Java code to illustrate boolean addAll()
 
 import java.util.*;
@@ -61,7 +61,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 The LinkedList is: []
 The new linked list is: [A, Computer, Portal, for, Geeks]
 
@@ -69,7 +69,7 @@ The new linked list is: [A, Computer, Portal, for, Geeks]
 
 **例 2:** 使用 ArrayDeque 类
 
-```
+```java
 // Java code to illustrate addAll() method
 
 import java.util.*;
@@ -105,7 +105,7 @@ public class ArrayDequeDemo {
 
 **输出:**
 
-```
+```java
 The ArrayDeque is: []
 The new ArrayDeque is: [Welcome, To, Geeks, 4, Geeks]
 
@@ -113,7 +113,7 @@ The new ArrayDeque is: [Welcome, To, Geeks, 4, Geeks]
 
 **示例 3:** 使用数组列表类
 
-```
+```java
 // Java code to illustrate boolean addAll()
 
 import java.util.*;
@@ -150,7 +150,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 The ArrayList is: []
 The new ArrayList is: [A, Computer, Portal, for, Geeks]
 
@@ -158,7 +158,7 @@ The new ArrayList is: [A, Computer, Portal, for, Geeks]
 
 **示例 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate boolean addAll()
 
 import java.util.*;
@@ -190,7 +190,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 The ArrayList is: []
 Exception: java.lang.NullPointerException
 

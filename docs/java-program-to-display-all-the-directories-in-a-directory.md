@@ -19,7 +19,7 @@ Java 中的下列类列出了目录内容
 1.  用于在机器上编译任何 java 代码的终端命令
 2.  用于在机器上运行任何 java 代码的终端命令
 
-```
+```java
 javac class_name.java // For Compilation
 java class_name       // For Execution
 ```
@@ -47,7 +47,7 @@ java class_name       // For Execution
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display all directories in a directory
 
 // Importing Classes/Files
@@ -111,7 +111,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display all directories in a directory
 
 // Importing Classes/Files

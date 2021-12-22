@@ -6,7 +6,7 @@ java 中**[Java . util](https://www.geeksforgeeks.org/java-util-package-java/). 
 
 **语法:**
 
-```
+```java
 public static Locale.FilteringMode valueOf(String name)
 
 ```
@@ -19,7 +19,7 @@ public static Locale.FilteringMode valueOf(String name)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -46,14 +46,14 @@ public class LocaleFilteringModeDemo {
 
 **输出:**
 
-```
+```java
 Locale.FilteringMode value of AUTOSELECT_FILTERING: AUTOSELECT_FILTERING
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -80,7 +80,7 @@ public class LocaleFilteringModeDemo {
 
 **输出:**
 
-```
+```java
 Locale.FilteringMode value of EXTENDED_FILTERING: EXTENDED_FILTERING
 
 ```

@@ -98,7 +98,7 @@ T19T25
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate a Hack to Avoid TLE while
 // coding
 
@@ -237,12 +237,12 @@ class GFG {
 
 **输入:**
 
-```
+```java
 4 3 1 2 5
 ```
 
 **输出:**
 
-```
+```java
 3
 ```

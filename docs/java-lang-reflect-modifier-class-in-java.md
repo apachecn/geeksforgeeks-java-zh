@@ -29,7 +29,7 @@ java.lang.reflect.Modifier 类包含用于获取类、成员和方法访问修�
 
 **施工方:**
 
-```
+```java
 public Modifier(): Default constructor
 ```
 
@@ -64,13 +64,13 @@ public Modifier(): Default constructor
 
 此方法在对可应用于类的访问修饰符执行“或”操作后返回一个整数值。
 
-```
+```java
 Return type: Integer
 ```
 
 ## 爪哇
 
-```
+```java
 // Implementation of classModifiers() Method
 import java.lang.reflect.Modifier;
 
@@ -86,20 +86,20 @@ public class GFG {
 
 **输出**
 
-```
+```java
 3103
 public protected private abstract static final strictfp
 ```
 
 **2。static int constructor modifiers()；**对可应用于构造函数的访问修饰符执行“或”操作后，返回一个整数值。
 
-```
+```java
 Return type: Integer
 ```
 
 ## Java
 
-```
+```java
 // Implementation of constructorModifiers() Method
 import java.lang.reflect.Modifier;
 
@@ -115,20 +115,20 @@ public class GFG {
 
 **输出**
 
-```
+```java
 7
 public protected private
 ```
 
 **3。static int fieldModifiers():** 对可应用于字段的访问修饰符执行 OR 操作后返回一个 int 值。
 
-```
+```java
 Return type: Integer
 ```
 
 ## Java
 
-```
+```java
 // Implementation of fieldModifiers() Method
 import java.lang.reflect.Modifier;
 
@@ -144,7 +144,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 223
 public protected private static final transient volatile
 ```

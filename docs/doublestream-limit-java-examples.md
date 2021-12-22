@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream limit(long maxSize)
 
 ```
@@ -24,7 +24,7 @@ DoubleStream limit(long maxSize)
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream limit
 // (long maxSize)
 import java.util.*;
@@ -49,7 +49,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2.3
 4.4
 6.7
@@ -58,7 +58,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream limit
 // (long maxSize)
 import java.util.*;
@@ -83,7 +83,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4.5
 7.5
 10.5

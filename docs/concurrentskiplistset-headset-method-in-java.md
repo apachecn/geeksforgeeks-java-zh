@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public NavigableSet headSet(E toElement)
 ```
 
@@ -19,7 +19,7 @@ public NavigableSet headSet(E toElement)
 以下程序说明了 concurrentskiplistset . headset(E to element)方法:
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate headSet()
 // method of ConcurrentSkipListSet */
 import java.util.NavigableSet;
@@ -53,7 +53,7 @@ class ConcurrentSkipListSetHeadSetExample1 {
 
 **Output:**
 
-```
+```java
 Contents of the set: [10, 20, 30, 40, 50]
 Contents of the headset with upper limit 30: [10, 20]
 
@@ -61,7 +61,7 @@ Contents of the headset with upper limit 30: [10, 20]
 
 **程序 2:** 显示空指针异常的程序。
 
-```
+```java
 // Java Program Demonstrate headSet()
 // method of ConcurrentSkipListSet */
 import java.util.NavigableSet;
@@ -99,7 +99,7 @@ class ConcurrentSkipListSetHeadSetExample2 {
 
 **Output:**
 
-```
+```java
 Contents of the set: [10, 20, 30, 40, 50]
 Exception: java.lang.NullPointerException
 
@@ -111,7 +111,7 @@ Exception: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 public NavigableSet headSet(E toElement,
                       boolean inclusive) 
 ```
@@ -126,7 +126,7 @@ public NavigableSet headSet(E toElement,
 
     **程序 3:**
 
-    ```
+    ```java
     // Java Program Demonstrate headSet()
     // method of ConcurrentSkipListSet */
 
@@ -161,7 +161,7 @@ public NavigableSet headSet(E toElement,
 
     **Output:**
 
-    ```
+    ```java
     Contents of the set: [10, 20, 30, 40, 50]
     Contents of the headset with upper limit 30 inclusive: [10, 20, 30]
 

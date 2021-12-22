@@ -6,7 +6,7 @@
 
 **语法:**类声明
 
-```
+```java
 public final class FileSystems extends Object
 ```
 
@@ -28,7 +28,7 @@ public final class FileSystems extends Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate FileSystems Class by
 // creating a new file system using getDefault() method and
 // printing its file stores and root directories
@@ -104,7 +104,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate FileSystems Class by
 // creating new file system using newFileSystem() method
 
@@ -174,7 +174,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 File System created successfully
 File system is open
 ```

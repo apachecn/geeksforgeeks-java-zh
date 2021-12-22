@@ -5,7 +5,7 @@
 **java . util . concurrentSkiplistset**的**迭代器()**方法是 Java 中的内置函数，用于以*升序*返回该集合中元素的迭代器。
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.iterator()  
 ```
 
@@ -14,7 +14,7 @@ ConcurrentSkipListSet.iterator()
 下面的程序说明了 Java . util . concurrentskiplistset . iterator():
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of ConcurrentSkipListSet 
 
@@ -46,7 +46,7 @@ class ConcurrentSkipListSetIteratorExample1 {
 
 **Output:**
 
-```
+```java
 Gfg fun!! is
 
 ```

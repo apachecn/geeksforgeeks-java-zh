@@ -22,7 +22,7 @@
 
 **示例:**
 
-```
+```java
 Input. 1: 10
 Output 1: The binary equivalent of 10 is : 1010
           Number of 1s is : 2
@@ -37,7 +37,7 @@ Output 2: The binary equivalent of 15 is : 1111
 
 ******语法:******
 
-```
+```java
 **public static String toBinaryString(int variable_name)**
 ```
 
@@ -53,7 +53,7 @@ Output 2: The binary equivalent of 15 is : 1111
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to convert decimal to binary number
 // and counting number of 1's in it
 
@@ -103,7 +103,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 The binary equivalent of 18 is : 10010
 Number of 1s is : 2
 ```**** 
@@ -115,7 +115,7 @@ Number of 1s is : 2
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to convert decimal to binary number
 // and counting number of 1's in it
 
@@ -180,7 +180,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 The binary equivalent of 18 is : 01001
 Number of 1s is : 2
 ```****

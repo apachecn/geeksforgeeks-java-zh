@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : HashSet = [3, 4, 5]
 Output: synchronizedSet = [3, 4, 5]
 
@@ -16,7 +16,7 @@ Output: synchronizedSet = ['A', 'B', 'C']
 
 **语法:**
 
-```
+```java
 public static <T> Set<T> synchronizedSet(Set<T> s)
 ```
 
@@ -24,7 +24,7 @@ public static <T> Set<T> synchronizedSet(Set<T> s)
 
 **返回值:**
 
-```
+```java
 Synchronized view of the specified set.
 ```
 
@@ -39,7 +39,7 @@ Synchronized view of the specified set.
 
 T3】JavaT5
 
-```
+```java
 // Java program to get synchronized
 // set from given tree set
 import java.util.Collections;

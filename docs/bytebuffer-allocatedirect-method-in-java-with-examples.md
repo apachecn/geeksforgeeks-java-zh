@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static ByteBuffer allocateDirect(int capacity)
 ```
 
@@ -24,7 +24,7 @@ public static ByteBuffer allocateDirect(int capacity)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // allocateDirect() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Direct ByteBuffer:  [20, 30, 40, 50]
 
 State of the ByteBuffer : java.nio.HeapByteBuffer[pos=0 lim=4 cap=4]
@@ -82,7 +82,7 @@ State of the ByteBuffer : java.nio.HeapByteBuffer[pos=0 lim=4 cap=4]
 
 **示例 2:** 显示 IllegalArgumentException
 
-```
+```java
 // Java program to demonstrate
 // allocateDirect() method
 
@@ -135,7 +135,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to allocate negative value in ByteBuffer
 Exception thrown : java.lang.IllegalArgumentException: Negative capacity: -4
 

@@ -6,7 +6,7 @@
 
 ****申报:****
 
-```
+```java
 @GwtCompatible(emulated=true)
 public final class Booleans
 extends Object 
@@ -24,7 +24,7 @@ extends Object
 下面给出了一些示例，显示了番石榴树类方法的实现:
 **示例 1 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Booleans.asList() method
 
@@ -49,13 +49,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [true, false, true, false, true] 
 ```
 
 ****例 2 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Booleans.toArray() method
 
@@ -81,13 +81,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [true, false, true, false, true] 
 ```
 
 ****例 3 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Booleans.concat() method
 
@@ -114,13 +114,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [true, false, true, false, true] 
 ```
 
 ****例 4 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Booleans.contains() method
 
@@ -143,14 +143,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 true
 true 
 ```
 
 ****例 5 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Booleans.compare() method
 
@@ -168,13 +168,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 0 
 ```
 
 ****例 6 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Booleans.indexOf() method
 
@@ -194,6 +194,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1 
 ```

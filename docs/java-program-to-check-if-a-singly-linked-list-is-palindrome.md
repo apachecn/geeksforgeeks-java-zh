@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check if linked list 
 // is palindrome recursively 
 import java.util.*;
@@ -90,7 +90,7 @@ class Node 
 
 **输出:**
 
-```
+```java
  isPalindrome: true
 ```
 
@@ -109,7 +109,7 @@ class Node 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check if linked list
 // is palindrome 
 
@@ -313,7 +313,7 @@ class LinkedList 
 
 **输出:**
 
-```
+```java
 a->NULL
 Is Palindrome
 
@@ -354,7 +354,7 @@ T3】辅助空间: O(1)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above approach
 public class LinkedList
@@ -469,7 +469,7 @@ public class LinkedList
 
 **输出:**
 
-```
+```java
 a->NULL
 Not Palindrome
 

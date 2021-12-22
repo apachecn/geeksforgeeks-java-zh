@@ -24,7 +24,7 @@ Insets 类是 JavaFX 的一部分。Insets 类存储矩形区域四条边的内�
 
 1.  **Java program to create two insets object and display the contents:** This program creates two Insets named *insets_1* and *insets_2*. The insets are passed as arguments when the constructor is called. We will get four sides of the insets object using *getTop()*, *getBottom()*, *getLeft()*, *getRight()* function and display them.
 
-    ```
+    ```java
     // Java program to create two insets 
     // object and display the contents
     import javafx.geometry.Insets;
@@ -66,7 +66,7 @@ Insets 类是 JavaFX 的一部分。Insets 类存储矩形区域四条边的内�
 
     **输出:**
 
-    ```
+    ```java
     Insets of the object
     Left = 20.0, Right = 20.0, Bottom = 20.0, Top = 20.0
     Insets of the object
@@ -76,7 +76,7 @@ Insets 类是 JavaFX 的一部分。Insets 类存储矩形区域四条边的内�
 
 2.  **Java program to create three objects of insets and display its contents and check whether they are equal to each other or not:** This program creates three Insets named *insets_1*, *insets_2*, and *insets_3*. The insets are passed as arguments when the constructor is called. We will get four sides of the insets object using *getTop()*, *getBottom()*, *getLeft()*, *getRight()* function and display them. We will also check whether the insets are equal to each other using the equals function.
 
-    ```
+    ```java
     // Java program to create three objects of insets
     // and display its contents and check whether 
     // they are equal to each other or not
@@ -136,7 +136,7 @@ Insets 类是 JavaFX 的一部分。Insets 类存储矩形区域四条边的内�
 
     **输出:**
 
-    ```
+    ```java
     Insets of the object
     Left= 60.0, Right= 150.0, Bottom= 40.0, Top = 120.0
     Insets of the object

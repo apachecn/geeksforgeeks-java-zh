@@ -13,7 +13,7 @@
 
 **语法:**用于导入网址类:
 
-```
+```java
 import java.util.net ;
 ```
 
@@ -21,13 +21,13 @@ import java.util.net ;
 
 ****功能签名:****
 
-```
+```java
 **public String getProtocol() ;**
 ```
 
 ****语法:****
 
-```
+```java
 **url.getProtocol();**
 ```
 
@@ -66,7 +66,7 @@ import java.util.net ;
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 **// Java Program to Get Components of a URL
 
 import java.util.*;
@@ -111,7 +111,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 URL is:https://www.geeksforgeeks.com/javaexamples/net_singleuser.htm
 protocol is: https
 file name is: /javaexamples/net_singleuser.htm

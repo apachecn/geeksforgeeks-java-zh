@@ -11,7 +11,7 @@ MethodType 是一个属于 java.lang 包的类。这个类由各种类型的方�
 
 **语法:**类声明
 
-```
+```java
 public final class MethodType extends Object implements Serializable {
 
 // MethodType extends Object Class which is root of class hierarchy
@@ -65,7 +65,7 @@ MethodType 类的方法:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate MethodType Class
 // from java.lang.invoke package
 
@@ -114,6 +114,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 GeeksForGeeks
 ```

@@ -10,13 +10,13 @@
 
     **语法:**
 
-    ```
+    ```java
     public static final byte MAX_VALUE
     ```
 
     用法:
 
-    ```
+    ```java
     Byte.MAX_VALUE
     ```
 
@@ -24,7 +24,7 @@
 
     以下是 MAX_VALUE 的实现:
 
-    ```
+    ```java
     // Java code to implement
     // MAX_VALUE of Byte class
 
@@ -46,7 +46,7 @@
 
     **Output:**
 
-    ```
+    ```java
     127
 
     ```
@@ -55,13 +55,13 @@
 
     **语法:**
 
-    ```
+    ```java
     public static final byte MIN_VALUE
     ```
 
     用法:
 
-    ```
+    ```java
     Byte.MIN_VALUE
     ```
 
@@ -69,7 +69,7 @@
 
     下面是最小值的实现:
 
-    ```
+    ```java
     // Java code to implement
     // MIN_VALUE of Byte class
 
@@ -91,7 +91,7 @@
 
     **Output:**
 
-    ```
+    ```java
     -128
 
     ```
@@ -100,13 +100,13 @@
 
     **语法:**
 
-    ```
+    ```java
     public static final int SIZE
     ```
 
     用法:
 
-    ```
+    ```java
     Byte.SIZE
     ```
 
@@ -114,7 +114,7 @@
 
     以下是大小的实现:
 
-    ```
+    ```java
     // Java code to implement
     // SIZE of Byte class
 
@@ -133,7 +133,7 @@
 
     **Output:**
 
-    ```
+    ```java
     8
 
     ```
@@ -142,13 +142,13 @@
 
     **语法:**
 
-    ```
+    ```java
     public static final Class<Byte> TYPE
     ```
 
     用法:
 
-    ```
+    ```java
     Byte.TYPE
     ```
 
@@ -156,7 +156,7 @@
 
     以下是类型的实现:
 
-    ```
+    ```java
     // Java code to implement
     // TYPE of Byte class
 
@@ -175,7 +175,7 @@
 
     **Output:**
 
-    ```
+    ```java
     byte
 
     ```

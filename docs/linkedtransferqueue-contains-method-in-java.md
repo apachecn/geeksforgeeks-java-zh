@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.contains(Object o)
 ```
 
@@ -18,7 +18,7 @@ LinkedTransferQueue.contains(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of LinkedTransferQueue
 
@@ -47,14 +47,14 @@ class LinkedTransferQueueContainsExample1 {
 
 **输出:**
 
-```
+```java
 9 is not present in the queue.
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of LinkedTransferQueue */
 
@@ -84,7 +84,7 @@ class LinkedTransferQueueContainsExample2 {
 
 **输出:**
 
-```
+```java
 Gfg is present in the queue.
 
 ```

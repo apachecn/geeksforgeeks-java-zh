@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static List asList(T... a)
 ```
 
@@ -22,7 +22,7 @@ public static List asList(T... a)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate asList() method
 // of Arrays class for a string value
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The list is: [A, B, C, D]
 ```
 
@@ -70,7 +70,7 @@ The list is: [A, B, C, D]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate asList() method
 // of Arrays class For an integer value
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The list is: [10, 20, 30, 40]
 ```
 
@@ -116,7 +116,7 @@ The list is: [10, 20, 30, 40]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate asList() method
 // Which returns fixed size list and
 // throws UnsupportedOperationException

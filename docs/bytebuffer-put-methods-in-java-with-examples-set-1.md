@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract ByteBuffer put(byte f)
 ```
 
@@ -25,7 +25,7 @@ public abstract ByteBuffer put(byte f)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -72,14 +72,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer:  [10, 20, 30]
 
 ```
 
 **例 2:** 演示 BufferOverflowException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer:  [10, 20, 30]
 
 Buffer position : 3
@@ -144,7 +144,7 @@ Exception throws : java.nio.BufferOverflowException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -203,7 +203,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer:  [10, 20, 30]
 
 Trying to put the byte value in read only buffer

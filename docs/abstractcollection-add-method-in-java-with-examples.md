@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractCollection.add(Object element)
 ```
 
@@ -18,7 +18,7 @@ AbstractCollection.add(Object element)
 
 **程序 1:** 将字符串元素添加到数组列表的集合中。
 
-```
+```java
 // Java code to illustrate add(Object o)
 
 import java.util.*;
@@ -49,14 +49,14 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 AbstractCollection: [Welcome, To, Geeks, 4, Geeks]
 
 ```
 
 **程序 2:** 将整数元素添加到链表的集合中。
 
-```
+```java
 // Java code to illustrate add(Object o)
 
 import java.util.*;
@@ -87,7 +87,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 AbstractCollection: [15, 20, 25, 30, 35]
 
 ```

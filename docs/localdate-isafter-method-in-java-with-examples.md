@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 isaafter()方法检查该日期是否在指定日期�
 
 **语法** :
 
-```
+```java
 public boolean isAfter(ChronoLocalDate date2)
 
 ```
@@ -19,7 +19,7 @@ public boolean isAfter(ChronoLocalDate date2)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -41,14 +41,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 false
 
 ```

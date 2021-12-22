@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public IntStream chars()
 ```
 
@@ -16,7 +16,7 @@ public IntStream chars()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // chars() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer:  [a, b, c]
 
 97
@@ -69,7 +69,7 @@ Original CharBuffer:  [a, b, c]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // chars() method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer:  [?, u, v,  , Z]
 
 140

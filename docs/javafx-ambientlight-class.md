@@ -22,7 +22,7 @@ AmbientLight 类是 JavaFX 的一部分。这个类定义了一个环境光对�
 
 1.  **Java program to create a ambient light of default color:** This program creates a Sphere indicated by the name sphere(radius is passed as arguments). A AmbientLight is created named *ambient_light* of default white color. A Button named button will be created which will be used to turn the ambient light on or off. The Sphere will be created inside a scene, which in turn will be hosted inside a stage. The function *setTitle()* is used to provide title to the stage. Then a Group is created, and the sphere, button and ambient light is attached.The group is attached to the scene. Finally, the *show()* method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a ambient light of default color
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -103,7 +103,7 @@ AmbientLight 类是 JavaFX 的一部分。这个类定义了一个环境光对�
 
 2.  **Java program to create a ambient light of a specified color:** This program creates a Sphere indicated by the name sphere(radius is passed as arguments). A AmbientLight is created named *ambient_light* of a specified color(RED). A Button named button will be created which will be used to turn the ambient light on or off. The Sphere will be created inside a scene, which in turn will be hosted inside a stage. The function *setTitle()* is used to provide title to the stage. Then a Group is created, and the sphere, button and ambient light is attached.The group is attached to the scene. Finally, the *show()* method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a ambient light 
     // of a specified color
     import javafx.application.Application;

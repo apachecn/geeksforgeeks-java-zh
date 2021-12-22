@@ -6,7 +6,7 @@ java.lang.Long.compareTo()是 java 中的内置方法，用于对两个 Long 对
 
 **语法:**
 
-```
+```java
 **public int compareTo(Object obj)**
 
 Parameter: 
@@ -22,7 +22,7 @@ obj - The object which is to be compared to.
 
 **程序 1:** 下面的程序演示了功能的工作。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.compareTo() method
 import java.lang.Math;
@@ -50,14 +50,14 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 object1 is less than object2
 
 ```
 
 **程序 2:** 下面的程序演示了没有传递参数时函数的工作
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.compareTo() method
 import java.lang.Math;
@@ -85,7 +85,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 prog.java:14: error: method compareTo in class Long cannot be applied to given types;
       int compareValue = obj1.compareTo(); 
                              ^
@@ -98,7 +98,7 @@ prog.java:14: error: method compareTo in class Long cannot be applied to given t
 
 **程序 3:** 下面的程序演示了在参数中传递对象以外的任何东西时函数的工作
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.compareTo() method
 import java.lang.Math;
@@ -127,7 +127,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 prog.java:14: error: incompatible types: String cannot be converted to Long
       int compareValue = obj1.compareTo("gfg"); 
                                         ^

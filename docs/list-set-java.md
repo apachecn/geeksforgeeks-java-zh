@@ -7,7 +7,7 @@
 **方法 1(简单)**
 我们简单地创建一个列表。我们遍历给定的集合，一个接一个地向列表中添加元素。
 
-```
+```java
 // Java program to demonstrate conversion of
 // list to set using simple traversal
 import java.util.*;
@@ -35,7 +35,7 @@ class Test {
 
 **方法 2(使用 HashSet 或 TreeSet 构造函数)**
 
-```
+```java
 // Java program to demonstrate conversion of
 // list to set using constructor
 import java.util.*;
@@ -66,7 +66,7 @@ class Test {
 
 **方法 3(使用 addAll 方法)**
 
-```
+```java
 // Java program to demonstrate conversion of
 // Set to array using addAll() method.
 import java.util.*;
@@ -97,7 +97,7 @@ class Test {
 **方法 4(使用 Java 中的[流](https://www.geeksforgeeks.org/stream-in-java/) )**
 我们使用 Java 中的[流](https://www.geeksforgeeks.org/stream-in-java/)将给定列表转换为流，然后流进行设置。这仅适用于 Java 8 或之后的版本。
 
-```
+```java
 // Java program to demonstrate conversion of
 // Set to list using stream
 import java.util.*;

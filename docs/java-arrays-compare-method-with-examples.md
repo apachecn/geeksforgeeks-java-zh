@@ -12,7 +12,7 @@ Java 中的 Arrays compare()方法属于 Arrays 类和 **java.util** 包。此�
 
 **语法:**
 
-```
+```java
 Arrays.compare(array1,array2);
 // array1 and array2 are two arrays
 ```
@@ -30,7 +30,7 @@ Arrays.compare(array1,array2);
 
 ## Java
 
-```
+```java
 import java.util.Arrays;
 
 public class CompareExample{
@@ -48,7 +48,7 @@ public class CompareExample{
 
 **输出**
 
-```
+```java
 Result is 1
 ```
 
@@ -58,7 +58,7 @@ Result is 1
 
 ## Java
 
-```
+```java
 // import Arrays class from java.util package
 import java.util.Arrays;
 
@@ -79,7 +79,7 @@ public class CompareExample{
 
 **输出**
 
-```
+```java
 Result is -1
 ```
 
@@ -89,7 +89,7 @@ Result is -1
 
 ## Java
 
-```
+```java
 import java.util.Arrays;
 
 public class CompareExample {
@@ -110,7 +110,7 @@ public class CompareExample {
 
 **输出**
 
-```
+```java
 Result is 0
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Handler[] getHandlers()
 
 ```
@@ -18,7 +18,7 @@ public Handler[] getHandlers()
 下面的程序说明了 getHandlers()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getHandler() method
 
@@ -57,7 +57,7 @@ eclipse IDE 上打印的输出如下所示-
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getHandler() method
 

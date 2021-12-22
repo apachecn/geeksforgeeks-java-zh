@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public Currency getCurrency()
 
 ```
@@ -21,7 +21,7 @@ public Currency getCurrency()
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // getCurrency() method
 
@@ -48,14 +48,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 US Dollar
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // getCurrency() method
 
@@ -87,7 +87,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Canadian Dollar
 
 ```

@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```java
 public interface BlockingDeque<E> extends BlockingQueue<E>, Deque<E>
 
 ```
@@ -29,7 +29,7 @@ public interface BlockingDeque<E> extends BlockingQueue<E>, Deque<E>
 
 封锁命令的实现类是 [**链接的封锁命令**](https://www.geeksforgeeks.org/linkedblockingdeque-in-java-with-examples/) 。这个类是阻塞请求和[链表数据结构](https://www.geeksforgeeks.org/data-structures/linked-list/)的实现。LinkedBlockingDeque 可以选择使用构造函数进行绑定，但是，如果容量未指定，则为*整数。最大值*默认。节点在插入时按照容量限制动态添加。要在代码中使用 BlockingDeque，请使用以下导入语句。
 
-```
+```java
 import java.util.concurrent.BlockingDeque;
                     (or)
 import java.util.concurrent.*;
@@ -38,7 +38,7 @@ import java.util.concurrent.*;
 
 **创建对象的语法:**
 
-```
+```java
 LinkedBlockingDeque<?> objectName = new LinkedBlockingDeque<?>();
                 (or)
 BlockingDeque<?> objectName = new LinkedBlockingDeque<?>();
@@ -49,7 +49,7 @@ BlockingDeque<?> objectName = new LinkedBlockingDeque<?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for BlockingDeque
 import java.util.concurrent.*;
 import java.util.*;
@@ -101,7 +101,7 @@ public class BlockingDequeExample {
 
 **输出:**
 
-```
+```java
 The LinkedBlockingDeque lbdq contains:
 134 245 23 122 90 
 
@@ -119,7 +119,7 @@ The LinkedBlockingDeque lbdq after remove operation contains:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for Adding elements to a LinkedBlockingDeque
 import java.util.concurrent.*;
 
@@ -156,7 +156,7 @@ public class AddingElements {
 
 **Output**
 
-```
+```java
 Contents of lbdq1: [145, 89, 65, 122, 11]
 
 Contents of lbdq2: [145, 89, 65, 122, 11]

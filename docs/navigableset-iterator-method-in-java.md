@@ -6,7 +6,7 @@ Java 中[navigatableset 接口的迭代器()方法用于以升序返回该集合
 
 **语法** :
 
-```
+```java
 Iterator<E> iterator()
 
 ```
@@ -21,7 +21,7 @@ Iterator<E> iterator()
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate iterator()
 // method of NavigableSet
 import java.util.NavigableSet;
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value: 0 
 Value: 1 
 Value: 2 
@@ -65,7 +65,7 @@ Value: 6
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to illustrate iterator()
 // method of NavigableSet
 import java.util.NavigableSet;
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value: A 
 Value: B 
 Value: C 

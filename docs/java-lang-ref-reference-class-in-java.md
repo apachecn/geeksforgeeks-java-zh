@@ -6,7 +6,7 @@ java.lang.ref.Reference Class 是一个[抽象](https://www.geeksforgeeks.org/ab
 
 **类声明:**防止
 
-```
+```java
 public abstract class Reference<T>
 extends Object
 ```
@@ -48,7 +48,7 @@ extends Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate working of Reference Class
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Gfg@214c265e
 Object successfully enqueued
 Object is enqueued

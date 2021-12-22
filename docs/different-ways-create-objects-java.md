@@ -24,7 +24,7 @@
 
 ## Java
 
-```
+```java
 // Java program to Illustrate Creation of Object
 // Using new keyword
 
@@ -51,7 +51,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 GeeksForGeeks
 ```
 
@@ -63,7 +63,7 @@ GeeksForGeeks
 
 ## 爪哇
 
-```
+```java
 // Java program to Illustrate Creation of Object
 // Using new Instance
 

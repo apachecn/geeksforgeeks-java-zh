@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Retention Annotations
 
 // Importing required classes from java.lang package
@@ -115,7 +115,7 @@ public class RetentionPolicyDemo {
 
 **Output**
 
-```
+```java
 Number of annotations attached to class A at Runtime: 0
 Number of annotations attached to class B at Runtime: 0
 Number of annotations attached to class C at Runtime: 1

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Number parse(String text, ParsePosition status)
 ```
 
@@ -23,7 +23,7 @@ public Number parse(String text, ParsePosition status)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getFormats() method
 
@@ -64,14 +64,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 limit: 4
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getFormats() method
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 String is Null
 Exception thrown: java.lang.NullPointerException
 

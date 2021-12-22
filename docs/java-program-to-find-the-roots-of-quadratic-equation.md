@@ -6,7 +6,7 @@
 
 **二次方程的条件–**
 
-```
+```java
 ax^2 + bx + c = 0 
 
 where 
@@ -15,7 +15,7 @@ a, b, c are real numbers and cannot be zero ie, there value must be from {-∞ t
 
 **求二次方程根的数学公式–**
 
-```
+```java
 roots = (-b ± √(b2-4ac)) / (2a)
 
 ± represents there are two roots.
@@ -23,7 +23,7 @@ roots = (-b ± √(b2-4ac)) / (2a)
 
 **二次方程的根是–**
 
-```
+```java
 first = (-b + √(b2-4ac)) / (2a)
 second = (-b - √(b2-4ac)) / (2a)
 ```
@@ -38,7 +38,7 @@ second = (-b - √(b2-4ac)) / (2a)
 
 ## Java
 
-```
+```java
 // Java program to find the roots of
 // quadratic equation
 
@@ -100,7 +100,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 First Root = -0.35+1.06i
 Second Root = -0.35-1.06i
 ```

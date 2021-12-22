@@ -18,7 +18,7 @@ CountDownTimer 应用程序是关于设置一个时间，它以相反的顺序�
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -94,7 +94,7 @@ CountDownTimer 应用程序是关于设置一个时间，它以相反的顺序�
 
 ## MainActivity.java
 
-```
+```java
 package org.gfg.countdowntimer;
 
 import android.os.Bundle;

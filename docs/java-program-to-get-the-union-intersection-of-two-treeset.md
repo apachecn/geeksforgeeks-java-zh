@@ -8,7 +8,7 @@
 
 ****示例:****
 
-```
+```java
 **Input :** set1 = {10, 20, 30}
     set2 = {20, 30, 40, 50}
 
@@ -25,7 +25,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Get the Union
 //& Intersection of Two TreeSet
 
@@ -79,7 +79,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 TreeSet1: [10, 20, 30]
 TreeSet2: [20, 30, 40, 50]
 Union: [10, 20, 30, 40, 50]

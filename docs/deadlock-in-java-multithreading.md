@@ -9,7 +9,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Deadlock
 // in multithreading.
 class Util
@@ -122,7 +122,7 @@ public class Deadlock
 }
 ```
 
-```
+```java
 Output : test1-begin
 test2-begin
 ```
@@ -143,7 +143,7 @@ test2-begin
 我们也可以通过在 cmd 上运行这个程序来检测死锁。我们必须收集线程转储。要收集的命令取决于操作系统类型。如果我们使用的是 Windows 和 Java 8，命令是 jcmd $PID Thread.print
 我们可以通过运行 jps 命令得到 PID。上述程序的线程转储如下:
 
-```
+```java
 jcmd 18692 Thread.print
 18692:
 2020-06-08 19:03:10

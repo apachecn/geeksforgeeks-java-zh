@@ -8,7 +8,7 @@
 
 Vector():创建初始容量为 10 的默认向量。
 
-```
+```java
 Vector<E> v = new Vector<E>();
 ```
 
@@ -25,7 +25,7 @@ Vector<E> v = new Vector<E>();
 
 **语法:**
 
-```
+```java
 Vector.removeAll(Vector); 
 ```
 
@@ -33,7 +33,7 @@ Vector.removeAll(Vector);
 
 ******语法:******
 
-```
+```java
 **Collections.sort(Vector) ;**
 ```
 
@@ -41,7 +41,7 @@ Vector.removeAll(Vector);
 
 ********语法:********
 
-```
+```java
 **Vector.add(value) ;**
 ```
 
@@ -49,7 +49,7 @@ Vector.removeAll(Vector);
 
 ******语法:******
 
-```
+```java
 **Vector.get(3);**
 ```
 
@@ -57,7 +57,7 @@ Vector.removeAll(Vector);
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Sort 2D Array Across Left Diagonal
 
 // Importing required classes
@@ -130,7 +130,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 Matrix without sorting 
 
 5 2 0 7 1 

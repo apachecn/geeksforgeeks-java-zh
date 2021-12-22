@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isStrict(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isStrict(int mod)
 以下程序说明 isStrict()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isStrict() method
 import java.lang.reflect.*;
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 0 is strict : false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isStrict()
 
 import java.lang.reflect.*;
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1544 is strict : false
 
 ```

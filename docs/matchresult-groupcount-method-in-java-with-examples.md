@@ -5,7 +5,7 @@
 **匹配结果界面**的**组计数()**方法用于获取该匹配器模式中的捕获组数量。此方法返回一个整数值，它是匹配此匹配器时找到的组数。
 **语法:**
 
-```
+```java
 public int groupCount()
 ```
 
@@ -16,7 +16,7 @@ public int groupCount()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate groupCount() method
 
 import java.util.regex.*;
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 1
 ```
 
@@ -58,7 +58,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate groupCount() method
 
 import java.util.regex.*;
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 0
 ```
 

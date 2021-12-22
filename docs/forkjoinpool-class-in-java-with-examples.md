@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```java
 public class ForkJoinPool extends AbstractExecutorService  
 ```
 
@@ -40,13 +40,13 @@ public class ForkJoinPool extends AbstractExecutorService
 
 **语法**
 
-```
+```java
 public int getActiveThreadCount()
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // Implementation of getActiveThreadCount()
 
@@ -118,7 +118,7 @@ public class JavaForkJoingetActivethreadcountExample1 {
 
 **Output**
 
-```
+```java
 Number of available core in the processor is: 4
 Number of active thread before invoking: 0
 Number of active thread after invoking: 3

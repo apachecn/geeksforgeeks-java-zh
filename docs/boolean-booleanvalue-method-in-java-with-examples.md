@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 BooleanObject.booleanValue()
 ```
 
@@ -16,7 +16,7 @@ BooleanObject.booleanValue()
 
 **程序 1:**
 
-```
+```java
 class GeeksforGeeks {
 
     // Driver method
@@ -37,14 +37,14 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **例 2:**
 
-```
+```java
 class GeeksforGeeks {
 
     // Driver method
@@ -65,7 +65,7 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 false
 
 ```

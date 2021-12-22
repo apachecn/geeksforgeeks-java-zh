@@ -4,14 +4,14 @@
 
 CheckBox 属于 android.widget.CheckBox 类。安卓 CheckBox 类是 CompoundButton 类的子类。它通常用于用户可以从给定的选项列表中选择一个或多个选项的地方。比如选择爱好。
 
-```
+```java
 *public class* CheckBox *extends* CompoundButton
 
 ```
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
    ↳  android.view.View
         ↳  android.widget.TextView
@@ -32,7 +32,7 @@ java.lang.Object
 
 **MainActivity.java**
 
-```
+```java
 //Below is the code for MainActivity.java
 package com.geeksforgeeks.gfg.checkbox;
 
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 activity_main.xml 有一个 TextView、4 个 CheckBoxes 和一个按钮。文本视图提示用户选择他/她的爱好。
 首先用户选择其选项，然后按下提交按钮。按下提交按钮后，将生成一个显示所选爱好的吐司。
 
-```
+```java
 <!-- Below is the code for activity_main.xml -->
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

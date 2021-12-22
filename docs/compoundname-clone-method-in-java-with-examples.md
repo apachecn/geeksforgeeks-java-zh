@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 
 ```
@@ -18,7 +18,7 @@ public Object clone()
 下面的程序说明了 CompoundName.clone()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.clone()
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Clone CompoundName: x|y
 Members:
 x y
@@ -76,7 +76,7 @@ x y
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.clone() method
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Clone CompoundName: x:y:z:a:m:a:q:e
 Members:
 1:x

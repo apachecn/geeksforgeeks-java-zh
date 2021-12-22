@@ -4,7 +4,7 @@
 
 预测程序的输出
 
-```
+```java
 import java.util.Random;
 public class GFG {
     private static Random rd = new Random(); 

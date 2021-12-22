@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Bidi createLineBidi(int lineStart,
                            int lineLimit)
 ```
@@ -24,7 +24,7 @@ public Bidi createLineBidi(int lineStart,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // createLineBidi() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 New Bidi 
 Length : 5
 number of levels : 2
@@ -70,7 +70,7 @@ Base Level : 1
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // createLineBidi() method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 New Bidi 
 Length : 2
 number of levels : 1

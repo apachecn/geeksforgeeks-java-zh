@@ -6,7 +6,7 @@ Java 中 **ByteArrayOutputStream** 类的 **size()** 方法用于获取缓冲区
 
 **语法:**
 
-```
+```java
 public int size()
 
 ```
@@ -21,7 +21,7 @@ public int size()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream size() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 G 1
 GE 2
 GEE 3
@@ -67,7 +67,7 @@ GEEKS 5
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream size() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 G 1
 GE 2
 GEE 3

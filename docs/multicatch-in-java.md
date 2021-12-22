@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate that we needed
 // multiple catch blocks for multiple exceptions
 // prior to Java 7
@@ -40,13 +40,13 @@ public class Test
 
 **输入 1:**
 
-```
+```java
 GeeksforGeeks
 ```
 
 **输出 1:**
 
-```
+```java
 Exception encountered java.lang.NumberFormatException: 
 
 For input string: "GeeksforGeeks"
@@ -54,13 +54,13 @@ For input string: "GeeksforGeeks"
 
 **输入 2:**
 
-```
+```java
 0
 ```
 
 **输出 2:**
 
-```
+```java
 Arithmetic Exception encountered java.lang.ArithmeticException: / by zero
 ```
 
@@ -74,7 +74,7 @@ Arithmetic Exception encountered java.lang.ArithmeticException: / by zero
 
 **语法:**
 
-```
+```java
 try {  
     // code
 } 
@@ -89,7 +89,7 @@ catch (ExceptionType1 | Exceptiontype2 ex){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate
 // multicatch feature
 

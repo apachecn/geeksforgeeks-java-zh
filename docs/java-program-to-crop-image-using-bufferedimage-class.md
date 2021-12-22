@@ -6,25 +6,25 @@
 
 **1。**要读写图像文件，我们必须导入 file 类。这个类通常表示文件和目录路径名。
 
-```
+```java
 import java.io.File
 ```
 
 **2。**为了处理错误，我们使用 IOException 类。
 
-```
+```java
 import java.io.IOException
 ```
 
 **3。**为了保存图像，我们使用 BufferedImage 类为其创建 BufferedImage 对象。该对象用于在内存中存储图像。
 
-```
+```java
 import java.awt.image.BufferedImage
 ```
 
 **4。**为了执行映像读写操作，我们将导入 ImageIO 类。这个类有读写图像的静态方法。
 
-```
+```java
 import javax.imageio.ImageIO
 ```
 
@@ -37,7 +37,7 @@ import javax.imageio.ImageIO
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Crop Image Using BufferedImage Class
 
 // Importing required packages
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Cropped Image created successfully
 ```
 

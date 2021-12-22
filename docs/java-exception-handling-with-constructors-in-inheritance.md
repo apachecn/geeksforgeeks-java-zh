@@ -12,7 +12,7 @@ Java 提供了一种处理异常的机制。要了解异常处理，可以参考
 
 插图 1
 
-```
+```java
 Child() {
 
     // Try- catch block 
@@ -32,7 +32,7 @@ Child() {
 
 插图 2
 
-```
+```java
 Child() {
    super(); // either called explicitly or added by the compiler in case of default constructor
    try {
@@ -46,7 +46,7 @@ Child() {
 
 因此异常不能被捕获(因为它不在 try 块中)，并且我们不能使用 try-catch 机制来处理它。这就是为什么我们需要抛出异常。下面的代码将编译良好，如下所示:
 
-```
+```java
 // parent class constructor throws FileNotFoundException 
 Child() throws FileNotFoundException  {
   super(); // either called explicitly or added by the compiler in case of default constructor
@@ -74,7 +74,7 @@ Child() throws FileNotFoundException  {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception handling with
 // Constructors in inheritance where Parent class
 // constructor does not throw any checked exception
@@ -119,7 +119,7 @@ public class Child extends Parent {
 
 **Output**
 
-```
+```java
 parent class constructor
 child class constructor
 ```
@@ -128,7 +128,7 @@ child class constructor
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception handling with
 // Constructors in inheritance where Parent class
 // constructor does not throw any checked exception
@@ -172,7 +172,7 @@ public class Child extends Parent {
 
 **Output**
 
-```
+```java
 parent class constructor
 child class constructor throwing Exception
 ```
@@ -185,7 +185,7 @@ child class constructor throwing Exception
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception handling with
 // Constructors in inheritance where Child class constructor
 // Not throwing exception of same type or its parent classes
@@ -232,7 +232,7 @@ class Child extends Parent {
 
 **输出**
 
-```
+```java
 error: unreported exception FileNotFoundException; must be caught or declared to be thrown
     Child() {
             ^
@@ -244,7 +244,7 @@ error: unreported exception FileNotFoundException; must be caught or declared to
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception handling with Constructors
 // in Inheritance where we Resolve the Error we Need to
 // Declare the Exceptions to be Thrown
@@ -278,7 +278,7 @@ public class Child extends Parent {
 
 **输出**
 
-```
+```java
 parent class constructor throwing checked exception
 child class constructor throwing same exception
 ```
@@ -287,7 +287,7 @@ child class constructor throwing same exception
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception handling with
 // Constructors in Inheritance where we Resolve the Error we
 // Need to Declare the Exceptions to be Thrown
@@ -337,7 +337,7 @@ public class Child extends Parent {
 
 **输出**
 
-```
+```java
 parent class constructor throwing checked exception
 child class constructor throwing super-class exception
 ```

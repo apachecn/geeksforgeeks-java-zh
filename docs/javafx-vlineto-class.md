@@ -27,7 +27,7 @@ VLineTo 类是 JavaFX 的一部分。VLineTo 类创建从当前位置到指定 Y
     4.  将此路径添加到组对象，并将组对象添加到场景，并将场景添加到舞台。
     5.  调用 *show()* 功能显示最终结果。
 
-    ```
+    ```java
     // Java program to create a path
     // and add VLineTo to it and display it
     import javafx.application.Application;
@@ -110,7 +110,7 @@ VLineTo 类是 JavaFX 的一部分。VLineTo 类创建从当前位置到指定 Y
     5.  将此路径添加到组对象，并将组对象添加到场景，并将场景添加到舞台。
     6.  调用 *show()* 功能显示最终结果。
 
-    ```
+    ```java
     // Java program to create a path and add the
     // multiple VLineTo object to it and display it
     import javafx.application.Application;

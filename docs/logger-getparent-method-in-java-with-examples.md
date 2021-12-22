@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Logger getParent()
 
 ```
@@ -18,7 +18,7 @@ public Logger getParent()
 下面的程序说明了 getName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getParent() method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 logger name = com.java.core
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getParent() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Parent logger name = com.java
 
 ```

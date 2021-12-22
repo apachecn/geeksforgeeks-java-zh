@@ -4,7 +4,7 @@
 
 在 Java 8 之前，接口只能有抽象方法。这些方法的实现必须在单独的类中提供。因此，如果要在接口中添加新方法，那么它的实现代码必须在实现相同接口的类中提供。为了克服这个问题，Java 8 引入了默认方法的概念，它允许接口拥有带有实现的方法，而不影响实现接口的类。
 
-```
+```java
 // A simple program to Test Interface default
 // methods in java
 interface TestInterface
@@ -40,7 +40,7 @@ class TestClass implements TestInterface
 
 输出:
 
-```
+```java
  16
  Default Method Executed
 
@@ -51,7 +51,7 @@ class TestClass implements TestInterface
 **静态方法:**
 接口也可以有静态方法，类似于类的静态方法。
 
-```
+```java
 // A simple Java program to TestClassnstrate static
 // methods in java
 interface TestInterface
@@ -87,7 +87,7 @@ class TestClass implements TestInterface
 
 输出:
 
-```
+```java
  16
  Static Method Executed
 ```
@@ -95,7 +95,7 @@ class TestClass implements TestInterface
 **缺省方法和多重继承**
 如果两个实现的接口都包含具有相同方法签名的缺省方法，那么实现类应该明确指定使用哪个缺省方法，或者应该覆盖缺省方法。
 
-```
+```java
 // A simple Java program to demonstrate multiple
 // inheritance through default methods.
 interface TestInterface1
@@ -141,7 +141,7 @@ class TestClass implements TestInterface1, TestInterface2
 
 输出:
 
-```
+```java
 Default TestInterface1
 Default TestInterface2
 ```

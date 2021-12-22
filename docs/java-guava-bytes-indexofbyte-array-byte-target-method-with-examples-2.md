@@ -23,7 +23,7 @@
 
 ****例 1:****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Bytes.indexOf(byte[] array,
 // byte[] target) method
@@ -68,7 +68,7 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 Array: [1, 2, 3, 4, 3, 5]
 Target Array: [3, 4, 3]
 Target is present at index 2
@@ -77,7 +77,7 @@ Target is present at index 2
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Bytes.indexOf(byte[] array,
 // byte[] target) method
@@ -122,7 +122,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Array: [3, 5, 7, 11, 13]
 Target Array: [23, 37]
 Target is not present in the array

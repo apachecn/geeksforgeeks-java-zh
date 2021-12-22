@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void reset()
 
 ```
@@ -19,7 +19,7 @@ public void reset()
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the reset() method
 
 import java.lang.*;
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the current value is: 0.0
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the reset() method
 
 import java.lang.*;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the current value is: 0.0
 
 ```

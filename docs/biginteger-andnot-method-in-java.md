@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger andNot(BigInteger val)
 ```
 
@@ -16,7 +16,7 @@ public BigInteger andNot(BigInteger val)
 
 **例:**
 
-```
+```java
 Input: value1 = 2300, value2 = 3400
 Output: 180
 Explanation:
@@ -32,7 +32,7 @@ Output: 135561
 
 下面的程序说明了 BigInteger 的 andNot()方法。
 
-```
+```java
 /*
 *Program Demonstrate notNot() method of BigInteger 
 */
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Result of andNot operation between 2300 and 3400 is 180
 
 ```

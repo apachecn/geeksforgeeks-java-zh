@@ -6,7 +6,7 @@ Java 中**ChronalDate**接口的 **getLong()** 方法得到该日期适用的纪
 
 **语法** :
 
-```
+```java
 public long getLong(TemporalField field)
 
 ```
@@ -25,7 +25,7 @@ public long getLong(TemporalField field)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getLong() method
 
 import java.util.*;
@@ -49,14 +49,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 27
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the getLong() method
 
 import java.util.*;
@@ -80,14 +80,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 331
 
 ```
 
 **程序 3** :
 
-```
+```java
 // Program to illustrate the getLong() method
 // Exception Program
 
@@ -114,7 +114,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 java.time.format.DateTimeParseException:
  Text '2017-01-32' could not be parsed:
  Invalid value for DayOfMonth (valid values 1 - 28/31): 32

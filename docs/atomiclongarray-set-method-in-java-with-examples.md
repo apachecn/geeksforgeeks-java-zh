@@ -18,7 +18,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program that demonstrates
     // the set() function
 
@@ -55,7 +55,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The array : [1, 2, 3, 4, 5]
     The array after update : [10, 2, 3, 4, 5]
 
@@ -63,7 +63,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program that demonstrates
     // the set() function
 
@@ -100,7 +100,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The array : [1, 2, 3, 4, 5]
     The array after update : [1, 2, 3, 100, 5]
 

@@ -37,7 +37,7 @@
 
 **第五步:**确认安装，我们可以查看 JDK 版本，如下图所示。以上就是在苹果电脑上安装甲骨文 JDK 17 的全部内容。
 
-```
+```java
 java -version
 ```
 
@@ -55,13 +55,13 @@ java -version
 
 **第二步:**在终端中使用这个命令设置 JAVA_HOME，你不再需要记住只是在上面施压然后继续
 
-```
+```java
 export JAVA_HOME=/Library/Java/Home
 ```
 
 **步骤 3:** 要确认路径，请编写以下命令
 
-```
+```java
 echo $JAVA_HOME 
 ```
 
@@ -73,7 +73,7 @@ echo $JAVA_HOME
 
 **步骤 5:** 打开端子并键入:
 
-```
+```java
 nano ~/.zshenv
 ```
 
@@ -83,7 +83,7 @@ nano ~/.zshenv
 
 **第六步:**把这个加到**的末尾~ ~/。zshenv 文件**
 
-```
+```java
 export JAVA_HOME=$(/usr/libexec/java_home)
 ```
 
@@ -93,14 +93,14 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 **第 8 步:**获取文件并打印$JAVA_HOME。
 
-```
+```java
 source ~/.zshenv
 echo $JAVA_HOME
 ```
 
 如果我们确实看到下面的命令，那么我们已经成功地设置了您的 JAVA_HOME 环境变量
 
-```
+```java
 /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
 ```
 

@@ -12,7 +12,7 @@
 
 ****在服务器端****
 
-```
+```java
 import java.net.Socket;
 ServerSocket mySsocket= new ServerSocket(portnumber);
 ```
@@ -23,7 +23,7 @@ ServerSocket mySsocket= new ServerSocket(portnumber);
 
 ****在客户端****
 
-```
+```java
 import java.net.Socket;
 Socket myCsocket= new Socket( address, portnumber);
 ```
@@ -36,7 +36,7 @@ Socket myCsocket= new Socket( address, portnumber);
 
 T5】Java
 
-```
+```java
 // Java program for creating socket on Server-side
 // Server program depicting creation of a socket
 // at a specific port
@@ -91,7 +91,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Server started
 Waiting for a client ...
 Client accepted through the port number: 80
@@ -101,7 +101,7 @@ Client accepted through the port number: 80
 
 ## Java
 
-```
+```java
 // Java program for creating socket on Client-side
 // Client program depicting creation of a socket
 // at a specific port
@@ -143,6 +143,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Connected to Server
 ```**

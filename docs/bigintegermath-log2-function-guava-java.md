@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int log2(BigInteger x, RoundingMode mode)
 
 ```
@@ -39,7 +39,7 @@ public static int log2(BigInteger x, RoundingMode mode)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // log2(BigInteger x, RoundingMode mode) method
 // of Guava's BigIntegerMath class
@@ -84,7 +84,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Log base 2 of 1024 with rounding mode HALF_EVEN = 10
 Log base 2 of 15 with rounding mode HALF_DOWN = 1
 
@@ -92,7 +92,7 @@ Log base 2 of 15 with rounding mode HALF_DOWN = 1
 
 **示例 2:** 显示非法文档异常
 
-```
+```java
 // Java code to show implementation of
 // log2(BigInteger x, RoundingMode mode) method
 // of Guava's BigIntegerMath class
@@ -133,7 +133,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.IllegalArgumentException: x (-5) must be > 0
 
 ```

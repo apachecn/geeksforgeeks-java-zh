@@ -15,7 +15,7 @@
 
 ## Java
 
-```
+```java
 import java.util.*;
 public class GFG {
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 The list before shuffle : [45, GFG, 2.56, 965.321, A, true]
 
 The list after shuffle 1 : [965.321, 2.56, GFG, 45, A, true]

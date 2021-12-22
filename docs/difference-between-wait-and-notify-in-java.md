@@ -8,14 +8,14 @@
 
 **1。**不接受任何参数的基本版本
 
-```
+```java
 public final void wait()
 // will cause thread to wait till notify is called
 ```
 
 **2。**采用单个超时参数的版本
 
-```
+```java
 public final void wait(long timeout)
 // will cause thread to wait either till notify is called or 
 // till timeout (One which occurs earlier)
@@ -23,14 +23,14 @@ public final void wait(long timeout)
 
 **3。**版本采用超时参数和纳秒参数以获得额外的精度
 
-```
+```java
 public final void wait(long timeout,
 int nanoseconds)
 ```
 
 **notify()有 1 个签名**
 
-```
+```java
 public final void notify()
 // Function does not take any argument
 ```
@@ -50,7 +50,7 @@ public final void notify()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate usage of wait() and notify()
 
 class demo {
@@ -119,7 +119,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Thread t2 waiting
 Welcome to India
 Thread t1 about to surrender lock
@@ -138,7 +138,7 @@ Do visit Taj Mahal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program demonstrating occurrence of InterruptedException
 
 class demo {
@@ -204,7 +204,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Welcome to India
 Exception : class java.lang.InterruptedException
 ```
@@ -225,7 +225,7 @@ Exception : class java.lang.InterruptedException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to demonstrate IllegalMonitorStateException
 
 class demo {
@@ -293,7 +293,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Exception: class java.lang.IllegalMonitorStateException
 ```
 

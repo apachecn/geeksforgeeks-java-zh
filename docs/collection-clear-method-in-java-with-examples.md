@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Collection.clear()
 
 ```
@@ -23,7 +23,7 @@ Collection.clear()
 
 **示例 1:** 使用链接列表类
 
-```
+```java
 // Java code to illustrate boolean clear() method
 
 import java.io.*;
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The list is: [Geeks, for, Geeks]
 The new List is: []
 
@@ -63,7 +63,7 @@ The new List is: []
 
 **例 2:** 使用 ArrayDeque 类
 
-```
+```java
 // Java code to illustrate clear() method
 
 import java.util.*;
@@ -96,7 +96,7 @@ public class ArrayDequeDemo {
 
 **输出:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The new ArrayDeque is: []
 
@@ -104,7 +104,7 @@ The new ArrayDeque is: []
 
 **示例 3:** 使用数组列表类
 
-```
+```java
 // Java code to illustrate clear() method
 
 import java.io.*;
@@ -137,7 +137,7 @@ public class ArrayListDemo {
 
 **输出:**
 
-```
+```java
 ArrayList: [15, 20, 25]
 The new ArrayList is: []
 

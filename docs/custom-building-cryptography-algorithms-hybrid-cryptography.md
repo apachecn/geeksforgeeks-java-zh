@@ -71,7 +71,7 @@
 
 ## C++14
 
-```
+```java
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -250,7 +250,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 import java.lang.*;
 
@@ -383,7 +383,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 riobkxezg
 ```
 

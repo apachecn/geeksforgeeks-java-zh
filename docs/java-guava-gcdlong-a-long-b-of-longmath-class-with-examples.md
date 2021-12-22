@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long gcd(long a, long b)
 
 ```
@@ -21,7 +21,7 @@ public static long gcd(long a, long b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // gcd(long a, long b) method of Guava's
 // LongMath class
@@ -61,7 +61,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GCD of 14 and 70 is 14
 GCD of 23 and 15 is 1
 
@@ -69,7 +69,7 @@ GCD of 23 and 15 is 1
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // gcd(long a, long b) method of Guava's
 // LongMath class
@@ -101,7 +101,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException: a (-5) must be >= 0
 
 ```

@@ -14,7 +14,7 @@ java.io 包中名为 File 的类代表了系统中的文件和目录。这个类
 
 **功能签名:**
 
-```
+```java
 public long lastModified()
 
 ```
@@ -30,7 +30,7 @@ public long lastModified()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // last modified time of a file
 // using lastModified() method

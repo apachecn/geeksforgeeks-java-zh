@@ -33,7 +33,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate CustomerCollection.java
 
 // Importing input output classes
@@ -216,7 +216,7 @@ public class CustomerCollection {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program of Customer.java
 import java.io.*;
 
@@ -244,7 +244,7 @@ class Customer implements Serializable {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate Maian.java
 
 // Importing input output classes

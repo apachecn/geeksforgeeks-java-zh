@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger remainder(BigInteger big)
 ```
 
@@ -18,7 +18,7 @@ public BigInteger remainder(BigInteger big)
 
 **示例:**
 
-```
+```java
 Input: BigInteger1=321456, BigInteger2=31711
 Output: 4346
 Explanation: BigInteger1.remainder(BigInteger2)=4346\. The divide operation 
@@ -33,7 +33,7 @@ Explanation: BigInteger1.remainder(BigInteger2)=0\. The divide operation between
 
 **示例 1:下面的程序说明了 BigInteger 类**的余数()方法
 
-```
+```java
 // Java program to demonstrate remainder() method of BigInteger
 
 import java.math.BigInteger;
@@ -62,14 +62,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result of remainder operation between 321456 and 31711 equal to 4346
 
 ```
 
 **例 2:两者值相等时。**
 
-```
+```java
 // Java program to demonstrate remainder() method of BigInteger
 
 import java.math.BigInteger;
@@ -98,14 +98,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result of remainder operation between 3515219485 and 3515219485 equal to 0
 
 ```
 
 **示例 3:当作为参数传递的 BigInteger 等于零时，程序显示异常。**
 
-```
+```java
 // Java program to demonstrate remainder() method of BigInteger
 
 import java.math.BigInteger;
@@ -133,7 +133,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output:
 Exception in thread "main" java.lang.ArithmeticException: BigInteger divide by zero
     at java.math.MutableBigInteger.divideKnuth(MutableBigInteger.java:1179)

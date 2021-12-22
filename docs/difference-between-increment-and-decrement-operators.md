@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```java
     // PREFIX
     ++m
 
@@ -21,7 +21,7 @@
 
     **示例:**
 
-    ```
+    ```java
     #include <stdio.h>
 
     int increment(int a, int b)
@@ -51,7 +51,7 @@
 
     **语法:**
 
-    ```
+    ```java
     // PREFIX
     --m
 
@@ -64,7 +64,7 @@
 
     **示例:**
 
-    ```
+    ```java
     #include <stdio.h>
 
     int decrement(int a, int b)

@@ -19,7 +19,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <!--Relative Layout-->
@@ -120,7 +120,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.geeksforgeeks.phonecall;
 
     import android.os.Bundle;

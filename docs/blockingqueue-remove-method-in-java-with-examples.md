@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean remove(Object o)
 ```
 
@@ -20,7 +20,7 @@ public boolean remove(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate  remove(Object obj)
 // method of BlockingQueue
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Items in Queue are [Karan, Suraj, Harsh, Rahul]
 String name Karan is removed :true
 String name Sunny is removed :false
@@ -87,7 +87,7 @@ Items in Queue are [Suraj, Rahul]
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate remove(object obj)
 // method of BlockingQueue
 
@@ -178,7 +178,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before removing Elements
 Employee [name=Ranjeet, position=Tester, salary=29000, Age=27]
 Employee [name=Sanjeet, position=Manager, salary=98000, Age=34]

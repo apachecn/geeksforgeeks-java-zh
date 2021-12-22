@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -18,7 +18,7 @@ public int hashCode()
 下面的程序说明了 hashCode()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.hashCode() method
 
@@ -40,14 +40,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashCode of YearMonth: 652
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.from() method
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashCode of YearMonth: 543
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean retainAll(Collection c)
 
 ```
@@ -21,7 +21,7 @@ public boolean retainAll(Collection c)
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate retainAll()
 // method of LinkedBlockingDeque
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [11, 22, 33, 44]
 ArrayList to be retained: [55, 11, 23, 22]
 Retained Linked Blocking Deque: [11, 22]
@@ -83,7 +83,7 @@ Retained Linked Blocking Deque: [11, 22]
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate retainAll()
 // method of LinkedBlockingDeque
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [geeks, Geeks, gfg, Gfg]
 ArrayList to be retained: [GeeksforGeeks, Geeks, gfg, Gfg]
 Retained Linked Blocking Deque: [Geeks, gfg, Gfg]

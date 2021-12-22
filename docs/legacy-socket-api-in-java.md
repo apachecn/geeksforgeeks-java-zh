@@ -36,7 +36,7 @@ Java 套接字 API *(java.net.ServerSocket 和 java.net.Socket)* 中的对象为
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 java -XX:+TraceClassLoading JEP353  | grep Socket
 [0.033s][info   ][class,load] java.net.Socket source: jrt:/java.base
 [0.035s][info   ][class,load] java.net.SocketOptions source: jrt:/java.base
@@ -58,7 +58,7 @@ java -XX:+TraceClassLoading JEP353  | grep Socket
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 System.out.println(switch (args[0]) {
     // a simple switch case
         case "1" -> 1;
@@ -69,7 +69,7 @@ System.out.println(switch (args[0]) {
 
 **输出:**
 
-```
+```java
 //This Switch case prints accordingly
 //User entered 1
 ->1
@@ -79,7 +79,7 @@ System.out.println(switch (args[0]) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 System.out.println(switch (args[0]) {
 case "1":
     yield 1;
@@ -94,7 +94,7 @@ default: {
 
 **输出:**
 
-```
+```java
 //This Switch case prints accordingly
 //User entered 1
 -> yield 1

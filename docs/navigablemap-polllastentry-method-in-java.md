@@ -6,7 +6,7 @@ Java 中[导航映射接口的 pollLastEntry()方法用于移除并返回与该�
 
 **语法** :
 
-```
+```java
 Map.Entry< K, V > pollLastEntry()
 
 ```
@@ -21,7 +21,7 @@ Map.Entry< K, V > pollLastEntry()
 
 **程序 1** :按键为整数时。
 
-```
+```java
 // Java code to demonstrate the working of
 // pollLastEntry() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Removed key-value associated with greatest key : 7=seven
 
 ```
 
 **程序二**:钥匙串的时候。
 
-```
+```java
 // Java code to demonstrate the working of
 // pollLastEntry() method
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Removed key-value associated with greatest the key : two=three
 
 ```

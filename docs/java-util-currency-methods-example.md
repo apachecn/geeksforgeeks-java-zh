@@ -4,7 +4,7 @@
 
 这个类代表货币。这里，货币由他们的 [ISO 4217](http://www.iso.org/iso/home/standards/currency_codes.htm) 货币代码识别。ISO 4217 的目的是建立国际公认的货币表示代码。货币可以用两种方式在代码中表示:三个字母的字母代码和三位数的数字代码。
 
-```
+```java
                         util.Currency methods in Java
                /        /           |            \         \
   getCurrency   getInstance  getDisplayName   getSymbol   getDefaultFractionDigits
@@ -16,7 +16,7 @@
 1.  **getCurrency():****Java . util . Currency . getCurrency()**方法返回传递的 currency 参数的 ISO 4217 货币代码。
     **语法:**
 
-    ```
+    ```java
     public String getCurrencyCode()
     Return : 
     ISO 4217 currency code of the passed argument.
@@ -26,7 +26,7 @@
 2.  **getInstance():****Java . util . Currency . getInstance()**方法为 Currency 代码创建货币实例。
     **语法:**
 
-```
+```java
 public static Currency getInstance(String cCode)
 Parameter : 
 cCode - ISO 4217 currency code of the passed currency argument
@@ -38,7 +38,7 @@ currency instance for Currency code
 *   **getDefaultFractionDigits():****Java . util . currency . getDefaultFractionDigits()**方法返回默认的参数化货币分数位数。
     **语法:**
 
-    ```
+    ```java
     public int getDefaultFractionDigits()
     Return : 
     returns default number of argumented currency fraction digits.
@@ -48,7 +48,7 @@ currency instance for Currency code
     *   **getDisplayName():****Java . util . currency . getDisplayName()**方法生成参数化货币代码的货币名称。
     **语法:**
 
-    ```
+    ```java
     public string getDisplayName()
     Return : 
     currency name of the argumented currency code
@@ -58,7 +58,7 @@ currency instance for Currency code
     *   **getSymbol() :** **java.util.Currency.getSymbol()** method returns Currency symbol for the argumented currency code. In case, no symbol is returned normal currency code will be returned.
     **Syntax :**
 
-    ```
+    ```java
     public String getSymbol()
     Return : 
     Symbol of the argumented currency code currency code.
@@ -67,7 +67,7 @@ currency instance for Currency code
 
     **解释 Currency 类**中 getInstance()，getCurrencyCode()，getDefaultFractionDigits()，getDisplayName()，getSymbol()方法的 Java 代码
 
-    ```
+    ```java
     // Java program explaining Currency class methods
     // getInstance(), getCurrencyCode(),getDefaultFractionDigits()
     // getDisplayName(), getSymbol()
@@ -111,7 +111,7 @@ currency instance for Currency code
 
     输出:
 
-    ```
+    ```java
     Australian Dollar code : AUD
     Japan Yen code : JPY
 

@@ -12,7 +12,7 @@
 
 **继承**是面向对象语言的机制，通过这种机制，任何类(子类)都可以继承其他类父类的所有属性和行为。
 
-```
+```java
 Parent class: GFG
 Child  class: GFGChild
 
@@ -22,7 +22,7 @@ Child  class: GFGChild
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Access Super Class Methods and Instance
 // Variables Without Super Keyword in Java
 
@@ -55,7 +55,7 @@ class GFGChild extends GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Access Super Class Methods and Instance
 // Variables With Super Keyword in Java
 import java.io.*;
@@ -99,7 +99,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 This is the helloworld class
 This is the GFG1 class
 helloworld is the name
@@ -108,7 +108,7 @@ helloworld is the name
 
 **2。第二种方法:**继承后不用关键字 super 关键字，父类的所有方法和实例变量都被子类继承。所以我们可以在儿童课堂上指导他们。
 
-```
+```java
 GFG class: parent class
 Arraylist class: Derived class
 ```
@@ -117,7 +117,7 @@ Arraylist class: Derived class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Access Super Class Methods and Instance
 // Variables Without Super Keyword in Java
 class Arraylist extends GFG {
@@ -145,7 +145,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 This is the constructor
 Hello world
 ```

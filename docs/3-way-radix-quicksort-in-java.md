@@ -58,7 +58,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program for 3-Way Radix Quicksort
 
 import java.io.BufferedInputStream;
@@ -190,7 +190,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 hero
 make
 same
@@ -202,7 +202,7 @@ zero
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program for 3-Way radix QuickSort
 
 import java.io.BufferedInputStream;
@@ -352,7 +352,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 her
 make
 sam

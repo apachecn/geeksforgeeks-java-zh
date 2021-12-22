@@ -6,7 +6,7 @@ Java 中一个 **LocalDate** 类的 **plusDays()** 方法用于在这个 LocalDa
 
 **语法:**
 
-```
+```java
 public LocalDate plusDays(long daysToAdd)
 
 ```
@@ -21,7 +21,7 @@ public LocalDate plusDays(long daysToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plusDays() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before adding days: 2018-11-13
 LocalDate after  adding days: 2018-11-18
 
@@ -60,7 +60,7 @@ LocalDate after  adding days: 2018-11-18
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plusDays() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before adding days: 2018-12-24
 LocalDate after  adding days: 2019-01-08
 

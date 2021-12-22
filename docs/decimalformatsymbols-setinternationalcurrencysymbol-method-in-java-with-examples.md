@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setInternationalCurrencySymbol(
             String internationalCurrencySymbol)
 
@@ -20,7 +20,7 @@ public void setInternationalCurrencySymbol(
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -57,7 +57,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current String used for international currency symbol: USD
 Updated String used for international currency symbol: INR
 

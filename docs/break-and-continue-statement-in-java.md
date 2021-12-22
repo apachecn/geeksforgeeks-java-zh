@@ -8,7 +8,7 @@ break 和 continue 语句是跳转语句，用于跳过循环中的一些语句�
 
 **语法:**
 
-```
+```java
 break;
 ```
 
@@ -26,7 +26,7 @@ break;
 
 ## Java
 
-```
+```java
 // Java program to demonstrate using
 // break to exit a loop
 class GFG {
@@ -46,7 +46,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 i: 0
 i: 1
 i: 2
@@ -61,7 +61,7 @@ Java 没有 goto 语句，因为它提供了一种以任意和非结构化方式
 
 **语法:**
 
-```
+```java
 label:
 {
   statement1;
@@ -76,7 +76,7 @@ label:
 
 **语法:**
 
-```
+```java
 break label;
 ```
 
@@ -84,7 +84,7 @@ break label;
 
 ## Java
 
-```
+```java
 // Java program to demonstrates using break with goto
 class GFG {
     public static void main(String args[])
@@ -109,7 +109,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 0 0
 0 1
 0 2
@@ -122,7 +122,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 switch (expression)
 {
   case value1:
@@ -145,7 +145,7 @@ switch (expression)
 
 ## Java
 
-```
+```java
 // Java program to demonstrate using break to terminate a
 // sequence in a switch statement.
 class GFG {
@@ -171,7 +171,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 i is two.
 ```
 
@@ -181,7 +181,7 @@ Java 中的 continue 语句用于跳过循环的当前迭代。我们可以在�
 
 **语法:**
 
-```
+```java
 continue;
 ```
 
@@ -193,7 +193,7 @@ continue;
 
 ## Java
 
-```
+```java
 // Java program to demonstrates the continue
 // statement to continue a loop
 class GFG {
@@ -213,7 +213,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 0 1 3 4 5 6 7 8 9
 ```
 
@@ -225,7 +225,7 @@ class GFG {
 
 ## Java
 
-```
+```java
 // Java program to demonstrates labeled continue statement
 class GFG {
     public static void main(String args[])
@@ -250,7 +250,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 0 0
 0 1
 0 2

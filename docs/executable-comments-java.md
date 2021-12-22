@@ -4,7 +4,7 @@
 
 注释是一种不被编译器或解释器执行的语句，但是在编译器中对程序进行词法转换之前，程序的内容被编码成 ASCII 码以使处理更容易。考虑这个计划:
 
-```
+```java
 class Main{
 
     public static void main(String[] args) {
@@ -17,14 +17,14 @@ class Main{
 该代码将被成功执行和编译以产生输出。
 **输出**
 
-```
+```java
 Geek Comment Executed!
 
 ```
 
 这成功地产生了这个输出，因为在词法转换之前，java 编译器将 Unicode 字符\u 00d 解析为一个新行，并且程序被转换为:
 
-```
+```java
 class Main{
 
     public static void main(String[] args) {
@@ -46,7 +46,7 @@ Unicode 字符将打印语句移到下一行，然后像普通的 java 程序一
 
 让我们考虑一下这个 java 程序:
 
-```
+```java
 \u0070\u0075\u0062\u006c\u0069\u0063\u0020\u0020\u0020\u0020
 \u0063\u006c\u0061\u0073\u0073\u0020\u0055\u0067\u006c\u0079
 \u007b\u0070\u0075\u0062\u006c\u0069\u0063\u0020\u0020\u0020
@@ -62,7 +62,7 @@ Unicode 字符将打印语句移到下一行，然后像普通的 java 程序一
 
 输出:
 
-```
+```java
 Hello World
 
 ```

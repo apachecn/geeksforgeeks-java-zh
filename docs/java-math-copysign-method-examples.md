@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public static double copySign(DataType magt, DataType sign)
 Parameter :
  magt: argument providing the magnitude of the result.
@@ -24,7 +24,7 @@ second argument.
 
 **示例:**展示**Java . lang . math . copy sign()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.copySign() method
 import java.lang.Math;
@@ -61,7 +61,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 -34.543
 123.44
 -87.56

@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a point 3D
 // object and display its coordinates
 // and find its distance from origin
@@ -66,7 +66,7 @@ public class Point3D_1 {
 
 **输出:**
 
-```
+```java
 x coordinate = 20.0, y coordinate = 50.0, z coordinate = 70.0
 Distance From Origin = 88.31760866327846
 ```
@@ -75,7 +75,7 @@ Distance From Origin = 88.31760866327846
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create 3 Point3D objects and
 // display their coordinates and distance from
 // origin and check which of the 3 points are
@@ -144,7 +144,7 @@ public class Point3D_2 {
 
 **输出:**
 
-```
+```java
 x coordinate = 20.0, y coordinate = 50.0, z coordinate = 70.0
 Distance From Origin = 88.31760866327846
 x coordinate = 20.0, y coordinate = 50.0, z coordinate = 70.0

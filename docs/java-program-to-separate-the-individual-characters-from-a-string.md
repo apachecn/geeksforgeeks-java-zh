@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : string = "GeeksforGeeks"
 Output: Individual characters from given string :
          G e e k s f o r G e e k s
@@ -26,7 +26,7 @@ Output: Individual characters from given string :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Separate the
 // Individual Characters from a String
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Individual characters from given string: 
 G e e k s f o r G e e k s 
 ```
@@ -70,7 +70,7 @@ G e e k s f o r G e e k s
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Implementation of the above approach
 
 import java.io.*;
@@ -99,7 +99,7 @@ class GFG
 
 **Output**
 
-```
+```java
 Displaying individual charactersfrom given string:
 G e e k s F o r G e e k s 
 ```

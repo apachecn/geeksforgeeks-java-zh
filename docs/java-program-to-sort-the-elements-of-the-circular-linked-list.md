@@ -41,7 +41,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort the Elements
 // of the Circular Linked List
 
@@ -148,7 +148,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original List -->      10 6 3 8 4
 List after Sorting-->  3 4 6 8 10
 ```

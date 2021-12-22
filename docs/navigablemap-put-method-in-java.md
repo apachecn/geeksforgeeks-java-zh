@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 NavigableMap.put(*key, value*)
 ```
 
@@ -20,7 +20,7 @@ NavigableMap.put(*key, value*)
 下面的程序用来说明 put()方法的工作原理:
 **程序 1:** 在传递一个已有密钥时。
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class NavigableMapDemo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Returned value is: Geeks
 New map is: {10=Geeks, 15=4, 20=All, 25=Welcomes, 30=You}
@@ -64,7 +64,7 @@ New map is: {10=Geeks, 15=4, 20=All, 25=Welcomes, 30=You}
 
 **程序 2:** 传递新密钥时。
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -99,7 +99,7 @@ public class NavigableMapDemo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Returned value is: null
 New map is: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You, 50=All}

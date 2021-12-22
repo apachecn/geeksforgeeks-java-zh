@@ -6,7 +6,7 @@ java . util . concurrentSkiplistset . isempty()方法是 Java 中的内置函数
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.isEmpty()
 
 ```
@@ -19,7 +19,7 @@ ConcurrentSkipListSet.isEmpty()
 
 **程序 1:** 在这个程序中，ConcurrentSkipListSet 是非空的。
 
-```
+```java
 // Java Program to demonstrate isEmpty()
 // method of ConcurrentSkipListSet() 
 
@@ -47,14 +47,14 @@ class ConcurrentSkipListSetIsEmptyExample1 {
 
 **输出:**
 
-```
+```java
 The set is non-empty.
 
 ```
 
 **程序 2:** 在该程序中，ConcurrentSkipListSet 为空。
 
-```
+```java
 // Java program to demonstrate isEmpty()
 // method of ConcurrentSkipListSet() 
 
@@ -78,7 +78,7 @@ class ConcurrentSkipListSetIsEmptyExample2 {
 
 **输出:**
 
-```
+```java
 The set is empty.
 
 ```

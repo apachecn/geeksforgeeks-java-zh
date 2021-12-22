@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long numberOfLeadingZeros(long num)
 Parameters:
 num - the number passed 
@@ -17,7 +17,7 @@ the number of leading zeros before the highest-order set bit
 
 示例:
 
-```
+```java
 Input : 8
 Output : 60
 Explanation: Binary representation of 8 is 1000 
@@ -33,7 +33,7 @@ Output : 59
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates the
 // Long.numberOfLeadingZeros() function
 
@@ -62,7 +62,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Number of leading zeros = 60
 Number of leading zeros = 59
 
@@ -72,7 +72,7 @@ Number of leading zeros = 59
 
 **程序 2:** 下面的程序演示了传递负数时函数的使用。
 
-```
+```java
 // Java program that demonstrates the
 // Long.numberOfLeadingZeros() function
 // negative number
@@ -100,7 +100,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Number of leading zeros = 0
 Number of leading zeros = 0
 
@@ -108,7 +108,7 @@ Number of leading zeros = 0
 
 **程序 3:** 当一个十进制字符串值作为参数传递时，它会返回一条错误消息。
 
-```
+```java
 // Java program that demonstrates the
 // Long.numberOfLeadingZeros() function
 // decimal number
@@ -130,14 +130,14 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:16: error: incompatible types: possible lossy conversion from double to long
                            + Long.numberOfLeadingZeros(10.45));
 ```
 
 **程序 4:** 当一个字符串值在参数中传递时。
 
-```
+```java
 // Java program that demonstrates the
 // Long.numberOfLeadingZeros() function
 // string number
@@ -159,7 +159,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:16: error: incompatible types: String cannot be converted to long
                            + Long.numberOfLeadingZeros("10"));
 ```

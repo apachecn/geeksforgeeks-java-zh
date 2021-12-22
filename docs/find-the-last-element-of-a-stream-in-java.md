@@ -21,7 +21,7 @@
     *   获取要返回第一个元素的元素流。
     *   要获得最后一个元素，可以使用 **reduce()** 方法忽略第一个元素，重复操作，直到没有第一个元素。
 
-        ```
+        ```java
         Stream.reduce((first, second) -> second)
 
         ```
@@ -32,7 +32,7 @@
     *以下是上述方法的实现:
     **示例:***
 
-    ```
+    ```java
     *// Java program to find last
     // element of a Stream in Java
 
@@ -79,7 +79,7 @@
 
     ***Output:**
 
-    ```
+    ```java
     Last Element: Geek_Last
 
     ```* 
@@ -90,7 +90,7 @@
     *   获取要返回最后一个元素的元素流。
     *   要获取最后一个元素，可以使用 **skip()** 方法和 **count()** 方法。
 
-        ```
+        ```java
         Stream.skip(stream.count()-1)
         ```
 
@@ -100,7 +100,7 @@
     以下是上述方法的实现:
     **示例:**
 
-    ```
+    ```java
     // Java program to find last
     // element of a Stream in Java
 
@@ -157,7 +157,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Last Element: Geek_Last
 
     ```* 
@@ -168,7 +168,7 @@
     *   获取要返回第一个元素的元素流。
     *   要获得第一个元素，您必须首先[反转流](https://www.geeksforgeeks.org/reverse-elements-of-a-parallel-stream-in-java/)。倒车可按如下方式进行:
 
-        ```
+        ```java
         stream.sorted(Collections.reverseOrder())
 
         ```
@@ -179,7 +179,7 @@
     以下是上述方法的实现:
     **示例:**
 
-    ```
+    ```java
     // Java program to find last
     // element of a Stream in Java
 
@@ -231,7 +231,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Last Element: Geek_Last
 
     ```*

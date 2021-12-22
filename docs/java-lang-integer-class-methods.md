@@ -13,7 +13,7 @@
 1.  **toBinaryString():Java . lang . integer . toBinaryString()**方法将参数的整数值转换为字符串形式的 Binary 表示形式。
     **语法**
 
-```
+```java
 public static String toBinaryString(int arg)
 Parameters
 arg : integer argument whose Binary representation we want
@@ -25,7 +25,7 @@ Binary representation of the argument.
     方法将参数的整数值转换为 Binary 字符串，然后返回其中出现的 1 的个数。
     **语法**
 
-```
+```java
 public static int bitCount(int arg)
 Parameters
 arg : integer argument whose no. of 1's bit we want
@@ -36,7 +36,7 @@ no. of 1's bit present in the argument.
 2.  **to exstring():Java . lang . integer . to exstring()**方法将参数的整数值转换为字符串的十六进制表示形式。
     **语法**
 
-```
+```java
 public static String toHexString(int arg)
 Parameters
 arg : integer argument whose Hexadecimal representation we want
@@ -47,7 +47,7 @@ Hexadecimal representation of the argument.
 2.  **toOctalString():Java . lang . integer . to exstring()**方法将参数的整数值转换为字符串的十六进制表示形式。
     **语法**
 
-```
+```java
 public static String toHexString(int arg)
 Parameters
 arg : integer argument whose Hexadecimal representation we want
@@ -59,7 +59,7 @@ Hexadecimal representation of the argument.
     基数(r)表示使用的编号格式位于字符串的基数“r”处。
     **语法**
 
-```
+```java
 public static int parseInt(String arg)
               or
 public static int parseInt(String arg, int r)
@@ -72,7 +72,7 @@ primitive data type of the argumented String value.
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java code explaining the Integer Class methods
 // bitcount(), toBinaryString(), toHexString(), toOctalString(), parse__()
 import java.lang.*;
@@ -122,7 +122,7 @@ public class NewClass
 
 1.  输出:
 
-```
+```java
 Binary string of 16   : 1111
 Binary string of 100  : 10000000
 
@@ -143,7 +143,7 @@ Octal string of 100  : 200
 2.  **hashCode():Java . lang . integer . hashCode()**方法返回传递的参数的 [hashCode](https://en.wikipedia.org/wiki/Java_hashCode()) 值。
     **语法:**
 
-```
+```java
 public int hashCode(arg)
 Parameters:
 arg - the argument whose hashCode value we need
@@ -157,7 +157,7 @@ hashCode value of arg
     它考虑最低位(位于 3)，现在重置其余位，即 0000 0100
     因此结果= 0100 即 4
 
-```
+```java
 public static int lowestOneBit(int arg)
 **Parameters:**
 arg - argument passed
@@ -171,7 +171,7 @@ integer value by only considering lowest 1 bit in the argument.
     它考虑最高位(位于 6)，现在重置其余位即 0001 0000
     因此结果= 10000 即 32**
 
-```
+```java
 public static int highestOneBit(int arg)
 **Parameters:**
 arg - argument passed
@@ -181,7 +181,7 @@ integer value by only considering highest 1 bit in the argument.
 
 ## **Java 语言（一种计算机语言，尤用于创建网站）**
 
-```
+```java
 // Java program explaining Integer class methods
 // hashcode(), lowestOneBit(), highestOneBit()
 import java.lang.*;
@@ -216,7 +216,7 @@ public class NewClass
 
 1.  **输出:** 
 
-```
+```java
 HashCode value of f1 : 30
 HashCode value of f2 : -56
 
@@ -232,7 +232,7 @@ highestOneBit of 30 : 16
     所以结果= 4
     **语法:**** 
 
-```
+```java
 public static int numberOfTrailingZeros(int arg)
 **Parameters:**
 arg - the argument
@@ -247,7 +247,7 @@ Number of zero bits following the 1 bit at lowest position
     所以结果= 32–6 即 26
     **语法:**** 
 
-```
+```java
 public static int numberOfLeadingZeros(int arg)
 **Parameters:**
 arg - the argument
@@ -258,7 +258,7 @@ Number of zero bits preceding the 1 bit at highest position
 2.  ****reverse():Java . lang . integer . reverse()**方法首先查找传递的参数的 2 的补语，并反转 2 的补语中的比特顺序。
     **语法:**** 
 
-```
+```java
 public static int reverse(int arg)
 **Parameters:**
 arg - the argument 
@@ -268,7 +268,7 @@ int with reverse order of bits in 2's compliment of the passed argument
 
 ## **Java 语言（一种计算机语言，尤用于创建网站）**
 
-```
+```java
 // Java program explaining Integer class methods
 // numberOfTrailingZeros(), numberOfLeadingZeros(), reverse()
 import java.lang.*;
@@ -300,7 +300,7 @@ public class NewClass
 
 1.  **输出:** 
 
-```
+```java
 Binary representation of 30 : 11110
 
 No. Of Trailing Zeros : 1

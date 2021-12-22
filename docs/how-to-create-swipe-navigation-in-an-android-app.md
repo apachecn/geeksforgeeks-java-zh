@@ -26,7 +26,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     package com.example.android.gfg;
 
     import android.os.Bundle;
@@ -61,7 +61,7 @@
 
     ## 可扩展标记语言
 
-    ```
+    ```java
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -94,7 +94,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     package com.example.android.gfg;
 
     import android.support.v4.app.Fragment;
@@ -141,7 +141,7 @@
 
     ## activity_main.xml
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <LinearLayout
@@ -162,7 +162,7 @@
 
     ## MainActivity.Java
 
-    ```
+    ```java
     package com.example.android.gfg;
 
     import android.os.Bundle;

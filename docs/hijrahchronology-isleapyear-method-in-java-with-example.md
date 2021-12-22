@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isLeapYear(long prolepticYear)
 ```
 
@@ -20,7 +20,7 @@ public boolean isLeapYear(long prolepticYear)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isLeapYear() method
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 this is non leap year
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isLeapYear() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 this is non leap year
 
 ```

@@ -17,21 +17,21 @@
 
 **数组列表的语法:**
 
-```
+```java
 ArrayList<String> cars = new ArrayList<String>();
 
 ```
 
 **如果我们想要一个没有大小限制的灵活列表，并且对元素的操作非常慢，那么链接列表**比数组列表更受欢迎。
 
-```
+```java
 LinkedList<E> extends AbstractList<E> implements List<E>, Deque<E> ;
 
 ```
 
 **Vector** 方法类似于 ArrayList 只是 Vector 比 Arraylist 有优势，因为 Vector 中的所有元素都是同步的，只有在制作多线程应用程序时才有用。所以，在实践中，向量类并没有被更频繁地使用。
 
-```
+```java
 Vector object= new vector(datatype parameter1, datatype parameter2, ...., datatype parameterN)
 
 ```
@@ -44,7 +44,7 @@ Vector object= new vector(datatype parameter1, datatype parameter2, ...., dataty
 
 **语法:**
 
-```
+```java
 public List subList(int fromIndex, int toIndex)
 
 ```
@@ -65,7 +65,7 @@ public List subList(int fromIndex, int toIndex)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find 
 // Sublist in a List 
 import java.util.*; 
@@ -119,7 +119,7 @@ public class GFG1 { 
 
 **输出:**
 
-```
+```java
 Original arrlist: [1, 4, 9, 25, 36]
 Sublist of arrlist: [9, 25]
 
@@ -129,7 +129,7 @@ Sublist of arrlist: [9, 25]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find
 // sublist in a List 
 
@@ -182,7 +182,7 @@ public class GFG1 
 
 **输出:**
 
-```
+```java
 Original arrlist: [Example, in, Geeks, for, Geeks]
 Sublist of arrlist: [Geeks, for, Geeks]
 
@@ -192,7 +192,7 @@ Sublist of arrlist: [Geeks, for, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // subList() method 
 // for IllegalArgumentException 
@@ -252,7 +252,7 @@ public class GFG1
 
 **输出:**
 
-```
+```java
 Original arrlist: [Example, in, Geeks, for, Geeks]
 
 Endpoint indices are out of order (fromIndex > toIndex)
@@ -264,7 +264,7 @@ Exception thrown: java.lang.IllegalArgumentException: fromIndex(9) > toIndex(3)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate subList() 
 // method for IndexOutOfBoundsException 
 
@@ -319,7 +319,7 @@ public class GFG1 
 
 **输出:**
 
-```
+```java
 Original arrlist: [1, 4, 9, 25, 36]
 
 End index value is out of range

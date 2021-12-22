@@ -8,7 +8,7 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
 1.  **Executing Comments:** Most of the developers think [comments](https://www.geeksforgeeks.org/comments-in-java/) are never executed in a program and are used for ease in understanding the code. But, they are executed. For example:
 
-    ```
+    ```java
     public class GFG {
         public static void main(String[] args)
         {
@@ -19,7 +19,7 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
     **Output:**
 
-    ```
+    ```java
     GeeksForGeeks
 
     ```
@@ -31,7 +31,7 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
     **示例:**
 
-    ```
+    ```java
     public class GFG {
         public static void main(String[] args)
         {
@@ -43,7 +43,7 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
     **Output:**
 
-    ```
+    ```java
     12334
 
     ```
@@ -52,7 +52,7 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
     **示例:**
 
-    ```
+    ```java
     import java.util.HashSet;
     import java.util.Set;
 
@@ -72,7 +72,7 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
     **Output:**
 
-    ```
+    ```java
     [MACHINE LEARNING, ALGORITHMS, DS, BLOCKCHAIN]
 
     ```
@@ -81,7 +81,7 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
     **示例:**
 
-    ```
+    ```java
     import java.util.Arrays;
     public class GFG {
         public static void main(String[] args)
@@ -98,14 +98,14 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
     **Output:**
 
-    ```
+    ```java
     Element has to be inserted at: 1
 
     ```
 
 5.  **包装类 vs 数据类型:**在下面的示例中，第二个 print 语句不会显示 true，因为包装类对象的引用正在被比较，而不是它们的值。
 
-    ```
+    ```java
     import java.util.Arrays;
     public class GFG {
         public static void main(String[] args)
@@ -131,7 +131,7 @@ Java 是最好的面向对象编程语言之一，由詹姆斯·高斯林于 199
 
     **输出:**
 
-    ```
+    ```java
     true
     false
     true

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static Enumeration enumeration(Collection c)
 ```
 
@@ -18,7 +18,7 @@ public static Enumeration enumeration(Collection c)
 
 ****语法:****
 
-```
+```java
 boolean hasMoreElements()
 ```
 
@@ -28,7 +28,7 @@ boolean hasMoreElements()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Getting Enumeration over Java HashSet
 import java.util.*;
 import java.util.Enumeration;
@@ -65,7 +65,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Dhruv
 Akshay
 Chintu
@@ -77,7 +77,7 @@ Nikhil
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Getting Enumeration over Java HashSet
 import java.util.*;
 import java.util.Enumeration;
@@ -112,7 +112,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 GFG
 Welcome
 On

@@ -8,7 +8,7 @@ Java 中**数组类**的**流(T[]数组)**方法用于从作为参数传递的�
 
 **语法:**
 
-```
+```java
 public static <T> Stream<T> stream(T[] array)
 ```
 
@@ -20,7 +20,7 @@ public static <T> Stream<T> stream(T[] array)
 
 **程序 1:** Arrays.stream()将字符串数组转换为流。
 
-```
+```java
 // Java program to demonstrate Arrays.stream() method
 
 import java.util.*;
@@ -45,14 +45,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks for Geeks
 
 ```
 
 **程序 2:** Arrays.stream()将 int 数组转换为 stream。
 
-```
+```java
 // Java program to demonstrate Arrays.stream() method
 
 import java.util.*;
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 2 3 4 5
 
 ```
@@ -88,7 +88,7 @@ Java 中**数组类**的**流(T[]数组，int startInclusive，int endExclusive)
 
 **语法:**
 
-```
+```java
 public static <T> Stream<T> 
     stream(T[] array, int startInclusive, int endExclusive)
 ```
@@ -105,7 +105,7 @@ public static <T> Stream<T>
 
 **程序 1:** Arrays.stream()将字符串数组转换为流。
 
-```
+```java
 // Java program to demonstrate Arrays.stream() method
 
 import java.util.*;
@@ -131,14 +131,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 A Computer Portal
 
 ```
 
 **程序 2:** Arrays.stream()将 int 数组转换为 stream。
 
-```
+```java
 // Java program to demonstrate Arrays.stream() method
 
 import java.util.*;
@@ -163,7 +163,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2 3
 
 ```

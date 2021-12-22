@@ -14,7 +14,7 @@
 
 导航至**梯度脚本>构建。gradle(模块:应用)**并在依赖项部分添加下面的依赖项。
 
-```
+```java
 implementation "androidx.recyclerview:recyclerview:1.1.0"
 implementation 'de.hdodenhof:circleimageview:3.1.0'
 implementation 'com.github.bumptech.glide:glide:4.11.0'
@@ -28,7 +28,7 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 导航到 **AndroidManifest.xml** 文件，并添加以下权限，以便在应用程序中获得互联网权限。
 
-```
+```java
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.CAMERA" />
@@ -40,7 +40,7 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -106,7 +106,7 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"

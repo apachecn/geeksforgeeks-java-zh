@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDateTime atDate(LocalDate date)
 
 ```
@@ -18,7 +18,7 @@ public LocalDateTime atDate(LocalDate date)
 以下程序说明了 atDate()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.atDate() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Date and Time:2018-12-05T09:32:42
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.atDate() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Date and Time:2017-12-05T18:12:49
 
 ```

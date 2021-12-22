@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 IntStream skip(long n)
 
 ```
@@ -21,7 +21,7 @@ IntStream skip(long n)
 
 **例 1 :**
 
-```
+```java
 // Java code for IntStream skip() function
 import java.util.*;
 import java.util.stream.IntStream;
@@ -43,7 +43,7 @@ class GFG {
 
 输出:
 
-```
+```java
 9
 10
 11
@@ -52,7 +52,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for IntStream skip() function
 import java.util.*;
 import java.util.stream.IntStream;
@@ -74,7 +74,7 @@ class GFG {
 
 输出:
 
-```
+```java
 10
 11
 9

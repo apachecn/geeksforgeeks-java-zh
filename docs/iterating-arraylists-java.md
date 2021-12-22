@@ -21,7 +21,7 @@ ArrayList 是 [**集合框架**](https://www.geeksforgeeks.org/collections-in-ja
 
 T5】JavaT7
 
-```
+```java
 // Java  program to iterate over an ArrayList
 // Using for loop
 
@@ -54,7 +54,7 @@ T8T10**输出**T1
 
 T5】JavaT7
 
-```
+```java
 // Java Program to Illustrate ArrayList
 // Using While Loop
 
@@ -108,7 +108,7 @@ T8T10**输出**T1
 
 T5】JavaT7
 
-```
+```java
 // Java Program to Iterate over Arraylist
 // using for Each loop
 
@@ -140,7 +140,7 @@ T8T10**输出**T1
 
 ## Java
 
-```
+```java
 // Java program to iterate over an ArrayList
 // Using Iterator
 
@@ -172,6 +172,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 1 2 3 4 5 6 7 8 
 ```

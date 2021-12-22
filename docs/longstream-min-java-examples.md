@@ -6,7 +6,7 @@ Java 8 中的 java.util.stream.LongStream 处理原语 longs。它以一种新�
 
 **语法:**
 
-```
+```java
 OptionalLong() min()
 
 Where, OptionalLong is a container object which 
@@ -16,7 +16,7 @@ may or may not contain a long value.
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream min()
 import java.util.*;
 import java.util.stream.LongStream;
@@ -50,14 +50,14 @@ class GFG {
 
 输出:
 
-```
+```java
 -18
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream min()
 // to get the minimum value in range
 // excluding the last element
@@ -84,14 +84,14 @@ class GFG {
 
 输出:
 
-```
+```java
 50
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Java code for LongStream min()
 // to get the minimum value in range
 // excluding the last element
@@ -118,7 +118,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -1
 
 ```

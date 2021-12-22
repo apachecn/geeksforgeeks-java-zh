@@ -58,7 +58,7 @@
 
 **申报:**
 
-```
+```java
 public interface Collection<E> extends Iterable<E>
 ```
 
@@ -68,7 +68,7 @@ public interface Collection<E> extends Iterable<E>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Collection interface
 
 import java.io.*;
@@ -101,7 +101,7 @@ public class CollectionDemo {
 
 **Output**
 
-```
+```java
 The list is: [Geeks, for, Geeks]
 The new List is: [Geeks, for, Geeks, Last, Element]
 ```
@@ -112,7 +112,7 @@ The new List is: [Geeks, for, Geeks, Last, Element]
 
 **语法:**
 
-```
+```java
 Collection<E> objectName = new ArrayList<E>();
 ```
 
@@ -128,7 +128,7 @@ Collection<E> objectName = new ArrayList<E>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate adding
 // elements to the Collection
 
@@ -167,7 +167,7 @@ public class AddingElementsExample {
 
 **Output**
 
-```
+```java
 Number = 15
 Number = 20
 Number = 25
@@ -180,7 +180,7 @@ The new ArrayList is: [15, 20, 25]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate removing
 // elements from a Collection
 
@@ -231,7 +231,7 @@ public class RemoveElementsExample {
 
 **Output**
 
-```
+```java
 Initial set1 : [1, 2, 3, 4, 5]
 set1 after removing 4 : [1, 2, 3, 5]
 Collection Elements to be removed : [1, 2, 3]
@@ -244,7 +244,7 @@ set 1 after removeAll() operation : [5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate iterating
 // over a Collection
 
@@ -285,7 +285,7 @@ public class IteratingExample {
 
 **Output**
 
-```
+```java
 The list is: [Geeks, for, Geeks, is, a, CS, Students, Portal]
 
 The iterator values of list are: 

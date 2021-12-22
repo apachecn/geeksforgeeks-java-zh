@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object ob)
 ```
 
@@ -28,7 +28,7 @@ public boolean equals(Object ob)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LongBuffer 1:  [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 LongBuffer 2:  [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 Both are equal
@@ -107,7 +107,7 @@ Both are equal
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -178,7 +178,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LongBuffer 1:  [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 LongBuffer 2:  [8, 0, 9, 0, 0]
 Both are not equal
@@ -187,7 +187,7 @@ Both are not equal
 
 **实施例 3:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -260,7 +260,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LongBuffer 1:  [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 LongBuffer 2:  [8, 0, 9, 7, 4, 0, 0, 0, 0, 0]
 Both are not equal

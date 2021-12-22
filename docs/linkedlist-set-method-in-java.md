@@ -6,7 +6,7 @@ Java.util.LinkedList.set()方法用于将使用 LinkedList 类创建的链表中
 
 **语法:**
 
-```
+```java
 LinkedList.set(int index, Object element)
 
 ```
@@ -20,7 +20,7 @@ LinkedList.set(int index, Object element)
 
 下面的程序说明了 Java.util.LinkedList.set()方法:
 
-```
+```java
 // Java code to illustrate set()
 import java.io.*;
 import java.util.LinkedList;
@@ -55,7 +55,7 @@ public class LinkedListDemo {
 
 **Output:**
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 The Object that is replaced is: Geeks
 The Object that is replaced is: 20

@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Executing instance block
 // by creating object.
 
@@ -44,7 +44,7 @@ class GFGJava {
 
 **输出:**
 
-```
+```java
 Instance block called by creating objects
 Instance block called by creating objects
 Instance block called by creating objects
@@ -62,7 +62,7 @@ T0T6】
 
 **输出:**
 
-```
+```java
 C:\Users\Bikash\Desktop\GeeksforGeeks Java>javac GFG.java
 C:\Users\Bikash\Desktop\GeeksforGeeks Java>java GFG
 Instance block inside main method called without creating an object

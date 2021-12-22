@@ -5,7 +5,7 @@
 **Ints.compare()** 是番石榴库中 [Ints 类](https://www.geeksforgeeks.org/ints-class-guava-java/)的一种方法，用于比较两个给定的 *int* 值。它将两个整数作为要比较的参数。它根据指定整数的比较结果返回一个比较器值。
 **语法:**
 
-```
+```java
 public static int compare(int a, int b)
 ```
 
@@ -25,7 +25,7 @@ public static int compare(int a, int b)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.compare() method
 import com.google.common.primitives.Ints;
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 1
 ```
 
@@ -55,7 +55,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.compare() method
 import com.google.common.primitives.Ints;
@@ -76,6 +76,6 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 0
 ```

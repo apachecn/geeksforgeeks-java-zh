@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Generic  Linked List
 
 // Importing all input output classes
@@ -403,7 +403,7 @@ public class GFG {
 
 **输出:-**
 
-```
+```java
 Integer LinkedList created as list1 :
 list1 after adding 100,200 and 300 :
 { 100 -&gt; 200 -&gt; 300 }

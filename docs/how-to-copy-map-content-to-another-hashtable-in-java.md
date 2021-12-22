@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 hashtable.putAll(hashmap)
 ```
 
@@ -29,7 +29,7 @@ hashtable.putAll(hashmap)
 
 **示例:**
 
-```
+```java
 Input:
 
 hs.put("first", "Geeks");
@@ -44,7 +44,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to copy Map content to another Hashtable
 
 import java.util.HashMap;
@@ -76,6 +76,6 @@ public class NewExample {
 
 **Output**
 
-```
+```java
 Hashtable elements: {k2=New Year, k1=GeeksForGeeks}
 ```

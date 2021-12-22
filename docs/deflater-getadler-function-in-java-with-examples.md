@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public int getAdler()
 
 ```
 
 **语法:**
 
-```
+```java
 d.getAdler();
 
 ```
@@ -26,7 +26,7 @@ d.getAdler();
 
 **例 1:**
 
-```
+```java
 // Java program to describe the use
 // of finished() function
 
@@ -80,7 +80,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Compressed String :x?sOM?.N?/r???q??
  Size 21
 Original String :GeeksforGeeksGeeksforGeeksGeeksforGeeksGeeksforGeeks

@@ -14,7 +14,7 @@
 
 ## **Java**
 
-```
+```java
 // Java program to print the elements of LinkedHashSet
 
 import java.util.*;
@@ -39,6 +39,6 @@ class GfG {
 
 ****输出****
 
-```
+```java
 [Hey, How, are, You]
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract Clock withZone(ZoneId zone)
 ```
 
@@ -16,7 +16,7 @@ public abstract Clock withZone(ZoneId zone)
 
 **示例:**
 
-```
+```java
 Code:
 //Clock with default zone
 Clock clock1=Clock.systemUTC();
@@ -37,7 +37,7 @@ then the withZone() method will return a Clock whose Zone is "Asia/Calcutta".
 
 **程序 1:** 在 withZone()的帮助下，创建一个与第一个时钟具有相似属性但 zoneId 等于“亚洲/加尔各答”的时钟。
 
-```
+```java
 // Java program to demonstrate
 // withZone() method of Clock class
 
@@ -83,7 +83,7 @@ public class withZoneMethodDemo {
 
 **Output:**
 
-```
+```java
 ZonedDateTime of baseclock 2018-08-24T08:09:17.354Z
 ZonedDateTime of clockWithOtherZone 2018-08-24T13:39:17.539+05:30[Asia/Calcutta]
 
@@ -91,7 +91,7 @@ ZonedDateTime of clockWithOtherZone 2018-08-24T13:39:17.539+05:30[Asia/Calcutta]
 
 **程序 2:** 使用 getZone()为 withZone()创建的时钟打印 zoneId。
 
-```
+```java
 // Java program to demonstrate
 // withZone() method of Clock class
 
@@ -126,7 +126,7 @@ public class withZoneMethodDemo {
 
 **Output:**
 
-```
+```java
 baseclock Zone:Etc/UTC
 clockWithOtherZone Zone:Asia/Calcutta
 

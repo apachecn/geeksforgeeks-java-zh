@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(CharBuffer that)
 ```
 
@@ -18,7 +18,7 @@ public int compareTo(CharBuffer that)
 
 **例 1:** 当两个 CharBuffer 相等时。
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 import java.nio.*;
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Charbuffer cb: [a, b, c]
 Charbuffer cb1: [a, b, c]
 
@@ -107,7 +107,7 @@ both buffer arelexicographically equal
 
 **示例 2:** 当该浮动填充大于传递的浮动填充时
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 import java.nio.*;
@@ -187,7 +187,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CharBuffer cb: [g, b, c]
 CharBuffer cb1: [a, b, c]
 
@@ -197,7 +197,7 @@ cb is lexicographically greater than cb1
 
 **示例 3:** 当该浮动填充小于传递的浮动填充时
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -275,7 +275,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CharBuffer cb: [a, b, c]
 CharBuffer cb1: [g, b, c]
 

@@ -43,7 +43,7 @@
 
 *   正如我们在大多数任务中使用 for 循环一样，在 **Groovy** 中声明 for 循环要容易得多，我们可以将 for 循环声明为
 
-```
+```java
 for(j in 0..4){ print j } 
 0.upto(3) { print "$it" } 
 4.times{ print "$it" }    
@@ -51,7 +51,7 @@ for(j in 0..4){ print j }
 
 *   其中 **Java**
 
-```
+```java
  for(int i=0;i<=5;i++){
   System.out.println(i);
  }
@@ -61,7 +61,7 @@ for(j in 0..4){ print j }
 
 *   在 **Java** 中我们要执行一些操作来检查空对象，避免空指针异常。
 
-```
+```java
 String str = null;
 if(str != null){
     System.out.println(str.reverse());
@@ -70,7 +70,7 @@ if(str != null){
 
 *   但是在 **Groovy** 中我们可以直接做如下
 
-```
+```java
 println  str.reverse()
 ```
 
@@ -81,7 +81,7 @@ println  str.reverse()
 *   **10。布尔求值:**
     **Groovy** 自动将表达式求值为布尔。
 
-```
+```java
 def str = “test”
 if(str){ println str }
 ```
@@ -91,14 +91,14 @@ if(str){ println str }
 *   如果你想在 **Java** 中创建字符串数组，那么你必须使用花括号“{}”。
     在**爪哇**:
 
-```
+```java
 String[] testArray = {"A", "B", "C"};
 ```
 
 *   而在 **Groovy** 中，我们可以使用方括号。"[]".
     在**常规**中:
 
-```
+```java
 String[] testArray = ["A", "B", "C"]
 ```
 

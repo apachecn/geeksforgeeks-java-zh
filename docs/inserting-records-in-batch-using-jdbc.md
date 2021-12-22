@@ -18,7 +18,7 @@
 
 ****语法:**创建数据库**
 
-```
+```java
 **create table emp(eid varchar(200) unique,ename varchar(200)**
 ```
 
@@ -26,7 +26,7 @@
 
  **## 爪哇
 
-```
+```java
 // Step 1: Importing DB(SQL) classes
 import java.sql.Connection;
 import java.sql.DriverManager;

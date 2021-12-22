@@ -10,7 +10,7 @@ Java 中的 Access Modifier 是用于定义类、变量和方法的范围的保�
 
 ## 爪哇
 
-```
+```java
 // Java program to illustrate Abstract Access Modifier
 
 // Importing the required packages
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Number of wheels in bus is 7
 Number of wheels in Auto is 3
 ```

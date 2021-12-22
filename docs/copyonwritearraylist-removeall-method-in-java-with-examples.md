@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection collection)
 
 ```
@@ -24,7 +24,7 @@ public boolean removeAll(Collection collection)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate removeAll() method
 
 import java.util.ArrayList;
@@ -75,7 +75,7 @@ public class Demo {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArrayList: 
 [TV, computer, play station, mobile, smart watch]
 
@@ -89,7 +89,7 @@ After removal of collection from CopyOnWriteArrayList:
 
 **示例 2:** 显示空指针异常
 
-```
+```java
 // Java program to demonstrate removeAll() method
 
 import java.util.ArrayList;
@@ -141,7 +141,7 @@ public class Demo {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArrayList: 
 [TV, computer, play station, mobile, smart watch]
 

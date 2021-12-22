@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void 
     forEach(BiConsumer<? super K, ? super V> action)
 ```
@@ -23,7 +23,7 @@ public void
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // forEach(BiConsumer) method.
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Key : Booklet, Value : 2600
 Key : Clothes, Value : 500
 Key : Mobile, Value : 5100
@@ -72,7 +72,7 @@ Key : Book, Value : 600
 
 **程序 2:** 显示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // forEach(BiConsumer) method.
 
@@ -111,7 +111,7 @@ public class GFG {
 
 T5】输出:
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

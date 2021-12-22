@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 ByteObject.toString()
 ```
 
@@ -17,7 +17,7 @@ ByteObject.toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to implement
 // toString() method of Byte class
 
@@ -42,6 +42,6 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 19
 ```

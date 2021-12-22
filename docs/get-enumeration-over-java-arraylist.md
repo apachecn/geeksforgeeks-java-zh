@@ -14,7 +14,7 @@
 
 **语法:**用于声明枚举
 
-```
+```java
 public static  Enumeration enumeration(Collection c) ;
 ```
 
@@ -24,7 +24,7 @@ public static  Enumeration enumeration(Collection c) ;
 
 **语法:**
 
-```
+```java
 boolean hasMoreElements() ;
 ```
 
@@ -38,7 +38,7 @@ boolean hasMoreElements() ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Getting Enumeration over Java ArrayList
 
 // Importing ArrayList,Collection and Enumeration class
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Perfume
 Clothes
 Sandal
@@ -92,7 +92,7 @@ Watch
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Getting Enumeration over Java ArrayList
 
 // Importing ArrayList,Collection and Enumeration class
@@ -135,7 +135,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Java
 C++
 Kotlin

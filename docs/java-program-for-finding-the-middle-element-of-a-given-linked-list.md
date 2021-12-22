@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find middle of 
 // the linked list
 class LinkedList
@@ -100,7 +100,7 @@ class LinkedList
 
 **输出:**
 
-```
+```java
 5->NULL
 The middle element is [5]
 
@@ -123,7 +123,7 @@ The middle element is [3]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the
 // above approach
 class GFG
@@ -210,7 +210,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 5->NULL
 The middle element is [5]
 

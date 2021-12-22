@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract CharBuffer duplicate()
 ```
 
@@ -20,7 +20,7 @@ public abstract CharBuffer duplicate()
 
 **实施例 1:** 使用直接 charbuffer
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // Using direct intbuffer
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, , b, , , , , , , ]
 Duplicate CharBuffer: [a, , b, , , , , , , ]
 
@@ -84,7 +84,7 @@ Duplicate CharBuffer: [a, , b, , , , , , , ]
 
 **示例 2:** 使用只读 intbuffer
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // using read-onlyIntbuffer
@@ -156,7 +156,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, , b, , , , , , , ]
 read-only CharBuffer: a, , b, , , , , , , , 
 duplicate copy of read-only CharBuffer: a, , b, , , , , , , , 

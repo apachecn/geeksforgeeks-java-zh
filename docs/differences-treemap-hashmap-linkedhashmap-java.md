@@ -14,7 +14,7 @@
 1.  **HashMap:** HashMap 提供 **0(1)** 查找和插入。但是，如果您遍历键，键的顺序基本上是任意的。它是由一组链表实现的。
     **语法:**
 
-```
+```java
 public class HashMap extends AbstractMap 
 implements Map,Cloneable, Serializable
 ```
@@ -27,7 +27,7 @@ implements Map,Cloneable, Serializable
 **2。linked hashmap:**linked hashmap 提供 **0(1)** 查找和插入。键按插入顺序排序。它由双链接桶实现。
 **语法:**
 
-```
+```java
 public class LinkedHashMap extends HashMap 
 implements Map
 ```
@@ -40,7 +40,7 @@ implements Map
 **3。树形图:**树形图提供**0(对数 N)** 查找和插入。键是有序的，所以如果需要按排序顺序遍历键，可以这样做。这意味着键必须实现可比接口。树形图由红黑树实现。
 **语法:**
 
-```
+```java
 public class TreeMap extends AbstractMap implements
 NavigableMap, Cloneable, Serializable
 ```
@@ -53,7 +53,7 @@ NavigableMap, Cloneable, Serializable
 **4。哈希表:**“哈希表”是基于哈希的映射的通称。
 **语法:**
 
-```
+```java
 public class Hashtable extends Dictionary implements
 Map, Cloneable, Serializable
 ```
@@ -66,7 +66,7 @@ Map, Cloneable, Serializable
 
 ## HashMap
 
-```
+```java
 // Java program to print ordering
 // of all elements using HashMap
 import java.util.*;
@@ -99,7 +99,7 @@ class Main
 
 ## LinkedHashMap
 
-```
+```java
 // Java program to print ordering
 // of all elements using LinkedHashMap
 import java.util.*;
@@ -133,7 +133,7 @@ class Main
 
 ## 树图
 
-```
+```java
 // Java program to print ordering of
 // all elements using TreeMap
 
@@ -168,21 +168,21 @@ class Main
 
 哈希表输出:
 
-```
+```java
 -1, 0, 1, -2, 2,     
 // ordering of the keys is essentially arbitrary (any ordering)
 ```
 
 LinkedHashMap 的输出:
 
-```
+```java
  1, -1, 0, 2, -2,     
 // Keys are ordered by their insertion order
 ```
 
 树形图输出:
 
-```
+```java
  -2, -1, 0, 1, 2,   
 // Keys are in sorted order
 ```

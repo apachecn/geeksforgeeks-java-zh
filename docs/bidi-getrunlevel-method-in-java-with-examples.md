@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getRunLevel(int run)
 ```
 
@@ -18,7 +18,7 @@ public int getRunLevel(int run)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getRunLevel() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 level of first run is : 2
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getRunLevel() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 level of first run is : 0
 
 ```

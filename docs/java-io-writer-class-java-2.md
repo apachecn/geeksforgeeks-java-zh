@@ -16,7 +16,7 @@
     out . write(csq . toString())
     的行为完全相同，根据字符序列 csq 的 toString 规范，整个序列可能不会被追加。例如，调用字符缓冲区的 toString 方法将返回一个子序列，其内容取决于缓冲区的位置和限制。
 
-```
+```java
 Syntax :public Writer append(CharSequence csq)
               throws IOException
 Parameters:
@@ -30,7 +30,7 @@ IOException
 
 *   **编写器追加(CharSequence csq，int start，int end) :** 向该编写器追加指定字符序列的子序列。将指定字符序列的子序列附加到该书写器
 
-    ```
+    ```java
     Syntax :public Writer append(CharSequence csq,
                 int start,
                 int end)
@@ -49,7 +49,7 @@ IOException
 
     *   **抽象虚空关闭():**关闭溪流，先冲洗。一旦流被关闭，进一步的 write()或 flush()调用将导致引发 IOException。关闭以前关闭的流没有效果。
 
-    ```
+    ```java
     Syntax :public abstract void close()
                         throws IOException
     Throws:
@@ -58,7 +58,7 @@ IOException
 
     *   **抽象虚空冲():**冲溪。如果流已将各种 write()方法中的任何字符保存在缓冲区中，请立即将它们写入预期目标。然后，如果目的地是另一个字符或字节流，则刷新它。因此，一个 flush()调用将刷新一系列写入器和输出流中的所有缓冲区。
 
-    ```
+    ```java
     Syntax :public abstract void flush()
                         throws IOException
     Throws:
@@ -67,7 +67,7 @@ IOException
 
     *   **void write(char[] cbuf) :** 写入字符数组。
 
-    ```
+    ```java
     Syntax :public void write(char[] cbuf)
                throws IOException
     Parameters:
@@ -78,7 +78,7 @@ IOException
 
     *   **抽象 void write(char[] cbuf，int off，int len) :** 写入字符数组的一部分。
 
-    ```
+    ```java
     Syntax :public abstract void write(char[] cbuf,
              int off,
              int len)
@@ -94,7 +94,7 @@ IOException
     *   **void write(int c) :** 写单个字符。要写入的字符包含在给定整数值的 16 个低位中；16 个高位被忽略。
     想要支持高效单字符输出的子类应该覆盖这个方法。
 
-    ```
+    ```java
     Syntax :public void write(int c)
                throws IOException
     Parameters:
@@ -105,7 +105,7 @@ IOException
 
     *   **空写(字符串):**写字符串。
 
-    ```
+    ```java
     Syntax :public void write(String str)
                throws IOException
     Parameters:
@@ -115,7 +115,7 @@ IOException
 
     *   **void write(String str, int off, int len) :** Writes a portion of a string.
 
-    ```
+    ```java
     Syntax :public void write(String str,
              int off,
              int len)
@@ -130,7 +130,7 @@ IOException
 
     **程序:**
 
-    ```
+    ```java
     //Java program demonstrating Writer methods
 
     import java.io.IOException;
@@ -175,7 +175,7 @@ IOException
 
     **输出:**
 
-    ```
+    ```java
     ABCDEFGHIJKLM
     ```
 

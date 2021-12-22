@@ -8,7 +8,7 @@ Java 支持[数组](https://www.geeksforgeeks.org/data-structures/#Array)作为�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Common cause index out of bound
 public class NewClass2 {
     public static void main(String[] args)
@@ -22,7 +22,7 @@ public class NewClass2 {
 
 **预期输出:**
 
-```
+```java
 1
 2
 3
@@ -34,7 +34,7 @@ public class NewClass2 {
 
 **运行时错误引发异常:**
 
-```
+```java
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
     at NewClass2.main(NewClass2.java:5)
 ```
@@ -45,7 +45,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // One more example with index out of bound
 import java.util.ArrayList;
 public class NewClass2
@@ -62,7 +62,7 @@ public class NewClass2
 
 这里的运行时错误比上一次提供的信息要多一点-
 
-```
+```java
 Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
     at java.util.ArrayList.rangeCheck(ArrayList.java:653)
     at java.util.ArrayList.get(ArrayList.java:429)
@@ -77,7 +77,7 @@ Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 2, Size: 
 
 访问数组的正确方式是:
 
-```
+```java
 for (int i=0; i<ar.length; i++){
 
 }
@@ -87,7 +87,7 @@ for (int i=0; i<ar.length; i++){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Correct code for Example 1
 public class NewClass2 {
     public static void main(String[] args)
@@ -102,7 +102,7 @@ public class NewClass2 {
 
 **Output**
 
-```
+```java
 1
 2
 3

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : Key- 1  : Value-5
     Key- 29 : Value-13
     Key- 14 : Value-10
@@ -18,7 +18,7 @@ Output: 1, 29, 14, 34, 55
 
 **方法 1:** 使用[for-每个](https://www.geeksforgeeks.org/for-each-loop-in-java/)循环迭代**链接的哈希表**。对于每次迭代，我们使用 **getKey()** 方法打印各自的密钥。
 
-```
+```java
 for(Map.Entry<Integer,Integer>ite : LHM.entrySet())
     System.out.print(ite.getKey()+", ");
 ```
@@ -27,7 +27,7 @@ for(Map.Entry<Integer,Integer>ite : LHM.entrySet())
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print all keys of the LinkedHashMap
 
 import java.util.*;
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1, 29, 14, 34, 55,
 ```
 
@@ -65,7 +65,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print all keys of the LinkedHashMap
 
 import java.util.*;
@@ -92,7 +92,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks, for,
 ```
 
@@ -100,7 +100,7 @@ Geeks, for,
 
 **语法:**
 
-```
+```java
 hash_map.keySet()
 ```
 
@@ -110,7 +110,7 @@ hash_map.keySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -136,6 +136,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 [One, Two, Three]
 ```

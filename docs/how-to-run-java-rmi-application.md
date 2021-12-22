@@ -25,7 +25,7 @@
 
         ## 接口程序
 
-        ```
+        ```java
         import java.math.BigInteger;
 
         // Creating an Interface
@@ -44,7 +44,7 @@
 
         ## 接口的实现
 
-        ```
+        ```java
         import java.math.BigInteger;
 
         // Extends and Implement the class
@@ -85,7 +85,7 @@
 
         ## 服务器程序
 
-        ```
+        ```java
         import java.rmi.Naming;
 
         public class FactorialServer {
@@ -120,7 +120,7 @@
 
         ## 客户程序
 
-        ```
+        ```java
         import java.net.MalformedURLException;
         import java.rmi.Naming;
         import java.rmi.NotBoundException;

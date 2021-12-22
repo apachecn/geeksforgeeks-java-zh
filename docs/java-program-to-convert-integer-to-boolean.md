@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: int = 1
 Output: true
 
@@ -24,7 +24,7 @@ Output: false
 
 **例 1:**
 
-```
+```java
 // Java Program to convert integer to boolean
 
 public class GFG {
@@ -57,14 +57,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into boolean = true
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java Program to convert integer to boolean
 
 public class GFG {
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 0 after converting into boolean = false
 
 ```

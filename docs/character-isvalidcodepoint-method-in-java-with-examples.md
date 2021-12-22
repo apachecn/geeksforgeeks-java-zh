@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isValidCodePoint(int codePoint)
 ```
 
@@ -17,7 +17,7 @@ public static boolean isValidCodePoint(int codePoint)
 以下程序说明了 Character.isValidCodePoint()方法的使用:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.isValidCodePoint() method
 import java.lang.*;
@@ -45,7 +45,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 c1 is a valid Unicode code point is true
 c2 is a valid Unicode code point is false
 
@@ -53,7 +53,7 @@ c2 is a valid Unicode code point is false
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.isValidCodePoint() method 
 import java.lang.*;
@@ -81,7 +81,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 c1 is a valid Unicode code point is true
 c2 is a valid Unicode code point is false
 

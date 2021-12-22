@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.iterator()
 ```
 
@@ -16,7 +16,7 @@ LinkedTransferQueue.iterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of LinkedTransferQueue */
 
@@ -48,14 +48,14 @@ class LinkedTransferQueueIteratorExample1 {
 
 **Output:**
 
-```
+```java
 Gfg is fun!!
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of LinkedTransferQueue */
 
@@ -89,7 +89,7 @@ class LinkedTransferQueueIteratorExample2 {
 
 **Output:**
 
-```
+```java
 The queue contains 10 15 20 25
 
 ```

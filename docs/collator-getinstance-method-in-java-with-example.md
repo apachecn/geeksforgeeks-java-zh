@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Collator getInstance()
 ```
 
@@ -19,7 +19,7 @@ public static Collator getInstance()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 java.text.RuleBasedCollator@5eb2e1c2 is not equal to java.text.RuleBasedCollator@289747d6
 ```
 
@@ -77,7 +77,7 @@ java.text.RuleBasedCollator@5eb2e1c2 is not equal to java.text.RuleBasedCollator
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 java.text.RuleBasedCollator@289747d6 is equal to java.text.RuleBasedCollator@289747d6
 ```
 

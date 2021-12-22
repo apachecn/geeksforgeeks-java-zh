@@ -54,7 +54,7 @@
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Class 1
 // Helper class
 // Extending Thread class
@@ -179,7 +179,7 @@ public class SynchroTest {
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Java Program Illustrating Lock the Object for
 // the shared resource giving consistent output
 
@@ -275,7 +275,7 @@ public class SynchroTest {
 
 *****语法:*****
 
-```
+```java
 ***synchronized (object reference) 
 {    
    // Insert code here
@@ -286,7 +286,7 @@ public class SynchroTest {
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Java Program Illustrating  Synchronized Code
 // Using synchronized block
 
@@ -400,7 +400,7 @@ class SynchroTest {
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Java Program Illustrate  Synchronized
 // Using static synchronization
 

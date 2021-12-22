@@ -16,7 +16,7 @@
 
 ## 爪哇
 
-```
+```java
 // InstanceControlFlow class
 class InstanceControlFlow {
 
@@ -59,7 +59,7 @@ class InstanceControlFlow {
 
 **输出**
 
-```
+```java
 0
 First Instance Block
 Second Instance Block

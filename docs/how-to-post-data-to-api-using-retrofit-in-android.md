@@ -36,7 +36,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--permissions for INTERNET-->
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
@@ -47,7 +47,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -111,7 +111,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class DataModal {
 
     // string variables for our name and job
@@ -148,7 +148,7 @@ public class DataModal {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
@@ -171,7 +171,7 @@ public interface RetrofitAPI {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

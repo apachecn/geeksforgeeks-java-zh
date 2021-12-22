@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void forEach(Consumer<? super E> action)
 ```
 
@@ -20,7 +20,7 @@ public void forEach(Consumer<? super E> action)
 
 **示例 1:** 演示 ArrayDeque 上的 forEach()方法，该方法包含一个字符串值队列。
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of ArrayDeque
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Kolkata
 Delhi
 Bombay
@@ -59,7 +59,7 @@ Pune
 
 **示例 2:** 演示包含对象队列的 ArrayDeque 上的 forEach()方法。
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of ArrayDeque
 
@@ -112,7 +112,7 @@ class batch {
 
 **Output:**
 
-```
+```java
 list of Objects:
 *******************************
 Batch Name is CSE
@@ -131,7 +131,7 @@ No of Students are 78
 
 **示例 3:** 演示 ArrayDeque 上 forEach()方法的 NullPointerException。
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of ArrayDeque
 
@@ -165,7 +165,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

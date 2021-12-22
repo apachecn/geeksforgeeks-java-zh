@@ -6,7 +6,7 @@ Java 中 **[CharArrayReader](https://www.geeksforgeeks.org/java-io-chararrayread
 
 **语法:**
 
-```
+```java
 public void mark(int readAheadLimit)
 ```
 
@@ -20,7 +20,7 @@ public void mark(int readAheadLimit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CharArrayReader mark() method
 
@@ -79,7 +79,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksForGe
 eks??
 
@@ -87,7 +87,7 @@ eks??
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // CharArrayReader mark() method
 
@@ -145,7 +145,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksForGe
 e
 

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final Set aliases()
 ```
 
@@ -18,7 +18,7 @@ public final Set aliases()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 [csBig5]
 
 [big5-hkscs, big5hk, Big5_HKSCS, big5hkscs]

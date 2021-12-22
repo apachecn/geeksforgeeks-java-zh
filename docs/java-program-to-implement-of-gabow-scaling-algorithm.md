@@ -30,7 +30,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Implement Gabow Scaling Algorithm
 
 // Importing input output classes
@@ -164,7 +164,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Strongly Connected Components for give edges : 
 [[5, 6], [7, 3, 2], [4, 1, 0]]
 ```

@@ -8,7 +8,7 @@
 
 列表是一个接口，可以通过以下方式创建列表的实例:
 
-```
+```java
 List a = new ArrayList();
 List b = new LinkedList();
 List c = new Vector(); 
@@ -25,7 +25,7 @@ List d = new Stack();
 
     **语法:**
 
-    ```
+    ```java
     List<Integer> list=new ArrayList<Integer>();
     List<Integer> llist=new LinkedList<Integer>();
     List<Integer> stack=new Stack<Integer>();
@@ -34,7 +34,7 @@ List d = new Stack();
 
     **示例:**
 
-    ```
+    ```java
     import java.util.*;
     import java.util.function.Supplier;
 
@@ -65,7 +65,7 @@ List d = new Stack();
 
     **Output:**
 
-    ```
+    ```java
     ArrayList : [1, 3]
     LinkedList : [2, 4]
     Stack : [3, 1]
@@ -76,7 +76,7 @@ List d = new Stack();
 
     **语法:**
 
-    ```
+    ```java
     List<Integer> list=new ArrayList<Integer>(){{
                             add(1);
                             add(2);
@@ -87,7 +87,7 @@ List d = new Stack();
 
     **示例:**
 
-    ```
+    ```java
     import java.util.*;
 
     public class GFG {
@@ -120,7 +120,7 @@ List d = new Stack();
 
     **Output:**
 
-    ```
+    ```java
     ArrayList : [1, 3]
     LinkedList : [2, 4]
     Stack : [3, 1]
@@ -135,13 +135,13 @@ List d = new Stack();
 
         **语法:**
 
-        ```
+        ```java
         List<Integer> list=Arrays.asList(1, 2, 3);
         ```
 
         **示例:**
 
-        ```
+        ```java
         import java.util.Arrays;
         import java.util.List;
 
@@ -160,7 +160,7 @@ List d = new Stack();
 
         **Output:**
 
-        ```
+        ```java
         List : [1, 2, 3]
 
         ```
@@ -169,13 +169,13 @@ List d = new Stack();
 
         **语法:**
 
-        ```
+        ```java
         List<Integer> list=new ArrayList<>(Arrays.asList(1, 2, 3));
         ```
 
         **示例:**
 
-        ```
+        ```java
         import java.util.ArrayList;
         import java.util.Arrays;
         import java.util.List;
@@ -201,7 +201,7 @@ List d = new Stack();
 
         **Output:**
 
-        ```
+        ```java
         List : [1, 2, 3]
         Modified list : [1, 2, 3, 5]
 
@@ -217,7 +217,7 @@ List d = new Stack();
 
         **语法:**
 
-        ```
+        ```java
         List<Integer> list = Collections.EMPTY_LIST;
         Collections.addAll(list = new ArrayList<Integer>(), 1, 2, 3, 4);
 
@@ -225,7 +225,7 @@ List d = new Stack();
 
         **示例:**
 
-        ```
+        ```java
         import java.util.*;
 
         public class GFG {
@@ -246,7 +246,7 @@ List d = new Stack();
 
         **Output:**
 
-        ```
+        ```java
         List : [1, 2, 3, 4]
 
         ```
@@ -257,7 +257,7 @@ List d = new Stack();
 
         **语法:**
 
-        ```
+        ```java
         List<Integer> list = Collections
                 .unmodifiableList(Arrays.asList(1, 2, 3));
 
@@ -265,7 +265,7 @@ List d = new Stack();
 
         **例 1:**
 
-        ```
+        ```java
         import java.util.*;
 
         public class GFG {
@@ -284,14 +284,14 @@ List d = new Stack();
 
         **Output:**
 
-        ```
+        ```java
         List : [1, 2, 3]
 
         ```
 
         **例 2:**
 
-        ```
+        ```java
         import java.util.*;
 
         public class GFG {
@@ -320,7 +320,7 @@ List d = new Stack();
 
         **Output:**
 
-        ```
+        ```java
         List : [1, 2, 3]
         Trying to modify the list
         Exception : java.lang.UnsupportedOperationException
@@ -333,13 +333,13 @@ List d = new Stack();
 
         **语法:**
 
-        ```
+        ```java
         List<Integer> list = Collections.singletonList(2);
         ```
 
         **例 1:**
 
-        ```
+        ```java
         import java.util.*;
 
         public class GFG {
@@ -357,7 +357,7 @@ List d = new Stack();
 
         **Output:**
 
-        ```
+        ```java
         List : [2]
 
         ```
@@ -368,7 +368,7 @@ List d = new Stack();
 
     **语法:**
 
-    ```
+    ```java
     1\.  List<Integer> list 
                 = Stream.of(1, 2, 3)
                     .collect(Collectors.toList());
@@ -384,7 +384,7 @@ List d = new Stack();
 
     **示例:**
 
-    ```
+    ```java
     import java.util.*;
     import java.util.stream.Collectors;
     import java.util.stream.Stream;
@@ -430,7 +430,7 @@ List d = new Stack();
 
     **Output:**
 
-    ```
+    ```java
     List using Syntax 1: [1, 2, 3]
     List using Syntax 2: [3, 2, 1]
     List using Syntax 3: [1, 2, 3, 4]
@@ -443,13 +443,13 @@ List d = new Stack();
 
     **语法:**
 
-    ```
+    ```java
     List<Integer> unmodifiableList = List.of(1, 2, 3);
     ```
 
     **示例:**
 
-    ```
+    ```java
     import java.util.List;
 
     public class GFG {
@@ -468,7 +468,7 @@ List d = new Stack();
 
     **输出:**
 
-    ```
+    ```java
     [1, 2, 3]
 
     ```

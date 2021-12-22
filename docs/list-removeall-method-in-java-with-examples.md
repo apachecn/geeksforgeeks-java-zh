@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean removeAll(Collection c)
 ```
 
@@ -18,7 +18,7 @@ boolean removeAll(Collection c)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // removeAll method in list interface
 import java.util.*;
@@ -49,7 +49,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 30, 50, 70, 90]
 [10, 70, 90]
 
@@ -57,7 +57,7 @@ public class GfG {
 
 **程序 2:** 下面是使用 Linkedlist 显示 list.removeAll()实现的代码。
 
-```
+```java
 // Java code to show the implementation of
 // removeAll method in list interface
 import java.util.*;
@@ -88,7 +88,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 30, 50, 70, 90]
 [10, 70, 90]
 

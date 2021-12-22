@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : String = "GeeksforGeeks"
 Output: Number of Vowels = 5
         Number of Consonants = 8
@@ -27,7 +27,7 @@ Output: Number of Vowels = 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Count Total Number of Vowels
 // and Consonants in a String
 
@@ -86,7 +86,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Number of Vowels = 5
 Number of Consonants = 8
 ```

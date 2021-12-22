@@ -6,7 +6,7 @@ ZonedDateTime 是一个不可变的对象，代表日期时间和时区。此类
 
 **类别申报:**
 
-```
+```java
 public final class ZonedDateTime
 extends Object
 implements Temporal, ChronoZonedDateTime<LocalDate>, Serializable
@@ -123,7 +123,7 @@ parse()方法的实现:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to create a new
 // ZonedDateTime using parse() method
 import java.time.ZonedDateTime;
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2011-10-02T14:45:30.123456789+05:30[Asia/Kolkata]
 
 ```
@@ -152,7 +152,7 @@ getZone()方法的实现:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to illustrate working of getZone() method
 import java.time.ZonedDateTime;
 
@@ -174,7 +174,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Asia/Kolkata
 
 ```
@@ -183,7 +183,7 @@ Asia/Kolkata
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to illustrate working
 // of plus() and minus() method
 import java.time.Period;
@@ -214,7 +214,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2011-10-02T14:45:30.123456789+05:30[Asia/Kolkata]
 2011-08-02T14:45:30.123456789+05:30[Asia/Kolkata]
 2011-12-02T14:45:30.123456789+05:30[Asia/Kolkata]
@@ -225,7 +225,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate working of of() method
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -255,7 +255,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2021-03-20T17:09:56.241560Z[Etc/UTC]
 
 ```

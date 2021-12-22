@@ -43,7 +43,7 @@ Google AdMob 中主要有四种灵活、高性能的格式
 
 ## colors.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0F9D58</color>
@@ -72,7 +72,7 @@ Google AdMob 中主要有四种灵活、高性能的格式
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -288,7 +288,7 @@ Google AdMob 中主要有四种灵活、高性能的格式
 
 ## MainActivity.Java
 
-```
+```java
 package org.geeksforgeeks.project;
 
 import android.os.Bundle;
@@ -475,7 +475,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## AndroidManifest.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.geeksforgeeks.project">

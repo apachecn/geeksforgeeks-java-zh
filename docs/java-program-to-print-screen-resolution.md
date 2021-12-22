@@ -10,7 +10,7 @@
 
 **申报**
 
-```
+```java
 public abstract Dimension getScreenSize()
 ```
 
@@ -18,13 +18,13 @@ public abstract Dimension getScreenSize()
 
 例外
 
-```
+```java
 HeadlessException (if GraphicsEnvironment.isHeadless() returns true)
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to display the screen size
 import java.awt.*;
 

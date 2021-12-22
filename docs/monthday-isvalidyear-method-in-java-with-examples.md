@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isValidYear?(int year)
 
 ```
@@ -18,7 +18,7 @@ public boolean isValidYear?(int year)
 下面的程序说明了 isValidYear()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.isValidYear() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year 2012 is valid for monthday: --10-12 = true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.isValidYear() method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year 2017 is valid for monthday: --02-29 = false
 
 ```

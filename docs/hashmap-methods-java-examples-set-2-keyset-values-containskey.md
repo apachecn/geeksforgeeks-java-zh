@@ -8,7 +8,7 @@
 
 *   **KeySet():****Java . util . HashMap . KeySet()**它返回此地图中包含的键的集合视图。集合由地图支持，因此对地图的更改会反映在集合中，反之亦然。
 
-    ```
+    ```java
     Syntax:
     public Set keySet()
     Return: a set view of the keys contained in this map
@@ -17,7 +17,7 @@
 
 *   **values():****Java . util . hashmap . values()**它返回此地图中包含的值的集合视图。集合由地图支持，因此对地图的更改会反映在集合中，反之亦然。
 
-```
+```java
 Syntax:
 public Collection values()
 Return: a collection view of the values contained in 
@@ -27,7 +27,7 @@ this map
 
 *   **containsKey():** **java.util.HashMap.containsKey()** It returns true if this map maps one or more keys to the specified value.
 
-    ```
+    ```java
     Syntax:
     public boolean containsValue(Object value)
     Parameters:
@@ -39,7 +39,7 @@ this map
 
     实施:
 
-    ```
+    ```java
     // Java program illustrating usage of HashMap class methods
     // keySet(), values(), containsKey()
     import java.util.*;
@@ -83,7 +83,7 @@ this map
 
     输出:
 
-    ```
+    ```java
     Testing .containsKey : HashMap
     Initial keys  : [Language, Platform, Learn, Code]
     Initial values : [Java, Geeks For geeks, More, HashMap]
@@ -94,7 +94,7 @@ this map
 
     *   **。entrySet():****Java . util . HashMap . entrySet()**方法返回 HashMap 中存在的一组完整的键和值。
 
-    ```
+    ```java
     Syntax:
     public Set<Map.Entry> entrySet()
     Return:
@@ -105,7 +105,7 @@ this map
     *   **。getOrDefault:****Java . util . HashMap . getOrDefault()**如果使用我们在 HashMap 中作为参数传递的键没有值 find，则方法返回默认值。如果键的值已经存在于 HashMap 中，它不会对它做任何事情。
     为尚未映射的键赋值是非常好的方法，不会干扰已经存在的键和值集。
 
-    ```
+    ```java
     Syntax:
     default V getOrDefault(Object key,V defaultValue)
     Parameters:
@@ -120,7 +120,7 @@ this map
     第一个方法接受一组键和值，用参数中传递的新值替换键的现有值。如果不存在这样的集合，replace()方法将不做任何事情。
     同时，如果在哈希表中找到键和旧值，第二种方法将只替换已经存在的键-旧值集。
 
-    ```
+    ```java
     Syntax:
     replace(k key, v value)
               or
@@ -138,7 +138,7 @@ this map
 
     *   **.putIfAbsent** **java.util.HashMap.putIfAbsent(key, value)** method is being used to insert a new key-value set to the HashMap if the respective set is present. Null value is returned if such key-value set is already present in the HashMap.
 
-    ```
+    ```java
     Syntax:
     public V putIfAbsent(key, value)
     Parameters:
@@ -147,7 +147,7 @@ this map
 
     ```
 
-    ```
+    ```java
     // Java Program illustrating HashMap class methods(). 
     // entrySet(), getOrDefault(), replace(), putIfAbsent
     import java.util.*;
@@ -199,7 +199,7 @@ this map
 
     **输出:**
 
-    ```
+    ```java
     Set of Keys and Values using entrySet() : [Language=Java, Learn=More, Code=HashMap]
 
     Using .getorDefault : HashMap
@@ -214,7 +214,7 @@ this map
 
     *   **remove(Object key):** Removes the mapping for this key from this map if present.
 
-    ```
+    ```java
     // Java Program illustrating remove() method using Iterator.
 
     import java.util.*;
@@ -253,7 +253,7 @@ this map
 
     **输出:**
 
-    ```
+    ```java
     Set of Keys and Values : [Language=Java, Platform=Geeks For geeks, Code=HashMap]
 
     Use of Iterator to remove the sets.

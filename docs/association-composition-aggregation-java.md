@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // Concept of Association
 
@@ -83,6 +83,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Ridhi is employee of ICICI
 ```

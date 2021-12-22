@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add, Subtract and Multiply
 // Two big decimal numbers 
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Addition of num1 and num2 = 60.7299028768
 Subtraction of num1 and num2 = -30.0269771232
 Multiplication of num1 and num2 = 696.625437067096192
@@ -65,7 +65,7 @@ Multiplication of num1 and num2 = 696.625437067096192
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show exception thrown if blunt division
 // of two big decimal numbers is carried on
 
@@ -106,7 +106,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show division of two big decimal numbers
 
 // Importing input output classes
@@ -137,7 +137,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Division of num1 and num2 = 2.955968454874647
 ```
 
@@ -147,7 +147,7 @@ Division of num1 and num2 = 2.955968454874647
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add big decimal number
 // with an Integer number
 
@@ -191,7 +191,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add big decimal number
 // with an Integer number
 
@@ -225,7 +225,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Addition of num1 and num2 = 27
 ```
 
@@ -237,7 +237,7 @@ Addition of num1 and num2 = 27
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing all input output classes
 import java.io.*;
 // Importing BigDecimal class from
@@ -286,7 +286,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Addition of num1 and num2 = 27
 Subtraction of num1 and num2 = -3
 Multiplication of num1 and num2 = 180

@@ -9,7 +9,7 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
 1.  **getAnnotation(Class annotationClass):** Returns this element’s annotation for the specified type if such an annotation is present, else null.
 
-    ```
+    ```java
     Syntax: public  A getAnnotation(Class annotationClass)
     Returns: this element's annotation for the specified 
     annotation type if present on this element, else null.
@@ -17,7 +17,7 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
     ```
 
-    ```
+    ```java
     // Java code illustrating getAnnotation() method 
     import java.lang.annotation.Retention;
     import java.lang.annotation.RetentionPolicy;
@@ -63,21 +63,21 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
     输出:
 
-    ```
+    ```java
     Gfg Demo Annotation 100
 
     ```
 
 2.  **Annotation[] getAnnotations():** Returns all annotations present on this element. (Returns an array of length zero if this element has no annotations.) The caller of this method is free to modify the returned array; it will have no effect on the arrays returned to other callers.
 
-    ```
+    ```java
     Syntax: public Annotation[] getDeclaredAnnotations().
     Returns: All annotations directly present on this element.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating getAnnotation() method
     import java.lang.annotation.Annotation;
     import java.lang.annotation.Retention;
@@ -130,7 +130,7 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
     输出:
 
-    ```
+    ```java
     Gfg Demo Annotation 100
     @Demo(str= Gfg Demo Annotation, val=100)
 
@@ -138,14 +138,14 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
 3.  **Annotation[] getDeclaredAnnotations():** Returns all annotations that are directly present on this element. Unlike the other methods in this interface, this method ignores inherited annotations. (Returns an array of length zero if no annotations are directly present on this element.) The caller of this method is free to modify the returned array; it will have no effect on the arrays returned to other callers.
 
-    ```
+    ```java
     Syntax: public Annotation[] getDeclaredAnnotations().
     Returns: All annotations directly present on this element.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // java code illustrating getDeclaredAnnotation() method
     import java.lang.annotation.Annotation;
     import java.lang.annotation.Retention;
@@ -198,7 +198,7 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
     输出:
 
-    ```
+    ```java
      Gfg Demo Annotation 100
     @Demo(str= Gfg Demo Annotation, val=100)
 
@@ -206,7 +206,7 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
 4.  **String getImplementationTitle():**返回此包的标题。
 
-    ```
+    ```java
     Syntax: public String getImplementationTitle()
     Returns: the title of the implementation, null is returned if it is not known.
     Exception: NA
@@ -215,7 +215,7 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
 5.  **String getImplementationVersion():**返回此实现的版本。它由该实现的供应商分配的任何字符串组成，没有 Java 运行时指定或期望的任何特定语法。可以将它与该供应商用于该包的实现的其他包版本字符串进行比较，以确定是否相等。
 
-    ```
+    ```java
     Syntax: public String getImplementationVersion()
     Returns: the version of the implementation, null is returned if it is not known.
     Exception: NA
@@ -224,7 +224,7 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
 6.  **String getImplementationVendor():**返回提供此实现的组织、供应商或公司的名称。
 
-    ```
+    ```java
     Syntax: public String getImplementationVendor().
     Returns: the vendor that implemented this package.
     Exception: NA.
@@ -233,7 +233,7 @@ Java 2 添加了一个名为 Package 的类，它封装了与包相关的版本�
 
 7.  **String getName():** 返回该包的名称。
 
-```
+```java
 Syntax: public String getName()
 Returns: The fully-qualified name of this package as defined
  in section 6.5.3 of The Java™ Language Specification, for example, java.lang.
@@ -241,7 +241,7 @@ Exception: NA
 
 ```
 
-```
+```java
 // Java code illustrating getName(), getImplementationTitle()
 // and getImplementationVendor() and getImplementationVersion()
 // methods
@@ -273,7 +273,7 @@ class PackageDemo
 
 输出:
 
-```
+```java
 sun.reflect
 Java Runtime Environment
 Oracle Corporation
@@ -283,7 +283,7 @@ Oracle Corporation
 
 14.  **静态包 getPackage(字符串名称):**在调用者类加载器实例中按名称查找包。调用方类加载器实例用于查找与命名类对应的包实例。如果调用方类加载器实例为空，则搜索系统类加载器实例加载的包集以找到命名包。
 
-    ```
+    ```java
     Syntax: public static Package getPackage(String name)
     Returns: the package of the requested name. It may 
     be null if no package information is available from the archive or 
@@ -294,7 +294,7 @@ Oracle Corporation
 
 15.  **static Package[] getPackages():** Get all the packages currently known for the caller’s ClassLoader instance. Those packages correspond to classes loaded via or accessible by name to that ClassLoader instance. If the caller’s ClassLoader instance is the bootstrap ClassLoader instance, which may be represented by null in some implementations, only packages corresponding to classes loaded by the bootstrap ClassLoader instance will be returned.
 
-    ```
+    ```java
     Syntax: public static Package[] getPackages()
     Returns: a new array of packages known to the callers 
     ClassLoader instance. An zero length array is returned if none are known.
@@ -302,7 +302,7 @@ Oracle Corporation
 
     ```
 
-    ```
+    ```java
     // Java code illustrating getPackages() method
     class PackageDemo
     {
@@ -324,7 +324,7 @@ Oracle Corporation
 
     输出:
 
-    ```
+    ```java
     java.lang
     sun.reflect
 
@@ -332,7 +332,7 @@ Oracle Corporation
 
 16.  **字符串 getSpecificationTitle():** 返回这个包实现的规范的标题。
 
-    ```
+    ```java
     Syntax: public String getSpecificationTitle()
     Returns: the specification title, null is returned 
     if it is not known.
@@ -342,7 +342,7 @@ Oracle Corporation
 
 17.  **字符串 getSpecificationVersion():** 返回此包实现的规范的版本号。此版本字符串必须是由“.”分隔的非负十进制整数序列 s 和可能有前导零。比较版本字符串时，会比较最重要的数字。
 
-    ```
+    ```java
     Syntax: public String getSpecificationVersion().
     Returns: the specification version, null is returned 
     if it is not known.
@@ -352,7 +352,7 @@ Oracle Corporation
 
 18.  **String getSpecificationVendor():**返回拥有并维护实现此包的类的规范的组织、供应商或公司的名称。
 
-    ```
+    ```java
     Syntax: public String getSpecificationVendor()
     Returns: the specification vendor, null is returned
      if it is not known.
@@ -362,14 +362,14 @@ Oracle Corporation
 
 19.  **int hashCode():** Return the hash code computed from the package name.
 
-    ```
+    ```java
     Syntax: Return the hash code computed from the package name.
     Exception: NA
     Returns: the hash code.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating hashCode(), getSpecificationTitle()
     // getSpecificationVendor() and getSpecificationVersion()
     class PackageDemo
@@ -400,7 +400,7 @@ Oracle Corporation
 
     输出:
 
-    ```
+    ```java
     685414683
     Java Platform API Specification
     Oracle Corporation
@@ -410,7 +410,7 @@ Oracle Corporation
 
 20.  **boolean isCompatibleWith(需要字符串):**将此包的规格版本与所需版本进行比较。如果此包规范版本号大于或等于所需版本号，则返回 true。
 
-    ```
+    ```java
     Syntax: public boolean isCompatibleWith(String desired).
     Returns: true if this package's version number is 
     greater than or equal to the desired version number
@@ -422,7 +422,7 @@ Oracle Corporation
 
 21.  **布尔值 isSealed():** 如果此包是密封的，则返回 true。
 
-    ```
+    ```java
     Syntax: public boolean isSealed()
     Returns: true if the package is sealed, false otherwise.
     Exception: NA
@@ -431,7 +431,7 @@ Oracle Corporation
 
 22.  **布尔值 isSealed(URL url):** 如果此包相对于指定的代码源 URL 是密封的，则返回 true。
 
-    ```
+    ```java
     Syntax: public boolean isSealed(URL url)
     Returns: true if this package is sealed with respect to url
     Exception: NA
@@ -440,14 +440,14 @@ Oracle Corporation
 
 23.  **String toString():** Returns the string representation of this Package. Its value is the string “package ” and the package name. If the package title is defined it is appended. If the package version is defined it is appended.
 
-    ```
+    ```java
     Syntax: public String toString()
     Returns: the string representation of the package.
     Exception: NA
 
     ```
 
-    ```
+    ```java
     // java code illustrating isCompatibleWith(), toString(),
     // isSealed methods
 
@@ -479,7 +479,7 @@ Oracle Corporation
 
     输出:
 
-    ```
+    ```java
     true
     false
     false

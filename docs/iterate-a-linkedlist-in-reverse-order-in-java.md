@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 LinkedList<String> linkedlist = new LinkedList<>();
 
 Iterator<String> listIterator = linkedlist.descendingIterator();
@@ -20,7 +20,7 @@ Iterator<String> listIterator = linkedlist.descendingIterator();
 
 **语法:**
 
-```
+```java
 LinkedList<String> linkedlist = new LinkedList<>();
 
 ListIterator<String> listIerator = linkedlist.listIterator(linkedlist.size());
@@ -32,7 +32,7 @@ ListIterator<String> listIerator = linkedlist.listIterator(linkedlist.size());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate a LinkedList in Reverse Order
 // using descending Iterator
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2021
 2020
 Geek
@@ -85,7 +85,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate a LinkedList in Reverse Order
 // using List Iterator
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2021
 2020
 Geek

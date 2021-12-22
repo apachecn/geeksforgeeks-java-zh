@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert LinkedList to String in Java
 
 import java.util.Iterator;
@@ -84,7 +84,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 100 200 300 400 
 100 200 300 400 
 100 200 300 400 
@@ -96,7 +96,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert LinkedList to String in Java
 
 import java.util.Iterator;
@@ -222,7 +222,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Using String Class
 
 name='Ridhi', nickName='Goda', ID=202199

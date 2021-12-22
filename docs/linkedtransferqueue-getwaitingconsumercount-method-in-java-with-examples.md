@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getWaitingConsumerCount()
 
 ```
@@ -17,7 +17,7 @@ public int getWaitingConsumerCount()
 
 **示例:**下面的程序使用一个生产者和 3 个消费者。制作人发送 3 条信息。首先呼叫 take()的消费者将收到最新消息。因此，该程序的不同执行会导致不同的消费者获得不同的消息。
 
-```
+```java
 // Java program to show LinkedTransferQueue
 // getWaitingConsumerCount() method
 

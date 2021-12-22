@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static BigDecimal valueOf(long val)
     ```
 
@@ -16,7 +16,7 @@
 
     下面的程序举例说明了 Java . math . bigdecimal . value of(long val)方法的工作原理:
 
-    ```
+    ```java
     // Program to demonstrate valueOf(long) method of BigDecimal 
 
     import java.math.*;
@@ -40,7 +40,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The Converted BigDecimal value is: 745812345678
 
     ```
@@ -49,7 +49,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static BigDecimal valueOf(double val)
 
     ```
@@ -61,7 +61,7 @@
     下面的程序说明了 Java . math . bigdecimal . value of(double val)方法的工作:
     **程序 1:**
 
-    ```
+    ```java
     // Program to demonstrate valueOf(double) method of BigDecimal 
 
     import java.math.*;
@@ -85,7 +85,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The Converted BigDecimal value is: 785.254
 
     ```

@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```java
 Input: 1+2*3+4*5*6
 Output: 127
 Explanation: According to BODMAS, multiplication is evaluated 
@@ -19,7 +19,7 @@ Finally the sum is 127.
 
 **例 2:**
 
-```
+```java
 Input: 2*3*4
 Output: 24
 
@@ -29,7 +29,7 @@ Output: 24
 
 这就是下面给出的 java 程序如何将字符串作为输入，并基于加法(+)和乘法(*)等运算符进行拆分。
 
-```
+```java
 1+2*3+4*5*6
 |1|+|2*3|+|4*5|*6|
 |1|+|6|+|20|*6
@@ -52,7 +52,7 @@ Output: 24
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -111,7 +111,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 127
 
 ```

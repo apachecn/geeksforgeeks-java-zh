@@ -24,7 +24,7 @@
 
     要运行此应用程序，请使用命令:
 
-    ```
+    ```java
     mvn spring-boot:run
     ```
 

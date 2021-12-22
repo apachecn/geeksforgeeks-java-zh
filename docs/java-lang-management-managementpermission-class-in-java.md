@@ -6,14 +6,14 @@ java.lang.ManagementPermission 类包含确定对系统资源的访问的抽象�
 
 **类申报:**
 
-```
+```java
 public final class ManagementPermission
 extends BasicPermission
 ```
 
 **施工方:**
 
-```
+```java
 Permission(String name)
 ```
 
@@ -37,7 +37,7 @@ Permission(String name)
 
 **1 . public void checkGuard(Object Object)**:用于判断该 Permission 对象是否可以被保护(保护对另一个对象的访问)。
 
-```
+```java
 Parameters:
 object - the object to guard.
 Throws:
@@ -46,7 +46,7 @@ SecurityException - if the access is denied by checkPermission method.
 
 **2 .公共抽象布尔隐含(Permission permission):** 检查这个 ManagementPermssion 对象是否隐含这个权限。
 
-```
+```java
 Parameters:
 permission - the permission to check against.
 Returns:
@@ -55,7 +55,7 @@ true if this permission is implied by this object, false otherwise.
 
 **3 .公共抽象布尔 equals(Object obj):** 检查两个 Permission 对象是否相等。
 
-```
+```java
 Parameters:
 obj - the object to be compared
 Returns:
@@ -64,42 +64,42 @@ true if both Permission objects are equal, false otherwise.
 
 **4.public 抽象 int hashCode():** 它返回这个 Permission 对象的哈希代码值。
 
-```
+```java
 Returns:
 a hash code value for this object.
 ```
 
 **5 .公共最终字符串 getName():** 它返回此权限的名称。
 
-```
+```java
 Returns:
 the name of this Permission.
 ```
 
 **6 .公共抽象字符串 getActions():** 它以字符串格式返回此权限对象的操作。
 
-```
+```java
 Returns:
 the actions of this Permission.
 ```
 
 **7 . public PermissionCollection new PermissionCollection()**:返回一个新的 PermissionCollection 对象。
 
-```
+```java
 Returns:
 a new PermissionCollection object
 ```
 
 **8 .公共字符串 toString():** 它返回指定权限对象的字符串表示形式。
 
-```
+```java
 Returns:
 string representation of the specified Permission object.
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.lang.management.ManagementPermission;
 import java.security.Permission;
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Name: control
 Hashcode: 951543133
 Actions: 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static String toOctalString(*int num*)
 ```
 
@@ -22,7 +22,7 @@ public static String toOctalString(*int num*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -56,7 +56,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Value of a: 20
 Value of a: 20
 Value of c: 20
@@ -67,7 +67,7 @@ Octal Representation of the number 50 is: 62
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Arithmetic operations on Octal numbers
 
 import java.io.*;
@@ -95,7 +95,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Value of a: 100
 Value of b: 20
 Addition: 120

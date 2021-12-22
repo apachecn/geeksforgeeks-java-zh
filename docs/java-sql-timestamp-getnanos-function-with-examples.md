@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public int getNanos()
 ```
 
 **语法:**
 
-```
+```java
 ts1.getNanos();
 ```
 
@@ -26,7 +26,7 @@ ts1.getNanos();
 
 **示例 1:** 创建一个时间戳，并使用 getNanos()获取时间戳对象的小数部分。
 
-```
+```java
 // Java program to demonstrate the
 // use of getNanos() function
 
@@ -69,7 +69,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Timestamp time : 1970-01-01 00:00:10.0
 New Timestamp time : 1970-01-01 00:00:10.001
  Fractional Part :1000000
@@ -78,7 +78,7 @@ New Timestamp time : 1970-01-01 00:00:10.001
 
 **示例 2:** 创建时间戳，使用 getNanos()获取时间戳对象的小数部分，不要设置任何秒的小数
 
-```
+```java
 // Java program to demonstrate the
 // use of getNanos() function
 
@@ -114,7 +114,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Timestamp time : 1970-01-01 00:00:10.0
 Fractional Part : 0
 

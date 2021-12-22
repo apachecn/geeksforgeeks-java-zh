@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public static Charset forName?(String charsetName)
 ```
 
@@ -24,7 +24,7 @@ public static Charset forName?(String charsetName)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The name for ISO-2022-CN is ISO-2022-CN
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -77,14 +77,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The name for UTF16 is UTF-16
 
 ```
 
 **程序 3**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -115,14 +115,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The exception is: java.nio.charset.IllegalCharsetNameException:
 
 ```
 
 **程序 4**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -153,7 +153,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The exception is: java.nio.charset.UnsupportedCharsetException: gopal
 
 ```

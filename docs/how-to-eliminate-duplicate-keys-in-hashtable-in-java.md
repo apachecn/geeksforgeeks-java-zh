@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Sub-class
 public class Teacher {
 
@@ -92,7 +92,7 @@ public class Teacher {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Driver class 
 
 // Importing Hashtable and Set class from
@@ -144,7 +144,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Mrs. Shalini Singhal (12) ==> IT
 Mr. Kailash Soni (11) ==>  CS
 Mrs. Sunita Gupta (58) ==>  IT

@@ -5,7 +5,7 @@
 Java 可选类:每个 Java 程序员都熟悉 [NullPointerException](https://www.geeksforgeeks.org/null-pointer-exception-in-java/) 。它会让你的代码崩溃。而且不使用太多的空值检查很难避免。
 Java 8 在 java.util 包中引入了一个新的类 Optional。它可以在不使用太多空检查的情况下帮助编写一个整洁的代码。通过使用可选，我们可以指定要返回的替代值或要运行的替代代码。这使得代码更易读，因为隐藏的事实现在对开发人员来说是可见的。
 
-```
+```java
 // Java program without Optional Class
 public class OptionalDemo{  
     public static void main(String[] args) {  
@@ -18,7 +18,7 @@ public class OptionalDemo{  
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
 ```
 
@@ -26,7 +26,7 @@ Exception in thread "main" java.lang.NullPointerException
 
 上述程序使用可选类
 
-```
+```java
 // Java program with Optional Class
 import java.util.Optional;  
 public class OptionalDemo{  
@@ -45,7 +45,7 @@ public class OptionalDemo{  
 
 输出:
 
-```
+```java
 word is null
 ```
 
@@ -60,7 +60,7 @@ word is null
 **静态方法:**静态方法是 Java 中不需要创建类的对象就可以调用的方法。它们由类名本身或对该类的对象的引用来引用。
 **语法:**
 
-```
+```java
 public static void geek(String name)
 {
  // code to be executed....
@@ -83,7 +83,7 @@ public static void geek(String name)
 **实例方法:**实例方法是指在调用之前需要创建其类的对象的方法。要调用实例方法，我们必须创建一个定义它的类的对象。
 **语法:**
 
-```
+```java
 public void geek(String name)
 {
  // code to be executed....
@@ -112,7 +112,7 @@ public void geek(String name)
 
 **例 1 :**
 
-```
+```java
 // Java program to illustrate
 // optional class methods
 import java.util.Optional;
@@ -142,7 +142,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Optional.empty
 Optional[Geeks Classes are coming soon]
 
@@ -150,7 +150,7 @@ Optional[Geeks Classes are coming soon]
 
 **例 2 :**
 
-```
+```java
 // Java program to illustrate
 // optional class methods
 import java.util.Optional;
@@ -187,7 +187,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks Classes are coming soon
 1967487235
 true

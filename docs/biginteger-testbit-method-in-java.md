@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public boolean testBit(*int n*)
 ```
 
@@ -18,7 +18,7 @@ public boolean testBit(*int n*)
 **异常:**当 n 为负时，该方法将抛出*算术异常*。
 **例:**
 
-```
+```java
 Input: BigInteger = 2300, n = 4
 Output: true
 Explanation:
@@ -33,7 +33,7 @@ Output: false
 
 下面的程序说明了 BigInteger 的 testBit()方法。
 
-```
+```java
 // Program to demonstrate the testBit()
 // method of BigInteger
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The bit at index 3 of 2300 is set = true
 
 ```

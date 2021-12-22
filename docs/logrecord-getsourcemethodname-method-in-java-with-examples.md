@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getSourceMethodName()
 
 ```
@@ -18,7 +18,7 @@ public String getSourceMethodName()
 下面的程序说明了 getSourceMethodName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getSourceMethodName() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Source Method Name = MyFirstSourceMethod
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getSourceMethodName() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Source Method Name = add
 
 ```

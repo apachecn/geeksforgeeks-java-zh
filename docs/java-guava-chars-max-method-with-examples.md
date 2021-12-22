@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 public static char max(char... array) 
 ```
 
@@ -20,7 +20,7 @@ public static char max(char... array)
 
 ****例 1 :****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.max() method
 
@@ -45,14 +45,14 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 Maximum value is : U
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.max() method
 
@@ -83,7 +83,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

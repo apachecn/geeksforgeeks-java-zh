@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 int size = arr[].length;
 
 // length can be used 
@@ -21,7 +21,7 @@ int size = arr[].length;
 
 **例 1:**
 
-```
+```java
 // Java program to illustrate
 // how to get the length of the array
 
@@ -42,14 +42,14 @@ public class Test {
 
 **Output:**
 
-```
+```java
 The size of the array is 4
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to illustrate
 // how to get the length of the array
 
@@ -71,7 +71,7 @@ public class Test {
 
 **Output:**
 
-```
+```java
 The size of the array is 3
 
 ```

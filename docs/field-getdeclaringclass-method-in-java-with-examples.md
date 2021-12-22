@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Class<T> getDeclaringClass()
 
 ```
@@ -18,7 +18,7 @@ public Class<T> getDeclaringClass()
 下面的程序说明了 getDeclaringClass()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the above method
 
 import java.lang.reflect.Field;
@@ -91,14 +91,14 @@ class User {
 
 **Output:**
 
-```
+```java
 Declaring Class for Field Object: class User
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the above method
 
 import java.lang.reflect.Field;
@@ -147,7 +147,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Declaring Class: class GFG$Alphabets
 
 ```

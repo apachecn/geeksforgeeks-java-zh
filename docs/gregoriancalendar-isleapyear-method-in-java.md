@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isLeapYear*(int year)*
 ```
 
@@ -16,7 +16,7 @@ public boolean isLeapYear*(int year)*
 
 **示例:**
 
-```
+```java
 Input : 2016
 Output : true
 
@@ -31,7 +31,7 @@ Output : false
 
 ## Java
 
-```
+```java
 // Java Program to illustrate isLeapYear() function 
 // of GregorianCalendar
 
@@ -66,7 +66,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 11:53:39 UTC 2018
 2018 is Not a leap year
 
@@ -76,7 +76,7 @@ Current Date and Time : Fri Jul 27 11:53:39 UTC 2018
 
 ## Java
 
-```
+```java
 // Java Program to illustrate isLeapYear() function 
 // of GregorianCalendar
 
@@ -111,7 +111,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Fri Jul 27 11:53:41 UTC 2018
 2016 is leap year
 

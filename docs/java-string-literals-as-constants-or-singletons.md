@@ -6,7 +6,7 @@
 
 插图 1:
 
-```
+```java
 String string1 = "GeeksForGeeks";
 String string2 = "GeeksForGeeks";
 ```
@@ -19,7 +19,7 @@ String string2 = "GeeksForGeeks";
 
 **图 2:** 如果我们希望这两个字符串变量指向单独的字符串对象，那么我们使用新的运算符如下:
 
-```
+```java
 String string1 = new String("GeeksForGeeks");
 String string2 = new String("GeeksForGeeks");
 ```
@@ -34,7 +34,7 @@ String string2 = new String("GeeksForGeeks");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate String Literals as
 // Constants or Singletons
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 True
 False
 False
@@ -102,7 +102,7 @@ False
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate String Literals as
 // Constants or Singletons
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 true
 false
 ```

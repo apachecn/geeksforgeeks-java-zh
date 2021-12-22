@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static String join(String separator,
                           short... array)
 
@@ -21,7 +21,7 @@ public static String join(String separator,
 
 **示例-1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.join() method
 import com.google.common.primitives.Shorts;
@@ -44,14 +44,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 2#4#6#8#10
 
 ```
 
 **示例-2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.join() method
 import com.google.common.primitives.Shorts;
@@ -74,7 +74,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 3*5*7*9*11
 
 ```

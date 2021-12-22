@@ -48,7 +48,7 @@
 *   **移除()**:移除键、值对
 *   **isEmpty()** :如果大小为零，则返回 true
 
-```
+```java
 ArrayList<HashNode<K, V>> bucket = new ArrayList<>();
 ```
 
@@ -80,7 +80,7 @@ get 函数只接受一个键作为输入，如果该键存在于表中，则返�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate implementation of our
 // own hash table with chaining for collision detection
 import java.util.ArrayList;

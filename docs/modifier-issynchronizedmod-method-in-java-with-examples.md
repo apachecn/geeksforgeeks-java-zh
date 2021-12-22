@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isSynchronized(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isSynchronized(int mod)
 下面的程序说明了 isSynchronized()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isSynchronized() method
 
 import java.lang.reflect.*;
@@ -57,14 +57,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 33 is synchronized : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isSynchronized()
 
 import java.lang.reflect.*;
@@ -102,7 +102,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 synchronized Method: public final synchronized void java.lang.Thread.join(long) throws java.lang.InterruptedException
 synchronized Method: public final synchronized void java.lang.Thread.join(long, int) throws java.lang.InterruptedException
 synchronized Method: public synchronized void java.lang.Thread.start()

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 public class NewClass {
     public static class superclass {
         static void print()
@@ -33,7 +33,7 @@ public class NewClass {
 
 **Output:**
 
-```
+```java
 print in superclass.
 print in superclass.
 
@@ -43,7 +43,7 @@ print in superclass.
 
 **示例:**
 
-```
+```java
 public class NewClass {
     public static class superclass {
         void print()
@@ -72,7 +72,7 @@ public class NewClass {
 
 **Output:**
 
-```
+```java
 print in superclass.
 print in subclass.
 

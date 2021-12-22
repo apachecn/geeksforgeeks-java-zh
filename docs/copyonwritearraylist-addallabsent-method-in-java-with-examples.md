@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int addAllAbsent(Collection<E> collection)
 ```
 
@@ -20,7 +20,7 @@ public int addAllAbsent(Collection<E> collection)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // addAllAbsent() method in Java
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [2, 3, 4, 7]
 The collection to be appended: [1, 2, 3, 4]
 
@@ -85,7 +85,7 @@ Modified CopyOnWriteArrayList: [2, 3, 4, 7, 1]
 
 **程序 2:** 演示 NullPointerException
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // addAllAbsent() method in Java
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [2, 3, 4, 7]
 The collection to be appended: null
 

@@ -8,7 +8,7 @@ Java 中 **BufferedInputStream** 类的**标记()**方法用于标记输入流�
 
 **语法:**
 
-```
+```java
 public void mark(int readlimit)
 
 ```
@@ -24,7 +24,7 @@ public void mark(int readlimit)
 下面的程序说明了 IO 包中 BufferedInputStream 类中的 mark()方法:
 **程序 1:** 假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream mark() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Char : G
 Char : E
 Char : E
@@ -92,7 +92,7 @@ Char : S
 
 **程序 2:** 假设存在文件“c:/demo.txt”。
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream.mark() method
 import java.io.*;
@@ -156,7 +156,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Char : G
 Char : E
 Char : E

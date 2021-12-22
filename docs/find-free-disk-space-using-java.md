@@ -8,7 +8,7 @@ java 中有一些方法调用可以用来获取磁盘驱动器的空间相关信
 1.  **Java.io.File.getFreeSpace()**: Get total free space available in a drive
     **Syntax:**
 
-    ```
+    ```java
     public long getFreeSpace()
     Returns the size of the partition named by this abstract pathname.
     Returns:
@@ -21,7 +21,7 @@ java 中有一些方法调用可以用来获取磁盘驱动器的空间相关信
     named by this abstract pathname
     ```
 
-    ```
+    ```java
     // Java program to get the amount of free space available on any drive
     import java.io.*;
 
@@ -39,7 +39,7 @@ java 中有一些方法调用可以用来获取磁盘驱动器的空间相关信
 
     输出:
 
-    ```
+    ```java
     18.242 GB
     ```
 
@@ -47,7 +47,7 @@ java 中有一些方法调用可以用来获取磁盘驱动器的空间相关信
     返回的可用字节数是一个提示，但不能保证可以使用这些字节中的大部分或任何一个。未分配的字节数很可能在此调用后立即准确。任何外部输入/输出操作，包括在该虚拟机之外的系统上进行的输入/输出操作，都可能使其不准确。此方法不能保证对此文件系统的写操作会成功。
     **语法:**
 
-```
+```java
 public long getUsableSpace()
 Returns:
 The number of available bytes on the partition or 0L if the 
@@ -61,7 +61,7 @@ SecurityManager.checkRead(String) method denies read access to the
 file named by this abstract pathname
 ```
 
-```
+```java
 import java.io.*;
 
 public class Test
@@ -77,7 +77,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 62.857 GB
 ```
 
@@ -85,7 +85,7 @@ public class Test
 
     **语法:**
 
-    ```
+    ```java
     public long getTotalSpace()
     Returns: Returns:
     The size, in bytes, of the partition or 0L if this abstract pathname 
@@ -97,7 +97,7 @@ public class Test
     the file named by this abstract pathname
     ```
 
-    ```
+    ```java
     import java.io.*;
 
     public class Test
@@ -113,7 +113,7 @@ public class Test
 
     **输出:**
 
-    ```
+    ```java
     62.857 GB
     ```
 

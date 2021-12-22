@@ -8,7 +8,7 @@
 
 1.  **Using direct values**
 
-    ```
+    ```java
     import java.util.*;
     import org.javatuples.*;
 
@@ -37,14 +37,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Pair: [1, GeeksforGeeks]
     Triplet: [Triplet 1, 1, GeeksforGeeks]
     ```
 
 2.  **Using Pair.add() method**
 
-    ```
+    ```java
     import java.util.*;
     import org.javatuples.*;
 
@@ -71,7 +71,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Pair: [1, GeeksforGeeks]
     Triplet: [1, GeeksforGeeks, Triplet 1]
     ```
@@ -80,7 +80,7 @@
 
     **程序 1:** 使用 addAt0()在位置 0 添加
 
-    ```
+    ```java
     import java.util.*;
     import org.javatuples.*
 
@@ -107,14 +107,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Pair: [1, GeeksforGeeks]
     Triplet: [Triplet 1, 1, GeeksforGeeks]
     ```
 
     **程序 2:** 使用 addAt1()在位置 1 添加
 
-    ```
+    ```java
     import java.util.*;
     import org.javatuples.*;
 
@@ -141,14 +141,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Pair: [1, GeeksforGeeks]
     Triplet: [1, Triplet 1, GeeksforGeeks]
     ```
 
     **程序 2:** 使用 addAt2()在位置 2 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt2() method with
     // direct value
@@ -179,7 +179,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Pair: [1, GeeksforGeeks]
     Triplet: [1, GeeksforGeeks, Triplet 1]
     ```

@@ -9,7 +9,7 @@
 *   在传统的集合中，如果一个线程正在迭代一个集合对象，并且如果另一个线程试图同时在该迭代对象中添加新元素，那么我们将得到**RuntimeException ConcurrentModificationException**。而在上述情况下，如果我们使用并发集合类，我们将不会得到任何运行时异常。
 *   如果我们不在应用程序中处理线程，传统的集合类是一个不错的选择。而由于并发/同步收集，我们可以使用多个线程来处理收集对象。因此，如果我们在应用程序中处理多线程，并发收集是最佳选择。
 
-```
+```java
 // Java program to illustrate Traditional 
 // Collections Problem
 import java.util.*;
@@ -57,12 +57,12 @@ class ConcurrentDemo extends Thread {
 
 输出:
 
-```
+```java
 Exception in thread “main” java.util.ConcurrentModificationException
 
 ```
 
-```
+```java
 // Java program to illustrate ConcurrentCollection uses
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.*;
@@ -111,7 +111,7 @@ class ConcurrentDemo extends Thread {
 
 输出:
 
-```
+```java
 A
 B
 c

@@ -9,7 +9,7 @@ Calendar 类中的 **complete()** 方法用于填充日历字段中任何未设�
 
 **语法:**
 
-```
+```java
 protected void complete()
 ```
 
@@ -20,7 +20,7 @@ protected void complete()
 下面的程序说明了 Calendar 类的 complete()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate
 // complete() Method
 
@@ -54,7 +54,7 @@ public class CalendarClassDemo
 
 **Output:**
 
-```
+```java
 The Current date is: Wed Feb 13 15:39:33 UTC 2019
 The new date is: Tue Jan 01 00:00:00 UTC 2008
 
@@ -62,7 +62,7 @@ The new date is: Tue Jan 01 00:00:00 UTC 2008
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate
 // complete() Method
 
@@ -96,7 +96,7 @@ public class CalendarClassDemo
 
 **Output:**
 
-```
+```java
 The Current date is: Wed Feb 13 15:39:36 UTC 2019
 The new date is: Mon Jan 01 00:00:00 UTC 1996
 

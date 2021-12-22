@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public LocalDateTime plusSeconds(long seconds)
 ```
 
@@ -22,7 +22,7 @@ public LocalDateTime plusSeconds(long seconds)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the plusSeconds() method
 
 import java.util.*;
@@ -43,7 +43,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 LocalDateTime with 15 seconds added: 2018-01-11T10:15:45
 ```
 
@@ -51,7 +51,7 @@ LocalDateTime with 15 seconds added: 2018-01-11T10:15:45
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the plusSeconds() method
 
 import java.util.*;
@@ -72,7 +72,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 LocalDateTime with -2 seconds added: 2018-01-11T08:15:28
 ```
 

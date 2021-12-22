@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 
 hs.add(11);
@@ -37,7 +37,7 @@ Random element: 99
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get random elements from HashSet
 // using an array
 
@@ -79,7 +79,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Random element: 11
 ```
 
@@ -91,7 +91,7 @@ Random element: 11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get random elements from HashSet
 // using an Iterator
 
@@ -152,6 +152,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Random element: 99
 ```

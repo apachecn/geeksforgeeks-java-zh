@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ChronoLocalDate with(TemporalAdjuster adjuster)
 
 ```
@@ -24,7 +24,7 @@ public ChronoLocalDate with(TemporalAdjuster adjuster)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.with() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDate before adjustment: 2018-12-06
 ChronoLocalDate after adjustment: 2018-03-31
 

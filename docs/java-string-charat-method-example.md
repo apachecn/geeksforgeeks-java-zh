@@ -5,28 +5,28 @@
 **Java String charAt()** 方法返回指定索引处的字符。索引值应该介于 0 和 length()-1 之间。
 **签名:**
 
-```
+```java
  public char charAt(int index)  
 
 ```
 
 **参数:**
 
-```
+```java
  index- Index of the character to be returned.
 
 ```
 
 **返回:**
 
-```
+```java
  returns character at the specified position.
 
 ```
 
 例外:
 
-```
+```java
  StringIndexOutOfBoundsException- If index is 
  negative or greater then the length of the 
  String.
@@ -35,7 +35,7 @@
 
 **示例:**展示 **charAt()** 方法的工作
 
-```
+```java
 // Java program to demonstrate
 // working of charAt() method
 
@@ -55,13 +55,13 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 c
 W
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of charAt() method
 
@@ -78,7 +78,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 4
     at java.lang.String.charAt(String.java:658)
     at Gfg.main(File.java:9)

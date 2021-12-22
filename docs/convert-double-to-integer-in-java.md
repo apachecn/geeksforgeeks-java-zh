@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: double = 3452.234
 Output: 3452
 
@@ -36,7 +36,7 @@ Output: 98
 
 **语法–**
 
-```
+```java
 double data = 3452.345
 int value = (int)data;
 ```
@@ -45,7 +45,7 @@ int value = (int)data;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Double to
 // int using Typecasting
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Double - 3452.345
 Integer - 3452
 ```
@@ -81,7 +81,7 @@ Integer - 3452
 
 **语法:**
 
-```
+```java
 double data = 3452.345
 Double newData = new Double(data);
 int value = newData.intValue();
@@ -91,7 +91,7 @@ int value = newData.intValue();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Double to int
 // using using Double.intValue()
 public class GFG {
@@ -118,7 +118,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Double - 3452.345
 Double - 3452
 ```
@@ -129,7 +129,7 @@ Double - 3452
 
 **语法:**
 
-```
+```java
 long Math.Round(Double doubleValue);
 ```
 
@@ -137,7 +137,7 @@ long Math.Round(Double doubleValue);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Double to int
 // using Math.round()
 
@@ -171,7 +171,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Double : 3452.345
 Integer : 3452
 

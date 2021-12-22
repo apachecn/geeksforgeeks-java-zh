@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Boolean.parseBoolean(String value)
 ```
 
@@ -18,7 +18,7 @@ Boolean.parseBoolean(String value)
 
 **例 1:**
 
-```
+```java
 class GeeksforGeeks {
 
     // Driver method
@@ -39,14 +39,14 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **例 2:**
 
-```
+```java
 class GeeksforGeeks {
 
     // Driver method
@@ -67,14 +67,14 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **例 3:**
 
-```
+```java
 class GeeksforGeeks {
 
     // Driver method
@@ -95,7 +95,7 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 false
 
 ```

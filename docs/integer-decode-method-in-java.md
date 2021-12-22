@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Integer decode(String str)
 ```
 
@@ -18,7 +18,7 @@ public static Integer decode(String str)
 
 **示例:**
 
-```
+```java
 Input: str_value = "50"
 Output: 50
 
@@ -29,7 +29,7 @@ Output: *NumberFormatException*
 下面的程序说明了 java.lang.Integer.decode()方法。
 **节目一:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.decode() method
 import java.lang.*;
@@ -52,14 +52,14 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 Actual Integral Number = 65
 
 ```
 
 **程序 2:** 当字符串值被传递时，抛出*数字格式异常*。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.decode() method
 import java.lang.*;
@@ -82,7 +82,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.NumberFormatException: For input string: "geeksforgeeks"
     at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
     at java.lang.Integer.parseInt(Integer.java:580)

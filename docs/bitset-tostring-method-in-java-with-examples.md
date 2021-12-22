@@ -6,7 +6,7 @@ java.util.BitSet.toString()是 BitSet 类的一种内置方法，用于获取以
 
 **语法:**
 
-```
+```java
 Bit_Set.toString()
 ```
 
@@ -17,7 +17,7 @@ Bit_Set.toString()
 下面的程序说明了 java.util.BitSet.toString()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toString()
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {25, 31, 40, 53, 100}
 The String representation: {25, 31, 40, 53, 100}
 
@@ -54,7 +54,7 @@ The String representation: {25, 31, 40, 53, 100}
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toString()
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {10, 20, 30, 40, 50}
 The String representation: {10, 20, 30, 40, 50}
 

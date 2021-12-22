@@ -25,7 +25,7 @@ CardLayout 类以一次只能看到一个组件的方式管理组件。它将每
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the CardLayout Class
 import java.awt.*;
 import java.awt.event.*;
@@ -122,7 +122,7 @@ public class Cardlayout extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show Example of CardLayout.
 // in java. Importing different Package.
 import java.awt.*;

@@ -4,7 +4,7 @@
 
 考虑下面的 Java 程序。
 
-```
+```java
 // A Java program with overloaded main()
 import java.io.*;
 
@@ -29,7 +29,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Hi Geek (from main)
 Hi, Geek
 Hi, Dear Geek, My Geek

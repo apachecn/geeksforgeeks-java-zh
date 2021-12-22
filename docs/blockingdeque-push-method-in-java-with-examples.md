@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void push(E e)
 ```
 
@@ -27,7 +27,7 @@ public void push(E e)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate push()
 // method of BlockingDeque
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Blocking Deque: [74381793, 5278367, 35658786, 7855642]
 ```
 
@@ -66,7 +66,7 @@ Blocking Deque: [74381793, 5278367, 35658786, 7855642]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate push()
 // method of BlockingDeque
 // when it is Full
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.IllegalStateException: Deque full
     at java.util.concurrent.LinkedBlockingDeque.addFirst(LinkedBlockingDeque.java:326)
     at java.util.concurrent.LinkedBlockingDeque.push(LinkedBlockingDeque.java:770)
@@ -111,7 +111,7 @@ Exception in thread "main" java.lang.IllegalStateException: Deque full
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate push()
 // method of BlockingDeque
 // when null is inserted
@@ -145,7 +145,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at java.util.concurrent.LinkedBlockingDeque.offerFirst(LinkedBlockingDeque.java:342)
     at java.util.concurrent.LinkedBlockingDeque.addFirst(LinkedBlockingDeque.java:325)

@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of recursive Binary Search
 class BinarySearch
 {
@@ -65,7 +65,7 @@ class BinarySearch
 
 **Output:** 
 
-```
+```java
 Element found at index 3
 ```
 
@@ -86,7 +86,7 @@ Element found at index 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate working of binarySearch()
 // Method of Arrays class In a sorted array
 
@@ -128,7 +128,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 22 found at index = 3
 40 Not found
 ```
@@ -143,7 +143,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of binarySearch()
 // method of Collections class
 
@@ -191,7 +191,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 10 found at index = 3
 15 Not found
 ```

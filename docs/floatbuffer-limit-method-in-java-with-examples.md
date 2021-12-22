@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final FloatBuffer limit(int *newLimit*)
 ```
 
@@ -18,7 +18,7 @@ public final FloatBuffer limit(int *newLimit*)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // limit() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // limit() method
 

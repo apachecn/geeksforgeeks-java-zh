@@ -19,7 +19,7 @@
 
 **德格示例:**
 
-```
+```java
 // Java program to demonstrate the working
 // of a Deque in Java
 
@@ -77,7 +77,7 @@ public class DequeExample {
 
 **1。添加元素:**为了在一个德格中添加一个元素，我们可以使用 [add()](https://www.geeksforgeeks.org/deque-add-method-in-java/) 方法。队列和 de queue 之间的区别在于，在 de queue 中，可以从任何方向进行添加。因此，还有另外两种方法可用，分别为[添加第一个()](https://www.geeksforgeeks.org/deque-addfirst-method-in-java-with-examples/)和[添加最后一个()](https://www.geeksforgeeks.org/deque-addlast-method-in-java/)，用于添加两端的元素。
 
-```
+```java
 // Java program to demonstrate the
 // addition of elements in deque
 
@@ -101,14 +101,14 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 [Geeks, For, Geeks]
 
 ```
 
 **2。移除元素:**要从元素列表中移除元素，有多种方法可用。由于我们还可以从两端移除，所以德客界面为我们提供了 *removeFirst()* 、 *removeLast()* 方法。除此之外，这个接口还为我们提供了 poll()、pop()、pollFirst()、pollLast()方法，其中 pop()用于移除和返回队列的头部。但是，使用 poll()是因为它提供了与 pop()相同的功能，并且在 deque 为空时不会返回异常。
 
-```
+```java
 // Java program to demonstrate the
 // removal of elements in deque
 
@@ -140,7 +140,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 [Geeks, For, Geeks]
 Geeks
 For
@@ -151,7 +151,7 @@ null
 
 **3。通过 deque 迭代:**由于一个 deque 可以从两个方向迭代，因此 Deque 接口的迭代器方法为我们提供了两种迭代方式。一个在前面，另一个在后面。
 
-```
+```java
 // Java program to demonstrate the
 // iteration of elements in deque
 
@@ -186,7 +186,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Geeks For Geeks is so good 
 is so good Geeks For Geeks
 
@@ -196,7 +196,7 @@ is so good Geeks For Geeks
 
 **[ArrayDeque](https://www.geeksforgeeks.org/arraydeque-in-java/) :** 在集合框架中实现的 ArrayDeque 类为我们提供了一种应用可调整大小的数组的方法。这是一种特殊的数组，它不断增长，允许用户在队列的两端添加或删除元素。阵列数据区没有容量限制，可以根据需要增长以支持使用。它们不是线程安全的，这意味着在没有外部同步的情况下，ArrayDeque 不支持多线程并发访问。ArrayDeque 类用作堆栈时可能比 Stack 更快。当用作队列时，ArrayDeque 类可能比 LinkedList 更快。让我们看看如何使用这个类创建一个队列对象。
 
-```
+```java
 // Java program to demonstrate the
 // creation of deque object using the
 // ArrayDeque class in Java
@@ -238,7 +238,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 [10, 20, 30, 40, 50]
 [291, 564, 24, 14]
 

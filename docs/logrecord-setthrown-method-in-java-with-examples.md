@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setThrown(Throwable thrown)
 
 ```
@@ -18,7 +18,7 @@ public void setThrown(Throwable thrown)
 下面的程序说明 setThrown()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setThrown() method
 
 import java.io.IOException;
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 throwable object Message = java.io.IOException: Error in Input
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setThrown() method
 
 import java.io.IOException;
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 throwable object = java.lang.ArithmeticException: divide by 0
 
 ```

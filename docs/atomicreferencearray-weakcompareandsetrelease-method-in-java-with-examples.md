@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean
        weakCompareAndSetRelease(int i,
                                 E expectedValue,
@@ -21,7 +21,7 @@ public final boolean
 以下程序说明了 weakCompareAndSetRelease()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate AtomicReferenceArray
 // weakCompareAndSetRelease() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate AtomicReferenceArray
 // weakCompareAndSetRelease() method
 

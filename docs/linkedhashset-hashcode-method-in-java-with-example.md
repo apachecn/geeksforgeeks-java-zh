@@ -8,7 +8,7 @@ Java 中 **LinkedHashSet** 的 **hashCode()** 方法用于获取 LinkedHashSet �
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -20,7 +20,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // hashCode() method in LinkedHashSet
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LinkedHashSet: [1, 2, 3, 4]
 HashCode value: 10
 
@@ -62,7 +62,7 @@ HashCode value: 10
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // hashCode() method in LinkedHashSet
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LinkedHashSet: [Geeks, For, ForGeeks, GeeksForGeeks]
 HashCode value: -482506029
 

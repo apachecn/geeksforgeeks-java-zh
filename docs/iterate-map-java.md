@@ -11,7 +11,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate iteration over
 // Map.entrySet() entries using for-each loop
 
@@ -40,7 +40,7 @@ class IterationDemo
 
 ****输出:****
 
-```
+```java
 Key = Quiz, Value = quiz.geeksforgeeks.org
 Key = Practice, Value = practice.geeksforgeeks.org
 Key = GFG, Value = geeksforgeeks.org
@@ -52,7 +52,7 @@ Key = Code, Value = code.geeksforgeeks.org
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate iteration over
 // Map using keySet() and values() methods
 
@@ -84,7 +84,7 @@ class IterationDemo
 
 ****输出:****
 
-```
+```java
 key: Quiz
 key: Practice
 key: GFG
@@ -100,7 +100,7 @@ value: code.geeksforgeeks.org
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate iteration over
 // Map using keySet() and values() methods
 
@@ -135,7 +135,7 @@ class IterationDemo
 
 ****输出:****
 
-```
+```java
 Key = Quiz, Value = quiz.geeksforgeeks.org
 Key = Practice, Value = practice.geeksforgeeks.org
 Key = GFG, Value = geeksforgeeks.org
@@ -147,7 +147,7 @@ Key = Code, Value = code.geeksforgeeks.org
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code illustrating iteration
 // over map using forEach(action) method
 
@@ -176,7 +176,7 @@ class IterationDemo
 
 ****输出:****
 
-```
+```java
 Key = Quiz, Value = quiz.geeksforgeeks.org
 Key = Practice, Value = practice.geeksforgeeks.org
 Key = GFG, Value = geeksforgeeks.org
@@ -188,7 +188,7 @@ Key = Code, Value = code.geeksforgeeks.org
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate iteration
 // over keys and searching for values
 
@@ -220,7 +220,7 @@ class IterationDemo
 
 ****输出:****
 
-```
+```java
 Key = Quiz, Value = quiz.geeksforgeeks.org
 Key = Practice, Value = practice.geeksforgeeks.org
 Key = GFG, Value = geeksforgeeks.org

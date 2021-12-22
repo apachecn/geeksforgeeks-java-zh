@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public OffsetDateTime atOffset(ZoneOffset offset)
 ```
 
@@ -20,7 +20,7 @@ public OffsetDateTime atOffset(ZoneOffset offset)
 下面的程序说明了 Instant.atOffset()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.atOffset() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant: 2018-10-20T16:55:30Z
 Offset Date and Time: 2018-10-20T18:55:30+02:00
 
@@ -63,7 +63,7 @@ Offset Date and Time: 2018-10-20T18:55:30+02:00
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.atOffset() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant: 2018-10-20T16:55:30Z
 Offset Date and Time: 2018-10-20T20:40:30+03:45
 
@@ -108,7 +108,7 @@ Offset Date and Time: 2018-10-20T20:40:30+03:45
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.atOffset() method
 
@@ -146,7 +146,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant: 2018-11-22T08:22:19.846Z
 Offset Date and Time: 2018-11-22T18:07:49.846+09:45:30
 

@@ -6,12 +6,12 @@
 
 插图:
 
-```
+```java
 Input : ArrayList = [ "Geeks", "for", "Geeks" ]
 Output: String[] = {"Geeks", "for", "Geeks"}
 ```
 
-```
+```java
 Input : ArrayList = [ "Jupiter", "Saturn", "Uranus", "Neptune", "Sun"]
 Output: String[] = {"Jupiter", "Saturn", "Uranus", "Neptune", "Sun"}
 ```
@@ -26,7 +26,7 @@ Output: String[] = {"Jupiter", "Saturn", "Uranus", "Neptune", "Sun"}
 
 **语法:**
 
-```
+```java
 str[j] = a1.get(j)
 ```
 
@@ -42,7 +42,7 @@ str[j] = a1.get(j)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert ArrayList to Array
 // using toArray() Method
 
@@ -82,7 +82,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Anshul Aggarwal
 Mayank Solanki
 Abhishek Kelenia
@@ -95,7 +95,7 @@ Vivek Gupta
 
 **语法:**
 
-```
+```java
 Object[] arr = a1.toArray()
 String str = (String)obj;
 ```
@@ -111,7 +111,7 @@ String str = (String)obj;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert ArrayList to Array
 // using toArray() Method
 
@@ -150,7 +150,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Anshul Aggarwal
 Mayank Solanki
 Abhishek Kelenia
@@ -161,7 +161,7 @@ Vivek Gupta
 
 **语法:**
 
-```
+```java
 Object[] gfg = a1.toArray()
 String[] str = Arrays.copyOf(gfg, gfg.length, String[].class);
 ```
@@ -177,7 +177,7 @@ String[] str = Arrays.copyOf(gfg, gfg.length, String[].class);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert ArrayList to Array
 // using toArray() Method
 
@@ -209,6 +209,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 [Anshul Aggarwal, Mayank Solanki, Abhishek Kelenia, Vivek Gupta]
 ```

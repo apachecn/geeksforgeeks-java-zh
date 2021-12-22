@@ -14,7 +14,7 @@ Java 不仅是一种语言，更是一种技术。Java 有明确定义的标准�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -66,7 +66,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 a==b
 x!=y
 ```
@@ -84,7 +84,7 @@ x!=y
 
 这相当于按如下方式使用()的值:
 
-```
+```java
 Integer a=10; // this is autoboxing
 Integer b==new Integer(40); // under the hood
 ```
@@ -99,7 +99,7 @@ IntegerCache 是一个私有的、静态的和内部的 Java 类。由于 Java �
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A program demonstrate IntegerCache
 // implementation in Java.
 

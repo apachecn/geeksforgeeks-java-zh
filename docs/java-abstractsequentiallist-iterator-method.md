@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator<E> iterator()
 ```
 
@@ -16,7 +16,7 @@ public Iterator<E> iterator()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // iterator() method
 
@@ -51,14 +51,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 5 9 6 7 10 8 7
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // iterator() method
 
@@ -92,7 +92,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Geeks
 ForGeeks
 A

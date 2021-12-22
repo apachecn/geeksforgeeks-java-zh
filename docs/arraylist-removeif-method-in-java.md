@@ -12,7 +12,7 @@ Java 8 有一个重要的内置功能接口，那就是谓词。谓词或条件�
 
 **语法:**
 
-```
+```java
 public boolean removeIf(Predicate filter)
 ```
 
@@ -26,7 +26,7 @@ public boolean removeIf(Predicate filter)
 
 **程序 1:** 在数组列表上演示 removeIf()方法的程序，该列表包含一组数字，只有可被 3 整除的数字才会被删除。
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of ArrayList
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 23
 32
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **程序 2:** 演示 ArrayList 上 removeIf()方法的程序，该方法包含一组学生姓名和以“S”开头的姓名，将被删除。
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of ArrayList
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Students name Does not start with S
 Ram
 Mohan

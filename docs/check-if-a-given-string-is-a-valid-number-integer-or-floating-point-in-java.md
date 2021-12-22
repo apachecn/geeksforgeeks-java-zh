@@ -8,7 +8,7 @@
 
 [整数类](https://www.geeksforgeeks.org/java-lang-integer-class-java/)提供了一个静态方法 *parseInt()* ，如果字符串不包含可解析的 *int* ，该方法将引发 NumberFormatException。我们将使用 catch 块捕获这个异常，从而确认给定的字符串不是有效的整数。下面是 java 程序来演示同样的情况。
 
-```
+```java
 //Java program to check whether given string
 // is a valid integer number
 
@@ -46,7 +46,7 @@ class GFG 
 
 输出:
 
-```
+```java
 abc is not a valid integer number
 1234 is a valid integer number
 
@@ -56,7 +56,7 @@ abc is not a valid integer number
 
 [Float 类](https://www.geeksforgeeks.org/java-lang-float-class-in-java/)提供了一个静态方法 *parseFloat()* 如果字符串不包含可解析的 *float* ，将引发 NumberFormatException。我们将使用 catch 块捕获这个异常，从而确认给定的字符串不是有效的浮点数。如果字符串为 *null* ，该方法将抛出 [NullPointerException](https://www.geeksforgeeks.org/null-pointer-exception-in-java/) 。下面是 java 程序来演示同样的情况。
 
-```
+```java
 // Java program to check whether given string
 // is a valid float number.
 
@@ -94,7 +94,7 @@ class GFG 
 
 输出:
 
-```
+```java
 10e5.4 is not a valid float number
 2e10 is a valid float number
 
@@ -104,7 +104,7 @@ class GFG 
 
 对于大数，我们可以使用 [BigInteger](https://www.geeksforgeeks.org/biginteger-class-in-java/) 和 [BigDecimal](https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html) 类构造函数。下面是 java 程序来演示同样的情况。
 
-```
+```java
 // Java program to check whether given string
 // is a valid number.
 
@@ -158,7 +158,7 @@ class GFG 
 
 输出:
 
-```
+```java
 1231456416541214651356151564651954156 is a valid integer number
 105612656501606510651e655.4 is not a valid float number
 2e102225 is a valid float number

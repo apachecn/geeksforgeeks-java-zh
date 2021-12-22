@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -21,7 +21,7 @@ public String toString()
 
 **示例:**
 
-```
+```java
 Input : m1 = new MathContext(2, RoundingMode.HALF_DOWN)
 Output : precision=2 roundingMode=HALF_DOWN
 
@@ -33,7 +33,7 @@ Output : precision=60 roundingMode=HALF_UP
 下面的程序说明了 java.math.MathContext.toString()函数的使用:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate toString() method
 import java.math.*;
 import java.io.*;
@@ -55,14 +55,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 precision=37 roundingMode=HALF_DOWN
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate toString() method
 import java.math.*;
 import java.io.*;
@@ -84,7 +84,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 precision=60 roundingMode=HALF_UP
 
 ```

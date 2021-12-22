@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find Size of the Largest Independent
 // Set(LIS) in a Given an N-array Tree
 import java.io.*;
@@ -136,7 +136,7 @@ public class GFG2 {
 
 **Output**
 
-```
+```java
 Initializing an n array tree
 Finding the elements to be included in the set
 6

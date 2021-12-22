@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String format(DateTimeFormatter formatter)
 
 ```
@@ -21,7 +21,7 @@ public String format(DateTimeFormatter formatter)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.format() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value : 03:18:23
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.format() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value : 23:59:59
 
 ```

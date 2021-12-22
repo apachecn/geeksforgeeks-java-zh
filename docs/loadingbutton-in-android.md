@@ -10,7 +10,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 
 allprojects {           
  repositories {           
@@ -23,7 +23,7 @@ allprojects {           
 
 ## 可扩展标记语言
 
-```
+```java
 
 dependencies {     
       //For Snackbar 
@@ -38,7 +38,7 @@ dependencies {     
 
 ## activity_main.xml
 
-```
+```java
 
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -74,7 +74,7 @@ dependencies {     
 
 ## MainActivity.java
 
-```
+```java
 
 package org.geeksforgeeks.loadingbutton          
 

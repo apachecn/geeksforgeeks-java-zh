@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setFilter(Filter newFilter)
                throws SecurityException
 
@@ -21,7 +21,7 @@ public void setFilter(Filter newFilter)
 下面的程序说明了 setFilter()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.setFilter() method
 
@@ -60,7 +60,7 @@ Eclipse 控制台上打印的输出如下所示-
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.setFilter() method
 

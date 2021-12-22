@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void forEach(Consumer<E> action)
 ```
 
@@ -20,7 +20,7 @@ public void forEach(Consumer<E> action)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // forEach() method of LinkedTransferQueue
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Transfer Queue : [6, 3, 5, 15, 20]
 Traversing this Queue : 
 6
@@ -71,7 +71,7 @@ Traversing this Queue :
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate
 // forEach() method of LinkedTransferQueue
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Transfer Queue : [GeeksforGeeks, Geeks, Computer Science, Portal, Gfg]
 Traversing this Queue : 
 GeeksforGeeks

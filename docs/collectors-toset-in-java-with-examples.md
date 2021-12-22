@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> Collector<T, ?, Set<T>> toSet()
 
 ```
@@ -26,7 +26,7 @@ public static <T> Collector<T, ?, Set<T>> toSet()
 
 **例 1:**
 
-```
+```java
 // Java code to show the implementation of
 // Collectors toSet() function
 
@@ -56,14 +56,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [Geeks Classes, GeeksforGeeks, Geeks, for]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show the implementation of
 // Collectors toSet() function
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [1, 2, 3, 4]
 
 ```

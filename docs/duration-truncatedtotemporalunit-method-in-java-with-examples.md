@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration truncatedTo(TemporalUnit unit)
 
 ```
@@ -24,7 +24,7 @@ public Duration truncatedTo(TemporalUnit unit)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate truncatedTo() method
 
 import java.time.Duration;
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original duration: PT51H4M
 PT51H4M
 
@@ -60,7 +60,7 @@ PT51H4M
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate truncatedTo() method
 
 import java.time.Duration;
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original duration: PT120H
 PT120H
 

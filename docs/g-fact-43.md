@@ -6,7 +6,7 @@
 
 在 C++中，默认情况下，类成员方法是非虚拟的。使用*虚拟*关键字可以使它们虚拟化。例如 *Base::show()* 在后续程序中是非虚拟的，程序打印*Base::show()称为“*。
 
-```
+```java
 #include<iostream>
 
 using namespace std;
@@ -41,7 +41,7 @@ int main()
 
 在 Java 中，默认情况下方法是虚拟的，可以通过使用 *final* 关键字使方法成为非虚拟的。例如，在下面的 java 程序中， *show()* 默认为虚拟的，程序打印*“衍生的::show()”称为“*
 
-```
+```java
 class Base {
 
     // virtual by default

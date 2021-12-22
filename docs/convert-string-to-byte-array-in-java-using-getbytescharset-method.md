@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public byte[] getBytes(Charset charset)
 ```
 
@@ -33,7 +33,7 @@ public byte[] getBytes(Charset charset)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate how to
 // convert a string to byte array
 // Using getBytes(Charset charset)
@@ -79,7 +79,7 @@ public static void main (String[] args) 
 
 **Output**
 
-```
+```java
 String: Hello GeeksforGeeks
 Result : 
 -2-1072010101080108011103207101010101010701150102011101140710101010101070115
@@ -89,7 +89,7 @@ Result :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate how to
 // convert a string to byte array
 // Using getBytes(Charset charset)
@@ -130,7 +130,7 @@ public static void main (String[] args) 
 
 **Output**
 
-```
+```java
 String: Hello GFG
 Byte Array:[72, 101, 108, 108, 111, 32, 71, 70, 71]
 

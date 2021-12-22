@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 ByteObject.compareTo(Byte a)
 ```
 
@@ -22,7 +22,7 @@ ByteObject.compareTo(Byte a)
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Byte compareTo() method
 
@@ -49,14 +49,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 20 and 20 : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Byte compareTo() method
 
@@ -83,14 +83,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 20 and 10 : 10
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to demonstrate
 // Byte compareTo() method
 
@@ -117,7 +117,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 10 and 20 : -10
 
 ```

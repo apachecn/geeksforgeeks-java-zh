@@ -7,7 +7,7 @@
 **注意:**双流盒装()是一个 ***的中间操作。*** 这些操作总是偷懒。中间操作在流实例上被调用，在它们完成处理后，它们给出一个流实例作为输出。
 **语法:**
 
-```
+```java
 Stream<**Double**> boxed()
 
 ```
@@ -21,7 +21,7 @@ Stream<**Double**> boxed()
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream boxed()
 import java.util.*;
 import java.util.stream.Stream;
@@ -49,7 +49,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3.2
 8.4
 3.6
@@ -59,7 +59,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream boxed()
 import java.util.*;
 import java.util.stream.Stream;
@@ -90,7 +90,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3.2
 8.4
 3.6

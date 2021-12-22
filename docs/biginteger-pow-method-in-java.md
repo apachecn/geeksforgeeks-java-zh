@@ -5,7 +5,7 @@
 **T1 大整数。幂(int index)**方法用于计算一个大整数，该大整数是作为指数传递的某个其他数字的幂，该指数的值等于(this) <sup>指数</sup>。此方法对调用此方法的当前 BigInteger 执行操作，并将指数作为参数传递。
 **语法:**
 
-```
+```java
 public BigInteger pow(int exponent)
 ```
 
@@ -16,7 +16,7 @@ public BigInteger pow(int exponent)
 参数指数必须为正数(指数> = 0)，否则抛出**算术异常**。
 **示例:**
 
-```
+```java
 Input: BigInteger1=321456, exponenet=5
 Output: 3432477361331488865859403776
 Explanation: BigInteger1.pow(exponent)=3432477361331488865859403776\. 
@@ -32,7 +32,7 @@ Explanation: BigInteger1.pow(exponent)=93089018611161\.
 **下面的程序举例说明 BigInteger 类**
 **的 pow()方法示例 1:**
 
-```
+```java
 // Java program to demonstrate 
 // pow() method of BigInteger
 
@@ -65,7 +65,7 @@ public class GFG {
 
 例 2:
 
-```
+```java
 // Java program to demonstrate
 // pow() method of BigInteger
 
@@ -99,7 +99,7 @@ public class GFG {
 **示例 3:**
 当作为参数传递的指数小于零时显示异常的程序。
 
-```
+```java
 // Java program to demonstrate 
 // pow() method of BigInteger
 

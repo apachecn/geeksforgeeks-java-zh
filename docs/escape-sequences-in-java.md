@@ -9,7 +9,7 @@ Java 转义序列列表:
 **为什么我们会需要 Escape 序列？**
 假设我们想要运行后续的 java 代码:
 
-```
+```java
 public class Test {
     public static void main(String[] args)
     {
@@ -20,7 +20,7 @@ public class Test {
 
 这段代码给出了如下编译时错误:
 
-```
+```java
 prog.java:3: error: ')' expected
     System.out.println("Hi geek, welcome to "GeeksforGeeks".");
                                              ^
@@ -45,7 +45,7 @@ prog.java:3: error: ';' expected
 
 因此，让我们在前面的 java 代码中使用这个概念来避免编译时错误:
 
-```
+```java
 public class Test {
     public static void main(String[] args)
     {
@@ -54,7 +54,7 @@ public class Test {
 }
 ```
 
-```
+```java
 Output: Hi geek, welcome to "GeeksforGeeks".
 ```
 
@@ -62,7 +62,7 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
 1.  **Java code for the escape sequence \t:**
 
-    ```
+    ```java
     // \t -> It gives a tab between two words.
 
     public class Test {
@@ -75,13 +75,13 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
     **输出:**
 
-    ```
+    ```java
     Good Morning     Geeks!  
     ```
 
 2.  **Java code for the escape sequence \b :**
 
-    ```
+    ```java
     // The escape sequence \b is a backspace character
     // It moves the cursor one character back with
     // or without deleting the character(depending upon compiler)
@@ -96,14 +96,14 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
     **输出:**(输出取决于编译器)
 
-    ```
+    ```java
     Good Morning Geeks! 
 
     ```
 
 3.  **Java code for the escape sequence \n :**
 
-    ```
+    ```java
     // This \n escape sequence is for a new line.
 
     public class Test {
@@ -116,7 +116,7 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
     **输出:**
 
-    ```
+    ```java
     Good Morning Geeks! 
     How are you all? 
 
@@ -124,7 +124,7 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
 4.  **Java code for the escape sequence \r:**
 
-    ```
+    ```java
     // This \r escape sequence is a carriage return character 
     // It moves the output point back to the beginning of the line without moving down a line (usually).
 
@@ -138,7 +138,7 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
     **输出:**(输出取决于编译器)
 
-    ```
+    ```java
       Good Morning Geeks! 
       How are you all? 
 
@@ -146,7 +146,7 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
 5.  **Java code for the escape sequence \f:**
 
-    ```
+    ```java
     // This \f escape sequence is a form feed character
     // It is an old technique and used to indicate a page break.
 
@@ -160,7 +160,7 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
     **输出:**(输出取决于编译器)
 
-    ```
+    ```java
     Good Morning Geeks!  
                          How are you all? 
 
@@ -168,7 +168,7 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
 6.  **Java code for the escape sequence \’**
 
-    ```
+    ```java
     // This \' escape sequence is for printing a single quotation mark on the text string
 
     public class Gfg {
@@ -181,13 +181,13 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
     **输出:**
 
-    ```
+    ```java
     Good Morning 'Geeks!' How are you all? 
     ```
 
 7.  **Java code for the escape sequence \”**
 
-    ```
+    ```java
     // This \" escape sequence is for printing a double quotation mark on the text string
 
     public class Gfg {
@@ -200,13 +200,13 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
     **输出:**
 
-    ```
+    ```java
     Good Morning "Geeks!" How are you all? 
     ```
 
 8.  **Java code for the escape sequence \\**
 
-    ```
+    ```java
     // This \\ escape sequence is for printing a backslash on the text string
 
     public class Gfg {
@@ -219,7 +219,7 @@ Output: Hi geek, welcome to "GeeksforGeeks".
 
     **输出:**
 
-    ```
+    ```java
     \- this is a backslash. 
     ```
 

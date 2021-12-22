@@ -12,7 +12,7 @@ Java 中的**抽象顺序列表**类是 [Java 集合框架](https://www.geeksfor
 
 **申报:**
 
-```
+```java
 public abstract class AbstractSequentialList<E>
     extends AbstractList<E>
 
@@ -30,7 +30,7 @@ Where E is the type of element maintained by this List.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate AbstractSequentialList
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 [5, 6, 7]
 
 ```
@@ -65,7 +65,7 @@ public class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // methods of AbstractSequentialList
 
@@ -110,7 +110,7 @@ public class AbstractSequentialListDemo {
 
 **输出:**
 
-```
+```java
 AbstractSequentialList: [Geeks, for, Geeks, 10, 20]
 Final List: [Geeks, for, Geeks, 20]
 The element is: Geeks

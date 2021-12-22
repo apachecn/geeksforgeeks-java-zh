@@ -6,7 +6,7 @@
 
 **申报**
 
-```
+```java
 public abstract class Dictionary extends Object
 ```
 
@@ -19,7 +19,7 @@ public abstract class Dictionary extends Object
 
 **语法:**
 
-```
+```java
 public abstract V put(K key, V value)
 Parameters : 
 -> key
@@ -32,7 +32,7 @@ key-value pair mapped in the dictionary
 
 **语法:**
 
-```
+```java
 public abstract Enumeration elements()
 Parameters : 
 --------
@@ -44,7 +44,7 @@ value enumeration in dictionary
 
 **语法:**
 
-```
+```java
 public abstract V get(Object key)
 Parameters : 
 key - key whose mapped value we want
@@ -56,7 +56,7 @@ value mapped with the argumented key
 
 **语法:**
 
-```
+```java
 public abstract boolean isEmpty()
 Parameters : 
 ------
@@ -68,7 +68,7 @@ true, if there is no key-value relation in the dictionary; else false
 
 **语法:**
 
-```
+```java
 public abstract Enumeration keys()
 Parameters : 
 --------
@@ -80,7 +80,7 @@ key enumeration in dictionary
 
 **语法:**
 
-```
+```java
 public abstract V remove(Object key)
 Parameters : 
 key : key to be removed
@@ -92,7 +92,7 @@ value mapped with the key
 
 **语法:**
 
-```
+```java
 public abstract int size()
 Parameters : 
 -------
@@ -102,7 +102,7 @@ returns the no. of key-value pairs in the Dictionary
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program explaining util.Dictionary class Methods
 // put(), elements(), get(), isEmpty(), keys()
 // remove(), size()
@@ -151,7 +151,7 @@ public class New_Class
 
 **输出:**
 
-```
+```java
 Value in Dictionary : Code
 Value in Dictionary : Program
 

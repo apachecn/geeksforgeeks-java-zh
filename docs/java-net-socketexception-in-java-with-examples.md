@@ -4,7 +4,7 @@
 
 **SocketException** 是 **IOException** 的子类，所以它是一个选中的异常。这是在试图打开或访问套接字时发出问题信号的最常见的异常。此错误的完整异常层次结构是:
 
-```
+```java
 java.lang.Object
      java.lang.Throwable
          java.lang.Exception
@@ -14,7 +14,7 @@ java.lang.Object
 
 您可能已经知道，强烈建议使用最具体的套接字异常类来更准确地指定问题。还值得注意的是，SocketException 通常会附带一条错误消息，该消息非常详细地说明了导致异常的情况。
 
-```
+```java
 Implemented Interfaces: *Serializable*
 Direct Known Subclasses: *BindException, ConnectException, NoRouteToHostException, PortUnreachableException*
 ```
@@ -35,7 +35,7 @@ Direct Known Subclasses: *BindException, ConnectException, NoRouteToHostExceptio
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate SocketException
 // Server Side App
 
@@ -130,7 +130,7 @@ public class SimpleServerApp {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate SocketException
 // Client Side App
 

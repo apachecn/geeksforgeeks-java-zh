@@ -34,13 +34,13 @@
 
 **步骤 1:** 将文件附加到文件输入流，因为这将使我们能够从文件中读取数据，如下所示:
 
-```
+```java
 FileInputStream  fileInputStream =new FileInputStream(“file.txt”);
 ```
 
 **步骤 2:** 现在为了从文件中读取数据，我们应该从文件输入流中读取数据，如下所示:
 
-```
+```java
 ch=fileInputStream.read();
 ```
 
@@ -48,7 +48,7 @@ ch=fileInputStream.read();
 
 **步骤 3-B:** 那么我们应该将监视器附加到输出流上。为了显示数据，我们可以使用系统打印
 
-```
+```java
 System.out.print(ch);
 ```
 
@@ -56,7 +56,7 @@ System.out.print(ch);
 
 *原始文件内容:*
 
-```
+```java
 This is my first line
 This is my second line
 ```
@@ -65,7 +65,7 @@ This is my second line
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate FileInputStream Class
 
 // Importing I/O classes
@@ -117,7 +117,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 sun.nio.ch.FileChannelImpl@1540e19d
 java.io.FileDescriptor@677327b6
 Number of remaining bytes:45

@@ -11,7 +11,7 @@
 
 插图:
 
-```
+```java
 Input:
 
 ArrayList:[1, 2, 3, 4, 6, 7, 8, 9]
@@ -25,7 +25,7 @@ true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Search ArrayList Element
 // Using Binary Search
 
@@ -102,14 +102,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false
 true
 ```
 
 **情况 2:** 假设为了找到最大元素的最大索引小于使用二分搜索法的数组列表的排序重复元素中的键。
 
-```
+```java
 Input:
 
 List: [2, 3, 3, 4, 4, 5, 6, 7]
@@ -125,7 +125,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Search ArrayList Element
 // Using Binary Search
 
@@ -200,6 +200,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 4
 ```

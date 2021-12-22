@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -20,7 +20,7 @@ public int hashCode()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.hashCode() method
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 hashCode value: -2030906730
 ```
 
@@ -54,7 +54,7 @@ hashCode value: -2030906730
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.hashCode() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 hashCode value: 1849330620
 ```
 

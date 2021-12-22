@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setSequenceNumber(long seq)
 
 ```
@@ -18,7 +18,7 @@ public void setSequenceNumber(long seq)
 下面的程序说明了 setSequenceNumber()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // setSequenceNumber() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Sequence Number = 41545412
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // setSequenceNumber() method
 
@@ -83,7 +83,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Sequence Number = 96236641
 
 ```

@@ -6,7 +6,7 @@
 
 java 中还有其他几个概念，增加了 java 代码和程序员之间的用户友好交互，例如泛型、访问说明符、注释等。这些特性为类以及 java 程序的方法增加了一个额外的属性。在本文中，我们将讨论如何在 spring boot 中获取传入请求的主体。
 
-```
+```java
 @RequestBody: Annotation is used to get request body in the incoming request.
 ```
 
@@ -18,7 +18,7 @@ java 中还有其他几个概念，增加了 java 代码和程序员之间的用
 
 按照要求填写细节。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.2.8
@@ -41,7 +41,7 @@ Dependencies: Spring Web
 
 **例 1:**Person.java
 
-```
+```java
 // Class
 public class Person {
 
@@ -71,7 +71,7 @@ public class Person {
 
 **例 2:**Controller.java
 
-```
+```java
 @RestController
 
 // Class
@@ -97,6 +97,6 @@ public class Controller {
 
 **输出:**最后将在终端/CMD 上产生如下输出:
 
-```
+```java
 1 Aayush 32
 ```

@@ -57,7 +57,7 @@ Jar 文件是包含一个或多个 java 类文件的 Zip 档案。这使得图�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to apply different styles
 // to a cell in a spreadsheet
 

@@ -4,7 +4,7 @@
 
 在 Java 中，我们可以使用文件类的**列表根()**来查找所有的根目录。
 
-```
+```java
 import java.io.*;
 
 public class GeeksforGeeks {
@@ -19,7 +19,7 @@ public class GeeksforGeeks {
 
 输出(在有两个驱动器的窗口中)
 
-```
+```java
 C:\
 D:\
 
@@ -27,7 +27,7 @@ D:\
 
 输出(在 Linux 中)
 
-```
+```java
 /
 
 ```

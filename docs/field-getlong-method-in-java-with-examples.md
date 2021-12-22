@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getLong(Object obj)
              throws IllegalArgumentException,
                     IllegalAccessException
@@ -27,7 +27,7 @@ public long getLong(Object obj)
 下面的程序说明了 getLong()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate getLong() method
 
 import java.lang.reflect.Field;
@@ -86,14 +86,14 @@ class User {
 
 **Output:**
 
-```
+```java
 Value of long Field HighScore is 341313432299133
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate getLong() method
 
 import java.lang.reflect.Field;
@@ -141,7 +141,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 9999994567
 
 ```

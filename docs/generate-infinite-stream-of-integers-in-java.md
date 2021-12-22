@@ -10,7 +10,7 @@
     1.  使用 IntStream.iterate()方法，通过将值递增 1 来用 I 迭代 IntStream。
     2.  借助 forEach()方法打印输入流。
 
-    ```
+    ```java
     import java.util.stream.*;
 
     public class GFG {
@@ -34,7 +34,7 @@
 
     **输出:**
 
-    ```
+    ```java
     0
     1
     2
@@ -51,7 +51,7 @@
     1.  使用 ints()方法获取下一个整数
     2.  借助 forEach()方法打印输入流。
 
-    ```
+    ```java
     import java.util.stream.*;
     import java.util.*;
 
@@ -79,7 +79,7 @@
 
     **输出:**
 
-    ```
+    ```java
     -1214876682
     911266110
     1224044471
@@ -97,7 +97,7 @@
     1.  使用 IntStream.generate()和 Random.nextInt()生成下一个整数
     2.  借助 forEach()方法打印输入流。
 
-    ```
+    ```java
     import java.util.stream.*;
     import java.util.*;
 
@@ -126,7 +126,7 @@
 
     **输出:**
 
-    ```
+    ```java
     -798555363
     -531857014
     1861939261

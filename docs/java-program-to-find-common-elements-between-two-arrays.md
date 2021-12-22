@@ -5,7 +5,7 @@
 给定两个数组，我们的任务是找到它们的公共元素。
 **例:**
 
-```
+```java
 Input:  Array1 = ["Article", "for", "Geeks", "for", "Geeks"], 
         Array2 = ["Article", "Geeks", "Geeks"]
 Output: [Article,Geeks]
@@ -25,7 +25,7 @@ Output: [b, c, d, e]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find common elements
 // in two Arrays
 // Using iterative method
@@ -82,7 +82,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Array 1: [Article, in, Geeks, for, Geeks]
 Array 2: [Geeks, for, Geeks]
 Common Elements: Geeks for 
@@ -96,7 +96,7 @@ Common Elements: Geeks for
 
 **语法:**
 
-```
+```java
 // This method keeps only the common elements
 // of both Collection in Collection1.
 
@@ -114,7 +114,7 @@ Collections1.retainAll(Collections2)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find common elements
 // in two Arrays using hashsets
 // and retainAll() method
@@ -172,7 +172,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Array 1: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 Array 2: [100, 9, 64, 7, 36, 5, 16, 3, 4, 1]
 Common elements- [16, 64, 1, 4, 36, 100, 9]
@@ -192,7 +192,7 @@ Common elements- [16, 64, 1, 4, 36, 100, 9]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for the above approach
 import java.io.*;
 import java.util.Arrays;
@@ -236,7 +236,7 @@ class Test {
 
 **Output**
 
-```
+```java
 1
 3
 4

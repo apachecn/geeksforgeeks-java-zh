@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int getAndAdd(int val)
 
 ```
@@ -19,7 +19,7 @@ public final int getAndAdd(int val)
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndAdd() function
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 0
 Current value: 7
 
@@ -57,7 +57,7 @@ Current value: 7
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndAdd() function
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 18
 Previous value: 18
 Current value: 26

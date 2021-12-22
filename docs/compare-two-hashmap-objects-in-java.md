@@ -10,7 +10,7 @@
 
 ******示例:******
 
-```
+```java
 ****Input :** HashMapA = [a=1, b=2], HashMapB = [a=1, c=2]
 **Output:**
     Compare Entry = Not Equal
@@ -26,7 +26,7 @@
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to compare two HashMap objects
 import java.util.*;
 
@@ -71,7 +71,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 map1 == map2 : true
 map1 == map3 : false
 ```**** 
@@ -84,7 +84,7 @@ map1 == map3 : false
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to compare two HashSet keys
 import java.util.*;
 
@@ -133,7 +133,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 map1 keys == map2 keys : true
 map1 keys == map3 keys : false
 ```**** 
@@ -146,7 +146,7 @@ map1 keys == map3 keys : false
 
 ## ******Java 语言(一种计算机语言，尤用于创建网站)******
 
-```
+```java
 ****// Java program to compare HashMap values
 import java.util.*;
 
@@ -202,7 +202,7 @@ class GFG {
 
 ********Output**
 
-```
+```java
 map1 values == map2 values : true
 map1 values == map3 values : false
 ```******

@@ -6,7 +6,7 @@ Java 中的**十进制格式**类的 **setNegativeSuffix()** 方法用于为此�
 
 **语法** :
 
-```
+```java
 public void setNegativeSuffix(String newValue)
 
 ```
@@ -17,7 +17,7 @@ public void setNegativeSuffix(String newValue)
 
 下面程序举例说明上面的方法:
 
-```
+```java
 // Java program to illustrate the
 // setNegativeSuffix() method
 
@@ -42,7 +42,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 -123.45negative
 
 ```

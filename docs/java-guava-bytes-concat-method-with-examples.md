@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static byte[] concat(byte[]... arrays)
 
 ```
@@ -22,7 +22,7 @@ public static byte[] concat(byte[]... arrays)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Bytes.concat() method
 
@@ -51,14 +51,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 2, 7, 0, 8]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Bytes.concat() method
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
 ```

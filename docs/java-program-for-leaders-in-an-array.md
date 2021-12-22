@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class LeadersInArray 
 {
     /*Java Function to print leaders in an array */
@@ -42,7 +42,7 @@ class LeadersInArray 
 
 **输出:**
 
-```
+```java
 17 5 2
 ```
 
@@ -57,7 +57,7 @@ class LeadersInArray 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class LeadersInArray 
 {
     /* Java Function to print leaders in an array */
@@ -91,7 +91,7 @@ class LeadersInArray 
 
 **输出:**
 
-```
+```java
 2 5 17
 ```
 

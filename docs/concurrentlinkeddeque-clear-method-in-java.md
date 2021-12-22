@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -18,7 +18,7 @@ public void clear()
 
 **程序 1** :
 
-```
+```java
 // Java Program to Demonstrate clear()
 // method of ConcurrentLinkedDeque
 
@@ -58,7 +58,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 
 ConcurrentLinkedDeque cleared
@@ -69,7 +69,7 @@ ConcurrentLinkedDeque: []
 
 **程序二:**
 
-```
+```java
 // Java Program to Demonstrate clear()
 // method of ConcurrentLinkedDeque
 
@@ -109,7 +109,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedDeque: [10, 20, 30, 40, 50]
 
 ConcurrentLinkedDeque cleared

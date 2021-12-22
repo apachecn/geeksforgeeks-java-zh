@@ -6,7 +6,7 @@ Java . util . IdentityHashMap . contains KeY()方法用于检查特定键是否�
 
 **语法:**
 
-```
+```java
 Identity_HashMap.containsKey(*key_element*)
 ```
 
@@ -17,7 +17,7 @@ Identity_HashMap.containsKey(*key_element*)
 下面的程序用来说明 Java . util . identity hashmap . contains key()方法:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -53,7 +53,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 Is the key '20' present? true
 Is the key '5' present? false
@@ -62,7 +62,7 @@ Is the key '5' present? false
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -98,7 +98,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Geeks=20, Welcomes=25, You=30, 4=15}
 Is the key 'Welcomes' present? true
 Is the key 'World' present? false

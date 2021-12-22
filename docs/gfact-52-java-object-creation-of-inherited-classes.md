@@ -6,7 +6,7 @@
 
 这种情况不同于通常假设的构造函数调用意味着类的一个对象被创建，所以我们不能盲目地说，每当一个类构造函数被执行时，那个类的对象就被创建或不被创建。
 
-```
+```java
 // A Java program to demonstrate that both super class
 // and subclass constructors refer to same object
 
@@ -50,7 +50,7 @@ public class Test
 
 输出:
 
-```
+```java
 super class constructor 
 super class object hashcode :366712642
 Apple

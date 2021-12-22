@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```java
 public char[] toCharArray() 
 Return : It returns a newly allocated character array.
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of toCharArray() method
 
@@ -30,7 +30,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 G
 e
 e

@@ -6,7 +6,7 @@
 
 **例** :
 
-```
+```java
 Input : Key- 2 : Value-6
     Key- 4 : Value-1
     Key- 5 : Value-10
@@ -29,7 +29,7 @@ Output : True
 
 **伪代码:**
 
-```
+```java
 for (Map.Entry<Integer, Integer> it : lhm.entrySet()) {
        if (it.getValue() != null)
                 return true;
@@ -38,7 +38,7 @@ for (Map.Entry<Integer, Integer> it : lhm.entrySet()) {
 
 **语法:**
 
-```
+```java
 linked_hash_map.entrySet()
 ```
 
@@ -50,7 +50,7 @@ linked_hash_map.entrySet()
 
 ## Java
 
-```
+```java
 // Java program to check if LinkedHashMap contains a
 // particular value
 
@@ -94,7 +94,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 False
 ```
 
@@ -120,7 +120,7 @@ False
 
 **语法:**
 
-```
+```java
 Linked_Hash_Map.containsValue(*Object Value*)
 ```
 
@@ -132,7 +132,7 @@ Linked_Hash_Map.containsValue(*Object Value*)
 
 ## Java
 
-```
+```java
 // Java program to check if LinkedHashMap contains a
 // particular value
 
@@ -163,7 +163,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 False
 ```
 

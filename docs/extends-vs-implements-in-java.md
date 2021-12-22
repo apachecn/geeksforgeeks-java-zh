@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 class One {
     public void methodOne()
     {
@@ -36,7 +36,7 @@ class Two extends One {
 
 **例**
 
-```
+```java
 // Defining an interface
 interface One {
     public void methodOne();
@@ -67,7 +67,7 @@ class Three implements One, Two {
 
 **例**
 
-```
+```java
 // Defining the interface
 interface One {
 
@@ -100,7 +100,7 @@ class Three extends Two implements One {
 
 **示例:**
 
-```
+```java
 // Defining the interface One
 interface One {
     void methodOne();

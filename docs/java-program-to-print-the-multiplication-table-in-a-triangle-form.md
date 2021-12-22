@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : rows = 6
 Output:
     1
@@ -27,7 +27,7 @@ Output:
 
 ## 爪哇
 
-```
+```java
 // Java Program to Print the Multiplication
 // Table in Triangular Form
 
@@ -60,7 +60,7 @@ public class MultiplicationTableTrianglePattern {
 
 **输出**
 
-```
+```java
 1 
 2 4 
 3 6 9 

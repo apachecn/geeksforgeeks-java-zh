@@ -18,7 +18,7 @@
 
 *   **The main() method must be called from a static method only inside the same class.**
 
-    ```
+    ```java
     // Java method to show that the main() method
     // must be called from a static method only
     // inside the same class
@@ -51,7 +51,7 @@
 
     **Java 代码编译错误:**
 
-    ```
+    ```java
     prog.java:27: error: non-static method mainCaller()
                          cannot be referenced
                          from a static context
@@ -63,7 +63,7 @@
 
 *   **The main() method must be passed the String[] args while calling it from somewhere else.**
 
-    ```
+    ```java
     // Java method to show that the main() method
     // must be passed the String[] args
     // while calling it from somewhere else
@@ -96,7 +96,7 @@
 
     **Java 代码编译错误:**
 
-    ```
+    ```java
     prog.java:17: error: method main in class GFG
                          cannot be applied to given types;
             main();
@@ -110,7 +110,7 @@
 
 *   **Calling the main() method will lead to an infinite loop as the memory stack knows to run only the main() method.**
 
-    ```
+    ```java
     // Java method to show that Calling the main() method
     // will lead to an infinite loop as the memory stack
     // knows to run only the main() method
@@ -142,7 +142,7 @@
 
     **Java 代码中的运行时错误:**
 
-    ```
+    ```java
     RunTime Error in java code :-
      Exception in thread "main" java.lang.StackOverflowError
 
@@ -162,7 +162,7 @@
 
 **示例 1:** 从同一个类外部调用 main()方法
 
-```
+```java
 // Java method to show Calling main() method
 // externally from the same class
 
@@ -201,7 +201,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 main
 mainCaller!
 main
@@ -213,7 +213,7 @@ mainCaller!
 
 **示例 1:** 从另一个类外部调用 main()方法
 
-```
+```java
 // Java method to show Calling main() method
 // externally from another class
 
@@ -255,7 +255,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 main
 mainCaller!
 main

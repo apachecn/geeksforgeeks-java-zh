@@ -6,7 +6,7 @@ Java 中**计时周期界面**的 **get()** 方法用于从该计时周期中获
 
 **语法:**
 
-```
+```java
 long get(TemporalUnit unit)
 ```
 
@@ -23,7 +23,7 @@ long get(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the function get()
 // which gives the requested unit
 
@@ -55,14 +55,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 25
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java code to show the function get()
 // which gives the requested unit
 
@@ -94,7 +94,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 11
 
 ```

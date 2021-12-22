@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isInterface()
 
 ```
@@ -19,7 +19,7 @@ public boolean isInterface()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate isInterface() method
 
 public class Test {
@@ -43,7 +43,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Is Test an interface: false
 
@@ -51,7 +51,7 @@ Is Test an interface: false
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate isInterface() method
 
 interface T {
@@ -75,7 +75,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Is T an interface: true
 
 ```

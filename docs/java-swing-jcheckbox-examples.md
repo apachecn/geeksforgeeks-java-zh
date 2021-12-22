@@ -41,7 +41,7 @@ JCheckBox 是 Java Swing 包的一部分。可以选择或取消选择 JCheckBox
 
 **1。程序使用 JCheckBox** 创建一个简单的复选框
 
-```
+```java
 // java Program to create a simple checkbox using JCheckBox
 import java.awt.event.*;
 import java.awt.*;
@@ -87,7 +87,7 @@ class solve extends JFrame {
 
 **2。程序创建一个带有图标的复选框。**
 
-```
+```java
 // java Program to create a checkbox with a icon .
 import java.awt.event.*;
 import java.awt.*;
@@ -133,7 +133,7 @@ class solve extends JFrame {
 
 **3。程序创建一个复选框和它的项目监听器。**
 
-```
+```java
 // java Program to create a checkbox and ItemListener to it.
 import java.awt.event.*;
 import java.awt.*;

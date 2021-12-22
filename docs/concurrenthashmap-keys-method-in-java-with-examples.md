@@ -6,7 +6,7 @@ Java 中 **ConcurrentHashMap 类**的**key()**方法用于获取 HashMap 中存�
 
 **语法:**
 
-```
+```java
 Enumeration enu = ConcurrentHashMap.keys()
 ```
 
@@ -18,7 +18,7 @@ Enumeration enu = ConcurrentHashMap.keys()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the keys() method
 
 import java.util.*;
@@ -58,7 +58,7 @@ public class ConcurrentHashMapDemo {
 
 **Output:**
 
-```
+```java
 The Map is: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The enumeration of keys are:
 20
@@ -71,7 +71,7 @@ The enumeration of keys are:
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the keys() method
 
 import java.util.*;
@@ -111,7 +111,7 @@ public class ConcurrentHashMapDemo {
 
 **Output:**
 
-```
+```java
 The Map is: {4=15, Geeks=20, You=30, Welcomes=25}
 The enumeration of keys are:
 4

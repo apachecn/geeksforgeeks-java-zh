@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int intValue()
 ```
 
@@ -14,7 +14,7 @@ public int intValue()
 
 **示例:**
 
-```
+```java
 Input: BigInteger1=32145
 Output: 32145
 Explanation: BigInteger1.intValue()=32145.
@@ -28,7 +28,7 @@ intValue so it is returning lower 32 bit.
 
 **示例 1:下面的程序说明了 BigInteger 类**的 intValue()方法
 
-```
+```java
 // Java program to demonstrate 
 // intValue() method of BigInteger
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 intValue of 32145 : 32145
 intValue of 7613721 : 7613721
 
@@ -68,7 +68,7 @@ intValue of 7613721 : 7613721
 
 **例 2:当返回的整数对于 int 值来说太大时。**
 
-```
+```java
 // Java program to demonstrate 
 // intValue() method of BigInteger
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 intValue of 4326516236135 : 1484169063
 intValue of 251362466336 : -2040604128
 

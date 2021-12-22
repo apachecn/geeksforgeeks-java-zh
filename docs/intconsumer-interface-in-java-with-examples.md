@@ -14,7 +14,7 @@ IntConsumer 界面由以下两个功能组成:
 
 **语法:**
 
-```
+```java
 void accept(int value)
 ```
 
@@ -26,7 +26,7 @@ void accept(int value)
 
 下面是说明 accept()方法的代码:
 
-```
+```java
 import java.util.function.IntConsumer;
 
 public class GFG {
@@ -44,7 +44,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 30
 
 ```
@@ -57,7 +57,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 default IntConsumer andThen(IntConsumer after)
 ```
 
@@ -71,7 +71,7 @@ default IntConsumer andThen(IntConsumer after)
 
 **程序 1:**
 
-```
+```java
 import java.util.function.IntConsumer;
 
 public class GFG {
@@ -91,14 +91,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 30
 
 ```
 
 **程序 2:** 演示**空指针异常**何时返回。
 
-```
+```java
 import java.util.function.IntConsumer;
 
 public class GFG {
@@ -121,14 +121,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.NullPointerException
 
 ```
 
 **程序 3:** 演示 after 函数中的异常是如何返回和处理的。
 
-```
+```java
 import java.util.function.IntConsumer;
 
 public class GFG {
@@ -152,7 +152,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.ArithmeticException: / by zero
 
 ```

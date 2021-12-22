@@ -4,13 +4,13 @@
 
 如果满足以下条件，则具有数字 p、q、r、s…的正整数称为 n 阶阿姆斯特朗数。
 
-```
+```java
 pqrs... = pn + qn + rn + sn +....
 ```
 
 **例:**
 
-```
+```java
 370 = 3*3*3 + 7*7*7 + 0 
    =  27 + 343 + 0
    =  370
@@ -20,7 +20,7 @@ pqrs... = pn + qn + rn + sn +....
 
 **示例:**
 
-```
+```java
 Input : 100 200
 Output :153
 Explanation : 100 and 200 are given  
@@ -39,7 +39,7 @@ Therefore, only 153 is an Armstrong number between 100 and 200.
 
 ## Java
 
-```
+```java
 // JAVA program to find Armstrong
 // numbers between two integers
 import java.io.*;
@@ -92,7 +92,7 @@ class gfg {
 
 **输出**
 
-```
+```java
 153 370 371 407 
 
 ```

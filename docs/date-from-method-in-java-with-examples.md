@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Date from(Instant inst)
 ```
 
@@ -22,7 +22,7 @@ public static Date from(Instant inst)
 下面的程序说明了 from()方法在 Java 中的使用:
 **示例 1:**
 
-```
+```java
 // Java code to demonstrate
 // from() method of Date class
 
@@ -48,14 +48,14 @@ public class JavaDateDemo {
 
 **Output:**
 
-```
+```java
 Present: Tue Mar 26 06:45:40 UTC 2019
 
 ```
 
 **例 2:**
 
-```
+```java
 import java.util.Date;
 import java.util.Calendar;
 import java.time.Instant;
@@ -90,7 +90,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date: Wed Jan 30 06:45:43 UTC 2019
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void forEach(BiConsumer action)
 ```
 
@@ -20,7 +20,7 @@ public void forEach(BiConsumer action)
 
 **程序 1:使用动作**
 
-```
+```java
 // Java program to demonstrate
 // forEach(BiConsumer) method.
 
@@ -69,7 +69,7 @@ class MyBiConsumer implements BiConsumer<String, Integer> {
 
 **遍历哈希表输出:**
 
-```
+```java
 Key = geeks     Value = 22
 Key = for     Value = 100
 Key = is     Value = 11
@@ -80,7 +80,7 @@ Key = geekies like us     Value = 96
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // forEach(BiConsumer) method.
 
@@ -134,7 +134,7 @@ class MyBiConsumer implements BiConsumer<String, Integer> {
 
 **输出:**
 
-```
+```java
 Key: geeks    Value: 22
 Key: for    Value: 100
 Its the highest value

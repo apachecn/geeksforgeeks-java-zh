@@ -13,7 +13,7 @@
 
 **插图:**
 
-```
+```java
 For 4*4 matrix
 
 Input:
@@ -27,7 +27,7 @@ Output:
 3    4    12
 ```
 
-```
+```java
 For 4*4 matrix
 
 Input:
@@ -58,7 +58,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Rotate Matrix Elements
 
 // Importing classes from java.lang package 
@@ -163,7 +163,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1 5 6 7 
 0 15 2 8 
 3 6 3 4 
@@ -180,7 +180,7 @@ class GFG {
 
 插图:
 
-```
+```java
 Input : M = 3, N = 3, k = 2
         1 2 3
         4 5 6
@@ -202,7 +202,7 @@ Output : 11 12
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Rotate Matrix to Right Side by K Times
 
 // Main Class
@@ -279,7 +279,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2 5 1 
 4 6 3 
 10 9 8 

@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public int getAdler()
 
 ```
 
 **语法:**
 
-```
+```java
 i.getAdler();
 
 ```
@@ -25,7 +25,7 @@ i.getAdler();
 
 **示例 1:**getAdler()函数的使用
 
-```
+```java
 // Java program to describe the use
 // of getAdler function
 

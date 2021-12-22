@@ -6,7 +6,7 @@
 
 **语法:**声明
 
-```
+```java
 public class Collections
 extends Object
 ```
@@ -110,7 +110,7 @@ extends Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Adding Elements
 // Using addAll() method
 
@@ -146,7 +146,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Shoes Toys Fruits Bat Ball 
 ```
 
@@ -158,7 +158,7 @@ Shoes Toys Fruits Bat Ball
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate sorting
 // a Collections using sort() method
 
@@ -209,7 +209,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Bat Fruits Mouse Shoes Toys 
 Toys Shoes Mouse Fruits Bat 
 ```
@@ -222,7 +222,7 @@ Toys Shoes Mouse Fruits Bat
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Binary Search
 // Using Collections.binarySearch()
 
@@ -268,7 +268,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The index of Horse is 2
 The index of Dog is -2
 ```
@@ -281,7 +281,7 @@ The index of Dog is -2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Copying Elements
 // Using copy() method
 
@@ -339,7 +339,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The Original Destination list is 
 Shoes Toys Horse Tiger 
 The Destination List After copying is 
@@ -354,7 +354,7 @@ Bat Frog Lion Tiger
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Working of Disjoint Function
 
 // Importing required classes
@@ -395,6 +395,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 true
 ```

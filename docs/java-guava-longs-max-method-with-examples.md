@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long max(long... array)
 
 ```
@@ -21,7 +21,7 @@ public static long max(long... array)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.max() method
 
@@ -48,14 +48,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Maximum value is : 15
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.max() method
 
@@ -88,7 +88,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

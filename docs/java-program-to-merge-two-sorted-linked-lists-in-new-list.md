@@ -4,7 +4,7 @@
 
 我们得到了两个排序列表，我们的目标是将这两个列表合并成一个新列表。为此，我们必须编写一个函数，该函数将两个列表作为参数，并按升序排序。这个函数会将这两个列表以递增的顺序合并成一个列表。
 
-```
+```java
 Input
 List 1 : 1-> 3-> 4-> 9->10
 List 2 : 2-> 5-> 6-> 9
@@ -29,7 +29,7 @@ New List : 1-> 2-> 3-> 4-> 5-> 6-> 9-> 9-> 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Merge Two Sorted
 // Linked Lists in New List
 // Iteratively
@@ -125,7 +125,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 0 1 2 3 4 5 
 ```
 
@@ -141,7 +141,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Merge Two Sorted
 // Linked Lists in New List
 // Recursively
@@ -226,6 +226,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 23 35 43 59 60 65 
 ```

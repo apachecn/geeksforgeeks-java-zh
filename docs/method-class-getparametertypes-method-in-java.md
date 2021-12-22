@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public Class[] getParameterTypes()
 ```
 
@@ -23,7 +23,7 @@ public Class[] getParameterTypes()
 
 **程序 1:** 下面的程序将打印代表程序中定义的方法对象的形式参数类型的类对象数组的细节。
 
-```
+```java
 /*
 * Program Demonstrate how to apply getParameterTypes() method
 * of Method Class.
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Method Name : setManyValues
 No of Parameters : 3
 Parameter object details:
@@ -113,7 +113,7 @@ java.lang.String
 
 **程序 2:** 我们给出一个参数类对象作为输入，如果方法对象包含参数，程序将计算这些类型参数的数量，否则程序返回 0。
 
-```
+```java
 /*
 * Program Demonstrate how to apply getParameterTypes() method
 * of Method Class.
@@ -200,7 +200,7 @@ class sample {
 
 **Output:**
 
-```
+```java
 No of String Parameters in setValue(): 2
 No of int Parameters in setManyValues(): 1
 

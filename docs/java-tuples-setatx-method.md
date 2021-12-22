@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Quartet<String, Integer, Double, String> quartet = ...
     ...
 Quartet otherQuartet = quartet.setAtX(value);
@@ -22,7 +22,7 @@ Quartet otherQuartet = quartet.setAtX(value);
 
 **程序 1:** 当 setAtX()方法用于从单位到十进制的任何类时，直接值作为参数:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of setAtX() method
 
@@ -47,13 +47,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [GeeksforGeeks, by Sandeep Jain]
 ```
 
 **节目 2:**
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of setAtX() method
 
@@ -91,7 +91,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 100]
 ```
 

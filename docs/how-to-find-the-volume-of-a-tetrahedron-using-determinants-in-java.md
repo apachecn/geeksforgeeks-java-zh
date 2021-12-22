@@ -8,7 +8,7 @@
 
 1.给定四面体的四个顶点(x1，y1，z1)，(x2，y2，z2)，(x3，y3，z3)和(x4，y4，z4)。使用这些顶点创建一个(4 × 4)矩阵，其中坐标三元组形成矩阵的列，在底部附加一个额外的行，每个值为 1。
 
-```
+```java
 x1  x2  x3  x4
 y1  y2  y3  y4
 z1  z2  z3  z4
@@ -17,7 +17,7 @@ z1  z2  z3  z4
 
 2.对于底部有一行 1 的 4 × 4 矩阵，我们可以用给定的简化公式简化成(3 × 3)矩阵。
 
-```
+```java
 x1-x4   x2-x4   x3-x4
 y1-y4   y2-y4   y3-y4
 z1-z4   z2-z4   z3-z4
@@ -27,7 +27,7 @@ z1-z4   z2-z4   z3-z4
 
 ### 示例:
 
-```
+```java
 Input: x1=9, x2=3, x3=7, x4=9, y1=5, y2=0, y3=4, y4=6, z1=1, z2=0, z3=3, z4=0
 Output: Volume of the Tetrahedron Using Determinants: 3.0
 
@@ -38,7 +38,7 @@ Output: Volume of the Tetrahedron Using Determinants: 7.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the volume of a
 // tetrahedron using determinants
 
@@ -142,7 +142,7 @@ class VolumeOfADeterminant {
 
 **Output**
 
-```
+```java
 Volume of the Tetrahedron Using Determinants: 52.333333333333336
 
 ```

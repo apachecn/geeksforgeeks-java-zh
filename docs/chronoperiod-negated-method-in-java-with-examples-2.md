@@ -6,7 +6,7 @@ Java 中**计时周期接口**的**求反()**方法是在否定了 YEAR、MONTH�
 
 **语法:**
 
-```
+```java
 ChronoPeriod negated()
 ```
 
@@ -20,7 +20,7 @@ ChronoPeriod negated()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function to negate all
 // elements of the period
 
@@ -53,14 +53,14 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 P-4Y-11M-10D
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function to negate all
 // elements of the period
 
@@ -93,7 +93,7 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 P4Y11M10D
 
 ```

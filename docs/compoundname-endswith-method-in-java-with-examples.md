@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean endsWith(Name n)
 
 ```
@@ -18,7 +18,7 @@ public boolean endsWith(Name n)
 下面的程序说明了 CompoundName.endsWith()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.endsWith()
 
@@ -65,14 +65,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompoundName1 ends with  CompoundName2
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.endsWith() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompoundName1 not ends with  CompoundName2
 
 ```

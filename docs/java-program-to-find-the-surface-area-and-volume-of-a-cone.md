@@ -18,7 +18,7 @@
 
 可以使用[毕达哥拉斯公式](https://www.geeksforgeeks.org/pythagoras-theorem-and-its-converse-triangles-class-10-maths/) sqrt(r * r + h * h)计算倾斜高度
 
-```
+```java
 Input : 
 radius = 5
 slant_height = 13
@@ -46,7 +46,7 @@ Surface Area Of Cone = 301.593
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Surface Area and Volume of a
 // Cone
 
@@ -78,7 +78,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Surface area of cone is : 301.59289474462014
 Volume of cone is : 301.59289474462014
 
@@ -88,7 +88,7 @@ Volume of cone is : 301.59289474462014
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Surface Area and Volume of a
 // Cone
 
@@ -120,7 +120,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Surface area of cone is : 170.81027853689216
 Volume of cone is : 146.98129725379061
 

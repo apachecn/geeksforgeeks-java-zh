@@ -12,12 +12,12 @@
 
 首先，数字被转换成二进制格式。考虑整数数据类型的 8 个索引。现在进位由一个逐位左移操作符处理，二进制的其余部分在屏幕上显示为一个整数，表示上述两个整数之和。如下所示:
 
-```
+```java
 Input :1, 2
 Output : 3
 ```
 
-```
+```java
 a = 1 : 00000001
 b = 2 : 00000010
 ----------------
@@ -30,7 +30,7 @@ c = 3 : 00000011
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find the Sum of Two Numbers
 // Without Using any Arithmetic Operator
 
@@ -75,6 +75,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 5
 ```

@@ -8,7 +8,7 @@ Unicode 字符是通用字符编码标准。它代表了不同的字符在不同
 
 **示例:**
 
-```
+```java
 Input : a = '{content}apos;
 Output: $
 
@@ -26,7 +26,7 @@ Output: ~
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Assigning Unicode to the char data types
 import java.io.*;
 class GFG {
@@ -52,7 +52,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 a
 A
 1
@@ -67,7 +67,7 @@ $
 
 **示例:**
 
-```
+```java
 Input : a = '\u0061'
 Output: a
 
@@ -85,7 +85,7 @@ Output: /
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Assigning Unicode values to char data types
 import java.io.*;
 class GFG {
@@ -111,7 +111,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 a
 A
 1
@@ -126,7 +126,7 @@ $
 
 **示例:**
 
-```
+```java
 Input : a = 97
 Output: a
 
@@ -144,7 +144,7 @@ Output: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Assigning ASCII values to char data types
 import java.io.*;
 class GFG {
@@ -168,7 +168,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 a
 A
 1

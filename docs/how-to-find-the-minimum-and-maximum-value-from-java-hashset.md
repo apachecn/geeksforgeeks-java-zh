@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to find the maximum and minimum in HashSet
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Maximum value of HashSet : 50
 Minimum value of HashSet : 10
 ```
@@ -65,7 +65,7 @@ Minimum value of HashSet : 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to find the maximum and minimum in HashSet
 
 import java.util.*;
@@ -122,7 +122,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Maximum value of HashSet : 50
 Minimum value of HashSet : 10
 ```

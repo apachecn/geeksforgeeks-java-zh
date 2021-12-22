@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 modifier return_type method_name( )
 {
         method body ;
@@ -27,7 +27,7 @@ modifier return_type method_name( )
 
 **示例:**
 
-```
+```java
 public void disp( )
 {
        int a= 10;
@@ -45,7 +45,7 @@ public void disp( )
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to see how can we call
 // an instance method without parameter
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 20
 GFG!
 ```
@@ -85,7 +85,7 @@ GFG!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to see how can we call
 // an instance method without parameter
 
@@ -119,7 +119,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The sum of 2 and 3 is :5
 GFG!
 ```
@@ -130,7 +130,7 @@ GFG!
 
 **语法:**
 
-```
+```java
 modifier return_type method_name( parameter list)
 {
     method body ;
@@ -141,7 +141,7 @@ modifier return_type method_name( parameter list)
 
 **示例:**
 
-```
+```java
 public void disp(int a, int b)
 {
       int x=a ;
@@ -153,7 +153,7 @@ public void disp(int a, int b)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to see how can we call
 // an instance method with parameter
 
@@ -187,7 +187,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Sum : 5
 GFG!
 ```
@@ -209,7 +209,7 @@ Java 中有两种类型的实例方法:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // types of instance methods
 
@@ -251,7 +251,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Your Balance : 100
 GFG!
 ```

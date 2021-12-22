@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 Input  : arr[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
          key = 3
 Output : Found at index 8
@@ -34,7 +34,7 @@ Output : Found at index 3
 
 **执行:**
 
-```
+```java
 Input arr[] = {3, 4, 5, 1, 2}
 Element to Search = 1
   1) Find out pivot point and divide the array in two
@@ -52,7 +52,7 @@ Element to Search = 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Java program to search an element 
    in a sorted and pivoted array*/
 
@@ -132,7 +132,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Index of the element is : 8
 ```
 
@@ -146,7 +146,7 @@ Index of the element is : 8
 **<u>改良方案:</u>**
 **进场:**代替二分搜索法的两次或两次以上传球，结果可以在二分搜索法的一次传球中找到。需要修改二分搜索法号来执行搜索。其思想是创建一个递归函数，将 l 和 r 作为输入和键的范围。
 
-```
+```java
 1) Find middle point mid = (l + h)/2
 2) If key is present at middle point, return mid.
 3) Else If arr[l..mid] is sorted
@@ -163,7 +163,7 @@ Index of the element is : 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Java program to search an element in 
    sorted and rotated array using
    single pass of Binary Search*/
@@ -219,7 +219,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Index: 2
 ```
 

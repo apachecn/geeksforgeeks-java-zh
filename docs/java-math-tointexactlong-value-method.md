@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public static int toIntExact(long value)
 Parameter :
 value : the long value
@@ -20,7 +20,7 @@ It throws ArithmeticException - if the result overflows an int
 
 **示例:**展示**Java . lang . math . To textact()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.toIntExact() method
 import java.lang.Math;
@@ -37,12 +37,12 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 499
 
 ```
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.toIntExact() method
 import java.lang.Math;
@@ -61,7 +61,7 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 Runtime Error :
 Exception in thread "main" java.lang.ArithmeticException: integer overflow
     at java.lang.Math.toIntExact(Math.java:1011)

@@ -6,7 +6,7 @@
 
 **1。floorEntry() :** 它**返回与小于或等于给定键的**最大键**相关联的键值映射**，如果没有这样的键，则返回 null。
 
-```
+```java
 Parameters:
 key : This is the key to be matched.
 Return Value:
@@ -20,7 +20,7 @@ key is null and this map uses natural ordering, or its comparator does not permi
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of floorEntry()
 import java.io.*;
@@ -50,14 +50,14 @@ public class floorEntry {
 
 输出:
 
-```
+```java
 The greatest key-value less than 6 is : 3=three
 
 ```
 
 **2。floorKey() :** 返回小于或等于给定键的**最大键，如果没有该键，则返回 null。** 
 
-```
+```java
 Parameters:
 key : This is the key to be matched.
 Return Value:
@@ -71,7 +71,7 @@ is null and this map uses natural ordering, or its comparator does not permit nu
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of floorKey()
 import java.io.*;
@@ -101,14 +101,14 @@ public class floorKey {
 
 输出:
 
-```
+```java
 The greatest key less than 6 is : 3
 
 ```
 
 **实际应用:**该函数的可能应用是丰富的。从给定汽油或给定配料的可能菜肴的最大距离开始。前一个在下面的代码中讨论。
 
-```
+```java
 // Java code to demonstrate the application
 // of floorKey() and floorEntry
 import java.io.*;
@@ -140,7 +140,7 @@ public class floorappli {
 
 输出:
 
-```
+```java
 The maximum place you can reach with given petrol : 10=Delhi
 
 ```

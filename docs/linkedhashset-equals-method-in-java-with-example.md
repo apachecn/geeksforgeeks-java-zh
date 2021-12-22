@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object o)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate equals()
 // method of LinkedHashSet
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First LinkedHashSet: [A, B, C, D, E]
 Second LinkedHashSet: [A, B, C, D, E]
 Are both set equal: true
@@ -81,7 +81,7 @@ Are both set equal: true
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate equals()
 // method of LinkedHashSet
 
@@ -132,7 +132,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 First LinkedHashSet: [10, 20, 30, 40, 50]
 Second LinkedHashSet: [10, 20, 30]
 Are both set equal: false

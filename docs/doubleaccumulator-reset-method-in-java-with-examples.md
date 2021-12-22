@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void reset()
 
 ```
@@ -19,7 +19,7 @@ public void reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the reset() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleAccumulator before reset: 12.0
 DoubleAccumulator after reset: 0.0
 
@@ -62,7 +62,7 @@ DoubleAccumulator after reset: 0.0
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the reset() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleAccumulator before reset: 62.0
 DoubleAccumulator after reset: 0.0
 

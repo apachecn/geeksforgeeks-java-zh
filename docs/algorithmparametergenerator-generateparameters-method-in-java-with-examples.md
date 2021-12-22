@@ -5,7 +5,7 @@
 使用**Java . security . algorithm parameters generator**类的 **generateParameters()** 方法来生成参数。
 **语法:**
 
-```
+```java
 public final AlgorithmParameters generateParameters()
 ```
 
@@ -16,7 +16,7 @@ public final AlgorithmParameters generateParameters()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // generateParameters() method
 
@@ -62,7 +62,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 AlgorithmParameters :
         p:     bb0f976a a9984119 06cea3a8 cf608f99 8bbb5f00 83dc0c2b ab967a42 826f748e
     48a6f081 d86a8ee4 5d5102c0 e86e657b 8b7ab43d a34a70af 96654397 95eb22c9

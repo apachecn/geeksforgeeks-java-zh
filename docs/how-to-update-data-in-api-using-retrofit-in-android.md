@@ -20,7 +20,7 @@
 
 下面是凌空的依赖，我们将使用它从应用编程接口获取数据。要添加此依赖项，请导航至**应用程序>渐变脚本> build.gradle(应用程序)**，并在依赖项部分添加以下依赖项。
 
-```
+```java
 // below dependency for using retrofit.
 implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
@@ -34,7 +34,7 @@ implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <!--permissions for INTERNET-->
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
@@ -45,7 +45,7 @@ implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -112,7 +112,7 @@ implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.gtappdevelopers.gfg;
 
 public class DataModal {
@@ -150,7 +150,7 @@ public class DataModal {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.gtappdevelopers.gfg;
 
 import retrofit2.Call;
@@ -175,7 +175,7 @@ public interface RetrofitAPI {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.gtappdevelopers.gfg;
 
 import android.os.Bundle;

@@ -6,7 +6,7 @@ Java 方法中**ChronalDate**接口的 **compareTo()** 方法将此日期与另�
 
 **语法** :
 
-```
+```java
 public int compareTo(ChronoLocalDate other)
 
 ```
@@ -19,7 +19,7 @@ public int compareTo(ChronoLocalDate other)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -49,7 +49,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-01
 2018-11-14
 13
@@ -58,7 +58,7 @@ public class GfG {
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -86,7 +86,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-21
 2018-11-14
 -7

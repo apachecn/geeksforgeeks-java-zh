@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: 1
 Output: "1"
 
@@ -22,7 +22,7 @@ Output: "3"
 
 **例 1:**
 
-```
+```java
 // Java Program to convert short value to String value
 
 class GFG {
@@ -64,7 +64,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into string = 1
 
 ```
@@ -74,7 +74,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 String.valueOf(shortValue);
 
 ```
@@ -83,7 +83,7 @@ String.valueOf(shortValue);
 
 **例 1:**
 
-```
+```java
 // Java Program to convert short value to String value
 
 class GFG {
@@ -123,7 +123,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into string = 1
 
 ```

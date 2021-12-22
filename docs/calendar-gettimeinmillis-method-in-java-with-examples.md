@@ -5,7 +5,7 @@
 Calendar 类中的 **getTimeInMillis()** 方法用于以毫秒为单位返回此 Calendar 的当前时间。
 **语法:**
 
-```
+```java
 public long getTimeInMillis()
 ```
 
@@ -16,7 +16,7 @@ public long getTimeInMillis()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // getTimeInMillis() method
 
@@ -52,7 +52,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The Current Time is: 1550725664034
 The Upcoming Time is: 1550725674053
 ```
@@ -61,7 +61,7 @@ The Upcoming Time is: 1550725674053
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // getTimeInMillis() method
 
@@ -97,7 +97,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The Current Time is: 1550725683182
 The Upcoming Time is: 1550725688208
 ```

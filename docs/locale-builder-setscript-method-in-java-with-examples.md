@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Locale.Builder setScript(String script)
 
 ```
@@ -21,7 +21,7 @@ public Locale.Builder setScript(String script)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -57,7 +57,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Setting the script: Gujr
 Updated LocaleBuilder: java.util.Locale$Builder@232204a1
@@ -66,7 +66,7 @@ Updated LocaleBuilder: java.util.Locale$Builder@232204a1
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -108,7 +108,7 @@ public class LocaleBuilderDemo {
 
 **输出:**
 
-```
+```java
 LocaleBuilder: java.util.Locale$Builder@232204a1
 Setting the script: asda@vasdev#
 java.util.IllformedLocaleException:

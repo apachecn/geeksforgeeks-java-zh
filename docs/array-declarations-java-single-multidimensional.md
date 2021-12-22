@@ -11,7 +11,7 @@
 示例:
 变量的一维数组声明:
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -28,7 +28,7 @@ class GFG {
 
 现在，如果您像下面这样声明数组:
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -47,7 +47,7 @@ class GFG {
 
 现在，假设我们想要编写数组变量的多个声明，那么我们可以这样使用它。
 
-```
+```java
 import java.io.*;
 
 class GFG { 
@@ -71,7 +71,7 @@ class GFG { 
 现在，当我们创建数组时，必须传递数组的大小；否则我们会得到编译时错误。
 可以使用新运算符创建数组。
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -94,7 +94,7 @@ class GFG {
 
 **打印阵列:**
 
-```
+```java
 /* A complete Java program to demonstrate working
    of one dimensional arrays */
 class oneDimensionalArray {
@@ -113,7 +113,7 @@ class oneDimensionalArray {
 
 输出:
 
-```
+```java
 100
 100
 100
@@ -124,7 +124,7 @@ class oneDimensionalArray {
 
 假设，您想要创建 int 类型数据的二维数组。因此，您可以通过以下多种方式声明二维数组:
 
-```
+```java
 // Java program to demonstrate different ways
 // to create two dimensional array.
 import java.io.*;
@@ -146,7 +146,7 @@ class GFG {
 
 现在，假设我们想要编写数组变量的多个声明，那么您可以这样使用它。
 
-```
+```java
 // Java program to demonstrate multiple declarations
 // of array variable
 import java.io.*;
@@ -175,7 +175,7 @@ public static void main(String[] args)
 
 **在没有新操作符的情况下创建一维数组和二维数组:**
 
-```
+```java
 /* Java program for one and two dimensional arrays.
    without new operator*/
 class oneTwoDimensionalArray {
@@ -201,7 +201,7 @@ class oneTwoDimensionalArray {
 
 输出:
 
-```
+```java
 20
 100
 100
@@ -217,7 +217,7 @@ class oneTwoDimensionalArray {
 
  **使用新运算符创建一维数组和二维数组:**
 
-```
+```java
 /* Java program for one and two dimensional arrays.
    using new operator*/
 class oneTwoDimensionalArray {
@@ -245,7 +245,7 @@ class oneTwoDimensionalArray {
 
 输出:
 
-```
+```java
 0
 0
 0

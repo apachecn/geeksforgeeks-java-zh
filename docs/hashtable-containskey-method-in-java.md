@@ -6,7 +6,7 @@ Java . util . Hashtable . Contains KeY()方法用于检查哈希表中是否存�
 
 **语法:**
 
-```
+```java
 Hash_table.containsKey(*key_element*)
 ```
 
@@ -17,7 +17,7 @@ Hash_table.containsKey(*key_element*)
 下面的程序用来说明 Java . util . hashtable . contains key()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial Table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 Is the key '20' present? true
 Is the key '5' present? false
@@ -61,7 +61,7 @@ Is the key '5' present? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -96,7 +96,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial Table is: {You=30, Welcomes=25, 4=15, Geeks=20}
 Is the key 'Welcomes' present? true
 Is the key 'World' present? false

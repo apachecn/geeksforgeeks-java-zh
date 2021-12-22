@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void exiting(String sourceClass,
                         String sourceMethod)
 
@@ -26,7 +26,7 @@
     下面的程序说明了退出(字符串源类，字符串源方法)的方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // exiting(String, String)  method
 
@@ -75,7 +75,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void exiting(String sourceClass,
                         String sourceMethod,
                         Object result)
@@ -93,7 +93,7 @@
     以下程序说明了退出(字符串源类、字符串源方法、对象结果)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // exiting(String, String, Object)  method
 

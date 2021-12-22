@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final float maxBytesPerChar()
 ```
 
@@ -18,7 +18,7 @@ public final float maxBytesPerChar()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -39,14 +39,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 3.0
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -67,7 +67,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1.0
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration minusDays(long numberOfDays)
 ```
 
@@ -18,7 +18,7 @@ public Duration minusDays(long numberOfDays)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusDays() method
 
 import java.time.Duration;
@@ -40,6 +40,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT3H4M
 ```

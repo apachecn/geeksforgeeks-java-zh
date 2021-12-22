@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : string = "GeeksforGeeks password is : 1234"
 Output: Total number of Digits = 4
 
@@ -25,7 +25,7 @@ Output: Total number of Digits = 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Count Number of Digits in a String
 public class GFG {
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Total number of Digits = 4
 ```
 

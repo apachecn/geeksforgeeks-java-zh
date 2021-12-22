@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public byte[] toByteArray()
 ```
 
@@ -18,7 +18,7 @@ public byte[] toByteArray()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate toByteArray() method of BigInteger
 
 import java.math.BigInteger;
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ByteArray of BigInteger 10 is 0x0A
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate toByteArray() method of BigInteger
 
 import java.math.BigInteger;
@@ -91,7 +91,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ByteArray of BigInteger 66049 is 0x01 0x02 0x01
 
 ```

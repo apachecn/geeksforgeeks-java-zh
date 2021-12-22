@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Instant plusMillis(long millisToAdd)
 ```
 
@@ -23,7 +23,7 @@ public Instant plusMillis(long millisToAdd)
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.plusMillis() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.plusMillis() method
 

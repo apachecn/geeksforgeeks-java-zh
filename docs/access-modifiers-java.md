@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate default modifier 
 package p1; 
 
@@ -34,7 +34,7 @@ class Geek 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate error while 
 // using class from different package with 
 // default modifier 
@@ -56,7 +56,7 @@ class GeekNew 
 
 **输出:**
 
-```
+```java
 Compile time error
 ```
 
@@ -73,7 +73,7 @@ Compile time error
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate error while 
 // using class from different package with 
 // private modifier 
@@ -101,7 +101,7 @@ public static void main(String args[]) 
 
 **输出:**
 
-```
+```java
 error: display() has private access in A
         obj.display();
 ```
@@ -113,7 +113,7 @@ error: display() has private access in A
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate 
 // protected modifier 
 package p1; 
@@ -130,7 +130,7 @@ protected void display() 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate 
 // protected modifier 
 package p2; 
@@ -150,7 +150,7 @@ public static void main(String args[]) 
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -160,7 +160,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate 
 // public modifier 
 package p1; 
@@ -175,7 +175,7 @@ public void display() 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package p2;
 import p1.*;
 class B {
@@ -189,7 +189,7 @@ class B {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 

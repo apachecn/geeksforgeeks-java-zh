@@ -5,13 +5,13 @@
 函数 **setCrc()** 是 java.util.zip 包的一部分。该函数用于设置指定邮政编码条目的循环冗余校验值。循环冗余校验是一种错误检测码，用于检测原始数据中的错误。
 **功能签名:**
 
-```
+```java
 public void setCrc(long val)
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.setCrc(val);
 ```
 
@@ -23,7 +23,7 @@ zip_entry.setCrc(val);
 
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 setEntry()函数获取 zip 文件条目，然后设置指定 ZipEntry 的 CRC-32。“file.zip”是 f:目录中的一个 zip 文件。我们将采取一个”。zip”文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of setCrc() function
 
@@ -67,14 +67,14 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Crc : 190
 
 ```
 
 **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后设置指定 ZipEntry 的 CRC-32。“file.zip”是 f:目录中的一个 zip 文件。我们将 CRC 的值设置为-1。我们将采取一个”。cpp "文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of setCrc() function
 
@@ -118,7 +118,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 invalid entry crc-32
 
 ```

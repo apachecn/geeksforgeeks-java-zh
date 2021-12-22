@@ -6,13 +6,13 @@
 
 **申报**
 
-```
+```java
 public Enumeration<Object> elements()
 ```
 
 **语法:**
 
-```
+```java
 Enumeration enu = Vector.elements()
 ```
 
@@ -41,7 +41,7 @@ Enumeration enu = Vector.elements()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Enumerate through a Vector 
 
 import java.util.Enumeration;
@@ -82,7 +82,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The elements of the Vector is : [Keep, Calm, and, learn, from, GFG]
 The output after Enumerating through the Vector : 
 Keep
@@ -97,7 +97,7 @@ GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Enumerate through a Vector 
 
 import java.util.Enumeration;
@@ -137,7 +137,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The elements of the Vector is : [1.2636, 23.0258, 266.1125, 2548.0125, 2154.02415, 856.012]
 The output after Enumerating through the Vector : 
 1.2636
@@ -152,7 +152,7 @@ The output after Enumerating through the Vector :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Enumerate through a Vector 
 
 import java.util.Enumeration;
@@ -194,7 +194,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The elements of the Vector is : [Let's, Contribute, to, G, F, G, 3, 12.054574]
 The output after Enumerating through the Vector : 
 Let's

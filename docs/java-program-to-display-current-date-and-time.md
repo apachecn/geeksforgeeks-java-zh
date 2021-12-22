@@ -14,7 +14,7 @@ Java 是一种最强大的编程语言，通过它我们可以做很多事情，
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display Current Date and Time
 import java.util.*;
 
@@ -33,7 +33,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Fri Nov 20 07:12:42 UTC 2020
 
 ```
@@ -44,7 +44,7 @@ Fri Nov 20 07:12:42 UTC 2020
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display Current Date and Time
 import java.text.*;
 import java.util.*;
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 20/11/2020  12:42:41 IST
 
 ```
@@ -85,7 +85,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display Current Date and Time
 import java.time.*;
 public class MyClass {
@@ -101,7 +101,7 @@ public class MyClass {
 
 **Output**
 
-```
+```java
 2020-11-20T07:12:43.158549
 
 ```
@@ -112,7 +112,7 @@ public class MyClass {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display Current Date and Time
 import java.util.*;
 import java.time.*;
@@ -142,7 +142,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2020-11-20T12:42:42.723246+05:30[Asia/Kolkata]
 
 ```
@@ -155,7 +155,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.time.*;
@@ -172,7 +172,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2020-11-20T07:12:37.598048Z
 
 ```

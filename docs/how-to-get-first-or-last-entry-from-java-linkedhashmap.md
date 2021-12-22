@@ -43,7 +43,7 @@ LinkedHashMap 是 Java 中的一个预定义类，类似于 HashMap，包含键�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get first or last entry
 // from Java LinkedHashMap
 
@@ -118,7 +118,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 First Key-> 2
 First Value-> 5
 Last Key-> 52
@@ -134,7 +134,7 @@ Last Value-> 6
 *   获取与键对应的第一个和值。
 *   打印与键对应的最后一个值。
 
-```
+```java
 Pseudo Code :
 Integer[] aKeys = LHM.keySet().toArray(new Integer[LHM.size()]);
 // where LHM is name of LinkedHashMap created and aKeys of array to be converted.
@@ -144,7 +144,7 @@ Integer[] aKeys = LHM.keySet().toArray(new Integer[LHM.size()]);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get first or last entry
 // from Java LinkedHashMap
 // By converting Map to integer array
@@ -203,7 +203,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 First key-> 1
 First value-> 8
 Last key-> 5
@@ -219,7 +219,7 @@ Last value-> 5
 *   首先获取与该键对应的值。
 *   打印最后一个和对应键的值。
 
-```
+```java
 Pseudo Code:
 List<Integer> lKeys = new ArrayList<Integer>(LHM.keySet());
 // where LHM is name of LinkedHashMap and 
@@ -230,7 +230,7 @@ List<Integer> lKeys = new ArrayList<Integer>(LHM.keySet());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get first or last entry
 // from Java LinkedHashMap
 // By converting Map to List
@@ -292,7 +292,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 First key: 1
 First value: 8
 Last key: 5

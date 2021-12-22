@@ -6,7 +6,7 @@ Java 中**时区数据时间**接口的 **getLong()** 方法用于从该时区�
 
 **语法:**
 
-```
+```java
 default int getLong(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ default int getLong(TemporalField field)
 下面的程序说明了 getLong()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.getLong() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 field : NanoOfSecond || value : 123000000
 field : NanoOfDay || value : 69672123000000
 field : MicroOfSecond || value : 123000
@@ -97,7 +97,7 @@ field : OffsetSeconds || value : 19800
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.getLong() method
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AMPM_OF_DAY value: 1
 
 ```

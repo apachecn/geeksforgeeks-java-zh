@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 
 ```
@@ -18,7 +18,7 @@ public boolean isEmpty()
 下面的程序说明了 CompoundName.isEmpty()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.isEmpty()
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 This Compound object is empty:false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.isEmpty() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 This Compound object is empty:true
 
 ```

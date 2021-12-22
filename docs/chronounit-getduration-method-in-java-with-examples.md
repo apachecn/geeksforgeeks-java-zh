@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration getDuration()
 
 ```
@@ -18,7 +18,7 @@ public Duration getDuration()
 下面的程序说明了计时单位.获取持续时间()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.getDuration() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Duration Estimated :PT0.000000001S
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.getDuration() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Duration Estimated :PT24H
 
 ```

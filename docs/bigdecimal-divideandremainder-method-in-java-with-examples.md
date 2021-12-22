@@ -13,7 +13,7 @@ Java 中有两个**divideandreminder**方法的重载，如下所示:
 
 **语法:**
 
-```
+```java
 public BigDecimal[] divideAndRemainder(BigDecimal divisor)
 
 ```
@@ -24,7 +24,7 @@ public BigDecimal[] divideAndRemainder(BigDecimal divisor)
 
 下面的程序是用来说明 divideAndRemainder()方法的 BigDecimal。
 
-```
+```java
 // Java program to demonstrate
 // divideAndRemainder() method of BigDecimal
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Quotient = 7002303
 Remainder = 6334
 
@@ -78,7 +78,7 @@ Remainder = 6334
 
 **语法:**
 
-```
+```java
 public BigDecimal[] divideAndRemainder(BigDecimal divisor, 
                                        MathContext mc)
 
@@ -99,7 +99,7 @@ public BigDecimal[] divideAndRemainder(BigDecimal divisor,
 下面的程序是用来说明 divideAndRemainder()方法的 BigDecimal。
 **节目一:**
 
-```
+```java
 // Java program to demonstrate
 // divideAndRemainder() method of BigDecimal
 
@@ -149,7 +149,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Quotient = 1783236
 Remainder = 2023
 
@@ -157,7 +157,7 @@ Remainder = 2023
 
 **程序 2:** 显示方法 divideAndRemainder()引发的异常的程序。
 
-```
+```java
 // Java program to demonstrate
 // divideAndRemainder() method of BigDecimal
 
@@ -208,7 +208,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.ArithmeticException: Division impossible
 
 ```

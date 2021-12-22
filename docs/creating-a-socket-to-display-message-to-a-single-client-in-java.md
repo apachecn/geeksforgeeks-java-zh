@@ -12,7 +12,7 @@
 
 T5
 
-```
+```java
 // Client program
 
 import java.io.*;

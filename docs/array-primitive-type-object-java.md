@@ -10,12 +10,12 @@
 
 对于每种数组类型，都有相应的类可用，这些类是 java 语言的一部分，程序员不可用。要了解任何数组的类别，我们可以采用以下方法:
 
-```
+```java
 // Here x is the name of the array.
 System.out.println(x.getClass().getName()); 
 ```
 
-```
+```java
 // Java program to display class of 
 // int array type
 public class Test
@@ -30,7 +30,7 @@ public class Test
 
 输出:
 
-```
+```java
 [I 
 
 ```
@@ -38,7 +38,7 @@ public class Test
 **注意:**【I 这是这个数组的类，一个【(方括号)因为是一维的，I 为整数数据类型。
 **下面是为一些数组类型指定相应类名的表格:-**
 
-```
+```java
 Array type             Corresponding class Name
 int[]                     [I
 int[][]                   [[I
@@ -52,7 +52,7 @@ boolean[]                 [Z
 
 在 Java 编程语言中，数组是动态创建的对象，可以分配给对象类型的变量。对象类的所有方法都可以在数组上调用。
 
-```
+```java
 // Java program to check the class of 
 // int array type
 public class Test {
@@ -73,7 +73,7 @@ public class Test {
 
 输出:
 
-```
+```java
 true
 true
 

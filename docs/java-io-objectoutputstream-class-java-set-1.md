@@ -16,7 +16,7 @@
 
 *   **受保护的 void annotateClass(Class cl) :** 子类可以实现此方法，以允许类数据存储在流中。默认情况下，此方法不执行任何操作。ObjectInputStream 中对应的方法是 resolveClass。对于流中的每个唯一类，该方法只调用一次。类名和签名将已经被写入流。这个方法可以自由使用 ObjectOutputStream 来保存它认为合适的类的任何表示(例如，类文件的字节)。ObjectInputStream 的相应子类中的 resolveClass 方法必须读取和使用由 annotateClass 编写的任何数据或对象。
 
-```
+```java
 Syntax :protected void annotateClass(Class cl)
                       throws IOException
 Parameters:
@@ -27,7 +27,7 @@ IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream methods
 //illustrating annotateClass(Class<?> cl) method
 
@@ -68,14 +68,14 @@ class ObjectOutputStreamDemo extends ObjectOutputStream
 
 **输出:**
 
-```
+```java
 A
 ```
 
 *   **受保护的 void annotateProxyClass(类 cl) :** 子类可以实现此方法，将自定义数据与动态代理类的描述符一起存储在流中。对于流中的每个唯一代理类描述符，该方法只调用一次。ObjectOutputStream 中此方法的默认实现没有任何作用。
     ObjectInputStream 中对应的方法是 resolveProxyClass。对于重写此方法的 ObjectOutputStream 的给定子类，ObjectInputStream 的相应子类中的 resolveProxyClass 方法必须读取由 annotateProxyClass 编写的任何数据或对象。
 
-```
+```java
 Syntax :protected void annotateProxyClass(Class cl)
                            throws IOException
 Parameters:
@@ -86,7 +86,7 @@ IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream
 //illustrating annotateProxyClass(Class<?> cl) method
 import java.io.*;
@@ -128,13 +128,13 @@ class ObjectOutputStreamDemo extends ObjectOutputStream
 
 **输出:**
 
-```
+```java
 A
 ```
 
 *   **void close() :** 关闭流。必须调用此方法来释放与流关联的任何资源。
 
-```
+```java
 Syntax :public void close()
            throws IOException
 Throws:
@@ -143,7 +143,7 @@ IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream
 //illustrating close() method
 
@@ -169,13 +169,13 @@ class ObjectOutputStreamDemo
 
 *   **输出:**
 
-```
+```java
 3
 ```
 
 *   **void defaultWriteObject():**将当前类的非静态和非瞬态字段写入此流。这只能从正在序列化的类的 writeObject 方法中调用。如果调用 NotActiveException，它将引发 NotActiveException。
 
-```
+```java
 Syntax :public void defaultWriteObject()
                         throws IOException
 Throws:
@@ -184,7 +184,7 @@ IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream
 //illustrating defaultWriteObject() method
 
@@ -227,13 +227,13 @@ class ObjectOutputStreamDemo
 
 **输出:**
 
-```
+```java
 A
 ```
 
 *   **受保护的空排出():**排出对象输出流中的任何缓冲数据。类似于刷新，但不会将刷新传播到基础流。
 
-```
+```java
 Syntax :protected void drain()
               throws IOException
 Throws:
@@ -242,7 +242,7 @@ IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream methods
 //illustrating drain() method
 import java.io.*;
@@ -272,7 +272,7 @@ class ObjectOutputStreamDemo extends ObjectOutputStream
 *   **受保护的布尔使能替换对象(布尔使能):**使流能够替换流中的对象。启用后，将为每个被序列化的对象调用 replaceObject 方法。
     如果 enable 为 true，并且安装了安全管理器，则此方法首先使用 serializable permission(“enablereplacement”)权限调用安全管理器的 checkPermission 方法，以确保可以启用流来替换流中的对象。
 
-```
+```java
 Syntax :protected boolean enableReplaceObject(boolean enable)
                                throws SecurityException
 Parameters:
@@ -285,7 +285,7 @@ SecurityException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream
 //illustrating enableReplaceObject method
 import java.io.*;
@@ -325,14 +325,14 @@ class ObjectOutputStreamDemo extends ObjectOutputStream
 
 **输出:**
 
-```
+```java
 false
 A
 ```
 
 *   **ObjectOutputStream。PutField putFields():** 检索用于缓冲要写入流的持久字段的对象。当调用 writeFields 方法时，这些字段将被写入流。
 
-```
+```java
 Syntax :public ObjectOutputStream.PutField putFields()
                                       throws IOException
 Returns:
@@ -343,7 +343,7 @@ IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream
 //illustrating PutField method
 import java.io.*;
@@ -383,7 +383,7 @@ class demo implements Serializable
 
 **输出:**
 
-```
+```java
 A
 ```
 
@@ -391,7 +391,7 @@ A
     第一次遇到每个对象时，这个方法只调用一次。对该对象的所有后续引用都将被重定向到新对象。此方法应返回要替换的对象或原始对象。
     空值可以作为要替换的对象返回，但是在包含对原始对象的引用的类中可能会导致 NullReferenceException，因为它们可能需要一个对象而不是空值。
 
-```
+```java
 Syntax :protected Object replaceObject(Object obj)
                         throws IOException
 Parameters:
@@ -404,7 +404,7 @@ IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream
 //illustrating replaceObject method
 import java.io.*;
@@ -447,14 +447,14 @@ class ObjectOutputStreamDemo extends ObjectOutputStream
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 
 *   **void useProtocolVersion(int version):**指定写入流时要使用的流协议版本。该例程提供了一个钩子，使当前版本的序列化能够以向后兼容先前版本的流格式的格式编写。
     将尽一切努力避免引入额外的向后不兼容性；然而，有时没有其他选择。
 
-```
+```java
 Syntax :public void useProtocolVersion(int version)
                         throws IOException
 Parameters:
@@ -467,7 +467,7 @@ IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program demonstrating ObjectOutputStream
  //illustrating useProtocolVersion() method
 import java.io.*;
@@ -508,7 +508,7 @@ class ObjectOutputStreamDemo extends ObjectOutputStream
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 

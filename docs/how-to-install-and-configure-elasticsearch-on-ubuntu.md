@@ -8,7 +8,7 @@ Elasticsearch 是一个基于 Apache 的 Lucene 库的跨平台搜索引擎。�
 
 **步骤 1:** 首先，使用以下命令更新您的系统:
 
-```
+```java
 $sudo apt install update
 ```
 
@@ -22,7 +22,7 @@ $sudo apt install update
 
 **第三步:**用 dpkg commond 安装*。deb* 文件。
 
-```
+```java
 $sudo dpkg -i elasticsearch-2.3.1.deb
 ```
 
@@ -30,7 +30,7 @@ $sudo dpkg -i elasticsearch-2.3.1.deb
 
 **步骤 4:** 启用弹性搜索服务
 
-```
+```java
 $sudo systemctl enable elasticsearch.service
 ```
 
@@ -38,13 +38,13 @@ $sudo systemctl enable elasticsearch.service
 
 **步骤 5:** 设置弹性搜索的网络配置。开文件
 
-```
+```java
 $sudo nano /etc/elasticsearch/elasticsearch.yml
 ```
 
 并将 IP 设置为本地主机
 
-```
+```java
 ...
 network.host: 127.0.0.1
 ...
@@ -55,19 +55,19 @@ network.host: 127.0.0.1
 
 **第 6 步:**现在，重启服务。
 
-```
+```java
 $sudo systemctl restart elasticsearch
 ```
 
 **第 7 步:**使用和测试弹性搜索
 
-```
+```java
 $curl -X GET 'http://localhost:9200'
 ```
 
 *卷曲输出*
 
-```
+```java
 {
   "name" : "Node-1",
   "cluster_name" : "mycluster1",

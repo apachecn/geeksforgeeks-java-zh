@@ -26,7 +26,7 @@ java.net.InetAddress
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to determine the IP address
 // and host name of local computer
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Local HostAddress:  127.0.0.1
 Local host name: localhost
 ```

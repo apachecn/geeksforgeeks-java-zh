@@ -6,7 +6,7 @@ Java 中[navigatableset 接口的 higher()方法用于返回该集合中严格�
 
 **语法** :
 
-```
+```java
 E higher(E ele)
 
 ```
@@ -21,7 +21,7 @@ E higher(E ele)
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // higher() method of NavigableSet
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Least element strictly greater than 4 is: 5
 
 ```
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // higher() method of NavigableSet
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Least element strictly greater than D is: E
 
 ```

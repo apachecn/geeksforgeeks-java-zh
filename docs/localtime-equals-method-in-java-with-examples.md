@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public int equals(Object obj)
 
 ```
@@ -25,7 +25,7 @@ public int equals(Object obj)
 
 **程序 1:** 当两个物体相等时。
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.equals() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime1: 13:08
 LocalTime2: 13:08
 Are both LocalTimes are equal: true
@@ -66,7 +66,7 @@ Are both LocalTimes are equal: true
 
 **程序 2:** 当两个物体不相等时。
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.equals() method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime1: 03:18:23
 LocalTime2: 13:08:20
 Are both LocalTimes are equal: false

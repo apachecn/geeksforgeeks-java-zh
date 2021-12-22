@@ -79,7 +79,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing required classes
 import java.time.Duration;
 import java.time.LocalTime;
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 -43200
 43200
 ```
@@ -114,7 +114,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing required classes
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
@@ -133,6 +133,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 60
 ```

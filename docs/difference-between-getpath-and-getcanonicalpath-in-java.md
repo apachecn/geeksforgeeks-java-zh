@@ -6,7 +6,7 @@
 
 **图示:**考虑 windows 目录中的随机路径
 
-```
+```java
 |--D:
    \--Article      
    \--Test
@@ -44,7 +44,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the difference
 // between getPath() and  getCanonicalPath() function
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Path (getPath()): g:\gfg\A(7)PATH\Test\..\file1.txt
 path (getCanonicalPath()) : G:\gfg\A(7)PATH\file1.txt
 ```

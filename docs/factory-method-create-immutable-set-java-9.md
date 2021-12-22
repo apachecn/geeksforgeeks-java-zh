@@ -16,7 +16,7 @@ Java 9 发布于 2017 年 3 月左右，请安装 jdk 9，这将有助于理解�
 
 在 java 8 中，为了创建不可变集，我们使用了 Java . util . collections . unmodifielableset(Set Set Set)方法。此方法返回指定集合的不可修改视图。该方法允许模块向用户提供对内部集合的“只读”访问。
 
-```
+```java
 Syntax: public static  Set unmodifiableSet(Set set)
 Returns: an unmodifiable view of the specified set.
 Exception: NA
@@ -25,7 +25,7 @@ Exception: NA
 
 java 8 中不可变空集和非空集的 Java 代码:
 
-```
+```java
 // Java code illustrating immutable set in java 8
 import java.util.*;
 class GfG
@@ -49,7 +49,7 @@ class GfG
 
 输出:
 
-```
+```java
 []
 [contribute.geeksforgeeks.org]
 
@@ -57,7 +57,7 @@ class GfG
 
 现在让我们尝试在这些不可变集合中添加元素:
 
-```
+```java
 // Java code illustrating immutable set in java 8
 import java.util.*;
 
@@ -83,7 +83,7 @@ class GfG
 
 上面的代码会产生异常，因为我们试图在不可变集合中添加元素。
 
-```
+```java
 Runtime Error : Exception in thread "main" 
 java.lang.UnsupportedOperationException
 at java.util.Collections$UnmodifiableCollection.add(Collections.java:1055)
@@ -96,7 +96,7 @@ at ImmutableListDemo.main(File.java:16)
 为了在 java 9 中创建不可变集，我们使用了()方法的**。
 用 java 9 创建不可变集的 Java 代码:**
 
-```
+```java
 // Java code illustrating of() method
 import java.util.Set;
 
@@ -114,14 +114,14 @@ class GfG
 
 输出:
 
-```
+```java
 [ide.code.practice]
 
 ```
 
 现在让我们尝试在这些不可变集合中添加元素:
 
-```
+```java
 // Java code illustrating of() method
 import java.util.*;
 
@@ -143,7 +143,7 @@ class GfG
 }
 ```
 
-```
+```java
 Exception in thread "main" java.lang.UnsupportedOperationException
     at com.google.common.collect.ImmutableCollection.add(ImmutableCollection.java:218)
     at ImmutableListDemo.main(Main.java:16)

@@ -10,7 +10,7 @@ java.security.Provider 类的 **getInstance()** 方法用于返回实现指定�
 
 **语法:**
 
-```
+```java
 public static Signature getInstance(String algorithm)
     throws NoSuchAlgorithmException
 ```
@@ -25,7 +25,7 @@ public static Signature getInstance(String algorithm)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Status : Signature object: SHA1WithRSA
 ```
 
@@ -69,7 +69,7 @@ Status : Signature object: SHA1WithRSA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -106,7 +106,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Trying to get the instance of unknown instance
 Exception thrown : java.security.NoSuchAlgorithmException: TAJMAHAL Signature not available
 ```
@@ -119,7 +119,7 @@ java.security.Provider 类的 **getInstance()** 方法用于返回实现指定�
 
 **语法:**
 
-```
+```java
 public static Signature 
     getInstance(String algorithm, Provider provider)
         throws NoSuchAlgorithmException
@@ -143,7 +143,7 @@ public static Signature
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -190,7 +190,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Status : Signature object: SHA1WithRSA
 ```
 
@@ -198,7 +198,7 @@ Status : Signature object: SHA1WithRSA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -245,7 +245,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Exception thrown : java.security.NoSuchAlgorithmException: no such algorithm: TAJMAHAL for provider SunRsaSign
 ```
 
@@ -253,7 +253,7 @@ Exception thrown : java.security.NoSuchAlgorithmException: no such algorithm: TA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -304,6 +304,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Exception thrown : java.lang.IllegalArgumentException: missing provider
 ```

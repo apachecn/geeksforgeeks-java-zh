@@ -4,7 +4,7 @@
 
 借助**[Java . lang . system . CurrentMemillis()](https://www.geeksforgeeks.org/java-lang-system-class-java/)**方法，我们可以测量一个函数在 [Java](https://www.geeksforgeeks.org/java/) 中花费的时间。此方法以毫秒为单位返回当前时间。我们可以在函数的开始和结束时调用这个方法，并通过这个差值来度量函数所花费的时间。
 
-```
+```java
 import java.io.*;
 
 public class Time {
@@ -38,7 +38,7 @@ public class Time {
 
 输出:
 
-```
+```java
 Loop starts
 Loop ends
 Counting to 10000000 takes 8ms

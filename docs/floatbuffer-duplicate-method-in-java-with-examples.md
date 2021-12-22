@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract FloatBuffer duplicate()
 ```
 
@@ -20,7 +20,7 @@ public abstract FloatBuffer duplicate()
 
 **实施例 1:** 使用直接浮选机
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // Using direct floatbuffer
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original FloatBuffer:  [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 Duplicate FloatBuffer: [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
@@ -85,7 +85,7 @@ Duplicate FloatBuffer: [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 **示例 2:** 使用只读浮动缓冲器
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // using read-onlyfloatbuffer
@@ -157,7 +157,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original FloatBuffer:  [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 read-only FloatBuffer:  8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 

@@ -7,20 +7,20 @@
 在处理数组时，我们必须完成 3 项任务，即声明、创建、初始化或赋值。
 数组声明:
 
-```
+```java
 int[] arr;
 ```
 
 创建数组:
 
-```
+```java
 // Here we create an array of size 3
 int[] arr = new int[3];
 ```
 
 数组初始化:
 
-```
+```java
 arr[0] = 1;
 arr[1] = 2;
 arr[3] = 3;
@@ -33,7 +33,7 @@ intArray = new int[20];  // allocating memory to array
 
 1.  **For primitive data types :** In case of primitive type arrays, as array elements we can provide any type which can be **implicitly promoted to the declared type array**. Apart from that, if we are trying to use any other data-types then we will get compile-time error saying possible loss of precision.
 
-    ```
+    ```java
     // Java program to illustrate the concept of array
     // element assignments on int type array
     public class Test {
@@ -51,12 +51,12 @@ intArray = new int[20];  // allocating memory to array
 
     输出:
 
-    ```
+    ```java
     108
 
     ```
 
-    ```
+    ```java
     // Java program to illustrate the concept of array
     // element assignments on int type array
     public class Test {
@@ -77,12 +77,12 @@ intArray = new int[20];  // allocating memory to array
 
     输出:
 
-    ```
+    ```java
     possible loss of precision.
 
     ```
 
-    ```
+    ```java
     // Java program to illustrate the concept of array
     // element assignments on char type array
     public class Test {
@@ -104,7 +104,7 @@ intArray = new int[20];  // allocating memory to array
 
     输出:
 
-    ```
+    ```java
     error: incompatible types: possible lossy conversion from long to char
     error: incompatible types: possible lossy conversion from double to char
 
@@ -112,7 +112,7 @@ intArray = new int[20];  // allocating memory to array
 
 2.  **Object type Arrays :** If we are creating object type arrays then the elements of that arrays can be either declared type objects or it can be child class object.
 
-    ```
+    ```java
     // Java program to illustrate the concept of array
     // element assignments on Number type array
     public class Test {
@@ -129,13 +129,13 @@ intArray = new int[20];  // allocating memory to array
 
     输出:
 
-    ```
+    ```java
     10
     20.5
 
     ```
 
-    ```
+    ```java
     // Java program to illustrate the concept of array
     // element assignments on Number type array
     public class Test {
@@ -153,12 +153,12 @@ intArray = new int[20];  // allocating memory to array
 
     输出:
 
-    ```
+    ```java
     Compile-time error(incompatible types)
 
     ```
 
-    ```
+    ```java
     // Java program to illustrate the concept of array
     // element assignments on Number type array
     public class Test {
@@ -180,7 +180,7 @@ intArray = new int[20];  // allocating memory to array
 
     输出:
 
-    ```
+    ```java
     error: incompatible types: char cannot be converted to Number
     error: incompatible types: String cannot be converted to Number
 
@@ -188,7 +188,7 @@ intArray = new int[20];  // allocating memory to array
 
 3.  **Interface type array :** For interface type array, we can assign elements as its implementation class objects.
 
-    ```
+    ```java
     // Java program to illustrate the concept of array
     // element assignments on Interface type array
     public class Test {
@@ -203,7 +203,7 @@ intArray = new int[20];  // allocating memory to array
     }
     ```
 
-    ```
+    ```java
     // Java program to illustrate the concept of array
     // element assignments on Interface type array
     public class Test {
@@ -220,7 +220,7 @@ intArray = new int[20];  // allocating memory to array
 
     输出:
 
-    ```
+    ```java
     Compile-time error(Incompatible types)
 
     ```

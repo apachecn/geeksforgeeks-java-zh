@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public String getHostAddress() 
 
 ```
@@ -26,7 +26,7 @@ public String getHostAddress()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to obtain IP Address
 // from a given host
 
@@ -65,7 +65,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get Host name
 // from an ipaddress
 
@@ -96,7 +96,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Host name is: 23.229.203.68
 Ip address is: 23.229.203.68
 

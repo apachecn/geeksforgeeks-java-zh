@@ -12,7 +12,7 @@ Spring Initializr 是一个基于网络的工具，使用它我们可以很容�
 
 按照要求填写细节。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.4.12
@@ -35,7 +35,7 @@ Dependencies: Spring Web, Spring Security
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @SpringBootApplication
 public class SpringSecurityApplication {
 

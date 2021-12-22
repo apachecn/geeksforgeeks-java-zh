@@ -4,7 +4,7 @@
 
 Java 中的[树形图](https://www.geeksforgeeks.org/treemap-in-java/)与[抽象图](https://www.geeksforgeeks.org/abstractmap-in-java/)类一起用于实现[地图界面](https://www.geeksforgeeks.org/map-interface-java-examples/)和[导航地图](https://www.geeksforgeeks.org/navigablemap-interface-in-java-with-example/)。地图根据其键的自然顺序进行排序，或者通过地图创建时提供的[【比较器】](https://www.geeksforgeeks.org/comparator-interface-java/) 进行排序，具体取决于使用的构造函数。为了通过在 Java 中使用带有用户定义对象的比较器来对 TreeMap 中的键进行排序，我们必须创建一个实现比较器接口的类来覆盖比较方法。
 
-```
+```java
 // AccordingMarks class that implements the 
 // comparator interface to override compare method
 
@@ -21,7 +21,7 @@ class AccordingMarks implements Comparator<Student> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to sort TreeMap of custom
 // class objects
 import java.util.*;
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 TreeMap keys sorting in ascending order of the marks:
 Key : (Chintu: 300), Value : 3
 Key : (Akshay: 400), Value : 1
@@ -98,7 +98,7 @@ Key : (Bina: 500), Value : 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to sort TreeMap of custom
 // class objects
 import java.util.*;
@@ -164,7 +164,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 TreeMap Keys sorted in descending order of the marks: 
 Key : (Bina: 500), Value : 2
 Key : (Akshay: 400), Value : 1

@@ -23,7 +23,7 @@ CycleMethod 类是 JavaFX 的一部分。CycleMethod 定义在渐变边界之外
     3.  之后创建一个 VBox 并设置它的对齐方式。
     4.  将圆圈添加到 *vbox* 并将 *vbox* 添加到场景并将场景添加到舞台并调用 *show()* 功能显示结果。
 
-    ```
+    ```java
     // Java program to create a LinearGradient object,
     // add stops to it, set the CycleMethod to repeat,
     // set proportional to false and apply it to the
@@ -108,7 +108,7 @@ CycleMethod 类是 JavaFX 的一部分。CycleMethod 定义在渐变边界之外
     4.  将圆添加到 vbox，将 vbox 添加到场景，并将场景添加到舞台。
     5.  调用 *show()* 功能显示结果。
 
-    ```
+    ```java
     // Java program to create a LinearGradient object,
     // add stops to it, set the CycleMethod to reflect,
     // set proportional to false and apply it to the 
@@ -192,7 +192,7 @@ CycleMethod 类是 JavaFX 的一部分。CycleMethod 定义在渐变边界之外
     3.  将循环方法设置为无循环，并将比例设置为假。然后用指定的 x、y 位置和半径创建一个圆，并向其中添加线性渐变。创建一个 VBox 并设置它的对齐方式。
     4.  现在把圆加到 vbox，把 vbox 加到场景，把场景加到舞台，调用 *show()* 函数显示结果。
 
-    ```
+    ```java
     // Java program to create LinearGradient object,
     // add stops to it, set the CycleMethod to no 
     // cycle, set proportional to false and apply 

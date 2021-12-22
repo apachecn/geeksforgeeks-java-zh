@@ -5,7 +5,7 @@
 java.lang 的 Integer.lowestOneBit()方法是一个内置函数，它返回一个最多只有一个一位的 int 值，该值位于指定 int 值中最低(即最右边)一位的位置。如果指定的值在其二进制补码二进制表示中没有一位，即。如果数字的二进制表示等于零。
 **语法:**
 
-```
+```java
 public static int lowestOneBit(*int a*)
 ```
 
@@ -17,7 +17,7 @@ public static int lowestOneBit(*int a*)
 
 **示例:**
 
-```
+```java
 Input: 157
 Output: Lowest one bit = 1
 
@@ -36,7 +36,7 @@ so result = 2^1=2
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.lowestOneBit() method
 import java.lang.*;
@@ -71,7 +71,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Given Number = 157
 Lowest one bit = 1
 Given Number = 64
@@ -84,7 +84,7 @@ Lowest one bit = 0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.lowestOneBit() method
 import java.lang.*;
@@ -111,7 +111,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Given Number = -157
 Lowest one bit = 1
 Given Number = -17
@@ -123,7 +123,7 @@ Lowest one bit = 1
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.lowestOneBit() method
 import java.lang.*;
@@ -152,7 +152,7 @@ public class Geeks {
 
 **输出:**
 
-```
+```java
 prog.java:10: error: incompatible types: possible lossy conversion from double to int
     int a = 71.57;
             ^

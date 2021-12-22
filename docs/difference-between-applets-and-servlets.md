@@ -29,7 +29,7 @@
 
 *   创建“你好世界”小程序。
 
-    ```
+    ```java
     // A Hello World Applet
     // Save file as HelloWorld.java
 
@@ -50,7 +50,7 @@
 
 *   创建“你好世界”Servlet。
 
-    ```
+    ```java
     // Import required java libraries
     import java.io.*;
     import javax.servlet.*;

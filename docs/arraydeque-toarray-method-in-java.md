@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Object[] arr = Array_Deque.toArray()
 ```
 
@@ -17,7 +17,7 @@ Object[] arr = Array_Deque.toArray()
 下面的程序说明了 java.util.ArrayDeque.toArray()方法。
 **节目一:**
 
-```
+```java
 // Java code to illustrate toArray()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 The ArrayDeque: [Welcome, To, Geeks, For, Geeks]
 The array is:
 Welcome
@@ -62,7 +62,7 @@ Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 import java.util.*;
 
@@ -95,7 +95,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 The ArrayDeque: [10, 15, 30, 20, 5, 25]
 The array is:
 10

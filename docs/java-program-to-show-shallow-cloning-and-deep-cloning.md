@@ -26,7 +26,7 @@
 
 插图:浅复制对象' t2 '
 
-```
+```java
 class GFG 
   {
   int i,j;
@@ -47,7 +47,7 @@ main(String[] args)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show shallow cloning
 
 // Importing java input/output classes
@@ -83,6 +83,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Output: False if Deepcopy & True if shallow : true
 ```

@@ -10,7 +10,7 @@
 
 在方法重载中，您可能会遇到签名将引用类型或基元类型作为形式参数的情况。编译器首先搜索具有相同数据类型的参数的方法。如果您使用包装类对象作为实际参数，并且编译器没有找到具有相同引用类型(即类或接口类型)的参数的方法，那么它将开始搜索具有相应原始数据类型的参数的方法。
 
-```
+```java
 // Java program to illustrate 
 // Autoboxing
 // while resolving data type as:
@@ -67,7 +67,7 @@ class GFG 
 
 输出:
 
-```
+```java
 Primitive type int formal argument :10
 Reference type Integer formal argument :15
 Primitive type long formal argument :100
@@ -79,7 +79,7 @@ Primitive type long formal argument :100
 如果编译器找不到任何与自动装箱相对应的方法，它将开始搜索扩展的基本数据类型的方法参数。
 在下面的示例中，我们正在调用带有原语( **int** )形式实参的重载方法，该实参的数据类型与实际实参的数据类型相同。我们正在调用另一个带有长包装对象参数的方法。编译器开始搜索具有相同引用类型的方法(长包装类)。由于没有带**长包装类**参数的方法。因此，它寻找能够接受大于长基元数据类型的参数作为参数的方法。在这种情况下，它找到一个带有**浮点原始数据类型**的方法并调用它。
 
-```
+```java
 // Java program to illustrate method 
 // overloading 
 // in case of widening
@@ -121,7 +121,7 @@ class GFG 
 
 输出:
 
-```
+```java
 Primitive type int formal argument :10
 Primitive type float formal argument :100.0
 ```
@@ -131,7 +131,7 @@ Primitive type float formal argument :100.0
 如果加宽和拳击同时发生会怎么样？编译器能做什么方法调用？
 基元类型的扩展优先于装箱和 var-args。但是扩展和原始类型的装箱不能一起工作。
 
-```
+```java
 // Java program  to illustrate method 
 // overloading for widening
 // and autoboxing together
@@ -165,7 +165,7 @@ class GFG 
 
 输出:
 
-```
+```java
 25: error: incompatible types: byte cannot be converted to Integer
         c.method(val);
                  ^
@@ -176,7 +176,7 @@ class GFG 
 
 但是**装箱后加宽是可以接受的**如果这被传递给类型为 Object 的引用。请参见下面的示例。
 
-```
+```java
 // Java program to illustrate
 // autoboxing followed by 
 // widening in reference type
@@ -217,7 +217,7 @@ class GFG 
 
 输出:
 
-```
+```java
 Primitive type byte formal argument :5
 
 ```
@@ -227,7 +227,7 @@ Primitive type byte formal argument :5
 基元类型的扩展比 var-args 具有更高的优先级。
 **例:**
 
-```
+```java
 // Java program to illustrate
 // method overloading for var-args
 // and widening concept together
@@ -265,7 +265,7 @@ class GFG 
 
 输出:
 
-```
+```java
 Widening type long formal argument :5
 
 ```

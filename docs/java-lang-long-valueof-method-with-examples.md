@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Long valueOf(String s, int radix) throws NumberFormatException
 ```
 
@@ -25,7 +25,7 @@ public static Long valueOf(String s, int radix) throws NumberFormatException
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the java.lang.Long.valueOf() method
 import java.lang.Math;
@@ -48,14 +48,14 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Long instance Value = 45325
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.valueOf() method
 // NumberFormatException
@@ -81,7 +81,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.NumberFormatException: For input string: "gopal"
     at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
     at java.lang.Long.parseLong(Long.java:589)

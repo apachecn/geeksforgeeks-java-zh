@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setResourceBundle(ResourceBundle bundle)
 
 ```
@@ -18,7 +18,7 @@ public void setResourceBundle(ResourceBundle bundle)
 下面的程序说明了 setResourceBundle()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setResourceBundle() method
 
 import java.util.logging.Level;
@@ -56,14 +56,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Resource Bundle = myResource
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setResourceBundle() method
 
 import java.util.logging.Level;
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Resource Bundle = null
 
 ```

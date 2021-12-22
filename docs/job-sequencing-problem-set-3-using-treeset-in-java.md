@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : Four Jobs with following deadlines and profits
   JobID    Deadline      Profit
     a        4            20   
@@ -18,7 +18,7 @@ Output : Following is maximum profit sequence of jobs
 
 ```
 
-```
+```java
 Input : Five Jobs with following deadlines and profits
    JobID     Deadline     Profit
      a         2           100
@@ -42,7 +42,7 @@ Output : Following is maximum profit sequence of jobs
 
 下面是上述算法的实现:
 
-```
+```java
 import java.io.*;
 import java.util.*;
 

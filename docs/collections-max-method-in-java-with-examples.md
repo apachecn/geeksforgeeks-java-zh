@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static <T extends Object & Comparable> T
   max(Collection coll)
 ```
@@ -28,7 +28,7 @@ public static <T extends Object & Comparable> T
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // max() method for Integer value
 
@@ -69,7 +69,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Max value is: 4
 ```
 
@@ -77,7 +77,7 @@ Max value is: 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // max() method for ClassCastException
 
@@ -119,7 +119,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Exception thrown : java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
 ```
 
@@ -127,7 +127,7 @@ Exception thrown : java.lang.ClassCastException: java.lang.Integer cannot be cas
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // max() method for NoSuchElementException
 
@@ -164,7 +164,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Trying to get the max from empty list
 Exception thrown : java.util.NoSuchElementException
 ```
@@ -192,7 +192,7 @@ Exception thrown : java.util.NoSuchElementException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // max() method for Integer value
 
@@ -234,7 +234,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Max val: -5
 ```
 
@@ -242,7 +242,7 @@ Max val: -5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // max() method for ClassCastException
 
@@ -287,7 +287,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Exception thrown : java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
 ```
 
@@ -295,7 +295,7 @@ Exception thrown : java.lang.ClassCastException: java.lang.Integer cannot be cas
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // max() method for NoSuchElementException
 
@@ -335,7 +335,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Trying to get the max from empty list
 Exception thrown : java.util.NoSuchElementException
 ```

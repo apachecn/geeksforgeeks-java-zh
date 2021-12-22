@@ -14,7 +14,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
 1.  **final String name()**:此方法返回此枚举常量的名称，该名称与其枚举声明中声明的名称完全相同。
 
-    ```
+    ```java
     Syntax : 
     public final String name()
     Parameters : 
@@ -24,7 +24,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate name() method
     enum Color
     {
@@ -47,14 +47,14 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     Name of enum constant: RED
 
     ```
 
 2.  **最终 int 序数()**:这个方法返回这个枚举常量的索引。
 
-    ```
+    ```java
     Syntax : 
     public final int ordinal()
     Parameters : 
@@ -64,7 +64,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate ordinal() method
     enum Color
     {
@@ -87,14 +87,14 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     ordinal of enum constant GREEN : 1
 
     ```
 
 3.  **String ToString()**:这个方法返回一个代表这个枚举常量的 String 对象。此方法与 name()方法相同。
 
-    ```
+    ```java
     Syntax : 
     public String toString()
     Parameters : 
@@ -106,7 +106,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate toString() method
     enum Color
     {
@@ -131,14 +131,14 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     GREEN
 
     ```
 
 4.  **最终布尔等于(Object obj)** :如果指定的对象等于这个枚举常量，这个方法返回 true，否则返回 false。
 
-    ```
+    ```java
     Syntax : 
     public final boolean equals(Object obj)
     Parameters : 
@@ -151,7 +151,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate equals() method
     enum Color
     {
@@ -183,7 +183,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     is c1 equal to c2 : false
     is c1 equal to c3 : true
     is c2 equal to null : false
@@ -192,7 +192,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
 5.  **最终 int hashCode()** :此方法返回此枚举常量的哈希代码。实际上这个方法只包含一个语句，那就是“return super.hashCode()”，它依次调用 Object 类 hashCode()方法。
 
-    ```
+    ```java
     Syntax : 
     public final int hashCode()
     Parameters : 
@@ -204,7 +204,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate hashCode() method
     enum Color
     {
@@ -233,7 +233,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     hashcode of enum constant RED : 366712642
     hashcode of enum constant GREEN : 1829164700
 
@@ -241,7 +241,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
 6.  **最终 int compareTo(E obj)** :此方法将此枚举与**订单的指定对象**进行“比较”。枚举常量只能与相同枚举类型的其他枚举常量相比较。
 
-    ```
+    ```java
     Syntax : 
     public int compareTo(E obj)
     Parameters : 
@@ -255,7 +255,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate compareTo() method
     enum Color
     {
@@ -297,7 +297,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     Comparing RED with GREEN : -1
     Comparing RED with RED : 0
     Comparing BLUE with GREEN : 1
@@ -306,7 +306,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
 7.  **静态< T 扩展枚举> T valueOf(Class enumType，String name)** :此方法返回具有指定名称的指定枚举类型的枚举常量。该名称必须与用于声明此类型的枚举常量的标识符完全匹配。
 
-    ```
+    ```java
     Syntax : 
     public static <T extends Enum> T valueOf(Class enumType,String name)
     TypeParameters : 
@@ -324,7 +324,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate valueOf() method
     enum Color
     {
@@ -358,7 +358,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     RED
     GREEN
 
@@ -366,7 +366,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
 8.  **最终类<E>getdeclaring Class()**:该方法返回该枚举常量的枚举类型对应的 Class 对象。如果此方法为两者返回相同的类对象，则任意两个枚举常数 e1 和 e2 属于相同的枚举类型。
 
-    ```
+    ```java
     Syntax : 
     public final Class <E> getDeclaringClass()
     Parameters : 
@@ -376,7 +376,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate getDeclaringClass() method
     enum Color
     {
@@ -425,7 +425,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     Class corresponding to RED : class Color
     Class corresponding to GREEN : class Color
     Class corresponding to MONDAY : class Day
@@ -435,7 +435,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
 9.  **最终对象克隆()**:这种方法保证了枚举永远不会被克隆，这是保持其“单例”状态所必需的。编译器在内部使用它来创建枚举常量。
 
-    ```
+    ```java
     Syntax : 
     public final Object clone() throws CloneNotSupportedException
     Parameters : 
@@ -449,7 +449,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate clone() method
     enum Color
     {
@@ -480,7 +480,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     Enums are never cloned
     java.lang.CloneNotSupportedException
 
@@ -488,7 +488,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
 10.  **最终 void finalize()** :此方法保证枚举类不能有 finalize 方法。
 
-    ```
+    ```java
     Syntax : 
     protected final void finalize()
     Parameters : 
@@ -500,7 +500,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate finalize() method
     enum Color
     {
@@ -527,7 +527,7 @@ Enum 类提供了 10 种有用的方法。大部分都是从[对象](https://www
 
     输出:
 
-    ```
+    ```java
     enum classes cannot have finalize methods
 
     ```

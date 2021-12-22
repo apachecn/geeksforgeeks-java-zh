@@ -12,7 +12,7 @@ Apache POI 和文件流是创建 Word 文档的根概念。 [Apache POI](https:/
 
 **语法:**用于导入 Spire 的 java 库
 
-```
+```java
 import Spire.Doc.jar ;
 ```
 
@@ -45,7 +45,7 @@ import Spire.Doc.jar ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Create 
 // a Blank Word file
 

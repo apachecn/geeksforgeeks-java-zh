@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 getYear()方法获取 Year 字段。
 
 **语法** :
 
-```
+```java
 public int getYear()
 
 ```
@@ -19,7 +19,7 @@ public int getYear()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getYear() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the getYear() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2015
 
 ```

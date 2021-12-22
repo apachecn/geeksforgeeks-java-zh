@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public int lastIndexOf(Object o)
     ```
 
@@ -18,7 +18,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java Program to illustrate the CopyOnWriteArrayList
     // lastIndexOf() method in Java
     import java.util.concurrent.CopyOnWriteArrayList;
@@ -51,7 +51,7 @@
 
     **Output:**
 
-    ```
+    ```java
     CopyOnWriteArrayList: [32, 67, 67, 100]
     lastIndexOf value: 2
 
@@ -59,7 +59,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java Program to illustrate the CopyOnWriteArrayList
     // lastIndexOf() method in Java
     import java.util.concurrent.CopyOnWriteArrayList;
@@ -92,7 +92,7 @@
 
     **Output:**
 
-    ```
+    ```java
     CopyOnWriteArrayList: [32, 67, 67, 100]
     lastIndexOf value: -1
 
@@ -102,7 +102,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public int lastIndexOf(E e, int index)
     ```
 
@@ -119,7 +119,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java Program to illustrate the CopyOnWriteArrayList
     // lastIndexOf() method in Java
     import java.util.concurrent.CopyOnWriteArrayList;
@@ -152,7 +152,7 @@
 
     **Output:**
 
-    ```
+    ```java
     CopyOnWriteArrayList: [32, 67, 67, 67]
     lastIndexOf value: 2
 
@@ -160,7 +160,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java Program to illustrate the CopyOnWriteArrayList
     // lastIndexOf() method in Java
     import java.util.concurrent.CopyOnWriteArrayList;

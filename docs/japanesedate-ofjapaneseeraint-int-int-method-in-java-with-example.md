@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static JapaneseDate of(JapaneseEra era,
                               int yearOfEra,
                               int month,
@@ -31,7 +31,7 @@ public static JapaneseDate of(JapaneseEra era,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate of() method
 
 import java.util.*;
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 JapaneseDate: Japanese Heisei 2008-04-24
 
 ```
@@ -78,7 +78,7 @@ JapaneseDate: Japanese Heisei 2008-04-24
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate of() method
 
 import java.util.*;
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 passed parameter can not form a date
 Exception thrown: java.time.DateTimeException: year, month, and day not valid for Era
 

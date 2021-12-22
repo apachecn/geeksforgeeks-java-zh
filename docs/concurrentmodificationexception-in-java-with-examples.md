@@ -21,7 +21,7 @@
 
 <u>**示例:**</u> 在下面的代码中，实现了一个 ArrayList。然后向其添加很少的值，并在遍历时对其进行很少的修改，
 
-```
+```java
 // Java program to show
 // ConcurrentModificationException
 
@@ -72,7 +72,7 @@ public class modificationError {
 
 **输出:**
 
-```
+```java
 ArrayList: 
 One, 
 
@@ -91,7 +91,7 @@ java.util.ConcurrentModificationException
 
 **示例:**让我们看看如何通过简单地更改修改的地方来解决这个异常。
 
-```
+```java
 // Java program to show
 // ConcurrentModificationException
 
@@ -151,7 +151,7 @@ public class modificationError {
 
 **输出:**
 
-```
+```java
 ArrayList: 
 One, Two, Three, Four, 
 

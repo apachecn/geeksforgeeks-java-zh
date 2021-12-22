@@ -31,7 +31,7 @@ ReflectPermission 类扩展了 BasicPermission 类。这是一个“命名”权
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Use of java.lang.reflect.ReflectPermission Class in Java
 import java.lang.reflect.ReflectPermission;
 class GFG {
@@ -65,6 +65,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Permission not granted
 ```

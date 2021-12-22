@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Maintain Insertion Order While
 // Getting Unique Values from ArrayList
 
@@ -47,7 +47,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Unique values in inserted order
 [100, 200, 500, 300, 600]
 ```
@@ -59,7 +59,7 @@ Unique values in inserted order
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Maintain Insertion Order While
 // Getting Unique Values from ArrayList
 
@@ -177,7 +177,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Our ArrayList
 
 (Raushan:Chamgader)

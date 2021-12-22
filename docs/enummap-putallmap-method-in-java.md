@@ -6,7 +6,7 @@ Java 中的 Java . util . enummap . putall(*map*)方法用于将一个映射中�
 
 **语法:**
 
-```
+```java
 void putAll(*map*)
 ```
 
@@ -18,7 +18,7 @@ void putAll(*map*)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate keySet()
 import java.util.*;
 
@@ -57,7 +57,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 Mappings in Map1: {Global_today=799, India_today=69}
 Mappings in Map2: {Global_today=799, India_today=69}
 
@@ -65,7 +65,7 @@ Mappings in Map2: {Global_today=799, India_today=69}
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the working of keySet()
 import java.util.*;
 
@@ -106,7 +106,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 Mappings in Map1: {India_today=61.8%, United_States_today=18.2%}
 Mappings in Map2: {India_today=61.8%, United_States_today=18.2%}
 

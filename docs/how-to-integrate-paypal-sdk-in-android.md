@@ -38,7 +38,7 @@ PayPal 是著名的支付网关集成之一，它是全球著名的支付网关�
 
 导航到**应用程序>渐变脚本>构建.渐变**，并在依赖项部分添加下面的依赖项。
 
-```
+```java
 implementation 'com.paypal.sdk:paypal-android-sdk:2.14.2'
 ```
 
@@ -50,7 +50,7 @@ implementation 'com.paypal.sdk:paypal-android-sdk:2.14.2'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -103,7 +103,7 @@ implementation 'com.paypal.sdk:paypal-android-sdk:2.14.2'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

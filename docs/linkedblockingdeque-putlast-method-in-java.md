@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void putLast(E e)
 ```
 
@@ -23,7 +23,7 @@ public void putLast(E e)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate putLast()
 // method of LinkedBlockingDeque
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 
 ```
 
 **节目 2:**
 
-```
+```java
 // Java Program Demonstrate putLast()
 // method of LinkedBlockingDeque
 // throwing NullPointerException
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出** :
 
-```
+```java
 Runtime Errors:
 Exception in thread "main" java.lang.NullPointerException
     at java.util.concurrent.LinkedBlockingDeque.putLast(LinkedBlockingDeque.java:390)
@@ -103,7 +103,7 @@ Exception in thread "main" java.lang.NullPointerException
 
 **节目 3:**
 
-```
+```java
 // Java Program Demonstrate putLast()
 // method of LinkedBlockingDeque
 // when capacity exceeded
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出** :
 
-```
+```java
 Runtime Errors:
 Max real time limit exceeded due to either by heavy 
 load on server or by using sleep function

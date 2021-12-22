@@ -6,7 +6,7 @@ FileInputStream 类的 **available()** 方法用于返回估计的可以从输�
 
 **语法:**
 
-```
+```java
 FileInputStream available() 
 ```
 
@@ -21,13 +21,13 @@ FileInputStream available()
 
 **步骤 1:** 将文件附加到文件输入流，因为这将使我们能够从文件中读取数据，如下所示:
 
-```
+```java
 FileInputStream fileInputStream = new FileInputStream(“file.txt”);
 ```
 
 **第二步:**现在，要从文件中读取有多少数据可供读取的数据，我们应该像下面这样使用 FileInputStream 对象调用一个可用的方法；
 
-```
+```java
 int ch = fileInputStream.availale(); 
 ```
 
@@ -35,7 +35,7 @@ int ch = fileInputStream.availale();
 
 **步骤 3(b):** 然后，我们应该将监视器附加到输出流。为了显示数据，我们可以使用系统打印
 
-```
+```java
 System.out.print(ch);
 ```
 
@@ -43,7 +43,7 @@ System.out.print(ch);
 
 **原始文件内容:file.txt**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -51,7 +51,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working
 // of the FileInputStream available() method
 
@@ -93,7 +93,7 @@ public class abc {
 
 **输出**
 
-```
+```java
 Currently Reading:G Remaining character: 12
 Currently Reading:e Remaining character: 11
 Currently Reading:e Remaining character: 10

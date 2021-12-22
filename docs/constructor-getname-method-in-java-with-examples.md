@@ -7,7 +7,7 @@ Java . lang . reflect . constructor 的 **getName()** 方法用于以字符串�
 
 **语法:**
 
-```
+```java
 public String getName()
 
 ```
@@ -19,7 +19,7 @@ public String getName()
 以下程序说明 getName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate getName() method
 
 import java.lang.reflect.Constructor;
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Constructor : java.lang.String
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate getName() method
 
 import java.lang.reflect.Constructor;
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Constructor Name : java.util.ArrayList
 
 ```

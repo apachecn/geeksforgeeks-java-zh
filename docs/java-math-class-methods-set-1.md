@@ -6,7 +6,7 @@
 
 **班级申报**
 
-```
+```java
 public final class Math  extends Object
 ```
 
@@ -17,7 +17,7 @@ public final class Math  extends Object
 
 1.  **signum() :** **java.math.signum()** method returns the signum value of the argument passed.
 
-    ```
+    ```java
                                         -1    if x < 0
                         signum fun(x) =  0    if x = 0
                                          1    if x > 0
@@ -28,7 +28,7 @@ public final class Math  extends Object
 
     **语法:**
 
-    ```
+    ```java
     public static double signum(double x)
                    or
     public static float signum(float x)
@@ -43,7 +43,7 @@ public final class Math  extends Object
     **注:**结果为 0，如果自变量为 NaN。
     **语法:**
 
-    ```
+    ```java
     public static long round(long arg)
                  or
     public static double round(double arg)
@@ -58,7 +58,7 @@ public final class Math  extends Object
     这种方法只是比较使用量级，不考虑任何符号。
     **语法:**
 
-    ```
+    ```java
     public static double max(double v1, double v2)
     Parameters:
     v1 - first value
@@ -71,7 +71,7 @@ public final class Math  extends Object
 
 **在 Math 类中解释 signum()、round()、max()方法的 Java 代码。**
 
-```
+```java
 // Java code explaining the Math Class methods
 // signum(), round(), max()
 import java.lang.*;
@@ -105,7 +105,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 Signum of 10.45  = 1.0
 Signum of -23.34 = -1.0
 
@@ -119,7 +119,7 @@ Max b/w r1 and r2 = -23.0
 1.  **log1p():****Java . math . log1p()**方法返回(传递的参数+ 1)的自然对数。
     **语法:**
 
-    ```
+    ```java
     public static double log1p(double arg)
     Parameters:
     arg - the argument
@@ -133,7 +133,7 @@ Max b/w r1 and r2 = -23.0
     这里，它是最小距离 b/w 参数和下一个较大的值。
     **语法:**
 
-    ```
+    ```java
     public static double ulp(double arg)
                   or
     public static float ulp(float arg)
@@ -146,7 +146,7 @@ Max b/w r1 and r2 = -23.0
 
 **在 Math 类中解释 ulp()，log1p()方法的 Java 代码。**
 
-```
+```java
 // Java code explaining the Math Class methods
 // ulp(), log1p()
 import java.lang.*;
@@ -176,7 +176,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 ulp of 34.652    : 7.105427357601002E-15
 ulp of -23.34789 : 3.552713678800501E-15
 

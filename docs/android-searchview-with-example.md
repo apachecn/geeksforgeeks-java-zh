@@ -6,7 +6,7 @@
 
 **类语法:**
 
-```
+```java
 public class SearchView
 extends LinearLayout
 implements CollapsibleActionView
@@ -15,7 +15,7 @@ implements CollapsibleActionView
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
   ↳  android.view.View
     ↳  android.view.ViewGroup
@@ -33,7 +33,7 @@ java.lang.Object
 
     ## activity_main.xml
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <!--Relative Layout-->
 
@@ -60,7 +60,7 @@ java.lang.Object
 
     ## menu.xml
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>  
 
     <menu 
@@ -82,7 +82,7 @@ java.lang.Object
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.geeksforgeeks.searchviewwidget;
 
     import android.support.v7.app.AppCompatActivity;

@@ -6,7 +6,7 @@ Java.util.LinkedList.clone()方法用于创建上述链表的[浅拷贝](https:/
 
 **语法:**
 
-```
+```java
 LinkedList.clone()
 ```
 
@@ -16,7 +16,7 @@ LinkedList.clone()
 
 下面程序举例说明了 Java.util.LinkedList.clone()方法:
 
-```
+```java
 // Java code to illustrate clone() method
 import java.io.*;
 import java.util.LinkedList;
@@ -50,7 +50,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 First LinkedList:[Geeks, for, Geeks, 10, 20]
 Second LinkedList is:[Geeks, for, Geeks, 10, 20]
 

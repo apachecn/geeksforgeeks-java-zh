@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```java
 HashSet: [Geeks, For, Welcome, To]
 TreeSet: [For, Geeks, To, Welcome]
 
@@ -32,7 +32,7 @@ TreeSet: [1, 2, 3, 4, 5]
 
     **程序:**
 
-    ```
+    ```java
     import java.util.HashSet;
     import java.util.Set;
     import java.util.TreeSet;
@@ -66,7 +66,7 @@ TreeSet: [1, 2, 3, 4, 5]
 
     **Output:**
 
-    ```
+    ```java
     HashSet: [Geeks, For, Welcome, To]
     TreeSet: [For, Geeks, To, Welcome]
 
@@ -82,7 +82,7 @@ TreeSet: [1, 2, 3, 4, 5]
 
     **程序:**
 
-    ```
+    ```java
     import java.util.HashSet;
     import java.util.Set;
     import java.util.TreeSet;
@@ -117,7 +117,7 @@ TreeSet: [1, 2, 3, 4, 5]
 
     **Output:**
 
-    ```
+    ```java
     HashSet: [Geeks, For, Welcome, To]
     TreeSet: [For, Geeks, To, Welcome]
 
@@ -133,7 +133,7 @@ TreeSet: [1, 2, 3, 4, 5]
 
     **程序:**
 
-    ```
+    ```java
     import java.util.HashSet;
     import java.util.Set;
     import java.util.TreeSet;
@@ -170,7 +170,7 @@ TreeSet: [1, 2, 3, 4, 5]
 
     **Output:**
 
-    ```
+    ```java
     HashSet: [Geeks, For, Welcome, To]
     TreeSet: [For, Geeks, To, Welcome]
 

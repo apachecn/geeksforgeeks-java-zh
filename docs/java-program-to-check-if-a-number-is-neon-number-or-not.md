@@ -8,7 +8,7 @@
 
 插图:
 
-> ```
+> ```java
 > Case 1:
 > 
 > Input  : 9
@@ -35,7 +35,7 @@
     1.  返回真
     2.  否则返回 false。
 
-```
+```java
 Pseudo code : Square =n*n;
               while(square>0)
               {
@@ -49,7 +49,7 @@ Pseudo code : Square =n*n;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check If a Number is Neon number or not
 
 // Importing java input/output library
@@ -118,7 +118,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Given number 9 is Neon number
 ```
 

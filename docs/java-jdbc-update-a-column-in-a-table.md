@@ -24,7 +24,7 @@ Java 有自己的应用编程接口，JDBC 应用编程接口使用 JDBC 驱动�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Update a Column in a Table
 
 // dont forget to import below package

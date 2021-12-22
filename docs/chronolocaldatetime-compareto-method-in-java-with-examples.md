@@ -6,7 +6,7 @@ Java 方法中**计时本地日期时间**接口的 **compareTo()** 方法将此
 
 **语法** :
 
-```
+```java
 default int compareTo(ChronoLocalDateTime other)
 
 ```
@@ -19,7 +19,7 @@ default int compareTo(ChronoLocalDateTime other)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -54,7 +54,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12
 2018-12-06T19:21:12
 0
@@ -63,7 +63,7 @@ public class GfG {
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -96,7 +96,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-05T19:21:12
 2018-12-06T19:21:12
 1

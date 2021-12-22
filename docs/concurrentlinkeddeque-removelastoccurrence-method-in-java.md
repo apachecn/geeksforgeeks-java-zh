@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeLastOccurrence(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean removeLastOccurrence(Object o)
 
 下面的程序举例说明了**removelastcessence()**方法的使用:
 
-```
+```java
 /* Java program to demonstrate 
    removeLastOccurrence() method
    of ConcurrentLinkedDeque   */
@@ -52,7 +52,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Elements in the LinkedDeque: [Geeks, gfg, Gfg, Geeks, GFG]
 Elements in the LinkedDeque: [Geeks, gfg, Gfg, GFG]
 
@@ -60,7 +60,7 @@ Elements in the LinkedDeque: [Geeks, gfg, Gfg, GFG]
 
 **程序二:**
 
-```
+```java
 /* Java program to demonstrate 
    removeLastOccurrence() method
    of ConcurrentLinkedDeque   */
@@ -95,7 +95,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Elements in the LinkedDeque: [379, 1050, 1008, 280, 12]
 java.lang.NullPointerException
 

@@ -10,7 +10,7 @@
 
         ## activity _ main . XML
 
-        ```
+        ```java
         <?xml version="1.0" encoding="utf-8"?>
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +56,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.imeoption;
 
     import androidx.appcompat.app.AppCompatActivity;

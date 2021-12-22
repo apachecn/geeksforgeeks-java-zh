@@ -31,35 +31,35 @@ Java 有两类数据:
 
 *   **语法:**
 
-```
+```java
 boolean booleanVar;
 
 ```
 
 *   **大小:**T2】
 
-```
+```java
 virtual machine dependent
 
 ```
 
 *   **价值观:**
 
-```
+```java
 true, false
 
 ```
 
 *   **默认值:**
 
-```
+```java
 false
 
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate boolean data type
 
 class GeeksforGeeks {
@@ -74,7 +74,7 @@ class GeeksforGeeks {
 
 **Output:** 
 
-```
+```java
 Hi Geek
 
 ```
@@ -83,35 +83,35 @@ Hi Geek
 
 *   **语法:**
 
-```
+```java
 byte byteVar;
 
 ```
 
 *   **大小:**T2】
 
-```
+```java
 1 byte ( 8 bits )
 
 ```
 
 *   **价值观:**
 
-```
+```java
 -128 to 127
 
 ```
 
 *   **默认值:**
 
-```
+```java
 0
 
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate byte data type in Java
 
 class GeeksforGeeks {
@@ -139,7 +139,7 @@ class GeeksforGeeks {
 
 **Output:** 
 
-```
+```java
 126
 127
 -128
@@ -151,28 +151,28 @@ class GeeksforGeeks {
 
 *   **语法:**
 
-```
+```java
 short shortVar;
 
 ```
 
 *   **大小:**T2】
 
-```
+```java
 2 byte ( 16 bits )
 
 ```
 
 *   **价值观:**
 
-```
+```java
 -32, 768 to 32, 767 (inclusive)
 
 ```
 
 *   **默认值:**
 
-```
+```java
 0
 
 ```
@@ -181,28 +181,28 @@ short shortVar;
 
 *   **语法:**
 
-```
+```java
 int intVar;
 
 ```
 
 *   **大小:**T2】
 
-```
+```java
 4 byte ( 32 bits )
 
 ```
 
 *   **价值观:**
 
-```
+```java
 -2, 147, 483, 648 to 2, 147, 483, 647 (inclusive)
 
 ```
 
 *   **默认值:**
 
-```
+```java
 0
 
 ```
@@ -213,21 +213,21 @@ int intVar;
 
 *   **语法:**
 
-```
+```java
 long longVar;
 
 ```
 
 *   **大小:**T2】
 
-```
+```java
 8 byte ( 64 bits )
 
 ```
 
 *   **值:**
 
-```
+```java
 -9, 223, 372, 036, 854, 775, 808 
           to 
 9, 223, 372, 036, 854, 775, 807
@@ -237,7 +237,7 @@ long longVar;
 
 *   **默认值:**
 
-```
+```java
 0
 
 ```
@@ -248,28 +248,28 @@ long longVar;
 
 *   **语法:**
 
-```
+```java
 float floatVar;
 
 ```
 
 *   **大小:**T2】
 
-```
+```java
 4 byte ( 32 bits )
 
 ```
 
 *   **价值观:**
 
-```
+```java
 upto 7 decimal digits
 
 ```
 
 *   **默认值:**
 
-```
+```java
 0.0
 
 ```
@@ -278,28 +278,28 @@ upto 7 decimal digits
 
 *   **语法:**
 
-```
+```java
 double doubleVar;
 
 ```
 
 *   **大小:**T2】
 
-```
+```java
 8 byte ( 64 bits )
 
 ```
 
 *   **价值观:**
 
-```
+```java
 upto 16 decimal digits
 
 ```
 
 *   **默认值:**
 
-```
+```java
 0.0
 
 ```
@@ -311,28 +311,28 @@ upto 16 decimal digits
 
 *   **语法:**
 
-```
+```java
 char charVar;
 
 ```
 
 *   **大小:**T2】
 
-```
+```java
 2 byte ( 16 bits )
 
 ```
 
 *   **价值观:**
 
-```
+```java
 '\u0000' (0) to '\uffff' (65535)
 
 ```
 
 *   **默认值:**
 
-```
+```java
 '\u0000'
 
 ```
@@ -344,7 +344,7 @@ char charVar;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // primitive data types in Java
 
@@ -391,7 +391,7 @@ class GeeksforGeeks {
 
 **Output:** 
 
-```
+```java
 char: G
 integer: 89
 byte: 4
@@ -410,14 +410,14 @@ double: 4.355453532
     下面是用 Java 编程语言声明字符串的基本语法。
     **语法:**
 
-```
+```java
 <String_Type> <string_variable> = “<sequence_of_string>”;
 
 ```
 
 *   **例:**
 
-```
+```java
 // Declare String without using new operator 
 String s = "GeeksforGeeks"; 
 

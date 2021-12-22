@@ -52,7 +52,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to validate
 // the password using ReGex
 
@@ -122,7 +122,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 false
 false

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean
        weakCompareAndSet(
            int i, E expectedValue, E newValue)
@@ -24,7 +24,7 @@ public final boolean
 以下程序说明了 weakCompareAndSet()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // weakCompareAndSet() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Setting new value is successful = false
 Value of index 0 = 543
 
@@ -70,7 +70,7 @@ Value of index 0 = 543
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // weakCompareAndSet() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Setting new value is successful = true
 Value of index 4 = CANADA
 

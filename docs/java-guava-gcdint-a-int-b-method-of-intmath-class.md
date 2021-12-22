@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static int gcd(int a, int b)
 
 Where a and b are integers.
@@ -21,7 +21,7 @@ Where a and b are integers.
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // gcd(int a, int b) method of Guava's
 // IntMath class
@@ -58,7 +58,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GCD of a1 & b1 is: 4
 GCD of a2 & b2 is: 1
 
@@ -66,7 +66,7 @@ GCD of a2 & b2 is: 1
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // gcd(int a, int b) method of Guava's
 // IntMath class
@@ -97,7 +97,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException: a (-5) must be >= 0
 
 ```

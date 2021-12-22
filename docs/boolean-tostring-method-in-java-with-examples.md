@@ -10,7 +10,7 @@
 
 **语法**
 
-```
+```java
 Boolean.toString(boolean value)
 ```
 
@@ -22,7 +22,7 @@ Boolean.toString(boolean value)
 
 **程序 1:**
 
-```
+```java
 // java code to demonstrate
 // Boolean toString() method
 
@@ -44,14 +44,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // java code to demonstrate
 // Boolean toString() method
 
@@ -73,7 +73,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```
@@ -82,7 +82,7 @@ false
 
 **语法**
 
-```
+```java
 BooleanObject.toString()
 ```
 
@@ -92,7 +92,7 @@ BooleanObject.toString()
 
 **程序 1:**
 
-```
+```java
 // java code to demonstrate
 // Boolean toString() method
 
@@ -114,14 +114,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java code to demonstrate
 // Boolean toString() method
 
@@ -143,7 +143,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```

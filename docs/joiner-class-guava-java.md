@@ -6,7 +6,7 @@
 
 **声明:**以下是**类的声明:**
 
-```
+```java
 @GwtCompatible
 public class Joiner
    extends Object
@@ -19,7 +19,7 @@ public class Joiner
 
 **示例:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Joiner class's method
 
@@ -54,7 +54,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Original Array: [one, two, three, four]
 Joined String: one...two...three...four
 
@@ -66,7 +66,7 @@ Joined String: one...two...three...four
 
 **示例:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Joiner class's method
 
@@ -106,7 +106,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Original Array: [one, two, null, four, null, five]
 Joined String: one+two+four+five
 

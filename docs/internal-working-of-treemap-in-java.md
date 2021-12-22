@@ -17,7 +17,7 @@
 
 插图:
 
-```
+```java
 Input  : a = ["Alice", 1], b = ["Bob", 2]
 Output : TreeMap = {"Alice" = 1, "Bob" = 2}
 
@@ -44,7 +44,7 @@ Output : TreeMap = {1 = "First", 2 = "Second", 3 = "Third"}
 
 **语法:**声明一个树形图的对象或者简单地创建一个树形图
 
-```
+```java
 Map<Key, Integer> treemap = new TreeMap<>();
 ```
 
@@ -61,7 +61,7 @@ Map<Key, Integer> treemap = new TreeMap<>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show Internal Working
 // of TreeMap in Java
 
@@ -130,7 +130,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show Internal Working
 // of TreeMap in Java
 

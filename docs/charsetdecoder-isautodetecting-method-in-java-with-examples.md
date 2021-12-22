@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public boolean isAutoDetecting()
 ```
 
@@ -18,7 +18,7 @@ public boolean isAutoDetecting()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharsetDecoder: sun.nio.cs.ext.ISO2022_CN$Decoder@232204a1
 Is CharsetDecoder auto-detecting: false
 
@@ -56,7 +56,7 @@ Is CharsetDecoder auto-detecting: false
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharsetDecoder: sun.nio.cs.ext.DoubleByte$Decoder@232204a1
 Is CharsetDecoder auto-detecting: false
 

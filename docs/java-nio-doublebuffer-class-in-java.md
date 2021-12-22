@@ -63,7 +63,7 @@ DoubleBuffer 类的大多数方法直接类似于 ByteBuffer 定义的方法。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // DoubleBuffer class
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 DoubleBuffer: [9.260000228881836, 0.0, 5.610000133514404, 0.0, 0.0]
 
 ```
@@ -104,7 +104,7 @@ DoubleBuffer: [9.260000228881836, 0.0, 5.610000133514404, 0.0, 0.0]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // DoubleBuffer class
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Array length : 3
 
 Array element : [1.25, 5.34, 8.56]

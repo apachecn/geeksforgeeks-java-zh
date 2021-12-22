@@ -16,7 +16,7 @@ Java . lang . management . ThreadInfo 类包含获取线程信息的方法。这
 
 **语法:**类声明
 
-```
+```java
 public class ThreadInfo
 extends Object
 ```
@@ -54,7 +54,7 @@ extends Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate ThreadInfo Class
 
 // Importing required libraries
@@ -103,7 +103,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThreadInfo object created successfully
 ```
 
@@ -111,7 +111,7 @@ ThreadInfo object created successfully
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate ThreadInfo Class
 
 // Importing required libraries
@@ -181,7 +181,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Thread ID: 10
 Thread Name: Common-Cleaner
 Thread State: TIMED_WAITING

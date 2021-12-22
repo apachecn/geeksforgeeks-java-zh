@@ -24,7 +24,7 @@ HashSet 的几个**重要特点是:**
 *   ****初始容量:**初始容量是指创建 hashtable (HashSet 内部使用 hashtable 数据结构)时的桶数。如果当前大小已满，存储桶的数量将自动增加。** 
 *   ****负载系数:**负载系数是在 HashSet 的容量自动增加之前，允许 HashSet 达到多满的度量。当哈希表中的条目数超过负载系数和当前容量的乘积时，哈希表将被重新刷新(即重建内部数据结构)，以便哈希表具有大约两倍的桶数。** 
 
-```
+```java
  Number of stored elements in the table
 **Load Factor** = -----------------------------------------
                         Size of the hash table 
@@ -36,13 +36,13 @@ HashSet 的几个**重要特点是:**
 
 ****注意:**HashSet 中的实现是不同步的，也就是说，如果多个线程并发访问一个 hash 集，并且至少有一个线程修改了该集，那么它必须在外部同步。这通常是通过在自然封装该集合的某个对象上进行同步来实现的。如果不存在这样的对象，应该使用 Collections.synchronizedSet 方法“包装”该集合。这最好在创建时进行，以防止意外不同步地访问集合，如下所示:** 
 
-```
+```java
 Set s = Collections.synchronizedSet(new HashSet(...)); 
 ```
 
 ****HashSet 申报:****
 
-```
+```java
 public class HashSet<E> extends AbstractSet<E> implements Set<E>, Cloneable, Serializable 
 ```
 
@@ -72,7 +72,7 @@ public class HashSet<E> extends AbstractSet<E> implements Set<E>, Cloneable, Ser
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate working of HashSet
 import java.util.*;
 
@@ -110,7 +110,7 @@ class HashSetDemo {
 
 ****Output:****
 
-```
+```java
 [South Africa, Australia, India]
 List contains India or not:true
 List after removing Australia:[South Africa, India]

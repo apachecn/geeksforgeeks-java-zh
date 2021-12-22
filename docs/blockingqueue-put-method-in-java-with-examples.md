@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void put(E e) throws InterruptedException
 ```
 
@@ -23,7 +23,7 @@ public void put(E e) throws InterruptedException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate put(E e)
 // method of BlockingQueue
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Items in Queue are [Karan, Suraj, Harsh, Rahul]
 ```
 
@@ -63,7 +63,7 @@ Items in Queue are [Karan, Suraj, Harsh, Rahul]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate put()
 // method of BlockingQueue
 
@@ -141,7 +141,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Details of Employees:
 Employee [name=Ranjeet, position=Tester, salary=29000, Age=27]
 Employee [name=Sanjeet, position=Manager, salary=98000, Age=34]
@@ -152,7 +152,7 @@ Employee [name=Karan, position=Analyst, salary=44000, Age=30]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate put(E e)
 // method of BlockingQueue
 
@@ -185,7 +185,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception: java.lang.NullPointerException
 ```
 

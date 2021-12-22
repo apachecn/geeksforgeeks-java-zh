@@ -33,7 +33,7 @@ ColorAdjust 类是 JavaFX 的一部分。颜色调整类允许对色调、饱和
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to apply color Adjust effect
 // to a image with specified hue, brightness,
 // contrast and Saturation
@@ -113,7 +113,7 @@ public class ColorAdjust_1 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to apply color Adjust effect
 // to a image with hue, brightness, contrast
 // and Saturation taken as input from from user

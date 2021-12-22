@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 if(condition) 
 {
    // Statements to execute if
@@ -36,7 +36,7 @@ if-statement 求值后的条件为真或假。Java 中的 if 语句接受布尔�
 
 **注意:**如果我们没有在 if( condition)之后提供花括号“{ 0 }”和“}”，那么默认情况下 If 语句会将紧接的 one 语句视为在其块内。例如，
 
-```
+```java
 if(condition)
    statement1;
    statement2;
@@ -48,7 +48,7 @@ if(condition)
 
 **例 1:**
 
-```
+```java
 // Java program to illustrate If statement
 
 class IfDemo {
@@ -68,7 +68,7 @@ class IfDemo {
 
 **Output:**
 
-```
+```java
 10 is less than 15
 Outside if-block
 
@@ -76,7 +76,7 @@ Outside if-block
 
 **空转示例 1:**
 
-```
+```java
 1\. Program starts.
 2\. i is initialized to 10.
 3\. if-condition is checked. 10<15, yields true. 3.a) "10 is less than 15" gets printed. 4\. "outside if-block" < pre>**例 2:** 
@@ -100,7 +100,7 @@ class IfDemo {
         System.out.println("i = " + i);
     }
 }
-```
+```java
 
 **Output:**
 
@@ -108,7 +108,7 @@ class IfDemo {
 GeeksforGeeks
 i = 5
 
-```
+```java
 
 **相关文章:**1.  [Java 中的决策](https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/)2.  [带有示例的 Java if-else 语句](https://www.geeksforgeeks.org/java-if-else-statement-with-examples/)3.  [Java if-else-if 阶梯示例](https://www.geeksforgeeks.org/java-if-else-if-ladder-with-examples/)4.  [Java 中的 Switch 语句](https://www.geeksforgeeks.org/switch-statement-in-java/)5.  [Java 中的 Break 语句](https://www.geeksforgeeks.org/break-statement-in-java/)6.  [返回 Java 中的关键字](https://www.geeksforgeeks.org/return-keyword-java/)
 

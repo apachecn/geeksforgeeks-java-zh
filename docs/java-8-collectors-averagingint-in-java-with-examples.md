@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static 
    <T> Collector<T, ?, Double> 
      averagingInt(ToIntFunction<? super T> mapper)
@@ -32,7 +32,7 @@ public static
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // Collectors averagingInt(ToIntFunction mapper) function
 
@@ -63,14 +63,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 4.0
 
 ```
 
 **程序 2:** 当没有输入元素作为参数传递给 averagingInt()方法时。
 
-```
+```java
 // Java code to show the implementation of
 // Collectors averagingInt(ToIntFunction mapper) function
 
@@ -100,14 +100,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 0.0
 
 ```
 
 **程序 3:**
 
-```
+```java
 // Java code to show the implementation of
 // Collectors averagingInt(ToIntFunction mapper) function
 
@@ -137,7 +137,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 8.5
 
 ```

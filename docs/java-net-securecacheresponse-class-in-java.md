@@ -6,14 +6,14 @@ Java 中的**安全响应**类表示最初通过安全方式检索的缓存响�
 
 **语法:**类声明
 
-```
+```java
 public abstract class SecureCacheResponse
 extends CacheResponse
 ```
 
 此类的构造函数如下
 
-```
+```java
 SecureCacheResponse()
 ```
 
@@ -35,7 +35,7 @@ SecureCacheResponse()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate SecureCacheResponse class
 // Implementation and its methods
 
@@ -176,7 +176,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 getCipherSuite() method returns: Connection established
 getPeerPrincipal() method returns: GFG$1@34a245ab
 getLocalCertificateChain() returns: null

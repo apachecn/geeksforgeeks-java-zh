@@ -30,7 +30,7 @@ Java 提供了大量支持无锁和线程安全编程的类。Java 提供的原�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Lock-Free
 // Stack implementation
 import java.io.*;
@@ -222,7 +222,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Pushing into stack...
 Pushing into stack...
 Popping from stack ...
@@ -236,7 +236,7 @@ The number of stack operations performed in 1/2 a second-->28514750
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Lock Based Stack programming
 // This will invoke the lock-based version of the stack.
 import java.io.*;
@@ -255,7 +255,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Pushing into stack...
 Pushing into stack...
 Popping from stack ...

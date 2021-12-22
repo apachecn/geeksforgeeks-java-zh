@@ -14,7 +14,7 @@
 
 在这个方法中，我们借助迭代器迭代 HashSet。首先，我们借助 Java 中的**迭代器()**方法，制作一个迭代器来迭代 HashSet。
 
-```
+```java
 // Create a iterator of integer type to iterate HashSet
 
 Iterator<Integer> it = set.iterator();
@@ -28,7 +28,7 @@ Iterator<Integer> it = set.iterator();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate the HashSet
 // using iterator
 
@@ -73,7 +73,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterate HashSet using iterator : 
 50 20 10
 ```
@@ -86,7 +86,7 @@ Iterate HashSet using iterator :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate the HashSet
 // using for loop
 
@@ -126,7 +126,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterate HashSet using for loop : 
 Hello geeks for on
 ```
@@ -139,7 +139,7 @@ Hello geeks for on
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate using forEach() loop
 
 import java.util.*;
@@ -175,7 +175,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterate HashSet using forEach loop : 
 Hello
 geeks

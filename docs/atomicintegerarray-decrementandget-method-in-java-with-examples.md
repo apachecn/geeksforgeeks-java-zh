@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int decrementAndGet(int i)
 ```
 
@@ -20,7 +20,7 @@ public final int decrementAndGet(int i)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the decrementAndGet() function
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The array after update : [1, 2, 3, 3, 5]
 ```
@@ -63,7 +63,7 @@ The array after update : [1, 2, 3, 3, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the decrementAndGet() function
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The array after update : [0, 2, 3, 4, 5]
 ```

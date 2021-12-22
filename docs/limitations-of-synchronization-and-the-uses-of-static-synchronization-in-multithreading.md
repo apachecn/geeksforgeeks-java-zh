@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show Data racing in multithreading.
 
 // Helper class 1
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出-**
 
-```
+```java
 Shubham booked 1 ticket.
 Sharmistha booked 1 ticket.
 Tickets left: 0
@@ -94,7 +94,7 @@ Tickets left: -1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to handle data racing due to
 // multithreading using synchronization.
 
@@ -155,7 +155,7 @@ public class GFG {
 
 **输出-**
 
-```
+```java
 Shubham booked 1 ticket.
 Tickets left: 0
 No tickets are available.
@@ -169,7 +169,7 @@ No tickets are available.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate limitations of
 // synchronization.
 
@@ -231,7 +231,7 @@ public class GFG {
 
 **输出-**
 
-```
+```java
 Shubham booked 1 ticket.
 Tickets left: 0
 Sharmistha booked 1 ticket.
@@ -248,7 +248,7 @@ Tickets left: 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to handle data racing using static
 // synchronization.
 
@@ -311,7 +311,7 @@ public class GFG {
 
 **输出-**
 
-```
+```java
 Shubham booked 1 ticket.
 Tickets left: 0
 Sharmistha, No tickets are available.

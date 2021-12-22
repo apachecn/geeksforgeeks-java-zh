@@ -4,7 +4,7 @@
 
 在 Java 中，如果一个方法中有一个与实例变量同名的局部变量，那么这个局部变量就会隐藏这个实例变量。如果我们想反映对实例变量所做的更改，这可以借助[这个引用](http://geeksquiz.com/this-reference-in-java/)来实现。
 
-```
+```java
 class Test
 {
     // Instance variable or member variable
@@ -34,7 +34,7 @@ class UseTest
 
 输出:
 
-```
+```java
 Value of Instance variable :10
 Value of Local variable :40
 ```

@@ -14,7 +14,7 @@ Java 虚拟机实现可以为程序员或用户提供对堆初始大小的控制
 
 现在的问题是如何增加内存的堆大小。因此，现在可以使用命令行选项来改变/增加 JVM 堆的大小，这是一个常见的解决方案。
 
-```
+```java
 -Xms : To set an initial java heap size
 -Xmx : To set maximum java heap size
 -Xss : To set the Java thread stack size

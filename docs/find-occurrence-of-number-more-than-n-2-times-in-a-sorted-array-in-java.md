@@ -4,7 +4,7 @@
 
 给定一个由 n 个整数组成的排序数组和一个整数 X，任务是找出给定的整数 X 在数组中出现的次数是否超过 n/2 次。
 
-```
+```java
 Input: arr[] = {1,1,2,3,3,3,3,3,3,3,3,3,4,5,6,6,7}, x=3
 Output: 3 occurs 9 times which is more than 8 times
 
@@ -23,7 +23,7 @@ Output: 6 doesn't occur more than 8 times
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to check whether element
 // x occurs more then n/2 times or not
 
@@ -67,7 +67,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 true
 ```
 
@@ -86,7 +86,7 @@ true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Main {
     public static int lower_bound(int arr[], int low,
                                   int high, int X)
@@ -187,7 +187,7 @@ class Main {
 
 **Output**
 
-```
+```java
 3 occurs 9 times which is more than 8 times
 ```
 

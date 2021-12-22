@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input:  [Geeks, null, forGeeks, null, A computer portal]
 Output: [Geeks, forGeeks, A computer portal]
 
@@ -25,7 +25,7 @@ Output: [1, 2, 3, 4]
     2.  重复调用列表中的**移除(空)**，直到所有空值都被移除。
     3.  返回/打印列表(现在删除所有空值)。
 
-    ```
+    ```java
     // Java Program to remove nulls
     // from a List using List.remove()
 
@@ -59,7 +59,7 @@ Output: [1, 2, 3, 4]
 
     **Output:**
 
-    ```
+    ```java
     Initial List: [Geeks, null, forGeeks, null, A computer portal]
     Modified List: [Geeks, forGeeks, A computer portal]
 
@@ -74,7 +74,7 @@ Output: [1, 2, 3, 4]
     3.  调用列表中的**移除所有(集合)**一次。
     4.  返回/打印列表(现在删除所有空值)。
 
-    ```
+    ```java
     // Java Program to remove nulls
     // from a List using List.removeAll()
 
@@ -107,7 +107,7 @@ Output: [1, 2, 3, 4]
 
     **Output:**
 
-    ```
+    ```java
     Initial List: [Geeks, null, forGeeks, null, A computer portal]
     Modified List: [Geeks, forGeeks, A computer portal]
 
@@ -125,7 +125,7 @@ Output: [1, 2, 3, 4]
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to remove nulls
     // from a List using iterator
 
@@ -175,7 +175,7 @@ Output: [1, 2, 3, 4]
 
     **Output:**
 
-    ```
+    ```java
     Initial List: [Geeks, null, forGeeks, null, A computer portal]
     Modified List:  [Geeks, forGeeks, A computer portal]
 
@@ -190,7 +190,7 @@ Output: [1, 2, 3, 4]
     3.  调用 **Iterables.removeIf(List，谓词)**其中 List 是带有空值的原始列表，谓词是谓词. isNull()实例。
     4.  返回/打印列表(现在删除所有空值)。
 
-    ```
+    ```java
     // Java Program to remove nulls
     // from a List using Guava Iterables
 
@@ -225,7 +225,7 @@ Output: [1, 2, 3, 4]
 
     **Output:**
 
-    ```
+    ```java
     Initial List: [Geeks, null, forGeeks, null, A computer portal]
     Modified List: [Geeks, forGeeks, A computer portal]
 
@@ -242,7 +242,7 @@ Output: [1, 2, 3, 4]
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to remove nulls
     // from a List using Apache Common COllection Filter()
     import org.apache.commons.collections4.CollectionUtils;
@@ -276,7 +276,7 @@ Output: [1, 2, 3, 4]
 
     **Output:**
 
-    ```
+    ```java
     Initial List: [Geeks, null, forGeeks, null, A computer portal]
     Modified List: [Geeks, forGeeks, A computer portal]
 
@@ -293,7 +293,7 @@ Output: [1, 2, 3, 4]
     4.  使用**将流作为列表收集回来。collect(Collectors.toList()**
     5.  返回/打印列表(现在删除所有空值)。
 
-    ```
+    ```java
     // Java Program to remove nulls
     // from a List using Apache Common COllection Filter()
 
@@ -329,7 +329,7 @@ Output: [1, 2, 3, 4]
 
     **Output:**
 
-    ```
+    ```java
     Initial List: [Geeks, null, forGeeks, null, A computer portal]
     Modified List: [Geeks, forGeeks, A computer portal]
 

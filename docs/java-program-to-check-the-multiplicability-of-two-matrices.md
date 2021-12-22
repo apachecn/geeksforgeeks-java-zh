@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : mat1[][] = {{1, 2, 3}, 
                     {4, 5, 6}}
         mat2[][] = {{7,  8 }, 
@@ -36,7 +36,7 @@ Output : Multiplication Not Possible
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check the 
 // Multiplicability of Two Matrices
 
@@ -69,7 +69,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Multiplication Possible
 Resultant matrix will have 2X2 dimension.
 

@@ -6,20 +6,20 @@
 
 **毫秒:**
 
-```
+```java
 1 millisecond = 0.001 second or (1/1000) seconds
 ```
 
 **秒:**
 
-```
+```java
 1 second = 1000 millisecond
 1 second = (1/60) minutes
 ```
 
 **分钟:**
 
-```
+```java
 1 minute = 60000 milliseconds
 1 minute = 60 seconds
 1 minute = (1/60)hour
@@ -27,7 +27,7 @@
 
 **例:**
 
-```
+```java
 Input : Milliseconds = 400000
 Output: 6 minutes and 40 seconds
 
@@ -51,7 +51,7 @@ Output: 90 minutes and 0 seconds
 
 ## Java
 
-```
+```java
 // Java Program to Convert Milliseconds
 // to Minutes and Seconds
 
@@ -82,7 +82,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 3500000 Milliseconds = 58 minutes and 20 seconds.
 ```
 
@@ -90,7 +90,7 @@ class GFG {
 
 ## Java
 
-```
+```java
 // Java Program to Convert Milliseconds
 // to Minutes and Seconds
 
@@ -123,6 +123,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 3500000 Milliseconds = 58 minutes and 20 seconds
 ```

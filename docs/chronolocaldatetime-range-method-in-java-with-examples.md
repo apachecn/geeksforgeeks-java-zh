@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default ValueRange range(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ default ValueRange range(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.range() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime of Calcutta: 2018-10-25T23:12:31.123
 Range of MILLI_OF_SECOND: 0 - 999
 
@@ -68,7 +68,7 @@ Range of MILLI_OF_SECOND: 0 - 999
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.range() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime of Calcutta: 2019-12-31T19:15:30
 Range of NANO_OF_SECOND: 0 - 999999999
 

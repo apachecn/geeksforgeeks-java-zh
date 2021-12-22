@@ -8,7 +8,7 @@
 
 *   **byte readbyte ():** Reads and returns an input byte.
 
-    ```
+    ```java
     Syntax:public final byte readByte()
                         throws IOException
     Returns: the next byte of this input stream as a signed 8-bit byte.
@@ -20,7 +20,7 @@
 
 *   **float read float ():** Read four input bytes and return a floating point value.
 
-    ```
+    ```java
     Syntax:public final float readFloat()
                           throws IOException
     Returns :the next four bytes of this input stream, interpreted as a float.
@@ -30,7 +30,7 @@
 
 *   [T1】 void readFully (byte [] b): Read some bytes from the input stream and store them in buffer array B.
 
-    ```
+    ```java
     Syntax:public final void readFully(byte[] b)
                          throws IOException
     Parameters: b - the buffer into which the data is read.
@@ -40,7 +40,7 @@
 
 *   [T1】 void readFully (byte [] b, int off, int len): Read len bytes from the input stream.
 
-    ```
+    ```java
     Syntax:public final void readFully(byte[] b,
                  int off,
                  int len)
@@ -54,7 +54,7 @@
 
 *   **String readline ():** Read the next line of text from the input stream.
 
-    ```
+    ```java
     Syntax:
     Returns: the next line of text from this input stream.
     Throws: IOException
@@ -64,7 +64,7 @@
 
 *   **Long readLong():** Read 8 input bytes and return a long value.
 
-    ```
+    ```java
     Syntax:public final long readLong()
                         throws IOException
     Returns: the next eight bytes of this input stream, interpreted as a long.
@@ -75,7 +75,7 @@
 
 *   **Short read short ():** Read two input bytes and return a short value.
 
-    ```
+    ```java
     Syntax:public final short readShort()
                           throws IOException
     Returns:
@@ -87,7 +87,7 @@
 
 *   **String read UTF ():** Read the string encoded in the modified UTF-8 format.
 
-    ```
+    ```java
     Syntax:public final String readUTF()
                          throws IOException
     Returns:
@@ -100,7 +100,7 @@
 
 *   **int skip bytes (int n):** Try to skip n bytes of data in the input stream and discard the skipped bytes.
 
-    ```
+    ```java
     Syntax:public final int skipBytes(int n)
                         throws IOException
     Parameters: n - the number of bytes to be skipped.
@@ -111,7 +111,7 @@
 
 **节目 2:**
 
-```
+```java
 //Java program to demonstrate DataInputStream
 // This program uses try-with-resources. It requires JDK 7 or later.
 import java.io.*;
@@ -180,7 +180,7 @@ class DataInputStreamDemo
 
 **输出:**
 
-```
+```java
 Values: 49  4.4545 geeksforgeeks  GeeksforGeeks 
 [67, 68, 69, 70]
 ```

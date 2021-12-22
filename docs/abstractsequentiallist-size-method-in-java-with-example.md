@@ -6,7 +6,7 @@ Java 中**抽象顺序列表**的 **size()** 方法用于获取抽象顺序列�
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -18,7 +18,7 @@ public int size()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // size() method in AbstractSequentialList
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [1, 2, 3, 4]
 Size: 4
 
@@ -60,7 +60,7 @@ Size: 4
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // size() method in AbstractSequentialList
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [Geeks, For, ForGeeks, GeeksForGeeks]
 Size: 4
 

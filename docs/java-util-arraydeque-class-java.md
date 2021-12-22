@@ -7,7 +7,7 @@
 
 **申报**
 
-```
+```java
 public class ArrayDeque
    extends AbstractCollection
    implements Deque, Cloneable, Serializable
@@ -18,7 +18,7 @@ public class ArrayDeque
 **1。添加(元素 e) :** [**添加**](https://www.geeksforgeeks.org/arraydeque-add-method-in-java/) **(元素 e)** 在元素末尾插入特定元素。
 **语法:**
 
-```
+```java
 public boolean add(Element e)
 Parameter
 e : element to add
@@ -29,7 +29,7 @@ true : if element is inserted, else no
 **2。addFirst(Element e):**[**Java . util . arraydeque . addFirst**](https://www.geeksforgeeks.org/arraydeque-addfirst-method-in-java/)**(Element e)**在 deque 的开头插入特定元素。
 **语法:**
 
-```
+```java
 public boolean addFirst(Element e)
 Parameter
 e : element to add at the start
@@ -40,7 +40,7 @@ true : if element is inserted, else no
 **3。addLast(Element e):**[**Java . util . arrayDeque . addLast**](https://www.geeksforgeeks.org/arraydeque-addlast-method-in-java/)**(Element e)**在 deque 的末尾插入特定元素。类似于 **add()** 方法
 **语法:**
 
-```
+```java
 public boolean addaddLast(Element e)
 Parameter
 e : element to add at end
@@ -51,7 +51,7 @@ true : if element is inserted, else no
 **4。clear():**[**Java . util . arraydeque . clear()**](https://www.geeksforgeeks.org/arraydeque-clear-method-in-java/)**移除了所有的德格元素。
 **语法:****
 
-```
+```java
 public void clear()
 **Parameter**
 -------
@@ -62,7 +62,7 @@ public void clear()
 ****5。size():**[**Java . util . arraydeque . size()**](https://www.geeksforgeeks.org/arraydeque-size-method-in-java/)**返回德格中的元素个数。
 **语法:******
 
-```
+```java
 **public int size()
 **Parameter**
 -----
@@ -73,7 +73,7 @@ no. of elements in deque.**
 ******6。clone():**[**Java . util . arraydeque . clone()**](https://www.geeksforgeeks.org/arraydeque-clone-method-in-java/)复制了德格。
 **语法:******
 
-```
+```java
 **public ArrayDeque clone()
 **Parameter**
 --------
@@ -84,7 +84,7 @@ copy of deque**
 ******7。contains(Obj):**[**Java . util . arrayDeque . contains**](https://www.geeksforgeeks.org/arraydeque-contains-method-in-java/)**(Obj)**检查一个 deque 是否包含该元素
 **语法:******
 
-```
+```java
 **public boolean contains(Object obj) 
 **Parameter**
 obj : object to be checked
@@ -95,7 +95,7 @@ true, if element is +nt in the deque; else false**
 ******8。iterator():**[**Java . util . arrayDeque . iterator()**](https://www.geeksforgeeks.org/arraydeque-iterator-method-in-java/)**返回一个对 deque 的迭代器。
 **语法:********
 
-```
+```java
 **public Iterator Iterator()
 **Parameter**
 ----------
@@ -106,7 +106,7 @@ iterator over the deque.**
 ******9。下行迭代器():**[**Java . util . arraydeque .下行迭代器()**](https://www.geeksforgeeks.org/arraydeque-descendingiterator-method-in-java/) 返回一个逆序迭代器，该迭代器覆盖了 deque
 **语法:******
 
-```
+```java
 **public Iterator descendingIterator()
 **Parameter**
 ----------
@@ -117,7 +117,7 @@ returns a reverse order iterator over the deque.**
 ******10。element():**[**Java . util . arrayDeque . element()**](https://www.geeksforgeeks.org/arraydeque-element-method-in-java/)**返回元素在 deque 的头部
 **语法:********
 
-```
+```java
 **public E element()
 **Parameter**
 ------
@@ -128,7 +128,7 @@ head element of the deque**
 ******11 时。getFirst:**[**Java . util . arrayDeque . getFirst()**](https://www.geeksforgeeks.org/arraydeque-getfirst-method-in-java/)返回 deque 的第一个元素
 **语法:******
 
-```
+```java
 **public E getFirst()
 **Parameter**
 ------
@@ -139,7 +139,7 @@ head element of the deque**
 ******12 时。getLast:**[**Java . util . arraydeque . getLast()**](https://www.geeksforgeeks.org/arraydeque-getlast-method-in-java/)返回 deque 的最后一个元素
 **语法:******
 
-```
+```java
 **public E getLast()
 **Parameter**
 ------
@@ -150,7 +150,7 @@ last element of the deque**
 ******13。isEmpty():**[**Java . util . arrayDeque . isEmpty()**](https://www.geeksforgeeks.org/arraydeque-isempty-method-in-java/)**检查 deque 是否为空。
 **语法:********
 
-```
+```java
 **public boolean isEmpty()
 **Parameter**
 ------
@@ -161,7 +161,7 @@ true if the deque is empty; else false**
 ******14。toArray():**[**Java . util . arraydeque . toArray()**](https://www.geeksforgeeks.org/arraydeque-toarray-method-in-java/)**返回具有德格元素的数组。
 **语法:********
 
-```
+```java
 **public Object[] toArray()
 **Parameter**
 ------
@@ -173,7 +173,7 @@ returns array having the elements of deque.**
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java code explaining the use of ArrayDeque class methods
 // add(), addFirst(), addLast(), clear(), size(), conatins()
 // descendingIterator(), element(), getFirst(), isEmpty(),
@@ -261,7 +261,7 @@ public class NewClass
 
 ******输出:******
 
-```
+```java
 **Element : 2
 Element : 4
 Element : 6

@@ -6,16 +6,16 @@
 
 插图:
 
-```
+```java
 Input Format: Enter value of N ( >=5 )
 Constraints: 5 <= N <= 99
 ```
 
-```
+```java
 Output Format: Print the required pattern.
 ```
 
-```
+```java
 *     * * * *
 
 *     *
@@ -50,7 +50,7 @@ Output Format: Print the required pattern.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Swastika Sign Pattern Printing
 
 // Main class

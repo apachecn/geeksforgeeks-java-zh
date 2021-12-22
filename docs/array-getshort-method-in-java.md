@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 Array.getShort(Object []array,int index)
 
 ```
@@ -30,7 +30,7 @@ Array.getShort(Object []array,int index)
 
 **程序 1** :
 
-```
+```java
 // Java code to demonstrate getShort() method of Array class
 import java.lang.reflect.Array;
 public class GfG  {
@@ -56,14 +56,14 @@ public class GfG  {
 
 **Output:**
 
-```
+```java
 1 2 3 4 5
 
 ```
 
 **程序 2** :演示 Java . lang . arrayindexoutofboundsexception。
 
-```
+```java
 // Java code to demonstrate getShort() method in Array
 import java.lang.reflect.Array;
 
@@ -88,14 +88,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.ArrayIndexOutOfBoundsException
 
 ```
 
 **程序 3** :演示 java.lang.NullPointerException。
 
-```
+```java
 // Java code to demonstrate getShort() method in Array
 import java.lang.reflect.Array;
 
@@ -120,14 +120,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.NullPointerException
 
 ```
 
 **程序 4** :演示 Java . lang . illegalargumentexception。
 
-```
+```java
 // Java code to demonstrate getShort() method in Array
 import java.lang.reflect.Array;
 
@@ -152,7 +152,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.IllegalArgumentException: Argument is not an array
 
 ```

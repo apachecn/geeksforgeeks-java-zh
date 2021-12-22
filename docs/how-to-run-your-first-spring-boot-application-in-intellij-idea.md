@@ -48,7 +48,7 @@
 
 > ***注意:***Tomcat 服务器的默认端口是 8080，可以使用下面这一行代码在 **application.properties** 文件中进行更改。
 > 
-> ```
+> ```java
 > *server.port=8989*
 > ```
 

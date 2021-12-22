@@ -28,7 +28,7 @@ JPanel 是 [Java Swing 包](https://www.geeksforgeeks.org/difference-between-awt
 
 ## 爪哇
 
-```
+```java
 // Java Program to Create a Simple JPanel
 // and Adding Components to it
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection c)
 ```
 
@@ -22,7 +22,7 @@ public boolean removeAll(Collection c)
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate removeAll()
     // method of ConcurrentSkipListSet
 
@@ -67,7 +67,7 @@ public boolean removeAll(Collection c)
 
     **Output:**
 
-    ```
+    ```java
     Contents of the list: [1, 3, 5, 7, 9]
     Contents of the set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     Contents of the set after removal: [2, 4, 6, 8, 10]
@@ -76,7 +76,7 @@ public boolean removeAll(Collection c)
 
     **程序 2:** 在 removeAll()中显示 NullPOinterException 的程序。
 
-    ```
+    ```java
     // Java program to demonstrate removeAll()
     // method of ConcurrentSkipListSet
 
@@ -112,7 +112,7 @@ public boolean removeAll(Collection c)
 
     **Output:**
 
-    ```
+    ```java
     Contents of the set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     Exception: java.lang.NullPointerException
 

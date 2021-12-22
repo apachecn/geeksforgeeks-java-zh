@@ -16,7 +16,7 @@ Java 编程的过程可以简化为三个步骤:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This is a simple Java program.
 // FileName : "HelloWorld.java".
 
@@ -33,7 +33,7 @@ class HelloWorld
 
 **Output**
 
-```
+```java
 Hello, World
 ```
 
@@ -43,7 +43,7 @@ Hello, World
 
 这一行使用关键字 **class** 来声明正在定义一个新的类。
 
-```
+```java
 class HelloWorld 
 ```
 
@@ -55,7 +55,7 @@ class HelloWorld
 
 在 Java 编程语言中，每个应用程序都必须包含一个主方法，其签名是:
 
-```
+```java
 public static void main(String[] args)
 ```
 
@@ -69,7 +69,7 @@ public static void main(String[] args)
 
 这里显示了下一行代码。请注意，它发生在 main()方法内部。
 
-```
+```java
 System.out.println("Hello, World");
 ```
 
@@ -79,7 +79,7 @@ System.out.println("Hello, World");
 
 它们可以是多行或单行注释。
 
-```
+```java
 // This is a simple Java program. 
 // Call this file "HelloWorld.java". 
 ```
@@ -96,13 +96,13 @@ System.out.println("Hello, World");
 *   成功[设置环境](https://www.geeksforgeeks.org/setting-environment-java/)后，我们可以在 Windows/Unix 中打开一个终端，进入文件所在的目录——HelloWorld.java。
 *   现在，要编译 HelloWorld 程序，执行编译器–javac，在命令行上指定**源**文件的名称，如图所示:
 
-```
+```java
 javac HelloWorld.java 
 ```
 
 *   编译器创建一个 HelloWorld.class(在当前工作目录中)，其中包含程序的字节码版本。现在，要执行我们的程序，需要使用 Java 调用 **JVM** (Java 虚拟机)，在命令行上指定**类**文件的名称，如图所示:
 
-```
+```java
 java HelloWorld
 ```
 

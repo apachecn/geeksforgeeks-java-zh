@@ -6,7 +6,7 @@ Java 中**控制台**类的 **reader()** 方法用于检索与控制台关联的
 
 **语法:**
 
-```
+```java
 public Reader reader()
 
 ```
@@ -23,7 +23,7 @@ public Reader reader()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Console reader() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Console reader() method
 

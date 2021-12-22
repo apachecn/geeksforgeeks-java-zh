@@ -20,7 +20,7 @@ A **静态地图**是定义为[静态](https://www.geeksforgeeks.org/static-keyw
 
 **例 1:**
 
-```
+```java
 // Java program to create a static map using Java 9
 
 import java.util.*;
@@ -43,14 +43,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 {3=GeeksForGeeks, 2=Geek, 1=GFG}
 
 ```
 
 **示例 2:** 显示给出 10 个键值对时的错误
 
-```
+```java
 // Java program to create a static map using Java 9
 
 import java.util.*;
@@ -80,14 +80,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 {10=o, 9=f, 8=s, 7=k, 6=e, 5=e, 4=G, 3=GeeksForGeeks, 2=Geek, 1=GFG}
 
 ```
 
 **示例 3:** 显示给出 10 个以上键值对时的错误
 
-```
+```java
 // Java program to create a static map using Java 9
 
 import java.util.*;
@@ -118,7 +118,7 @@ class GFG {
 
 **编译错误:**
 
-```
+```java
 Main.java:12: error: no suitable method found for
  of(String, String,
     String, String,

@@ -6,7 +6,7 @@ Java 中**ChronalDatetime**接口的**adjustitinto()**方法用于调整指定�
 
 **语法** :
 
-```
+```java
 default Temporal adjustInto(Temporal temporal)
 
 ```
@@ -24,7 +24,7 @@ default Temporal adjustInto(Temporal temporal)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the adjustInto() method
 
 import java.util.*;
@@ -57,7 +57,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12
 2019-05-14T09:39:37.953
 
@@ -65,7 +65,7 @@ public class GfG {
 
 **节目 2** :举例说明异常。下面的程序抛出一个异常，因为 2 月是 28 天，而不是 31 天。
 
-```
+```java
 // Program to illustrate the adjustInto() method
 // Exception Program
 
@@ -104,7 +104,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12
 java.time.format.DateTimeParseException:
  Text '2015-02-31' could not be parsed at index 10

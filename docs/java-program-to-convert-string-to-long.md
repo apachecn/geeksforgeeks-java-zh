@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : String = "20"
 Output: 20
 
@@ -32,13 +32,13 @@ Long.parseLong()方法是一种方法，其中字符串中的所有字符都必�
 
 **语法:**
 
-```
+```java
 Long varLong=Long.parseLong(str);
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert String to Long 
 // using parseLong() 
 
@@ -63,7 +63,7 @@ public class GFG { 
 
 **Output**
 
-```
+```java
 String - 999999999999
 Long - 999999999999
 ```
@@ -74,13 +74,13 @@ Long.valueOf()方法是将字符串转换为长值的方法。与 parseLong(Stri
 
 **语法:**
 
-```
+```java
 long varLong = Long.valueOf(str);
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert String to Long
 // using valueOf() 
 
@@ -105,7 +105,7 @@ public class GFG { 
 
 **Output**
 
-```
+```java
 String - 999999999999
 Long - 999999999999
 ```
@@ -116,7 +116,7 @@ long 类有一个构造函数，它允许 String 参数，并创建一个新的 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 import java.io.*;
 
@@ -136,7 +136,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 String - 999999999
 Long - 999999999
 ```

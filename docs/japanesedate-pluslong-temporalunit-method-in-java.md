@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public JapaneseDate plus(long amountToAdd,
                          TemporalUnit unit)
 
@@ -25,7 +25,7 @@ public JapaneseDate plus(long amountToAdd,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // plus() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old Japanese date: Japanese Heisei 2012-06-23
 New Japanese date: Japanese Heisei 2012-07-15
 
@@ -89,7 +89,7 @@ New Japanese date: Japanese Heisei 2012-07-15
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // plus() method
 
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old Japanese date: Japanese Heisei 2012-06-23
 New Japanese date: Japanese Heisei 2018-06-23
 

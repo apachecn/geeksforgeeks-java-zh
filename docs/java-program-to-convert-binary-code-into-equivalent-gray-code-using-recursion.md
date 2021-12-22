@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input:    1101
 Output:    1011
 
@@ -27,7 +27,7 @@ Output:    10111001
 
 ## 爪哇
 
-```
+```java
 // Java Program to Convert Binary Code
 // Into Equivalent Gray Code Using Recursion
 import java.io.*;
@@ -65,7 +65,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Gray Code is 10111001
 
 ```
@@ -83,7 +83,7 @@ Gray Code is 10111001
 
 ## 爪哇
 
-```
+```java
 // Java Program to Convert Binary Code
 // Into Equivalent Gray Code Using Recursion
 import java.io.*;
@@ -125,7 +125,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Gray Code is 01101
 ```
 

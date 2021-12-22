@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Object obj ;
 if (true) {
     obj = new Integer(4) ;
@@ -17,7 +17,7 @@ if (true) {
 
 因此，使用条件运算符时，我们期望表达式的语法如下:
 
-```
+```java
 Object obj = true ? new Integer(4) : new Float(2.0));
 ```
 
@@ -27,7 +27,7 @@ Object obj = true ? new Integer(4) : new Float(2.0));
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate
 // Replacing of Conditional Operator
 // with If-else and viceversa

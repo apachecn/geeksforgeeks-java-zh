@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract DoubleBuffer compact()
 ```
 
@@ -20,7 +20,7 @@ public abstract DoubleBuffer compact()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original DoubleBuffer: [8.5600004196167, 9.609999656677246, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 Position: 3
 limit: 10
@@ -96,7 +96,7 @@ limit: 10
 
 **示例 2:** 显示 ReadOnlyBufferException
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ReadOnlyBuffer DoubleBuffer: 8.5600004196167, 9.609999656677246, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 
 
 Position: 0

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void transfer(E e)
 
 ```
@@ -24,7 +24,7 @@ public void transfer(E e)
 
 **程序 1:** 说明 Java 中的 LinkedTransferQueue.transfer()方法。
 
-```
+```java
 // Java program to illustrate
 // LinkedTransferQueue.transfer() method
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Transferring an element
 Geeks for Geeks is a computer science portal.
 Element transfer is complete
@@ -86,7 +86,7 @@ Element transfer is complete
 
 **程序 2:** 说明空指针异常
 
-```
+```java
 // Java program to illustrate
 // LinkedTransferQueue.transfer() method
 
@@ -137,7 +137,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Transferring an element
 java.lang.NullPointerException
 

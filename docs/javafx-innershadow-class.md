@@ -39,7 +39,7 @@ InnerShadow 类是 JavaFX 的一部分。InnerShadow 类创建一个高级效果
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a Circle
 // and add InnerShadow effect to it
 import javafx.application.Application;
@@ -109,7 +109,7 @@ public class Inner_shadow_1 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create four Circles and add
 // InnerShadow effect to it which are of different
 // blur types and different values of choke,

@@ -7,13 +7,13 @@
 
 *   **公共多播套接字():**创建多播套接字。当使用这个构造函数时，我们必须显式设置所有字段，如组地址、端口号等。
 
-```
+```java
 Syntax :public MulticastSocket() 
 ```
 
 *   **公共多播套接字(int 端口):**创建绑定在指定端口上的多播套接字。
 
-```
+```java
 Syntax :public MulticastSocket(int port) 
 Parameters : 
 port : port number to bind this socket to
@@ -21,7 +21,7 @@ port : port number to bind this socket to
 
 *   **公共多播套接字(SocketAddress bindaddr) :** 创建一个多播套接字，并将其绑定到指定的套接字地址。如果地址为空，则创建未绑定的套接字。
 
-```
+```java
 Syntax :public MulticastSocket(SocketAddress bindaddr) 
 Parameters : 
 bindaddr : Socket address to bind this socket to
@@ -31,7 +31,7 @@ bindaddr : Socket address to bind this socket to
 
 *   **settl(已弃用):**用于设置从该组播套接字发送的数据包的生存时间，限制数据包的范围。此方法不推荐使用，因为它使用字节作为设置 TTL 的参数。setTimeToLive()用在它的位置。
 
-```
+```java
 Syntax :public void setTTL(byte ttl)
 Parameters :
 ttl : the time to live
@@ -39,7 +39,7 @@ ttl : the time to live
 
 *   **settitemolive():**该方法代替上述方法，因为它使用 int 值作为参数。指定的 ttl 必须在范围 0 < =ttl < =255 内，否则将引发 illegalArgumentException。
 
-```
+```java
 Syntax :public void setTimeToLive(int ttl)
 Parameters :
 ttl : the time to live
@@ -47,19 +47,19 @@ ttl : the time to live
 
 *   **getTTL(已弃用):**用于获取从该多播套接字发送的数据包的默认生存时间
 
-```
+```java
 Syntax :public byte getTTL()
 ```
 
 *   **gettimeolive():**返回从该多播套接字发送的数据包的默认生存时间。
 
-```
+```java
 Syntax :public void getTimeToLive()
 ```
 
 *   **joinGroup() :** 用于加入组播组。加入该组后，客户端将开始接收发送到该多播组地址的所有数据包。此方法接受要加入的组的地址。可以使用 setInterface()和 setNetworkInterface()方法对其行为进行进一步的更改。
 
-```
+```java
 Syntax :public void joinGroup(InetAddress mcastaddr)
                throws IOException
 Parameters :
@@ -71,7 +71,7 @@ not a multicast address.
 
 另一种重载方法，它还指定了加入组时要使用的网络接口。
 
-```
+```java
 Syntax :public void joinGroup(SocketAddress mcastaddr,
              NetworkInterface netIf)
                throws IOException
@@ -85,7 +85,7 @@ not a multicast address.
 
 *   **leaveGroup() :** 用于离开组播组。离开该组后，客户端将无法接收发往该组地址的数据包。
 
-```
+```java
 Syntax :public void leaveGroup(InetAddress mcastaddr)
                throws IOException
 Parameters :
@@ -96,7 +96,7 @@ IOException : if error occurs while leaving
 
 另一种用于离开组的重载方法，它也允许指定离开组的网络接口。
 
-```
+```java
 Syntax :public void leaveGroup(SocketAddress mcastaddr,
              NetworkInterface netIf)
                throws IOException
@@ -109,7 +109,7 @@ IOException : if error occurs while leaving
 
 *   **setInterface() :** 用于设置组播网络接口。
 
-```
+```java
 Syntax :public void setInterface(InetAddress inf)
                   throws SocketException
 Parameters :
@@ -120,7 +120,7 @@ SocketException : if error in underlying protocol
 
 *   **getInterface() :** 返回用于组播数据包的网络接口。
 
-```
+```java
 Syntax :public InetAddress getInterface()
                          throws SocketException
 Throws :
@@ -129,7 +129,7 @@ SocketException : if error in underlying protocol
 
 *   **setNetworkInterface() :** 用于指定此套接字上传出数据包的网络接口。
 
-```
+```java
 Syntax :public void setNetworkInterface(NetworkInterface netIf)
                          throws SocketException
 Parameters :
@@ -140,7 +140,7 @@ SocketException : if error in underlying protocol
 
 *   **getNetworkInterface() :** 返回此套接字上传出数据包的网络接口。
 
-```
+```java
 Syntax :public NetworkInterface getNetworkInterface()
                                      throws SocketException
 Throws :
@@ -149,7 +149,7 @@ SocketException : if error in underlying protocol
 
 *   **setLoopbackMode() :** 用于指定组播数据包是否会环回至本地套接字。
 
-```
+```java
 Syntax : public void setLoopbackMode(boolean disable)
                      throws SocketException
 Parameters :
@@ -158,7 +158,7 @@ disable : true or false
 
 *   **getLoopbackMode() :** 返回环回模式的设置。
 
-```
+```java
 Syntax : public vboolean getLoopbackMode()
                      throws SocketException
 ```
@@ -169,7 +169,7 @@ Syntax : public vboolean getLoopbackMode()
     发送信息包；
     msock . settitemolive(TTL)；
 
-```
+```java
 Syntax :public void send(DatagramPacket p,
                    byte ttl)
           throws IOException
@@ -184,7 +184,7 @@ IOException : If error occurs while setting the ttl
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to illustrate various
 //MulticastSocket class methods
 import java.io.IOException;
@@ -250,7 +250,7 @@ public class multisock
 
 **输出:**
 
-```
+```java
 TTL : 20
 Time to Live : 20
 Interface : /127.0.0.1

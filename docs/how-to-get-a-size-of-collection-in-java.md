@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Array_List: [1, 2, 3,4]
 Output: 4
 
@@ -23,7 +23,7 @@ Output: 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // size() method of collection
 
@@ -57,7 +57,7 @@ public class Example1 {
 
 **Output**
 
-```
+```java
 Size of list = 4
 Array_List = [1, 2, 3, 3]
 ```
@@ -66,7 +66,7 @@ Array_List = [1, 2, 3, 3]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // size() method of Collection
 import java.util.*;
@@ -100,7 +100,7 @@ class Example2 {
 
 **Output**
 
-```
+```java
 Size of the linkedlist = 3
 Linkedlist = [GEEKS, FOR, GEEKS]
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration negated()
 
 ```
@@ -21,7 +21,7 @@ public Duration negated()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate negated() method
 
 import java.time.Duration;
@@ -42,14 +42,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT-51H-4M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate negated() method
 
 import java.time.Duration;
@@ -71,7 +71,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT-120H
 
 ```

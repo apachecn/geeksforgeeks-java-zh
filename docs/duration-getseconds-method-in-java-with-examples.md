@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getSeconds()
 
 ```
@@ -19,7 +19,7 @@ public long getSeconds()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate getSeconds() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 183840
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getSeconds() method
 
 import java.time.Duration;
@@ -71,7 +71,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 18000
 
 ```

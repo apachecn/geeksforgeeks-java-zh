@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 listIterator.remove();
 ```
 
@@ -47,7 +47,7 @@ listIterator.remove();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove an element from ArrayList
 // using ListIterator
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 List Before remove() method = [Red, White, Blue, Pink, Black, Green]
 List After remove() method =  [Red, White, Pink, Black, Green]
 ```
@@ -114,7 +114,7 @@ List After remove() method =  [Red, White, Pink, Black, Green]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove an element from ArrayList
 // using ListIterator
 
@@ -167,7 +167,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 List Before remove() :- [Red, White, Blue, Pink, black, green]
 List After remove():- [Red, White, Pink, black, green]
 ```

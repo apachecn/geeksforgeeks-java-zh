@@ -5,7 +5,7 @@
 T2。toEngineeringString() 方法用于表示当前的 BigDecimal，如果需要指数，则使用工程符号将该方法调用为字符串形式。BigDecimal 的字符串表示与 [toString()](https://www.geeksforgeeks.org/bigdecimal-tostring-method-in-java-with-examples/) 方法中描述的相同，只是如果使用指数表示法，十的幂被调整为三的倍数(工程表示法)，这样非零值的整数部分将在 1 到 999 的范围内。
 **语法:**
 
-```
+```java
 public String toEngineeringString()
 
 ```
@@ -16,7 +16,7 @@ public String toEngineeringString()
 下面的程序说明了如何在 java 中使用 toEngineeringString()方法
 **示例 1:** 示例将 BigDecimal 转换为无指数符号的工程字符串
 
-```
+```java
 // Java program to demonstrate
 // toEngineeringString() method of BigDecimal
 
@@ -70,7 +70,7 @@ class GFG {
 
 **例 2:** 用指数表示法将 BigDecimal 转换为工程字符串的示例
 
-```
+```java
 // Java program to demonstrate
 // toEngineeringString() method of BigDecimal
 

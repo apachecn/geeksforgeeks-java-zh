@@ -8,14 +8,14 @@
 
 1.  **[applyastdouble ()]** : This function takes two double precision values, performs the required operation, and returns the result as double precision.
 
-    ```
+    ```java
     public double applyAsDouble(double val1, double val2)
 
     ```
 
 将双二进制运算符接口演示为[λ表达式](https://www.geeksforgeeks.org/lambda-expressions-java-8/)的示例。
 
-```
+```java
 // Java program to demonstrate DoubleBinaryOperator
 
 import java.util.function.DoubleBinaryOperator;
@@ -71,7 +71,7 @@ public class DoubleBinaryOperatorDemo {
 
 **输出:**
 
-```
+```java
 x + y = 13.221
 x - y = 2.0869999999999997
 x * y = 42.609818000000004

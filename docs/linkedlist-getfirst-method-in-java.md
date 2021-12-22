@@ -8,14 +8,14 @@
 
 插图:
 
-```
+```java
 Input : 4 --> 1 --> 5 --> 6 --> 1 --> 3
 Output: 4
 ```
 
 众所周知，getFirst()是 [LinekdList 类中已经存在的方法之一。](https://www.geeksforgeeks.org/linked-list-in-java/)它从链接列表的元素所在的对象中检索第一个元素。正如我们所知，LinkedList 是存在于 [java.util 包](https://www.geeksforgeeks.org/java-util-package-java/)中的一个类，因此，如果我们操作以下方法，语法将如下所示:
 
-```
+```java
 import java.util.LinkedList;
 LinkedList ll = new LinkedList<T>();  
 ll.getFirst();
@@ -25,7 +25,7 @@ ll.getFirst();
 
 **语法:**
 
-```
+```java
 LinkedList.getFirst();
 ```
 
@@ -35,7 +35,7 @@ LinkedList.getFirst();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate getFirst() Method
 // of LinkedList class
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 The first element is: Geeks
 ```

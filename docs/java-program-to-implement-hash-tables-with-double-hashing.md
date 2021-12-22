@@ -17,11 +17,11 @@
 
 **算法:**
 
-```
+```java
 h1(key) = key% hash_table_size
 ```
 
-```
+```java
 h2(key) = PM-(key%PM)*PM 
 // where PM is prime number
 ```
@@ -32,7 +32,7 @@ h2(key) = PM-(key%PM)*PM
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement hashtable in
 // double hashing
 
@@ -273,7 +273,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Hash Table Testing
 
 Hash Table
@@ -286,7 +286,7 @@ odd 95
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement hashtable in
 // double hashing
 
@@ -525,7 +525,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Hash Table Testing
 
 Hash Table

@@ -7,7 +7,7 @@
 **方法 1:** 使用 for 循环:
 这是最简单的方法，我们只需要使用 for 循环，其中计数器变量逐个访问每个元素。
 
-```
+```java
 // Java program to iterate over an array
 // using for loop
 import java.io.*;
@@ -31,7 +31,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1 2 3 4 5 6 7 8 
 
 ```
@@ -39,7 +39,7 @@ class GFG {
 **方法 2:** 每个循环使用:
 每个循环优化代码，节省打字和时间。
 
-```
+```java
 // JAVA program to iterate over an array
 // using for loop
 import java.io.*;
@@ -63,7 +63,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1 2 3 4 5 6 7 8 
 
 ```

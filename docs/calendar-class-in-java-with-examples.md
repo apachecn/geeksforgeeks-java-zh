@@ -13,7 +13,7 @@ Java 中的 Calendar 类是一个抽象类，它提供了在特定时刻和一�
 
 **Java 程序演示 getInstance()方法** :
 
-```
+```java
 // Date getTime(): It is used to return a
 // Date object representing this
 // Calendar's time value.
@@ -30,7 +30,7 @@ public class Calendar1 {
 
 **输出:**
 
-```
+```java
 The Current Date is:Tue Aug 28 11:10:40 UTC 2018
 
 ```

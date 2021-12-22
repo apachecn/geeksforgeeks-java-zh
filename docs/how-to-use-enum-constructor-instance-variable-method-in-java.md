@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Usage of Enum
 // Constructor, Instance Variable & Method
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Total price of fruits : 
 Apple costs 120 rupees per kg.
 Kiwi costs 60 rupees per kg.

@@ -5,7 +5,7 @@
 [**数组列表**](https://www.geeksforgeeks.org/arraylist-in-java/) 的**retainnal()**方法用于移除指定集合中未包含的所有数组列表元素，或者保留当前数组列表实例中所有匹配元素，这些元素匹配作为参数传递给该方法的集合列表中的所有元素。
 **语法:**
 
-```
+```java
 public boolean retainAll(Collection C)
 ```
 
@@ -19,7 +19,7 @@ public boolean retainAll(Collection C)
 下面的程序用来说明 Java . util . ArrayList . retainnal()方法:
 **程序 1:** 将 ArrayList 集合作为参数传递给方法。
 
-```
+```java
 // Java code to illustrate retainAll() method
 import java.util.ArrayList;
 public class GFG {
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Bags Contains :[pen, pencil, paper]
 Boxes Contains :[pen, paper, books, rubber]
 

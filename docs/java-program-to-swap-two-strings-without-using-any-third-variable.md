@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: a = "Hello"
        b = "World"
 
@@ -22,7 +22,7 @@ Strings after swap: a = World and b = Hello
 
 **算法:**
 
-```
+```java
 1) Append second string to first string and 
    store in first string:
    a = a + b
@@ -42,7 +42,7 @@ Strings after swap: a = World and b = Hello
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to swap two strings without using a temporary
 // variable.
 import java.util.*;
@@ -77,7 +77,7 @@ class Swap
 
 **Output**
 
-```
+```java
 Strings before swap: a = Hello and b = World
 Strings after swap: a = World and b = Hello
 ```

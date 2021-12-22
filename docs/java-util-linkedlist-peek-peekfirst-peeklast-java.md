@@ -8,7 +8,7 @@
 
 **1。peek() :** 此方法**检索，但不移除**，即此列表的头部(第一个元素)。**
 
-```
+```java
 Declaration : 
    public E peek()
 Return Value : 
@@ -16,7 +16,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of peek() in LinkedList
 import java.util.*;
@@ -45,7 +45,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial list is :[Geeks, 4, Geeks, 8]
 Head of the list : Geeks
 
@@ -53,7 +53,7 @@ Head of the list : Geeks
 
 **2。peekFirst() :** 这个方法**检索，但是不移除**，这个列表的第一个元素，或者如果这个列表是空的，返回 null。这类似于 peek()。
 
-```
+```java
 Declaration : 
    public E peekFirst()
 Return Value : 
@@ -61,7 +61,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of peekFirst() in LinkedList
 import java.util.*;
@@ -90,7 +90,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial list is :[Geeks, 4, Geeks, 8]
 First element of the list is : Geeks
 
@@ -98,7 +98,7 @@ First element of the list is : Geeks
 
 **3。peekLast() :** 此方法**检索**，但不移除此列表的**最后一个元素**，如果此列表为空，则返回 null。
 
-```
+```java
 Declaration
   public E peekLast()
 Return Value
@@ -106,7 +106,7 @@ Return Value
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of peekLast() in LinkedList
 import java.util.*;
@@ -135,7 +135,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial list is :[Geeks, 4, Geeks, 8]
 Last element of the list is : 8
 
@@ -143,7 +143,7 @@ Last element of the list is : 8
 
 **实际应用:**可以想到的实际应用是，这可以用于潜在的纸牌游戏中，其中**个人可以在询问他们想要看哪一个元素时偷看纸牌的第一个或最后一个元素**。下面的代码解释了工作原理。
 
-```
+```java
 // Java code to demonstrate the application
 // of peek()
 import java.util.*;
@@ -179,7 +179,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial deck is :[5, 4, Jack, 8, King]
 The element chosen to peek is : upper
 The Upper element is : 5

@@ -9,7 +9,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。该库便于在应用程序中轻松集成警报视图。警报视图是可定制的，它显示在应用程序中正在进行的活动上。该库还兼容 **AndroidX** 。
 
-    ```
+    ```java
     dependencies {
         implementation 'com.tapadoo.android:alerter:2.0.4'
     }
@@ -19,7 +19,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout
 
@@ -47,7 +47,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgAlerter;
 
     import androidx.appcompat.app.AppCompatActivity;

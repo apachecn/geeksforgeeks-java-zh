@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Instant plusSeconds(long secondsToAdd)
 ```
 
@@ -23,7 +23,7 @@ public Instant plusSeconds(long secondsToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.plusSeconds() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2018-10-28T19:34:50.630Z
 Returned Instant: 2018-10-29T18:54:50.630Z
 
@@ -62,7 +62,7 @@ Returned Instant: 2018-10-29T18:54:50.630Z
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.plusSeconds() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current instant: 2018-11-28T05:39:46.572Z
 Returned Instant: 2018-12-08T23:59:46.572Z
 

@@ -26,7 +26,7 @@
 
 导航到 **Gradle 脚本> build.gradle(模块:应用)**，在依赖项部分添加库，并同步项目。
 
-```
+```java
 implementation 'com.facebook.device.yearclass:yearclass:2.1.0'
 ```
 
@@ -38,7 +38,7 @@ implementation 'com.facebook.device.yearclass:yearclass:2.1.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -73,7 +73,7 @@ implementation 'com.facebook.device.yearclass:yearclass:2.1.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
      android:fillAfter="true">
@@ -96,7 +96,7 @@ implementation 'com.facebook.device.yearclass:yearclass:2.1.0'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

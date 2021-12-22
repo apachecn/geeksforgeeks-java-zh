@@ -6,7 +6,7 @@ Java 中 **[IntSummaryStatistics 类的 **getCount()** 方法用于获取该 Int
 
 **语法:**
 
-```
+```java
 public long getCount()
 
 ```
@@ -17,7 +17,7 @@ public long getCount()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -48,7 +48,7 @@ public class IntSummaryStatisticsDemo {
 
 **输出:**
 
-```
+```java
 The count of values is 5
 
 ```

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/bitset-class-methods-Java-examples-set-2/](https://www.geeksforgeeks.org/bitset-class-methods-java-examples-set-2/)
 
-```
+```java
 Methods discussed in this post:
                        BitSet class methods.
                /      /     |      |       \       \
@@ -16,7 +16,7 @@ Methods discussed in this post:
 1.  **set():****Java . util . bitset . set()**方法是将指定索引处的位设置为指定值。
     **语法:**
 
-    ```
+    ```java
     public void set(int bitpos)
     public void set(int bitpos, boolean val)
     Parameters:
@@ -30,7 +30,7 @@ Methods discussed in this post:
 2.  **clone():****Java . util . BitSet . clone()**方法克隆一个 BitSet，产生一个与其相等的新 BitSet。该位集的克隆是另一个位集，它具有与该位集完全相同的设为真的位。
     **语法:**
 
-    ```
+    ```java
     public Object clone()
     Return: a clone of this bit set
 
@@ -39,13 +39,13 @@ Methods discussed in this post:
 3.  **基数:****Java . util . BitSet . cardinality()**方法用于查找 Bitset 中的元素个数。
     **语法:**
 
-```
+```java
 public int cardinality()
 Return: the number of bits set to true in this BitSet.
 
 ```
 
-```
+```java
 // Java program explaining BitSet class methods
 // set(), clone(), cardinality()
 import java.util.*;
@@ -89,7 +89,7 @@ public class NewClasss
 
 输出:
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {4, 5, 6}
 bs3 cloned from bs1 : {0, 1, 2, 4}
@@ -101,7 +101,7 @@ Cardinality of bs2 : 3
 *   **clear():****Java . util . BitSet . clear()**方法用于清除元素，即将所有 Bitset 元素设置为 false。
     **语法:**
 
-    ```
+    ```java
     public void clear(int frompos,int topos)
     public void clear(int bitIndex)
     public void clear()
@@ -121,7 +121,7 @@ Cardinality of bs2 : 3
 
     **语法:**
 
-    ```
+    ```java
     public void xor(BitSet set)
     Parameters:
     set - the BitSet with which we need to perform operation
@@ -132,14 +132,14 @@ Cardinality of bs2 : 3
     The index of the highest set bit in the bitset plus one. Returns zero if the bitset contains no set bits.
     **Syntax:**
 
-    ```
+    ```java
     public int length()
     Returns:
     the logical size of this BitSet
 
     ```
 
-    ```
+    ```java
     // Java program explaining BitSet class methods
     //  xor(), length(), clear() methods
     import java.util.*;
@@ -191,7 +191,7 @@ Cardinality of bs2 : 3
 
     输出:
 
-    ```
+    ```java
     bs1 : {1, 2, 3, 4, 6, 7}
     bs2 : {2, 3, 4, 6, 9}
     use of length() : 8

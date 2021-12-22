@@ -5,7 +5,7 @@
 给定一个[格式的日期，将其更改为](https://www.geeksforgeeks.org/java-util-gregoriancalendar-class-java/)[简单日期格式](https://www.geeksforgeeks.org/java-simpledateformat-set-1/)。
 **例:**
 
-```
+```java
 Input: Sat Apr 28 13:36:37 UTC 2018
 Output: 28-Apr-2018
 
@@ -25,7 +25,7 @@ Output: 03-Apr-2019
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert
 // GregorianCalendar to SimpleDateFormat
 
@@ -81,7 +81,7 @@ public class GregorianCalendarToCalendar {
 
 **Output:** 
 
-```
+```java
 Gregorian date: Wed Apr 03 05:21:17 UTC 2019
 SimpleDateFormat: 03-Apr-2019
 ```

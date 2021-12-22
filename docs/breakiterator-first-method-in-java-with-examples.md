@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int first()
 ```
 
@@ -18,7 +18,7 @@ public abstract int first()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate first() method
 
 import java.text.*;
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 first boundary : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // first() method
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 first boundary : 0
 
 ```

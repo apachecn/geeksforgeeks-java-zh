@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isJavaIdentifierStart(int codePoint)
 
 ```
@@ -24,7 +24,7 @@ public static boolean isJavaIdentifierStart(int codePoint)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Character.isJavaIdentifierStart() method 
 import java.lang.*;
@@ -58,7 +58,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 may start a Java identifier is false
 c2 may start a Java identifier is true
 c3 may start a Java identifier is false
@@ -67,7 +67,7 @@ c3 may start a Java identifier is false
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate
 // Character.isJavaIdentifierStart() method 
 import java.lang.*;
@@ -98,7 +98,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 may start a Java identifier is false
 c2 may start a Java identifier is true
 

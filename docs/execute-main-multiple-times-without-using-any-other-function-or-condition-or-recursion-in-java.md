@@ -6,7 +6,7 @@
 
 **解:**
 
-```
+```java
 class Test {
 
     // static block
@@ -23,7 +23,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 Hii
 Hii
 

@@ -22,13 +22,13 @@ JDBC 由 7 个元素组成，称为连接步骤。它们如下所示:
 
 导入包以处理 JDBC 操作的语法:
 
-```
+```java
 import java.sql.* ;
 ```
 
 加载驱动程序类后注册驱动程序的语法:
 
-```
+```java
 forName(com.mysql.jdbc.xyz) ;
 ```
 
@@ -54,7 +54,7 @@ forName(com.mysql.jdbc.xyz) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program  to Retrieve Contents of a Table Using JDBC
 // connection
 
@@ -95,13 +95,13 @@ public class connection {
 
 **3.1:我**用如下的 SQL 查询初始化一个字符串
 
-```
+```java
 String sql="select * from cuslogin";
 ```
 
 **3.2:** 初始化**z**e Connection 类、PreparedStatement 类和 ResultSet 类(JDBC 需要)的以下对象，并按如下方式连接数据库:
 
-```
+```java
 Connection con=null;
 PreparedStatement p=null;
 ResultSet rs=null;
@@ -110,7 +110,7 @@ con=connection.connectDB();
 
 **3.3:** 现在，在 prepareStatement 内部添加 3.1 的 SQL 查询，执行如下
 
-```
+```java
 p =con.prepareStatement(sql);
 rs =p.executeQuery();
 ```
@@ -125,7 +125,7 @@ rs =p.executeQuery();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program retrieving contents of
 // Table Using JDBC connection
 

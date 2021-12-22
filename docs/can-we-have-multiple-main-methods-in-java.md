@@ -12,7 +12,7 @@ Java 是一种面向对象的语言，所有的处理都在类中进行。程序
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Can we have Multiple main
 // methods
 
@@ -46,7 +46,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Inside class GFG
 ```
 
@@ -56,7 +56,7 @@ Inside class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Can we have
 // Multiple main() Methods
 
@@ -110,7 +110,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Can we have
 // Multiple main() Methods
 
@@ -152,7 +152,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1
 hi
 ```

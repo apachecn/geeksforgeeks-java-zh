@@ -16,7 +16,7 @@ IntUnaryOperator 界面由以下功能组成:
 
 **语法:**
 
-```
+```java
 static  IntUnaryOperator identity()
 ```
 
@@ -28,7 +28,7 @@ static  IntUnaryOperator identity()
 
 **程序**
 
-```
+```java
 import java.util.function.IntUnaryOperator;
 
 public class GFG {
@@ -42,7 +42,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 12
 
 ```
@@ -53,7 +53,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 int applyAsInt(int operand)
 ```
 
@@ -63,7 +63,7 @@ int applyAsInt(int operand)
 
 下面是说明 applyAsInt()方法的代码:
 
-```
+```java
 import java.util.function.IntUnaryOperator;
 
 public class GFG {
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 24
 
 ```
@@ -88,7 +88,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 default IntUnaryOperator andThen(IntUnaryOperator after)
 ```
 
@@ -102,7 +102,7 @@ default IntUnaryOperator andThen(IntUnaryOperator after)
 
 **程序 1:**
 
-```
+```java
 import java.util.function.IntUnaryOperator;
 
 public class GFG {
@@ -117,14 +117,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 72
 
 ```
 
 **程序 2:** 演示何时返回 NullPointerException。
 
-```
+```java
 import java.util.function.IntUnaryOperator;
 
 public class GFG {
@@ -139,7 +139,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.NullPointerException
 
 ```
@@ -150,7 +150,7 @@ java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 default IntUnaryOperator compose(IntUnaryOperator before)
 ```
 
@@ -164,7 +164,7 @@ default IntUnaryOperator compose(IntUnaryOperator before)
 
 **程序 1:**
 
-```
+```java
 import java.util.function.IntUnaryOperator;
 
 public class GFG {
@@ -179,14 +179,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 24
 
 ```
 
 **程序 2:** 演示何时返回 NullPointerException。
 
-```
+```java
 import java.util.function.IntUnaryOperator;
 
 public class GFG {
@@ -201,7 +201,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.NullPointerException
 
 ```

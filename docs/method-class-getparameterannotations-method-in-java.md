@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Annotation[][] getParameterAnnotations()
 ```
 
@@ -22,7 +22,7 @@ public Annotation[][] getParameterAnnotations()
 
 该程序包含一个方法名 setManyValues()，其中包含参数注释。所以这个程序将获取 setManyValues()方法包含的所有参数注释。
 
-```
+```java
 // Java program to demonstrate how to
 // apply getParameterAnnotations() method
 // of Method Class.
@@ -97,7 +97,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Method Name: setManyValues
 key of annotation: methodParameter1
 value of annotation: Some value
@@ -106,7 +106,7 @@ value of annotation: Some value
 
 **示例 2:** 如果方法包含 ParameterAnnotations，则对 GFG 类的方法使用 getParameterAnnotations()。
 
-```
+```java
 // Java program to demonstrate how to
 // apply getParameterAnnotations() method
 // of Method Class.
@@ -211,7 +211,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Method Name: getValues
 Annotation length: 1
 field1 of annotation: GFG

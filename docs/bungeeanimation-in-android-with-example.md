@@ -36,7 +36,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 allprojects {          
  repositories {          
         maven { url 'https://jitpack.io' }          
@@ -48,7 +48,7 @@ allprojects {          
 
 ## 可扩展标记语言
 
-```
+```java
 implementation 'com.github.Binary-Finery:Bungee:2.0'
 ```
 
@@ -58,7 +58,7 @@ implementation 'com.github.Binary-Finery:Bungee:2.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -92,7 +92,7 @@ implementation 'com.github.Binary-Finery:Bungee:2.0'
 
 ## 可扩展标记语言
 
-```
+```java
 package org.geeksforgeeks.gfgexcuseme;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -124,7 +124,7 @@ public class SecondActivity extends AppCompatActivity {
 
 ## C++
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -209,7 +209,7 @@ public class SecondActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 package org.geeksforgeeks.bungee        
 
 import android.content.Intent;

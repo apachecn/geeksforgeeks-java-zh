@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean add(E e)
 ```
 
@@ -18,7 +18,7 @@ public boolean add(E e)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // add(element) method in Java
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [2, 3, 4, 7]
 On adding 4 it returns false
 Updated CopyOnWriteArraySet: [2, 3, 4, 7]
@@ -65,7 +65,7 @@ Updated CopyOnWriteArraySet: [2, 3, 4, 7]
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // add(element) method in Java
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [2, 3]
 On adding 45 it returns true
 Updated CopyOnWriteArraySet: [2, 3, 45]

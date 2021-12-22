@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate hashCode() method
 
 import java.time.Duration;
@@ -40,14 +40,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 183840
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate hashCode() method
 
 import java.time.Duration;
@@ -68,7 +68,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 18000
 
 ```

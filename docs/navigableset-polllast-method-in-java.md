@@ -6,7 +6,7 @@ Java 中[navigatableset 接口的 pollLast()方法用于检索和移除最后一
 
 **语法** :
 
-```
+```java
 E pollLast()
 
 ```
@@ -21,7 +21,7 @@ E pollLast()
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // pollLast() method of NavigableSet
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Greatest(last) element removed is : 6
 
 ```
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // pollLast() method of NavigableSet
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Greatest(last) element removed is : G
 
 ```

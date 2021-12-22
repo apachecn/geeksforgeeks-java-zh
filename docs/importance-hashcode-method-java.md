@@ -7,7 +7,7 @@
 HashMap 和 HashSet 使用哈希来操作数据。他们使用 hashCode()方法来检查哈希值。对象类中 hashCode()的默认实现为不同的对象返回不同的整数。有时候，我们必须在程序中实现 hashCode 方法。
 考虑以下示例
 
-```
+```java
 // Java puzzle to illustrate use
 // of hashcode() and equals() method
 import java.util.*;
@@ -37,7 +37,7 @@ public class Name {
 
 **输出:**
 
-```
+```java
 false
 ```
 
@@ -57,7 +57,7 @@ false
     *   由于这种优化，哈希集在正确的桶中搜索是不够的；两个名称实例必须具有相等的哈希值，以便哈希集将它们识别为相等。因此，程序打印为真的几率是两个连续创建的对象具有相同身份哈希代码的几率。
     *   结果可能会根据使用的 Java 实现而有所不同，但是在我们所知的任何 JRE 上，您都不太可能看到程序打印为真。为了解决这个问题，s **意味着给名称类**添加一个合适的 hashCode 方法。一旦添加此方法，程序将按预期打印为真:
 
-        ```
+        ```java
         public int hashCode() {
         return 63 * first.hashCode() + last.hashCode();
         }

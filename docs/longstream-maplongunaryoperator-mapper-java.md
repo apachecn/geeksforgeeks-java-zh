@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LongStream map(LongUnaryOperator mapper)
 
 ```
@@ -21,7 +21,7 @@ LongStream map(LongUnaryOperator mapper)
 
 **例 1 :** 利用 LongStream 映射()得到 LongStream 元素平方的负值。
 
-```
+```java
 // Java code for LongStream map
 // (LongUnaryOperator mapper) to get a
 // stream by applying the given function.
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 -16
 -25
 -36
@@ -57,7 +57,7 @@ class GFG {
 
 **例 2 :** 利用 LongStream map()得到 LongStream 在给定范围内的一半元素。
 
-```
+```java
 // Java code for LongStream map
 // (LongUnaryOperator mapper) to get a
 // stream by applying the given function.
@@ -83,7 +83,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1
 1
 2

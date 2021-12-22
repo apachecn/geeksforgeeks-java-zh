@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //  Java Program to compare two objects
 
 // Importing java input output library
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 false
 ```
 
@@ -82,7 +82,7 @@ false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compare Two Objects
 
 import java.io.*;
@@ -139,7 +139,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 true
 ```
 
@@ -147,7 +147,7 @@ true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compare Two Objects
 
 // Importing java input/output libraries
@@ -208,7 +208,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 true
 ```
 
@@ -220,7 +220,7 @@ true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compare Two Objects
 
 // Importing java input/output libraries
@@ -293,7 +293,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 false
 ```
 
@@ -301,7 +301,7 @@ false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compare Two Objects
 
 import java.io.*;
@@ -361,6 +361,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Not equal
 ```

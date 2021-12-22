@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MinguoDate date(TemporalAccessor temporal)
 ```
 
@@ -18,7 +18,7 @@ public MinguoDate date(TemporalAccessor temporal)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate is: Minguo ROC 107-10-25
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate is: Minguo ROC 107-12-30
 
 ```

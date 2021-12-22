@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int mean(int x, int y)
 
 ```
@@ -19,7 +19,7 @@ public static int mean(int x, int y)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // mean(int x, int y) method of Guava's
 // IntMath class
@@ -47,14 +47,14 @@ class GFG {
 
 输出:
 
-```
+```java
 Mean of 1542 and 421 is : 981
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // mean(int x, int y) method of Guava's
 // IntMath class
@@ -82,7 +82,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Mean of 214 and 154 is : 184
 
 ```

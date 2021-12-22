@@ -8,7 +8,7 @@ JDK 9 在基本的收集接口上增加了静态工厂方法，如() 的 ***，�
 
 **JDK 名单 8**
 
-```
+```java
 List<String> listOfString = new ArrayList<>();
 listOfString.add("Geeks");
 listOfString.add("Java");
@@ -58,7 +58,7 @@ listOfString = Collections.unmodifiableList(listOfString);
 
 **1。**Java 9 中的列表
 
-```
+```java
 List<String> listOfString = List.of("Geeks", "Java", "Kotlin", "Groovy", "Scala");
 ```
 
@@ -77,7 +77,7 @@ List<String> listOfString = List.of("Geeks", "Java", "Kotlin", "Groovy", "Scala"
 
 这些类型中的每一种都对应于用于创建它们的元素的数量。在 java.util.List 接口中，我们有 12 个静态工厂方法，它们使用上面的实现来创建不可变的对象:
 
-```
+```java
 // creates empty immutable list
 static <E> List<E> of()
 
@@ -105,14 +105,14 @@ static <E> List<E> of(E... elements)
 
 插入空值将导致[空指针异常](https://www.geeksforgeeks.org/null-pointer-exception-in-java/)，如下所示
 
-```
+```java
 List<String> listOfString = List.of("Geeks","Java","Kotlin", "Scala", "Groovy", null);
 // throws NullPointerException
 ```
 
 因此，不可变列表的有效创建如下:
 
-```
+```java
 List<String> listOfString = List.of("Geeks","Java","Kotlin", "Scala", "Groovy","Pearl");
 ```
 
@@ -133,7 +133,7 @@ List<String> listOfString = List.of("Geeks","Java","Kotlin", "Scala", "Groovy","
 
 这也对应于在它们的创建中使用的元素的数量。在 [*java.util.Set 界面*](https://www.geeksforgeeks.org/set-in-java/) 中，我们有 12 个静态工厂方法:
 
-```
+```java
 // creates empty immutable set
 static <E> Set<E> of()
 
@@ -161,7 +161,7 @@ static <E> Set<E> of(E... elements)
 
 像不可变列表一样，我们不能用空值实例化一个集合，因为它会抛出空指针异常，其中添加重复将导致如下所示的 IllegalArgumentException:
 
-```
+```java
 Set<String> setOfString = Set.of("Geeks", "Java", "Kotlin", "Scala", "Groovy", null);
 // throws NullPointerException
 
@@ -171,7 +171,7 @@ Set<String> setOfString = Set.of("Geeks", "Java", "Kotlin", "Java");
 
 因此，不可变集合的有效创建如下:
 
-```
+```java
 Set<String> setOfString = Set.of("Geeks", "Java", "Kotlin", "Scala", "Groovy", "Pearl");
 ```
 
@@ -190,7 +190,7 @@ Set<String> setOfString = Set.of("Geeks", "Java", "Kotlin", "Scala", "Groovy", "
 
 在[*Java . util . map*](https://www.geeksforgeeks.org/map-interface-java-examples/)*界面中，我们又有了下面一组工厂方法。*
 
-```
+```java
 // creates an empty map
 static <K, V> Map<K, V> of()
 
@@ -224,38 +224,38 @@ static <K, V> Map<K, V> ofEntries(Entry<? extends K, ? extends V>... entries)
 
 插入空键或空值将导致空指针异常:
 
-```
+```java
 Map<String, Integer> weightInKg = Map.of(null, 59, "John", 61);
 // throws NullPointerExcepton because of null key
 ```
 
-```
+```java
 Map<String, Integer> weightInKg = Map.of("Ron", null, "John", 61);
 // throws NullPointerExcepton because of null value
 ```
 
-```
+```java
 Map<String, Integer> weightInKg = Map.ofEntries(Map.entry("Ron", 59), null);
 // throws NullPointerExcepton because of null entry
 ```
 
 添加重复的键元素将引发 IllegalArgumentException:
 
-```
+```java
 Map<String, Integer> weightInKg = Map.of("Ron", 59, "Ron", 59);
 ```
 
-```
+```java
 Map<String, Long> weightInKg = Map.ofEntries(Map.entry("Ron", 59), Map.entry("Ron", 59));
 ```
 
 不可变映射的有效创建如下:
 
-```
+```java
 Map<String, Long> weightInKg = Map.of("Ron", 59, "John", 61, "Ed", 60, "Nick", 60, "Jack", 60L, "Ben", 65);
 ```
 
-```
+```java
 Map<String, Long> age = Map.ofEntries(Map.entry("Ron", 59),
                                       Map.entry("John", 61),
                                       Map.entry("Ed", 60),

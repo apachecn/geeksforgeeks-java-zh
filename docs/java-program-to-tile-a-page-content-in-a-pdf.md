@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Tile a Page Content in a PDF
 
 // Importing input output classes
@@ -135,7 +135,7 @@ class GFG {
 
 输出控制台上的消息。
 
-```
+```java
 PDF document is created successfully.
 ```
 

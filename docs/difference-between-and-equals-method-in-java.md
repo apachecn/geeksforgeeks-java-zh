@@ -14,7 +14,7 @@
 
 ## Java
 
-```
+```java
 // Java program to understand 
 // the concept of == operator
 
@@ -35,7 +35,7 @@ public class Test {
 
 **输出**
 
-```
+```java
 true
 false
 true

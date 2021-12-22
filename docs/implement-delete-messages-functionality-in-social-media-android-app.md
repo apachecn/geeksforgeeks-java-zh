@@ -14,7 +14,7 @@
 
 只有当我们是邮件的发件人时，我们才能删除邮件。有两种方法可以删除消息。你可以用任何一个。在一个示例中，我们使用 datasnapshot 移除了该值，在另一个示例中，我们将消息更新为“此消息已被删除”，正如我们在 WhatsApp 中看到的那样。
 
-```
+```java
 if(dataSnapshot1.child("sender").getValue().equals(myuid)) {
 // any two of below can be used
 dataSnapshot1.getRef().removeValue();
@@ -31,7 +31,7 @@ Toast.makeText(context,"Message Deleted.....",Toast.LENGTH_LONG).show();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 package com.example.socialmediaapp;
 
 import android.app.AlertDialog;

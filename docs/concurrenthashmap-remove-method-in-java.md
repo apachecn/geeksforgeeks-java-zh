@@ -8,26 +8,26 @@ Java 中类[的**移除(对象键)**方法用于从地图中移除映射。如�
 
 **语法:**
 
-```
+```java
 public V remove(Object key)
 ```
 
 **参数:**
 
-```
+```java
 This method accepts a mandatory parameter key which is the key that needs to be removed
 ```
 
 **返回值:**
 
-```
+```java
 This method returns the previous value associated with key, 
 or null if there was no mapping for key.
 ```
 
 **例外:**
 
-```
+```java
 This method throws NullPointerException if the specified key is null.
 ```
 
@@ -37,7 +37,7 @@ This method throws NullPointerException if the specified key is null.
 
 ## Java
 
-```
+```java
 // Java program to demonstrate remove() method
 
 import java.util.*;
@@ -94,7 +94,7 @@ public class ConcurrentHashMapExample {
 
 **输出**
 
-```
+```java
 Map: {1=1, 2=1, 3=1, 4=1, 5=1, 6=1}
 
 After removing mapping with key 6:
@@ -111,7 +111,7 @@ Value removed: null
 
 ## 演示 NullPointerException Java
 
-```
+```java
 // Java program to demonstrate remove() method
 
 import java.util.*;
@@ -152,7 +152,7 @@ public class ConcurrentHashMapExample {
 
 **输出**
 
-```
+```java
 Map: {1=1, 2=1, 3=1, 4=1, 5=1, 6=1}
 
 Exception: java.lang.NullPointerException

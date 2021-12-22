@@ -6,7 +6,7 @@ java 中的[比较器接口](https://www.geeksforgeeks.org/comparator-interface-
 
 **语法:**
 
-```
+```java
 default Comparator <T> thenComparingLong(
     ToLongFunction <T> keyExtractor)
 
@@ -21,7 +21,7 @@ default Comparator <T> thenComparingLong(
 下面的程序说明了方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate Comparator
 // thenComparingLong(ToLongFunction) method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate Comparator
 // thenComparingLong(ToLongFunction) method
 

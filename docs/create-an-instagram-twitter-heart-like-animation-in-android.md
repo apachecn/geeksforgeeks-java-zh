@@ -9,7 +9,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。
 
-    ```
+    ```java
     implementation 'pub.hanks:smallbang:1.2.2'     
     ```
 
@@ -18,7 +18,7 @@
 
     ## text _ selector . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <selector xmlns:android="http://schemas.android.com/apk/res/android">
         <item android:color="@color/colorPrimary"
@@ -31,7 +31,7 @@
 
     ## IC _ heart . XML
 
-    ```
+    ```java
     <vector android:height="32dp" 
         android:viewportHeight="412.735"
         android:viewportWidth="412.735" 
@@ -59,7 +59,7 @@
 
     ## IC _ heart _ red . XML
 
-    ```
+    ```java
     <vector xmlns:android="http://schemas.android.com/apk/res/android"
         android:width="391.837dp"
         android:height="391.837dp"
@@ -80,7 +80,7 @@
 
     ## heart _ selector . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <selector xmlns:android="http://schemas.android.com/apk/res/android">
         <item android:drawable="@drawable/ic_heart_red"
@@ -93,7 +93,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -140,7 +140,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.twitterLikeAnimaton;          
 
     import android.os.Bundle;

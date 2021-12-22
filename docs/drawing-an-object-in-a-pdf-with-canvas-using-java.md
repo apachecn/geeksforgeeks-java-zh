@@ -6,7 +6,7 @@
 
 **所需库:**
 
-```
+```java
 iText
 slf4j (Logging Library)
 ```
@@ -27,7 +27,7 @@ slf4j (Logging Library)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Drawing an object in a PDF with Canvas using Java
 import com.itextpdf.kernel.colors.*;
 import com.itextpdf.kernel.pdf.PdfDocument;

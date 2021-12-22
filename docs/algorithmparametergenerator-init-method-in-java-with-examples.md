@@ -7,7 +7,7 @@
 **Java . security . AlgorithmParameterGenerator 类**的 **init()** 方法用于初始化特定大小的 algorithm parameter generator 以供进一步使用。
 **语法:**
 
-```
+```java
 public final void init(int size)
 ```
 
@@ -18,7 +18,7 @@ public final void init(int size)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // init() method
 
@@ -75,7 +75,7 @@ p:a 695 be 97 15 Fe 7 CDF 3f9b 4 e 5f a2 b640 cf ECC 7852 2f 3208 DC 941187 C4 b
 **Java . security . AlgorithmParameterGenerator 类**的 **init()** 方法用于初始化特定大小的 algorithm parameter generator，以供进一步使用。
 **语法:**
 
-```
+```java
 public final void init(int size,
                        SecureRandom random)
 ```
@@ -91,7 +91,7 @@ public final void init(int size,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // init() method
 

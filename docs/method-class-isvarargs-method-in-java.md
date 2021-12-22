@@ -10,7 +10,7 @@ VarArgs 允许方法接受许多参数。当不知道要在方法中传递多少
 
 **语法:**
 
-```
+```java
 public boolean isVarArgs()
 ```
 
@@ -20,7 +20,7 @@ public boolean isVarArgs()
 
 **示例 1:** 下面的程序检查 GFG 类方法是否有变长参数。在这个程序中，一个方法接受 VarArgs，然后通过 isVarArgs()检查方法是否接受 VarArgs，最后打印结果。
 
-```
+```java
 // Program Demonstrate isVarArgs() method
 // of Method Class.
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 public static void GFG.paint(java.lang.Object[]) method accepts VarArgs :true
 
 ```
@@ -75,7 +75,7 @@ public static void GFG.paint(java.lang.Object[]) method accepts VarArgs :true
 
 说明:在这个方法中，首先创建一个 java.util.Collections 类对象。创建 java.util.Collections 类的类对象后，通过调用类对象的 getMethods()创建方法对象列表。迭代方法列表，并使用 isVarArgs()获取包含可变长度参数的方法。最后打印合成方法名称。
 
-```
+```java
 // Program Demonstrate isVarArgs() method
 // of Method Class.
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Methods of Collections Class contains VarArgs
 Method: addAll
 

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public static Clock systemUTC()
 ```
 
@@ -20,7 +20,7 @@ public static Clock systemUTC()
 
 **示例:**
 
-```
+```java
 Code:
 //Clock with default zone
 Clock clock=Clock.systemUTC();
@@ -41,7 +41,7 @@ method will return a Class Object whose Zone is UTC time zone.
 
 这种方法使时钟区域变为世界协调时区域。以下程序以 ZonedDateTime 格式打印时钟的日期和时间。
 
-```
+```java
 // Java program to demonstrate
 // systemUTC() method of Clock class
 
@@ -74,14 +74,14 @@ public class systemUTCMethodDemo {
 
 **Output:**
 
-```
+```java
 ZonedDateTime of class with UTC Time Zone is 2018-08-22T11:41:15.554Z
 
 ```
 
 **程序 2:** 使用 getZone()为 systemUTC()创建的时钟打印 zoneId。
 
-```
+```java
 // Java program to demonstrate
 // systemUTC() method of Clock class
 
@@ -108,7 +108,7 @@ public class systemUTCMethodDemo {
 
 **Output:**
 
-```
+```java
 ZoneID of class is Z
 
 ```

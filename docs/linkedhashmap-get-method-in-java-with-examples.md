@@ -4,7 +4,7 @@
 
 在 Java 中， [LinkedHashMap 类](https://www.geeksforgeeks.org/linkedhashmap-class-java-examples/)的 *get()方法*用于检索或获取参数中提到的特定键映射的值。当映射不包含键的这种映射时，它返回空值。
 
-```
+```java
 --> java.util Package
     --> LinkedHashMap Class
          --> get() Method  
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 Linked_Hash_Map.get(*Object key_element*)
 ```
 
@@ -24,7 +24,7 @@ Linked_Hash_Map.get(*Object key_element*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate get() method
 // of LinkedHashMap
 // Mapping String Values to Integer Keys
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The Value is: Welcomes
 The Value is: Geeks
@@ -78,7 +78,7 @@ The Value is: Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate get() method
 // Mapping Integer Values to String Keys
 
@@ -121,7 +121,7 @@ public class Linked_Hash_Map_Demo {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {Geeks=20, 4=15, Welcomes=25, You=30}
 The Value is: 20
 The Value is: 30

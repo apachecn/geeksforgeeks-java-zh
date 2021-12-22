@@ -6,7 +6,7 @@ java 中的 java.util.ArrayDeque.peekLast()方法用于检索或获取 deque 的
 
 **语法:**
 
-```
+```java
 Array_Deque.peekLast()
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.peekLast()
 下面的程序说明了 Java.util.ArrayDeque.peekLast()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate peekLast()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The last element is: Geeks
 Final ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
@@ -58,7 +58,7 @@ Final ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate peekLast()
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [10, 15, 30, 20, 5]
 The last element is: 5
 Final ArrayDeque: [10, 15, 30, 20, 5]
@@ -99,7 +99,7 @@ Final ArrayDeque: [10, 15, 30, 20, 5]
 
 **程序 3:** 对于空车:
 
-```
+```java
 // Java code to illustrate peekLast()
 import java.util.*;
 
@@ -120,7 +120,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: []
 The last element is: null
 

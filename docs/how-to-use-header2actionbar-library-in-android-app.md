@@ -20,7 +20,7 @@
 *   从 [**<u>这里</u>**](https://github.com/AChep/Header2ActionBar/blob/master/sample/Header2ActionBarDemo/src/main/libs/Header2ActionBar-0.2.1.jar) 下载库，粘贴到 libs 目录里面。
 *   导航到 **Gradle 脚本> build.gradle(模块:应用)**，在依赖项部分添加库，并同步项目。
 
-```
+```java
 dependencies {
     implementation files('src/main/libs/Header2ActionBar-0.2.1.jar')
 }
@@ -34,7 +34,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <FrameLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -51,7 +51,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <!-- Base application theme. -->
 

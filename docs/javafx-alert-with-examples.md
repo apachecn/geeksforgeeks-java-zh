@@ -41,7 +41,7 @@ Alert 是 JavaFX 的一部分，也是 Dialog 类的子类。警报是一些预�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create alert of different
 // types and display them
 
@@ -169,7 +169,7 @@ public class Alert_1 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create alert and set
 // different alert types and button type
 // and also set different content text

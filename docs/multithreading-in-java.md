@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for thread creation by extending
 // the Thread class
 class MultithreadingDemo extends Thread {
@@ -49,7 +49,7 @@ public class Multithread {
 
 **Output**
 
-```
+```java
 Thread 15 is running
 Thread 14 is running
 Thread 16 is running

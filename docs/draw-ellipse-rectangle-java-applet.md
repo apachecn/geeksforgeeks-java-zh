@@ -10,7 +10,7 @@ Java 小程序是可以在网络浏览器或小程序查看器中执行的应用
 示例:
 **让我们绘制一个宽 150、高 100 的椭圆**
 
-```
+```java
 Input : x and y coordinates 100, 100 respectively
 Width and height 150 and 100 respectively 
 
@@ -24,7 +24,7 @@ Width and height 150 and 100 respectively
 **我们将在 Applet 上的位置 100，100 处绘制一个高 200、宽 200 的矩形和
 。**
 
-```
+```java
 Input : x and y coordinates 100, 100 respectively
 Width and height 200 and 200 respectively.
 
@@ -35,7 +35,7 @@ Width and height 200 and 200 respectively.
 
 **1。使用 drawOval(int x，int y，int width，int height)** 绘制椭圆的 Java 程序
 
-```
+```java
 // java program to draw a ellipse
 // using drawOval function.
 import java.awt.*;
@@ -67,7 +67,7 @@ public class ellipse extends JApplet {
 ![](img/5a4cefbc6618d9cc9558ca369b5078cf.png)
 **2。使用画线功能**绘制椭圆的程序
 
-```
+```java
 // java program to draw a ellipse
 // using drawLine function
 import java.awt.*;
@@ -123,7 +123,7 @@ public class ellipse extends JApplet {
 **我们可以通过两种方式在 java 小程序中绘制矩形。**
 **1。使用 drawRect(int x，int y，int 宽度，int 高度)绘制一个矩形**
 
-```
+```java
 // Java Program to  Draw a rectangle
 // using drawRect(int x, int y, int width, int height)
 import java.awt.*;
@@ -156,7 +156,7 @@ public class rectangle extends JApplet {
 
 **2。使用画线(int x，int y，int x1，int y1)绘制一个矩形**
 
-```
+```java
 // Java Program  Draw a rectangle
 // using drawLine(int x, int y, int x1, int y1)
 import java.awt.*;

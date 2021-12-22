@@ -27,7 +27,7 @@ ASCII 是一种将英文字母转换成数字的代码，因为数字可以转�
 
 ******语法:******
 
-```
+```java
 **java.lang.String.codePointAt();**
 ```
 
@@ -41,7 +41,7 @@ ASCII 是一种将英文字母转换成数字的代码，因为数字可以转�
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Importing Files and Classes
 import java.io.*;
 
@@ -83,7 +83,7 @@ class GFG {
 
 ******输出:******
 
-```
+```java
 **Original String : GEEKS
 unicode point at 0 = 71
 unicode point at 1 = 69
@@ -100,7 +100,7 @@ unicode point at 4 = 83**
 
 ## *****Java 语言(一种计算机语言，尤用于创建网站)*****
 
-```
+```java
 ***import java.io.*;
 
 class GFG {
@@ -146,6 +146,6 @@ class GFG {
 
 *******Output**
 
-```
+```java
 Exception thrown  :java.lang.StringIndexOutOfBoundsException: index -4,length 13
 ```*****

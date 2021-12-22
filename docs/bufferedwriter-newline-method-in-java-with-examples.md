@@ -6,7 +6,7 @@ Java 中 **BufferedWriter** 类的 **newLine()** 方法用于将下一行分隔�
 
 **语法:**
 
-```
+```java
 public void newLine()
             throws IOException
 
@@ -22,7 +22,7 @@ public void newLine()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter newLine() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 A
 B
 
@@ -70,7 +70,7 @@ B
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter newLine() method
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 GEEKSFORGEEKS
 

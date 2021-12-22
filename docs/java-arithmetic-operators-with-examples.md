@@ -27,20 +27,20 @@
 
 **语法:**
 
-```
+```java
 num1 + num2
 ```
 
 **示例:**
 
-```
+```java
 num1 = 10, num2 = 20
 sum = num1 + num2 = 30
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate Addition operator
 
 import java.io.*;
@@ -64,7 +64,7 @@ class Addition {
 
 **Output**
 
-```
+```java
 num1 = 10
 num2 = 20
 The sum = 30
@@ -74,20 +74,20 @@ The sum = 30
 
 **语法:**
 
-```
+```java
 num1 - num2
 ```
 
 **示例:**
 
-```
+```java
 num1 = 20, num2 = 10
 sub = num1 - num2 = 10
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate Subtraction operator
 
 import java.io.*;
@@ -111,7 +111,7 @@ class Subtraction {
 
 **Output**
 
-```
+```java
 num1 = 20
 num2 = 10
 Subtraction = 10
@@ -121,20 +121,20 @@ Subtraction = 10
 
 **语法:**
 
-```
+```java
 num1 * num2
 ```
 
 **示例:**
 
-```
+```java
 num1 = 20, num2 = 10
 mult = num1 * num2 = 200
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate Multiplication operator
 
 import java.io.*;
@@ -158,7 +158,7 @@ class Multiplication {
 
 **Output**
 
-```
+```java
 num1 = 20
 num2 = 10
 Multiplication = 200
@@ -168,20 +168,20 @@ Multiplication = 200
 
 **语法:**
 
-```
+```java
 num1 / num2
 ```
 
 **示例:**
 
-```
+```java
 num1 = 20, num2 = 10
 div = num1 / num2 = 2
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate Division operator
 
 import java.io.*;
@@ -205,7 +205,7 @@ class Division {
 
 **Output**
 
-```
+```java
 num1 = 20
 num2 = 10
 Division = 2
@@ -215,20 +215,20 @@ Division = 2
 
 **语法:**
 
-```
+```java
 num1 % num2
 ```
 
 **示例:**
 
-```
+```java
 num1 = 5, num2 = 2
 mod = num1 % num2 = 1
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate Modulus operator
 
 import java.io.*;
@@ -252,7 +252,7 @@ class Modulus {
 
 **Output**
 
-```
+```java
 num1 = 5
 num2 = 2
 Remainder = 1

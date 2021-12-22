@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator iterator()
 ```
 
@@ -20,7 +20,7 @@ public Iterator iterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of BlockingDeque
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of BlockingDeque are:
 74381793
 5278367
@@ -72,7 +72,7 @@ The iterator values of BlockingDeque are:
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of BlockingDeque
 // when list is of strings
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The iterator values of BlockingDeque are:
 Geeks
 forGeeks

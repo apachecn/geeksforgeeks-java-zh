@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ListIterator new_list 
           = AbstractList.listIterator(int index);
 ```
@@ -19,7 +19,7 @@ ListIterator new_list
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate listIterator()
 
 import java.util.*;
@@ -57,7 +57,7 @@ public class LinkedListDemo {
 
 **Output:**
 
-```
+```java
 AbstractList:[Geeks, for, Geeks, 10, 20]
 The list is as follows:
 Geeks
@@ -68,7 +68,7 @@ Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate listIterator()
 
 import java.util.*;
@@ -106,7 +106,7 @@ public class LinkedListDemo {
 
 **Output:**
 
-```
+```java
 AbstractList:[10, 20, 30, 40, 50]
 The list is as follows:
 30

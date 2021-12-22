@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的 **getShortMonths()** 方法用于获取字
 
 **语法:**
 
-```
+```java
 public String[] getMonths()
 ```
 
@@ -17,7 +17,7 @@ public String[] getMonths()
 下面的程序说明了 getShortMonths()方法的使用。
 **例 1:**
 
-```
+```java
 // Java code to demonstrate getShortMonths()
 
 import java.text.DateFormatSymbols;
@@ -45,7 +45,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Month = Jan
 Month = Feb
 Month = Mar
@@ -63,7 +63,7 @@ Month = Dec
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate getShortMonths()
 
 import java.text.DateFormatSymbols;
@@ -91,7 +91,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Month 0 = Jan
 Month 1 = Feb
 Month 2 = Mar

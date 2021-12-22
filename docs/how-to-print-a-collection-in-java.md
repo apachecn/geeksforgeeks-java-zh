@@ -15,7 +15,7 @@ java 中的集合可以通过以下两种方式打印:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print an arraylist of an
 // user-defined collection
 import java.util.*;
@@ -65,7 +65,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Name : John | Roll No : 101
 Name : Paul | Roll No : 102
 Name : Jack | Roll No : 103
@@ -77,7 +77,7 @@ Name : Jose | Roll No : 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program printing ArrayList
 // of an user-defined collection
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 101 | First Name : Mohit | LastName : Singh
 102 | First Name : Tarun | LastName : Anand
 103 | First Name : Madhu | LastName : Singh

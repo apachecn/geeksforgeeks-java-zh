@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Field[] getDeclaredFields()
                throws SecurityException
 
@@ -22,7 +22,7 @@ public Field[] getDeclaredFields()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getDeclaredFields() method
 
 import java.util.*;
@@ -50,7 +50,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 DeclaredFields of myClass: []
 
@@ -58,7 +58,7 @@ DeclaredFields of myClass: []
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getDeclaredFields() method
 
 import java.util.*;
@@ -97,7 +97,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Main
 DeclaredFields of myClass: [public java.lang.Object Main.obj]
 

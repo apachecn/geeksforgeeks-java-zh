@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Spliterator<E> spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator<E> spliterator()
 
 **示例 1:** 演示包含对象列表的 LinkedList 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of LinkedList
 
@@ -74,7 +74,7 @@ class Shape {
 
 **输出:**
 
-```
+```java
 list of Shapes:
 ************************
 Shape Name : Circle
@@ -93,7 +93,7 @@ Shape Area : 342
 
 **示例 2:** 演示包含电影名称列表的 LinkedList 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of LinkedList
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Movies:
 Movie Name: Delhi 6
 Movie Name: 3 Idiots

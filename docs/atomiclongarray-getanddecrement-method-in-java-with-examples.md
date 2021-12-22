@@ -15,7 +15,7 @@
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndDecrement() function
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 Value at index 3 before decrement is 4
 The array after decrement : [1, 2, 3, 3, 5]
@@ -64,7 +64,7 @@ The array after decrement : [1, 2, 3, 3, 5]
 
 **程序 2:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndDecrement() function
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [10, 20, 30, 40, 50]
 Value at index 0 before decrement is 10
 The array after decrement : [9, 20, 30, 40, 50]

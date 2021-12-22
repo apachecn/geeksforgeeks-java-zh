@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedList.indexOf(Object element)
 ```
 
@@ -16,7 +16,7 @@ LinkedList.indexOf(Object element)
 
 下面程序举例说明了 Java.util.LinkedList.indexOf()方法:
 
-```
+```java
 // Java code to illustrate indexOf()
 import java.io.*;
 import java.util.LinkedList;
@@ -50,7 +50,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 The first occurrence of Geeks is at index: 0
 The first occurrence of 10 is at index: 3

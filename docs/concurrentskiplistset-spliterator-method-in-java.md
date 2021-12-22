@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.spliterator()
 ```
 
@@ -18,7 +18,7 @@ ConcurrentSkipListSet.spliterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate Spliterator()
 // method of ConcurrentSkipListSet
 
@@ -55,7 +55,7 @@ class ConcurrentSkipListSetSpliteratorExample1 {
 
 **输出:**
 
-```
+```java
 Lower case = Gfg
 Upper case = GFG
 
@@ -69,7 +69,7 @@ Upper case = IS
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate Spliterator()
 // method of ConcurrentSkipListSet
 
@@ -104,7 +104,7 @@ class ConcurrentSkipListSetSpliteratorExample2 {
 
 **输出:**
 
-```
+```java
 The elements in the set are : A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ```

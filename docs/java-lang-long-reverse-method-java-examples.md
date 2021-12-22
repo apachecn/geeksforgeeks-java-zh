@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long reverse(long num) 
 Parameter :
 num - the number passed
@@ -17,7 +17,7 @@ two's complement binary representation of the specified long value.
 
 示例:
 
-```
+```java
 Input : 254 
 Output : 9151314442816847872
 
@@ -30,7 +30,7 @@ Output : 1152921504606846976
 
 **程序 1 :**
 
-```
+```java
 // Java program that demonstrates the
 // Long.reverse() function
 
@@ -56,7 +56,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The number after reversing bit= 1152921504606846976
 The number after reversing bit= 9151314442816847872
 
@@ -64,7 +64,7 @@ The number after reversing bit= 9151314442816847872
 
 **程序 2 :** 当一个负数通过时
 
-```
+```java
 // Java program that demonstrates the
 // Long.reverse() function
 // negative number
@@ -91,7 +91,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 The number after reversing bit= 2305843009213693951
 The number after reversing bit= 4683743612465315839
 
@@ -99,7 +99,7 @@ The number after reversing bit= 4683743612465315839
 
 **程序 3 :** 当一个十进制数通过时
 
-```
+```java
 // Java program that demonstrates the
 // Long.reverse() function
 // decimal number
@@ -120,7 +120,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:16: error: incompatible types: possible lossy conversion from double to long
                            + Long.reverse(11.34));
 
@@ -128,7 +128,7 @@ prog.java:16: error: incompatible types: possible lossy conversion from double t
 
 **程序 4** :当一个字符串数字被传递时
 
-```
+```java
 // Java program that demonstrates the
 // Long.reverse() function
 // string number
@@ -149,7 +149,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:16: error: incompatible types: String cannot be converted to long
                            + Long.reverse("12"));
 

@@ -34,7 +34,7 @@
 
 ## **activity_main.xml**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--Using linear layout with vertical orientation and center gravity -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -132,7 +132,7 @@
 
 ## **Question.java**
 
-```
+```java
 package org.geeksforgeeks.quizapp;
 
 public class Question
@@ -186,7 +186,7 @@ public class Question
 
 ## **strings.xml**
 
-```
+```java
 <resources>
     <!--All the string resources come here including Questions and title -->
     <string name="app_name">GFG | HOW WELL DO YOU KNOW SIMRAN?</string>
@@ -217,7 +217,7 @@ public class Question
 
 ## **MainActivity.java**
 
-```
+```java
 package org.geeksforgeeks.quizapp;
 
 import android.annotation.SuppressLint;

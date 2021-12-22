@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public int indexOf(Object o)
     ```
 
@@ -18,7 +18,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java Program to illustrate the CopyOnWriteArrayList
     // indexOf() method in Java
     import java.util.concurrent.CopyOnWriteArrayList;
@@ -49,7 +49,7 @@
 
     **Output:**
 
-    ```
+    ```java
     CopyOnWriteArrayList: [32, 67, 67, 100]
     indexOf value: 1
 
@@ -57,7 +57,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java Program to illustrate the CopyOnWriteArrayList
     // indexOf() method in Java
     import java.util.concurrent.CopyOnWriteArrayList;
@@ -90,7 +90,7 @@
 
     **Output:**
 
-    ```
+    ```java
     CopyOnWriteArrayList: [32, 67, 67, 100]
     indexOf value: -1
 
@@ -100,7 +100,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public int indexOf(E e, int index)
     ```
 
@@ -117,7 +117,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java Program to illustrate the CopyOnWriteArrayList
     // indexOf() method in Java
     import java.util.concurrent.CopyOnWriteArrayList;
@@ -150,7 +150,7 @@
 
     **Output:**
 
-    ```
+    ```java
     CopyOnWriteArrayList: [32, 67, 67, 67]
     indexOf value: 2
 
@@ -158,7 +158,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java Program to illustrate the CopyOnWriteArrayList
     // indexOf() method in Java
     import java.util.concurrent.CopyOnWriteArrayList;
@@ -191,7 +191,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
         at java.util.concurrent.CopyOnWriteArrayList.indexOf(CopyOnWriteArrayList.java:198)
         at java.util.concurrent.CopyOnWriteArrayList.indexOf(CopyOnWriteArrayList.java:263)

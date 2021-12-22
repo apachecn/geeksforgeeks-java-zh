@@ -6,7 +6,7 @@ java.util.Hashtable.clone()方法用于返回上述哈希表的浅层副本。�
 
 **语法:**
 
-```
+```java
 Hash_Table.clone()
 ```
 
@@ -17,7 +17,7 @@ Hash_Table.clone()
 下面的程序用来说明 java.util.Hashtable.clone()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the clone() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 The Hashtable is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 The cloned table look like this: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 
@@ -54,7 +54,7 @@ The cloned table look like this: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the clone() method
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 The Hashtable is: {You=30, Welcomes=25, 4=15, Geeks=20}
 The cloned table look like this: {You=30, Welcomes=25, 4=15, Geeks=20}
 

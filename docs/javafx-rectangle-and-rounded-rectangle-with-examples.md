@@ -41,7 +41,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a rectangle and add it to the scene
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -94,7 +94,7 @@ public class Rectangle_0 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a rounded rectangle
 // and set a fill and add it to the scene
 import javafx.application.Application;

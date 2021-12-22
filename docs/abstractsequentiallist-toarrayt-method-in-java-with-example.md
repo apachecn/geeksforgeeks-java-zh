@@ -7,7 +7,7 @@ Java 中**抽象顺序列表类**的 **toArray(arr[])** 方法方法用于形成
 
 **语法:**
 
-```
+```java
 public <T> T[] toArray(T[] a)
 ```
 
@@ -24,7 +24,7 @@ public <T> T[] toArray(T[] a)
 
 **程序 1:** 当数组大小为抽象序列列表时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -62,7 +62,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSequentialList: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -75,7 +75,7 @@ Geeks
 
 **程序 2:** 当数组小于抽象序列列表的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -113,7 +113,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSequentialList: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -126,7 +126,7 @@ Geeks
 
 **程序 3:** 当数组大于抽象序列列表的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -164,7 +164,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSequentialList: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -182,7 +182,7 @@ null
 
 **程序 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -228,7 +228,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSequentialList: [Welcome, To, Geeks, For, Geeks]
 Exception: java.lang.NullPointerException
 

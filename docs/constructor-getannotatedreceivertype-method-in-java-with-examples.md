@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public AnnotatedType getAnnotatedReceiverType()
 
 ```
@@ -18,7 +18,7 @@ public AnnotatedType getAnnotatedReceiverType()
 下面的程序说明了 getAnnotatedReceiverType()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getAnnotatedReceiverType() method
 
@@ -60,7 +60,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 sun.reflect.annotation.AnnotatedTypeFactory$AnnotatedTypeBaseImpl@12a3a380
 Type = Test
 
@@ -68,7 +68,7 @@ Type = Test
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getAnnotatedReceiverType() method
 
@@ -111,7 +111,7 @@ class Demo {
 
 **Output:**
 
-```
+```java
 sun.reflect.annotation.AnnotatedTypeFactory$AnnotatedTypeBaseImpl@12a3a380
 Type = Demo
 

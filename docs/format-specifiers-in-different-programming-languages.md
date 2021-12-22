@@ -20,7 +20,7 @@
 
 ## C
 
-```
+```java
 // C program to illustrate format
 // specifiers in C
 #include <stdio.h>
@@ -44,7 +44,7 @@ int main()
 
 **Output:** 
 
-```
+```java
 10 
 4.215200e+01 
 Welcome to GeeksforGeeks!

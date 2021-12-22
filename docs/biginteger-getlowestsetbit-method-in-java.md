@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public int getLowestSetBit()
 ```
 
@@ -18,7 +18,7 @@ public int getLowestSetBit()
 
 **例:**
 
-```
+```java
 Input: value = 2300 
 Output: 2
 Explanation:
@@ -32,7 +32,7 @@ Output: 3
 
 下面程序举例说明了 getLowestSetBit()方法的 BigInteger:
 
-```
+```java
 // Program to illustrate the getLowestSetBit()
 // method of BigInteger 
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After applying getLowestSetBit on 2300 we get index of lowest set bit = 2
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object element)
 ```
 
@@ -18,7 +18,7 @@ public boolean contains(Object element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // AbstractSequentialList.contains()
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [Geeks, for, Geeks, 10, 20]
 
 Does the Collection contains 'Hello': false
@@ -75,7 +75,7 @@ Does the Collection contains 'Geeks': true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate
 // AbstractSequentialList.contains()
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList:[10, 20, 30, 40, 50]
 
 Does the Collection contains '10': true

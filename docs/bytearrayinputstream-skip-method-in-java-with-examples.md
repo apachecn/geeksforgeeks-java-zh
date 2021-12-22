@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public long skip(long args)
 ```
 
@@ -20,7 +20,7 @@ public long skip(long args)
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.io.*;
@@ -49,7 +49,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 5
 7
 8
@@ -58,7 +58,7 @@ public class Main {
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.io.*;
@@ -87,7 +87,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1
 5
 6

@@ -23,7 +23,7 @@ JTextField 是 javax.swing 包的一部分。类 JTextField 是一个允许编�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a blank text
 // field of definite number of columns.
 import java.awt.event.*;
@@ -109,7 +109,7 @@ class text extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a blank text field with a
 // given initial text and given number of columns
 import java.awt.event.*;
@@ -195,7 +195,7 @@ class text extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a blank text field and set BOLD font type
 import java.awt.event.*;
 import java.awt.*;

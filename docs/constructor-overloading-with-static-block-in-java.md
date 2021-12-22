@@ -6,7 +6,7 @@
 
 ## Java
 
-```
+```java
 // A Java program to demonstrates Constructor
 class Emp {
     int id;
@@ -29,7 +29,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -41,7 +41,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrates
 // Constructor Overloading
 class Emp {
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Parameterized Constructor
 ```
 
@@ -84,7 +84,7 @@ Java 中的[静态块](https://www.geeksforgeeks.org/g-fact-79/)用于类的静�
 
 ## Java
 
-```
+```java
 // Java program to demonstrates Constructor
 // Overloading with static block
 class Emp {
@@ -152,7 +152,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Id    Name    Category    Exp
 1863    Kumar    Developer    0
 1864    ravi    Developer    2

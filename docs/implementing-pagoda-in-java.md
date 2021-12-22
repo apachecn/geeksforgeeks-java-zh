@@ -51,7 +51,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement Pagoda
 
 // Pagoda is simply a priority queue
@@ -394,7 +394,7 @@ public class GFG2 {
 
 **Output**
 
-```
+```java
 Root Element : 10
 Root Element : 30
 Root Element : 30

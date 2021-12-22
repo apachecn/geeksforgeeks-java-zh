@@ -19,7 +19,7 @@ Java Web Servlet 中基于时间的自动重载响应进入画面在使用[Java 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;

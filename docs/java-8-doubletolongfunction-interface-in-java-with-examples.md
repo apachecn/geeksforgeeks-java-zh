@@ -12,7 +12,7 @@ DoubleToLongFunction 接口只有一个功能:
 
 **语法:**
 
-```
+```java
 long applyAsLong(double value)
 ```
 
@@ -24,7 +24,7 @@ long applyAsLong(double value)
 
 **程序**
 
-```
+```java
 // Java Program to demonstrate
 // DoubleToLongFunction's applyAsLong() method
 
@@ -46,7 +46,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 10
 
 ```

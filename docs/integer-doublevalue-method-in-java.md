@@ -6,7 +6,7 @@ java.lang 包的 Integer 类的 **doubleValue()** 方法用于在一个扩展的
 
 **语法:**
 
-```
+```java
 public double doubleValue()
 ```
 
@@ -17,7 +17,7 @@ public double doubleValue()
 下面的程序说明了 java.lang.Integer.doubleValue()方法。
 **节目一:**
 
-```
+```java
 // Code to illustrate doubleValue() method
 import java.lang.Integer;
 
@@ -38,14 +38,14 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 14.0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Code to illustrate doubleValue() method
 import java.lang.Integer;
 
@@ -66,7 +66,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 120.0
 
 ```

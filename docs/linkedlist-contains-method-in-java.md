@@ -6,7 +6,7 @@ Java.util.LinkedList.contains()方法用于检查链接列表中是否存在元�
 
 **语法:**
 
-```
+```java
 LinkedList.contains(Object element)
 ```
 
@@ -18,7 +18,7 @@ LinkedList.contains(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate boolean contains()
 import java.io.*;
 import java.util.LinkedList;
@@ -57,7 +57,7 @@ public class LinkedListDemo {
 
 **Output:** 
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 
 Does the List contains 'Hello': false

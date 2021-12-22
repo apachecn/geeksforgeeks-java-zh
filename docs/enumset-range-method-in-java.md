@@ -6,7 +6,7 @@ java 中的 Java . util . enumset . range(*E start _ point，E end_point* )方�
 
 **语法:**
 
-```
+```java
 Enum_set = EnumSet.range(*E start_point, E end_point*)
 ```
 
@@ -25,7 +25,7 @@ Enum_set = EnumSet.range(*E start_point, E end_point*)
 下面的程序说明了 range()方法的使用:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate range() method
 import java.util.*;
 
@@ -59,14 +59,14 @@ public class Enum_Set_Demo {
 
 **Output:**
 
-```
+```java
 The enum set is: [The, World, of, Geeks]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate range() method
 import java.util.*;
 
@@ -99,7 +99,7 @@ public class Enum_Set_Demo {
 
 **Output:**
 
-```
+```java
 The enum set is: [RANGE_ROVER, MUSTANG, CAMARO]
 
 ```

@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 Array.get(Object []array, int index)
 
 ```
@@ -28,7 +28,7 @@ Array.get(Object []array, int index)
 
 **程序 1:**
 
-```
+```java
 import java.lang.reflect.Array;
 
 public class GfG {
@@ -55,14 +55,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 1 2 3 4 5
 
 ```
 
 **程序 2:** 演示 ArrayIndexOutOfBoundsException。
 
-```
+```java
 import java.lang.reflect.Array;
 
 public class GfG {
@@ -87,14 +87,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.ArrayIndexOutOfBoundsException
 
 ```
 
 **程序 3:** 演示 NullPointerException。
 
-```
+```java
 import java.lang.reflect.Array;
 
 public class GfG {
@@ -122,14 +122,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.NullPointerException
 
 ```
 
 **程序 4:** 演示 IllegalArgumentException。
 
-```
+```java
 import java.lang.reflect.Array;
 
 public class GfG {
@@ -155,7 +155,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.IllegalArgumentException: Argument is not an array
 
 ```

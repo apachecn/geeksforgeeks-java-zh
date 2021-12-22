@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public final boolean isSupported()
 ```
 
@@ -25,7 +25,7 @@ public final boolean isSupported()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ISO-2022-CN is supported or not? :true
 ```
 
@@ -57,7 +57,7 @@ ISO-2022-CN is supported or not? :true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ISO is supported or not? :false
 ```
 
@@ -88,7 +88,7 @@ ISO is supported or not? :false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception is java.nio.charset.IllegalCharsetNameException:
 ```
 

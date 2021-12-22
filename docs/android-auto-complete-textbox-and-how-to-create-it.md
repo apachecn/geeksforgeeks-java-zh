@@ -44,7 +44,7 @@ ArrayAdapter 类用于将颜色字符串数组的数据保存为如下所示的�
 
 **语法:**
 
-```
+```java
 android:id="@+id/id_name"
 ```
 
@@ -96,7 +96,7 @@ activity_main.xml
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -131,7 +131,7 @@ MainActivity.java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package org.geeksforgeeks.navedmalik.autocompletetextview;
 
 import android.arch.lifecycle.AndroidViewModel;

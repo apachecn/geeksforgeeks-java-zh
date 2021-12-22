@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public List<E> subList(int fromIndex, int toIndex)
 ```
 
@@ -28,7 +28,7 @@ public List<E> subList(int fromIndex, int toIndex)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // subList() method for String value
 
@@ -78,7 +78,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Original AbstractList: [A, B, C, D, E]
 Sublist of AbstractList: [C, D]
 
@@ -86,7 +86,7 @@ Sublist of AbstractList: [C, D]
 
 **示例 2:** 对于 IndexOutOfBoundsException
 
-```
+```java
 // Java program to demonstrate
 // subList() method for IndexOutOfBoundsException
 
@@ -137,7 +137,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Original AbstractList: [A, B, C, D, E]
 
 End index value is out of range
@@ -147,7 +147,7 @@ java.lang.IndexOutOfBoundsException: toIndex = 7
 
 **示例 3:** 适用于*非法文档异常*
 
-```
+```java
 // Java program to demonstrate
 // subList() method for IllegalArgumentException
 
@@ -199,7 +199,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Original AbstractList: [A, B, C, D, E]
 
 Endpoint indices are out of order (fromIndex > toIndex)

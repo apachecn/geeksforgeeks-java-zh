@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static <T> Comparator<T> comparingInt(ToIntFunction <T> keyExtractor)
 
 ```
@@ -20,7 +20,7 @@ static <T> Comparator<T> comparingInt(ToIntFunction <T> keyExtractor)
 下面的程序说明了 comparingInt(Java . util . function . to intfunction)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.comparingInt(java.util.function.ToIntFunction)  method
 
@@ -105,7 +105,7 @@ class User implements Comparable<User> {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.comparingInt(java.util.function.ToIntFunction)  method
 

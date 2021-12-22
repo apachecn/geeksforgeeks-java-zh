@@ -19,7 +19,7 @@
 
 首先，我们必须检查系统上是否安装了 java。并检查 Arch Linux 系统上安装了哪个版本。因此，为了检查 java 是否已安装，我们可以使用如下命令:
 
-```
+```java
 java --version
 ```
 
@@ -31,7 +31,7 @@ java --version
 
 现在我们必须在系统上安装 JRE 包。因此，首先我们将搜索哪些版本可供下载。要搜索可下载的 JRE 版本，请使用以下命令:
 
-```
+```java
 sudo pacman -sS java | grep jre
 ```
 
@@ -39,7 +39,7 @@ sudo pacman -sS java | grep jre
 
 现在我们要安装最新版本的 JRE。要安装最新版本的 JRE，请使用以下命令:
 
-```
+```java
 sudo pacman -S jre-openjdk
 ```
 
@@ -51,7 +51,7 @@ sudo pacman -S jre-openjdk
 
 现在我们必须在系统上安装 JDK。首先，让我们使用以下命令检查可用的下载版本:
 
-```
+```java
 sudo pacman -sS java | grep jdk
 ```
 
@@ -59,7 +59,7 @@ sudo pacman -sS java | grep jdk
 
 现在我们必须安装最新版本的 JDK。要安装最新版本的 JDK，请运行以下命令:
 
-```
+```java
 sudo pacman -S jdk-openjdk
 ```
 
@@ -69,7 +69,7 @@ sudo pacman -S jdk-openjdk
 
 **步骤 4:** 验证是否安装了 Java，可以运行如下命令:
 
-```
+```java
 java --version
 ```
 

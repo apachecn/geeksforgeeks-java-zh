@@ -27,7 +27,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate IdentityHashMap
 
 import java.util.Map;
@@ -56,7 +56,7 @@ public class IdentityHashMapExample
 
 **Output**
 
-```
+```java
 Size of IdentityHashMap--2
 ```
 
@@ -64,7 +64,7 @@ Size of IdentityHashMap--2
 
 我们可以通过两种方式创建 **IdentityHashMap** 的实例:
 
-```
+```java
 IdentityHashMap<K, V> ihm = new IdentityHashMap<K, V>();
             (or)
 Map<K, V> hm = new IdentityHashMap<K, V>();
@@ -90,7 +90,7 @@ Map<K, V> hm = new IdentityHashMap<K, V>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // adding elements to IdentityHashMap
 import java.util.*;
@@ -142,7 +142,7 @@ public class AddingElementsToIdentityHashMap {
 
 **Output**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 25=Welcomes, 30=You, 20=Geeks, 15=4}
 Returned value is: Geeks
 New map is: {10=Geeks, 25=Welcomes, 30=You, 20=All, 15=4}
@@ -154,7 +154,7 @@ The new map: {10=Geeks, 25=Welcomes, 30=You, 20=All, 15=4}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate removing
 // elements from IdentityHashMap
 
@@ -195,7 +195,7 @@ public class RemovingMappingsFromIdentityHashMap {
 
 **Output**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 25=Welcomes, 30=You, 20=Geeks, 15=4}
 Returned value is: Geeks
 New map is: {10=Geeks, 25=Welcomes, 30=You, 15=4}

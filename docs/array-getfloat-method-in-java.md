@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 Array.getFloat(Object []array, int index)
 
 ```
@@ -30,7 +30,7 @@ Array.getFloat(Object []array, int index)
 
 **程序 1** :
 
-```
+```java
 // Java code to demonstrate getFloat() method of Array class
 import java.lang.reflect.Array;
 public class GfG {
@@ -56,14 +56,14 @@ public class GfG {
 
 **输出**:
 
-```
+```java
 1.0 2.0 3.0 
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Java code to demonstrate getFloat() method of Array class
 import java.lang.reflect.Array;
 public class GfG {
@@ -86,14 +86,14 @@ public class GfG {
 
 **输出**:
 
-```
+```java
 Exception : java.lang.ArrayIndexOutOfBoundsException
 
 ```
 
 **程序 3** :
 
-```
+```java
 // Java code to demonstrate getFloat() method of Array class
 import java.lang.reflect.Array;
 public class GfG {
@@ -116,14 +116,14 @@ public class GfG {
 
 **输出**:
 
-```
+```java
 Exception : java.lang.NullPointerException
 
 ```
 
 **程序 4** :
 
-```
+```java
 // Java code to demonstrate getFloat() method of Array class
 import java.lang.reflect.Array;
 public class GfG {
@@ -146,14 +146,14 @@ public class GfG {
 
 **输出**:
 
-```
+```java
 Exception : java.lang.IllegalArgumentException: Argument is not an array
 
 ```
 
 **程序 5** :
 
-```
+```java
 // Java code to demonstrate getFloat() method of Array class
 import java.lang.reflect.Array;
 public class GfG {
@@ -176,7 +176,7 @@ public class GfG {
 
 **输出**:
 
-```
+```java
 Exception : java.lang.IllegalArgumentException: Argument is not an array
 
 ```

@@ -10,35 +10,35 @@
 
 **输入:**
 
-```
+```java
 int key = 8 
 int byte_val = 5
 ```
 
 **操作:**
 
-```
+```java
 // Performing XOR operation between key and byte_val 
 key ^ byte_val         
 ```
 
 **输出:**
 
-```
+```java
 // Output of XOR operation 
 13              
 ```
 
 **操作:**
 
-```
+```java
 // Performing XOR operation between output and key
 13 ^ key                
 ```
 
 **输出:**
 
-```
+```java
 //  byte_val
 5                
 ```
@@ -74,7 +74,7 @@ key ^ byte_val
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -142,7 +142,7 @@ public class Encryption {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

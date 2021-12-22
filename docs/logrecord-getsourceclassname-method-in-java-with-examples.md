@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getSourceClassName()
 
 ```
@@ -18,7 +18,7 @@ public String getSourceClassName()
 下面的程序说明了 getSourceClassName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getSourceClassName() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Source class Name = java.lang.String
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getSourceClassName() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Source class Name = java.lang.Object
 
 ```

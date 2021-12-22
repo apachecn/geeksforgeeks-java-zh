@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> Collector<T, ?, Long> counting()
 
 ```
@@ -28,7 +28,7 @@ public static <T> Collector<T, ?, Long> counting()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // Collectors counting() method
 
@@ -55,14 +55,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 4
 
 ```
 
 **程序 2:** 当没有元素作为输入元素传递时。
 
-```
+```java
 // Java code to show the implementation of
 // Collectors counting() method
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 0
 
 ```

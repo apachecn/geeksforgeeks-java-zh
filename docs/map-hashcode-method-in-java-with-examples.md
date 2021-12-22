@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 int hashCode()
 ```
 
@@ -18,7 +18,7 @@ int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // hashCode method in Map interface
 import java.util.*;
@@ -46,7 +46,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Ninde}
 238105666
 
@@ -54,7 +54,7 @@ public class GfG {
 
 **程序 2:** 下面是展示 hashCode()实现的代码。
 
-```
+```java
 // Java code to show the implementation of
 // hashCode method in Map interface
 import java.util.*;
@@ -82,7 +82,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Ninde}
 238105618
 

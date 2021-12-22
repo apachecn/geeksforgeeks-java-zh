@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void forEach (Consumer<E> action)
 
 ```
@@ -21,7 +21,7 @@ public void forEach (Consumer<E> action)
 
 **例 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // forEach() method in Java
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [2, 3, 4, 7, 8]
 Traversing this Set: 
 2
@@ -69,7 +69,7 @@ Traversing this Set:
 
 **例 2:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // forEach() method in Java
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [GeeksforGeeks, Geeks, Computer Science, Portal, Gfg]
 Traversing this Set: 
 GeeksforGeeks

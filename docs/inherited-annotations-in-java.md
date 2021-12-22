@@ -4,7 +4,7 @@
 
 [Java 中的注释](https://www.geeksforgeeks.org/annotations-in-java/)有助于将元数据与程序元素相关联，例如类、实例变量、方法等。注释还可以用于将元数据附加到其他注释。这些类型的注释被称为元注释。默认情况下，Java 不允许继承自定义注释。@inherited 是一种元注释类型，用于注释自定义注释，以便子类可以继承这些自定义注释。下面提到了使用@继承注释的语法。
 
-```
+```java
 @Inherited
 @interface CustomAnnotation {
     String value () default "GFG";
@@ -28,7 +28,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Illustrating Use of Custom Annotations
 // With @inherited annotation
 
@@ -117,7 +117,7 @@ public class InheritedAnnotationDemo extends Super {
 
 **输出**
 
-```
+```java
 @CustomAnnotation(value="Sky is limitless")
 @CustomAnnotation(value="Sky is limitless")
 Name of the annotation : interface CustomAnnotation
@@ -132,7 +132,7 @@ Value : Sky is limitless
 
 ## Java
 
-```
+```java
 // Java Program to Illustrating Use of Custom Annotations
 // Without @inherited annotation
 
@@ -221,7 +221,7 @@ public class InheritedAnnotationDemo extends Super {
 
 **输出**
 
-```
+```java
 null
 @CustomAnnotation(value="Sky is limitless")
 Name of the annotation : interface CustomAnnotation

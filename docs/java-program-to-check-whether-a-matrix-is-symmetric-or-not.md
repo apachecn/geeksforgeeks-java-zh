@@ -6,7 +6,7 @@
 
 插图:
 
-> ```
+> ```java
 > Input : 6 5 2
 >         5 0 9
 >         2 9 3
@@ -31,7 +31,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to check whether matrix is
 // symmetric or not
 

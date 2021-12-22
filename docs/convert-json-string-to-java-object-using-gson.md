@@ -32,7 +32,7 @@
 
 ## 超文本标记语言
 
-```
+```java
 <dependency>
        <groupId>com.google.code.gson</groupId>
        <artifactId>gson</artifactId>
@@ -48,7 +48,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package GeeksforGeeks.Geeks;
 public class Organisation {
     private String organisation_name;
@@ -112,7 +112,7 @@ public class Organisation {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package GeeksforGeeks.Geeks;
 
 import com.google.gson.Gson;

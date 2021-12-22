@@ -19,7 +19,7 @@
 
 ## XML
 
-```
+```java
 <reporting>
     <plugins>
         <plugin>

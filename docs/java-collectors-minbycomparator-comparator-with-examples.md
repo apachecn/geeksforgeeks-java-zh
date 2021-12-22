@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static 
     <T> Collector<T, ?, Optional<T>> 
         minBy(Comparator<? super T> comparator)
@@ -30,7 +30,7 @@ public static
 
 **程序 1:** 使用 naturalOrder()演示 minBy()
 
-```
+```java
 // Java code to show the implementation of
 // Collectors minBy(Comparator comparator) function
 
@@ -68,14 +68,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 
 ```
 
 **程序 2:** 使用 reverseOrder()演示 minBy()
 
-```
+```java
 // Java code to show the implementation of
 // Collectors minBy(Comparator comparator) function
 
@@ -113,14 +113,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5
 
 ```
 
 **程序 3:** 演示当没有值通过时的 minBy()。
 
-```
+```java
 // Java code to show the implementation of
 // Collectors minBy(Comparator comparator) function
 
@@ -160,7 +160,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 no value
 
 ```

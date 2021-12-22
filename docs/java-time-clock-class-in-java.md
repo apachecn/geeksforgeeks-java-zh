@@ -8,7 +8,7 @@ Java 时钟类存在于 *java.time* 包中。它是在 Java 8 中引入的，使
 
 **申报:**
 
-```
+```java
 public abstract class Clock extends Object
 ```
 
@@ -16,7 +16,7 @@ public abstract class Clock extends Object
 
 **systemUTC()方法:**
 
-```
+```java
 public static Clock systemUTC()
 ```
 
@@ -24,7 +24,7 @@ public static Clock systemUTC()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for creating instance of Clock
 import java.time.Clock;
 
@@ -45,13 +45,13 @@ public class GFG {
 
 **Output**
 
-```
+```java
 UTC time = 2021-02-07T16:16:43.863267Z
 ```
 
 **systemDefaultZone()方法**
 
-```
+```java
 public static Clock systemDefaultZone()
 ```
 
@@ -59,7 +59,7 @@ public static Clock systemDefaultZone()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for creating instance of Clock
 
 import java.time.Clock;
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 SystemClock[Etc/UTC]
 Time Zone : Etc/UTC
 ```

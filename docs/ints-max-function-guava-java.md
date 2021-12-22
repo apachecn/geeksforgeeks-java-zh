@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int max(int... array)
 
 ```
@@ -21,7 +21,7 @@ public static int max(int... array)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.max() method
 
@@ -46,14 +46,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Maximum value is: 15
 
 ```
 
 **示例 2:** 演示 IllegalArgumentException
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.max() method
 
@@ -86,7 +86,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.IllegalArgumentException
 
 ```

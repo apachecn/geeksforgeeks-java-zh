@@ -17,7 +17,7 @@ JDBC 一般有四个主要组件，通过它们可以与数据库进行交互。
 
 1.  **JDBC API:** It provides various methods and interfaces for easy communication with the database.It provides two packages as follows which contains the java SE and java EE platforms to exhibit WORA(write once run everywhere) capabilities.
 
-    ```
+    ```java
     1\. java.sql.*;
     2\. javax.sql.*;
 
@@ -29,7 +29,7 @@ JDBC 一般有四个主要组件，通过它们可以与数据库进行交互。
 3.  **JDBC 测试套件:**用于测试 JDBC 驱动正在执行的操作(如插入、删除、更新)。
 4.  **JDBC-ODBC Bridge Drivers**: It connects database drivers to the database.This bridge translates JDBC method call to the ODBC function call.It makes the use of
 
-    ```
+    ```java
     sun.jdbc.odbc
     ```
 
@@ -59,7 +59,7 @@ JDBC 架构由两层和三层处理模型组成，用于访问数据库。它们
 需要与数据库通信的 Java 应用程序必须使用 JDBC API 进行编程。必须在 java 应用程序中添加支持 Oracle 和 SQL server 等数据源的 JDBC 驱动程序，以获得 JDBC 支持，这可以在运行时动态完成。这个 JDBC 驱动程序智能地与各自的数据源通信。
 **创建简单的 JDBC 应用程序**
 
-```
+```java
 package com.vinayak.jdbc;
 import java.sql.*;
 public class JDBCDemo {

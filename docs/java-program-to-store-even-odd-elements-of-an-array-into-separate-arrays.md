@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Store Even & Odd
 // Elements of an Array into Separate Arrays
 
@@ -57,7 +57,7 @@ public class Even_Odd {
 
 **Output**
 
-```
+```java
 Even Array contains: 54 76 66 2 
 Even Array contains: 23 55 9 91 
 

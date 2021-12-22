@@ -6,7 +6,7 @@ java.util.Calendar.equals()是 java.util 包的 **Calendar** 类中的一个方�
 
 **语法:**
 
-```
+```java
 public boolean equals(Object object)
 
 Where, object is the Object 
@@ -20,7 +20,7 @@ to be compared with.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show the use of
 // equals() method of Calendar class
 import java.util.*;

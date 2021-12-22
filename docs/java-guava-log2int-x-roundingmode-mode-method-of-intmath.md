@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int log2(int x, RoundingMode mode)
 
 ```
@@ -36,7 +36,7 @@ public static int log2(int x, RoundingMode mode)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // log2(int x, RoundingMode mode) method
 // of Guava's IntMath class
@@ -72,7 +72,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 11
 9
 
@@ -80,7 +80,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // log2(int x, RoundingMode mode) method
 // of Guava's IntMath class
@@ -130,7 +130,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.IllegalArgumentException: x (-152) must be > 0
 
 ```

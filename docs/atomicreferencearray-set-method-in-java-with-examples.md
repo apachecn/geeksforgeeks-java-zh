@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void set(int i, E newValue)
 
 ```
@@ -21,7 +21,7 @@ public final void set(int i, E newValue)
 下面的程序说明了 set()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.set() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value of index 0 = 2345
 Value of index 1 = 543
 Value of index 2 = 322
@@ -62,7 +62,7 @@ Value of index 2 = 322
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.set() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 C
 PYTHON
 TS

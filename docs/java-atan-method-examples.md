@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static double atan(double a)
 Parameter :
 a : the value whose arc tangent is to be returned.
@@ -18,7 +18,7 @@ This method returns the arc tangent of the argument.
 
 **示例:**展示 **java.lang.Math.atan()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.atan() method
 import java.lang.Math;
@@ -54,7 +54,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 1.2626272556789115
 1.5678893582391513
 0.0

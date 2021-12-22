@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean offerLast(E e)
 ```
 
@@ -24,7 +24,7 @@ boolean offerLast(E e)
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java Program Demonstrate offerLast()
 // method of Deque when Null is passed
 import java.util.*;
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Deque is not full and 10 is inserted
 The Deque is not full and 15 is inserted
 The Deque is not full and 25 is inserted
@@ -77,7 +77,7 @@ Deque: [10, 15, 25, 20]
 
 **节目 2:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate offerLast()
 // method of Deque when Null is passed
 import java.util.*;
@@ -119,7 +119,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Deque is not full and 10 is inserted
 The Deque is not full and 15 is inserted
 The Deque is not full and 25 is inserted
@@ -130,7 +130,7 @@ Deque: [10, 15, 25, 20]
 
 **程序 3:** 在**的帮助下**同意链接请求。
 
-```
+```java
 // Java Program Demonstrate offerLast()
 // method of Deque when Null is passed
 import java.util.*;
@@ -173,7 +173,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Deque is not full and 10 is inserted
 The Deque is not full and 15 is inserted
 The Deque is not full and 25 is inserted

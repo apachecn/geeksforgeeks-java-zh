@@ -4,14 +4,14 @@
 
 Java 中的最后一个变量只能赋值一次，我们可以在声明中赋值，也可以在以后赋值。
 
-```
+```java
     final int i = 10;
     i = 30; // Error because i is final.
 ```
 
 Java 中的一个**空白最终**变量是一个[最终](https://www.geeksforgeeks.org/g-fact-48/)变量，在声明过程中没有初始化。下面是一个简单的空白期末的例子。
 
-```
+```java
     // A simple blank final example 
     final int i;
     i = 30;
@@ -20,7 +20,7 @@ Java 中的一个**空白最终**变量是一个[最终](https://www.geeksforgee
 **如何将值分配给对象的空白最终成员？**
 值必须在构造函数中赋值。
 
-```
+```java
 // A sample Java program to demonstrate use and
 // working of blank final
 class Test
@@ -56,7 +56,7 @@ class Main
 
 **输出:**
 
-```
+```java
 10
 20
 
@@ -64,7 +64,7 @@ class Main
 
  ***如果我们在类中有多个构造函数或重载构造函数，那么必须在所有这些构造函数中初始化空白的最终变量。然而，构造函数链可以用来初始化空白的最终变量。*** 
 
-```
+```java
 // A Java program to demonstrate that we can
 // use constructor chaining to initialize
 // final members
@@ -93,7 +93,7 @@ class Test
 
 **输出:**
 
-```
+```java
 10
 20
 ```

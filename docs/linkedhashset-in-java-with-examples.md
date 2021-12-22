@@ -22,7 +22,7 @@
 
 **申报:**
 
-```
+```java
 public class LinkedHashSet<E> extends HashSet<E> implements Set<E>, Cloneable, Serializable
 
 ```
@@ -52,7 +52,7 @@ public class LinkedHashSet<E> extends HashSet<E> implements Set<E>, Cloneable, S
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the LinkedHashSet
 import java.util.LinkedHashSet; 
 
@@ -91,7 +91,7 @@ public class LinkedHashSetExample 
 
 **输出:**
 
-```
+```java
 Size of LinkedHashSet=5
 Original LinkedHashSet:[A, B, C, D, E]
 Removing D from LinkedHashSet: true
@@ -109,7 +109,7 @@ Updated LinkedHashSet: [A, B, C, E]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for adding
 // elements to LinkedHashSet
 import java.util.*;
@@ -138,7 +138,7 @@ class AddingElementsToLinkedHashSet {
 
 **Output:**
 
-```
+```java
 LinkedHashSet : [Geek, For, Geeks]
 ```
 
@@ -146,7 +146,7 @@ LinkedHashSet : [Geek, For, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove elements
 // from LinkedHashSet
 import java.io.*;
@@ -185,7 +185,7 @@ class RemoveElementsFromLinkedHashSet {
 
 **Output:**
 
-```
+```java
 Initial HashSet [Geek, For, Geeks, A, B, Z]
 After removing element [Geek, For, Geeks, A, Z]
 false

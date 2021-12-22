@@ -19,7 +19,7 @@ java 中还有其他几个概念，增加了 java 代码和程序员之间的用
 
 让我们考虑下面的应用程序，对于这个应用程序，如下所示:
 
-```
+```java
 Project: Maven Language: Java Spring Boot: 2.2.8 Packaging: JAR Java: 8 Dependencies: Spring Web 
 ```
 
@@ -43,7 +43,7 @@ Project: Maven Language: Java Spring Boot: 2.2.8 Packaging: JAR Java: 8 Dep
 
 **例 1:**Controller.java
 
-```
+```java
 @RestController
 
 public class Controller {
@@ -67,7 +67,7 @@ public class Controller {
 
 **例 2:**Details.java
 
-```
+```java
 public class Details {
 
     // Creating an object of ArrayList

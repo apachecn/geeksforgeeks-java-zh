@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: List<String> = ["Geeks", "ForGeeks", "GeeksForGeeks"]
 Output: "Geeks, For, Geeks"
 
@@ -25,7 +25,7 @@ Output: "G, e, e, k, s"
 
 **程序:**
 
-```
+```java
 // Java program to convert List of String
 // to comma separated String
 

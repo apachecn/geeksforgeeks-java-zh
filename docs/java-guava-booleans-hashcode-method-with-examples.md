@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int hashCode(boolean value)
 
 ```
@@ -19,7 +19,7 @@ public static int hashCode(boolean value)
 
 **示例-1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.hashCode() method
 import com.google.common.primitives.Booleans;
@@ -39,14 +39,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1231
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.hashCode() method
 import com.google.common.primitives.Booleans;
@@ -66,7 +66,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1237
 
 ```

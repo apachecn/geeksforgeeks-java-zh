@@ -6,7 +6,7 @@
 
 **语法:**类声明
 
-```
+```java
 public final class Naming extends Object
 ```
 
@@ -24,7 +24,7 @@ public final class Naming extends Object
 
 **语法:**
 
-```
+```java
 static void bind(String name, remote object)
 // Bind this name with this remote object
 ```
@@ -42,7 +42,7 @@ static void bind(String name, remote object)
 
 **语法:**
 
-```
+```java
 static string[] list(String name)
 ```
 
@@ -59,7 +59,7 @@ static string[] list(String name)
 
 **语法:**
 
-```
+```java
 static remote lookup(String name)
 ```
 
@@ -78,7 +78,7 @@ static remote lookup(String name)
 
 **语法:**
 
-```
+```java
 static void rebind(String name, remote object)
 ```
 
@@ -97,7 +97,7 @@ static void rebind(String name, remote object)
 
 **语法:**
 
-```
+```java
 static void unbind(String name) 
 ```
 
@@ -114,7 +114,7 @@ static void unbind(String name)
 
 ## 爪哇
 
-```
+```java
 // Java Program to create a registry
 // Server's Side
 
@@ -195,7 +195,7 @@ public class GFG_Server {
 
 **输出:**
 
-```
+```java
 registry created successfully
 ```
 
@@ -205,7 +205,7 @@ registry created successfully
 
 ## 爪哇
 
-```
+```java
 // Java Program to look for the object
 // Client Side
 
@@ -239,6 +239,6 @@ public class GFG_Client {
 
 **输出:**
 
-```
+```java
 GeeksForGeeks
 ```

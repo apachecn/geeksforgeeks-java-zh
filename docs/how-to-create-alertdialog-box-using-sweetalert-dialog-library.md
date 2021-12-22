@@ -14,7 +14,7 @@
 
 ## **可扩展标记语言**
 
-```
+```java
 dependencies {        
         implementation 'com.github.f0ris.sweetalert:library:1.5.1'        
 }
@@ -24,7 +24,7 @@ dependencies {        
 
 **<gfg-tab role="tab" slot="tab" id="gfg-tab-0">activity_main.xml</gfg-tab><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="XML"></gfg-panel>**
 
-```
+```java
  `<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"

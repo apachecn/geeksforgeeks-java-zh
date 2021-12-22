@@ -4,7 +4,7 @@
 
 给定一个单链表，编写一个成对交换元素的函数。
 
-```
+```java
 Input: 1->2->3->4->5->6->NULL 
 Output: 2->1->4->3->6->5->NULL
 
@@ -24,7 +24,7 @@ Output: 1->NULL
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to pairwise swap 
 // elements of a linked list
 class LinkedList 
@@ -119,7 +119,7 @@ class LinkedList 
 
 **输出:**
 
-```
+```java
 Linked list before calling pairWiseSwap()
 1 2 3 4 5 
 Linked list after calling pairWiseSwap()
@@ -138,7 +138,7 @@ Linked list after calling pairWiseSwap()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Recursive function to pairwise swap 
    elements of a linked list */
 static void pairWiseSwap(node head)

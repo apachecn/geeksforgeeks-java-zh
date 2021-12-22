@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: LinkedList: ['G', 'e', 'e', 'k', 's'] 
 Output: Array: ['G', 'e', 'e', 'k', 's'] 
 
@@ -24,7 +24,7 @@ Output: Array: [1, 2, 3, 4, 5]
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to convert
 // LinkedList to Array
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked list: [G, e, e, k, s]
 Array: [G, e, e, k, s]
 

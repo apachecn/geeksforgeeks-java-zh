@@ -7,7 +7,7 @@
 
  **算法:**旋转(str1，str2)
 
-```
+```java
     1\. Create a temp string and store concatenation of str1 to
        str1 in temp.
                           temp = str1.str1
@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 
 // Java program to check if two given strings are rotations of 
 // each other
@@ -60,7 +60,7 @@ class StringRotation
 
 **Output:**
 
-```
+```java
 Strings are rotations of each other
 ```
 

@@ -5,7 +5,7 @@
 **java.text.BreakIterator** 类的 **setText()** 方法用于将新文本设置到 BreakIterator 中。
 **语法:**
 
-```
+```java
 public void setText(String newText)
 ```
 
@@ -16,7 +16,7 @@ public void setText(String newText)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate setText() method
 
 import java.text.*;
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Retrieved text is : Code Geeks
 ```
 
@@ -60,7 +60,7 @@ Retrieved text is : Code Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate setText() method
 
 import java.text.*;
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Retrieved text is : GeeksForGeeks
 ```
 

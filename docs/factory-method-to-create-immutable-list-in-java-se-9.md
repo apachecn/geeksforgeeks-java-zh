@@ -14,7 +14,7 @@ Java 9 大约在 2017 年 3 月发布，在 Java 9 中，有一些特性是用 J
 
 在 Java SE 8 中，为了在 java 8 中创建不可变列表，我们使用了 Java . util . collections . unmodifielablelist(List List List)方法. unmodifielablelist(List List List)。此方法返回指定列表的不可修改视图。该方法允许模块向用户提供对内部列表的“只读”访问。
 
-```
+```java
 Syntax: public static  List unmodifiableList(List list)
 Returns: an unmodifiable view of the specified list.
 Exception: NA
@@ -23,7 +23,7 @@ Exception: NA
 
 java 8 中不可变空和非空列表的 Java 代码:
 
-```
+```java
 // Java code illustrating
 // creating of an 
 // immutable list in Java 8
@@ -59,7 +59,7 @@ class ImmutableListDemo
 
 输出:
 
-```
+```java
 []
 [write.geeksforgeeks.org, www.geeksforgeeks.org]
 
@@ -67,7 +67,7 @@ class ImmutableListDemo
 
 现在让我们尝试在不可变列表中添加元素
 
-```
+```java
 // Java code illustrating
 // an add operation 
 // in immutable list in Java 8
@@ -107,7 +107,7 @@ class ImmutableListDemo
 
 例外:
 
-```
+```java
 Runtime Error : Exception in thread "main" 
 java.lang.UnsupportedOperationException
 at java.util.Collections$UnmodifiableCollection.add(Collections.java:1055)
@@ -120,7 +120,7 @@ at ImmutableListDemo.main(File.java:15)
 Java SE 9 在 List 接口中引入了几个方法来创建不可变列表。为了在 Java 9 中创建不可变列表，我们使用了()方法的**。
 用 Java 9 创建不可变列表的 Java 代码:**
 
-```
+```java
 // Java code illustrating
 // creating immutable list
 // using  of() method
@@ -144,7 +144,7 @@ class ImmutableListDemo
 
 输出:
 
-```
+```java
 empty immutable list: []
 non-empty immutable list: [contribute, ide]
 
@@ -152,7 +152,7 @@ non-empty immutable list: [contribute, ide]
 
 让我们尝试在不可变列表中添加一些元素:
 
-```
+```java
 // Java code illustrating add 
 // operation on immutable list
 import java.util.*;

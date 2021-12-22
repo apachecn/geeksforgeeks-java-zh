@@ -6,7 +6,7 @@ Java 中[navigatableset 接口的 floor()方法用于返回该集合中小于或
 
 **语法** :
 
-```
+```java
 E floor(E ele)
 
 ```
@@ -21,7 +21,7 @@ E floor(E ele)
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate floor()
 // method of NavigableSet
 import java.util.NavigableSet;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Greatest element less than or equal to 4 is: 4
 
 ```
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to floor()
 // method of NavigableSet
 import java.util.NavigableSet;
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Greatest element less than or equal to 4 is: D
 
 ```

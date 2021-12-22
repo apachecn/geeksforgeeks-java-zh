@@ -6,14 +6,14 @@
 
 **方法声明:**
 
-```
+```java
  public String getDisplayName(TextStyle style, Locale locale)
 
 ```
 
 **语法:**
 
-```
+```java
  String text = dayOfWeekObject.getDisplayName(TextStyle style, Locale locale)
 
 ```
@@ -27,7 +27,7 @@
     以下程序说明了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java Program Demonstrate getDisplayName()
     // method of DayOfWeek
 
@@ -74,7 +74,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Monday
     Mon
     M
@@ -83,7 +83,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java Program Demonstrate getDisplayName()
     // method of DayOfWeek
 
@@ -131,7 +131,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Wednesday
     Wed
     W

@@ -6,7 +6,7 @@ java 中的 java.util.EnumSet.noneOf( *类 <e>elementType</e>* )方法用于创�
 
 **语法:**
 
-```
+```java
 public static <E extends Enum<E>> EnumSet<E> noneOf(*Class<E> elementType*)
 ```
 
@@ -19,7 +19,7 @@ public static <E extends Enum<E>> EnumSet<E> noneOf(*Class<E> elementType*)
 下面的程序说明了 Java.util.EnumSet.noneOf()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate noneof() method
 import java.util.*;
 
@@ -57,7 +57,7 @@ public class Enum_Set_Demo {
 
 **Output:**
 
-```
+```java
 The first set is: [Welcome, To, The, World, of, Geeks]
 The other set is: []
 
@@ -65,7 +65,7 @@ The other set is: []
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate copyOf() method
 import java.util.*;
 
@@ -102,7 +102,7 @@ public class Enum_Set_Demo {
 
 **Output:**
 
-```
+```java
 The first set is: [RANGE_ROVER, MUSTANG, CAMARO, AUDI, BMW]
 The other set is: []
 

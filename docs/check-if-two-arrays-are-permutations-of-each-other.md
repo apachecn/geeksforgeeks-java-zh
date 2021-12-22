@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: arr1[] = {2, 1, 3, 5, 4, 3, 2}
        arr2[] = {3, 2, 2, 4, 5, 3, 1}
 Output: Yes
@@ -28,7 +28,7 @@ A **更好的解决方案**是使用[哈希](https://www.geeksforgeeks.org/hashi
 
 ## C++
 
-```
+```java
 // A C++ program to find one array is permutation of other array
 #include <bits/stdc++.h>
 using namespace std;
@@ -90,7 +90,7 @@ int main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to find one array is permutation of other array
 import java.util.HashMap;
 
@@ -152,7 +152,7 @@ class Permutations
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to find one
 # array is permutation of other array
 from collections import defaultdict
@@ -209,7 +209,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```java
 // C# program to find one array
 // is permutation of other array
 using System;
@@ -280,7 +280,7 @@ public class Permutations {
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // A Javascript program to find one array
@@ -351,7 +351,7 @@ public class Permutations {
 
 **Output**
 
-```
+```java
 Arrays are permutations of each other
 ```
 

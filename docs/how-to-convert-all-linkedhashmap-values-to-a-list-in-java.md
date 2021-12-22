@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 LinkedHashMap.values()
 ```
 
@@ -18,7 +18,7 @@ LinkedHashMap.values()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert all LinkedHashMap values to a
 // List
 
@@ -55,7 +55,7 @@ public class LinkedHashMapToListExample {
 
 **Output**
 
-```
+```java
 List contains:
 11
 22
@@ -66,7 +66,7 @@ List contains:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert all LinkedHashMap values to a
 // List
 
@@ -105,7 +105,7 @@ public class LinkedHashMapToListExample {
 
 **Output**
 
-```
+```java
 List contains:
 Geeks
 4

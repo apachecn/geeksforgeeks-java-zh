@@ -39,7 +39,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class MyAdapter extends BaseAdapter 
 {
     @Override public int getCount() 
@@ -94,7 +94,7 @@ public class MyAdapter extends BaseAdapter 
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -130,7 +130,7 @@ public class MyAdapter extends BaseAdapter 
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -155,7 +155,7 @@ public class MyAdapter extends BaseAdapter 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @Override
 public View getView(int i, View view, ViewGroup viewGroup)
 {

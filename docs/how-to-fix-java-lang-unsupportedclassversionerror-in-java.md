@@ -36,7 +36,7 @@ Java–版本(在命令提示符(窗口)中，我们可以给出)
 
 我们也可以通过下面的方式在命令提示符下进行检查
 
-```
+```java
 C:\Windows\system32>echo %JAVA_HOME%
 C:\Program Files\Java\jdk-9.0.4
 ```
@@ -45,13 +45,13 @@ C:\Program Files\Java\jdk-9.0.4
 
 移动到目录并找到 bin 目录。例如，如果 JRE 位于以下位置
 
-```
+```java
 C:\Program Files\Java\jdk-11.0.2, then navigate till C:\Program Files\Java\jdk-11.0.2\bin
 ```
 
 以...方式执行程序
 
-```
+```java
 java <filename>   // Even we can give filename with full package
 ```
 
@@ -59,13 +59,13 @@ java <filename>   // Even we can give filename with full package
 
 **示例:**
 
-```
+```java
 C:\Program Files\Java\jdk1.8.0_31\bin\javac <filename along with package>
 ```
 
 为了确保兼容性，我们可以将“-bootclasspath”指向目标 JRE 的 rt.jar:
 
-```
+```java
 javac -bootclasspath "C:\Program Files\Java\jdk1.8.0_31\jre\lib\rt.jar" 
 \ -source 1.8 -target 1.8 <filename>
 ```
@@ -76,7 +76,7 @@ javac -bootclasspath "C:\Program Files\Java\jdk1.8.0_31\jre\lib\rt.jar"
 
 “–release”选项支持目标 6、7、8、9、10 和 11。例如，让我们使用“–release”来定位 Java 8:
 
-```
+```java
 javac --release 8 <filename>
 ```
 

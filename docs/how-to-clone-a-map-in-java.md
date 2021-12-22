@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 {1=Geeks, 2=For, 3=Geeks}
 
 ```
@@ -23,7 +23,7 @@
 
 **实施:**
 
-```
+```java
 // Program to clone a Map in Java
 // Naive Method
 
@@ -59,7 +59,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 {1=Geeks, 2=For, 3=Geeks}
 
 ```
@@ -74,7 +74,7 @@ class GFG {
 
     **实施:**
 
-    ```
+    ```java
     // Program to clone a Map in Java
     // putAll Method
 
@@ -108,7 +108,7 @@ class GFG {
 
     **Output:**
 
-    ```
+    ```java
     {1=Geeks, 2=For, 3=Geeks}
 
     ```
@@ -123,7 +123,7 @@ class GFG {
 
 **实施:**
 
-```
+```java
 // Program to clone a Map in Java
 // Copy Constructor
 
@@ -155,7 +155,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 {1=Geeks, 2=For, 3=Geeks}
 
 ```
@@ -170,7 +170,7 @@ class GFG {
 
     **实施:**
 
-    ```
+    ```java
     // Program to clone a Map in Java
     // Using java8
 
@@ -210,7 +210,7 @@ class GFG {
 
     **Output:**
 
-    ```
+    ```java
     {1=Geeks, 2=For, 3=Geeks}
 
     ```
@@ -227,7 +227,7 @@ class GFG {
 
     **实施:**
 
-    ```
+    ```java
     // Program to clone a Map in Java
     // JSON Method
 
@@ -265,7 +265,7 @@ class GFG {
 
     **Output:**
 
-    ```
+    ```java
     {1=Geeks, 2=For, 3=Geeks}
 
     ```

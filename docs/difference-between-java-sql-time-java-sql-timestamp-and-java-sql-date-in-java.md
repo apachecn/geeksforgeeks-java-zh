@@ -48,7 +48,7 @@
 
 **插入查询:**
 
-```
+```java
 insert into empOrStuInformation(empOrStuName,empOrStuAvailability) values('xxx',now());
 insert into empOrStuInformation(empOrStuName,empOrStuAvailability) values('yyy',now()); 
 insert into empOrStuInformation(empOrStuName,empOrStuAvailability) values('zzz',now());
@@ -62,7 +62,7 @@ insert into empOrStuInformation(empOrStuName,empOrStuAvailability) values('zzz',
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.sql.Date;
 public class GFG {
     public static void main(String[] args)
@@ -132,7 +132,7 @@ java.sql.Timestamp 列对于记录条目非常有帮助。学生/员工什么时
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.sql.Date;
 import java.sql.Timestamp;
 public class GFG {
@@ -227,7 +227,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.sql.Date;
 import java.sql.Time;
 import java.sql.Timestamp;

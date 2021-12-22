@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getModifiers()
 
 ```
@@ -18,7 +18,7 @@ public int getModifiers()
 下面的程序说明了 getModifiers()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getModifiers () method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 private static
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getModifiers () method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 static final
 
 ```

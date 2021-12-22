@@ -23,7 +23,7 @@
 
 **申报:**
 
-```
+```java
 public interface ListIterator<E> extends Iterator<E>
 ```
 
@@ -31,7 +31,7 @@ public interface ListIterator<E> extends Iterator<E>
 
 **获取列表迭代器的语法:**
 
-```
+```java
 ListIterator<E> listIterator()  
 ```
 
@@ -41,7 +41,7 @@ ListIterator<E> listIterator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to show the usage of listIterator
 
 import java.util.*;
@@ -74,7 +74,7 @@ public class ListIteratorDemo {
 
 **Output**
 
-```
+```java
 Welcome
 To
 Gfg
@@ -102,7 +102,7 @@ Gfg
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to traverse the list both in forward and
 // backward direction using listIterator
 import java.util.*;
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Forward Direction Iteration:
 learn
 from
@@ -158,7 +158,7 @@ learn
 
 **语法:**
 
-```
+```java
 public ListIterator listIterator()
 
 ```
@@ -171,7 +171,7 @@ public ListIterator listIterator()
 
 **语法:**
 
-```
+```java
 public ListIterator listIterator(int index)
 
 ```

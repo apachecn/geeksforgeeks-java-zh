@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的 **withPositiveSign()** �
 
 **语法:**
 
-```
+```java
 public void withPositiveSign(char positiveSign)
 
 ```
@@ -19,7 +19,7 @@ public void withPositiveSign(char positiveSign)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -52,7 +52,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 Current Character used for positive sign: +
 Updated Character used for positive sign: *
 

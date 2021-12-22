@@ -7,7 +7,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print current date and
 // time using Date class.
 import java.util.*;
@@ -23,7 +23,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 Current date is Sat Mar 24 18:22:46 UTC 2018
 ```
 
@@ -31,7 +31,7 @@ Current date is Sat Mar 24 18:22:46 UTC 2018
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Code of calendar.get() function
 import java.util.*;
 
@@ -63,7 +63,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Day of week : 7
 Day of year : 83
 Week in Month : 4

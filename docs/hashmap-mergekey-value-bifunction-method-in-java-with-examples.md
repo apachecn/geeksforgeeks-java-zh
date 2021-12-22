@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public V merge(K key, V value,
     BiFunction remappingFunction)
 
@@ -30,7 +30,7 @@ public V merge(K key, V value,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // computeIfAbsent(Key, Function) method.
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap1: {1=L, 2=M, 3=N}
 HashMap2: {1=B, 2=G, 3=R}
 New HashMap: {1=L, B, 2=M, G, 3=N, R}
@@ -91,7 +91,7 @@ New HashMap: {1=L, B, 2=M, G, 3=N, R}
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // computeIfAbsent(Key, Function) method.
 
@@ -143,7 +143,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap1: {1=Ram, 2=Rohan, 3=Shivam}
 HashMap2: {1=Tushar, 10=Satya, 12=Sundar}
 New HashMap: {1=Ram, Tushar, 2=Rohan, 3=Shivam, 10=Satya, 12=Sundar}

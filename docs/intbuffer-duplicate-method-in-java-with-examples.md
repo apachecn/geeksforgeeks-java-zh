@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract IntBuffer duplicate()
 ```
 
@@ -16,7 +16,7 @@ public abstract IntBuffer duplicate()
 
 **示例 1:** 使用直接输入缓冲区
 
-```
+```java
 // Java program to demonstrate duplicate() method
 
 import java.nio.*;
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original IntBuffer:  [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 Duplicate IntBuffer: [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 
@@ -75,7 +75,7 @@ Duplicate IntBuffer: [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 
 **示例 2:** 使用只读 intbuffer
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // using read-onlyIntbuffer
@@ -148,7 +148,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original IntBuffer:  [8, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 Read-only IntBuffer:  8, 0, 9, 0, 0, 0, 0, 0, 0, 0, 
 Duplicate copy of read-only IntBuffer:  8, 0, 9, 0, 0, 0, 0, 0, 0, 0,

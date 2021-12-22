@@ -8,7 +8,7 @@
 
 到目前为止，我们已经学会了两种方法来声明或者用一个固定大小的数组，或者根据用户的需求根据内存中分配的数组来输入大小。
 
-```
+```java
 int Array_name[Fixed_size] ;
 int array_name[variable_size] ;
 ```
@@ -40,13 +40,13 @@ int array_name[variable_size] ;
 
 在阵列的情况下
 
-```
+```java
 type function_Name(type arrayName[], type sizeOfArray) ;
 ```
 
 在向量的情况下
 
-```
+```java
 type function_Name(vector<type> vectorName) ;
 ```
 
@@ -72,7 +72,7 @@ type function_Name(vector<type> vectorName) ;
 
  **## 爪哇
 
-```
+```java
 // Java Program to find maximum element
 // in a vector using predefined method
 
@@ -112,7 +112,7 @@ class GFG {
 
 ****输出:****
 
-```
+```java
 The maximum value present in Vector is : 98
 ```
 
@@ -134,7 +134,7 @@ T0T6】**
 
 ****输出:****
 
-```
+```java
 The largest element present in Vector is : 5
 ```
 

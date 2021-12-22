@@ -13,7 +13,7 @@ JarInputStream 类用于从任何输入流中读取 JAR 文件的内容。它扩
 *   **受保护的 ZipEntry createZipEntry(字符串名称):**为指定的 JAR 文件条目名称创建一个新的 JAR 条目(ZipEntry)。指定 JAR 文件条目名称的清单属性将被复制到新的 JarEntry。
 *   **清单 getManifest() :** 返回此 JAR 文件的清单，如果没有，则返回 null。
 
-    ```
+    ```java
     Syntax :public Manifest getManifest()
     Returns:
     the Manifest for this JAR file, or null if none.
@@ -21,7 +21,7 @@ JarInputStream 类用于从任何输入流中读取 JAR 文件的内容。它扩
 
 *   **ZipEntry getNextEntry() :** 读取下一个 ZIP 文件条目，并将流定位在条目数据的开头。如果已启用验证，则在为下一个条目定位流时检测到的任何无效签名都将导致异常。
 
-    ```
+    ```java
     Syntax :public ZipEntry getNextEntry()
                           throws IOException
     Overrides: getNextEntry in class ZipInputStream
@@ -35,7 +35,7 @@ JarInputStream 类用于从任何输入流中读取 JAR 文件的内容。它扩
 
 *   **JarEntry getnext JarEntry():**读取下一个 JAR 文件条目，并将流定位在条目数据的开头。如果已启用验证，则在为下一个条目定位流时检测到的任何无效签名都将导致异常。
 
-    ```
+    ```java
     Syntax :public JarEntry getNextJarEntry()
                              throws IOException
     Returns:
@@ -48,7 +48,7 @@ JarInputStream 类用于从任何输入流中读取 JAR 文件的内容。它扩
 
 *   **int read(byte[] b，int off，int len) :** 从当前 JAR 文件条目读取到一个字节数组中。如果 len 不为零，则该方法阻塞，直到某个输入可用；否则，不读取字节，返回 0。如果已启用验证，当前条目上的任何无效签名将在到达条目末尾之前的某个时间点报告。
 
-    ```
+    ```java
     Syntax :public int read(byte[] b,
            int off,
            int len)
@@ -68,7 +68,7 @@ JarInputStream 类用于从任何输入流中读取 JAR 文件的内容。它扩
     SecurityException 
     ```
 
-```
+```java
 //Java program demonstrating JarInputStream methods
 
 import java.io.FileInputStream;
@@ -120,7 +120,7 @@ class JarInputStreamDemo extends JarInputStream
 
 **输出:**
 
-```
+```java
 Zipentry
 Attention-64.png
 java.util.jar.Manifest@513ee0c5

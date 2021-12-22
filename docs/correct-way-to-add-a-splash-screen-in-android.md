@@ -14,7 +14,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/colorAccent" />
@@ -33,7 +33,7 @@
 
 ## XML
 
-```
+```java
 <resources>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorNative">@color/colorNative</item>
@@ -53,7 +53,7 @@
 
 ## 爪哇
 
-```
+```java
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -76,7 +76,7 @@ public class LaunchScreen extends AppCompatActivity {
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.launchcreen">

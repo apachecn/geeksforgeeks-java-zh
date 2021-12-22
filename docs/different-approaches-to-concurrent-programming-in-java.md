@@ -10,7 +10,7 @@
 
 1.  假设用户需要下载五个图像，每个图像来自不同的服务器，每个图像需要五秒钟，现在假设用户下载所有的第一个图像，需要 5 秒钟，然后下载所有的第二个图像，需要 5 秒钟，以此类推，到时间结束时，需要 25 秒钟。先下载一点图片一，然后再下载一点图片二、三、四、五，然后回来再下载一点图片一等等，速度会更快。
 
-    ```
+    ```java
 
              Tasks overlap in time
 
@@ -37,14 +37,14 @@
 
 1.  首先要排队一个任务。调用执行器服务指向新的固定线程池并提供一个大小。此大小表示同时进行的任务的最大数量。例如，如果一个人向队列中添加了一千个东西，但是池的大小是 50，那么在任何时候都只有 50 个在运行。只有当前五十个中的一个完成执行时，第五十一个才会被执行。像池大小为 100 这样的数字不会使系统过载。
 
-    ```
+    ```java
     ExecutorService taskList = Executors.newFixedThreadPool(poolSize);
 
     ```
 
 2.  然后，用户必须将一些可运行类型的任务放到任务队列中。Runnable 只是一个接口，它有一个叫做 run 的方法。当系统通过启动单独的线程在任务之间来回切换时，它会在适当的时间调用 run 方法。
 
-    ```
+    ```java
      taskList.execute(someRunnable)
     ```
 
@@ -56,7 +56,7 @@
 
 1.  首先要做的是创建一个单独的类，一个完全单独的类，实现可运行的接口。
 
-    ```
+    ```java
     public class MyRunnable implements Runnable {
              public void run() { ... }  
     }
@@ -69,7 +69,7 @@
 
 **实际执行**
 
-```
+```java
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -158,7 +158,7 @@ class MainApp 
 
 **Output:**
 
-```
+```java
 Thread: pool-1-thread-1 Counter: 1 Task: task 1
 Thread: pool-1-thread-2 Counter: 1 Task: task 2
 Thread: pool-1-thread-2 Counter: 2 Task: task 2

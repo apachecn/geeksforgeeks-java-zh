@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean methodModifiers()
 
 ```
@@ -18,7 +18,7 @@ public static boolean methodModifiers()
 下面的程序举例说明了 methodModifiers()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // methodModifiers() method
 
@@ -43,7 +43,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Method Modifiers:
  public protected private abstract
  static final synchronized native strictfp
@@ -52,7 +52,7 @@ Method Modifiers:
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // methodModifiers() method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Int Value: 3391
 
 ```

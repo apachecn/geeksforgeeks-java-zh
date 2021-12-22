@@ -6,7 +6,7 @@
 
 **linked hashmap 的语法**
 
-```
+```java
 public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V>
 ```
 
@@ -20,7 +20,7 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 
 **语法:**
 
-```
+```java
 public static void reverse(List myList)
 ```
 
@@ -43,7 +43,7 @@ public static void reverse(List myList)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate 
 // LinkedHashMap in reverse order
 
@@ -112,7 +112,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Student Details:
 Insertion Order of LinkedHashMap: iterating 
 
@@ -135,7 +135,7 @@ Key : 1        Value : Sravan Kumar
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate 
 // LinkedHashMap in reverse order
 
@@ -203,7 +203,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Staff DataBase
 Insertion Order of LinkedHashMap: iterating 
 
@@ -222,7 +222,7 @@ Key : CSE        Value : Subba Rao
 
 **语法:**
 
-```
+```java
 ListIterator listIterator(int index)
 ```
 
@@ -232,7 +232,7 @@ ListIterator listIterator(int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate 
 // LinkedHashMap in reverse order
 
@@ -283,7 +283,7 @@ public class LinkedHashMapIterateReverseExample {
 
 **Output**
 
-```
+```java
 three Geeks
 two For
 one Geeks
@@ -293,7 +293,7 @@ one Geeks
 
 **语法:**
 
-```
+```java
 public Iterator descendingIterator()
 ```
 
@@ -301,7 +301,7 @@ public Iterator descendingIterator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate 
 // LinkedHashMap in reverse order
 
@@ -350,7 +350,7 @@ public class LinkedHashMapIterateReverseExample {
 
 **Output**
 
-```
+```java
 three Geeks
 two For
 one Geeks

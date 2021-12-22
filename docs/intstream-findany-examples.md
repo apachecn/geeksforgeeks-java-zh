@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 OptionalInt findAny()
 
 Where, OptionalInt is a container object which
@@ -20,7 +20,7 @@ this stream, or an empty OptionalInt if the stream is empty.
 
 **示例 1 :** 整数流上的 findAny()方法。
 
-```
+```java
 // Java code for IntStream findAny()
 // which returns an OptionalInt describing
 // some element of the stream, or an
@@ -55,7 +55,7 @@ class GFG {
 
 输出:
 
-```
+```java
 6
 
 ```
@@ -64,7 +64,7 @@ class GFG {
 
 **示例 2 :** findAny()方法以非确定性方式返回可被 4 整除的元素。
 
-```
+```java
 // Java code for IntStream findAny()
 // which returns an OptionalInt describing
 // some element of the stream, or an
@@ -99,7 +99,7 @@ class GFG {
 
 输出:
 
-```
+```java
 16
 
 ```

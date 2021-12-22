@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to swap two elements in an ArrayList
 
 import java.util.ArrayList;
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before Swap the ArrayList 
 [Item 1, Item 2, Item 3, Item 4, Item 5]
 After Swap the ArrayList
@@ -68,7 +68,7 @@ After Swap the ArrayList
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to swap two elements in an ArrayList
 
 import java.util.ArrayList;
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 5
     at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
     at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)

@@ -27,7 +27,7 @@
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **class Vowels
 {
         // function to check if the passed
@@ -53,7 +53,7 @@
 
 ******Output**
 
-```
+```java
 Consonant
 ```**** 
 
@@ -65,7 +65,7 @@ Consonant
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **import java.io.*;
 
 class GFG {
@@ -87,7 +87,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 Count is 4
 ```**** 
 
@@ -99,7 +99,7 @@ Count is 4
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **import java.io.*;
 
 class GFG {
@@ -112,7 +112,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 Character not found
 ```**** 
 
@@ -124,7 +124,7 @@ Character not found
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **public class Geeks {
 public static void main(String args[])
     {
@@ -142,7 +142,7 @@ public static void main(String args[])
 
 ******Output**
 
-```
+```java
 Substring found at 11
 ```**** 
 
@@ -154,7 +154,7 @@ Substring found at 11
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **class Geek
 {
     public static void check(char c)
@@ -185,7 +185,7 @@ Substring found at 11
 
 ******Output**
 
-```
+```java
 It is a digit
 It is a Alphabet
 It is a Special Character

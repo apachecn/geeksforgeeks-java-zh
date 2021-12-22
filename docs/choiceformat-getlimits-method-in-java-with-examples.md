@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double[] getLimits()
 ```
 
@@ -18,7 +18,7 @@ public double[] getLimits()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getLimits() method
 
 import java.text.*;
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Limit: [4.0, 5.0, 6.0, 7.0]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getLimits() method
 
 import java.text.*;
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Limit: [add, sub, multiply, divide]
 
 ```

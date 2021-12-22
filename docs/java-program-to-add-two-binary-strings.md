@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input :  x = "10", y = "01"
 Output: "11"
 
@@ -26,7 +26,7 @@ Explanation:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to add two binary strings
 
 public class gfg {
@@ -78,6 +78,6 @@ public class gfg {
 
 **Output**
 
-```
+```java
 1110010
 ```

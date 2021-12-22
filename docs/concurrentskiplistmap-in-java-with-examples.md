@@ -38,7 +38,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate
 // ConcurrentSkipListMap
 
@@ -108,7 +108,7 @@ class ConcurrentSkipListMapExample {
 
 **Output**
 
-```
+```java
 Initial Map : {1=Hi!, 2=from, 3=Geeks, 4=for, 5=Geeks}
 ceilingEntry-2: 2=from
 descendingKeySet: 
@@ -133,7 +133,7 @@ ConcurrentSkipListMap 的 [put()](https://www.geeksforgeeks.org/concurrentskipli
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate adding
 // mappings to a ConcurrentSkipListMap
 
@@ -159,7 +159,7 @@ class AddingMappingsExample {
 
 **Output**
 
-```
+```java
 After put(): {1=1, 2=2, 3=3, 4=4, 5=5, 6=6, 7=7, 8=8, 9=9}
 ```
 
@@ -169,7 +169,7 @@ ConcurrentSkipListMap 的 [remove()](https://www.geeksforgeeks.org/concurrentski
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate removing
 // mappings from ConcurrentSkipListMap
 
@@ -209,7 +209,7 @@ class RemovingMappingsExample {
 
 **Output**
 
-```
+```java
 After remove(): {1=1, 2=2, 3=3, 4=4, 6=6}
 pollFirstEntry: 1=1
 pollLastEntry: 6=6
@@ -222,7 +222,7 @@ map contents: {2=2, 3=3, 4=4}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate iterating
 // over ConcurrentSkipListMap
 
@@ -264,7 +264,7 @@ class IteratingExample {
 
 **Output**
 
-```
+```java
 Key = 0, Value = 0
 Key = 1, Value = 1
 Key = 2, Value = 2

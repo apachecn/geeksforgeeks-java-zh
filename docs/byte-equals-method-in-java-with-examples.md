@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 ByteObject.equals(Object a)
 ```
 
@@ -18,7 +18,7 @@ ByteObject.equals(Object a)
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Byte equals() method
 
@@ -44,14 +44,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Does 20 equals 20 : true
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Byte equals() method
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Does 2 equals 20 : false
 
 ```

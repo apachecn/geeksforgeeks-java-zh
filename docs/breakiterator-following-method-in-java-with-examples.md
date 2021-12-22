@@ -5,7 +5,7 @@
 **java.text.BreakIterator** 类的**以下()**方法用于返回文本行中指定偏移量之后出现的第一个边界的索引。它提供下一个边界的第一个字符的偏移量，下一个边界跟随传递的偏移量的边界。
 **语法:**
 
-```
+```java
 public abstract int following(int offset)
 ```
 
@@ -17,7 +17,7 @@ public abstract int following(int offset)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate following() method
 
 import java.text.*;
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 first boundary for offset 0 : 4
 
 first boundary for offset 4 : 6
@@ -84,7 +84,7 @@ first boundary for offset 8 : 11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate following() method
 
 import java.text.*;
@@ -141,7 +141,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 first boundary for offset 0 : 4
 
 first boundary for offset 4 : 6

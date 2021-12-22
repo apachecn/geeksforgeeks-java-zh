@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public long getUsableSpace()
 ```
 
 **语法:**
 
-```
+```java
 long var = file.getUsableSpace();
 ```
 
@@ -26,7 +26,7 @@ long var = file.getUsableSpace();
 
 **示例 1:** 文件“F:\\program.txt”是 F: Directory 中的一个现有文件。
 
-```
+```java
 // Java program to demonstrate
 // getUsableSpace() method of File Class
 
@@ -49,13 +49,13 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Usable Space: 174491860992
 ```
 
 **示例 2:** 文件“F:\ program 1 . txt”在文件 F:目录中不存在。
 
-```
+```java
 // Java program to demonstrate
 // getUsableSpace() method of File Class
 
@@ -78,7 +78,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Usable Space: 0
 ```
 

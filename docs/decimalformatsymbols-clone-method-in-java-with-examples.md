@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 
 ```
@@ -19,7 +19,7 @@ public Object clone()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -44,7 +44,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current DecimalFormatSymbols: java.text.DecimalFormatSymbols@1073a
 Cloned DecimalFormatSymbols: java.text.DecimalFormatSymbols@1073a
 

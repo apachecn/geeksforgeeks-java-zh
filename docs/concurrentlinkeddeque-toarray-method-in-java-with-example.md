@@ -8,7 +8,7 @@
 
     **语法**
 
-    ```
+    ```java
     public Object[] toArray()
     ```
 
@@ -20,7 +20,7 @@
 
     **例 1:**
 
-    ```
+    ```java
     // Java Program Demonstrate toArray()
     // method of ConcurrentLinkedDeque
 
@@ -54,7 +54,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ConcurrentLinkedDeque: [7855642, 35658786, 5278367, 74381793]
     Returned Array: [7855642, 35658786, 5278367, 74381793]
 
@@ -67,7 +67,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public <T> T[] toArray(T[] a)
     ```
 
@@ -84,7 +84,7 @@
 
     **程序 1:** 当数组的大小为 ConcurrentLinkedDeque 时
 
-    ```
+    ```java
     // Java code to illustrate toArray(arr[])
 
     import java.util.concurrent.*;
@@ -122,7 +122,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The ConcurrentLinkedDeque: [Welcome, To, Geeks, For, Geeks]
     Returned Array: [Welcome, To, Geeks, For, Geeks]
 

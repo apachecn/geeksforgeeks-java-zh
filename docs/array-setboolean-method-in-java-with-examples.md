@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Array.setBoolean(Object []array, int index, boolean value)
 ```
 
@@ -28,7 +28,7 @@ Array.setBoolean(Object []array, int index, boolean value)
 
     **程序 1:**
 
-    ```
+    ```java
     // Java code to demonstrate setBoolean()
     // method of Array class
 
@@ -67,7 +67,7 @@ Array.setBoolean(Object []array, int index, boolean value)
 
     **Output:**
 
-    ```
+    ```java
     Before Set : true false true 
     After Set : true true true
 
@@ -75,7 +75,7 @@ Array.setBoolean(Object []array, int index, boolean value)
 
     **程序 2:** 演示 java.lang.NullPointerException
 
-    ```
+    ```java
     // Java code to demonstrate setBoolean()
     // method of Array class
 
@@ -103,14 +103,14 @@ Array.setBoolean(Object []array, int index, boolean value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.NullPointerException
 
     ```
 
     **程序 3:** 演示 Java . lang . arrayindexoutofboundsexception
 
-    ```
+    ```java
     // Java code to demonstrate setBoolean()
     // method of Array class
 
@@ -138,14 +138,14 @@ Array.setBoolean(Object []array, int index, boolean value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.ArrayIndexOutOfBoundsException
 
     ```
 
     **程序 4:** 演示 Java . lang . illegalargumentexception
 
-    ```
+    ```java
     // Java code to demonstrate setBoolean()
     // method of Array class
 
@@ -173,7 +173,7 @@ Array.setBoolean(Object []array, int index, boolean value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.IllegalArgumentException: Argument is not an array
 
     ```

@@ -8,7 +8,7 @@
 
 下面描述了两个二项式堆，如下所示:
 
-```
+```java
  BINOMIAL HEAP 1
 
  12------------10--------------------20
@@ -53,7 +53,7 @@ Binomial Trees of orders 2 and 3 from left to right.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Binomial Heap
 
 // Importing required classes
@@ -476,7 +476,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Size of the binomial heap is 7
 
 Heap : 9 7 2 12 8 15 5 

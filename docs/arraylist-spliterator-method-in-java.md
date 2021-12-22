@@ -4,7 +4,7 @@
 
 **[数组列表](https://www.geeksforgeeks.org/arraylist-in-java/)** 的**分割器()**方法返回一个与数组列表元素相同的分割器，但是创建的分割器是后期绑定和快速失效的。后期绑定拆分器绑定到元素源。这意味着数组列表位于第一次遍历、第一次拆分或第一次查询估计大小的位置，而不是创建拆分器的位置。它可以和 Java 8 中的 Streams 一起使用。此外，它还可以单独和批量遍历元素。Spliterator 是遍历元素的更好方法，因为它提供了对元素的更多控制。
 
-```
+```java
 Spliterator = Splitting + Iterator
 ```
 
@@ -18,7 +18,7 @@ Spliterator = Splitting + Iterator
 
 **语法:**
 
-```
+```java
 public Spliterator<E> spliterator()
 ```
 
@@ -28,7 +28,7 @@ public Spliterator<E> spliterator()
 
 **示例 1:** 演示包含电子邮件列表的 ArrayList 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of ArrayList
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 list of Emails:
 abc@geeksforgeeks.org
 user@geeksforgeeks.org
@@ -76,7 +76,7 @@ randomuser@geeksforgeeks.org
 
 **示例 2:** 演示包含用户列表的 ArrayList 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of ArrayList
 
@@ -130,7 +130,7 @@ class user {
 
 **Output:**
 
-```
+```java
 list of Emails:
 User name : Aman and user age: 24
 User name : Suraj and user age: 23

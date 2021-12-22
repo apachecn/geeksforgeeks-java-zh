@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 A % B
 Where A is the dividend and B is divisor
 ```
@@ -29,7 +29,7 @@ Where A is the dividend and B is divisor
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implementation of Modulo or Remainder Operator in Java
 import java.io.*;
 import java.util.*;
@@ -52,7 +52,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 7
 ```
 

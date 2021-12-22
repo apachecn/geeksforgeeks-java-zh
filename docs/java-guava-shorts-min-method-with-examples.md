@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static short min(short... array)
 
 ```
@@ -21,7 +21,7 @@ public static short min(short... array)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.min() method
 
@@ -47,14 +47,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Minimum Value is: -5
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.min() method
 
@@ -88,7 +88,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

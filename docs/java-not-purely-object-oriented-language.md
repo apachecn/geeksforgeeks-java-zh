@@ -21,7 +21,7 @@ Java 支持属性 1、2、3、4 和 6，但不支持上面给出的属性 5 和 
 *   **原始数据类型 ex。作为对象的 int、long、bool、float、char 等:** Smalltalk 是一种“纯”面向对象的编程语言，与 Java 和 C++不同，因为作为对象的值和作为基元类型的值之间没有区别。在 Smalltalk 中，诸如整数、布尔值和字符等基元值也是对象。
     在 Java 中，我们有预定义的非对象类型(原语类型)。
 
-    ```
+    ```java
     int a = 5; 
     System.out.print(a);
 
@@ -30,14 +30,14 @@ Java 支持属性 1、2、3、4 和 6，但不支持上面给出的属性 5 和 
 *   **static 关键字:**当我们声明一个类是静态的，那么它就可以在 Java 中不使用对象的情况下使用。如果我们使用的是静态函数或静态变量，那么我们就不能用点()来调用那个函数或变量。)或不符合面向对象特征的类对象。
 *   **Wrapper Class:** Wrapper class provides the mechanism to convert primitive into object and object into primitive. In Java, you can use Integer, Float etc. instead of int, float etc. We can communicate with objects without calling their methods. ex. using arithmetic operators.
 
-    ```
+    ```java
     String s1 = "ABC" + "A" ;
 
     ```
 
     即使使用 Wrapper 类也不能使 Java 成为一种纯面向对象的语言，因为在内部它会使用像 Unboxing 和 Autoboxing 这样的操作。因此，如果你创建而不是 int Integer，并对它进行任何数学运算，在头罩下，Java 将只使用原语类型 int。
 
-    ```
+    ```java
     public class BoxingExample 
     {
         public static void main(String[] args) 

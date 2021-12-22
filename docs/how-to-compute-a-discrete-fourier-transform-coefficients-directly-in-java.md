@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 
 Enter the values of simple linear equation
@@ -47,28 +47,28 @@ Output:
 *   现在我们先取 a，b，c 的输入，然后我们试着用**“ax+by = c”**线性形式计算
 *   我们尝试在一个名为“newvar”的数组中使用该函数。
 
-```
+```java
 newvar[i] = (((a*(double)i) + (b*(double)i)) -c);
 ```
 
 *   现在让我们取输入变量 k，也声明 sin 和余弦数组，这样我们就可以分别计算实部和虚部。
 
-```
+```java
 cos[i]=Math.cos((2*i*k*Math.PI)/N);
 ```
 
-```
+```java
 sin[i]=Math.sin((2*i*k*Math.PI)/N);
 ```
 
 *   现在让我们来看看实变量和虚变量
 *   计算虚变量和实变量，比如
 
-```
+```java
 real+=newvar[i]*cos[i];
 ```
 
-```
+```java
 img+=newvar[i]*sin[i];
 ```
 
@@ -78,7 +78,7 @@ img+=newvar[i]*sin[i];
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program  to Compute a Discrete-Fourier
 // Transform Coefficients Directly
 
@@ -174,7 +174,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Enter the values of simple linear equation
 ax+by=c
 Enter the k DFT value

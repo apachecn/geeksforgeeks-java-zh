@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static long[] concat(long[]... arrays)
 
 ```
@@ -22,7 +22,7 @@ public static long[] concat(long[]... arrays)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.concat() method
 
@@ -59,7 +59,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Long Array 1: [1, 2, 3, 4, 5]
 Long Array 2: [6, 2, 7, 0, 8]
 Combined Array: [1, 2, 3, 4, 5, 6, 2, 7, 0, 8]
@@ -68,7 +68,7 @@ Combined Array: [1, 2, 3, 4, 5, 6, 2, 7, 0, 8]
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.concat() method
 
@@ -115,7 +115,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Long Array 1: [1, 2, 3]
 Long Array 2: [4, 5]
 Long Array 3: [6, 7, 8]

@@ -6,7 +6,7 @@ Java 语言通过使用监视器支持线程同步。监视器与特定的数据
 
 **语法:**
 
-```
+```java
 public String getName()
 ```
 
@@ -16,7 +16,7 @@ public String getName()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Monitor a Thread's Status
 
 // Class 1

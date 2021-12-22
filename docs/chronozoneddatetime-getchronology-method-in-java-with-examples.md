@@ -6,7 +6,7 @@ Java 中**时区**界面的**获取年表()**方法获取这个日期的年表�
 
 **语法** :
 
-```
+```java
 default IsoChronology getChronology()
 
 ```
@@ -19,7 +19,7 @@ default IsoChronology getChronology()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.get() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Chronology: ISO
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.get() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Chronology: ISO
 
 ```

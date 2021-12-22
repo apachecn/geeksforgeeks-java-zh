@@ -6,7 +6,7 @@ java 中 Hashtable 类的 java.util.Hashtable.elements()方法用于获取 Hasht
 
 **语法:**
 
-```
+```java
 Enumeration enu = Hash_table.elements()
 ```
 
@@ -17,7 +17,7 @@ Enumeration enu = Hash_table.elements()
 下面的程序用来说明 java.util.Hashtable.elements()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the elements() method
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 The Table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 The enumeration of values are:
 Geeks
@@ -67,7 +67,7 @@ Welcomes
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate the elements() method
 import java.util.*;
 
@@ -104,7 +104,7 @@ public class Hash_Table_Demo {
 
 ****输出:**
 
-```
+```java
 The Table is: {You=30, Welcomes=25, 4=15, Geeks=20}
 The enumeration of values are:
 30

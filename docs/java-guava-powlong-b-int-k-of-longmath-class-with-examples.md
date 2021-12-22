@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long pow(long b, int k)
 
 ```
@@ -19,7 +19,7 @@ public static long pow(long b, int k)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // pow(long b, int k) method of Guava's
 // LongMath Class
@@ -55,7 +55,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 4 to the 5th power is: 1024
 12 to the 3rd power is: 1728
 
@@ -63,7 +63,7 @@ class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // pow(long b, int k) method of Guava's
 // LongMath class
@@ -113,7 +113,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException: exponent (-5) must be >= 0
 
 ```

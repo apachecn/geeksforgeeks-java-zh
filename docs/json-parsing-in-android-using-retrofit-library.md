@@ -58,7 +58,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--permissions for INTERNET-->
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
@@ -69,7 +69,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -160,7 +160,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class RecyclerData {
     // string variables for our data
     // make sure that the variable name 
@@ -218,7 +218,7 @@ public class RecyclerData {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import retrofit2.Call;
 import retrofit2.http.GET;
 
@@ -243,7 +243,7 @@ public interface RetrofitAPI {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;

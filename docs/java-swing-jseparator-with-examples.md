@@ -27,7 +27,7 @@ JSeparator 是 Java Swing 框架的一部分。它用于在两个组件之间创
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a vertical separator
 import java.awt.*;
 import javax.swing.*;
@@ -81,7 +81,7 @@ class separator extends JFrame
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a HORIZONTAL separator
 import java.awt.*;
 import javax.swing.*;
@@ -135,7 +135,7 @@ class separator_1 extends JFrame
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a separator
 // using addSeparator function
 import java.awt.*;

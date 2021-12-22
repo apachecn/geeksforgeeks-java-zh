@@ -30,7 +30,7 @@ PasswordField 是 javax.swing 包的一部分。类 JPasswordField 是一个允�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to enter name and password
 // using JTextField and JPasswordField
 import java.awt.event.*;
@@ -132,7 +132,7 @@ class text extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to change the echo character of
 // JPasswordField and set initial text for password field
 import java.awt.event.*;

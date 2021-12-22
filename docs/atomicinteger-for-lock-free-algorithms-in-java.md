@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate the 
 // Synchronization of threads
 // using Locks 
@@ -115,7 +115,7 @@ class CountTrees {
 
 **输出:**
 
-```
+```java
 Planting trees in progress...
 Concretization in progress...
 Number of trees in your area:: 10000
@@ -126,7 +126,7 @@ Number of trees in your area:: 10000
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate to achieve concurrency
 // with the help of AtomicInteger class which is used
 // in application like atomically incremented the counter
@@ -242,7 +242,7 @@ class CountTrees {
 
 **输出:**
 
-```
+```java
 Concretization in progress...
 Planting trees in process...
 Number of trees in your area::10000

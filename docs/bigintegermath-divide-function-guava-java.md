@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static BigInteger divide(BigInteger p,
                                 BigInteger q,
                                 RoundingMode mode)
@@ -39,7 +39,7 @@ public static BigInteger divide(BigInteger p,
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // divide(BigInteger p, BigInteger q, RoundingMode mode)
 // method of Guava's BigIntegerMath class
@@ -91,7 +91,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 55 divided by 10 with HALF_DOWN rounding mode: 5
 55 divided by 10 with CEILING rounding mode: 6
 
@@ -99,7 +99,7 @@ class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // divide(BigInteger p, BigInteger q, RoundingMode mode)
 // method of Guava's BigIntegerMath class
@@ -138,7 +138,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.ArithmeticException: / by zero
 
 ```

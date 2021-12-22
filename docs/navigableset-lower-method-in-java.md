@@ -6,7 +6,7 @@ Java 中[navigatableset 接口的 lower()方法用于返回该集合中严格小
 
 **语法** :
 
-```
+```java
 E lower(E ele)
 
 ```
@@ -21,7 +21,7 @@ E lower(E ele)
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate lower()
 // method of NavigableSet
 import java.util.NavigableSet;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Greatest element strictly less than 4 is: 3
 
 ```
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to lower()
 // method of NavigableSet
 import java.util.NavigableSet;
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Greatest element strictly less than D is: C
 
 ```

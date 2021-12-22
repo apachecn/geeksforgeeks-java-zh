@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 getDayOfYear()方法获取一年中的某一天字段�
 
 **语法** :
 
-```
+```java
 public int getDayOfYear()
 
 ```
@@ -19,7 +19,7 @@ public int getDayOfYear()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getDayOfYear() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 331
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the getDayOfYear() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2
 
 ```

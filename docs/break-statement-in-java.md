@@ -5,7 +5,7 @@
 中断语句是用于终止循环的循环控制语句。一旦在循环中遇到 break 语句，循环迭代就停止在那里，控制立即从循环返回到循环后的第一个语句。
 **语法:**
 
-```
+```java
 break;
 ```
 
@@ -30,7 +30,7 @@ break;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate using
 // break to exit a loop
 class BreakLoopDemo {
@@ -51,7 +51,7 @@ class BreakLoopDemo {
 
 **输出**:
 
-```
+```java
 i: 0
 i: 1
 i: 2
@@ -65,7 +65,7 @@ Loop complete.
 Java 没有 goto 语句，因为它提供了一种以任意和非结构化方式进行分支的方法。Java 使用这个标签。标签用于识别代码块。
 语法:
 
-```
+```java
 label:
 {
   statement1;
@@ -80,7 +80,7 @@ label:
 注意:您不能打断任何没有为封闭块定义的标签。
 语法:
 
-```
+```java
 break label;
 ```
 
@@ -88,7 +88,7 @@ break label;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate 
 // using break with goto
 class BreakLabelDemo {
@@ -125,7 +125,7 @@ class BreakLabelDemo {
 
 **输出**:
 
-```
+```java
 Before the break statement.
 This is after the second block.
 ```

@@ -6,7 +6,7 @@
 
 **示例 1:**
 
-```
+```java
 Enter the Number of dice: 4  
 Hey Geek! You rolled: 3 2 1 6
 Total: 12
@@ -14,7 +14,7 @@ Total: 12
 
 **示例 2:**
 
-```
+```java
 Enter the Number of dice: 2  
 Hey Geek! You rolled: 1 6
 Total: 7
@@ -30,7 +30,7 @@ Total: 7
 
 ## C++
 
-```
+```java
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
@@ -66,7 +66,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Random;
 import java.util.Scanner;
 

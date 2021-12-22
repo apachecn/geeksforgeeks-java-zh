@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate how to
 // extract minimum and maximum number
 // in 1 line.
@@ -47,7 +47,7 @@ public class MinNMax {
 
 **Output**
 
-```
+```java
 Minimum number of array is : 2
 Maximum number of array is : 9
 

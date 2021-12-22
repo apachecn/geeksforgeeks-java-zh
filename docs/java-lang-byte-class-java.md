@@ -6,7 +6,7 @@
 
 *   **字节(字节 b):** 创建一个用提供的值初始化的字节对象。
 
-```
+```java
 Syntax:  public Byte(byte b)
 Parameters :
 b : value with which to initialize
@@ -14,7 +14,7 @@ b : value with which to initialize
 
 *   **字节(字符串):**用字符串表示提供的字节值创建一个字节对象。默认基数为 10。
 
-```
+```java
 Syntax : public Byte(String s) 
                     throws NumberFormatException
 Parameters :
@@ -39,7 +39,7 @@ NumberFormatException : If the string provided does not represent any byte value
 
 1.  [**【ToString()**](https://www.geeksforgeeks.org/byte-tostring-method-in-java-with-examples/)**:返回字节值对应的字符串。** 
 
-```
+```java
 Syntax : public String toString(byte b)
 Parameters :
 b : byte value for which string representation required.
@@ -47,7 +47,7 @@ b : byte value for which string representation required.
 
 1.  **valueOf() :** 返回用提供的值初始化的字节对象。
 
-```
+```java
 Syntax : public static Byte valueOf(byte b)
 Parameters :
 b : a byte value
@@ -57,7 +57,7 @@ b : a byte value
     新字节(Byte.parseByte(val，radix))
     的函数
 
-```
+```java
 Syntax : public static Byte valueOf(String val, int radix)
             throws NumberFormatException
 Parameters :
@@ -71,7 +71,7 @@ NumberFormatException : if String cannot be parsed to a byte value in given radi
     新字节(Byte.parseByte(val，10))
     的功能
 
-```
+```java
 Syntax : public static Byte valueOf(String s)
            throws NumberFormatException
 Parameters :
@@ -82,7 +82,7 @@ NumberFormatException : if String cannot be parsed to a byte value in given radi
 
 1.  **parseByte() :** 通过解析提供的基数字符串返回字节值。不同于()的值，因为它返回一个基本字节值，而()的值返回字节对象。
 
-```
+```java
 Syntax : public static byte parseByte(String val, int radix)
              throws NumberFormatException
 Parameters :
@@ -94,7 +94,7 @@ NumberFormatException : if String cannot be parsed to a byte value in given radi
 
 1.  另一个重载方法只包含字符串作为参数，默认情况下基数设置为 10。
 
-```
+```java
 Syntax : public static byte parseByte(String val)
              throws NumberFormatException
 Parameters :
@@ -109,7 +109,7 @@ NumberFormatException : if String cannot be parsed to a byte value in given radi
     十六进制-(符号)“0X”十六进制 _ 数字
     八进制-(符号)“0”八进制 _ 数字
 
-```
+```java
 Syntax : public static Byte decode(String s)
              throws NumberFormatException
 Parameters :
@@ -120,49 +120,49 @@ NumberFormatException : If the string cannot be decoded into a byte value
 
 1.  [**【Bytevalue()**](https://www.geeksforgeeks.org/byte-bytevalue-method-in-java-with-examples/)**:**返回与该字节对象对应的字节值。
 
-```
+```java
 Syntax : public byte byteValue()
 ```
 
 1.  **shortValue() :** 返回与该字节对象对应的短值。
 
-```
+```java
 Syntax : public short shortValue()
 ```
 
 1.  [**【int value()】**](https://www.geeksforgeeks.org/byte-intvalue-method-in-java-with-examples/)**:**返回与该字节对象对应的 int 值。
 
-```
+```java
 Syntax : public int intValue()
 ```
 
 1.  [**【long value()**](https://www.geeksforgeeks.org/byte-longvalue-method-in-java-with-examples/)**:**返回该字节对象对应的长值。
 
-```
+```java
 Syntax : public long longValue()
 ```
 
 1.  **doubleValue() :** 返回与该 Byte 对象对应的双精度值。
 
-```
+```java
 Syntax : public double doubleValue()
 ```
 
 1.  **浮点值():**返回与该字节对象对应的浮点值。
 
-```
+```java
 Syntax : public float floatValue()
 ```
 
 1.  [**hashCode()**](https://www.geeksforgeeks.org/byte-hashcode-method-in-java-with-examples/)**:**返回该 Byte Object 对应的 hashCode。
 
-```
+```java
 Syntax : public int hashCode()
 ```
 
 1.  [**等于()**](https://www.geeksforgeeks.org/byte-equals-method-in-java-with-examples/) **:用于比较两个 Byte 对象的相等性。如果两个对象包含相同的字节值，则此方法返回 true。仅当检查是否相等时才应使用。在所有其他情况下，应首选比较法。** 
 
-```
+```java
 Syntax : public boolean equals(Object obj)
 Parameters :
 obj : object to compare with
@@ -170,7 +170,7 @@ obj : object to compare with
 
 1.  [**【compare to()】**](https://www.geeksforgeeks.org/byte-compareto-method-in-java-with-examples/)**:用于比较两个 Byte 对象的数值是否相等。当比较两个字节的数值是否相等时，应该使用这种方法，因为它可以区分较小的值和较大的值。返回小于 0，0 的值，对于小于、等于和大于，返回大于 0 的值。** 
 
-```
+```java
 Syntax : public int compareTo(Byte b)
 Parameters :
 b : Byte object to compare with
@@ -178,7 +178,7 @@ b : Byte object to compare with
 
 1.  [**compare()**](https://www.geeksforgeeks.org/byte-compare-method-in-java-with-examples/)**:**用于比较两个原始字节值是否数值相等。由于它是一个静态方法，因此可以在不创建任何字节对象的情况下使用。
 
-```
+```java
 Syntax : public static int compare(byte x,byte y)
 Parameters :
 x : byte value
@@ -187,7 +187,7 @@ y : another byte value
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // various methods of Byte class
 public class Byte_test 
@@ -257,7 +257,7 @@ public class Byte_test 
 
 **输出:**
 
-```
+```java
 toString(b) = 55
 valueOf(b) = 55
 ValueOf(bb) = 45

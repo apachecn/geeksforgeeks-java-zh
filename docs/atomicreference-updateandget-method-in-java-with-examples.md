@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final V 
   updateAndGet(UnaryOperator<V> updateFunction)
 
@@ -19,7 +19,7 @@ public final V
 下面的程序说明了 updateAndGet()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.updateAndGet() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.updateAndGet() method
 

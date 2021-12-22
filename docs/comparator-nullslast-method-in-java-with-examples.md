@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 static <T> Comparator<T> nullsLast (Comparator<T> comparator)
 
 ```
@@ -24,7 +24,7 @@ static <T> Comparator<T> nullsLast (Comparator<T> comparator)
 下面的程序说明了 nullsLast(java.util.Comparator)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.nullsLast (java.util.Comparator)  method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.nullsLast (java.util.Comparator)  method
 

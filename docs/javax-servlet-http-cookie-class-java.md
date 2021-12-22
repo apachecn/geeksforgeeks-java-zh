@@ -15,38 +15,38 @@
 *   **名称=值对:**这描述了存储在 cookie 中的实际信息。名称和值都不应包含空格或以下任何字符: **[ ] ( ) =，"/？@ : ;**
     **有效 cookie 名称-值对示例:** 
 
-    ```
+    ```java
      Set-Cookie:session-id = 187-4969589-3049309
     ```
 
 *   **域:**默认情况下，cookie 适用于它来自的服务器。如果 cookie 最初是由 www.foo.example.com 设置的，浏览器只会将 cookie 发送回 www.foo.example.com。但是，站点也可以指示 cookie 应用于整个子域，而不仅仅是原始服务器。例如，此请求为整个 foo.example.com 域设置了一个用户 cookie:
     浏览器不仅会将此 cookie 回显给 www.foo.example.com，还会回显给 lothar.foo.example.com、eliza.foo.example.com、enoch.foo.example.com 以及 foo.example.com 域中的任何其他主机。但是，服务器只能为其直接所属的域设置 cookies。www.foo.example.com 不能为 www.geeksforgeeks.org、example.com 或设置 cookie。不管它如何设置域名。
 
-    ```
+    ```java
      Set-Cookie: user = geek ;Domain =.foo.example.com
     ```
 
 *   **路径:**当从同一个服务器请求子树中的文档时，客户端会回显该 cookie。但是，它不使用网站上其他目录中的 cookie。
 
-    ```
+    ```java
     Set-Cookie: user = geek; Path =/ restricted
     ```
 
 *   **过期:**浏览器应该在过期后从缓存中删除 cookie。
 
-    ```
+    ```java
      Set-Cookie: user = geek; expires = Wed, 21-Feb-2017 15:23:00 IST
     ```
 
 *   **最大年龄:**该属性将 cookie 设置为在一定的秒数后过期，而不是在特定的时刻。例如，这个 cookie 在第一次设置后一小时(3600 秒)过期。
 
-    ```
+    ```java
     Set-Cookie: user = "geek"; Max-Age = 3600
     ```
 
 **构造函数**:用指定的名称-值对创建一个 cookie。
 
-```
+```java
 Syntax : public Cookie(String name, String value)
 Parameters :
 name : name of the cookie
@@ -58,7 +58,7 @@ value : value associated with this cookie
 
 1.  **设置域():**设置该 cookie 可见的域。先前在 cookie 部分的属性中详细解释了域。
 
-    ```
+    ```java
     Syntax : public void setDomain(String pattern)
     Parameters :
     pattern : string representing the domain in which this cookie is visible.
@@ -66,13 +66,13 @@ value : value associated with this cookie
 
 2.  **getDomain() :** 返回该 cookie 可见的域。
 
-    ```
+    ```java
     Syntax : public String getDomain()
     ```
 
 3.  **setComment() :** 指定此 cookie 的用途。
 
-    ```
+    ```java
     Syntax : public void setComment(String purpose)
     Parameters :
     purpose : string representing the purpose of this cookie.
@@ -80,13 +80,13 @@ value : value associated with this cookie
 
 4.  **getComment()** :返回表示该 cookie 用途的字符串。
 
-    ```
+    ```java
     Syntax : public String getComment()
     ```
 
 5.  **setMaxAge() :** 指定此 cookie 过期前经过的时间(秒)。
 
-    ```
+    ```java
     Syntax : public void setMaxAge(long time)
     Parameters :
     time : time in seconds before this cookie expires
@@ -94,13 +94,13 @@ value : value associated with this cookie
 
 6.  **getMaxAge() :** 返回该 cookie 的最大年龄部分。
 
-    ```
+    ```java
     Syntax : public String getMaxAge()
     ```
 
 7.  **setPath() :** 指定客户端应将 cookie 返回到的 cookie 路径。
 
-    ```
+    ```java
     Syntax : public void setPath(String path)
     Parameters :
     path : path where this cookie is returned
@@ -108,13 +108,13 @@ value : value associated with this cookie
 
 8.  **getPath() :** 返回该 cookie 的路径组件。
 
-    ```
+    ```java
     Syntax : public String getMaxAge()
     ```
 
 9.  **设置安全():**指示发送此 cookie 时是否使用安全协议。默认值为假。
 
-    ```
+    ```java
     Syntax : public void setSecure(boolean secure)
     Parameters:
     secure - If true, the cookie can only be sent over a secure
@@ -125,19 +125,19 @@ value : value associated with this cookie
 10.  **getSecure() :** 如果该 cookie 必须是由安全协议发送的
     ，则返回 true，否则返回 false。
 
-    ```
+    ```java
     Syntax : public boolean getSecure()
     ```
 
 11.  **getName() :** 返回 cookie 的名称。
 
-    ```
+    ```java
      Syntax : public String getName()
     ```
 
 12.  **设置值():**初始化后为 cookie 分配新值。
 
-    ```
+    ```java
     Syntax : public void setValue(String newValue)
     Parameters :
     newValue - a String specifying the new value
@@ -145,19 +145,19 @@ value : value associated with this cookie
 
 13.  **getValue :** 返回 cookie 的值。
 
-    ```
+    ```java
     Syntax : public String getValue()
     ```
 
 14.  **getVersion() :** 如果 cookie 符合原网景规范，则返回 0；1 如果饼干符合 RFC 2965/2109
 
-    ```
+    ```java
     Syntax : public int getVersion()
     ```
 
 15.  **setVersion() :** 用于设置该 cookie 使用的 cookie 协议版本。
 
-    ```
+    ```java
     Syntax :public void setVersion(int v)
     Parameters :
     v - 0 for original Netscape specification; 1 for RFC 2965/2109
@@ -166,13 +166,13 @@ value : value associated with this cookie
 
 16.  **克隆():**返回该 cookie 的副本。
 
-    ```
+    ```java
     Syntax : public Cookie clone()
     ```
 
 下面是一个简单 servlet 程序的 Java 实现，当用户第一次请求时，它在浏览器中存储一个 cookie，然后对于进一步的请求，它显示存储的 cookie。
 
-```
+```java
 // Java program to illustrate methods
 // of Cookie class
 import java.io.IOException;
@@ -295,14 +295,14 @@ public class cookieTest extends HttpServlet 
 **输出:**以下输出来自网络浏览器-
 **对于第一个请求:**
 
-```
+```java
 This is first time the page is requested.
 And therefore no cookies found.
 ```
 
 **对于第二个请求:**
 
-```
+```java
 Welcome Again...Cookies found
 Name :test_cookie
 Value :321

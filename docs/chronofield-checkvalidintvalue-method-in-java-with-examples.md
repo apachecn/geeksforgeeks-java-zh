@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int checkValidIntValue(long value)
 
 ```
@@ -18,7 +18,7 @@ public int checkValidIntValue(long value)
 下面的程序说明了计时场. checkValidIntValue()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.checkValidIntValue() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value passed :21
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.checkValidIntValue() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value passed :2021
 
 ```

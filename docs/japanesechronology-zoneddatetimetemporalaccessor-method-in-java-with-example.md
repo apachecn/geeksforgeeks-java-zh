@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime zonedDateTime(
           TemporalAccessor temporal)
 
@@ -20,7 +20,7 @@ public ZonedDateTime zonedDateTime(
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseDate and time is:
  Japanese Heisei 30-10-25T23:12:31.123+02:00[Europe/Paris]
 
@@ -83,7 +83,7 @@ JapaneseDate and time is:
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 passed parameter can not form a date
 Exception thrown:
  java.time.DateTimeException:

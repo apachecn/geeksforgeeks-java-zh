@@ -29,7 +29,7 @@
 
 ## C++
 
-```
+```java
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -110,7 +110,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 import java.util.*;
 class GFG {
@@ -189,7 +189,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Utility function to return the number
 # of distinct elements in an array
 def countDistinct(arr, Len):
@@ -256,7 +256,7 @@ print(getDistinctPoints(current_pos, path))
 
 ## C#
 
-```
+```java
 // C# implementation of the approach
 using System;
 using System.Collections.Generic;
@@ -340,7 +340,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP implementation of the approach
 
@@ -422,7 +422,7 @@ echo getDistinctPoints($current_pos, $path);
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // JavaScript implementation of the approach
@@ -501,6 +501,6 @@ echo getDistinctPoints($current_pos, $path);
 
 **Output:** 
 
-```
+```java
 4
 ```

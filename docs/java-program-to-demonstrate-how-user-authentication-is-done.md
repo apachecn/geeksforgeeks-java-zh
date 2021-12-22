@@ -17,7 +17,7 @@
 
 T3】JavaT5
 
-```
+```java
 // Java program to check the authentication of the user
 
 // Importing the modules

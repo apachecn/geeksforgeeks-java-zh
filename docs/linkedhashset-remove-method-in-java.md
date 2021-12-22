@@ -6,7 +6,7 @@ Java . util . LinkedHashSet . remove(Object O)方法用于从 LinkedHashSet 中�
 
 **语法:**
 
-```
+```java
 LinkedHashSet.remove(Object O)
 ```
 
@@ -16,7 +16,7 @@ LinkedHashSet.remove(Object O)
 
 下面程序举例说明了【对象 O】方法:
 
-```
+```java
 // Java code to illustrate LinkedHashSet.remove() method
 import java.util.*;
 import java.util.LinkedHashSet;
@@ -51,7 +51,7 @@ public class LinkedHashSetDemo {
 
 **输出:**
 
-```
+```java
 LinkedHashSet: [Welcome, To, Geeks, 4]
 LinkedHashSet after removing elements: [To]
 

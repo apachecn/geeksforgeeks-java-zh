@@ -12,7 +12,7 @@
 
 *   **抽象 void close() :** 关闭流并释放与之关联的任何系统资源。一旦流被关闭，进一步的 read()、ready()、mark()、reset()或 skip()调用将引发 IOException。关闭以前关闭的流没有效果。
 
-    ```
+    ```java
     Syntax :public abstract void close()
                         throws IOException
     Throws:
@@ -21,7 +21,7 @@
 
 *   **空标记(int readAheadLimit) :** 标记溪流中的当前位置。对 reset()的后续调用将尝试将流重新定位到这一点。并非所有字符输入流都支持 mark()操作。
 
-    ```
+    ```java
     Syntax :public void mark(int readAheadLimit)
               throws IOException
     Parameters:
@@ -34,7 +34,7 @@
 
 *   **布尔型 markSupported() :** 告知此流是否支持 mark()操作。默认实现总是返回 false。子类应该重写此方法。
 
-    ```
+    ```java
     Syntax :public boolean markSupported()
     Returns:
     true if and only if this stream supports the mark operation.
@@ -43,7 +43,7 @@
 *   **int read() :** 读取单个字符。此方法将一直阻塞，直到某个字符可用、出现输入/输出错误或到达流的末尾。
     想要支持高效单字符输入的子类应该覆盖这个方法。
 
-    ```
+    ```java
     Syntax :public int read()
              throws IOException
     Returns:
@@ -55,7 +55,7 @@
 
 *   **int read(char[] cbuf) :** 将字符读入数组。此方法将一直阻塞，直到有一些输入可用、出现输入/输出错误或到达流的末尾。
 
-    ```
+    ```java
     Syntax :public int read(char[] cbuf)
              throws IOException
     Parameters:
@@ -68,7 +68,7 @@
 
 *   **抽象 int read(char[] cbuf，int off，int len) :** 将字符读入数组的一部分。此方法将一直阻塞，直到有一些输入可用、出现输入/输出错误或到达流的末尾。
 
-    ```
+    ```java
     Syntax :public abstract int read(char[] cbuf,
            int off,
            int len)
@@ -84,7 +84,7 @@
 
 *   **int read(CharBuffer 目标):**尝试将字符读入指定的字符缓冲区。缓冲区按原样用作字符存储库:所做的唯一更改是 put 操作的结果。不执行缓冲区的翻转或倒回。
 
-    ```
+    ```java
     Syntax :public int read(CharBuffer target)
              throws IOException
     Parameters:
@@ -100,7 +100,7 @@
 
 *   **布尔就绪():**告知该流是否准备好被读取。
 
-    ```
+    ```java
     Syntax :public boolean ready()
                   throws IOException
     Returns:
@@ -112,7 +112,7 @@
 
 *   **无效重置():**重置流。如果流已被标记，则尝试在标记处重新定位它。如果流没有被标记，那么尝试以适合特定流的方式重置它，例如通过将它重新定位到它的起点。并非所有字符输入流都支持 reset()操作，有些支持 reset()，但不支持 mark()。
 
-    ```
+    ```java
     Syntax :public void reset()
                throws IOException
     Throws:
@@ -121,7 +121,7 @@
 
 *   **长跳过(长 n) :** 跳过字符。此方法将一直阻塞，直到某些字符可用、出现输入/输出错误或到达流的末尾。
 
-    ```
+    ```java
     Syntax :public long skip(long n)
               throws IOException
     Parameters: n - The number of characters to skip
@@ -130,7 +130,7 @@
     IOException
     ```
 
-```
+```java
 //Java program demonstrating Reader methods
 import java.io.*;
 import java.nio.CharBuffer;
@@ -175,7 +175,7 @@ class ReaderDemo
 
 **输出:**
 
-```
+```java
 [f, g, h, i, g, k, l, m, n, o]
 [p, q, r, s, t, u, v, w, x, y]
 z

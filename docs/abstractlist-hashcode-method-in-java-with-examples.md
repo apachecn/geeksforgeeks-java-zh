@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -16,7 +16,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method
 // for Integer value
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayListlist : [10, 20, 30, 40, 50]
 HashCode : 38490301
 
@@ -69,7 +69,7 @@ HashCode : 38490301
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method
 // for String value
@@ -115,7 +115,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayListlist : [A, B, C, D, E]
 HashCode : 90690786
 

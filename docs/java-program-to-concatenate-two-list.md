@@ -28,7 +28,7 @@
 
 **语法:**
 
-```
+```java
 addAll ( list name ) 
 ```
 
@@ -45,7 +45,7 @@ addAll ( list name )
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Concatenate Two List
 // using addAll() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 list1: [1, 2, 3, 4]
 list2: [5, 6, 7, 8]
 Concatenated list: [1, 2, 3, 4, 5, 6, 7, 8]
@@ -97,7 +97,7 @@ Concatenated list: [1, 2, 3, 4, 5, 6, 7, 8]
 
 **方法 2:使用流**
 
-```
+```java
 Stream.concat(list1.stream(),list2.stream()).collect(Collectors.toList())
 ```
 
@@ -105,7 +105,7 @@ Stream.concat(list1.stream(),list2.stream()).collect(Collectors.toList())
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Concatenate Two List 
 // using streams
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 list1: [1, 2, 3, 4]
 list2: [5, 6, 7, 8]
 Concatenated list: [1, 2, 3, 4, 5, 6, 7, 8]
@@ -158,7 +158,7 @@ Concatenated list: [1, 2, 3, 4, 5, 6, 7, 8]
 
 **方法三:使用** [**工会()**](https://www.geeksforgeeks.org/sets-union-function-guava-java/)
 
-```
+```java
 ListUtils.union( list1, list2) 
 ```
 
@@ -166,7 +166,7 @@ ListUtils.union( list1, list2)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to concatenate two lists
 // using union()
 

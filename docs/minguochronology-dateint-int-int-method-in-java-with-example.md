@@ -5,7 +5,7 @@
 **Java . time . chrono . Minguo 年表**类的 **date()** 方法用于根据给定年、月、日的 Minguo 日历系统获取当地日期。
 **语法:**
 
-```
+```java
 public MinguoDate date(int prolepticYear,
                        int month,
                        int dayOfMonth)
@@ -24,7 +24,7 @@ public MinguoDate date(int prolepticYear,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -65,6 +65,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 MinguoDate is: Minguo ROC 2040-05-24
 ```

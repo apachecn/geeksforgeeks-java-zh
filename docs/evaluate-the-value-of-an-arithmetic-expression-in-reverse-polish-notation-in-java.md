@@ -13,7 +13,7 @@
 
 图示为 RPN 的外行操作
 
-```
+```java
 Input: ["2", "1", "+", "3", "*"]
 Output: 9
 Explanation: ((2 + 1) * 3) = 9
@@ -47,7 +47,7 @@ Explanation:
 
 ## 爪哇
 
-```
+```java
 // Java Program to find the
 // solution of the arithmetic
 // using the stack
@@ -167,7 +167,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 22
 ```
 

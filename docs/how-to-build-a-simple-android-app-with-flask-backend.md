@@ -10,7 +10,7 @@ Flask 是 Python 的一个应用编程接口，允许我们构建网络应用程
 
 打开终端，输入以下命令安装烧瓶
 
-```
+```java
 pip install flask
 ```
 
@@ -22,7 +22,7 @@ OkHttp 是 Square 开发的一个库，用于发送和接收基于 Http 的网�
 
 在安卓工作室的 [build.gradle](https://www.geeksforgeeks.org/android-build-gradle/) 文件中添加以下依赖项
 
-```
+```java
 implementation("com.squareup.okhttp3:okhttp:4.9.0")
 ```
 
@@ -30,13 +30,13 @@ implementation("com.squareup.okhttp3:okhttp:4.9.0")
 
 在<application>标签上方添加以下一行</application>
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
 在<application>标签内添加以下一行</application>
 
-```
+```java
 android:usesCleartextTraffic="true">
 ```
 
@@ -48,7 +48,7 @@ android:usesCleartextTraffic="true">
 
 ## 计算机编程语言
 
-```
+```java
 from flask import Flask
 
 # Flask Constructor
@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -112,19 +112,19 @@ if __name__ == "__main__":
 
 转到**MainActivity.java**文件，参考以下代码。首先，我们需要一个 OkHttp 客户端来发出请求
 
-```
+```java
 OkHttpClient okhttpclient = new OkHttpClient();
 ```
 
 接下来，用服务器的网址创建一个请求。在我们的例子中，它是“http://192.168.0.113:5000/”。请注意网址末尾的“/”，我们正在发送主页请求。
 
-```
+```java
 Request request = new Request.Builder().url("http://192.168.0.113:5000/").build();
 ```
 
 现在，用上面的请求打个电话。完整的代码如下。如果服务器关闭或无法访问，将调用 onFailure()，因此我们在 TextView 中显示一个文本，上面写着“服务器关闭”。如果请求成功，将调用 onResponse()。我们可以使用在 onResponse()中收到的响应参数来访问响应
 
-```
+```java
 // to access the response we get from the server
 response.body().string; 
 ```
@@ -133,7 +133,7 @@ response.body().string;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -215,13 +215,13 @@ public class MainActivity extends AppCompatActivity {
 
 我们可以使用 okhttp 客户端通过服务器发送数据。在导入语句中添加以下行
 
-```
+```java
 from flask import request
 ```
 
 我们需要将路由的方法设置为 POST。让我们添加一个方法并关联一个路由。该方法将我们在 android 应用程序中输入的文本打印到 pycharm 的控制台上。在 **showHomePage()** 方法后增加以下几行。
 
-```
+```java
 @app.route("/debug", methods=["POST"])
 def debug():
     text = request.form["sample"]
@@ -233,7 +233,7 @@ def debug():
 
 ## 计算机编程语言
 
-```
+```java
 from flask import Flask
 
 # import request
@@ -256,7 +256,7 @@ if __name__ == "__main__":
 
 在安卓工作室创建一个 DummyActivity.java。一旦我们从服务器收到来自 **showHomePage()** 方法的响应，这个活动就会开始。在**MainActivity.java**onResponse()回调中添加以下行。
 
-```
+```java
 Intent intent = new Intent(MainActivity.this, DummyActivity.class);
 startActivity(intent);
 finish();
@@ -269,7 +269,7 @@ finish();
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -320,7 +320,7 @@ finish();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

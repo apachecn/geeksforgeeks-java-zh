@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Package getPackage()
 
 ```
@@ -19,7 +19,7 @@ public Package getPackage()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getPackage() method
 
 public class Test {
@@ -43,7 +43,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Package of myClass: null
 
@@ -51,7 +51,7 @@ Package of myClass: null
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getPackage() method
 
 public class Test {
@@ -72,7 +72,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Package of myClass: package java.lang,
  Java Platform API Specification,
  version 1.8

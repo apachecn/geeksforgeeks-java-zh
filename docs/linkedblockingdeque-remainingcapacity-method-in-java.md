@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public int remainingCapacity()
 ```
 
@@ -20,7 +20,7 @@ public int remainingCapacity()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate remainingCapacity()
 // method of LinkedBlockingDeque
 // when initial size is mentioned
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 remainingCapacity = : 2
 
@@ -61,7 +61,7 @@ remainingCapacity = : 2
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate remainingCapacity()
 // method of LinkedBlockingDeque
 // when no initial size is mentioned
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 remainingCapacity = 2
 

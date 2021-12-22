@@ -12,7 +12,7 @@
 1.  均衡器(源，目的地)——这个方法存在于 OpenCv 的 Imgproc 包中。 ***源*** 参数为 8 位单通道源图像，而 ***目的地*** 参数为目的地图像
 2.  imcodecs . imread()/imcodecs . imwrite()–这些方法用于将图像作为由 OpenCV 渲染的 Mat 对象进行读写。
 
-```
+```java
 // Java program to demonstrate contrast enhancement
 package ocv;
 import org.opencv.core.Core;

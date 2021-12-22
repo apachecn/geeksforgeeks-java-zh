@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : arr1[] = {50, 25, 32, 12, 6, 10, 100, 150}
 Output:arr1[] = {51, 25, 33, 13, 7, 11, 101, 151}
 
@@ -21,7 +21,7 @@ Output:arr2[] = {4, 7, 9, 13, 46}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Increment All
 // Element of an Array by One
 public class Increment {
@@ -67,7 +67,7 @@ public class Increment {
 
 **Output**
 
-```
+```java
 ******* BEFORE INCREMENT *******
 50 25 32 12 6 10 100 150  
 ******* AFTER INCREMENT *******
@@ -83,7 +83,7 @@ public class Increment {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Increment All
 // Element of an Array by One
 import java.util.Scanner;

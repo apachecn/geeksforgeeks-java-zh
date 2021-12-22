@@ -8,7 +8,7 @@
 
 下面考虑 C/C++程序。
 
-```
+```java
 // C/C++ program to demonstrate that floating point
 // addition may not be associative.
 #include<stdio.h>
@@ -29,14 +29,14 @@ int main()
 
 输出:
 
-```
+```java
 A + (B + C) is equal to 0.000000 
 (A + B) + C is equal to 1.000000
 ```
 
 从上面给出的输出可以明显看出，浮点运算并不是在所有情况下都遵循结合律。这是由于浮点数的存储和表示格式，它在计算过程中舍入数字，因此，代数的关联定律不一定适用于浮点数。在这种情况下，
 
-```
+```java
 Explanation for above output:
 
 A + (B + C):
@@ -59,7 +59,7 @@ A + (B + C) = -500000000.0 + 500000000.0
 【Java 怎么样？
 我们在 Java 中得到相同的结果，因为 Java 也对浮点数使用类似的表示。
 
-```
+```java
 // Java program to demonstrate that floating-point
 // addition may not be associative
 import java.io.*;
@@ -84,7 +84,7 @@ class Main
 
 输出:
 
-```
+```java
 A + (B + C) is equal to 0.000000 
 (A + B) + C is equal to 1.000000
 ```
@@ -92,7 +92,7 @@ A + (B + C) is equal to 0.000000
 **整数怎么样？**
 现在让我们在数据类型为整数时尝试同样的计算。这里有一段代码供您观察:
 
-```
+```java
 #include<stdio.h>
 #include<stdio.h>
 int main()
@@ -112,7 +112,7 @@ int main()
 
 输出:
 
-```
+```java
  A + (B + C) is equal to 1 
 (A + B) + C is equal to 1
 ```

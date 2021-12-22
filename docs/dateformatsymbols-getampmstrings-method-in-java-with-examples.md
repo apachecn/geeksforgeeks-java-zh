@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的 **getAmPmStrings()** 方法用于获取 AM
 
 **语法:**
 
-```
+```java
 public String[] getAmPmStrings()
 ```
 
@@ -17,7 +17,7 @@ public String[] getAmPmStrings()
 下面的程序说明了 getAmPmStrings()方法的使用。
 **例 1:**
 
-```
+```java
 // Java code to demonstrate getAmPmStrings()
 
 import java.text.DateFormatSymbols;
@@ -43,7 +43,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Time 0 = AM
 Time 1 = PM
 
@@ -51,7 +51,7 @@ Time 1 = PM
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate getAmPmStrings()
 
 import java.text.DateFormatSymbols;
@@ -77,7 +77,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Time 0 = AM
 
 ```

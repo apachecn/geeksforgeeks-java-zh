@@ -14,7 +14,7 @@
 
 **PDFBox 的马文依赖:**
 
-```
+```java
 <dependency>
     <groupId>org.apache.pdfbox</groupId>
     <artifactId>pdfbox</artifactId>
@@ -28,14 +28,14 @@
 
 使用类 PDDocument 的 Load()静态方法(我们可以使用类名来访问)加载 PDF 文件。load()方法将接受 PDF 文件作为参数。
 
-```
+```java
 File f = new File("path_of_PDFfile");
 PDDocument pdd = PDDocument.load(f);
 ```
 
 **2。创建访问权限类的** **实例:**
 
-```
+```java
 AccessPermission ap = new AccessPermission();
 ```
 
@@ -43,7 +43,7 @@ AccessPermission ap = new AccessPermission();
 
 在 StandardProtectionPolicy 类的实例化过程中，传递所有者密码、用户密码和“ap”的 AccessPermission 类的对象。
 
-```
+```java
 StandardProtectionPolicy stpp = new StandardProtectionPolicy("Owner_pass" , "user_pass" , ap);
 ```
 
@@ -51,7 +51,7 @@ StandardProtectionPolicy stpp = new StandardProtectionPolicy("Owner_pass" , "use
 
 **示例:**这里将密码“abcd”视为用户和所有者密码。
 
-```
+```java
 StandardProtectionPolicy stpp = new StandardProtectionPolicy("abcd" , "abcd" , ap); 
 ```
 
@@ -59,7 +59,7 @@ StandardProtectionPolicy stpp = new StandardProtectionPolicy("abcd" , "abcd" , a
 
 使用 StandardProtectionPolicy 类的 setEncryptionKeyLength()方法设置加密密钥的长度。
 
-```
+```java
 stpp.setEncryptionKeyLength(128);
 ```
 
@@ -67,7 +67,7 @@ stpp.setEncryptionKeyLength(128);
 
 使用标准保护策略类的 setPermission()方法将权限设置为 PDF。您必须在 setPermission()方法中将 AccessPermissionclass 的对象作为参数传递。
 
-```
+```java
 stpp.setPermission(ap);
 ```
 
@@ -75,7 +75,7 @@ stpp.setPermission(ap);
 
 使用 PDDocument 类的 Protect()方法保护 PDF 文件。在这里，我们必须将 StandardProtectionPolicy 类的对象作为参数传递。
 
-```
+```java
 pdd.protect(stpp);
 ```
 
@@ -83,14 +83,14 @@ pdd.protect(stpp);
 
 最后，使用 PDDocument 类的 save()和 close()方法保存并关闭文档。
 
-```
+```java
 pdd.save("path_of_PDFfile");         // save the document
 pdd.close();                        // close the document
 ```
 
 ## 爪哇
 
-```
+```java
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.AccessPermission;
 import org.apache.pdfbox.pdmodel.encryption.StandardProtectionPolicy;

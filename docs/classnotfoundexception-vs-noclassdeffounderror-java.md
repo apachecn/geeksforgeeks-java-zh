@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate ClassNotFoundException
 public class GFG {
 
@@ -49,7 +49,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate NoClassDefFoundError Exception
 
 // Class 1
@@ -83,7 +83,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 hello!
 
 ```

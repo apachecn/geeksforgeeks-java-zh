@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration multipliedBy(long multiplicand)
 
 ```
@@ -21,7 +21,7 @@ public Duration multipliedBy(long multiplicand)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate multipliedBy() method
 
 import java.time.Duration;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT102H8M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate multipliedBy() method
 
 import java.time.Duration;
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT510H40M
 
 ```

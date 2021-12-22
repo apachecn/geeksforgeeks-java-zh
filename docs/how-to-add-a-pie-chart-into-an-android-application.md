@@ -27,7 +27,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
 
         ## 
 
-        ```
+        ```java
         <?xml version="1.0" encoding="utf-8"?>
         <resources>
             <color name="colorPrimary">#024265</color>
@@ -50,7 +50,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
 
         ## build . gradle(:app)
 
-        ```
+        ```java
         // For Card view
         implementation 'androidx.cardview:cardview:1.0.0'
 
@@ -64,7 +64,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
 
         ## activity _ main . XML
 
-        ```
+        ```java
         <?xml version="1.0" encoding="utf-8"?>
         <RelativeLayout
 
@@ -419,7 +419,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
 4.  **Step4: Working with Java file**
     *   打开类内的**MainActivity.java**文件，首先创建对象的[文本视图类](https://www.geeksforgeeks.org/textview-widget-in-android-using-java-with-examples/)和饼图类。
 
-        ```
+        ```java
         // Create the object of TextView and PieChart class
         TextView tvR, tvPython, tvCPP, tvJava;
         PieChart pieChart;
@@ -427,7 +427,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
 
     *   其次，在`onCreate()`方法中，我们必须将这些对象与我们已经给出的它们各自的 id 联系起来。XML 文件。
 
-        ```
+        ```java
         // Link those objects with their respective
         // id's that we have given in .XML file
         tvR = findViewById(R.id.tvR);
@@ -441,7 +441,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
     *   在`setData()`方法中，最重要的任务是如何在文本文件和饼图中设置数据。
     *   首先在`setData()`方法里面设置在各自的文本视图中使用的语言的百分比。
 
-        ```
+        ```java
         // Set the percentage of language used
         tvR.setText(Integer.toString(40));
         tvPython.setText(Integer.toString(30));
@@ -451,7 +451,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
 
     *   然后将这些数据设置到饼图中，并使用`addPieSlice()`方法设置它们各自的颜色。
 
-        ```
+        ```java
         // Set the data and color to the pie chart
         pieChart.addPieSlice(
             new PieModel(
@@ -477,7 +477,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
 
     *   为了看起来更好，使用`startAnimation()`激活饼图。
 
-        ```
+        ```java
         // To animate the pie chart
         pieChart.startAnimation();
         ```
@@ -488,7 +488,7 @@ A **饼状图**是一个圆形的统计图形，它被分成若干个切片来�
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.example.piechart;
 
     // Import the required libraries

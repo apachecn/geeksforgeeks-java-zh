@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isVarArgs()
 
 ```
@@ -18,7 +18,7 @@ public boolean isVarArgs()
 以下程序说明 isVarArgs()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isVarArgs() method
 
 import java.lang.annotation.Annotation;
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 isVargs : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isVarArgs() method
 
 import java.lang.annotation.Annotation;

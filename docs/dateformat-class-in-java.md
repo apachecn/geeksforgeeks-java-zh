@@ -8,7 +8,7 @@ DateFormat 类扩展了 Format 类，这意味着它是 Format 类的子类。�
 
 **班级签名:**
 
-```
+```java
 public abstract class DateFormat extends Format
 ```
 
@@ -84,7 +84,7 @@ public abstract class DateFormat extends Format
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import java.text package for using DateFormat class
 import java.text.*;
 import java.util.*;
@@ -156,7 +156,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Local Date and Time is : 11/28/21, 7:17 PM
 Date of Canada region : November 28, 2021
 Time of Canada region : 7:17:40 p.m. UTC

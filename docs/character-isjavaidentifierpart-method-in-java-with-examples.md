@@ -15,7 +15,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static boolean isJavaIdentifierPart(int codePoint)
     ```
 
@@ -26,7 +26,7 @@
     以下程序用于说明 character . isjavaidentifierpion(int code point)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate
     // Character.isJavaIdentifierPart() method
     import java.lang.*;
@@ -55,7 +55,7 @@
 
     **Output:**
 
-    ```
+    ```java
     c1 may be part of a Java identifier is true
     c2 may be part of a Java identifier is true
 
@@ -63,7 +63,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate
     // Character.isJavaIdentifierPart(int codepoint) method
     import java.lang.*;
@@ -93,7 +93,7 @@
 
     **Output:**
 
-    ```
+    ```java
     c1 may be part of a Java identifier is true
     c2 may be part of a Java identifier is true
 
@@ -103,7 +103,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static boolean isJavaIdentifierPart(char ch)
     ```
 
@@ -114,7 +114,7 @@
     下面的程序用来说明 charter . isjavaidentifierrpart(char ch)方法的使用:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate
     // Character.isJavaIdentifierPart(char ch) method
     import java.lang.*;
@@ -144,7 +144,7 @@
 
     **Output:**
 
-    ```
+    ```java
     5 may be part of a Java identifier is true
     % may be part of a Java identifier is false
 
@@ -152,7 +152,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate
     // Character.isJavaIdentifierPart(char ch) method
     import java.lang.*;
@@ -182,7 +182,7 @@
 
     **Output:**
 
-    ```
+    ```java
     6 may be part of a Java identifier is true
     * may be part of a Java identifier is false
 

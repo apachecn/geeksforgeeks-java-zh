@@ -8,7 +8,7 @@ java.math.BigInteger . mod(BigInteger big)和 Java . math . BigInteger .余数(B
 
 **语法:**
 
-```
+```java
 public BigInteger mod(BigInteger big)
 ```
 
@@ -20,7 +20,7 @@ public BigInteger mod(BigInteger big)
 
 **示例:**
 
-```
+```java
 Input: BigInteger1=321456, BigInteger2=31711
 Output: 4346
 Explanation: BigInteger1.mod(BigInteger2)=4346\. The divide operation between 
@@ -37,7 +37,7 @@ Explanation: BigInteger1.mod(BigInteger2)=0\. The divide operation between
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate mod() method of BigInteger
 
 import java.math.BigInteger;
@@ -67,14 +67,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result of mod operation between 321456 and 31711 equal to 4346
 
 ```
 
 **例 2:** 两者值相等时。
 
-```
+```java
 // Java program to demonstrate mod() method of BigInteger
 
 import java.math.BigInteger;
@@ -104,14 +104,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result of mod operation between 3515219485 and 3515219485 equal to 0
 
 ```
 
 **示例 3:** 当作为参数传递的 BigInteger 小于零时显示异常的程序。
 
-```
+```java
 // Java program to demonstrate mod() method of BigInteger
 
 import java.math.BigInteger;
@@ -141,7 +141,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.ArithmeticException: BigInteger: modulus not positive
     at java.math.BigInteger.mod(BigInteger.java:2458)
     at GFG.main(GFG.java:17)

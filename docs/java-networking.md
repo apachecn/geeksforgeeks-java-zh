@@ -158,7 +158,7 @@
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// A Java program for a ClientSide
 
 import java.io.*;
@@ -248,7 +248,7 @@ public class clientSide {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// A Java program for a serverSide
 import java.io.*;
 import java.net.*;
@@ -327,20 +327,20 @@ public class serverSide {
 
 ******1。**首先运行服务器应用程序。它会显示–****
 
-```
+```java
 **Server started
 Waiting for a client …**
 ```
 
 ******2。**然后在另一个终端上运行客户端应用程序。它将显示:****
 
-```
+```java
 **Connected** 
 ```
 
 ****服务器接受客户端并显示，****
 
-```
+```java
 **Client accepted**
 ```
 
@@ -391,7 +391,7 @@ Waiting for a client …**
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **import java.net.*;
 
 public class InetAddressExample1 {
@@ -415,7 +415,7 @@ public class InetAddressExample1 {
 
 ******Output**
 
-```
+```java
 InetAddress of the Local Host : localhost/127.0.0.1
 
 Host name of the Local Host : localhost
@@ -425,7 +425,7 @@ Host name of the Local Host : localhost
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **import java.net.*;
 
 public class InetAddressExample2 {

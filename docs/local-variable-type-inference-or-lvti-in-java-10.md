@@ -14,13 +14,13 @@
 
 直到 Java 9，要定义类类型的局部变量，以下是唯一正确的语法:
 
-```
+```java
 Class_name variable_name=new Class_name(arguments);
 ```
 
 例如:
 
-```
+```java
 // Sample Java local variable declaration
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +34,7 @@ class A {
 
 或者
 
-```
+```java
 class A {
     public static void main(String a[])
     {
@@ -49,7 +49,7 @@ class A {
 
 LVTI 不在变量前面的左侧提及变量数据类型，而是允许您简单地将关键字“var”放在前面。例如，
 
-```
+```java
 // Java code for Normal local 
 // variable declaration
 import java.util.ArrayList;
@@ -64,7 +64,7 @@ class A {
 
 可以重写为:
 
-```
+```java
 // Java code for local variable 
 // declaration using LVTI
 import java.util.ArrayList;
@@ -83,7 +83,7 @@ class A {
 
 1.  **在静态/实例初始化块**
 
-    ```
+    ```java
     // Declaration of variables in static/init 
     // block using LVTI in Java 10
     class A {
@@ -98,7 +98,7 @@ class A {
     }
     ```
 
-    ```
+    ```java
         Output:
          Oh hi there
 
@@ -106,7 +106,7 @@ class A {
 
 2.  **作为局部变量**
 
-    ```
+    ```java
     // Declaration of a local variable in java 10 using LVTI
     class A {
         public static void main(String a[])
@@ -117,7 +117,7 @@ class A {
     }
     ```
 
-    ```
+    ```java
           Output:
           Hi there
 
@@ -125,7 +125,7 @@ class A {
 
 3.  **作为增强 for 循环**
 
-    ```
+    ```java
     // Declaring iteration variables in enhanced for loops using LVTI in Java
     class A {
         public static void main(String a[])
@@ -138,7 +138,7 @@ class A {
     }
     ```
 
-    ```
+    ```java
     Output:
     1
     2
@@ -149,7 +149,7 @@ class A {
     中的迭代变量
 4.  **作为 for-loop**
 
-    ```
+    ```java
     // Declaring index variables in for loops using LVTI in Java
     class A {
         public static void main(String a[])
@@ -162,7 +162,7 @@ class A {
     }
     ```
 
-    ```
+    ```java
     Output:
     1
     2
@@ -173,7 +173,7 @@ class A {
     中的循环索引
 5.  **作为另一种方法的返回值**
 
-    ```
+    ```java
     // Storing the return value of a function in a variable declared with LVTI
     class A {
         int ret()
@@ -187,7 +187,7 @@ class A {
         }
     ```
 
-    ```
+    ```java
     Output:
     1
 
@@ -195,7 +195,7 @@ class A {
 
 6.  **作为方法中的返回值**
 
-    ```
+    ```java
     // Using a variable declared 
     //using the keyword 'var' as a return value of a function
     class A {
@@ -211,7 +211,7 @@ class A {
     }
     ```
 
-    ```
+    ```java
     Output:
     1
 
@@ -222,7 +222,7 @@ class A {
 
 1.  **不允许在类字段**
 
-    ```
+    ```java
     // Sample java code to demonstrate 
     //that declaring class variables 
     //using 'var' is not permitted
@@ -235,7 +235,7 @@ class A {
 
 2.  **不允许未初始化的局部变量**
 
-    ```
+    ```java
     // Sample java code to demonstrate 
     //that declaring uninitialized 
     //local variables using 'var' produces an error
@@ -250,7 +250,7 @@ class A {
 
 3.  **不允许作为任何方法的参数**
 
-    ```
+    ```java
     // Java code to demonstrate that
     // var can't be used in case of 
     //any method parameters
@@ -264,7 +264,7 @@ class A {
 
 4.  **方法返回类型**不允许
 
-    ```
+    ```java
     // Java code to demonstrate
     // that a method return type
     // can't be 'var'
@@ -279,7 +279,7 @@ class A {
 
 5.  **不允许变量初始化为“空”**
 
-    ```
+    ```java
     // Java code to demonstrate that local 
     variables initialized with 'Null' 
     can't be declared using 'var'*/

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 static <T> Comparator<T> nullsFirst(Comparator<? super T> comparator)
 
 ```
@@ -24,7 +24,7 @@ static <T> Comparator<T> nullsFirst(Comparator<? super T> comparator)
 下面的程序说明了第一个方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.nullsFirst(java.util.Comparator) method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.nullsFirst(java.util.Comparator) method
 

@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print the last
 // modification time of a directory
 import java.io.*;
@@ -51,7 +51,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.BotArmy;
 
 // Java Program to Print the last

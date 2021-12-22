@@ -6,7 +6,7 @@ Java 中的 Java . util . arraydeque . add(*Object 元素*)方法是用来在 De
 
 **语法:**
 
-```
+```java
 Array_Deque.add(*Object element*)
 ```
 
@@ -19,7 +19,7 @@ Array_Deque.add(*Object element*)
 下面的程序说明了 Java.util.ArrayDeque.add()方法:
 **程序 1:** 将字符串元素添加到 Deque 中。
 
-```
+```java
 // Java code to illustrate add()
 import java.util.*;
 
@@ -44,14 +44,14 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 
 ```
 
 **程序 2:** 将整数元素加入到德格中。
 
-```
+```java
 // Java code to illustrate add()
 import java.util.*;
 
@@ -76,7 +76,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 
 ```

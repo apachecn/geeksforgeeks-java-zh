@@ -13,7 +13,7 @@
 
 下面是演示枚举中接口实现的代码:
 
-```
+```java
 // Java program to demonstrate
 // how an enum implements an
 // interface
@@ -58,7 +58,7 @@ public class Daycount {
 
 **Output:**
 
-```
+```java
 It is day number 3 of a week.
 
 ```

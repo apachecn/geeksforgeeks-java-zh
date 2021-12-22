@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -16,7 +16,7 @@ public int size()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate size()
 // method of ConcurrentLinkedQueue
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 Size of ConcurrentLinkedQueue: 4
 
@@ -58,7 +58,7 @@ Size of ConcurrentLinkedQueue: 4
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate size()
 // method of ConcurrentLinkedQueue
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar, Sanjeet, Rabi]
 Size of ConcurrentLinkedQueue: 4
 

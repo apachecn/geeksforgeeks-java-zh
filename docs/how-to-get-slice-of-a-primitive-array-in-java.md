@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: arr[] = {1, 2, 3, 4, 5}, startIndex = 2, endIndex = 4
 Output: {3, 4, 5}
 
@@ -23,7 +23,7 @@ Output: {1, 2}
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to Get a Slice
     // of a Primitive Array
 
@@ -64,7 +64,7 @@ Output: {1, 2}
 
     **Output:**
 
-    ```
+    ```java
     [3, 4, 5]
 
     ```

@@ -26,7 +26,7 @@ Spring Boot 建在春天的顶端，包含了春天的所有特征。由于其�
 
 ## 可扩展标记语言
 
-```
+```java
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
@@ -39,7 +39,7 @@ Spring Boot 建在春天的顶端，包含了春天的所有特征。由于其�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate DemoController
 
 // Importing package to code module
@@ -80,7 +80,7 @@ public class DemoController {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate DemoApplication
 
 // Importing package module to code

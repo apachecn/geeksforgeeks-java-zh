@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input : 100100
 Output: 44
 
@@ -27,7 +27,7 @@ Output : 141
 
 ******语法:******
 
-```
+```java
 **public static String toOctalString(*int num*)**
 ```
 
@@ -45,7 +45,7 @@ Output : 141
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to convert binary to octal
 
 class GFG {
@@ -112,7 +112,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 octal number:44
 ```**** 
 
@@ -132,7 +132,7 @@ octal number:44
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to convert binary to octal
 
 class GFG {
@@ -212,6 +212,6 @@ class GFG {
 
 ******Output**
 
-```
+```java
 111
 ```****

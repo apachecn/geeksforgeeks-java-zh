@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.remove( *键*)方法用于从地图中移除指定
 
 **语法:**
 
-```
+```java
 remove(*Object key*)
 ```
 
@@ -17,7 +17,7 @@ remove(*Object key*)
 以下程序说明了清除(*键*)功能的工作:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate remove()
 import java.util.*;
 
@@ -53,7 +53,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 The EnumMap: {India_today=61.8%, United_States_today=18.2%}
 Map after removal: {India_today=61.8%}
 
@@ -61,7 +61,7 @@ Map after removal: {India_today=61.8%}
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the working of keySet()
 import java.util.*;
 
@@ -99,7 +99,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 The EnumMap: {India_today=69, United_States_today=1073}
 Map after removal: {India_today=69}
 

@@ -8,7 +8,7 @@
 
 ****伪码:****
 
-```
+```java
 // Student class implements comparable interface
 
 class Student implements Comparable<Student> {
@@ -36,7 +36,7 @@ class Student implements Comparable<Student> {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate how to Sort TreeSet using
 // Comparable interface in ascending order
 
@@ -83,7 +83,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 Sort elements in ascending order : [ 100,  200,  300,  400,  500]
 ```** 
 
@@ -91,7 +91,7 @@ Sort elements in ascending order : [ 100,  200,  300,  400,  500]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program demonstrate how to Sort TreeSet using
 // Comparable interface in descending order
 
@@ -138,6 +138,6 @@ class GFG {
 
 ****Output**
 
-```
+```java
 Sort elements in descending order : [ 500,  400,  300,  200,  100]
 ```**

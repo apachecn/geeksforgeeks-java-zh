@@ -24,7 +24,7 @@ MouseInfo 和 PointerInfo 是 Java AWT 的一部分。MouseInfo 提供了有关�
 
 *   **Example Program to find the number of buttons on the Mouse**
 
-    ```
+    ```java
     // Java Program to find the number of
     // buttons on the mouse
     import java.awt.*;
@@ -49,14 +49,14 @@ MouseInfo 和 PointerInfo 是 Java AWT 的一部分。MouseInfo 提供了有关�
 
     **输出:**
 
-    ```
+    ```java
     Number of buttons on the mouse = 5
 
     ```
 
 *   **Example Program to show the Position of Mouse**
 
-    ```
+    ```java
     // Java Program to show the
     // position of mouse
     import java.awt.*;

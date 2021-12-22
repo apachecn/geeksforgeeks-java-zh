@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```java
 public Integer(int b)
 ```
 
 **参数:**
 
-```
+```java
 b : value with which to initialize
 ```
 
@@ -24,19 +24,19 @@ b : value with which to initialize
 
 **语法:**
 
-```
+```java
 public Integer(String s) throws NumberFormatException
 ```
 
 **参数:**
 
-```
+```java
 s : string representation of the int value 
 ```
 
 **投掷:**
 
-```
+```java
 NumberFormatException : 
 If the string provided does not represent any int value.
 ```
@@ -47,13 +47,13 @@ If the string provided does not represent any int value.
 
 **语法:**
 
-```
+```java
 public String toString(int b)
 ```
 
 **参数:**
 
-```
+```java
 b : int value for which string representation required.
 ```
 
@@ -61,13 +61,13 @@ b : int value for which string representation required.
 
 **语法:**
 
-```
+```java
 public String toHexString(int b)
 ```
 
 **参数:**
 
-```
+```java
 b : int value for which hex string representation required.
 ```
 
@@ -75,13 +75,13 @@ b : int value for which hex string representation required.
 
 **语法:**
 
-```
+```java
 public String toOctalString(int b)
 ```
 
 **参数:**
 
-```
+```java
 b : int value for which octal string representation required.
 ```
 
@@ -89,13 +89,13 @@ b : int value for which octal string representation required.
 
 **语法:**
 
-```
+```java
 public String toBinaryString(int b)
 ```
 
 **参数:**
 
-```
+```java
 b : int value for which binary string representation required.
 ```
 
@@ -103,13 +103,13 @@ b : int value for which binary string representation required.
 
 **语法:**
 
-```
+```java
 public static Integer valueOf(int b)
 ```
 
 **参数:**
 
-```
+```java
 b : a int value
 ```
 
@@ -117,21 +117,21 @@ b : a int value
 
 **语法:**
 
-```
+```java
 public static Integer valueOf(String val, int radix)
 throws NumberFormatException
 ```
 
 **参数:**
 
-```
+```java
 val : String to be parsed into int value
 radix : radix to be used while parsing
 ```
 
 **投掷:**
 
-```
+```java
 NumberFormatException : if String cannot be parsed to a int value in given radix.
 ```
 
@@ -139,20 +139,20 @@ NumberFormatException : if String cannot be parsed to a int value in given radix
 
 **语法:**
 
-```
+```java
 public static Integer valueOf(String s)
 throws NumberFormatException
 ```
 
 **参数:**
 
-```
+```java
 s : a String object to be parsed as int
 ```
 
 **投掷:**
 
-```
+```java
 NumberFormatException : if String cannot be parsed to a int value in given radix.
 ```
 
@@ -160,21 +160,21 @@ NumberFormatException : if String cannot be parsed to a int value in given radix
 
 **语法:**
 
-```
+```java
 public static int parseInt(String val, int radix)
 throws NumberFormatException
 ```
 
 **参数:**
 
-```
+```java
 val : String representation of int 
 radix : radix to be used while parsing
 ```
 
 **投掷:**
 
-```
+```java
 NumberFormatException : if String cannot be parsed to a int value in given radix.
 ```
 
@@ -182,20 +182,20 @@ NumberFormatException : if String cannot be parsed to a int value in given radix
 
 **语法:**
 
-```
+```java
 public static int parseInt(String val)
 throws NumberFormatException
 ```
 
 **参数:**
 
-```
+```java
 val : String representation of int 
 ```
 
 **投掷:**
 
-```
+```java
 NumberFormatException : if String cannot be parsed to a int value in given radix.
 ```
 
@@ -203,13 +203,13 @@ NumberFormatException : if String cannot be parsed to a int value in given radix
 
 **语法:**
 
-```
+```java
 public static Integer getInteger(String prop)
 ```
 
 **参数:**
 
-```
+```java
 prop : System property
 ```
 
@@ -217,13 +217,13 @@ prop : System property
 
 **语法:**
 
-```
+```java
 public static Integer getInteger(String prop, int val)
 ```
 
 **参数:**
 
-```
+```java
 prop : System property
 val : value to return if property does not exist.
 ```
@@ -232,13 +232,13 @@ val : value to return if property does not exist.
 
 **语法:**
 
-```
+```java
 public static Integer getInteger(String prop, Integer val)
 ```
 
 **参数:**
 
-```
+```java
 prop : System property
 val : value to return if property does not exist.
 ```
@@ -251,20 +251,20 @@ val : value to return if property does not exist.
 
 **语法:**
 
-```
+```java
 public static Integer decode(String s)
 throws NumberFormatException
 ```
 
 **参数:**
 
-```
+```java
 s : encoded string to be parsed into int val
 ```
 
 **投掷:**
 
-```
+```java
 NumberFormatException : If the string cannot be decoded into a int value
 ```
 
@@ -272,13 +272,13 @@ NumberFormatException : If the string cannot be decoded into a int value
 
 **语法:**
 
-```
+```java
 public static int rotateLeft(int val, int dist)
 ```
 
 **参数:**
 
-```
+```java
 val : int value to be rotated
 dist : distance to rotate
 ```
@@ -287,20 +287,20 @@ dist : distance to rotate
 
 **语法:**
 
-```
+```java
 public static int rotateRight(int val, int dist)
 ```
 
 **参数:**
 
-```
+```java
 val : int value to be rotated
 dist : distance to rotate
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // various Integer methods
 public class Integer_test {
@@ -386,7 +386,7 @@ public class Integer_test {
 
 **输出:**
 
-```
+```java
 toString(b) = 55
 toHexString(b) =37
 toOctalString(b) =67
@@ -410,7 +410,7 @@ rotateRight(0000 0000 0000 0010,3) =1073741824
 
 **语法:**
 
-```
+```java
 public byte byteValue()
 ```
 
@@ -418,7 +418,7 @@ public byte byteValue()
 
 **语法:**
 
-```
+```java
 public short shortValue()
 ```
 
@@ -426,7 +426,7 @@ public short shortValue()
 
 **语法:**
 
-```
+```java
 public int intValue()
 ```
 
@@ -434,7 +434,7 @@ public int intValue()
 
 **语法:**
 
-```
+```java
 public long longValue()
 ```
 
@@ -442,7 +442,7 @@ public long longValue()
 
 **语法:**
 
-```
+```java
 public double doubleValue()
 ```
 
@@ -450,7 +450,7 @@ public double doubleValue()
 
 **语法:**
 
-```
+```java
 public float floatValue()
 ```
 
@@ -458,7 +458,7 @@ public float floatValue()
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -466,13 +466,13 @@ public int hashCode()
 
 **语法:**
 
-```
+```java
 public static int bitCount(int i)
 ```
 
 **参数:**
 
-```
+```java
 i : int value whose set bits to count
 ```
 
@@ -480,13 +480,13 @@ i : int value whose set bits to count
 
 **语法:**
 
-```
+```java
 public static int numberofLeadingZeroes(int i)
 ```
 
 **参数:**
 
-```
+```java
 i : int value whose leading zeroes to count in twos complement form
 ```
 
@@ -494,13 +494,13 @@ i : int value whose leading zeroes to count in twos complement form
 
 **语法:**
 
-```
+```java
 public static int numberofTrailingZeroes(int i)
 ```
 
 **参数:**
 
-```
+```java
 i : int value whose trailing zeroes to count in twos complement form
 ```
 
@@ -508,13 +508,13 @@ i : int value whose trailing zeroes to count in twos complement form
 
 **语法:**
 
-```
+```java
 public static int highestOneBit(int i)
 ```
 
 **参数:**
 
-```
+```java
 i : int value 
 ```
 
@@ -522,13 +522,13 @@ i : int value
 
 **语法:**
 
-```
+```java
 public static int LowestOneBit(int i)
 ```
 
 **参数:**
 
-```
+```java
 i : int value 
 ```
 
@@ -536,13 +536,13 @@ i : int value
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
 **参数:**
 
-```
+```java
 obj : object to compare with
 ```
 
@@ -550,13 +550,13 @@ obj : object to compare with
 
 **语法:**
 
-```
+```java
 public int compareTo(Integer b)
 ```
 
 **参数:**
 
-```
+```java
 b : Integer object to compare with
 ```
 
@@ -564,13 +564,13 @@ b : Integer object to compare with
 
 **语法:**
 
-```
+```java
 public static int compare(int x,int y)
 ```
 
 **参数:**
 
-```
+```java
 x : int value
 y : another int value
 ```
@@ -579,13 +579,13 @@ y : another int value
 
 **语法:**
 
-```
+```java
 public static int signum(int val)
 ```
 
 **参数:**
 
-```
+```java
 val : int value for which signum is required.
 ```
 
@@ -593,13 +593,13 @@ val : int value for which signum is required.
 
 **语法:**
 
-```
+```java
 public static int reverseBytes(int val)
 ```
 
 **参数:**
 
-```
+```java
 val : int value whose bits to reverse in order.
 ```
 
@@ -607,13 +607,13 @@ val : int value whose bits to reverse in order.
 
 **语法:**
 
-```
+```java
 public static int reverseBytes(int val)
 ```
 
 **参数:**
 
-```
+```java
 val : int value whose bits to reverse in order.
 ```
 
@@ -621,7 +621,7 @@ val : int value whose bits to reverse in order.
 
 **语法:**
 
-```
+```java
 public static int compareUnsigned(int x, int y)
 ```
 
@@ -629,7 +629,7 @@ public static int compareUnsigned(int x, int y)
 
 **语法:**
 
-```
+```java
 public static int divideUnsigned(int dividend, int divisor)
 ```
 
@@ -637,7 +637,7 @@ public static int divideUnsigned(int dividend, int divisor)
 
 **语法:**
 
-```
+```java
 public static int max(int a, int b)
 ```
 
@@ -645,7 +645,7 @@ public static int max(int a, int b)
 
 **语法:**
 
-```
+```java
 public static int min(int a, int b)
 ```
 
@@ -653,7 +653,7 @@ public static int min(int a, int b)
 
 **语法:**
 
-```
+```java
 public static int parseUnsignedInt(CharSequence s,
                                    int beginIndex,
                                    int endIndex,
@@ -665,7 +665,7 @@ public static int parseUnsignedInt(CharSequence s,
 
 **语法:**
 
-```
+```java
 public static int parseUnsignedInt(String s)
 throws NumberFormatException
 ```
@@ -674,7 +674,7 @@ throws NumberFormatException
 
 **语法:**
 
-```
+```java
 public static int parseUnsignedInt(String s,
                                    int radix)
                             throws NumberFormatException
@@ -684,7 +684,7 @@ public static int parseUnsignedInt(String s,
 
 **语法:**
 
-```
+```java
 public static int remainderUnsigned(int dividend, int divisor)
 ```
 
@@ -692,7 +692,7 @@ public static int remainderUnsigned(int dividend, int divisor)
 
 **语法:**
 
-```
+```java
 public static int sum(int a, int b)
 ```
 
@@ -700,7 +700,7 @@ public static int sum(int a, int b)
 
 **语法:**
 
-```
+```java
 public static long toUnsignedLong(int x)    
 ```
 
@@ -708,13 +708,13 @@ public static long toUnsignedLong(int x)
 
 **语法:**
 
-```
+```java
 public static String toUnsignedString(int i, int radix) 
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // various Integer class methods
 public class Integer_test {
@@ -805,7 +805,7 @@ public class Integer_test {
 
 **输出:**
 
-```
+```java
 bytevalue(x) = 55
 shortvalue(x) = 55
 intvalue(x) = 55
@@ -834,7 +834,7 @@ x.compareTo(y) = 1
 
 **示例:**
 
-```
+```java
 Integer x = 200;  //initializing directly
 x = 300;      //modifying x
 x = 10;           //modifying x again
@@ -881,7 +881,7 @@ x = 10;           //modifying x again
 
 **示例:**
 
-```
+```java
 Integer a = new Integer(250);   //Initializing dynamically
 a = 350;            //Type 1 initialization
 ```

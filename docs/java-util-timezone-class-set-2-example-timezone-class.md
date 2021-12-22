@@ -16,7 +16,7 @@ TimeZone 类(这个类的方法在本文中已经讨论过了 [Java.util.TimeZon
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find time difference in term of hour and
 // minute between two places.
 
@@ -88,14 +88,14 @@ public class TimeDifference {
 
 输入:
 
-```
+```java
 Asia/Chita
 Asia/Yangon
 ```
 
 输出:
 
-```
+```java
 Date and Time of place having Id Asia/Chita
 Date - 2018-04-25
 Time - 04:16

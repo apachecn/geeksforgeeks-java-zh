@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the
 // area of the triangle
 
@@ -60,7 +60,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Area of the triangle: 25.0
 ```
 
@@ -80,7 +80,7 @@ Area of the triangle: 25.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the area of
 // the triangle using Heron’s formula
 
@@ -140,6 +140,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Area of the triangle: 14.6969385
 ```

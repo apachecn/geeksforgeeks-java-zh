@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Method getEnclosingMethod()
 
 ```
@@ -21,7 +21,7 @@ public Method getEnclosingMethod()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getEnclosingMethod() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 EnclosingMethod of myClass: null
 
@@ -55,7 +55,7 @@ EnclosingMethod of myClass: null
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getEnclosingMethod() method
 
 import java.util.*;
@@ -89,7 +89,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 EnclosingConstructor of myClass: public java.lang.Object Main.func()
 
 ```

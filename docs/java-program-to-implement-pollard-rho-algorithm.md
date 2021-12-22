@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: n = 315
 Output: 3 [OR 3 OR 5 OR 7]
 
@@ -32,7 +32,7 @@ Output: 2 [OR 5 ]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement Pollard’s Rho Algorithm
 import java.io.*;
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 One of the prime factor of 315 is 5
 
 ```

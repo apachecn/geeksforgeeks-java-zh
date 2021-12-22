@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Concept of
 // Abstract Class
 
@@ -153,7 +153,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of rectangle: 6.0
 Rectangle has been moved to x = 1 and y = 2
 

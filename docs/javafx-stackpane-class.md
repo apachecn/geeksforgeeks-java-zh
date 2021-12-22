@@ -24,7 +24,7 @@ StackPane 类是 JavaFX 的一部分。StackPane 类以堆栈的形式布局其�
 
 1.  **Java Program to create a StackPane, add circle, label, rectangle and add it to the stage:** In this program we are creating a Label named *label*, a Rectangle named *rectangle* and a Circle named *circle*. Then set the font of the StackPane using the *setFont()* function. Now set the fill of the rectangle and circle using the *setFill()* function. We will then create a StackPane named *stack_pane* and add rectangle, circle and label. Create a scene and add the stack_pane to the scene. Add this scene to the stage and call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a StackPane,
     // add circle, label, rectangle
     // and add it to the stage
@@ -103,7 +103,7 @@ StackPane 类是 JavaFX 的一部分。StackPane 类以堆栈的形式布局其�
 
 2.  **Java Program to create a StackPane, add the circle, label, rectangle and then set the alignment of the StackPane and add it to the stage:** In this program we are creating a Label named *label*, a Rectangle named *rectangle* and a Circle named *circle*. Then set the font of the StackPane using the *setFont()* function. Set fill of the rectangle and circle using the *setFill()* function. Now create a StackPane named *stack_pane* and add rectangle, circle, and label. Set the alignment of the stack_pane using *setAlignment()* function. Create a scene and add the stack_pane to the scene. Finally add this scene to the stage and call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java Program to create a StackPane, 
     // add the circle, label, rectangle and
     // then set the alignment of the StackPane

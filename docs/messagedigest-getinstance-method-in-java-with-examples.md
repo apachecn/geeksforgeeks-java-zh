@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static MessageDigest
   getInstance(String algorithm)
   throws NoSuchAlgorithmException
@@ -27,7 +27,7 @@ public static MessageDigest
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -65,14 +65,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Status : MD5 Message Digest from SUN, <initialized>
 
 ```
 
 **示例 2:** 显示 NoSuchAlgorithmException 异常
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -110,7 +110,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception thrown :
  java.security.NoSuchAlgorithmException:
  GFG MessageDigest not available
@@ -123,7 +123,7 @@ Exception thrown :
 
 **语法:**
 
-```
+```java
 public static MessageDigest 
   getInstance(String algorithm, String provider)
   throws NoSuchAlgorithmException
@@ -148,7 +148,7 @@ public static MessageDigest
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -191,14 +191,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Status : SHA-384 Message Digest from SUN, <initialized>
 
 ```
 
 **示例 2:** 显示 NoSuchAlgorithmException 异常
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -241,7 +241,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception thrown :
  java.security.NoSuchAlgorithmException:
  no such algorithm: GFG for provider SUN

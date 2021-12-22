@@ -52,7 +52,7 @@ Patricia [Trie](https://www.geeksforgeeks.org/trie-insert-and-search/) 或前缀
 
 **案例 1**
 
-```
+```java
 Patricia Trie
 Patricia Trie Operations
 1\. Insert
@@ -125,7 +125,7 @@ n
 
 **案例 2**
 
-```
+```java
 Patricia Trie
 Patricia Trie Operations
 1\. Insert
@@ -188,7 +188,7 @@ n
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to  implement Patrica trie
 
 // Importing input output classes

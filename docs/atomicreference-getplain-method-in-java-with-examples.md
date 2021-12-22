@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final V getPlain()
 
 ```
@@ -18,7 +18,7 @@ public final V getPlain()
 下面的程序说明了 getPlain()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.getPlain() method
 import java.util.concurrent.atomic.AtomicReference;
@@ -47,7 +47,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.getPlain() method
 import java.util.concurrent.atomic.AtomicReference;

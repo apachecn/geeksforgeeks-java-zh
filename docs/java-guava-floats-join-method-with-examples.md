@@ -21,7 +21,7 @@
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.join() method
 
@@ -47,14 +47,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2.3#4.2#6.2#8.6#10.5
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.join() method
 
@@ -80,7 +80,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3.2*5.4*7.6*9.1*11.2
 
 ```

@@ -7,7 +7,7 @@
 新缓冲区的位置将为零，其容量和限制将是该缓冲区中剩余的字节数除以 2，其标记将是未定义的。如果且仅当该缓冲区是直接的，则新缓冲区将是直接的；如果且仅当该缓冲区是只读的，则新缓冲区将是只读的。
 **语法:**
 
-```
+```java
 public abstract CharBuffer asCharBuffer()
 ```
 
@@ -17,7 +17,7 @@ public abstract CharBuffer asCharBuffer()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asCharBuffer() method
 // for ByteBuffer
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Char buffer : T a j M a h a l
 ```
 
@@ -77,7 +77,7 @@ Char buffer : T a j M a h a l
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asCharBuffer() method
 // for Read only ByteBuffer
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Char buffer : T a j m a h a l 
 
 Trying to put the string into read only charbuffer

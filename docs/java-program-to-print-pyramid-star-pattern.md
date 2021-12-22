@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // Java code to demonstrate Pyramid star patterns
@@ -45,7 +45,7 @@ public class GeeksForGeeks {
 
 **Output**
 
-```
+```java
 * 
 * * 
 * * * 
@@ -59,7 +59,7 @@ public class GeeksForGeeks {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // 180 flipped pyramid star pattern
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
            * 
          * * 
        * * * 
@@ -112,7 +112,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // Java code to demonstrate star pattern
@@ -154,7 +154,7 @@ public class GeeksForGeeks {
 
 **Output**
 
-```
+```java
     * 
    * * 
   * * * 

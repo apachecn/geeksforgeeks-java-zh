@@ -25,7 +25,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -224,25 +224,25 @@
 
 在类内打开那里的**MainActivity.java**文件，制作一个名为 doSum(视图 v)的方法。在这种方法中，首先，我们必须将两个[编辑文本](https://www.geeksforgeeks.org/working-with-the-edittext-in-android/)与变量联系起来，以便我们可以使用它们进行输入。所以把这些编辑框和我们写的变量联系起来
 
-```
+```java
 "EditText e1=(EditText )findViewById(R.id.num1);"
 ```
 
 这里 num1 是文本框的 id，我们只是给 id 为“num1”的文本框一个变量名“e1”。同样，我们必须对变量名为“e2”的第二个文本框使用相同的语句。对于第三个文本框，我们使用了
 
-```
+```java
 "TextView t1=(TextView) findViewById(R.id.result);"
 ```
 
 这里我们使用了文本视图，因为我们只需要显示文本，避免用户改变文本。现在我们必须使用 **getText()** 函数以字符串的形式输入数字。输入语句将是
 
-```
+```java
 "String s11=e1.getText().toString();"
 ```
 
 这里 s11 存储在文本框 1 中输入的数字。我们必须对另一个文本框(e2)做同样的事情。现在以整数形式存储数字并应用加法。将附加值存储在另一个变量中。要显示存储在 sum 中的数据，我们必须使用 setText()，如下所示:
 
-```
+```java
 result.setText(final_sum.toString())
 ```
 
@@ -250,7 +250,7 @@ final_sum 存储总和，有必要将其转换为字符串(。toString())。下�
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;

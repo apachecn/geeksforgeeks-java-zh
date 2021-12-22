@@ -56,7 +56,7 @@ Servlet 有三种生命周期方法:
 
 1.  **init()方法**:Servlet 容器调用 **Servlet.init()** 方法，表示这个 Servlet 实例已经实例化成功，即将投入使用。
 
-    ```
+    ```java
     //init() method
 
     public class MyServlet implements Servlet{
@@ -70,7 +70,7 @@ Servlet 有三种生命周期方法:
 
 2.  **服务()方法**:调用 Servlet 的**服务()**方法通知 Servlet 客户端请求。
 
-    ```
+    ```java
     // service() method
 
     public class MyServlet implements Servlet{
@@ -87,7 +87,7 @@ Servlet 有三种生命周期方法:
     *   该方法使用 **ServletResponse** 对象生成输出内容。
 3.  **destroy() method**: The **destroy()** method runs only once during the lifetime of a Servlet and signals the end of the Servlet instance.
 
-    ```
+    ```java
     //destroy() method
 
     public void destroy()
@@ -120,7 +120,7 @@ servlet 生命周期由以下几个阶段组成:
 
 *   该方法只接收一个参数，即 **ServletConfig** 对象。*   这个方法有可能抛出 ServletException。*   一旦 servlet 被初始化，它就可以处理客户端请求了。*   The prototype for the init() method:
 
-    ```
+    ```java
     public void init(ServletConfig con)throws ServletException{ }
     ```
 
@@ -136,7 +136,7 @@ servlet 生命周期由以下几个阶段组成:
     每当 servlet 的生命周期方法开始执行时，即当 public void init(ServletConfig con)抛出 ServletException 得到调用时，我们的类 public void init(servletconfigcon)抛出 ServletException 得到调用，但我们必须运行初始化 ServletConfig 对象的代码，该对象写在“HttpServlet”方法中 public void init(ServletConfig con)抛出 ServletException，即:
     HttpServlet 类的编码如下:
 
-    ```
+    ```java
     public void init(ServletConfig con) throws ServletException
     {
        //code to initialise ServletConfig object
@@ -151,7 +151,7 @@ servlet 生命周期由以下几个阶段组成:
 
     现在看看我们班的编码
 
-    ```
+    ```java
     public void init(ServletConfig con) throws ServletException
     {
     super.init(con);  //Since,our class init() will run first,but to run HttpServlet init() we
@@ -168,7 +168,7 @@ servlet 生命周期由以下几个阶段组成:
 
     让我们看看我们的类 init()的非参数化版本的编码:
 
-    ```
+    ```java
     public void init() throws ServletException  
     {
        //database connectivity code
@@ -178,7 +178,7 @@ servlet 生命周期由以下几个阶段组成:
 
     **注意:**由于这个方法 public void init()抛出了 ServletException，所以我们有来自 HttpServlet 类的 override，它的编码如下:
 
-    ```
+    ```java
     public void init() throws ServletException  
     {
        //empty body
@@ -200,7 +200,7 @@ servlet 生命周期由以下几个阶段组成:
     5.  此方法接受两个参数。
     6.  The prototype for this method:
 
-        ```
+        ```java
         public void service(ServletRequest req, ServletResponse resp) 
         throws ServletException, IOException { }
         ```
@@ -215,13 +215,13 @@ servlet 生命周期由以下几个阶段组成:
     4.  当调用此方法时，垃圾收集器开始工作。
     5.  这个方法的原型是:
 
-        ```
+        ```java
         public void destroy() { // Finalization code...}
         ```
 
     下面是一个用 Java 演示 Servlet 的示例程序:
 
-    ```
+    ```java
     // Java program to show servlet example
     // Importing required Java libraries
     import java.io.*;

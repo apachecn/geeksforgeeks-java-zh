@@ -6,7 +6,7 @@
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
   ↳ java.util.stream.Collectors
 
@@ -18,7 +18,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 public static Collector<CharSequence, ?, String> joining()
 ```
 
@@ -28,7 +28,7 @@ public static Collector<CharSequence, ?, String> joining()
 
 在下面的程序中，在“ch”中创建了一个字符数组。然后使用()的流将该数组转换为流。然后，使用 map()将结果流映射为连续序列。最后，使用 Collectors.joining()方法将包含字符数组的序列流连接成一个字符串。它存储在“chString”变量中。
 
-```
+```java
 // Java Program to demonstrate the working
 // of the Collectors.joining() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -65,7 +65,7 @@ GeeksforGeeks
 
 在下面的程序中，在“ch”中创建了一个字符列表。然后使用 ch.stream()方法将该列表转换为 Stream。然后，使用 map()将结果流映射为连续序列。最后，使用 Collectors.joining()方法将包含字符列表的序列流连接成一个字符串。它存储在“chString”变量中。
 
-```
+```java
 // Java Program to demonstrate the working
 // of the Collectors.joining() method
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -104,7 +104,7 @@ GeeksforGeeks
 
 在下面的程序中，在“字符串”中创建了一个字符串列表。然后使用 str.stream()方法将该列表转换为 Stream。然后，使用 map()将结果流映射为连续序列。最后，使用 Collectors.joining()方法将包含字符列表的序列流连接成一个字符串。它存储在“chString”变量中。
 
-```
+```java
 // Java Program to demonstrate the working
 // of the Collectors.joining() method
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -143,7 +143,7 @@ GeeksforGeeks
 
 **语法:**
 
-```
+```java
 public static Collector<CharSequence, ?, String> joining(CharSequence delimiter)
 ```
 
@@ -153,7 +153,7 @@ public static Collector<CharSequence, ?, String> joining(CharSequence delimiter)
 
 在下面的程序中，在“ch”中创建了一个字符列表。然后使用 ch.stream()方法将该列表转换为 Stream。然后，使用 map()将结果流映射为连续序列。最后，使用 Collectors.joining()方法将包含字符列表的顺序流连接成一个字符串，并以“”作为分隔符传递。它存储在“chString”变量中。
 
-```
+```java
 // Java Program to demonstrate the working
 // of the Collectors.joining() method
 
@@ -185,7 +185,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 G, e, e, k, s, f, o, r, G, e, e, k, s
 ```
 
@@ -193,7 +193,7 @@ G, e, e, k, s, f, o, r, G, e, e, k, s
 
 在下面的程序中，在“字符串”中创建了一个字符串列表。然后使用 str.stream()方法将该列表转换为 Stream。然后，使用 map()将结果流映射为连续序列。最后，使用 Collectors.joining()方法将包含字符列表的顺序流连接成一个字符串，并以“”作为分隔符传递。它存储在“chString”变量中。
 
-```
+```java
 // Java Program to demonstrate the working
 // of the Collectors.joining() method
 
@@ -222,7 +222,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks, for, Geeks
 ```
 
@@ -236,7 +236,7 @@ Geeks, for, Geeks
 
 **语法:**
 
-```
+```java
 public static Collector<CharSequence, ?, String> joining(CharSequence delimiter. 
                                                        CharSequence prefix,
                                                        CharSequence suffix))
@@ -248,7 +248,7 @@ public static Collector<CharSequence, ?, String> joining(CharSequence delimiter.
 
 在下面的程序中，在“ch”中创建了一个字符列表。然后使用 ch.stream()方法将该列表转换为 Stream。然后，使用 map()将结果流映射为连续序列。最后，使用 Collectors.joining()方法将包含字符列表的序列流连接成一个字符串，以“，”作为分隔符，以“[”作为前缀，以“]”作为后缀。它存储在“chString”变量中。
 
-```
+```java
 // Java Program to demonstrate the working
 // of the Collectors.joining() method
 
@@ -280,7 +280,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 [G, e, e, k, s, f, o, r, G, e, e, k, s]
 ```
 
@@ -288,7 +288,7 @@ public class GFG {
 
 在下面的程序中，在“字符串”中创建了一个字符串列表。然后使用 str.stream()方法将该列表转换为 Stream。然后，使用 map()将结果流映射为连续序列。最后，使用 Collectors.joining()方法将包含字符列表的序列流连接成一个字符串，以“，”作为分隔符，以“{”作为前缀，以“}”作为后缀。它存储在“chString”变量中。
 
-```
+```java
 // Java Program to demonstrate the working
 // of the Collectors.joining() method
 
@@ -317,6 +317,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 {Geeks, for, Geeks}
 ```

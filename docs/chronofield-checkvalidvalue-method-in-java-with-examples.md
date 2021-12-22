@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long checkValidValue(long value)
 
 ```
@@ -18,7 +18,7 @@ public long checkValidValue(long value)
 下面的程序说明了时间域检查有效值()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.checkValidValue() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value passed :360
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.checkValidValue() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value passed :2
 
 ```

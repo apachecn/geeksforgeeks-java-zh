@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public K ceilingKey(K key)
 
 ```
@@ -23,7 +23,7 @@ public K ceilingKey(K key)
 下面的程序说明了上面的方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ceilingkey method in java
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Map: {1=1, 2=7, 5=2}
 key greater than or equal 3: 5
 key greater than or equal 2: 2
@@ -70,7 +70,7 @@ key greater than or equal 2: 2
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ceilingkey method in java
 import java.util.concurrent.ConcurrentSkipListMap;
@@ -107,7 +107,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Map: {11=1, 51=42, 92=7}
 key greater than or equal 11: 11
 key greater than or equal 51: 51

@@ -14,7 +14,7 @@
 
 **解释密码生成的 Java 程序**
 
-```
+```java
 // Java code to explain how to generate random
 // password
 
@@ -72,14 +72,14 @@ public class NewClass
 **注意:**我们正在生成的密码每次都会发生变化。因为我们已经使用了 random()方法来生成密码。
 T3】输出:
 
-```
+```java
 Generating password using random() : 
 Your new password is : KHeCZBTM;-
 ```
 
 **解释 OTP(一次性密码)生成的 Java 程序**
 
-```
+```java
 // Java code to explain how to generate OTP
 
 // Here we are using random() method of util
@@ -122,7 +122,7 @@ public class NewClass
 我们正在生成的 OTP 每次都会发生变化。因为我们已经使用了随机()方法来生成动态口令。
 **输出:**
 
-```
+```java
 Generating OTP using random() : 
 You OTP is : 5291
 ```
@@ -131,7 +131,7 @@ You OTP is : 5291
 
 **解释密码生成的 Java 程序**
 
-```
+```java
 // Java code to explain how to generate random
 // password
 class uniquePassword
@@ -167,7 +167,7 @@ for (long i=code;i!=0;i/=100)//a loop extracting 2 digits from the code 
 **注意:**我们正在生成的密码每次都会发生变化。因为我们已经使用了 random()方法来生成密码。
 T3】输出:
 
-```
+```java
 Generating password using Math.random() and ascii code: 
 Your new password is : KHe%ZBT$
 ```
@@ -178,7 +178,7 @@ Your new password is : KHe%ZBT$
 
 **解释 OTP(一次性密码)生成的 Java 程序**
 
-```
+```java
 // Java code to explain how to generate OTP
 public class GenerateOTP {
 //declaring a of return type String
@@ -204,7 +204,7 @@ public class GenerateOTP {
 我们正在生成的 OTP 每次都会发生变化。因为我们已经使用了 Math.random()函数来生成动态口令。
 **输出:**
 
-```
+```java
 Generating OTP using random() : 
 You OTP is : 5291
 ```

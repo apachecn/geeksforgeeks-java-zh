@@ -5,7 +5,7 @@
 给定一个 Java 中的 [TreeSet](https://www.geeksforgeeks.org/treeset-in-java-with-examples/) ，任务是对 TreeSet 的元素进行降序排序。
 **例:**
 
-```
+```java
 Input : Set: [2, 3, 5, 7, 10, 20]
 Output : Set: [20, 10, 7, 5, 3, 2]
 
@@ -20,7 +20,7 @@ Output : Set: [hello, geeks, for, computer]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to print TreeSet in reverse Order
 import java.util.TreeSet;
 
@@ -55,7 +55,7 @@ public class TreeSetDescending
 
 **Output**
 
-```
+```java
 Without descendingSet(): [2, 3, 5, 7, 10, 20]
 With descendingSet(): [20, 10, 7, 5, 3, 2]
 

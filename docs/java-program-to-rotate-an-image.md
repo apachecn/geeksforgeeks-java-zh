@@ -16,7 +16,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java program to rotate image by 90 degrees clockwise
 
 // Importing classes from java.awt package for

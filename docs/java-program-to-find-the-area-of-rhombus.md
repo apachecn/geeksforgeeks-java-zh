@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 Input : p = 2, q = 3
 Output: 3
 
@@ -22,7 +22,7 @@ Output: 10
 
 T5】Java
 
-```
+```java
 // Java Program to Find the Area of Rhombus
 public class AreaOfRhombus {
     public static void main(String[] args)
@@ -43,6 +43,6 @@ public class AreaOfRhombus {
 
 **输出**
 
-```
+```java
 Area of rhombus = 3.0
 ```

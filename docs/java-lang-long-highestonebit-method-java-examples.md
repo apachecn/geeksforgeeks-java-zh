@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long highestOneBit(long num)
 Parameters:
 num - the number passed 
@@ -16,7 +16,7 @@ long value by only considering highest 1 bit in the argument.
 
 示例:
 
-```
+```java
 Input : 9 
 Output : 8
 Explanation: Binary Representation = 1001
@@ -34,7 +34,7 @@ Output : 32
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates the use of
 // Long.highestOneBit() function
 
@@ -62,7 +62,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 highest one bit = 8
 highest one bit = 32
 
@@ -72,7 +72,7 @@ highest one bit = 32
 
 **程序 2:** 下面的程序演示了传递负数时函数的使用。
 
-```
+```java
 // java program that demonstrates the use of
 // Long.highestOneBit() function
 // negative number
@@ -101,7 +101,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Binary = 1111111111111111111111111111111111111111111111111111111111110001
 Highest one bit = -9223372036854775808
 
@@ -110,7 +110,7 @@ Highest one bit = -9223372036854775808
 当十进制字符串值作为参数传递时，它会返回一条错误消息。
 **程序 3:** 当一个十进制值在参数中传递时。
 
-```
+```java
 // java program that demonstrates the
 // Long.highestOneBit() function
 // decimal value in argument
@@ -130,7 +130,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:13: error: incompatible types: possible lossy conversion from double to long
         System.out.println("highest one bit = " + Long.highestOneBit(12.34));
 
@@ -138,7 +138,7 @@ prog.java:13: error: incompatible types: possible lossy conversion from double t
 
 **程序 3:** 当一个字符串值在参数中传递时。
 
-```
+```java
 // java program that demonstrates the
 // Long.highestOneBit() function
 // string value in argument
@@ -158,7 +158,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:13: error: incompatible types: String cannot be converted to long
         System.out.println("highest one bit = " + Long.highestOneBit("12"));
 

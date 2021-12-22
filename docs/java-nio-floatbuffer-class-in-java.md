@@ -55,7 +55,7 @@
 
 **1。reset():** 此方法用于将此缓冲区的位置重置到之前标记的位置。
 
-```
+```java
 Syntax: public final FloatBuffer reset()
 Parameters: None
 Return: Returns the buffer.
@@ -63,7 +63,7 @@ Return: Returns the buffer.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implementation of reset() method in Java
 
 import java.nio.*;
@@ -117,7 +117,7 @@ public class Example {
 
 **Output**
 
-```
+```java
 Pos before reset: 4
 Pos after reset: 2
 
@@ -125,7 +125,7 @@ Pos after reset: 2
 
 **2。rewind():** 这个方法用来倒带这个缓冲区。
 
-```
+```java
 Syntax: public final FloatBuffer rewind()
 Parameters: None
 Return: Returns the buffer
@@ -133,7 +133,7 @@ Return: Returns the buffer
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implementation of rewind() method in Java
 
 import java.nio.*;
@@ -172,7 +172,7 @@ public class Example2 {
 
 **Output**
 
-```
+```java
 Buffer before operation: [10.5, 20.5, 0.0, 0.0]
 Position: 2
 Limit: 4

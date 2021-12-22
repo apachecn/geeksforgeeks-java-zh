@@ -6,7 +6,7 @@
 
 **类打印机状态原因**
 
-```
+```java
 java.lang.Object
 java.util.AbstractMap<K,V>
 java.util.HashMap<PrinterStateReason,Severity>
@@ -52,7 +52,7 @@ javax.print.attribute.standard.PrinterStateReasons
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement PrinterStateReasons API
 
 import java.util.Collection;
@@ -283,7 +283,7 @@ public class PrinterStateReasonsImpl {
 
 **Output**
 
-```
+```java
 the key set of the printerStateReasons is 
 input-tray-missing    connecting-to-device    cover-open    
 the values of the printerStateReasons is 

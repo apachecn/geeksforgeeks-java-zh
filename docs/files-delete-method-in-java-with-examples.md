@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static void delete(Path path)
                    throws IOException
 
@@ -29,7 +29,7 @@ public static void delete(Path path)
 下面的程序说明删除？(路径)方法:
 **程序一:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Files.delete?() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Files.delete?() method
 

@@ -21,7 +21,7 @@
 
 **说明指针操作的 CPP 程序**
 
-```
+```java
 // A simple CPP program to illustrate 
 // the concept of pointers and 
 // their manipulations in C/C++
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```java
 0x7fff1ae7ca94
 0x7fff1ae7ca94
 88
@@ -77,7 +77,7 @@ int main()
 
 **Java 程序说明参考文献**
 
-```
+```java
 // A simple Java program 
 // to illustrate the concept of 
 // references 
@@ -115,7 +115,7 @@ class RectangleDemo
 
 输出:
 
-```
+```java
 Value of R1's Length : 20.0
 Value of R2's Length : 20.0
 

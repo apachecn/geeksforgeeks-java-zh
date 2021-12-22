@@ -13,7 +13,7 @@
 下面是上述方法的实现:
 **小程序程序:**
 
-```
+```java
 // Java program to Draw an Olympic 
 // Symbol using Java Applet
 import java.awt.*;
@@ -40,7 +40,7 @@ public class Olympics extends Applet {
 
 **注意:**要在命令行中运行小程序，请使用以下命令
 
-```
+```java
 > javac Olympics.java
 > appletviewer Olympics.html
 ```

@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 The elements of the  LinkedList are: [3, 5, 2, 1, 7, 8]
 
 Enter the start and end of the required sublist: 
@@ -25,7 +25,7 @@ where start position is inclusive and the end position is exclusive
 
 **语法:**
 
-```
+```java
 public List subList(int fromIndex, int toIndex)
 ```
 
@@ -47,7 +47,7 @@ public List subList(int fromIndex, int toIndex)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get Sublist of LinkedList
 
 import java.util.LinkedList;
@@ -85,7 +85,7 @@ public class subLinkedList {
 
 **Output**
 
-```
+```java
 The elements of the  LinkedList are: [apple, mango, peach, guava, banana, lichi]
 Enter the start and end of the required sublist: 
 The required SubList is: [peach, guava, banana]
@@ -95,7 +95,7 @@ The required SubList is: [peach, guava, banana]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get the sublist from
 // Linked List of Linked lists
 
@@ -150,7 +150,7 @@ public class subLinkedList {
 
 **Output**
 
-```
+```java
 The elements of the  LinkedList are: [[8, 0], [10, 4, 3, 5], [1, 2, 9]]
 Enter the start and end of the required sublists: 
 The required SubList is: [[10, 4, 3, 5], [1, 2, 9]]

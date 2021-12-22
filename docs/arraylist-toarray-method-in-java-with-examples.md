@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object[] toArray()
            or
 public <T> T[] toArray(T[] a)
@@ -25,7 +25,7 @@ public <T> T[] toArray(T[] a)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the
 // ArrayList toArray() method in Java
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ArrayList: [32, 67, 98, 100]
 Elements of ArrayList as Array: [32, 67, 98, 100]
 
@@ -71,7 +71,7 @@ Elements of ArrayList as Array: [32, 67, 98, 100]
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate the
 // ArrayList toArray(T[]) method in Java
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ArrayList: [32, 67, 98, 100]
 Elements of ArrayList as Array: [32, 67, 98, 100]
 

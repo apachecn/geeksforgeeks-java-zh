@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E pop()
 ```
 
@@ -18,7 +18,7 @@ public E pop()
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrate pop()
 // method of LinkedBlockingDeque
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [74381793, 5278367, 35658786, 7855642]
 Front element in Deque: 74381793
 Linked Blocking Deque: [5278367, 35658786, 7855642]
@@ -63,7 +63,7 @@ Linked Blocking Deque: [5278367, 35658786, 7855642]
 
 **节目 2:**
 
-```
+```java
 // Java Program Demonstrate pop()
 // method of LinkedBlockingDeque
 // when Deque is empty
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.util.NoSuchElementException
     at java.util.concurrent.LinkedBlockingDeque.removeFirst(LinkedBlockingDeque.java:453)
     at java.util.concurrent.LinkedBlockingDeque.pop(LinkedBlockingDeque.java:777)

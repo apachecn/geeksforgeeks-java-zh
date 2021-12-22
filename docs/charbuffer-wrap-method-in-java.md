@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static CharBuffer wrap(char[] array)
 ```
 
@@ -20,7 +20,7 @@ public static CharBuffer wrap(char[] array)
 
 **示例-1:**
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [a, b, c]
@@ -84,7 +84,7 @@ charbuffer position: 0
 
 **语法:**
 
-```
+```java
 public static CharBuffer wrap(char[ ] array, int offset, int length)
 ```
 
@@ -102,7 +102,7 @@ public static CharBuffer wrap(char[ ] array, int offset, int length)
 
 **示例-1:**
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -147,7 +147,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [a, b, c]
@@ -162,7 +162,7 @@ charbuffer position: 0
 
 **示例 2:** 演示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -215,7 +215,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [a, b, c]

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public abstract Object array()
 ```
 
@@ -21,7 +21,7 @@ public abstract Object array()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -75,14 +75,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 array is : [ 20 30 40 50 ]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -142,7 +142,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 buffer is backed by an array but is read-only
 Exception throws: java.nio.ReadOnlyBufferException
 

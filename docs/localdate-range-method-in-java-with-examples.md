@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ValueRange range(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ public ValueRange range(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.range() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate: 2018-12-06
 Range of DAY_OF_MONTH: 1 - 31
 
@@ -66,7 +66,7 @@ Range of DAY_OF_MONTH: 1 - 31
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.range() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate: 2018-12-06
 Range of DAY_OF_YEAR: 1 - 365
 

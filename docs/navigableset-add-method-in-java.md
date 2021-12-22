@@ -6,7 +6,7 @@ Java 中 navigatableset 的 add()方法用于将特定元素添加到 navigatabl
 
 **语法:**
 
-```
+```java
 boolean add(E element)
 
 Where, E is the type of element maintained
@@ -24,7 +24,7 @@ by this NavigableSet collection.
 
 **程序 1** :
 
-```
+```java
 // Java code to illustrate add() method
 import java.io.*;
 import java.util.*;
@@ -52,14 +52,14 @@ public class NavigableSetDemo {
 
 **输出:**
 
-```
+```java
 NavigableSet: [4, Geeks, NavigableSet, To, Welcome]
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to illustrate add() method
 import java.io.*;
 import java.util.*;
@@ -86,7 +86,7 @@ public class NavigableSetDemo {
 
 **输出:**
 
-```
+```java
 NavigableSet: [10, 20, 30, 40, 50, 60]
 
 ```

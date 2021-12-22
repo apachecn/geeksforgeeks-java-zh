@@ -15,7 +15,7 @@
 
 ## 【Java】
 
-```
+```java
 // Java program to demonstrate
 // message passing by value
 
@@ -62,7 +62,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Int Value is : 101
 Float Value is : 20.7
 

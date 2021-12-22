@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public BigInteger max(BigInteger val)
     ```
 
@@ -20,7 +20,7 @@
 
     下面的程序说明了 BigInteger 类的 max()方法。
 
-    ```
+    ```java
     /*
      *Program Demonstrate max() method of BigInteger 
     */
@@ -50,7 +50,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Bigger Integer between 8976543245 and 9248040402 is 9248040402
 
     ```
@@ -61,7 +61,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public BigInteger min(BigInteger val)
     ```
 
@@ -71,7 +71,7 @@
 
     下面的程序说明了 BigInteger 类的 min()方法。
 
-    ```
+    ```java
     /*
      *Program Demonstrate min() method of BigInteger 
     */
@@ -101,7 +101,7 @@
 
     **Output:**
 
-    ```
+    ```java
     lesser Integer between 5782539631 and 3592633823 is 3592633823
 
     ```

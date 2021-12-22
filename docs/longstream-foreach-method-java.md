@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void forEach(LongConsumer action)
 
 ```
@@ -17,7 +17,7 @@ void forEach(LongConsumer action)
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream forEach
 // (LongConsumer action) in Java 8
 import java.util.*;
@@ -39,7 +39,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 7
 8
 9
@@ -49,7 +49,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream forEach
 // (LongConsumer action) in Java 8
 import java.util.*;
@@ -71,7 +71,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 4
 5
 6
@@ -84,7 +84,7 @@ class GFG {
 
 **例 3 :**
 
-```
+```java
 // Java code for LongStream forEach
 // (LongConsumer action) in Java 8
 import java.util.*;
@@ -106,7 +106,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 6
 8
 7

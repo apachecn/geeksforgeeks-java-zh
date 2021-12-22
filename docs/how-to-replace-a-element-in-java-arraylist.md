@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public Object set(int index, Object element)
 ```
 
@@ -14,7 +14,7 @@ public Object set(int index, Object element)
 
 **异常抛出:**[**indexout of boundsexception**](https://www.geeksforgeeks.org/understanding-array-indexoutofbounds-exception-in-java/) **当指数超出范围时，就会出现这种情况。**
 
-```
+```java
 index < 0 or index >= size()
 ```
 
@@ -26,7 +26,7 @@ index < 0 or index >= size()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate set() Method of ArrayList
 // Where Index is Within Bound
 
@@ -79,7 +79,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 [A, B, C, D]
 [A, B, E, D]
 
@@ -89,7 +89,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate set() Method of ArrayList
 // Where Index is Out of Bound
 

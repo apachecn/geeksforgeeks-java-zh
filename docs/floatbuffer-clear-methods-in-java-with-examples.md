@@ -4,7 +4,7 @@
 
 **clear()**[Java . nio . float buffer](https://www.geeksforgeeks.org/tag/java-floatbuffer/)**类的**方法用来清除这个缓冲区。该方法将位置和限制分别设置为零和容量，并丢弃标记。当需要顺序进行通道读取或放入操作时，应调用此方法。这意味着如果需要读取缓冲区，那么 clear()方法会使缓冲区就绪，并将位置设置为零。例如:
 
-```
+```java
 buf.clear();     // Prepare buffer for reading
 in.read(buf);    // Read data
 
@@ -14,7 +14,7 @@ in.read(buf);    // Read data
 
 **语法:**
 
-```
+```java
 public final FloatBuffer clear()
 ```
 
@@ -26,7 +26,7 @@ public final FloatBuffer clear()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 4
 position after reset: 0
 
@@ -91,7 +91,7 @@ position after reset: 0
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before clear: 3
 position after clear: 0
 

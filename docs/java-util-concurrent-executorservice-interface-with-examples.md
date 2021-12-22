@@ -8,20 +8,20 @@
 
 **等级等级:**
 
-```
+```java
 java.util.concurrent
   ↳ Interface ExecutorService
 ```
 
 **实现子接口:**
 
-```
+```java
 ScheduledExecutorService
 ```
 
 **实现类:**
 
-```
+```java
 AbstractExecutorService
 ForkJoinPool
 ScheduledThreadPoolExecutor
@@ -86,7 +86,7 @@ ThreadPoolExecutor
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ExecutorService interface
 
 import java.util.concurrent.*;
@@ -148,7 +148,7 @@ class MyThread implements Runnable {
 
 **Output:** 
 
-```
+```java
 Starting
 A:  0
 A:  1

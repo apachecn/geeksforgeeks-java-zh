@@ -6,7 +6,7 @@
 
 该方法主要以文件的路径作为输入，并返回一个长值来指示位不匹配的位置。所以这个方法的**声明**如下所示:
 
-```
+```java
 long position = Files.mismatch(Path path1, Path path2);
 ```
 
@@ -20,7 +20,7 @@ long position = Files.mismatch(Path path1, Path path2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the usage
 // of mismatch() method
 
@@ -63,7 +63,7 @@ public class GFG2 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // usage of mismatch() method
 

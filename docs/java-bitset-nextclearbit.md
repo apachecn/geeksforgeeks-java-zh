@@ -11,7 +11,7 @@ BitSet 类中的这个方法用于返回在指定的起始索引上或之后出�
 
 **语法:**
 
-```
+```java
 public int nextClearBit(int fromIndex)
 
 ```
@@ -24,7 +24,7 @@ public int nextClearBit(int fromIndex)
 
 **示例 1:** 为了展示 nextClearBit()函数的实现:
 
-```
+```java
 // Java program illustrating Bitset
 // nextClearBit() function.
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6, 12}
 3
@@ -76,7 +76,7 @@ bs2 : {1, 2, 3, 4, 5, 6, 12}
 
 **示例 2:** 要显示 IndexOutOfBoundException 异常:
 
-```
+```java
 // Java program illustrating Bitset
 // nextClearBit() function.
 
@@ -122,7 +122,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6, 12}
 Exception when negative index is passed as parameter : java.lang.IndexOutOfBoundsException: fromIndex < 0: -1

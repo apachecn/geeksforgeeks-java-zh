@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Collecting a Stream to an
 // Immutable Collection
 // Pre java 10
@@ -71,7 +71,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Collecting a
 // Stream to an Immutable Collection
 // Pre java 10  Using Google’s Guava library

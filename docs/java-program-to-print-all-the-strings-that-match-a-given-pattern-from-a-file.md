@@ -25,13 +25,13 @@
 
 **语法:**导入文件库或类
 
-```
+```java
 import java.util.File ;
 ```
 
 **语法:**创建新文件
 
-```
+```java
 File object_name = new File(Directory); 
 ```
 
@@ -39,13 +39,13 @@ File object_name = new File(Directory);
 
 在 Linux 和 Mac 中
 
-```
+```java
 /Users/mayanksolanki/Desttop/Folder/
 ```
 
 在 Windows 中，使用“\\”代替“/”来转义“\”字符。所以访问相同的目录
 
-```
+```java
 \\Users\\mayanksolanki\\Desktop\\Folder\\
 ```
 
@@ -90,19 +90,19 @@ File object_name = new File(Directory);
 
 **语法:**用于导入要编写的类
 
-```
+```java
 import java.io.FileWriter;    // Class imported to write over a file
 ```
 
 **语法:**覆盖哪个文件
 
-```
+```java
 FileWriter myWriter = new FileWriter("filename.txt");
 ```
 
 **语法:**写入文件
 
-```
+```java
 myWriter.write("Insert the string here which later is supposed to be checked present or not");
 ```
 
@@ -110,7 +110,7 @@ myWriter.write("Insert the string here which later is supposed to be checked pre
 
 为此，需要导入一个名为“[*【Util . regex】*](https://www.geeksforgeeks.org/regular-expressions-in-java/)”和的类，该类的方法只用于匹配文件中存在的字符串。
 
-```
+```java
 Pattern pattern_name = Pattern.compile("[A-Za-z][a-z]+");
 ```
 
@@ -126,7 +126,7 @@ Pattern pattern_name = Pattern.compile("[A-Za-z][a-z]+");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to print all the
 // Strings that match a given
 // Pattern from a File

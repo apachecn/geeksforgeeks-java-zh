@@ -6,7 +6,7 @@ IdentityHashMap 类的 Java . util . identity hashmap . isempty()方法用于检
 
 **语法:**
 
-```
+```java
 Identity_Hash_Map.isEmpty()
 ```
 
@@ -17,7 +17,7 @@ Identity_Hash_Map.isEmpty()
 下面的程序说明了 Java . util . identity hashmap . isempty()方法的工作原理:
 **程序 1:** 将字符串值映射到整键。
 
-```
+```java
 // Java code to illustrate the isEmpty() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {Geeks=20, Welcomes=25, You=30, 4=15}
 Is the map empty? false
 
@@ -57,7 +57,7 @@ Is the map empty? false
 
 **程序 2:** 为空标识哈希映射
 
-```
+```java
 // Java code to illustrate the isEmpty() method
 import java.util.*;
 
@@ -82,7 +82,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {}
 Is the map empty? true
 

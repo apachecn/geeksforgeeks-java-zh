@@ -65,7 +65,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -103,7 +103,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -230,7 +230,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
 <!-- Base application theme. -->
 <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -255,7 +255,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"

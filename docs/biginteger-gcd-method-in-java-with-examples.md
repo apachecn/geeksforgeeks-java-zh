@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger gcd(BigInteger val)
 
 ```
@@ -19,7 +19,7 @@ public BigInteger gcd(BigInteger val)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // gcd() method of BigInteger
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The GCD of 54 and 42 is 6
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // gcd() method of BigInteger
 

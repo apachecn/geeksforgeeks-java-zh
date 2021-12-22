@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public char charValue() 
 
 The function does not accepts any parameter. 
@@ -19,7 +19,7 @@ The function does not accepts any parameter.
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // Java.lang.Character.charValue() method
 // when the assigned char is a character
@@ -43,14 +43,14 @@ public class Gfg1 {
 
 **Output:**
 
-```
+```java
 Primitive char value is z
 
 ```
 
 **程序 2:** 当我们给 x 的值赋任意数字时:
 
-```
+```java
 // Java program to demonstrate the
 // function when the assigned value is
 // a number
@@ -75,7 +75,7 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 Primitive char value is 9
 
 ```

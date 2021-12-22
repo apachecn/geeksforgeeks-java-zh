@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E peek ()
 ```
 
@@ -25,7 +25,7 @@ public E peek ()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue peek() method
 
 import java.util.concurrent.*;
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original DelayQueue: [
 { A, time=1545817334485}, 
 { B, time=1545817334486}, 
@@ -130,7 +130,7 @@ After peek() method, DelayQueue: [
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue peek() method
 
 import java.util.concurrent.*;
@@ -209,7 +209,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original DelayQueue: [
 { A, time=1545817342666}, 
 { B, time=1545817342667}]

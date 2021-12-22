@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Provider getProvider()
 ```
 
@@ -20,7 +20,7 @@ public final Provider getProvider()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getCertificate() method
 
 import java.security.*;
@@ -90,7 +90,7 @@ public class GFG {
 
 **示例 2:** 适用于*不加载密钥库*
 
-```
+```java
 // Java program to demonstrate getCertificate() method
 
 import java.security.*;

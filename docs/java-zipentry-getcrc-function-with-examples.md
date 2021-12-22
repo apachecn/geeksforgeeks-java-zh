@@ -6,13 +6,13 @@
 CRC 是用于检测原始数据中的错误的错误检测码。
 **功能签名:**
 
-```
+```java
 public long getCrc()
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.getCrc();
 ```
 
@@ -24,7 +24,7 @@ zip_entry.getCrc();
 
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取指定 ZipEntry 的 CRC-32。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。zip”文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of getCrc() function
 
@@ -61,14 +61,14 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Crc : 1798120178
 
 ```
 
 **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取指定 ZipEntry 的 CRC-32。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。cpp "文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of getCrc() function
 
@@ -105,7 +105,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Crc : 3528251335
 
 ```

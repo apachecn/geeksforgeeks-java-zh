@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public int getTotalOut()
 
 ```
 
 **语法:**
 
-```
+```java
 i.getTotalOut();
 
 ```
@@ -26,7 +26,7 @@ i.getTotalOut();
 
 **示例 1:**gettotallout()函数的使用
 
-```
+```java
 // Java program to describe the use
 // of getTotalOut() function
 

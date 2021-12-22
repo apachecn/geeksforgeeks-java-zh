@@ -6,7 +6,7 @@ Java 中**ChronalDateTiME**接口的 **getLong()** 方法用于将作为输入�
 
 **语法:**
 
-```
+```java
 long getLong(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ long getLong(TemporalField field)
 下面的程序说明了 getLong()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.getLong() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 NanoOfSecond : 0
 NanoOfDay : 69330000000000
 MicroOfSecond : 0
@@ -98,7 +98,7 @@ e OffsetSeconds
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.getLong() method
 
@@ -139,7 +139,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AMPM_OF_DAY value: 1
 
 ```

@@ -6,7 +6,7 @@ Java 中**时区数据时间界面**的 **isSupported()** 方法检查指定的�
 
 **语法:**
 
-```
+```java
 default boolean isSupported(TemporalField field)
 
 ```
@@ -19,7 +19,7 @@ default boolean isSupported(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the isSupported(TemporalField) method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 true
 

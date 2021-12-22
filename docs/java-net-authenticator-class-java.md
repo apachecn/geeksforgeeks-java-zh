@@ -13,7 +13,7 @@
 
     1.  **设置默认值(认证者 a) :** 设置当 HTTP 服务器需要认证时使用的认证者。
 
-        ```
+        ```java
         Syntax : public static void setDefault(Authenticator a)
                          throws SecurityException
         Parameter :
@@ -26,7 +26,7 @@
 
     2.  **requestPasswordAuthentication() :** Asks the authenticator registered with the system for password. Returns username/password or null if not found.
 
-        ```
+        ```java
         Syntax : 
         public static PasswordAuthentication requestPasswordAuthentication(
                                                            InetAddress addr,
@@ -48,7 +48,7 @@
 
         另一种重载方法，可以在 inetaddress 不可用时使用主机名的情况下使用。
 
-        ```
+        ```java
         Syntax : 
         public static PasswordAuthentication requestPasswordAuthentication(
                                                            String host,
@@ -72,7 +72,7 @@
 
         另一种重载方法，如果请求身份验证的站点的 URL 是已知的，而不是地址和主机名，则可以使用这种方法。
 
-        ```
+        ```java
         Syntax : 
         public static PasswordAuthentication requestPasswordAuthentication(
                                                            String host,
@@ -98,70 +98,70 @@
 
     3.  **getRequestingHost()** :返回请求身份验证的站点的主机名。
 
-        ```
+        ```java
         Syntax : protected final String getRequestingHost()
 
         ```
 
     4.  **getRequestingSite()** :返回请求认证的站点的地址。
 
-        ```
+        ```java
         Syntax : protected final InetAddress getRequestingSite()
 
         ```
 
     5.  **getRequestingPort()** :返回连接的端口。
 
-        ```
+        ```java
         Syntax : protected final int getRequestingPort()
 
         ```
 
     6.  **getRequestingProtocol()** :返回请求连接的协议。
 
-        ```
+        ```java
         Syntax : protected final String getRequestingProtocol()
 
         ```
 
     7.  **getrequestingrompt()**:返回请求者提示的消息。
 
-        ```
+        ```java
         Syntax : protected final String getRequestingPrompt()
 
         ```
 
     8.  **getRequestingScheme()** :返回请求站点的方案。
 
-        ```
+        ```java
         Syntax : protected final String getRequestingScheme()
 
         ```
 
     9.  **getpassword authentication()**:需要密码验证时调用此方法。所有子类都必须重写此方法，因为默认方法总是返回 null。
 
-        ```
+        ```java
         Syntax : protected PasswordAuthentication getPasswordAuthentication()
 
         ```
 
     10.  **getRequestingURL()** :返回请求者的 URL。
 
-        ```
+        ```java
         Syntax : protected final URL getRequestingURL()
 
         ```
 
     11.  **getRequestorType()** :如果请求者是代理或者服务器，返回。
 
-        ```
+        ```java
         Syntax : protected Authenticator.RequestorType getRequestorType()
 
         ```
 
     **Java 实现:**
 
-    ```
+    ```java
     import java.io.BufferedReader;
     import java.io.IOException;
     import java.io.InputStreamReader;

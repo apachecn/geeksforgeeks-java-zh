@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeIf (Predicate<? super E> filter)
 ```
 
@@ -20,7 +20,7 @@ public boolean removeIf (Predicate<? super E> filter)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of LinkedBlockingDeque
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Linked Blocking Deque: [7855642, 5278367]
 
@@ -66,7 +66,7 @@ Linked Blocking Deque: [7855642, 5278367]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of LinkedBlockingDeque
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 java.lang.NullPointerException
 

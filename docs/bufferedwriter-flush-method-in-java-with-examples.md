@@ -6,7 +6,7 @@ Java 中 **BufferedWriter** 类的 **flush()** 方法用于从缓冲的编写器
 
 **语法:**
 
-```
+```java
 public void flush()
             throws IOException
 
@@ -26,7 +26,7 @@ public void flush()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter flush() method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter flush() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 GEEKSFORGEEKS
 

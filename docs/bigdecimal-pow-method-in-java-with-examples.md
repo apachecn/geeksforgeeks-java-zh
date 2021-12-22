@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal pow(int n)
 
 ```
@@ -21,7 +21,7 @@ public BigDecimal pow(int n)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // pow() method of BigDecimal
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // pow() method of BigDecimal
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **示例 3:** 当作为参数传递的指数小于零时显示异常的程序。
 
-```
+```java
 // Java program to demonstrate
 // pow() method of BigDecimal
 

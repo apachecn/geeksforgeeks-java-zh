@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getTypeName()
 
 ```
@@ -19,7 +19,7 @@ public String getTypeName()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getTypeName() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 TypeName of myClass: Test
 
@@ -53,7 +53,7 @@ TypeName of myClass: Test
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getTypeName() method
 
 import java.util.*;
@@ -89,7 +89,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 TypeName of myClass: Main$1Arr
 
 ```

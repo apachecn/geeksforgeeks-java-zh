@@ -12,7 +12,7 @@ Java 中的**抽象集合**类是 [Java 集合框架](https://www.geeksforgeeks.
 
 **申报:**
 
-```
+```java
 public abstract class AbstractSet<E>
   extends AbstractCollection<E>
      implements Set<E>
@@ -31,7 +31,7 @@ Where E is the type of elements maintained by this Set.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate AbstractSet
 import java.util.*;
 
@@ -65,7 +65,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractSet: [1, 2, 3, 4, 5]
 ```
 
@@ -73,7 +73,7 @@ AbstractSet: [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // methods of AbstractSet
 import java.util.*;
@@ -131,7 +131,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractSet before removeAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be removed : [1, 2, 3]
 AbstractSet after removeAll() operation : [4, 5]

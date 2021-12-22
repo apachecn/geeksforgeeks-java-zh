@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean retainAll(Collection c)
 ```
 
@@ -20,7 +20,7 @@ public boolean retainAll(Collection c)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // retainAll() method for Integer value
 
@@ -80,7 +80,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 HashSet before retainAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be retained : [1, 2, 3]
 HashSet after retainAll() operation : [1, 2, 3]
@@ -89,7 +89,7 @@ HashSet after retainAll() operation : [1, 2, 3]
 
 **示例 2:** 适用于*空指针异常*
 
-```
+```java
 // Java program to demonstrate
 // retainAll() method for Integer value
 
@@ -149,7 +149,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 HashSet before retainAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be retained : null
 

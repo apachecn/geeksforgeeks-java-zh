@@ -34,13 +34,13 @@
 
 ### 示例:
 
-```
+```java
 simple-add/src/simple/add/calculate.java
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to define the sum() 
 // method inside the calculate class
 
@@ -57,13 +57,13 @@ public class calculate {
 
 上面的例子有一个名为 **Calculate** 的类，它有一个返回两位数相加的函数(sum)。
 
-```
+```java
 add.app/src/com/example/main.java
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to import and use the 
 // methods of the calculate class
 
@@ -83,11 +83,11 @@ public class main {
 
 上面的代码有一个主类，通过导入使用计算类的函数和。
 
-```
+```java
 add.app/src/module-info.java
 ```
 
-```
+```java
 module add.app {
    requires simple.add;
 }
@@ -97,7 +97,7 @@ module add.app {
 
 **输出:**以下是使用自动模块所需的上述代码输出
 
-```
+```java
 E:\automatic-module-example\add.app>java --module-path out;lib --module add.app/com.example.main
 sum : 17
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public StringBuilder appendTail(StringBuilder builder)
 
 ```
@@ -19,7 +19,7 @@ public StringBuilder appendTail(StringBuilder builder)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate appendTail() method
 
 import java.util.regex.*;
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before Replacement: GeeksForGeeks Geeks for For Geeks Geek
 After Replacement: GFGForGFG GFG for For GFG Geek
 
@@ -78,7 +78,7 @@ After Replacement: GFGForGFG GFG for For GFG Geek
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate appendTail() method
 
 import java.util.regex.*;
@@ -130,7 +130,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before Replacement:  FGF GFG GFG FGF
 After Replacement:  Geeks GFG GFG Geeks
 

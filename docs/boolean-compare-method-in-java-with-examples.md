@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Boolean.compare(boolean a, boolean b)
 ```
 
@@ -22,7 +22,7 @@ Boolean.compare(boolean a, boolean b)
 
 **程序 1:**
 
-```
+```java
 // Java code to implement
 // compare() method of Boolean class
 
@@ -47,14 +47,14 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 true comparing with true = 0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java code to implement
 // compare() method of Java class
 
@@ -79,14 +79,14 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 true comparing with false = 1
 
 ```
 
 **程序 3:**
 
-```
+```java
 // Java code to implement
 // compare() method of Java class
 
@@ -111,7 +111,7 @@ class GeeksforGeeks {
 
 **Output:**
 
-```
+```java
 false comparing with true = -1
 
 ```

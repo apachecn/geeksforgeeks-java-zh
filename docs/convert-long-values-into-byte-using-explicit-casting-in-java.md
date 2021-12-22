@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```java
 byte varName; // Default value 0
 
 ```
 
 **值:**
 
-```
+```java
 1 byte (8 bits) : 
 -128 to 127
 
@@ -25,14 +25,14 @@ byte varName; // Default value 0
 
 **语法:**
 
-```
+```java
 long varName; // Default value 0
 
 ```
 
 **值:**
 
-```
+```java
 8 byte (64 bits):
 -9223372036854775808 to 9223372036854775807
 
@@ -42,7 +42,7 @@ long varName; // Default value 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Long (under Byte limit)
 // Values into Byte using explicit casting
 import java.io.*;
@@ -67,7 +67,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 45
 -90
 
@@ -77,7 +77,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Long (out of the
 // limits of Byte) Values into Byte using 
 // explicit casting
@@ -103,7 +103,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -106
 126
 

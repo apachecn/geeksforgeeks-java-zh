@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Type getGenericType()
 
 ```
@@ -24,7 +24,7 @@ public Type getGenericType()
 下面的程序说明了 getGenericType()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getGenericType() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Type class: class java.lang.Class
 Type name: int
 
@@ -68,7 +68,7 @@ Type name: int
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getGenericType() method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Type class: class java.lang.Class
 Type name: java.lang.String
 

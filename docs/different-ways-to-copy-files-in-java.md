@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Copy file using File Stream
 
 // Importing input output classes
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 copied the file successfully 
 ```
 
@@ -119,7 +119,7 @@ copied the file successfully
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Copy Files Using FileChannel Class
 
 // Importing java.nio package for network linking
@@ -195,7 +195,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.nio.file.Files;
 import java.io.*;
 // save the file named as GFG.java

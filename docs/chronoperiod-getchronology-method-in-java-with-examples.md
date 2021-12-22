@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ChronoPeriod getChronology()
 ```
 
@@ -18,7 +18,7 @@ ChronoPeriod getChronology()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the getChronology() function
 
 import java.time.*;
@@ -50,14 +50,14 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 ISO
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the getChronology() function
 
 import java.time.*;
@@ -89,7 +89,7 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 ISO
 
 ```

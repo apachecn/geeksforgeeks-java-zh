@@ -6,7 +6,7 @@
 
 **公式**
 
-```
+```java
 Celsius = (Fahrenheit - 32) / 1.8
 ```
 
@@ -20,7 +20,7 @@ Celsius = (Fahrenheit - 32) / 1.8
 
 ## Java
 
-```
+```java
 // Java Program to Convert Fahrenheit into Celsius
 
 class fahrenheittocelsius {
@@ -42,7 +42,7 @@ class fahrenheittocelsius {
 
 **输出**
 
-```
+```java
 value of temperature in celsius:10.0
 
 ```

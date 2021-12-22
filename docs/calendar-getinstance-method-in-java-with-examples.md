@@ -6,7 +6,7 @@ Calendar 类中的 **getInstance()** 方法用于获取使用系统当前时区�
 
 **语法:**
 
-```
+```java
 public static Calendar getInstance()
 ```
 
@@ -17,7 +17,7 @@ public static Calendar getInstance()
 下面的程序说明了日历类的 getInstance()方法的工作:
 **示例:**
 
-```
+```java
 // Java code to illustrate
 // getGreatestMinimum() method
 

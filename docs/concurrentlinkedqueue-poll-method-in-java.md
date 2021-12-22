@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E poll()
 ```
 
@@ -16,7 +16,7 @@ public E poll()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of ConcurrentLinkedQueue
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 Head: 4353
 Current ConcurrentLinkedQueue: [7824, 78249, 8724]
@@ -62,7 +62,7 @@ Current ConcurrentLinkedQueue: [7824, 78249, 8724]
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of ConcurrentLinkedQueue
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar, Sanjeet, Rabi]
 Head: Aman
 Current ConcurrentLinkedQueue: [Amar, Sanjeet, Rabi]

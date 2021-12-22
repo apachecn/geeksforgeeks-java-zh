@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 tupleObject1.compareTo(tupleObject2)
 ```
 
@@ -18,7 +18,7 @@ tupleObject1.compareTo(tupleObject2)
 
 **程序 1:** 当比较()给出否定结果时:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of compareTo() method
 
@@ -44,7 +44,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 -25
 ```
 
@@ -53,7 +53,7 @@ a 的 ascii 值为 97，z 的 ascii 值为 122。因此，a.compareTo(z)的结�
 
 **程序 1:** 当比较()给出 0 作为结果时:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of compareTo() method
 
@@ -79,7 +79,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 0
 ```
 
@@ -88,7 +88,7 @@ class GfG {
 
 **程序 3:** 当 compareTo()给出正结果时:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of compareTo() method
 
@@ -114,7 +114,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 57
 ```
 

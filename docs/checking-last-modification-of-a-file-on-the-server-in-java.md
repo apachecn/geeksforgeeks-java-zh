@@ -10,7 +10,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to get last modification time of the file
 import java.io.IOException;
 import java.net.HttpURLConnection;

@@ -6,7 +6,7 @@ Java BitSet 类的 equals()方法用于检查两个 BitSet 之间的相等性。
 
 **语法:**
 
-```
+```java
 Bit_Set1.equals(Bit_Set2)
 ```
 
@@ -17,7 +17,7 @@ Bit_Set1.equals(Bit_Set2)
 下面的程序说明了 BitSet equals()方法在 Java 中的工作原理。
 **节目一:**
 
-```
+```java
 // Java code to illustrate equals()
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 First BitSet: {5, 25, 40, 80, 95}
 Second BitSet: {5, 25, 40, 80, 95}
 Are the sets equal? true
@@ -64,7 +64,7 @@ Are the sets equal? true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate equals()
 import java.util.*;
 
@@ -102,7 +102,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 First BitSet: {5, 25, 40, 80, 95}
 Second BitSet: {10, 20, 30, 40, 50}
 Are the sets equal? false

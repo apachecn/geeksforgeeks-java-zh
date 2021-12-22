@@ -18,7 +18,7 @@
 此方法接受一个值，并对给定的参数
 **执行运算语法:**
 
-```
+```java
 void accept(T t)
 ```
 
@@ -32,7 +32,7 @@ void accept(T t)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // Consumer's accept() method
 
@@ -77,7 +77,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 10
 4 2 6
 ```
@@ -88,7 +88,7 @@ public class Main {
 **注意:**作为参数传递的函数应该是 Consumer 类型。
 **语法:**
 
-```
+```java
 default Consumer <T> 
         andThen(Consumer<? super T> after)
 ```
@@ -101,7 +101,7 @@ default Consumer <T>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // Consumer's andThen() method
 
@@ -139,7 +139,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 4 2 6
 ```
 
@@ -147,7 +147,7 @@ public class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // Consumer's andThen() method
 
@@ -188,7 +188,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 Exception: java.lang.NullPointerException
 ```
 
@@ -196,7 +196,7 @@ Exception: java.lang.NullPointerException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // Consumer's andThen() method
 
@@ -240,6 +240,6 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 2 1 3 Exception: java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
 ```

@@ -14,7 +14,7 @@ Java 中的[构造函数](https://www.geeksforgeeks.org/constructors-in-java/)�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate default constructor
 
 import java.io.*;
@@ -48,7 +48,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hi I am a default constructor
 0
 0.0
@@ -63,7 +63,7 @@ null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Availability of Default
 // Constructor of the Super Class to the Sub Class by
 // Default
@@ -109,7 +109,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 I am default constructor from parent class
 I am default constructor from parent class
 I am default constructor from child class
@@ -119,7 +119,7 @@ I am default constructor from child class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Availability of Default
 // Constructor of the Super Class to the Sub Class by
 // Default
@@ -162,7 +162,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hi I am z
 Hi I am y
 Hi I am x
@@ -174,7 +174,7 @@ Hi I am x
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Availability of Default
 // Constructor of the Super Class to the Sub Class by
 // Default
@@ -229,7 +229,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hi I am z
 Hi I am y
 Hi I am x

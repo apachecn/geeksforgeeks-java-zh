@@ -12,7 +12,7 @@
 1.  GaussianBlur(源，目标，新大小(0，0)，SigMax)–该方法驻留在 OpenCv 的 Imgproc 包中。
     **语法:**
 
-```
+```java
 Imgproc.GaussianBlur(source, destination, new Size(0, 0), sigmaX)
 parameters:
 *source* - source image
@@ -24,7 +24,7 @@ parameters:
 
 *   addWeighted(InputArray src1，alpha，src2，beta，gamma，OutputArray dst) -这个方法驻留在 OpenCv 的 Core 包中。**语法:**
 
-    ```
+    ```java
     Core.addWeighted(InputArray src1, alpha, src2, beta, gamma, OutputArray dst)
     parameters:
     *src1* - first input array
@@ -39,7 +39,7 @@ parameters:
     *   **imread()** -该方法用于将图像读取为由 OpenCV 渲染的 Mat 对象。
     **语法:**
 
-    ```
+    ```java
     Imgcodecs.imread(filename);
     parameters:
     filename: filename of the image file.If the image is 
@@ -50,7 +50,7 @@ parameters:
     *   **imwrite()** - This method is used to write Mat objects to image file.
     **Syntax:**
 
-    ```
+    ```java
     Imgcodecs.imwrite(filename, mat_img);
     parameters:
     filename: filename of the image file.If the image is 
@@ -59,7 +59,7 @@ parameters:
 
     ```
 
-    ```
+    ```java
     package ocv;
 
     import org.opencv.core.Core;
@@ -98,7 +98,7 @@ parameters:
 
     输出:
 
-    ```
+    ```java
 
     **input.jpg**
 

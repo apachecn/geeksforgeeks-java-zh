@@ -6,7 +6,7 @@
 
 **图解:**简单地取两个数字，即 12345 和 110102，绝对随机选择其中一个进行计算，如图所示:
 
-```
+```java
 Input: 12345
 
 Output: 1  // 1 digit
@@ -39,14 +39,14 @@ Output: 1
 
 **语法:**因为字符串在 java 中是不可变的，这意味着字符串在 Java 中是一个类。**T3】所以，**
 
-```
+```java
 public static String toString()
 
 ```
 
 它所在的目录如下:
 
-```
+```java
 java.lang.Integer.toString()
 
 ```
@@ -63,7 +63,7 @@ java.lang.Integer.toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Extract Digits from A Given Integer
 
 // Importing Libraries
@@ -93,7 +93,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1
 1
 0
@@ -118,7 +118,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Extract Digits from A Given Integer
 
 // Importing Libraries
@@ -152,7 +152,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 2
 0
 1

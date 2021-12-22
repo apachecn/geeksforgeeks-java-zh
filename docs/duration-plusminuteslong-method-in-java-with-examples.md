@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration plusMinutes(long numberOfMinutes)
 
 ```
@@ -21,7 +21,7 @@ public Duration plusMinutes(long numberOfMinutes)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate plusMinutes() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT51H6M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate plusMinutes() method
 
 import java.time.Duration;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT9M
 
 ```

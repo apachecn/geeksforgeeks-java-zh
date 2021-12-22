@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ResourceBundle getResourceBundle()
 
 ```
@@ -18,7 +18,7 @@ public ResourceBundle getResourceBundle()
 下面的程序说明了 getResourceBundle()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getResourceBundle() method
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Resource Bundle = myResource
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getResourceBundle() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Resource Bundle = null
 
 ```

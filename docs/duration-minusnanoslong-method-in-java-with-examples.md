@@ -5,7 +5,7 @@
 **java.time 包**中**持续时间类**的**亚纳米(长)**方法用于获取该持续时间的不可变副本，减去指定的纳米秒数，作为参数传递。
 **语法:**
 
-```
+```java
 public Duration minusNanos(long numberOfNanos)
 ```
 
@@ -17,7 +17,7 @@ public Duration minusNanos(long numberOfNanos)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusNanos() method
 
 import java.time.Duration;
@@ -39,7 +39,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT51H3M59.999999998S
 ```
 
@@ -47,7 +47,7 @@ PT51H3M59.999999998S
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusNanos() method
 
 import java.time.Duration;
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT3M59.999999995S
 ```
 

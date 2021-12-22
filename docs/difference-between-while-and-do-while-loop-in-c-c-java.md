@@ -7,7 +7,7 @@
 while 循环是一种控制流语句，它允许基于给定的布尔条件重复执行代码。while 循环可以看作是一个重复的 if 语句。
 **语法:**
 
-```
+```java
 while (boolean condition)
 {
    loop statements...
@@ -22,7 +22,7 @@ while (boolean condition)
 
 ## C
 
-```
+```java
 #include <stdio.h>
 
 int main()
@@ -41,7 +41,7 @@ int main()
 
 ## C++
 
-```
+```java
 #include <iostream>
 using namespace std;
 
@@ -61,7 +61,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -80,7 +80,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 GFG
 GFG
@@ -95,7 +95,7 @@ do while 循环类似于 while 循环，唯一的区别是它在执行语句后�
 
 **语法:**
 
-```
+```java
 do
 {
     statements..
@@ -111,7 +111,7 @@ while (condition);
 
 ## C
 
-```
+```java
 #include <stdio.h>
 
 int main()
@@ -130,7 +130,7 @@ int main()
 
 ## C++
 
-```
+```java
 #include <iostream>
 using namespace std;
 
@@ -150,7 +150,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -169,7 +169,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 GFG
 GFG

@@ -33,7 +33,7 @@ InetAddress 类–
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -86,7 +86,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 InetAddress of Local Host : localhost/127.0.0.1
 InetAddress of Named Host : /45.22.30.39
 ALL InetAddresses of Named Host : /172.19.25.29
@@ -128,7 +128,7 @@ InetAddress 类有很多可以使用对象调用的实例方法。实例方法�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -197,7 +197,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Is Address-1 equals to Address-2? : true
 Is Address-1 equals to Address-3? : false
 IP Address : 45.22.30.39

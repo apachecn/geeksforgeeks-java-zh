@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public short shortValueExact()
 
 ```
@@ -18,7 +18,7 @@ public short shortValueExact()
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```java
 // Program to demonstrate shortValueExact() method of BigDecimal 
 
 import java.math.*;
@@ -45,7 +45,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 Exact short value of 457 is 457
 Exact short value of 4785 is 4785
 
@@ -53,7 +53,7 @@ Exact short value of 4785 is 4785
 
 **程序 2:**
 
-```
+```java
 // Program to demonstrate shortValueExact() method of BigDecimal 
 
 import java.math.*;
@@ -80,7 +80,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 Exact short value of 127 is 127
 Exact short value of 1455 is 1455
 

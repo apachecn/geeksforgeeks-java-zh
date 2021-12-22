@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void accumulate(double valueToBeAccumulated)
 
 ```
@@ -19,7 +19,7 @@ public void accumulate(double valueToBeAccumulated)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the accumulate() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Current DoubleAccumulator value is: 0.0
 Updated DoubleAccumulator value is: 2.0
 
@@ -62,7 +62,7 @@ Updated DoubleAccumulator value is: 2.0
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the accumulate() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Current DoubleAccumulator value is: 0.0
 Updated DoubleAccumulator value is: 42.2
 

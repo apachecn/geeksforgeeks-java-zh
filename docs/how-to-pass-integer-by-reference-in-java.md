@@ -18,7 +18,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to pass the integer by reference
 
     class Test {
@@ -60,7 +60,7 @@
 
     **输出:**
 
-    ```
+    ```java
     1000
     ```
 
@@ -77,7 +77,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to pass the integer by reference
 
     class PassByReference {
@@ -107,7 +107,7 @@
 
     **输出:**
 
-    ```
+    ```java
     101
     ```
 
@@ -124,7 +124,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to pass the integer by reference
 
     import java.util.concurrent.atomic.AtomicInteger;
@@ -154,7 +154,7 @@
 
     **输出:**
 
-    ```
+    ```java
     1000
     ```
 
@@ -171,7 +171,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to pass the integer by reference
 
     import org.apache.commons.lang3.mutable.MutableInt;
@@ -197,6 +197,6 @@
 
     **输出:**
 
-    ```
+    ```java
     9
     ```

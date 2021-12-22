@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isInterface(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isInterface(int mod)
 下面的程序说明了 isInterface()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isInterface() method
 
 import java.lang.reflect.Modifier;
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1544 is interface : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isInterface()
 
 import java.lang.reflect.Modifier;
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1024 is Interface : false
 
 ```

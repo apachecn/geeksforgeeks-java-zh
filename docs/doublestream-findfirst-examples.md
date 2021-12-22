@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 OptionalDouble findFirst()
 
 ```
@@ -21,7 +21,7 @@ OptionalDouble findFirst()
 
 **示例 1 :** 在双流上查找 First()方法。
 
-```
+```java
 // Java code for DoubleStream findFirst()
 // which returns an OptionalDouble describing
 // first element of the stream, or an
@@ -54,7 +54,7 @@ class GFG {
 
 输出:
 
-```
+```java
 6.2
 
 ```
@@ -63,7 +63,7 @@ class GFG {
 
 **示例 2 :** findFirst()方法返回第一个可被 4 整除的元素。
 
-```
+```java
 // Java code for DoubleStream findFirst()
 // which returns an OptionalDouble describing
 // first element of the stream, or an
@@ -96,7 +96,7 @@ class GFG {
 
 输出:
 
-```
+```java
 8.0
 
 ```

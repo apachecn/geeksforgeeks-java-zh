@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 Input : matrix[][] = {{1, 4, 4},
                      {2, 3, 7},
                      {0, 5, 1}};
@@ -39,7 +39,7 @@ Trace  = (8+1-7) = 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the trace
 // and normal of the given matrix
 
@@ -92,7 +92,7 @@ class geeksforgeeks {
 
 **Output**
 
-```
+```java
 Trace of the Matrix is: 37
 Normal of the Matrix is: 50
 

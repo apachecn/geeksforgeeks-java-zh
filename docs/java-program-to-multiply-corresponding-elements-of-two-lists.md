@@ -13,7 +13,7 @@
 
 ## **Java**
 
-```
+```java
 // Java program to multiply the corresponding elements of
 // two list. using string in-built function
 
@@ -40,6 +40,6 @@ class GFG {
 
 ****输出****
 
-```
+```java
 6 -25 -14 10
 ```

@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate generic class hierarchies
 
 // Importing all input output classes
@@ -71,7 +71,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 value : 
 100
 ```
@@ -82,7 +82,7 @@ value :
 
 T5】JavaT7
 
-```
+```java
 import java.io.*;
 // non-generic super-class
 class NonGen {

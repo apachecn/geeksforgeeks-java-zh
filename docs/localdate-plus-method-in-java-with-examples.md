@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate plus(long amountToAdd,
                       TemporalUnit unit)
 
@@ -27,7 +27,7 @@ public LocalDate plus(long amountToAdd,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plus() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate after adding Months : 2043-12-06
 
 ```
@@ -66,7 +66,7 @@ LocalDate after adding Months : 2043-12-06
 
 **语法:**
 
-```
+```java
 public LocalDate plus(TemporalAmount amountToAdd)
 
 ```
@@ -79,7 +79,7 @@ public LocalDate plus(TemporalAmount amountToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.plus() method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate after adding Days: 2019-03-16
 
 ```

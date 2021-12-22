@@ -21,7 +21,7 @@
 
 **语法:**
 
-```
+```java
 import java.util.Date ;
 ```
 
@@ -31,7 +31,7 @@ import java.util.Date ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display name of the weekdays in calendar
 // year Sample code showing different data class parameters
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 import java.text.*;
 ```
 
@@ -83,7 +83,7 @@ import java.text.*;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing generic Classes/Files
 import java.io.*;
 
@@ -125,7 +125,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1th weekday - Monday
 2th weekday - Tuesday
 3th weekday - Wednesday
@@ -135,7 +135,7 @@ class GFG {
 
 [DateFormatSymbols](https://www.geeksforgeeks.org/dateformatsymbols-getweekdays-method-in-java-with-examples/) 是 Java 中的一个内置类，公开可用，用于组合各种日期时间格式数据实体，如月份名称、工作日和时区关联数据。简单日期格式使用日期格式符号来封装捕获的信息。这个类支持一个内置的方法 getWeekdays()，用于检索日历中工作日的名称。所有日期都以字符串格式返回。该方法在 Java 中具有以下语法:
 
-```
+```java
 String[] getWeekdays() 
 ```
 
@@ -148,7 +148,7 @@ String[] getWeekdays()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing generic Classes/Files
 import java.io.*;
 
@@ -177,7 +177,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1th weekday - Monday
 2th weekday - Tuesday
 3th weekday - Wednesday

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeLastOccurrence(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean removeLastOccurrence(Object o)
 
 下面的程序说明了**removelastpoccurrence()**方法的使用:
 
-```
+```java
 // Java program to demonstrate removeLastOccurrence()
 // method of LinkedList
 
@@ -55,7 +55,7 @@ class LinkedListDemo {
 
 **Output:**
 
-```
+```java
 LinkedList: [GFG, Geeks, Gfg, gfg, Geeks]
 Removed last occurrence of 'Geeks' from the list
 LinkedList: [GFG, Geeks, Gfg, gfg]
@@ -64,7 +64,7 @@ LinkedList: [GFG, Geeks, Gfg, gfg]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate removeLastOccurrence()
 // method of LinkedList
 
@@ -101,7 +101,7 @@ class LinkedListDemo {
 
 **Output:**
 
-```
+```java
 LinkedList: [12, 280, 12, 1050, 12]
 Removed last occurrence of '12' from the list
 LinkedList: [12, 280, 12, 1050]

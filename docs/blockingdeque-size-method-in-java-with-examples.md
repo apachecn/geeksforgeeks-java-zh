@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -18,7 +18,7 @@ public int size()
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrate public int size()
 // method of BlockingDeque
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Deque: [15, 20, 20, 15, 15, 20, 20, 15]
 Size of Blocking Deque: 8
 
@@ -65,7 +65,7 @@ Size of Blocking Deque: 8
 
 **程序二:**
 
-```
+```java
 // Java Program to demonstrate public int size()
 // method of BlockingDeque
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Deque: [geeks, forGeeks, A Computer, Portal]
 Size of Blocking Deque: 4
 

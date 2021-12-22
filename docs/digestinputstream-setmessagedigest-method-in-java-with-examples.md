@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setMessageDigest(MessageDigest digest)
 ```
 
@@ -20,7 +20,7 @@ public void setMessageDigest(MessageDigest digest)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setMessageDigest() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 MessageDigest before assigning : MD5 Message Digest from SUN, 
 
 MessageDigest after assigning : SHA-1 Message Digest from SUN, 
@@ -95,7 +95,7 @@ MessageDigest after assigning : SHA-1 Message Digest from SUN,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setMessageDigest() method
 
@@ -158,7 +158,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 MessageDigest before assigning : SHA-1 Message Digest from SUN, 
 
 MessageDigest after assigning : MD5 Message Digest from SUN,  

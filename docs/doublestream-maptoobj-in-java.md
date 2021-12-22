@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 <U> Stream<U> 
 mapToObj(DoubleFunction<? 
 extends U> mapper)
@@ -26,7 +26,7 @@ extends U> mapper)
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream mapToObj
 // (DoubleFunction mapper)
 
@@ -56,7 +56,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 39.303999999999995
 91.125
 300.76300000000003
@@ -66,7 +66,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream mapToObj
 // (DoubleFunction mapper)
 
@@ -100,7 +100,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 13.4
 14.5
 16.7

@@ -10,7 +10,7 @@ C++标准库中的 pair 类被大量使用。我们可以在 Java 中实现我�
 
 **定义配对类的语法可以是:**
 
-```
+```java
 class pair{
    int first,second;
 
@@ -39,7 +39,7 @@ class pair{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a pair class
 // and initialize an array of that
 // pair class object
@@ -87,7 +87,7 @@ class pair {
 
 **Output**
 
-```
+```java
 1,2
 2,3
 3,4
@@ -102,7 +102,7 @@ Required Value = 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a struct/pair class
 // for storing a prime number with its index
 
@@ -166,7 +166,7 @@ class pair {
 
 **Output**
 
-```
+```java
 i and the ith prime numbers are :
 [(1,2), (2,3), (3,5), (4,7), (5,11), (6,13), (7,17), (8,19), (9,23), (10,29)]
 ```

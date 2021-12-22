@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 isLeapYear()方法检查年份是否是闰年。
 
 **语法** :
 
-```
+```java
 public boolean isLeapYear()
 
 ```
@@ -19,7 +19,7 @@ public boolean isLeapYear()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isLeapYear() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the isLeapYear() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

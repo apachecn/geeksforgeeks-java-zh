@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate over a TreeMap
 
 import java.util.Map;
@@ -39,7 +39,7 @@ class IterationDemo {
 
 **Output:** 
 
-```
+```java
 [Code, code.geeksforgeeks.org]
 [GFG, geeksforgeeks.org]
 [Practice, practice.geeksforgeeks.org]
@@ -52,7 +52,7 @@ class IterationDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over Entries in a TreeMap
 
 import java.util.*;
@@ -131,7 +131,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1->Geeks
 2->For
 3->Geeks

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static BigInteger 
     ceilingPowerOfTwo(BigInteger x)
 
@@ -22,7 +22,7 @@ public static BigInteger
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // ceilingPowerOfTwo(BigInteger x) method
 // of Guava's BigIntegerMath class
@@ -60,7 +60,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Smallest power of 2 greater than or equal to 25 is: 32
 Smallest power of 2 greater than or equal to 65 is: 128
 
@@ -68,7 +68,7 @@ Smallest power of 2 greater than or equal to 65 is: 128
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // ceilingPowerOfTwo(BigInteger x) method
 // of Guava's BigIntegerMath class
@@ -104,7 +104,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.IllegalArgumentException: x (0) must be > 0
 
 ```

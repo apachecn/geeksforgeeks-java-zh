@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public interface ConcurrentNavigableMap<K,V> extends ConcurrentMap<K,V>, NavigableMap<K,V>
 ```
 
@@ -22,7 +22,7 @@ public interface ConcurrentNavigableMap<K,V> extends ConcurrentMap<K,V>, Navigab
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate the
 // ConcurrentNavigableMap Interface
 import java.util.concurrent.ConcurrentNavigableMap;
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Mappings of ConcurrentNavigableMap : {1=First, 2=Second, 3=Third, 4=Fourth}
 HeadMap(3): {1=First, 2=Second}
 TailMap(3): {3=Third, 4=Fourth}
@@ -76,7 +76,7 @@ ConcurrentNavigableMap 有一个实现类 ***ConcurrentSkipListMap 类*** 。Con
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListMap< ? , ? > objectName = new ConcurrentSkipListMap< ? , ? >();
 ```
 
@@ -84,7 +84,7 @@ ConcurrentSkipListMap< ? , ? > objectName = new ConcurrentSkipListMap< ? , ? >()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate the ConcurrentSkipListMap
 import java.util.concurrent.*;
 
@@ -126,7 +126,7 @@ public class ConcurrentSkipListMapExample {
 
 **输出:**
 
-```
+```java
 The ConcurrentSkipListMap contains: {1=Geeks, 2=For, 3=Geeks}
 
 The ConcurrentSkipListMap key set: [1, 2, 3]
@@ -142,7 +142,7 @@ The ConcurrentSkipListMap contains: {1=Geeks, 2=For}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for adding elements to a
 // ConcurrentNavigableMap
 import java.util.concurrent.*;
@@ -173,7 +173,7 @@ public class AddingElementsExample {
 
 **输出:**
 
-```
+```java
 Mappings of ConcurrentNavigableMap : {3=First, 6=Second, 8=Third}
 ```
 
@@ -183,7 +183,7 @@ Mappings of ConcurrentNavigableMap : {3=First, 6=Second, 8=Third}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for deleting
 // elements from ConcurrentNavigableMap
 
@@ -232,7 +232,7 @@ public class RemovingElementsExample {
 
 **输出:**
 
-```
+```java
 Mappings of ConcurrentNavigableMap : {3=First, 6=Second, 8=Third, 11=Fourth}
 
 ConcurrentNavigableMap, after remove operation : {3=First, 11=Fourth}
@@ -246,7 +246,7 @@ ConcurrentNavigableMap, after clear operation : {}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for accessing
 // elements in a ConcurrentNavigableMap
 
@@ -285,7 +285,7 @@ public class AccessingElementsExample {
 
 **输出:**
 
-```
+```java
 First
 Second
 Third
@@ -300,7 +300,7 @@ The ConcurrentNavigableMap key set: [3, 6, 8, 11]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for traversing a ConcurrentNavigableMap
 
 import java.util.concurrent.*;
@@ -346,7 +346,7 @@ public class TraversalExample {
 
 **输出:**
 
-```
+```java
 Key = 3, Value = First
 Key = 6, Value = Second
 Key = 8, Value = Third

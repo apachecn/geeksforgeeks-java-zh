@@ -8,7 +8,7 @@ java.lang 包的 Integer 类的 **compare()** 方法比较给定的两个整数�
 
 **语法:**
 
-```
+```java
 public static int compare(int x, int y)
 Parameter :
 x : the first int to compare
@@ -22,7 +22,7 @@ and if (x > y) then it returns a value greater than zero.
 
 **示例:**展示**Java . lang . integer . compare()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.compare() method
 import java.lang.Integer;
@@ -54,7 +54,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 -1
 0
 1

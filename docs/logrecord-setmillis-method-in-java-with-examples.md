@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setMillis(long millis)
 
 ```
@@ -18,7 +18,7 @@ public void setMillis(long millis)
 下面的程序说明了 setMillis()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setMillis() method
 
 import java.text.DateFormat;
@@ -56,14 +56,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Event Time 09 Sep 2001 01:46:39:900 +0000
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setMillis() method
 
 import java.text.DateFormat;
@@ -101,7 +101,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Event Date: 22 Apr 1970
 
 ```

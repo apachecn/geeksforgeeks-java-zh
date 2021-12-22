@@ -7,7 +7,7 @@
 
 **语法**:
 
-```
+```java
 public abstract CharsetDecoder newDecoder()
 ```
 
@@ -19,7 +19,7 @@ public abstract CharsetDecoder newDecoder()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 sun.nio.cs.UTF_8$Decoder@232204a1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 sun.nio.cs.UTF_16$Decoder@232204a1
 
 ```

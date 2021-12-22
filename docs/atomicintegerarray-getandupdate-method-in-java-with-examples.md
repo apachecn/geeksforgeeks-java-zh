@@ -18,7 +18,7 @@
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndUpdate() function
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The value before update at index 3 is 4
 The array after update : [1, 2, 3, 16, 5]
@@ -71,7 +71,7 @@ The array after update : [1, 2, 3, 16, 5]
 
 **程序 2:**
 
-```
+```java
 // Java program that demonstrates
 // the getAndUpdate() function
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The value before update at index 3 is 4
 The array after update : [1, 2, 3, 64, 5]

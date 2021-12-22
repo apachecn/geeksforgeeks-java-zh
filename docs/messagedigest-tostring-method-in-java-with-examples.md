@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -57,14 +57,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 MessageDigest : MD5 Message Digest from SUN, <initialized>
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -102,7 +102,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 MessageDigest : SHA-256 Message Digest from SUN, <initialized>
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public JapaneseEra getEra()
 ```
 
@@ -19,7 +19,7 @@ T3】例 1:T5】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getEra() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 JapaneseEra: Heisei
 
 ```
@@ -65,7 +65,7 @@ JapaneseEra: Heisei
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getEra() method
 
@@ -103,14 +103,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Some error occured or ide is down,please try again
 
 ```
 
 **Output**
 
-```
+```java
 JapaneseEra: Heisei
 ```
 

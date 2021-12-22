@@ -6,7 +6,7 @@ Java 中[导航映射接口的 firstEntry()方法用于返回与该映射中最�
 
 **语法** :
 
-```
+```java
 Map.Entry< K, V > firstEntry()
 
 ```
@@ -21,7 +21,7 @@ Map.Entry< K, V > firstEntry()
 
 **程序 1** :按键为整数时。
 
-```
+```java
 // Java code to demonstrate the working of
 // firstEntry() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The mapping with least key is : 2=two
 
 ```
 
 **程序二**:钥匙串的时候。
 
-```
+```java
 // Java code to demonstrate the working of
 // firstEntry() method
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The mapping associated with least key is : one=two
 
 ```

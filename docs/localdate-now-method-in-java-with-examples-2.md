@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static LocalTime now()
 
 ```
@@ -22,7 +22,7 @@ public static LocalTime now()
 下面的程序说明了 now()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime : 05:47:38.946
 
 ```
@@ -56,7 +56,7 @@ LocalTime : 05:47:38.946
 
 **语法:**
 
-```
+```java
 public static LocalTime now(Clock clock)
 
 ```
@@ -68,7 +68,7 @@ public static LocalTime now(Clock clock)
 下面的程序说明了 now()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime : 05:47:44.184
 
 ```
@@ -105,7 +105,7 @@ LocalTime : 05:47:44.184
 
 **语法:**
 
-```
+```java
 public static LocalTime now(ZoneId zone)
 
 ```
@@ -117,7 +117,7 @@ public static LocalTime now(ZoneId zone)
 下面的程序说明了 now()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now() method
 
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime : 06:47:45.982
 
 ```

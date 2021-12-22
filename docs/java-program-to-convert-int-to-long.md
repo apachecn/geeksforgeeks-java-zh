@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: intnum = 5
 Output: longnum = 5
 
@@ -26,7 +26,7 @@ Output: longnum = 56
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // use of implicit type casting
 
@@ -54,7 +54,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Converted type : java.lang.Long
 After converting into long:
 5
@@ -67,7 +67,7 @@ After converting into long:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert
 // int to long using valueOf() method
 
@@ -96,7 +96,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Converted type : java.lang.Long
 After converting into long:
 56

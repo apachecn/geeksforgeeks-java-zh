@@ -6,7 +6,7 @@
 
 **数组的语法:**
 
-```
+```java
 data_type[][] array_name = new data_type[x][y];
 
 ```
@@ -15,7 +15,7 @@ data_type[][] array_name = new data_type[x][y];
 
 **数组的直接声明:**
 
-```
+```java
 data_type[][] array_name = {
 {valueR1C1, valueR1C2, ....},
 {valueR2C1, valueR2C2, ....}
@@ -29,7 +29,7 @@ data_type[][] array_name = {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Allocation of values in an Array of Arrays
 class GFG {
     public static void main(String[] args)
@@ -45,7 +45,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 arr[0][0] = 100
 ```
 
@@ -53,7 +53,7 @@ arr[0][0] = 100
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Printing complete Array of Arrays
 class GFG {
     public static void main(String[] args)
@@ -71,7 +71,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 arr[0][0] = 1
 arr[0][1] = 2
 arr[1][0] = 3
@@ -80,7 +80,7 @@ arr[1][1] = 4
 
 java 中的数组数组实际上是一维数组的数组。二维数组的每一行都有一个保存列数的长度字段。但是，我们可以使用以下方法获得行上限和列维度:
 
-```
+```java
 int row_bound = array_name.length;
 int column_bound = array_name[0].length;
 
@@ -90,7 +90,7 @@ int column_bound = array_name[0].length;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Determine the Dimension of an Array of Arrays
 class GFG {
     public static void main(String args[])
@@ -106,7 +106,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Dimension 1: 10
 Dimension 2: 20
 ```
@@ -117,7 +117,7 @@ Dimension 2: 20
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // row bound and column bounds
 class GFG {
     public static void main(String args[])
@@ -141,7 +141,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Dimension 1: 5
 Dimension 2: 2
 Dimension 3: 1

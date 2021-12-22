@@ -22,7 +22,7 @@ BoxLayout 类用于垂直(沿 Y 轴)或水平(沿 X 轴)排列组件。在 BoxLa
 
 *   **Program 1:** In the below program we are arranging several *JLabel* components in a *JFrame*. We create 1 *JPanel* component named *“Panel”* and 5 *JButton* components named “*jbtn1*“, “*jbtn2*“, “*jbtn3*“, “*jbtn4*“, “*jbtn5*“. Also, we are creating a *BoxLayout* component named “boxlayout” and one *JFrame* class and then add them to the *JFrame* by using *add()* method. We set the visibility of the frame using *setvisible()* method. The layout is set using *setLayout()* method.
 
-    ```
+    ```java
     // Java program to demonstrate BoxLayout 
     // class along X-Axis
     import javax.swing.JFrame;
@@ -114,7 +114,7 @@ BoxLayout 类用于垂直(沿 Y 轴)或水平(沿 X 轴)排列组件。在 BoxLa
     <video class="wp-video-shortcode" id="video-220262-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/gfgbl1.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/gfgbl1.mp4](https://media.geeksforgeeks.org/wp-content/uploads/gfgbl1.mp4)</video>
 *   **Program 2:** The following program arranges the components along Y-AXIS in a *JFrame.* We create 1 *JPanel* components named *“Panel”*, 5 *JButton* components named “*jbtn1*“, “*jbtn2*“, “*jbtn3*“, “*jbtn4*“, “*jbtn5*“, a *BoxLayout* components named “boxlayout” and a one *JFrame* class and then add them to the *JFrame* by using *add()* method. We will set the visibility of the frame by using *setvisible()* method. The layout is set by using *setLayout()* method.
 
-    ```
+    ```java
     // Java program to demonstrate BoxLayout 
     // class along Y-Axis
     import javax.swing.JFrame;

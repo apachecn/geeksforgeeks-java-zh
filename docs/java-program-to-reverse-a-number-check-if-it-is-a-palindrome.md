@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input : n = 46355364
 Output: Reverse of n = 46355364
     Palindrome = Yes
@@ -23,7 +23,7 @@ Output: Reverse of n = 56427567478
 
 **迭代算法:**
 
-```
+```java
 Input:  number
 1\. Initialize reversed_number = 0
 2\. Loop while num
@@ -37,7 +37,7 @@ ber > 0
 
 **示例:**
 
-```
+```java
 number = 1234
 reversed_number= 0
 
@@ -59,7 +59,7 @@ number = number/10 = 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse a number
 // and find if it is a palindrome or not
 class GFG {
@@ -95,7 +95,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reverse of n = 123464321
 Palindrome = Yes
 
@@ -107,7 +107,7 @@ Palindrome = Yes
 
 **例**
 
-```
+```java
 Input : n = 12345678999999999987654321
 Output: Reverse of n = 12345678999999999987654321
     Palindrome = Yes
@@ -124,7 +124,7 @@ Output: Reverse of n = 12345678999999999987654321
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse a number
 // and find if it is a palindrome or not
 import java.io.*;
@@ -157,7 +157,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reverse of n = 12345678999999999987654321
 Palindrome = Yes
 

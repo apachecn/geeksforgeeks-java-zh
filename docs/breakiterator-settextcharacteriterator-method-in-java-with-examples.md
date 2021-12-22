@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract void setText(CharacterIterator newText)
 ```
 
@@ -20,7 +20,7 @@ public abstract void setText(CharacterIterator newText)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate setText() method
 
 import java.text.*;
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Retrieved text is : GeeksForGEEks
 ```
 
@@ -68,7 +68,7 @@ Retrieved text is : GeeksForGEEks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate setText() method
 
 import java.text.*;
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Retrieved text is : TextView
 ```
 

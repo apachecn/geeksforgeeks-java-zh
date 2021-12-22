@@ -22,7 +22,7 @@ DirectoryChooser 类是 JavaFX 的一部分。目录选择器类显示了一个�
 
 1.  **Java Program to create DirectoryChooser and add it to the stage:** In this program we will create a directory chooser named *dir_chooser*. Create a Label named *label* and a Button named *button*. Create an EventHandler to handle the events when the button pressed. When the button pressed, a directory chooser dialog appears and the selected directory is shown as text in the *label*. Add the label and the button to *Vbox* and add the *VBox* to the Scene and add the scene to the stage, and call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create DirectoryChooser
     // and add it to the stage
     import javafx.application.Application;
@@ -119,7 +119,7 @@ DirectoryChooser 类是 JavaFX 的一部分。目录选择器类显示了一个�
 
 2.  **Java Program to create DirectoryChooser, set title, initial directory and add it to the stage:** In this program we will create a directory chooser named *dir_chooser*. Create a Label named *label* and a Button named *button*. Set the title and initial directory of directory chooser using the *setTitle()* and *setInitialDirectory()* function. We will create a EventHandler to handle the events when the button is pressed. When the button is pressed a directory chooser dialog appears and the selected directory is shown as text in the *label*. Add the label and the button to *Vbox* and add the *VBox* to the Scene and add the scene to the stage, and call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create DirectoryChooser,
     // set title, initial directory
     // and add it to the stage

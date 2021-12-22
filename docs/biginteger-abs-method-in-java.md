@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger abs()
 ```
 
@@ -18,7 +18,7 @@ public BigInteger abs()
 
 **例:**
 
-```
+```java
 Input: -2300 
 Output: 2300
 Explanation:
@@ -32,7 +32,7 @@ Output: 5482549
 
 下面的程序说明了大整数的 abs()方法:
 
-```
+```java
 // Below program illustrates the abs() method
 // of BigInteger 
 
@@ -61,7 +61,7 @@ public static void main(String[] args) {
 
 **输出:**
 
-```
+```java
 BigInteger -2300 and Absolute value is 2300
 
 ```

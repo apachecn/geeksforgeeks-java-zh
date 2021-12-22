@@ -8,13 +8,13 @@
 
 **功能签名:**
 
-```
+```java
 public boolean isAbsolute()
 ```
 
 **函数语法:**
 
-```
+```java
 file.isAbsolute()
 ```
 
@@ -26,7 +26,7 @@ file.isAbsolute()
 
 **例 1:** 给我们一个文件的文件对象，我们要检查它是不是绝对的
 
-```
+```java
 // Java program to demonstrate the
 // use of isAbsolute() function
 
@@ -65,14 +65,14 @@ public class solution {
 
 **输出:**
 
-```
+```java
 The path is absolute
 
 ```
 
 **例 2:** 给我们一个文件的文件对象，我们要检查它是不是绝对的
 
-```
+```java
 // Java program to demonstrate the
 // use of isAbsolute() function
 
@@ -111,7 +111,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 The path is not absolute
 
 ```

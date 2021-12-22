@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate result of overriding a final
 // method
 
@@ -57,7 +57,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 prog.java:13: error: add(int,int) in child cannot override add(int,int) in IntegralOperations
     @Override int add(int a, int b) { return a - b; }
                   ^

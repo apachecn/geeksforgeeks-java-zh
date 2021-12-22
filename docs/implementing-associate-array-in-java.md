@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 Map<String, String> map = new HashMap<String, String>();
 
 // method to add the key,value pair in hashmap
@@ -25,25 +25,25 @@ map.get("name"); // returns "geeks"
 
 **1。**首先**初始化**地图
 
-```
+```java
 Map<String ,String> map = new HashMap<>();
 ```
 
 **2。**然后使用放入方法将**键、数值**放入**地图**
 
-```
+```java
 map.put("geeks","Course");
 ```
 
 **3。**将所有键值放入地图后，使用 **entrySet()** 方法将地图转换为设置
 
-```
+```java
 Set<Map.Entry<String ,String> > set = map.entrySet();
 ```
 
 **4。**然后现在使用函数将集合转换为列表数组；
 
-```
+```java
 List<Map.Entry<String ,String>> list=new ArrayList<>(set);
 ```
 
@@ -51,7 +51,7 @@ List<Map.Entry<String ,String>> list=new ArrayList<>(set);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the associate array
 
 import java.io.*;
@@ -90,7 +90,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 3
 India Capital: Delhi
 geeks: course
@@ -104,13 +104,13 @@ name: rohit
 
 **语法:**
 
-```
+```java
 Iterator it = map.entrySet().iterator();
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the associate array
 // and iterate it using iterator() method
 
@@ -149,7 +149,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 3
 Total Question=113
 Roll no=45

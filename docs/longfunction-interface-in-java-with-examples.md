@@ -18,7 +18,7 @@ LongFunction 界面只有一个功能:
 
 **语法:**
 
-```
+```java
 R apply(long value)
 ```
 
@@ -30,7 +30,7 @@ R apply(long value)
 
 **程序**
 
-```
+```java
 import java.util.function.LongFunction;
 
 public class Main {
@@ -47,7 +47,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1.5
 
 ```

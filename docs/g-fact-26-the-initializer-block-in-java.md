@@ -6,7 +6,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 public class GFG
 {
@@ -36,7 +36,7 @@ public class GFG
 
 **输出:**
 
-```
+```java
 Common part of constructors invoked!!
 Default Constructor invoked
 Common part of constructors invoked!!

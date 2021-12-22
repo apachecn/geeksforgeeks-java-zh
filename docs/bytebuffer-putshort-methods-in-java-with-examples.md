@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract ByteBuffer putShort(short value)
 ```
 
@@ -25,7 +25,7 @@ public abstract ByteBuffer putShort(short value)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // putShort() method
 
@@ -75,14 +75,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 1050 1066 1082 ]
 
 ```
 
 **例 2:** 演示 BufferOverflowException。
 
-```
+```java
 // Java program to demonstrate
 // putShort() method
 
@@ -137,7 +137,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 1050 1066 1082 ]
 
 buffer's current position is not smaller than its limit
@@ -147,7 +147,7 @@ Exception throws : java.nio.BufferOverflowException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // putShort() method
 
@@ -209,7 +209,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 1050 1066 1082 ]
 
 Trying to put the short value in read only buffer

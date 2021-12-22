@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 boolean add(E element)
 ```
 
@@ -28,7 +28,7 @@ boolean add(E element)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate boolean add(E element)
 import java.util.*;
 
@@ -65,7 +65,7 @@ public class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSet is: [10, 20, Geeks, for]
 The new AbstractSet is: [10, 20, Element, Geeks, Last, for]
 
@@ -73,7 +73,7 @@ The new AbstractSet is: [10, 20, Element, Geeks, Last, for]
 
 **示例 2:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate
 // boolean add(E element)
 
@@ -114,7 +114,7 @@ public class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSet is: [10, 20, 30, 40, 50]
 Trying to add null
 java.lang.NullPointerException

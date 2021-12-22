@@ -10,7 +10,7 @@ Java String 中的 **trim()** 方法是一个内置函数，可以消除前导�
 
 **方法签名:**
 
-```
+```java
 public String trim()
 ```
 
@@ -24,7 +24,7 @@ public String trim()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of java string trim() method
 
@@ -47,7 +47,7 @@ class Gfg {
 
 **Output**
 
-```
+```java
 geeks for geeks has all java functions to read
 Chetna loves reading books
 ```
@@ -56,7 +56,7 @@ Chetna loves reading books
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of java string trim() method
 
@@ -86,7 +86,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before Trim() - 
 String -    Geeks For Geeks   
 Length - 21

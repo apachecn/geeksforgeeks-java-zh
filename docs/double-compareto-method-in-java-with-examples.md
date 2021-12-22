@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(Object obj)
 
 ```
@@ -24,7 +24,7 @@ public int compareTo(Object obj)
 
 **程序 1:** 当两个对象不同时。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Double.compareTo() method
 import java.lang.Math;
@@ -52,14 +52,14 @@ class Gfg1 {
 
 **Output:**
 
-```
+```java
 object1 is less than object2
 
 ```
 
 **程序 2:** 不传递参数时。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Double.compareTo() method
 import java.lang.Math;
@@ -87,7 +87,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 prog.java:14: error: method compareTo in class Double 
 cannot be applied to given types;
         int compareValue = obj1.compareTo();
@@ -101,7 +101,7 @@ cannot be applied to given types;
 
 **程序 3:** 当对象以外的任何东西作为参数传递时。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Double.compareTo() method
 import java.lang.Math;
@@ -130,7 +130,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 prog.java:15: error: incompatible types: String cannot be converted to Double
         int compareValue = obj1.compareTo("gfg");
                                           ^

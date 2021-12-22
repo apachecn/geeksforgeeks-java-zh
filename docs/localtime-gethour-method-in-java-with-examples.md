@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getHour()
 
 ```
@@ -19,7 +19,7 @@ public int getHour()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.getHour() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Hour Field: 19
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.getHour() method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Hour Field: 23
 
 ```

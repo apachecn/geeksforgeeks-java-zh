@@ -29,7 +29,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Read Grade & Displaying Equivalent Desc
 
 // Importing Classes/Files
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Enter Grade varying from S,A,B,C,D
 Student has scored between 80 to 90
 ```
@@ -94,7 +94,7 @@ Student has scored between 80 to 90
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Read a Grade & Display the Equivalent
 
 // Importing Classes/Files
@@ -152,6 +152,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The grade you entered is not valid!
 ```

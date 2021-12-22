@@ -31,7 +31,7 @@
 3.  fernflower.jar 文件可以在这里下载。
 4.  下载完 jar 文件后，使用下面的命令从。类文件:
 
-```
+```java
 java -jar fernflower.jar filename.class
 ```
 

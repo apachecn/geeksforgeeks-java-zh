@@ -6,7 +6,7 @@ Java 中**抽象顺序列表**的 **clear()** 方法用于移除列表中的所�
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -18,7 +18,7 @@ public void clear()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // clear() method in AbstractSequentialList
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The list initially: [1, 2, 3, 4]
 The list after using clear() method: []
 
@@ -63,7 +63,7 @@ The list after using clear() method: []
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // clear() method in AbstractSequentialList
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The list initially: [Geeks, For, ForGeeks, GeeksForGeeks]
 The list after using clear() method: []
 

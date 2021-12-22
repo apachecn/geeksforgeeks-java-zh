@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to check for MySQL connectivity Issue
 
 // Importing database (SQL) libraries
@@ -120,7 +120,7 @@ public class MySQLConnectivityCheck {
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- Spring boot mongodb dependency -->
 <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -132,7 +132,7 @@ public class MySQLConnectivityCheck {
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver -->
 <dependency>
     <groupId>org.mongodb</groupId>
@@ -145,7 +145,7 @@ public class MySQLConnectivityCheck {
 
 ## 可扩展标记语言
 
-```
+```java
 dependencies {
       compile 'org.mongodb:mongodb-driver:3.2.2'
   }

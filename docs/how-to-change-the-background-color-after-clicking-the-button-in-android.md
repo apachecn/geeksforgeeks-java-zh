@@ -23,7 +23,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <color name="colorPrimary">#6200EE</color>
 <color name="colorPrimaryDark">#3700B3</color>
 <color name="colorAccent">#03DAC5</color>
@@ -38,7 +38,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -100,7 +100,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

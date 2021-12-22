@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Lottie dependency
 def lottieVersion = "3.4.0" implementation "com.airbnb.android:lottie:$lottieVersion"
 ```
@@ -50,7 +50,7 @@ def lottieVersion = "3.4.0" implementation "com.airbnb.android:lottie:$lottieVer
 
 ## 可扩展标记语言
 
-```
+```java
 <com.airbnb.lottie.LottieAnimationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,7 +66,7 @@ def lottieVersion = "3.4.0" implementation "com.airbnb.android:lottie:$lottieVer
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Custom animation speed or duration.
 ValueAnimator animator
     = ValueAnimator.ofFloat(0f, 1f);
@@ -84,7 +84,7 @@ animator.start();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Declaring the animation view
 LottieAnimationView animationView
     = findViewById(R.id.animationView);

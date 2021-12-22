@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <R> R 
     query(TemporalQuery<R> query)
 
@@ -25,7 +25,7 @@ public <R> R
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.query() method
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Precision value for ChronoLocalDate is Days
 
 ```
 
 **程序 2:** 显示如果查询没有找到所需的对象，则返回空值。
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.query() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Zone value for ChronoLocalDate is null
 
 ```

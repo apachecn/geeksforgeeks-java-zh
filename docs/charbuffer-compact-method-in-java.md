@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract CharBuffer compact()
 ```
 
@@ -20,7 +20,7 @@ public abstract CharBuffer compact()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 import java.nio.*;
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, b, c, , , , , , , ]
 Position: 3
 limit: 10
@@ -95,7 +95,7 @@ limit: 10
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -159,7 +159,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ReadOnlyBuffer CharBuffer: a, b, b, , , , , , , , 
 
 Position: 0

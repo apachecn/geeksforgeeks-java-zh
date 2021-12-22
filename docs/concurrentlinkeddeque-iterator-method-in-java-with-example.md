@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Iterator *iterate_value* = ConcurrentLinkedDeque.iterator();
 
 ```
@@ -19,7 +19,7 @@ Iterator *iterate_value* = ConcurrentLinkedDeque.iterator();
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.concurrent.*;
@@ -59,7 +59,7 @@ public class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 The iterator values are: 
 Welcome
@@ -72,7 +72,7 @@ Geeks
 
 **示例 2:** 带有整数元素的 ConcurrentLinkedDeque。
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.concurrent.*;
@@ -112,7 +112,7 @@ public class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: [10, 20, 30, 40, 50]
 The iterator values are: 
 10

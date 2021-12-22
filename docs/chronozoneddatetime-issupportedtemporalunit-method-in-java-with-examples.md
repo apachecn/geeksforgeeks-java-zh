@@ -6,7 +6,7 @@ Java 中**时区数据时间接口**的 **isSupported()** 方法检查是否支�
 
 **语法:**
 
-```
+```java
 default boolean isSupported(TemporalUnit unit)
 
 ```
@@ -19,7 +19,7 @@ default boolean isSupported(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the
 // isSupported(TemporalUnit) method
 
@@ -46,7 +46,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 true
 

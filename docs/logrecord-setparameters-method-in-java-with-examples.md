@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setParameters(Object[] parameters)
 
 ```
@@ -18,7 +18,7 @@ public void setParameters(Object[] parameters)
 以下程序说明了设定参数()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setParameters() method
 
 import java.util.logging.Level;
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Object Array length: 0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setParameters() method
 
 import java.lang.reflect.Method;
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Method : compareTo
 java.lang.Object arg0
 

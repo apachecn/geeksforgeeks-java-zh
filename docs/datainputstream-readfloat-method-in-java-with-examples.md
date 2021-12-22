@@ -6,7 +6,7 @@ Java 中 **DataInputStream** 类的 **readFloat()** 方法用于读取四个输�
 
 **语法:**
 
-```
+```java
 public final float readFloat()
                   throws IOException
 
@@ -27,7 +27,7 @@ public final float readFloat()
 
 **程序 1:** 假设存在文件“demo.txt”。
 
-```
+```java
 // Java program to illustrate
 // DataInputStream readFloat() method
 import java.io.*;
@@ -76,7 +76,7 @@ public class GFG {
 
 **程序 2:** 假设文件“demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // DataInputStream readFloat() method
 import java.io.*;

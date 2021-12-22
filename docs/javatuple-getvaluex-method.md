@@ -8,13 +8,13 @@ X 的值从 0 到 TupleClassObject 中存在的元素数量范围减去 1。这�
 
 **方法申报:**
 
-```
+```java
 public A getValueX()
 ```
 
 **语法:**
 
-```
+```java
 A val = TupleClassObject.getValueX()
 ```
 
@@ -30,7 +30,7 @@ A val = TupleClassObject.getValueX()
 
 **程序 1:** 使用 getValueX()配合单位类:
 
-```
+```java
 // Below is a Java program to use getValueX() method
 
 import java.util.*;
@@ -54,13 +54,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Value at 0 = GeeksforGeeks
 ```
 
 **程序二:**使用 getValueX()配合四方类:
 
-```
+```java
 // Below is a Java program to use getValueX() method
 
 import java.util.*;
@@ -90,7 +90,7 @@ T4】
 
 **输出:**
 
-```
+```java
 Value at 3 = 20.18
 ```
 

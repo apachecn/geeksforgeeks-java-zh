@@ -8,13 +8,13 @@ String 类的 **regionMatches()** 方法有两个变体，可以用来测试两�
 
 **1。区分大小写的测试方法:**
 
-```
+```java
 public boolean regionMatches(int toffset, String other, int ooffset, int len)
 ```
 
 **2。它可以选择考虑或忽略案例方法:**
 
-```
+```java
 public boolean regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len)
 ```
 
@@ -34,7 +34,7 @@ public boolean regionMatches(boolean ignoreCase, int toffset, String other, int 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find if substrings
 // or regions of two strings are equal
 
@@ -73,7 +73,7 @@ class CheckIfRegionsEqual {
 
 **Output**
 
-```
+```java
 Result of Comparing of String 1 and String 2: true
 Result of Comparing of String 1 and String 3: false
 Result of Comparing of String 2 and String 3: false
@@ -83,7 +83,7 @@ Result of Comparing of String 2 and String 3: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find if substrings
 // or regions of two strings are equal
 
@@ -121,7 +121,7 @@ class CheckIfRegionsEqual {
 
 **Output**
 
-```
+```java
 Result of comparing String 1 and String 2 : true
 Result of comparing String 1 and String 3 : false
 Result of comparing String 2 and String 3 : true
@@ -135,13 +135,13 @@ Result of comparing String 2 and String 3 : true
 *   ooffset+len 大于另一个参数的长度。
 *   ignoreCase 为 false，且有一些小于 len 的非负整数 *k* ，这样:
 
-```
+```java
  this.charAt(toffset+k) != other.charAt(ooffset+k)
 ```
 
 *   ignoreCase 为真，有一些非负整数 *k* 小于 len，这样:
 
-```
+```java
  Character.toLowerCase(Character.toUpperCase(this.charAt(toffset+k))) != 
      Character.toLowerCase(Character.toUpperCase(other.charAt(ooffset+k)))
 ```

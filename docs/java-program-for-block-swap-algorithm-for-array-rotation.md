@@ -12,7 +12,7 @@
 
 **算法:**
 
-```
+```java
 Initialize A = arr[0..d-1] and B = arr[d..n-1]
 1) Do following until size of A is equal to size of B
 
@@ -31,7 +31,7 @@ Initialize A = arr[0..d-1] and B = arr[d..n-1]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 class GFG 
@@ -112,7 +112,7 @@ public static void main (String[] args) 
 
 **输出:**
 
-```
+```java
 3 5 4 6 7 1 2
 ```
 
@@ -121,7 +121,7 @@ public static void main (String[] args) 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java code for above implementation
 static void leftRotate(int arr[], int d, int n) 
 { 

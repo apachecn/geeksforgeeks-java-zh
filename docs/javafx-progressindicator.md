@@ -21,7 +21,7 @@ ProgressIndicator 是 JavaFX 包的一部分。这是一个循环控件，用于
 
 **创建进度指示器的程序:**该程序创建由名称 *pb* 指示的进度指示器。进度指示器将在场景中创建，而场景又将托管在舞台中。函数 setTitle()用于为舞台提供标题。然后创建一个平铺窗格，在该窗格上调用 addChildren()方法来附加进度指示器和场景内的按钮。最后调用 show()方法显示最终结果。
 
-```
+```java
 // Java program to illustrate the use of Progress Indicator
 import javafx.application.Application;
 import javafx.scene.Scene;

@@ -30,7 +30,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

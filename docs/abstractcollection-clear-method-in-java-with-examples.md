@@ -6,7 +6,7 @@ Java 中 **[Java 抽象集合](https://www.geeksforgeeks.org/abstractcollection-
 
 **语法:**
 
-```
+```java
 AbstractCollection.clear()
 ```
 
@@ -16,7 +16,7 @@ AbstractCollection.clear()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate clear(Object o)
 // of AbstractCollelction
 
@@ -56,7 +56,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 AbstractCollection: [Welcome, To, Geeks, 4, Geeks]
 AbstractCollection after using clear: []
 
@@ -64,7 +64,7 @@ AbstractCollection after using clear: []
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate clear(Object o)
 // of AbstractCollelction
 
@@ -104,7 +104,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 AbstractCollection: [15, 20, 25, 30, 35]
 AbstractCollection after using clear: []
 

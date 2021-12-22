@@ -22,7 +22,7 @@ Gradle 项目在建造时由一个或多个**项目**组成。这些项目包括
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 build.gradle : task hello
 {
     doLast
@@ -34,7 +34,7 @@ build.gradle : task hello
 
 **输出:**
 
-```
+```java
 > gradle -q hello
 Welcome to GeeksforGeeks!
 ```

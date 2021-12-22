@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 setSeed()
 ```
 
@@ -19,7 +19,7 @@ setSeed()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement inversion for random number
 // generation
 
@@ -108,7 +108,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Next long value: 3738641717178320652
 Seed 158514749661962
 Next long value from seed: 3738641717178320652
@@ -120,13 +120,13 @@ Random 使用一个 48 位种子和一个线性同余生成器。这些不是密
 
 Random 的种子更新如下:
 
-```
+```java
 nextseed = (seed * 0x5DEECE66DL + 0xBL) & ((1L << 48) - 1)
 ```
 
 这是一个非常简单的函数，如果你通过计算知道种子的所有位，它可以被反转
 
-```
+```java
 seed = ((nextseed - 0xBL) * 0xdfe05bcb1365L) & ((1L << 48) - 1)
 ```
 
@@ -142,7 +142,7 @@ seed = ((nextseed - 0xBL) * 0xdfe05bcb1365L) & ((1L << 48) - 1)
 
 我们有(b < < 16)+d =((a < < 16)+c)* 0x5deece 66dl+11。因此，做一些代数运算，我们得到(b < < 16–11 –( a < < 16)* 0x5deece 66dl = c * 0x5deece 66dl–d，mod 248。由于 c 和 d 都是 16 位量，c*0x5DEECE66DL 最多有 51 位。这意味着
 
-```
+```java
 (b << 16) - 11 - (a << 16)*0x5DEECE66DL + (k<<48)
 ```
 
@@ -154,7 +154,7 @@ seed = ((nextseed - 0xBL) * 0xdfe05bcb1365L) & ((1L << 48) - 1)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Inversion Method for
 // Random Number Generation
 
@@ -326,7 +326,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [826100673, 702667566, 238146028, -1525439028, -133372456]
 Testing seed: 181503804585936 --> 272734279476123
 Verifying: 15607138131897 --> 181503804585936

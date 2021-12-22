@@ -6,7 +6,7 @@ java . util . concurrentlinkedeque . offer last()方法是 Java 中的一个内�
 
 **语法:**
 
-```
+```java
 Conn_Linked_Deque.offerLast*(Object elem)*
 ```
 
@@ -20,7 +20,7 @@ Conn_Linked_Deque.offerLast*(Object elem)*
 
 **程序 1** :
 
-```
+```java
 /* Java Program to Demonstrate offerLast()
    method of ConcurrentLinkedDeque */
 
@@ -69,7 +69,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Elements in Deque: [Welcome, To, Geeks, 4, Geeks]
 The Last element is: Geeks
 The Inserted element is: GFG
@@ -80,7 +80,7 @@ The Last element is: GFG
 
 **程序二** :
 
-```
+```java
 /* Java Program to Demonstrate offerLast()
    method of ConcurrentLinkedDeque */
 
@@ -136,7 +136,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Elements in Deque: [12, 43, 29, 16, 70]
 The Last element is: 70
 java.lang.NullPointerException

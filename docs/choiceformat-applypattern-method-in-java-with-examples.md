@@ -5,7 +5,7 @@
 **java.text.ChoiceFormat** 类的 **applyPattern()** 方法用于通过覆盖当前限制和格式来设置当前 ChoiceFormat 的新模式文本。这个新模式将是 ChoiceFormat
 的极限和格式的结合**语法:**
 
-```
+```java
 public void applyPattern(String newPattern)
 ```
 
@@ -17,7 +17,7 @@ public void applyPattern(String newPattern)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate applyPattern() method
 
 import java.text.*;
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current pattern : 1.0#sun|2.0#mon|3.0#tue
 
 new pattern : 4.0#wed|5.0#thu |6.0#fri |7.0#sat
@@ -64,7 +64,7 @@ new pattern : 4.0#wed|5.0#thu |6.0#fri |7.0#sat
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate applyPattern() method
 
 import java.text.*;
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current pattern : 1.0#sun|2.0#mon|3.0#tue
 
 String is Null

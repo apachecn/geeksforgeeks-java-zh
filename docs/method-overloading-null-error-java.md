@@ -4,7 +4,7 @@
 
 在 Java 中，重载方法是非常常见的。下面是一个有趣的 Java 程序。
 
-```
+```java
 public class Test
 {
     // Overloaded methods
@@ -30,7 +30,7 @@ public class Test
 
 输出:
 
-```
+```java
 22: error: reference to fun is ambiguous
         mv.fun(null);
           ^
@@ -41,7 +41,7 @@ public class Test
 我们在上面的场景中得到编译时错误的原因是，这里的方法参数 Integer 和 String 在 Java 中都不是原始数据类型。这意味着他们接受空值。当我们将空值传递给 method1 时，编译器会混淆它必须选择哪个方法，因为两者都接受空值。
 除非我们有意传递空值，否则这种编译时错误不会发生。例如，请看下面我们在编码时通常遵循的场景。
 
-```
+```java
 public class Test
 {
     // Overloaded methods
@@ -69,7 +69,7 @@ public class Test
 
 输出:
 
-```
+```java
 fun(Integer ) 
 
 ```

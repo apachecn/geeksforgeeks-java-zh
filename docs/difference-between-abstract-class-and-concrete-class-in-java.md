@@ -12,7 +12,7 @@
 2.  **实例化:**抽象类不能直接实例化，即不能使用 new 关键字直接创建该类的对象。抽象类可以通过一个具体的子类来实例化，也可以通过定义所有的抽象方法和新语句来实例化。可以使用新的关键字直接实例化具体的类。
     **示例:**抽象类的无效直接实例化。
 
-```
+```java
 abstract class DemoAbstractClass {
     abstract void display();
 }
@@ -28,7 +28,7 @@ public class JavaApplication {
 
 **编译错误:**
 
-```
+```java
 prog.java:9: error: DemoAbstractClass is abstract; cannot be instantiated
         DemoAbstractClass AC = new DemoAbstractClass();
                                ^
@@ -37,7 +37,7 @@ prog.java:9: error: DemoAbstractClass is abstract; cannot be instantiated
 
 **示例:**通过定义一个抽象类的所有抽象方法进行有效的实例化。
 
-```
+```java
 abstract class DemoAbstractClass {
     abstract void display();
 }
@@ -59,7 +59,7 @@ public class JavaApplication {
 
 **Output:**
 
-```
+```java
 Hi.
 How are you?
 
@@ -67,7 +67,7 @@ How are you?
 
 **示例:**使用 new 关键字直接实例化具体。
 
-```
+```java
 abstract class DemoAbstractClass {
     abstract void display();
 }
@@ -91,7 +91,7 @@ public class JavaApplication {
 
 **Output:**
 
-```
+```java
 Hi.
 How are you?
 
@@ -111,7 +111,7 @@ How are you?
 
     下面是一个用 Java 说明上述观点的示例程序:
 
-    ```
+    ```java
     // Java program to show servlet example
     // Importing required Java libraries
     import java.io.*;
@@ -148,7 +148,7 @@ How are you?
 
     **输出:**
 
-    ```
+    ```java
     Advance Java Concepts
     output
     Over

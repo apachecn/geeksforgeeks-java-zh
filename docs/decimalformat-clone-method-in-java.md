@@ -6,7 +6,7 @@ Java 中的 DecimalFormat 类的 clone()方法用于返回这个 DecimalFormat �
 
 **语法** :
 
-```
+```java
 Object clone()
 
 ```
@@ -19,7 +19,7 @@ Object clone()
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // clone() method
 
@@ -44,14 +44,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 java.text.DecimalFormat@674dc
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // clone() method
 
@@ -76,7 +76,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 java.text.DecimalFormat@674dc
 
 ```

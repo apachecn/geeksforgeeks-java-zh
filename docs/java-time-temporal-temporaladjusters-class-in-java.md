@@ -8,7 +8,7 @@ Java 中的 TemporalAdjusters 类提供了调整器，这是修改时态对象�
 
 以下两种使用 TemporalAdjuster 的方法是等效的，但建议使用第二种方法，因为它更清晰易读
 
-```
+```java
 temporal = thisAdjuster.adjustInto(temporal);
 temporal = temporal.with(thisAdjuster);
 ```
@@ -38,7 +38,7 @@ temporal = temporal.with(thisAdjuster);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implementation of TemporalAdjuster Class Output will
 // be different at the time of execution for different
 // days. All the dates in the output will be with respect
@@ -88,7 +88,7 @@ public class TemporalAdjusterExample {
 
 **输出:**
 
-```
+```java
 Today's date is: 2021-02-24
 Next Monday is on : 2021-03-01
 Second saturday is on : 2021-02-13

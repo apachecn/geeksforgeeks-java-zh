@@ -16,7 +16,7 @@
 
 **插图:**
 
-```
+```java
 Class aClass = Employee.class;
 Constructor[] constructors = aClass.getConstructors();
 ```
@@ -54,7 +54,7 @@ Constructor[] constructors = aClass.getConstructors();
 
 ## **Java**
 
-```
+```java
 **// Java program to show uses of Constructor class
 // present in java.lang.reflect package
 
@@ -176,7 +176,7 @@ public class GFG {
 
 ****输出**
 
-```
+```java
 All public constructor are :
 Employee Employee 
 

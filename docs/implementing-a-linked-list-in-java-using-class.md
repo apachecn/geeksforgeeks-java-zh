@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class LinkedList {
     Node head; // head of list
 
@@ -40,7 +40,7 @@ class LinkedList {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // Java program to implement
@@ -138,7 +138,7 @@ public class LinkedList {
 
 **Output**
 
-```
+```java
 LinkedList: 1 2 3 4 5 6 7 8 
 ```
 
@@ -148,7 +148,7 @@ LinkedList: 1 2 3 4 5 6 7 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // Java program to implement
@@ -249,7 +249,7 @@ public class LinkedList {
 
 **Output**
 
-```
+```java
 LinkedList: 1 2 3 4 5 6 7 8 
 ```
 
@@ -283,7 +283,7 @@ LinkedList: 1 2 3 4 5 6 7 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // Java program to implement
@@ -476,7 +476,7 @@ public class LinkedList {
 
 **Output**
 
-```
+```java
 LinkedList: 1 2 3 4 5 6 7 8 
 1 found and deleted
 LinkedList: 2 3 4 5 6 7 8 
@@ -514,7 +514,7 @@ LinkedList: 2 3 5 6 7 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // Java program to implement
@@ -716,7 +716,7 @@ public class LinkedList {
 
 **Output**
 
-```
+```java
 LinkedList: 1 2 3 4 5 6 7 8 
 0 position element deleted
 LinkedList: 2 3 4 5 6 7 8 
@@ -733,7 +733,7 @@ LinkedList: 2 3 5 6 7 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // Java program to implement
@@ -1030,7 +1030,7 @@ public class LinkedList {
 
 **Output**
 
-```
+```java
 LinkedList: 1 2 3 4 5 6 7 8 
 
 1 found and deleted

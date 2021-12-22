@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long addAndGet(int i, long delta)
 
 ```
@@ -20,7 +20,7 @@ public long addAndGet(int i, long delta)
     以下程序说明了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program that demonstrates
     // the addAndGet() function
 
@@ -57,7 +57,7 @@ public long addAndGet(int i, long delta)
 
     **Output:**
 
-    ```
+    ```java
     The array : [10, 22, 33, 44, 55]
     The array after update : [26, 22, 33, 44, 55]
 
@@ -65,7 +65,7 @@ public long addAndGet(int i, long delta)
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program that demonstrates
     // the addAndGet() function
 
@@ -102,7 +102,7 @@ public long addAndGet(int i, long delta)
 
     **Output:**
 
-    ```
+    ```java
     The array : [1, 2, 3, 4, 5]
     The array after update : [1, 2, 3, 20, 5]
 

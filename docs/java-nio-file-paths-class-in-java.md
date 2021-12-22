@@ -6,7 +6,7 @@
 
 **类申报:**
 
-```
+```java
 public final class Paths
 extends Object
 ```
@@ -41,7 +41,7 @@ invaliddathexception–如果给定的字符串无法转换为路径
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.get(String first,String... more)
 // method
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 /usr/local/bin
 
 ```
@@ -87,7 +87,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.get(URI uri) method
 
@@ -116,6 +116,6 @@ public class Path {
 
 **输出:**
 
-```
+```java
 https://www.geeksforgeeks.org/
 ```

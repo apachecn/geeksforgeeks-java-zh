@@ -5,7 +5,7 @@
 **Java.io.RandomAccessFile** 类提供了一种使用读写操作随机访问文件的方法。它像存储在文件中的字节数组一样工作。
 T3】申报:
 
-```
+```java
 public class RandomAccessFile
    extends Object
       implements DataOutput, DataInput, Closeable
@@ -15,7 +15,7 @@ public class RandomAccessFile
 
 1.  **read():****Java . io . randomaccessfile . read()**从文件中读取字节数据。该字节作为 0-255
 
-    ```
+    ```java
     Syntax :
     public int read()
     Parameters : 
@@ -28,7 +28,7 @@ public class RandomAccessFile
     范围内的整数返回
 2.  **read(byte[]b)****Java . io . randomaccessfile . read(byte[]b)**从缓冲区读取 b.length 以内的字节。
 
-    ```
+    ```java
     Syntax :
     public int read(byte[] b)
     Parameters : 
@@ -40,7 +40,7 @@ public class RandomAccessFile
 
 3.  **read((byte[] b，int offset，int len):****Java . io . randomaccessfile . read((byte[]b，int offset，int len)** 从缓冲区读取从 offset 位置初始化到 b.length 的字节。
 
-    ```
+    ```java
     Syntax :
     public int read(byte[] b, int offset, int len)
     Parameters : 
@@ -54,7 +54,7 @@ public class RandomAccessFile
 
 4.  **readBoolean():****Java . io . randomaccessfile . readBoolean()**从文件中读取一个布尔值。
 
-    ```
+    ```java
     Syntax :
     public final boolean readBoolean()
     Parameters : 
@@ -66,7 +66,7 @@ public class RandomAccessFile
 
 5.  **read byte():****Java . io . randomaccessfile . read byte()**从文件中读取一个有符号的八位值，从文件指针开始读取。
 
-    ```
+    ```java
     Syntax :
     public final byte readByte()
     Parameters : 
@@ -78,7 +78,7 @@ public class RandomAccessFile
 
 6.  **readChar():****Java . io . randomaccessfile . readChar()**从文件中读取一个字符，从文件指针开始读取。
 
-    ```
+    ```java
     Syntax :
     public final char readChar()
     Parameters : 
@@ -90,7 +90,7 @@ public class RandomAccessFile
 
 7.  **readDouble():****Java . io . randomaccessfile . readDouble()**从文件中读取一个双精度值，从 File Pointer 开始读取。
 
-    ```
+    ```java
     Syntax :
     public final double readDouble()
     Parameters : 
@@ -102,7 +102,7 @@ public class RandomAccessFile
 
 8.  **readFloat():****Java . io . randomaccessfile . readFloat()**从文件中读取一个浮点值，从文件指针开始读取。
 
-    ```
+    ```java
     Syntax :
     public final double readFloat()
     Parameters : 
@@ -114,7 +114,7 @@ public class RandomAccessFile
 
 9.  **readFully(字节[]b):****Java . io . randomaccessfile . readFully(字节[] b)** 从缓冲区读取 b .长度以下的字节，从文件指针开始读取。
 
-    ```
+    ```java
     Syntax :
     public final void readFully(byte[] b)
     Parameters : 
@@ -126,7 +126,7 @@ public class RandomAccessFile
 
 10.  **readInt():****Java . io . randomaccessfile . readInt()**从文件中读取一个带符号的 4 字节整数，从 File Pointer 开始读取。
 
-    ```
+    ```java
     Syntax :
     reads a signed 4 bytes integer from the file
     Parameters : 
@@ -138,7 +138,7 @@ public class RandomAccessFile
 
 11.  **readFully(byte[] b，int offset，int len):****Java . io . randomaccessfile . readFully(byte[]b，int offset，int len)** 从缓冲区读取从偏移量位置到 b . len . len 的初始化字节，从文件指针开始读取。
 
-    ```
+    ```java
     Syntax :
     public final void readFully(byte[] b, int offset, int len)
     Parameters : 
@@ -152,7 +152,7 @@ public class RandomAccessFile
 
 12.  **readLong() :** **java.io.RandomAccessFile.readLong()** reads a signed 64 bit integer from the file, start reading from the File Pointer.
 
-    ```
+    ```java
     Syntax :
     public final long readLong()
     Parameters : 
@@ -162,7 +162,7 @@ public class RandomAccessFile
 
     ```
 
-    ```
+    ```java
     // Java Program illustrating use of io.RandomAccessFile class methods
     // read(), read(byte[] b), readBoolean(), readByte(), readInt()
     // readFully(byte[] b, int off, int len), readFully(), readFloat()
@@ -251,7 +251,7 @@ public class RandomAccessFile
 
     **输出:**
 
-    ```
+    ```java
     Use of read() method : 0
     Use of .read(byte[] b) : 3
     Use of readBoolean() : true

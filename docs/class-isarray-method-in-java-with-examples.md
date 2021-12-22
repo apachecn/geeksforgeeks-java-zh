@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isArray()
 
 ```
@@ -19,7 +19,7 @@ public boolean isArray()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate isArray() method
 
 public class Test {
@@ -43,7 +43,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Is Test an array: false
 
@@ -51,7 +51,7 @@ Is Test an array: false
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate isArray() method
 
 public class Test {
@@ -70,7 +70,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Is T an array: true
 
 ```

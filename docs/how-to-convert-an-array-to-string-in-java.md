@@ -6,7 +6,7 @@
 
 1.  **[Arrays.toString()方法](https://www.geeksforgeeks.org/arrays-tostring-in-java-with-examples/) :** Arrays.toString()方法用于返回指定数组内容的字符串表示形式。字符串表示形式由包含在方括号(“[]”)中的数组元素列表组成。相邻的元素由字符“，”(逗号后跟空格)分隔。如果数组为空，则返回“null”。
 
-    ```
+    ```java
     // Java program to demonstrate
     // working of Arrays.toString()
 
@@ -51,7 +51,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Boolean Array: [true, true, false, true]
     Character Array: [g, e, e, k, s]
     Double Array: [1.0, 2.0, 3.0, 4.0]
@@ -62,7 +62,7 @@
 
 2.  **[StringBuilder append(char[])](https://www.geeksforgeeks.org/stringbuilder-append-method-in-java-with-examples/):**Java . lang . StringBuilder . append(char[])是将 char 数组参数的字符串表示形式附加到这个 StringBuilder 序列的内置方法。
 
-    ```
+    ```java
     // Java program to illustrate the
     // StringBuilder.append(char[]) method
 
@@ -104,7 +104,7 @@
 
     **输出:**
 
-    ```
+    ```java
     We are geeks 
     Result after appending = We are geeks GEEkS
     We are -

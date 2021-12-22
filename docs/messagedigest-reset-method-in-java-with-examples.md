@@ -5,7 +5,7 @@
 **Java . security . MessageDigest**类的 **reset()** 方法用于将当前消息摘要值重置为此 messagedigest 对象的默认消息摘要值。
 **语法:**
 
-```
+```java
 public void reset()
 ```
 
@@ -15,7 +15,7 @@ public void reset()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -79,7 +79,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 MessageDigest before update : -11235
 
 MessageDigest after update : 30835
@@ -91,7 +91,7 @@ MessageDigest after reset : -11235
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -155,7 +155,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 MessageDigest before update : -7248
 
 MessageDigest after update : 24403

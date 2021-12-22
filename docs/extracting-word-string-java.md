@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : Funny?? are not you?
 Output : Funny
          are
@@ -26,12 +26,12 @@ Output : Geeks
 
 在这篇文章中，我们将讨论[正则表达式](https://www.geeksforgeeks.org/regular-expressions-in-java/)的方法。这种方法在时间复杂度方面是最好的，也适用于大型输入文件。下面是任何单词的正则表达式。
 
-```
+```java
 [a-zA-Z]+
 
 ```
 
-```
+```java
 // Java program to demonstrate extracting words
 // from string using Regex
 
@@ -66,7 +66,7 @@ public class Test 
 
 输出:
 
-```
+```java
 Words from string "Geeks for Geeks" : 
 Geeks
 for

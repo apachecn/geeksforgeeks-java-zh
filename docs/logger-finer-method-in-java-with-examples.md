@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public void finer(String msg)
 
 ```
@@ -25,7 +25,7 @@ public void finer(String msg)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.finer(String msg) method
 
@@ -69,7 +69,7 @@ logs.txt 文件上打印的输出如下所示。
 
     **语法:**
 
-    ```
+    ```java
     public void finer(Supplier msgSupplier)
 
     ```
@@ -81,7 +81,7 @@ logs.txt 文件上打印的输出如下所示。
     以下程序说明了更好的方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.finer(Supplier<String>) method
 

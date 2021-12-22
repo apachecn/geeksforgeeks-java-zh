@@ -5,7 +5,7 @@
 [**延迟队列**](https://www.geeksforgeeks.org/delayqueue-class-in-java-with-example/) 的**轮询()**方法用于检索延迟队列的头部。该方法还从延迟队列中移除头部。因此，当调用轮询方法时，延迟队列的大小减少一。
 **语法:**
 
-```
+```java
 public E poll ()
 ```
 
@@ -20,7 +20,7 @@ public E poll ()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue poll() method
 
 import java.util.concurrent.*;
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original DelayQueue: [
 { A, time=1545817370442}, 
 { B, time=1545817370443}, 
@@ -127,7 +127,7 @@ After poll() method, DelayQueue size: 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue poll() method
 
 import java.util.concurrent.*;
@@ -202,7 +202,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original DelayQueue size: 0
 
 Head of the DelayQueue: null

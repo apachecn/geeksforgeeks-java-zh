@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static String toString(short b)
 
 ```
@@ -19,7 +19,7 @@ public static String toString(short b)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Short.toString() method
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 String value: 515
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Short.toString() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 String value: 51
 
 ```
@@ -81,7 +81,7 @@ String value: 51
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -94,7 +94,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Short.toString() method
 
@@ -118,14 +118,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 String value: 515
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Short.toString() method
 
@@ -149,7 +149,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 String value: 51
 
 ```

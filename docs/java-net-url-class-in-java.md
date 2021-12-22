@@ -6,7 +6,7 @@
 
 典型的网址可能如下所示
 
-```
+```java
 http://www.example.com:80/index.html
 ```
 
@@ -21,7 +21,7 @@ http://www.example.com:80/index.html
 
 网址的类结构如下所示:
 
-```
+```java
 public final class java.net.URL extends java.lang.Object
 ```
 
@@ -85,7 +85,7 @@ URL 类提供的方法:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // importing package required
 import java.net.URL;
 import java.util.Scanner;
@@ -121,7 +121,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hostname: www.geeksforgeeks.org
 Port Number: -1
 File name: /variables-in-java/

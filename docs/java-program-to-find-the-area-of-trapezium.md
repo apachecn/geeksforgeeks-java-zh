@@ -10,13 +10,13 @@ A [梯形](https://en.wikipedia.org/wiki/Trapezium)是一个*凸四边形*，只
 
 **斜方肌面积:**
 
-```
+```java
 Area = 1/2*(sum of parallel sides)*height of the trapezium
 ```
 
 **示例:**
 
-```
+```java
 Input : base1 = 3, base2 = 4, height = 6
 Output: area = 21
 
@@ -34,7 +34,7 @@ Output: area = 18
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Area of Trapezium
 
 import java.io.*;
@@ -61,6 +61,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of trapezium:750.0
 ```

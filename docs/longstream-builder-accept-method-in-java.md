@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void accept(long t)
 ```
 
@@ -18,7 +18,7 @@ void accept(long t)
 
 **例 1:**
 
-```
+```java
 // Java code to show the implementation
 // of LongStream.Builder accept(long t)
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Stream successfully built
 4
 5
@@ -62,7 +62,7 @@ Stream successfully built
 
 **示例 2:** 说明 IllegalStateException
 
-```
+```java
 // Java code to show the implementation
 // of LongStream.Builder accept(T t)
 
@@ -108,7 +108,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Stream successfully built
 4
 5

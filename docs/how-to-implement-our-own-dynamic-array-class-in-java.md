@@ -28,7 +28,7 @@
 
 下面是我们自己的 ArrayList 类的实现。
 
-```
+```java
 // Java program to implement
 // our own Dynamic Array class
 
@@ -195,7 +195,7 @@ class ArrayListClass {
 
 **Output:**
 
-```
+```java
 ArrayList size: 5
 ArrayList capacity: 8
 ArrayList elements: 

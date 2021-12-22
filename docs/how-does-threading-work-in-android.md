@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GeeksActivity extends Activity {
 
     @Override
@@ -62,7 +62,7 @@ public class GeeksActivity extends Activity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GeeksActivity extends Activity{
 
     @Override
@@ -113,7 +113,7 @@ public class GeeksActivity extends Activity{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class ExampleServiceGeeks extends Service {
 
     @Override
@@ -140,7 +140,7 @@ public class ExampleServiceGeeks extends Service {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GeeksforGeeks extends Activity {
   // ...
   public class MyAsyncTask extends AsyncTask<Void, Void, String>   {
@@ -153,7 +153,7 @@ public class GeeksforGeeks extends Activity {
 
 ## 我的锅
 
-```
+```java
 class GeeksforGeeks : Activity() {
     // ...
     inner class MyAsyncTask : AsyncTask<Unit, Unit, String>() {

@@ -12,12 +12,12 @@
 
 **示例:**
 
-```
+```java
 Input  : String : "1 23 456 7890"
 Output : Integer array : [1 23 456 7890]
 ```
 
-```
+```java
 Input  : String : "[1,2,356,678,3378]"
 Output : Integer array : [1, 2, 356, 678, 3378]
 ```
@@ -35,7 +35,7 @@ Output : Integer array : [1, 2, 356, 678, 3378]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to Integer Array
 // Using string.replaceAll() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 String : [1,2,356,678,3378]
 Integer array : [1, 2, 356, 678, 3378]
 ```
@@ -88,7 +88,7 @@ Integer array : [1, 2, 356, 678, 3378]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to Integer Array
 // Using string.split() method
 
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 String : 1 23 456 7890
 Integer array : [1 23 456 7890 ]
 ```

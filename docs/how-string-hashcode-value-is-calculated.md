@@ -9,7 +9,7 @@
 
 **例如:**
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -26,7 +26,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 70472
 

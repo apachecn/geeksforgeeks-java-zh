@@ -18,7 +18,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate a Method with No Parameters
 // and Return Type
 
@@ -44,7 +44,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 Hey Geeks! Welcome to NoWhere.
 
 ```

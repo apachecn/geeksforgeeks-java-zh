@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final CharsetDecoder reset()
 ```
 
@@ -18,7 +18,7 @@ public final CharsetDecoder reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before reset: sun.nio.cs.ext.ISO2022_CN$Decoder@232204a1
 After reset: sun.nio.cs.ext.ISO2022_CN$Decoder@232204a1
 
@@ -60,7 +60,7 @@ After reset: sun.nio.cs.ext.ISO2022_CN$Decoder@232204a1
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before reset: sun.nio.cs.ext.DoubleByte$Decoder@232204a1
 After reset: sun.nio.cs.ext.DoubleByte$Decoder@232204a1
 

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final int compareTo?(Charset second)
 ```
 
@@ -18,7 +18,7 @@ public final int compareTo?(Charset second)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 -7
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0
 
 ```

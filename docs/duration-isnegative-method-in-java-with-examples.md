@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isNegative()
 
 ```
@@ -19,7 +19,7 @@ public boolean isNegative()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate isNegative() method
 
 import java.time.Duration;
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate isNegative() method
 
 import java.time.Duration;
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public int remainingCapacity()
 ```
 
@@ -24,7 +24,7 @@ public int remainingCapacity()
 下面的程序说明了 ArrayBlockingQueue 的 remainingCapacity()方法:
 **程序 1:**
 
-```
+```java
 // Program to demonstrate remainingCapacity() method
 // of ArrayBlockingQueue
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue :[23, 32]
 Remaining Capacity:3
 Queue :[23, 32, 54, 78]
@@ -77,7 +77,7 @@ Remaining Capacity:1
 
 **程序 2:**
 
-```
+```java
 // Program to demonstrate remainingCapacity() method
 // of ArrayBlockingQueue
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Remaining Capacity:2
 Remaining Capacity:0
 

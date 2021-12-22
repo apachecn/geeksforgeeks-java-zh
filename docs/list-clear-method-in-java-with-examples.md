@@ -6,7 +6,7 @@ Java 中**列表界面**的 **clear()** 方法用于从列表容器中移除所�
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -20,7 +20,7 @@ public void clear()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate clear() method
 import java.io.*;
 import java.util.*;
@@ -49,14 +49,14 @@ public class ListDemo {
 
 **输出:**
 
-```
+```java
 []
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate clear() method
 import java.io.*;
 import java.util.*;
@@ -85,7 +85,7 @@ public class ListDemo {
 
 **输出:**
 
-```
+```java
 []
 
 ```

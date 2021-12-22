@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int signum(*int a*)
 ```
 
@@ -16,7 +16,7 @@ public static int signum(*int a*)
 
 **示例:**
 
-```
+```java
 Consider an integer a = 27
 Since 27 is a positive int signum will return= 1
 
@@ -33,7 +33,7 @@ For a zero signum, it will return = 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.signum() Method
 import java.lang.*;
@@ -56,7 +56,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 1
 -1
 0
@@ -66,7 +66,7 @@ public static void main(String[] args) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.signum() Method
 import java.lang.*;
@@ -89,7 +89,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 -1
 1
 0
@@ -100,7 +100,7 @@ public static void main(String[] args) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.signum() Method
 import java.lang.*;
@@ -121,7 +121,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 prog.java:10: error: incompatible types: possible lossy conversion from double to int
     System.out.println(Integer.signum(3.81));
                                       ^

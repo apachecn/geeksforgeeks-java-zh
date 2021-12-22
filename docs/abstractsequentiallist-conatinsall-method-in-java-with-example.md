@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean containsAll(Collection C)
 ```
 
@@ -18,7 +18,7 @@ public boolean containsAll(Collection C)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // AbstractSequentialList containsAll()
 
@@ -70,7 +70,7 @@ class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList 1: [Geeks, for, Geeks, 10, 20]
 AbstractSequentialList 2: [Geeks, for, Geeks, 10, 20]
 
@@ -80,7 +80,7 @@ Both the collections same: true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate boolean containsAll()
 
 import java.util.*;
@@ -126,7 +126,7 @@ class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList 1: [Geeks, for, Geeks]
 AbstractSequentialList 2: [10, 20]
 

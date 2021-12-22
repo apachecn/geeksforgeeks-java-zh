@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 String toString()
 
 ```
@@ -19,7 +19,7 @@ String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.toString() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 String: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 
@@ -58,7 +58,7 @@ String: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.toString() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime: 1918-10-25T23:12:38.543Z[Europe/Paris]
 String: 1918-10-25T23:12:38.543Z[Europe/Paris]
 

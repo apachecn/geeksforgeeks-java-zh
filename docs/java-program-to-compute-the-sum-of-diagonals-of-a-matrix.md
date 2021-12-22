@@ -4,7 +4,7 @@
 
 对于给定的 2D 方阵，任务是找出主对角线和次对角线上的元素之和。例如，分析以下 4 × 4 输入矩阵。
 
-```
+```java
 a00 a01 a02 a03
 a10 a11 a12 a13
 a20 a21 a22 a23
@@ -15,19 +15,19 @@ a30 a31 a32 a33
 
 **1。**主对角线由元素 a00、a11、a22、a33 构成，主对角线的行列条件为
 
-```
+```java
 row = column
 ```
 
 **2。**然而，次对角线由元素 a03、a12、a21、a30 构成，并且次对角线的行列条件为
 
-```
+```java
 row = number_of_rows – column -1
 ```
 
 插图:
 
-```
+```java
 Input 1 : 6 7 3 4
            8 9 2 1
            1 2 9 6
@@ -48,7 +48,7 @@ Output 2 : *Principal Diagonal:* 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Sum of Diagonals of a Matrix
 
 // Importing input output classes
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Sum of Principal Diagonal:35
 Sum of Secondary Diagonal:58
 ```

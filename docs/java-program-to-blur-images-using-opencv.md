@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 Imgproc.blur(src, dst, new Size(i, i), new Point(-1, -1));
 ```
 
@@ -34,7 +34,7 @@ Imgproc.blur(src, dst, new Size(i, i), new Point(-1, -1));
 
 **语法:**
 
-```
+```java
 Imgproc.GaussianBlur(src, dst, new Size(i, i), 0, 0);
 ```
 
@@ -49,7 +49,7 @@ Imgproc.GaussianBlur(src, dst, new Size(i, i), 0, 0);
 
 **语法:**
 
-```
+```java
 Imgproc.medianBlur(src, dst, i);
 ```
 
@@ -63,7 +63,7 @@ Imgproc.medianBlur(src, dst, i);
 
 **语法:**
 
-```
+```java
 Imgproc.bilateralFilter(src, dst, i, i * 2, i / 2);
 ```
 
@@ -83,7 +83,7 @@ Imgproc.bilateralFilter(src, dst, i, i * 2, i / 2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing OpenCV libraries
 // to use inbuilt methods
 import org.opencv.core.*;

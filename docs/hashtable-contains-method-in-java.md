@@ -6,7 +6,7 @@ java 中的 Java . util . Hashtable . contains(*Object value*)方法用于检查
 
 **语法:**
 
-```
+```java
 Hash_table.contains(*Object value*)
 ```
 
@@ -19,7 +19,7 @@ Hash_table.contains(*Object value*)
 以下程序说明上述方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the contains() method
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial Table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 Is the value 'Geeks' present? true
 Is the value 'World' present? false
@@ -63,7 +63,7 @@ Is the value 'World' present? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the contains() method
 import java.util.*;
 
@@ -102,7 +102,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {You=30, Welcomes=25, 4=15, Geeks=20}
 Is the value '10' present? false
 Is the value '30' present? true

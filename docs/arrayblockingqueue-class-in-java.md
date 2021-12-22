@@ -40,7 +40,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // ArrayBlockingQueue(int initialCapacity)
 // constructor
@@ -71,7 +71,7 @@ public class ArrayBlockingQueueDemo {
 
 **Output:** 
 
-```
+```java
 ArrayBlockingQueue:[1, 2, 3]
 ```
 
@@ -83,7 +83,7 @@ ArrayBlockingQueue:[1, 2, 3]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate adding
 // elements to an ArrayBlockingQueue.
 
@@ -112,7 +112,7 @@ public class AddingElementsExample {
 
 **Output**
 
-```
+```java
 ArrayBlockingQueue:[1, 2, 3]
 ```
 
@@ -122,7 +122,7 @@ ArrayBlockingQueue:[1, 2, 3]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate removal of 
 // elements from an AbstractQueue
 
@@ -166,7 +166,7 @@ public class RemovingElementsExample {
 
 **Output**
 
-```
+```java
 ArrayBlockingQueue:[1, 2, 3]
 Removal of 2 :true
 queue contains [1, 3]
@@ -179,7 +179,7 @@ ArrayBlockingQueue:[]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate accessing
 // elements of ArrayBlockingQueue
 
@@ -214,7 +214,7 @@ public class AccessingElementsExample {
 
 **Output**
 
-```
+```java
 After addding numbers queue is 
 [23, 32, 45, 12]
 Head of queue 23
@@ -226,7 +226,7 @@ Head of queue 23
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate iterating
 // over ArrayBlockingQueue.
 
@@ -267,7 +267,7 @@ public class TraversingExample {
 
 **Output**
 
-```
+```java
 Queue is [User, Employee, Manager, Analyst, HR]
 
 The iterator values:

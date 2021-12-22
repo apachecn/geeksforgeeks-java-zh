@@ -15,7 +15,7 @@
 
 我们不能用私有或受保护的访问说明符声明类/接口。例如，以下程序编译失败。
 
-```
+```java
 //filename: Main.java
 protected class Test {}
 

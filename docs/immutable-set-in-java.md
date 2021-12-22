@@ -13,7 +13,7 @@
 
 *   **Using copyOf() method in [Guava](https://www.geeksforgeeks.org/guava-library-java/)** We use an existing [Set](https://www.geeksforgeeks.org/set-in-java/) to create an ImmutableSet.
 
-    ```
+    ```java
     // Creating an immutable set using copyOf()
     import java.util.*;
     import com.google.common.collect.ImmutableSet;
@@ -38,13 +38,13 @@
 
     输出:
 
-    ```
+    ```java
     [GeeksforGeeks, Practice]
     ```
 
 *   **Using Of() method in Guava**
 
-    ```
+    ```java
     // Java code illustrating of() method to
     // create a ImmutableSet
     import java.util.*;
@@ -66,14 +66,14 @@
 
     输出:
 
-    ```
+    ```java
     [ide, code]
     ```
 
 *   **使用 [Java 9 Factory Of()方法](https://www.geeksforgeeks.org/factory-method-create-immutable-set-java-9/)**
     在 Java 中，如果我们使用 with Set、Map 或 List，则会创建一个不可变集。
 
-```
+```java
 // Java code illustrating of() method to
 // create a ImmutableSet
 import java.util.*;
@@ -94,14 +94,14 @@ class GfG
 
 输出:
 
-```
+```java
 [ide, code]
 ```
 
 **如果我们试图改变一个不变的集合呢？**
 它抛出不支持操作异常
 
-```
+```java
 // Java code illustrating of() method
 import java.util.*;
 
@@ -124,7 +124,7 @@ class GfG
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.UnsupportedOperationException
     at com.google.common.collect.ImmutableCollection.add(ImmutableCollection.java:218)
     at ImmutableListDemo.main(Main.java:16)
@@ -133,7 +133,7 @@ Exception in thread "main" java.lang.UnsupportedOperationException
 **与 Collections.unmodifiableSet()有何不同？**
 collections . unmodifielableset 在相同的现有集合周围创建一个包装，这样包装就不能用来修改它。然而，我们仍然可以改变原来的设置。
 
-```
+```java
 // Java program to demonstrate that a set created using
 // Collections.unmodifiableSet() can be modified indirectly.
 import java.io.*;
@@ -157,14 +157,14 @@ public
 
 **Output:**
 
-```
+```java
 [Geeks, Practice, Contribute]
 
 ```
 
 如果我们从现有的集合中创建一个不可变集合并改变现有的集合，那么不可变集合不会改变，因为会创建一个副本。
 
-```
+```java
 // Creating an immutable set using copyOf()
 // and modifying original set.
 import java.util.*;
@@ -192,7 +192,7 @@ class GfG
 
 输出:
 
-```
+```java
 [GeeksforGeeks, Practice]
 ```
 

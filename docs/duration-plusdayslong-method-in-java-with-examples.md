@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration plusDays(long numberOfDays)
 
 ```
@@ -21,7 +21,7 @@ public Duration plusDays(long numberOfDays)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate plusDays() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT99H4M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate plusDays() method
 
 import java.time.Duration;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT120H4M
 
 ```

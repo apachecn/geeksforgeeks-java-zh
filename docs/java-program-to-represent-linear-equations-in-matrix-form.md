@@ -20,7 +20,7 @@
 
 **图解:**考虑数学中使用最多的实用线性方程，即 3 元线性方程。
 
-```
+```java
 Input: ax + by + cz = d
 
 Output- 1 2 3 x = 10
@@ -32,7 +32,7 @@ Output- 1 2 3 x = 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Represent Linear Equations in Matrix Form
 
 // Importing Scanner class
@@ -118,7 +118,7 @@ public class GFG {
 
 插图:
 
-```
+```java
 Input: ax + by + cz + ... = d
 
 Output: 1 2 3 x = 10
@@ -132,7 +132,7 @@ Output: 1 2 3 x = 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Scanner;
 
 public class Linear_Equations_n {

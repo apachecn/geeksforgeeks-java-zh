@@ -6,7 +6,7 @@ Java . util . IdentityHashMap . remove()是 identity hashmap 类的内置方法�
 
 **语法:**
 
-```
+```java
 Identity_Hash_Map.remove(*Object key*)
 ```
 
@@ -17,7 +17,7 @@ Identity_Hash_Map.remove(*Object key*)
 下面的程序说明了 Java . util . identity hashmap . remove()方法的工作方式:
 **程序 1:** 当传递一个现有的密钥时。
 
-```
+```java
 // Java code to illustrate the remove() method
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 Returned value is: Geeks
 New map is: {30=You, 15=4, 10=Geeks, 25=Welcomes}
@@ -65,7 +65,7 @@ New map is: {30=You, 15=4, 10=Geeks, 25=Welcomes}
 
 **程序 2:** 传递新密钥时。
 
-```
+```java
 // Java code to illustrate the remove() method
 import java.util.*;
 
@@ -104,7 +104,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 Returned value is: null
 New map is: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}

@@ -14,7 +14,7 @@
 
 **示例 1:** 下面的代码显示了一个简单的具体类:
 
-```
+```java
 // Java program to illustrate concrete class
 
 // Concrete Class
@@ -51,7 +51,7 @@ class Main {
 
 **Output:**
 
-```
+```java
 Product: 50
 Sum: 15
 
@@ -59,7 +59,7 @@ Sum: 15
 
 **示例 2:** 下面的代码说明了一个扩展抽象类的具体类。接口 X 中的方法 product()由类 Product 实现，但它不实现方法 sum()，因此它必须是抽象的。而类 Main 实现了未实现的方法 sum()，因此没有未实现的方法。因此，它是一个具体的类。
 
-```
+```java
 // Java program to illustrate concrete class
 
 // This is an interface
@@ -107,7 +107,7 @@ class Main extends Product {
 
 **Output:**
 
-```
+```java
 Product: 50
 Sum: 15
 

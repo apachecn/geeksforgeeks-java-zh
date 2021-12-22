@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -16,7 +16,7 @@ public void clear()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // clear() method in Java
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [32, 67, 98]
 
 CopyOnWriteArraySet cleared
@@ -67,7 +67,7 @@ Updated CopyOnWriteArraySet: []
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // clear() method in Java
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [gopal, gfg, jgec]
 
 CopyOnWriteArraySet cleared

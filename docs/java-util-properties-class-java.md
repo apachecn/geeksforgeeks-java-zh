@@ -22,7 +22,7 @@
 
 **申报**
 
-```
+```java
 public class Properties extends Hashtable<Object,​Object>
 ```
 
@@ -42,7 +42,7 @@ public class Properties extends Hashtable<Object,​Object>
 
 **数据库属性**
 
-```
+```java
 username = coder
 password = geeksforgeeks
 ```
@@ -51,7 +51,7 @@ password = geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Properties class to get
 // information from the properties file
 
@@ -84,7 +84,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Properties class to get all
 // the system properties
 
@@ -121,7 +121,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Properties class to create
 // the properties file
 

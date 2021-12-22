@@ -5,7 +5,7 @@
 [**java.lang.Class 类**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/) 的 **forName()** 方法用于获取该类的具有指定类名的实例。该类名被指定为字符串参数。
 **语法:**
 
-```
+```java
 public static Class<T> forName(String className) throws ClassNotFoundException
 ```
 
@@ -22,7 +22,7 @@ public static Class<T> forName(String className) throws ClassNotFoundException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate forName() method
 
 public class Test {
@@ -40,6 +40,6 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by c1: class java.lang.String
 ```

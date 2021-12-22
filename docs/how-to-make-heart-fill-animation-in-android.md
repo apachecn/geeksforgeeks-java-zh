@@ -16,7 +16,7 @@
 
     ## heart . XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- geometry -->

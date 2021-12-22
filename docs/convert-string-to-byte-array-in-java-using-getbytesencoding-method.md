@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public byte[] getBytes(String charsetName) throws UnsupportedEncodingException  
 ```
 
@@ -24,7 +24,7 @@ public byte[] getBytes(String charsetName) throws UnsupportedEncodingException
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to Convert String to Byte Array
 // Using getBytes(encoding)
 
@@ -73,7 +73,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 [-2, -1, 0, 71, 0, 101, 0, 101, 0, 107, 0, 115, 0, 70, 0, 111, 0, 114, 0, 71, 0, 101, 0, 101, 0, 107, 0, 115]
 Length of String 13 Length of byte Array 28
 

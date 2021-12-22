@@ -16,7 +16,7 @@
 
 ### 类别声明
 
-```
+```java
 public final class Ennead<A, B, C, D, E, F, G, H, I>
 extends Tuple
 implements IValue0<A&gt, IValue1<B>, IValue2<C>, IValue3<D>, IValue4<E>, 
@@ -25,7 +25,7 @@ implements IValue0<A&gt, IValue1<B>, IValue2<C>, IValue3<D>, IValue4<E>,
 
 ### 类层次
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.Ennead<A, B, C, D, E, F, G, H, I> 
@@ -36,7 +36,7 @@ Object
 *   **从建造师**:
     T3】语法:
 
-```
+```java
 Ennead<A, B, C, D, E, F, G, H, I> ennead = 
     new Ennead<A, B, C, D, E, F, G, H, I>
         (value1, value2, value3, value4, value5, value6, value7, value8, value9);
@@ -46,7 +46,7 @@ Ennead<A, B, C, D, E, F, G, H, I> ennead =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Ennead tuple from Constructor
 
@@ -74,14 +74,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 *   **使用 with()方法**:with()方法是 JavaTuples 库提供的一个函数，用这样的值来实例化对象。
     **句法**:
 
-```
+```java
 Ennead<type1, type2, type3, type4, type5, type6, type7, type8> ennead = 
     Ennead.with(value1, value2, value3, value4, value5, value6, value7, value8, value9);
 ```
@@ -90,7 +90,7 @@ Ennead<type1, type2, type3, type4, type5, type6, type7, type8> ennead =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Ennead tuple from with() method
 

@@ -30,7 +30,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG App</string>
     <string name="image_desc">image</string>

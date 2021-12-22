@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public byte byteValueExact()
 ```
 
@@ -16,7 +16,7 @@ public byte byteValueExact()
 
 **例:**
 
-```
+```java
 Input: 122
 Output: 122
 Explanation: 122 is given as input which is bigInteger
@@ -39,7 +39,7 @@ therefore it throws an arithmetic exception.
 
 **程序 1:** 演示正数<127
 
-```
+```java
 // Java program to demonstrate byteValueExact()
 // method of BigInteger Class
 
@@ -69,7 +69,7 @@ public class GFG {
 
 T5】的 byteValueExact()方法输出:
 
-```
+```java
 BigInteger value : 122
 Byte converted value : 122
 
@@ -77,7 +77,7 @@ Byte converted value : 122
 
 **程序二:**演示负数> -128
 
-```
+```java
 // Java program to demonstrate byteValueExact()
 // method of BigInteger Class
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **的 byteValueExact()方法输出:**
 
-```
+```java
 BigInteger value : -46
 Byte converted value : -46
 
@@ -115,7 +115,7 @@ Byte converted value : -46
 
 **程序 3:** 演示负数< -128 的 byteValueExact()方法。它会抛出算术异常
 
-```
+```java
 // Java program to demonstrate byteValueExact()
 // method of BigInteger Class
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : -200
 Exception: java.lang.ArithmeticException: BigInteger out of byte range
 
@@ -158,7 +158,7 @@ Exception: java.lang.ArithmeticException: BigInteger out of byte range
 
 **程序 4:** 演示正数> 127 的 byteValueExact()方法。它会抛出算术异常
 
-```
+```java
 // Java program to demonstrate byteValueExact()
 // method of BigInteger Class
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : 200
 Exception: java.lang.ArithmeticException: BigInteger out of byte range
 

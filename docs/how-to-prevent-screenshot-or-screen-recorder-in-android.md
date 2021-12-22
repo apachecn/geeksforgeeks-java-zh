@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -54,7 +54,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
@@ -130,7 +130,7 @@ public class MyApplicationContext extends Application {
 
 **第二步:像下面这样在清单文件中注册**
 
-```
+```java
 <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

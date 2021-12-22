@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: boolean = true
 Output: 1
 
@@ -26,7 +26,7 @@ Output: 0
 
 **示例 1:** 当布尔值为真时
 
-```
+```java
 // Java Program to convert boolean to integer
 
 public class GFG {
@@ -59,14 +59,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 true after converting into integer = 1
 
 ```
 
 **示例 2:** 当布尔值为假时
 
-```
+```java
 // Java Program to convert boolean to integer
 
 public class GFG {
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 false after converting into integer = 0
 
 ```

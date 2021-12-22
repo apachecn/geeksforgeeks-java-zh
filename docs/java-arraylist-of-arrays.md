@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input :int array1[] = {1, 2, 3},
        int array2[] = {31, 22},
        int array3[] = {51, 12, 23}
@@ -25,7 +25,7 @@ Output: ArrayList of Arrays = {{1, 2, 3},{31, 22},{51, 12, 23}}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java ArrayList of Arrays
 import java.io.*;
 import java.util.*;
@@ -60,7 +60,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [Rohan, Ritik, Prerit]
 [23, 20]
 [Lucknow, Delhi, Jaipur]

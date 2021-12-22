@@ -6,7 +6,7 @@ Java 中**ChronalDateTiME**接口的**getTehrography()**方法获取使用中的
 
 **语法** :
 
-```
+```java
 default Chronology getChronology()
 
 ```
@@ -19,7 +19,7 @@ default Chronology getChronology()
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the getChronology() method
 
 import java.util.*;
@@ -41,7 +41,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 ISO
 
 ```

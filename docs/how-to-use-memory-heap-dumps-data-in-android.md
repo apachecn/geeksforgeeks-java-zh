@@ -77,7 +77,7 @@ Profiler 是 Android Studio 中的一项功能，它显示关于我们应用程�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GeeksforGeeksAndroid
     extends Activity implements doCourse {
     @Override

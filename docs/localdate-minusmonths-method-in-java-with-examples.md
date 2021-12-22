@@ -13,7 +13,7 @@ Java 中 **LocalDate** 类的 **minusMonths()** 方法用于从这个 LocalDate 
 
 **语法:**
 
-```
+```java
 public LocalDate minusMonths(long monthsToSubtract)
 
 ```
@@ -27,7 +27,7 @@ public LocalDate minusMonths(long monthsToSubtract)
 以下程序说明了最小月()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.minusMonths() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before subtracting months: 2018-11-13
 LocalDate after  subtracting months: 2017-08-13
 
@@ -66,7 +66,7 @@ LocalDate after  subtracting months: 2017-08-13
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.minusMonths() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before subtracting months: 2018-12-31
 LocalDate after  subtracting months: 2018-09-30
 

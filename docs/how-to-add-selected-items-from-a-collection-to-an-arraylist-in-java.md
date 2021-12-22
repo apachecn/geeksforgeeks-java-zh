@@ -24,7 +24,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to add selected items
 // from a collection to an ArrayList
 

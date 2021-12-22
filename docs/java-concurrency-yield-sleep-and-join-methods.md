@@ -23,7 +23,7 @@
 
 **语法:**
 
-```
+```java
 //  sleep for the specified number of milliseconds
 public static void sleep(long millis) throws InterruptedException
 
@@ -34,7 +34,7 @@ public static void sleep(long millis, int nanos)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // sleep() method in Java
 import java.lang.*;
@@ -78,7 +78,7 @@ public class SleepDemo implements Runnable
 
 **输出:**
 
-```
+```java
 Thread-0  0
 Thread-1  0
 Thread-0  1
@@ -99,7 +99,7 @@ join()方法最多等待这个线程死亡这么多毫秒。超时 0 意味着�
 
 **语法:**
 
-```
+```java
 // waits for this thread to die.
 public final void join() throws InterruptedException
 
@@ -113,7 +113,7 @@ The java.lang.Thread.join(long millis, int nanos)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate join() method in Java
 import java.lang.*;
 
@@ -151,7 +151,7 @@ public class JoinDemo implements Runnable
 
 **输出:**
 
-```
+```java
 Current thread: Thread-0
 Is Alive? true
 

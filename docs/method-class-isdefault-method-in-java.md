@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isDefault()
 ```
 
@@ -18,7 +18,7 @@ public boolean isDefault()
 
 **例 1:**
 
-```
+```java
 /*
 * Program Demonstrate isDefault() method 
 * of Method Class.
@@ -68,14 +68,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Method: draw is Default Method
 
 ```
 
 **例 2:**
 
-```
+```java
 /*
 * Program Demonstrate isDefault() method 
 * of Method Class.
@@ -114,7 +114,7 @@ public class Main6 {
 
 **Output:**
 
-```
+```java
 Default Methods of Comparator Interface
 reversed
 thenComparing

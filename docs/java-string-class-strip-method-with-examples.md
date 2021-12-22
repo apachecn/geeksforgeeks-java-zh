@@ -8,7 +8,7 @@ Java String Class **strip()** 方法返回一个字符串，该字符串提供�
 
 **语法:**
 
-```
+```java
 String strippedString = string.strip()
 ```
 
@@ -16,7 +16,7 @@ String strippedString = string.strip()
 
 **语法:**
 
-```
+```java
 String leadingStripString = string.stripLeading()
 ```
 
@@ -24,7 +24,7 @@ String leadingStripString = string.stripLeading()
 
 **语法:**
 
-```
+```java
 String trailedStripString = string.stripTrailing()
 ```
 
@@ -32,7 +32,7 @@ String trailedStripString = string.stripTrailing()
 
 ## 爪哇
 
-```
+```java
 // Java Program to demonstrate the use of the strip()
 // method,stripLeading() method,stripTrailing() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks For Geeks Internship    !
 Geeks For Geeks Internship    !   
         Geeks For Geeks Internship    !

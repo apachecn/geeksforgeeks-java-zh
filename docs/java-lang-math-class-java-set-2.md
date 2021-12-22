@@ -14,7 +14,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double cosh(double arg)
     Parameters:
     arg - The number whose hyperbolic cosine is to be returned.
@@ -26,7 +26,7 @@
 14.  **减量精确():** **java.lang.Math .减量精确()**方法将传递的参数值减 1。
     **语法:**
 
-    ```
+    ```java
     public static int decrementExact(int arg)
                     or
     public static long decrementExact(long arg)
@@ -48,7 +48,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double exp(double arg)
     Parameters:
     arg - argument passed. 
@@ -59,7 +59,7 @@
 
     **Java 代码，解释 lang 中的 exp()、减量 Exact()、cosh()方法。数学课。**
 
-    ```
+    ```java
     // Java program explaining lang.Math class methods
     // exp(), decrementExact(), cosh()
 
@@ -92,7 +92,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Using addExact() : 9
 
     acos value of Asini : NaN
@@ -104,7 +104,7 @@
 
 16.  **incrementExact():****Java . lang . math . incrementExact()**方法通过增加参数的值来返回参数。
 
-    ```
+    ```java
     Syntax:
     public static int incrementExact(int arg)
                    or
@@ -117,7 +117,7 @@
 
 17.  **log10():****Java . lang . math . log10()**方法返回传递的参数的 base10 对数值。
 
-    ```
+    ```java
     Syntax:
     public static double log(double arg)
     Parameters:
@@ -129,7 +129,7 @@
 
 18.  **pow() :** **java.lang.Math.pow(double b, double e)** method returns the value as **b<sup>e</sup>**
 
-    ```
+    ```java
     Syntax:
     public static double pow(double b,double e)
     Parameters:
@@ -142,7 +142,7 @@
 
     **JAVA 代码，用 lang 解释 incrementExact()，log10()，pow()方法。数学课。**
 
-    ```
+    ```java
     // Java program explaining lang.MATH class methods
     // incrementExact(), log10(), pow()
 
@@ -177,7 +177,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Incremented value of f1 : 31
     Incremented value of f2 : -55
 
@@ -189,7 +189,7 @@
 
 19.  **signum() :** **java.lang.Math.signum()** method returns the signum value of the argument passed.
 
-    ```
+    ```java
                                         -1    if x < 0
                         signum fun(x) =  0    if x = 0
                                          1    if x > 0
@@ -200,7 +200,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double signum(double x)
                    or
     public static float signum(float x)
@@ -215,7 +215,7 @@
     **注:**结果为 0，如果自变量为 NaN。
     **语法:**
 
-    ```
+    ```java
     public static long round(long arg)
                  or
     public static double round(double arg)
@@ -230,7 +230,7 @@
     This method just compares using magnitude without considering any sign.
     **Syntax:**
 
-    ```
+    ```java
     public static double max(double v1, double v2)
     Parameters:
     v1 - first value
@@ -243,7 +243,7 @@
 
     **Java 代码解释 lang 中 signum()，round()，max()方法。数学课。**
 
-    ```
+    ```java
     // Java code explaining the lang.Math Class methods
     // signum(), round(), max()
 
@@ -279,7 +279,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Signum of 10.45  = 1.0
     Signum of -23.34 = -1.0
 
@@ -293,7 +293,7 @@
 22.  **log1p():****Java . lang . math . log1p()**方法返回(传递的参数+ 1)的自然对数。
     **语法:**
 
-    ```
+    ```java
     public static double log1p(double arg)
     Parameters:
     arg - the argument
@@ -307,7 +307,7 @@
     Here, it is the least distance b/w the argument and next larger value.
     **Syntax:**
 
-    ```
+    ```java
     public static double ulp(double arg)
                   or
     public static float ulp(float arg)
@@ -320,7 +320,7 @@
 
     **Java 代码，解释 lang 中的 ulp()，log1p()方法。数学课。**
 
-    ```
+    ```java
     // Java code explaining the lang.Math Class methods
     // ulp(), log1p()
 
@@ -352,7 +352,7 @@
 
     **输出:**
 
-    ```
+    ```java
     ulp of 34.652    : 7.105427357601002E-15
     ulp of -23.34789 : 3.552713678800501E-15
 

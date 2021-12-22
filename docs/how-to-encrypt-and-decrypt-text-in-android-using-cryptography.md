@@ -29,7 +29,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```java
 **<?xml version="1.0" encoding="utf-8"?> 
 <resources> 
     <color name="colorPrimary">#6200EE</color> 
@@ -43,7 +43,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```java
 **<resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">

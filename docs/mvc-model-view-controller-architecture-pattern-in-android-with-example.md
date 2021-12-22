@@ -41,7 +41,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GfG | MVC Architecture</string>
     <string name="Heading">MVC Architecture Pattern</string>
@@ -56,7 +56,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -156,7 +156,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class Model extends Observable {
@@ -196,7 +196,7 @@ public class Model extends Observable {
 
 ## 我的锅
 
-```
+```java
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -240,7 +240,7 @@ class Model : Observable() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -321,7 +321,7 @@ public class MainActivity extends AppCompatActivity implements Observer, View.On
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import android.view.View
 import android.widget.Button

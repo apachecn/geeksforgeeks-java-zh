@@ -4,7 +4,7 @@
 
 一个[转义序列](https://www.geeksforgeeks.org/escape-sequences-in-java/)是一个字符或一个字符序列，其目的是实现那些他们不从字面上表示的字符，否则这些字符可能无法表示。这类字符的一些例子包括**退格、** **换行符**、**水平或垂直制表符**，等等。在 java 中，这些序列由反斜杠“\”前面的**表示，属于**字符数据类型。**Java 中共有 **8 个转义序列**。它们如下所示:**
 
-```
+```java
 **Tab : '\t'**
 **Newline : '\n'**
 **Backspace : '\b'**
@@ -38,7 +38,7 @@
 
 ## Java
 
-```
+```java
 // Java code to store escape sequences
 // as character literals
 
@@ -108,7 +108,7 @@ class StoreCharacterLiterals {
 
 **输出**
 
-```
+```java
 This     is an implementation of tab
 Thi is an implementation of backspace
 This
@@ -128,7 +128,7 @@ This\ is an implementation  of backslash
 
 ## Java
 
-```
+```java
 // Java code to store escape sequences
 // as character literals
 
@@ -207,7 +207,7 @@ class StoreCharacterLiterals {
 
 **输出**
 
-```
+```java
 This     is an implementation of tab
 Thi is an implementation of backspace
 This

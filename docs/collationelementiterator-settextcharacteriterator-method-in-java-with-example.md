@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setText(CharacterIterator source)
 ```
 
@@ -18,7 +18,7 @@ public void setText(CharacterIterator source)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setText() method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 primary order for order 1 is 84
 primary order for order 2 is 97
 primary order for order 3 is 85
@@ -82,7 +82,7 @@ primary order for order 4 is 87
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setText() method
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 primary order for order 1 is 89
 primary order for order 2 is 87
 primary order for order 3 is 87

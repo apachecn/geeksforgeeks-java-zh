@@ -5,7 +5,7 @@
 [**Float 类**](https://www.geeksforgeeks.org/java-lang-float-class-in-java/) 中的**IsInfinish()**方法是 Java 中的一个内置方法，如果这个 Float 值或指定的 Float 值在数量级上无限大，则返回 true，否则返回 false。
 **语法:**
 
-```
+```java
 public boolean isInfinite()
         or
 public static boolean isInfinite(float val)
@@ -18,7 +18,7 @@ public static boolean isInfinite(float val)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // Float isInfinite() method
 // without parameter
@@ -58,7 +58,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Infinity is infinity
 NaN is not infinity
 ```
@@ -67,7 +67,7 @@ NaN is not infinity
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // Float isInfinite() method
 // with parameter
@@ -107,7 +107,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Infinity is infinity
 NaN is not infinity
 ```

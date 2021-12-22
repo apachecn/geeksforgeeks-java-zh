@@ -5,7 +5,7 @@
 **Java . time . chrono . Minguo 年表**类的 **dateEpochDay()** 方法用于从大纪元日开始，根据 Minguo 日历系统获取当地日期。
 **语法:**
 
-```
+```java
 public MinguoDate dateEpochDay(long epochDay)
 ```
 
@@ -17,7 +17,7 @@ public MinguoDate dateEpochDay(long epochDay)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Minguo() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current MinguoDate is: Minguo ROC 110-06-22
 
 MinguoDate(according to ephochday) is: Minguo ROC 123-03-22
@@ -72,7 +72,7 @@ MinguoDate(according to ephochday) is: Minguo ROC 123-03-22
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Minguo() method
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current MinguoDate is: Minguo ROC 110-06-22
 
 MinguoDate(according to ephochday) is: Minguo ROC 701-03-24

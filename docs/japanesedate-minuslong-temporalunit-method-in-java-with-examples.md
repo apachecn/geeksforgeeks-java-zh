@@ -5,7 +5,7 @@
 **Java . time . chrono . japanesedate**类的**减()**方法用于在从当前日语日期中减去一定数量的时间访问器单位后获得日语日期。
 **语法:**
 
-```
+```java
 public JapaneseDate minus(long amountToAdd,
                           TemporalUnit unit)
 ```
@@ -21,7 +21,7 @@ public JapaneseDate minus(long amountToAdd,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate minus() method
 
 import java.util.*;
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 old japanese date: Japanese Heisei 32-03-23
 new japanese date: Japanese Heisei 32-03-01
 ```

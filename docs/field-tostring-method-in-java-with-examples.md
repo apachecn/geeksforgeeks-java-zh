@@ -6,7 +6,7 @@
 
 **例如:**
 
-```
+```java
 public static final Month java.time.Month.APRIL
 ```
 
@@ -14,7 +14,7 @@ public static final Month java.time.Month.APRIL
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -26,7 +26,7 @@ public String toString()
 下面的程序说明了 toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate toString() method
 
 import java.lang.reflect.Field;
@@ -93,7 +93,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Field: public static double User.Marks
 Field: public static float User.Fees
 Field: public static java.lang.String User.name
@@ -102,7 +102,7 @@ Field: public static java.lang.String User.name
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate toString() method
 
 import java.lang.reflect.Field;

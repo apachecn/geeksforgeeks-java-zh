@@ -15,7 +15,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static boolean isDigit(char ch)
 
     ```
@@ -29,7 +29,7 @@
     以下程序说明了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate the
     // Character.isDigit() method
 
@@ -58,7 +58,7 @@
 
     **Output:**
 
-    ```
+    ```java
     A is a digit -> false
     4 is a digit -> true
 
@@ -66,7 +66,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate the
     // Character.isDigit() method
 
@@ -122,7 +122,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Digit found at : 4th position.
     Digit not present.
 
@@ -141,7 +141,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isDigit(int codePoint)
 
 ```
@@ -153,7 +153,7 @@ public static boolean isDigit(int codePoint)
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```java
 // This program demonstrates the use of
 // isDigit(int codePoint) method of Character class.
 import java.util.*;
@@ -179,7 +179,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The codePoint cp1 is a digit -> true
 The codePoint cp2 is a digit -> false
 
@@ -187,7 +187,7 @@ The codePoint cp2 is a digit -> false
 
 **程序 2:**
 
-```
+```java
 // This program demonstrates the use of
 // isDigit(int codePoint) method of
 // Character class.
@@ -214,7 +214,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 The codePoint cp1 is a digit -> false
 The codePoint cp2 is a digit -> true
 

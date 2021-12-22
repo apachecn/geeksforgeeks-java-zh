@@ -21,7 +21,7 @@
 
 ## Java
 
-```
+```java
 import java.util.*;
 public class GFG {
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Absolute difference of sum of odd and even nodes of a binary tree 4
 ```
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> Stream<T> getStream(T[] arr)
 {
   return Arrays.stream(arr);
@@ -20,7 +20,7 @@ where, T represents generic type.
 
 **示例 1 :** Arrays.stream()将字符串数组转换为流。
 
-```
+```java
 // Java code for converting string array
 // to stream using Arrays.stream()
 import java.util.*;
@@ -45,14 +45,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks for Geeks 
 
 ```
 
 **示例 2 :** Arrays.stream()将 int 数组转换为 stream。
 
-```
+```java
 // Java code for converting string array
 // to stream using Arrays.stream()
 import java.util.*;
@@ -74,14 +74,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 2 3 4 5 
 
 ```
 
 **示例 3 :** Arrays.stream()将长数组和双数组转换为 stream。
 
-```
+```java
 // Java code for converting string array
 // to stream using Arrays.stream()
 import java.util.*;
@@ -109,7 +109,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3 5 6 8 9 
 1.0 2.0 3.0 4.0 5.0 
 
@@ -119,7 +119,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 public static <T> Stream<T> getStream(T[] arr)
 {
   return Stream.of(arr);
@@ -135,7 +135,7 @@ Syntax of other functions is similar
 
 **示例 1 :** Arrays.stream()将字符串数组转换为流。
 
-```
+```java
 // Java code for converting string array
 // to stream using Stream.of()
 import java.util.*;
@@ -160,14 +160,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks for Geeks 
 
 ```
 
 **示例 2 :** Arrays.stream()将 int 数组转换为 stream。
 
-```
+```java
 // Java code for converting string array
 // to stream using IntStream.of()
 import java.util.*;
@@ -189,14 +189,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 2 3 4 5 
 
 ```
 
 **示例 3 :** Arrays.stream()将长数组和双数组转换为 stream。
 
-```
+```java
 // Java code for converting string array
 // to stream using  DoubleStream.of()
 import java.util.*;
@@ -224,7 +224,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3 5 6 8 9 
 1.0 2.0 3.0 4.0 5.0 
 

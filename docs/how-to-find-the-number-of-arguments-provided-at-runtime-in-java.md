@@ -10,7 +10,7 @@ Java **命令行参数**是在程序运行的**时间传递的参数。也就是
 
 ## Java
 
-```
+```java
 // Java code with main method. 
 // It has an input argument
 // with String[] datatype

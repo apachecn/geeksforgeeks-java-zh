@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void push(E e)
 
 Here, E is the type of element maintained 
@@ -29,7 +29,7 @@ by this collection class.
 
 **程序 1:** 该程序涉及字符类型的并发链接请求。
 
-```
+```java
 // Java program to demonstrate push()
 // method of ConcurrentLinkedDeque
 
@@ -58,14 +58,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: [Geeks, For, Geeks, To, Welcome]
 
 ```
 
 **程序 2:** 显示空指针异常。
 
-```
+```java
 // Java program to demonstrate push()
 // method of ConcurrentLinkedDeque
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: []
 Trying to add null in ConcurrentLinkedDeque
 java.lang.NullPointerException

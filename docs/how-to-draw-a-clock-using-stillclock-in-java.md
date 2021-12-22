@@ -11,7 +11,7 @@
 *   画一个钟，画一个圆和三只手代表一秒钟、一分钟和一小时。
 *   一端是(xCenter，yCenter)的时钟中心，另一端(xEnd，yEnd)由，
 
-    ```
+    ```java
     xEndpart = yCenter + handLength X sin(0)
     yEndpart = yCenter + handLength X cos(0)
 
@@ -20,21 +20,21 @@
     决定
 *   秒针角度(一分钟六十秒)
 
-    ```
+    ```java
     second*(2*pi/60)
 
     ```
 
 *   分针的角度是，
 
-    ```
+    ```java
     (minute + second/60)*(2*pi/60)
 
     ```
 
 *   因为，一个圆被分成十二个小时，时针的角度是，
 
-    ```
+    ```java
     (hour + minute/60 + second/(60*60)) * (2*pi/12)
 
     ```
@@ -43,7 +43,7 @@
 
 **示例:**
 
-```
+```java
 // Java program to draw a Clock
 // using StillClock in Java
 

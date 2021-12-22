@@ -11,7 +11,7 @@
 
 输入字符串元素，如下所示:
 
-```
+```java
 Input : "Aashish:1, Bina:2, Chintu:3"
 ```
 
@@ -24,7 +24,7 @@ Input : "Aashish:1, Bina:2, Chintu:3"
 
 *   首先，我们用逗号分割字符串，并将其存储在数组部分中。拆分后我们有以下内容:
 
-```
+```java
 "Aashish:1","Bina:2", "Chintu:3"
 ```
 
@@ -38,7 +38,7 @@ Input : "Aashish:1, Bina:2, Chintu:3"
 
 字符串元素的输入数组如下，将在第 1 阶段输出
 
-```
+```java
 String stuName[] = {"Aashish","Bina","Chintu"}
 Integer stuRollNo[] = {1,2,3}
 ```
@@ -51,7 +51,7 @@ Integer stuRollNo[] = {1,2,3}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Convert String or String array to HashMap In Java
 
 // Phase 1: Input- String converted to ArrayofStrings
@@ -97,7 +97,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String to HashMap: {Chintu=3, Bina=2, Aashish=1}
 ```
 
@@ -105,7 +105,7 @@ String to HashMap: {Chintu=3, Bina=2, Aashish=1}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Convert String or String array to HashMap In Java
 
 // Phase 2: Input- Array of strings converted to HashMap.
@@ -144,6 +144,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 String to hashmap: {1=Aashish, 2=Bina, 3=Chintu}
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Provider getProvider()
 ```
 
@@ -16,7 +16,7 @@ public final Provider getProvider()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -61,6 +61,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Provider: SUN version 1.8
 ```

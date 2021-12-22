@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Arraylist<DataType> al = new ArrayList<Datatype> ;
 ```
 
@@ -14,7 +14,7 @@ Arraylist<DataType> al = new ArrayList<Datatype> ;
 
 **语法:**
 
-```
+```java
 ArrayList <E> list = new ArrayList <> ();
 ```
 
@@ -22,14 +22,14 @@ ArrayList <E> list = new ArrayList <> ();
 
 **语法:**
 
-```
+```java
 ArrayList<Integer> al = new Arraylist<Integer>() ;
 al.add(1) ;
 ```
 
 **语法:**
 
-```
+```java
 ArrayList alobj = new Arraylist() ;
 alobj(new Integer(1)) ;
 ```
@@ -55,25 +55,25 @@ alobj(new Integer(1)) ;
 
 假设我们不知道 java 中自定义数组列表的概念，那么我们将生成下面列出的单个数组列表。因为我们定义了 4 个数组列表，并相应地在每个列表中保存数据。
 
-```
+```java
 ArrayList<Integer> roll = new ArrayList<>();  // roll number
 ```
 
-```
+```java
  ArrayList<String> name = new ArrayList<>(); // name
 ```
 
-```
+```java
 ArrayList<Integer> marks = new ArrayList<>(); //  marks
 ```
 
-```
+```java
 ArrayList<Long> phone = new ArrayList<>();  // phone number 
 ```
 
 现在，我们将对它们中的每一个进行迭代，以获取学生数据，这在更大程度上增加了我们程序的时间复杂性，如下所示。
 
-```
+```java
 for (int i = 0; i < n; i++) 
 {
 
@@ -100,7 +100,7 @@ for (int i = 0; i < n; i++)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Custom ArrayList
 
 // Importing ArrayList class from java.util package
@@ -215,7 +215,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1 Shubham 100 8762357381
 2 Atul 99 8762357382
 3 Ayush 93 8762357383

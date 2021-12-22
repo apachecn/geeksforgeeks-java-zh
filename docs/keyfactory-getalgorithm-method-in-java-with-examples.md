@@ -5,7 +5,7 @@
 **java.security.KeyFactory** 类的 **getAlgorithm(** )方法用于获取与此 KeyFactory 关联的算法的名称。
 **语法:**
 
-```
+```java
 public final String getAlgorithm()
 ```
 
@@ -15,7 +15,7 @@ public final String getAlgorithm()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm()  method
 
@@ -53,7 +53,7 @@ public class GFG1 {
 
 **Output**
 
-```
+```java
 Algorithm : DSA
 
 ```
@@ -62,7 +62,7 @@ Algorithm : DSA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm()  method
 
@@ -101,7 +101,7 @@ public class GFG1 {
 
 **Output**
 
-```
+```java
 Algorithm : DiffieHellman
 
 ```

@@ -8,13 +8,13 @@
 
 **语法:**导入模块处理图像:
 
-```
+```java
 import org.opencv.imgproc.Imgproc;
 ```
 
 **语法:**使用本类的 *putText()* 方法如下:
 
-```
+```java
 putText(image, text, org, fontType, fontSize, color, thickness)
 
 ```
@@ -45,7 +45,7 @@ putText(image, text, org, fontType, fontSize, color, thickness)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing all OpenCV files
 import org.opencv.*;
 import org.opencv.imgproc.Imgproc;

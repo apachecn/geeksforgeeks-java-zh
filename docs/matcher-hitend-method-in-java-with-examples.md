@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean hitEnd()
 
 ```
@@ -19,7 +19,7 @@ public boolean hitEnd()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate hitEnd() method
 
 import java.util.regex.*;
@@ -64,7 +64,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Group matched: Geeks
 Has matching hit end: false
 Group matched: Geeks
@@ -79,7 +79,7 @@ Has matching hit end: true
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate hitEnd() method
 
 import java.util.regex.*;
@@ -124,7 +124,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Group matched: GFG
 Has matching hit end: false
 Group matched: GFG

@@ -10,7 +10,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -60,7 +60,7 @@
 
 > **com.whatsapp** 是官方 whatsapp 应用的包名。
 
-```
+```java
 private void sendMessage(String message)
 {
 
@@ -97,7 +97,7 @@ private void sendMessage(String message)
 
 **第 4 步:**将**开监听器**设置为按钮。它接受用户输入的文本，并调用功能**发送消息**，其中文本消息作为参数发送。
 
-```
+```java
 submit.setOnClickListener(
     new View.OnClickListener() {
         @Override
@@ -122,7 +122,7 @@ submit.setOnClickListener(
 
 ## MainActivity.java
 
-```
+```java
 package com.gfg;
 
 import androidx.appcompat

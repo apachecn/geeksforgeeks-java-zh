@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static IntBuffer wrap(int[] array)
 ```
 
@@ -20,7 +20,7 @@ public static IntBuffer wrap(int[] array)
 
 示例 1:
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1, 2, 3]
@@ -85,7 +85,7 @@ wrap()方法将 int 数组包装到缓冲区中。给定的 int 数组将支持�
 
 **语法:**
 
-```
+```java
 public static IntBuffer 
     wrap (int[] array, int offset, int length)
 ```
@@ -104,7 +104,7 @@ public static IntBuffer
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -151,7 +151,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1, 2, 3]
@@ -166,7 +166,7 @@ intbuffer position: 0
 
 **示例 2:** 演示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -224,7 +224,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1, 2, 3]

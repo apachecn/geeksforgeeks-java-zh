@@ -10,7 +10,7 @@
 
 **例如**
 
-```
+```java
  Input:  str1="cat"  str2="cat"
  Output: 0
 
@@ -46,7 +46,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Implement Wagner and Fisher
 // Algorithm for online String Matching
 
@@ -106,7 +106,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 2
 ```
 

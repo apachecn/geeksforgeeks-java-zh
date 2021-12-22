@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static LocalDate of(int year,
                                int month,
                                int dayOfMonth)
@@ -26,7 +26,7 @@
     下面的程序说明了 Java 中的(int month)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDate.of(int month) method
 
@@ -48,14 +48,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Date: 2020-05-13
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDate.of(int month) method
 
@@ -78,7 +78,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Year: 2020
 
     ```
@@ -87,7 +87,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static LocalDate of(int year,
                                Month month,
                                int dayOfMonth)
@@ -107,7 +107,7 @@
     下面的程序说明了 Java 中的月方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDate.of(Month month) method
 
@@ -130,14 +130,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Date: 2020-05-13
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDate.of(Month month) method
 
@@ -160,7 +160,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Month: MAY
 
     ```

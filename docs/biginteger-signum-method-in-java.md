@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public int signum()
 ```
 
@@ -20,7 +20,7 @@ public int signum()
 
 **示例:**
 
-```
+```java
 Input: 2300 
 Output: 1
 Explanation: 2300 is positive number 
@@ -34,7 +34,7 @@ Output: -1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program Demonstrate signum() method of BigInteger
 
 import java.math.*;
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 BigInteger 2300 is positive and Sing value is 1
 ```
 

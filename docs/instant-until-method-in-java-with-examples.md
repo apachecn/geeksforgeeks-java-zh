@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long until(Temporal endExclusive, TemporalUnit unit)
 
 ```
@@ -24,7 +24,7 @@ public long until(Temporal endExclusive, TemporalUnit unit)
 以下程序说明了直到()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.until() method
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result in Minutes: 1063
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.until() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result in DAYS: 3287
 
 ```

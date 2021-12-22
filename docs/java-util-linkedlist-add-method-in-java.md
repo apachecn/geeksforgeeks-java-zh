@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 boolean add(Object element)
 ```
 
@@ -26,7 +26,7 @@ boolean add(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate add() Method
 // of LinkedList class
 // Where we are Adding at Last of List
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The list is:[Geeks, for, Geeks, 10, 20]
 The new List is:[Geeks, for, Geeks, 10, 20, Last, Element]
 ```
@@ -80,7 +80,7 @@ The new List is:[Geeks, for, Geeks, 10, 20, Last, Element]
 
 **语法:**
 
-```
+```java
 void add(int index, Object element)
 ```
 
@@ -95,7 +95,7 @@ void add(int index, Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate add() Method
 // of LinkedList class
 // Adding at a Specified Index
@@ -135,7 +135,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [Geeks, For, Geeks]
 [Geeks, For, Java, Geeks]
 ```

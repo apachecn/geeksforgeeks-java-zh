@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getModifiers()
 ```
 
@@ -16,7 +16,7 @@ public int getModifiers()
 
 **程序 1:** 当在类的方法对象上应用 getModifiers()时，该程序打印方法的修饰符。
 
-```
+```java
 // Program Demonstrate how to apply getModifiers() method
 // of Method Class.
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modifier of setValue():
 public
 
@@ -71,7 +71,7 @@ public
 
 **程序 2:** 程序演示如何应用方法类的 getModifiers()方法。程序打印演示类的所有方法的修饰符名称。
 
-```
+```java
 // Program Demonstrate how to apply getModifiers() method
 // of Method Class.
 
@@ -130,7 +130,7 @@ class democlass {
 
 **输出:**
 
-```
+```java
 Modifier of method name:method1
 public static
 Modifier of method name:method2

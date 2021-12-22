@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean contains(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // contains() method in Java
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [32, 67, 100]
 100 is present in the Set
 20 is not present in the Set
@@ -75,7 +75,7 @@ CopyOnWriteArraySet: [32, 67, 100]
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // contains() method in Java
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [geeks, gfg, jgec, sudo]
 gfg is present in the Set
 best is not present in the Set

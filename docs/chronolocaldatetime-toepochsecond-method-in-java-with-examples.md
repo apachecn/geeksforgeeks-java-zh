@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default long toEpochSecond(ZoneOffset offset)
 
 ```
@@ -19,7 +19,7 @@ default long toEpochSecond(ZoneOffset offset)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.toEpochSecond() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime: 2019-12-31T19:15:30
 Passed ZoneOffset: Z
 Epoch Second: 1577819730
@@ -64,7 +64,7 @@ Epoch Second: 1577819730
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.toEpochSecond() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime: 2018-10-25T23:12:31.123
 Passed ZoneOffset: Z
 Epoch Second: 1540509151

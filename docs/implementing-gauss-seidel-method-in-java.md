@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 Enter the number of variables in the equation:
 2
@@ -65,7 +65,7 @@ X41 = {-0.9999999999999993 1.9999999999999996 }
 
 给定一组 n 个方程和 n 个未知数:
 
-```
+```java
 a11x1+a12x2+a13x3+......+a1nxn=c1
 
 a21x1+a22x2+a23x3+......+a2nxn=c2
@@ -77,7 +77,7 @@ a1nx1+a2nx2+a3nx3+......+annxn=cn
 
 如果对角元素为非零，则为对应的未知重写每个方程，即第一个方程用左手边的 x <sub>1</sub> 重写，第二个方程用左手边的 x <sub>2</sub> 重写，依此类推:
 
-```
+```java
 x1=(c1-a12x2-a13x3-....-a1nxn)/a11
 x2=(c2-a21x1-a23x3-....-a2nxn)/a22
 .
@@ -88,7 +88,7 @@ xn=(cn-an1x1-an2x2-....-an.n-1xn-1)/ann
 
 。这些方程可以改写为:
 
-```
+```java
 x1=(c1-n<sup>j=1,j!=1</sup>∑a1jxj)/a11
 x2=(c2-n<sup>j=1,j!=2</sup>∑a2jxj)/a22
 .
@@ -99,7 +99,7 @@ x2=(cn-n<sup>j=1,j!=n</sup>∑anjxj)/ann
 
 因此，对于任何一行**I；**
 
-```
+```java
 x<sub>i</sub>=(c<sub>i</sub>- <sup>n</sup><sub><sup>j=i,j!=i</sup></sub>∑a<sub>ij</sub>x<sub>j</sub>)/a<sub>ii</sub> , i=1,2,..,n
 ```
 
@@ -107,19 +107,19 @@ x<sub>i</sub>=(c<sub>i</sub>- <sup>n</sup><sub><sup>j=i,j!=i</sup></sub>∑a<sub
 
 **简而言之，对于线性方程组，假设:**
 
-```
+```java
 **Ax=b**
 ```
 
 ****推导公式:****
 
-```
+```java
 **x<sub>i<sup>(k)=(bi-∑j<i a i j x j(k)-∑j>i a i j x j(k-1))/aii</sup></sub>**
 ```
 
 **就矩阵而言，高斯-塞德尔的定义:**
 
-```
+```java
 **x<sup>(k)=(D-L)-1(Ux(k-1)+b)</sup>**
 ```
 
@@ -137,7 +137,7 @@ x<sub>i</sub>=(c<sub>i</sub>- <sup>n</sup><sub><sup>j=i,j!=i</sup></sub>∑a<sub
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Implementing Gauss Seidel Method in Java
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -272,7 +272,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The system isn't diagonally dominant: The method cannot guarantee convergence.
 
 1.0 2.0 3.0 

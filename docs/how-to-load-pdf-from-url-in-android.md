@@ -32,7 +32,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +56,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.AsyncTask;
 import android.os.Bundle;
 
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
 
 > **注意:**如果你已经更新到 Android Studio 4.0 或更高版本，那么你可能会面临以下错误
 > 
-> ```
+> ```java
 > Execution failed for task ':app:stripDebugDebugSymbols'.
 > NDK at ~/Library/Android/sdk/ndk-bundle did not have a source.properties file
 > ```

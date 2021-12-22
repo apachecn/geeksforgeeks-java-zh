@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> 
     Collector<T, ?, Double> 
         averagingLong(ToLongFunction<? super T> mapper)
@@ -32,7 +32,7 @@ public static <T>
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // averagingLong(ToLongFunction mapper) function
 
@@ -63,14 +63,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 4.0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java code to show the implementation of
 // averagingLong(ToLongFunction mapper) function
 
@@ -101,14 +101,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 8.5
 
 ```
 
 **程序 3:** 当没有值作为参数传递时。
 
-```
+```java
 // Java code to show the implementation of
 // averagingLong(ToLongFunction mapper) function
 
@@ -139,7 +139,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 0.0
 
 ```

@@ -8,7 +8,7 @@ Java 中 **ByteArrayOutputStream** 类的 **toString()** 方法有两种使用�
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -25,7 +25,7 @@ public String toString()
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream toString() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
@@ -67,7 +67,7 @@ GEEKS
 
 **语法:**
 
-```
+```java
 public String toString(String charsetName)
       throws UnsupportedEncodingException
 
@@ -83,7 +83,7 @@ public String toString(String charsetName)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream
 // toString(String charsetName) method
@@ -124,14 +124,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream
 // toString(String charsetName) method
@@ -172,7 +172,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CharsetName not supported
 
 ```

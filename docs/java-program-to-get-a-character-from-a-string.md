@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = "Geeks", index = 2
 Output: e
 
@@ -24,7 +24,7 @@ Output: F
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to get a specific character
     // from a given String at a specific index
 
@@ -59,7 +59,7 @@ Output: F
 
     **Output:**
 
-    ```
+    ```java
     Character from GeeksForGeeks at index 5 is F
 
     ```
@@ -72,7 +72,7 @@ Output: F
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to get a specific character
     // from a given String at a specific index
 
@@ -106,7 +106,7 @@ Output: F
 
     **Output:**
 
-    ```
+    ```java
     Character from GeeksForGeeks at index 5 is F
 
     ```
@@ -121,7 +121,7 @@ Output: F
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to get a specific character
     // from a given String at a specific index
 
@@ -164,7 +164,7 @@ Output: F
 
     **Output:**
 
-    ```
+    ```java
     Character from GeeksForGeeks at index 5 is F
 
     ```
@@ -177,7 +177,7 @@ Output: F
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to get a specific character
     // from a given String at a specific index
 
@@ -211,7 +211,7 @@ Output: F
 
     **Output:**
 
-    ```
+    ```java
     Character from GeeksForGeeks at index 5 is F
 
     ```
@@ -225,7 +225,7 @@ Output: F
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to get a specific character
     // from a given String at a specific index
 
@@ -268,7 +268,7 @@ Output: F
 
     **Output:**
 
-    ```
+    ```java
     Character from GeeksForGeeks at index 5 is F
 
     ```

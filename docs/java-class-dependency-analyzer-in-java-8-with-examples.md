@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 // Simple Java program to see the jdeps
 // generated output with various options
 
@@ -36,7 +36,7 @@ class Geeks {
 
 **输出:**
 
-```
+```java
 jdeps Geeks.class
 ```
 
@@ -48,7 +48,7 @@ jdeps Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeps -dotoutput C:\Users\DubeyBis\Desktop\jdeps Geeks.class
     ```
 
@@ -56,7 +56,7 @@ jdeps Geeks.class
 
     **极客.类.点**
 
-    ```
+    ```java
     digraph "Geeks.class" {
         // Path: Geeks.class
        ""                  -> "java.io (java.base)";
@@ -69,7 +69,7 @@ jdeps Geeks.class
 
     **小结点**
 
-    ```
+    ```java
     digraph "summary" {
       "Geeks.class"        -> "rt.jar";
     }
@@ -80,7 +80,7 @@ jdeps Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeps -summary Geeks.class
     ```
 
@@ -90,7 +90,7 @@ jdeps Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeps -verbose Geeks.class
     ```
 
@@ -101,7 +101,7 @@ jdeps Geeks.class
 
     **输出:**
 
-    ```
+    ```java
     jdeps -verbose:class Geeks.class
     ```
 

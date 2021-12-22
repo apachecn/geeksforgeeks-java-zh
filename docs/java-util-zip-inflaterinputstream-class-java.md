@@ -13,7 +13,7 @@
 
 *   **int available() :** 达到 EOF 后返回 0，否则总是返回 1。
 
-    ```
+    ```java
     Syntax : public int available()
                   throws IOException
     Returns:
@@ -25,7 +25,7 @@
 
 *   **void close() :** 关闭此输入流并释放与该流相关联的任何系统资源。
 
-    ```
+    ```java
     Syntax : public void close()
                throws IOException
     Throws:
@@ -35,7 +35,7 @@
 
 *   **受保护的空白填充():**用更多要解压缩的数据填充输入缓冲区。
 
-    ```
+    ```java
     Syntax : protected void fill()
                  throws IOException
     Throws: IOException
@@ -44,7 +44,7 @@
 
 *   **无效标记(int readlimit) :** 标记该输入流中的当前位置。
 
-    ```
+    ```java
     Syntax : public void mark(int readlimit)
     Parameters:
     readlimit - the maximum limit of bytes that can be read
@@ -53,7 +53,7 @@
 
 *   **布尔标记支持():**测试该输入流是否支持标记和重置方法。
 
-    ```
+    ```java
     Syntax : public boolean markSupported()
     Returns:
     a boolean indicating if this stream type supports the mark and reset methods.
@@ -62,7 +62,7 @@
 
 *   **int read() :** 读取一个字节的未压缩数据。
 
-    ```
+    ```java
     Syntax : public int read()
              throws IOException
     Returns: the byte read, or -1 if end of compressed input is reached
@@ -72,7 +72,7 @@
 
 *   **int read(byte[] b，int off，int len) :** 将未压缩的数据读入字节数组。
 
-    ```
+    ```java
     Syntax : public int read(byte[] b,
            int off,
            int len)
@@ -91,7 +91,7 @@
 
 *   **void reset() :** 将此流重新定位到上次在此输入流上调用 mark 方法时的位置。
 
-    ```
+    ```java
     Syntax : public void reset()
                throws IOException
     Throws:
@@ -101,7 +101,7 @@
 
 *   **长跳过(长 n) :** 跳过指定数量的未压缩数据字节。
 
-    ```
+    ```java
     Syntax : public long skip(long n)
               throws IOException
     Parameters:
@@ -115,7 +115,7 @@
 
 **程序:**
 
-```
+```java
 //Java program to demonstrate InflaterInputStream
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -179,7 +179,7 @@ class InflaterInputStreamDemo
 
 **输出:**
 
-```
+```java
 1
 false
 3456789

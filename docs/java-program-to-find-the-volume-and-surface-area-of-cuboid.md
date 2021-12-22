@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : 20 15 10
 Output : Surface Area = 1300
          Volume = 3000 
@@ -31,7 +31,7 @@ Output : Surface Area = 1000
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Volume and Surface Area of
 // Cuboids
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The Surface area of cuboid is : 1300.0
 The Volume of the cuboid is : 3000.0
 ```
@@ -70,7 +70,7 @@ The Volume of the cuboid is : 3000.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -97,7 +97,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The Surface area of cuboid is : 1000.0
 The Volume of the cuboid is : 1500.0
 ```

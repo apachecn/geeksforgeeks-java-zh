@@ -6,7 +6,7 @@
 
 **语法:**创建整数类型的数组列表如下。
 
-```
+```java
 List<Integer> list = new ArrayList <Integer>();
 ```
 
@@ -16,7 +16,7 @@ List<Integer> list = new ArrayList <Integer>();
 
 **对象**类是类层次结构的根。Java 中的每个类都在直接或间接地扩展它。如果一个类没有从任何其他类继承，那么它直接扩展对象类，否则如果它扩展任何类，那么它从它的基类间接扩展对象类。我们可以使用下面提到的语法使用**对象**类来声明我们的数组列表。
 
-```
+```java
 ArrayList<Object> list = new ArrayList<Object>();
 ```
 
@@ -24,7 +24,7 @@ ArrayList<Object> list = new ArrayList<Object>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create an ArrayList with
 // Multiple Object Types in Java
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList after all insertions: GeeksForGeeks 14 1800 6.0 1.99 
 ArrayList after modifications: 50 10.0 1800 6.0 1.99
 ```

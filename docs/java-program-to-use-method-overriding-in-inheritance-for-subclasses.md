@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the overriding using inheritance in
 // subclasses
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Inside show() method of Grandpa class
 Inside show() method of Dad class
 Inside show() method of Me class
@@ -101,7 +101,7 @@ Inside show() method of Me class
 
 如果我们试图使用爷爷()类的引用变量来调用 display()函数，我们会得到下面的错误。
 
-```
+```java
 dad.display();
 me.display();
 
@@ -119,7 +119,7 @@ GFG.java:53: error: cannot find symbol
 
 我们可以通过使用下面提到的语法，使我们的爸爸类型或我类型的引用变量引用爸爸和我类的对象来解决这个问题。
 
-```
+```java
 Dad dad1 = new Dad();
 Dad me1 = new Me();
 dad1.display();
@@ -130,7 +130,7 @@ me1.display();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the overriding using inheritance in
 // subclasses when subclass contains methods other than that
 // of the parent/ superclass
@@ -210,7 +210,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Inside show() method of Grandpa class
 Inside show() method of Dad class
 Inside show() method of Me class

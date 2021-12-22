@@ -6,7 +6,7 @@ JavaScript 对象符号(JSON)是一种标准的基于文本的格式，用于表
 
 以下示例显示了一个具有名称-值对的 JSON 对象:
 
-```
+```java
 {
    "firstName": "Duke",
    "lastName": "Java",
@@ -41,7 +41,7 @@ JavaScript 对象符号(JSON)是一种标准的基于文本的格式，用于表
 
 JSON 对象的示例代码如下图所示
 
-```
+```java
 {
     "name" : "GeeksforGeeks",
     "description" : "An educational website"
@@ -57,13 +57,13 @@ JSON 对象的示例代码如下图所示
 
 插图:
 
-```
+```java
 [1, 2, 3, 4]
 ```
 
 JsonObject 和 JsonArray 也可以用嵌套的方式来表示某种特殊的数据。您可以使用数组中的对象，也可以使用对象中的数组。
 
-```
+```java
 {
     "employees":[
         {"firstName":"John", "lastName":"Doe"},
@@ -82,7 +82,7 @@ JsonObject 和 JsonArray 也可以用嵌套的方式来表示某种特殊的数�
 
 现在让我们开始安装 javax.json API。因此，如果您正在使用一个 Maven 项目，那么将这个依赖项添加到您的 *pom.xml* 文件中:
 
-```
+```java
 <dependency>
     <groupId>javax.json</groupId>
     <artifactId>javax.json-api</artifactId>
@@ -100,7 +100,7 @@ JsonObject 和 JsonArray 也可以用嵌套的方式来表示某种特殊的数�
 
 让我们假设我们有一个 *sample.txt* ，它存储 JSON 数据如下:
 
-```
+```java
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -140,7 +140,7 @@ JsonObject 和 JsonArray 也可以用嵌套的方式来表示某种特殊的数�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a JsonStructure of an already
 // existing data in the JSON format
 
@@ -264,7 +264,7 @@ public class CreateObjectModelFromJSONData {
 
 **输出**
 
-```
+```java
 OBJECT
 Key firstName: STRING John
 Key lastName: STRING Smith
@@ -291,7 +291,7 @@ Key number: STRING 646 555-4567
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a Json object from scratch using
 // JsonObjectBuilder and navigate it.
 
@@ -412,7 +412,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 OBJECT
 Key firstName: STRING Duke
 Key lastName: STRING Java
@@ -438,7 +438,7 @@ Key number: STRING 222-222-2222
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Progra to Write the Object Model to an Output Stream
 
 // Importing required classes
@@ -491,7 +491,7 @@ public class GFG {
 
 **输出:**在控制台**上，以下内容将被打印成一行**
 
-```
+```java
 {
 "firstName":"John","lastName":"Smith","age":25,
 "address":{"streetAddress":"21 2nd Street","city":"New York","state":"NY","postalCode":"10021"},
@@ -509,7 +509,7 @@ public class GFG {
 
 ****1。使用解析器读取 JSON 数据:**我们将使用 JsonParser，它以流式方式提供对 JSON 数据的正向只读访问。JsonParser 使用拉解析编程模型解析 JSON。在这个模型**、**中，客户端代码控制线程并调用 next()方法，在处理完每个元素后将解析器推进到下一个状态。解析器可以生成以下事件:**
 
-```
+```java
 START_OBJECT, END_OBJECT, START_ARRAY, END_ARRAY, KEY_NAME, VALUE_STRING, VALUE_NUMBER, VALUE_TRUE, VALUE_FALSE, and VALUE_NULL.
 ```
 
@@ -526,7 +526,7 @@ START_OBJECT, END_OBJECT, START_ARRAY, END_ARRAY, KEY_NAME, VALUE_STRING, VALUE_
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Read JSON data using a JsonParser
 
 // Importing required classes
@@ -645,7 +645,7 @@ public class GFG {
 
  ****输出:****
 
-```
+```java
 START_OBJECT
 KEY_NAME firstName - VALUE_STRING John
 KEY_NAME lastName - VALUE_STRING Smith
@@ -677,7 +677,7 @@ END_OBJECT
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Generate JSON data and Store it into a
 // file.
 
@@ -756,7 +756,7 @@ public class GFG {
 
 ****输出:**在 *details.txt* 文件中，以下数据将被写入一行:**
 
-```
+```java
 {
 "firstName":"John","lastName":"Smith","age":25,
 "address":{"streetAddress":"21 2nd Street","city":"New York","state":"NY","postalCode":"10021"},

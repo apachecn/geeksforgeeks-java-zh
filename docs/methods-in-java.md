@@ -48,7 +48,7 @@
 
 上述函数的方法签名:
 
-```
+```java
  max(int x, int y) 
 ```
 
@@ -70,7 +70,7 @@ computeMax、setX、getX
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Methods
 
 // Importing required classes
@@ -122,7 +122,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Sum of two integer values :3
 
 ```
@@ -131,7 +131,7 @@ Sum of two integer values :3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Method Calling
 // Via Different Ways of Calling a Method
 
@@ -229,7 +229,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Inside the method m1 by object of GFG class
 In method m2 came from method m1
 Control returned after method m1 :1

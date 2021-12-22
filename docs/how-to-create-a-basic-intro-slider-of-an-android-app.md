@@ -46,7 +46,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 
 import androidx.core.content.ContextCompat;
@@ -93,7 +93,7 @@ public class IntroSlider extends AppIntro {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gtappdevelopers.firebaseapp">
@@ -129,7 +129,7 @@ public class IntroSlider extends AppIntro {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 

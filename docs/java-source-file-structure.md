@@ -30,7 +30,7 @@
 
 ## Java
 
-```
+```java
 // Declaring classes
 class Geeks {
 

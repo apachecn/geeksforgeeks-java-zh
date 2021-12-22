@@ -34,7 +34,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,20 +57,20 @@
 
 在类内打开 MainActivity.java 文件，首先创建 Button 类的对象。
 
-```
+```java
 public static final int cellCount=2;
 Button excel;
 ```
 
 其次，在 onCreate()方法中，我们必须将这些对象与我们给出的它们各自的标识联系起来。XML 文件。
 
-```
+```java
 excel = findViewById(R.id.excel);
 ```
 
 正在检查从电话存储器访问 excel 文件的权限
 
-```
+```java
 if(requestCode == 101){
             if(grantResults[0] == PackageManager.PERMISSION_GRANTED){
                 // if permission granted them select file
@@ -83,7 +83,7 @@ if(requestCode == 101){
 
 从电话中选择 excel 文件
 
-```
+```java
 Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
         intent.setType("*/*");
         intent.addCategory(Intent.CATEGORY_OPENABLE);
@@ -94,7 +94,7 @@ Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
 
 获取一个 excel 工作表，检查行和列的总数，并将这些值添加到数据库中。
 
-```
+```java
 XSSFSheet sheet=workbook.getSheetAt(0);
 FormulaEvaluator formulaEvaluator=workbook.getCreationHelper().createFormulaEvaluator();
 int rowscount=sheet.getPhysicalNumberOfRows();
@@ -116,7 +116,7 @@ if(rowscount > 0){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Intent;

@@ -15,7 +15,7 @@
 
 *   **第一步:**在根 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库(不在模块 build.gradle 文件中)。这个库 **jitpack** 是一个新颖的包库。它是为 JVM 而做的，因此 [github](https://www.geeksforgeeks.org/ultimate-guide-git-github/) 和 [bigbucket](https://www.geeksforgeeks.org/bitbucket-vs-github-vs-gitlab/) 中存在的任何库都可以直接在应用程序中使用。
 
-    ```
+    ```java
     allprojects {           
      repositories {           
             maven { url 'https://jitpack.io' }           
@@ -25,7 +25,7 @@
 
 *   **第二步:**在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。
 
-    ```
+    ```java
     implementation 'com.github.tushar09:LineAnimation:1.1.9'          
     ```
 
@@ -34,7 +34,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
 
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -69,7 +69,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.lineanimation;
 
     import androidx.appcompat.app.AppCompatActivity;

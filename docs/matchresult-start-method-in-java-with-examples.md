@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int start()
 
 ```
@@ -21,7 +21,7 @@ public int start()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate start() method
 
 import java.util.regex.*;
@@ -55,14 +55,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 3
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate start() method
 
 import java.util.regex.*;
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0
 2
 

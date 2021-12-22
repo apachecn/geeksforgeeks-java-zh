@@ -6,7 +6,7 @@ Java . util . ConcurrentLinkedDeque .下行迭代器()方法用于返回与 conc
 
 **语法:**
 
-```
+```java
 Iterator iterate_value = Array_Deque.descendingIterator();
 ```
 
@@ -18,7 +18,7 @@ Iterator iterate_value = Array_Deque.descendingIterator();
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate descendingIterator()
 
 import java.util.concurrent.*;
@@ -57,7 +57,7 @@ public class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 The iterator values are: 
 Geeks
@@ -70,7 +70,7 @@ Welcome
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate descendingIterator()
 
 import java.util.*;
@@ -109,7 +109,7 @@ public class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: [10, 15, 30, 20, 5]
 The iterator values are: 
 5

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 binarySearch(List list, Object target)
 ```
 
@@ -23,7 +23,7 @@ binarySearch(List list, Object target)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Binary Search on Vector
 
 // Importing utility classes
@@ -67,7 +67,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Element is found at index : 2
 ```
 
@@ -79,7 +79,7 @@ Element is found at index : 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Binary Search on Vector
 
 // Importing required classes
@@ -127,7 +127,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Sorted Vector: [10, 20, 25, A, B]
 Element is found at index : 2
 ```

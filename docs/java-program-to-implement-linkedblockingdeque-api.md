@@ -8,7 +8,7 @@
 
 **申报:**
 
-```
+```java
 public class LinkedBlockingDeque<E> extends AbstractQueue<E> implements 
 BlockingDeque<E>, Serializable
 ```
@@ -19,7 +19,7 @@ BlockingDeque<E>, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the implementation
 // of LinkedBlockingDeque API
 
@@ -296,7 +296,7 @@ public class LinkedBlockingDequeDemo {
 
 **Output**
 
-```
+```java
 the elements of the linkedBlockingDeque is 
 10    20    30    
 the peak element of the linkedBlockingDeque is(by peeking) 10

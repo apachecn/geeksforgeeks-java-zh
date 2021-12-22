@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean
        compareAndSet(
            int i, E expectedValue, E newValue)
@@ -25,7 +25,7 @@ public final boolean
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // compareAndSet() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Operation at index 0: false
 Operation at index 0: false
 
@@ -67,7 +67,7 @@ Operation at index 0: false
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // compareAndSet() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Operation at index 0: true
 New value at index 0: GEEKS FOR GEEKS
 Operation at index 1: true

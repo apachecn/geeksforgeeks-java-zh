@@ -6,7 +6,7 @@ java.util.Collection 接口的**[**size()**](https://www.geeksforgeeks.org/list-
 
 ******示例:******
 
-```
+```java
 **Input:[99, 54, 112, 184, 2]
 Output:size = 5 and Collection is not empty
 
@@ -18,7 +18,7 @@ Output: size = 0 and Collection is empty**
 
 ******语法:******
 
-```
+```java
 **public int size()**
 ```
 
@@ -30,7 +30,7 @@ Output: size = 0 and Collection is empty**
 
 ******语法:******
 
-```
+```java
 **Collection.isEmpty()**
 ```
 
@@ -42,7 +42,7 @@ Output: size = 0 and Collection is empty**
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **//Java Program to Get the Size of Collection 
 // and Verify that Collection is Empty
 // using LinkedList class
@@ -88,7 +88,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 The elements in Collection : [99, 54, 112, 184, 2]
 Size of the collection 5
 Is the LinkedList empty: false
@@ -101,7 +101,7 @@ Is the LinkedList empty: true
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **//Java Program to Get the Size of Collection and 
 // Verify that Collection is Empty 
 // using ArrayList class
@@ -130,7 +130,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 Size of the collection 3
 Is the ArrayList empty: false
 

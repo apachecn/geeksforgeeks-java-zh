@@ -6,7 +6,7 @@ IdentityHashMap 类的 java.util.IdentityHashMap.size()方法用于获取 Identi
 
 **语法:**
 
-```
+```java
 Identity_Hash_Map.size()
 ```
 
@@ -18,7 +18,7 @@ Identity_Hash_Map.size()
 
 **节目 1** :
 
-```
+```java
 // Java code to illustrate the size() method
 import java.util.*;
 
@@ -50,14 +50,14 @@ public class Identity_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Geeks=20, Welcomes=25, You=30, 4=15}
 The size of the map is 4
 ```
 
 **节目 2:**
 
-```
+```java
 // Java code to illustrate the size() method
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class Identity_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 The size of the map is 4
 ```

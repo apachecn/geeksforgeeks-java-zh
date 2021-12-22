@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.put(E e)
 ```
 
@@ -20,7 +20,7 @@ LinkedTransferQueue.put(E e)
 
 **程序 1:** 在队列中插入整数。
 
-```
+```java
 /* Java Program Demonstrate put()
 method of LinkedTransferQueue */
 
@@ -47,7 +47,7 @@ class LinkedTransferQueuePutExample1 {
 
 **输出:**
 
-```
+```java
 The elements in the queue are:
 10 11 12 13 14 15
 
@@ -55,7 +55,7 @@ The elements in the queue are:
 
 **程序 2:** 在队列中添加字符串。
 
-```
+```java
 /* Java Program Demonstrate put()
 method of LinkedTransferQueue */
 
@@ -85,7 +85,7 @@ class LinkedTransferQueuePutExample2 {
 
 **输出:**
 
-```
+```java
 The elements in the queue are:
 alex bob chuck drake erick
 

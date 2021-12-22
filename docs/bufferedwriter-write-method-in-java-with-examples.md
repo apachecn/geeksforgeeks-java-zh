@@ -8,7 +8,7 @@ Java 中 **BufferedWriter** 类中的 **write()** 方法有三种使用方式:
 
 **语法:**
 
-```
+```java
 public void write(int ch)
             throws IOException
 
@@ -26,7 +26,7 @@ public void write(int ch)
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter write(int) method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
@@ -81,7 +81,7 @@ GEEKS
 
 **语法:**
 
-```
+```java
 public void write(String s,
                   int off,
                   int len)
@@ -110,7 +110,7 @@ public void write(String s,
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter write(String) method
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
@@ -154,7 +154,7 @@ GEEKS
 
 **语法:**
 
-```
+```java
 public void write(char[ ] cbuf,
                   int off,
                   int len)
@@ -181,7 +181,7 @@ public void write(char[ ] cbuf,
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter write(char[ ]) method
 
@@ -224,7 +224,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKSFORGEEKS
 
 ```

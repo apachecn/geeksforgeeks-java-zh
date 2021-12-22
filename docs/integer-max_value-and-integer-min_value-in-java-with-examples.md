@@ -7,14 +7,14 @@
 *   **<u>Integer.MAX_VALUE</u>**
     Integer.MAX_VALUE is a constant in the [Integer class](https://www.geeksforgeeks.org/java-lang-integer-class-java/) of [java.lang package](https://www.geeksforgeeks.org/java-lang-package-java/) that specifies that stores the maximum possible value for any integer variable in Java. The actual value of this is
 
-    ```
+    ```java
     2^31-1 = 2147483647
 
     ```
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to show
     // the value of Integer.MAX_VALUE
 
@@ -33,7 +33,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Integer.MAX_VALUE = 2147483647
 
     ```

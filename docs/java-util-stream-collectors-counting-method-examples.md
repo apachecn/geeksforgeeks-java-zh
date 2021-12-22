@@ -9,7 +9,7 @@
 
 **示例 1 :** 对整数流中的元素进行计数。
 
-```
+```java
 // Java code to count number of elements 
 // in stream
 import java.util.stream.Stream;
@@ -30,14 +30,14 @@ class counting {
 
 **Output:**
 
-```
+```java
 6
 
 ```
 
 **示例 2 :** 对字符串流中的元素进行计数。
 
-```
+```java
 // JAVA code to count number of elements in stream
 import java.util.stream.Stream;
 import java.util.stream.Collectors;
@@ -59,7 +59,7 @@ class counting {
 
 **Output:**
 
-```
+```java
 5
 
 ```

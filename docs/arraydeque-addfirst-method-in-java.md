@@ -6,7 +6,7 @@ java 中的 Java . util . arrayDeque . addfirst(*Object 元素*)方法用于在�
 
 **语法:**
 
-```
+```java
 Array_Deque.addFirst(*Object element*)
 ```
 
@@ -19,7 +19,7 @@ Array_Deque.addFirst(*Object element*)
 下面的程序说明了 Java.util.ArrayDeque.addFirst()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate addFirst()
 import java.util.*;
 
@@ -61,7 +61,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 ArrayDeque_front_addition: [70, 60, 50, 40, 10, 15, 30, 20, 5]
 Final ArrayDeque: [70, 60, 50, 40, 10, 15, 30, 20, 5, 1, 2, 3]
@@ -70,7 +70,7 @@ Final ArrayDeque: [70, 60, 50, 40, 10, 15, 30, 20, 5, 1, 2, 3]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate addFirst()
 import java.util.*;
 
@@ -111,7 +111,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 ArrayDeque_front_addition: [Hello, World, GFG, Welcome, To, Geeks, 4, Geeks]
 Final ArrayDeque: [Hello, World, GFG, Welcome, To, Geeks, 4, Geeks, Coding, At, BEST]

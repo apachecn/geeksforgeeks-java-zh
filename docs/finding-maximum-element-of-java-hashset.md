@@ -6,7 +6,7 @@ Java [HashSet](https://www.geeksforgeeks.org/hashset-in-java/) 类用于创建�
 
 **说明:**在 HashSet 中找到最大元素。
 
-```
+```java
 Input: [24, 56, 87, 64, 29, 2, 65]
 Output: 87
 
@@ -37,7 +37,7 @@ Output: 65
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find maximum element on HashSet
 
 // Importing all java input output classes
@@ -99,7 +99,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements in HashSet = [64, 65, 2, 87, 24, 56, 29]
 Maximum element in HashSet = 87
 
@@ -111,7 +111,7 @@ Maximum element in HashSet = 87
 
 **语法:**
 
-```
+```java
 public static <T extends Object & Comparable> T max(Collection coll)
 ```
 
@@ -134,7 +134,7 @@ public static <T extends Object & Comparable> T max(Collection coll)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to find maximum element on HashSet
 
 // Importing all java input-output classes
@@ -176,7 +176,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 Elements in HashSet = [Geekss, Geek, Geeks]
 Maximum element :Geekss
 

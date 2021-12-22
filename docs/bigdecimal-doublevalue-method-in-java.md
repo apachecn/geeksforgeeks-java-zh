@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public double doubleValue()
 ```
 
@@ -18,7 +18,7 @@ public double doubleValue()
 
 **示例:**
 
-```
+```java
 Input : 11234
 Output : 11234.0
 
@@ -30,7 +30,7 @@ Output : 2679.3
 下面的程序说明了 byteValueExact()函数的使用:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate doubleValue() method
 import java.io.*;
 import java.math.*;
@@ -59,14 +59,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Double value of 4743 is 4743.0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate doubleValue() method
 import java.io.*;
 import java.math.*;
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Double value of 6714592679.34008 is 6.71459267934008E9
 
 ```

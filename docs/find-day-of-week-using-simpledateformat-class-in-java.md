@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for the above approach
 import java.util.Date;
 import java.text.SimpleDateFormat;
@@ -96,6 +96,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Day of week on 17-8-2006 : Thursday
 ```

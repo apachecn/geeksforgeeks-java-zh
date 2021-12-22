@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Object[] arr = LinkedHashSet.toArray()
 ```
 
@@ -20,7 +20,7 @@ Object[] arr = LinkedHashSet.toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -56,7 +56,7 @@ public class LinkedHashSetDemo {
 
 **Output:**
 
-```
+```java
 The LinkedHashSet: [Welcome, To, Geeks, For]
 The array is:
 Welcome
@@ -68,7 +68,7 @@ For
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -105,7 +105,7 @@ public class LinkedHashSetDemo {
 
 **Output:**
 
-```
+```java
 The LinkedHashSet: [10, 15, 30, 20, 5, 25]
 The array is:
 10

@@ -6,7 +6,7 @@
 
 **插图:**
 
-```
+```java
 A pyramid number pattern of row size r = 5 would look like:
         1 
       2 3 2 
@@ -15,7 +15,7 @@ A pyramid number pattern of row size r = 5 would look like:
 5 6 7 8 9 8 7 6 5
 ```
 
-```
+```java
 A pyramid number pattern of row size r = 4 would look like:
       1 
     2 3 2 
@@ -34,7 +34,7 @@ A pyramid number pattern of row size r = 4 would look like:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print the Pyramid pattern
 
 // Main class
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
             1  
          2  3  2  
       3  4  5  4  3  

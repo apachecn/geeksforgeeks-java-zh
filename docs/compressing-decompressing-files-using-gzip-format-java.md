@@ -10,20 +10,20 @@ java.util.zip 包提供压缩和解压缩文件内容的类。Java 中提供了 
 
 1.  **read():** 读取一个字节的数据。存在于文件输入流中。
 
-    ```
+    ```java
     int read()
     ```
 
 2.  **write():** 写入一个字节的数据，出现在文件输出流中。
 
-    ```
+    ```java
     void write(int b) 
     ```
 
 在这个例子中，我们有一个文本文件在**/home/saket/Desktop/GeeksforGeeks/compress . Java**驱动下的“geeks forgeeks”文件夹中，我们正在压缩和生成同一个文件夹中的 GZip 文件。
 T3】
 
-```
+```java
 // Java program to compress a File
 // using GZIPOutputStream class
 import java.io.FileInputStream;
@@ -78,7 +78,7 @@ public class GeeksForGeeks
 
 输出:
 
-```
+```java
 File Successfully compressed
 
 ```
@@ -88,7 +88,7 @@ File Successfully compressed
 
 **使用 GZIPOutputStream 解压缩文件**
 
-```
+```java
 // Java program to illustrate 
 // Decompressing a File using GZIPOutputStream
 import java.io.FileInputStream;
@@ -142,7 +142,7 @@ class GeeksForGeeks
 
 输出:
 
-```
+```java
 File Successfully decompressed
 
 ```

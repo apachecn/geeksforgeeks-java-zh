@@ -23,7 +23,7 @@ DatePicker 是 JavaFX 包的一部分，DatePicker 允许从弹出日历中选�
 
 1.  **Program to create a date picker and display it in stage:** This program creates a Date Picker indicated by the name *d*. The DatePicker will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the button inside the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java Program to create a date picker
     // and display it in stage
     import javafx.application.Application;
@@ -75,7 +75,7 @@ DatePicker 是 JavaFX 包的一部分，DatePicker 允许从弹出日历中选�
 
 2.  **Program to create a date picker and create a label to show the date:** This program creates a DatePicker indicated by the name *d*. The Date Picker will be created inside a scene, which in turn will be hosted inside a stage. We would create a label to show which date is choosed. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the button and label inside the scene. Finally, the show() method is called to display the final results.we would create an event handler to handle the date picker events. The event handler would be added to the button using setOnAction() function.The setShowWeekNumbers() will set the date picker to show week number of respective weeks.
 
-    ```
+    ```java
     // Java Program to create a date picker
     // and create a label to show the date
     import javafx.application.Application;

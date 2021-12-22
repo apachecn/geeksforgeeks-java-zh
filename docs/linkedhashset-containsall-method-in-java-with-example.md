@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public boolean containsAll(Collection C)
 ```
 
@@ -20,7 +20,7 @@ public boolean containsAll(Collection C)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // LinkedHashSet containsAll()
 
@@ -72,7 +72,7 @@ class LinkedHashSetDemo {
 
 **Output:**
 
-```
+```java
 LinkedHashSet 1: [Geeks, for, 10, 20]
 LinkedHashSet 2: [Geeks, for, 10, 20]
 
@@ -82,7 +82,7 @@ Does set 1 contains set 2: true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate boolean containsAll()
 
 import java.util.*;
@@ -128,7 +128,7 @@ class LinkedHashSetDemo {
 
 **Output:**
 
-```
+```java
 LinkedHashSet 1: [Geeks, for]
 LinkedHashSet 2: [10, 20]
 

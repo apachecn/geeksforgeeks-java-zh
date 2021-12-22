@@ -8,7 +8,7 @@
 
 **图示:**文件内的行
 
-```
+```java
 Geeks-for-Geeks
 A computer science portal
 World's largest technical hub
@@ -36,7 +36,7 @@ Java 中[文件](https://www.geeksforgeeks.org/file-class-in-java/)类的 **read
 
 **语法:**
 
-```
+```java
 Files.readString(filePath) ;
 ```
 
@@ -50,7 +50,7 @@ Files.readString(filePath) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Reading a File to a String
 // Using Using File.readString() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks-for-Geeks
 A computer science portal
 World's largest technical hub
@@ -97,7 +97,7 @@ BufferedReader 是一个用于从字符输入流中读取文本的对象。Buffe
 
 **语法:**
 
-```
+```java
 public String readLine() 
 throws IOException
 ```
@@ -112,7 +112,7 @@ throws IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Reading a File to a String
 // Using readLine() method of BufferReader class
 
@@ -179,7 +179,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks-for-Geeks
 A computer science portal
 World's largest technical hub
@@ -191,7 +191,7 @@ File.readAllBytes()方法用于读取文件中的所有字节。方法确保在�
 
 **语法:**
 
-```
+```java
 public static byte[] ReadAllBytes (string path);
 ```
 
@@ -220,7 +220,7 @@ public static byte[] ReadAllBytes (string path);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Reading a File to a String
 // Using File.readAllBytes() method
 
@@ -280,7 +280,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks-for-Geeks
 A computer science portal
 World's largest technical hub
@@ -292,7 +292,7 @@ File.lines()方法用于将文件中的所有行读取到流中。然后使用�
 
 **语法:**
 
-```
+```java
 public static Stream<String> lines(Path path, Charset cs)
 throws IOException
 ```
@@ -308,7 +308,7 @@ throws IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Reading a File to a String
 // Using File.lines() method
 
@@ -372,7 +372,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks-for-Geeks
 A computer science portal
 World's largest technical hub
@@ -386,7 +386,7 @@ Scanner 类通过将输入分解成从输入流中顺序检索的标记来工作
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Reading a File to a String
 // Using next() and hasNext() method of Scanner class
 
@@ -429,7 +429,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Geeks-for-Geeks
 A computer science portal
 World's largest technical hub

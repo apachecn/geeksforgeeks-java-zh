@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Creating a blank PPT document using java
 import org.apache.poi.xslf.usermodel.XMLSlideShow;
 import java.io.*;

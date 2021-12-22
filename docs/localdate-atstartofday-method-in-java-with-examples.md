@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 atStartOfDay()方法是将这个日期和午夜的时�
 
 **语法** :
 
-```
+```java
 public ZonedDateTime atStartOfDay(ZoneId zone)
 
 ```
@@ -19,7 +19,7 @@ public ZonedDateTime atStartOfDay(ZoneId zone)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the atStartOfDay() method
 
 import java.util.*;
@@ -41,7 +41,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2019-11-01
 2019-11-01T00:00
 
@@ -49,7 +49,7 @@ public class GfG {
 
 **程序 2** :带参数的程序。
 
-```
+```java
 // Program to illustrate the atStartOfDay() method
 
 import java.util.*;
@@ -72,7 +72,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-01-20
 2018-01-20T00:00Z[Etc/UTC]
 

@@ -40,7 +40,7 @@ Stetho 使用 HTTP web Socket 服务器，将所有调试信息发送到浏览�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Application;
 import android.content.Context;
 import com.facebook.stetho.InspectorModulesProvider;
@@ -100,7 +100,7 @@ public class Stetho extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Applicationstetho extends Application {
   public void onCreate() {
     super.onCreate();
@@ -115,7 +115,7 @@ public class Applicationstetho extends Application {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://geeksforgeeks.com/apk/res/android"
     package="com.geeksforgeeks.sthetosample">

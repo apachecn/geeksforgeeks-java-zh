@@ -6,7 +6,7 @@ Java 中**列表界面**的 **add(int index，E ele)** 方法用于在当前列�
 
 **语法:**
 
-```
+```java
 public void add(int index, E element)
 ```
 
@@ -28,7 +28,7 @@ public void add(int index, E element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate add(int index, E elements)
 import java.io.*;
 import java.util.*;
@@ -59,14 +59,14 @@ public class ArrayListDemo {
 
 **输出:**
 
-```
+```java
 Hello Geeks For Geeks
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate add(int index, E elements)
 import java.io.*;
 import java.util.*;
@@ -97,7 +97,7 @@ public class ArrayListDemo {
 
 **输出:**
 
-```
+```java
 10 20 25 30
 
 ```

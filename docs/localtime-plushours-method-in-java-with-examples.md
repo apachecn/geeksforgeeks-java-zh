@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime plusHours(long hoursToAdd)
 
 ```
@@ -19,7 +19,7 @@ public LocalTime plusHours(long hoursToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.plusHours() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime before addition : 19:34:50.630
 LocalTime after addition : 22:34:50.630
 
@@ -57,7 +57,7 @@ LocalTime after addition : 22:34:50.630
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.plusHours() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime before addition : 01:00:01
 LocalTime after addition : 15:00:01
 

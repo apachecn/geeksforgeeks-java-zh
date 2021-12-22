@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public void flush() throws IOException
 ```
 
@@ -30,7 +30,7 @@ public void flush() throws IOException
 
 **语法:**
 
-```
+```java
 public final int size()
 ```
 
@@ -42,7 +42,7 @@ public final int size()
 
 **语法:**
 
-```
+```java
 void write (byte[] b, int off, int len)
 ```
 
@@ -58,7 +58,7 @@ void write (byte[] b, int off, int len)
 
 **语法** :
 
-```
+```java
 public void write(byte[] b, int off,int len)
 ```
 
@@ -78,7 +78,7 @@ public void write(byte[] b, int off,int len)
 
 **语法:**
 
-```
+```java
 public void write(int b)
 throws IOException
 ```
@@ -93,7 +93,7 @@ throws IOException
 
 **语法:**
 
-```
+```java
 void writeBoolean (boolean v) 
 ```
 
@@ -105,7 +105,7 @@ void writeBoolean (boolean v)
 
 **语法:**
 
-```
+```java
 public final void writeBoolean(boolean v)
 throws IOException
 ```
@@ -120,7 +120,7 @@ throws IOException
 
 **语法:**
 
-```
+```java
 public final void writeByte(int v)
 throws IOException 
 ```
@@ -135,7 +135,7 @@ throws IOException
 
 **语法:**
 
-```
+```java
 public final void writeChar(int v)
 throws IOException
 ```
@@ -150,7 +150,7 @@ throws IOException
 
 **语法:**
 
-```
+```java
 public final void writeDouble(double v)
 throws IOException
 ```
@@ -165,7 +165,7 @@ throws IOException
 
 **语法:**
 
-```
+```java
 public final void writeFloat(float v)
 throws IOException
 ```
@@ -182,7 +182,7 @@ throws IOException
 
 **语法:**
 
-```
+```java
 public final void writeInt(int v)
 throws IOException
 ```
@@ -199,7 +199,7 @@ throws IOException
 
 **语法:**
 
-```
+```java
 public final void writeLong(long v)
 throws IOException
 ```
@@ -218,7 +218,7 @@ throws IOException
 
 **语法:**
 
-```
+```java
 public final void writeShort(int v)
 throws IOException
 ```
@@ -243,7 +243,7 @@ throws IOException
 
 ## 爪哇
 
-```
+```java
 // Java Program to Demonstrate DataOutputStream
 
 // Importing required classes
@@ -292,7 +292,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Values: 1.1 55 true 4
 ```
 

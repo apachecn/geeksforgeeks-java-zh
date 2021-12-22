@@ -5,7 +5,7 @@
 Java 中[concurrentlinkedeque 类的 **size()** 方法用于查找 concurrentlinkedeque 容器中存在的元素数量。换句话说，这个方法告诉容器的当前容量。此方法返回的值是整型的，如果容器包含的元素多于整数的最大值，则此方法返回整数的最大值，即 integer。最大值。
 **语法** :](https://www.geeksforgeeks.org/concurrentlinkeddeque-in-java-with-examples/) 
 
-```
+```java
 ConcurrentLinkedDeque.size()
 ```
 
@@ -15,7 +15,7 @@ ConcurrentLinkedDeque.size()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate the
 // size of ConcurrentLinkedDeque
 
@@ -50,7 +50,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:** 
 
-```
+```java
 ConcurrentLinkedDeque: [475, 1009, 70, 12]
 Size of the collection is: 4
 ```

@@ -28,7 +28,7 @@ ReferenceQueue 可用于确定对象是弱的、软的还是幻影不可达。�
 
 **语法:**
 
-```
+```java
 E poll()
 ```
 
@@ -38,7 +38,7 @@ E poll()
 
 **语法:**
 
-```
+```java
 E remove()
 ```
 
@@ -52,7 +52,7 @@ E remove()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate ReferenceQueue Class
 
 // Importing classes from package- java.lang.ref
@@ -112,7 +112,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -> Reference Queue Object :
 java.lang.ref.ReferenceQueue@214c265e
 -> Reference Queue Poll :

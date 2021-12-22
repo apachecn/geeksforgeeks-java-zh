@@ -14,7 +14,7 @@ Long 是一种比 int 更大的**数据类型，我们需要显式地对转换�
 
 **语法/声明:**
 
-```
+```java
 destination_datatype = (target_datatype)variable;
 
 () is a casting operator.
@@ -24,7 +24,7 @@ destination_datatype = (target_datatype)variable;
 
 **型铸造示例:**
 
-```
+```java
 float x;
 byte y;
 ...
@@ -34,7 +34,7 @@ y=(byte)x;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert long to int
 
 import java.util.*;
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Converted type: java.lang.Integer
 Converted int value is: 10000
 ```
@@ -66,7 +66,7 @@ Converted int value is: 10000
 
 **语法:**
 
-```
+```java
 public static int toIntExact(long value)
 
 ```
@@ -83,7 +83,7 @@ public static int toIntExact(long value)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert long to int
 
 class Main {
@@ -110,7 +110,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Converted type: java.lang.Integer
 Converted type: java.lang.Integer
 523386
@@ -121,7 +121,7 @@ Converted type: java.lang.Integer
 
 **语法:**
 
-```
+```java
 public int intValue()
 ```
 
@@ -131,7 +131,7 @@ public int intValue()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert long to int using intValue()
 // method
 
@@ -157,7 +157,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Converted type: java.lang.Integer
 Converted int value: 100
 ```

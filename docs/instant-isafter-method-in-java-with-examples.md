@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isAfter(Instant otherInstant)
 
 ```
@@ -21,7 +21,7 @@ public boolean isAfter(Instant otherInstant)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.isAfter() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instance 1: 2018-12-30T19:34:50.630Z
 Instance 2: 2018-12-29T09:24:00.630Z
 Is Instant1 after Instant2: true
@@ -65,7 +65,7 @@ Is Instant1 after Instant2: true
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.isAfter() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instance 1: 2018-10-30T19:34:50.630Z
 Instance 2: 2018-11-27T04:52:08.970Z
 Is Instant1 after Instant2: false
@@ -108,7 +108,7 @@ Is Instant1 after Instant2: false
 
 **程序 3:** 显示 isAfter 抛出的异常()
 
-```
+```java
 // Java program to demonstrate
 // Instant.isAfter() method
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instance 1: 2018-10-30T19:34:50.630Z
 Instance 2: null
 Exception: java.lang.NullPointerException

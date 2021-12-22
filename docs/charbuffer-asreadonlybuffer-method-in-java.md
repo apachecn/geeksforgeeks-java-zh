@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract CharBuffer asReadOnlyBuffer()
 ```
 
@@ -18,7 +18,7 @@ public abstract CharBuffer asReadOnlyBuffer()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer:  [a,  , b,  ,  ,  ,  ,  ,  ,  ]
 
 ReadOnlyBuffer CharBuffer: a,  , b,  ,  ,  ,  ,  ,  ,  ,
@@ -81,7 +81,7 @@ ReadOnlyBuffer CharBuffer: a,  , b,  ,  ,  ,  ,  ,  ,  ,
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -162,7 +162,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CharBuffer cb: [a,  , b,  ,  ,  ,  ,  ,  ,  ]
 
 CharBuffer cb1: [ , c, d,  ,  ]

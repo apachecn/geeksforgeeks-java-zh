@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 IntSummaryStatistics summaryStatistics()
 
 ```
@@ -21,7 +21,7 @@ IntSummaryStatistics summaryStatistics()
 
 **示例 1 :** 使用 IntStream summaryStatistics()获取给定 IntStream 中存在的元素的 IntSummaryStatistics。
 
-```
+```java
 // Java code for IntStream summaryStatistics()
 // to get various summary data about the
 // elements of the stream.
@@ -49,14 +49,14 @@ class GFG {
 
 输出:
 
-```
+```java
 IntSummaryStatistics{count=4, sum=22, min=4, average=5.500000, max=7}
 
 ```
 
 **示例 2 :** 使用 IntStream summaryStatistics()获取给定范围内存在的元素的 IntSummaryStatistics。
 
-```
+```java
 // Java code for IntStream summaryStatistics()
 // to get various summary data about the
 // elements of the stream.
@@ -85,7 +85,7 @@ class GFG {
 
 输出:
 
-```
+```java
 IntSummaryStatistics{count=4, sum=26, min=5, average=6.500000, max=8}
 
 ```

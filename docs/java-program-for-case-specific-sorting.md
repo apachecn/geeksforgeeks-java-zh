@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for Case Specific Sorting
 // using Collections.sort(list) method
 
@@ -104,6 +104,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 deeIRSfrsTUX
 ```

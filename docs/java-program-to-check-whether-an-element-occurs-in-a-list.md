@@ -10,7 +10,7 @@ Java 中 List 接口的 **contains()** 方法用于检查给定列表中是否�
 
 **语法:**
 
-```
+```java
 public boolean contains(Object obj)
 
 object-element to be searched for
@@ -31,7 +31,7 @@ object-element to be searched for
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check whether an element
 // is present in an ArrayList
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 true
 false
 ```

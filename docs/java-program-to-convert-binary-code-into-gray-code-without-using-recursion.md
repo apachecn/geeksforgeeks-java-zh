@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 Binary -> 0100
 Gray   -> 0110
 
@@ -25,7 +25,7 @@ Gray   -> 0111
 *   **The MSB (most significant bit)** of the binary code will be the MSB of the equivalent Gray code.
 *   All remaining bits are obtained by performing **XOR operation** on the bit at this position and the bit at the previous position in the binary string.
 
-```
+```java
 Example:
 Binary ->  0011010101
            0 XOR 0 XOR 1 XOR 1 XOR 0 XOR 1 XOR 0 XOR 1 XOR 0 XOR 1
@@ -42,7 +42,7 @@ Gray   ->  0110101
 
 ## Java
 
-```
+```java
 // Java program to demonstrate Binary
 // to Gray conversion
 
@@ -88,7 +88,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 The gray code of 0011010101 is : 0010111111
 ```
 
@@ -98,7 +98,7 @@ The gray code of 0011010101 is : 0010111111
 
 ## Java
 
-```
+```java
 // Java program to demonstrate Binary
 // to Gray conversion
 
@@ -156,6 +156,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 The gray code of 0011010101 is : 0010111111
 ```

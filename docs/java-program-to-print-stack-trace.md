@@ -43,7 +43,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing Classes/Files
 import java.io.*;
 
@@ -74,7 +74,7 @@ class GFG {
 
 **运行时错误:**
 
-```
+```java
 java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 3
     at GFG.main(File.java:9)
 ```
@@ -83,7 +83,7 @@ java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing Classes/Files
 import java.io.*;
 
@@ -121,7 +121,7 @@ class GFG {
 
 **运行时错误:**
 
-```
+```java
 java.lang.ArithmeticException: / by zero
     at GFG.check2(File.java:11)
     at GFG.check(File.java:7)

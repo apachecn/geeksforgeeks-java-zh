@@ -5,7 +5,7 @@
 [**Java . lang . class**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/)的 **getClasses()** 方法用于获取该类的类，这些类是公共的类和接口及其成员。方法以类对象数组的形式返回该类的类。
 **语法:**
 
-```
+```java
 public Class[] getClasses()
 ```
 
@@ -17,7 +17,7 @@ public Class[] getClasses()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getClasses() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Classes of myClass: [class Test$Arr]
 ```
@@ -56,7 +56,7 @@ Classes of myClass: [class Test$Arr]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getClasses() method
 
 import java.util.*;
@@ -92,7 +92,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Main
 Classes of myClass: []
 ```

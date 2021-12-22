@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractSequentialList.remove(int index)
 ```
 
@@ -18,7 +18,7 @@ AbstractSequentialList.remove(int index)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate remove() method
 
 import java.util.*;
@@ -55,7 +55,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [Geeks, for, Geeks, 10, 20]
 Final List: [Geeks, for, Geeks, 20]
 
@@ -63,7 +63,7 @@ Final List: [Geeks, for, Geeks, 20]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate remove()
 // with position of element passed as parameter
 
@@ -101,7 +101,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList:[Geeks, for, Geeks, 10, 20]
 Final AbstractSequentialList:[for, Geeks, 10, 20]
 

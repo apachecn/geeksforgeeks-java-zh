@@ -6,7 +6,7 @@ ArrayDeque 的 **removeAll()** 方法用于移除 ArrayDeque 和作为参数传�
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection<? extends E> col)
 ```
 
@@ -19,7 +19,7 @@ public boolean removeAll(Collection<? extends E> col)
 下面的程序演示了 ArrayDeque 的 removeAll()方法:
 **程序 1:** 程序演示了 ArrayDeque 上的 removeAll()方法，该方法将从包含数字的集合中移除与元素相同的元素。
 
-```
+```java
 // Java Program Demonstrate removeAll()
 // method of ArrayDeque
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before calling removeAll()
 23 32 45 63 
 After calling removeAll()
@@ -84,7 +84,7 @@ After calling removeAll()
 
 **程序 2:** 在 ArrayDeque 上演示 removeAll()方法的程序，该方法将从学生姓名集合中移除与元素相同的元素。
 
-```
+```java
 // Java Program Demonstrate removeAll()
 // method of ArrayDeque
 
@@ -142,7 +142,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before calling removeAll()
 List of Students Name:
  | Ram |  | Mohan |  | Sohan |  | Rabi | 
@@ -155,7 +155,7 @@ List of Students Name:
 
 **程序 3:** 演示 removeAll()方法引发异常的程序。
 
-```
+```java
 // Java Program Demonstrate Exception thrown by removeAll()
 // method of ArrayDeque
 
@@ -191,7 +191,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.NullPointerException
 
 ```

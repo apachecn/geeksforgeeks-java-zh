@@ -6,7 +6,7 @@ Java.util.HashSet.clear()方法用于从 HashSet 中移除所有元素。使用 
 
 **语法:**
 
-```
+```java
 Hash_Set.clear()
 ```
 
@@ -16,7 +16,7 @@ Hash_Set.clear()
 
 下面程序举例说明了
 
-```
+```java
 // Java code to illustrate clear()
 import java.io.*;
 import java.util.HashSet;
@@ -48,7 +48,7 @@ public class HashSetDemo{
 
 **方法:**
 
-```
+```java
 HashSet: [4, Geeks, Welcome, To]
 The final set: []
 

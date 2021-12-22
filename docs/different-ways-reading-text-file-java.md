@@ -22,7 +22,7 @@
 
 此方法从字符输入流中读取文本。它可以缓冲字符、数组和行的有效读取。可以指定缓冲区大小，也可以使用默认大小。对于大多数目的来说，默认值足够大。通常，读取器发出的每个读请求都会导致底层字符或字节流发出相应的读请求。因此，建议在读取()操作可能代价高昂的任何读取器(如文件读取器和输入流读取器)周围包装一个缓冲区读取器，如下所示:
 
-```
+```java
 BufferedReader in = new BufferedReader(Reader in, int size);
 ```
 
@@ -30,7 +30,7 @@ BufferedReader in = new BufferedReader(Reader in, int size);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Reading from FileReader
 // using BufferedReader Class
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 If you want to code refer to GeeksforGeeks
 ```
 
@@ -88,7 +88,7 @@ If you want to code refer to GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate reading from
 // FileReader using FileReader class
 
@@ -120,7 +120,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 If you want to code refer to GeeksforGeeks
 ```
 
@@ -132,7 +132,7 @@ If you want to code refer to GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // reading from Text File
 // using Scanner Class
@@ -154,7 +154,7 @@ public class ReadFromFileUsingScanner
 
 **输出:**
 
-```
+```java
 If you want to code refer to GeeksforGeeks
 ```
 
@@ -162,7 +162,7 @@ If you want to code refer to GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate reading from FileReader
 // using Scanner Class reading entire File
 // without using loop
@@ -188,7 +188,7 @@ public class ReadingEntireFileWithoutLoop
 
 **输出:**
 
-```
+```java
 If you want to code refer to GeeksforGeeks
 ```
 
@@ -198,13 +198,13 @@ If you want to code refer to GeeksforGeeks
 
 **语法:**
 
-```
+```java
 public static List readAllLines(Path path,Charset cs)throws IOException
 ```
 
 此方法将以下内容识别为行终止符:
 
-```
+```java
 \u000D followed by \u000A, CARRIAGE RETURN followed by LINE FEED
 \u000A, LINE FEED
 \u000D, CARRIAGE RETURN
@@ -214,7 +214,7 @@ public static List readAllLines(Path path,Charset cs)throws IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate reading data from file
 // using nio.File
 import java.util.*;
@@ -254,7 +254,7 @@ public class ReadFileIntoList
 
 **输出:**
 
-```
+```java
 If you want to code refer to GeeksforGeeks
 ```
 
@@ -264,7 +264,7 @@ If you want to code refer to GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // reading from text file
 // as string in Java
@@ -291,7 +291,7 @@ public class ReadTextAsString {
 
 **输出:**
 
-```
+```java
 If you want to code refer to GeeksforGeeks
 ```
 

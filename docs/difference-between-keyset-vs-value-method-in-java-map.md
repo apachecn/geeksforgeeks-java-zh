@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 Set keySet()
 ```
 
@@ -26,7 +26,7 @@ Set keySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrating use of keySet() method
 
 // Importing HashMap, Iterator, MAp and Stream classes
@@ -97,7 +97,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 
 1 2 3 
 [1, 2, 3]
@@ -109,7 +109,7 @@ java 中 HashMap 类的*Java . util . HashMap . values()*方法用于从映射�
 
 **语法:**
 
-```
+```java
 Hash_Map.values()
 ```
 
@@ -123,7 +123,7 @@ Hash_Map.values()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrating use of values() method
 
 // Importing several classes from
@@ -186,7 +186,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geeks For Geeks 
 Geeks For Geeks 
 [Geeks, For, Geeks]

@@ -13,7 +13,7 @@
 
 **注意:-** 但是，这两个程序都会得到编译，因为对于编译，我们不需要 main()方法。
 
-```
+```java
 // This program will successfully run
 // prior to JDK 7
 public class Test 

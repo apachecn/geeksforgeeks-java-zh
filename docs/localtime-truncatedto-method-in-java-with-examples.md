@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime truncatedTo(TemporalUnit unit)
 
 ```
@@ -24,7 +24,7 @@ public LocalTime truncatedTo(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.truncatedTo() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime before truncate: 21:45:36.130
 LocalTime after  truncate: 21:45
 
@@ -68,7 +68,7 @@ LocalTime after  truncate: 21:45
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.truncatedTo() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime before truncate: 01:21:30.130
 LocalTime after  truncate: 01:00
 

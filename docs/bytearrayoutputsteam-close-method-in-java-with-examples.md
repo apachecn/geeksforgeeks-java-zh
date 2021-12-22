@@ -6,7 +6,7 @@ Java 中 **ByteArrayOutputStream** 类的 **close()** 方法，如果在关闭 B
 
 **语法:**
 
-```
+```java
 public void close()
 
 ```
@@ -25,7 +25,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream close() method
 
@@ -66,14 +66,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream close() method
 
@@ -126,7 +126,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKSFORGEEKS
 
 ```

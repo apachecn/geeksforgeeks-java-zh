@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Type[] getGenericInterfaces()
 
 ```
@@ -19,7 +19,7 @@ public Type[] getGenericInterfaces()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getGenericInterfaces() method
 
@@ -48,7 +48,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 GenericInterfaces of myClass: []
 
@@ -56,7 +56,7 @@ GenericInterfaces of myClass: []
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getGenericInterfaces() method
 
@@ -85,7 +85,7 @@ public class Test implements Arr {
 
 **输出:**
 
-```
+```java
 GenericInterfaces of myClass: [interface Arr]
 
 ```

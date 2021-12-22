@@ -61,7 +61,7 @@ DelayQueue 头包含在最短时间内过期的元素。如果没有延迟过期
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue
 
 import java.util.concurrent.*;
@@ -151,7 +151,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 DelayQueue: [
 {name=A, time=1543472836003}, 
 {name=B, time=1543472836004}, 
@@ -168,7 +168,7 @@ DelayQueue: [
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue methods
 
 import java.util.concurrent.*;
@@ -272,7 +272,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 DelayQueue: [
 {name=A, time=1543472845012}, 
 {name=B, time=1543472845013}, 
@@ -300,7 +300,7 @@ Java 中 DelayQueue 类的 [add(E e)](https://www.geeksforgeeks.org/delayqueue-a
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the adding
 // elements to the DelayQueue
 
@@ -347,7 +347,7 @@ public class AddingElementsExample {
 
 **Output**
 
-```
+```java
 Size of the queue : 1
 ```
 
@@ -357,7 +357,7 @@ Java 中 DelayQueue 类的 [remove()](https://www.geeksforgeeks.org/delayqueue-r
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the removing
 // elements of DelayQueue class
 
@@ -408,7 +408,7 @@ public class RemovingElementsExample {
 
 **Output**
 
-```
+```java
 Initial Size : 1
 Size after removing : 0
 ```
@@ -419,7 +419,7 @@ DelayQueue 的 [peek()](https://www.geeksforgeeks.org/delayqueue-peak-method-in-
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate accessing
 // elements of DelayQueue
 
@@ -498,7 +498,7 @@ public class AccessingElementsExample {
 
 **Output**
 
-```
+```java
 Original DelayQueue: [
 { A, time=1600770273132}, 
 { B, time=1600770273134}]
@@ -512,7 +512,7 @@ DelayQueue 的[迭代器()](https://www.geeksforgeeks.org/delayqueue-iterator-me
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate iterating
 // over DelayQueue
 
@@ -592,7 +592,7 @@ public class IteratingExample {
 
 **Output**
 
-```
+```java
 The iterator values are: 
 
 { A, time=1600770415898}

@@ -8,7 +8,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。借助于此，我们可以直接在布局中使用小部件。
 
-    ```
+    ```java
     dependencies {         
           implementation 'com.polyak:icon-switch:1.0.0'      
     }         
@@ -18,7 +18,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <RelativeLayout 
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -46,7 +46,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgCustomSwitch;
 
     import android.os.Bundle;

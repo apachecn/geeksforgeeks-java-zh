@@ -19,7 +19,7 @@
 *   [**【纯函数】**](https://www.geeksforgeeks.org/pure-functions/) **:** 如果一个函数总是为相同的参数值返回相同的结果，并且它没有像修改参数(或全局变量)或输出某些东西那样的副作用，那么它被称为纯函数。
 *   **Lambda 表达式:**Lambda 表达式是一个匿名方法，它的可变性非常小，只有一个参数列表和一个主体。返回类型总是根据上下文来推断。另外，请注意，Lambda 表达式与函数接口并行工作。λ表达式的语法是:
 
-```
+```java
 (parameter) -> body
 
 ```
@@ -30,7 +30,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate
 // anonymous method
 import java.util.Arrays;
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Running in Runnable thread
 Running in main thread
 
@@ -69,7 +69,7 @@ Running in main thread
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java 8 program to demonstrate
 // a lambda expression
 import java.util.Arrays;
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Running in Runnable thread
 Running in main thread
 
@@ -104,7 +104,7 @@ Running in main thread
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate an
 // external iterator
 import java.util.Arrays;
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 11 22 33 44 55 66 77 88 99 100
 
 ```
@@ -136,7 +136,7 @@ public class GFG {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate an
 // external iterator
 import java.util.Arrays;
@@ -159,7 +159,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 11 22 33 44 55 66 77 88 99 100
 
 ```
@@ -168,7 +168,7 @@ public class GFG {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java 8 program to demonstrate
 // an internal iterator
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 11 22 33 44 55 66 77 88 99 100
 
 ```

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract IntBuffer compact()
 ```
 
@@ -20,7 +20,7 @@ public abstract IntBuffer compact()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original IntBuffer: [8, 9, 9, 0, 0, 0, 0, 0, 0, 0]
 Position: 3
 limit: 10
@@ -96,7 +96,7 @@ limit: 10
 
 **示例 2:** 演示 ReadOnlyBufferException
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ReadOnlyBuffer IntBuffer: 8, 9, 9, 0, 0, 0, 0, 0, 0, 0, 
 
 Position: 0

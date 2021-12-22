@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean addAll(Collection c)
 ```
 
@@ -23,7 +23,7 @@ public boolean addAll(Collection c)
 
 **示例 1:** 将数字集合添加到第一个 ConcurrentLinkedDeque 集合
 
-```
+```java
 // Java program to illustrate addAll() method
 
 import java.util.concurrent.ConcurrentLinkedDeque;
@@ -68,7 +68,7 @@ public class Example1 {
 
 **输出:**
 
-```
+```java
 LD1: [1, 2, 3, 4]
 LD2: [8, 1, 3, 5]
 After adding the ld2 to ld1: [1, 2, 3, 4, 8, 1, 3, 5]
@@ -77,7 +77,7 @@ After adding the ld2 to ld1: [1, 2, 3, 4, 8, 1, 3, 5]
 
 **示例 2:** 显示 IllegalArgumentException
 
-```
+```java
 // Java program to illustrate addAll() method
 
 import java.util.concurrent.ConcurrentLinkedDeque;
@@ -113,7 +113,7 @@ public class Example2 {
 
 **输出:**
 
-```
+```java
 LD1: [John, Johnathan, Jones, James]
 Exception thrown while adding deque to itself is: java.lang.IllegalArgumentException
 
@@ -121,7 +121,7 @@ Exception thrown while adding deque to itself is: java.lang.IllegalArgumentExcep
 
 **示例 3:** 显示空指针异常
 
-```
+```java
 // Java program to illustrate addAll() method
 
 import java.util.concurrent.ConcurrentLinkedDeque;
@@ -163,7 +163,7 @@ public class Example3 {
 
 **输出:**
 
-```
+```java
 LD1: [John, Johnathan, Jones, James]
 LD2: null
 After adding the ld2 to ld1: 

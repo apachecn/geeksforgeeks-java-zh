@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default ChronoLocalDateTime with(TemporalAdjuster adjuster)
 
 ```
@@ -24,7 +24,7 @@ default ChronoLocalDateTime with(TemporalAdjuster adjuster)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.with() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime before adjustment: 2019-12-31T19:15:30
 ChronoLocalDateTime after adjustment: 2019-10-01T19:15:30
 
@@ -70,7 +70,7 @@ ChronoLocalDateTime after adjustment: 2019-10-01T19:15:30
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.with() method
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDateTime before adjustment: 2018-10-25T23:12:31.123
 ChronoLocalDateTime after adjustment: 2018-01-01T23:12:31.123
 

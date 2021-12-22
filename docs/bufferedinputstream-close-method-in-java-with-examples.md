@@ -6,7 +6,7 @@ Java 中 **BufferedInputStream** 类的 **close()** 方法关闭输入流并释�
 
 **语法:**
 
-```
+```java
 public void close()
 
 ```
@@ -23,7 +23,7 @@ public void close()
 
 **程序 1:** 假设文件“c:/demo.txt”存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream.close() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Remaining Byte: 13
 
 ```
 
 **程序二:**假设文件“c:/demo.txt”存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream.close() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 5
 Error: Sorry 'buffInputStr' is closed
 

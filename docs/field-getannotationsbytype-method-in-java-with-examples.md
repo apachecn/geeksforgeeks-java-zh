@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <T extends Annotation> T[] 
   getAnnotationsByType(Class<T> annotationClass)
 
@@ -21,7 +21,7 @@ public <T extends Annotation> T[]
 下面的程序说明了 getAnnotationsByType()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getAnnotationsByType() method
 
@@ -66,14 +66,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 [@GFG$annotations(value=32512.21)]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getAnnotationsByType() method
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 [@GFG$annotations(value=ChipherCodes@#!)]
 
 ```

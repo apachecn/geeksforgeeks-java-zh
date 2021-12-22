@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Constructor<T>
        getDeclaredConstructor(Class[] parameterType)
        throws NoSuchMethodException, SecurityException
@@ -26,7 +26,7 @@ public Constructor<T>
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getDeclaredConstructor() method
 
@@ -59,7 +59,7 @@ public Constructor<T>
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Test
     Constructor of myClass: public Test()
 
@@ -67,7 +67,7 @@ public Constructor<T>
 
     **例 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getDeclaredConstructor() constructor
 
@@ -106,7 +106,7 @@ public Constructor<T>
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Main
     java.lang.NoSuchMethodException: Main.(java.lang.Long) 
     ```

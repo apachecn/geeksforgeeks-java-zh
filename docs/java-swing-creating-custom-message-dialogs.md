@@ -6,21 +6,21 @@
 在本文中，我们将看到如何在 Java Swing 中创建自定义消息。
 **例:**
 
-```
+```java
 First we create a simple JWindow and add label and button to it.
 Output:
 ```
 
 ![](img/7b57d39a2549621043e0c0af63977201.png)
 
-```
+```java
 Then we will shape the window and background color to it.
 Output:
 ```
 
 ![](img/bf9e8a0fe9cf5dbfd3ced1d0ca45114d.png)
 
-```
+```java
 Then will set the look and feel of the label and
 button to System look and feel and then add glossy 
 appearance to the window by applying per pixel
@@ -35,7 +35,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a simple JWindow
 // and add label and button to it.
 import java.awt.*;
@@ -99,7 +99,7 @@ class message implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a message window,
 // and shape the window and add background color to it
 import java.awt.*;
@@ -189,7 +189,7 @@ class message1 implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a message window, shape the window
 // add background color to it and also add
 // glossy appearance to the window by applying per pixel translucency

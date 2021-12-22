@@ -6,7 +6,7 @@
 
 **申报:**对**的申报为:**
 
-```
+```java
 @GwtCompatible
 public enum CaseFormat
    extends Enum
@@ -21,7 +21,7 @@ public enum CaseFormat
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation
 // of CaseFormat Class methods
 
@@ -60,7 +60,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Original String: geeks_for_geeks
 Lower Camel Format: geeksForGeeks
 Upper Camel Format: GeeksForGeeks
@@ -69,7 +69,7 @@ Upper Camel Format: GeeksForGeeks
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation
 // of CaseFormat Class methods
 

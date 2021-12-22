@@ -15,7 +15,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @Configuration
 class WebMvcConfiguration extends WebMvcConfiguration{
     @Override
@@ -39,7 +39,7 @@ class WebMvcConfiguration extends WebMvcConfiguration{
 
 ## Java
 
-```
+```java
 @Bean
 Public Jackson2ObjectMapperBuilderCustomizer customJackson(){
     return new Jackson2ObjectMapperBuilderCustomizer(){
@@ -58,7 +58,7 @@ Public Jackson2ObjectMapperBuilderCustomizer customJackson(){
 
 ## ***Java***
 
-```
+```java
 ***public class RegistrationResponse{
 
     @JsonProperty("success")
@@ -103,11 +103,11 @@ Public Jackson2ObjectMapperBuilderCustomizer customJackson(){
 
 创建一个名为“***config . response . JSON . format . exclude _ null***”的属性，该属性可以将值取为“ ***【真】*** ”或“ ***【假】*** ”。值“ ***为真*** 表示在 JSON 响应中排除空字段&值“ ***为假*** 表示不排除空字段。此外，将此属性绑定到类级属性，以便可以读取该值。下面给出的代码供您参考。
 
-```
+```java
 config.response.json.format.exclude_null = false
 ```
 
-```
+```java
 @Value("${config.response.json.format.exclude_null}")
 private boolean toExcludeNull;
 ```
@@ -120,7 +120,7 @@ private boolean toExcludeNull;
 
 ## 爪哇
 
-```
+```java
 RegistrationResponse regResp = new RegistrationResponse();
 
 regResp.setSuccess(true);

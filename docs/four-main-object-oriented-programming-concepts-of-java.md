@@ -24,7 +24,7 @@
 *   抽象类可以有构造函数、具体方法、静态方法和最终方法
 *   抽象类不能直接用 ***新的*** 运算符实例化。如下图所示:
 
-```
+```java
 A b = new B();
 ```
 
@@ -36,7 +36,7 @@ A b = new B();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Abstract class
 public abstract class Car {
     public abstract void stop();
@@ -86,7 +86,7 @@ public class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java class which is a fully encapsulated class.
 public class Car
 {
@@ -152,7 +152,7 @@ java 中有以下 5 种不同类型的继承:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // super class
 class Car {
     // the Car class have one field
@@ -241,7 +241,7 @@ public class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Car{
 
     public void speed() {
@@ -262,7 +262,7 @@ public class Car{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Random;
 
 class DeliveryBoy {
@@ -300,7 +300,7 @@ class FoodDeliveryBoy extends DeliveryBoy {
 
 **Output**
 
-```
+```java
 Delivering Letters
 
 ```

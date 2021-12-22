@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public static double random()
 
 ```
@@ -33,7 +33,7 @@ public static double random()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Getting Random Elements 
 // from ArrayList using Math.random() function
 
@@ -70,7 +70,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Random Element is :70
 Random Element is :25
 Random Element is :90
@@ -90,7 +90,7 @@ Random Element is :10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Getting Random Elements 
 // from ArrayList using Collections.shuffle()
 
@@ -130,7 +130,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Random values :
 19 5 25 90 10 30 80 70
 ```
@@ -145,7 +145,7 @@ Random values :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Getting Random Elements 
 // from ArrayList using nextInt() function
 
@@ -187,7 +187,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Random Element is :5
 Random Element is :10
 Random Element is :19

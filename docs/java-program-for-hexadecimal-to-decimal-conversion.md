@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input : 1AB
 Output: 427
 
@@ -31,7 +31,7 @@ Output: 26
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert Hexadecimal to Decimal Number
 
 // Importing input output classes
@@ -108,6 +108,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 26
 ```

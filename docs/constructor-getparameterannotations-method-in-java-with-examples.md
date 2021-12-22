@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Annotation[][] getParameterAnnotations()
 
 ```
@@ -18,7 +18,7 @@ public Annotation[][] getParameterAnnotations()
 下面的程序说明了 getParameterAnnotations()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getParameterAnnotations() method
 
@@ -60,7 +60,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 Parameter annotations -->
 [[@Properties()]]
 
@@ -68,7 +68,7 @@ Parameter annotations -->
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getParameterAnnotations() method
 
@@ -113,7 +113,7 @@ class GfgDemo {
 
 **输出:**
 
-```
+```java
 Parameter annotations -->
 @Path()
 

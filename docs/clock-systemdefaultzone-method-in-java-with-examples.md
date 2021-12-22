@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public static Clock systemDefaultZone()
 ```
 
@@ -15,7 +15,7 @@ public static Clock systemDefaultZone()
 
 **示例:**
 
-```
+```java
 Code:
 //Clock with default zone
 Clock clock=Clock.systemDefaultZone();
@@ -37,7 +37,7 @@ return a Class Object whose Zone is default Time Zone.
 
 此方法将时钟区域设为默认区域。以下程序以 ZonedDateTime 格式打印时钟的日期和时间。
 
-```
+```java
 // Java program to demonstrate
 // systemDefaultZone() method of Clock class
 
@@ -70,14 +70,14 @@ public class systemDefaultZoneMethodDemo {
 
 **Output:**
 
-```
+```java
 ZonedDateTime of class with default Zone is 2018-08-22T11:34:36.510Z[Etc/UTC]
 
 ```
 
 **程序 2:** 使用 getZone()为 systemDefaultZone()创建的时钟打印 zoneId。
 
-```
+```java
 // Java program to demonstrate
 // systemDefaultZone() method of Clock class
 
@@ -104,7 +104,7 @@ public class systemDefaultZoneMethodDemo {
 
 **Output:**
 
-```
+```java
 ZoneID of class is Etc/UTC
 
 ```

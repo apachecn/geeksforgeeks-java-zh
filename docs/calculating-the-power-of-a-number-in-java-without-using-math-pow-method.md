@@ -16,7 +16,7 @@
 
 **例:**
 
-```
+```java
 Input : base = 3, exponent = 3
 Output: 27
 
@@ -32,7 +32,7 @@ Output: 16
 
 ## Java
 
-```
+```java
 // Calculate the power of a number in Java using while loop
 import java.io.*;
 
@@ -55,7 +55,7 @@ public class JavaApplication1 {
 
 **输出**
 
-```
+```java
 Result =  27
 
 ```
@@ -68,7 +68,7 @@ Result =  27
 
 ## Java
 
-```
+```java
 // Calculate the power of a number in Java using for loop
 import java.io.*;
 
@@ -88,7 +88,7 @@ public class JavaApplication1 {
 
 **输出**
 
-```
+```java
 Result =  27
 
 ```
@@ -99,7 +99,7 @@ Result =  27
 
 ## Java
 
-```
+```java
 // Calculate the power of a number
 // in Java using Divide and Conquer
 class GFG {
@@ -133,7 +133,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 8
 
 ```

@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print binary search over an ArrayList
 
 import java.io.*;
@@ -96,7 +96,7 @@ class BinarySearch 
 
 **Output**
 
-```
+```java
 The elements of the arraylist are: [5, 10, 15, 20, 25, 30, 35]
 The Element 10 is found at index 1
 ```
@@ -110,7 +110,7 @@ The Element 10 is found at index 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of recursive Binary Search
 
 import java.io.*;
@@ -182,7 +182,7 @@ class BinarySearch
 
 **Output**
 
-```
+```java
 The elements of the arraylist are: [5, 10, 15, 20, 25, 30, 35]
 The Element 10 is found at index 1
 ```
@@ -193,7 +193,7 @@ The Element 10 is found at index 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the searching of
 // an element in ArrayList using binarySearch() 
 // of Collections class
@@ -235,7 +235,7 @@ public class BinarySearch {
 
 **Output**
 
-```
+```java
 The elements of the arraylist are: [5, 10, 15, 20, 25, 30, 35]
 The Element 10 is found at index 1
 ```

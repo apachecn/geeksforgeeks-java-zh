@@ -13,7 +13,7 @@
 
 *   **void close() :** 关闭此输入流并释放与该流相关联的任何系统资源。
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Specified by:
@@ -28,7 +28,7 @@
 
 *   **int read(byte[] buf，int off，int len) :** 将未压缩的数据读入字节数组。如果 len 不为零，该方法将阻塞，直到某些输入可以解压缩；否则，不读取字节，返回 0。
 
-    ```
+    ```java
     Syntax :public int read(byte[] buf,
            int off,
            int len)
@@ -57,7 +57,7 @@
 
 **程序:**
 
-```
+```java
 
 //Java program demonstrating GZipInputStream methods 
 
@@ -95,7 +95,7 @@ class GZipInputStreamDemo        
 
 **输出:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 ```
 

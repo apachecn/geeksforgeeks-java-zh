@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Integer valueOf(*int a*)
 ```
 
@@ -16,7 +16,7 @@ public static Integer valueOf(*int a*)
 
 **示例:**
 
-```
+```java
 Input: a = 65
 Output: 65
 
@@ -30,7 +30,7 @@ Output: -985
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.valueOf(int a)
 import java.lang.*;
@@ -52,7 +52,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Output Value = 85
 ```
 
@@ -60,7 +60,7 @@ Output Value = 85
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.valueOf(int a)
 import java.lang.*;
@@ -82,7 +82,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Output Value = -9185
 ```
 
@@ -90,7 +90,7 @@ Output Value = -9185
 
 **语法:**
 
-```
+```java
 public static Integer valueOf(*String str*)
 ```
 
@@ -100,7 +100,7 @@ public static Integer valueOf(*String str*)
 
 **示例:**
 
-```
+```java
 Input: str = "65"
 Output: 65
 
@@ -114,7 +114,7 @@ Output: 452
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.valueOf(String str)
 import java.lang.*;
@@ -137,7 +137,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Integer Value = 424
 ```
 
@@ -145,7 +145,7 @@ Integer Value = 424
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.valueOf(String str)
 import java.lang.*;
@@ -168,7 +168,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Output Value = -6156
 ```
 
@@ -176,7 +176,7 @@ Output Value = -6156
 
 **语法:**
 
-```
+```java
 public static Integer valueOf(String str, int base)
 ```
 
@@ -189,7 +189,7 @@ public static Integer valueOf(String str, int base)
 
 **示例:**
 
-```
+```java
 Input: str = "1101"
        base = 2
 Output: 13
@@ -203,7 +203,7 @@ Output: 17
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.valueOf(String str, int base)
 import java.lang.*;
@@ -233,7 +233,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 520
 4113
 10

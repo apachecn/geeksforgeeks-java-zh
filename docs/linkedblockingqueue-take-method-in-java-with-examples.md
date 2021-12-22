@@ -5,7 +5,7 @@
 **LinkedBlockingQueue** 的 **take()** 方法用于检索和移除该队列的头。如果队列是空的，那么它将等待直到一个元素变得可用。如果在线程上工作并在该进程中使用 LinkedBlockingQueue，此方法会更有效。因此，如果没有可用的元素，最初调用 take()的线程将进入睡眠状态，让其他线程做它们需要做的任何事情。
 **语法:**
 
-```
+```java
 public E take() throws InterruptedException
 ```
 
@@ -19,7 +19,7 @@ public E take() throws InterruptedException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate take()
 // method of LinkedBlockingQueue
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Items in Queue are [Ravi, Suraj, Harsh, Sayan]
 Removed Item from head is Ravi
 Remaining Items in Queue are [Suraj, Harsh, Sayan]
@@ -85,7 +85,7 @@ Remaining Items in Queue are [Harsh, Sayan]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate take()
 // method of LinkedBlockingQueue
 
@@ -174,7 +174,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Removed Item is :
 Employee Name - Ravi
 Employee Position - Tester

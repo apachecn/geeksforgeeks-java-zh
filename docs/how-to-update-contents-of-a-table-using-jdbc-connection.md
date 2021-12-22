@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a connection to a database
 
 import java.sql.*;
@@ -50,13 +50,13 @@ public class connection {
 
 用 SQL 查询初始化一个字符串，如下所示
 
-```
+```java
 String sql="update  cuslogin set name='GFG' where id=2";
 ```
 
 初始化 Connection 类、PreparedStatement 类(jdbc 需要)的以下对象，并按如下方式连接数据库
 
-```
+```java
 Connection con=null;
 PreparedStatement p=null;
 con=connection.connectDB();
@@ -64,7 +64,7 @@ con=connection.connectDB();
 
 现在，在 prepareStatement 中添加上面给出的 SQL 查询，并按如下方式执行
 
-```
+```java
 p =con.prepareStatement(sql);
 p.execute();
 ```
@@ -75,7 +75,7 @@ p.execute();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Update contents in a table
 
 import java.sql.*;

@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 Hash_Map.containsKey(*key_element*)
 ```
 
@@ -37,7 +37,7 @@ Hash_Map.containsKey(*key_element*)
 
 ## Java
 
-```
+```java
 // java program to check if a particular
 // key exists in HashMap
 
@@ -86,7 +86,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 true
 ```
 
@@ -106,7 +106,7 @@ true
 
 ## Java
 
-```
+```java
 // java program to check if a particular
 // key exists in the HashMap
 
@@ -166,7 +166,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 true
 ```
 
@@ -186,7 +186,7 @@ true
 
 ## Java
 
-```
+```java
 // java program to check if a particular
 // key exists in the HashMap
 
@@ -240,6 +240,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 false
 ```

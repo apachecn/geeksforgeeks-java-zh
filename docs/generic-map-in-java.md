@@ -14,7 +14,7 @@ Java [数组](https://www.geeksforgeeks.org/arrays-in-java/)将项目存储在�
 
 **简单语言中的通用映射可以概括为:**
 
-```
+```java
 Map< K, V > map = new HashMap< K, V >(); 
 ```
 
@@ -24,7 +24,7 @@ Map< K, V > map = new HashMap< K, V >();
 
 **假设**键**的类型为**字符串**，对应的**值**的类型为**整数，**那么我们可以将其初始化为:**
 
-```
+```java
 Map< String , Integer > map = new HashMap< String ,Integer >(); 
 ```
 
@@ -40,7 +40,7 @@ Map< String , Integer > map = new HashMap< String ,Integer >();
 
 ****例**:**
 
-```
+```java
 Map< Integer, String > map = new HashMap<>();
 
 // adding the key **123** and value
@@ -53,7 +53,7 @@ map.get(65);
 
 ****输出:****
 
-```
+```java
 a 
 ```
 
@@ -63,7 +63,7 @@ a
 
 ****示例:**使用迭代器()方法**
 
-```
+```java
 Map<Integer, Integer> map = new HashMap<>;
 
 //adding key, value pairs to the Map
@@ -85,7 +85,7 @@ while(valueIterator.hasNext()){
 
 ****示例:**使用新的 for-loop 或 for-each 循环或泛型 for loop**
 
-```
+```java
 Map<Integer, String> map = new HashMap<Integer, String>;
 
 //adding key, value pairs to the Map
@@ -105,7 +105,7 @@ for(String value : map.values()) {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // Generic Map
 
@@ -145,7 +145,7 @@ class GenericMap {
 
 ****Output**
 
-```
+```java
 3
 2
 ```**

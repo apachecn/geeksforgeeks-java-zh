@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 Input:
 Key = ["1st-year", "2nd-year", "4th-year"]
 Value = ["geeksforgeeks DSA course", "DBMS course", 
@@ -31,14 +31,14 @@ Output:
 
 **LinkedHashMap():** 这是用来构造默认的 LinkedHashMap 构造函数。
 
-```
+```java
 LinkedHashMap<K, V> l_map = new LinkedHashMap<K, V>();
 Here, K is the key Object type and V is the value Object type.
 ```
 
 **方法语法:**
 
-```
+```java
 l_map.entrySet()
 ```
 
@@ -48,7 +48,7 @@ l_map.entrySet()
 
 ## Java
 
-```
+```java
 // Java program to Print all 
 // Mappings of the LinkedHashMap
 import java.util.*;
@@ -86,7 +86,7 @@ class IteratingOverLinkedHashMap {
 
 **输出**
 
-```
+```java
 1st-year : geeksforgeeks DSA course
 2nd-year : DBMS course
 4th-year : Interview prep
@@ -96,7 +96,7 @@ class IteratingOverLinkedHashMap {
 
 ## Java
 
-```
+```java
 // Java program to Print all 
 // Mappings of the LinkedHashMap
 import java.util.*;
@@ -147,7 +147,7 @@ class IteratingOverLinkedHashMap {
 
 **输出**
 
-```
+```java
 {3=1, 2=2, 1=3}
 3 : geeks
 2 : for

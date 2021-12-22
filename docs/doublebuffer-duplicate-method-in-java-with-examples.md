@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public abstract DoubleBuffer duplicate()
 ```
 
@@ -20,7 +20,7 @@ public abstract DoubleBuffer duplicate()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // Using direct Doublebuffer
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original DoubleBuffer:  [8.5600004196167, 0.0, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 Duplicate DoubleBuffer: [8.5600004196167, 0.0, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
@@ -85,7 +85,7 @@ Duplicate DoubleBuffer: [8.5600004196167, 0.0, 9.609999656677246, 0.0, 0.0, 0.0,
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // duplicate() method
 // using read-onlyDoublebuffer
@@ -157,7 +157,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original DoubleBuffer:  [8.5600004196167, 0.0, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 read-only DoubleBuffer:  8.5600004196167, 0.0, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 

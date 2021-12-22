@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setChoices(double[] limits, String[] formats)
 ```
 
@@ -23,7 +23,7 @@ public void setChoices(double[] limits, String[] formats)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setChoices() method
 
@@ -66,14 +66,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 updated Choiceformat object: 1.0#sun|2.0#mon|3.0#tue
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setChoices() method
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Limit or Format is null
 Exception thrown: java.lang.NullPointerException
 

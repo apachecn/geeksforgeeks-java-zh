@@ -17,7 +17,7 @@ InputStreamReader()是一个将输入字节流转换为字符流的函数，这�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program For BufferedReader Class
 import.java.io.*;
 
@@ -70,13 +70,13 @@ public class BufferedReader
 
 **扫描仪语法**
 
-```
+```java
 Scanner Scanner_name = new Scanner(System.in);
 ```
 
 **导入扫描仪类的语法:**要使用扫描仪，我们需要导入扫描仪类
 
-```
+```java
 import java.util.Scanner ;  
 ```
 
@@ -90,7 +90,7 @@ import java.util.Scanner ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show how to take
 // input from user using Scanner Class
 

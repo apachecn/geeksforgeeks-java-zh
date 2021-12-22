@@ -16,7 +16,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate Functional Interface
 
 // Importing required classes
@@ -65,7 +65,7 @@ class GFG implements display {
 
 **输出**
 
-```
+```java
 Hello World!
 5
 ```

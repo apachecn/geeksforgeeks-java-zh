@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access the MAC address of the
 // localhost machine
 import java.net.InetAddress;
@@ -75,7 +75,7 @@ public class MACAddress {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access all the MAC addresses of the
 // localhost machine
 

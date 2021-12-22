@@ -6,7 +6,7 @@ Dictionary 类的 get()方法用于检索或获取由参数中提到的特定键
 
 **语法:**
 
-```
+```java
 DICTIONARY.get(Object key_element)
 ```
 
@@ -17,7 +17,7 @@ DICTIONARY.get(Object key_element)
 以下程序用于说明 java.util.Dictionary.get()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class Dictionary_Demo {
 
 **Output:**
 
-```
+```java
 Initial Dictionary is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 The Value is: Welcomes
 The Value is: Geeks
@@ -59,7 +59,7 @@ The Value is: Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -95,7 +95,7 @@ public class Dictionary_Demo {
 
 **Output:**
 
-```
+```java
 Initial Dictionary is: {You=30, Welcomes=25, 4=15, Geeks=20}
 The Value is: 20
 The Value is: null

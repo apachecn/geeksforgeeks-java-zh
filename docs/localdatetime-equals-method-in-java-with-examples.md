@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **equals()** 方法检查这个日期时间是
 
 **语法:**
 
-```
+```java
 public boolean equals(Object date2)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object date2)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the equals() method
 
 import java.util.*;
@@ -54,7 +54,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Date 1: 2018-11-03T12:45:30
 Date 2: 2018-11-03T12:45:30
 Is Date 1 equal to Date 2: true
@@ -63,7 +63,7 @@ Is Date 1 equal to Date 2: true
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -99,7 +99,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Date 1: 1998-01-05T06:20:10
 Date 2: 2018-11-03T12:45:30
 Is Date 1 equal to Date 2: false

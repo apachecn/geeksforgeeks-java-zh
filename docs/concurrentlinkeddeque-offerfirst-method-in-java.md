@@ -6,7 +6,7 @@ java . util . concurrentlinkeDeque . offer first()方法是 Java 中的一个内
 
 **语法:**
 
-```
+```java
 Conn_Linked_Deque.offerFirst*(Object elem)*
 ```
 
@@ -20,7 +20,7 @@ Conn_Linked_Deque.offerFirst*(Object elem)*
 
 **程序 1** :
 
-```
+```java
 /* Java Program to Demonstrate offerFirst()
    method of ConcurrentLinkedDeque */
 
@@ -69,7 +69,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Elements in Deque: [Welcome, To, Geeks, 4, Geeks]
 The First element is: Welcome
 The Inserted element is: GFG
@@ -80,7 +80,7 @@ The First element is: GFG
 
 **程序二:**
 
-```
+```java
 /* Java Program to Demonstrate offerFirst()
    method of ConcurrentLinkedDeque */
 
@@ -136,7 +136,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Elements in Deque: [12, 43, 29, 16, 70]
 The First element is: 12
 java.lang.NullPointerException

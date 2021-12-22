@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static BigInteger sqrt(BigInteger x, RoundingMode mode)
 
 ```
@@ -39,7 +39,7 @@ public static BigInteger sqrt(BigInteger x, RoundingMode mode)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // sqrt(BigInteger x, RoundingMode mode) method
 // of Guava's BigIntegerMath class
@@ -87,7 +87,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Square root of 226with HALF_EVEN rounding mode is: 15
 Square root of 154with FLOOR rounding mode is: 12
 
@@ -95,7 +95,7 @@ Square root of 154with FLOOR rounding mode is: 12
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // sqrt(BigInteger x, RoundingMode mode) method
 // of Guava's BigIntegerMath class
@@ -134,7 +134,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.IllegalArgumentException: x (-65) must be >= 0
 
 ```

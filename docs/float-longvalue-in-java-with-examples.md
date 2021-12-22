@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long longValue()
 
 ```
@@ -19,7 +19,7 @@ public long longValue()
 
 **程序 1:**
 
-```
+```java
 // Java Code to implement
 // longValue() method of Float class
 
@@ -44,14 +44,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1022
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Code to implement
 // longValue() method of Float class
 
@@ -76,7 +76,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 -1023
 
 ```

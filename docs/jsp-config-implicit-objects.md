@@ -42,7 +42,7 @@ ServletConfig 接口的方法与下表中执行的操作并列如下:
 
 ## 超文本标记语言
 
-```
+```java
 <!DOCTYPE html>
 <html>
 <head>
@@ -64,7 +64,7 @@ ServletConfig 接口的方法与下表中执行的操作并列如下:
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
@@ -96,7 +96,7 @@ ServletConfig 接口的方法与下表中执行的操作并列如下:
 
 ## 超文本标记语言
 
-```
+```java
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>

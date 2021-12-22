@@ -28,7 +28,7 @@
 
 **第二步:导航至 app >清单> AndroidManifest.xml 文件，粘贴以下代码添加互联网权限**
 
-```
+```java
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
@@ -39,7 +39,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- Relative layout as parent layout-->
@@ -75,7 +75,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -121,7 +121,7 @@ public class ConnectionReceiver extends BroadcastReceiver {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.content.Context;
 import android.content.IntentFilter;
 import android.graphics.Color;

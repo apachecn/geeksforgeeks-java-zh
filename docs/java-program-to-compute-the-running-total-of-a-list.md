@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compute the Running Total of a List
 
 // Importing all classes of input/output java library
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original List :                      2 4 6 8 10 12 
 Running total List of Original List: 2 6 12 20 30 42
 ```

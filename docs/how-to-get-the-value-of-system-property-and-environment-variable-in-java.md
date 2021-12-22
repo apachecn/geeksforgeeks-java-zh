@@ -8,7 +8,7 @@ Java 中的 [System 类](https://www.geeksforgeeks.org/java-lang-system-class-ja
 
 **语法:**
 
-```
+```java
 public static String getenv(String key);
 
 where key is the Environment variable
@@ -20,7 +20,7 @@ whose values we want
 
 **例 1:获取特定环境变量的值**
 
-```
+```java
 // Java program to get the value
 // of a specific environment variable
 // using System.getenv() method
@@ -49,7 +49,7 @@ public class GFG {
 
 **例 2:一次获取所有环境变量的值**
 
-```
+```java
 // Java program to get the value
 // of all environment variables at once
 // using System.getenv() method
@@ -88,7 +88,7 @@ Java 中的[系统类](https://www.geeksforgeeks.org/java-lang-system-class-java
 
     **示例:**
 
-    ```
+    ```java
     // Java Program illustrating the working
     // of getProperty(String key) method
 
@@ -130,7 +130,7 @@ Java 中的[系统类](https://www.geeksforgeeks.org/java-lang-system-class-java
 
     **输出:**
 
-    ```
+    ```java
     user.dir: /tmp/hsperfdata_bot
     home: null
     os.name: Linux
@@ -143,7 +143,7 @@ Java 中的[系统类](https://www.geeksforgeeks.org/java-lang-system-class-java
 
     **示例:**
 
-    ```
+    ```java
     // Java Program illustrating the working of
     // getProperty(String key, String definition) method
 
@@ -177,7 +177,7 @@ Java 中的[系统类](https://www.geeksforgeeks.org/java-lang-system-class-java
 
     **输出:**
 
-    ```
+    ```java
     Hello key property : Geeks
     System key property :For Geeks
     Property key property :null
@@ -188,7 +188,7 @@ Java 中的[系统类](https://www.geeksforgeeks.org/java-lang-system-class-java
 
     **示例:**
 
-    ```
+    ```java
     // Java Program illustrating the working of
     // getProperties() method
 

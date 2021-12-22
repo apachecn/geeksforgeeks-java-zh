@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(DoubleBuffer that)
 ```
 
@@ -18,7 +18,7 @@ public int compareTo(DoubleBuffer that)
 
 **示例 1:** 当两个双缓冲区相等时。
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleBuffer db: [9.56, 7.61, 4.61]
 DoubleBuffer db1: [9.56, 7.61, 4.61]
 
@@ -103,7 +103,7 @@ both buffer are lexicographically equal
 
 **示例 2:** 当该双缓冲区大于传递的双缓冲区时
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -178,7 +178,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DoubleBuffer db: [9.56, 7.61, 4.61]
 DoubleBuffer db1: [8.56, 7.61, 4.61]
 

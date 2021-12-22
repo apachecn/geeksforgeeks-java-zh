@@ -6,7 +6,7 @@ Java 中**计时周期类**的 **getUnits()方法**用来获取该计时周期�
 
 **语法:**
 
-```
+```java
 List getUnits()
 ```
 
@@ -18,7 +18,7 @@ List getUnits()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function getUnits()
 // to get the set of units supported by period
 
@@ -49,14 +49,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 [Years, Months, Days]
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function getUnits()
 // to get the set of units supported by period
 
@@ -87,7 +87,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 [Years, Months, Days]
 
 ```

@@ -6,7 +6,7 @@ java.lang 包的 Integer 类的 java.lang.Integer.floatValue()方法用于在扩
 
 **语法:**
 
-```
+```java
 public float floatValue()
 ```
 
@@ -17,7 +17,7 @@ public float floatValue()
 下面的程序说明了 java.lang.Integer.floatValue()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.floatValue() method
 import java.lang.Integer;
@@ -39,14 +39,14 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 28.0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.floatValue() method
 import java.lang.Integer;
@@ -67,7 +67,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 20.0
 
 ```

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: N = 5, P = 2
 Output: 25
 
@@ -19,7 +19,7 @@ Output: 32
 
 *   **方法一:使用递归**
 
-    ```
+    ```java
     // Java program to find the power of a number
     // using Recursion
 
@@ -47,14 +47,14 @@ Output: 32
 
     **输出:**
 
-    ```
+    ```java
     8
 
     ```
 
 *   **方法二:借助 Loop**
 
-    ```
+    ```java
     // Java program to find the power of a number
     // with the help of loop
 
@@ -82,14 +82,14 @@ Output: 32
 
     **输出:**
 
-    ```
+    ```java
     8
 
     ```
 
 *   **方法三:使用 [Math.pow()](https://www.geeksforgeeks.org/math-pow-method-in-java-with-example/) 方法**
 
-    ```
+    ```java
     // Java program to find the power of a number
     // using Math.pow() method
 
@@ -116,7 +116,7 @@ Output: 32
 
     **输出:**
 
-    ```
+    ```java
     8.0
 
     ```

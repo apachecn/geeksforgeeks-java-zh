@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print all files
 // in a folder(and sub-folders)
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 **********************************************
 Files from main directory : C:\Users\Gaurav Miglani\Desktop\Test
 **********************************************
@@ -123,7 +123,7 @@ Testing.pdf
 
 ## Java
 
-```
+```java
 // Recursive Java program to print all files
 // in a folder(and sub-folders)
 
@@ -182,7 +182,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 **********************************************
 Files from main directory : C:\Users\Gaurav Miglani\Desktop\Test
 **********************************************

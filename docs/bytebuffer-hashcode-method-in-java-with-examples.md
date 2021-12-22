@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInt() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer: 
 10 20 30 
 
@@ -72,7 +72,7 @@ Byte Value: -219122491
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getInt() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Byte Value: -293403007
 
 ```

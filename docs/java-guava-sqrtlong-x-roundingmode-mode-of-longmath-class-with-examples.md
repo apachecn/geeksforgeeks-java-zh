@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long sqrt(long x, RoundingMode mode)
 
 ```
@@ -39,7 +39,7 @@ public static long sqrt(long x, RoundingMode mode)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // sqrt(long x, RoundingMode mode) method
 // of Guava's LongMath class
@@ -85,7 +85,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Square root of 524 is : 23
 Square root of 316 is : 17
 
@@ -93,7 +93,7 @@ Square root of 316 is : 17
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // sqrt(long x, RoundingMode mode) method
 // of Guava's LongMath class
@@ -130,7 +130,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException: x (-65) must be >= 0
 
 ```

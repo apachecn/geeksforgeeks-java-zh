@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -38,7 +38,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Welcome to JAVA (1st line)
 Welcome to GeeksforGeeks (2nd line) Hello Geeks (2nd line)
 ```
@@ -47,7 +47,7 @@ Welcome to GeeksforGeeks (2nd line) Hello Geeks (2nd line)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -66,7 +66,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Welcome to JAVA (1st line) Welcome to GeeksforGeeks (1st line)
 Hello Geeks (2nd line)
 ```

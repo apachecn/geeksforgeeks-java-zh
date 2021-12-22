@@ -7,7 +7,7 @@
 
 *   **PrintStream printf(Locale l，String format，Object… args) :** 一种使用指定的格式字符串和参数将格式化字符串写入该输出流的便捷方法。
 
-    ```
+    ```java
     Syntax :public PrintStream printf(Locale l,
                      String format,
                      Object... args)
@@ -21,7 +21,7 @@
     NullPointerException
     ```
 
-    ```
+    ```java
     //Java program to demonstrate printf method
     import java.io.*;
     import java.util.Locale;
@@ -41,14 +41,14 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     GeeksforGeeks
     ```
 
 *   **PrintStream printf(String format，Object… args) :** 一种使用指定的格式字符串和参数将格式化字符串写入该输出流的便捷方法。
 
-    ```
+    ```java
     Syntax :public PrintStream printf(String format,
                      Object... args)
     Parameters:
@@ -61,7 +61,7 @@
     NullPointerException 
     ```
 
-    ```
+    ```java
     //Java program to demonstrate printf(String format, Object... args) method
     import java.io.*;
 
@@ -80,18 +80,18 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     GeeksforGeeks
     ```
 
 *   **void println():** 通过写入行分隔符字符串终止当前行。
 
-    ```
+    ```java
     Syntax :public void println()
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println() methods
     import java.io.PrintStream;
 
@@ -107,18 +107,18 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     GeeksforGeeks
     ```
 
 *   **void println(布尔值 x):** 打印一个布尔值，然后终止该行。
 
-    ```
+    ```java
     Syntax :public void println(boolean x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(boolean) method
     import java.io.*;
 
@@ -138,18 +138,18 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     true
     ```
 
 *   **void println(char x):** 打印一个字符，然后结束该行。
 
-    ```
+    ```java
     Syntax :public void println(char x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(char x) method
     import java.io.*;
 
@@ -172,18 +172,18 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     g
     ```
 
 *   **void println(char[] x):** 打印一个字符数组，然后结束该行。
 
-    ```
+    ```java
     Syntax :public void println(char[] x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(char[] x) method
     import java.io.*;
 
@@ -205,7 +205,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:
     GEEK
 
@@ -213,11 +213,11 @@
 
 *   **void println(double x):** Prints a double and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(double x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(double x) method
     import java.io.*;
 
@@ -241,17 +241,17 @@
 
     **输出:**
 
-    ```
+    ```java
     5.42762
     ```
 
 *   **void println(float x):** Prints a float and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(float x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(float x) method
     import java.io.*;
     public class PrintStreamDemo
@@ -274,17 +274,17 @@
 
     **输出:**
 
-    ```
+    ```java
     5.168502f
     ```
 
 *   **void println(int x):** Prints an integer and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(boolean x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(int x) method
     import java.io.*;
 
@@ -309,18 +309,18 @@
 
     **输出:**
 
-    ```
+    ```java
     5
 
     ```
 
 *   **void println(long x):** Prints a long and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(long x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(long x) method
 
     import java.io.*;
@@ -350,17 +350,17 @@
 
     **输出:**
 
-    ```
+    ```java
     123456789
     ```
 
 *   **void println(Object x) :**Prints an Object and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(Object x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate println(Object x) method
     import java.io.*;
 
@@ -383,17 +383,17 @@
 
     **输出:**
 
-    ```
+    ```java
     java.io.PrintStream@15db9742
     ```
 
 *   **void println(String x) :**Prints a String and then terminate the line.
 
-    ```
+    ```java
     Syntax :public void println(boolean x)
     ```
 
-    ```
+    ```java
     import java.io.*;
     import java.io.*;
     //Java program to demonstrate println(String x) method
@@ -417,17 +417,17 @@
 
     **输出:**
 
-    ```
+    ```java
     GeeksforGeeks
     ```
 
 *   **protected void setError() :**Sets the error state of the stream to true.
 
-    ```
+    ```java
     Syntax :public void println(String x)
     ```
 
-    ```
+    ```java
     //Java program to demonstrate setError() method
     import java.io.*;
 
@@ -458,14 +458,14 @@
 
     **输出:**
 
-    ```
+    ```java
     BCD
 
     ```
 
 *   **void write(byte[] buf, int off, int len) :**Writes len bytes from the specified byte array starting at offset off to this stream.
 
-    ```
+    ```java
     Syntax :public void write(byte[] buf,
              int off,
              int len)
@@ -477,7 +477,7 @@
     len - Number of bytes to write
     ```
 
-    ```
+    ```java
     //Java program to demonstrate write(int b) method
     import java.io.*;
 
@@ -502,13 +502,13 @@
 
     **输出:**
 
-    ```
+    ```java
     BCD
     ```
 
 *   **void write(int b) :**Writes the specified byte to this stream.
 
-    ```
+    ```java
     Syntax :public void write(int b)
     Overrides:
     write in class FilterOutputStream
@@ -516,7 +516,7 @@
     b - The byte to be written
     ```
 
-    ```
+    ```java
     //Java program to demonstrate write(int b) method
     import java.io.*;
 
@@ -541,7 +541,7 @@
 
     **输出:**
 
-    ```
+    ```java
     A
     ```
 

@@ -14,7 +14,7 @@
 
 ****语法:****
 
-```
+```java
 boolean addElement(Object element)
 ```
 
@@ -26,7 +26,7 @@ boolean addElement(Object element)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Iterate Vector using Enumeration
 
 // Importing Enumeration class
@@ -64,7 +64,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Welcome
 To
 Geeks for
@@ -75,7 +75,7 @@ Geeks
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Iterate Vector using Enumeration
 
 // Importing Enumeration class
@@ -113,7 +113,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 1
 2
 3

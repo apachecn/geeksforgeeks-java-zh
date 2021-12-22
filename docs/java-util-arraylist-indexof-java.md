@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```java
 public int IndexOf(Object o)
 obj : The element to search for.
 
 ```
 
-```
+```java
 // Java code to demonstrate the working of
 // indexOf in ArrayList
 
@@ -50,7 +50,7 @@ public class IndexOfEx {
 
 输出:
 
-```
+```java
 The initial values in ArrayList are : 1 2 3 4 
 The element 3 is at index : 2
 
@@ -60,7 +60,7 @@ The element 3 is at index : 2
 
 **再举一个例子:**
 
-```
+```java
 // Java code to demonstrate the application of
 // index functions in ArrayList
 
@@ -108,7 +108,7 @@ public class AppliIndex {
 
 输出:
 
-```
+```java
 The first occurrence of 6 is  : 4
 The last occurrence of 6 is  : 9
 

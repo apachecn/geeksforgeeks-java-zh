@@ -4,7 +4,7 @@
 
 给定一个字符串，任务是统计给定字符串中的所有回文子串。
 
-```
+```java
 Input        : aba
 Output : 4
 Explanation : All palindrome substring are : "aba" , "a" , "b", "a"
@@ -26,7 +26,7 @@ Explanation : All palindrome sub-string are : "T" , "E" , "N", "E", "T" , "ENE" 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find all palindromic sub-strings 
 // of a given string
 
@@ -102,6 +102,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 No.of palindromic substrings in the given string are 15
 ```

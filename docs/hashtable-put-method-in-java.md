@@ -6,7 +6,7 @@ Hashtable 的 java.util.Hashtable.put()方法用于将映射插入到表中。�
 
 **语法:**
 
-```
+```java
 Hash_Table.put(*key, value*)
 ```
 
@@ -20,7 +20,7 @@ Hash_Table.put(*key, value*)
 下面的程序用来说明 java.util.Hashtable.put()方法:
 **程序 1:** 在传递现有密钥时的工作方式。
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 Returned value is: Geeks
 New table is: {10=Geeks, 20=All, 30=You, 15=4, 25=Welcomes}
@@ -65,7 +65,7 @@ New table is: {10=Geeks, 20=All, 30=You, 15=4, 25=Welcomes}
 
 **程序 2:** 传递新密钥时。
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -101,7 +101,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 Returned value is: null
 New table is: {10=Geeks, 20=Geeks, 30=You, 50=All, 15=4, 25=Welcomes}

@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isWhitespace(datatype character)
 
 ```
@@ -30,7 +30,7 @@ public static boolean isWhitespace(datatype character)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the Character.isWhitespace()
 // method when the passed parameter is a character
 import java.lang.*;
@@ -58,7 +58,7 @@ public class gfg {
 
 **输出**:
 
-```
+```java
 c1 is a Java whitespace character is false
 c2 is a Java whitespace character is true
 
@@ -66,7 +66,7 @@ c2 is a Java whitespace character is true
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the Character.isWhitespace()
 // method when the passed parameter is a character
 import java.lang.*;
@@ -94,7 +94,7 @@ public class gfg {
 
 **输出**:
 
-```
+```java
 c1 is a Java whitespace character is false
 c2 is a Java whitespace character is true
 
@@ -102,7 +102,7 @@ c2 is a Java whitespace character is true
 
 **程序 3:** 当参数类型为 *int* 时。
 
-```
+```java
 // Java program to demonstrate the
 // Character.isWhitespace()
 // method when the passed parameter
@@ -132,7 +132,7 @@ public class gfg {
 
 **输出**:
 
-```
+```java
 c1 represents Java whitespace character is false
 c2 represents Java whitespace character is false
 
@@ -140,7 +140,7 @@ c2 represents Java whitespace character is false
 
 **程序 4:** 当参数类型为 *int* 时。
 
-```
+```java
 // Java program to demonstrate the Character.isWhitespace()
 // method when the passed parameter is a character
 import java.lang.*;
@@ -168,7 +168,7 @@ public class gfg {
 
 **输出**:
 
-```
+```java
 c1 represents Java whitespace character is true
 c2 represents Java whitespace character is false
 

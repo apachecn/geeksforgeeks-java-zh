@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Collator getInstance(Locale desiredLocale)
 ```
 
@@ -18,7 +18,7 @@ public static Collator getInstance(Locale desiredLocale)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -72,14 +72,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.text.RuleBasedCollator@5eb2e1c2 is not equal to java.text.RuleBasedCollator@289747d6
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.text.RuleBasedCollator@289747d6 is equal to java.text.RuleBasedCollator@289747d6
 
 ```

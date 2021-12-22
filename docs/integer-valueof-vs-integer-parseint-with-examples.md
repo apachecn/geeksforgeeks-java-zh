@@ -10,17 +10,17 @@
 
 **语法:**
 
-```
+```java
 public static int parseInt(String s) throws NumberFormatException
 ```
 
-```
+```java
 public static int parseInt(String s, int radix) throws NumberFormatException
 ```
 
 **示例:**
 
-```
+```java
 // Java program to demonstrate working parseInt()
 
 public class GFG {
@@ -43,7 +43,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 20
 20
 -20
@@ -58,21 +58,21 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public static Integer valueOf(int a)
 ```
 
-```
+```java
 public static Integer valueOf(String str)
 ```
 
-```
+```java
 public static Integer valueOf(String str, int base)
 ```
 
 **示例:**
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Integer.valueOf(int a)
 import java.lang.*;
@@ -94,7 +94,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Output Value = 85
 
 ```
@@ -103,7 +103,7 @@ Output Value = 85
 
 1.  **Integer.valueOf()返回一个 Integer 对象，而 Integer.parseInt()返回一个基元 Int。**
 
-    ```
+    ```java
     // Program to show the use
     // of Integer.parseInt() method
 
@@ -125,14 +125,14 @@ Output Value = 85
 
     **输出:**
 
-    ```
+    ```java
     7777
 
     ```
 
 2.  **Both String and integer can be passed a parameter to Integer.valueOf() whereas only a String can be passed as parameter to Integer.parseInt().**
 
-    ```
+    ```java
     // Program to show that Integer.parseInt()
     // cannot take integer as parameter
 
@@ -161,7 +161,7 @@ Output Value = 85
 
     **编译错误:**
 
-    ```
+    ```java
     prog.java:18: error: incompatible types:
     int cannot be converted to String
                 int str = Integer.parseInt(val);
@@ -172,7 +172,7 @@ Output Value = 85
 
 3.  **Integer.valueOf() can take a character as parameter and will return its corresponding unicode value whereas Integer.parseInt() will produce an error on passing a character as parameter.**
 
-    ```
+    ```java
     // Program to test the method
     // when a character is passed as a parameter
 
@@ -201,7 +201,7 @@ Output Value = 85
 
     **编译错误:**
 
-    ```
+    ```java
     prog.java:18: error: incompatible types:
     char cannot be converted to String
                 int str = Integer.parseInt(val);

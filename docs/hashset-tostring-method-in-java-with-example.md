@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -20,7 +20,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // HashSet toString() method
 
@@ -49,14 +49,14 @@ public class collection {
 
 **Output:**
 
-```
+```java
 [Geeks, For, Welcome, To]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // HashSet toString() method
 
@@ -84,7 +84,7 @@ public class collection {
 
 **Output:**
 
-```
+```java
 [20, 40, 10, 30]
 
 ```

@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 Input : arr[] = {1, 2, 3, 4}
 Output: arr[] = {3, 2, 4, 1}
 
@@ -19,7 +19,7 @@ Output: arr[] = {2, 4, 3, 5}
 
 **算法:**
 
-```
+```java
   for i from n - 1 downto 1 do
        j = random integer with 0 <= j <= i
        exchange a[j] and a[i]
@@ -30,7 +30,7 @@ Output: arr[] = {2, 4, 3, 5}
 
 T3】JavaT5
 
-```
+```java
 // Program to jumble an array  using Java
 import java.util.Random;
 import java.io.*;

@@ -7,25 +7,25 @@
 
 1.  **getAddress() :** 返回该地址的 InetAddress。
 
-```
+```java
 Syntax : public InetAddress getAddress()
 ```
 
 1.  **getBroadcast() :** 返回该接口地址的广播地址的 InetAddress。由于只有 IPv4 地址有广播地址，使用 IPv6 地址时将返回空值。
 
-```
+```java
 Syntax :public InetAddress getBroadcast()
 ```
 
 1.  **getNetworkPrefixLength():**返回该接口地址的前缀长度，即该地址的子网掩码。
 
-```
+```java
 Syntax :public short getNetworkPrefixLength()
 ```
 
 1.  **等于():**用于指定对象与该接口地址的比较。仅当给定对象不为空并且表示与此对象相同的接口地址时，才返回 true。
 
-```
+```java
 Syntax :public boolean equals(Object obj)
 Parameters :
 obj : obj to compare with
@@ -33,13 +33,13 @@ obj : obj to compare with
 
 1.  **hashCode() :** 返回该接口地址的 hashCode。
 
-```
+```java
 Syntax :public int hashCode()
 ```
 
 1.  **toString() :** 返回此接口地址的字符串表示形式。该字符串的形式为:接口地址/前缀长度。
 
-```
+```java
 Syntax :public String toString()
 ```
 
@@ -47,7 +47,7 @@ Syntax :public String toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate methods of
 // Java.net.InterfaceAddress class
 import java.net.InterfaceAddress;
@@ -90,7 +90,7 @@ public class interfaceaddress
 
 **输出:**
 
-```
+```java
 getAddress() : /127.0.0.1
 getBroadcast() : /127.255.255.255
 PrefixLength : 8

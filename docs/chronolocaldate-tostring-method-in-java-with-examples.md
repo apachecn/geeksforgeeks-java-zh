@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.toString() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDate: 2018-12-06
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.toString() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDate: 2021-06-30
 
 ```

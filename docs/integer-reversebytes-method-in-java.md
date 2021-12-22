@@ -6,7 +6,7 @@ Java . lang . integer . reverse bytes(int a)是一个内置方法，它返回通
 
 **语法:**
 
-```
+```java
 public static int reverseBytes(*int a*)
 ```
 
@@ -16,7 +16,7 @@ public static int reverseBytes(*int a*)
 
 **示例:**
 
-```
+```java
 Input: 75
 Output: 1258291200
 Explanation:
@@ -33,7 +33,7 @@ Output: -704643073
 下面的程序说明了 java.lang.Integer.reverseBytes()方法:
 **程序 1:** 为正数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.reverseBytes() method
 import java.lang.*;
@@ -56,7 +56,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Integral Number = 61
 After reversing the bytes we get = 1023410176
 
@@ -64,7 +64,7 @@ After reversing the bytes we get = 1023410176
 
 **程序 2:** 为负数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.reverseBytes() method
 import java.lang.*;
@@ -87,7 +87,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Integral Number = -43
 After reversing the bytes we get = -704643073
 
@@ -96,7 +96,7 @@ After reversing the bytes we get = -704643073
 **程序 3:** 为十进制值和字符串。
 **注意:**当十进制值和字符串作为参数传递时，它会返回一条错误消息。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.reverseBytes() method
 import java.lang.*;
@@ -123,7 +123,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 prog.java:9: error: incompatible types: possible lossy conversion from double to int
     int a = 37.81;
             ^

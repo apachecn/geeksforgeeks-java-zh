@@ -7,7 +7,7 @@
 
 12.  ****readLine():****Java . io . randomaccessfile . readLine()**从这个文件读取下一行文本，从 File Pointer 开始读取，直到文件结束。
 
-    ```
+    ```java
     Syntax : 
     public final String readLine()
     Parameters : 
@@ -18,7 +18,7 @@
     ```** 
 13.  ****readUnsignedByte():****Java . io . randomaccessfile . readUnsignedByte()**从文件中读取一个无符号的 8 位数字，从当前的 File Pointer 开始读取。
 
-    ```
+    ```java
     Syntax : 
     public final int readUnsignedByte()
     Parameters : 
@@ -29,7 +29,7 @@
     ```** 
 14.  ****readUnsignedShort():****Java . io . randomaccessfile . readUnsignedShort()**从文件中读取一个无符号的 16 位数字，从当前的 File Pointer 开始读取。
 
-    ```
+    ```java
     Syntax : 
     public final int readUnsignedShort()
     Parameters : 
@@ -40,7 +40,7 @@
     ```** 
 15.  ****readUTF():****Java . io . randomaccessfile . readUTF()**从文件
 
-    ```
+    ```java
     Syntax : 
     public final String readUTF()
     Parameters : 
@@ -53,7 +53,7 @@
     读入一个字符串**
 16.  ****seek(长位置):****Java . io . randomaccessfile . seek(长位置)**设置文件指针位置。
 
-    ```
+    ```java
     Syntax : 
     public void seek(long pos)
     Parameters : 
@@ -64,7 +64,7 @@
     ```** 
 17.  ****setleng(long len):****Java . io . randomaccessfile . setleng(long len)**stes 文件的长度。
 
-    ```
+    ```java
     Syntax : 
     public void setLength(long len)
     Parameters : 
@@ -75,7 +75,7 @@
     ```** 
 18.  ****跳过 n 个字节，丢弃跳过的字节
 
-    ```
+    ```java
     Syntax : 
     public int skipBytes(int n)
     Parameters : 
@@ -86,7 +86,7 @@
     ```**** 
 19.  ****getChannel():****Java . io . randomaccessfile . getChannel()**返回与文件关联的唯一 FileChannel 对象。
 
-    ```
+    ```java
     Syntax : 
     public final FileChannel getChannel()
     Parameters : 
@@ -97,7 +97,7 @@
     ```** 
 20.  ******Java . io . randomaccessfile . length():**返回文件的长度。
 
-    ```
+    ```java
     Syntax : 
     public long length()
     Parameters : 
@@ -108,7 +108,7 @@
     ```**** 
 21.  ******getfile pointer():****Java . io . randomaccessfile . getfile pointer()**返回文件中当前偏移量(以字节为单位)。
 
-    ```
+    ```java
     Syntax : 
     public long getFilePointer()
     Parameters : 
@@ -119,7 +119,7 @@
     ```**** 
 22.  ******getFD():****Java . io . randomaccessfile . getFD()**返回带有流的文件描述符对象。
 
-    ```
+    ```java
     Syntax : 
     public final FileDescriptor getFD()
     Parameters : 
@@ -130,7 +130,7 @@
     ```**** 
 23.  ******close() :** **java.io.RandomAccessFile.close()** closes random access file stream and releases source associated with the stream, if any.
 
-    ```
+    ```java
     Syntax : 
     public void close()
     Parameters : 
@@ -140,7 +140,7 @@
 
     ```
 
-    ```
+    ```java
     // Java Program illustrating use of io.RandomAccessFile class methods
     // seek(), readLine(), readUTF(), readUnsignedByte(), readUnsignedShort(),
     // setLength(), length(), skipBytes(), getFilePointer(), getChannel(),
@@ -219,7 +219,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Use of readUTF() : Hello Geeks For Geeks
     1 readLine() : Hello Geeks For Geekss
     2 readLine() : Hello

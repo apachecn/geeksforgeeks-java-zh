@@ -30,7 +30,7 @@ java 库 [Apache POI](https://www.geeksforgeeks.org/apache-poi-introduction/) �
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to apply borders to the text
 // in a Word document
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Word Document with Border Text created successfully!
 ```
 

@@ -17,7 +17,7 @@
 *   **Using a Copy Constructor:** Using the ArrayList constructor in Java, a new list can be initialized with the elements from another collection.
     **Syntax:**
 
-    ```
+    ```java
     ArrayList cloned = new ArrayList(collection c);
 
     where c is the collection containing 
@@ -32,7 +32,7 @@
 
     下面的代码演示了这个例子。
 
-    ```
+    ```java
     // Program to clone a List in Java
 
     import java.util.ArrayList;
@@ -60,7 +60,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [GeeksForGeeks, A Computer Science, Portal]
 
     ```
@@ -69,7 +69,7 @@
 
     **语法:**
 
-    ```
+    ```java
     boolean addAll(Collection c);
 
     where c is the collection containing
@@ -85,7 +85,7 @@
 
     下面的例子将说明这种方法。
 
-    ```
+    ```java
     // Program to clone a List in Java
 
     import java.util.ArrayList;
@@ -115,7 +115,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [GeeksForGeeks, A Computer Science, Portal]
 
     ```
@@ -131,7 +131,7 @@
 
     下面的程序说明了这个概念。
 
-    ```
+    ```java
     import java.util.ArrayList;
     import java.util.Arrays;
     import java.util.List;
@@ -160,7 +160,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [GeeksForGeeks, A Computer Science, Portal]
 
     ```
@@ -169,7 +169,7 @@
 
     **语法:**
 
-    ```
+    ```java
     protected Object clone()
     throws CloneNotSupportedException
 
@@ -184,7 +184,7 @@
 
     下面的例子说明了这个概念。
 
-    ```
+    ```java
     import java.util.ArrayList;
     import java.util.Arrays;
     import java.util.List;
@@ -244,7 +244,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [
     Hello Geeks !
     GeeksForGeeks, 
@@ -257,7 +257,7 @@
 *   **使用 Apache Commons Lang** :同样也可以通过使用 Apache Commons Lang 等第三方库提供的克隆方法来实现。
     **语法:**
 
-```
+```java
 public static  T clone(T object)
 
 where T is the type of the object
@@ -275,7 +275,7 @@ to be cloned
 
 下面的程序说明了这种情况。
 
-```
+```java
 import org.apache.commons.lang3.SerializationUtils;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -332,7 +332,7 @@ class Example {
 
 **输出:**
 
-```
+```java
 [
 Hello Mukkesh !
 Hey there fellows!, 
@@ -346,7 +346,7 @@ Welcome to my page!
 
     **语法:**
 
-    ```
+    ```java
     String gson.toJson(List a);
     Returns a JSON string of the List object *a*.
 
@@ -365,7 +365,7 @@ Welcome to my page!
 
     下面的程序说明了这一点。
 
-    ```
+    ```java
     import com.google.gson.Gson;
     import java.util.ArrayList;
     import java.util.Arrays;
@@ -421,7 +421,7 @@ Welcome to my page!
 
     **输出:**
 
-    ```
+    ```java
     [
     Hello Mukkesh !
     Hey there fellows!, 
@@ -441,7 +441,7 @@ Welcome to my page!
     4.  使用 getClass()从类中获取*克隆*方法。getDeclaredMethod("clone ")方法(在列表的一个元素上)，并将其存储为方法实例。
     5.  循环遍历列表的每个元素，并调用存储的方法，该方法将返回一个类实例，该实例可以追加到新列表中。
 
-    ```
+    ```java
     import java.lang.reflect.InvocationTargetException;
     import java.lang.reflect.Method;
     import java.util.ArrayList;
@@ -547,7 +547,7 @@ Welcome to my page!
 
     **Output:**
 
-    ```
+    ```java
     [
     Hello Geeks!
     GeeksForGeeks, 

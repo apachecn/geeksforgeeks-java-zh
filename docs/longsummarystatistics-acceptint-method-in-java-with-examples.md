@@ -6,7 +6,7 @@ Java 中 **LongSummaryStatistics 类**的 **accept(int)** 方法用于将给定�
 
 **语法:**
 
-```
+```java
 public void accept(int value)
 
 ```
@@ -17,7 +17,7 @@ public void accept(int value)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -47,7 +47,7 @@ public class LongSummaryStatisticsDemo {
 
 **输出:**
 
-```
+```java
 LongSummaryStatistics{count=5, sum=150, min=10, average=30.000000, max=50}
 
 ```

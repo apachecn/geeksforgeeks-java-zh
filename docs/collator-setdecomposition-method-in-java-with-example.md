@@ -5,7 +5,7 @@
 **java.text.Collator 类**的**set declaration()**方法用于设置该 Collator 的分解模式。
 **语法:**
 
-```
+```java
 public void setDecomposition(int decompositionMode)
 ```
 
@@ -16,7 +16,7 @@ public void setDecomposition(int decompositionMode)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setDecomposition() method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 decompostiton mode is :- CANONICAL_DECOMPOSITION
 ```
 
@@ -83,7 +83,7 @@ decompostiton mode is :- CANONICAL_DECOMPOSITION
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setDecomposition() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 decompostiton mode is :- FULL_DECOMPOSITION. 
 ```
 

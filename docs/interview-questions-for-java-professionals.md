@@ -26,7 +26,7 @@ T43】Q5。定义类和对象。用 java 的例子来解释它们。
 例如:Employee 是类的例子
 具有唯一标识的特定雇员是对象的例子。
 
-```
+```java
 class Employee
 {
    // instance variables declaration
@@ -36,7 +36,7 @@ class Employee
 
 员工的对象是特定的员工
 
-```
+```java
 Employee empObj = new Employee();
 ```
 
@@ -54,7 +54,7 @@ Employee 的对象之一由‘empObj’
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test {
     void fun1() {}
     public double fun2(double x) {}

@@ -5,7 +5,7 @@
 **匹配器类**的**替换所有(函数)**方法表现为一种追加和替换方法。此方法用参数中传递的函数替换匹配器中匹配的模式的所有实例。
 **语法:**
 
-```
+```java
 public String replaceAll(
         Function replacerFunction)
 ```
@@ -22,7 +22,7 @@ public String replaceAll(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate replaceAll() method
 
 import java.util.regex.*;

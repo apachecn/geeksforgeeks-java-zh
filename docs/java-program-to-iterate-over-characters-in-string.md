@@ -6,12 +6,12 @@
 
 插图:
 
-```
+```java
 Input  : str = “GeeksforGeeks”
 Output : G e e k s f o r G e e k s
 ```
 
-```
+```java
 Input  : str = "GfG"
 Output : G f G
 ```
@@ -29,7 +29,7 @@ Output : G f G
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over Characters in String
 
 // Class 1
@@ -70,7 +70,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s f o r G e e k s 
 ```
 
@@ -84,7 +84,7 @@ G e e k s f o r G e e k s
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over Characters in String
 
 // Importing input output classes
@@ -138,7 +138,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G f G 
 ```
 

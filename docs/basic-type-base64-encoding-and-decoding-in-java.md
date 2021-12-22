@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Encoding simple String into Basic Base 64 format
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Sample String:
 India Team will win the Cup
 Encoded String:
@@ -61,7 +61,7 @@ SW5kaWEgVGVhbSB3aWxsIHdpbiB0aGUgQ3Vw
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Decoding Basic Base 64 format to String
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Encoded String:
 SW5kaWEgVGVhbSB3aWxsIHdpbiB0aGUgQ3Vw
 actual String:

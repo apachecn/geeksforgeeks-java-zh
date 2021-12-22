@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E set(int index, E element)
 ```
 
@@ -23,7 +23,7 @@ public E set(int index, E element)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // set() method
 // for Integer value
@@ -73,7 +73,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Before operation : [1, 2, 3, 4, 5]
 After operation : [1, 2, 3, 30, 5]
 Replaced element : 4
@@ -82,7 +82,7 @@ Replaced element : 4
 
 **示例 2:** 适用于*指数出界异常*
 
-```
+```java
 // Java program to demonstrate
 // set() method
 // for IndexOutOfBoundsException
@@ -134,7 +134,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Before operation : [1, 2, 3, 4, 5]
 
 Trying to Replace the element at (index > Capacity) 

@@ -21,7 +21,7 @@ java 中有几种读取文本文件的方式，如 [BufferReader](https://www.ge
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Extract Content From a Text Document
 // Using Files class
 
@@ -87,7 +87,7 @@ public class GFG {
 
 ******语法:******
 
-```
+```java
 **FileReader input = new FileReader(String name);**
 ```
 
@@ -95,7 +95,7 @@ public class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Extract Content From a Text Document
 // Using FileReader class
 
@@ -153,13 +153,13 @@ public class GFG {
 
 ******语法:******
 
-```
+```java
 **BufferedReader in = new BufferedReader(Reader in, int size);**
 ```
 
 ******实施:******
 
-```
+```java
 **Hello I am learning web- development.
 I am writing article for GFG.
 I am cloud enthusiast.
@@ -172,7 +172,7 @@ I am an open-source contributor.**
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Extract Content From a Text Document
 // Using BufferedReader class
 
@@ -233,7 +233,7 @@ public class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Extract Content From a Text Document
 // Using Scanner class
 
@@ -303,7 +303,7 @@ public class GFG {
 
 ****这里的“**my _ file . txt”**是一个演示文件，用于下面演示的程序，其中示例行如下:****
 
-```
+```java
 **Hello I am learning web- development.
 I am writing article of GFG.
 I am cloud enthusiast.
@@ -314,7 +314,7 @@ I am an open-source contributor.**
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Implement Extraction of Content
 // From a Text Document
 
@@ -460,7 +460,7 @@ public class read_file {
 
 ## ******Java 语言(一种计算机语言，尤用于创建网站)******
 
-```
+```java
 ****// Java program to Read Specific Lines from a Text File
 
 // Importing required libraries
@@ -533,6 +533,6 @@ public class GFG {
 
  ********输出:**具体线路为:******
 
-```
+```java
 **3D printing enables you to produce complex shapes.**
 ```

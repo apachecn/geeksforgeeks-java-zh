@@ -59,7 +59,7 @@ Firebase UI 是 [Firebase](https://www.geeksforgeeks.org/firebase-introduction/)
 
 ## 可扩展标记语言
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```

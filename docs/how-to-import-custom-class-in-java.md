@@ -10,7 +10,7 @@ Java 语言是所有编程语言中最流行的语言之一。使用 java 编程
 
 **结构格式:**
 
-```
+```java
 ProjectName:Main1
              |
              |
@@ -36,7 +36,7 @@ ProjectName:Main1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Package of the class
 package First;
 
@@ -59,7 +59,7 @@ public class GFG1 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Package first
 package First;
 
@@ -77,7 +77,7 @@ public class GFG2 {
 
 **输出:**
 
-```
+```java
 Addition 3
 ```
 
@@ -91,7 +91,7 @@ Addition 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package Second;
 
 class GFG3 {
@@ -107,7 +107,7 @@ class GFG3 {
 }
 ```
 
-```
+```java
 Above second package class is imported to the class of first package
 Structure:
 Second:(Package)
@@ -122,7 +122,7 @@ First:(Package)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package First;
 // Importing class of second package
 import Second.GFG3;
@@ -146,7 +146,7 @@ public class GFG2 {
 
 **输出:**
 
-```
+```java
 Addition 3
 Subtract 1
 ```

@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 public static File createTempFile(String prefix,String suffix,File directory)
 ```
 
@@ -39,7 +39,7 @@ public static File createTempFile(String prefix,String suffix,File directory)
 
 **语法:**
 
-```
+```java
 public static File createTempFile(String prefix,String suffix)
 ```
 
@@ -60,7 +60,7 @@ public static File createTempFile(String prefix,String suffix)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Create a Temporary File in Java
 
 // Importing all input output classes

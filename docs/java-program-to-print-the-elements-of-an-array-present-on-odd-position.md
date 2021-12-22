@@ -8,7 +8,7 @@
 
 ****示例:****
 
-```
+```java
 Input  : arr[] = { 10,20,30,40,50 }
 Output : 10 30 50
 
@@ -27,7 +27,7 @@ Output : -5 2 76
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to print the elements at odd positions
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class PrintOddElementsInArray {
 
 ****Output**
 
-```
+```java
 Existing array elements ..
 100
 -500
@@ -91,7 +91,7 @@ Array elements at odd position..
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to print the elements at odd positions
 
 import java.util.*;
@@ -131,7 +131,7 @@ public class PrintOddElementsInArray {
 
 ****Output**
 
-```
+```java
 Existing array elements ..
 100
 -500

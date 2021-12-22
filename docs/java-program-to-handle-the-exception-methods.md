@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Arithmetic Exception
 
 class GFG {
@@ -55,7 +55,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Arithmetic Exception
 / by zero error.
 
@@ -71,7 +71,7 @@ Java 有一个强大的错误处理机制，允许我们使用不同的捕获块
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle Various Exceptions
 
 class GFG {
@@ -123,7 +123,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The catch block with Null Pointer Exception is executed
 End of program
 

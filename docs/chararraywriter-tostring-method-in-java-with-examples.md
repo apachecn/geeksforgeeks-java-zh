@@ -6,7 +6,7 @@ Java 中 **CharArrayWriter** 类的 **toString()** 方法将给定的输入数�
 
 **语法**:
 
-```
+```java
 public String[] toString()
 ```
 
@@ -20,7 +20,7 @@ public String[] toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // above mentioned method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 String : geeks for + geeks
 ```
 
@@ -59,7 +59,7 @@ String : geeks for + geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // above mentioned method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 String : Gopal Dave
 ```
 

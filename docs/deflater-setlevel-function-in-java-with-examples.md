@@ -5,14 +5,14 @@
 在 **java.util.zip** 中**缩减器类**的 **setLevel()** 功能将当前压缩级别设置为指定值。压缩级别是从 0 到 9 的整数值。
 **功能签名:**
 
-```
+```java
 public void setLevel(int level)
 
 ```
 
 **语法:**
 
-```
+```java
 d.setLevel(int);
 
 ```
@@ -28,7 +28,7 @@ d.setLevel(int);
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to describe the use
     // of setLevel() function
 
@@ -98,7 +98,7 @@ d.setLevel(int);
 
     **输出:**
 
-    ```
+    ```java
     Original String :GeeksforGeeksGeeksforGeeksGeeksforGeeksGeeksforGeeks
      Size 52
     Compressed String with level =-1 :x?sOM?.N?/r???q??

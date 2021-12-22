@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Make a server to allow the connection to the socket 6123
 
 import java.io.IOException;
@@ -73,7 +73,7 @@ public class Server {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program for a Client
 
 import java.net.*;

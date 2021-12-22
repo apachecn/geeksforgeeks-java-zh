@@ -6,7 +6,7 @@ Java 的 [HashMap](https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-
 
 **示例:**
 
-```
+```java
 Given : HashMap = {[a, 1], [b, 3], [C, 1]}
 **Output:** Keys = [a, b, c]
 
@@ -22,7 +22,7 @@ HashMap 类似于 HashTable，但是不同步。也允许存储空键，但是�
 
 java.util 包中的 Set 接口是一个无序的对象集合，其中不能存储重复的值
 
-```
+```java
 Set <Obj> set = new HashSet<Obj>( );
 // Obj is the type of object to be stored in the Set
 ```
@@ -38,7 +38,7 @@ Set <Obj> set = new HashSet<Obj>( );
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Getting Set view of keys from HashMap in Java
 import java.io.*;
 import java.util.*;
@@ -65,7 +65,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Set View of Keys in HashMap : [1, 2, 3]
 
 ```

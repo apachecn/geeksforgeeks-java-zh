@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Name getSuffix(int posn)
 
 ```
@@ -20,7 +20,7 @@ public Name getSuffix(int posn)
 下面的程序说明了 CompoundName.getSuffix()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.getSuffix()
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 New CompoundName Object: 4@5@6@7
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.getSuffix() method
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 New CompoundName Object: x/f
 
 ```

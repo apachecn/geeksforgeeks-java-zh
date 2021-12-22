@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int get(int i)
 
 ```
@@ -19,7 +19,7 @@ public final int get(int i)
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the get() function
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 Value at index 2 is 3
 
@@ -60,7 +60,7 @@ Value at index 2 is 3
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the get() function
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The array : [12, 22, 23, 24, 25]
 Value at index 4 is 25
 

@@ -4,7 +4,7 @@
 
 在 java 7 或 8 中，如果一个资源已经在 [try-with-resources](https://www.geeksforgeeks.org/automatic-resource-management-java/) 语句之外声明了，我们应该用局部变量重新引用它。这意味着我们必须在 try 块中声明一个新的变量。让我们看看解释上述论点的代码:
 
-```
+```java
 // Java code illustrating try-with-resource
 import java.io.*;
 
@@ -29,7 +29,7 @@ class Gfg
 
 在 Java 9 中，我们不需要创建这个局部变量。这意味着，如果我们有一个已经在资源尝试语句之外声明为 [final](https://www.geeksforgeeks.org/final-keyword-java/) 或*final*的资源，那么我们不必创建引用该声明资源的局部变量，该声明资源可以毫无问题地使用。让我们看看解释上述论点的 java 代码。
 
-```
+```java
 // Java code illustrating improvement made in java 9
 // for try-with-resources statements
 

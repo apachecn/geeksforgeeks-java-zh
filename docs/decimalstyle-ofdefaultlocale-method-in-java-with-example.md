@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的 **ofDefaultLocale()** 方
 
 **语法:**
 
-```
+```java
 public static DecimalStyle ofDefaultLocale()
 
 ```
@@ -19,7 +19,7 @@ public static DecimalStyle ofDefaultLocale()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -42,7 +42,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 DecimalStyle for default FORMAT locale: DecimalStyle[0+-.]
 
 ```

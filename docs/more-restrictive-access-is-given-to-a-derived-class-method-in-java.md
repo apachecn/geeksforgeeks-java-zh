@@ -16,7 +16,7 @@
 
 ## Java
 
-```
+```java
 // file name: Main.java
 class Base {
     public void foo() { System.out.println("Base"); }
@@ -39,7 +39,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 prog.java:10: error: foo() in Derived cannot override foo() in Base
     private void foo() { System.out.println("Derived"); } 
                  ^
@@ -58,7 +58,7 @@ T5】JavaT0T10**输出**T1
 
 ## Java
 
-```
+```java
 // file name: Main.java
 
 class Base {
@@ -82,7 +82,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 Base
 
 ```

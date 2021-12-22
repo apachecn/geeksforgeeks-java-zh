@@ -9,7 +9,7 @@ A [链表](https://www.geeksforgeeks.org/data-structures/linked-list/) 是一种
 *   Elements are stored in a discontinuous manner.
 *   Each element is an object that contains a pointer to the next element.
 
-```
+```java
 Input: [2, 5, 5, 7, 10, 6]
 
 Output: First element is : 2
@@ -29,7 +29,7 @@ Output: First element is : 1
 
 T5】JavaT7
 
-```
+```java
 // Java Program to get the first and the last element of a
 // Linked List
 
@@ -77,7 +77,7 @@ T8T10**输出**T1
 
 T5】JavaT7
 
-```
+```java
 // Java program to get the first and last element from a
 // Linked List
 

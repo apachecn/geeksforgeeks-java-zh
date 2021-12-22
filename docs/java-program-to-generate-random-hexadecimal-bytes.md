@@ -10,7 +10,7 @@
 
 ******申报******
 
-```
+```java
 **public int nextInt()**
 ```
 
@@ -18,7 +18,7 @@
 
 ******例:******
 
-```
+```java
 **// Here printing n is a random integer.
 int n = ran.nextInt();**
 ```
@@ -33,7 +33,7 @@ int n = ran.nextInt();**
 
 ******例:******
 
-```
+```java
 **Input:13
 Output:d
 
@@ -45,7 +45,7 @@ Output:e**
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Generate Random Hexadecimal Bytes
 
 import java.io.*;
@@ -70,6 +70,6 @@ class GFG {
 
 ******Output**
 
-```
+```java
 Random Hexadecimal Byte: 61fdc065
 ```****

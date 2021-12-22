@@ -6,7 +6,7 @@
 
 类层次结构如下:
 
-```
+```java
 java.lang.Object
  ↳ java.util.Arrays
 ```
@@ -22,14 +22,14 @@ Geek，现在你一定想知道，当我们能够在数组上声明、初始化�
 
 **语法:**类声明
 
-```
+```java
 public class Arrays
     extends Object
 ```
 
 **语法:**为了使用数组
 
-```
+```java
 Arrays.<function name>;
 ```
 
@@ -76,7 +76,7 @@ Arrays.<function name>;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Arrays Class
 // Via asList() method
 
@@ -102,7 +102,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Integer Array as List: [[I@2f4d3709]
 
 ```
@@ -113,7 +113,7 @@ Integer Array as List: [[I@2f4d3709]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Arrays Class
 // Via binarySearch() method
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 22 found at index = 3
 
 ```
@@ -156,7 +156,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.binarySearch() method
 
@@ -184,7 +184,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 22 found at index = -4
 
 ```
@@ -193,7 +193,7 @@ public class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.compare() method
 
@@ -218,7 +218,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Arrays on comparison: 1
 
 ```
@@ -227,7 +227,7 @@ Integer Arrays on comparison: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.compareUnsigned() method
 
@@ -252,7 +252,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Arrays on comparison: 1
 
 ```
@@ -261,7 +261,7 @@ Integer Arrays on comparison: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.copyOf() method
 
@@ -289,7 +289,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: [10, 20, 15, 22, 35]
 
 New Arrays by copyOf:
@@ -302,7 +302,7 @@ Integer Array: [10, 20, 15, 22, 35, 0, 0, 0, 0, 0]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.copyOfRange() method
 
@@ -331,7 +331,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: [10, 20, 15, 22, 35]
 
 New Arrays by copyOfRange:
@@ -344,7 +344,7 @@ Integer Array: [20, 15]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.deepEquals() method
 
@@ -369,7 +369,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Arrays on comparison: false
 
 ```
@@ -378,7 +378,7 @@ Integer Arrays on comparison: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.deepHashCode() method
 
@@ -400,7 +400,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: 38475344
 
 ```
@@ -409,7 +409,7 @@ Integer Array: 38475344
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.deepToString() method
 
@@ -431,7 +431,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: [[10, 20, 15, 22, 35]]
 
 ```
@@ -440,7 +440,7 @@ Integer Array: [[10, 20, 15, 22, 35]]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.equals() method
 
@@ -465,7 +465,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Arrays on comparison: false
 
 ```
@@ -474,7 +474,7 @@ Integer Arrays on comparison: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.fill() method
 
@@ -500,7 +500,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array on filling: [22, 22, 22, 22, 22]
 
 ```
@@ -509,7 +509,7 @@ Integer Array on filling: [22, 22, 22, 22, 22]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.hashCode() method
 
@@ -531,7 +531,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: 38475313
 
 ```
@@ -540,7 +540,7 @@ Integer Array: 38475313
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.mismatch() method
 
@@ -565,7 +565,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 The element mismatched at index: 1
 
 ```
@@ -574,7 +574,7 @@ The element mismatched at index: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.parallelSort() method
 
@@ -601,7 +601,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: [10, 15, 20, 22, 35]
 
 ```
@@ -610,7 +610,7 @@ Integer Array: [10, 15, 20, 22, 35]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.sort() method
 
@@ -634,7 +634,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: [10, 15, 20, 22, 35]
 
 ```
@@ -643,7 +643,7 @@ Integer Array: [10, 15, 20, 22, 35]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.sort() method
 
@@ -667,7 +667,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: [10, 15, 20, 22, 35]
 
 ```
@@ -676,7 +676,7 @@ Integer Array: [10, 15, 20, 22, 35]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Comparator
 // interface
 import java.util.*;
@@ -738,7 +738,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Unsorted
 111 bbbb london
 131 aaaa nyc
@@ -755,7 +755,7 @@ Sorted by rollno
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Comparator
 // interface
 import java.util.*;
@@ -818,7 +818,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Unsorted
 111 bbbb london
 131 aaaa nyc
@@ -835,7 +835,7 @@ Sorted by rollno
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.spliterator() method
 
@@ -857,7 +857,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: java.util.Spliterators$IntArraySpliterator@4e50df2e
 
 ```
@@ -866,7 +866,7 @@ Integer Array: java.util.Spliterators$IntArraySpliterator@4e50df2e
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.spliterator() method
 
@@ -888,7 +888,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: java.util.Spliterators$IntArraySpliterator@4e50df2e
 
 ```
@@ -897,7 +897,7 @@ Integer Array: java.util.Spliterators$IntArraySpliterator@4e50df2e
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.stream() method
 
@@ -919,7 +919,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: java.util.stream.IntPipeline$Head@7291c18f
 
 ```
@@ -928,7 +928,7 @@ Integer Array: java.util.stream.IntPipeline$Head@7291c18f
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Arrays.toString() method
 
@@ -950,7 +950,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Integer Array: [10, 20, 15, 22, 35]
 
 ```

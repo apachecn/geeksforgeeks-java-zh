@@ -15,7 +15,7 @@ TreeMap 类的 java.util.TreeMap.isEmpty()方法用于检查 TreeMap 是否为�
 
 **语法:**
 
-```
+```java
 TreeMap.isEmpty()
 ```
 
@@ -27,7 +27,7 @@ TreeMap.isEmpty()
 
 ## Java
 
-```
+```java
 // Java Program to Check if the TreeMap is Empty
 // using the isEmpty() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Is tmap empty :  true
 The Mappings are: {1=One, 2=Two}
 Is tmap empty : false
@@ -82,7 +82,7 @@ TreeMap 类的[*Java . util . TreeMap . size()*](https://www.geeksforgeeks.org/t
 
 **语法:**
 
-```
+```java
 (TreeMap.size() == 0) ;
 ```
 
@@ -94,7 +94,7 @@ TreeMap 类的[*Java . util . TreeMap . size()*](https://www.geeksforgeeks.org/t
 
 ## Java
 
-```
+```java
 // Java Program to Check if the TreeMap is Empty
 // and illustrating the size() method
 
@@ -135,7 +135,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Is map empty : true
 The Mappings are: {1=One, 2=Two}
 Is map empty : false

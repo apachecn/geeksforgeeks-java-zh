@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long longValue()
 
 ```
@@ -19,7 +19,7 @@ PBelow 程序说明了上述方法:
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // longValue() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old value is: 52.0
 Current long value is: 52.0
 
@@ -59,7 +59,7 @@ Current long value is: 52.0
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the
 // longValue() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old value is: 71.0
 Current long value is: 71.0
 

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int getGroupingSize()
 
 ```
@@ -19,7 +19,7 @@ public int getGroupingSize()
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // getGroupingSize() method
 
@@ -42,14 +42,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 3
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // getGroupingSize() method
 
@@ -73,7 +73,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 2
 
 ```

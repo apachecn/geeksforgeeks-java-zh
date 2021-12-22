@@ -71,7 +71,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of  binarySearch()
 // method for specified range in a sorted array.
 import java.util.Arrays;
@@ -124,7 +124,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 22 found at index = 3
 p found at index = 3
 3 found at index = 2

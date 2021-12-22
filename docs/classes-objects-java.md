@@ -42,7 +42,7 @@
 
 就像我们声明变量一样(类型名；).这将通知编译器，我们将使用名称来引用类型为 type 的数据。对于一个原始变量，这个声明也为变量保留了适当的内存量。所以对于引用变量，类型必须是严格的具体类名。一般来说，我们**不能**创建抽象类或者接口的对象。
 
-```
+```java
 Dog tuffy;
 ```
 
@@ -54,7 +54,7 @@ Dog tuffy;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Class Declaration
 
 public class Dog
@@ -118,14 +118,14 @@ public class Dog
 
 **输出:**
 
-```
+```java
 Hi my name is tuffy.
 My breed,age and color are papillon,5,white
 ```
 
 *   这个类包含一个构造函数。我们可以识别构造函数，因为它的声明使用与类相同的名称，并且没有返回类型。Java 编译器根据参数的数量和类型来区分构造函数。 *Dog* 类中的构造函数接受四个参数。下面的语句为这些参数提供了“tuffy”、“papillon”、5、“white”作为值:
 
-```
+```java
 Dog tuffy = new Dog("tuffy","papillon",5, "white");
 ```
 
@@ -141,14 +141,14 @@ Dog tuffy = new Dog("tuffy","papillon",5, "white");
 
 *   **使用 new 关键字:**是 java 中创建对象最常见、最通用的方式。示例:
 
-```
+```java
 // creating object of class Test
 Test t = new Test();
 ```
 
 *   **使用 Class.forName(String className)方法:**Java . lang 包中有一个预定义的类，名字为 Class。方法返回与给定字符串名称的类相关联的类对象。我们必须给出一个类的完全限定名。在对此类对象调用新的 Instance()方法时，将返回具有给定字符串名称的类的新实例。
 
-```
+```java
 // creating object of public class Test
 // consider class Test present in *com.p1* package
 Test obj = (Test)Class.forName("com.p1.Test").newInstance();
@@ -156,7 +156,7 @@ Test obj = (Test)Class.forName("com.p1.Test").newInstance();
 
 *   **使用克隆()方法:**克隆()方法存在于对象类中。它创建并返回对象的副本。
 
-```
+```java
 
 // creating object of class Test
 Test t1 = new Test();
@@ -167,7 +167,7 @@ Test t2 = (Test)t1.clone();
 
 *   **反序列化:**反序列化是从文件中保存的状态读取对象的技术。请参考 java 中的[序列化/反序列化](https://www.geeksforgeeks.org/serialization-in-java/)
 
-```
+```java
 
 FileInputStream file = new FileInputStream(filename);
 ObjectInputStream in = new ObjectInputStream(file);
@@ -178,7 +178,7 @@ Object obj = in.readObject();
 
 *   在实时中，我们需要一个类的不同对象在不同的方法中。创建大量引用来存储它们不是一个好的做法，因此我们声明一个静态引用变量，并在需要时使用它。在这种情况下，内存浪费较少。不再被引用的对象将被 java 的[垃圾收集器](https://www.geeksforgeeks.org/garbage-collection-java/)销毁。示例:
 
-```
+```java
 
 Test test = new Test();
 test = new Test();
@@ -186,7 +186,7 @@ test = new Test();
 
 *   在继承系统中，我们使用父类引用变量来存储子类对象。在这种情况下，我们可以使用相同的引用变量切换到不同的子类对象。示例:
 
-```
+```java
 class Animal {}
 
 class Dog extends Animal {}
@@ -211,7 +211,7 @@ public class Test
 *   它们被广泛用于不同的图书馆。例如，在 AWT 库中，它们用于在捕获事件时执行一些操作(例如按键)。
 *   在下面的例子中，当一个键是按钮(由 btn 引用)被按下时，我们只是简单地为仅仅调用 handle 方法创建了 EventHandler 类的匿名对象。
 
-```
+```java
 btn.setOnAction(new EventHandler()
 {
     public void handle(ActionEvent event)

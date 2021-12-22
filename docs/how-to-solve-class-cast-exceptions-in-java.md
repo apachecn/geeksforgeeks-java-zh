@@ -22,7 +22,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // import required packages
 import java.io.*;
 import java.lang.*;
@@ -54,7 +54,7 @@ class geeks {
 
 ****Output**
 
-```
+```java
 java.lang.ClassCastException: class java.lang.Object cannot be cast to class java.lang.String (java.lang.Object and java.lang.String are in module java.base of loader 'bootstrap')
 ```** 
 
@@ -64,7 +64,7 @@ java.lang.ClassCastException: class java.lang.Object cannot be cast to class jav
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // import required packages
 import java.io.*;
 import java.lang.*;
@@ -95,6 +95,6 @@ class geeks {
 
 ****Output**
 
-```
+```java
 GFG
 ```**

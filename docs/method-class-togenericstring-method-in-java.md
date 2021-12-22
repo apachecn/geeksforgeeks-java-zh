@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toGenericString()
 ```
 
@@ -16,7 +16,7 @@ public String toGenericString()
 
 **例 1:**
 
-```
+```java
 // Program Demonstrate toGenericString() method
 // of Method Class.
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 public static void GFG.main(java.lang.String[])
 public final void GFG.paint(java.lang.Object...)
 
@@ -72,7 +72,7 @@ public final void GFG.paint(java.lang.Object...)
 
 解释:在这个方法中，首先创建一个类对象。创建 Java . util . concurrent . countdowlatch 类的类对象后，通过调用类对象的 getMethods()创建一个方法对象列表。迭代方法列表，并使用 toGenericString()打印方法详细信息。
 
-```
+```java
 // Program Demonstrate toGenericString() method
 // of Method Class.
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Methods of CountDownLatch: 
 Method: public boolean java.util.concurrent.CountDownLatch.await(long,java.util.concurrent.TimeUnit) throws java.lang.InterruptedException
 Method: public void java.util.concurrent.CountDownLatch.await() throws java.lang.InterruptedException

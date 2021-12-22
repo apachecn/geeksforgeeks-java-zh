@@ -12,7 +12,7 @@
 **size()** 方法返回队列包含的元素的**数量。大小是一种重要的方法，通过计算队列容量和队列大小之间的差异，可以查看队列包含多少元素以及可以向该队列添加多少元素。
 **语法:****
 
-```
+```java
 public int size()
 ```
 
@@ -22,7 +22,7 @@ public int size()
 下面的程序说明了 ArrayBlockingQueue 的 size()方法。
 **节目一:**
 
-```
+```java
 // Program to Demonstrate the size() method
 // of ArrayBlockingQueue.
 
@@ -63,7 +63,7 @@ public static void main(String[] args) {
 
 **Output:**
 
-```
+```java
 After addding numbers Queue size = 3
 After addding more numbers Queue size = 5
 
@@ -71,7 +71,7 @@ After addding more numbers Queue size = 5
 
 **程序 2:**
 
-```
+```java
 // Program to demonstrate size() method of
 // ArrayBlockingQueue.
 
@@ -111,7 +111,7 @@ public static void main(String[] args) {
 
 **Output:**
 
-```
+```java
 After addding numbers Queue size = 2
 After addding more numbers Queue size = 4
 

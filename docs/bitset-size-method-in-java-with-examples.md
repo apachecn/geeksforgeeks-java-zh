@@ -6,7 +6,7 @@ Java 中 BitSet 类的 size()方法用来知道这个 BitSet 的大小。这个�
 
 **语法:**
 
-```
+```java
 BitSet.hashCode()
 ```
 
@@ -17,7 +17,7 @@ BitSet.hashCode()
 以下程序用于说明 BitSet.size()的工作方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {25, 31, 40, 53, 100}
 The size is: 128
 
@@ -54,7 +54,7 @@ The size is: 128
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -76,7 +76,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {}
 The size is: 64
 
@@ -84,7 +84,7 @@ The size is: 64
 
 **程序 3:**
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -108,7 +108,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {400}
 The size is: 448
 

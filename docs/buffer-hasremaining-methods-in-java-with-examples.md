@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean hasRemaining()
 ```
 
@@ -16,7 +16,7 @@ public final boolean hasRemaining()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // hasRemaining() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 there is at least one element remaining in this buffer
 
 ```
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // hasRemaining() method
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 there is no element remaining in this buffer
 
 ```

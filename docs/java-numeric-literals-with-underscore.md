@@ -6,21 +6,21 @@ JDK 7 引入了一个新特性，允许使用下划线字符书写数字。数�
 
 1.我们不应该在整数之前或之后使用下划线。
 
-```
+```java
 int p = _10; // Error, this is an identifier, not a numeric literal  
 int p = 10_; // Error, cannot put underscores at the end of a number  
 ```
 
 2.我们不应该在浮点文本中的小数点前后使用下划线。
 
-```
+```java
 float a = 10._0f; // Error, cannot put underscores adjacent to a decimal point  
 float a = 10_.0f; // Error, cannot put underscores adjacent to a decimal point  
 ```
 
 3.我们不应该在长整数和浮点整数中分别使用在 L 或 F 之前的后缀。
 
-```
+```java
 long a = 10_100_00_L; // Error, cannot put underscores prior to an L suffix  
 float a = 10_100_00_F; // Error, cannot put underscores prior to an F suffix  
 ```
@@ -31,7 +31,7 @@ float a = 10_100_00_F; // Error, cannot put underscores prior to an F suffix
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Numeric Literals with
 // Underscore
 
@@ -66,7 +66,7 @@ public class Example {
 
 **Output**
 
-```
+```java
 The value of a is=77
 The value of p is=11.2396745
 The value of q is=16.4556

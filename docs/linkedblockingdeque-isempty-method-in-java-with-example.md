@@ -8,7 +8,7 @@ Java 中**link edblockingrequest**的 **isEmpty()** 方法用来检查这个 lin
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -20,7 +20,7 @@ public boolean isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of LinkedBlockingDeque
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Is Linked Blocking Deque empty: false
 
@@ -61,7 +61,7 @@ Is Linked Blocking Deque empty: false
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of LinkedBlockingDeque
 // when the list contains characters
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Linked Blocking Deque: []
 Is Linked Blocking Deque empty: true
 

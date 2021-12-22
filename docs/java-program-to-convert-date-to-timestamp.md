@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```java
 Input: Date is 19 October 2021 
 Output: 2021-10-19 18:11:24
 Explanation: Date would be printed along with the current time to milliseconds.
@@ -28,7 +28,7 @@ Explanation: Date would be printed along with the current time to milliseconds.
 
 ****语法:****
 
-```
+```java
 public long getTime()
 ```
 
@@ -43,7 +43,7 @@ public long getTime()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to convert date to time stamp
 
 import java.sql.Timestamp;
@@ -66,7 +66,7 @@ public class GFG_Article {
 
 ****Output**
 
-```
+```java
 2021-10-19 20:18:08.813
 ```** 
 
@@ -79,7 +79,7 @@ public class GFG_Article {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to convert date to time-stamp using
 // SimpleDataFormat class and TimeStamp class
 
@@ -119,7 +119,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 2021-10-19 20:21:34
 2021-10-19 20:21
 ```**

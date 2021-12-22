@@ -7,7 +7,7 @@
 **注:**双流 mapToLong()是一个 ***的中间操作。*** 这些操作总是偷懒。中间操作在流实例上被调用，在它们完成处理后，它们给出一个流实例作为输出。
 **语法:**
 
-```
+```java
 LongStream mapToLong(DoubleToLongFunction mapper)
 
 ```
@@ -21,7 +21,7 @@ LongStream mapToLong(DoubleToLongFunction mapper)
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream mapToLong
 // (DoubleToLongFunction mapper)
 import java.util.*;
@@ -51,7 +51,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3
 6
 16
@@ -62,7 +62,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream mapToLong
 // (DoubleToLongFunction mapper)
 import java.util.*;
@@ -92,7 +92,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -7
 -4
 6
@@ -103,7 +103,7 @@ class GFG {
 
 **例 3 :**
 
-```
+```java
 // Java code for LongStream mapToLong
 // (DoubleToLongFunction mapper)
 import java.util.*;
@@ -133,7 +133,7 @@ class GFG {
 
 输出:
 
-```
+```java
 21
 84
 537

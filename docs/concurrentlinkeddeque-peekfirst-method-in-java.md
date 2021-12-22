@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 Conn_Linked_Deque.peekFirst() 
 ```
 
@@ -19,7 +19,7 @@ Conn_Linked_Deque.peekFirst()
 
 **程序 1:** 该程序涉及到带有*整数*元素的德克尔。
 
-```
+```java
 // Java Program Demonstrate peekFirst()
 // method of ConcurrentLinkedDeque
 
@@ -49,7 +49,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 Elements inthe LinkedDeque: [76, 55, 110, 12]
 First Element inthe LinkedDeque: 76
 
@@ -57,7 +57,7 @@ First Element inthe LinkedDeque: 76
 
 **程序二:**本程序涉及带有*弦*元素的德格。
 
-```
+```java
 // Java Program Demonstrate peekFirst()
 // method of ConcurrentLinkedDeque
 
@@ -87,7 +87,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 Elements inthe LinkedDeque: [Geeks, GeeksforGeeks, Gfg, GFG]
 First Element inthe LinkedDeque: Geeks
 

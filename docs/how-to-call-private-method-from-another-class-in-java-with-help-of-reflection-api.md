@@ -16,7 +16,7 @@
 
     *   **例 1:** 当私有函数的名字已经知道时。
 
-        ```
+        ```java
         // Java program to call
         // private method of a
         // class from another class
@@ -66,7 +66,7 @@
         **输出:** [![](img/a36c46f391ab845fdb94f70989799f91.png)](https://media.geeksforgeeks.org/wp-content/uploads/20190610233304/Annotation-2019-06-10-233218.png) 
     *   **例 2:** 当私有函数的名称未知但类名已知时。
 
-        ```
+        ```java
         // Java program to call private method
         // of a class from another class
 

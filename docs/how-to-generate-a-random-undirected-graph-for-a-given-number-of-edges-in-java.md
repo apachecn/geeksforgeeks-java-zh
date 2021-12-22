@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 Enter the number of Edges :
 5
@@ -54,7 +54,7 @@ The Generated Random Graph is :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Generate a Random Undirected Graph
 // for a GivenNumber of Edges
 
@@ -125,7 +125,7 @@ public class RandomUG {
 
 **Output**
 
-```
+```java
 Enter the number of Edges : 6
 The Generated Random Graph is :
 1 -> { 8  }

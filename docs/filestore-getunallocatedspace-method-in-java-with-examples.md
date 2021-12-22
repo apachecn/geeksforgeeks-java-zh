@@ -5,7 +5,7 @@
 一个**文件存储**类的 **getUnallocatedSpace()** 方法用于获取文件存储中未分配的字节数。此方法对于检查可用空间很有用。此方法将可用的未分配空间作为长值返回。
 **语法:**
 
-```
+```java
 public abstract long getUnallocatedSpace()
                      throws IOException
 ```
@@ -18,7 +18,7 @@ public abstract long getUnallocatedSpace()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // FileStore.getUnallocatedSpace() method
 
@@ -68,7 +68,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // FileStore.getUnallocatedSpace() method
 

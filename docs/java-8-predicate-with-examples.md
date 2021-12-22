@@ -7,7 +7,7 @@
 
 1.  **isEqual(Object targetRef):**返回一个谓词，该谓词根据 Objects.equals(Object，Object)测试两个参数是否相等。
 
-```
+```java
 static  Predicate isEqual(Object targetRef)
 Returns a predicate that tests if two arguments are 
 equal according to Objects.equals(Object, Object).
@@ -21,7 +21,7 @@ are equal according to Objects.equals(Object, Object)
 
 1.  **和(谓词其他):**返回一个复合谓词，表示该谓词和另一个谓词的短路逻辑“与”。
 
-```
+```java
 default Predicate and(Predicate other)
 Returns a composed predicate that represents a 
 short-circuiting logical AND of this predicate and another.
@@ -34,7 +34,7 @@ Throws: NullPointerException - if other is null
 
 2.  **否定():**返回表示该谓词逻辑否定的谓词。
 
-```
+```java
 default Predicate negate()
 Returns:a predicate that represents the logical 
 negation of this predicate
@@ -42,7 +42,7 @@ negation of this predicate
 
 1.  **或(谓词其他):**返回一个组合谓词，表示该谓词和另一个谓词的短路逻辑或。
 
-```
+```java
 default Predicate or(Predicate other)
 Parameters:
 other : a predicate that will be logically-ORed with this predicate
@@ -54,7 +54,7 @@ Throws : NullPointerException - if other is null
 
 2.  **测试(T ^ T):**根据给定的参数评估该谓词。布尔测试(T ^ T)
 
-```
+```java
 test(T t) 
 Parameters:
 t - the input argument
@@ -68,7 +68,7 @@ true if the input argument matches the predicate, otherwise false
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate Simple Predicate
 
 import java.util.function.Predicate;
@@ -86,7 +86,7 @@ public class PredicateInterfaceExample1 {
 
 输出:
 
-```
+```java
 True
 ```
 
@@ -94,7 +94,7 @@ True
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate Predicate Chaining
 
 import java.util.function.Predicate;
@@ -117,7 +117,7 @@ public class PredicateInterfaceExample2 {
 
 输出:
 
-```
+```java
 True
 False
 ```
@@ -126,7 +126,7 @@ False
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate 
 // passing Predicate into function
 
@@ -147,7 +147,7 @@ class PredicateInterfaceExample3 {
 
 输出:
 
-```
+```java
 Number 10
 ```
 
@@ -155,7 +155,7 @@ Number 10
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate OR Predicate
 
 import java.util.function.Predicate;
@@ -185,7 +185,7 @@ class PredicateInterfaceExample4 {
 
 输出:
 
-```
+```java
 True
 ```
 
@@ -193,7 +193,7 @@ True
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate AND Predicate
 
 import java.util.function.Predicate;
@@ -231,7 +231,7 @@ class PredicateInterfaceExample5 {
 
 输出:
 
-```
+```java
 False
 True
 ```
@@ -240,7 +240,7 @@ True
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate 
 // negate Predicate
 
@@ -272,7 +272,7 @@ class PredicateInterfaceExample6 {
 
 输出:
 
-```
+```java
 False
 ```
 
@@ -280,7 +280,7 @@ False
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of predicates
 // on collection. The program finds all admins in an
 // arrayList of users.
@@ -322,7 +322,7 @@ class User
 
 输出:
 
-```
+```java
 [User Name : John, Role :admin]
 ```
 
@@ -332,7 +332,7 @@ class User
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of predicates
 // on collection. The program finds all admins in an
 // arrayList of users.
@@ -386,6 +386,6 @@ class User
 
 **输出:**
 
-```
+```java
 [User Name : John, Role :admin]
 ```

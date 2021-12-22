@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Inputs:   1->2->3->4->5->6->7->8->9->NULL and k = 3
 Output:   3->2->1->4->5->6->9->8->7->NULL. 
 ```
@@ -14,7 +14,7 @@ Output:   3->2->1->4->5->6->9->8->7->NULL.
 **方法 1(处理 2k 个节点并递归调用列表的其余部分):**
 这个方法基本上是[这篇](https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/)帖子中讨论的方法的扩展。
 
-```
+```java
 kAltReverse(struct node *head, int k)
   1)  Reverse first k nodes.
   2)  In the modified list head points to the kth node.  So change next 
@@ -26,7 +26,7 @@ kAltReverse(struct node *head, int k)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse alternate k 
 // nodes in a linked list
 class LinkedList 
@@ -136,7 +136,7 @@ class LinkedList 
 
 **输出:**
 
-```
+```java
 Given linked list
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 Modified Linked list
@@ -150,7 +150,7 @@ Modified Linked list
 
 这个方法在递归调用中只处理 k 个节点。它使用第三个 bool 参数 b 来决定是反转 k 个元素还是简单地移动指针。
 
-```
+```java
 _kAltReverse(struct node *head, int k, bool b)
   1)  If b is true, then reverse first k nodes.
   2)  If b is false, then move the pointer k nodes ahead.
@@ -161,7 +161,7 @@ _kAltReverse(struct node *head, int k, bool b)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse alternate
 // k nodes in a linked list
 class LinkedList 
@@ -288,7 +288,7 @@ class LinkedList 
 
 **输出:**
 
-```
+```java
 Given linked list
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 Modified Linked list

@@ -20,7 +20,7 @@ ToggleButton 允许用户从手机的设置菜单中更改两种状态之间的�
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"  
         xmlns:app="http://schemas.android.com/apk/res-auto"  
@@ -58,7 +58,7 @@ ToggleButton 允许用户从手机的设置菜单中更改两种状态之间的�
 
     ## MainActivity.Java
 
-    ```
+    ```java
     import androidx.appcompat.app.AppCompatActivity;
     import android.os.Bundle;
     import android.view.View;

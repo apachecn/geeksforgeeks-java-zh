@@ -5,7 +5,7 @@
 [番石榴的大整数类](https://www.geeksforgeeks.org/bigintegermath-class-guava-java/)的方法**flower powerof two(大整数 x)** 返回小于或等于 x 的 2 的最大幂，这相当于大整数. valueOf(2)。pow(log2(x，FLOOR))。
 **语法:**
 
-```
+```java
 public static BigInteger floorPowerOfTwo(BigInteger x)
 ```
 
@@ -17,7 +17,7 @@ public static BigInteger floorPowerOfTwo(BigInteger x)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation of
 // floorPowerOfTwo() method
 // of Guava's BigIntegerMath class
@@ -59,7 +59,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Largest power of 2 less than or equal to 10 is: 8
 Largest power of 2 less than or equal to 127 is: 64
 ```
@@ -68,7 +68,7 @@ Largest power of 2 less than or equal to 127 is: 64
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation of
 // floorPowerOfTwo(BigInteger x) method
 // of Guava's BigIntegerMath class
@@ -106,7 +106,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.IllegalArgumentException: x (-3) must be > 0
 ```
 

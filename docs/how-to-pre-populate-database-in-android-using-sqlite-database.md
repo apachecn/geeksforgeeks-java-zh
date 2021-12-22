@@ -10,7 +10,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，在依赖项部分添加 [Recycler View](https://www.geeksforgeeks.org/android-recyclerview/) 依赖项。
 
-    ```
+    ```java
     dependencies{
            implementation 'androidx.recyclerview:recyclerview:1.1.0'
     }
@@ -19,7 +19,7 @@
 2.  确保将数据库添加到资产文件夹中。要创建资产文件夹，右键单击**应用目录- >新建- >文件夹- >(选择)资产文件夹**。然后简单的粘贴你的**。数据库文件**在资产文件夹中。
 3.  在 **activity_main.xml** 中，添加以下代码。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -39,7 +39,7 @@
 
 4.  使用以下代码创建一个新的 **custom_layout.xml** 文件。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -59,7 +59,7 @@
 
 5.  创建一个**数据库助手类**并添加以下代码。
 
-    ```
+    ```java
     package org.geeksforgeeks.dictionary;
 
     import android.app.Activity;
@@ -270,7 +270,7 @@
 
 6.  创建一个**MyAdapter.java**类，并添加以下代码。
 
-    ```
+    ```java
     package org.geeksforgeeks.dictionary;
 
     import android.app.Activity;
@@ -343,7 +343,7 @@
 
 7.  最后，在**MainActivity.java**中添加以下代码。
 
-    ```
+    ```java
     package org.geeksforgeeks.algorithmTopics;
 
     import androidx.appcompat.app.AppCompatActivity;

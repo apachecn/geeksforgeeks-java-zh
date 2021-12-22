@@ -14,7 +14,7 @@
 <u>**CharMatcher。数字**根据 Unicode 判断一个字符是否是数字。如果您只想匹配 ASCII 数字，可以使用范围(' 0 '，' 9 ')。
 **句法**:</u>
 
-```
+```java
 public static final CharMatcher DIGIT 
 ```
 
@@ -22,7 +22,7 @@ public static final CharMatcher DIGIT
 
 <u>**程序 1:**</u>
 
-```
+```java
 // Program for CharMatcher.DIGIT field in Java
 import com.google.common.base.CharMatcher;
 
@@ -51,7 +51,7 @@ class GFG {
 
 <u>**Output:**
 
-```
+```java
 123 is divisible by 3
 1233
 
@@ -64,7 +64,7 @@ class GFG {
  <u>**CharMatcher。JAVA_LETTER** 根据 JAVA 的定义判断一个字符是字母还是数字。
 **句法**:
 
-```
+```java
 public static final CharMatcher JAVA_LETTER
 
 ```
@@ -73,7 +73,7 @@ public static final CharMatcher JAVA_LETTER
 
 **程序 1:**
 
-```
+```java
 // Program for CharMatcher.JAVA_LETTER field in Java
 import com.google.common.base.CharMatcher;
 
@@ -102,7 +102,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 123 is divisible by 3
 isdivisibleby
 
@@ -115,7 +115,7 @@ isdivisibleby
 **CharMatcher。ASCII** 确定一个字符是否为 ASCII，表示其码位小于 128。
 **句法**:
 
-```
+```java
 public static final CharMatcher ASCII
 
 ```
@@ -124,7 +124,7 @@ public static final CharMatcher ASCII
 
 **程序 1:**
 
-```
+```java
 // Program for CharMatcher.ASCII field in Java
 import com.google.common.base.CharMatcher;
 
@@ -153,7 +153,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeekforGeeks is fun.?
 GeekforGeeks is fun.
 
@@ -166,7 +166,7 @@ GeekforGeeks is fun.
 **CharMatcher。任意**字段匹配任意字符，即匹配所有字符。
 **句法**:
 
-```
+```java
 public static final CharMatcher ANY
 
 ```
@@ -175,7 +175,7 @@ public static final CharMatcher ANY
 
 **程序 1:**
 
-```
+```java
 // Program for CharMatcher.ANY field in Java
 import com.google.common.base.CharMatcher;
 
@@ -201,7 +201,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeekforGeeks is fun.
 
 ```
@@ -214,7 +214,7 @@ GeekforGeeks is fun.
 
 <u>**语法**:</u>
 
-```
+```java
 public static final CharMatcher JAVA_LOWER_CASE 
 ```
 
@@ -222,7 +222,7 @@ public static final CharMatcher JAVA_LOWER_CASE
 
 <u>**程序 1:**</u>
 
-```
+```java
 // Program for CharMatcher.JAVA_LETTER_OR_DIGIT field in Java
 import com.google.common.base.CharMatcher;
 
@@ -251,7 +251,7 @@ class GFG {
 
 <u>**Output:**
 
-```
+```java
 gEEKSfORgEEKS
 gfg
 
@@ -266,7 +266,7 @@ gfg
  <u>**CharMatcher。JAVA_UPPER_CASE** 根据 JAVA 的定义判断一个字符是否是大写。
 **句法**:
 
-```
+```java
 public static final CharMatcher JAVA_UPPER_CASE 
 
 ```
@@ -275,7 +275,7 @@ public static final CharMatcher JAVA_UPPER_CASE
 
 **程序 1:**
 
-```
+```java
 // Program for CharMatcher.JAVA_UPPER_CASE field in Java
 import com.google.common.base.CharMatcher;
 
@@ -304,7 +304,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 c++ JAVA python
 JAVA
 
@@ -317,7 +317,7 @@ JAVA
 **CharMatcher。JAVA_LETTER_OR_DIGIT** 根据 JAVA 的定义判断一个字符是字母还是数字。
 **句法**:
 
-```
+```java
 public static final CharMatcher JAVA_LETTER_OR_DIGIT
 
 ```
@@ -326,7 +326,7 @@ public static final CharMatcher JAVA_LETTER_OR_DIGIT
 
 **程序 1:**
 
-```
+```java
 // Program for CharMatcher.JAVA_LETTER_OR_DIGIT field in Java
 import com.google.common.base.CharMatcher;
 
@@ -355,7 +355,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 #13 is a prime & number%
 13isaprimenumber
 
@@ -368,7 +368,7 @@ class GFG {
 **CharMatcher。JAVA_DIGIT** 根据 JAVA 的定义判断一个字符是否为数字。如果您只想匹配 ASCII 数字，可以使用范围(' 0 '，' 9 ')。
 **句法**:
 
-```
+```java
 public static final CharMatcher JAVA_DIGIT
 
 ```
@@ -377,7 +377,7 @@ public static final CharMatcher JAVA_DIGIT
 
 **程序 1:**
 
-```
+```java
 // Program for CharMatcher.JAVA_DIGIT field in Java
 import com.google.common.base.CharMatcher;
 
@@ -406,7 +406,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 13 is a prime number
 13
 

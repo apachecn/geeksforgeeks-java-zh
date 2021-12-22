@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Spliterator spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator spliterator()
 
 **程序 1:** 从 LinkedBlockingQueue 创建一个分割器，该分割器包含一个班级不同学生的名字
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of LinkedBlockingQueue
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of names:
 Aman
 Amar
@@ -65,7 +65,7 @@ Rabi
 
 **程序 2:** 从包含员工对象列表的 LinkedBlockingQueue 创建一个拆分器。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of LinkedBlockingQueue
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 No of Employees = 2
 -----------------------------
 Employee Name : Aman

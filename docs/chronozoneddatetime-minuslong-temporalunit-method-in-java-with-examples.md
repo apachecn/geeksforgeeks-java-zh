@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default ChronoZonedDateTime minus(long amountToSubtract,
                            TemporalUnit unit)
 
@@ -29,7 +29,7 @@ default ChronoZonedDateTime minus(long amountToSubtract,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.minus() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime after subtracting Months:
  2016-06-06T19:21:12.123+05:30[Asia/Calcutta]
 

@@ -18,7 +18,7 @@ T3【注:
 
 ****示例:**展示 **java.lang.Math.ceil()** 方法的工作。**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.ceil() method
 import java.lang.Math;
@@ -54,7 +54,7 @@ class Gfg {
 
 ****输出:****
 
-```
+```java
 5.0
 Infinity
 0.0

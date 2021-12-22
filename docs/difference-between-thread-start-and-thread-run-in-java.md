@@ -7,7 +7,7 @@
 1.  **New Thread creation:** When a program calls the *start()* method, a new thread is created and then the *run()* method is executed. But if we directly call the *run()* method then no new thread will be created and *run()* method will be executed as a normal method call on the current calling thread itself and no multi-threading will take place.
     Let us understand it with an example:
 
-    ```
+    ```java
     class MyThread extends Thread {
         public void run()
         {
@@ -28,7 +28,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Current thread name: Thread-0
     run() method called
 
@@ -37,7 +37,7 @@
     从上面的例子中我们可以看到，当我们调用线程类实例的 *start()* 方法时，会创建一个默认名称为 *Thread-0* 的新线程，然后调用 *run()* 方法，并在新创建的线程上执行其中的所有内容。
     现在，让我们尝试直接调用 *run()* 方法，而不是 *start()* 方法:
 
-    ```
+    ```java
     class MyThread extends Thread {
         public void run()
         {
@@ -59,7 +59,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Current thread name: main
     run() method called
 
@@ -70,7 +70,7 @@
 2.  **Multiple invocation:** In Java’s multi-threading concept, another most important difference between *start()* and *run()* method is that we can’t call the *start()* method twice otherwise it will throw an *IllegalStateException* whereas *run()* method can be called multiple times as it is just a normal method calling.
     Let us understand it with an example:
 
-    ```
+    ```java
     class MyThread extends Thread {
         public void run()
         {
@@ -93,7 +93,7 @@
 
     **输出**:
 
-    ```
+    ```java
     Current thread name: Thread-0
     run() method called
     Exception in thread "main" java.lang.IllegalThreadStateException
@@ -105,7 +105,7 @@
     从上面的例子中我们可以看到，再次调用 *start()* 方法会引发*Java . lang . illegalthreadstatexception*。
     现在，让我们试着调用 *run()* 方法两次:
 
-    ```
+    ```java
     class MyThread extends Thread {
         public void run()
         {
@@ -127,7 +127,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Current thread name: main
     run() method called
     Current thread name: main

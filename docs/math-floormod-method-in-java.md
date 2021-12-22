@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public static int floorMod(*data_type a, data_type b*)
 ```
 
@@ -30,7 +30,7 @@ public static int floorMod(*data_type a, data_type b*)
 下面的程序用来说明 Java . lang . math . Bloommod()方法的工作原理。
 **节目一:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.floorMod() method
 import java.lang.Math;
@@ -59,7 +59,7 @@ class Gfg1 {
 
 **Output:**
 
-```
+```java
 0
 23
 -27
@@ -69,7 +69,7 @@ class Gfg1 {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.floorMod() method
 import java.lang.Math;
@@ -88,7 +88,7 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 Runtime Error :
 Exception in thread "main" java.lang.ArithmeticException: / by zero
     at java.lang.Math.floorDiv(Math.java:1052)

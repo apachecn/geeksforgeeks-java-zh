@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse a 
 // linked list in groups of
 // given size
@@ -140,7 +140,7 @@ class LinkedList
 
 **输出:**
 
-```
+```java
 Given Linked List
 1 2 3 4 5 6 7 8 9 
 Reversed list

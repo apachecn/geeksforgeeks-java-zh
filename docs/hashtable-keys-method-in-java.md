@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration<K> keys()
 Enumeration enu = Hash_table.keys();
 ```
@@ -21,7 +21,7 @@ Enumeration enu = Hash_table.keys();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate keys() method
 // of Hashtable class
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The Table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 The enumeration of keys are:
 10
@@ -85,7 +85,7 @@ The enumeration of keys are:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate  keys() method
 // of Hashtable class
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The Table is: {You=30, Welcomes=25, 4=15, Geeks=20}
 The enumeration of keys are:
 You

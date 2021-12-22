@@ -6,13 +6,13 @@
 
 **方法声明:**
 
-```
+```java
 public final int hashCode()
 ```
 
 **语法:**
 
-```
+```java
 int code = TupleClassObject.hashCode()
 ```
 
@@ -23,7 +23,7 @@ int code = TupleClassObject.hashCode()
 下面的程序说明了 TupleClassObject:
 **的 hashcode()方法程序 1:** 获取一个四方类对象的 hash 代码。
 
-```
+```java
 // Below is a Java program to use hashCode()
 // with a LabelValue tuple
 
@@ -51,14 +51,14 @@ class GfG {
 
 **输出:**
 
-```
+```java
 -1296686340
 
 ```
 
 **程序 2:** 获取一个 LabelValue Class 对象的哈希代码。
 
-```
+```java
 // Below is a Java program to use hashCode()
 // with a LabelValue tuple
 
@@ -84,7 +84,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 -1587127699
 
 ```

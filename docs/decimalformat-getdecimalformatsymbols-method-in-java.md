@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public DecimalFormatSymbols getDecimalFormatSymbols()
 ```
 
@@ -19,7 +19,7 @@ public DecimalFormatSymbols getDecimalFormatSymbols()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // getDecimalFormatSymbols() method
 
@@ -42,7 +42,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 java.text.DecimalFormatSymbols@1073a
 ```
 
@@ -50,7 +50,7 @@ java.text.DecimalFormatSymbols@1073a
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // getDecimalFormatSymbols() method
 
@@ -78,7 +78,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 java.text.DecimalFormatSymbols@1073a
 ```
 

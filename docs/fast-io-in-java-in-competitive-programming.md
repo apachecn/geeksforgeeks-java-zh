@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 7 3
 1
@@ -28,7 +28,7 @@ Output: 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Working program using Scanner
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -56,7 +56,7 @@ public class Main {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Working program using BufferedReader
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -92,7 +92,7 @@ public class Main {
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 *// Working program with FastReader
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -168,7 +168,7 @@ public class Main {
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 *// Working program using Reader Class
 import java.io.DataInputStream;
 import java.io.FileInputStream;

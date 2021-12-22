@@ -28,7 +28,7 @@ PieChart 类是 JavaFX 的一部分。PieChart 类用于创建饼图。图表内
 
 1.  **Java program to create a pie chart with some specified data:** This program creates a PieChart. A *PieChart.Data* will be created that will be added to the pie chart as an observable list.T he PieChart will be created inside a scene, which in turn will be hosted inside a stage. The function *setTitle()* is used to provide title to the stage. Then a Group is created, and the pie chart is attached. The group is attached to the scene. Finally, the *show()* method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a pie chart 
     // with some specified data
     import javafx.application.Application;
@@ -101,7 +101,7 @@ PieChart 类是 JavaFX 的一部分。PieChart 类用于创建饼图。图表内
 
 2.  **Java program to create a pie chart with some specified data, with visible labels and a defined start angle, and ordered in anticlockwise direction:** This program creates a PieChart. A *PieChart.Data* will be created that will be added to the pie chart as an observable list. The PieChart will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a Group is created, and the pie chart is attached. The group is attached to the scene. Finally, the *show()* method is called to display the final results.we will set label line length of pie chart using *setLabelLineLength()* function, we will set the start angle and the clockwise orientation using *setStartAngle()* and *setClockwise()* function respectively . we can make the labels visible using setLabelsVisible() function.
 
-    ```
+    ```java
     // Java program to create a pie chart with
     // some specified data, with visible labels
     // and a defined start angle, and ordered 

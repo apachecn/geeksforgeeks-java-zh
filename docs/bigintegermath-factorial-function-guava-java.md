@@ -5,7 +5,7 @@
 [番石榴的 BigIntegerMath 类](https://www.geeksforgeeks.org/bigintegermath-class-guava-java/)的方法**阶乘(int n)** 被用来寻找给定数的阶乘。它返回 n！，即前 n 个正整数的乘积。
 **语法:**
 
-```
+```java
 public static BigInteger factorial(int n)
 ```
 
@@ -23,7 +23,7 @@ public static BigInteger factorial(int n)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation of
 // factorial() method of Guava's BigIntegerMath class
 
@@ -58,7 +58,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Factorial of 10 is: 3628800
 Factorial of 12 is: 479001600
 ```

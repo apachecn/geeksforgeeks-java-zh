@@ -12,7 +12,7 @@ A [***嵌套循环***](https://www.geeksforgeeks.org/java-nested-loops-with-exam
 
 ## **Java**
 
-```
+```java
 // Nested for loop
 
 import java.io.*;
@@ -33,7 +33,7 @@ class GFG {
 
 ****输出****
 
-```
+```java
 GFG! GFG! GFG! 
 GFG! GFG! GFG! 
 GFG! GFG! GFG! 

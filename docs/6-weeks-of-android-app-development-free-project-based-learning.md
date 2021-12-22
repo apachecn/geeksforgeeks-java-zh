@@ -191,7 +191,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -268,7 +268,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.addtwonumbers;
 
 // Each new activity has its own layout and Java files,
@@ -331,13 +331,13 @@ public class MainActivity extends AppCompatActivity {
 
 你的安卓应用的包名。
 
-```
+```java
 package com.example.addtwonumbers;
 ```
 
 应用程序中使用的库列表。
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -349,7 +349,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 变量**数字 1，数字 2** 为输入数字(编辑文本)。类似地 **add_button** 变量用于我们在 XML 代码中使用的 button， **result** 变量用于 TextView。
 
-```
+```java
 EditText number1;
 EditText number2;
 Button add_button;
@@ -358,7 +358,7 @@ TextView result;
 
 请记住，您已经为 XML 文件中的每个组件分配了一个标识。是的，他们将在这里使用它。通过标识，我们可以使用在 XML 文件中分配的每个组件的标识，如下所示。
 
-```
+```java
 number1 = (EditText) findViewById(R.id.editText_first_no);
 number2 = (EditText) findViewById(R.id.editText_second_no);
 add_button = (Button) findViewById(R.id.add_button);
@@ -367,7 +367,7 @@ result = (TextView) findViewById(R.id.textView_answer);
 
 最后，我们在我们的按钮中添加一个 **setOnClickListener()** 。因此，当用户点击按钮时，这将为我们提供输出。在这里面，我们写了简单的逻辑来把这些数字相加。还有**设置文本()**为我们的输出文本视图。就这么简单。就这样。
 
-```
+```java
 add_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
@@ -423,7 +423,7 @@ add_button.setOnClickListener(new View.OnClickListener() {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
@@ -458,7 +458,7 @@ add_button.setOnClickListener(new View.OnClickListener() {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1016,7 +1016,7 @@ add_button.setOnClickListener(new View.OnClickListener() {
 
 **4.1:为我们的文本视图和按钮**创建变量
 
-```
+```java
 lateinit var tvsec: TextView
 lateinit var tvMain: TextView
 lateinit var bac: Button
@@ -1032,7 +1032,7 @@ lateinit var bbrac2: Button
 
 **4.2:初始化所有变量**
 
-```
+```java
 tvsec = findViewById(R.id.idTVSecondary)
 tvMain = findViewById(R.id.idTVprimary)
 bac = findViewById(R.id.bac)
@@ -1045,7 +1045,7 @@ bc = findViewById(R.id.bc)
 
 **4.3:将 onClickListener()添加到所有按钮中**
 
-```
+```java
 b1.setOnClickListener {
   // on below line we are appending 
   // the expression to our text view.
@@ -1062,7 +1062,7 @@ b2.setOnClickListener {
 
 最后写下所有计算(加法、乘法、除法等)的逻辑。).让我们来写一个数的阶乘的代码。所以把代码写下来如下:
 
-```
+```java
 fun factorial(n: Int): Int {
         // this method is use to find factorial
         return if (n == 1 || n == 0) 1 else n * factorial(n - 1)
@@ -1073,7 +1073,7 @@ fun factorial(n: Int): Int {
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView

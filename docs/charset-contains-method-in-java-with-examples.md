@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public abstract boolean contains(Charset second)
 ```
 
@@ -18,7 +18,7 @@ public abstract boolean contains(Charset second)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

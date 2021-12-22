@@ -24,7 +24,7 @@ GridLayout 类表示在矩形网格中具有指定行数和列数的布局管理
 
 *   **Program 1:** In below program we are passing the argument in *GridLayout*. We create 4 *JLabel* components named “*one*“, “*two*“, “*three*“, “*four*” and create 2 *JButton* components named “*buttonsave*” and “*buttonexit*” and create 4 *Jtextfield* components named “*tname*“, “*tcode*“, “*tdesig*“, “*tsalary*” and all of add them to the *JFrame* by the method add(). We will set the visibility and size of the frame by using *setVisible()* and *setSize()* method. The layout is set by using *setLayout()* method.
 
-    ```
+    ```java
     // Java program to illustrate the GridLayout
     import javax.swing.*;
     import java.awt.*;
@@ -160,7 +160,7 @@ GridLayout 类表示在矩形网格中具有指定行数和列数的布局管理
     <video class="wp-video-shortcode" id="video-219795-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/Untitled-14.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/Untitled-14.mp4](https://media.geeksforgeeks.org/wp-content/uploads/Untitled-14.mp4)</video>
 *   **Program 2:** In below program we are passing the argument in *GridLayout*. We create 5 *JButton* components named “*btn1*“, “*btn2*“, “*btn3*“, “*btn4*“, “*btn5*” and then add them to the *JFrame* by the method *add()*. We will set the visibility and size of the frame by using *setvisible()* and *setsize()* method. The layout is set by using *setLayout()* method.
 
-    ```
+    ```java
     // Java program to illustrate the GridLayout
     import java.awt.*;
     import javax.swing.*;

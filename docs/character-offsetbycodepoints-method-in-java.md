@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int offsetByCodePoints(CharSequence seq, int index, int codePointOffset)
 
 ```
@@ -27,7 +27,7 @@ public static int offsetByCodePoints(CharSequence seq, int index, int codePointO
 以下是说明上述方法的程序:
 **程序 1:**
 
-```
+```java
 // Code to illustrate the offsetByCodePoints() method
 import java.lang.*;
 
@@ -51,14 +51,14 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 The index within the char sequence s is 8
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Code to illustrate the offsetByCodePoints() method
 
 import java.lang.*;
@@ -83,7 +83,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 The index within the char sequence s is 11
 
 ```

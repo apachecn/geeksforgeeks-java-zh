@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate
 // Accessing Protected Members
 // in the same class
@@ -45,7 +45,7 @@ class Sample {
 
 **Output**
 
-```
+```java
 2021
 Its 2021 !!
 ```
@@ -56,7 +56,7 @@ Its 2021 !!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Accessing
 // Protected Members
 // In Other Class of Same Package
@@ -83,7 +83,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 2021
 Its 2021 !!
 ```
@@ -96,7 +96,7 @@ Its 2021 !!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate
 // Accessing Protected Members
 // of a class in its subclass
@@ -124,7 +124,7 @@ public class Test extends Sample {
 
 **Output**
 
-```
+```java
 2021
 Its 2021 !!
 geekforgeeks
@@ -138,7 +138,7 @@ geekforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate
 // Accessing Protected Members
 // In Another Class in a
@@ -164,7 +164,7 @@ public class Sample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate
 // Accessing Protected Members
 // In Another Class in a
@@ -191,7 +191,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 error: year has protected access in Sample
                 System.out.println(sample.year);
                                          ^
@@ -213,7 +213,7 @@ error: title has protected access in Sample
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Accessing Protected
 // Members in sub-class in a different package
 
@@ -236,7 +236,7 @@ public class Sample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Accessing Protected
 // Members in Sub-class in a different Package
 package package2;
@@ -268,7 +268,7 @@ public class Child extends Sample {
 
 **输出**
 
-```
+```java
 2021
 Its 2021 !!
 geeksforgeeks
@@ -280,7 +280,7 @@ geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Compile-time Error Thrown
 // When we are Trying to Access Protected Members
 // Using Parent Class Reference
@@ -345,7 +345,7 @@ public class Child extends Sample {
 
 **输出**
 
-```
+```java
 error: year has protected access in Sample
         System.out.println(sample.year); 
                                  ^

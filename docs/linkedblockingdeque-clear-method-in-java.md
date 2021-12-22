@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -18,7 +18,7 @@ public void clear()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate clear()
 // method of LinkedBlockingDeque
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Linked Blocking Deque: []
 
@@ -60,7 +60,7 @@ Linked Blocking Deque: []
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate clear()
 // method of LinkedBlockingDeque
 // when the list contains characters
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [1, 2, 3, 4]
 Linked Blocking Deque: []
 

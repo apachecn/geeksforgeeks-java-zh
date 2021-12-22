@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int divide(int p,
                           int q,
                           RoundingMode mode)
@@ -38,7 +38,7 @@ public static int divide(int p,
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // divide(int p, int q, RoundingMode mode)
 // method of Guava's IntMath class
@@ -79,7 +79,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5
 6
 
@@ -87,7 +87,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // divide(int p, int q, RoundingMode mode)
 // method of Guava's IntMath class
@@ -140,7 +140,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.ArithmeticException: / by zero
 
 ```

@@ -6,7 +6,7 @@ Java 中**月日类**的**等于()**方法检查这个月日是否等于另一�
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object obj)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -47,14 +47,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -83,7 +83,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 false
 
 ```

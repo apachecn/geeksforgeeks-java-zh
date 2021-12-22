@@ -14,7 +14,7 @@
 
 ****例****
 
-```
+```java
 **Input:** N = 5, arr[] = {70, 60, 90, 40, 80}
 **Output:** Total Sum = 340
 
@@ -36,7 +36,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to calculate the sum of
 // the elements of the array recursively
 
@@ -81,7 +81,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The total of N numbers is : 401
 ```** 
 
@@ -97,7 +97,7 @@ The total of N numbers is : 401
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to calculate the sum of
 // the elements of array using recursion
 
@@ -140,6 +140,6 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The total of N numbers is : 36
 ```**

@@ -13,7 +13,7 @@ java 中有两个**减法**方法的重载，如下所示:
 
 **语法:**
 
-```
+```java
 public BigDecimal subtract(BigDecimal val)
 
 ```
@@ -24,7 +24,7 @@ public BigDecimal subtract(BigDecimal val)
 
 下面的程序是用来说明 BigDecimal 的减法()方法的。
 
-```
+```java
 // Java program to demonstrate
 // subtract() method of BigDecimal
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public BigDecimal subtract(BigDecimal val, MathContext mc)
 
 ```
@@ -86,7 +86,7 @@ public BigDecimal subtract(BigDecimal val, MathContext mc)
 
 下面的程序是用来说明 BigDecimal 的减法()方法的。
 
-```
+```java
 // Java program to demonstrate
 // subtract() method of BigDecimal
 

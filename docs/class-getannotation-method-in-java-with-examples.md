@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public T getAnnotation(Class<T> annotationClass)
 
 ```
@@ -23,7 +23,7 @@ public T getAnnotation(Class<T> annotationClass)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotation() method
 
@@ -67,7 +67,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Annotation of myClass: @Annotation(key=GFG, value=GeeksForGeeks)
 
@@ -75,7 +75,7 @@ Annotation of myClass: @Annotation(key=GFG, value=GeeksForGeeks)
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotation() method
 
@@ -108,7 +108,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Annotation of myClass: null
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 
     stack.push(1)
@@ -21,13 +21,13 @@ Output:
 
 **语法:**
 
-```
+```java
 public class Stack<E> extends Vector<E>
 ```
 
 **栈 API 实现**:
 
-```
+```java
 Serializable, Cloneable, Iterable<E>, Collection<E>, List<E>, RandomAccess.
 ```
 
@@ -43,7 +43,7 @@ Serializable, Cloneable, Iterable<E>, Collection<E>, List<E>, RandomAccess.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement Stack API
 import java.util.Stack;
 
@@ -100,7 +100,7 @@ public class StackImpl<E> {
 
 **Output**
 
-```
+```java
 element pushed : one
 element pushed : two
 element pushed : three

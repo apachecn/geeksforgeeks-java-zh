@@ -19,7 +19,7 @@
 
 ## Java
 
-```
+```java
 // Java Program Illustrating How to Set the name
 // of Thread at time of Creation
 
@@ -73,7 +73,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Thread 1: geek1
 Thread 2: geek2
 Thread is running.....
@@ -86,7 +86,7 @@ Thread is running.....
 
 **语法:**
 
-```
+```java
 public final void setName(String name)
 ```
 
@@ -96,7 +96,7 @@ public final void setName(String name)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating How to Get and Change the
 // Name of a Thread
 
@@ -159,7 +159,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Thread 1: Thread-0
 Thread 2: Thread-1
 Thread is running.....
@@ -181,7 +181,7 @@ Thread is running.....
 
 **语法:**
 
-```
+```java
 public static Thread currentThread()
 ```
 
@@ -189,7 +189,7 @@ public static Thread currentThread()
 
 ## Java
 
-```
+```java
 // Java program to Illustrate How to Get Name of
 // Current Executing thread
 // Using getName() Method
@@ -237,7 +237,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Fetching current thread name..
 Thread-0
 Fetching current thread name..

@@ -8,7 +8,7 @@
 
 ## Java
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -22,7 +22,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 [Ljava.lang.String;@3d075dc0
 
 ```
@@ -37,7 +37,7 @@ class GFG {
 
 ## 爪哇
 
-```
+```java
 import java.io.*;
 import java.util.Arrays;
 
@@ -52,7 +52,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 [Geeks, for, Geeks]
 
 ```
@@ -65,7 +65,7 @@ class GFG {
 
 ## 爪哇
 
-```
+```java
 import java.io.*;
 import java.util.Arrays;
 
@@ -83,7 +83,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 [[GeeksforGeeks, Article Writing], [Google, Search Engine], [Facebook, Social Media]]
 
 ```
@@ -96,7 +96,7 @@ class GFG {
 
 ## 爪哇
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -115,7 +115,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Geeks for Geeks 
 
 ```

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream peek(DoubleConsumer action) 
 
 ```
@@ -24,7 +24,7 @@ DoubleStream peek(DoubleConsumer action)
 
 **例 1 :** 进行求和运算，求给定双流元素的和。
 
-```
+```java
 // Java code for DoubleStream peek()
 // where the action performed is to get
 // sum of all elements.
@@ -53,7 +53,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2.2
 3.3
 4.5
@@ -64,7 +64,7 @@ sum is : 16.7
 
 **示例 2 :** 对给定双流的元素执行计数操作。
 
-```
+```java
 // Java code for DoubleStream peek()
 // where the action performed is to get
 // count of all elements in given range
@@ -93,7 +93,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2.2
 3.3
 4.5
@@ -104,7 +104,7 @@ count : 4
 
 **示例 3 :** 对给定双流的元素执行平均运算。
 
-```
+```java
 // Java code for DoubleStream peek()
 // where the action performed is to get
 // average of all elements.
@@ -142,7 +142,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2.2
 3.3
 4.5

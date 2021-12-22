@@ -10,7 +10,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
 
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
@@ -48,7 +48,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgspannablestring;
 
     import android.graphics.Color;

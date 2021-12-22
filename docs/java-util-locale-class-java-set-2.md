@@ -8,7 +8,7 @@
 1.  **getDisplayVariant():Java . util . Locale . getDisplayVariant()**显示区域的变体
     **语法:**
 
-```
+```java
 public final String getDisplayVariant()
 Parameters : 
 ----
@@ -19,7 +19,7 @@ Return :
 2.  **getDisplayVariant(Locale in):Java . util . Locale . Locale in(Locale in)**返回“in”Locale 的变体。
     **语法:**
 
-```
+```java
 public final String getDisplayVariant(Locale in)
 Parameters : 
 in : the instance local
@@ -30,7 +30,7 @@ Return :
 2.  **GetFlayLanguage():Java . util . Locale . GetFlayLanguage()**显示 Locale Language 的 3 个字母缩写。
     **语法:**
 
-```
+```java
 public String getISO3Language()
 Parameters : 
 ----
@@ -41,7 +41,7 @@ Return :
 2.  **getsolanguages():Java . util . locale . getsolanguages()**按照 ISO 639
     T3】语法显示 2 个字母的语言缩写列表:
 
-```
+```java
 public static String[] getISOLanguages()
 Parameters : 
 ----
@@ -52,7 +52,7 @@ Return :
 2.  **getsoccounters():Java . util . locale . getsoccounters()**按照 ISO 3166 显示两个字母的国家缩写列表。
     **语法:**
 
-```
+```java
 public static String[] getISOCountries()
 Parameters : 
 ----
@@ -63,7 +63,7 @@ Return :
 2.  **getVariant():Java . util . Locale . getVariant()**返回 Locale 的变体代码。
     **语法:**
 
-```
+```java
 public String getVariant()
 Parameters : 
 ----
@@ -74,7 +74,7 @@ Return :
 2.  **getLanguage():Java . util . Locale . getLanguage()**返回区域设置的语言代码，该代码将为空或按照 ISO 639 代码以小写形式显示。
     **语法:**
 
-```
+```java
 public String getLanguage()
 Parameters : 
 ----
@@ -85,7 +85,7 @@ Return :
 2.  **hashCode():Java . util . Locale . hashCode()**返回 Locale 的 hashCode
     **语法:**
 
-```
+```java
 public int hashCode()
 Parameters : 
 ----
@@ -96,7 +96,7 @@ hashcode for the Locale.
 2.  **toString():Java . util . Locale . toString()**返回整个 Locale 的字符串表示形式。
     **语法:**
 
-```
+```java
 public final String toString()
 Parameters : 
 ----
@@ -107,7 +107,7 @@ string representation of Locale
 2.  **set default(Locale new Locale):Java . util . Locale . set default(Locale new Locale)**为 JVM 的 Locale 设置新值。
     **语法:**
 
-```
+```java
 public static void setDefault(Locale newLocale)
 Parameters : 
 ----
@@ -117,7 +117,7 @@ string representation of Locale
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating the use of methods :
 // getDisplayVariant(), getDisplayVariant(Locale in),
 // getISO3Language(), getISOLanguages(), getVariant(),
@@ -195,7 +195,7 @@ public class NewClass
 
 1.  **输出:**
 
-```
+```java
 Use of getDisplayVariant : IND
 Name of in Locale : 
 Language of geek2 : eng

@@ -6,7 +6,7 @@ Java 中**计时周期接口**的**归一化()**方法，用于归一化年、�
 
 **语法:**
 
-```
+```java
 ChronoPeriod normalized()
 ```
 
@@ -20,7 +20,7 @@ ChronoPeriod normalized()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function to normalize
 // months and years of the period
 
@@ -53,14 +53,14 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 P5Y3M10D
 
 ```
 
 **程序 2** :这不会使天数正常化。
 
-```
+```java
 // Java code to show the function to normalize
 // months and years of the period
 
@@ -93,7 +93,7 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 P12Y1M366D
 
 ```

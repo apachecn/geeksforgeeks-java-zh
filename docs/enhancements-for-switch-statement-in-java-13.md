@@ -10,7 +10,7 @@ Java 12 改进了传统的 switch 语句，使其更加有用。Java 13 进一�
 
 默认的失败行为容易出错。我们用一个例子来理解。
 
-```
+```java
 switch (itemCode) {
     case 001 : 
         System.out.println("It's a laptop!");
@@ -31,7 +31,7 @@ switch (itemCode) {
 
 但是，如果我们忘记了任何必需的中断语句，会发生什么呢:
 
-```
+```java
  switch (itemCode) {
     case 001 : 
         System.out.println("It's a laptop!");
@@ -45,7 +45,7 @@ switch (itemCode) {
 
 这里，如果我们传递 001，第一个大小写匹配，代码块执行。但是由于错过休息，执行失败，继续执行 **002** 号案件。我们得到以下错误输出:
 
-```
+```java
 It's a laptop!
 It's a desktop!
 
@@ -57,7 +57,7 @@ It's a desktop!
 
 可能存在需要对多个案例值进行类似处理的情况。但是传统的转换是通过行为来跟随下跌。
 
-```
+```java
 case 001:
 case 002:
 case 003:
@@ -67,7 +67,7 @@ System.out.println("It's an electronic gadget!");
 
 改进后的开关每种情况下接受多个值。
 
-```
+```java
 case 001, 002, 003 : 
         System.out.println("It's an electronic gadget!");
 
@@ -85,7 +85,7 @@ case 001, 002, 003 :
 
 这些值需要用逗号分隔，分隔符应该跟在大小写块后面。
 
-```
+```java
 switch (itemCode) {
     case 001, 002, 003 : 
         System.out.println("It's an electronic gadget!");
@@ -104,7 +104,7 @@ switch (itemCode) {
 
 屈服后我们不需要休息，因为它会自动终止开关表达式。
 
-```
+```java
 int val = switch (code) {
     case "x", "y" :
         yield 1;
@@ -120,7 +120,7 @@ int val = switch (code) {
 
 让我们看一下代码片段，以便更好地理解这些变化。
 
-```
+```java
 String text = switch (itemCode) {
     case 001 : 
         yield "It's a laptop!";
@@ -140,7 +140,7 @@ String text = switch (itemCode) {
 
 例如，如果将上述代码块更改为–
 
-```
+```java
 String text = switch (itemCode) {
     case 001 : 
         yield "It's a laptop!";
@@ -170,7 +170,7 @@ String text = switch (itemCode) {
 
 这种语法的主要优点是我们不需要 break 语句来避免默认的失败。所以规则是，如果我们需要摔倒，用**格:**否则不用**格**t5】⇾。还要注意，对于所有案例分支，应该是**案例:**或**案例⇾** 。开关中不能有不同的情况，否则会导致错误。
 
-```
+```java
 switch (itemCode) {
     case 001 -> System.out.println("It's a laptop!");
     case 002 -> System.out.println("It's a desktop!");
@@ -185,7 +185,7 @@ switch (itemCode) {
 
 传统开关中声明的变量一直存在到开关语句结束。如果我们希望变量有一个用例级别的作用域，我们可以使用 Java 13 中增强开关引入的{}。
 
-```
+```java
 switch (errorCode) {
     case 101: {
         // This variable exists just in this {} block
@@ -207,14 +207,14 @@ switch (errorCode) {
 
 在编译时，向 javac 添加以下参数:
 
-```
+```java
 javac -- release 13 --enable-preview MyClass.java
 
 ```
 
 在运行时，添加以下内容:
 
-```
+```java
 java --enable-preview MyClass
 
 ```

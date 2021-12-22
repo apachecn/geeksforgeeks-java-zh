@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public BigDecimal negate()
     ```
 
@@ -17,7 +17,7 @@
     下面的程序将举例说明 Java . math . bigdecimal . invoke()函数的使用:
     **程序 1 :**
 
-    ```
+    ```java
     // Java program to demonstrate negate() method
     import java.math.*;
 
@@ -38,14 +38,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Negated value is -4743
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate negate() method
     import java.math.*;
 
@@ -66,7 +66,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Negated value is 9674283517.97
 
     ```
@@ -75,7 +75,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public BigDecimal negate(MathContext mc)
     ```
 
@@ -88,7 +88,7 @@
     下面的程序将举例说明 Java . math . bigdecimal . negation(MathContext MC)方法的使用:
     **程序 1**
 
-    ```
+    ```java
     // Java program to demonstrate negate(MathContext mc) method
     import java.math.*;
 
@@ -115,14 +115,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Negated value, rounded to 4 precision -78.67
 
     ```
 
     **程序 2**
 
-    ```
+    ```java
     // Java program to demonstrate negate(MathContext mc) method
     import java.math.*;
 
@@ -149,7 +149,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Negated value, rounded to 12 precision 178901456.684
 
     ```

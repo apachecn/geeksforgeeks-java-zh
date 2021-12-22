@@ -29,7 +29,7 @@ ComboBox 是 JavaFX 库的一部分。JavaFX ComboBox 是一个简单 ComboBox �
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a combo Box and add items to it
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -95,7 +95,7 @@ public class combo_box_1 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a combo box and add event handler to it
 import javafx.application.Application;
 import javafx.scene.Scene;

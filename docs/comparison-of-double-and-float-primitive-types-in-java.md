@@ -4,7 +4,7 @@
 
 考虑 Java 中的以下两个代码:
 
-```
+```java
 // This program prints true
 class Geeksforgeeks {
   public static void main(String args[]) {
@@ -17,11 +17,11 @@ class Geeksforgeeks {
 
 **输出**
 
-```
+```java
 true
 ```
 
-```
+```java
 // But this program prints false.
 class Geeksforgeeks {
   public static void main(String args[]) {
@@ -34,7 +34,7 @@ class Geeksforgeeks {
 
 **输出**
 
-```
+```java
 false
 ```
 

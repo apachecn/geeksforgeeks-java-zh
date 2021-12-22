@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getId()
 ```
 
@@ -18,7 +18,7 @@ public String getId()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getId() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 id : Japanese
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getId() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 id : Japanese
 
 ```

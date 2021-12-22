@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean isKeyEntry(String alias) 
     throws KeyStoreException
 ```
@@ -25,7 +25,7 @@ public final boolean isKeyEntry(String alias)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate isKeyEntry() method
 
 import java.security.*;
@@ -102,7 +102,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate isKeyEntry() method
 
 import java.security.*;

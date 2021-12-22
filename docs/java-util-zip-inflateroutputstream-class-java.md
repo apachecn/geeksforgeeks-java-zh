@@ -13,7 +13,7 @@
 
 *   **void close() :** 将任何剩余的未压缩数据写入输出流，并关闭底层输出流。
 
-    ```
+    ```java
     Syntax :
     public void close()
                throws IOException
@@ -23,7 +23,7 @@
 
 *   **void finish() :** 在不关闭底层流的情况下，完成将未压缩数据写入输出流。
 
-    ```
+    ```java
     Syntax :public void finish()
                 throws IOException
     Throws: IOException
@@ -31,7 +31,7 @@
 
 *   **void flush() :** 刷新此输出流，强制写入任何挂起的缓冲输出字节。
 
-    ```
+    ```java
     Syntax :public void flush()
                throws IOException
     Overrides: flush in class FilterOutputStream
@@ -40,7 +40,7 @@
 
 *   **无效写入(字节[] b，int off，int len) :** 将字节数组写入未压缩的输出流。
 
-    ```
+    ```java
     Syntax :public void write(byte[] b,
              int off,
              int len)
@@ -58,7 +58,7 @@
 
 *   **void write(int b) :** 向未压缩的输出流中写入一个字节。
 
-    ```
+    ```java
     Syntax :public void write(int b)
                throws IOException
     Parameters: b - a single byte of compressed data to decompress and write to the output stream
@@ -70,7 +70,7 @@
 
 **程序 1**
 
-```
+```java
 //Java program to illustrate InflaterInputStream class
 import java.io.*;
 import java.util.Arrays;
@@ -110,13 +110,13 @@ class InflaterOutputStreamDemo 
 
 **输出:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6]
 ```
 
 **程序 2:**
 
-```
+```java
 //Java program to illustrate InflaterInputStream class
 import java.io.*;
 import java.util.Arrays;
@@ -157,7 +157,7 @@ class InflaterOutputStreamDemo 
 
 **输出:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6]
 ```
 

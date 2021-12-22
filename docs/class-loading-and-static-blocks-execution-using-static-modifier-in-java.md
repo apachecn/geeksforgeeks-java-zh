@@ -16,7 +16,7 @@ Static 是一个关键字，当它被附加到方法、变量、块时，就成�
 
 ## Java
 
-```
+```java
 // Class Loading and Static Blocks
 // Execution Using Static Modifier in Java
 
@@ -60,7 +60,7 @@ class MyThread extends Thread {
 
 **输出**
 
-```
+```java
 Thread = 3
 Thread = 2
 Non Static Variable Value=1
@@ -91,7 +91,7 @@ Non Static Variable Value=1
 
  <u>## 爪哇
 
-```
+```java
 // Class Loading and Static Blocks
 // Execution Using Static Modifier in Java
 
@@ -114,7 +114,7 @@ class GFG {
 }
 ```</u> <u>**输出**
 
-```
+```java
 Static Block
 Static Variable=3
 Static Method

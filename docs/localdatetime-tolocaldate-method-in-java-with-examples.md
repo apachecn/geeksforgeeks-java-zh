@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate toLocalDate()
 ```
 
@@ -18,7 +18,7 @@ public LocalDate toLocalDate()
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the toLocalDate() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-30
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the toLocalDate() method
 
 import java.util.*;
@@ -71,7 +71,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03
 
 ```

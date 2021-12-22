@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //  Java Program to Accept a Matrix of Order M x N &
 //  Interchange the Diagonals
 
@@ -151,7 +151,7 @@ public class InterchangeDiagonals {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //  Java Program to Accept a Matrix of Order MxN &
 //  Interchange the Diagonals
 

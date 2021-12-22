@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.values()方法用于从映射的值中创建一个
 
 **语法:**
 
-```
+```java
 EnumMap.values()
 ```
 
@@ -17,7 +17,7 @@ EnumMap.values()
 以下程序说明了函数的工作原理:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate values()
 import java.util.*;
 
@@ -53,7 +53,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 The EnumMap: {India_today=69, United_States_today=1073}
 Collection view of map: [69, 1073]
 
@@ -61,7 +61,7 @@ Collection view of map: [69, 1073]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the working of values()
 import java.util.*;
 
@@ -98,7 +98,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 The EnumMap: {India_today=69, United_States_today=1073, Canada_today=1837}
 Collection view of map: [69, 1073, 1837]
 

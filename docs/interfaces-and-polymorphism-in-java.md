@@ -21,7 +21,7 @@ Java 语言是所有编程语言中最流行的语言之一。使用 java 编程
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Run-time polymorphism
 
 // Importing I/O classes
@@ -65,7 +65,7 @@ public class GFG extends GFG1 {
 
 **Output**
 
-```
+```java
 This is the GFG1 class
 This is the GFG class
 ```
@@ -82,7 +82,7 @@ This is the GFG class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Run-time polymorphism
 
 // Importing required classes
@@ -137,7 +137,7 @@ class Second extends First {
 
 **Output**
 
-```
+```java
 This is the class Second
 This is the class First
 This is the class First
@@ -153,7 +153,7 @@ This is the class First
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Concept of interfaces
 
 // Interface
@@ -201,7 +201,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 100000
 200000
 ```

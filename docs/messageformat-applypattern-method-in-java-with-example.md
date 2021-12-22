@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void applyPattern(String newPattern)
 ```
 
@@ -20,7 +20,7 @@ public void applyPattern(String newPattern)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // applyPattern() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 old pattern : {0, number, #}, {0, number, #0.##}, {0, number}
 
 new pattern : {0, date, #}
@@ -62,7 +62,7 @@ new pattern : {0, date, #}
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // applyPattern() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 old pattern : {0, date, #}, {1, date, #}, {0, number}
 
 String is Null

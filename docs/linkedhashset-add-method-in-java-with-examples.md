@@ -6,7 +6,7 @@ Java LinkedHashSet 中的 add()方法用于将特定元素添加到 LinkedHashSe
 
 **语法:**
 
-```
+```java
 Hash_Set.add(Object element)
 ```
 
@@ -16,7 +16,7 @@ Hash_Set.add(Object element)
 
 下面程序举例说明了
 
-```
+```java
 // Java code to illustrate add()
 import java.io.*;
 import java.util.LinkedHashSet;
@@ -42,7 +42,7 @@ public class LinkedHashSetDemo {
 
 **输出:**
 
-```
+```java
 LinkedHashSet: [Welcome, To, Geeks, 4]
 
 ```

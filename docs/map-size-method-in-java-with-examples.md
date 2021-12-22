@@ -16,7 +16,7 @@
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java program to illustrate
 // the Map size() Method
 import java.util.*;
@@ -43,7 +43,7 @@ public class MapSizeExample {
 
 ***输出:***
 
-```
+```java
 *Size of the map is : 4*
 ```
 
@@ -51,7 +51,7 @@ public class MapSizeExample {
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java program to illustrate
 // the Map size() Method
 import java.util.*;
@@ -79,6 +79,6 @@ class MapSizeExample {
 
 ***输出:***
 
-```
+```java
 *Size of the map is : 4*
 ```

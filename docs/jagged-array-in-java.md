@@ -14,7 +14,7 @@
 
 **锯齿状数组的声明和初始化:**
 
-```
+```java
 Syntax: data_type array_name[][] = new data_type[n][];  //n: no. of rows
              array_name[] = new data_type[n1] //n1= no. of columns in row-1
              array_name[] = new data_type[n2] //n2= no. of columns in row-2
@@ -27,7 +27,7 @@ Syntax: data_type array_name[][] = new data_type[n][];  //n: no. of rows
 
 **可选，初始化交错数组的方法:**
 
-```
+```java
                     int arr_name[][] = new int[][]  {
                                   new int[] {10, 20, 30 ,40},
                                   new int[] {50, 60, 70, 80, 90, 100},
@@ -55,7 +55,7 @@ Syntax: data_type array_name[][] = new data_type[n][];  //n: no. of rows
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to demonstrate 2-D jagged array in Java
 class Main {
     public static void main(String[] args)
@@ -90,7 +90,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Contents of 2D Jagged Array
 0 1 2 
 3 4 
@@ -100,7 +100,7 @@ Contents of 2D Jagged Array
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Another Java program to demonstrate 2-D jagged
 // array such that first row has 1 element, second
 // row has two elements and so on.
@@ -137,7 +137,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Contents of 2D Jagged Array
 0 
 1 2 

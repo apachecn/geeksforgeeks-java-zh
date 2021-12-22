@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isWritable(Path path)
 
 ```
@@ -30,7 +30,7 @@ public static boolean isWritable(Path path)
 下面的程序说明了 isWritable(路径)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Files.isWritable() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Files.isWritable() method
 

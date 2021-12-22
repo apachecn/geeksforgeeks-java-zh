@@ -6,7 +6,7 @@ HashMap 是一种数据结构，它使用哈希函数将标识值(称为键)映�
 
 最令人印象深刻的特性是它的元素快速查找，尤其是对于大数量的元素。默认情况下它是不同步的，但是我们可以通过调用
 
-```
+```java
  Map myhash = Collections.synchronizedMap(hashMap);
 ```
 
@@ -18,7 +18,7 @@ HashMap 是一种数据结构，它使用哈希函数将标识值(称为键)映�
 
     **语法:**
 
-    ```
+    ```java
     public V put(K key,V value)
     Parameters:
     key - key with which the specified value is to be associated
@@ -32,7 +32,7 @@ HashMap 是一种数据结构，它使用哈希函数将标识值(称为键)映�
 
     **语法:**
 
-    ```
+    ```java
     public V get(Object key)
     Parameters:
     key - the key whose associated value is to be returned
@@ -46,7 +46,7 @@ HashMap 是一种数据结构，它使用哈希函数将标识值(称为键)映�
 
     **语法:**
 
-    ```
+    ```java
     public boolean isEmpty()
     Return: true if this map contains no key-value mappings
 
@@ -56,7 +56,7 @@ HashMap 是一种数据结构，它使用哈希函数将标识值(称为键)映�
 
     **语法:**
 
-    ```
+    ```java
     public int size()
     Return: the number of key-value mappings in this map.
 
@@ -64,7 +64,7 @@ HashMap 是一种数据结构，它使用哈希函数将标识值(称为键)映�
 
 **实现说明上述方法**
 
-```
+```java
 // Java program illustrating use of HashMap methods -
 // put(), get(), isEmpty() and size()
 import java.util.*;
@@ -104,7 +104,7 @@ public class NewClass
 
 **输出**
 
-```
+```java
 Testing .isEmpty() method
 HashMap Geeks is notempty
 GEEKS : Java

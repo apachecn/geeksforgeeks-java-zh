@@ -22,7 +22,7 @@
 
 **语法:**类声明
 
-```
+```java
 public final class NetPermission
 extends BasicPermission
 ```
@@ -68,7 +68,7 @@ extends BasicPermission
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Create a New allow HttpTrace Permission
 
 // Importing required network permission classes
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 allowHttpTrace
 class java.net.NetPermission
 303901780
@@ -123,7 +123,7 @@ class java.net.NetPermission
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Create a New getCookieHandler Permission
 
 // Importing required network permission classes
@@ -169,7 +169,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 getCookieHandler
 class java.net.NetPermission
 1381623952
@@ -179,7 +179,7 @@ class java.net.NetPermission
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the Working of equals() Method
 
 // Importing permission classes for networking
@@ -234,6 +234,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Both permission are not equal
 ```

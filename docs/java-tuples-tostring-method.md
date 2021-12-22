@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final String toString()
 ```
 
 **语法:**
 
-```
+```java
 String str = TupleClassObject.toString()
 ```
 
@@ -24,7 +24,7 @@ String str = TupleClassObject.toString()
 
 **程序 1:** 使用 toString()配合单位类:
 
-```
+```java
 // Below is a Java program to use toString() method
 
 import java.util.*;
@@ -46,13 +46,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [GeeksforGeeks]
 ```
 
 **程序二:**使用 toString()配合四方类:
 
-```
+```java
 // Below is a Java program to use toString() method
 
 import java.util.*;
@@ -81,7 +81,7 @@ T4】
 
 **输出:**
 
-```
+```java
 [1, GeeksforGeeks, A computer portal, 20.18]
 ```
 

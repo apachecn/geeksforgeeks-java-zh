@@ -6,7 +6,7 @@ Java 中**十进制格式**类的 **getPositiveSuffix()** 方法用于获取这�
 
 **语法** :
 
-```
+```java
 public String getPositiveSuffix()
 
 ```
@@ -17,7 +17,7 @@ public String getPositiveSuffix()
 
 下面程序举例说明上面的方法:
 
-```
+```java
 // Java program to illustrate the
 // getPositiveSuffix() method
 
@@ -44,7 +44,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 positive
 
 ```

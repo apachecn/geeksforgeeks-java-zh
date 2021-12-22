@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Constructor<T>
        getConstructor(Class[] parameterType)
        throws NoSuchMethodException,
@@ -28,7 +28,7 @@ public Constructor<T>
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getConstructor() method
 
@@ -61,7 +61,7 @@ public Constructor<T>
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Test
     Constructor of myClass: public Test()
 
@@ -69,7 +69,7 @@ public Constructor<T>
 
     **例 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getConstructor() constructor
 
@@ -107,7 +107,7 @@ public Constructor<T>
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Main
     java.lang.NoSuchMethodException: Main.<init>()
 

@@ -9,7 +9,7 @@
     *   **Using Throwable Class :** In Java, Throwable class is the superclass of all exceptions and errors in java.lang package. Java Throwable class provides several methods like addSuppressed(), getMessage(), getStackTrace(), getSuppressed(), toString(), printStackTrace() etc.
         We can get an array of stack trace elements representing the stack trace pertaining to throwable by calling getStackTrace() on a Throwable instance. At 0<sup>th</sup> index element of the array represents the top of the stack, which is the latest method call in the sequence.
 
-        ```
+        ```java
         // Java program to demonstrate
         // Getting name of current method 
         // using Throwable Class
@@ -37,14 +37,14 @@
 
         **输出:**
 
-        ```
+        ```java
         Name of current method: foo
         ```
 
     *   **使用[异常类](https://www.geeksforgeeks.org/exceptions-in-java/)**
         我们还可以使用扩展可投掷类的异常类。
 
-    ```
+    ```java
     // Java program to demonstrate
     // Getting name of current method 
     // using Throwable Class
@@ -73,14 +73,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Name of current method: foo
     ```
 
 2.  **使用 [getEnclosingMethod()方法](https://www.geeksforgeeks.org/java-lang-class-class-java-set-2/)T3】**
     *   **By Object Class :** We can use Class.getEnclosingMethod(), this method returns a Method object representing the instantly enclosing method of the prime class. But this come with a expressive overhead as it involves creating a new anonymous inner class behind the scenes.
 
-        ```
+        ```java
         // Java program to demonstrate
         // Getting name of current method 
         // using Object Class
@@ -110,13 +110,13 @@
 
         **输出:**
 
-        ```
+        ```java
         Name of current method: foo
         ```
 
     *   **By [Inner Class](https://www.geeksforgeeks.org/inner-class-java/) :** We can also define a inner class within a method to get Class reference.
 
-        ```
+        ```java
         // Java program to demonstrate
         // Getting name of current method 
         // using Inner Class 
@@ -150,7 +150,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Name of current method: foo
         //This java program on our machine because inner class
         // have some restriction for security purpose   
@@ -159,7 +159,7 @@
 
 3.  **Using [Thread Stack Trace](https://www.geeksforgeeks.org/java-lang-stacktraceelement-class-java/) :** The Thread.getStackTrace() method returns array of stack trace elements. The second element of the returned array of stack trace contains name of method of current thread.
 
-    ```
+    ```java
     // Java program to demonstrate
     // Getting name of current method 
     // using Thread.getStackTrace() 
@@ -188,6 +188,6 @@
 
     **输出:**
 
-    ```
+    ```java
     Name of current method: foo
     ```

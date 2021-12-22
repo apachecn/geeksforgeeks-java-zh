@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeIf (Predicate<E> filter)
 ```
 
@@ -20,7 +20,7 @@ public boolean removeIf (Predicate<E> filter)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // removeIf() method in Java
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArraySet: [10, 20, 30, 40, 50, 60, 70, 80, 90]
 Updated CopyOnWriteArraySet: [10, 20, 40, 50, 70, 80]
 
@@ -71,7 +71,7 @@ Updated CopyOnWriteArraySet: [10, 20, 40, 50, 70, 80]
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // removeIf() method in Java
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArraySet: [GeeksforGeeks, GFG, Geeks, Gfg]
 java.lang.NullPointerException
 

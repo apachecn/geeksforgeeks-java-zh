@@ -6,7 +6,7 @@
 
 单利公式为:
 
-```
+```java
 Simple Interest = (P x T x R)/100 
 ```
 
@@ -18,7 +18,7 @@ Simple Interest = (P x T x R)/100
 
 **示例:–**
 
-```
+```java
 Example 1:
 
 Input :  P = 10000
@@ -42,7 +42,7 @@ Output : 210
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to compute
 // simple interest for given principal
 // amount, time and rate of interest.
@@ -66,7 +66,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Simple interest = 0.01
 ```
 
@@ -74,7 +74,7 @@ Simple interest = 0.01
 
 ## Java
 
-```
+```java
 // Java program to compute
 // simple interest for given principal
 // amount, time and rate of interest.
@@ -96,7 +96,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Simple interest = 2500.0
 ```
 

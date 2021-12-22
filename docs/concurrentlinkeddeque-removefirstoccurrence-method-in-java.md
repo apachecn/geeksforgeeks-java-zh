@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeFirstOccurrence(Object o)
 ```
 
@@ -20,7 +20,7 @@ public boolean removeFirstOccurrence(Object o)
 
 **程序 1:**
 
-```
+```java
 /* Java program to demonstrate 
    removeFirstOccurrence() method
    of ConcurrentLinkedDeque   */
@@ -54,7 +54,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Elements in the LinkedDeque: [Geeks, gfg, Gfg, Geeks, GFG]
 Elements in the LinkedDeque: [gfg, Gfg, Geeks, GFG]
 
@@ -62,7 +62,7 @@ Elements in the LinkedDeque: [gfg, Gfg, Geeks, GFG]
 
 **程序二:**
 
-```
+```java
 /* Java program to demonstrate 
    removeFirstOccurrence() method
    of ConcurrentLinkedDeque   */
@@ -96,7 +96,7 @@ class ConcurrentLinkedDequeDemo {
 
 **输出:**
 
-```
+```java
 Elements in the LinkedDeque: [379, 1050, 1008, 280, 12]
 java.lang.NullPointerException
 

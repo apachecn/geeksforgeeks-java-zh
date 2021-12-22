@@ -34,7 +34,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -63,7 +63,7 @@
 
 ## Java
 
-```
+```java
 import java.io.*;
 
 class Engine {
@@ -75,7 +75,7 @@ class Engine {
 
 ## Java
 
-```
+```java
 import java.io.*;
 
 class Wheel {
@@ -92,7 +92,7 @@ class Wheel {
 
 ## Java
 
-```
+```java
 import java.io.*;
 
 class Car {
@@ -126,7 +126,7 @@ class Car {
 
 ## **Java**
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 

@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input  : m=9, n=5
 Output : m=5, n=9
 
@@ -33,7 +33,7 @@ Here 'm' and 'n' are integer value
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Swap Two values using third variable
 // using temp variable
 
@@ -69,7 +69,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Value of m is 5 and Value of n is 9
 ```
 
@@ -85,7 +85,7 @@ Value of m is 5 and Value of n is 9
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to swap the two values
 // without using third variable
 
@@ -132,7 +132,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Value of m is 5 and Value of n is 9
 ```
 
@@ -144,7 +144,7 @@ Value of m is 5 and Value of n is 9
 
 插图:
 
-```
+```java
 a = 5 = 0101 (In Binary)
 b = 7 = 0111 (In Binary)
 
@@ -159,7 +159,7 @@ Bitwise XOR Operation of 5 and 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to swap the two values
 // using XOR Operator
 
@@ -197,6 +197,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Value of m is 5 and Value of n is 9
 ```

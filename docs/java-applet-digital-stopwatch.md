@@ -14,7 +14,7 @@
 
 **下面是数字秒表**的实现
 
-```
+```java
 // Java program to illustrate
 // digital stop watch
 // using Applets

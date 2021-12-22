@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeIf (Predicate<E> filter)
 
 ```
@@ -19,7 +19,7 @@ public boolean removeIf (Predicate<E> filter)
 
 下面的程序说明了 CopyOnWriteArrayList 类的 removeIf()函数:
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // removeIf() method in Java
 
@@ -59,13 +59,13 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [2, 3, 4, 7, 6, 9]
 Updated CopyOnWriteArrayList: [2, 4, 7]
 
 ```
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // removeIf() method in Java
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [GeeksforGeeks, GFG, Geeks, Gfg]
 java.lang.NullPointerException
 

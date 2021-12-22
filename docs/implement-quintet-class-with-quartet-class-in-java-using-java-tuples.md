@@ -8,7 +8,7 @@
 
 1.  **Using direct values**
 
-    ```
+    ```java
     import java.util.*;
     import org.javatuples.*;
 
@@ -41,14 +41,14 @@
 
     **输出:**
 
-    ```
+    ```java
     [Quintet, Triplet 1, 1, GeeksforGeeks]
     [Quintet 1, Quintet, Triplet 1, 1, GeeksforGeeks]
     ```
 
 2.  **Using Quartet.add() method**
 
-    ```
+    ```java
     import java.util.*;
     import org.javatuples.*;
 
@@ -75,7 +75,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Quartet: [Quartet, Triplet, Pair, Unit]
     Quintet: [Quartet, Triplet, Pair, Unit, Quintet]
     ```
@@ -84,7 +84,7 @@
 
     **程序 1:** 使用 addAt0()在位置 0 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt0() method with
     // direct value
@@ -115,14 +115,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quartet: [Quartet, Triplet, Pair, Unit]
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     ```
 
     **程序 2:** 使用 addAt1()在位置 1 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt1() method with
     // direct value
@@ -153,14 +153,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quartet: [Quartet, Triplet, Pair, Unit]
     Quintet: [Quartet, Quintet, Triplet, Pair, Unit]
     ```
 
     **程序 3:** 使用 addAt2()在位置 2 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt2() method with
     // direct value
@@ -191,14 +191,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quartet: [Quartet, Triplet, Pair, Unit]
     Quintet: [Quartet, Triplet, Quintet, Pair, Unit]
     ```
 
     **程序 4:** 使用 addAt3()在位置 3 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt3() method with
     // direct value
@@ -229,14 +229,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quartet: [Quartet, Triplet, Pair, Unit]
     Quintet: [Quartet, Triplet, Pair, Quintet, Unit]
     ```
 
     **程序 5:** 使用 addAt4()在位置 4 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt4() method with
     // direct value
@@ -267,7 +267,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Quartet: [Quartet, Triplet, Pair, Unit]
     Quintet: [Quartet, Triplet, Pair, Unit, Quintet]
     ```

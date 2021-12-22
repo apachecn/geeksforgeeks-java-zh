@@ -17,7 +17,7 @@ Java 中有三种 setScale()方法重载，如下所示:
 当保证存在指定比例的大十进制数和正确值时，此调用通常用于增加比例。如果用户知道 BigDecimal 的小数部分末尾有足够多的零，允许在不改变其值的情况下进行重新缩放，则该调用也可用于缩小比例。
 **语法:**
 
-```
+```java
 public BigDecimal setScale(int newScale)
 
 ```
@@ -29,7 +29,7 @@ public BigDecimal setScale(int newScale)
 
 下面的程序用来说明 BigDecimal 的 setScale()方法。
 
-```
+```java
 // Java program to demonstrate
 // setScale() method of BigDecimal
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 31452678569.2500
 
 ```
@@ -77,7 +77,7 @@ public class GFG {
 此方法用于计算一个大十进制数，其小数位数为指定值，其未缩放值通过将该大十进制数的未缩放值乘以或除以适当的十次方来确定，以保持其整体值。如果操作缩小了比例，那么未缩放的值必须被除(而不是相乘)。指定的舍入模式应用于除法。
 **语法:**
 
-```
+```java
 public BigDecimal setScale(int newScale, int roundingMode)
 
 ```
@@ -89,7 +89,7 @@ public BigDecimal setScale(int newScale, int roundingMode)
 下面的程序用来说明 BigDecimal 的 setScale()方法。
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setScale() method of BigDecimal
 
@@ -134,14 +134,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 3.145267856E+10
 
 ```
 
 **示例 2:** 显示此方法引发的异常的程序。
 
-```
+```java
 // Java program to demonstrate
 // setScale() method of BigDecimal
 
@@ -201,7 +201,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.ArithmeticException: Rounding necessary
 java.lang.IllegalArgumentException: Invalid rounding mode
 
@@ -212,7 +212,7 @@ java.lang.IllegalArgumentException: Invalid rounding mode
 此方法用于计算一个大十进制数，其小数位数为指定值，其未缩放值通过将该大十进制数的未缩放值乘以或除以适当的十次方来确定，以保持其整体值。如果操作缩小了比例，那么未缩放的值必须被除(而不是相乘)。指定的舍入模式应用于除法。
 **语法:**
 
-```
+```java
 public BigDecimal setScale(int newScale, RoundingMode roundingMode)
 
 ```
@@ -224,7 +224,7 @@ public BigDecimal setScale(int newScale, RoundingMode roundingMode)
 下面的程序用来说明 BigDecimal 的 setScale()方法。
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setScale() method of BigDecimal
 
@@ -271,14 +271,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 31452678569.3
 
 ```
 
 **示例 2:** 显示此方法引发的异常的程序。
 
-```
+```java
 // Java program to demonstrate
 // setScale() method of BigDecimal
 
@@ -325,7 +325,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.ArithmeticException: Rounding necessary
 
 ```

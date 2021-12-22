@@ -10,7 +10,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。这个库提供了内置的日历小部件和各种功能，如选择特定日期等。
 
-    ```
+    ```java
     dependencies {
       implementation 'com.squareup:android-times-square:1.6.5@aar'
     }
@@ -20,7 +20,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout
 
@@ -42,7 +42,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgcalendarPickerView;
 
     import androidx.appcompat

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public final DoubleBuffer clear()
 ```
 
@@ -20,7 +20,7 @@ public final DoubleBuffer clear()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 4
 position after reset: 0
 
@@ -85,7 +85,7 @@ position after reset: 0
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 
@@ -124,7 +124,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before clear: 3
 position after clear: 0
 

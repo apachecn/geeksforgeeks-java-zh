@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int floorPowerOfTwo(int x)
 
 ```
@@ -19,7 +19,7 @@ public static int floorPowerOfTwo(int x)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation
 // of floorPowerOfTwo(int x) method
 // of Guava's IntMath class
@@ -54,7 +54,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Largest power of 2 less than or equal to 10 is : 8
 Largest power of 2 less than or equal to 127 is : 64
 
@@ -62,7 +62,7 @@ Largest power of 2 less than or equal to 127 is : 64
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation
 // of floorPowerOfTwo(int x) method
 // of Guava's IntMath class
@@ -107,7 +107,7 @@ class GFG {
 
 输出:
 
-```
+```java
 java.lang.IllegalArgumentException: x (-3) must be > 0
 
 ```

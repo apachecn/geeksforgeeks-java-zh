@@ -6,7 +6,7 @@ calendar 类中的**getlestmaximum(int*calndr _ field*)**方法用于返回此 C
 
 **语法:**
 
-```
+```java
 public abstract int getLeastMaximum(int *calndr_field*)
 ```
 
@@ -17,7 +17,7 @@ public abstract int getLeastMaximum(int *calndr_field*)
 下面的程序说明了日历类的 getLeastMaximum()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // getLeastMaximum() method
 
@@ -46,7 +46,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 Required Months: 1
 The Lowest Maximum months: 11
 
@@ -54,7 +54,7 @@ The Lowest Maximum months: 11
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getLeastMaximum() method
 
@@ -83,7 +83,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 Required Months: 6
 The Lowest Maximum months: 11
 

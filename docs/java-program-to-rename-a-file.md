@@ -20,7 +20,7 @@ renameTo()方法用于将文件的抽象路径名重命名为给定的路径名�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to rename a file
 import java.io.File;
 public class GFG {
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 File Successfully Rename
 ```
 
@@ -72,7 +72,7 @@ File Successfully Rename
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to rename a file
 import java.nio.file.*;
 import java.io.IOException;
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 File Successfully Rename
 ```
 

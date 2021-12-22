@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```java
 array_mame = {2 , 7 , 4 , 1 , 4}
 Output: 2 7 4 1 4
 
@@ -47,7 +47,7 @@ Output: 2 7 -1 6 -3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print the Elements of an Array
 // Using loops (considering for loop here)
 public class GFG {
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Elements of given array are: -7 -5 5 10 0 3 20 25 12 
 
 ```
@@ -97,7 +97,7 @@ Elements of given array are: -7 -5 5 10 0 3 20 25 12
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print the Elements of an Array
 
 // Importing specific array class
@@ -125,7 +125,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Elements of given array are: [-7, -5, 5, 10, 0, 3, 20, 25, 12]
 
 ```

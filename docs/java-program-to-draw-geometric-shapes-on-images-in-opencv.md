@@ -85,7 +85,7 @@ Java 中的 *OpenCV* 库包含一个名为**Improc***的类，该类提供了各
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Java Program using openCV to draw lines
 
 package com.pkg;
@@ -275,7 +275,7 @@ public class OpenCVShapes extends JFrame {
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Java Program using openCV to draw rectangles
 
 package com.pkg;

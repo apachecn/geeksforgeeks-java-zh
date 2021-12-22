@@ -5,7 +5,7 @@
 **简介:**一个 Multimap 是将按键与任意 ***多个值*** 关联的通用方式。Guava 的 Multimap 框架使得处理从键到多个值的映射变得容易。有两种方法可以从概念上考虑多映射:
 **1)** 是从单个键到单个值的映射的集合。
 
-```
+```java
 a -> 1
 a -> 2
 a -> 4
@@ -16,7 +16,7 @@ c -> 5
 
 **2)** 作为从唯一键到值集合的映射。
 
-```
+```java
 a -> [1, 2, 4]
 b -> [3]
 c -> [5] 
@@ -25,7 +25,7 @@ c -> [5]
 
 **申报:**申报**com . Google . common . collect . multimap<**K，V** >** 界面如下:
 
-```
+```java
 @GwtCompatible
 public interface Multimap
 

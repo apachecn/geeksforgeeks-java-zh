@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```java
 public static double pow(double a, double b)
 Parameter:
 a : this parameter is the base
@@ -22,7 +22,7 @@ This method returns ab.
 
 **例 1** :展示 **java.lang.Math.pow()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.pow() method
 
@@ -50,7 +50,7 @@ class Gfg {
 
 输出:
 
-```
+```java
 900.0
 81.0
 64.0
@@ -59,7 +59,7 @@ class Gfg {
 
 **例 2** :展示参数为 NaN 时 **java.lang.Math.pow()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.pow() method
 import java.lang.Math; // importing java.lang package
@@ -89,7 +89,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 NaN
 1.0
 5.0

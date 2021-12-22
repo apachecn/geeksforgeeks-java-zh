@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public TypeVariable<Constructor<T>>[] getTypeParameters()
 
 ```
@@ -21,7 +21,7 @@ public TypeVariable<Constructor<T>>[] getTypeParameters()
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getTypeParameters() method
 
@@ -56,14 +56,14 @@ class Test<N extends Number> {
 
 **输出:**
 
-```
+```java
 TypeVariables:[Ljava.lang.reflect.TypeVariable;@15db9742
 
 ```
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // Constructor.getTypeParameters() method
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 N
 E
 

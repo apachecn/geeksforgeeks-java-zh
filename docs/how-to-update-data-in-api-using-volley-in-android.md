@@ -37,7 +37,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
@@ -47,7 +47,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--in this we are displaying a nested scroll view-->
 <LinearLayout 
@@ -115,7 +115,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;

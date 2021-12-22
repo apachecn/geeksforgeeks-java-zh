@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getName()
 
 ```
@@ -18,7 +18,7 @@ public String getName()
 以下程序说明 getName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate getName() method
 
 import java.util.logging.Level;
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Level Name = INFO
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate getName() method
 
 import java.util.logging.Level;
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Level Name = SEVERE
 
 ```

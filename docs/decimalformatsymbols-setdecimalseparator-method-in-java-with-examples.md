@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setDecimalSeparator(char decimalSeparator)
 
 ```
@@ -19,7 +19,7 @@ public void setDecimalSeparator(char decimalSeparator)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -50,7 +50,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current Character used for decimal separator: .
 Updated Character used for decimal separator: *
 

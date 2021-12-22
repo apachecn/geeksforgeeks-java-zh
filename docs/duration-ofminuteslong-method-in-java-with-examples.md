@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Duration ofMinutes(long minutes)
 
 ```
@@ -21,7 +21,7 @@ public static Duration ofMinutes(long minutes)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate ofMinutes() method
 
 import java.time.Duration;
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 300
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate ofMinutes() method
 
 import java.time.Duration;
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 -12872700
 
 ```

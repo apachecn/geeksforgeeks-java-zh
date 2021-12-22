@@ -6,7 +6,7 @@ Java for-loop 是一个控制流语句，它多次迭代程序的一部分。For
 
 **语法:**
 
-```
+```java
 for( initializationsection ; conditional check ;  increment/decrement section)
    {
     // Code to be executed
@@ -19,7 +19,7 @@ for( initializationsection ; conditional check ;  increment/decrement section)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of
 // for loop
 
@@ -57,7 +57,7 @@ class GFG {
 
 **情况 1:** 缺少第二个 for-loop
 
-```
+```java
 GFG
 GFG
 GFG
@@ -67,7 +67,7 @@ GFG
 
 **情况 2:** 存在第二个 for-loop
 
-```
+```java
 prog.java:28: error: variable declaration not allowed here
          int x=0;
              ^
@@ -86,7 +86,7 @@ prog.java:28: error: variable declaration not allowed here
 
 ***语法:***
 
-```
+```java
 *for(data-type variable : array | collection)
   {
    // Code to be executed
@@ -97,7 +97,7 @@ prog.java:28: error: variable declaration not allowed here
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to show usage of for-each loop
 
 // Importing all classes from
@@ -129,7 +129,7 @@ class GFG {
 
 ***Output**
 
-```
+```java
 1
 2
 3

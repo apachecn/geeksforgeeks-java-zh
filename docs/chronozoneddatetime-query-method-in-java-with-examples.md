@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default <R> R query(TemporalQuery<R> query)
 
 ```
@@ -24,7 +24,7 @@ default <R> R query(TemporalQuery<R> query)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.query() method
 
@@ -57,14 +57,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Precision value for ChronoZonedDateTime is Nanos
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.query() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 offset value for ChronoZonedDateTime is +02:00
 
 ```

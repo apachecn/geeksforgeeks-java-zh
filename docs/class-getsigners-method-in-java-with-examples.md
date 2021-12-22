@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object[] getSigners()
 ```
 
@@ -17,7 +17,7 @@ public Object[] getSigners()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getSigners() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Test
 Signers of myClass: null
 ```

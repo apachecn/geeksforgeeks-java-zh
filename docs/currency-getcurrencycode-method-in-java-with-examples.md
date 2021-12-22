@@ -6,7 +6,7 @@ Java 中的 Currency code()Currency 类的 **getCurrencyCode()** 方法用于检
 
 **语法:**
 
-```
+```java
 CURRENCY.getCurrencyCode()
 ```
 
@@ -20,7 +20,7 @@ CURRENCY.getCurrencyCode()
 
 **程序 1:**
 
-```
+```java
 // Java Code to illustrate
 // getCurrencyCode() method
 
@@ -45,14 +45,14 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 Currency Code of India is: INR
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java Code to illustrate
 // getCurrencyCode() method
 
@@ -77,14 +77,14 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 Currency Code of USA is: USD
 
 ```
 
 **程序 3:** 为无效的货币代码。
 
-```
+```java
 // Java Code to illustrate getCurrencyCode() method
 
 import java.util.*;
@@ -113,7 +113,7 @@ public class Currency_Demo {
 
 **Output:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

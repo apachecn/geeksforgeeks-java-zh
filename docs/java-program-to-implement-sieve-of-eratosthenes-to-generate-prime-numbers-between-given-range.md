@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : from = 1, to = 20
 Output: 2 3 5 7 11 13 17 19
 
@@ -24,7 +24,7 @@ Output: 5 7 11 13
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Generate Prime
 // Numbers Between Given Range
 class GFG {
@@ -60,7 +60,7 @@ class GFG {
 
 **Output**
 
-```
+```java
  2 3 5 7 11 13 17 19
 ```
 
@@ -83,7 +83,7 @@ class GFG {
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Implement
 // Sieve of eratosthenes
 // to Generate Prime Numbers

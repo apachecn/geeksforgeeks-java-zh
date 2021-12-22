@@ -15,7 +15,7 @@ Java Swing 没有内置的吐司消息类，但是吐司消息是一种流行且
 
 **下面的程序创建吐司消息(这是一个选择性半透明的 JWindow)**
 
-```
+```java
 // Java program that creates the toast message
 //(which is a selectively translucent JWindow)
 import java.awt.*;
@@ -97,7 +97,7 @@ class toast extends JFrame {
 
 **运行上述程序的驱动程序。**
 
-```
+```java
 // Java Program to create a driver class to run 
 // the toast class
 import javax.swing.*;

@@ -7,7 +7,7 @@
 **你能预测以下程序的输出吗？？**
 在回答之前，请注意一个事实，在给定的代码中，fun()是属于类的静态成员，不属于任何实例。
 
-```
+```java
 // Java program to illustrate calling
 // static method using Null
 public class GFG {
@@ -25,7 +25,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Welcome to GeeksforGeeks!!
 ```
 

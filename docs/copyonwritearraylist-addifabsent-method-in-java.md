@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean addIfAbsent(E e)
 ```
 
@@ -18,7 +18,7 @@ public boolean addIfAbsent(E e)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // addIfAbsent(element) method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [2, 3, 4, 7]
 On adding 4 it returns false as it is present
 
@@ -57,7 +57,7 @@ On adding 4 it returns false as it is present
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // addIfAbsent(element) method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 On adding 'sudo' it returns false as it is present
 

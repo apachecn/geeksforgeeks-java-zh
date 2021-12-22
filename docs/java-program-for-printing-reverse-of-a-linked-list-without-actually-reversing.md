@@ -9,7 +9,7 @@
 
 **算法:**
 
-```
+```java
 printReverse(head)
   1\. call print reverse for head->next
   2\. print head->data
@@ -19,7 +19,7 @@ printReverse(head)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print reverse 
 // of a linked list
 class LinkedList
@@ -89,7 +89,7 @@ class LinkedList
 
 **输出:**
 
-```
+```java
 4 3 2 1
 ```
 

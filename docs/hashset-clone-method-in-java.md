@@ -6,7 +6,7 @@ Java.util.HashSet.clone()方法用于返回所述哈希集的浅层副本。它�
 
 **语法:**
 
-```
+```java
 Hash_Set.clone()
 ```
 
@@ -16,7 +16,7 @@ Hash_Set.clone()
 
 下面程序举例说明了
 
-```
+```java
 // Java code to illustrate clone()
 import java.io.*;
 import java.util.HashSet;
@@ -51,7 +51,7 @@ public class Hash_Set_Demo {
 
 **输出:**
 
-```
+```java
 HashSet: [4, Geeks, Welcome, To]
 The new set: [Geeks, Welcome, To, 4]
 

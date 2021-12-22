@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static String join(String separator,
                           boolean... array)
 
@@ -25,7 +25,7 @@ public static String join(String separator,
 
 **示例-1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.join() method
 
@@ -51,14 +51,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 true#false#true#false#true
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.join() method
 
@@ -84,7 +84,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false*false*true*false
 
 ```

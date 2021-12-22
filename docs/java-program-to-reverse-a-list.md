@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 "PLATFORM", "LEARNING",  "BEST", "THE", "IS", "GFG"
 Output:
@@ -26,7 +26,7 @@ Reverse order of given List :-
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Reverse a List recursively
 
 import java.io.*;
@@ -67,7 +67,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reverse order of given List :- 
 [GFG, IS, THE, BEST, LEARNING, PLATFORM]
 ```
@@ -78,7 +78,7 @@ java.util.Collections.reverse()方法是 java.util.Collections 类方法。它�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse the list
 // using Collections.reverse() method
 
@@ -104,7 +104,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reverse order of given List :- 
 [8, 7, 6, 5, 4, 3, 2, 1]
 ```
@@ -117,7 +117,7 @@ List 接口的 List.remove()方法用于从列表中移除参数中的指定元�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to reverse the list using List.add()
 // and List.remove() method
 
@@ -145,7 +145,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Reverse order of given List :- 
 [8, 7, 6, 5, 4, 3, 2, 1]
 ```

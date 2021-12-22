@@ -36,7 +36,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -67,7 +67,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -107,7 +107,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
@@ -186,7 +186,7 @@ public class VideoPlayerActivity extends AppCompatActivity {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gtappdevelopers.youtubeplayerview">

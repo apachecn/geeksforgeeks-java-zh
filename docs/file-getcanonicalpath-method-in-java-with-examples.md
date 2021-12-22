@@ -8,13 +8,13 @@
 
 **功能签名:**
 
-```
+```java
 public String getCanonicalPath()
 ```
 
 **函数语法:**
 
-```
+```java
 file.getCanonicalPath()
 ```
 
@@ -30,7 +30,7 @@ file.getCanonicalPath()
 
     **示例 1:** 我们有一个带有指定路径的 File 对象，我们将尝试找到它的规范路径。
 
-    ```
+    ```java
     // Java program to demonstrate the
     // use of getCanonicalPath() function
 
@@ -64,7 +64,7 @@ file.getCanonicalPath()
 
     **输出**
 
-    ```
+    ```java
     Original file path : c:\program
     Canonical file path : C:\program
 
@@ -74,7 +74,7 @@ file.getCanonicalPath()
 
     **示例 2:** 我们有一个带有指定路径的 File 对象，我们将尝试找到它的规范路径。
 
-    ```
+    ```java
     // Java program to demonstrate the
     // use of getCanonicalPath() function
 
@@ -107,7 +107,7 @@ file.getCanonicalPath()
 
     **输出**
 
-    ```
+    ```java
     Original file path : c:\users\..\program
     Canonical file path : C:\program
 

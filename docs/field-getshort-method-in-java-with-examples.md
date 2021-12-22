@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public short getShort(Object obj)
              throws IllegalArgumentException,
                     IllegalAccessException
@@ -27,7 +27,7 @@ public short getShort(Object obj)
 以下程序说明 getShort()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate getShort() method
 
 import java.lang.reflect.Field;
@@ -86,14 +86,14 @@ class User {
 
 **Output:**
 
-```
+```java
 Value of short Field Marks is 34
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate getShort() method
 
 import java.lang.reflect.Field;
@@ -142,7 +142,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 999
 
 ```

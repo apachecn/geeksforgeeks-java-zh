@@ -6,7 +6,7 @@ Java 中 **ByteArrayOutputStream** 类的 **writeTo()** 方法用于将此**Byte
 
 **语法:**
 
-```
+```java
 public void writeTo(OutputStream outputStr)
              throws IOException
 
@@ -22,7 +22,7 @@ public void writeTo(OutputStream outputStr)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream writeTo() method
 
@@ -61,14 +61,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream writeTo() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKSFORGEEKS
 
 ```

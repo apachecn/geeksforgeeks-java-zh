@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getBaseLevel()
 ```
 
@@ -18,7 +18,7 @@ public int getBaseLevel()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getBaseLevel() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Base level is right to left
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getBaseLevel() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Base level is left to right
 
 ```

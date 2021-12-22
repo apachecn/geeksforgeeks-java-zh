@@ -8,7 +8,7 @@
 
 **等级体系**
 
-```
+```java
 java.lang.Object
 ↳ java.util.DoubleSummaryStatistics
 
@@ -20,7 +20,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public DoubleSummaryStatistics()
 
     ```
@@ -31,7 +31,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public void accept(double value)
 
     ```
@@ -40,7 +40,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public void combine(DoubleSummaryStatistics other)
 
     ```
@@ -49,7 +49,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 public final long getCount()
 
 ```
@@ -58,7 +58,7 @@ public final long getCount()
 
     **语法:**
 
-    ```
+    ```java
     public final long getSum()
 
     ```
@@ -67,7 +67,7 @@ public final long getCount()
 
     **语法:**
 
-    ```
+    ```java
     public final double getAverage()
 
     ```
@@ -76,7 +76,7 @@ public final long getCount()
 
     **语法:**
 
-    ```
+    ```java
     public final double getMin()
 
     ```
@@ -85,7 +85,7 @@ public final long getCount()
 
     **语法:**
 
-    ```
+    ```java
     public final double getMax()
 
     ```
@@ -94,14 +94,14 @@ public final long getCount()
 
     **语法:**
 
-    ```
+    ```java
     public String toString()
 
     ```
 
     **示例**演示双重概要统计的实际应用。
 
-    ```
+    ```java
     // Java program to demonstrate
     // DoubleSummaryStatistics class
 
@@ -160,7 +160,7 @@ public final long getCount()
 
     **Output:**
 
-    ```
+    ```java
     The count of values is 10
     The average of values is 10468.29537
     The sum of values is 104682.9537

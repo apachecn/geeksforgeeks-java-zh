@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int getMinimumFractionDigits()
 
 ```
@@ -19,7 +19,7 @@ public int getMinimumFractionDigits()
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // getMinimumFractionDigits() method
 
@@ -42,14 +42,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 0
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // getMinimumFractionDigits() method
 
@@ -73,7 +73,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 0
 
 ```

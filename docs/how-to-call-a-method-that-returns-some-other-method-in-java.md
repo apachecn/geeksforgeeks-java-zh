@@ -13,7 +13,7 @@
 
 *   **Example 1:** In this example, let's imagine a car. The car must be started before driving. Therefore, the car has the starting function of starting the car. In order for the car to start, its engine must be started first, and other entities must be started, so that the car is finally ready to run. Therefore, this *carstart ()* function needs a signed engineStart () to start the engine. That is,
 
-    ```
+    ```java
     // Java program to visualize the Car
 
     // A class Car
@@ -60,7 +60,7 @@
 
     **Output:**
 
-```
+```java
 Engine Started!
 Car Started!
 Let's Drive!

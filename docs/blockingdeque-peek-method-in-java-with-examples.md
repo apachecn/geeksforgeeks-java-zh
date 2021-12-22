@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E peek()
 ```
 
@@ -20,7 +20,7 @@ public E peek()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of BlockingDeque
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Front element in Deque: 7855642
 
@@ -61,7 +61,7 @@ Front element in Deque: 7855642
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of BlockingDeque
 // when Deque is empty
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Front element in Deque: null
 

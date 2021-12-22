@@ -14,7 +14,7 @@
 
 **第二步:** **将此添加到 build.gradle 文件**
 
-```
+```java
 implementation 'com.stone.vega.library:VegaLayoutManager:1.0.6'
 ```
 
@@ -24,7 +24,7 @@ implementation 'com.stone.vega.library:VegaLayoutManager:1.0.6'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -47,7 +47,7 @@ implementation 'com.stone.vega.library:VegaLayoutManager:1.0.6'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -105,7 +105,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -129,7 +129,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;

@@ -14,7 +14,7 @@
 
 **发送目的**，使用以下构造函数:
 
-```
+```java
 Syntax :public DatagramPacket(byte[] buf,
               int offset,
               int length,
@@ -28,7 +28,7 @@ address : address of destination
 port : port number of destination
 ```
 
-```
+```java
 Syntax :public DatagramPacket(byte[] buf,
               int offset,
               int length,
@@ -40,7 +40,7 @@ length : length of message to deliver
 address : socket address of destination
 ```
 
-```
+```java
 Syntax :public DatagramPacket(byte[] buf,
               int length,
               InetAddress address,
@@ -52,7 +52,7 @@ address : address of destination
 port : port number of destination
 ```
 
-```
+```java
 Syntax :public DatagramPacket(byte[] buf,
               int length,
               SocketAddress address)
@@ -64,7 +64,7 @@ address : socket address of destination
 
 **为了接收目的**，使用了以下构造函数:
 
-```
+```java
 Syntax :public DatagramPacket(byte[] buf,
               int offset,
               int length)
@@ -74,7 +74,7 @@ offset : offset into the array
 length : length of message to deliver
 ```
 
-```
+```java
 Syntax :public DatagramPacket(byte[] buf,
               int length)
 Parameters :
@@ -86,37 +86,37 @@ length : length of message to deliver
 
 1.  **getAddress() :** 返回数据包发送到的或接收到的 IP 地址。
 
-```
+```java
 Syntax :public InetAddress getAddress()
 ```
 
 1.  **getPort() :** 返回数据包发送到的端口或接收到数据包的端口。此方法专门用于服务器获取发送请求的客户端的端口。
 
-```
+```java
 Syntax : public int getPort()
 ```
 
 1.  **getData() :** 以字节数组的形式返回此数据包中包含的数据。数据从指定的偏移量开始，具有指定的长度。
 
-```
+```java
 Syntax : public byte[] getData()
 ```
 
 1.  **getOffset() :** 返回指定的偏移量。
 
-```
+```java
 Syntax : public int getOffset()
 ```
 
 1.  **getLength() :** 返回要发送或接收的数据长度
 
-```
+```java
 Syntax : public int getLength()
 ```
 
 1.  **setData() :** 用于设置该数据包的数据。
 
-```
+```java
 Syntax : public void setData(byte[] buf,
            int offset,
            int length)
@@ -126,7 +126,7 @@ offset :offset into the data
 length : length of the data
 ```
 
-```
+```java
 Syntax : public void setData(byte[] buf)
 Parameters :
 buf : data buffer
@@ -134,7 +134,7 @@ buf : data buffer
 
 1.  **setAddress() :** 用于设置此数据包发送到的地址。
 
-```
+```java
 Syntax : public void setAddress(InetAddress iaddr)
 Parameters : 
 iaddr : InetAddress of the recipient
@@ -142,7 +142,7 @@ iaddr : InetAddress of the recipient
 
 1.  **设置端口():**设置目的地接收该数据包的端口。
 
-```
+```java
 Syntax :public void setPort(int iport)
 Parameters : 
 iport : the port number
@@ -150,7 +150,7 @@ iport : the port number
 
 1.  **setSocketAddress() :** 用于设置目的地的套接字地址(IP 地址+端口号)。
 
-```
+```java
 Syntax : public void setSocketAddress(SocketAddress address)
 Parameters :
 address : socket address
@@ -158,13 +158,13 @@ address : socket address
 
 1.  **getSocketAddress() :** 返回此数据包的套接字地址。如果收到，返回主机的套接字地址。
 
-```
+```java
 Syntax : public SocketAddress getSocketAddress()
 ```
 
 1.  **设置长度():**用于设置此数据包的长度。
 
-```
+```java
 Syntax :public void setLength(int length)
 Parameters :
 length : length of the packet
@@ -174,7 +174,7 @@ length : length of the packet
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to illustrate various
 //DatagramPacket class methods
 import java.io.IOException;
@@ -234,7 +234,7 @@ public class datapacket
 
 **输出:**
 
-```
+```java
 Address : localhost/127.0.0.1
 Port : 2525
 Length : 4

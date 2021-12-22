@@ -10,7 +10,7 @@
 
 1.  **Using direct values**
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Septet Class 
     // from Sextet Class 
@@ -50,7 +50,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -62,7 +62,7 @@
     //从 Sextet 类
     //使用 add()
 
-```
+```java
 import java.util.*;
 import org.javatuples.*;
 
@@ -89,7 +89,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
@@ -99,7 +99,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **程序 1:** 使用 addAt0()在位置 0 添加
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Septet Class 
     // from Sextet Class 
@@ -131,7 +131,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **输出:**
 
-    ```
+    ```java
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Septet: [Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -139,7 +139,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **程序 2:** 使用 addAt1()在位置 1 添加
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Septet Class 
     // from Sextet Class 
@@ -171,7 +171,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **输出:**
 
-    ```
+    ```java
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Septet: [Sextet, Septet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -179,7 +179,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **程序 3:** 使用 addAt2()在位置 2 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt2() method with
     // direct value
@@ -210,7 +210,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **输出:**
 
-    ```
+    ```java
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Septet: [Sextet, Quintet, Septet, Quartet, Triplet, Pair, Unit]
 
@@ -218,7 +218,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **程序 4:** 使用 addAt3()在位置 3 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt3() method with
     // direct value
@@ -249,7 +249,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **输出:**
 
-    ```
+    ```java
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Septet: [Sextet, Quintet, Quartet, Septet, Triplet, Pair, Unit]
 
@@ -257,7 +257,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **程序 5:** 使用 addAt4()在位置 4 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt4() method with
     // direct value
@@ -289,7 +289,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **输出:**
 
-    ```
+    ```java
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Septet: [Sextet, Quintet, Quartet, Triplet, Septet, Pair, Unit]
 
@@ -297,7 +297,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **程序 6:** 使用 addAt5()在位置 5 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt5() method with
     // direct value
@@ -328,7 +328,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **输出:**
 
-    ```
+    ```java
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Septet, Unit]
 
@@ -336,7 +336,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **程序 7:** 使用 addAt6()在位置 6 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt6() method with
     // direct value
@@ -367,7 +367,7 @@ Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 
     **输出:**
 
-    ```
+    ```java
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Septet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit, Septet]
 

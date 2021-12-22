@@ -6,7 +6,7 @@ Java 中**双概要统计类**的 **combine()** 方法用于将给定的其他�
 
 **语法:**
 
-```
+```java
 public void combine(DoubleSummaryStatistics 
                 otherDoubleSummaryStatistics)
 
@@ -20,7 +20,7 @@ public void combine(DoubleSummaryStatistics
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 

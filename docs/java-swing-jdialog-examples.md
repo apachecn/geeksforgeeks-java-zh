@@ -46,7 +46,7 @@ JDialog 是 Java swing 包的一部分。该对话框的主要目的是向其中
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a simple JDialog
 import java.awt.event.*;
 import java.awt.*;
@@ -113,7 +113,7 @@ class solve extends JFrame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a dialog within a dialog
 import java.awt.event.*;
 import java.awt.*;

@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Create Java ArrayList From Enumeration
 
 import java.util.ArrayList;
@@ -54,7 +54,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Elements in vector : [Geeks, For, Geeks, 2020, 2021]
 Elements in arraylist : [Geeks, For, Geeks, 2020, 2021]
 ```

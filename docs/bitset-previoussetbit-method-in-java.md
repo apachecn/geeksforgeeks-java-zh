@@ -12,7 +12,7 @@ BitSet 是 java.util 包中定义的一个类。它创建一个由布尔值表�
 
 **语法:**
 
-```
+```java
 public int previousSetBit(int fromIndex)
 ```
 
@@ -24,7 +24,7 @@ public int previousSetBit(int fromIndex)
 
 **注意:**要迭代位集中的真位，请使用以下循环:
 
-```
+```java
 for (int i = bs.length(); (i = bs.previousSetBit(i-1)) >= 0; ) {
      // operate on index i here
  }
@@ -34,7 +34,7 @@ for (int i = bs.length(); (i = bs.previousSetBit(i-1)) >= 0; ) {
 
 **示例 1:** 显示 previousSetBit()函数的实现:
 
-```
+```java
 // Java program illustrating Bitset
 // previousSetBit() function.
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6, 12}
 bs3 : {}
@@ -92,7 +92,7 @@ Previous Set Bit of bs3 -1
 
 **示例 2:** 要显示 IndexOutOfBoundException 异常:
 
-```
+```java
 // Java program illustrating Bitset
 // previousSetBit() function.
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 Exception when index less than -1 is passed as parameter : java.lang.IndexOutOfBoundsException: fromIndex < -1: -2
 

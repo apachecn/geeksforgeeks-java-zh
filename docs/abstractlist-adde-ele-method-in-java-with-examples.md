@@ -24,7 +24,7 @@ Java 中 AbstractList 类的 add(E ele)方法用于将指定的元素插入到�
 下面的程序说明了抽象添加方法:
 **程序 1** :
 
-```
+```java
 // Java code to illustrate add(Object o)
 import java.io.*;
 import java.util.*;
@@ -51,7 +51,7 @@ public class AbstractListDemo {
 
 **Output:**
 
-```
+```java
 Number = 15
 Number = 20
 Number = 25
@@ -60,7 +60,7 @@ Number = 25
 
 **程序 2** :
 
-```
+```java
 // Java code to illustrate add(Object o)
 import java.io.*;
 import java.util.*;
@@ -87,7 +87,7 @@ public class ArrayListDemo {
 
 **Output:**
 
-```
+```java
 Geeks For Geeks
 
 ```

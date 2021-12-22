@@ -14,7 +14,7 @@
 
 [执行器](https://www.google.com/url?client=internal-element-cse&cx=009682134359037907028:tj6eafkv_be&q=https://www.geeksforgeeks.org/java-util-concurrent-executor-interface-with-examples/&sa=U&ved=2ahUKEwiy4Ku5itzsAhX5yzgGHQaTCGsQFjAAegQIBhAC&usg=AOvVaw2IV998xx2yTHoP3jxZefJG)是一组接口，表示其实现执行任务的对象。任务应该在新线程上运行还是在当前线程上运行取决于实现。因此，我们可以使用这个接口从实际的任务执行机制中分离任务执行流。**执行器不要求任务执行异步。**最简单的就是可执行界面。
 
-```
+```java
 public interface Executor {
     void execute( Runnable command );
 }
@@ -22,7 +22,7 @@ public interface Executor {
 
 要创建一个**执行器实例**，我们需要创建一个调用者。
 
-```
+```java
 public class Invoker implements Executor {
    @Override
    public void execute(Runnable r) {
@@ -33,7 +33,7 @@ public class Invoker implements Executor {
 
 现在，对于任务的**执行，我们可以使用这个调用者。**
 
-```
+```java
 public void execute() {
    Executor exe = new Invoker();
    exe.execute( () -> {
@@ -50,7 +50,7 @@ public void execute() {
 
 我们需要创建[可运行](https://www.geeksforgeeks.org/runnable-interface-in-java/#:~:text=Runnable%20is%20an%20interface%20that,run()%20method%20of%20Runnable%20.)T3 目标来使用执行器服务。
 
-```
+```java
 public class Task implements Runnable {
    @Override
    public void run() {
@@ -62,14 +62,14 @@ public class Task implements Runnable {
 
 现在，我们可以创建这个类的对象/实例，并分配任务。我们需要在创建实例时指定[线程池](https://www.google.com/url?client=internal-element-cse&cx=009682134359037907028:tj6eafkv_be&q=https://www.geeksforgeeks.org/thread-pools-java/&sa=U&ved=2ahUKEwiNwP6ujdzsAhW6I7cAHR7gDEEQFjAAegQIARAC&usg=AOvVaw2cZXMrjPhInZ8goo7M6j0m)的大小。
 
-```
+```java
 // 20 is the thread pool size
 ExecutorService exec = Executors.newFixedThreadPool(20);
 ```
 
 对于单线程[执行器服务](https://www.google.com/url?client=internal-element-cse&cx=009682134359037907028:tj6eafkv_be&q=https://www.geeksforgeeks.org/java-util-concurrent-executorservice-interface-with-examples/&sa=U&ved=2ahUKEwi59qPJi9zsAhXU63MBHUViAs0QFjAAegQIABAC&usg=AOvVaw0IhEBEHz6IF5BcFi5N5lk1)实例的创建，我们可以使用**新线程执行器(线程工厂线程工厂)**来创建实例。创建执行器后，我们可以提交任务。
 
-```
+```java
 public void execute() {
    executor.submit(new Task());
 }
@@ -77,7 +77,7 @@ public void execute() {
 
 另外，我们可以为**提交任务创建一个 Runnable 实例。**
 
-```
+```java
 executor.submit(() -> {
    new Task();
 });
@@ -90,7 +90,7 @@ executor.submit(() -> {
 
 还有一种方法是 **awaitTermination()** ，它会强制阻塞，直到所有任务在关闭事件触发的或执行超时发生后完成执行，或者执行线程本身被中断。
 
-```
+```java
 try {
    exec.awaitTermination( 50l, TimeUnit.NANOSECONDS );
 } catch (InterruptedException e) {
@@ -102,7 +102,7 @@ try {
 
 它类似于 ExecutorService。不同的是，这个接口可以定期执行任务。[可运行](https://www.google.com/url?client=internal-element-cse&cx=009682134359037907028:tj6eafkv_be&q=https://www.geeksforgeeks.org/runnable-interface-in-java/&sa=U&ved=2ahUKEwjsn-ncjdzsAhXg6XMBHQKFAroQFjAAegQIBRAC&usg=AOvVaw3O8BLxMjzB4Rc-WStOAocI) 和[可调用](https://www.google.com/url?client=internal-element-cse&cx=009682134359037907028:tj6eafkv_be&q=https://www.geeksforgeeks.org/callable-future-java/&sa=U&ved=2ahUKEwirx4fljdzsAhWy73MBHXJVAUgQFjAAegQIAhAC&usg=AOvVaw1ytLwOkUACw22AafBoUipF)功能都用于定义任务。
 
-```
+```java
 public void execute() {
    ScheduledExecutorService execServ
      = Executors.newSingleThreadScheduledExecutor();
@@ -122,7 +122,7 @@ public void execute() {
 
 [调度执行服务](https://www.google.com/url?client=internal-element-cse&cx=009682134359037907028:tj6eafkv_be&q=https://www.geeksforgeeks.org/scheduledexecutorservice-interface-in-java/&sa=U&ved=2ahUKEwjQ0sH6jdzsAhUM4XMBHQVMDfQQFjAAegQIBRAC&usg=AOvVaw3ra570659E7WMLHw7aP6b9) 也可以在一些固定延迟后定义一个任务。
 
-```
+```java
 executorService.scheduleAtFixedRate(() -> {
    // ..
 }, 1, 20, TimeUnit.SECONDS);
@@ -143,7 +143,7 @@ executorService.scheduleWithFixedDelay(() -> {
 
 代码片段创建了未来的**实例。**
 
-```
+```java
 public void invoke() {
    ExecutorService executorService = Executors.newFixedThreadPool(20);
 
@@ -157,7 +157,7 @@ public void invoke() {
 
 用于检查未来的**结果是否准备好并在计算完成时获取数据的代码。**
 
-```
+```java
 if (future.isDone() && !future.isCancelled()) {
    try {
        str = future.get();
@@ -169,7 +169,7 @@ if (future.isDone() && !future.isCancelled()) {
 
 **给定操作的超时规格**。如果花费的时间超过该时间，则抛出**超时异常**。
 
-```
+```java
 try {
    future.get(20, TimeUnit.SECONDS);
 } catch (InterruptedException | ExecutionException | TimeoutException e) {
@@ -187,7 +187,7 @@ try {
 
 我们需要创建一个可运行任务的实例来启动屏障条件。
 
-```
+```java
 public class Task implements Runnable {
 
    private CyclicBarrier barrier;
@@ -214,7 +214,7 @@ public class Task implements Runnable {
 
 现在，调用几个线程来竞争屏障条件:
 
-```
+```java
 public void start() {
 
    CyclicBarrier cyclicBarrier = new CyclicBarrier(3, () -> {
@@ -244,7 +244,7 @@ public void start() {
 
 下面的代码用于信号量的实现:
 
-```
+```java
 static Semaphore semaphore = new Semaphore(20);
 
 public void execute() throws InterruptedException {
@@ -271,7 +271,7 @@ public void execute() throws InterruptedException {
 
 它充当线程池**按需创建新线程**。[螺纹工厂](https://www.google.com/url?client=internal-element-cse&cx=009682134359037907028:tj6eafkv_be&q=https://www.geeksforgeeks.org/threadfactory-interface-in-java-with-examples/&sa=U&ved=2ahUKEwjn7rvhmdzsAhXs73MBHaYZCH4QFjAAegQIABAC&usg=AOvVaw21UyLblvWNnmWtAfiTEs6l)可以定义为:
 
-```
+```java
 public class GFGThreadFactory implements ThreadFactory {
    private int threadId;
    private String name;

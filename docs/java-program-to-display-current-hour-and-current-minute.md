@@ -12,7 +12,7 @@ Date 和 Calendar 的区别在于，Date 类在特定时刻运行，Calendar 在
 
 **语法:**
 
-```
+```java
 public int get(int field)
 
 ```
@@ -44,7 +44,7 @@ public int get(int field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display
 // current hour and minute
 
@@ -79,7 +79,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 9:04
 
 ```
@@ -92,7 +92,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display
 // current hour and minute
 
@@ -120,7 +120,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 9:4
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 下面的程序演示了上述功能:
 
-```
+```java
 // Java code to demonstrate
 // hashCode() function of Date class
 
@@ -57,13 +57,13 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date: Thu Dec 05 08:22:04 UTC 1996
 HashCode: -629399711
 
 ```
 
-```
+```java
 // Java code to demonstrate
 // hashCode() function of Date class
 
@@ -101,7 +101,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date: Tue Dec 21 08:22:09 UTC 1999
 HashCode: 871724355
 

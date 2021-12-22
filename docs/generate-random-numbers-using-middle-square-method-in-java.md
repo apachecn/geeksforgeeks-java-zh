@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Consider the seed to be 14 and we want a two digit random number.
 Number --> Square --> Mid-term
 14     --> 0196   --> 19 
@@ -25,7 +25,7 @@ Number --> Square --> Mid-term
 
 ## Java
 
-```
+```java
 // Generate Random Numbers Using Middle
 // Square Method in Java
 import java.util.Random;
@@ -70,7 +70,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 The random numbers for the Geeks are:
 325, 562, 584, 105, 102, 40, 160, 560, 360, 960, 
 ```

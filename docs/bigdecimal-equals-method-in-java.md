@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(*Object obj*)
 ```
 
@@ -16,7 +16,7 @@ public boolean equals(*Object obj*)
 
 **示例:**
 
-```
+```java
 Input: 
 b1 = new BigDecimal("4743.00")
 b2 = new BigDecimal("4743.00000")
@@ -32,7 +32,7 @@ Output: true
 下面的程序说明了 BigDecimal 类的 equals()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate equals() method
 
 import java.io.*;
@@ -61,14 +61,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 4743.00 and 4743.00000 are not equal.
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate equals() method
 
 import java.io.*;
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 67891 and 67891 are equal.
 
 ```

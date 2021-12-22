@@ -33,7 +33,7 @@
 
     可以使用 setDaemon(布尔)方法将用户线程作为守护线程。在本例中，通过使用 isDaemon()方法检查线程类型(用户线程或守护进程线程)。如果它是守护进程，则返回 true，否则返回 false。
 
-    ```
+    ```java
     // Java program check thread is Daemon or not
 
     class MyThread extends Thread {
@@ -68,7 +68,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Main Thread
     Is Thread-0 a Daemon Thread: false
     Is main a Daemon Thread: false
@@ -79,7 +79,7 @@
     **示例:将非守护线程设为守护线程:**
     在本例中，使用 setDeamon(布尔值)将非守护线程设为守护进程。
 
-    ```
+    ```java
     // Java program make user thread as a daemon thread
 
     class MyThread extends Thread {
@@ -113,7 +113,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Before using setDaemon() method: 
     Is Thread-0 a Daemon Thread: false
     After using setDaemon() method: 

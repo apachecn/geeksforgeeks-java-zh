@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean deleteIfExists(Path path)
                    throws IOException
 
@@ -27,7 +27,7 @@ public static boolean deleteIfExists(Path path)
 下面的程序说明了删除存在(路径)的方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Files.deleteIfExists() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Files.deleteIfExists() method
 

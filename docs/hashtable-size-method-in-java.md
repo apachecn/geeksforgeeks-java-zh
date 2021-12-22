@@ -6,7 +6,7 @@ Hashtable 类的 java.util.Hashtable.size()方法用于获取表的大小，表�
 
 **语法:**
 
-```
+```java
 Hash_Table.size()
 ```
 
@@ -17,7 +17,7 @@ Hash_Table.size()
 下面的程序说明了 Java . util . hashtable . size():
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the size() method
 import java.util.*;
 
@@ -48,7 +48,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 The size of the table is 5
 
@@ -56,7 +56,7 @@ The size of the table is 5
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the size() method
 import java.util.*;
 
@@ -87,7 +87,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial Table is: {You=30, Welcomes=25, 4=15, Geeks=20}
 The size of the table is 4
 

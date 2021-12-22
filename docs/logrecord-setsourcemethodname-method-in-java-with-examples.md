@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setSourceMethodName(String sourceMethodName)
 
 ```
@@ -18,7 +18,7 @@ public void setSourceMethodName(String sourceMethodName)
 下面的程序说明了 setSourceMethodName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // setSourceMethodName() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Source method Name = MyFirstSourceMethod
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // setSourceMethodName() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Source method Name = add
 Now new Source method Name = null
 

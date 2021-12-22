@@ -6,7 +6,7 @@ Method 类的 **[方法返回类或接口的 Class 对象，该类或接口定�
 
 **语法:**
 
-```
+```java
 public Class<?> getDeclaringClass()
 ```
 
@@ -19,7 +19,7 @@ public Class<?> getDeclaringClass()
 在下面的程序中，用一些方法创建了一个演示类。创建类对象后，通过调用类对象的 getMethods()函数创建方法对象列表。然后它们在列表中循环，并打印每个方法的声明类的细节。
 这个程序的输出还显示了方法对象的结果，而不是类对象中定义的方法，如 wait、equals、toString、hashCode、getClass、notify 和 notifyAll。这些方法是通过类对象从 java.lang 包的超类 Object 继承而来的。
 
-```
+```java
 // Program Demonstrate getDeclaringClass() method
 // of Method Class.
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Method Name: getField1
 Declaring class Name: GFGDemoClass
 Method Name: setField1
@@ -110,7 +110,7 @@ Declaring class Name: java.lang.Object
 
 **程序 2:** 要查找 Object 类方法的细节，通过应用 getDeclaringClass()方法。
 
-```
+```java
 // Program Demonstrate getDeclaringClass() method
 // of Method Class.
 
@@ -176,7 +176,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Method Name: multiply
 Declaring class Name: BasicOperations
 Method Name: subtract

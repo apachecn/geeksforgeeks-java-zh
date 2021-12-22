@@ -7,7 +7,7 @@
 1.  第一个任务是**将 OpenCSV 库添加到项目**中。
     *   对于 maven 项目，在 pom.xml 文件中包含 OpenCSV maven 依赖项。
 
-        ```
+        ```java
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
@@ -17,7 +17,7 @@
 
     *   对于 Gradle 项目，包括 OpenCSV 依赖项。
 
-        ```
+        ```java
         compile group: 'com.opencsv', name: 'opencsv', version: '4.1'
         ```
 
@@ -27,7 +27,7 @@
 
 1.  创建用于将数据写入 CSV 文件的编写器实例。
 
-    ```
+    ```java
     Writer writer = Files.newBufferedWriter(Paths.get(file_location));
     ```
 
@@ -35,7 +35,7 @@
 3.  使用列位置映射策略将已创建对象的列映射到 csv 的列。
     这是可选步骤。如果未使用 ColumnPositionMappingStrategy，则对象将被写入 csv，列名与对象的属性名相同。
 
-    ```
+    ```java
     ColumnPositionMappingStrategy mappingStrategy = new ColumnPositionMappingStrategy();
         mappingStrategy.setType(Employee.class);
 
@@ -45,7 +45,7 @@
 
 4.  创建 stateflebeantosvbuilder 后，通过调用 stateflebeantosvbuilder 类的 build 方法，以 writer 对象为参数，创建*stateflebeantosv*类的对象。根据需要用户也可以提供:
 
-    ```
+    ```java
     StatefulBeanToCsv beanToCsv = new StatefulBeanToCsvBuilder(writer)
     .withMappingStrategy(mappingStrategy)
     . withSeparator('#')
@@ -59,7 +59,7 @@
     *   借助*stateflebeantosvbuilder*对象的 *withQuotechar* 功能，生成 csv 文件的 *withQuotechar* 。
 5.  创建 stateflebeantosv 类的对象后，可以借助 stateflebeantosv 对象的 write 方法将对象或对象列表添加到 Csv 文件中。
 
-    ```
+    ```java
     beanToCsv.write(Employeelist);
 
     ```
@@ -69,7 +69,7 @@
 
 1.  **Employee.java**T3
 
-    ```
+    ```java
     public class Employee {
 
         public String Name, Age, Company, Salary;
@@ -97,7 +97,7 @@
     T4】
 2.  **BeanToCSV.java**T3
 
-    ```
+    ```java
     import java.io.FileWriter;
     import java.io.Writer;
     import java.nio.*;
@@ -175,7 +175,7 @@
 
 **输出**:
 
-```
+```java
 EmployeeData.csv
 CSV file contains:-----
 

@@ -44,7 +44,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--Button for deleting your course to database-->
 <Button
   android:id="@+id/idBtnDeleteCourse"
@@ -60,7 +60,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -130,7 +130,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // adding on click listener for delete course button.
 deleteCourseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -166,7 +166,7 @@ private void deleteCourse(long id) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;

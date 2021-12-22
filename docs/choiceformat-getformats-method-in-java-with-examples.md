@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object[] getFormats()
 ```
 
@@ -18,7 +18,7 @@ public Object[] getFormats()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getFormats() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Format: [wed, thu , fri , sat]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getFormats() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Format: [add, sub, multiply, divide]
 
 ```

@@ -6,7 +6,7 @@ Java 中 **CharArrayWriter** 类的 **toCharArray()** 方法返回输入数据�
 
 **语法** :
 
-```
+```java
 public char[] toCharArray()
 ```
 
@@ -18,7 +18,7 @@ public char[] toCharArray()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // the toCharArray() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 toCharArray : G
 toCharArray : E
 toCharArray : E
@@ -64,7 +64,7 @@ toCharArray : S
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate
 // the toCharArray() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 toCharArray : G
 toCharArray : O
 toCharArray : P

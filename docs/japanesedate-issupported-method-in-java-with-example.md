@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalField field)
 ```
 
@@ -18,7 +18,7 @@ public boolean isSupported(TemporalField field)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isSupported() method
 
@@ -61,14 +61,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 this field is supported
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isSupported() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 this field is not supported
 
 ```

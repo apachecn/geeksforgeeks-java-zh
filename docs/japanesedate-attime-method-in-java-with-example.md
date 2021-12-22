@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final ChronoLocalDateTime
       atTime(LocalTime localTime)
 
@@ -20,7 +20,7 @@ T3】例 1:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // atTime() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Chrono LocalDateTime is: Japanese Heisei 32-03-18T17:18:51.528
 
 ```
@@ -75,7 +75,7 @@ Chrono LocalDateTime is: Japanese Heisei 32-03-18T17:18:51.528
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // atTime() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Chrono LocalDateTime is: Japanese Heisei 32-03-18T08:20
 
 ```

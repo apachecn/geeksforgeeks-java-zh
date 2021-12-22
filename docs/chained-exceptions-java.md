@@ -16,7 +16,7 @@
 
 使用链式异常的示例:
 
-```
+```java
 // Java program to demonstrate working of chained exceptions
 public class ExceptionHandling
 {
@@ -50,7 +50,7 @@ public class ExceptionHandling
 
 输出:
 
-```
+```java
 java.lang.NumberFormatException: Exception
 java.lang.NullPointerException: This is actual cause of the exception
 

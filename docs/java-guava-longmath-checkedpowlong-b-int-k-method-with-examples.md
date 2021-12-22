@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long checkedPow(long b, long k)
 
 ```
@@ -21,7 +21,7 @@ public static long checkedPow(long b, long k)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // checkedPow(long b, long k) method of
 // Guava's LongMath class
@@ -61,7 +61,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 5 to the 7th power is: 78125
 19 to the 4th power is: 130321
 
@@ -69,7 +69,7 @@ class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // checkedPow(long b, long k) method of
 // Guava's LongMath class
@@ -119,7 +119,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: overflow
 
 ```

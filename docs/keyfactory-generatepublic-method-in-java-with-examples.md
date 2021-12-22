@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final PublicKey generatePublic(KeySpec keySpec)
                                throws InvalidKeySpecException
 ```
@@ -23,7 +23,7 @@ public final PublicKey generatePublic(KeySpec keySpec)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // generatePublic()  method
 
@@ -80,7 +80,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 publickey : Sun DSA Public Key
     Parameters:DSA
         p:     fd7f5381 1d751229 52df4a9c 2eece4e7 f611b752 3cef4400 c31e3f80 b6512669
@@ -103,7 +103,7 @@ publickey : Sun DSA Public Key
 
 **示例 2:** 适用于*无效密钥特殊异常*
 
-```
+```java
 // Java program to demonstrate
 // generatePublic()  method
 
@@ -160,7 +160,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Exception thrown : java.security.spec.InvalidKeySpecException: 
 Inappropriate key specification
 

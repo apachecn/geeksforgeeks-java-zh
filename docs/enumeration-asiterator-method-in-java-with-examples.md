@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default Iterator asIterator()
 
 ```
@@ -18,7 +18,7 @@ default Iterator asIterator()
 下面的程序举例说明了阿西特尔()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Enumeration.asIterator() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Enumeration.asIterator() method
 

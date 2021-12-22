@@ -18,13 +18,13 @@
     *   **[print()](https://www.geeksforgeeks.org/difference-between-print-and-println-in-java/):** This method in Java is used to display a text on the console. This text is passed as the parameter to this method in the form of String. This method prints the text on the console and the cursor remains at the end of the text at the console. The next printing takes place from just here.
         **Syntax:**
 
-        ```
+        ```java
         System.out.print(*parameter*);
         ```
 
         **示例:**
 
-        ```
+        ```java
         // Java code to illustrate print()
         import java.io.*;
 
@@ -44,20 +44,20 @@
 
         **输出:**
 
-        ```
+        ```java
         GfG! GfG! GfG! 
         ```
 
     *   **[println()](https://www.geeksforgeeks.org/difference-between-print-and-println-in-java/):** This method in Java is also used to display a text on the console. It prints the text on the console and the cursor moves to the start of the next line at the console. The next printing takes place from the next line.
         **Syntax:**
 
-        ```
+        ```java
         System.out.println(*parameter*);
         ```
 
         **示例:**
 
-        ```
+        ```java
         // Java code to illustrate println()
 
         import java.io.*;
@@ -78,7 +78,7 @@
 
         **输出:**
 
-        ```
+        ```java
         GfG! 
         GfG! 
         GfG! 
@@ -87,7 +87,7 @@
     *   **[printf()](https://www.geeksforgeeks.org/formatted-output-in-java/) :** 这是所有方法中最简单的，因为这类似于 c 语言中的 printf。注意，System.out.print()和 System.out.println()采用单个参数，但 printf()可能采用多个参数。这用于在 Java 中格式化输出。
         **例:**
 
-    ```
+    ```java
     // A Java program to demonstrate working of printf() in Java
     class JavaFormatter1 {
         public static void main(String args[])
@@ -129,7 +129,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Printing simple integer: x = 100
     Formatted with precision: PI = 3.14
     Formatted to specific width: n = 5.2000
@@ -146,7 +146,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java code to illustrate standard
     // input output streams
 
@@ -176,13 +176,13 @@
 
     **输入:**
 
-    ```
+    ```java
     GeeksforGeeks0
     ```
 
     **输出:**
 
-    ```
+    ```java
     Enter characters, and '0' to quit.
     G
     e
@@ -225,7 +225,7 @@
 
         **示例:**
 
-        ```
+        ```java
         // Java Program illustrating the
         // Byte Stream to copy
         // contents of one file to another file.
@@ -264,7 +264,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Shows contents of file test.txt 
         ```
 
@@ -284,7 +284,7 @@
 
         **示例:**
 
-        ```
+        ```java
         // Java Program illustrating that
         // we can read a file in a human-readable
         // format using FileReader

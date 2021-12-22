@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Matcher region(int startIndex, int endIndex)
 
 ```
@@ -28,7 +28,7 @@ public Matcher region(int startIndex, int endIndex)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate region() method
 
 import java.util.regex.*;
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before changing region,  Groups found are: 
 Geeks
 Geeks
@@ -93,7 +93,7 @@ Geeks
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate region() method
 
 import java.util.regex.*;
@@ -144,7 +144,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before changing region,  Groups found are: 
 FGF
 FGF

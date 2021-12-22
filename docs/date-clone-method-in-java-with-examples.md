@@ -5,7 +5,7 @@
 Java 中 Date 类的 clone()方法返回传递的 Date 对象的副本。这个副本只是给定日期对象的一个浅层副本。
 **语法:**
 
-```
+```java
 public Object clone()
 
 ```
@@ -17,7 +17,7 @@ public Object clone()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // clone() method of Date class
 
@@ -57,7 +57,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 Original Date: Thu Dec 05 05:39:04 UTC 1996
 Cloned Date: Thu Dec 05 05:39:04 UTC 1996
 
@@ -67,7 +67,7 @@ Cloned Date: Thu Dec 05 05:39:04 UTC 1996
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // clone() method of Date class
 
@@ -107,7 +107,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 Original Date: Wed Jan 30 05:39:10 UTC 2019
 Cloned Date: Wed Jan 30 05:39:10 UTC 2019
 

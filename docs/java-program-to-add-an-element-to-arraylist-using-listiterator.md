@@ -20,13 +20,13 @@
 
 **1。**做一个迭代器。
 
-```
+```java
 ListIterator<Integer> it = list.listIterator()
 ```
 
 **2。**使用 Add()方法添加元素。
 
-```
+```java
 it.add(element)
 ```
 
@@ -36,7 +36,7 @@ it.add(element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add elements to ArrayList using
 // ListIterator
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before add 50: [10, 20, 30]
 After add 50: [50, 10, 50, 20, 50, 30]
 ```
@@ -85,7 +85,7 @@ After add 50: [50, 10, 50, 20, 50, 30]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add elements to ArrayList using
 // ListIterator
 
@@ -126,7 +126,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before add 50: [10, 20, 30]
 After add 50: [10, 50, 20, 50, 30]
 ```

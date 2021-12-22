@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean fieldModifiers()
 
 ```
@@ -19,7 +19,7 @@ public static boolean fieldModifiers()
 下面的程序说明了 fieldModifiers()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // fieldModifiers() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Field Modifiers: public protected private static final transient volatile
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate fieldModifiers()
 
 import java.lang.reflect.*;
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Int Value: 223
 
 ```

@@ -8,7 +8,7 @@
 
 **语法:**λ表达式
 
-```
+```java
 (parameters) -> { lambda body }
 ```
 
@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Lambda expression
 
 // Importing input output classes
@@ -69,7 +69,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 21 is odd
 ```
 
@@ -81,7 +81,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Block Lambda expression
 
 // Importing all classes from
@@ -129,7 +129,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Factorial of 5: 120
 ```
 
@@ -139,7 +139,7 @@ Factorial of 5: 120
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Block Lambda expression
 
 // Importing all input output classes
@@ -202,7 +202,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 leap year
 ```
 

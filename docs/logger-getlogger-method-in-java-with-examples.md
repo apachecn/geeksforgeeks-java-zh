@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static Logger getLogger(String name)
 
     ```
@@ -24,7 +24,7 @@
     下面的程序说明了 getLogger(java.lang.String)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.getLogger(java.lang.String) method
 
@@ -52,7 +52,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate Exception thrown by
     // Logger.getLogger(java.lang.String) method
     import java.util.logging.*;
@@ -85,7 +85,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static Logger getLogger(String name, String resourceBundleName)
 
     ```
@@ -107,7 +107,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getLogger(String name, String resourceBundleName) method
 

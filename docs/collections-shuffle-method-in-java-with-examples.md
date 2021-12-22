@@ -13,7 +13,7 @@ Collections 类的 shuffle()方法正如类名所示，存在于名为 ***java.u
 
 **语法:**
 
-```
+```java
 public static void shuffle(List mylist)
 ```
 
@@ -23,7 +23,7 @@ public static void shuffle(List mylist)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // working of shuffle() method
 // of Collections class
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original List : 
 
 Shuffled List : 
@@ -75,7 +75,7 @@ Shuffled List :
 
 **语法:**
 
-```
+```java
 public static void shuffle(List mylist, Random rndm)
 ```
 
@@ -90,7 +90,7 @@ public static void shuffle(List mylist, Random rndm)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate working of shuffle()
 // with user provided source of randomness
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original List : 
 
 Shuffled List with Random() : 

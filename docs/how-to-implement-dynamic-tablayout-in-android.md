@@ -28,7 +28,7 @@
 
 转到 **DynamicFragmentAdapter** 。 **java** 文件并参考以下代码。
 
-```
+```java
 // returnthe mNumOfTabs
 @Override
 public int getCount() {
@@ -40,7 +40,7 @@ public int getCount() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;

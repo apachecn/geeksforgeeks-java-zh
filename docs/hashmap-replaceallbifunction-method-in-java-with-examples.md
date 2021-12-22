@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default void replaceAll(BiFunction<K, V> function)
 
 ```
@@ -34,7 +34,7 @@ default void replaceAll(BiFunction<K, V> function)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // replaceAll(BiFunction) method.
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HashMap1: {key1=1, key2=2, key3=3, key4=4}
 New HashMap: {key1=1, key2=4, key3=9, key4=16}
 
@@ -80,7 +80,7 @@ New HashMap: {key1=1, key2=4, key3=9, key4=16}
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // replaceAll(BiFunction) method.
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HashMap1: {Sanskriti=2003, Anushka=2001, Tushar=2000, Anuj=2002}
 New HashMap: {Sanskriti=16, Anushka=18, Tushar=19, Anuj=17}
 

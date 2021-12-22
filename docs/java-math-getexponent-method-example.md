@@ -10,7 +10,7 @@ T3【注:
 
 **语法:**
 
-```
+```java
 public static int getExponent(DataType a)
 Parameter :
 a : an argument of double or float type
@@ -18,7 +18,7 @@ Return :
 This method returns the unbiased exponent of the argument.
 ```
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.getExponent() method
 import java.lang.Math;
@@ -65,7 +65,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 8
 1024
 -1023

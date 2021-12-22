@@ -14,7 +14,7 @@ Java 提供了三种使用下面列出的一些内置方法和类生成随机数
 *   我们可以使用这个类生成整数、浮点、双精度、长整型的随机数。
 *   We can pass arguments to the methods for placing an upper bound on the range of the numbers to be generated. For example, nextInt(6) will generate numbers in the range 0 to 5 both inclusive.
 
-    ```
+    ```java
     // A Java program to demonstrate random number generation
     // using java.util.Random;
     import java.util.Random;
@@ -47,7 +47,7 @@ Java 提供了三种使用下面列出的一些内置方法和类生成随机数
 
     输出:
 
-    ```
+    ```java
     Random Integers: 547
     Random Integers: 126
     Random Doubles: 0.8369779739988428
@@ -57,7 +57,7 @@ Java 提供了三种使用下面列出的一些内置方法和类生成随机数
 
     <center>**2) Math.random()**</center>
 
-    ```
+    ```java
     // Java program to demonstrate working of 
     // Math.random() to generate random numbers
     import java.util.*;
@@ -75,7 +75,7 @@ Java 提供了三种使用下面列出的一些内置方法和类生成随机数
 
     输出:
 
-    ```
+    ```java
     Random doubles: 0.13077348615666562
     Random doubles: 0.09247016928442775
 
@@ -83,7 +83,7 @@ Java 提供了三种使用下面列出的一些内置方法和类生成随机数
 
     <center>**3) java.util.concurrent.ThreadLocalRandom class**</center>
 
-    ```
+    ```java
     // Java program to demonstrate working of ThreadLocalRandom
     // to generate random numbers.
     import java.util.concurrent.ThreadLocalRandom;
@@ -121,7 +121,7 @@ Java 提供了三种使用下面列出的一些内置方法和类生成随机数
 
     输出:
 
-    ```
+    ```java
     Random Integers: 536953314
     Random Integers: 25905330
     Random Doubles: 0.7504989954390163

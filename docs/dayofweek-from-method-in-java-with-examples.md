@@ -6,14 +6,14 @@
 
 **方法声明:**
 
-```
+```java
  public static DayOfWeek from(TemporalAccessor temporal)
 
 ```
 
 **语法:**
 
-```
+```java
  DayOfWeek dayOfWeekObject = DayOfWeek.from(TemporalAccessor temporal)
 
 ```
@@ -27,7 +27,7 @@
     以下程序说明了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java Program Demonstrate from()
     // method of DayOfWeek
 
@@ -56,14 +56,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Day of the Week on 1997-08-15 - FRIDAY
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java Program Demonstrate from()
     // method of DayOfWeek
 
@@ -91,7 +91,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Day of the Week on 2015-07-13 - MONDAY
 
     ```

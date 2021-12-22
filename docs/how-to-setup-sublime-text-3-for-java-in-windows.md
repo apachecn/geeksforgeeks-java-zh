@@ -27,7 +27,7 @@ Java 可以从[oracle.com](https://www.oracle.com/java/technologies/javase-downl
 
 安装过程结束后，我们完成了环境设置，我们需要测试我们的编译器和 IDE 是否工作。为此，我们将编写一个简单的基于输出的程序:
 
-```
+```java
 public class HelloWorld 
 {
     public static void main(String[] args)

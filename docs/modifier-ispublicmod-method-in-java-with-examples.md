@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isPublic(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isPublic(int mod)
 以下程序说明 isPublic()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isPublic() method
 
 import java.lang.reflect.*;
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1 is public : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isPublic()
 
 import java.lang.reflect.*;
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1 is public : true
 
 ```

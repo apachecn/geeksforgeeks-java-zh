@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract V remove(Object key)
 ```
 
@@ -20,7 +20,7 @@ public abstract V remove(Object key)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate
 // java.util.Dictionary.remove() method
 
@@ -53,7 +53,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Dictionary: {3=Geeks, 2=for, 1=Geeks}
 Geeks has been removed
 
@@ -63,7 +63,7 @@ Dictionary: {2=for, 1=Geeks}
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate
 // java.util.Dictionary.remove() method
 
@@ -105,7 +105,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Dictionary: {b=gfg, a=GFG}
 GFG has been removed
 gfg has been removed

@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public static double ceil(double arg)
 Parameters:
 arg - the argument value
@@ -32,7 +32,7 @@ which is either greater or equal to the argument passed
 
 **语法:**
 
-```
+```java
 public static double atan(double a)
 Parameters:
 a - the argument whose arc tangent value we need.
@@ -44,7 +44,7 @@ arc tan value of the argument.
 *   **copy sign():Java . math . copy sign()**方法返回第一个浮点参数，但第二个参数有符号。
     **语法:**
 
-```
+```java
 public static double copySign(double m, double s)
                     or
 public static float copySign(float m, float s)
@@ -59,7 +59,7 @@ returns second argument with sign of first floating-point argument.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining Math class methods
 // atan(), ceil(), copySign()
 import java.math.*;
@@ -103,7 +103,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 atan value of Atani : 0.0
 atan value of Atanj : 0.0274087022410345
 
@@ -121,7 +121,7 @@ copySign2 : -15.34
 
 **语法:**
 
-```
+```java
 public static double cosh(double arg)
 Parameters:
 arg - The number whose hyperbolic cosine is to be returned.
@@ -132,7 +132,7 @@ the hyperbolic cosine of the argument arg.
 *   **减量精确():java.math .减量精确()**方法将传递的参数值减 1。
     **语法:**
 
-```
+```java
 public static int decrementExact(int arg)
                 or
 public static long decrementExact(long arg)
@@ -153,7 +153,7 @@ argumented data type.
 
 **语法:**
 
-```
+```java
 public static double exp(double arg)
 Parameters:
 arg - argument passed. 
@@ -165,7 +165,7 @@ Euler’s number raised to the power of passed argument
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining Math class methods
 // exp(), decrementExact(), cosh()
 import java.math.*;
@@ -199,7 +199,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 Using addExact() : 9
 
 acos value of Asini : NaN
@@ -210,7 +210,7 @@ cube root : 6.0
 
 *   **IngrementXact():Java . math . IngrementXact()**方法通过增加参数的值来返回参数。
 
-```
+```java
 Syntax:
 public static int incrementExact(int arg)
                or
@@ -223,7 +223,7 @@ incremented value of the argument
 
 *   **log 10():Java . math . log 10()**方法返回传递的参数的 base10 对数值。
 
-```
+```java
 Syntax:
 public static double log(double arg)
 Parameters:
@@ -234,7 +234,7 @@ base10 logarithmic value of the argument passed.
 
 *   **pow() : java.math.pow(double b，double e)** 方法返回值为**b<sup>e</sup>T5】**
 
-```
+```java
 Syntax:
 public static double pow(double b,double e)
 Parameters:
@@ -248,7 +248,7 @@ value as base<sup>exponent</sup>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining MATH class methods
 // incrementExact(), log10(), pow()
 import java.lang.*;
@@ -283,7 +283,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 Incremented value of f1 : 31
 Incremented value of f2 : -55
 

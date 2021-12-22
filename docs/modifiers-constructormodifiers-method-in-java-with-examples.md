@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean constructorModifiers()
 
 ```
@@ -18,7 +18,7 @@ public static boolean constructorModifiers()
 下面的程序说明了 constructorModifiers()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // constructorModifiers() method
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Constructor Modifiers: public protected private
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // constructorModifiers()
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Int Value: 7
 
 ```

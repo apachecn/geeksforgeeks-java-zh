@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 public boolean hasWaitingConsumer()
 ```
 
@@ -18,7 +18,7 @@ public boolean hasWaitingConsumer()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // hasWaitingConsumer() method
 
@@ -42,14 +42,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // hasWaitingConsumer() method
 

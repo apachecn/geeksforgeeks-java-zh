@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的 **hashCode()** 方法用�
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -47,7 +47,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 HashCode value of DS 1: 182
 HashCode value of DS 2: 182
 

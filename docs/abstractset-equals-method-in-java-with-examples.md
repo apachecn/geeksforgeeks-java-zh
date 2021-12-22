@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractSet1.equals(*AbstractSet2*)
 ```
 
@@ -18,7 +18,7 @@ AbstractSet1.equals(*AbstractSet2*)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -64,7 +64,7 @@ public class Abstract_Set_Demo {
 
 **Output:**
 
-```
+```java
 First Set: [4, Geeks, You, Welcomes]
 Second Set: [4, Geeks, You, Welcomes]
 Equality: true
@@ -73,7 +73,7 @@ Equality: true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -119,7 +119,7 @@ public class Abstract_Set_Demo {
 
 **Output:**
 
-```
+```java
 First Set: [4, Geeks, You, Welcomes]
 Second Set: [4, U, Geeks, Welcomes]
 Equality: false

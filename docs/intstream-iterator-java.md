@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 PrimitiveIterator.OfInt iterator()
 
 Where, PrimitiveIterator.OfInt is an Iterator 
@@ -18,7 +18,7 @@ specialized for int values.
 
 **例 1 :**
 
-```
+```java
 // Java code for IntStream iterator()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -45,7 +45,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 4
 6
@@ -55,7 +55,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for IntStream iterator()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -84,7 +84,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 3
 4

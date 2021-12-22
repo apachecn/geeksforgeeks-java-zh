@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final V getAcquire()
 ```
 
@@ -19,7 +19,7 @@ public final V getAcquire()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.getAcquire() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.get() method
 import java.util.concurrent.atomic.AtomicReference;

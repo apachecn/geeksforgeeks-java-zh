@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int size()
 
 ```
@@ -18,7 +18,7 @@ public int size()
 下面的程序说明了 CompositeName.size()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.size()
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 size: 10
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.size() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 size:8
 
 ```

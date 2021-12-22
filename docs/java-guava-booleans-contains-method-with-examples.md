@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean contains(boolean[] array,
                                boolean target)
 
@@ -23,7 +23,7 @@ public static boolean contains(boolean[] array,
 
 **示例-1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.contains() method
 
@@ -58,14 +58,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is present in the array
 
 ```
 
 **示例–2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.contains() method
 
@@ -100,7 +100,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is not present in the array
 
 ```

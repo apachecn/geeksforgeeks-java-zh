@@ -6,7 +6,7 @@ java . util . concurrenthashmap 的 **isEmpty()** 方法是 Java 中的一个内
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -16,7 +16,7 @@ public boolean isEmpty()
 
 **程序 1:** 在这个程序中，ConcurrentHashMap 是非空的。
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of ConcurrentHashMap */
 
@@ -49,14 +49,14 @@ class ConcurrentHashMapDemo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {100=Geeks, 101=for, 102=Geeks}
 
 ```
 
 **程序 2:** 在这个程序中，ConcurrentHashMap 是非空的。
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of ConcurrentHashMap */
 
@@ -84,7 +84,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 The ConcurrentHashMap is empty.
 
 ```

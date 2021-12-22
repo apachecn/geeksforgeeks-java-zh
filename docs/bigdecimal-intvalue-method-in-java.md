@@ -6,7 +6,7 @@ Java . math . BigDecimal . int value()是一个内置函数，它将*这个* Big
 
 **语法:**
 
-```
+```java
 public int intValue()
 ```
 
@@ -16,7 +16,7 @@ public int intValue()
 
 **示例:**
 
-```
+```java
 Input : 19878124.176
 Output : 19878124
 
@@ -29,7 +29,7 @@ Output : 721111
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // intValue() method
 import java.math.*;
@@ -54,7 +54,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The Integer Value of 19878124.176 is 19878124
 The Integer Value of 721111 is 721111
 
@@ -64,7 +64,7 @@ The Integer Value of 721111 is 721111
 
 **程序 2:** 该程序说明了函数返回符号相反的结果的场景。
 
-```
+```java
 // Java program to illustrate
 // intValue() method
 import java.math.*;
@@ -87,7 +87,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The Integer Value of 1987812417600 is -757440448
 The Integer Value of 3567128439701 is -1989383275
 

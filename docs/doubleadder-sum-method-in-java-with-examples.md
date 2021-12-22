@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double sum()
 
 ```
@@ -19,7 +19,7 @@ public double sum()
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the sum() method
 
 import java.lang.*;
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the current value is: 52.0
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the sum() method
 
 import java.lang.*;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the current value is: 10.0
 
 ```

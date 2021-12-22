@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream map(DoubleUnaryOperator mapper)
 
 ```
@@ -21,7 +21,7 @@ DoubleStream map(DoubleUnaryOperator mapper)
 
 **例 1 :** 利用 DoubleStream 映射()得到 DoubleStream 元素平方的负值。
 
-```
+```java
 // Java code for DoubleStream map
 // (DoubleUnaryOperator mapper) to get a
 // stream by applying the given function.
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 -19.360000000000003
 -30.25
 -39.69
@@ -57,7 +57,7 @@ class GFG {
 
 **例 2 :** 使用 DoubleStream map()获取 DoubleStream 的一半元素。
 
-```
+```java
 // Java code for DoubleStream map
 // (DoubleUnaryOperator mapper) to get a
 // stream by applying the given function.
@@ -83,7 +83,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1.1
 3.65
 4.1

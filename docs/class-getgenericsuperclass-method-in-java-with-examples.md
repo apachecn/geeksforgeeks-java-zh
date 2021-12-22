@@ -5,7 +5,7 @@
 [**Java . lang . class**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/)的 **getGenericSuperclass()** 方法用于获取该实体的超类的类型。这个实体可以是类、数组、接口等。方法返回该实体的超类的类型。
 **语法:**
 
-```
+```java
 public Type getGenericSuperclass()
 ```
 
@@ -22,7 +22,7 @@ public Type getGenericSuperclass()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getGenericSuperclass() method
 
@@ -49,7 +49,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Test
 Type of the superclass of myClass: class java.lang.Object
 ```

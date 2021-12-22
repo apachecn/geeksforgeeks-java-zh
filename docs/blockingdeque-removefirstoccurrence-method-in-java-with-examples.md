@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeFirstOccurrence(Object o)
 ```
 
@@ -21,7 +21,7 @@ public boolean removeFirstOccurrence(Object o)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate removeFirstOccurrence()
 // method of BlockingDeque
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Blocking Deque: [15, 20, 20, 15]
 First occurrence of 15 removed
 Blocking Deque: [20, 20, 15]
@@ -70,7 +70,7 @@ Blocking Deque: [20, 20, 15]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate removeFirstOccurrence()
 // method of BlockingDeque
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Blocking Deque: [15, 20, 20, 15]
 10 not present and not removed
 Blocking Deque: [15, 20, 20, 15]

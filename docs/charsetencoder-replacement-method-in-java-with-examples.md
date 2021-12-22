@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final byte[] replacement()
 ```
 
@@ -18,7 +18,7 @@ public final byte[] replacement()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -40,14 +40,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 [B@232204a1
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.nio.CharBuffer;
@@ -69,7 +69,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 [B@232204a1
 
 ```

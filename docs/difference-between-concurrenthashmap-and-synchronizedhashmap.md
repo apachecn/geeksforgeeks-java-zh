@@ -10,7 +10,7 @@ ConcurrentHashMap 和 SynchronizedHashMap 都是线程安全的 Collection 类�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate the
 // working of ConcurrentHashMap
 
@@ -54,7 +54,7 @@ public class TraversingConcurrentHashMap {
 
 **Output**
 
-```
+```java
 Key = 50, Value = you
 Key = 20, Value = for
 Key = 40, Value = Welcome
@@ -68,7 +68,7 @@ Key = 30, Value = Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // working of Synchronized HashMap
 
@@ -114,7 +114,7 @@ public class SynchronizedHashMap {
 
 **Output**
 
-```
+```java
 20: for
 40: you
 25: Welcome

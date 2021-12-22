@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int decrementAndGet()
 ```
 
@@ -19,7 +19,7 @@ public final int decrementAndGet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrates
 // the decrementAndGet() function
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Previous value: 0
 Current value: -1
 ```
@@ -58,7 +58,7 @@ Current value: -1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrates
 // the decrementAndGet() function
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Previous value: 18
 Current value: 17
 ```

@@ -5,7 +5,7 @@
 **GetResourceBound()**一个**记录器**类的方法用于本地化这个记录器的资源包。我们可以通过 set ResourceBundle 方法设置 ResourceBundle，或者通过 getLogger 工厂方法从当前默认区域设置的资源包名称进行映射，该方法将通过上述方式返回一个 ResourceBundle 集。如果结果为空，则记录器将使用从其父级继承的资源包或资源包名称。
 **语法:**
 
-```
+```java
 public ResourceBundle getResourceBundle()
 ```
 
@@ -16,7 +16,7 @@ public ResourceBundle getResourceBundle()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Logger.getParent() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Logger.getParent() method
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean contains(Object o)
 
 **程序 1:** 检查一个数字队列是否包含数字 n。数字 n 作为输入传递给 LinkedBlockingQueue 的 contains()。
 
-```
+```java
 // Java Program Demonstrate contains(Object o)
 // method of LinkedBlockingQueue
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 linkedQueue: [2300, 1322, 8945, 6512]
 
 LinkedBlockingQueue contains number 6512 : true
@@ -75,7 +75,7 @@ LinkedBlockingQueue contains number 5324 : false
 
 **程序 2:** 检查一个员工队列是否包含某个员工 e。员工 e 的详细信息作为输入传递给 LinkedBlockingQueue 的 contains()。
 
-```
+```java
 // Java Program Demonstrate contains(Object o)
 // method of LinkedBlockingQueue.
 
@@ -163,7 +163,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 linkedQueue: 
 [Employee [name=Aman, position=Analyst, salary=24000], 
 Employee [name=Sachin, position=Developer, salary=39000]]

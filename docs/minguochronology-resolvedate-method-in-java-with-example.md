@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MinguoDate resolveDate(
        Map fieldValues,
        ResolverStyle resolverStyle)
@@ -24,7 +24,7 @@ public MinguoDate resolveDate(
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // resolveDate() method
 
@@ -82,14 +82,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate is : Minguo ROC 59-01-31
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // resolveDate() method
 
@@ -147,7 +147,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate is : null
 
 ```

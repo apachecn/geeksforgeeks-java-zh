@@ -32,7 +32,7 @@ Eclipse IDE 以 Java 集成开发环境(IDE)而闻名，但是它有许多非常
 
 ## 可扩展标记语言
 
-```
+```java
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
@@ -43,7 +43,7 @@ Eclipse IDE 以 Java 集成开发环境(IDE)而闻名，但是它有许多非常
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
@@ -72,7 +72,7 @@ public class DemoController {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
@@ -140,7 +140,7 @@ public class DemoApplication {
 
 Tomcat 服务器的默认端口是 8080，可以在 **application.properties** 文件中使用下面这一行代码进行更改。
 
-```
+```java
 server.port=8989
 ```
 
@@ -191,7 +191,7 @@ server.port=8989
 
 现在，极客们，你们一定想知道，如果我们不希望它在默认端口号上运行，那会怎么样，因为 Tomcat 服务器的默认端口是 8080。我们可以使用下面一行代码来更改**应用程序.属性**文件中的端口号，如下所示:
 
-```
+```java
 ***server.port=8989***
 ```
 

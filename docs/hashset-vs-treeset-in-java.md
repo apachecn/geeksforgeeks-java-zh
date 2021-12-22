@@ -43,7 +43,7 @@ HashSet 使用 [equals()](https://www.geeksforgeeks.org/overriding-equals-method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of HashSet
 
 // Importing HashSet class from java.util package
@@ -82,7 +82,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 HashSet contains: 
 practice
 geeks
@@ -94,7 +94,7 @@ contribute
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Working of HashSet
 // From another Collection
 
@@ -142,7 +142,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of
 // TreeSet.
 import java.util.TreeSet;
@@ -173,7 +173,7 @@ class TreeSetDemo {
 
 **Output:** 
 
-```
+```java
 TreeSet contains: 
 contribute
 for
@@ -185,7 +185,7 @@ practice
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Working of TreeSet
 // From another Collection
 

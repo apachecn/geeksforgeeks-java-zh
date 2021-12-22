@@ -4,7 +4,7 @@
 
 给定两个数字 x 和 y，我们必须编写一个 Java 程序，使用[逐位异或](https://www.geeksforgeeks.org/tag/xor/)运算来交换两个数字的内容。
 
-```
+```java
 Input 1: x = 5, y = 10
 Output : x = 10, y = 5
 Explaination :
@@ -23,7 +23,7 @@ Output : x = 20, y = 15
 
 ## Java
 
-```
+```java
 // Java program to swap the elements using XOR Operator
 import java.io.*;
 class GFG {
@@ -47,7 +47,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 The value of x is 10 and the value of y is 5
 
 ```

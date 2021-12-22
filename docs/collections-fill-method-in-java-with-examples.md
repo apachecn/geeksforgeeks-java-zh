@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static  void fill(List list, T obj)
 ```
 
@@ -21,7 +21,7 @@ public static  void fill(List list, T obj)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // fill() method
 // for String value
@@ -55,7 +55,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 List elements before fill: [A, B, C]
 
 List elements after fill: [TAJMAHAL, TAJMAHAL, TAJMAHAL]
@@ -64,7 +64,7 @@ List elements after fill: [TAJMAHAL, TAJMAHAL, TAJMAHAL]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // fill() method
 // for Integer value
@@ -99,7 +99,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 List elements before fill: [20, 30, 40]
 
 List elements after fill: [500, 500, 500]

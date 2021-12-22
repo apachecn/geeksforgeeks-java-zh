@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default <R> R query(TemporalQuery<R> query)
 
 ```
@@ -23,7 +23,7 @@ default <R> R query(TemporalQuery<R> query)
 下面的程序说明了查询()的方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.query() method
 
@@ -57,14 +57,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Precision value for ChronoLocalDateTime is Nanos
 
 ```
 
 **程序 2:** 显示如果查询没有找到所需的对象，则返回空值。
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.query() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 offset value for ChronoLocalDateTime is null
 
 ```

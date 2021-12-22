@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int charCount(int code)
 
 ```
@@ -22,7 +22,7 @@ public static int charCount(int code)
 
 **示例**:
 
-```
+```java
 Input : 0x12456
 Output : 2
 Explanation: the code is greater than 0x10000
@@ -36,7 +36,7 @@ Explanation: The code is smaller then 0x10000
 下面程序说明了 java.lang.Character.charCount()函数:
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates the use of
 // Character.charCount() function
 
@@ -59,14 +59,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program that demonstrates the use of
 // Character.charCount() function
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 
 ```

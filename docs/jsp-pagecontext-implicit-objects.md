@@ -21,14 +21,14 @@ PageContext 扩展 **JspContext** 以贡献有用的上下文细节，同时 JSP
 
 **语法:**
 
-```
+```java
 public abstract class PageContext
 extends JspContext
 ```
 
 **语法:**使用页面上下文
 
-```
+```java
 pageContext.methodName(“name of attribute”, “scope”);
 ```
 
@@ -42,7 +42,7 @@ pageContext.methodName(“name of attribute”, “scope”);
 
 **语法:**
 
-```
+```java
 Object obj = pageContext.getAttribute("GeeksforGeeks", PageContext.SESSION_CONTEXT);
 ```
 
@@ -56,7 +56,7 @@ Object obj = pageContext.getAttribute("GeeksforGeeks", PageContext.SESSION_CONTE
 
 findAttribute()方法按照下面列出的顺序在所有四个级别中查找所描述的属性。在任何级别，如果没有找到属性，那么它将返回空值。
 
-```
+```java
 Page --> Request --> Session and Application
 ```
 
@@ -66,13 +66,13 @@ Page --> Request --> Session and Application
 
 **语法:**
 
-```
+```java
 pageContext.setAttribute(“data”, “This is data”, PageContext. APPLICATION_CONTEXT);
 ```
 
 相应地，该方法将在请求范围内设计一个名为 attr1 的属性，其值“Attr1 值”如下:
 
-```
+```java
 pageContext.setAttribute(“attr1”, “Attr1 value”, PageContext. REQUEST_CONTEXT);
 ```
 
@@ -82,7 +82,7 @@ pageContext.setAttribute(“attr1”, “Attr1 value”, PageContext. REQUEST_CO
 
 **语法:**
 
-```
+```java
 pageContext.removeAttribute(“Attr”, PageContext. PAGE_CONTEXT);
 ```
 
@@ -94,7 +94,7 @@ pageContext.removeAttribute(“Attr”, PageContext. PAGE_CONTEXT);
 
 ## 超文本标记语言
 
-```
+```java
 <!DOCTYPE html>
 <html>
 <head>
@@ -118,7 +118,7 @@ pageContext.removeAttribute(“Attr”, PageContext. PAGE_CONTEXT);
 
 ## 超文本标记语言
 
-```
+```java
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -150,7 +150,7 @@ pageContext.setAttribute("user",name,PageContext.SESSION_SCOPE);   
 
 ## 超文本标记语言
 
-```
+```java
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setLenient(boolean leniency)
 ```
 
@@ -17,7 +17,7 @@ public void setLenient(boolean leniency)
 下面的程序说明了日历类的 setlained()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // setLenient() method
 
@@ -53,7 +53,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 Object: java.text.SimpleDateFormat@7945516e
 Mar 28, 2019 6:03:48 PM
 Leniency: true
@@ -63,7 +63,7 @@ New Leniency: false
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // setLenient() method
 
@@ -100,7 +100,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 Object: java.text.SimpleDateFormat@ce9bf0a5
 Mar 28, 2019
 Leniency: true

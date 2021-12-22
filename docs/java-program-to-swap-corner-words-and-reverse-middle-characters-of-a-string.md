@@ -4,7 +4,7 @@
 
 给定一个包含 n 个单词的字符串。任务是交换字符串的角单词并反转字符串的所有中间字符。
 
-```
+```java
 Input:  "Hello this is the GFG user"
 Output: "user GFG eth si siht Hello"
 Input:  "Hello Bye"
@@ -31,7 +31,7 @@ Output: "Bye Hello"
 
 ## Java
 
-```
+```java
 // Java Program to Swap Corner Words and Reverse Middle
 // Characters
 
@@ -117,7 +117,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 GFG eht si siht Hello
 ```
 
@@ -127,7 +127,7 @@ string split()方法在给定正则表达式的匹配项周围断开给定的字
 
 **插图:**
 
-```
+```java
 Input        : 016-78967
 Processing    : Regular Expression                               
 Output       : {"016", "78967"}
@@ -145,7 +145,7 @@ Output       : {"016", "78967"}
 
 ## Java
 
-```
+```java
 // Java Program to Swap Corner Words and Reverse Middle
 // Characters
 
@@ -210,6 +210,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 GFG eht si siht  Hello
 ```

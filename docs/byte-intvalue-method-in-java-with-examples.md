@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 ByteObject.intValue()
 ```
 
@@ -16,7 +16,7 @@ ByteObject.intValue()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Byte intValue() method
 
@@ -43,14 +43,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Integer value of 17 is : 17
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Byte intValue() method
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Integer value of 17 is : 17
 
 ```

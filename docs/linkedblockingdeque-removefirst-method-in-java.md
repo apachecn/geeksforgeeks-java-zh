@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E removeFirst()
 ```
 
@@ -18,7 +18,7 @@ public E removeFirst()
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrate removeFirst()
 // method of LinkedBlockingDeque
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 
 First element of Linked Blocking Deque: 7855642
@@ -66,7 +66,7 @@ Linked Blocking Deque: [35658786, 5278367, 74381793]
 
 **程序二:**
 
-```
+```java
 // Java Program to demonstrate removeFirst()
 // method of LinkedBlockingDeque
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: []
 Exception when removing first element from this Deque: java.util.NoSuchElementException
 

@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Bytes.asList() method
 
@@ -45,14 +45,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [1, 2, 3, 4, 5]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Bytes.asList() method
 
@@ -81,7 +81,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [3, 5, 7]
 
 ```

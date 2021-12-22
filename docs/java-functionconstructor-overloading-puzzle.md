@@ -4,7 +4,7 @@
 
 预测程序的输出
 
-```
+```java
 public class GFG {
     private GFG(Object o) {
         System.out.println("Object");

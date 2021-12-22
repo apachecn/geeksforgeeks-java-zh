@@ -22,7 +22,7 @@ Java 语言是多年来最流行的语言之一。java 编程最有利的特性�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating How to Check if a Thread Holds
 // Lock on a Particular Object
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 false
 true
 ```

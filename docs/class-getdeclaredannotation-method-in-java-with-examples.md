@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public T getDeclaredAnnotation(Class<T> declared annotationClass)
 
 ```
@@ -23,7 +23,7 @@ public T getDeclaredAnnotation(Class<T> declared annotationClass)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDeclaredAnnotation() method
 
@@ -76,7 +76,7 @@ public class Test {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDeclaredAnnotation() method
 
@@ -116,7 +116,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 DeclaredAnnotation of myClass: @java.lang.Deprecated()
 

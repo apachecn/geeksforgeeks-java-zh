@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ArrayList<E> list = new ArrayList<>();
 ```
 
@@ -18,7 +18,7 @@ java 中的 ArrayList 可以在“new”关键字的帮助下实例化一次，�
 
 **语法:**两个变量引用同一个数组列表:
 
-```
+```java
 ArrayList<Integer> secondList = list;
 ```
 
@@ -30,7 +30,7 @@ ArrayList<Integer> secondList = list;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show how two objects can
 // refer to same ArrayList in Java
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList after insertions: 17 10 1 33 2 
 ArrayList after modifications using secondList: 10 1 33 2 51 99
 ```

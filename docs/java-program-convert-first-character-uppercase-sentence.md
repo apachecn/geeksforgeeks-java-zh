@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : gEEKs
 Output :Geeks
 
@@ -21,7 +21,7 @@ Output : Geeksforgeeks
 
 ## C++
 
-```
+```java
 // C++ program to convert
 // first character uppercase
 // in a sentence
@@ -70,7 +70,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert first character
 // uppercase in a sentence
 class GFG {
@@ -117,7 +117,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to convert first character
 # uppercase in a sentence
 def convert(s):
@@ -166,7 +166,7 @@ if __name__=="__main__":
 
 ## C#
 
-```
+```java
 // C# program to convert first character
 // uppercase in a sentence
 using System;
@@ -226,7 +226,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```java
 <script>
 // Javascript program to convert first character
 // uppercase in a sentence
@@ -271,7 +271,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Geeks For Geeks
 ```
 
@@ -282,7 +282,7 @@ Geeks For Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to capitalize each word in a string
 public class GFG {
 
@@ -335,7 +335,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python program to capitalize the
 # first character of each word in a sentence
 
@@ -385,6 +385,6 @@ print (result)
 
 **Output:** 
 
-```
+```java
 Geeks For Geeks
 ```

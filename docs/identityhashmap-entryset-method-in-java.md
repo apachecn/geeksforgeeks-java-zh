@@ -6,7 +6,7 @@ java 中的 Java . util . identity hashmap . entryset()方法用于创建一组�
 
 **语法:**
 
-```
+```java
 Identity_HashMap.entrySet()
 ```
 
@@ -17,7 +17,7 @@ Identity_HashMap.entrySet()
 下面的程序说明了 Java . util . identity hashmap . entryset()方法:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 The set is: [10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4]
 
@@ -57,7 +57,7 @@ The set is: [10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Geeks=20, Welcomes=25, You=30, 4=15}
 The set is: [Geeks=20, Welcomes=25, You=30, 4=15]
 

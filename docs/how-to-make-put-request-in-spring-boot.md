@@ -22,7 +22,7 @@ java 中还有其他几个概念，增加了 java 代码和程序员之间的用
 
 **第二步:**按要求填写详细内容。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.2.8
@@ -41,7 +41,7 @@ Dependencies: Spring Web
 
 **第五步:**转到***src->main->java->com . gfg . spring . boot . app***，创建一个名为 Controller 的 Java 类，并添加注释@RestController。现在创建一个如下所示的 put API:
 
-```
+```java
 // Annotation
 @RestController
 
@@ -84,7 +84,7 @@ public class Controller {
 
 **输出:**最后在终端/ CMD 产生输出
 
-```
+```java
 [1, 2, 3]
 [1, 45, 3] 
 ```

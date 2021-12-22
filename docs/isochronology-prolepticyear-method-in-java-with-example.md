@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int prolepticYear(Era era,
                          int yearOfEra)
 ```
@@ -22,7 +22,7 @@ public int prolepticYear(Era era,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // prolepticYear() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 proleptic Year is: 2020
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // prolepticYear() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 proleptic Year is: -1979
 
 ```

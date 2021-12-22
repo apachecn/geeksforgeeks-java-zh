@@ -15,7 +15,7 @@
 在 Java 中，字符是使用 Unicode 约定存储的(详情参见[这个](https://docs.oracle.com/javase/tutorial/java/data/characters.html))。字符流自动允许我们逐个字符地读/写数据。例如，文件读取器和文件写入器是用于从源读取和向目标写入的字符流。
 T3】
 
-```
+```java
 // Java Program illustrating that we can read a file in
 // a human readable format using FileReader
 import java.io.*;   // Accessing FileReader, FileWriter, IOException
@@ -46,7 +46,7 @@ public class GfG
 
 输出:
 
-```
+```java
 Shows contents of file test.txt 
 ```
 
@@ -54,7 +54,7 @@ Shows contents of file test.txt
 
 字节流逐字节(8 位)处理数据。例如，文件输入流用于从源读取，文件输出流用于写入目标。
 
-```
+```java
 // Java Program illustrating the Byte Stream to copy 
 // contents of one file to another file.
 import java.io.*;   

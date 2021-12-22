@@ -6,7 +6,7 @@ java 中 Integer 类的**Java . lang . Integer . hashcode()**方法用于返回�
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -17,7 +17,7 @@ public int hashCode()
 下面的程序说明了整数类的 hashCode()的使用:
 **程序 1:** 当传递整数数据类型时。
 
-```
+```java
 // Java program to demonstrate working
 // of Java.lang.Integer.hashCode() Method
 import java.lang.*;
@@ -38,7 +38,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Hash code Value for object = 223
 
 ```
@@ -46,7 +46,7 @@ Hash code Value for object = 223
 **程序 2:** 传递字符串数据类型时。
 **注意:**这会导致类似*的运行时错误数字格式异常*
 
-```
+```java
 // Java program to demonstrate working
 // of Java.lang.Integer.hashCode() Method
 import java.lang.*;
@@ -67,7 +67,7 @@ public class Geeks {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.NumberFormatException: For input string: "gfg"
     at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
     at java.lang.Integer.parseInt(Integer.java:580)

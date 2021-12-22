@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 // Java Program to Illustrate What If We Don't
 // have knowledge of Keywords(Reserve Words)
 

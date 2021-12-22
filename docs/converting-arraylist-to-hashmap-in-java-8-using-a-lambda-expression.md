@@ -6,13 +6,13 @@ lambda 表达式是一行或多行代码，其工作方式类似于函数或方�
 
 **语法:**
 
-```
+```java
 (parms1, parms2) -> expression
 ```
 
 **例:**
 
-```
+```java
 Input : List : [1="1", 2="2", 3="3"]
 Output: Map  : {1=1, 2=2, 3=3, 4=4, 5=5}
 
@@ -31,7 +31,7 @@ Output: Map  : {1=I, 2=Love, 3=Geeks, 4=For, 5=Geeks}
 
 ## 爪哇
 
-```
+```java
 // Converting ArrayList to HashMap
 // in Java 8 using a Lambda Expression
 import java.util.*;
@@ -96,7 +96,7 @@ class Main {
 
 **输出**
 
-```
+```java
 Map : {1=I, 2=Love, 3=Geeks, 4=For, 5=Geeks}
 ```
 

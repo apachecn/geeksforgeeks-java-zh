@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Date getGregorianChange()
 ```
 
@@ -16,7 +16,7 @@ public final Date getGregorianChange()
 
 **示例:**
 
-```
+```java
 Input : Tue Jul 24 01:22:29 UTC 2018
 Output : Fri Oct 15 00:00:00 UTC 1582
 
@@ -29,7 +29,7 @@ Output : Tue Jul 24 01:22:29 UTC 2018
 下面的程序说明了 Java . util . gregoriancalendar . getgregorianchange()函数:
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate getGregorianChange()
 // function 
 import java.io.*;
@@ -56,7 +56,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 12:38:41 UTC 2018
 Gregorian Date change :Fri Oct 15 00:00:00 UTC 1582
 
@@ -64,7 +64,7 @@ Gregorian Date change :Fri Oct 15 00:00:00 UTC 1582
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate getGregorianChange()
 // function 
 
@@ -95,7 +95,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Fri Jul 27 12:38:44 UTC 2018
 Gregorian Date change :Fri Jul 27 12:38:44 UTC 2018
 

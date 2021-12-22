@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 public static int indexOf(boolean[] array,
                           boolean[] target) 
 ```
@@ -26,7 +26,7 @@ public static int indexOf(boolean[] array,
 
 ****例 1:****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.indexOf(boolean[] array,
 // boolean[] target) method
@@ -66,7 +66,7 @@ class GFG {
 
 ****例 2 :****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.indexOf(boolean[] array,
 // boolean[] target) method

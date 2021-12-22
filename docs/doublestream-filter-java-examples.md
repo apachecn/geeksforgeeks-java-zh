@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream filter(DoublePredicate predicate)
 
 ```
@@ -20,7 +20,7 @@ DoubleStream filter(DoublePredicate predicate)
 
 **示例 1 :** 在 DoubleStream 上使用 filter()方法。
 
-```
+```java
 // Java code for DoubleStream filter
 // (DoublePredicate predicate) to get a stream
 // consisting of the elements of this
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 6.6
 8.1
 9.7
@@ -56,7 +56,7 @@ class GFG {
 
 **示例 2 :** 在 DoubleStream 上使用 filter()方法。
 
-```
+```java
 // Java code for DoubleStream filter
 // (DoublePredicate predicate) to get a stream
 // consisting of the elements of this
@@ -84,7 +84,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5.4
 6.6
 8.1

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public final byte[] array()
 ```
 
@@ -21,7 +21,7 @@ public final byte[] array()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ByteBuffer:  [20, 30, 40, 50]
 
 byte array: [20, 30, 40, 50]
@@ -82,7 +82,7 @@ byte array: [20, 30, 40, 50]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -149,7 +149,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40, 50]
 
 ReadOnlyBuffer ByteBuffer : 20, 30, 40, 50, 

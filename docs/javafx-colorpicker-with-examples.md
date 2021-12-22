@@ -26,7 +26,7 @@ ColorPicker 是 JavaFX 的一部分。颜色选择器允许用户从给定的一
 
     1.  **Program to create a color picker and add it to the stage:** This program creates a ColorPicker indicated by the name *cp*. The color picker will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage.Then a tile-pane is created, on which addChildren() method is called to attach the color picker inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-        ```
+        ```java
         // Java Program to create a color picker and add it to the stage
         import javafx.application.Application;
         import javafx.scene.Scene;
@@ -84,7 +84,7 @@ ColorPicker 是 JavaFX 的一部分。颜色选择器允许用户从给定的一
 
     2.  **Program to create color picker of three different appearance:** This program creates a ColorPicker indicated by the name cp, cp1, cp2\. *cp* will have the appearance of menu button, cp1 will have the appearance of button and cp2 will have the appearance of the split button. The color pickers will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a tile-pane is created, on which addChildren() method is called to attach the color picker inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-        ```
+        ```java
         // Java Program to create color picker of three different appearance
         import javafx.application.Application;
         import javafx.scene.Scene;
@@ -156,7 +156,7 @@ ColorPicker 是 JavaFX 的一部分。颜色选择器允许用户从给定的一
 
     3.  **Program to create color picker and add a listener to it:** This program creates a ColorPicker indicated by the name cp .we will create an event hab=ndler and a label l2 that will show the color selected by the user. The event handler will handle the events of the colorpicker and will set the text of the label l2 to the RGB value of the color selected. The event will be associated with the color picker using setOnAction() method. The color pickers will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a tile-pane is created, on which addChildren() method is called to attach the color picker inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-        ```
+        ```java
         // Java Program to create  color picker and add listener to it
         import javafx.application.Application;
         import javafx.scene.Scene;

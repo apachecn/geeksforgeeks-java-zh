@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public IOException ioException()
 ```
 
@@ -18,7 +18,7 @@ public IOException ioException()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -56,7 +56,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 What is your name? 
 My name is Gopal Dave !
 Flushed
@@ -65,7 +65,7 @@ Flushed
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -102,14 +102,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The last exception thrown: null
 
 ```
 
 **输出:**
 
-```
+```java
 The last exception thrown: null
 
 ```

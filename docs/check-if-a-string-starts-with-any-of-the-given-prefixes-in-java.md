@@ -24,7 +24,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     class PrefixSearch {
         public static void main(String[] args)
         {
@@ -56,14 +56,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Given String starts with one of the prefixes.
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     class PrefixSearch {
         public static void main(String[] args)
         {
@@ -95,7 +95,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Given String do not starts with one of the prefixes.
 
     ```
@@ -110,7 +110,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     class PrefixSearch {
         public static void main(String[] args)
         {
@@ -135,14 +135,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Given String starts with one of the prefixes.
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     class PrefixSearch {
         public static void main(String[] args)
         {
@@ -167,7 +167,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Given String do not starts with one of the prefixes.
 
     ```
@@ -183,7 +183,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     import java.util.stream.Stream;
 
     class PrefixSearch {
@@ -211,14 +211,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Given String starts with one of the prefixes.
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     import java.util.stream.Stream;
 
     class PrefixSearch {
@@ -246,7 +246,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Given String do not starts with one of the prefixes.
 
     ```

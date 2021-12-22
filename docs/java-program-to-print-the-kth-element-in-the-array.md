@@ -8,7 +8,7 @@
 
 **示例**
 
-```
+```java
 Input: 5 (size of an array)
        1, 2, 3, 4, 5 (array elements)
        3 (position k)
@@ -22,7 +22,7 @@ Output: 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print the kth Element in the Array
 
 import java.io.*;
@@ -63,7 +63,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Enter number of elements you want in array: 5
 Enter all the elements: 
 5

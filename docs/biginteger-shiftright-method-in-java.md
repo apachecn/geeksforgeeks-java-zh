@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger shiftRight(*int n*)
 ```
 
@@ -20,7 +20,7 @@ public BigInteger shiftRight(*int n*)
 
 **例:**
 
-```
+```java
 Input: BigInteger = 2300, n = 3
 Output: 287
 Explanation:
@@ -37,7 +37,7 @@ Output: 1093
 
 下面的程序说明了 BigInteger 的 shiftRight(索引)方法:
 
-```
+```java
 // Program to demonstrate shiftRight()
 // method of BigInteger 
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After applying shiftRight by Shift Distance 3 on 2300 New Value is 287
 
 ```

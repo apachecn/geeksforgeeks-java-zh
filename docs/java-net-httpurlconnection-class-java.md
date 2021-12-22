@@ -9,7 +9,7 @@ HttpURLConnection 类是从 [URLConnection 类](https://www.geeksforgeeks.org/re
 
 **施工方:**
 
-```
+```java
 Syntax : protected HttpURLConnection(URL u):
 Parameters : 
 u - the url
@@ -21,7 +21,7 @@ Constructs the httpurlconnection to specified URL.
 
 1.  **getResponseCode() :** 用于从服务器检索响应状态。
 
-    ```
+    ```java
     Syntax : protected int getResponseCode()
     1xx : Information
     2xx : Success
@@ -33,7 +33,7 @@ Constructs the httpurlconnection to specified URL.
 
 2.  **设置请求方法():**用于设置请求方法。默认为 GET。
 
-    ```
+    ```java
     Syntax :  protected void setRequestMethod(String method) 
                                     throws ProtocolException
     Parameters: 
@@ -46,14 +46,14 @@ Constructs the httpurlconnection to specified URL.
 
 3.  **getRequestMethod() :** 返回请求方法。
 
-    ```
+    ```java
     Syntax :  protected String getRequestMethod()           
 
     ```
 
 4.  **获取响应消息():**检索响应消息。
 
-    ```
+    ```java
     Syntax :  public String getResponseMessage()           
     200 - OK
     404 - NOT FOUND
@@ -62,7 +62,7 @@ Constructs the httpurlconnection to specified URL.
 
 5.  **getHeaderField() :** 返回第 n 个头字段，如果不存在则返回 null。它重写了 URLConnection 类的 getHeaderField 方法。
 
-    ```
+    ```java
     Syntax :  public String getHeaderField(int n)     
     Parameters: 
     n : Index of the header field.
@@ -71,7 +71,7 @@ Constructs the httpurlconnection to specified URL.
 
 6.  **setFixedLengthStreamingMode():**用于设置输出流上写入内容的长度，如果事先知道的话。
 
-    ```
+    ```java
     Syntax :  public void setFixedLengthStreamingMode(long n/int n) 
                                            throws IllegalStateException          
 
@@ -85,7 +85,7 @@ Constructs the httpurlconnection to specified URL.
 
 7.  **设置跟踪重定向():**设置是否自动重定向 3xx 响应代码请求。
 
-    ```
+    ```java
     Syntax :  public void setFollowRedirects(boolean b)           
     Parameters: 
     b : Must be true or false.
@@ -94,28 +94,28 @@ Constructs the httpurlconnection to specified URL.
 
 8.  **getfollowsredirections():**根据自动重定向与否返回真或假。
 
-    ```
+    ```java
     Syntax :  public static boolean getFollowRedirects()           
 
     ```
 
 9.  **disconnect() :** 表示将来不太可能向服务器发出请求。
 
-    ```
+    ```java
     Syntax :  public void disconnect()           
 
     ```
 
 10.  **使用代理():**如果使用代理建立连接，则返回真，否则返回假。
 
-    ```
+    ```java
     Syntax :  public boolean usingProxy()           
 
     ```
 
 11.  **setChunkedStreamingMode():**当内容长度未知时使用此模式。不是创建一个固定长度的缓冲区并将其写入服务器，而是将内容分成块，然后写入。并非所有服务器都支持此模式。
 
-    ```
+    ```java
     Syntax :  public void setChunkedStreamingMode(int n) 
                                            throws IllegalStateException          
     Parameters: 
@@ -127,14 +127,14 @@ Constructs the httpurlconnection to specified URL.
 
 12.  **获取权限():**获取连接到目标主机和端口所需的权限。
 
-    ```
+    ```java
     Syntax :  public Permission getPermission()           
 
     ```
 
 13.  **getErrorStream() :** 如果服务器无法连接或出现错误，则获取错误流。它可以包含如何从服务器修复错误的信息。
 
-    ```
+    ```java
     Syntax :  public InputStream getErrorStream()           
 
     ```
@@ -142,7 +142,7 @@ Constructs the httpurlconnection to specified URL.
 14.  **设置实例允许重定向():**设置 3xx 响应代码请求是否由该实例的 httpURLconnection 自动重定向。它覆盖了更通用的设置跟随重定向
     参数。如果未指定，则实例将基于 setFollowRedirects()进行重定向。
 
-```
+```java
 Syntax :  public void setFollowRedirects(boolean b)           
 Parameters: 
 b : Must be true or false.
@@ -151,7 +151,7 @@ b : Must be true or false.
 
 *   **getInstanceFollowRedirects() :** Returns true or false depending on automatic instance redirection set or not.
 
-    ```
+    ```java
     Syntax :  public boolean getFollowRedirects()           
 
     ```
@@ -160,7 +160,7 @@ b : Must be true or false.
 
     **Java 实现:**
 
-    ```
+    ```java
     // Java program to illustrate the 
     // use of HttpURLConnection
     // to retrieve the emotion score 
@@ -277,7 +277,7 @@ b : Must be true or false.
 
     输出:
 
-    ```
+    ```java
     Response Code:200
     Response Message:OK
     FollowRedirects:true

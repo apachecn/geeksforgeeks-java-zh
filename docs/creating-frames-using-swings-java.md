@@ -20,7 +20,7 @@ Java swing 组件是轻量级的，独立于平台，提供强大的组件，如
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create frames
 // using association
 
@@ -70,7 +70,7 @@ public class test1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a
 // frame using inheritance().
 
@@ -119,7 +119,7 @@ public class test2 extends JFrame
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a frame
 // using Swings in main().
 
@@ -167,7 +167,7 @@ public class Swing_example
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a frame
 // using Swings in main().
 

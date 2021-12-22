@@ -44,7 +44,7 @@ Java IO API 放置在[**java.io 包**](https://www.geeksforgeeks.org/java-io-pac
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrates the use of
 // the Java IO InputStream methods
 

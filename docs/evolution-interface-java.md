@@ -10,7 +10,7 @@
 
 我们不能在接口中提供方法的实现。
 
-```
+```java
 public interface GFG{
       String a = "Geeksforgeeks is the best.";
 
@@ -28,7 +28,7 @@ public interface GFG{
 *   默认方法
 *   Static methods
 
-    ```
+    ```java
     public interface GFG{
           String b = "Shubham is a brilliant coder.";
 
@@ -53,7 +53,7 @@ public interface GFG{
     *   私有方法
     *   私有静态方法
 
-    ```
+    ```java
     public interface GFG{
           String b = "Shubham is a brilliant coder.";
 

@@ -20,7 +20,7 @@ Popup 类是 JavaFX 的一部分。Popup 类创建一个没有内容、空填充
 
 1.  **Java program to create a popup and add it to the stage:** In this program we create a Popup named *popup*. The popup contains a Label named *label*. We also create a Button named *button* and add event handler to it and then display the popup if it is hidden and hide it if it is already visible. The button is added to the TilePane and the TilePane is added to the scene, and the scene is added to the stage. The show function is called to display the results. The background color of the label is set using the *setStyle()* function, and the label size is set using *setMinHeight()*, *setMinWidth()* function. The *hide()* and *show()* function is used to hide or show the popup.
 
-    ```
+    ```java
     // Java program to create a popup and 
     // add it to the stage
     import javafx.application.Application;
@@ -107,7 +107,7 @@ Popup 类是 JavaFX 的一部分。Popup 类创建一个没有内容、空填充
     <video class="wp-video-shortcode" id="video-222156-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/Popup_1.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/Popup_1.mp4](https://media.geeksforgeeks.org/wp-content/uploads/Popup_1.mp4)</video>
 2.  **Java Program to create a popup and add it to the stage and make the popup hide automatically when it loses focus using the *setAutoHide()* function:** In this program we create a Popup named *popup*. The popup contains a Label named *label*. We also create a Button named *button* and add event handler to it, to display the popup if it is hidden. The button is added to the TilePane and the TilePane is added to the scene, and the scene is added to the stage. The show function is called to display the results. The popup will automatically hide when it loses focus, we will apply this feature to the popup using the *setAutoHide()* function.The background color of the label is set using the *setStyle()* function, and the label size is set using *setMinHeight()*, *setMinWidth()* function. The hide() and *show()* function is used to hide or show the popup.
 
-    ```
+    ```java
     // Java Program to create a popup and add
     // it to the stage and make the popup hide
     // automatically when it loses focus using

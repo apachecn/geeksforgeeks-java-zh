@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int[] array()
 ```
 
@@ -18,7 +18,7 @@ public final int[] array()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -67,14 +67,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 IntBuffer:  [7, 0, 6, 0, 0, 0, 0, 0, 0, 0]
 
 ```
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -154,7 +154,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 IntBuffer ib: [7, 0, 6, 7, 0, 0, 0, 0, 0, 0]
 
 IntBuffer ib1:  [0, 4, 6, 0, 0]

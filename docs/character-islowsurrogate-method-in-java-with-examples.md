@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isLowSurrogate(char ch)
 
 ```
@@ -19,7 +19,7 @@ public static boolean isLowSurrogate(char ch)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Character.isLowSurrogate() method
 import java.lang.*;
@@ -45,7 +45,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 is a Unicode low-surrogate ? true
 h is a Unicode low-surrogate ? false
 
@@ -53,7 +53,7 @@ h is a Unicode low-surrogate ? false
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // Character.isLowSurrogate() method
 import java.lang.*;
@@ -79,7 +79,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 is a Unicode low-surrogate ? true
 x is a Unicode low-surrogate ? false
 

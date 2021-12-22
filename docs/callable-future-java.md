@@ -15,13 +15,13 @@
 
 实现 Callable 必须重写的方法签名。
 
-```
+```java
 public Object call() throws Exception;
 ```
 
 下面是 Callable 示例的代码，它将在大约 0–4 秒的延迟后返回一个随机数。
 
-```
+```java
 // Java program to illustrate Callable
 // to return a random number
 import java.util.Random;
@@ -64,7 +64,7 @@ Java 库有具体的类型 FutureTask，它实现了 Runnable 和 Future，方�
 
 下面是使用 Callable 和 FutureTask 的完整示例的代码。
 
-```
+```java
 // Java program to illustrate Callable and FutureTask
 // for random number generation
 import java.util.Random;
@@ -124,7 +124,7 @@ public class CallableFutureTest
 
 输出:
 
-```
+```java
 4
 2
 3
@@ -137,7 +137,7 @@ public class CallableFutureTest
 
 下面是只使用 Runnable 的代码。
 
-```
+```java
 // Java program to illustrate Runnable
 // for random number generation
 import java.util.Random;
@@ -207,7 +207,7 @@ public class RunnableTest
 
 **样本输出** 
 
-```
+```java
 0
 4
 3

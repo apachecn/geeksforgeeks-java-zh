@@ -11,7 +11,7 @@ java . util . concurrentSkiplistset 的 equals()方法是 Java 中的一个内�
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.equals(Object o)
 ```
 
@@ -23,7 +23,7 @@ ConcurrentSkipListSet.equals(Object o)
 
 **程序 1:** 在本例中，两个集合相等。
 
-```
+```java
 // Java Program Demonstrate equals()
 // method of ConcurrentSkipListSet
 
@@ -65,7 +65,7 @@ class ConcurrentSkipListSetEqualsExample1 {
 
 **输出:**
 
-```
+```java
 Both the sets are equal
 Contents of the set: [10, 20, 25, 35]
 Contents of the descending set: [35, 25, 20, 10]
@@ -74,7 +74,7 @@ Contents of the descending set: [35, 25, 20, 10]
 
 **程序 2:** 在本例中两个集合不相等
 
-```
+```java
 // Java Program Demonstrate equals()
 // method of ConcurrentSkipListSet
 
@@ -122,7 +122,7 @@ class ConcurrentSkipListSetEqualsExample2 {
 
 **输出:**
 
-```
+```java
 Both the sets are not equal
 Contents of the first set: [10, 20, 25, 35]
 Contents of the second set: [20, 25, 35]

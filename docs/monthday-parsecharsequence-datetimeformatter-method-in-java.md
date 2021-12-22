@@ -5,7 +5,7 @@
 Java 中 **MonthDay** 类的**解析(CharSequence text，DateTimeFormatter】方法用于使用特定的格式化程序从文本字符串中获取 **MonthDay** 的实例。
 **语法:****
 
-```
+```java
 public static MonthDay parse(
     CharSequence text, 
     DateTimeFormatter formatter)
@@ -24,7 +24,7 @@ public static MonthDay parse(
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.parse(CharSequence text,
 // DateTimeFormatter formatter) method
@@ -58,14 +58,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MonthDay: --05-09
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.parse(CharSequence text,
 // DateTimeFormatter formatter) method
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MonthDay: --09-05
 
 ```

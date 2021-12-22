@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.size()方法用于知道地图的大小或地图�
 
 **语法:**
 
-```
+```java
 Enum_Map.size()
 ```
 
@@ -17,7 +17,7 @@ Enum_Map.size()
 以下程序说明了 size()函数的工作:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate size()
 import java.util.*;
 
@@ -53,7 +53,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 The EnumMap: {India_today=69, United_States_today=1073}
 Size of map: 2
 
@@ -61,7 +61,7 @@ Size of map: 2
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate size()
 import java.util.*;
 
@@ -105,7 +105,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 The EnumMap: {India_today=69, United_States_today=1073}
 The EnumMap: {India_today=69}
 Size of map: 1

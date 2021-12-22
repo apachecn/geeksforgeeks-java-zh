@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 try {
 
     // Put the code in the try block which may occur any
@@ -39,7 +39,7 @@ catch (ExceptionName e) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing Classes/Files
 import java.io.*;
 import java.util.*;
@@ -98,7 +98,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Use catch to handle the exception
 
 // Importing generic Classes/Files
@@ -158,7 +158,7 @@ class MyException extends RuntimeException {
 }
 ```
 
-```
+```java
 Input 1:
 Enter the name : Geek
 Enter the age: 18

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean interfaceModifiers()
 
 ```
@@ -18,7 +18,7 @@ public static boolean interfaceModifiers()
 下面的程序举例说明了 interfaceModifiers()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // interfaceModifiers() method
 import java.lang.reflect.*;
@@ -41,14 +41,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Interface Modifiers: public protected private abstract static strictfp
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // interfaceModifiers()
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Int Value: 3087
 
 ```

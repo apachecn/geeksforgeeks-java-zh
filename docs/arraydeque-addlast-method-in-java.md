@@ -6,7 +6,7 @@ java 中的 Java . util . arrayDeque . addlast(*Object 元素*)方法是用来�
 
 **语法:**
 
-```
+```java
 Array_Deque.addLast(*Object element*)
 ```
 
@@ -19,7 +19,7 @@ Array_Deque.addLast(*Object element*)
 下面的程序说明了 Java.util.ArrayDeque.addLast()方法:
 **程序 1:** 将整数加到 Deque。
 
-```
+```java
 // Java code to illustrate addLast()
 import java.util.*;
 
@@ -53,7 +53,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 ArrayDeque_end_addition: [10, 15, 30, 20, 5, 40, 50, 60, 70]
 
@@ -61,7 +61,7 @@ ArrayDeque_end_addition: [10, 15, 30, 20, 5, 40, 50, 60, 70]
 
 **程序 2:** 将字符串添加到德格。
 
-```
+```java
 // Java code to illustrate addLast()
 import java.util.*;
 
@@ -94,7 +94,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 ArrayDeque_end_addition: [Welcome, To, Geeks, 4, Geeks, GFG, World, Hello]
 

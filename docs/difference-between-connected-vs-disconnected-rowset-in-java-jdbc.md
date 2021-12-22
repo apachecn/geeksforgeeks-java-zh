@@ -93,7 +93,7 @@ CachedRowSet 是断开的行集的基本实现。它连接到数据源，从中�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate how to use RowSet,
 // RowSetProvider, and RowSetFactory in JDBC
 
@@ -170,7 +170,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Id      Name    Department      Email                   Salary
 1       Jack    Sales           jack@bluechip.com       9000
 2       Jill    Marketing       jill@bluechip.com       8000

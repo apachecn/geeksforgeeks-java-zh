@@ -8,7 +8,7 @@ modPow()方法返回这个 mod m 的模乘逆，如果 m <= 0 或者这个没有
 
 **语法:**
 
-```
+```java
 public BigInteger modInverse(BigInteger m)
 ```
 
@@ -24,7 +24,7 @@ public BigInteger modInverse(BigInteger m)
 
 **节目 1** :
 
-```
+```java
 import java.math.*;
 import java.util.Scanner;
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出** :
 
-```
+```java
 8 ^ -1 % 21 = 8
 
 ```
 
 **节目 2 :**
 
-```
+```java
 import java.math.*;
 import java.util.Scanner;
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.ArithmeticException: BigInteger not invertible.
     at java.math.MutableBigInteger.modInverse(Unknown Source)
     at java.math.MutableBigInteger.mutableModInverse(Unknown Source)

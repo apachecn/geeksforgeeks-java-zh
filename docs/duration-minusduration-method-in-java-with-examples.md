@@ -5,7 +5,7 @@
 **java.time 包**中 **Duration 类**的**减(Duration)** 方法用于获取这个 Duration 的不可变副本，减去指定的 Duration，作为参数传递。
 **语法:**
 
-```
+```java
 public Duration minus(Duration duration)
 ```
 
@@ -17,7 +17,7 @@ public Duration minus(Duration duration)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minus() method
 
 import java.time.Duration;
@@ -44,7 +44,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT46H4M
 ```
 
@@ -52,7 +52,7 @@ PT46H4M
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minus() method
 
 import java.time.Duration;
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT-119H-56M
 ```
 

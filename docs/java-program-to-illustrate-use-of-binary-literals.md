@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Use of Binary Literals
 public class GFG {
     public static void main(String[] args)
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Binary Literal in Byte----->
 a1 = 3, a2 = 5
 Binary Literal in Short----->
@@ -74,7 +74,7 @@ d1 = 2019, d2 = 2017
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Use of Binary Literals
 public class GFG {
     public static void main(String[] args)
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 n1 = 3
 n2 = 3
 n3 = -7

@@ -6,7 +6,7 @@
 
 **拼接**是端到端连接的过程。让我们举个例子来理解串联在英语中的意思。
 
-```
+```java
 Person 1 speaking to Person 2 - ItsCodingEra
 Person 2 speaking to Person 1 - 2020India
 
@@ -17,7 +17,7 @@ This process is called concatenation.
 
 **示例:**
 
-```
+```java
 Input String = "Geeks" + "for" + "Geeks";
 OutputString = "GeeksforGeeks" ;
 ```
@@ -37,7 +37,7 @@ OutputString = "GeeksforGeeks" ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to concatenate string
 import java.lang.*;
 
@@ -68,7 +68,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Time taken to concatenate 100000 Strings using '+' operator : 2126 ms
 ```
 
@@ -78,14 +78,14 @@ Time taken to concatenate 100000 Strings using '+' operator : 2126 ms
 
 **示例:**
 
-```
+```java
 String str="GeeksforGeeks";
 s1 = s1.concat(".").concat("com");
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to concatenate string
 import java.lang.*;
 
@@ -109,7 +109,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Time taken to concatenate 100000 Strings using concat() method : 46 ms
 ```
 
@@ -119,7 +119,7 @@ Time taken to concatenate 100000 Strings using concat() method : 46 ms
 
 **示例:**
 
-```
+```java
 StringBuilder str  = new StringBuilder();  
 str.append("GFG");
 ```
@@ -128,7 +128,7 @@ str.append("GFG");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to concatenate string
 import java.lang.*;
 
@@ -151,7 +151,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Time taken to concatenate 100000 Strings using StringBuilder append : 34 ms
 ```
 
@@ -161,13 +161,13 @@ Time taken to concatenate 100000 Strings using StringBuilder append : 34 ms
 
 **示例:**
 
-```
+```java
 StringBuffer s = new StringBuffer("GeeksforGeeks");
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to concatenate string
 import java.lang.*;
 
@@ -192,6 +192,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Time taken to concatenate 100000 Strings using StringBuffer append : 41 ms
 ```

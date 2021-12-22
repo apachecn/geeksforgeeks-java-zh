@@ -6,7 +6,7 @@ java 中的[](https://www.geeksforgeeks.org/treemap-in-java/)**类提供了一�
 
 ****语法:****
 
-```
+```java
 boolean equals(Object o)
 ```
 
@@ -14,7 +14,7 @@ boolean equals(Object o)
 
 ## **Java**
 
-```
+```java
 // Java program to Compare Two TreeMap Objects
 import java.io.*;
 import java.util.ArrayList;
@@ -56,7 +56,7 @@ public class GFG {
 
 ****输出**
 
-```
+```java
 true
 false
 ```**

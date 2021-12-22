@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double getDouble(Object obj)
               throws IllegalArgumentException,
                      IllegalAccessException
@@ -27,7 +27,7 @@ public double getDouble(Object obj)
 下面的程序说明 getDouble()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the getDouble() method
 
 import java.lang.reflect.Field;
@@ -110,7 +110,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Value of double Field Marks is 34.13
 Value of double Field Fees is 3413.99
 
@@ -118,7 +118,7 @@ Value of double Field Fees is 3413.99
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the getDouble() method
 
 import java.lang.reflect.Field;
@@ -171,7 +171,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: 9999999.34567
 
 ```

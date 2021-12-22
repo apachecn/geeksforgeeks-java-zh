@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 Array.setLong(Object []array, int index, long value)
 
 ```
@@ -29,7 +29,7 @@ Array.setLong(Object []array, int index, long value)
 
     **程序 1 :**
 
-    ```
+    ```java
     // Java code to demonstrate setLong() method of Array class
     import java.lang.reflect.Array;
     public class GfG {
@@ -59,7 +59,7 @@ Array.setLong(Object []array, int index, long value)
 
     **输出**
 
-    ```
+    ```java
     Befor Set : 1 2 3 4 
     After Set : 1 10 3 4 
 
@@ -67,7 +67,7 @@ Array.setLong(Object []array, int index, long value)
 
     **程序 2 :** 演示 java.lang.NullPointerException
 
-    ```
+    ```java
     // Java code to demonstrate setLong() method of Array class
     import java.lang.reflect.Array;
     public class GfG {
@@ -89,14 +89,14 @@ Array.setLong(Object []array, int index, long value)
 
     **输出**
 
-    ```
+    ```java
     Exception : java.lang.NullPointerException
 
     ```
 
     **程序 3 :** 演示 Java . lang . arrayindexoutofboundsexception
 
-    ```
+    ```java
     // Java code to demonstrate setLong() method of Array class
     import java.lang.reflect.Array;
     public class GfG {
@@ -118,14 +118,14 @@ Array.setLong(Object []array, int index, long value)
 
     **输出**
 
-    ```
+    ```java
     Exception : java.lang.ArrayIndexOutOfBoundsException
 
     ```
 
     **程序 4 :** 演示 Java . lang . illegalargumentexception。
 
-    ```
+    ```java
     // Java code to demonstrate setLong() method of Array class
 
     import java.lang.reflect.Array;
@@ -148,7 +148,7 @@ Array.setLong(Object []array, int index, long value)
 
     **输出**
 
-    ```
+    ```java
     Exception : java.lang.IllegalArgumentException: Argument is not an array
 
     ```

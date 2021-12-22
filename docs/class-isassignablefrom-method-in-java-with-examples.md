@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isAssignableFrom(Class<T> class)
 
 ```
@@ -19,7 +19,7 @@ public boolean isAssignableFrom(Class<T> class)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate isAssignableFrom() method
 
 public class Test {
@@ -49,7 +49,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Class represented by c: class java.lang.String
 Is c compatible: false
@@ -58,7 +58,7 @@ Is c compatible: false
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate isAssignableFrom() method
 
 public class Test {
@@ -88,7 +88,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Class represented by c: class Test
 Is c compatible: true

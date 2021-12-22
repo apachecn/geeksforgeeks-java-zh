@@ -7,7 +7,7 @@
 **2D 列表(list of list)**
 2D 列表是指一个列表，即列表中的每一行都是另一个列表。
 
-```
+```java
 [
   [5, 10],
   [1], 
@@ -23,14 +23,14 @@
     *   我们需要两个 [for-each 循环](https://www.geeksforgeeks.org/for-each-loop-in-java/)来成功迭代 2D 列表。
     *   在第一个 for-each 循环中，2D 列表的每一行都将作为一个单独的列表
 
-        ```
+        ```java
         for (List list : listOfLists)
          { } 
         ```
 
     *   在第二个 for-each 循环中，每一行列表中的每一项都将被单独获取
 
-        ```
+        ```java
         for (K item : list)
          { }
 
@@ -40,7 +40,7 @@
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java code to demonstrate the concept of
     // list of lists using loop
 
@@ -106,7 +106,7 @@
 
     **输出:**
 
-    ```
+    ```java
     [
      [ 5,  10, ], 
      [ 1, ], 
@@ -120,27 +120,27 @@
     *   我们需要两个[迭代器](https://www.geeksforgeeks.org/iterators-in-java/)来成功地迭代 2D 列表。
     *   第一个迭代器将 2D 列表的每一行迭代为一个单独的列表
 
-        ```
+        ```java
         Iterator listOfListsIterator = listOfLists.iterator();
 
         ```
 
     *   Each row of the 2D list can be obtained with the help of [next() method of Iterator](https://www.geeksforgeeks.org/how-to-use-iterator-in-java/)
 
-        ```
+        ```java
         listOfListsIterator.next();
 
         ```
 
         但是下一个()方法返回迭代器作为对象的对象。因此，我们需要将这个返回的对象转换成一个列表。
 
-        ```
+        ```java
         list = (List)listOfListsIterator.next(); 
         ```
 
     *   第二个迭代器将分别迭代每行列表中的每一项
 
-        ```
+        ```java
         Iterator eachListIterator = list.iterator();
 
         ```
@@ -149,7 +149,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java code to demonstrate the concept of
 // list of lists using iterator
 
@@ -228,7 +228,7 @@ class List_of_list {
 
 **输出:**
 
-```
+```java
 [
  [ 5,  10, ], 
  [ 1, ], 

@@ -5,7 +5,7 @@
 java.lang.Long.longValue()是 java 中 Long 类的内置方法，它在转换后将 Long 对象的值作为 Long 返回。
 **语法:**
 
-```
+```java
 public long longValue()
 ```
 
@@ -13,7 +13,7 @@ public long longValue()
 **返回值:**该方法将该对象表示的数值转换为长类型后返回。
 **示例:**
 
-```
+```java
 Input: 5366623
 Output: (Long) 5366623
 
@@ -31,7 +31,7 @@ It will return 5366623 as long.
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.Long.longValue() method
 
@@ -59,7 +59,7 @@ public class Geek {
 
 **Output:** 
 
-```
+```java
 The Value of nl as long is = 77387187
 The Value of nl2 as long is = -6723887
 ```

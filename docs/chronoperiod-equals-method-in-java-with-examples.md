@@ -8,7 +8,7 @@ Java 中**计时周期界面**的**等于()**方法用于检查两个给定周�
 
 **语法:**
 
-```
+```java
 boolean equals(ChronoPeriod secondChronoPeriod)
 ```
 
@@ -20,7 +20,7 @@ boolean equals(ChronoPeriod secondChronoPeriod)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the period
 // equals for two given periods
 
@@ -55,14 +55,14 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java code to show the period
 // equals for two given periods
 
@@ -97,7 +97,7 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 true
 
 ```

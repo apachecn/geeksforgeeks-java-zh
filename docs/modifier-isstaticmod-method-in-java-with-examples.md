@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isStatic(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isStatic(int mod)
 以下程序说明了 isStatic()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isStatic() method
 
 import java.lang.reflect.*;
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 8 is static : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isStatic()
 
 import java.lang.reflect.*;
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 9 is static : true
 
 ```

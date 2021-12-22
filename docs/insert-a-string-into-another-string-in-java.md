@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: originalString = "GeeksGeeks", 
               stringToBeInserted = "For", 
               index = 4
@@ -36,7 +36,7 @@ Output: "Computer Science Portal"
 
     **程序:**
 
-    ```
+    ```java
     // Java program to insert a string into another string
     // without using any pre-defined method
 
@@ -99,7 +99,7 @@ Output: "Computer Science Portal"
 
     **Output:**
 
-    ```
+    ```java
     Original String: GeeksGeeks
     String to be inserted: For
     String to be inserted at index: 4
@@ -120,7 +120,7 @@ Output: "Computer Science Portal"
 
     **程序:**
 
-    ```
+    ```java
     // Java program to insert a string into another string
     // without using any pre-defined method
 
@@ -171,7 +171,7 @@ Output: "Computer Science Portal"
 
     **Output:**
 
-    ```
+    ```java
     Original String: GeeksGeeks
     String to be inserted: For
     String to be inserted at index: 4
@@ -192,7 +192,7 @@ Output: "Computer Science Portal"
 
     **程序:**
 
-    ```
+    ```java
     // Java program to insert a string into another string
     // without using any pre-defined method
 
@@ -246,7 +246,7 @@ Output: "Computer Science Portal"
 
     **Output:**
 
-    ```
+    ```java
     Original String: GeeksGeeks
     String to be inserted: For
     String to be inserted at index: 4

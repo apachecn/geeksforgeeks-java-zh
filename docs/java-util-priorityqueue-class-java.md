@@ -19,7 +19,7 @@
 
 **申报:**
 
-```
+```java
 public class PriorityQueue
    extends AbstractQueue
    implements Serializable
@@ -30,7 +30,7 @@ public class PriorityQueue
 1.  **添加(元素):** **将元素插入优先级队列。
     **语法:**
 
-    ```
+    ```java
     public boolean add(E e)
     Parameters  :
     element : the element we need to add.
@@ -44,7 +44,7 @@ public class PriorityQueue
 2.  **comparator():****Java . util . priorityqueue . comparator()**对队列中的元素进行排序。
     **语法:**
 
-    ```
+    ```java
     public Comparator comparator()
     Parameters  :
     -------
@@ -58,7 +58,7 @@ public class PriorityQueue
 3.  **contains(Object obj):****Java . util . priorityqueue . contains(obj)**如果优先级队列包含元素“obj”，则返回 true。
     **语法:**
 
-    ```
+    ```java
     public boolean contains(Object obj)
     Parameters  :
     obj : object to be checked
@@ -71,7 +71,7 @@ public class PriorityQueue
 4.  **迭代器():****Java . util . priorityqueue . iterator()**迭代队列元素。
     **语法:**
 
-    ```
+    ```java
     public Iterator iterator()
     Parameters  :
     -------
@@ -85,7 +85,7 @@ public class PriorityQueue
 5.  **offer(元素):****Java . util . priorityqueue . offer()**需要在给定的优先级队列中插入特定的元素。
     **语法:**
 
-    ```
+    ```java
     public boolean offer(E element)
     Parameters  :
     element : specific element to  be entered.
@@ -100,7 +100,7 @@ public class PriorityQueue
 6.  **peek():****Java . util . priorityqueue . peek()**标识队列的头元素。
     **语法:**
 
-    ```
+    ```java
     public E peek()    
     Parameters  :
     -------
@@ -114,7 +114,7 @@ public class PriorityQueue
 7.  **poll():****Java . util . priorityqueue . poll()**识别头部，然后将其移除。
     **语法:**
 
-    ```
+    ```java
     public E poll()    
     Parameters  :
     ---
@@ -128,7 +128,7 @@ public class PriorityQueue
 8.  **移除(对象对象):** **从队列中移除特定对象。
     **语法:**
 
-    ```
+    ```java
     public boolean remove(Object obj)
     Parameters  :
     obj : object to be removed
@@ -141,7 +141,7 @@ public class PriorityQueue
 9.  **size():****Java . util . priorityqueue . size()**返回优先级队列中元素的大小。
     **语法:**
 
-    ```
+    ```java
     public int size()
     Parameters  :
     ----
@@ -155,7 +155,7 @@ public class PriorityQueue
 10.  **to array():****Java . util . PriorityQueue . to array()**返回一个包含 PriorityQueue 元素的数组。
     **语法:**
 
-    ```
+    ```java
     public Object[] toArray()
     Parameters  :
     ------
@@ -169,7 +169,7 @@ public class PriorityQueue
 11.  **toArray(T[]数组):****Java . util . priorityqueue . to array(T[]a)**返回具有优先级队列元素的数组。
     **语法:**
 
-    ```
+    ```java
     public  T[] toArray(T[] array)
     Parameters  :
     array  : the array to which are to be sorted. 
@@ -184,7 +184,7 @@ public class PriorityQueue
 12.  **clear() :** **java.util.PriorityQueue.clear()** clears all the elements of the PriorityQueue.
     **Syntax :**
 
-    ```
+    ```java
     public void clear()        
     Parameters  :
     ---
@@ -195,7 +195,7 @@ public class PriorityQueue
 
     ```
 
-    ```
+    ```java
     // Java Program illustrating the methods
     // of java.utl.priorityQueue class
 
@@ -291,7 +291,7 @@ public class PriorityQueue
 
     **输出:**
 
-    ```
+    ```java
     geek PriorityQueue : [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
     geek PriorityQueue : null
     Use of contains() : true

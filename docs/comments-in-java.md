@@ -15,14 +15,14 @@
 初级程序员主要使用单行注释来描述代码功能。这是最容易输入的注释。
 语法:
 
-```
+```java
 //Comments here( Text in this line only is considered as comment )
 
 ```
 
 示例:
 
-```
+```java
 //Java program to show single line comments
 class Scomment
 {
@@ -39,7 +39,7 @@ class Scomment
 要在代码或复杂的代码片段中描述完整的方法，单行注释可能会写得很乏味，因为我们必须在每一行给出“//”。所以为了克服这一点，可以使用多行注释。
 语法:
 
-```
+```java
 /*Comment starts
 continues
 continues
@@ -52,7 +52,7 @@ Commnent ends*/
 
 示例:
 
-```
+```java
 //Java program to show multi line comments
 class Scomment
 {
@@ -68,7 +68,7 @@ class Scomment
 
 我们还可以使用如下所示的语法来完成单行注释:
 
-```
+```java
 /*Comment line 1*/
 
 ```
@@ -80,7 +80,7 @@ class Scomment
 
 **语法:**
 
-```
+```java
 /**Comment start
 *
 *tags are used in order to specify a parameter
@@ -114,7 +114,7 @@ class Scomment
 | {@value} | 当在静态字段的文档注释中使用{@value}时，它会显示该常量的值。 | {@value package.class#field} |
 | @版本 | 使用-version 选项时，在生成的文档中添加带有指定版本文本的“Version”副标题。 | @版本版本-文本 |
 
-```
+```java
 //Java program to illustrate frequently used 
 // Comment tags
 
@@ -160,7 +160,7 @@ public class FindAvg 
 
 **输出:**
 
-```
+```java
 Average of 10, 20 and 30 is :20
 
 ```
@@ -168,7 +168,7 @@ Average of 10, 20 and 30 is :20
 对于以上代码文档可以使用工具‘Javadoc’生成:
 Javadoc 可以通过在终端运行以下命令来使用。
 
-```
+```java
 javadoc FindAvg.java
 
 ```

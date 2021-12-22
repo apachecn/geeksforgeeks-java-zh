@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger toBigInteger()
 ```
 
@@ -17,7 +17,7 @@ public BigInteger toBigInteger()
 
 **示例:**
 
-```
+```java
 Input: (BigDecimal) 123.321
 Output: (BigInteger) 123
 
@@ -31,7 +31,7 @@ Output: (BigInteger) 123
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to demonstrate toBigInteger() method of BigDecimal
 
 import java.math.*;
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 BigInteger value of 123.321 is 123
 ```
 
@@ -63,7 +63,7 @@ BigInteger value of 123.321 is 123
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to demonstrate toBigInteger() method of BigDecimal
 
 import java.math.*;
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 BigInteger value of 123.001 is 123
 ```
 

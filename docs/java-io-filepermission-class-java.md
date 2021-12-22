@@ -18,7 +18,7 @@
 
 **申报:**
 
-```
+```java
 public final class FilePermission
    extends Permission
       implements Serializable
@@ -26,7 +26,7 @@ public final class FilePermission
 
 **施工人员:**
 
-```
+```java
 FilePermission(String p, String a) : Creates a new file permission object with "a" action.
 ```
 
@@ -35,7 +35,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 *   **equals(Object FP_obj) :** **java.io.FilePermission.equals(Object FP_obj)** tells whether the two (i.e. checks the FP_obj pathname and filename with this object) FilePermission objects are equal or not.
     **Syntax :**
 
-    ```
+    ```java
     public boolean equals(Object FP_obj)
     Parameters : 
     FP_obj : the FilePermission object to be verified with this object
@@ -48,7 +48,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **实施:**
 
-    ```
+    ```java
     // Java Program illustrating equals() method
 
     import java.io.*;
@@ -79,7 +79,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **输出:**
 
-    ```
+    ```java
     Whether FP_obj1 equals FP_obj2 : false
     Whether FP_obj2 equals FP_obj2 : false
     Whether FP_obj3 equals FP_obj1 : true
@@ -89,7 +89,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
     In such cases this method returns “canonical string” : **read, write, execute, delete, readlink**
     **Syntax :**
 
-    ```
+    ```java
     public String getActions()
     Parameters : 
     ----------
@@ -102,7 +102,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **实施:**
 
-    ```
+    ```java
     // Java Program illustrating getActions() method
     import java.io.*;
     public class NewClass
@@ -130,7 +130,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **输出:**
 
-    ```
+    ```java
     Actions with FP_obj1 : read,write,delete
     Actions with FP_obj2 : read,write,execute
     Actions with FP_obj3 : read,delete,readlink
@@ -139,7 +139,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 *   **hashCode() :** **java.io.FilePermission.hashCode()** returns hash code for the argumented FilePermission Object
     **Syntax :**
 
-    ```
+    ```java
     public int hashCode()
     Parameters : 
     --------
@@ -152,7 +152,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **实施:**
 
-    ```
+    ```java
     // Java Program illustrating hashCode() method
 
     import java.io.*;
@@ -174,14 +174,14 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **输出:**
 
-    ```
+    ```java
     hashCode value for FP_obj1 : 0
     ```
 
 *   **implies(Permission arg) :****java.io.FilePermission.implies(Permission arg)** tells whether this FilePermision has the argumented Permission or not.
     **Syntax :**
 
-    ```
+    ```java
     public boolean implies(Permission arg)
     Parameters : 
     arg : Permission to be checked 
@@ -194,7 +194,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **实施:**
 
-    ```
+    ```java
     // Java Program illustrating implies() method
 
     import java.io.*;
@@ -222,7 +222,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **输出:**
 
-    ```
+    ```java
     Using implies() for FP_obj1 : false
     Using implies() for FP_obj2 : true
 
@@ -231,7 +231,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 *   **newPermissionCollection() :****java.io.FilePermission.newPermissionCollection()** creates PermissionCollection object having the FilePermission objects.
     **Syntax :**
 
-    ```
+    ```java
     public PermissionCollection newPermissionCollection()
     Parameters : 
     arg : Permission to be checked 
@@ -244,7 +244,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **实施:**
 
-    ```
+    ```java
     // Java Program illustrating newPermissionCollection() method
 
     import java.io.*;
@@ -272,7 +272,7 @@ FilePermission(String p, String a) : Creates a new file permission object with "
 
     **输出:**
 
-    ```
+    ```java
     Is newPermissionCollection() working : true
     ```
 

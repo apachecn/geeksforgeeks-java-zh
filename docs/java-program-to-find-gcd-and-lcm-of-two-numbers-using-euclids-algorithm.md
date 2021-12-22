@@ -35,7 +35,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to compute
 // GCD of two numbers
 // using Euclid's algorithm
@@ -81,7 +81,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GCD = 10
 LCM = 60
 ```

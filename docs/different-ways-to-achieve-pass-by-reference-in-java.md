@@ -8,7 +8,7 @@
 
 ## Java
 
-```
+```java
 // Java program to show the difference
 // between formal and actual parameters
 
@@ -30,7 +30,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 15
 ```
 
@@ -39,7 +39,7 @@ class GFG {
 *   C/C++ supports reference call, because in reference call, we use **pointer to pass the address of actual parameter at formal parameter.**
 *   Moreover, Java does not support pointers, which is why Java does not support calling by reference, but c/c++ supports pointers, so these languages support calling by reference.
 
-```
+```java
 Swapping of Two numbers in C/C++ language is done by the call by Reference approach
 ```
 
@@ -47,7 +47,7 @@ Swapping of Two numbers in C/C++ language is done by the call by Reference appro
 
 ## C
 
-```
+```java
 // C program o show the call by reference support
 
 #include <stdio.h>
@@ -89,7 +89,7 @@ int main()
 
 **Output**
 
-```
+```java
 Value of a 15
 Value of b 5
 Value of a 5
@@ -102,7 +102,7 @@ Value of b 15
 
 ## Java
 
-```
+```java
 // Java program to swap two numbers
 
 import java.io.*;
@@ -149,7 +149,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Value of the a 5
 Value of the b 10
 Value of a in swap function 10
@@ -167,7 +167,7 @@ Value of the b 10
 
 ## Java
 
-```
+```java
 // Java program to make a particular variable
 // of a particular datatype as a class member
 
@@ -195,7 +195,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Number value 0
 Updated Number value 1
 ```
@@ -206,7 +206,7 @@ Updated Number value 1
 
 ## Java
 
-```
+```java
 // Java program to passing collections
 // as parameters
 
@@ -259,7 +259,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Number Value 0
 Number Value 1
 List [1, 2]
@@ -272,7 +272,7 @@ Updated List [2, 3]
 
 ## Java
 
-```
+```java
 // Java program to show the return
 // value getting updated
 
@@ -305,7 +305,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Number 3
 Updated number 4
 ```

@@ -5,7 +5,7 @@
 **DoubleStream empty()** 是 java.util.stream.DoubleStream 中的一个方法，这个方法返回一个空的顺序 DoubleStream。
 **语法:**
 
-```
+```java
 static DoubleStream empty()
 
 Where, DoubleStream is a sequence of primitive double-valued
@@ -15,7 +15,7 @@ elements and the function returns an empty sequential stream.
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream empty()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -37,14 +37,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 0
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream empty()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -67,7 +67,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 []
 
 ```

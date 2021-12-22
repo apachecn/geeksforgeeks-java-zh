@@ -29,7 +29,7 @@ ForkJoinPool 旨在用于 CPU 密集型工作负载。ForkJoinPool 中的默认�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Showcase When to use
 // ForkJoinPool vs ExecutorService
 
@@ -279,7 +279,7 @@ class ForkJoinPoolTest {
 
 **输出:**
 
-```
+```java
 URL:https://www.yahoo.com SHAsum:12f45bce974edce01b457e01c7c0a60b480eff319fcdf4869fc2f48afb3af3fb
 URL:https://www.yahoo.com SHAsum:a15ad023eda65e8e289dde4198bd822fdcbf3a87ccb54afbcef7be2feeb6e5bd
 ```

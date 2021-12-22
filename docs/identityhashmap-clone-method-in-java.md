@@ -6,7 +6,7 @@ Java . util . identity hashmap . clone()方法用于返回上述哈希映射的�
 
 **语法:**
 
-```
+```java
 Identity_HashMap.clone()
 ```
 
@@ -17,7 +17,7 @@ Identity_HashMap.clone()
 以下程序用于说明 Java . util . identity hashmap . clone()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the clone() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 The cloned map: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 
@@ -57,7 +57,7 @@ The cloned map: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the clone() method
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Geeks=20, Welcomes=25, You=30, 4=15}
 The cloned map: {Geeks=20, Welcomes=25, You=30, 4=15}
 

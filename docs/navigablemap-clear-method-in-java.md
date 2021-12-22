@@ -6,7 +6,7 @@ Java 中 NavigableMap 接口的 clear()方法用于清除和移除指定 Map 中
 
 **语法:**
 
-```
+```java
 NavigableMap.clear()
 ```
 
@@ -17,7 +17,7 @@ NavigableMap.clear()
 以下程序用于说明 clear()方法的工作原理:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class NavigableMap_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Finally the map looks like: {}
 
@@ -57,7 +57,7 @@ Finally the map looks like: {}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class NavigableMap_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 Finally the map looks like: {}
 

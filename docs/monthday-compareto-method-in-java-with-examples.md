@@ -6,7 +6,7 @@ Java 中**月日类**的 **compareTo()** 方法将这个月日与另一个月日
 
 **语法:**
 
-```
+```java
 public int compareTo(MonthDay other)
 ```
 
@@ -20,7 +20,7 @@ public int compareTo(MonthDay other)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -49,14 +49,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 0
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -85,14 +85,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 -2
 
 ```
 
 **程序 3:**
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -121,7 +121,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 1
 
 ```

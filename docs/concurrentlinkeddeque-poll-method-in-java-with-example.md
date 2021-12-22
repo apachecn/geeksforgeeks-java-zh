@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E poll()
 ```
 
@@ -18,7 +18,7 @@ public E poll()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of ConcurrentLinkedDeque
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: [7855642, 35658786, 5278367, 74381793]
 Front element in Deque: 7855642
 ConcurrentLinkedDeque: [35658786, 5278367, 74381793]
@@ -65,7 +65,7 @@ ConcurrentLinkedDeque: [35658786, 5278367, 74381793]
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of ConcurrentLinkedDeque
 // when Deque is empty
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: [7855642, 35658786, 5278367, 74381793]
 Front element in Deque: null
 

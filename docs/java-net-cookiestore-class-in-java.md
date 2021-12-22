@@ -27,7 +27,7 @@ A **CookieStore** 是 Java 中的一个接口，是一个存放 cookies 的区�
 
 #### 语法:
 
-```
+```java
 public void add(URI uri, HttpCookie cookie)
 ```
 
@@ -37,7 +37,7 @@ public void add(URI uri, HttpCookie cookie)
 
 #### 语法:
 
-```
+```java
 public List<HttpCookie> get(URI uri)
 ```
 
@@ -47,7 +47,7 @@ public List<HttpCookie> get(URI uri)
 
 #### 语法:
 
-```
+```java
 public List<HttpCookie> getCookies()
 ```
 
@@ -57,7 +57,7 @@ public List<HttpCookie> getCookies()
 
 #### 语法:
 
-```
+```java
 public List<URI uri> getURIs()
 ```
 
@@ -67,7 +67,7 @@ public List<URI uri> getURIs()
 
 #### 语法:
 
-```
+```java
 public boolean remove(URI uri, HttpCookie cookie)
 ```
 
@@ -77,7 +77,7 @@ public boolean remove(URI uri, HttpCookie cookie)
 
 #### 语法:
 
-```
+```java
 public boolean removeAll()
 ```
 
@@ -85,7 +85,7 @@ public boolean removeAll()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -148,7 +148,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Cookies successfully added
 
 Cookies associated with URI in CookieStore : [First="1"]

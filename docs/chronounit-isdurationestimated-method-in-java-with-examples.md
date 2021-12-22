@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isDurationEstimated()
 
 ```
@@ -18,7 +18,7 @@ public boolean isDurationEstimated()
 下面的程序说明了计时单位. isDurationEstimated()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.isDurationEstimated() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 NANOS is Duration Estimated attribute:false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.isDurationEstimated() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DAYS is Duration Estimated attribute:true
 
 ```

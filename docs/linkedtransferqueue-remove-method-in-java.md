@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.remove(Object o)
 ```
 
@@ -18,7 +18,7 @@ LinkedTransferQueue.remove(Object o)
 
 **程序 1:** 队列中存在要删除的元素。
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of LinkedTransferQueue 
 
@@ -55,7 +55,7 @@ class LinkedTransferQueueRemoveExample1 {
 
 **输出:**
 
-```
+```java
 The elements in the queue are:
 1 2 3 4 5 
 Remaining elements in queue : 
@@ -65,7 +65,7 @@ Remaining elements in queue :
 
 **程序 2:** 要删除的元素不在队列中。
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of LinkedTransferQueue 
 
@@ -102,7 +102,7 @@ class LinkedTransferQueueRemoveExample2 {
 
 **输出:**
 
-```
+```java
 The elements in the queue are:
 10 11 12 13 14 15 
 Remaining elements in queue : 

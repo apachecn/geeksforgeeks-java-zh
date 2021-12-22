@@ -36,7 +36,7 @@ UUID 的结构
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Generating node()
 // value for time based UUID
 
@@ -60,7 +60,7 @@ public class UUIDMain {
 
 **Output**
 
-```
+```java
 Node value: 55075465998336
 UUID Version : 1
 ```
@@ -73,7 +73,7 @@ UUID Version : 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for generating Name based UUID
 
 import java.util.UUID;
@@ -97,7 +97,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 UUID : 5289df73-7df5-3326-bcdd-22597afb1fac
 UUID Version : 3
 ```
@@ -117,7 +117,7 @@ UUID Version : 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get System UUID Number for linux Machine
 // (Root User Login is Req for running the code)
 

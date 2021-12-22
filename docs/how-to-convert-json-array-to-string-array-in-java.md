@@ -10,7 +10,7 @@
 
 **1。定义数组**
 
-```
+```java
 JSONArray exampleArray = new JSONArray();
 ```
 
@@ -20,7 +20,7 @@ JSONArray exampleArray = new JSONArray();
 
 我们现在向数组中添加一些示例数据。
 
-```
+```java
 exampleArray.put("Geeks ");
 exampleArray.put("For ");
 exampleArray.put("Geeks ");
@@ -38,7 +38,7 @@ exampleArray.put("Geeks ");
 
 让我们从创建一个列表开始。
 
-```
+```java
 List<String> exampleList = new ArrayList<String>();
 ```
 
@@ -46,7 +46,7 @@ List<String> exampleList = new ArrayList<String>();
 
 我们可以循环遍历 JSON 数组，将所有元素添加到我们的列表中。
 
-```
+```java
 for(int i=0; i< exampleArray.length; i++){
     exampleList.add(exampleArray.getString(i));
 }
@@ -58,7 +58,7 @@ for(int i=0; i< exampleArray.length; i++){
 
 我们将使用 [<u>toArray()</u>](https://www.geeksforgeeks.org/arraylist-toarray-method-in-java-with-examples/) 方法将列表转换为字符串数组。
 
-```
+```java
 int size = exampleList.size();
 String[] stringArray = exampleList.toArray(new String[size]);
 ```
@@ -69,7 +69,7 @@ String[] stringArray = exampleList.toArray(new String[size]);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // importing the packages
 import java.util.*;
 import org.json.*;
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Given JSON array: ["Geeks ","For ","Geeks "]
 Output String array will be : Geeks For Geeks
 ```

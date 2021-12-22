@@ -6,7 +6,7 @@ flip()方法有两个**变体。本文对所有这些进行了如下描述:**
 
 ****1。flip(int 值):**此方法移除参数中指定的值。**
 
-```
+```java
 **public void flip(int value)**
 
 **Parameters :** 
@@ -14,7 +14,7 @@ flip()方法有两个**变体。本文对所有这些进行了如下描述:**
 **Return Value**This method does not return a value. 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of flip(int value) in Bitset
 
@@ -47,14 +47,14 @@ public class Flip1 {
 
 **输出:**
 
-```
+```java
 The original bitset is : {0, 1, 2, 3}
 The flipped bitset is : {0, 1, 3} 
 ```
 
 ****2。flip(int fromnum，int tonum) :** 此方法将从指定 fromnum(包括)到指定 tonum(不包括)的每个位设置为其当前值的补码，即**移除 fromnum 到 tonum-1 的值**。**
 
-```
+```java
 **public void flip(int fromnum,int tonum)**
 **Parameters :** 
 **fromnum : ** start number to begin flipping.
@@ -63,7 +63,7 @@ The flipped bitset is : {0, 1, 3}
 This method does not return a value. 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of flip(int fromnum, int tonum) in Bitset
 
@@ -96,7 +96,7 @@ public class Flip2 {
 
 **输出:**
 
-```
+```java
 The original bitset is : {0, 1, 2, 3}
 The flipped bitset is : {0, 3} 
 ```

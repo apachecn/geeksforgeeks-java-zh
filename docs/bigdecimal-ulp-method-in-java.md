@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal ulp()
 
 ```
@@ -20,7 +20,7 @@ public BigDecimal ulp()
 
 **示例:**
 
-```
+```java
 Input: 4.25
 Output: 0.01
 
@@ -31,7 +31,7 @@ Output: 1
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```java
 // Program to illustrate the ulp() method of BigDecimal 
 
 import java.math.*;
@@ -58,7 +58,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 ULP value of 1789 is 1
 ULP value of 4.25 is 0.01
 
@@ -66,7 +66,7 @@ ULP value of 4.25 is 0.01
 
 **程序 2:**
 
-```
+```java
 // Program to illustrate the ulp() method of BigDecimal 
 
 import java.math.*;
@@ -93,7 +93,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 ULP value of 78645 is 1
 ULP value of 4.252547 is 0.000001
 

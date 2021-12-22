@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -16,7 +16,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.hashCode() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashCode value: -683539878
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.hashCode() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Instant: 2018-11-27T04:45:52.428Z
 hashCode value: 1896457472
 

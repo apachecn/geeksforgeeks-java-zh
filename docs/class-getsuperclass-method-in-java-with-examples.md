@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Class<T> getSuperclass()
 
 ```
@@ -19,7 +19,7 @@ public Class<T> getSuperclass()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getSuperclass() method
 
 public class Test {
@@ -43,7 +43,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Superclass of myClass: class java.lang.Object
 
@@ -51,7 +51,7 @@ Superclass of myClass: class java.lang.Object
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getSuperclass() method
 
 public class Test {
@@ -75,7 +75,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Superclass of arrClass: class java.lang.Object
 
 ```

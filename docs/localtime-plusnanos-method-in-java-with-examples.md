@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime plusNanos(long nanosecondsToAdd)
 
 ```
@@ -19,7 +19,7 @@ public LocalTime plusNanos(long nanosecondsToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.plusNanos() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime before add: 19:34:50.630
 LocalTime after add: 19:34:50.664
 
@@ -57,7 +57,7 @@ LocalTime after add: 19:34:50.664
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.plusNanos() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime before add: 01:00:01
 LocalTime after add: 01:00:00.028800
 

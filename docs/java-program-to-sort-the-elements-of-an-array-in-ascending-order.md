@@ -39,7 +39,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort Elements of an Array
 // in Ascending Order
 
@@ -109,7 +109,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Elements of original array: -5 -9 8 12 1 3 
 Elements of array sorted in ascending order: 
 -9 -5 1 3 8 12 
@@ -124,7 +124,7 @@ sort()方法是一个 java.util.Arrays 类方法，用于对数组元素进行�
 
 **语法:**
 
-```
+```java
 Arrays.sort(arrayName);
 ```
 
@@ -136,7 +136,7 @@ Arrays.sort(arrayName);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to sort the elements of an array
 // in Ascending Order by Inbuilt Methods
 
@@ -175,7 +175,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Elements of original array: -5 -9 8 12 1 3 
 Elements of array sorted in ascending order : [-9, -5, 1, 3, 8, 12]
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: String = "Geeks For Geeks"
 Output: List = [Geeks, For, Geeks]
 
@@ -19,7 +19,7 @@ Output: List = [G, e, e, k, s]
 
 *   **创建不可修改列表** :
 
-    ```
+    ```java
     // Java program to convert String
     // to comma separated List
 
@@ -51,7 +51,7 @@ Output: List = [G, e, e, k, s]
 
     **输出:**
 
-    ```
+    ```java
     String: Geeks For Geeks
     Comma separated List: [Geeks, For, Geeks]
 
@@ -59,7 +59,7 @@ Output: List = [G, e, e, k, s]
 
 *   **创建可修改列表** :
 
-    ```
+    ```java
     // Java program to convert String
     // to comma separated List
 
@@ -93,7 +93,7 @@ Output: List = [G, e, e, k, s]
 
     **输出:**
 
-    ```
+    ```java
     String: Geeks For Geeks
     Comma separated List: [Geeks, For, Geeks]
 

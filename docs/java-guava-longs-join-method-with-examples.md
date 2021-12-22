@@ -21,7 +21,7 @@
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.join() method
 
@@ -47,14 +47,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2#4#6#8#10
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.join() method
 
@@ -80,7 +80,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3*5*7*9*11
 
 ```

@@ -8,7 +8,7 @@ chart 类的 offsetByCodePoints(char[] a，int start，int count，int index，i
 
 **语法:**
 
-```
+```java
 public static int offsetByCodePoints(char[] a, int start, int count, int index,
 int codePointOffset)
 ```
@@ -30,7 +30,7 @@ int codePointOffset)
 
 下面的程序说明了 Character.offsetByCodePoints()方法:
 
-```
+```java
 //Java program for offsetByCodePoints() method
 import java.lang.*;
 public class gfg {
@@ -55,7 +55,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 The index within the subarray is 3
 
 ```

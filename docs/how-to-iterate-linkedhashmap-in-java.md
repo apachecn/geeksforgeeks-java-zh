@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 linked_hash_map.keySet()
 ```
 
@@ -26,7 +26,7 @@ linked_hash_map.keySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to iterate through LinkedHashMap using 
 // keySet() and get() Method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 One -- First element
 Two -- Second element
 Three -- Third element
@@ -71,7 +71,7 @@ Three -- Third element
 
 **语法:**
 
-```
+```java
 Linkedhash_map.entrySet()
 ```
 
@@ -81,7 +81,7 @@ Linkedhash_map.entrySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to iterate over linkedHashMap using
 // entrySet() and iterator
 
@@ -124,7 +124,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 LinkedHashMap entries : 
 One=First element
 Two=Second element

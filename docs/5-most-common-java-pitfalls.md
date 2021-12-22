@@ -9,7 +9,7 @@ Java 字符串类是不可变的*(不可修改)*。这是因为字符串对象�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Main {
     public static void main(String[] args)
     {
@@ -26,7 +26,7 @@ public class Main {
 }
 ```
 
-```
+```java
 Output : GeeksFor 
  GeeksForGeeks
 ```
@@ -46,7 +46,7 @@ Java 中运算符的求值顺序似乎是从左到右求值，副作用瞬间可
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class Main {
     public static void main(String[] args)
     {
@@ -64,7 +64,7 @@ public class Main {
 }
 ```
 
-```
+```java
 **Output : 0** 
  **1** 
 ```
@@ -86,7 +86,7 @@ public class Main {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class Main {
     public static void main(String[] args)
     {
@@ -109,7 +109,7 @@ public class Main {
 }
 ```
 
-```
+```java
 **Output : The value inside the object instances match!** 
  **Both objects point to the same memory location!** 
 ```
@@ -118,7 +118,7 @@ public class Main {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class Main {
     public static void main(String[] args)
     {
@@ -135,7 +135,7 @@ public class Main {
 }
 ```
 
-```
+```java
 **Output : The two strings are the same!** 
 ```
 
@@ -146,7 +146,7 @@ public class Main {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class Main {
     public static void main(String[] args)
     {
@@ -163,7 +163,7 @@ public class Main {
 }
 ```
 
-```
+```java
 **Output : 200**
  **400**
 **Exception in thread "main" java.lang.ClassCastException:** 
@@ -172,7 +172,7 @@ public class Main {
 
 **可以通过定义列表的一般类型来防止这个问题:**
 
-```
+```java
 **List geeksList = new ArrayList<string>();</string>**
 ```
 

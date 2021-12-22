@@ -9,7 +9,7 @@
 每个适当实现 Iterable 接口的类都可以用在增强的 For 循环(For-每个循环)中。设计定制数据结构时，需要实现迭代器接口。
 例:
 
-```
+```java
 for(Item item: customDataStructure) {
     // do stuff
 }
@@ -25,7 +25,7 @@ for(Item item: customDataStructure) {
 
 我们可以将伪代码概括如下:
 
-```
+```java
 class CustomDataStructure implements Iterable<> {
 
     // code for data structure
@@ -61,7 +61,7 @@ class CustomIterator<> implements Iterator<> {
     要实现迭代器，我们需要一个光标或指针来跟踪我们当前在哪个元素上。根据底层的数据结构，我们可以从一个元素前进到另一个元素。这是在 next()方法中完成的，该方法返回当前元素，光标前进到下一个元素。
     在推进指针之前，我们检查下一个元素是否存在。也就是说，我们可以将幕后代码图形化如下:
 
-    ```
+    ```java
     While(iterator.hasNext()) { //if next element exists
         next(); // advance the pointer
     }
@@ -80,7 +80,7 @@ class CustomIterator<> implements Iterator<> {
 
 然后创建必要的自定义类“列表迭代器”，它将实现迭代器接口，同时还将实现 hasNext()和 Next()的功能。这两个函数构成了 Iterable 和 Iterator 接口的核心。
 
-```
+```java
 import java.util.Iterator;
 
 // Custom Linked List class using Generics
@@ -202,7 +202,7 @@ class Main {
 
 **Output:**
 
-```
+```java
 abc
 mno
 pqr

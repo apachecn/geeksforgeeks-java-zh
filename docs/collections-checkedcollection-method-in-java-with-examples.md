@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static  Collection 
 checkedCollection(Collection c, Class type)
 ```
@@ -24,7 +24,7 @@ checkedCollection(Collection c, Class type)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // checkedCollection() method
 // for String value
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 List: [CSS, PHP, HTML, TajMahal]
 Typesafe view of List: [CSS, PHP, HTML, TajMahal]
 ```
@@ -93,7 +93,7 @@ Typesafe view of List: [CSS, PHP, HTML, TajMahal]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate checkedCollection() method
 // of Collection class for an Integer value
 
@@ -148,7 +148,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 List: [20, 30, 40, 50]
 Typesafe view of List: [20, 30, 40, 50]
 ```

@@ -20,7 +20,7 @@ A [PriorityQueue](https://www.geeksforgeeks.org/priority-queue-class-in-java-2/)
 
 优先级队列类继承队列接口及其所有方法。优先级队列应用编程接口实现了可序列化、可迭代、集合和队列，这可以从下面显示的架构中感知到。
 
-```
+```java
 Serializable, Iterable<E>, Collection<E>, Queue<E>
 ```
 
@@ -28,7 +28,7 @@ Serializable, Iterable<E>, Collection<E>, Queue<E>
 
 **语法:**
 
-```
+```java
 public class PriorityQueue<E> extends AbstractQueue<E> implements Serializable
 ```
 
@@ -59,7 +59,7 @@ public class PriorityQueue<E> extends AbstractQueue<E> implements Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement Priority Queue API
 
 // Importing all classes from java.util package
@@ -160,7 +160,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 PriorityQueue Head:12
 
 PriorityQueue contents:

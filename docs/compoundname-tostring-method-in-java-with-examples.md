@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -18,7 +18,7 @@ public String toString()
 下面的程序说明了 CompoundName.toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.toString()
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 toString: 1@2@3@4@5@6@7
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.toString() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompoundName:c/e/d/v/a/b/z/y/x/f
 
 ```

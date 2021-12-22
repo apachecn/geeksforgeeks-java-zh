@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final List<Object> toList()
 ```
 
 **语法:**
 
-```
+```java
 List<Object> list = TupleClassObject.toList()
 ```
 
@@ -24,7 +24,7 @@ List<Object> list = TupleClassObject.toList()
 
 **程序 1:** 使用 toList()和单元类:
 
-```
+```java
 // Below is a Java program to use toList() method
 
 import java.util.*;
@@ -47,13 +47,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [GeeksforGeeks]
 ```
 
 **程序 2:** 使用 toList()配合四重奏类:
 
-```
+```java
 // Below is a Java program to use toList() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [, GeeksforGeeks, A computer portal, 20.18]
 ```
 

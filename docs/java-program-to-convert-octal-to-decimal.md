@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert 
 // octal number to decimal using
 // Integer.parseInt()
@@ -48,7 +48,7 @@ public static void main(String args[])
 
 **Output**
 
-```
+```java
 Decimal equivalent of Octal value 157 is: 111
 ```
 
@@ -66,7 +66,7 @@ Decimal equivalent of Octal value 157 is: 111
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert octal
 // to decimal number using custom code
 
@@ -109,6 +109,6 @@ public class Main {
 
 **Output**
 
-```
+```java
 Decimal of Octal Number (167) : 119
 ```

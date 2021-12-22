@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setExponentSeparator(
             String exponentSeparator)
 
@@ -20,7 +20,7 @@ public void setExponentSeparator(
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -51,7 +51,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current String used for exponent separator: E
 Updated String used for exponent separator: *
 

@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public BigDecimal multiply(*BigDecimal multiplicand*)
 
     ```
@@ -18,7 +18,7 @@
     下面的程序说明了上述方法的工作:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate the
     // multiply() method
 
@@ -44,14 +44,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Multiplication is 769.640
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate the
     // multiply() method
 
@@ -77,7 +77,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Multiplication is -769.640
 
     ```
@@ -86,7 +86,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public BigDecimal multiply(*BigDecimal multiplicand, MathContext mc*)
 
     ```
@@ -102,7 +102,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate the
     // multiply() method
     import java.math.*;
@@ -130,14 +130,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Multiplication is 27.55
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate the
     // multiply() method
     import java.math.*;
@@ -165,7 +165,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Multiplication is -27.55
 
     ```

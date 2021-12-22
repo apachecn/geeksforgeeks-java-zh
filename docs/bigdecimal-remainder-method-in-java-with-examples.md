@@ -15,7 +15,7 @@ Java 中有两种余数方法重载，如下所示:
 
 **语法:**
 
-```
+```java
 public BigDecimal remainder(BigDecimal divisor)
 
 ```
@@ -28,7 +28,7 @@ public BigDecimal remainder(BigDecimal divisor)
 
 下面的程序用来说明 BigDecimal 的余数()方法。
 
-```
+```java
 // Java program to demonstrate
 // remainder() method of BigDecimal
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 373
 
 ```
@@ -78,7 +78,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public BigDecimal remainder(BigDecimal divisor, MathContext mc)
 
 ```
@@ -94,7 +94,7 @@ public BigDecimal remainder(BigDecimal divisor, MathContext mc)
 
 下面的程序是用来说明 BigDecimal 的余数()方法的。
 
-```
+```java
 // Java program to demonstrate
 // remainder() method of BigDecimal
 
@@ -137,7 +137,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 58
 
 ```

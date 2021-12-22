@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // working of a List with ArrayList
 // class
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [Geeks, for, Geeks]
 ```
 
@@ -59,19 +59,19 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 new ArrayList();
 ```
 
 这只是在堆内存中创建新内存。为了访问对象，我们需要一个引用变量，因为这是面向对象编程中的一个经验法则。
 
-```
+```java
 ArrayList obj = new ArrayList();
 ```
 
 到目前为止，我们只创建了一个对象，但是没有定义数组列表对象中会有什么类型的元素。所以像往常一样，我们将使用标识符来传递字符串类型、整数类型、两者或一些其他类型。如下图所示。
 
-```
+```java
 ArrayList<Integer> obj = new ArrayList<>();
 ArrayList<String> obj = new ArrayList<>();
 ```
@@ -84,7 +84,7 @@ ArrayList<String> obj = new ArrayList<>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate
 // Working of an ArrayList class
 
@@ -122,7 +122,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [Geeks, for, Geeks]
 [Geeks, Hi, for, Geeks]
 ```

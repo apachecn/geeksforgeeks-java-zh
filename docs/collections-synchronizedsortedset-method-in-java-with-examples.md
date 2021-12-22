@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> SortedSet<T>
   synchronizedSortedSet(SortedSet<T> s)
 ```
@@ -19,7 +19,7 @@ public static <T> SortedSet<T>
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedSortedSet() method
 // for <String> Value
@@ -64,7 +64,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Sorted Set : [A, B, C, D]
 Sorted set is : [A, B, C, D]
 
@@ -72,7 +72,7 @@ Sorted set is : [A, B, C, D]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // synchronizedSortedSet() method
 // for <Integer> Value
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Sorted Set : [10, 20, 30, 40]
 Sorted set is : [10, 20, 30, 40]
 

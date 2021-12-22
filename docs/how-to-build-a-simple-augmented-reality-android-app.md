@@ -98,7 +98,7 @@ Sceneform 1.16.0 仅支持 **glTF** 文件。通用传输格式是指通用传�
 
 ## 可扩展标记语言
 
-```
+```java
 <!--This permits the user to access Camera-->
 <uses-permission android:name="android.permission.CAMERA" />
 
@@ -115,7 +115,7 @@ Sceneform 1.16.0 仅支持 **glTF** 文件。通用传输格式是指通用传�
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- ARCore need to be installed, as the app does not include any non-AR features.
      For an "AR Optional" app, specify "optional" instead of "required".-->
 <meta-data android:name="com.google.ar.core" android:value="required" />
@@ -125,7 +125,7 @@ Sceneform 1.16.0 仅支持 **glTF** 文件。通用传输格式是指通用传�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wheic.arapp">

@@ -18,7 +18,7 @@ Java 中的 [树形图](https://www.geeksforgeeks.org/treemap-in-java/) 与抽�
 
 **语法:**
 
-```
+```java
 Tree_Map.put(*key, value*)
 ```
 
@@ -33,7 +33,7 @@ Tree_Map.put(*key, value*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program  to replace a value for 
 // the given key in the TreeMap
 
@@ -63,7 +63,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 dsa , 99
 fang , 99
 interview , 98
@@ -76,7 +76,7 @@ interview , 98
 
 **语法:**
 
-```
+```java
 public V replace(K key, V value)
 ```
 
@@ -94,7 +94,7 @@ public V replace(K key, V value)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program  to replace a value 
 // for the given key in the TreeMap
 
@@ -123,7 +123,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 dsa , 100
 fang , 80
 interview , 98
@@ -135,7 +135,7 @@ interview , 98
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program  to replace a value 
 // for the given key in the TreeMap
 
@@ -164,7 +164,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 dsa , 99
 fang , 80
 interview , 50

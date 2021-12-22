@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double sumThenReset()
 
 ```
@@ -19,7 +19,7 @@ public double sumThenReset()
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the sumThenReset() method
 
 import java.lang.*;
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after sum is: 52.0
 the current value is: 0.0
 
@@ -59,7 +59,7 @@ the current value is: 0.0
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the sumThenReset() method
 
 import java.lang.*;
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after sum is: 254.0
 the current value is: 0.0
 

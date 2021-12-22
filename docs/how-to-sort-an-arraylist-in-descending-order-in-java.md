@@ -16,13 +16,13 @@
 
 **语法:**
 
-```
+```java
 Collections.sort(ArrayList, Collections.reverseOrder());
 ```
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to demonstrate
 // How to sort ArrayList in descending order
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Unsorted ArrayList: [Geeks, For, ForGeeks, GeeksForGeeks, A computer portal]
 Sorted ArrayList in Descending order : [GeeksForGeeks, Geeks, ForGeeks, For, A computer portal]
 

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input:    164
 Output: This person has Average height
 
@@ -19,7 +19,7 @@ Output: This person is taller
 
 ## Java
 
-```
+```java
 // Java Program to Categorize Taller,
 // Dwarf and Average by Height of a Person
 
@@ -47,7 +47,7 @@ class Height_classifier {
 
 **输出**
 
-```
+```java
 This person is Taller
 
 ```

@@ -21,7 +21,7 @@ JLabel 是 java Swing 的一个类。JLabel 用于显示短字符串或图像图
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a
 // blank label and add text to it.
 import java.awt.event.*;
@@ -77,7 +77,7 @@ class text extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a new label
 // using constructor - JLabel(String s)
 import java.awt.event.*;
@@ -130,7 +130,7 @@ class text extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create  a label
 // and add image to it .
 import java.awt.event.*;
@@ -187,7 +187,7 @@ class text extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to add a image and string
 // to a label with horizontal alignment
 import java.awt.event.*;

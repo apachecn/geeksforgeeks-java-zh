@@ -6,7 +6,7 @@ java . util . GregorianCalendar . getgreateestminimum()方法是 Java 中的内�
 
 **语法:**
 
-```
+```java
 public int getGreatestMinimum(*int calendarfield*)
 ```
 
@@ -16,7 +16,7 @@ public int getGreatestMinimum(*int calendarfield*)
 
 **示例:**
 
-```
+```java
 Input : DAY_OF_MONTH
 Output : 1
 
@@ -28,7 +28,7 @@ Output : 0
 下面的程序说明了 Java . util . gregoriancalendar . getgreatestmaximum()函数的工作原理:
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate getGreatestMinimum()
 
 import java.io.*;
@@ -62,7 +62,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Wed Aug 01 07:21:14 UTC 2018
 Greatest Minimum for WEEK_OF_MONTH field :0
 Greatest Minimum for DAY_OF_MONTH field:1
@@ -71,7 +71,7 @@ Greatest Minimum for DAY_OF_MONTH field:1
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate getGreatestMinimum()
 
 import java.io.*;
@@ -105,7 +105,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Current Date and Time : Wed Aug 01 07:21:16 UTC 2018
 Greatest Minimum for YEAR field :1
 Greatest Minimum for HOUR_OF_DAY field:0

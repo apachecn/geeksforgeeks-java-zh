@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean addAll(Collection<? extends E> c)
 ```
 
@@ -23,7 +23,7 @@ public boolean addAll(Collection<? extends E> c)
 
 **示例 1:** 试图向 ConcurrentLinkedQueue 添加数字列表。
 
-```
+```java
 // Java Program Demonstrate addAll()
 // method of ConcurrentLinkedQueue
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353]
 Collection to be added: [377139, 624378, 654793, 764764, 838494, 632845]
 Collection added: true
@@ -82,7 +82,7 @@ ConcurrentLinkedQueue: [4353, 377139, 624378, 654793, 764764, 838494, 632845]
 
 **示例 2:** 试图向 ConcurrentLinkedQueue 添加字符串列表。
 
-```
+```java
 // Java Program Demonstrate addAll()
 // method of ConcurrentLinkedQueue
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar]
 Collection to be added: [Sanjeet, Rabi, Debasis, Raunak, Mahesh]
 Collection added: true
@@ -142,7 +142,7 @@ ConcurrentLinkedQueue: [Aman, Amar, Sanjeet, Rabi, Debasis, Raunak, Mahesh]
 
 **示例 3:** 显示**空指针异常**
 
-```
+```java
 // Java Program Demonstrate addAll()
 // method of ConcurrentLinkedQueue
 
@@ -184,7 +184,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar]
 Collection to be added: null
 Exception thrown while adding null: java.lang.NullPointerException
@@ -193,7 +193,7 @@ Exception thrown while adding null: java.lang.NullPointerException
 
 **示例 4:** 显示 IllegalArgumentException
 
-```
+```java
 // Java Program Demonstrate addAll()
 // method of ConcurrentLinkedQueue
 
@@ -229,7 +229,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar]
 Exception thrown 
  while adding queue to itself

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int compare(double a, double b)
 
 ```
@@ -28,7 +28,7 @@ public static int compare(double a, double b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Doubles.compare() method
 
@@ -53,14 +53,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 4.0 and 4.0 : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Doubles.compare() method
 
@@ -85,14 +85,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 5.6 and 4.2 : 1
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Doubles.compare() method
 
@@ -117,7 +117,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 3.6 and 7.4 : -1
 
 ```

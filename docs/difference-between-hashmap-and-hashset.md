@@ -27,7 +27,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate working of HashSet
 
 // Importing HashSet class from java.util package
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before adding duplicate values 
 
 [practice, geeks, contribute]
@@ -88,7 +88,7 @@ After adding null values
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 import java.util.HashMap;
 
 public class HashMapExample {
@@ -116,7 +116,7 @@ public class HashMapExample {
 
 **Output:** 
 
-```
+```java
 HashMap object output :
 
 {2=practice, 7=contribute, 12=geeks}
@@ -139,7 +139,7 @@ After inserting duplicate key :
 
 让我们以一个例子结束
 
-```
+```java
 HashSet is a set, e.g. {1, 2, 3, 4, 5, 6, 7},
 HashMap is a key -> value pair(key to value) map, e.g. {a -> 1, b -> 2, c -> 2, d -> 1}
 ```

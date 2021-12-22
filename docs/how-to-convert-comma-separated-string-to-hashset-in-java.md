@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Set<String> = ["Geeks", "ForGeeks", "GeeksForGeeks"]
 Output: "Geeks, For, Geeks"
 
@@ -24,7 +24,7 @@ Output: "G, e, e, k, s"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert comma 
 // separated string to HashSet
 
@@ -54,7 +54,7 @@ public class StringToHashSetExample {
 
 **Output**
 
-```
+```java
 HashSet contains: [1, 2, 3, 4, 5]
 ```
 
@@ -64,7 +64,7 @@ HashSet contains: [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert comma
 // separated string to HashSet
 
@@ -90,6 +90,6 @@ public class StringToHashSetExample {
 
 **Output**
 
-```
+```java
 HashSet contains: [1, 2, 3, 4, 5]
 ```

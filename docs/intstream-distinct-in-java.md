@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 IntStream distinct()
 
 Where, IntStream is a sequence of 
@@ -17,7 +17,7 @@ primitive int-valued elements.
 下面给出了一些例子来更好地理解这个函数。
 **例 1 :** 打印整数流的不同元素。
 
-```
+```java
 // Java code for IntStream distinct()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -40,7 +40,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2
 3
 5
@@ -51,7 +51,7 @@ class GFG {
 
 **示例 2 :** 计算流中不同元素的值。
 
-```
+```java
 // Java code for IntStream distinct() method
 // to count the number of distinct 
 // elements in given stream
@@ -78,7 +78,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5
 
 ```

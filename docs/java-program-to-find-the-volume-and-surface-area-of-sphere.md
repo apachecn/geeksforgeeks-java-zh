@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input:     radius = 5
 Output:    Surface Area ≈ 314.16
            Volume ≈ 523.6
@@ -34,7 +34,7 @@ Output:    Surface Area ≈ 113.1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Volume and Surface Area of
 // Sphere
 class surfaceareaandvolume {
@@ -54,7 +54,7 @@ class surfaceareaandvolume {
 
 **Output**
 
-```
+```java
 surfacearea of sphere =314.0
 volume of sphere =523.3333333333334
 ```

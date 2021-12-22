@@ -8,13 +8,13 @@ JSON 通常用于在网络服务器之间来回交换数据。这里的关键点
 
 插图:
 
-```
+```java
 {"Geeks", "NIT", "Male", "30"}
 ```
 
 这个数据由 JSON 解析器作为一个 JavaScript 对象返回，因此它变成如下所示:
 
-```
+```java
 const object = JSON.parse({"Geeks", "NIT", "Male", "30"}) ;
 ```
 
@@ -24,7 +24,7 @@ const object = JSON.parse({"Geeks", "NIT", "Male", "30"}) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement JSON Parser
 
 // Importing required classes
@@ -305,7 +305,7 @@ public class Parser {
 
 **Output**
 
-```
+```java
 English marks - 85
 Physics marks - 80
 Chemistry marks - 75

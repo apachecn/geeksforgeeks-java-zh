@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public HijrahDate date(TemporalAccessor temporal)
 ```
 
@@ -18,7 +18,7 @@ public HijrahDate date(TemporalAccessor temporal)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahDate is: Hijrah-umalqura AH 1440-02-16
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahDate is: Hijrah-umalqura AH 1440-04-23
 
 ```

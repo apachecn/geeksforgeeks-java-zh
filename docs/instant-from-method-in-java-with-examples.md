@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Instant
     from(TemporalAccessor temporal)
 
@@ -22,7 +22,7 @@ public static Instant
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.from() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime: 2018-11-27T04:58:47.691Z[Etc/UTC]
 Instant: 2018-11-27T04:58:47.691Z
 
@@ -61,7 +61,7 @@ Instant: 2018-11-27T04:58:47.691Z
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.from() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OffsetDateTime: 2018-11-27T04:58:50.588Z
 Instant: 2018-11-27T04:58:50.588Z
 

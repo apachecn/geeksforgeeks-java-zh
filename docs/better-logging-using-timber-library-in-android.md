@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Application;
 
 public class LogApplication extends Application {
@@ -30,7 +30,7 @@ public class LogApplication extends Application {
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
@@ -83,7 +83,7 @@ ProGuard 用于清除未使用的代码。在这里，我们可以使用它来�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Application;
 import timber.log.Timber;
 
@@ -100,7 +100,7 @@ public class MyTimber extends Application {
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import timber.log.Timber
@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     <application
@@ -149,7 +149,7 @@ class MainActivity : AppCompatActivity() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import timber.log.Timber;
@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 我的锅
 
-```
+```java
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import timber.log.Timber

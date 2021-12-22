@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```java
 2002-05-30T09:30:10Z  
 ```
 
@@ -28,7 +28,7 @@
 
 **示例:**
 
-```
+```java
 2002-05-30T09:30:10-06:00
 2002-05-30T09:30:10+06:00
 ```
@@ -48,7 +48,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Java Date to XML DateTime String
 
 import java.text.SimpleDateFormat;
@@ -145,6 +145,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2021-02-23T10:38:30+00:00
 ```

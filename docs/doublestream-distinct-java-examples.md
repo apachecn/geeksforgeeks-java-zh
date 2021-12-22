@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream distinct()
 
 Where, DoubleStream is a sequence of 
@@ -16,7 +16,7 @@ primitive long-valued elements.
 
 **例 1 :** 打印双流的不同元素。
 
-```
+```java
 // Java code for DoubleStream distinct()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -39,7 +39,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2.2
 3.3
 5.6
@@ -50,7 +50,7 @@ class GFG {
 
 **例 2 :** 双流中不同元素的计数值。
 
-```
+```java
 // Java code for DoubleStream distinct() method
 // to count the number of distinct
 // elements in given stream
@@ -79,7 +79,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isLocalClass()
 
 ```
@@ -19,7 +19,7 @@ public boolean isLocalClass()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate isLocalClass() method
 
 public class Test {
@@ -43,7 +43,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Is Test an localClass: false
 
@@ -51,7 +51,7 @@ Is Test an localClass: false
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate isLocalClass() method
 
 public class Test {
@@ -76,7 +76,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Is A an localClass: true
 
 ```

@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to rotate bits 
 // of number
 class GFG 
@@ -60,7 +60,7 @@ Right Rotation of " + n +
 
 **输出:**
 
-```
+```java
 Left Rotation of 16 by 2 is 64
 Right Rotation of 16 by 2 is 4
 ```
@@ -69,7 +69,7 @@ Right Rotation of 16 by 2 is 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -96,7 +96,7 @@ static void rotate(int N, int D)
 
 Output:
 
-```
+```java
 Left Rotation of 28 by 2 is 112
 Right Rotation of 28 by 2 is 7
 ```

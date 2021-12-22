@@ -32,7 +32,7 @@
         *注意:每个请求总会有一个套接字、输入流和输出流的三元组。这确保了这个类的每个对象都在一个特定的流上写，而不是在多个流上写。*
     3.  在该类的 **run()** 方法内部，它执行三个操作:请求用户指定是否需要时间或日期，从输入流对象中读取答案，并相应地将输出写入输出流对象。
 
-```
+```java
 // Java implementation of  Server side
 // It contains two classes : Server and ClientHandler
 // Save file as Server.java
@@ -167,7 +167,7 @@ class ClientHandler extends Thread 
 
 **输出**
 
-```
+```java
 A new client is connected : Socket[addr=/127.0.0.1,port=60536,localport=5056]
 Assigning new thread for this client
 Client Socket[addr=/127.0.0.1,port=60536,localport=5056] sends exit...
@@ -183,7 +183,7 @@ Connection closed
 1.  **建立插座连接**
 2.  **沟通**
 
-```
+```java
 // Java implementation for a client
 // Save file as Client.java
 
@@ -246,7 +246,7 @@ public class Client 
 
 **输出:**
 
-```
+```java
 What do you want?[Date | Time]..
 Type Exit to terminate connection.
 Date

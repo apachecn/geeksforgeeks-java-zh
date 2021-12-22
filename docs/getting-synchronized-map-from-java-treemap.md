@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```java
 public static <K, V> Map<K, V> synchronizedMap(Map<K, V> m)
 ```
 
@@ -22,7 +22,7 @@ public static <K, V> Map<K, V> synchronizedMap(Map<K, V> m)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // synchronization of TreeMap
 
@@ -78,7 +78,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Map : {1=Welcome, 2=To, 3=Geeks, 4=For, 5=Geeks}
 Synchronized map is : {1=Welcome, 2=To, 3=Geeks, 4=For, 5=Geeks}
 ```**

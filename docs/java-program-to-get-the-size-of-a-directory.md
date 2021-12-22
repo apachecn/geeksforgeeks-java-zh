@@ -12,7 +12,7 @@ Java 中文件的大小可以使用 File 类获得。“fileName.length()”的�
 
 **语法:**
 
-```
+```java
 java.io.File file = new java.io.File("file_name.txt");
 file.length();
 ```
@@ -26,7 +26,7 @@ file.length();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Get the size of a directory
 
 import java.io.File;

@@ -11,7 +11,7 @@ T2**大十进制。toString()** 方法用于表示当前的 BigDecimal，通过�
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -26,7 +26,7 @@ public String toString()
 
 **示例 1:** 将大十进制转换为不带科学符号的字符串的示例
 
-```
+```java
 // Java program to demonstrate
 // toString() method of BigDecimal
 
@@ -86,7 +86,7 @@ class GFG {
 
 **示例 2:** 将大十进制转换为科学符号字符串的示例
 
-```
+```java
 // Java program to demonstrate
 // toString() method of BigDecimal
 
@@ -119,7 +119,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 4.5368E+10
 
 ```

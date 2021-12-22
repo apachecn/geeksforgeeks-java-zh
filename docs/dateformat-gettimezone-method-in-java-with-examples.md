@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public TimeZone getTimeZone()
 ```
 
@@ -17,7 +17,7 @@ public TimeZone getTimeZone()
 以下程序说明了日期格式类的 getTimeZone()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // getTimeZone() method
 
@@ -44,7 +44,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 Coordinated Universal Time
 
 ```

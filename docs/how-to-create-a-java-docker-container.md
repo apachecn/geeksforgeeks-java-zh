@@ -10,7 +10,7 @@ Java 是最流行的语言之一，支持许多企业应用程序。在本地机
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Sample{
      public static void main(String args[]){
          System.out.println("Welcome to GeeksForGeeks");
@@ -22,7 +22,7 @@ class Sample{
 
 看看下面的 *Dockerfile* 。
 
-```
+```java
 FROM java:8
 WORKDIR /var/www/java
 COPY . /var/www/java
@@ -41,7 +41,7 @@ CMD ["java", "Sample"]
 
 现在，您可以使用 Docker 构建命令来构建 Docker 映像。
 
-```
+```java
 sudo docker build -t java-demo .
 
 ```
@@ -52,7 +52,7 @@ sudo docker build -t java-demo .
 
 构建好 Docker 映像后，可以使用 Docker 运行命令运行 Docker 容器。
 
-```
+```java
 sudo docker run -it java-demo
 
 ```

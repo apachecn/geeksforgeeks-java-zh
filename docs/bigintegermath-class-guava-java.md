@@ -6,7 +6,7 @@
 
 **申报:**申报为*T3】类的是:*
 
-```
+```java
 @GwtCompatible(emulated = true)
 public final class BigIntegerMath
    extends Object
@@ -28,7 +28,7 @@ public final class BigIntegerMath
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // BigIntegerMath Class of Guava
 import java.math.*;
@@ -70,14 +70,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Error Message is : Rounding necessary
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // BigIntegerMath Class of Guava
 import java.math.*;
@@ -130,7 +130,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 Log10 is : 3
 factorial is : 5040

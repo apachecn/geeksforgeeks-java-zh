@@ -23,7 +23,7 @@ ClosePath 类是 JavaFX 的一部分。ClosePath 类通过连接指定路径的�
 *   现在将“移动到”和“线条到”对象添加到路径中。
 *   将此路径添加到 group 对象并将 Group 对象添加到场景并将场景添加到舞台并调用 *show()* 函数显示最终结果。
 
-```
+```java
 // Java program to create a path and add multiple 
 // LineTo objects to it and close the path using 
 // ClosePath object and display it

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean get()
 
 ```
@@ -19,7 +19,7 @@ public final boolean get()
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrates
 // the get() function
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current value: false
 
 ```
 
 程序二:
 
-```
+```java
 // Java Program to demonstrates
 // the get() function
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current value: true
 
 ```

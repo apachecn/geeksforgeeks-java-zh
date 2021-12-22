@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compare Streams to Loops
 
 // Importing required libraries
@@ -148,7 +148,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Integer Stream : 
 123456789
 Integer Stream with skip : 
@@ -185,7 +185,7 @@ IntSummaryStatistics{count=7, sum=203, min=2, average=29.000000, max=88}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Comparing Streams to Loops
 
 // Importing utility packages
@@ -264,7 +264,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [2000, 1500, 2500]
 ```
 

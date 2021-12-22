@@ -34,7 +34,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GFG {
 
     // Function to check if a string
@@ -80,7 +80,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 true
 
 ```

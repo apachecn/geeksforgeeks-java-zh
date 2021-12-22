@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long multiplyFull(int x, int y)
 ```
 
@@ -20,7 +20,7 @@ public static long multiplyFull(int x, int y)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // multiplyFull() method of Math class
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 367428 * 1374 = 504846072
 
 ```
 
 **程序 2:** 两个整数相乘包含整数。最大值。
 
-```
+```java
 // Java program to demonstrate
 // multiplyFull() method of Math class
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 2147483647 * 2147483647 = 4611686014132420609
 
 ```

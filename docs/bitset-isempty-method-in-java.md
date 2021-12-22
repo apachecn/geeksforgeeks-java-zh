@@ -11,7 +11,7 @@ BitSet 是 java.util 包中定义的一个类。它创建一个由布尔值表�
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -19,7 +19,7 @@ public boolean isEmpty()
 
 下面的程序说明了 isEmpty()方法位集:
 
-```
+```java
 // Java program illustrating Bitset
 // isEmpty() function.
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6}
 bs3 : {}

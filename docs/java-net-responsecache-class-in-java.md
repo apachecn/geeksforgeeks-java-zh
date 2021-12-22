@@ -52,7 +52,7 @@ java 中的 ResponseCache 用于构建 URLConnection 缓存的实现，它指定
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.IOException;
 import java.net.*;
 import java.util.HashMap;

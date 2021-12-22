@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public class RescaleOp
 extends Object
 implements BufferedImageOp, RasterOp
@@ -40,7 +40,7 @@ implements BufferedImageOp, RasterOp
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.awt.image.*;
 import java.net.*;
 import java.awt.*;
@@ -92,7 +92,7 @@ processed.png
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.awt.image.*;
 import java.net.*;
 import java.awt.*;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.peek()  
 
 ```
@@ -19,7 +19,7 @@ LinkedTransferQueue.peek()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of LinkedTransferQueue 
 
@@ -51,7 +51,7 @@ class LinkedTransferQueuePeekExample1 {
 
 **输出:**
 
-```
+```java
 The head of the queue is A
 The elements in the queue :
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -60,7 +60,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of LinkedTransferQueue 
 
@@ -91,7 +91,7 @@ class LinkedTransferQueuePeekExample2 {
 
 **输出:**
 
-```
+```java
 The head of the queue is 10
 The elements in the queue :
 10 20 30 40 50

@@ -6,7 +6,7 @@ Java 中**抽象顺序列表**的 **isEmpty()** 方法用来检查这个抽象�
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ public boolean isEmpty()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // isEmpty() method in AbstractSequentialList
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: [1, 2, 3, 4]
 Is AbstractSequentialList empty? false
 
@@ -60,7 +60,7 @@ Is AbstractSequentialList empty? false
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // isEmpty() method in AbstractSequentialList
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList: []
 Is AbstractSequentialList empty? true
 

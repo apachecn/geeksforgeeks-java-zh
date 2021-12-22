@@ -6,7 +6,7 @@ java 中的 Java . util . concurrentlinkedrequest . peek()方法用于检索或�
 
 **语法:**
 
-```
+```java
 Array_Deque.peek()
 ```
 
@@ -18,7 +18,7 @@ Array_Deque.peek()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate peek()
 
 import java.util.concurrent.*;
@@ -54,7 +54,7 @@ public class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 The element at head is: Welcome
 Final ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
@@ -63,7 +63,7 @@ Final ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate peek()
 import java.util.concurrent.*;
 
@@ -98,7 +98,7 @@ public class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ConcurrentLinkedDeque: [10, 15, 30, 20, 5]
 The element at head is: 10
 Final ConcurrentLinkedDeque: [10, 15, 30, 20, 5]
@@ -107,7 +107,7 @@ Final ConcurrentLinkedDeque: [10, 15, 30, 20, 5]
 
 **程序 3:** 对于空车:
 
-```
+```java
 // Java code to illustrate peek()
 import java.util.concurrent.*;
 
@@ -131,7 +131,7 @@ public class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: []
 The element at head is: null
 

@@ -14,7 +14,7 @@
 
 要成功运行以下程序，文件 1.txt 和文件 2.txt 必须存在于同一个文件夹中，或者为它们提供完整路径。
 
-```
+```java
 // Java program to merge two 
 // files  into third file alternatively
 
@@ -67,7 +67,7 @@ alternatively into file3.txt");
 
 输出:
 
-```
+```java
 Merged file1.txt and file2.txt into file3.txt
 
 ```

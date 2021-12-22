@@ -12,7 +12,7 @@
 
 **语法:**类声明
 
-```
+```java
 public abstract class Buffer extends Object
 ```
 
@@ -48,7 +48,7 @@ Buffer 类为以下每个缓冲区数据类型提供了一个子类，如字节�
 
 ## Java
 
-```
+```java
 // Java program to demonstrate Buffer Class
 
 // Importing required libraries
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
  The array is : [ 10 20 30 40 50 ]
 ```
 

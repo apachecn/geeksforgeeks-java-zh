@@ -8,7 +8,7 @@
 
 ## Java
 
-```
+```java
 class Hello {
 
     public static void main(String[] args)
@@ -23,7 +23,7 @@ class Hello {
 
 ## 爪哇
 
-```
+```java
 class Hello {
 
     public static void main(String[] args)
@@ -37,7 +37,7 @@ class Hello {
 
 ## Java
 
-```
+```java
 class Hello {
     public static void main(String args[])
     {
@@ -53,7 +53,7 @@ public static void func() { System.out.println("Hello"); }
 
 T5
 
-```
+```java
 class Hello {
     public static void main(String args[])
     {

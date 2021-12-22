@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public void setLevel(Level newLevel)
               throws SecurityException
 
@@ -23,7 +23,7 @@ public void setLevel(Level newLevel)
 下面的程序说明了 setLevel()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.setLevel() method
 
@@ -56,7 +56,7 @@ Eclipse 控制台上打印的输出如下所示-
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.setLevel() method
 

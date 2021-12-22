@@ -13,7 +13,7 @@
 
 **构造函数:**创建一个表示指定执行点的堆栈跟踪元素。
 
-```
+```java
 StackTraceElement(String declaringClass, 
 String methodName, String fileName, int lineNumber)
 ```
@@ -31,7 +31,7 @@ String methodName, String fileName, int lineNumber)
 
 **1。布尔等于(ob):** 如果调用的**堆栈元素**与在 **ob** 中传递的相同，则返回 try。否则返回假。
 
-```
+```java
 Syntax: public boolean equals(ob)
 Returns: true if the specified object is 
 another StackTraceElement instance representing the same execution 
@@ -41,7 +41,7 @@ Exception: NA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating equals() method
 import java.lang.*;
 import java.io.*;
@@ -65,13 +65,13 @@ public class StackTraceElementDemo
 
 输出:
 
-```
+```java
 true
 ```
 
 **2。String getClassName():** 返回调用 **StackTraceElement** 描述的执行点的类名。
 
-```
+```java
 Syntax: public String getClassName().
 Returns: the fully qualified name of the Class
 containing the execution point represented by this stack trace element.
@@ -80,7 +80,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating getClassName() method.
 import java.lang.*;
 import java.io.*;
@@ -101,7 +101,7 @@ public class StackTraceElementDemo
 
 输出:
 
-```
+```java
 Class name of each thread involved:
 java.lang.Thread
 StackTraceElementDemo
@@ -109,7 +109,7 @@ StackTraceElementDemo
 
 **3。字符串 getFileName():** 返回调用 **StackTraceElement** 描述的执行点的文件名。
 
-```
+```java
 Syntax: public String getFileName().
 Returns: the name of the file containing 
 the execution point represented by this stack trace element,
@@ -119,7 +119,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating getFileName() method.
 import java.lang.*;
 import java.io.*;
@@ -138,7 +138,7 @@ public class StackTraceElementDemo
 
 输出:
 
-```
+```java
 file name: 
 Thread.java
 StackTraceElementDemo.java
@@ -146,7 +146,7 @@ StackTraceElementDemo.java
 
 **4。int getLineNumber():** 返回调用**stacktracelement**描述的执行点的源代码行号。在某些情况下，行号将不可用，在这种情况下，将返回负值。
 
-```
+```java
 Syntax: public int getLineNumber().
 Returns: the line number of the source line 
 containing the execution point represented by this stack 
@@ -157,7 +157,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating getLineNumber() method.
 import java.lang.*;
 import java.io.*;
@@ -176,7 +176,7 @@ public class StackTraceElementDemo
 
 输出:
 
-```
+```java
 line number: 
 1556
 10
@@ -184,7 +184,7 @@ line number:
 
 **5。String getMethodName():** 返回调用 **StackTraceElement** 描述的执行点的方法名。
 
-```
+```java
 Syntax: public String getMethodName().
 Returns: the name of the method containing the 
 execution point represented by this stack trace element.
@@ -193,7 +193,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating getMethodName() method.
 import java.lang.*;
 import java.io.*;
@@ -212,7 +212,7 @@ public class StackTraceElementDemo
 
 输出:
 
-```
+```java
 method name: 
 getStackTrace
 main
@@ -220,7 +220,7 @@ main
 
 **6。int hashCode():** 返回调用 **StackTraceElement** 的哈希代码。
 
-```
+```java
 Syntax: public int hashCode().
 Returns: a hash code value for this object.
 Exception: NA.
@@ -228,7 +228,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating hashCode() method.
 import java.lang.*;
 import java.io.*;
@@ -247,7 +247,7 @@ public class StackTraceElementDemo
 
 输出:
 
-```
+```java
 hash code: 
 -1225537245
 -1314176653
@@ -255,7 +255,7 @@ hash code:
 
 **7。如果调用的**堆栈跟踪元素**描述了一个本地方法，则返回真。否则返回 false。**
 
-```
+```java
 Syntax: public boolean isNativeMethod().
 Returns: true if the method containing the execution 
 point represented by this stack trace element is a native method.
@@ -264,7 +264,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating isNativeMethod() method.
 import java.lang.*;
 import java.io.*;
@@ -283,14 +283,14 @@ public class StackTraceElementDemo
 
 输出:
 
-```
+```java
 false
 false
 ```
 
 **8。字符串 toString():** 返回调用序列的等效字符串。
 
-```
+```java
 Syntax: public String toString().
 Returns: a string representation of the object.
 Exception: NA.
@@ -298,7 +298,7 @@ Exception: NA.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code illustrating toString() method.
 import java.lang.*;
 import java.io.*;
@@ -317,7 +317,7 @@ public class StackTraceElementDemo
 
 输出:
 
-```
+```java
 String equivalent: 
 java.lang.Thread.getStackTrace
 StackTraceElementDemo.main

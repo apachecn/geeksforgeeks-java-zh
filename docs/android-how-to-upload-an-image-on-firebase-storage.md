@@ -11,7 +11,7 @@
 *   **第一步。** [在安卓工作室](https://www.geeksforgeeks.org/android-how-to-create-start-a-new-project-in-android-studio/)上创建一个新项目，或者打开一个现有项目，在其中您想要添加身份验证，[将 firebase 添加到那个安卓应用程序](https://www.geeksforgeeks.org/adding-firebase-to-android-app/)。
 *   **第二步。**在 **[build.gradle (Module:app)文件中添加火基存储依赖。](https://www.geeksforgeeks.org/android-build-gradle/)** 火基存储的最新依赖为:
 
-    ```
+    ```java
     implementation 'com.google.firebase:firebase-storage:19.1.0'
     ```
 
@@ -28,7 +28,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="https://schemas.android.com/apk/res/android"
@@ -84,7 +84,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.geeksforgeeks.uploadimagetofirebase;
 
     import android.app.ProgressDialog;

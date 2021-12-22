@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```java
 Input:
 Enter the number of Edges :
 20
@@ -76,7 +76,7 @@ The Generated Random Graph is :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Generate a Random Directed
 // Acyclic Graph for a Given Number of Edges
 
@@ -196,7 +196,7 @@ public class RandomDAG {
 
 **Output**
 
-```
+```java
 Enter the number of Edges :4
 The Generated Random Graph is :
 1 -> { Isolated Vertex! }

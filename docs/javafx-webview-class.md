@@ -43,7 +43,7 @@ WebView 类是 JavaFX 的一部分。网络视图可以创建和管理网络引�
 
 1.  **Java Program to create a WebView and load a website and display it on the stage:** In this program we will create a WebView named *webview* . We will extract WebEngine from the WebView by using *getEngine()* method. Now load a website on the engine by using *load()* function, we will set the *webview* to the scene with preferred height and preferred width and add the scene to the stage using *setScene()* method and display the stage using *show()* function.
 
-    ```
+    ```java
     // Java Program to create a WebView and load 
     // a website and display it on the stage
     import javafx.application.Application;
@@ -108,7 +108,7 @@ WebView 类是 JavaFX 的一部分。网络视图可以创建和管理网络引�
 
 2.  **Java Program to create a WebView and load a website, set the font scale, also set the zoom and display it on the stage:** In this program we will create a WebView named *webview*. We will extract WebEngine from the WebView by using *getEngine()* method. Now set the font size and the zoom of the object using the *setFontSize()* and *setZoom()* function. We will load a website on the engine by using function *load()*. Then set the webview to the scene with preferred height and preferred width and add the scene to the stage using *setScene()* method and display the stage using *show()* function.
 
-    ```
+    ```java
     // Java Program to create a WebView and load 
     // a website, set the fontscale, also set 
     // the zoom and display it on the stage

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Stream: [1, 2, 3, 4, 5]
 Output: ArrayList: [1, 2, 3, 4, 5]
 
@@ -25,7 +25,7 @@ Output: ArrayList: ['G', 'e', 'e', 'k', 's']
 
     **程序:**
 
-    ```
+    ```java
     // Java program to convert Stream to ArrayList
     // using Collectors.toList() method
 
@@ -70,7 +70,7 @@ Output: ArrayList: ['G', 'e', 'e', 'k', 's']
 
     **Output:**
 
-    ```
+    ```java
     ArrayList: [1, 2, 3, 4, 5]
 
     ```
@@ -85,7 +85,7 @@ Output: ArrayList: ['G', 'e', 'e', 'k', 's']
 
     **程序:**
 
-    ```
+    ```java
     // Java program to convert Stream to ArrayList
     // using Collectors.toList() method
 
@@ -129,7 +129,7 @@ Output: ArrayList: ['G', 'e', 'e', 'k', 's']
 
     **Output:**
 
-    ```
+    ```java
     ArrayList: [1, 2, 3, 4, 5]
 
     ```

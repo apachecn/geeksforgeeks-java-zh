@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for copying Vector to List
 // by passing in the constructor
 
@@ -55,7 +55,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -----Iterating over the List----
 11
 22
@@ -71,7 +71,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for copying one Vector to the List
 // by adding elements one by one using add() method
 
@@ -110,7 +110,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -----Iterating over the List----
 50
 24

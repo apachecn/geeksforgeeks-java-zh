@@ -6,7 +6,7 @@
 
 **示例**
 
-```
+```java
 Input - Geeks
         For
         Geeks
@@ -22,7 +22,7 @@ Output - Geeks For Geeks
 
 **语法:**
 
-```
+```java
 public String replace(char old,char new)
 ```
 
@@ -37,7 +37,7 @@ public String replace(char old,char new)
 
 ## Java
 
-```
+```java
 // Java Program to Replace All
 // Line Breaks from Strings
 
@@ -65,7 +65,7 @@ public class remove {
 
 **输出**
 
-```
+```java
 Original String with line breaks - Replace
  all
  line

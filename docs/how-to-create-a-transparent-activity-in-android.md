@@ -22,7 +22,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,7 +57,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.TransparentActivity" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -100,7 +100,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 android:theme="@style/Theme.AppCompat.Translucent"
 ```
 

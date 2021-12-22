@@ -5,7 +5,7 @@
 java.lang 的 Integer.highestOneBit()方法返回一个最多只有一个一位的整数值，该整数值位于给定 int 值的最高阶(即最左边)一位的位置。如果指定的值在其二进制补码二进制表示中没有一位，那么它返回零，只要它等于零。
 **语法:**
 
-```
+```java
 public static int highestOneBit(*int a*)
 ```
 
@@ -17,7 +17,7 @@ public static int highestOneBit(*int a*)
 
 **示例:**
 
-```
+```java
 Input: 19
 Output: Highest one bit of the given integer is = 16
 
@@ -36,7 +36,7 @@ so result = 2^4=16
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.highestOneBit() Method
 import java.lang.*;
@@ -63,7 +63,7 @@ public class HighestOneBit {
 
 **Output:** 
 
-```
+```java
 Number is = 29
 Highest one bit of the given integer is = 16
 Number is = 44
@@ -74,7 +74,7 @@ Highest one bit of the given integer is = 32
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.highestOneBit() Method
 import java.lang.*;
@@ -97,7 +97,7 @@ public class HighestOneBit {
 
 **Output:** 
 
-```
+```java
 Number is = -9
 Highest one bit of the given integer is = -2147483648
 ```
@@ -107,7 +107,7 @@ Highest one bit of the given integer is = -2147483648
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.highestOneBit() Method
 import java.lang.*;
@@ -129,7 +129,7 @@ public class HighestOneBit {
 
 **Output:** 
 
-```
+```java
 prog.java:9: error: incompatible types: possible lossy conversion from double to int
     int a = 84.22;
             ^
@@ -141,7 +141,7 @@ prog.java:9: error: incompatible types: possible lossy conversion from double to
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.highestOneBit() Method
 import java.lang.*;
@@ -163,7 +163,7 @@ public class HighestOneBit {
 
 **Output:** 
 
-```
+```java
 prog.java:9: error: incompatible types: String cannot be converted to int
     int a = "34";
             ^

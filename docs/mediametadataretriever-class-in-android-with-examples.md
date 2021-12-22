@@ -104,7 +104,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // load data file
 // filePath is of type String which holds the path of file
 MediaMetadataRetriever metaRetriever = new MediaMetadataRetriever();
@@ -139,7 +139,7 @@ metaRetriever.release();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 MediaMetadataRetriever m = new MediaMetadataRetriever();
 
 // load data file
@@ -181,7 +181,7 @@ else {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 MediaMetadataRetriever retriever = new MediaMetadataRetriever();
 retriever.setDataSource(filePath);
 
@@ -209,7 +209,7 @@ retriever.release();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 try {
     MediaMetadataRetriever mediaMetadataRetriever = new MediaMetadataRetriever();
     mediaMetadataRetriever.setDataSource(context, videoUri);

@@ -6,7 +6,7 @@
 
 **示例–**
 
-```
+```java
 Input : 153
 Output : Yes
 153 is an Armstrong number.
@@ -31,7 +31,7 @@ Output : Yes
 
 在数学数系中，**阿姆斯特朗数**是任意给定数基中的数，当它的每一位数字都与该数中的总位数相乘时，这个数就是同一个数的总和。简单来说，我们可以说一个正整数的 **n 位数**叫做一个阿姆斯壮数的**阶 n** (阶是一个数中存在的位数的总数)如果，
 
-```
+```java
 abcd... = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + .... 
 ```
 
@@ -41,7 +41,7 @@ abcd... = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + ....
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to determine whether the number is
 // Armstrong number or not
 public class Armstrong {
@@ -98,7 +98,7 @@ public class Armstrong {
 
 **Output**
 
-```
+```java
 153 : true
 1253 : false
 ```

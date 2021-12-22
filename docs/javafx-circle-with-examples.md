@@ -31,7 +31,7 @@ T5**setcentey(双 c)**
 
 1.  **Java program to create a circle by passing the coordinates of the center and radius as arguments in constructor:** This program creates a Circle indicated by the name circle( the coordinates of the center and the radius is passed as arguments). The Circle will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a Group is created, and the circle is attached. The group is attached to the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create circle by passing the
     // coordinates of the center and radius
     // as arguments in constructor
@@ -81,7 +81,7 @@ T5**setcentey(双 c)**
 
 2.  **Java program to create a circle and using the functions setCenterX, setCenterY and setRadius to set the coordinates of center and radius:** This program creates a Circle indicated by the name circle. The coordinates for the center and the radius of the circle is set using setCenterX(), setCenterY(), and setRadius function. The Circle will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a Group is created, and the circle is attached. The group is attached to the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a circle and using 
     // the functions setCenterX, setCenterY and setRadius
     // to set the coordinates of center and radius
@@ -138,7 +138,7 @@ T5**setcentey(双 c)**
 
 3.  **Java program to create a circle with specified radius and coordinates of center and also specified fill**: This program creates a Circle indicated by the name circle.The coordinates for the center and the radius of the circle is set using setCenterX(), setCenterY(), and setRadius function. .The function set Fill() is used to set the fill of the circle The Circle will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a Group is created, and the circle is attached.The group is attached to the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a circle with specified
     // radius and coordinates of center and also specified fill
     import javafx.application.Application;

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract byte get()
 ```
 
@@ -20,7 +20,7 @@ public abstract byte get()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40, 0, 0]
 
 Byte Value: 20
@@ -98,7 +98,7 @@ Next Byte Value: 30
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -166,7 +166,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 0]
 
 Byte Value: 0
@@ -182,7 +182,7 @@ Exception throws : java.nio.BufferUnderflowException
 
 ****语法:****
 
-```
+```java
 public abstract byte get(int index)
 ```
 
@@ -196,7 +196,7 @@ public abstract byte get(int index)
 
 ****实施例 1:****
 
-```
+```java
 // Java program to demonstrate
 // get(int index) method
 
@@ -269,7 +269,7 @@ public class GFG {
 
 ****Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40]
 
 Byte Value at index 0: 20
@@ -282,7 +282,7 @@ Byte Value at index 2: 40
 
 ****实施例 2:****
 
-```
+```java
 // Java program to demonstrate
 // get(int index) method
 
@@ -352,7 +352,7 @@ public class GFG {
 
 ****Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40]
 
 Byte Value at index 0: 20

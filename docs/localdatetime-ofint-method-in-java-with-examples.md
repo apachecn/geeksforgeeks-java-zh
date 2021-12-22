@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static LocalDateTime of(int year,
                                    int month,
                                    int dayOfMonth,
@@ -31,7 +31,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDateTime.of(int year, int month,
     // int dayOfMonth, int hour, int minute) method
@@ -56,14 +56,14 @@
 
     **Output:**
 
-    ```
+    ```java
     DateTime: 2020-05-13T06:30
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDateTime.of(int year, int month,
     // int dayOfMonth, int hour, int minute) method
@@ -89,7 +89,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Year: 2019
 
     ```
@@ -98,7 +98,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static LocalDateTime of(int year,
                                    int month,
                                    int dayOfMonth,
@@ -125,7 +125,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDateTime.of(int year, int month,
     // int dayOfMonth, int hour, int minute,
@@ -151,14 +151,14 @@
 
     **Output:**
 
-    ```
+    ```java
     DateTime: 2020-05-13T06:30:45
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDateTime.of(int year, int month,
     // int dayOfMonth, int hour, int minute,
@@ -185,7 +185,7 @@
 
     **Output:**
 
-    ```
+    ```java
     DayOfMonth: 13
 
     ```
@@ -194,7 +194,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static LocalDateTime of(int year,
                                    int month,
                                    int dayOfMonth,
@@ -223,7 +223,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDateTime.of(int year, int month,
     // int dayOfMonth, int hour, int minute,
@@ -249,14 +249,14 @@
 
     **Output:**
 
-    ```
+    ```java
     DateTime: 2020-05-13T06:30:45.000020
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalDateTime.of(int year, int month,
     // int dayOfMonth, int hour, int minute,
@@ -284,7 +284,7 @@
 
     **Output:**
 
-    ```
+    ```java
     NanoOfSecond: 50000
 
     ```

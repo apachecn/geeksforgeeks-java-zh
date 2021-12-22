@@ -15,7 +15,7 @@ Java Set 是 java.util 包的一部分，扩展了 java.util.Collection 接口�
 
     下面是天真方法的实现:
 
-    ```
+    ```java
     // Java Program to convert
     // List to Set in Java 8
 
@@ -64,7 +64,7 @@ Java Set 是 java.util 包的一部分，扩展了 java.util.Collection 接口�
 
     **输出:**
 
-    ```
+    ```java
     List: [GeeksForGeeks, Geeks, forGeeks, A computer portal, for, Geeks]
     Set from List: [Geeks, for, GeeksForGeeks, A computer portal, forGeeks]
 
@@ -74,7 +74,7 @@ Java Set 是 java.util 包的一部分，扩展了 java.util.Collection 接口�
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java Program to convert
     // List to Set in Java 8
 
@@ -115,7 +115,7 @@ Java Set 是 java.util 包的一部分，扩展了 java.util.Collection 接口�
 
     **输出:**
 
-    ```
+    ```java
     List: [GeeksForGeeks, Geeks, forGeeks, A computer portal, for, Geeks]
     Set from List: [Geeks, for, GeeksForGeeks, A computer portal, forGeeks]
 
@@ -125,7 +125,7 @@ Java Set 是 java.util 包的一部分，扩展了 java.util.Collection 接口�
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java Program to convert
     // List to Set in Java 8
 
@@ -166,7 +166,7 @@ Java Set 是 java.util 包的一部分，扩展了 java.util.Collection 接口�
 
     **输出:**
 
-    ```
+    ```java
     List: [GeeksForGeeks, Geeks, forGeeks, A computer portal, for, Geeks]
     Set from List: [Geeks, for, GeeksForGeeks, A computer portal, forGeeks]
 
@@ -176,7 +176,7 @@ Java Set 是 java.util 包的一部分，扩展了 java.util.Collection 接口�
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java Program to convert
     // List to Set in Java 8
 
@@ -217,7 +217,7 @@ Java Set 是 java.util 包的一部分，扩展了 java.util.Collection 接口�
 
     **输出:**
 
-    ```
+    ```java
     List: [GeeksForGeeks, Geeks, forGeeks, A computer portal, for, Geeks]
     Set from List: [Geeks, for, GeeksForGeeks, A computer portal, forGeeks]
 

@@ -4,7 +4,7 @@
 
 找到程序的输出
 
-```
+```java
 public class Multicast {
     public static void main(String[] args) {
     System.out.println((int) (char) (byte) -1);

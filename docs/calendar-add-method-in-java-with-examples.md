@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract void add(int *field*, int *amt*)
 ```
 
@@ -21,7 +21,7 @@ public abstract void add(int *field*, int *amt*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate add() Method
 // of Calendar class
 
@@ -72,7 +72,7 @@ public class CalendarClassDemo {
 
 **Output:** 
 
-```
+```java
 Current Date: Tue Feb 12 10:54:21 UTC 2019
 After 50 days: Wed Apr 03 10:54:21 UTC 2019
 6 months ago it was: Wed Oct 03 10:54:21 UTC 2018
@@ -83,7 +83,7 @@ After 50 days: Wed Apr 03 10:54:21 UTC 2019
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate add() Method
 // of Calendar class
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Current Date: Tue Feb 12 10:54:24 UTC 2019
 After 30 days: Thu Mar 14 10:54:24 UTC 2019
 3 months ago it was: Fri Dec 14 10:54:24 UTC 2018

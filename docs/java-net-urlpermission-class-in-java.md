@@ -6,7 +6,7 @@ URLPermission 类用于表示访问给定 URL 的资源的权限。给定的*网
 
 **类申报:**
 
-```
+```java
 public final class URLPermission
 extends Permission
 ```
@@ -50,7 +50,7 @@ extends Permission
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate working of hashCode() method
 import java.net.URLPermission;
 
@@ -75,7 +75,7 @@ public class URLpermission {
 
 **Output**
 
-```
+```java
 Actions: CONNECT:
 Hashcode: -1592744539
 
@@ -85,7 +85,7 @@ Hashcode: -1592744539
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate working of equals() method
 import java.net.URLPermission;
 
@@ -112,7 +112,7 @@ public class URLpermission {
 
 **Output**
 
-```
+```java
 Both objects are not equal
 
 ```

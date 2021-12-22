@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static MinguoDate now(Clock clock)
 
 ```
@@ -21,7 +21,7 @@ T4】例 1:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate now() method
 
 import java.util.*;
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MinguoDate: Minguo ROC 109-04-24
 
 ```
@@ -67,7 +67,7 @@ MinguoDate: Minguo ROC 109-04-24
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate now() method
 
 import java.util.*;
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MinguoDate: Minguo ROC 109-04-24
 
 ```

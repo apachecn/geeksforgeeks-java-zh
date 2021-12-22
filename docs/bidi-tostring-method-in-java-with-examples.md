@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 status of bidi :
  sun.text.bidi.BidiBase[
   dir: 0 
@@ -60,7 +60,7 @@ status of bidi :
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 status of bidi :
  sun.text.bidi.BidiBase[
   dir: 2

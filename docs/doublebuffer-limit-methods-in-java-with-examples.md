@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final DoubleBuffer limit(int newLimit)
 ```
 
@@ -16,7 +16,7 @@ public final DoubleBuffer limit(int newLimit)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // limit() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 DoubleBuffer before setting buffer's limit: [20.5, 30.5, 0.0, 0.0]
 Position: 2
 Limit: 4
@@ -78,7 +78,7 @@ Limit: 1
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // limit() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 DoubleBuffer before setting buffer's limit: [20.5, 30.5, 40.5, 0.0, 0.0]
 Position: 3
 Limit: 5

@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     *boolean* addAll(Collection C)
     ```
 
@@ -16,7 +16,7 @@
 
     下面的程序说明了 Java.util.LinkedList.addAll()方法:
 
-    ```
+    ```java
     // Java code to illustrate boolean addAll()
     import java.util.*;
     import java.util.LinkedList;
@@ -58,7 +58,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The LinkedList is: [Geeks, for, Geeks, 10, 20]
     The new linked list is: [Geeks, for, Geeks, 10, 20, A, Computer, Portal, for, Geeks]
 
@@ -68,7 +68,7 @@
 
     **语法:**
 
-    ```
+    ```java
     boolean addAll(int index, Collection C)
     ```
 
@@ -81,7 +81,7 @@
 
     下面的程序说明了 Java.util.LinkedList.addAll()方法:
 
-    ```
+    ```java
     // Java code to illustrate boolean addAll()
     import java.util.*;
     import java.util.LinkedList;
@@ -123,7 +123,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The LinkedList is: [Geeks, for, Geeks, 10, 20]
     The new linked list is: [Geeks, A, Computer, Portal, for, Geeks, for, Geeks, 10, 20]
 

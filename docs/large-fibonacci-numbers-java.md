@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : 100
 Output : 354224848179261915075
 
@@ -22,7 +22,7 @@ Output : 139423224561697880139724382870
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to compute n-th Fibonacci
 // number where n may be large.
 import java.io.*;
@@ -58,7 +58,7 @@ public class Fibonacci
 
 **Output**
 
-```
+```java
 Fibonacci of 100th term is 354224848179261915075
 
 ```

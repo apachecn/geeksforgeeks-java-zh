@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 System.out.println("Your Text which you want to display");
 ```
 
@@ -14,7 +14,7 @@ System.out.println("Your Text which you want to display");
 
 ## 爪哇
 
-```
+```java
 // Java program to Demonstrate Use of System.out.println()
 
 // Importing required input output classes
@@ -34,6 +34,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 GeeksForGeeks!
 ```

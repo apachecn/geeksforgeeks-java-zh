@@ -27,7 +27,7 @@ OpenCV 是一个机器学习和开源的计算机视觉软件库，开发它的�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Copy and Paste an image in OpenCV 
 
 // Importing all input output java classes

@@ -6,7 +6,7 @@ Bitset 类还允许对两个 bitset 进行一些逻辑操作。支持的逻辑�
 
 **1。和(位集设置):**该方法对该目标位集和自变量位集执行**逻辑“与”**，并返回第二位集中也存在的第一位集的值。
 
-```
+```java
 Declaration : 
  public void and(BitSet set)
 Parameters : 
@@ -16,7 +16,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of and(Bitset set) in Bitset
 import java.util.*;
@@ -60,7 +60,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The elements of Bitset 1 are : {0, 1, 2, 3}
 The elements of Bitset 2 are : {0, 2, 4, 6}
 The resultant bset1 after and operation is : {0, 2}
@@ -69,7 +69,7 @@ The resultant bset1 after and operation is : {0, 2}
 
 **2。andNot(位集):**此方法执行**逻辑与非**，并返回第一个位集的元素，这些元素不在参数位集中。
 
-```
+```java
 Declaration : 
  public void andNot(BitSet set)
 Parameters : 
@@ -79,7 +79,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of andNot(Bitset set) in Bitset
 import java.util.*;
@@ -123,7 +123,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The elements of Bitset 1 are : {0, 1, 2, 3}
 The elements of Bitset 2 are : {0, 2, 4, 6}
 The resultant bset1 after andNot operation is : {1, 3}
@@ -132,7 +132,7 @@ The resultant bset1 after andNot operation is : {1, 3}
 
 **3。或(位集设置):**该方法对该目标位集和参数位集执行**逻辑或**，并返回两个位集中的**所有值，不返回重复的**元素。
 
-```
+```java
 Declaration : 
  public void or(BitSet set)
 Parameters : 
@@ -142,7 +142,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of or(Bitset set) in Bitset
 import java.util.*;
@@ -186,7 +186,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The elements of Bitset 1 are : {0, 1, 2, 3}
 The elements of Bitset 2 are : {0, 2, 4, 6}
 The resultant bset1 after or operation is : {0, 1, 2, 3, 4, 6}
@@ -195,7 +195,7 @@ The resultant bset1 after or operation is : {0, 1, 2, 3, 4, 6}
 
 **4。异或(位集):**该方法执行**逻辑异或**，并返回存在于一个位集中但不存在于另一个位集中的那些元素**。**
 
-```
+```java
 Declaration : 
    public void xor(BitSet set)
 Parameters : 
@@ -205,7 +205,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of xor(Bitset set) in Bitset
 import java.util.*;
@@ -249,7 +249,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The elements of Bitset 1 are : {0, 1, 2, 3}
 The elements of Bitset 2 are : {0, 2, 4, 6}
 The resultant bset1 after xor operation is : {1, 3, 4, 6}

@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void write(int b)
                 throws IOException
 
@@ -24,7 +24,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to illustrate
     // BufferedOutputStream write(int) method
     import java.io.*;
@@ -65,7 +65,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ABCDE
 
     ```
@@ -75,7 +75,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void write(byte[] b,
                       int offset,
                       int length)
@@ -99,7 +99,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to illustrate
     // BufferedOutputStream write(
     // byte[ ], int, int) method
@@ -145,7 +145,7 @@
 
     **Output:**
 
-    ```
+    ```java
     GEEKS
 
     ```

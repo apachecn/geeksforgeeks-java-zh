@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert a Decimal Number 
 // to Binary Number using Stacks
 
@@ -64,7 +64,7 @@ public static void main(String args[])
 
 **Output**
 
-```
+```java
 Enter a decimal number: 
 Binary equivalent: 10111
 ```
@@ -80,7 +80,7 @@ Binary equivalent: 10111
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert a Decimal Number
 // to Binary Number using Stacks
 
@@ -124,7 +124,7 @@ public class DecimalToBinary {
 
 **Output**
 
-```
+```java
 Enter a decimal number: 
 Binary equivalent: 101110
 ```

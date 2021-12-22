@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public class ConcurrentHashMap<K,V>
 extends AbstractMap<K,V>
 implements ConcurrentMap<K,V>, Serializable
@@ -29,7 +29,7 @@ implements ConcurrentMap<K,V>, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to llustarte ConcurrentModificationException
 // Using Normal Collections
 
@@ -115,7 +115,7 @@ class GFG extends Thread {
 
 **输出:**
 
-```
+```java
 Main Thread Iterating Map and Current Entry is:101...A
 Child Thread updating Map
 Exception in thread "main" java.util.ConcurrentModificationException
@@ -134,7 +134,7 @@ Exception in thread "main" java.util.ConcurrentModificationException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to llustarte ConcurrentModificationException
 // Using ConcurrentHashMap
 
@@ -219,7 +219,7 @@ class Main extends Thread {
 
 **Output**
 
-```
+```java
 Main Thread Iterating Map and Current Entry is:101...A
 Child Thread updating Map
 Main Thread Iterating Map and Current Entry is:102...B

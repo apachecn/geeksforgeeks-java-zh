@@ -5,7 +5,7 @@
 [T1](https://www.geeksforgeeks.org/concurrentlinkeddeque-in-java-with-examples/)T4。remove() 是 Java 中的一个内置函数，用于从这个 deque 中移除一个元素。
 **语法:**
 
-```
+```java
 public E remove()
         or
 public boolean remove(Object o)
@@ -19,7 +19,7 @@ public boolean remove(Object o)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // ConcurrentLinkedDeque remove() method
 
@@ -58,7 +58,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:** 
 
-```
+```java
 Existing ConcurrentLinkedDeque: [40, 50, 60, 70, 80]
 Element removed: 40
 Modified ConcurrentLinkedDeque: [50, 60, 70, 80]
@@ -68,7 +68,7 @@ Modified ConcurrentLinkedDeque: [50, 60, 70, 80]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // ConcurrentLinkedDeque remove(Object o) method
 
@@ -102,7 +102,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:** 
 
-```
+```java
 Elements inthe LinkedDeque: [GFG, Gfg, GeeksforGeeks, Geeks]
 Gfg removed: true
 Elements inthe LinkedDeque: [GFG, GeeksforGeeks, Geeks]

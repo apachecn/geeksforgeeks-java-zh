@@ -10,7 +10,7 @@ LinkedBlockingQueue API 是 Java 集合框架的成员。
 
 **所有实现的接口:**
 
-```
+```java
 1\. Serializable
 2\. Iterable<E>
 3\. Collection<E>
@@ -22,7 +22,7 @@ LinkedBlockingQueue API 是 Java 集合框架的成员。
 
 **语法:**
 
-```
+```java
 public class LinkedBlockingQueue<E> extends AbstractQueue<E>
 implements BlockingQueue<E>, Serializable
 ```
@@ -39,7 +39,7 @@ implements BlockingQueue<E>, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement LinkedBlockingQueue API
 
 import java.util.Collection;
@@ -221,7 +221,7 @@ public class BlockingQueue<E> {
 
 **Output**
 
-```
+```java
 The elements of the LinkedBlockingQueue is 
 1    2    3    
 The remaining capacity is 2147483644
@@ -237,7 +237,7 @@ The size of the LinkedBlockingQueue is 3
 
 **Output**
 
-```
+```java
 The elements of the LinkedBlockingQueue is 
 1    2    3    
 The remaining capcity is 2147483644

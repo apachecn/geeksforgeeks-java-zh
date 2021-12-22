@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean[] concat(boolean[]... arrays)
 
 ```
@@ -21,7 +21,7 @@ public static boolean[] concat(boolean[]... arrays)
 
 **示例-1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.concat() method
 
@@ -50,14 +50,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [true, false, true, false, false, false, true]
 
 ```
 
 **示例-2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.concat() method
 
@@ -88,7 +88,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [true, false, false, true, true, false, false, false, false, true]
 
 ```

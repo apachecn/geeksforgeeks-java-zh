@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDateTime plus(long amountToAdd,
                           TemporalUnit unit)
 
@@ -23,7 +23,7 @@ public LocalDateTime plus(long amountToAdd,
 下面的程序说明了加号()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.plus() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LocalDateTime: 2019-12-31T19:15:30
 LocalDateTime after adding 30 DAYS: 2020-03-30T19:15:30
 
@@ -70,7 +70,7 @@ LocalDateTime after adding 30 DAYS: 2020-03-30T19:15:30
 
 **语法:**
 
-```
+```java
 public LocalDateTime plus(TemporalAmount amountToAdd)
 
 ```
@@ -82,7 +82,7 @@ public LocalDateTime plus(TemporalAmount amountToAdd)
 下面的程序说明了加号()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.plus() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LocalDateTime: 2019-12-31T19:15:30
 LocalDateTime after adding Days: 2020-01-10T19:15:30
 

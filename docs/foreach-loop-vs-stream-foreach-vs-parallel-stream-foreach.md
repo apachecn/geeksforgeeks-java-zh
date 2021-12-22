@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG {
 
     public static void main(String[] args)
@@ -27,7 +27,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 GeeksForGeeks
 ```
 
@@ -37,7 +37,7 @@ GeeksForGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG {
 
     public static void main(String[] args) throws Exception
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 GeeksForGeeks
 ```
 
@@ -65,7 +65,7 @@ GeeksForGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG {
 
     public static String frechlop(String[] geek)
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 For
 ```
 
@@ -102,7 +102,7 @@ For
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import Java.util.*;
 public class GFG {
 
@@ -131,7 +131,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 public class GFG {
 
@@ -153,7 +153,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import Java.util.*;
 
 public class GFG {
@@ -187,7 +187,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 null
 ```
 
@@ -201,7 +201,7 @@ null
 
 **Output:** 
 
-```
+```java
 ForGeeksGeeks
 ```
 

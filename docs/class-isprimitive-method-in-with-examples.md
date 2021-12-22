@@ -5,7 +5,7 @@
 [**Java . lang . Class**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/)的**是 Primitive()** 方法，用来检查这个类是否是 Primitive 类。如果此类是基元类，则方法返回 true。否则返回 false。
 **语法:**
 
-```
+```java
 public boolean isPrimitive()
 ```
 
@@ -16,7 +16,7 @@ public boolean isPrimitive()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate isPrimitive() method
 
 public class Test {
@@ -40,7 +40,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Test
 Is Test a primitive: false
 ```
@@ -49,7 +49,7 @@ Is Test a primitive: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate isPrimitive() method
 
 public class Test {
@@ -70,7 +70,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Is myClass a primitive: true
 ```
 

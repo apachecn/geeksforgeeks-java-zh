@@ -7,7 +7,7 @@
 **java.io.Writer 类**是一个抽象类。它用于写入字符流。
 T3】申报:
 
-```
+```java
 public abstract class Writer
   extends Object
     implements Appendable, Closeable, Flushable
@@ -23,7 +23,7 @@ public abstract class Writer
 *   **write(int char):****Java . io . writer . write(int char)**将单个字符写入字符流。正在写入的字符包含在“char”整数值的 16 个低位中，其余 16 个高位被该方法忽略。
     **语法:**
 
-    ```
+    ```java
     public void write(int char)
     Parameters : 
     char : int value of the character to be written.
@@ -36,7 +36,7 @@ public abstract class Writer
 *   **write(String str):****Java . io . writer . write(String str)**将字符串写入字符流。
     **语法:**
 
-    ```
+    ```java
     public void write(String str)
     Parameters : 
     str : string to be written to the character stream.
@@ -49,7 +49,7 @@ public abstract class Writer
 *   **write(String str，int offset，int maxlen):****Java . io . writer . write(String str，int offset，int maxlen)** 将字符串的某个部分写入字符流。
     **语法:**
 
-    ```
+    ```java
     public void write(String str, int offset, int maxlen)
     Parameters : 
     str : string to be written to the character stream.
@@ -65,7 +65,7 @@ public abstract class Writer
 *   **write(char[]carray):****Java . io . writer . write(char[]carray)**将字符数组写入字符流。
     **语法:**
 
-    ```
+    ```java
     public void write(char[] carray)
     Parameters : 
     carray : character array to be written to the character stream
@@ -78,7 +78,7 @@ public abstract class Writer
 *   **write(char[] carray，int offset，int maxlen):****Java . io . writer . write(char[]carray，int offset，int maxlen)** 将字符数组的某个部分写入字符流。
     **语法:**
 
-    ```
+    ```java
     public abstract void write(char[] carray, int offset, int maxlen)
     Parameters : 
     carray : character to be written to the character stream
@@ -93,7 +93,7 @@ public abstract class Writer
 *   **close():****Java . io . writer . close()**关闭字符流，先刷新。
     **语法:**
 
-    ```
+    ```java
     public abstract void close()
     Parameters : 
     -----------
@@ -106,7 +106,7 @@ public abstract class Writer
 *   **flush() :** **java.io.Writer.flush()** flushes the Writer stream. Flushing one stream invocation will flush all other buffer in chain.
     **Syntax:**
 
-    ```
+    ```java
     public void flush()
     Parameters : 
     -----
@@ -118,7 +118,7 @@ public abstract class Writer
 
     说明 Writer 类方法使用的 Java 程序:
 
-    ```
+    ```java
     // Java program illustrating the working of Writer class methods
     // write(int char), write(String str), close()
     // write(String str, int offset, int maxlen), flush()
@@ -190,7 +190,7 @@ public abstract class Writer
 
     **输出:**
 
-    ```
+    ```java
     Using write(int char[]) : GFG
     Using write(String str) : Hello Geeks
     Using write(str, offset, maxlen) : llo  Geeks
@@ -202,7 +202,7 @@ public abstract class Writer
 *   **追加(char Sw):****Java . io . Writer . append(char Sw)**给 Writer 追加一个字符。
     **语法:**
 
-    ```
+    ```java
     public Writer append(char Sw)
     Parameters : 
     Sw : character to be append
@@ -215,7 +215,7 @@ public abstract class Writer
 *   **追加(CharSequence char _ sq):****Java . io . Writer . append(CharSequence char _ sq)**向 Writer 追加指定的字符序列。
     **语法:**
 
-    ```
+    ```java
     public Writer append(CharSequence char_sq)
     Parameters : 
     char_sq : Character sequence to append. 
@@ -228,7 +228,7 @@ public abstract class Writer
 *   **append(CharSequence char_sq, int start, int end) :** **java.io.Writer.append(CharSequence char_sq, int start, int end)** appends specified part of a character sequence to the Writer.
     **Syntax:**
 
-    ```
+    ```java
     public Writer append(CharSequence char_sq, int start, int end)
     Parameters : 
     char_sq : Character sequence to append.
@@ -244,7 +244,7 @@ public abstract class Writer
 
     说明 Writer 类方法使用的 Java 程序:
 
-    ```
+    ```java
     // Java program illustrating the working of Writer class methods
     // append(CharSequence char_sq), append(char Sw)
     // append(CharSequence char_sq, int start,int end)
@@ -296,7 +296,7 @@ public abstract class Writer
 
     **输出:**
 
-    ```
+    ```java
     Using write(int char) : GFG
     append(char Sw) : GGGGG
     append(char_sq) : 1 Hello 1 : 2 Geeks 2

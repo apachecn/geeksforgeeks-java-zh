@@ -8,7 +8,7 @@ HashSet 中的元素保持顺序，而 TreeSet 中的对象保持排序顺序，
 
 插图:
 
-```
+```java
 Input : LinkedHashSet = [4, 3, 6, 5, 8]
 Output: LinkedHashSet = [8, 6, 5, 4, 3]
 
@@ -21,7 +21,7 @@ Output: LinkedHashSet = [66, 55, 44, 33, 22]
 1.  创建 [HashSet](https://www.geeksforgeeks.org/hashset-in-java/) 接受用户输入并存储所有元素。
 2.  现在，创建[树集](https://www.geeksforgeeks.org/treeset-in-java-with-examples/)，通过以相反的顺序添加上面的所有元素，以递减的顺序存储元素。
 
-```
+```java
 Pseude Code: TreeSet<Integer> ts = new TreeSet<>(Collections.reverseOrder());
              ts.addAll(lh);
 ```
@@ -30,7 +30,7 @@ Pseude Code: TreeSet<Integer> ts = new TreeSet<>(Collections.reverseOrder());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to sort LinkedHashSet elements
 // in descending order
 
@@ -74,6 +74,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Element in descending order : [26, 25, 24, 23, 22, 21]
 ```

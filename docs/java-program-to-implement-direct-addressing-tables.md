@@ -39,7 +39,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement Direct Addressing Table 
 
 import java.util.*;
@@ -131,7 +131,7 @@ class DirectAddressingTable {
 
 **Output**
 
-```
+```java
 Student with roll number 18 - Name: Joe, Gender: Male
 No student found with roll number 13
 ```

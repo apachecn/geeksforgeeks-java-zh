@@ -31,7 +31,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to check if 
 // an undirected graph is connected or not
 // using DFS
@@ -153,7 +153,7 @@ public class checkConnectivity {
 
 **Output**
 
-```
+```java
 Graph 1:- Graph is connected
 Graph 2:- Graph is disconnected
 

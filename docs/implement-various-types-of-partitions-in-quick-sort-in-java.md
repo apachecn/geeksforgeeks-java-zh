@@ -19,7 +19,7 @@
 
 **算法:**
 
-```
+```java
 Naivepartition(arr[],l,r)
 
 1\. Make a Temporary array temp[r-l+1] length
@@ -43,7 +43,7 @@ If r > l
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the naive partition
 // in quick sort
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 78 97 9798 
 ```
 
@@ -131,7 +131,7 @@ public class GFG {
 
 *   **Lomuto 的分割算法(**[](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)****算法)****
 
-```
+```java
 **Lomutopartition(arr[], lo, hi)** 
 
     pivot = arr[hi]
@@ -156,7 +156,7 @@ If r > l
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the Lomuto partition
 // in quick sort
 
@@ -218,7 +218,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 1 2 4 4 5 5 6 
 ```** 
 
@@ -228,7 +228,7 @@ public class GFG {
 
 ****算法:****
 
-```
+```java
 **Hoarepartition(arr[], lo, hi)**
 
    pivot = arr[lo]
@@ -265,7 +265,7 @@ If r > l
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java implementation of QuickSort
 // using Hoare's partition scheme
 
@@ -352,6 +352,6 @@ class GFG {
 
 ****Output**
 
-```
+```java
  9 10 11 15 17 18
 ```**

@@ -7,7 +7,7 @@
 **DoubleStream of(double t)** 返回包含单个元素的顺序 DoubleStream。
 **语法:**
 
-```
+```java
 static DoubleStream of(double t)
 
 ```
@@ -21,7 +21,7 @@ static DoubleStream of(double t)
 
 **示例:**
 
-```
+```java
 // Java code for DoubleStream of(double t)
 // to get a sequential DoubleStream
 // containing a single element.
@@ -46,7 +46,7 @@ class GFG {
 
 输出:
 
-```
+```java
 8.2
 
 ```
@@ -56,7 +56,7 @@ class GFG {
 **double stream of(double…values)**返回元素为指定值的顺序有序流。
 **语法:**
 
-```
+```java
 static DoubleStream of(double... values)
 
 ```
@@ -70,7 +70,7 @@ static DoubleStream of(double... values)
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream of(double... values)
 // to get a sequential ordered stream whose
 // elements are the specified values.
@@ -93,7 +93,7 @@ class GFG {
 
 输出:
 
-```
+```java
 8.2
 5.6
 4.1
@@ -102,7 +102,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream of(double... values)
 // to get a sequential ordered stream whose
 // elements are the specified values.
@@ -128,7 +128,7 @@ class GFG {
 
 输出:
 
-```
+```java
 3
 
 ```

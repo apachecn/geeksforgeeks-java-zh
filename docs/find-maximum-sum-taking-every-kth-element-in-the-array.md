@@ -20,7 +20,7 @@
 
 ## **C++**
 
-```
+```java
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -68,7 +68,7 @@ int main()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java implementation of the approach
 class GFG
 {
@@ -118,7 +118,7 @@ public static void main(String[] args)
 
 ## **蟒蛇 3**
 
-```
+```java
 # Python 3 implementation of the approach
 import sys
 
@@ -159,7 +159,7 @@ if __name__ == '__main__':
 
 ## **C#**
 
-```
+```java
 // C# implementation of the approach
 using System;
 
@@ -211,7 +211,7 @@ public static void Main()
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```java
 <?php
 // PHP implementation of the approach
 
@@ -256,7 +256,7 @@ echo maxSum($arr, $n, $K);
 
 ## **java 描述语言**
 
-```
+```java
 <script>
 
 // JavaScript implementation of the approach
@@ -300,7 +300,7 @@ document.write( maxSum(arr, n, K));
 
 ****Output:** 
 
-```
+```java
 13
 ```** 
 
@@ -309,7 +309,7 @@ document.write( maxSum(arr, n, K));
 
 ## **C++**
 
-```
+```java
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -360,7 +360,7 @@ int main()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java implementation of the approach
 class GFG {
 
@@ -409,7 +409,7 @@ class GFG {
 
 ## **计算机编程语言**
 
-```
+```java
 # Python implementation of the approach
 
 # Function to return the maximum sum for
@@ -449,7 +449,7 @@ print(maxSum(arr, n, K))
 
 ## **C#**
 
-```
+```java
 // C# implementation of the approach
 using System;
 class GFG {
@@ -499,7 +499,7 @@ class GFG {
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```java
 <?php
 // PHP implementation of the approach
 // Function to return the maximum sum for
@@ -548,7 +548,7 @@ function maxSum($arr, $n, $K)
 
 ## **java 描述语言**
 
-```
+```java
 <script>
 
 // JavaScript implementation of the approach
@@ -595,7 +595,7 @@ document.write( maxSum(arr, n, K));
 
 ****Output:** 
 
-```
+```java
 13
 ```** 
 

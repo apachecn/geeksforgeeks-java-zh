@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger setbit(int n)
 ```
 
@@ -18,7 +18,7 @@ public BigInteger setbit(int n)
 
 **示例** :
 
-```
+```java
 Input: value = 2300 index = 1
 Output: 2302
 Explanation:
@@ -34,7 +34,7 @@ Output: 5482551
 
 下面的程序说明了 BigInteger 的 setBit(索引)方法:
 
-```
+```java
 // Program to demonstrate setBit() method of BigInteger 
 
 import java.math.*;
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After applying setBit at index 1 of 2300 New Value is 2302
 
 ```

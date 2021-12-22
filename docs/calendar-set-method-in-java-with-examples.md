@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void set(int *calndr_field*, int *new_val*)
 ```
 
@@ -20,7 +20,7 @@ public void set(int *calndr_field*, int *new_val*)
 下面的程序说明了 Calendar 类 set()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // set() method
 
@@ -50,7 +50,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Month is: 1
 Altered Month is: 11
 
@@ -58,7 +58,7 @@ Altered Month is: 11
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // set() method
 
@@ -88,7 +88,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current year is: 2019
 Altered year is: 1996
 

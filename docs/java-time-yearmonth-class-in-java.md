@@ -67,7 +67,7 @@ Java YearMonth 类实现时态，临时调整，可比较<yearmonth>，可序列
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // plus() Method implementation
 import java.time.*;
 public class Example {
@@ -85,7 +85,7 @@ public class Example {
 
 **Output**
 
-```
+```java
 2021-02
 ```
 
@@ -93,7 +93,7 @@ public class Example {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // minus() method implementation
 import java.time.*;
 public class Example {
@@ -111,6 +111,6 @@ public class Example {
 
 **Output**
 
-```
+```java
 2018-02
 ```

@@ -7,7 +7,7 @@
 **javap**工具用于获取任何类或接口的信息。javap 命令(也称为 **Java 反汇编器**)反汇编一个或多个类文件。其输出取决于所使用的**选项**(**-c**或“**-详细**”分别表示字节码和字节码以及内部信息)。如果不使用任何选项，javap 会打印出传递给它的类的包、受保护的和公共的字段和方法。
 **语法:**
 
-```
+```java
 javap [option] [classname]
 
 ```
@@ -15,7 +15,7 @@ javap [option] [classname]
 **不使用选项时:**
 **语法:**
 
-```
+```java
 javap class_name
 
 ```
@@ -31,7 +31,7 @@ javap class_name
     This option prints a help message for the javap command.
     **Syntax:**
 
-    ```
+    ```java
     javap -help
 
     ```
@@ -43,7 +43,7 @@ javap class_name
     This option prints Version information of java.
     **Syntax:**
 
-    ```
+    ```java
     javap -version
 
     ```
@@ -55,7 +55,7 @@ javap class_name
     此选项打印附加信息，如堆栈大小、局部变量数量和方法参数。
     **语法:**
 
-```
+```java
 javap -v class_name
 
 ```
@@ -67,7 +67,7 @@ javap -v class_name
     This option prints line number and local variable tables.
     **Syntax:**
 
-    ```
+    ```java
     javap -l class_name
 
     ```
@@ -79,7 +79,7 @@ javap -v class_name
     This option prints only public classes and members.
     **Syntax:**
 
-    ```
+    ```java
     javap -public class_name
 
     ```
@@ -91,7 +91,7 @@ javap -v class_name
     This option prints protected/public classes and members.
     **Syntax:**
 
-    ```
+    ```java
     javap -protected class_name
 
     ```
@@ -103,7 +103,7 @@ javap -v class_name
     This option prints package/protected/public classes and members (default).
     **Syntax:**
 
-    ```
+    ```java
     javap -package class_name
 
     ```
@@ -115,7 +115,7 @@ javap -v class_name
     This option prints Disassembled code.
     **Syntax:**
 
-    ```
+    ```java
     javap -c class_name
 
     ```
@@ -127,7 +127,7 @@ javap -v class_name
     This option prints internal type signatures.
     **Syntax:**
 
-    ```
+    ```java
     javap -s class_name
 
     ```
@@ -139,7 +139,7 @@ javap -v class_name
     This option prints system info (path, size, date, MD5 hash) of class being processed.
     **Syntax:**
 
-    ```
+    ```java
     javap -sysinfo class_name
 
     ```
@@ -151,7 +151,7 @@ javap -v class_name
     This option prints final constants of class.
     **Syntax:**
 
-    ```
+    ```java
     javap -constants class_name
 
     ```

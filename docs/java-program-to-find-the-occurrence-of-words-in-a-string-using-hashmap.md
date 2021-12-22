@@ -16,7 +16,7 @@ HashMap <key value="">提供 Java 的 Map 接口的基本实现，导入 [java.u
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find the occurrence
 // of words in a String using HashMap.
 import java.io.*;
@@ -60,7 +60,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 {Bob=1, Alice=1, and=1, is=2, girl=1, boy=1}
 ```
 
@@ -72,7 +72,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find the occurrence
 // of words in a String using HashMap.
 import java.io.*;
@@ -107,6 +107,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 {Bob=1, Alice=1, and=1, is=2, girl=1, boy=1}
 ```

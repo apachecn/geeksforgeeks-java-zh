@@ -42,7 +42,7 @@ Canvas API 也是安卓中使用最多的一个。API 本身的名字告诉我�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -60,7 +60,7 @@ Canvas API 也是安卓中使用最多的一个。API 本身的名字告诉我�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -165,7 +165,7 @@ public class PaintView extends View {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.widget.RelativeLayout;
 

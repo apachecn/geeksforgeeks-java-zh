@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Take Input from User Separated by Space
 // Using BufferedReader class
 
@@ -89,7 +89,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Take Input from User Separated by Space
 // Using Scanner class
 
@@ -140,7 +140,7 @@ class GFG {
 
 > **注意:**第一种方法使用 Bufferedreader 类，然后拆分解析每个值，比使用 Scanner 类的倪星()方法要快得多。它比第二个快近 2 倍。贝尔；现在我们提供了如何使用纳米时间方法计算这两种方法的时间消耗
 
-```
+```java
 // Initializing variables
 long startTime, endTime;
 

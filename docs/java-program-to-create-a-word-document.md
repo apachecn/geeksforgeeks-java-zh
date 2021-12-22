@@ -25,7 +25,7 @@ Word 文件应该是在没有 Word 的情况下，借助 Java 应用程序协议
 
 **语法:**用于导入 Spire 的 java 库
 
-```
+```java
 import Spire.Doc.jar ;
 ```
 
@@ -65,7 +65,7 @@ Spire 涉及的组件如下:
 
 Maven 确实有一些特定的命令来处理文件。最常用的是:
 
-```
+```java
 poi + poi + scratchpadpoi    // In order to deal with older Word file versions 
 poi + poi-ooxml              // In order to deal with new Word file versions
 ```
@@ -74,7 +74,7 @@ poi + poi-ooxml              // In order to deal with new Word file versions
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a Word document
 // Importing Spire Word libraries
 

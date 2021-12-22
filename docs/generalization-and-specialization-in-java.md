@@ -11,14 +11,14 @@
 一个非常特别并陈述了具体细节的类。位于继承层次结构底部的类可以说是特定的。
 **例 1:**
 
-```
+```java
 Relatively General Class: Money
 Relatively Specific Class: Dollar, Euro, Rupees
 ```
 
 **例 2:**
 
-```
+```java
 Lemon, Orange are more Specific than Citrus
 Banana, Apple are more Specific than Non-Citrus
 Citrus, Non-Citrus are more Specific than Fruit
@@ -46,7 +46,7 @@ Fruit is most general class
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **class Father {
     public void work()
     {
@@ -83,7 +83,7 @@ class Main {
 
 ******Output:** 
 
-```
+```java
 Earning Father
 ```**** 
 
@@ -93,7 +93,7 @@ Earning Father
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **class Father {
     public void work()
     {
@@ -131,7 +131,7 @@ class Main {
 
 ******Output:** 
 
-```
+```java
 Earning Son
 ```**** 
 
@@ -143,7 +143,7 @@ Earning Son
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **class Father {
     public void work()
     {
@@ -191,7 +191,7 @@ class Main {
 
 ******Output:** 
 
-```
+```java
 java.lang.ClassCastException: Father cannot be cast to Son
 ```**** 
 
@@ -199,7 +199,7 @@ java.lang.ClassCastException: Father cannot be cast to Son
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **class Father {
     public void work()
     {
@@ -237,7 +237,7 @@ class Main {
 
 ******Output:** 
 
-```
+```java
 Earning Father
 Enjoying son
 ```**** 

@@ -10,7 +10,7 @@
 
 **例:**
 
-```
+```java
 Input  : 15 
 Output : 1
          2
@@ -33,7 +33,7 @@ Output : 1
 
 ## C++
 
-```
+```java
 // C++ program to print multiples
 // of 3 and 5 without using % operator.
 #include <iostream>
@@ -82,7 +82,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print multiples of 3 and
 // 5 without using % operator.
 import java.io.*;
@@ -126,7 +126,7 @@ class GFG
 
 ## C#
 
-```
+```java
 // C# program to print multiples of 3 and
 // 5 without using % operator.
 using System;
@@ -182,7 +182,7 @@ public class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP program to print multiples
 // of 3 and 5 without using % operator.
@@ -225,7 +225,7 @@ findMultiples(20);
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // JavaScript program for the above approach
@@ -272,7 +272,7 @@ findMultiples(20);
 
 ## 蟒蛇 3
 
-```
+```java
 # Python 3 program to print multiples
 # of 3 and 5 without using % operator.
 
@@ -303,7 +303,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```java
 1
 2
 Multiple of 3\. 

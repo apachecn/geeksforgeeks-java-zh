@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
  Iterator iterator()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.*;
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The list is: 
 [Geeks, for, Geeks, is, a, CS, Students, Portal]
 
@@ -73,7 +73,7 @@ Geeks for Geeks is a CS Students Portal
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.*;
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The list is: 
 [10, 15, 30, 20, 5]
 

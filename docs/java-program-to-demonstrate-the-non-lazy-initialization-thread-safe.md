@@ -21,7 +21,7 @@ Java 中的线程是独立的小编码单元，可以单独执行(在 CPU 的多
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Implementation of non
 // Lazy-Instantiation (Eager Instantiation)
 // which is Thread-Safe

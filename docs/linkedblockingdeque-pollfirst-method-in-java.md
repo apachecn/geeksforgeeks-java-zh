@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E pollFirst()
 ```
 
@@ -18,7 +18,7 @@ public E pollFirst()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate pollFirst()
 // method of LinkedBlockingDeque
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [74381793, 5278367, 35658786, 7855642]
 Front element in Deque: 74381793
 Linked Blocking Deque: [5278367, 35658786, 7855642]
@@ -63,7 +63,7 @@ Linked Blocking Deque: [5278367, 35658786, 7855642]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate pollFirst()
 // method of LinkedBlockingDeque
 // when Deque is empty
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Front element in Deque: null
 

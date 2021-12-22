@@ -37,7 +37,7 @@
 
 ## Java
 
-```
+```java
 // Java Program for Playfair Cipher Algorithm
 
 // Importing all utility classes
@@ -316,7 +316,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 m o n a r 
 c h y b d 
 e f g i k 

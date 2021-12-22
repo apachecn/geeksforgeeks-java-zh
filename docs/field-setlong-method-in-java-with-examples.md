@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setLong(Object obj, long l)
             throws IllegalArgumentException,
                    IllegalAccessException
@@ -30,7 +30,7 @@ public void setLong(Object obj, long l)
 下面的程序说明了 setLong()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setLong() method
 
 import java.lang.reflect.Field;
@@ -93,7 +93,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of salary before applying setLong is 1234567
 Value of salary after applying setLong is 10000000
 Value of uniqueNo before applying setLong is 234289
@@ -103,7 +103,7 @@ Value of uniqueNo after applying setLong is 2000000
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setLong() method
 
 import java.lang.reflect.Field;
@@ -142,7 +142,7 @@ class Numbers {
 
 **Output:**
 
-```
+```java
 Value after applying setLong is 36283435
 
 ```

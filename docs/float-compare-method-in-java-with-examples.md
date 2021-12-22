@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int compare(float f1, float f2)
 ```
 
@@ -27,7 +27,7 @@ public static int compare(float f1, float f2)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // the Float.compare() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 f1=f2
 ```
 
@@ -69,7 +69,7 @@ f1=f2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // the Float.compare() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 f1
 ```
 
@@ -111,7 +111,7 @@ f1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // the Float.compare() method
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 f1>f2
 ```
 

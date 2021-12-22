@@ -6,7 +6,7 @@
 
 **类语法:**
 
-```
+```java
 Exchanger<V>
 ```
 
@@ -14,7 +14,7 @@ Exchanger<V>
 
 **等级体系**
 
-```
+```java
 java.lang.Object
 ↳ java.util.concurrent.Exchanger<V>
 
@@ -30,7 +30,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public V exchange(V x)
     throws InterruptedException
 
@@ -40,7 +40,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public V exchange(V x, long timeout, TimeUnit unit)
     throws InterruptedException, TimeoutException
 
@@ -48,7 +48,7 @@ java.lang.Object
 
 **示例演示交换机类的工作:**
 
-```
+```java
 import java.util.concurrent.Exchanger;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
@@ -145,7 +145,7 @@ class UseString implements Runnable {
 
 **输出:**
 
-```
+```java
 Got: ABCDE
 Got: FGHIJ
 Timeout Occurred

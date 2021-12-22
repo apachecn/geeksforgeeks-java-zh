@@ -28,7 +28,7 @@ LinearGradient 类是 JavaFX 的一部分。线性渐变类用线性颜色渐变
 
 1.  **Java program to create a LinearGradient object and add stops to it and apply it to the circle:** In this program we will create an array of Stop objects with their offset values ranging from 0 to 1\. Create a LinearGradient object with specified stops. Now create a circle with specified x, y positions, and radius and add the linear gradient to it. Then create a VBox and set the alignment of it. Add the circle to the *vbox* and add the *vbox* to the scene and add the scene to the stage and call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java program to create a LinearGradient 
     // object and add stops to it and apply it
     // to the circle
@@ -108,7 +108,7 @@ LinearGradient 类是 JavaFX 的一部分。线性渐变类用线性颜色渐变
 
 2.  **Java program to create a LinearGradient object and add stops to it and set the CycleMethod to reflect and set proportional to false and apply it to the circle:** In this program we will create an array of Stop objects with their offset values ranging from 0 to 1\. Then create a LinearGradient object with specified stops. Set the *CycleMethod to reflect* and set proportional to false. Create a circle with specified x, y positions, and radius and add the linear gradient to it. Then create a VBox and set the alignment of it. Add the circle to the *vbox* and add the *vbox* to the scene and add the scene to the stage and call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java program to create a LinearGradient object 
     // and add stops to it and set the CycleMethod to
     // reflect and set proportional to false and 

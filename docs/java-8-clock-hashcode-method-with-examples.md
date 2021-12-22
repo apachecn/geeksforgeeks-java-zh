@@ -8,7 +8,7 @@ Hashcode 是 JVM 在创建对象时生成的唯一代码。它可以用来对哈
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -16,7 +16,7 @@ public int hashCode()
 
 **示例:**
 
-```
+```java
 Input:: 
 a clock class Object e.g Clock.systemDefaultZone()
 
@@ -33,7 +33,7 @@ when hashCode() is called, then it will return a hashCode for Class Object.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // hashCode() method of Clock class
 
@@ -62,7 +62,7 @@ public class hashCodeMethodDemo {
 
 **Output:** 
 
-```
+```java
 hash Code for class SystemClock[Etc/UTC] is 227139178
 ```
 
@@ -70,7 +70,7 @@ hash Code for class SystemClock[Etc/UTC] is 227139178
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // hashCode() method of Clock class
 
@@ -102,7 +102,7 @@ public class hashCodeMethodDemo {
 
 **Output:** 
 
-```
+```java
 hashCode for clock object SystemClock[Asia/Calcutta] is -681304889
 ```
 

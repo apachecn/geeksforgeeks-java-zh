@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public V replace(K key, V value)
 
 ```
@@ -25,7 +25,7 @@ public V replace(K key, V value)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // replace(K key, V value) method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {a=100, b=300, c=300, d=400}
 New HashMap: {a=100, b=200, c=300, d=400}
 
@@ -71,7 +71,7 @@ New HashMap: {a=100, b=200, c=300, d=400}
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // replace(K key, V value) method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {a=100, b=300, c=300, d=400}
 Previous value of 'b': 300
 New HashMap: {a=100, b=200, c=300, d=400}
@@ -122,7 +122,7 @@ New HashMap: {a=100, b=200, c=300, d=400}
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate
 // replace(K key, V value) method
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {a=100, b=300, c=300, d=400}
 Value of k, returned for key 'e': null
 New HashMap: {a=100, b=300, c=300, d=400}

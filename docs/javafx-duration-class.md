@@ -42,7 +42,7 @@ Duration 类是 JavaFX 的一部分。持续时间类定义了一段时间。Dur
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create two Duration objects and
 // display the time in milliseconds seconds,
 // minutes and hours
@@ -97,7 +97,7 @@ class Duration_1 {
 
 **输出:**
 
-```
+```java
 Duration 1
 Duration in milliseconds: 1000000.0
 Duration in seconds: 1000.0
@@ -115,7 +115,7 @@ Duration in hours: 0.02778111111111111
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create four Duration object and
 // display them and add two objects, multiply two
 // objects, divide two objects and subtract two
@@ -188,7 +188,7 @@ class Duration_2 {
 
 **输出:**
 
-```
+```java
 Duration 1
 
 Duration in milliseconds: 1000000.0

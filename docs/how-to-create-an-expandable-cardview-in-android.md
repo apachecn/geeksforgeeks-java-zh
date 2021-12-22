@@ -39,7 +39,7 @@
 5.  From the variety of icons shown, choose the following two icons:
     ![list of icons](img/e066177f830990c6706325ab934b47ca.png)
 
-    ```
+    ```java
     ic_baseline_expand_more_24
     ic_baseline_expand_less_24
 
@@ -49,7 +49,7 @@
 
     ## ic_baseline_expand_more_24
 
-    ```
+    ```java
     <vector xmlns:android="http://schemas.android.com/apk/res/android"
         android:width="24dp"
         android:height="24dp"
@@ -65,7 +65,7 @@
 
     ## ic _ 基线 _ 扩展 _ 无 _24
 
-    ```
+    ```java
     <vector xmlns:android="http://schemas.android.com/apk/res/android"
         android:width="24dp"
         android:height="24dp"
@@ -87,7 +87,7 @@
 
 在下面的布局中，展开卡片视图以显示三个主题的列表。以下是 **`activity_main.xml`** 文件的代码。
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -295,7 +295,7 @@
 
 在 **`MainActivity.java`** 中，使用 **if-else** 语句，指定操纵可扩展元素可见性的条件。
 
-```
+```java
 package com.example.android.expandable_cardview;
 
 import android.os.Bundle;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator iterator()
 ```
 
@@ -16,7 +16,7 @@ public Iterator iterator()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of ConcurrentLinkedQueue
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue :
 [Aman, Amar, Sanjeet, Rabi]
 
@@ -68,7 +68,7 @@ Rabi
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of ConcurrentLinkedQueue
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 
 The Numbers of iterator are:

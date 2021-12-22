@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的 **getWeekdays()** 方法用于获取字符
 
 **语法:**
 
-```
+```java
 public String[] getWeekdays()
 ```
 
@@ -17,7 +17,7 @@ public String[] getWeekdays()
 下面的程序说明了 getWeekdays()方法的使用。
 **例 1:**
 
-```
+```java
 // Java code to demonstrate getWeekdays()
 
 import java.text.DateFormatSymbols;
@@ -43,7 +43,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Day 1 = Sunday
 Day 2 = Monday
 Day 3 = Tuesday
@@ -56,7 +56,7 @@ Day 7 = Saturday
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate getWeekdays()
 
 import java.text.DateFormatSymbols;
@@ -82,7 +82,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Day 1 = Sunday
 Day 2 = Monday
 Day 3 = Tuesday

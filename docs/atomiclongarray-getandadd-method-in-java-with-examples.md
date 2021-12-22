@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the getAndAdd() function
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The array : [10, 22, 33, 44, 55]
 Value at index 0 before update is 10
 The array after update : [26, 22, 33, 44, 55]
@@ -71,7 +71,7 @@ The array after update : [26, 22, 33, 44, 55]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the getAndAdd() function
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 Value at index 3 before update is 4
 The array after update : [1, 2, 3, 20, 5]

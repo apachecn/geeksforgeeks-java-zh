@@ -8,7 +8,7 @@
 
 **申报:**
 
-```
+```java
 public class PushbackReader
    extends FilterReader
 ```
@@ -23,7 +23,7 @@ public class PushbackReader
 *   **read():****Java . io . puback reader . read()**读取单个字符。
     **语法:**
 
-    ```
+    ```java
     public int read()
     Parameters :
     -----------
@@ -37,7 +37,7 @@ public class PushbackReader
 *   **read(char[] carray，int offset，int maxlen):****Java . io . pubackreader . read(char[]carray，int offset，int maxlen)** 读取字符数组的某个部分
     **语法:**
 
-    ```
+    ```java
     public int read(char[] carray, int offset, int maxlen)
     Parameters :
     carray : destination buffer to be read into
@@ -53,7 +53,7 @@ public class PushbackReader
 *   **close():****Java . io . PushbackReader . close()**关闭 puback reader，并将与此流相关联的系统资源释放给垃圾收集器。
     **语法:**
 
-    ```
+    ```java
     public void close()
     Parameters :
     ------
@@ -66,7 +66,7 @@ public class PushbackReader
 *   **标记(int arg):****Java . io . PushbackReader . mark(int arg)**标记 puback reader 的当前位置。在推回阅读器的情况下，这个方法总是抛出一个异常。
     **语法:**
 
-    ```
+    ```java
     public void mark(int arg)
     Parameters :
     arg : integer specifying the read limit of the Stream
@@ -77,7 +77,7 @@ public class PushbackReader
 *   **跳过(长字符):****Java . io . PushbackReader . skip(长字符)**跳过并丢弃 puback reader 数据中的“字符”数量。
     **语法:**
 
-    ```
+    ```java
     public long skip(long char)
     Parameters : 
     char : no. of bytes of PushbackReader data to skip.
@@ -90,7 +90,7 @@ public class PushbackReader
 *   **reset():****Java . io . puback reader . reset()**由 mark()方法调用。它将推回阅读器重新定位到标记位置。在推回阅读器的情况下，这个方法总是抛出一个异常。
     **语法:**
 
-    ```
+    ```java
     public void reset()
     Parameters :
     ----
@@ -104,7 +104,7 @@ public class PushbackReader
 *   **markSupported():****Java . io . pubackreader . markSupported()**告诉这个流是否支持 mark()操作，它不支持。
     **语法:**
 
-```
+```java
 public boolean markSupported()
 Parameters :
 -------
@@ -115,7 +115,7 @@ true if PushbackReader supports the mark() method  else,false
 *   **ready():****Java . io . pubackreader . ready()**告知流是否准备好被读取
     **语法:**
 
-    ```
+    ```java
     public boolean ready()
     Parameters :
     -------
@@ -127,7 +127,7 @@ true if PushbackReader supports the mark() method  else,false
 
     **语法:**
 
-    ```
+    ```java
     public void unread(int char)
     Parameters :
     char : int value of the character to be pushed back
@@ -141,7 +141,7 @@ true if PushbackReader supports the mark() method  else,false
     *   **unread(char[] carray) :** **java.io.PushbackReader.unread(char[] carray)** pushes an array of character to Pushback buffer. The array being pushed will have its index starting from 0.
     **Syntax :**
 
-    ```
+    ```java
     public void unread(char[] carray)
     Parameters :
     carray : character array to be pushed back
@@ -154,7 +154,7 @@ true if PushbackReader supports the mark() method  else,false
 
     **解释推回阅读器方法的 Java 代码:read(char[] carray)、close()、markSupported()、read()、mark()、ready()、skip()、unread()**
 
-    ```
+    ```java
     // Java program illustrating the working of PushbackReader
     // read(char[] carray), close(), markSupported()
     // read(), mark(), ready(), skip(), unread()
@@ -221,7 +221,7 @@ true if PushbackReader supports the mark() method  else,false
 
     **输出:**
 
-    ```
+    ```java
     Is stream1 ready : true
     Is stream2 ready : true
 

@@ -9,7 +9,7 @@
 
 **申报:**
 
-```
+```java
 public class ByteArrayOutputStream
    extends OutputStream
 ```
@@ -28,7 +28,7 @@ public class ByteArrayOutputStream
     *   **写(int byte):****Java . io . bytearyoutputstream . write(int byte)**将指定的字节写入输出流。
         **语法:**
 
-        ```
+        ```java
         public void write(int byte)
         Parameters : 
         byte : byte to be written
@@ -40,7 +40,7 @@ public class ByteArrayOutputStream
     *   **写(byte【】buffer，int offset，int maxlen):****Java . io . bytearayoutputstream . write(byte【】buffer，int offset，int maxlen)** 从缓冲区向输出流写入 maxlen 字节的数据。它使用指定的**字符集名称**(十六位 Unicode 代码单元序列和字节序列之间的命名映射)转换流的内容。)
         **语法:**
 
-        ```
+        ```java
         public void write(byte[] buffer, int offset, int maxlen)
         Parameters : 
         buffer : data of the buffer
@@ -54,7 +54,7 @@ public class ByteArrayOutputStream
     *   **toByteArray() :** **java.io.ByteArrayOutputStream.toByteArray()** creates a new byte array having the same as that of Output Stream
         **Syntax :**
 
-        ```
+        ```java
         public byte[] toByteArray()
         Parameters : 
         ----------
@@ -65,7 +65,7 @@ public class ByteArrayOutputStream
 
         **Java 程序解释写(byte[]缓冲区，int offset，int maxlen)和 toByteArray()方法的使用:**
 
-        ```
+        ```java
         // Java program illustrating the working of ByteArrayOutputStream
         // write(byte[] buffer, int offset, int maxlen), toByteArray()
 
@@ -93,14 +93,14 @@ public class ByteArrayOutputStream
 
         **输出:**
 
-        ```
+        ```java
         Use of write(buffer, offset, maxlen) by toByteArray() :  74 65 86 65
         ```
 
     *   **close():****Java . io . BytearrayOutputStream . close()**关闭输出流并释放分配的资源。
         **语法:**
 
-    ```
+    ```java
     public void close()
     Parameters : 
     --------------
@@ -112,7 +112,7 @@ public class ByteArrayOutputStream
     *   **size():****Java . io . BytearrayOutputStream . size()**返回输出流内存在的缓冲区大小。
     **语法:**
 
-    ```
+    ```java
     public int size()
     Parameters : 
     --------------
@@ -124,7 +124,7 @@ public class ByteArrayOutputStream
     *   **reset():****Java . io . bytearayooutputstream . reset()**将完整的流计数重置为零，并将帮助流重新开始
     **语法:**
 
-    ```
+    ```java
 
     public void reset()
     Parameters : 
@@ -137,7 +137,7 @@ public class ByteArrayOutputStream
     *   **toString():****Java . io . bytearyoutputstream . tostrign()**将输出流的内容转换为平台的默认字符集
     **语法:**
 
-    ```
+    ```java
 
     public String toString()
     Parameters : 
@@ -150,7 +150,7 @@ public class ByteArrayOutputStream
     *   **toString(String charsetName) :** **java.io.ByteArrayOutputStream.toStrign(String charsetName)** convert the content of Output Stream to platform’s specified Character set
     **Syntax :**
 
-    ```
+    ```java
 
     public String toString(String charsetName)
     Parameters : 
@@ -162,7 +162,7 @@ public class ByteArrayOutputStream
 
     **演示使用字节数组输出流类方法的 Java 程序:**
 
-    ```
+    ```java
     // Java program illustrating the working of ByteArrayOutputStream
     // write(), size(), toString(String charsetName),
     // close(), toString(), reset()
@@ -206,7 +206,7 @@ public class ByteArrayOutputStream
 
     **输出:**
 
-    ```
+    ```java
     Use of size() : 4
     Use of reset()
     Use of toString() : JAVA

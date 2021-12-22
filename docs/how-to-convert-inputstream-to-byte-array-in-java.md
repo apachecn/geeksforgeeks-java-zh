@@ -21,7 +21,7 @@
 
 已读取声明(字节[])
 
-```
+```java
 public int read​(byte[] byteArray)
 throws IOException
 ```
@@ -30,7 +30,7 @@ throws IOException
 
 **语法:** readAllBytes()
 
-```
+```java
 public byte[] readAllBytes()
 throws IOException
 ```
@@ -39,7 +39,7 @@ throws IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert InputStream to Byte Array
 // Using read(byte[]) or readAllBytes()
 
@@ -85,7 +85,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s F o r G e e k s 
 ```
 
@@ -97,7 +97,7 @@ G e e k s F o r G e e k s
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert InputStream to Byte Array
 // Using ByteArrayOutputStream Class
 
@@ -161,7 +161,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s F o r G e e k s 
 ```
 
@@ -175,7 +175,7 @@ G e e k s F o r G e e k s
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert InputStream to Byte Array
 // Using ByteArrayOutputStream Class
 
@@ -229,7 +229,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 byte[] byteArray = IOUtils.toByteArray(inputStream); 
 ```
 

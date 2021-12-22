@@ -24,7 +24,7 @@
 
 ## XML
 
-```
+```java
 <provider
   android:name="androidx.core.content.FileProvider"
 
@@ -48,7 +48,7 @@
 
 的完整代码
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.anni.shareimage">

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: List = [1, 10, 2, 2, 10, 3, 3, 3, 4, 5, 5]
 Output: List = [1, 10, 2, 3, 4, 5]
 
@@ -26,7 +26,7 @@ Output: List = ["G", "e", "k", "s"]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to remove duplicates from ArrayList
 
     import java.util.*;
@@ -82,7 +82,7 @@ Output: List = ["G", "e", "k", "s"]
 
     **Output:**
 
-    ```
+    ```java
     ArrayList with duplicates: [1, 10, 1, 2, 2, 3, 3, 10, 3, 4, 5, 5]
     ArrayList with duplicates removed: [1, 10, 2, 3, 4, 5]
 
@@ -101,7 +101,7 @@ Output: List = ["G", "e", "k", "s"]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to remove duplicates from ArrayList
 
     import java.util.*;
@@ -156,7 +156,7 @@ Output: List = ["G", "e", "k", "s"]
 
     **Output:**
 
-    ```
+    ```java
     ArrayList with duplicates: [1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5]
     ArrayList with duplicates removed: [1, 10, 2, 3, 4, 5]
 
@@ -175,7 +175,7 @@ Output: List = ["G", "e", "k", "s"]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to remove duplicates from ArrayList
 
     import java.util.ArrayList;
@@ -210,7 +210,7 @@ Output: List = ["G", "e", "k", "s"]
 
     **Output:**
 
-    ```
+    ```java
     ArrayList with duplicates: [1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5]
     ArrayList with duplicates removed: [1, 10, 2, 3, 4, 5]
 

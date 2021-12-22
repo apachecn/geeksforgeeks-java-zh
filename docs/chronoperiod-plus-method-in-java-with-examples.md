@@ -8,7 +8,7 @@ Java 中**计时周期界面**的 **plus()** 方法是将给定的周期量加�
 
 **语法:**
 
-```
+```java
 ChronoPeriod plus(TemporalAmount amountToAdd)
 ```
 
@@ -25,7 +25,7 @@ ChronoPeriod plus(TemporalAmount amountToAdd)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function plus()
 // to subtract the two given periods
 
@@ -64,14 +64,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 P6Y18M18D
 
 ```
 
 **程序 2** :计时周期可以是负数。
 
-```
+```java
 // Java code to show the function plus()
 // to subtract the two given periods
 
@@ -110,7 +110,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 P6Y18M18D
 
 ```

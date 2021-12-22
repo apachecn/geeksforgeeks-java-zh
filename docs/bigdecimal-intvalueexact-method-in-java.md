@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int intValueExact()
 ```
 
@@ -18,7 +18,7 @@ public int intValueExact()
 
 **示例:**
 
-```
+```java
 Input : "19878124"
 Output : 19878124
 
@@ -30,7 +30,7 @@ Output : 721111
 下面的程序说明了 Java . math . bigdecimal . intvalueexact()方法的使用:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // intValueExact() method
 import java.math.*;
@@ -55,7 +55,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exact Integer Value of 19878124 is 19878124
 Exact Integer Value of 721111 is 721111
 
@@ -65,7 +65,7 @@ Exact Integer Value of 721111 is 721111
 
 **程序 2:** 该程序将说明该函数何时抛出异常。
 
-```
+```java
 // Java program to illustrate
 // Arithmetic Exception occurrence
 // in intValueExact() method
@@ -107,7 +107,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Output by intValue() Function
 The Integer Value of 3232435121868179 is -214774381
 The Integer Value of 84561789104423214 is -920387282

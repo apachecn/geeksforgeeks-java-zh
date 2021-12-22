@@ -6,7 +6,7 @@
 
 例子
 
-```
+```java
 Input: {0, 1, 2, 6, 9}, n = 5, m = 10 
 Output: 3
 
@@ -43,7 +43,7 @@ Output: 8
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 class SmallestMissing 
 {
     int findFirstMissing(int array[], int start, int end) 
@@ -77,7 +77,7 @@ class SmallestMissing 
 
 ****Output**
 
-```
+```java
 Smallest missing element is 8
 ```** 
 
@@ -97,7 +97,7 @@ Smallest missing element is 8
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program for above approach
 import java.io.*;
 
@@ -164,7 +164,7 @@ class GFG 
 
 ****Output**
 
-```
+```java
 First Missing element is : 6
 ```** 
 

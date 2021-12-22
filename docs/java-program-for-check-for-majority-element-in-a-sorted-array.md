@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```java
 Input: arr[] = {1, 2, 3, 3, 3, 3, 10}, x = 3
 Output: True (x appears more than n/2 times in the given array)
 
@@ -23,7 +23,7 @@ Output: True (x appears more than n/2 times in the given array)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Program to check for majority element in a sorted array */
 import java.io.*;
 
@@ -65,7 +65,7 @@ class Majority {
 
 **输出:**
 
-```
+```java
 4 appears more than 3 times in arr[]
 ```
 
@@ -76,7 +76,7 @@ class Majority {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Java Program to check for majority element in a sorted array */
 import java.io.*;
 
@@ -144,7 +144,7 @@ class Majority {
 
 **输出:**
 
-```
+```java
 3 appears more than 3 times in arr[]
 ```
 
@@ -157,7 +157,7 @@ class Majority {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 class GFG{
@@ -193,7 +193,7 @@ public static void main(String[] args)
 
 **Output**
 
-```
+```java
 3 appears more than 3 times in arr[]
 ```
 

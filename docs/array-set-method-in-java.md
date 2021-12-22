@@ -6,7 +6,7 @@ java.lang.reflect.Array.set()是 java 中的内置方法，用于将指定值设
 
 **语法**
 
-```
+```java
 Array.set(Object []array, int index, Object value)
 
 ```
@@ -29,7 +29,7 @@ Array.set(Object []array, int index, Object value)
 
     **程序 1 :**
 
-    ```
+    ```java
     // Java code to demonstrate set() method of Array class
     import java.lang.reflect.Array;
     public class GfG {
@@ -60,7 +60,7 @@ Array.set(Object []array, int index, Object value)
 
     **Output:**
 
-    ```
+    ```java
     Befor Set : GeeksisGeeks
     After Set : GeeksforGeeks
 
@@ -68,7 +68,7 @@ Array.set(Object []array, int index, Object value)
 
     **程序 2 :** 演示 java.lang.NullPointerException
 
-    ```
+    ```java
     // Java code to demonstrate set() method of Array class
     import java.lang.reflect.Array;
     public class GfG {
@@ -92,14 +92,14 @@ Array.set(Object []array, int index, Object value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.NullPointerException
 
     ```
 
     **程序 3 :** 演示 Java . lang . arrayindexoutofboundsexception
 
-    ```
+    ```java
     // Java code to demonstrate set() method of Array class
     import java.lang.reflect.Array;
     public class GfG {
@@ -123,14 +123,14 @@ Array.set(Object []array, int index, Object value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.ArrayIndexOutOfBoundsException
 
     ```
 
     **程序 4 :** 演示 Java . lang . illegalargumentexception
 
-    ```
+    ```java
     // Java code to demonstrate set() method of Array class
     import java.lang.reflect.Array;
     public class GfG {
@@ -154,7 +154,7 @@ Array.set(Object []array, int index, Object value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.IllegalArgumentException: Argument is not an array
 
     ```

@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 Array.setShort(Object []array,int index, short value)
 
 ```
@@ -27,7 +27,7 @@ Array.setShort(Object []array,int index, short value)
 
     **程序 1 :**
 
-    ```
+    ```java
     // Java code to demonstrate 
     // setShort() method of Array class
 
@@ -59,7 +59,7 @@ Array.setShort(Object []array,int index, short value)
 
     **Output:**
 
-    ```
+    ```java
     Befor Set : 1 2 3 4 
     After Set : 1 10 3 4
 
@@ -67,7 +67,7 @@ Array.setShort(Object []array,int index, short value)
 
     **程序 2 :** 演示 java.lang.NullPointerException
 
-    ```
+    ```java
     // Java code to demonstrate 
     // setShort() method of Array class
 
@@ -92,14 +92,14 @@ Array.setShort(Object []array,int index, short value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.NullPointerException
 
     ```
 
     **程序 3:** 演示 Java . lang . arrayindexoutofboundsexception
 
-    ```
+    ```java
     // Java code to demonstrate 
     // setShort() method of Array class
 
@@ -124,14 +124,14 @@ Array.setShort(Object []array,int index, short value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.ArrayIndexOutOfBoundsException
 
     ```
 
     **程序 4:** 演示 Java . lang . illegalargumentexception
 
-    ```
+    ```java
     // Java code to demonstrate 
     // setShort() method of Array class
     import java.lang.reflect.Array;
@@ -155,7 +155,7 @@ Array.setShort(Object []array,int index, short value)
 
     **Output:**
 
-    ```
+    ```java
     Exception : java.lang.IllegalArgumentException: Argument is not an array
 
     ```

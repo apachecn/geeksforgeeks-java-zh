@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int firstDayOfYear(boolean leapYear)
 
 ```
@@ -19,7 +19,7 @@ public int firstDayOfYear(boolean leapYear)
 
 **程序 1** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.Temporal;
@@ -39,14 +39,14 @@ class DayOfWeekExample {
 
 **输出:**
 
-```
+```java
 32
 
 ```
 
 **程序二** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.Temporal;
@@ -66,7 +66,7 @@ class DayOfWeekExample {
 
 **输出:**
 
-```
+```java
 61
 
 ```

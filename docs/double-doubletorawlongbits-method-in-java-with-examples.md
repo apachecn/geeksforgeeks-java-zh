@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long doubleToRawLongBits(double val)
 
 ```
@@ -25,7 +25,7 @@ public static long doubleToRawLongBits(double val)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Double.doubleToRawLongBits() method
 
@@ -50,7 +50,7 @@ class Gfg1 {
 
 **Output:** 
 
-```
+```java
 1.5 in raw long bits: 4609434218613702656
 
 ```
@@ -59,7 +59,7 @@ class Gfg1 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Double.doubleToRawLongBits() method
 
@@ -100,7 +100,7 @@ class Gfg1 {
 
 **Output:** 
 
-```
+```java
 Infinity in raw long bits: 9218868437227405312
 -Infinity in raw long bits: -4503599627370496
 NaN in raw long bits: 9221120237041090560

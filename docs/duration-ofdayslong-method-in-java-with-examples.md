@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Duration ofDays(long days)
 
 ```
@@ -21,7 +21,7 @@ public static Duration ofDays(long days)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate ofDays() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 432000
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate ofDays() method
 
 import java.time.Duration;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 -18536688000
 
 ```

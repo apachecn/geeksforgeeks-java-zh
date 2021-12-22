@@ -6,7 +6,7 @@ Java 中的 Java . util . enummap . contains value(*value*)方法用于确定映
 
 **语法:**
 
-```
+```java
 boolean containsValue(*Object value*)
 ```
 
@@ -18,7 +18,7 @@ boolean containsValue(*Object value*)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate containsValue() method
 import java.util.*;
 
@@ -57,14 +57,14 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 Map contains 72: true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate containsValue() method
 import java.util.*;
 
@@ -103,7 +103,7 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 Map contains 2000: false
 
 ```

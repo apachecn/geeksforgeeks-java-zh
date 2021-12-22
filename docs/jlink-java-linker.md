@@ -11,7 +11,7 @@ JLink 是 Java 的新命令行工具(在 JDK_HOME/bin 中提供)，它允许我�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Practice {
     public static void main(String[] args)
     {
@@ -39,7 +39,7 @@ JLink 还有一个插件列表，可以帮助优化我们的解决方案。
 
 module-info.java
 
-```
+```java
  module demoModule
 {
     // keeping it empty
@@ -48,7 +48,7 @@ module-info.java
 
 Practice.java
 
-```
+```java
  package packTest public class Practice {
     public static void main(String[] args)
     {

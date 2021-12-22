@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```java
 public void setMultiplier(int newVal)
 
 ```
@@ -21,7 +21,7 @@ public void setMultiplier(int newVal)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setMultiplier() method
 
@@ -46,14 +46,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 12, 343.45
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setMultiplier() method
 
@@ -78,7 +78,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1, 234, 345
 
 ```

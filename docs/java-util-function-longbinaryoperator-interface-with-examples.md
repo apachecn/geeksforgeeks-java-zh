@@ -8,14 +8,14 @@
 
 1.  **【applyAsLong()】** : This function takes two long values, performs the required operation, and returns the long value.
 
-    ```
+    ```java
     public long applyAsLong(long val1, long val2)
 
     ```
 
 将 LongBinaryOperator 界面演示为[λ表达式](https://www.geeksforgeeks.org/lambda-expressions-java-8/)的示例。
 
-```
+```java
 // Java program to demonstrate LongBinaryOperator
 
 import java.util.function.LongBinaryOperator;
@@ -46,7 +46,7 @@ public class LongBinaryOperatorDemo {
 
 **输出:**
 
-```
+```java
 343666 + 547477 = 891143
 343666 * 547477 = 188149230682
 

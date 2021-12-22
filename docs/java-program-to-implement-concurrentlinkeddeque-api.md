@@ -13,7 +13,7 @@ Java 中的[concurrentlinkedeque](https://www.geeksforgeeks.org/concurrentlinked
 
 实现接口
 
-```
+```java
 1\. Serializable 
 2\. Iterable<E>
 3\. Collection<E>
@@ -25,7 +25,7 @@ Java 中的[concurrentlinkedeque](https://www.geeksforgeeks.org/concurrentlinked
 
 **语法:**
 
-```
+```java
 public class ConcurrentLinkedDeque<E> 
 extends AbstractCollection<E>
 implements Deque<E>, Serializable
@@ -70,7 +70,7 @@ implements Deque<E>, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement ConcurrentLinkedDeque API
 
 // Importing all classes from
@@ -152,7 +152,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 ConcurrentLinkedDeque1: [10, 89, 18, 45]
 ConcurrentLinkedDeque2: [10, 89, 18, 45]
 Size: 4

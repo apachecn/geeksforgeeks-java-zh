@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program that Shows Use of Collection Interface
 // ArrayList
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 areyou
 working
@@ -62,7 +62,7 @@ hard?
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program that Shows Use of Collection Interface
 // LinkedList
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 areyou
 working
@@ -111,7 +111,7 @@ hard?
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program that Shows Use of Collection Interface
 // Hash-Map
 
@@ -157,7 +157,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 Geeks
 2 are
 3 you
@@ -168,7 +168,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program that Shows Use of Collection Interface
 // Stack
 
@@ -208,7 +208,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 are
 you

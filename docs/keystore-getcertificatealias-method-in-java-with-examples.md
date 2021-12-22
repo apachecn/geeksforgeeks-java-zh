@@ -5,7 +5,7 @@
 **java.security.KeyStore** 类的 **getCertificateAlias()** 方法用于获取具有指定证书的第一个 KeyStore 条目的名称。
 **语法:**
 
-```
+```java
 public final String getCertificateAlias(Certificate cert)
     throws KeyStoreException
 ```
@@ -19,7 +19,7 @@ public final String getCertificateAlias(Certificate cert)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getCertificate() method
 
 import java.security.*;

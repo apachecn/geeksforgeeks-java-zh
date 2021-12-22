@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int intValueExact()
 ```
 
@@ -16,7 +16,7 @@ public int intValueExact()
 
 **例:**
 
-```
+```java
 Input: 4561561
 Output: 4561561
 Explanation: 4561561 is given as input which is bigInteger
@@ -39,7 +39,7 @@ therefore it throws an arithmetic exception.
 
 **程序 1:** 演示正数< 2，147，483，647
 
-```
+```java
 // Java program to demonstrate intValueExact()
 // method of BigInteger Class
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **的 intValueExact()方法输出:**
 
-```
+```java
 BigInteger value : 4561561
 int converted value : 4561561
 
@@ -77,7 +77,7 @@ int converted value : 4561561
 
 **程序二:**演示负数> -2，147，483，648
 
-```
+```java
 // Java program to demonstrate intValueExact()
 // method of BigInteger Class
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **的 intValueExact()方法输出:**
 
-```
+```java
 BigInteger value : -8546512
 int converted value : -8546512
 
@@ -115,7 +115,7 @@ int converted value : -8546512
 
 **程序 3:** 演示负数<的 intValueExact()方法-2，147，483，648。它会抛出算术异常
 
-```
+```java
 // Java program to demonstrate intValueExact()
 // method of BigInteger Class
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : -3000000000
 Exception: java.lang.ArithmeticException: BigInteger out of int range
 
@@ -158,7 +158,7 @@ Exception: java.lang.ArithmeticException: BigInteger out of int range
 
 **程序 4:** 演示正数> 2，147，483，647 的 intValueExact()方法。它会抛出算术异常
 
-```
+```java
 // Java program to demonstrate intValueExact()
 // method of BigInteger Class
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : 3000000000
 Exception: java.lang.ArithmeticException: BigInteger out of int range
 

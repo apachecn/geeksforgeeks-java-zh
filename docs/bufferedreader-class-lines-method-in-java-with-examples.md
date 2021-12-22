@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 BufferedReader.lines() : Stream<String>
 ```
 
@@ -28,7 +28,7 @@ BufferedReader.lines() : Stream<String>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the continuous scanning
 // by BufferedReader.lines() method and return the stream
 // of lines that contains the specific word
@@ -64,6 +64,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Hello this is the first line. Hello this is the second line.
 ```

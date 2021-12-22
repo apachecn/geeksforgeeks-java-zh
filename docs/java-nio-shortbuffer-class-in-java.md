@@ -62,7 +62,7 @@ ShortBuffer 类的大多数方法都直接类似于 ByteBuffer 定义的方法�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // ShortBuffer class
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ShortBuffer: [100, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 ```
 
@@ -122,7 +122,7 @@ ShortBuffer: [100, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // ShortBuffer class
 
@@ -198,7 +198,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ShortBuffer 1: [100, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 ShortBuffer 2: [100, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 both are equal

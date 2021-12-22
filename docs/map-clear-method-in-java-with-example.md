@@ -8,7 +8,7 @@ java 中的 java.util.Map.clear()方法用于从指定的 Map 集合中清除和
 
 **语法:**
 
-```
+```java
 void clear()
 ```
 
@@ -20,7 +20,7 @@ void clear()
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Finally the maps look like this: {}
 
@@ -59,7 +59,7 @@ Finally the maps look like this: {}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 Finally the maps look like this: {}
 

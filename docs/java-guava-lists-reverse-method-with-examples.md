@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> List<T> reverse(List<T> list)
 
 ```
@@ -21,7 +21,7 @@ public static <T> List<T> reverse(List<T> list)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Lists.reverse() method
 
@@ -52,14 +52,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [5, 4, 3, 2, 1]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Lists.reverse() method
 
@@ -90,7 +90,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [O, L, L, E, H]
 
 ```

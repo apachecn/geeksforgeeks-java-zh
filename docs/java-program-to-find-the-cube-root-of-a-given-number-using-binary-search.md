@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: x = 27
 Output: 3
 Explanation:  The cube root of 16 is 4.
@@ -23,7 +23,7 @@ Explanation:  The cube root of 120 lies in between
 
 ## Java
 
-```
+```java
 // Java Program to Find the cube root
 // of given number using Naive approach
 import java.io.*;
@@ -53,7 +53,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 3
 
 ```

@@ -5,7 +5,7 @@
 **java.text.MessageFormat** 类的 **getFormats()** 方法用于按时间顺序获取消息格式对象模式中存在的每个参数索引的格式。如果特定参数索引没有格式，它将返回 null。
 **语法:**
 
-```
+```java
 public Format[] getFormatsByArgumentIndex()
 ```
 
@@ -16,7 +16,7 @@ public Format[] getFormatsByArgumentIndex()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getFormats() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 pattern : {1, number, integer}, {2, number, float#}, {5, date}
 
 Required Formats are : 
@@ -66,7 +66,7 @@ java.text.SimpleDateFormat@ce9bf0a5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getFormats() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 pattern : {0, number, #}, {2, date, #.#}, {4, time}
 
 Required Formats are : 

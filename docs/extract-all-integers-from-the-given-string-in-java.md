@@ -20,7 +20,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java implementation of the approach
 public class GFG {
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 1122 4 543
 
 ```

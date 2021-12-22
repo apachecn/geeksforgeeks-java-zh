@@ -23,7 +23,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Iterate through HashTable
 // using enumeration interface
 
@@ -75,7 +75,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Rank : 5         Name : Piyush
 Rank : 4         Name : Hritik
 Rank : 3         Name : Bijay
@@ -89,7 +89,7 @@ java 中的 java.util.HashMap.keySet()方法用于创建一组包含在哈希映
 
 ## 爪哇
 
-```
+```java
 // Java program to iterate through HashTable
 // using keySet method and enhance for-loop
 
@@ -134,7 +134,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Rank : 5         Name : R
 Rank : 4         Name : Pearl
 Rank : 3         Name : Python
@@ -148,7 +148,7 @@ Rank : 1         Name : Java
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to iterate through HashTable
 // using keySet method and Iterator Interface
 
@@ -202,7 +202,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 Rank : 5         Name : R
 Rank : 4         Name : Pearl
 Rank : 3         Name : Python
@@ -216,7 +216,7 @@ Rank : 1         Name : Java
 
  **## 爪哇
 
-```
+```java
 // Java program to iterate through HashTable
 // using entrySet method and enhance for-loop
 
@@ -261,7 +261,7 @@ class GFG {
 }
 ```** ****输出**
 
-```
+```java
 Rank : 5         Name : R
 Rank : 4         Name : Pearl
 Rank : 3         Name : Python
@@ -275,7 +275,7 @@ Rank : 1         Name : Java
 
 ## Java
 
-```
+```java
 // Java program to iterate through hashtable using
 // entrySet method and Iterator interface
 
@@ -336,7 +336,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Rank : 5         Name : R
 Rank : 4         Name : Pearl
 Rank : 3         Name : Python
@@ -350,7 +350,7 @@ Rank : 1         Name : Java
 
 ## **Java**
 
-```
+```java
 // Java program to iterate through HashTable
 // using Iterable forEach()method of java 8
 
@@ -389,7 +389,7 @@ class GFG {
 
 ****输出**
 
-```
+```java
 Rank : 1         Name : Java
 Rank : 2         Name : Scala
 Rank : 3         Name : Python

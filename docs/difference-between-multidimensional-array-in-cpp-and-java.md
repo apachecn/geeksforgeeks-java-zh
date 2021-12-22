@@ -30,7 +30,7 @@
 
 ## C++
 
-```
+```java
 // C++ program for multidimention array
 // implementation
 #include <iostream>
@@ -70,7 +70,7 @@ int main()
 
 **Output:** 
 
-```
+```java
 Printing entire 2d array: 
 arr[0][0]:23      arr[0][1]:56      arr[0][2]:34      arr[0][3]:52      arr[0][4]:63      
 arr[1][0]:40      arr[1][1]:20      arr[1][2]:96      arr[1][3]:43      arr[1][4]:97      

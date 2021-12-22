@@ -23,7 +23,7 @@
 
 ****例 1:****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.indexOf(boolean[] array,
 // boolean target) method
@@ -67,7 +67,7 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 Array: [true, true, false, true, false]
 Target: false
 Target is present at index 2
@@ -76,7 +76,7 @@ Target is present at index 2
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.indexOf(boolean[] array,
 // boolean target) method
@@ -120,7 +120,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Array: [true, true, true]
 Target: false
 Target is not present in the array

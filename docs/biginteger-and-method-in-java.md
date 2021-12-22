@@ -5,7 +5,7 @@
 **Java . math . BigInteger . AND(BigInteger val)**方法返回一个 BigInteger，其值是两个 BigInteger 的按位“与”。如果两个大整数都是负数，则此方法返回负数。and()方法对作为参数传递的当前大整数和大整数应用按位“与”运算。
 **语法:**
 
-```
+```java
 public BigInteger and(BigInteger val)
 ```
 
@@ -13,7 +13,7 @@ public BigInteger and(BigInteger val)
 **返回值:**该方法返回两个大整数的按位“与”的值。
 **示例:**
 
-```
+```java
 Input: value1 = 2300, value2 = 3400
 Output: 2120
 Explanation:
@@ -30,7 +30,7 @@ Output: 296484
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*
 *Program Demonstrate and() method of BigInteger
 */
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Result of AND operation between 2300 and 3400 is 2120
 ```
 

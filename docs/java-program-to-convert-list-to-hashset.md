@@ -21,7 +21,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate conversion of
 // list to set using constructor
 
@@ -56,7 +56,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 HashSet Elements are : 
 Aragorn
 Frodo
@@ -70,7 +70,7 @@ Legolas
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate conversion of
 // list to set using simple traversal
 
@@ -114,7 +114,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 HashSet Elements are : 
 1
 4
@@ -129,7 +129,7 @@ HashSet Elements are :
 
 ******语法:******
 
-```
+```java
 **boolean addAll(Collection C)**
 ```
 
@@ -139,7 +139,7 @@ HashSet Elements are :
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate conversion of
 // Set to array using addAll() method.
 
@@ -179,7 +179,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 HashSet Elements are : 
 1
 4
@@ -196,7 +196,7 @@ HashSet Elements are :
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate conversion of
 // Set to list using stream
 
@@ -235,7 +235,7 @@ class GFG {
 
 ******输出:******
 
-```
+```java
 **HashSet Elements are :
 1
 4

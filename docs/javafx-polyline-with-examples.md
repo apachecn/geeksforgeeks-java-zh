@@ -20,7 +20,7 @@
 
 1.  **Program to create an open area of connected segments using polyline:** This program creates a Polyline indicated by the name polyline( the coordinates of the points of the line segments to create an open area). The Polyline will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a Group is created, and the polyline is attached. The group is attached to the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java Program to create a open area
     // of connected segments using polyline
     import javafx.application.Application;
@@ -72,7 +72,7 @@
 
 2.  **Program to create a closed area of connected segments using polyline:** This program creates a Polyline indicated by the name polyline( the coordinates of the points of the line segments to create a closed area). The Polyline will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a Group is created, and the polyline is attached. The group is attached to the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java Program to create a closed area
     // of connected segments using polyline
     import javafx.application.Application;

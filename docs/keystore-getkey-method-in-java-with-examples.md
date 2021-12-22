@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Key getKey(String alias, char[] password)
     throws KeyStoreException, 
            NoSuchAlgorithmException, 
@@ -31,7 +31,7 @@ public final Key getKey(String alias, char[] password)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getKey() method
 
 import java.security.*;
@@ -105,7 +105,7 @@ public class GFG {
 
 **示例 2:** 适用于*密钥库异常*
 
-```
+```java
 // Java program to demonstrate getKey() method
 
 import java.security.*;

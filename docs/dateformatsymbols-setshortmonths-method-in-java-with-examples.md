@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的**set short months(String【】*newShMonth*
 
 **语法:**
 
-```
+```java
 public void setShortMonths(String[] *newShMonth*)
 ```
 
@@ -17,7 +17,7 @@ public void setShortMonths(String[] *newShMonth*)
 下面的程序说明了 setShortMonths()方法的使用。
 **例 1:**
 
-```
+```java
 // Java code to demonstrate setShortMonths()
 
 import java.text.DateFormatSymbols;
@@ -65,7 +65,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Original: 
 Jan  
 Feb  
@@ -93,7 +93,7 @@ FEB
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate setShortMonths()
 
 import java.text.DateFormatSymbols;
@@ -140,7 +140,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Original: 
 Jan  
 Feb  

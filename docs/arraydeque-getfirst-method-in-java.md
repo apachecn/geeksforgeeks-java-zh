@@ -6,7 +6,7 @@ java 中的 java.util.ArrayDeque.getFirst()方法用于检索或获取 ArrayDequ
 
 **语法:**
 
-```
+```java
 Array_Deque.getFirst()
 ```
 
@@ -18,7 +18,7 @@ Array_Deque.getFirst()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate getFirst()
 import java.util.*;
 
@@ -47,7 +47,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The first element is: Welcome
 
@@ -55,7 +55,7 @@ The first element is: Welcome
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate getFirst()
 import java.util.*;
 
@@ -84,7 +84,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 The first element is: 10
 

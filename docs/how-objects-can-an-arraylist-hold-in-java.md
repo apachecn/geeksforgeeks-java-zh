@@ -11,7 +11,7 @@
 
 **语法:**声明列表
 
-```
+```java
 ArrayList<String> names = new ArrayList<String>();
 ```
 
@@ -38,7 +38,7 @@ ArrayList<String> names = new ArrayList<String>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to add elements to List
 
 // Importing ArrayList class from
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [Computer, Science, Portal]
 ```
 
@@ -80,7 +80,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show
 // How objects can an ArrayList hold
 
@@ -154,7 +154,7 @@ class Person {
 
 **Output**
 
-```
+```java
 Aditya
 19
 Shivam

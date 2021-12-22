@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```java
 Input: GeeksForGeeks
 Output: Total no of vowels in string are: 5
 
@@ -28,7 +28,7 @@ Output: Total no of vowels in string are: 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Count Number of Vowels
 // in a String in a iterative way
 
@@ -70,7 +70,7 @@ public class vowel {
 
 **Output**
 
-```
+```java
 Total no of vowels in string are: 5
 
 ```
@@ -85,7 +85,7 @@ Total no of vowels in string are: 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Count Number of Vowels
 // in a String in a recursive way
 
@@ -135,7 +135,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Total number of vowels in string are:
 6
 

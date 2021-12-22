@@ -10,7 +10,7 @@
 
 下面是 helperclass 的一个例子。
 
-```
+```java
 // Example for helper class 
 import java.lang.*;
 import java.util.*;
@@ -220,7 +220,7 @@ class Test {
 }
 ```
 
-```
+```java
 False
 True
 

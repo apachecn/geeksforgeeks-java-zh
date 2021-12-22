@@ -5,7 +5,7 @@
 使用**匹配结果界面**的**组()**方法获取与前一个匹配结果匹配的输入子序列。
 **语法:**
 
-```
+```java
 public String group()
 ```
 
@@ -17,7 +17,7 @@ public String group()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate group() method
 
 import java.util.regex.*;
@@ -62,7 +62,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate group() method
 
 import java.util.regex.*;

@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ArrayBlockingQueue
 
 import java.util.concurrent.ArrayBlockingQueue;
@@ -38,7 +38,7 @@ public class ArrayBlockingQueueDemo {
 
 **Output**
 
-```
+```java
 ArrayBlockingQueue:[1, 2, 3]
 
 ```
@@ -57,7 +57,7 @@ ArrayBlockingQueue:[1, 2, 3]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ArrayDeque
 
 import java.util.*;
@@ -83,7 +83,7 @@ public class ArrayDequeDemo {
 
 **Output**
 
-```
+```java
 ArrayDeque:[10, 20, 30]
 
 ```

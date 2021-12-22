@@ -29,7 +29,7 @@ Canvas 类是 Java AWT 的一部分。画布是一个空白的矩形区域，用
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a to create
 // a canvas and paint the canvas
 import java.awt.*;
@@ -82,7 +82,7 @@ class canvas extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a
 // canvas and mouse listener to the
 // canvas ( a circle of radius 5 will appear

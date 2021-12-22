@@ -23,7 +23,7 @@ java 中的列表允许我们维护有序的对象集合。在 Java 中，重复
 
 **语法:**
 
-```
+```java
 for (i = 0; i < list_name.size(); i++) 
 {
   // code block to be executed
@@ -34,7 +34,7 @@ for (i = 0; i < list_name.size(); i++)
 
 ## Java
 
-```
+```java
 // Java Program to iterate over List
 // Using simple for loop
 
@@ -70,7 +70,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 A
 B
 C
@@ -83,7 +83,7 @@ D
 
 **语法:**
 
-```
+```java
 for(data_type variable : List_name)
 {  
  // Body of the loop. 
@@ -93,7 +93,7 @@ for(data_type variable : List_name)
 
 ## Java
 
-```
+```java
 // Java Program to Iterate over a List
 // using enhanced for loop (for-each)
 
@@ -129,7 +129,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 A
 B
 C

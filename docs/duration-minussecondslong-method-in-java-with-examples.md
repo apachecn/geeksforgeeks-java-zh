@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration minusSeconds(long numberOfSeconds)
 
 ```
@@ -21,7 +21,7 @@ public Duration minusSeconds(long numberOfSeconds)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate minusSeconds() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT51H3M58S
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate minusSeconds() method
 
 import java.time.Duration;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT3M55S
 
 ```

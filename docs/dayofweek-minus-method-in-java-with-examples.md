@@ -6,13 +6,13 @@
 
 **方法声明:**
 
-```
+```java
 public DayOfWeek minus(long days)
 ```
 
 **语法:**
 
-```
+```java
 DayOfWeek dayOfWeekObject = dayOfWeekObject.minus(long days)
 
 ```
@@ -26,7 +26,7 @@ DayOfWeek dayOfWeekObject = dayOfWeekObject.minus(long days)
     以下程序说明了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java Program Demonstrate minus()
     // method of DayOfWeek
     import java.time.DayOfWeek;
@@ -60,7 +60,7 @@ DayOfWeek dayOfWeekObject = dayOfWeekObject.minus(long days)
 
     **Output:**
 
-    ```
+    ```java
     Day of the Week : TUESDAY - 2
     Day of the Week before 10 days: SATURDAY - 6
 
@@ -68,7 +68,7 @@ DayOfWeek dayOfWeekObject = dayOfWeekObject.minus(long days)
 
     **程序 2:**
 
-    ```
+    ```java
     // Java Program Demonstrate minus()
     // method of DayOfWeek
     import java.time.DayOfWeek;
@@ -106,7 +106,7 @@ DayOfWeek dayOfWeekObject = dayOfWeekObject.minus(long days)
 
     **Output:**
 
-    ```
+    ```java
     Day of the Week : SUNDAY - 7
     Day of the Week before -3 days: WEDNESDAY - 3
 

@@ -11,7 +11,7 @@
 
 **申报:**
 
-```
+```java
 public class Random
                extends Object
                implements Serializable
@@ -22,7 +22,7 @@ public class Random
 1.  **Java . util . random . doubles():**返回一个实际上无限的伪随机双精度值流，每个值介于零(包含)和一(排除)之间
     **语法:**
 
-    ```
+    ```java
     public DoubleStream doubles()
     Returns:
     a stream of pseudorandom double values
@@ -31,7 +31,7 @@ public class Random
 2.  **java.util.Random.ints():** 返回一个实际上无限的伪随机 int 值流
     **语法:**
 
-    ```
+    ```java
     public IntStream ints()
     Returns:
     a stream of pseudorandom int values
@@ -40,7 +40,7 @@ public class Random
 3.  **Java . util . random . longs():**返回一个实际上无限的伪随机长值流
     **语法:**
 
-    ```
+    ```java
     public LongStream longs()
     Returns:
     a stream of pseudorandom long values
@@ -49,7 +49,7 @@ public class Random
 4.  **下一个(int 位):java.util.Random.next(int 位)**生成下一个伪随机数
     **语法:**
 
-    ```
+    ```java
     protected int next(int bits)
     Parameters:
     bits - random bits
@@ -61,7 +61,7 @@ public class Random
 5.  **Java . util . random . nextboolean():**从这个随机数生成器的序列中返回下一个伪随机的、均匀分布的布尔值
     **语法:**
 
-    ```
+    ```java
     public boolean nextBoolean()
     Returns:
     the next pseudorandom, uniformly distributed boolean value 
@@ -71,7 +71,7 @@ public class Random
 6.  **Java . util . random . next bytes(byte[]bytes):**生成随机字节并将其放入用户提供的字节数组中
     **语法:**
 
-    ```
+    ```java
     public void nextBytes(byte[] bytes)
     Parameters:
     bytes - the byte array to fill with random bytes
@@ -82,7 +82,7 @@ public class Random
 7.  **Java . util . random . nextDouble():**从这个随机数生成器的序列中返回下一个 0.0 到 1.0 之间的伪随机、均匀分布的 double 值
     **语法:**
 
-    ```
+    ```java
     public double nextDouble()
     Returns:
     the next pseudo random, uniformly distributed double 
@@ -93,7 +93,7 @@ public class Random
 8.  **Java . util . random . nextfloat():**从这个随机数生成器的序列
     **中返回下一个 0.0 到 1.0 之间的伪随机、均匀分布的浮点值语法:**
 
-    ```
+    ```java
     public float nextFloat()
     Returns:
     the next pseudorandom, uniformly distributed float value 
@@ -104,7 +104,7 @@ public class Random
 9.  **Java . util . random . nextgaussian():**返回下一个伪随机、高斯(“正态”)分布的双数值，其平均值为 0.0，标准偏差为 1.0，与此随机数生成器的序列
     **语法:**
 
-    ```
+    ```java
     public double nextGaussian()
     Returns:
     the next pseudorandom, Gaussian ("normally") distributed double
@@ -115,7 +115,7 @@ public class Random
 10.  **[Java . util . random . nextInt()](https://www.geeksforgeeks.org/java-util-random-nextint-java/):**从这个随机数生成器的序列中返回下一个伪随机的、均匀分布的 int 值
     **语法:**
 
-    ```
+    ```java
     public int nextInt()
     Returns:
     the next pseudorandom, uniformly distributed int value from 
@@ -125,7 +125,7 @@ public class Random
 11.  **Java . util . random . nextInt(int bound):**返回一个伪随机的、均匀分布的 int 值，介于 0(包括 0)和指定值(不包括 0)之间，从这个随机数生成器的序列中提取
     **语法:**
 
-    ```
+    ```java
     public int nextInt(int bound)
     Parameters:
     bound - the upper bound (exclusive). Must be positive.
@@ -140,7 +140,7 @@ public class Random
 12.  **Java . util . random . nextlong():**从这个随机数生成器的序列中返回下一个伪随机的、均匀分布的长值
     **语法:**
 
-    ```
+    ```java
     public long nextLong()
     Returns:
     the next pseudorandom, uniformly distributed long value
@@ -151,7 +151,7 @@ public class Random
 13.  **java.util.Random.setSeed(长种子):**使用单个长种子设置该随机数生成器的种子
     **语法:**
 
-    ```
+    ```java
     public void setSeed(long seed)
     Parameters:
     seed - the initial seed
@@ -171,7 +171,7 @@ public class Random
 
 **演示 Random 类用法的 Java 程序**
 
-```
+```java
 // Java program to demonstrate
 // method calls of Random class
 import java.util.Random;
@@ -221,7 +221,7 @@ public class Test
 
 输出:
 
-```
+```java
 4
 true
 0.19674934340402916

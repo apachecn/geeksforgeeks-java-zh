@@ -6,7 +6,7 @@ Java 中 **DoubleSummaryStatistics 类的 **accept()** 方法用于将给定值�
 
 **语法:**
 
-```
+```java
 public void accept(double value)
 
 ```
@@ -17,7 +17,7 @@ public void accept(double value)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 

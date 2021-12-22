@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : Geeks for geeks
 Output :Gfg
 
@@ -17,12 +17,12 @@ Output : UK
 
 下面是[正则表达式](https://www.geeksforgeeks.org/regular-expressions-in-java/)提取每个单词的第一个字母。它使用'/b '(边界匹配器之一)。请参考[如何写正则表达式？](https://www.geeksforgeeks.org/write-regular-expressions/)要学会它。
 
-```
+```java
 \b[a-zA-Z]
 
 ```
 
-```
+```java
 // Java program to demonstrate extracting first
 // letter of each word using Regex
 import java.util.regex.Matcher;
@@ -53,7 +53,7 @@ public class Test
 
 输出:
 
-```
+```java
 GfG
 ACSPfG
 

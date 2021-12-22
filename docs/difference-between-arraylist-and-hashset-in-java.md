@@ -29,7 +29,7 @@
 
 **数组列表示例**
 
-```
+```java
 // Java program to demonstrate working of ArrayList in Java
 
 import java.io.*;
@@ -70,7 +70,7 @@ class ArrayListTest {
 
 **输出:**
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5 
@@ -79,7 +79,7 @@ class ArrayListTest {
 
 **HashSet 示例**
 
-```
+```java
 // Java program to demonstrate working of HashSet
 
 import java.util.HashSet;
@@ -112,7 +112,7 @@ class HashSetDemo {
 
 **输出:**
 
-```
+```java
 1 2 3 4 
 
 ```

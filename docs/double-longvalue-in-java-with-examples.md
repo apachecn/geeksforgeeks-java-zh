@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 DoubleObject.longValue()
 
 ```
@@ -19,7 +19,7 @@ DoubleObject.longValue()
 
 **代码 1 :**
 
-```
+```java
 // Java Code to implement 
 // longValue() method of Double class
 class GFG {
@@ -42,14 +42,14 @@ class GFG {
 
 **输出**
 
-```
+```java
 1022
 
 ```
 
 **代码 2 :**
 
-```
+```java
 // Java Code to implement 
 // longValue() method of Double class
 class GFG {
@@ -72,7 +72,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 -1023
 
 ```

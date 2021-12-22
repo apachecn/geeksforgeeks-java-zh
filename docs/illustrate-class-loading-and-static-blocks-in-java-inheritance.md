@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Class Loading
 
 // Importing input output files
@@ -77,7 +77,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Loading class A 1st static block 
 Loading class A 2nd static block B.c=0
 Loading class A 3rd static block 

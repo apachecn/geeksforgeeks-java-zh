@@ -22,7 +22,7 @@
 **方法 1:**
 该方法输出如果连接互联网则为 0，如果未连接互联网则为 1。
 
-```
+```java
 // Java program for Checking Internet connectivity
 import java.util.*;
 import java.io.*;
@@ -50,7 +50,7 @@ class checking_internet_connectivity {
 **方法 2:**
 如果互联网没有连接，它将抛出一个异常，catch 将执行打印相应的消息。
 
-```
+```java
 // Java program for checking Internet connectivity
 import java.util.*;
 import java.io.*;

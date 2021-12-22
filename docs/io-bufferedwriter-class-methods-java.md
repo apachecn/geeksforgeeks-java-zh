@@ -8,7 +8,7 @@ Bufferreader 类将文本写入字符输出流，缓冲字符。因此，提供�
 输出被写入器立即设置为基础字符或字节流。
 **类申报**
 
-```
+```java
 public class BufferedWriter
    extends Writer
 ```
@@ -23,7 +23,7 @@ public class BufferedWriter
 *   **write():Java . io . bufferedwriter . write(int arg)**写入由整数参数指定的单个字符。
     **语法:**
 
-```
+```java
 public void write(int arg)
 Parameters : 
 arg : integer that specifies the character to write          
@@ -35,7 +35,7 @@ Doesn't return any value.
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 //Java program illustrating use of write(int arg) method
 
 import java.io.*;
@@ -75,7 +75,7 @@ public class NewClass
 
 *   **注意:**在给定的输出中，你看不到它在文件上的动作。在设备中的任何编译器上运行此代码。它会创建一个新文件“ABC”，并在其中写入“E 1”。
 
-```
+```java
 Output : 
 Buffered Writer start writing :)
 Written successfully
@@ -84,7 +84,7 @@ Written successfully
 *   **write():Java . io . bufferedwriter . write(String arg，int offset，int length)** 按照 Java Code 中提到的 String 的参数在文件中写入 String。
     **语法:**
 
-```
+```java
 public void write(String arg, int offset, int length)
 Parameters : 
 arg : String to be written
@@ -98,7 +98,7 @@ Doesn't return any value.
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 //Java program illustrating use of write(String arg, int offset, int length) method
 
 import java.io.*;
@@ -134,7 +134,7 @@ public class NewClass
 
 *   **注意:**在给定的输出中，你看不到它在文件上的动作。在设备中的任何编译器上运行此代码。它创建了一个新的文件“ABC”，并在其中写下“极客”。在这里，
 
-```
+```java
 arg = Hello Geeks
 offset = 6
 length = arg.length So, when we minus offset : 6, it will write 'Geeks' only in the file.
@@ -142,7 +142,7 @@ length = arg.length So, when we minus offset : 6, it will write 'Geeks' only in 
 
 *   输出:
 
-```
+```java
 Buffered Writer start writing :)
 Written successfully                                                   
 ```
@@ -150,7 +150,7 @@ Written successfully
 *   **newLine():Java . io . bufferedwriter . newLine()**换行/分隔线。
     **语法:**
 
-```
+```java
 public void newLine()       
 Return :
 Doesn't return any value.
@@ -160,7 +160,7 @@ Doesn't return any value.
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 //Java program explaining use of newLine() method
 
 import java.io.*;
@@ -213,7 +213,7 @@ public class NewClass
     | GEEKS |在这里，newLine()方法在 GEEKS 之后换行，FOR 写在下一行
     输出:
 
-```
+```java
 Buffered Writer start writing :)
 Written successfully
 ```
@@ -221,7 +221,7 @@ Written successfully
 *   **flush():Java . io . bufferedwriter . flush()**从写缓冲区中刷新字符。
     **语法:**
 
-```
+```java
 public void flush()    
 Return :
 Doesn't return any value.
@@ -230,7 +230,7 @@ Doesn't return any value.
 *   **close():Java . io . bufferedwriter . close()**从写缓冲区中刷新字符，然后将其关闭。
     **语法:**
 
-```
+```java
 public void close()    
 Return :
 Doesn't return any value.
@@ -240,7 +240,7 @@ Doesn't return any value.
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 //Java program illustrating use of flush(), close() method
 
 import java.io.*; //BufferedWriter, FileWriter, IOException
@@ -281,7 +281,7 @@ public class NewClass
     | 1 |
     。这里，flush()方法刷新流，close()方法关闭编写器。
 
-```
+```java
 Output : 
 Buffered Writer start writing :)
 Written successfully

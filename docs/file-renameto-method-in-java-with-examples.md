@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public boolean renameTo(File destination)
 ```
 
 **语法:**
 
-```
+```java
 file.renameTo(File destination)
 ```
 
@@ -29,7 +29,7 @@ file.renameTo(File destination)
 
 **示例 1:** 尝试将文件 program.txt 重命名为 program1.txt
 
-```
+```java
 // Java program to demonstrate
 // the use of File.renameTo() method
 
@@ -64,13 +64,13 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 File is renamed
 ```
 
 **示例 2:** 尝试将“program1.txt”重命名为“prog.txt”，“prog.txt”是 f:驱动器中的现有文件。
 
-```
+```java
 // Java program to demonstrate
 // the use of File.renameTo() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 File cannot be renamed
 
 ```

@@ -14,7 +14,7 @@
 
  *## Java
 
-```
+```java
 // Java Program to illustrate extraction of
 // Zip file
 

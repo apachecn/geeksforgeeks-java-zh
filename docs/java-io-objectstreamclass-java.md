@@ -11,7 +11,7 @@
 
 1.  **类 forClass():** 这个方法返回这个版本映射到的本地 VM 中的类。如果没有对应的本地类，则返回 Null。
 
-```
+```java
 Syntax: public Class forClass()
 Returns: the Class instance that this descriptor represents
 Exception: NA
@@ -20,14 +20,14 @@ Exception: NA
 
 *   **静态对象流类查找(类类):**找到可以序列化的类的描述符。如果类尚不存在 ObjectStreamClass 实例，则创建该实例。如果指定的类没有实现 java.io.Serializable 或 java.io.Externalizable，则返回 Null*   **static ObjectStreamClass lookupAny(Class class):** Returns the descriptor for any class, regardless of whether it implements Serializable.
 
-    ```
+    ```java
     Syntax: public static ObjectStreamClass lookupAny(Class class)
     Return: the class descriptor for the specified class
     Exception: NA
 
     ```
 
-    ```
+    ```java
     // Java code illustrating forClass(),
     // lookup() and lookupAny() method
 
@@ -55,7 +55,7 @@ Exception: NA
 
     输出:
 
-    ```
+    ```java
     class java.lang.Number
     class java.util.ArrayList
 
@@ -63,7 +63,7 @@ Exception: NA
 
     *   **ObjectStreamField getField(字符串名称):**按名称获取这个类的字段。
 
-    ```
+    ```java
     Syntax: public ObjectStreamField getField(String name)
     Return: The ObjectStreamField object of the named 
     field or null if there is no such named field.
@@ -73,7 +73,7 @@ Exception: NA
 
     *   **ObjectStreamField[]getFields():**返回此可序列化类的字段数组。
 
-    ```
+    ```java
     Syntax: public ObjectStreamField[] getFields()
     Returns: an array containing an element for each 
     persistent field of this class. Returns an array of length zero if
@@ -84,7 +84,7 @@ Exception: NA
 
     *   **String getName():** 返回此描述符描述的类的名称。此方法以 Class.getName()方法使用的格式返回类的名称。
 
-    ```
+    ```java
     Syntax: public String getName()
     Return: a string representing the name of the class
     Exception: NA
@@ -93,7 +93,7 @@ Exception: NA
 
     *   **long getSerialVersionUID():**返回该类的 serial version uid。serialVersionUID 定义了一组同名的类，这些类是从一个公共根类演化而来的，并同意使用公共格式进行序列化和反序列化。不可序列化的类的序列号为 0L。
 
-    ```
+    ```java
     Syntax: public long getSerialVersionUID()
     Returns: the SUID of the class described by this descriptor
     Exception: NA
@@ -102,14 +102,14 @@ Exception: NA
 
     *   **String toString():** Return a string describing this ObjectStreamClass.
 
-    ```
+    ```java
     Syntax: public String toString()
     Returns: a string representation of the object.
     Exception: NA
 
     ```
 
-    ```
+    ```java
     // Java code illustrating getField(), toString()
     // getClass(), getSerialVersionUID()
 
@@ -142,7 +142,7 @@ Exception: NA
 
     输出:
 
-    ```
+    ```java
     null
     [Ljava.io.ObjectStreamField;@45ee12a7
     class name: class java.io.ObjectStreamClass

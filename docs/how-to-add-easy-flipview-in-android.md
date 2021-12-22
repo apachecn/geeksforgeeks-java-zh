@@ -46,7 +46,7 @@ EasyFlipView 是一个安卓库，允许我们在安卓应用中轻松创建翻�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
@@ -68,7 +68,7 @@ EasyFlipView 是一个安卓库，允许我们在安卓应用中轻松创建翻�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -129,7 +129,7 @@ EasyFlipView 是一个安卓库，允许我们在安卓应用中轻松创建翻�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"

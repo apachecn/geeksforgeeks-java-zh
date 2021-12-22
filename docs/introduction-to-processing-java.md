@@ -17,7 +17,7 @@
 
 下面是绘制圆的示例处理代码:
 
-```
+```java
 // This function is called whenever we
 // start the app.
 void setup()

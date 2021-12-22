@@ -8,7 +8,7 @@
 
     **使用 x = x + 1**
 
-    ```
+    ```java
     // Java program to illustrate
     // how arithmetic operations performed
     // depends on data types
@@ -31,14 +31,14 @@
 
     输出:
 
-    ```
+    ```java
     error: incompatible types: possible lossy conversion from int to byte
 
     ```
 
     使用类型转换，输出将是
 
-    ```
+    ```java
     11
     ```
 
@@ -46,7 +46,7 @@
 
     在下一个例子中，我们在做增量，但是在内部我们像 b++一样做操作。结果应该是 int 类型，即 max(int，b 类型，即字节，1 类型，即 int)，我们得到的结果是 11，因为隐式类型转换是由编译器完成的，就像这里的字节 b=(字节)(b+1)。
 
-    ```
+    ```java
     // Java program to understand the 
     // operations of ++ operator
     public class Test 
@@ -62,7 +62,7 @@
 
     输出:
 
-    ```
+    ```java
     11
 
     ```
@@ -70,19 +70,19 @@
     从上面的例子我们可以理解，在递增/递减运算符中，编译器会在需要时自动进行类型转换。但是这是怎么发生的呢？让我们试着理解:
     假设我们必须执行增量，那么我们使用++运算符:
 
-    ```
+    ```java
     i++;
     ```
 
     只是一个捷径:
 
-    ```
+    ```java
     i = i + 1;
     ```
 
     但是如果我们这样取 I 和 j 的值:
 
-    ```
+    ```java
     byte i = 1;
     Then i = i + 1;
     ```
@@ -90,13 +90,13 @@
     将不会编译，因为我们将 int 值赋给字节类型，而且除了 i++,语句中没有类型转换；会编译好的。
     表示实际上是 i++；是这种事情的捷径
 
-    ```
+    ```java
     i = (type of i)(i + 1);
     ```
 
 2.  **Different compiler instructions for both :** They are different operators, and use different JVM instructions in bytecode.
 
-    ```
+    ```java
     x + 1 uses iadd instruction, 
     whereas x++ uses iinc instruction internally
     ```

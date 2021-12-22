@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的**isaafter()**方法用于检查作为参数传
 
 **语法:**
 
-```
+```java
 public boolean isAfter(ChronoLocalDateTime otherDate)
 ```
 
@@ -18,7 +18,7 @@ public boolean isAfter(ChronoLocalDateTime otherDate)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -49,7 +49,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03T12:45:30
 2016-12-04T12:45:30
 true
@@ -58,7 +58,7 @@ true
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -89,7 +89,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03T12:45:30
 2019-12-04T12:45:30
 false

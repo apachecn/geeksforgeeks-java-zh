@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find a leap year
 
 // Importing Classes/Files
@@ -88,7 +88,7 @@ public class GeeksforGeeks {
 
 **输出:**
 
-```
+```java
 2000 : Leap-year
 2002 : Non Leap-year
 ```
@@ -101,7 +101,7 @@ public class GeeksforGeeks {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check Leap-year
 // by taking input from user
 
@@ -145,12 +145,12 @@ public class GFG {
 
 **输入:**
 
-```
+```java
 2012
 ```
 
 **输出:**
 
-```
+```java
 2012 : Leap Year
 ```

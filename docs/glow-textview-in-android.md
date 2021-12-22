@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
@@ -42,7 +42,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -96,7 +96,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // array of different colors
 int[] colors={Color.RED,Color.GREEN,Color.BLACK,Color.CYAN,Color.DKGRAY,Color.GRAY,Color.LTGRAY,Color.BLUE,Color.WHITE,Color.YELLOW,Color.MAGENTA};
 ```
@@ -105,7 +105,7 @@ int[] colors={Color.RED,Color.GREEN,Color.BLACK,Color.CYAN,Color.DKGRAY,Color.GR
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // getting Glow seekBar reference
 SeekBar seekBarGlow =(SeekBar)findViewById(R.id.seekBarGlow);
 
@@ -123,7 +123,7 @@ GlowTextView  glowTextView =(GlowTextView)findViewById(R.id.glowTextView);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // seekBar change listener for changing the glow radius
 seekBarGlow.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
            @Override
@@ -167,7 +167,7 @@ seekBarGlow.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.SeekBar;

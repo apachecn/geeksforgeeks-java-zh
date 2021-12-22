@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate with(TemporalAdjuster adjuster)
 
 ```
@@ -28,7 +28,7 @@ public LocalDate with(TemporalAdjuster adjuster)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.with() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before adjustment: 2018-12-06
 LocalDate after adjustment: 2018-03-31
 
@@ -78,7 +78,7 @@ LocalDate after adjustment: 2018-03-31
 
 **语法:**
 
-```
+```java
 public LocalDate with(TemporalField field, long newValue)
 
 ```
@@ -97,7 +97,7 @@ public LocalDate with(TemporalField field, long newValue)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.with() method
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before applying method: 2018-12-06
 LocalDate after applying method: 2018-12-30
 

@@ -6,7 +6,7 @@ Java 中 **DateFormat 类**的 **getDateTimeInstance()** 方法用于获取日�
 
 **语法:**
 
-```
+```java
 public static final DateFormat getDateTimeInstance()
 ```
 
@@ -17,7 +17,7 @@ public static final DateFormat getDateTimeInstance()
 下面的程序说明了 getDateTimeInstance()方法在 Java 中的使用:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // getDateTimeInstance() method
 
@@ -44,7 +44,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 Object: java.text.SimpleDateFormat@7945516e
 Mar 28, 2019 4:03:11 AM
 
@@ -52,7 +52,7 @@ Mar 28, 2019 4:03:11 AM
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getDateTimeInstance() method
 
@@ -92,7 +92,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The Original: 03/28/2019
 Object: java.text.SimpleDateFormat@7945516e
 Mar 28, 2019 4:03:13 AM

@@ -37,7 +37,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Minimize the maximum element of an array
 
 import java.io.*;
@@ -92,7 +92,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 N is 5
 K is 11
 Maximum element is 3

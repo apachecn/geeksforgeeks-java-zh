@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E takeLast()
 
 ```
@@ -23,7 +23,7 @@ public E takeLast()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate takeLast()
 // method of BlockingDeque
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Head of Blocking Deque: 74381793
 Blocking Deque: [7855642, 35658786, 5278367]
@@ -72,7 +72,7 @@ Blocking Deque: [7855642, 35658786, 5278367]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate takeLast()
 // method of BlockingDeque
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **运行时错误:**
 
-```
+```java
 Max real time limit exceeded due to either by heavy load on server or by using sleep function
 
 ```

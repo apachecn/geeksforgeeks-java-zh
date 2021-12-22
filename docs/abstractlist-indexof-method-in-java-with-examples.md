@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int indexOf(Object o)
 ```
 
@@ -18,7 +18,7 @@ public int indexOf(Object o)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // indexOf() method
 // for Integer value
@@ -64,7 +64,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayListlist : [10, 20, 30, 40, 50]
 index : 2
 
@@ -72,7 +72,7 @@ index : 2
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // indexOf() method
 // for Integer value
@@ -119,7 +119,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayListlist : [10, 20, 30, 40, 50]
 Index of 25 : -1
 
@@ -127,7 +127,7 @@ Index of 25 : -1
 
 **示例 3:** 为空值
 
-```
+```java
 // Java program to demonstrate
 // indexOf() method
 // for null value
@@ -175,7 +175,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayListlist : [10, 20, 30, 40, 50]
 Index of null : -1
 

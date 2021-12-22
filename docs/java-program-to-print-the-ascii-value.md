@@ -19,7 +19,7 @@ ASCII 是美国信息交换标准代码的缩写。在 ASCII 中，给不同的�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print ASCII Value of Character
 // by assigning variable to integer
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The ASCII value of } is: 125
 ```
 
@@ -56,7 +56,7 @@ java 中的类型转换是一种将变量转换成另一种数据类型的方法
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print ASCII Value of Character
 // using type-casting
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The ASCII value of } is: 125
 ```
 
@@ -93,7 +93,7 @@ The ASCII value of } is: 125
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print ASCII Value of Character
 // using format specifier
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The ASCII value of the character ' } ' is 125
 ```
 
@@ -139,7 +139,7 @@ The ASCII value of the character ' } ' is 125
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print ASCII Value of Character
 // by generating bytes. 
 
@@ -183,6 +183,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The ASCII value of } is 125
 ```

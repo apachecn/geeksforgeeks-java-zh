@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public void initialize(int keysize)
 ```
 
@@ -24,7 +24,7 @@ public void initialize(int keysize)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // genKeyPair() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Keypair : java.security.KeyPair@12a3a380
 ```
 
@@ -70,7 +70,7 @@ Keypair : java.security.KeyPair@12a3a380
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // genKeyPair() method
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception thrown :
  java.security.InvalidParameterException:
  RSA keys must be at least 512 bits long
@@ -124,7 +124,7 @@ Exception thrown :
 
 **语法:**
 
-```
+```java
 public void initialize(int keysize,
                        SecureRandom random)
 ```
@@ -143,7 +143,7 @@ public void initialize(int keysize,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // genKeyPair() method
 
@@ -190,7 +190,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Keypair : java.security.KeyPair@4e25154f
 ```
 
@@ -198,7 +198,7 @@ Keypair : java.security.KeyPair@4e25154f
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // genKeyPair() method
 
@@ -245,7 +245,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception thrown :
  java.security.InvalidParameterException:
  RSA keys must be at least 512 bits long

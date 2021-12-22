@@ -6,7 +6,7 @@ Java 类中的**周期**类获取以年、月、日为单位的时间量或时�
 
 **语法:**类声明
 
-```
+```java
 public final class Period 
 extends Object 
 implements ChronoPeriod, Serializable
@@ -65,7 +65,7 @@ implements ChronoPeriod, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Period class
 // demonstrate the methods of this class
 // Methods - minus() and ofMonths()
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 P4M
 
 ```
@@ -107,7 +107,7 @@ P4M
 
 **语法:**
 
-```
+```java
 public static Period ofDays(int numberOfDays)
 ```
 
@@ -119,7 +119,7 @@ public static Period ofDays(int numberOfDays)
 
 **语法:**
 
-```
+```java
 public Temporal addTo(Temporal temporal)
 ```
 
@@ -133,7 +133,7 @@ public Temporal addTo(Temporal temporal)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Period class
 // demonstrate the methods of this class
 // Methods like ofDays() and addTo()
@@ -164,7 +164,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2021-03-29
 
 ```

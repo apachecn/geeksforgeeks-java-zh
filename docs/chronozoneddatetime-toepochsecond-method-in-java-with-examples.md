@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default long toEpochSecond()
 
 ```
@@ -19,7 +19,7 @@ default long toEpochSecond()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.toEpochSecond() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 Epoch Second: 1544104272
 
@@ -58,7 +58,7 @@ Epoch Second: 1544104272
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.toEpochSecond() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoZonedDateTime: 1918-10-25T23:12:38.543Z[Europe/Paris]
 Epoch Second: -1615250842
 

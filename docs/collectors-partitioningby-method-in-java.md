@@ -26,7 +26,7 @@
 
 **程序:**
 
-```
+```java
 // Java code to show the implementation of
 // Collectors partitioningBy() function
 
@@ -63,7 +63,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 Elements in stream partitioned by less than equal to 3: 
 {false=[1, 2, 3], true=[4, 5, 6, 7, 8, 9, 10]}
 
@@ -89,7 +89,7 @@ Elements in stream partitioned by less than equal to 3:
 
 下面是说明 partitioningBy()方法的类型 2 的示例:
 
-```
+```java
 // Java code to show the implementation of
 // Collectors partitioningBy() function
 
@@ -127,7 +127,7 @@ class ArraytoArrayList {
 
 **Output:**
 
-```
+```java
 Elements in stream partitioned by less than equal to 3: 
 {false=3, true=7}
 

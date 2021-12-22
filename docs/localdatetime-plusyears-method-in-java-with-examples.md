@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public LocalDateTime plusYears(long years)
 ```
 
@@ -22,7 +22,7 @@ public LocalDateTime plusYears(long years)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the plusYears() method
 
 import java.util.*;
@@ -43,7 +43,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 LocalDateTime with 15 years added: 2033-01-11T10:15:30
 ```
 
@@ -51,7 +51,7 @@ LocalDateTime with 15 years added: 2033-01-11T10:15:30
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the plusYears() method
 
 import java.util.*;
@@ -72,7 +72,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 LocalDateTime with -2 years added: 2016-01-11T08:15:30
 ```
 

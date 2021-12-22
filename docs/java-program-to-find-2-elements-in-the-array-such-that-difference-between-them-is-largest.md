@@ -8,7 +8,7 @@
 
 ***   Run two cycles to compare and check the differences between each possible pair.*   By calculating the minimum and maximum values of an array and returning the difference between them.**
 
- **```
+ ```java
 Input : arr = {2, 3, 10, 6, 4, 8, 1}
 Output : Two elements with largest difference: 10 and 1
 Explanation : The maximum difference is between 10 and 1.
@@ -31,7 +31,7 @@ Explanation : The maximum difference is between 2 and 120.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find 2
 // Elements in an array
 // such that the difference
@@ -90,7 +90,7 @@ class Largest_Difference_GFG {
 
 **Output**
 
-```
+```java
 Greatest Difference:118
 Two elements with largest difference: 2 and 120
 
@@ -106,7 +106,7 @@ Two elements with largest difference: 2 and 120
 
 ## Java
 
-```
+```java
 // Java Program to Find 2
 // Elements in an array
 // such that the difference
@@ -132,7 +132,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Maximum Difference is: 118
 Two elements with largest difference: 2 and 120
 

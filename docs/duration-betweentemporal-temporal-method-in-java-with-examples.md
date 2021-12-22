@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Duration between(Temporal startDuration, Temporal endDuration)
 
 ```
@@ -27,7 +27,7 @@ public static Duration between(Temporal startDuration, Temporal endDuration)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate between() method
 
 import java.time.*;
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 43200
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate between() method
 
 import java.time.*;
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 43199
 
 ```

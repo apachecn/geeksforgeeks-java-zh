@@ -11,7 +11,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate How to make Java
 // Regular Expression case insensitive in Java
 import java.util.regex.Matcher;
@@ -43,7 +43,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GFG
 gfg
 ```
@@ -52,7 +52,7 @@ gfg
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate How to make Java
 // Regular Expression case insensitive in Java
 import java.util.regex.Matcher;
@@ -83,7 +83,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GFG
 gfg
 ```

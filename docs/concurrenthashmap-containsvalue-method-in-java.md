@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 chm.containsValue*(Object val_element)*
 ```
 
@@ -20,7 +20,7 @@ chm.containsValue*(Object val_element)*
 
 **程序 1:** 该程序涉及将整数值映射到字符串键。
 
-```
+```java
 /* Java Program to demonstrate containsValue()
    method of ConcurrentHashMap */
 
@@ -57,7 +57,7 @@ class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 100 is not mapped.
 120 is mapped.
 
@@ -65,7 +65,7 @@ class ConcurrentHashMapDemo {
 
 **程序 2:** 该程序涉及将字符串值映射到整数值键。
 
-```
+```java
 /* Java Program to demonstrate containsValue()
    method of ConcurrentHashMap */
 
@@ -102,7 +102,7 @@ class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 Geeks is mapped.
 GfG is not mapped.
 

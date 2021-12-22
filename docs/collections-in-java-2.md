@@ -18,7 +18,7 @@ Collection 接口( **java.util.Collection** )和 Map 接口( **java.util.Map** )
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate
 // why collection framework was needed
 import java.io.*;
@@ -64,7 +64,7 @@ class CollectionDemo {
 
 ******输出:******
 
-```
+```java
 **1
 1
 geeks**
@@ -148,7 +148,7 @@ geeks**
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the
 // working of ArrayList
 import java.io.*;
@@ -188,7 +188,7 @@ class GFG {
 
 ******Output:** 
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5
@@ -198,7 +198,7 @@ class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the
 // working of LinkedList
 import java.io.*;
@@ -237,7 +237,7 @@ class GFG {
 
 ******Output:** 
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5
@@ -247,7 +247,7 @@ class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the
 // working of Vector
 import java.io.*;
@@ -286,7 +286,7 @@ class GFG {
 
 ******Output:** 
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5
@@ -296,7 +296,7 @@ class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the
 // working of a stack
 import java.util.*;
@@ -336,7 +336,7 @@ public class GFG {
 
 ******Output:** 
 
-```
+```java
 Geeks For Geeks Geeks 
 Geeks For Geeks
 ```**** 
@@ -356,7 +356,7 @@ Geeks For Geeks
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the working of
 // priority queue in Java
 import java.util.*;
@@ -389,7 +389,7 @@ class GfG {
 
 ******Output:** 
 
-```
+```java
 10
 10
 15
@@ -407,7 +407,7 @@ class GfG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the
 // ArrayDeque class in Java
 
@@ -447,7 +447,7 @@ public class ArrayDequeDemo {
 
 ******Output:** ****
 
-```
+```java
 **[10, 20, 30, 40, 50]
 [291, 564, 24, 14]**
 ```

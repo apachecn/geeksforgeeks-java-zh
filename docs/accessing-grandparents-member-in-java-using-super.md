@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // filename Main.java
 class Grandparent {
     public void Print()
@@ -46,7 +46,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 prog.java:20: error: <identifier> expected
         super.super.Print();
               ^
@@ -60,7 +60,7 @@ prog.java:20: error: not a statement
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // filename Main.java
 class Grandparent {
     public void Print()
@@ -96,7 +96,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Grandparent's Print()
 Parent's Print()
 Child's Print()

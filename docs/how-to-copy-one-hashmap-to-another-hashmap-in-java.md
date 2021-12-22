@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate through the
 // first map and put it in the second map
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 {A=1, B=2, C=3}
 ```
 
@@ -71,7 +71,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 new_hash_map.putAll(*exist_hash_map*)
 ```
 
@@ -83,7 +83,7 @@ new_hash_map.putAll(*exist_hash_map*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to copy hashmap to
 // another hashmap using putAll() method
 
@@ -124,7 +124,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 {A=1, B=2, C=3}
 ```
 
@@ -136,7 +136,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.HashMap;
 import java.util.Map;
 
@@ -172,6 +172,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 {A=1, B=2, C=3}
 ```

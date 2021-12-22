@@ -22,7 +22,7 @@ Java 遵循“编译一次，运行在任何地方”的原则这意味着在一
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // if we execute a Java program meant for the Linux/Unix
 // operating system on a Windows operating system
 import java.io.BufferedReader;
@@ -88,7 +88,7 @@ public class ShellCommandRunner4 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Run a simple Windows shell command
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -150,7 +150,7 @@ Chrome 浏览器进程。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Run a simple .bat program in the Java console
 import java.io.BufferedReader;
 import java.io.File;
@@ -208,7 +208,7 @@ public class ShellCommandRunner3 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Run a simple command using the RunTime class
 import java.io.BufferedReader;
 import java.io.File;

@@ -24,7 +24,7 @@ Java 可以区分**不同方法签名**的方法。即这些方法可以具有�
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Method Overloading
 // By Changing the Number of Parameters
 
@@ -85,7 +85,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 sum of the two integer value :3
 sum of the three integer value :6
 
@@ -95,7 +95,7 @@ sum of the three integer value :6
 
 T5】JavaT7
 
-```
+```java
 // Java Program to Illustrate Method Overloading
 // By Changing Data Types of the Parameters
 
@@ -145,7 +145,7 @@ T8T10**输出**T1
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Method Overloading
 // By changing the Order of the Parameters
 
@@ -196,7 +196,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 geekName :Mohit Id :1
 geekName :shubham Id :2
 ```

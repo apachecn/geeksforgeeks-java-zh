@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int preceding(int offset)
 ```
 
@@ -20,7 +20,7 @@ public int preceding(int offset)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate preceding() method
 
 import java.text.*;
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current position before calling preceding() : 11
 
 current position after calling 1st preceding() : 4
@@ -87,7 +87,7 @@ current position after calling 2nd preceding() : 6
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate preceding() method
 
 import java.text.*;
@@ -151,7 +151,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current position before calling preceding() : 11
 
 current position after calling 1st preceding() : 4

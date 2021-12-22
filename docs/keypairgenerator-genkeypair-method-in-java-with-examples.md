@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public final KeyPair genKeyPair()
 ```
 
@@ -23,7 +23,7 @@ public final KeyPair genKeyPair()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // genKeyPair() method
 
@@ -60,7 +60,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Keypair : java.security.KeyPair@12a3a380
 ```
 
@@ -68,7 +68,7 @@ Keypair : java.security.KeyPair@12a3a380
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // genKeyPair() method
 
@@ -102,6 +102,6 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Keypair : java.security.KeyPair@12a3a380
 ```

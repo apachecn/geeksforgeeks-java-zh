@@ -6,7 +6,7 @@ Calendar 类中的 **clear()** 方法用于返回该类的 getInstance 方法的
 
 **语法:**
 
-```
+```java
 public static Locale[] getAvailableLocales()
 ```
 
@@ -17,7 +17,7 @@ public static Locale[] getAvailableLocales()
 以下程序说明了日历类 getAvailableLocales()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java Code to illustrate
 // getAvailableLocales() Method
 
@@ -47,7 +47,7 @@ public class Calendar_Demo_Locale {
 
 **Output:**
 
-```
+```java
 The first five locales are:
 
 ARE
@@ -59,7 +59,7 @@ HRV
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate
 // getAvailableLocales() Method
 
@@ -90,7 +90,7 @@ public class Calendar_Demo_Locale {
 
 **Output:**
 
-```
+```java
 The first twenty availables locales are:
 
 ARE

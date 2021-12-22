@@ -8,7 +8,7 @@ Java 中**计时周期类**的**减()方法**用于从指定的周期中减去�
 
 **语法:**
 
-```
+```java
 ChronoPeriod minus(TemporalAmount amountToSubtract)
 ```
 
@@ -25,7 +25,7 @@ ChronoPeriod minus(TemporalAmount amountToSubtract)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function minus()
 // to subtract the two given periods
 
@@ -65,14 +65,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 P2Y4M2D
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function minus()
 // to subtract the two given periods
 
@@ -111,7 +111,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 P-2Y-4M-2D
 
 ```

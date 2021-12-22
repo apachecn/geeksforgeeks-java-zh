@@ -18,7 +18,7 @@ PdfDocument 类是 iText 中表示 PDF Document 的类，要以写模式实例�
 
 ## 爪哇
 
-```
+```java
 // Creating a PdfDocument  object.
 // passing PdfWriter object constructor of pdfDocument.
 PdfDocument pdfdocument = new PdfDocument(pdfwriter);
@@ -30,7 +30,7 @@ PdfDocument pdfdocument = new PdfDocument(pdfwriter);
 
 ## 爪哇
 
-```
+```java
 // Creating a Document and passing pdfDocument object 
 Document document = new Document(pdfdocument);
 ```
@@ -41,7 +41,7 @@ Document document = new Document(pdfdocument);
 
 ## 爪哇
 
-```
+```java
 // Creating a list 
 List list = new List();
 

@@ -8,7 +8,7 @@
 
 **示例:**从数字中提取最后一位数字
 
-```
+```java
 Random Number = 1997
 Last Digit       = 7
 Goal: 1997 % (x) = 7            // Goal is Divide 1997 by x such that remainder is 7
@@ -20,7 +20,7 @@ Goal: 1997 % (x) = 7            // Goal is Divide 1997 by x such that remainder 
 
 示例:从数字中提取最后两位数字
 
-```
+```java
 Input  : year = 2020
 Output : 20
 
@@ -41,7 +41,7 @@ Output : 00
 
 数学单位制的内部运作
 
-```
+```java
 Let us consider 1983, we can write it as 
 1983 = 1*1000 + 9*100 + 8*10 + 3
 So when we take modulo by 100, we will just have the last two digits as remainder.
@@ -52,7 +52,7 @@ So when we take modulo by 100, we will just have the last two digits as remainde
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to extract last two digits of a year
 
 // Importing Classes/Files
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 83
 ```
 
@@ -83,7 +83,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to extract last two digits of a year
 public class GFG {
 
@@ -111,6 +111,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 83
 ```

@@ -17,49 +17,49 @@
 
 *堆栈 1*
 
-```
+```java
 *let s = empty stack of Integer type with size 4*
 ```
 
 *堆栈 2*
 
-```
+```java
 *push (100) : top = top + 1 and s[top] = 100*
 ```
 
 *堆栈 3*
 
-```
+```java
 *push (200) : top = top + 1 and s[top] = 200*
 ```
 
 *堆栈 4*
 
-```
+```java
  *push (300) : top = top + 1 and s[top] = 300*
 ```
 
 *堆栈 5*
 
-```
+```java
 *pop ( )  : top = top - 1*
 ```
 
 *堆栈 6*
 
-```
+```java
 *push (500) : top = top + 1 and s[top] = 500*
 ```
 
 *堆栈 7*
 
-```
+```java
 *push (600) : top = top + 1 and s[top] = 600*
 ```
 
 > ***注:***
 > 
-> ```
+> ```java
 > *push (700) : top +1 == size of stack : Stack Overflow ! 
 > // Since top = 3 and size of stack  = 4, no more elements can be pushed*
 > ```
@@ -70,7 +70,7 @@
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Implement Stack in Java Using Array and
 // Generics
 
@@ -276,7 +276,7 @@ public class GFG {
 
 ***Output**
 
-```
+```java
 s1 after pushing 10, 20 and 30 :
 10->20->30
 s1 after pop :

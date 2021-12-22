@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.get( *对象键*)方法用于给出指定键的映
 
 **语法:**
 
-```
+```java
 get(*Object key*)
 ```
 
@@ -18,7 +18,7 @@ get(*Object key*)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate get(key)
 import java.util.*;
 
@@ -52,14 +52,14 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 GeeksforGeeks ranked in India: 72
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate get(key)
 import java.util.*;
 
@@ -95,7 +95,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 Visitors in United_States: 18.2%
 
 ```

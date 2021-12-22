@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long factorial(int n)
 
 ```
@@ -25,7 +25,7 @@ public static long factorial(int n)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // factorial(int n) method of Guava's
 // LongMath Class
@@ -63,7 +63,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 factorial of 10 is : 3628800
 factorial of 12 is : 479001600
 
@@ -71,7 +71,7 @@ factorial of 12 is : 479001600
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // factorial(int n) method of Guava's
 // LongMath Class
@@ -118,7 +118,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException: n (-5) must be >= 0
 
 ```

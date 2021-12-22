@@ -5,7 +5,7 @@
 格式说明符以百分比字符(%)开头，以“类型字符”结尾，表示数据类型(int、float 等)。)将被转换为表示数据的基本方式(十进制、十六进制等)。)
 格式说明符的一般语法是
 
-```
+```java
 % [flags] [width] [.precision] [argsize] typechar
 ```
 
@@ -31,7 +31,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Formatter().format("% d", -111);
     Formatter().format("% d", 111);
 
@@ -43,7 +43,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // the space format specifier
 
@@ -77,7 +77,7 @@
 
     **Output:**
 
-    ```
+    ```java
     -111
      111
     -222
@@ -89,7 +89,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Formatter().format("%+d", 111);
 
     Output:
@@ -99,7 +99,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // the + sign Specifier format specifiers.
 
@@ -128,7 +128,7 @@
 
     **Output:**
 
-    ```
+    ```java
     +111
     -111
 
@@ -138,7 +138,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Formatter().format("%(d", -111);
     Formatter().format("%(d", 111);
 
@@ -150,7 +150,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // the ( Specifiers format specifiers.
 
@@ -177,7 +177,7 @@
 
     **Output:**
 
-    ```
+    ```java
     (111)
     111
 

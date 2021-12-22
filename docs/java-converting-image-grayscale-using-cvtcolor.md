@@ -4,7 +4,7 @@
 
 要使用 OpenCV 将彩色图像转换为灰度图像，我们将图像读入缓冲区，并将其转换为垫对象。
 
-```
+```java
 Syntax:
 File input = new File("digital_image_processing.jpg");
 BufferedImage image = ImageIO.read(input);
@@ -17,7 +17,7 @@ BufferedImage image = ImageIO.read(input);
 > Imgproc.cvtColor(源 mat，目的 mat1，Imgproc。COLOR _ RGB2GRAY)；
 > **参数:**方法 cvtColor()取源图像矩阵、目的图像矩阵和颜色转换类型三个参数。
 
-```
+```java
 // Java program to convert a color image to gray scale
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
@@ -49,7 +49,7 @@ public class GeeksforGeeks {
 }
 ```
 
-```
+```java
 Input : 
 
 Output :

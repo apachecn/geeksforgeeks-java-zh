@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final PrivateKey generatePrivate(KeySpec keySpec)
                                  throws InvalidKeySpecException
 ```
@@ -23,7 +23,7 @@ public final PrivateKey generatePrivate(KeySpec keySpec)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // generatePrivate() method
 
@@ -84,14 +84,14 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 PrivateKey : sun.security.provider.DSAPrivateKey@fff96ed9
 
 ```
 
 **示例 2:** 适用于*无效密钥特殊异常*
 
-```
+```java
 // Java program to demonstrate
 // generatePrivate() method
 
@@ -156,7 +156,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Exception thrown : java.security.spec.InvalidKeySpecException:
  Inappropriate key specification
 

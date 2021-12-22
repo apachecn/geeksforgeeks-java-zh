@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long longValue()
 
 ```
@@ -17,7 +17,7 @@ public long longValue()
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the longValue() method
 
 import java.lang.*;
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after longValue() is: 52.0
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the longValue() method
 
 import java.lang.*;
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after longValue() is: 62.0
 
 ```

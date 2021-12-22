@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
  public boolean retainAll(Collection col) 
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1:** 该程序涉及整数类型的 CopyOnArraylist retainAll()方法:
 
-```
+```java
 // Java Program to illustrate CopyOnArrayList
 // retainAll() method
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArrayList1: [34, 66, 72, 10]
 CopyOnWriteArrayList2: [10, 66, 97]
 After applying retainAll() method on ArrLis2
@@ -84,7 +84,7 @@ CopyOnWriteArrayList2: [10, 66]
 
 **程序 2:** 该程序涉及字符串类型的 CopyOnArraylist retainAll()方法:
 
-```
+```java
 // Java Program to illustrate CopyOnArrayList
 // retainAll() method
 
@@ -137,7 +137,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArrayList1: [geeks, shaan, gfg, programming]
 CopyOnWriteArrayList2: [geeks, gfg, qwe]
 After applying retainAll() method on ArrLis2

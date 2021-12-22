@@ -10,7 +10,7 @@ offset()方法是 Clock 类的静态方法，它返回一个时钟，该时钟�
 
 **语法:**
 
-```
+```java
 public static Clock offset(Clock baseClock, Duration offsetDuration)
 ```
 
@@ -25,7 +25,7 @@ public static Clock offset(Clock baseClock, Duration offsetDuration)
 
 **程序 1:** 当偏移量作为小时传递时。
 
-```
+```java
 // Java program to demonstrate offset()
 // method of Clock class
 
@@ -74,7 +74,7 @@ public class offsetMethodDemo {
 
 **输出:**
 
-```
+```java
 Real clock instant is 2018-08-21T09:43:13.519Z
 New clock instant with Duration = 0 is 2018-08-21T09:43:13.785Z
 New clock instant with Duration = 24hours is 2018-08-22T09:43:13.785Z
@@ -84,7 +84,7 @@ New clock instant with Duration = -24hours is 2018-08-20T09:43:13.785Z
 
 **程序 2:** 当偏移量以秒和分的形式传递时。
 
-```
+```java
 // Java program to demonstrate offset() 
 // method of Clock class
 
@@ -126,7 +126,7 @@ public class offsetMethodDemo {
 
 **输出:**
 
-```
+```java
 Real clock instant is 2018-08-21T09:43:18.921Z
 Time after 50 second later than real Clock is 2018-08-21T09:44:08.969Z
 Time after 30 minutes later than real Clock is 2018-08-21T10:13:18.969Z

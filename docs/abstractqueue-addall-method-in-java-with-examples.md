@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean addAll(Collection c)
 ```
 
@@ -25,7 +25,7 @@ public boolean addAll(Collection c)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue addAll() method
 import java.util.*;
@@ -65,7 +65,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractQueue1 contains : [10, 20, 30, 40, 50]
 AbstractQueue2 initially contains : []
 AbstractQueue1 after addition contains : [10, 20, 30, 40, 50]
@@ -74,7 +74,7 @@ AbstractQueue1 after addition contains : [10, 20, 30, 40, 50]
 
 **程序 2:** 程序为*非法状态异常*
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue addAll() method
 import java.util.*;
@@ -119,7 +119,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractQueue1 contains : [10, 20, 30, 40, 50]
 AbstractQueue2 initially contains : []
 Exception: java.lang.IllegalStateException: Queue full
@@ -128,7 +128,7 @@ Exception: java.lang.IllegalStateException: Queue full
 
 **程序 3:** 程序为*空指针异常*
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue addAll() method
 import java.util.*;
@@ -166,7 +166,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractQueue1 contains : null
 AbstractQueue2 initially contains : []
 Exception: java.lang.NullPointerException

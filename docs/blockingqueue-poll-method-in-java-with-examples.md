@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E poll(long timeout, TimeUnit unit) throws 
 ```
 
@@ -25,7 +25,7 @@ public E poll(long timeout, TimeUnit unit) throws
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // poll(long timeout, TimeUnit unit)
 // method of LinkedBlockingQueue
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Items in Queue are [Ravi, Suraj, Harsh]
 Removing item From head: Ravi
 Now Queue Contains[Suraj, Harsh]
@@ -102,7 +102,7 @@ Now Queue Contains[]
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate
 // poll(long timeout, TimeUnit unit)
 // method of LinkedBlockingQueue
@@ -143,7 +143,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Items in Queue are [Gopal, GFG]
 Removing item From head: Gopal
 Now Queue Contains[GFG]

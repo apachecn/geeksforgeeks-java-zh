@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void setPlain(int i, E newValue)
 
 ```
@@ -21,7 +21,7 @@ public final void setPlain(int i, E newValue)
 以下程序说明了 setPlain()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // setPlain() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // setPlain() method
 

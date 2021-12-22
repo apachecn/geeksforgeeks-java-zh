@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```java
 Input : String = "Hello World"
 Output: Hello World
 ```
@@ -22,7 +22,7 @@ Output: Hello World
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate conversion
 // from outputStream to string
 
@@ -59,7 +59,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hello Geek!
 ```
 
@@ -72,7 +72,7 @@ Hello Geek!
 
 **示例:**
 
-```
+```java
 Input : array = [71, 69, 69, 75]
 Output: GEEK 
 ```
@@ -81,7 +81,7 @@ Output: GEEK
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate conversion
 // from outputStream to string
 
@@ -117,6 +117,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 GEEKSFORGEEKS
 ```

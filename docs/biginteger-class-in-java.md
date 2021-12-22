@@ -9,33 +9,33 @@ BigInteger 类用于数学运算，它涉及非常大的整数计算，超出了
 
 **示例:**
 
-```
+```java
 int a, b;                
 BigInteger A, B; 
 ```
 
 初始化如下****:****
 
-```
+```java
 a = 54;
 b = 23;
 ```
 
-```
+```java
 A  = BigInteger.valueOf(54);
 B  = BigInteger.valueOf(37); 
 ```
 
 **对于以字符串形式提供的整数，您可以按如下方式初始化它们:**
 
-```
+```java
 A  = new BigInteger(“54”);
 B  = new BigInteger(“123456789123456789”); 
 ```
 
 **为了便于初始化，在 BigInteger 类中还定义了一些常量，如下所示:**
 
-```
+```java
 A = BigInteger.ONE;
 // Other than this, available constant are BigInteger.ZERO 
 // and BigInteger.TEN 
@@ -43,14 +43,14 @@ A = BigInteger.ONE;
 
 **数学运算如下:**
 
-```
+```java
 int c = a + b;
 BigInteger C = A.add(B); 
 ```
 
 **其他类似的函数是减法()，乘法()，除法()，余数()，但是所有这些函数都以 BigInteger 作为参数，所以如果我们想用整数或字符串进行此操作，请在将它们传递给函数之前将其转换为 BigInteger，如下所示:**
 
-```
+```java
 String str = “123456789”;
 BigInteger C = A.add(new BigInteger(str));
 int val  = 123456789;
@@ -59,7 +59,7 @@ BigInteger C = A.add(BigInteger.valueOf(val));
 
 **从 BigInteger 中提取值如下:**
 
-```
+```java
 int x   =  A.intValue();   // value should be in limit of int x
 long y   = A.longValue();  // value should be in limit of long y
 String z = A.toString(); 
@@ -67,14 +67,14 @@ String z = A.toString();
 
 **对比**
 
-```
+```java
 if (a < b) {}         // For primitive int
 if (A.compareTo(B) < 0)  {} // For BigInteger 
 ```
 
 **实际比较根据值返回-1(小于)、0(等于)、1(大于)。为了平等，我们还可以使用:**
 
-```
+```java
 if (A.equals(B)) {}  // A is equal to B 
 ```
 
@@ -145,7 +145,7 @@ if (A.equals(B)) {}  // A is equal to B
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to find large factorials using BigInteger
 import java.math.BigInteger;
 import java.util.Scanner;
@@ -176,7 +176,7 @@ public class Example
 
 ****输出:****
 
-```
+```java
 2432902008176640000
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Quartet<String, Integer, Double, String> quartet = ...
     ...
 Triplet<String, Integer, Double> triplet = quartet.removeFromX();
@@ -22,7 +22,7 @@ Triplet<String, Integer, Double> triplet = quartet.removeFromX();
 
 **程序 1:** 当 removeFromX()方法用于从 Pair 到 Decade 的任何类时，直接值作为参数:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of removeFromX() method
 
@@ -48,13 +48,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [GeeksforGeeks]
 ```
 
 **节目 2:**
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of removeFromX() method
 
@@ -97,7 +97,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 

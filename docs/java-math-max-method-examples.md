@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 dataType max(dataType num1, dataType num2)
 The datatypes can be int, float, double or long.
 
@@ -19,7 +19,7 @@ among which the maximum is returned
 
 下面给出了函数 max()的例子
 
-```
+```java
 // Java program to demonstrate the use of max() function
 // when two double data-type numbers are
 // passed as arguments
@@ -38,12 +38,12 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 12.456
 
 ```
 
-```
+```java
 // Java program to demonstrate the use of max() function
 // when one positive and one negative
 // integers are passed as argument
@@ -62,12 +62,12 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 23
 
 ```
 
-```
+```java
 // Java program to demonstrate the use of max() function
 // when two negative integers are passed as argument.
 public class Gfg {
@@ -85,7 +85,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 -23
 
 ```

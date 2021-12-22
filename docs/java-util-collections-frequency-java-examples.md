@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 public static int frequency(Collection<?> c, Object o)
 Parameters : 
 c - the collection in which to determine the frequency of o
@@ -19,7 +19,7 @@ NullPointerException - if c is null
 
 ```
 
-```
+```java
 // Java program to demonstrate working of 
 // java.utils.Collections.frequency()
 
@@ -48,7 +48,7 @@ public class FrequencyDemo
 
 输出:
 
-```
+```java
 2
 
 ```
@@ -57,7 +57,7 @@ public class FrequencyDemo
 
 [Java 中的数组类](https://www.geeksforgeeks.org/array-class-in-java/)没有频率方法。但是我们也可以使用 Collections.frequency()来获取数组中元素的频率。
 
-```
+```java
 // Java program to get frequency of an element 
 //  with java.utils.Collections.frequency()
 
@@ -81,7 +81,7 @@ public class FrequencyDemo
 
 输出:
 
-```
+```java
 3
 
 ```

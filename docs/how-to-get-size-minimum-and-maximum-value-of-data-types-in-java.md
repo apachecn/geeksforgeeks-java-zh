@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Print size, minimum value and maximum
 // value of Byte data types in java
 import java.io.*;
@@ -31,7 +31,7 @@ class ValuesOfByte {
 
 **Output**
 
-```
+```java
 Byte    8    -128    127
 ```
 
@@ -39,7 +39,7 @@ Byte    8    -128    127
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Print size, minimum value and 
 // maximum value of data types in java
 public class RangeOfDataTypes {
@@ -73,7 +73,7 @@ public class RangeOfDataTypes {
 
 **输出:**
 
-```
+```java
 S.No.      Data Type      Size          Min. Value                Max. Value
 1           Byte           8             -128                       127
 2           Short         16             -32768                     32767

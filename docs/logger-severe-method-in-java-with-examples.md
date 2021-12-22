@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public void severe(String msg)
 
 ```
@@ -25,7 +25,7 @@ public void severe(String msg)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.severe(String msg) method
 
@@ -60,7 +60,7 @@ public class GFG {
 
     **语法:**
 
-    ```
+    ```java
     public void severe(Supplier msgSupplier)
 
     ```
@@ -73,7 +73,7 @@ public class GFG {
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.severe(Supplier<String>) method
 

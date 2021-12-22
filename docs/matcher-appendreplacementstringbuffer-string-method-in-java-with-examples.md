@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Matcher 
     appendReplacement(StringBuffer buffer, 
                       String stringToBeReplaced)
@@ -30,7 +30,7 @@ public Matcher
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate appendReplacement() method
 
 import java.util.regex.*;
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before Replacement: GeeksForGeeks Geeks for For Geeks Geek
 After Replacement: GEEKSForGEEKS GEEKS for For GEEKS Geek
 
@@ -87,7 +87,7 @@ After Replacement: GEEKSForGEEKS GEEKS for For GEEKS Geek
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate appendReplacement() method
 
 import java.util.regex.*;
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before Replacement: FGF FGF FGF FGF
 After Replacement: GFG GFG GFG GFG
 

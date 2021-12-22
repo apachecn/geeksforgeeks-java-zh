@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int remaining()
 ```
 
@@ -16,7 +16,7 @@ public final int remaining()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // remaining() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Remaining element in buffer : 3
 
 ```
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // remaining() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Remaining element in buffer : 1
 
 ```

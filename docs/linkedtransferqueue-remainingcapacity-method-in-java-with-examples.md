@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 public int remainingCapacity()
 ```
 
@@ -18,7 +18,7 @@ public int remainingCapacity()
 
 **例 1:**
 
-```
+```java
 // Java program to illustrate
 // LinkedTransferQueue.remainingCapacity() method
 
@@ -52,7 +52,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Linked Transfer Queue1: [7855642, 35658786, 5278367, 74381793]
 2147483647
 
@@ -60,7 +60,7 @@ Linked Transfer Queue1: [7855642, 35658786, 5278367, 74381793]
 
 **例 2:**
 
-```
+```java
 // Java program to illustrate
 // LinkedTransferQueue.remainingCapacity() method
 
@@ -94,7 +94,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Linked Transfer Queue1: [Geeks, For, Geeks, GeeksForGeeks]
 2147483647
 

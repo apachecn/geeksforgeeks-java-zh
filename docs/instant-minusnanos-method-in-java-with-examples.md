@@ -5,7 +5,7 @@
 **瞬间类**的亚纳秒()方法从这个瞬间减去作为参数传递的纳秒值，并将结果作为瞬间对象返回。这个返回的即时消息是不可变的。
 **语法:**
 
-```
+```java
 public Instant minusNanos(long nanosToSubtract)
 ```
 
@@ -21,7 +21,7 @@ public Instant minusNanos(long nanosToSubtract)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Instant.minusNanos() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initialize instant: 2018-12-30T19:34:50.630Z
 Returned Instant: 2018-12-30T19:34:50.200Z
 

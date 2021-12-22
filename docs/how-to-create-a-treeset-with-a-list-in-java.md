@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : List = [a, b, c]
 Output: TreeSet = [a, b, c]
 
@@ -26,7 +26,7 @@ Output: TreeSet = [1, 2, 3]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Create a TreeSet with a List
 import java.util.ArrayList;
 import java.util.List;
@@ -58,7 +58,7 @@ public class ExampleTreeSet {
 
 **Output**
 
-```
+```java
 Fruit List : [Mango, Apple, Grape, Papaya]
 TreeSet from List : [Apple, Grape, Mango, Papaya]
 ```
@@ -77,7 +77,7 @@ TreeSet from List : [Apple, Grape, Mango, Papaya]
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Create a TreeSet with a List
 import java.util.ArrayList;
 import java.util.List;

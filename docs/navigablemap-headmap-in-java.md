@@ -8,7 +8,7 @@ Java 中[导航地图界面的头地图()方法用于返回该地图中键小于
 
 **语法** :
 
-```
+```java
 NavigableMap<K, V> headMap(K toKey,
                           boolean inclusive)
 
@@ -25,7 +25,7 @@ NavigableMap<K, V> headMap(K toKey,
 
 **程序 1** :当键为整数，*第二个参数缺失*。
 
-```
+```java
 // Java code to demonstrate the working of
 // headMap?() method
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 View of map with key less than or equal to 7 : {2=two, 3=three}
 
 ```
 
 **程序 2** :带第二个参数。
 
-```
+```java
 // Java code to demonstrate the working of
 // headMap?() method
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 View of map with key less than or equal to 7 : {2=two, 3=three, 7=seven}
 
 ```

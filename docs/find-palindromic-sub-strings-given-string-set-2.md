@@ -31,7 +31,7 @@
 
 ## C++
 
-```
+```java
 // c++ program to Count number of ways we
 // can get palindrome string from a given
 // string
@@ -114,7 +114,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Count number of ways we
 // can get palindrome string from a given string
 import java.util.ArrayList;
@@ -166,7 +166,7 @@ public class AllPalindromeSubstringsPossible {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to Count number of ways we
 # can get palindrome string from a given
 # string
@@ -231,7 +231,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```java
 // C# program to Count number of ways we
 // can get palindrome string from a given string
 using System;
@@ -291,7 +291,7 @@ public class AllPalindromeSubstringsPossible
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // JavaScript program to Count number of ways we
@@ -344,7 +344,7 @@ document.write("["+list.join(", ")+"]<br>");
 
 **Output:** 
 
-```
+```java
 13
 [h, e, l, ll, l, o, lol, lloll, ellolle, l, ll, l, e]
 15

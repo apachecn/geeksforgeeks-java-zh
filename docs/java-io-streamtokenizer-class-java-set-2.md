@@ -12,7 +12,7 @@
     当解析器遇到具有双精度浮点数格式的单词标记时，它会将标记视为数字而不是单词，方法是将 ttype 字段设置为值 TT_NUMBER，并将标记的数值放入 nval 字段。
     **语法:**
 
-```
+```java
 public void parseNumbers()
 Parameters :
 -----------
@@ -22,7 +22,7 @@ void
 
 **实施:**
 
-```
+```java
 // Java Program  illustrating use of parseNumbers() method
 
 import java.io.*;
@@ -70,7 +70,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Word : Hello
 Word : Geeks
 Number : 1.0
@@ -87,7 +87,7 @@ Word : parseNumbers
     When the nextToken method encounters a string constant, the ttype field is set to the string delimiter and the sval field is set to the body of the string.
     **Syntax :**
 
-    ```
+    ```java
     public void quoteChar(int arg)
     Parameters :
     arg : the character to be dilimit 
@@ -97,7 +97,7 @@ Word : parseNumbers
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of quoteChar() method
 
     import java.io.*;
@@ -147,7 +147,7 @@ Word : parseNumbers
 
     **输出:**
 
-    ```
+    ```java
     Word : Hell
     o encountered.
     Word : Geeks
@@ -162,7 +162,7 @@ Word : parseNumbers
     *   **resetSyntax() :** **java.io.StreamTokenizer.resetSynatx()** resets Syntax when a number is met, so that all characters are set as ‘Ordinary’ in StreamTokenizer.
     **Syntax :**
 
-    ```
+    ```java
     public void resetSyntax()
     Parameters :
     ---------
@@ -172,7 +172,7 @@ Word : parseNumbers
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of resetSyntax() method
 
     import java.io.*;
@@ -222,7 +222,7 @@ Word : parseNumbers
     3
     **输出:**
 
-    ```
+    ```java
     Word : Hello
     Word : This
     Word : is
@@ -252,7 +252,7 @@ Word : parseNumbers
     If the flag argument is false, then C++- style comments are not treated specially.
     **Syntax :**
 
-    ```
+    ```java
     public void slashSlashComments(boolean arg)
     Parameters :
     arg : tells whether to recognise and ignore C++ - style comments or not.
@@ -262,7 +262,7 @@ Word : parseNumbers
 
     **实施:**
 
-    ```
+    ```java
     // Java Program  illustrating use of slashSlashComments() method
 
     import java.io.*;
@@ -307,7 +307,7 @@ Word : parseNumbers
     此方法将 ABC.txt 文件中的“方法”视为注释，因此忽略它。
     **输出:**
 
-    ```
+    ```java
     Word : This
     Word : program
     Word : is
@@ -318,7 +318,7 @@ Word : parseNumbers
     *   **slashStarComments() :** **java.io.StreamTokenizer.slashStarComments(boolean arg)** specifies whether to consider C – style comments by tokenizer or not. If ‘arg’ is set true, then the StreamTokenizer recognises and ignores C – style comments. ‘/*……*/’ is considered as a comment.
     **Syntax :**
 
-    ```
+    ```java
     public void slashStarComments(boolean arg)
     Parameters :
     arg : tells whether to recognise and ignore C - style comments or not.
@@ -328,7 +328,7 @@ Word : parseNumbers
 
     **实施:**
 
-    ```
+    ```java
     // Java Program illustrating use of slashStarComments() method
 
     import java.io.*;
@@ -373,7 +373,7 @@ Word : parseNumbers
     此方法将 ABC.txt 文件中的“方法”视为注释，因此忽略它。
     **输出:**
 
-    ```
+    ```java
     Word : This
     Word : program
     Word : is
@@ -385,7 +385,7 @@ Word : parseNumbers
     *   **whitespaceChars() :** **java.io.StreamTokenizer.whitespaceChars(int low, int high)** specifies all the characters in the range of low to high as white space, which serves only to separate tokens in the InputStream.
     **Syntax :**
 
-    ```
+    ```java
     public void whitespaceChars(int low, int high)
     Parameters :
     low : lower range of character to be white spaced.
@@ -396,7 +396,7 @@ Word : parseNumbers
 
     **实施:**
 
-    ```
+    ```java
     // Java Program illustrating use of whitespaceChars() method
 
     import java.io.*;
@@ -439,7 +439,7 @@ Word : parseNumbers
 
     **输出:**
 
-    ```
+    ```java
     Word : This
     Word : progr
     Word : m

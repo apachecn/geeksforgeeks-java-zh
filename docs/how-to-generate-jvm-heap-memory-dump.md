@@ -23,7 +23,7 @@ jmap 是一个在 JDK 主目录的 bin 文件夹中运行的命令。它给出�
 
 **例**
 
-```
+```java
 jmap -dump:[live],format=b,file=<file-path> <pid>
 
 live:- This parameter is optional. If set, it prints all those objects that 
@@ -43,7 +43,7 @@ file =<file-path> indicates where the heap dump file will be generated.
 
 **1.1**
 
-```
+```java
 jps
 ```
 
@@ -55,7 +55,7 @@ jps 命令
 
 **1.2**
 
-```
+```java
 ps -eaf| grep java
 ```
 
@@ -71,7 +71,7 @@ ps -eaf | grep java
 
 该命令向 JVM 发送****请求，以生成堆转储。它的参数之一是 GC.heap_dump。如下图所示:****
 
-```
+```java
 **jcmd <pid> GC.heap_dump <file-path>
 <pid> - Process id of java process
 <file-path> - Path where the heap dump is to be generated**
@@ -93,7 +93,7 @@ ps -eaf | grep java
 
 ****当应用程序遇到 java.lang.OutOfMemoryError 时，捕获堆转储是理想的选择。堆转储有助于识别内存中的活动对象及其占用的内存百分比。****
 
-```
+```java
 **-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=<file-path>**
 ```
 
@@ -117,7 +117,7 @@ jconsole–MBean 选项卡****
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program Invoking heapDump() Method of MBean Object
 
 // Importing input output classes

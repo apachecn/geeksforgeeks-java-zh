@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public static dataType nextUp(dataType g)
 Parameter :
  g : an input for starting floating-point value.
@@ -27,7 +27,7 @@ The nextUp() method returns the adjacent floating-point value closer to
 
 **示例:**展示 **java.lang.Math.nextUp()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.nextUp() method
 import java.lang.Math;
@@ -67,7 +67,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 69.19000000000001
 78.100006
 NaN

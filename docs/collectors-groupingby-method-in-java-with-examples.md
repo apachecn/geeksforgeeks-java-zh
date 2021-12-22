@@ -27,7 +27,7 @@ Java 中 Collectors 类的**group bingby()**方法用于根据某些属性对对
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Collectors groupingBy() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 {geeks=2, for=1}
 ```
 

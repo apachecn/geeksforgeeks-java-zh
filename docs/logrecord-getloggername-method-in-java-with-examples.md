@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getLoggerName()
 
 ```
@@ -18,7 +18,7 @@ public String getLoggerName()
 下面的程序说明了 getLoggerName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate getLoggerName() method
 
 import java.util.logging.Level;
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Logger Name = StringLogger
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate getLoggerName() method
 
 import java.util.logging.Level;
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Logger Name = class java.lang.String
 
 ```

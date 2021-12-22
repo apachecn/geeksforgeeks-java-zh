@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract DoubleBuffer put(double f)
 ```
 
@@ -24,7 +24,7 @@ public abstract DoubleBuffer put(double f)
 以下是举例说明放(双 f)法:
  **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -71,14 +71,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original DoubleBuffer:  [8.56, 9.61, 7.86]
 
 ```
 
 **示例 2:** 演示 BufferOverflowException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to put the Double at the position more than its limit
 Exception throws : java.nio.BufferOverflowException
 
@@ -139,7 +139,7 @@ Exception throws : java.nio.BufferOverflowException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -187,7 +187,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to put theDouble value in read only buffer
 Exception throws : java.nio.ReadOnlyBufferException
 
@@ -199,7 +199,7 @@ Exception throws : java.nio.ReadOnlyBufferException
 
 **语法:**
 
-```
+```java
 public abstract DoubleBuffer put(int index, double f)
 ```
 
@@ -219,7 +219,7 @@ public abstract DoubleBuffer put(int index, double f)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -273,14 +273,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original DoubleBuffer:  [8.5600004196167, 7.860000133514404, 9.609999656677246]
 
 ```
 
 **示例 2:** 演示 IndexOutOfBoundsException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -332,7 +332,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to put the value at the negative index
 Exception throws : java.lang.IndexOutOfBoundsException
 
@@ -340,7 +340,7 @@ Exception throws : java.lang.IndexOutOfBoundsException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -388,7 +388,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to put the Double value in read only buffer
 Exception throws : java.nio.ReadOnlyBufferException
 

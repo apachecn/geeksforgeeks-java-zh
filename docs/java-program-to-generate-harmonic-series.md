@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Generate Harmonic Series
 
 class HarmonicSeries {
@@ -46,7 +46,7 @@ class HarmonicSeries {
 
 **Output**
 
-```
+```java
 The harmonic series is: 
 0.2, 0.45, 0.7833333333333333, 1.2833333333333332, 2.283333333333333,
 ```
@@ -55,7 +55,7 @@ The harmonic series is:
 
 ## Java
 
-```
+```java
 // Java Program to Generate Harmonic Series
 
 class HarmonicSeries {
@@ -84,7 +84,7 @@ class HarmonicSeries {
 
 **输出**
 
-```
+```java
 The harmonic series is: 
 0.2, 0.45, 0.7833333333333333, 1.2833333333333332, 2.283333333333333,
 ```
@@ -93,7 +93,7 @@ The harmonic series is:
 
 ## 爪哇
 
-```
+```java
 // Java Program to Generate Harmonic Series
 
 // importing necessary java packages
@@ -133,7 +133,7 @@ class HarmonicSeries {
 
 **输出**
 
-```
+```java
 $ javac HarmonicSeries.java
 $ java HarmonicSeries
 
@@ -142,7 +142,7 @@ The harmonic series is:
 0.2, 0.45, 0.7833333333333333, 1.2833333333333332, 2.283333333333333
 ```
 
-```
+```java
 $ javac HarmonicSeries.java
 $ java HarmonicSeries
 

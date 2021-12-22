@@ -27,7 +27,7 @@ java.nio.file.LinkPermission 类处理链接创建操作的权限。这些类允
 
 **类申报:**
 
-```
+```java
 public final class LinkPermission
 extends BasicPermission
 ```
@@ -61,7 +61,7 @@ extends BasicPermission
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a new hard LinkPermission
 import java.nio.file.LinkPermission;
 import java.security.Permission;
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 hard
 class java.nio.file.LinkPermission
 3195115
@@ -104,7 +104,7 @@ class java.nio.file.LinkPermission
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a new symbolic LinkPermission
 import java.nio.file.LinkPermission;
 import java.security.Permission;
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 symbolic
 class java.nio.file.LinkPermission
 1787985074
@@ -148,7 +148,7 @@ class java.nio.file.LinkPermission
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to compare two LinkPermission objects
 import java.nio.file.LinkPermission;
 import java.security.Permission;
@@ -184,6 +184,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Both permission are not equal
 ```

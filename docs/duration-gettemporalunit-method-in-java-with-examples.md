@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long get(TemporalUnit unit)
 
 ```
@@ -24,7 +24,7 @@ public long get(TemporalUnit unit)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate get() method
 
 import java.time.Duration;
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Seconds: 183840
 Nanos: 0
 
@@ -67,7 +67,7 @@ Nanos: 0
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate get() method
 
 import java.time.Duration;
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception:
  java.time.temporal.UnsupportedTemporalTypeException:
  Unsupported unit: Minutes

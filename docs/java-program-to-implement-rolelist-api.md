@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public class RoleList extends ArrayList<Object> ;
 ```
 
@@ -36,7 +36,7 @@ public class RoleList extends ArrayList<Object> ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement RoleList API
 
 // Importing libraries
@@ -179,7 +179,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 role name: 1_rolename; role value: domain1_:key1_=value1_, domain2_:key2_=value3_ 
 role name: 2_rolename; role value: domain3_:key3_=value3_, domain4_:key4_=value4_
 ```

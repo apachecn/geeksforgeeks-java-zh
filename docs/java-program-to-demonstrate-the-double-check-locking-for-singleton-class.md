@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 private static Singleton instance;
 
 public static Singleton getInstance1()
@@ -34,7 +34,7 @@ public static Singleton getInstance1()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public static Singleton getInstance2()
 {   // Single Checked
     if (instance == null) { 
@@ -55,7 +55,7 @@ public static Singleton getInstance2()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to write double checked locking 
 // of Singleton class
 

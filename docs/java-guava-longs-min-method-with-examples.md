@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 public static long min(long... array) 
 ```
 
@@ -20,7 +20,7 @@ public static long min(long... array)
 
 ****例 1 :****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.min() method
 
@@ -46,14 +46,14 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 Minimum Value is : -5
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.min() method
 
@@ -86,7 +86,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

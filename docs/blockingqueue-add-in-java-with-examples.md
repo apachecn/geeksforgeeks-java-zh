@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void add(E e)
 ```
 
@@ -26,7 +26,7 @@ public void add(E e)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate add()
 // method of BlockingQueue
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Blocking Queue: [7855642, 35658786, 5278367, 74381793]
 
 ```
@@ -66,7 +66,7 @@ Blocking Queue: [7855642, 35658786, 5278367, 74381793]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate add()
 // method of LinkedBlockingDeque
 // when null is inserted
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.IllegalStateException: Deque full
     at java.util.concurrent.LinkedBlockingDeque.addLast(LinkedBlockingDeque.java:335)
     at java.util.concurrent.LinkedBlockingDeque.add(LinkedBlockingDeque.java:633)

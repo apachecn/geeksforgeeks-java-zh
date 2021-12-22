@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Set<String>: ["ForGeeks", "A Computer Portal", "Geeks"]
 Output: String[]: ["ForGeeks", "A Computer Portal", "Geeks"]
 
@@ -23,7 +23,7 @@ Output: String[]: ["G", "e", "k", "s"]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to convert
     // Set of Strings to Array of Strings
 
@@ -76,7 +76,7 @@ Output: String[]: ["G", "e", "k", "s"]
 
     **Output:**
 
-    ```
+    ```java
     Set of String: [ForGeeks, A Computer Portal, Geeks]
     Array of String: [ForGeeks, A Computer Portal, Geeks]
 

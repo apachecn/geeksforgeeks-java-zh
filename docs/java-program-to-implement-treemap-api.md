@@ -13,7 +13,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate TreeMap API
 import java.util.*;
 
@@ -292,7 +292,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The key value pairs of TreeMap:
 Aakash : 495
 Akshay : 500

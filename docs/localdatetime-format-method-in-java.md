@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **format()** 方法使用指定的格式化程
 
 **语法:**
 
-```
+```java
 public String format(DateTimeFormatter formatter)
 
 ```
@@ -19,7 +19,7 @@ public String format(DateTimeFormatter formatter)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the format() method
 
 import java.util.*;
@@ -59,7 +59,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2018-11-03T12:45:30
 BASIC_ISO_DATE format: 20181103
 ISO_LOCAL_DATE format: 2018-11-03
@@ -70,7 +70,7 @@ ISO_LOCAL_TIME format: 12:45:30
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the format() method
 
 import java.util.*;
@@ -111,7 +111,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2016-09-06T12:45:30
 ISO_TIME format: 12:45:30
 ISO_LOCAL_DATE_TIME format: 2016-09-06T12:45:30

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean contains(Object o)
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of ConcurrentLinkedQueue
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Aman, Amar, Sanjeet, Rabi]
 queue contains String "Aman" : true
 queue contains String "Ram" : false
@@ -69,7 +69,7 @@ queue contains String "Ram" : false
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of ConcurrentLinkedQueue
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 queue contains Number 78249 : true
 queue contains Number 9876: false

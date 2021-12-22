@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean remove(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean remove(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the
 // remove() method in Java
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [32, 67, 98, 100]
 Set after removal of 100 is: [32, 67, 98]
 
@@ -64,7 +64,7 @@ Set after removal of 100 is: [32, 67, 98]
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the
 // isEmpty() method in Java
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArraySet: [gopal, geeks, technical]
 'scripter' is not present
 

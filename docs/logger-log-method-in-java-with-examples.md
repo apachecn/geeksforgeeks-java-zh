@@ -7,7 +7,7 @@
 1.  **<u>log(Level level, String msg)</u>**: This method is used to Log a message, with no arguments.only message will be written in logger Output.
     **Syntax:**
 
-    ```
+    ```java
     public void log(Level level, String msg)
 
     ```
@@ -18,7 +18,7 @@
 
     **程序 1:** 方法日志(级别级别，字符串消息)
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.log(Level level, String msg)  method
 
@@ -50,7 +50,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void log(Level level, String msg, Object param1)
 
     ```
@@ -61,7 +61,7 @@
 
     **程序 2:** 方法日志(级别级别，字符串消息，对象参数 1)
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.log(Level level, String msg, Object param1)
 
@@ -93,7 +93,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void log(Level level, String msg, Object[] params)
 
     ```
@@ -104,7 +104,7 @@
 
     **程序 3:** 方法日志(级别级别，字符串消息，对象[]参数 1)
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.log(Level level, String msg, Object[] param1)
 
@@ -139,7 +139,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void log(Level level, String msg, Throwable thrown)
 
     ```
@@ -150,7 +150,7 @@
 
     **程序 4:** 方法日志(级别级别，字符串消息，可抛出)
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.log(Level level, String msg, Throwable thrown)
 
@@ -184,7 +184,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void log(Level level, Throwable thrown, Supplier msgSupplier)
 
     ```
@@ -195,7 +195,7 @@
 
     **程序 5:** 方法日志(级别级别，可投掷，供应商 msgSupplier)
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.log(Level level, Throwable thrown, Supplier<String> msgSupplier)
 
@@ -234,7 +234,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void log(Level level, Supplier msgSupplier)
 
     ```
@@ -245,7 +245,7 @@
 
     **程序 6:** 方法日志(级别级别，供应商 msgSupplier)
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.log(Level level, <String> msgSupplier)
 
@@ -282,7 +282,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void log(LogRecord record)
 
     ```
@@ -293,7 +293,7 @@
 
     **程序 7:** 方法日志(日志记录记录)
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.log(LogRecord record)
 

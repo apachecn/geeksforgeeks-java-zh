@@ -20,7 +20,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // control flow of try-catch clause
 // when exception occur in try block
@@ -53,7 +53,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 Exception caught in Catch block
 Outside try-catch clause
 ```
@@ -62,7 +62,7 @@ Outside try-catch clause
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // control flow of try-catch-finally clause
 // when exception occur in try block
@@ -102,7 +102,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 Exception caught in catch block
 finally block executed
 Outside try-catch-finally clause
@@ -114,7 +114,7 @@ Outside try-catch-finally clause
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // control flow of try-catch clause
 // when exception occurs in try block
@@ -149,7 +149,7 @@ class GFG
 
 **运行时错误:**
 
-```
+```java
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
     at GFG.main(GFG.java:12)
 ```
@@ -158,7 +158,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // control flow of try-catch-finally clause
 // when exception occur in try block
@@ -199,13 +199,13 @@ class GFG
 
 **输出:**
 
-```
+```java
 finally block executed
 ```
 
 **运行时错误:**
 
-```
+```java
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
     at GFG.main(GFG.java:12)
 ```
@@ -216,7 +216,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate try-catch
 // when an exception doesn't occurred in try block
 class GFG
@@ -251,7 +251,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 Inside try block
 Outside try-catch clause
 ```
@@ -260,7 +260,7 @@ Outside try-catch clause
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate try-catch-finally
 // when exception doesn't occurred in try block
 class GFG
@@ -300,7 +300,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 try block fully executed
 finally block executed
 Outside try-catch clause
@@ -314,7 +314,7 @@ Outside try-catch clause
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // control flow of try-finally clause
 // when exception occur in try block
@@ -347,7 +347,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 finally block executed
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
     at GFG.main(GFG.java:11)
@@ -357,7 +357,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // control flow of try-finally clause
 // when exception doesn't occur in try block
@@ -390,7 +390,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 Inside try block
 finally block executed
 Outside try-finally clause

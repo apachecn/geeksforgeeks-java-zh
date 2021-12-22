@@ -5,7 +5,7 @@
 编写一个 Java 程序，打印每个字符的出现次数，并且它不应该重复打印重复字符的出现次数，如示例所示:
 示例:
 
-```
+```java
 Input : geeksforgeeks
 Output :
 Number of Occurrence of g is:2
@@ -23,7 +23,7 @@ Number of Occurrence of r is:1
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program for the above approach
 class NoOfOccurenceOfCharacters {
     static final int MAX_CHAR = 256;
@@ -72,7 +72,7 @@ class NoOfOccurenceOfCharacters {
 
 **输出:**
 
-```
+```java
 Number of Occurrence of g is:2
 Number of Occurrence of e is:4
 Number of Occurrence of k is:2

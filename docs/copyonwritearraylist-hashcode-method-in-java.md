@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // hashCode() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 98, 100]
 hashCode value: 1944358
 
@@ -59,7 +59,7 @@ hashCode value: 1944358
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // hashCode() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 hashCode value: -1942417272
 

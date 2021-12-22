@@ -15,7 +15,7 @@
 
 1.  **Java program to set some predefined cursor to the by passing string identifier as arguments:** This program creates a Cursor named *cursor_*. The cursor will be set to the scene using the function *setCursor()*.we will create a label. The label will be created inside a scene, which in turn will be hosted inside a stage. The function *setTitle()* is used to provide title to the stage. Then a tile pane is created, on which *addChildren()* method is called to attach the label inside the scene. Finally, the *show()* method is called to display the final results.
 
-    ```
+    ```java
     // Java program to set some predefined cursor
     // to the by passing string identifier as arguments
     import javafx.application.Application;
@@ -76,7 +76,7 @@
     <video class="wp-video-shortcode" id="video-217275-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/Cursor_1.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/Cursor_1.mp4](https://media.geeksforgeeks.org/wp-content/uploads/Cursor_1.mp4)</video>
 2.  **Java program to set some predefined cursor to the scene:** This program creates a Button indicated by the name button respectively. We will create an array of predefined cursors named *cursor_*. The cursor will be set to the scene using the function *setCursor()* from the list of predefined cursor *cursor_*. The button will be created inside a scene, which in turn will be hosted inside a stage. We would create a label. The function *setTitle()* is used to provide title to the stage. Then a tile pane is created, on which *addChildren()* method is called to attach the button and label inside the scene. Finally, the *show()* method is called to display the final results.we would create an event handler to handle the button events. The event handler would be added to the button using *setOnAction()* function. When the button will be pressed the cursor of the scene will be changed by using the function **setCursor()**.
 
-    ```
+    ```java
     // Java program to set some predefined
     // cursor to the scene
     import javafx.application.Application;

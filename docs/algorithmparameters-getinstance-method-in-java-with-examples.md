@@ -7,7 +7,7 @@
 **Java . security . AlgorithmParameters**类的 **getInstance()** 方法返回一个 AlgorithmParameters 类型的对象，该对象应用分配的 algorithm parameters 算法。
 **语法:**
 
-```
+```java
 public static AlgorithmParameters
   getInstance(String algorithm)
   throws NoSuchAlgorithmException
@@ -25,7 +25,7 @@ T3】例 1:T5】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -65,6 +65,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Status : null
 ```

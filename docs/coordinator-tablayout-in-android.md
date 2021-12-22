@@ -20,7 +20,7 @@
 
 导航至 **Gradle 脚本> build.gradle(模块:app)** 并在依赖项部分添加以下依赖项。
 
-```
+```java
 implementation 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.2'
 ```
 
@@ -32,7 +32,7 @@ implementation 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.2'
 
 ## 可扩展标记语言
 
-```
+```java
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme with No Action Bar. -->
     <style name="Theme.GFG" parent="Theme.MaterialComponents.DayNight.NoActionBar">
@@ -57,7 +57,7 @@ implementation 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.2'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -91,7 +91,7 @@ implementation 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.2'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -115,7 +115,7 @@ implementation 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.2'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -139,7 +139,7 @@ implementation 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.2'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

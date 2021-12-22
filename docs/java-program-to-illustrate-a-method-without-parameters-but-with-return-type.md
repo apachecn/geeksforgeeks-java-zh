@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
  class name
     {
         datatype MethodName()
@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate a Method
 // without Parameters but with Return Type
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Area of circle is : 153.86
 ```
 
@@ -95,7 +95,7 @@ Area of circle is : 153.86
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate a Method
 // without Parameters but with Return Type
 
@@ -139,6 +139,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Circumference of circle is : 43.96
 ```

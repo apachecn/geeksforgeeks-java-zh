@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default ChronoLocalDateTime<D> minus(long amountToSubtract, 
                                  TemporalUnit unit)
 
@@ -25,7 +25,7 @@ default ChronoLocalDateTime<D> minus(long amountToSubtract,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDateTime.minus() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ChronoLocalDateTime: 2019-12-31T19:15:30
 ChronoLocalDateTime after subtracting DAYS: 2019-06-14T19:15:30
 

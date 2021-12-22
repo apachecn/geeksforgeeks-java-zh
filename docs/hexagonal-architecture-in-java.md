@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Consider this as a value object
 // around which the domain logic revolves.
 public class Cake implements Serializable {
@@ -56,7 +56,7 @@ public class Cake implements Serializable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.List;
 
 // Interface through which the core
@@ -78,7 +78,7 @@ public interface CakeService {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.List;
 
 // Interface to access the cake
@@ -96,7 +96,7 @@ public interface CakeRepository {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -134,7 +134,7 @@ public class CakeRestController implements CakeRestUI {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -158,7 +158,7 @@ public interface CakeRestUI {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -199,7 +199,7 @@ public class CakeRepositoryImpl
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -245,7 +245,7 @@ public class CakeServiceImpl
 *   **API:**【*POST*】:http://localhost:8080/cake
     T5】输入体
 
-```
+```java
 {
     "name" : "Black Forest"
 }
@@ -254,7 +254,7 @@ public class CakeServiceImpl
 *   **API:**【*POST*】:http://localhost:8080/cake
     T5】输入体
 
-```
+```java
 {
     "name" : "Red Velvet"
 }
@@ -263,7 +263,7 @@ public class CakeServiceImpl
 *   **API:**【*GET*】:http://localhost:8080/cake
     T5】输出
 
-```
+```java
 [
     {
         "name": "Black Forest"

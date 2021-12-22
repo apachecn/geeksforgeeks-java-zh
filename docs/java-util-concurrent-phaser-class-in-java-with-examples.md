@@ -6,7 +6,7 @@ Phaser 的主要目的是实现代表一个或多个活动阶段的线程同步�
 
 **等级体系**
 
-```
+```java
 java.lang.Object
   ? java.util.concurrent
     ? Class Phaser 
@@ -14,7 +14,7 @@ java.lang.Object
 
 **语法**
 
-```
+```java
 public class Phaser
   extends Object
 ```
@@ -23,26 +23,26 @@ public class Phaser
 
 *   **移相器()**–这将创建一个最初注册方为零的移相器。一个线程只能在注册后使用这个相位器。
 
-```
+```java
 public Phaser()
 ```
 
 *   **相位器(int parties)**–这创建了一个相位器，需要 parties 数量的线程才能前进到下一个阶段。
 
-```
+```java
 public Phaser(int parties)
 throws IllegalArgumentException
 ```
 
 *   **相位器(相位器父级)**–这将为新对象指定父级相位器。注册方的数量设置为零。
 
-```
+```java
 public Phaser(Phaser parent)
 ```
 
 *   **相位器(相位器父级，inter parties)**–这将为新创建的对象指定一个父级相位器，以及进入下一阶段所需的参与方数量。
 
-```
+```java
 public Phaser(Phaser parent, int parties)
 throws IllegalArgumentException
 ```
@@ -53,7 +53,7 @@ throws IllegalArgumentException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show Phaser Class
 
 import java.util.concurrent.Phaser;
@@ -148,7 +148,7 @@ public class PhaserExample {
 
 **Output**
 
-```
+```java
 Starting
 Thread: B Phase Zero Started
 Thread: A Phase Zero Started
@@ -173,7 +173,7 @@ Phaser is terminated
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show Phaser Class
 
 import java.util.concurrent.Phaser;
@@ -268,7 +268,7 @@ public class PhaserExample {
 
 **Output**
 
-```
+```java
 Starting
 Thread: C Phase Zero Started
 Thread: A Phase Zero Started
@@ -293,41 +293,41 @@ Phaser is terminated
 
 *   **int register()**–该方法用于在相位器构建完成后注册各方。它返回它注册到的阶段的阶段号。
 
-```
+```java
 public int register()
 throws IllegalArgumentException
 ```
 
 *   **int react()**–这个方法表示一个线程已经完成了部分任务。它不会暂停调用线程的执行。如果相位器已经终止，它返回当前相位号或负值。
 
-```
+```java
 public int arrive()
 throws IllegalStateException
 ```
 
 *   **int arriveandunregulator()**–该方法使一个线程能够到达某个阶段并注销自己，而无需等待其他线程到达。如果相位器已经终止，它返回当前相位号或负值。
 
-```
+```java
 public int arriveAndDeregister()
 throws IllegalStateException
 ```
 
 *   **int arriveandwaitadvance()**–这个方法在某个阶段暂停线程的执行，等待其他线程。如果相位器已经终止，它返回当前相位号或负值。
 
-```
+```java
 public int arriveAndAwaitAdvance()
 throws IllegalStateException
 ```
 
 *   **final int getPhase()**–该方法返回当前相数。如果调用阶段终止，则返回负值。
 
-```
+```java
 public final int getPhase() 
 ```
 
 *   **布尔 onAdvance(int phase，int parties)**–该方法有助于定义阶段推进应该如何发生。为此，用户必须重写此方法。要终止相位器，onAdvance()方法返回 true，否则返回 false
 
-```
+```java
 protected boolean onAdvance(int phase, int parties)
 ```
 
@@ -335,7 +335,7 @@ protected boolean onAdvance(int phase, int parties)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the methods of Phaser class
 
@@ -420,7 +420,7 @@ public class PhaserExample2 {
 
 **Output**
 
-```
+```java
 Starting
 Thread B Beginning Phase 0
 Thread C Beginning Phase 0

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public class ContentHandlerDecorator extends org.xml.sax.helpers.DefaultHandler
 ```
 
@@ -14,7 +14,7 @@ public class ContentHandlerDecorator extends org.xml.sax.helpers.DefaultHandler
 
 **1。contenthandlerdecortor():**初始化 contenthandlerdecortor 类的新实例。这个装饰器将传入的 SAX 事件转发给虚拟内容处理程序。
 
-```
+```java
 ContentHandlerDecorator c = new ContentHandlerDecorator();
 ```
 
@@ -22,7 +22,7 @@ ContentHandlerDecorator c = new ContentHandlerDecorator();
 
 **2。ContentHandlerDecortator(ContentHandler handler):**contenthandlerdecortor 类的参数化构造函数，为给定的 SAX 事件处理程序创建一个新实例。
 
-```
+```java
 ContentHandlerDecorator c = new ContentHandlerDecorator(handler);
 ```
 

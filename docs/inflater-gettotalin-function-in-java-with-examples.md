@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public int getTotalIn()
 
 ```
 
 **语法:**
 
-```
+```java
 i.getTotalIn();
 
 ```
@@ -26,7 +26,7 @@ i.getTotalIn();
 
 **示例 1:**getTotalIn()函数的使用
 
-```
+```java
 // Java program to describe the use
 // of getTotalIn() function
 

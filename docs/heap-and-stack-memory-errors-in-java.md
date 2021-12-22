@@ -12,7 +12,7 @@ java 中的内存分配由 Java 中的 Java 虚拟机管理。它将内存分为
 
 插图:
 
-```
+```java
 // Java Program to Illustrate Stack Memory  
 
 // Importing required I/O classes 
@@ -52,7 +52,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Stack Memory Error
 // Factorial function without termination condition
 // will cause StackOverflow error
@@ -103,7 +103,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Execution in Heap Memory
 
 // Importing input output classes
@@ -160,7 +160,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Student name -> Jack
 Student roll no. -> 1
 ```
@@ -173,7 +173,7 @@ Student roll no. -> 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate OutOfMemoryError
 // in Heap Space
 

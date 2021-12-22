@@ -10,7 +10,7 @@
 
 **申报:**
 
-```
+```java
 public class StringBufferInputStream
    extends InputStream
 ```
@@ -24,7 +24,7 @@ public class StringBufferInputStream
 *   **read():****Java . io . stringbufferinputstream . read()**从输入流中读取字节的数据，如果到达流的末尾，则返回-1。
     **语法:**
 
-    ```
+    ```java
     public int read()
     Parameters : 
     -----------
@@ -36,7 +36,7 @@ public class StringBufferInputStream
 *   **read(byte[] buffer，int offset，int maxlen):****Java . io . stringbufferinputstream . read(byte[]buffer，int offset，int maxlen))** 从缓冲区中的偏移量位置开始读取字节数据，直到 maxlen，如果到达 Stream 的末尾，则返回-1。
     **语法:**
 
-    ```
+    ```java
     public int read(byte[] buffer, int offset, int maxlen))
     Parameters : 
     buffer : destination buffer to be read into  
@@ -50,7 +50,7 @@ public class StringBufferInputStream
 *   **reset():****Java . io . stringbufferinputstream . reset()**重置输入流，并从输入流中出现的“buffer”的第一个字符开始读取。
     **语法:**
 
-    ```
+    ```java
     public void reset()
     Parameters : 
     -----------
@@ -62,7 +62,7 @@ public class StringBufferInputStream
 *   **跳过(长 b):****Java . io . stringbufferinputstream . skip(长 b)** 跳过“b”字节。如果到达文件结尾，将跳过几个字节。
     **语法:**
 
-    ```
+    ```java
     public long skip(long b)
     Parameters : 
     b : no. of bytes to be skipped
@@ -74,7 +74,7 @@ public class StringBufferInputStream
 *   **available():****Java . io . stringbufferinputstream . available()**表示可供读取的字节总数。
     **语法:**
 
-    ```
+    ```java
     public int available()
     Parameters : 
     ----------------
@@ -83,7 +83,7 @@ public class StringBufferInputStream
 
     ```
 
-```
+```java
 // Java program illustrating the working of StringBufferInputStream class methods
 // read(), skip(), available(), reset()
 // read(char[] char_array, int offset, int maxlen)
@@ -154,7 +154,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Use of available() 1 : 11
 Use of read() method : H
 Characters Skipped : 73

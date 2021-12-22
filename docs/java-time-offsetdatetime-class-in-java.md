@@ -50,7 +50,7 @@ Below is the implementation of the problem statement: **Year/ Month/ Day format*
 
 ## Java
 
-```
+```java
 // import java.time.OffsetDateTime class
 import java.time.OffsetDateTime;
 
@@ -76,7 +76,7 @@ public class gfg1 {
 
 **Output**
 
-```
+```java
 2021-02-22T17:53:28.809568Z
 Year  : 2021| Month : FEBRUARY |Day : MONDAY
 ```
@@ -85,7 +85,7 @@ Below is the implementation of the problem statement: **Hour/ Minute/ Second/ Na
 
 ## Java
 
-```
+```java
 // import java.time.OffsetDateTime class
 import java.time.OffsetDateTime;
 
@@ -115,7 +115,7 @@ public class gfg1 {
 
 **Output**
 
-```
+```java
 2021-02-22T17:53:28.315232Z
 Hour  : 17 Minute : 53 Second : 28 NanoSecond : 315232000
 ```

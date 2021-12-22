@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GFG extends Thread {
 
     // using volatile
@@ -60,7 +60,7 @@ class GFG extends Thread {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class Test implements Serializable {

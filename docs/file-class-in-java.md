@@ -12,7 +12,7 @@
 **如何创建文件对象？**
 文件对象是通过传入代表文件名称的字符串、字符串或其他文件对象来创建的。例如，
 
-```
+```java
  File a = new File("/usr/local/bin/geeks");
 ```
 
@@ -64,7 +64,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // In this program, we accepts a file or directory name from 
 // command line arguments. Then the program will check if 
 // that file or directory physically exist or not and 
@@ -100,7 +100,7 @@ class fileProperty
 
 输出:
 
-```
+```java
 File name :file.txt
 Path: file.txt
 Absolute path:C:\Users\akki\IdeaProjects\codewriting\src\file.txt
@@ -117,7 +117,7 @@ File Size in bytes 20
 
 这里我们将从键盘接受一个目录名，然后显示目录的所有内容。为此，list()方法可以用作:
 
-```
+```java
 String arr[]=f.list();
 ```
 
@@ -125,7 +125,7 @@ String arr[]=f.list();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -177,7 +177,7 @@ class Contents
 
 输出:
 
-```
+```java
 Enter dirpath:
 C:\Users\akki\IdeaProjects\
 Enter the dirname

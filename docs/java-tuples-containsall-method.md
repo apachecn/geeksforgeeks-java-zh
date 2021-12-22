@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final boolean containsAll(Object... value)
 ```
 
 **语法:**
 
-```
+```java
 boolean result = TupleClassObject.containsAll(X value1, X value2, ...)
                     OR
 boolean result = TupleClassObject.containsAll(X[] values)
@@ -30,7 +30,7 @@ boolean result = TupleClassObject.containsAll(X[] values)
 
 **程序 1:** 使用 containsAll()搭配 Unit 类:
 
-```
+```java
 // Below is a Java program to use containsAll() method
 
 import java.util.*;
@@ -63,14 +63,14 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Is [GeeksforGeeks] present : true
 Is [Geeks, for, Geeks] present : false
 ```
 
 **程序 2:** 使用 containsAll()搭配 Decade 类:
 
-```
+```java
 // Below is a Java program to use containsAll() method
 
 import java.util.*;
@@ -113,7 +113,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Is [Geeks, for, Geeks] present : true
 Is [Geeks, not, for, Geeks] present : false
 ```

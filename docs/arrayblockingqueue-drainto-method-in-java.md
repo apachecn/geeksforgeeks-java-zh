@@ -17,7 +17,7 @@
 
 **语法**
 
-```
+```java
 public int drainTo(*Collection c*)
 ```
 
@@ -36,7 +36,7 @@ public int drainTo(*Collection c*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to demonstrate drainTo(Collection c)
 
 import java.util.ArrayList;
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before drainTo Operation
 queue = [23, 32, 45, 12, 27, 67]
 After drainTo Operation
@@ -96,7 +96,7 @@ collection = [23, 32, 45, 12, 27, 67]
 
 **语法:**
 
-```
+```java
 public int drainTo(*Collection c, int maxElements*)
 ```
 
@@ -119,7 +119,7 @@ public int drainTo(*Collection c, int maxElements*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program Demonstrate drainTo(Collection c, int maxElements)
 // method of ArrayBlockingQueue
 
@@ -168,7 +168,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before drainTo Operation
 queue = [aman, sudhir, harsh, rahul, raunak]
 After drainTo Operation

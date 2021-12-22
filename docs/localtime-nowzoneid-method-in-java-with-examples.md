@@ -6,7 +6,7 @@ Java 中 **LocalTime** 类的 **now(ZoneId zone)** 方法用于从指定时区�
 
 **语法:**
 
-```
+```java
 public static LocalTime now(ZoneId zone)
 ```
 
@@ -18,7 +18,7 @@ public static LocalTime now(ZoneId zone)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now(ZoneId zone) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Time: 20:57:30.035
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now(ZoneId zone) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Time: 20:57:50.318
 
 ```

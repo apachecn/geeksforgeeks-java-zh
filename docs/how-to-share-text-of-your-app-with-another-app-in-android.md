@@ -16,7 +16,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -58,7 +58,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
 为了向 Firebase 添加数据，我们应该授予访问互联网的权限。要添加这些权限，请导航至**应用程序> AndroidManifest.xml** ，并在该文件中添加以下权限。
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sharetext">
@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;

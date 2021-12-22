@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void element()
 ```
 
@@ -22,7 +22,7 @@ public void element()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of BlockingDeque
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Blocking Deque: [10, 20, 30, 40]
 Blocking Deque front element: 10
 ```
@@ -64,7 +64,7 @@ Blocking Deque front element: 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of BlockingDeque
 import java.util.concurrent.LinkedBlockingDeque;
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Blocking Deque: [ab, cd, fg, xz]
 Blocking Deque front element: ab
 ```

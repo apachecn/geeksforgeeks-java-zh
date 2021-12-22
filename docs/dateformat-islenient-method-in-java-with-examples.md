@@ -6,7 +6,7 @@ DateFormat 类中的 **isLenient()** 方法用于了解和理解这个 DateForma
 
 **语法:**
 
-```
+```java
 public boolean isLenient()
 ```
 
@@ -17,7 +17,7 @@ public boolean isLenient()
 下面的程序说明了日历类的 isLenient()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // isLenient() method
 
@@ -48,7 +48,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 Object: java.text.SimpleDateFormat@7945516e
 Mar 28, 2019 4:23:01 AM
 Leniency: true
@@ -57,7 +57,7 @@ Leniency: true
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // isLenient() method
 
@@ -88,7 +88,7 @@ public class DateFormat_Demo {
 
 **Output:**
 
-```
+```java
 Object: java.text.SimpleDateFormat@ce9bf0a5
 Mar 28, 2019
 Leniency: true

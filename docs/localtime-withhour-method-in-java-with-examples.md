@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime withHour(int hour)
 
 ```
@@ -21,7 +21,7 @@ public LocalTime withHour(int hour)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.withHour() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Old LocalTime: 19:34:50.630
 New LocalDateTime: 04:34:50.630
 
@@ -59,7 +59,7 @@ New LocalDateTime: 04:34:50.630
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.withHour() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Old LocalTime: 01:21:30.130
 New LocalDateTime: 23:21:30.130
 

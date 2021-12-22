@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default boolean replace(K key, V oldValue, V newValue)
 
 ```
@@ -26,7 +26,7 @@ default boolean replace(K key, V oldValue, V newValue)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // replace(K key, V oldValue, V newValue) method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {a=100, b=300, c=300, d=400}
 New HashMap: {a=100, b=200, c=300, d=400}
 
@@ -72,7 +72,7 @@ New HashMap: {a=100, b=200, c=300, d=400}
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // replace(K key, V oldValue, V newValue) method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {a=100, b=300, c=300, d=400}
 Old value for 'b' was replaced: false
 New HashMap: {a=100, b=300, c=300, d=400}

@@ -14,7 +14,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static boolean isIdentifierIgnorable(char ch)
     ```
 
@@ -26,7 +26,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate
     // Character.isIdentifierIgnorable(char ch) method
     import java.lang.*;
@@ -54,7 +54,7 @@
 
     **Output:**
 
-    ```
+    ```java
     c1 is an ignorable control character is true
     c2 is an ignorable control character is false
 
@@ -62,7 +62,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     import java.lang.*;
 
     public class gfg {
@@ -88,7 +88,7 @@
 
     **Output:**
 
-    ```
+    ```java
     c1 is an ignorable control character is true
     c2 is an ignorable control character is false
 
@@ -98,7 +98,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static boolean isIdentifierIgnorable(int codePoint)
 
     ```
@@ -110,7 +110,7 @@
     下面的程序说明了 character . isiidentifier ignorable(int code point)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate 
     // the Character.isIdentifierIgnorable(int codepoint) method
 
@@ -139,7 +139,7 @@
 
     **Output:**
 
-    ```
+    ```java
     c1 is an ignorable control character? ans is false
     c2 is an ignorable control character? ans is false
 
@@ -147,7 +147,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate 
     // the Character.isIdentifierIgnorable(int codepoint) method
 
@@ -176,7 +176,7 @@
 
     **Output:**
 
-    ```
+    ```java
     c1 is an ignorable control character? ans is false
     c2 is an ignorable control character? ans is false
 

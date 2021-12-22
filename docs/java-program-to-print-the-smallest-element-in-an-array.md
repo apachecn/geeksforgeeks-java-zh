@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 arr1[] = {2 , -1 , 9 , 10}
 output : -1
 
@@ -23,7 +23,7 @@ output : -13
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print the smallest element of the array
 
 public class FindSmallestElementInArray {
@@ -67,7 +67,7 @@ public class FindSmallestElementInArray {
 
 **Output**
 
-```
+```java
 Given array 
 25
 110
@@ -84,7 +84,7 @@ Smallest element present in given array: 5
 
 ## Java
 
-```
+```java
 // Java program to print the smallest element of the array
 
 import java.util.*;
@@ -116,7 +116,7 @@ public class FindSmallestElementInArray {
 
 **输出**
 
-```
+```java
 Given array 
 25
 110

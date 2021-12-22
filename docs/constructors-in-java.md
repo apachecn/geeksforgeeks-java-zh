@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Animal gorilla  = new Animal() ;
 ```
 
@@ -24,7 +24,7 @@ Animal gorilla  = new Animal() ;
 
 现在让我们想出在创建对象或实例时调用的构造函数的语法。
 
-```
+```java
 class Geek
 {   
   .......
@@ -71,7 +71,7 @@ Geek obj = new Geek();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate calling a
 // no-argument constructor
 import java.io.*;
@@ -106,7 +106,7 @@ class GFG
 
 **Output**
 
-```
+```java
 Constructor called
 null
 0
@@ -120,7 +120,7 @@ null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Working of
 // Parameterized Constructor
 
@@ -158,6 +158,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 GeekName :adam and GeekId :1
 ```

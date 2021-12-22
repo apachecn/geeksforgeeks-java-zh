@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 String str = new String("GeeksforGeeks");
 ```
 
@@ -16,7 +16,7 @@ String str = new String("GeeksforGeeks");
 
 ## 
 
-```
+```java
 // String creation using new keyword
 import java.lang.*;
 
@@ -48,6 +48,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 Creation time of String using 'new' keyword : 12 ms
 ```

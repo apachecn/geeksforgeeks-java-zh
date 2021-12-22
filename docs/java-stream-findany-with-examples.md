@@ -10,7 +10,7 @@ findAny()方法从流中返回任何元素，但是可能会有这样的情况�
 
 **语法:**
 
-```
+```java
 Optional<**T**> findAny()
 
 Where, Optional is a container object which
@@ -27,7 +27,7 @@ this stream, or an empty Optional if the stream is empty.
 
 **示例 1 :** 整数流上的 findAny()方法。
 
-```
+```java
 // Java code for Stream findAny()
 // which returns an Optional describing
 // some element of the stream, or an
@@ -62,14 +62,14 @@ class GFG {
 
 输出:
 
-```
+```java
 2
 
 ```
 
 **示例 2 :** 字符串流上的 findAny()函数。
 
-```
+```java
 // Java code for Stream findAny()
 // which returns an Optional describing
 // some element of the stream, or an
@@ -105,7 +105,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks
 
 ```
@@ -113,7 +113,7 @@ Geeks
 **注意:**Stream find any()操作的行为是显式的**非确定性的**，即可以自由选择流中的任意元素。对同一源的多次调用可能不会返回相同的结果。
 **示例 3 :** findAny()方法以非确定性方式返回可被 4 整除的元素。
 
-```
+```java
 // Java code for Stream findAny() 
 // which returns an Optional describing
 // some element of the stream, or an 
@@ -148,7 +148,7 @@ class GFG {
 
 输出:
 
-```
+```java
 16
 
 ```

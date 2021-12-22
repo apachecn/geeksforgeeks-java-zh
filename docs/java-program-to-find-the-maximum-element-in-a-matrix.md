@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input  : mat[][] = { {1,3,4,19}, {11,10,12,1}, {7,9,0,4,99} }
 Output : 99
 ```
@@ -24,7 +24,7 @@ Output : 99
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Maximum Element in a Matrix
 
 // Importing input output classes
@@ -80,7 +80,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 99
 ```
 
@@ -95,7 +95,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Maximum Element in a Matrix
 // Using Recursion
 
@@ -150,6 +150,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 99
 ```

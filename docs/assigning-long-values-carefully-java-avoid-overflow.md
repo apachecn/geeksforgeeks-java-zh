@@ -4,7 +4,7 @@
 
 预测以下程序的输出
 
-```
+```java
 public class LongDivision {
     public static void main(String[] args) {
     final long MICROS_PER_DAY = 24 * 60 * 60 * 1000 * 1000;
@@ -22,7 +22,7 @@ public class LongDivision {
 将两个 int 值相乘，得到另一个 int 值。 **Java 没有目标类型，这是一种语言特性，其中存储结果的变量的类型会影响计算的类型**。通过在每个产品中使用长文字代替 int 作为第一要素，很容易修复程序。这迫使表达式中的所有后续计算都用长算术来完成。虽然只需要在 MICROS_PER_DAY 的表达式中这样做，但是在两个产品中都这样做是很好的形式。
 同样，在产品中使用 long 作为第一个值并不总是必要的，但是这样做是很好的形式。用长值开始这两个计算清楚地表明它们不会溢出。该程序按预期打印 1000 张:
 
-```
+```java
 public class LongDivision {
     public static void main(String[] args) {
     final long MICROS_PER_DAY = 24L * 60 * 60 * 1000 * 1000;
@@ -35,7 +35,7 @@ public class LongDivision {
 
 输出:
 
-```
+```java
 1000
 
 ```

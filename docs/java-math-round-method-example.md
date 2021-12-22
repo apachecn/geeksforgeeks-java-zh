@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static int round(float val)
 Parameter: 
 val - floating-point value to be rounded to an integer. 
@@ -22,7 +22,7 @@ val - floating-point value to be rounded to an integer.
 
 **示例:**展示 java.lang.Math.round()函数的工作原理
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.round() method
 import java.lang.Math;
@@ -54,7 +54,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 4568
 -3421
 9223372036854775807

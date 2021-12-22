@@ -14,7 +14,7 @@
 
 **第二步:** **将此添加到 build.gradle 文件**
 
-```
+```java
 implementation 'co.gofynd.library:gravity-view:1.0'
 ```
 
@@ -24,7 +24,7 @@ implementation 'co.gofynd.library:gravity-view:1.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -50,7 +50,7 @@ implementation 'co.gofynd.library:gravity-view:1.0'
 
 转到**MainActivity.java**文件，参考以下代码。以下是**MainActivity.java**文件的代码
 
-```
+```java
 if(!gravityView.deviceSupported()){
             // show the error / imageView
             Toast.makeText(GravityViewActivity.this,"Not Supported",Toast.LENGTH_LONG).show();
@@ -67,7 +67,7 @@ if(!gravityView.deviceSupported()){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.Toast;

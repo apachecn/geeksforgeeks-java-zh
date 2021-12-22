@@ -7,7 +7,7 @@ InputStream 类是所有 io 类的超类，即代表一个输入字节流。它�
 [![InputStream](img/399659e5c0a6a7b8c2b302a7468044c7.png)](https://media.geeksforgeeks.org/wp-content/uploads/InputStream.jpg) 
 **申报:**
 
-```
+```java
 public abstract class InputStream
    extends Object
       implements Closeable
@@ -23,7 +23,7 @@ public abstract class InputStream
 *   **mark():****Java . io . inputstream . mark(int arg)**标记输入流的当前位置。它设置 readlimit，即在标记位置无效之前可以读取的最大字节数。
     **语法:**
 
-```
+```java
 public void mark(int arg)
 Parameters :
 arg : integer specifying the read limit of the input Stream
@@ -34,7 +34,7 @@ void
 *   **read():****Java . io . inputstream . read()**从输入流中读取下一个字节的数据。值字节在 0 到 255 的范围内返回。如果因为已经到达流的末尾而没有字节可用，则返回值-1。
     **语法:**
 
-    ```
+    ```java
     public abstract int read()
     Parameters :
     ------
@@ -47,7 +47,7 @@ void
     *   **close():****Java . io . inputstream . close()**关闭输入流，并将与该流相关联的系统资源释放给垃圾收集器。
     **语法:**
 
-    ```
+    ```java
     public void close()
     Parameters :
     ------
@@ -60,7 +60,7 @@ void
     *   **read():****Java . io . InputStream . read(byte[]arg)**从输入流读取 arg.length 的字节数到缓冲区数组 arg。read()方法读取的字节以 int 形式返回。如果 len 为零，则不读取字节，返回 0；否则，将尝试读取至少一个字节。
     **语法:**
 
-    ```
+    ```java
     public int read(byte[] arg)
     Parameters :
     arg : array whose number of bytes to be read
@@ -74,7 +74,7 @@ void
     *   **reset():**T3】Java . io . inputstream . reset()由 mark()方法调用。它将输入流重新定位到标记的位置。
     **语法:**
 
-    ```
+    ```java
     public void reset()
     Parameters :
     ----
@@ -87,7 +87,7 @@ void
     *   **MarkSupported():****Java . io . InputStream . MarkSupported()**方法测试该输入流是否支持标记和重置方法。默认情况下，InputStream 的 markSupported 方法返回 false。
     **语法:**
 
-    ```
+    ```java
     public boolean markSupported()
     Parameters :
     -------
@@ -98,7 +98,7 @@ void
     *   **skip() :** **Java.io.InputStream.skip(long arg)** skips and discards **arg** bytes in the input stream.
     **Syntax :**
 
-    ```
+    ```java
     public long skip(long arg)
     Parameters :
     arg : no. of bytes to be skipped
@@ -110,7 +110,7 @@ void
 
     **解释 InputStream 类方法的 Java 程序:**
 
-    ```
+    ```java
     // Java program illustrating the working of InputStream method
     // mark(), read(), skip()
     // markSupported(), close(), reset()
@@ -184,13 +184,13 @@ void
     您可以在您的系统上运行该代码来检查工作情况。
     **ABC.txt** 文件中使用的代码有
 
-    ```
+    ```java
     HelloGeeks
     ```
 
     **输出:**
 
-    ```
+    ```java
     Char : H
     Char : e
     Char : l

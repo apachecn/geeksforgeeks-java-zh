@@ -16,14 +16,14 @@
 
 ### 类别声明
 
-```
+```java
 public final class LabelValue<A, B> extends Tuple 
            implements IValueLabel<A>, IValueValue<B> 
 ```
 
 ### 类层次
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.LabelValue<A, B> 
@@ -34,7 +34,7 @@ Object
 *   **从建造师**:
     T3】语法:
 
-```
+```java
 LabelValue<A, B> kv = new LabelValue<A, B>(value1, value2);
 ```
 
@@ -42,7 +42,7 @@ LabelValue<A, B> kv = new LabelValue<A, B>(value1, value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a LabelValue tuple from Constructor
 
@@ -63,14 +63,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks]
 ```
 
 *   **使用 with()方法**:with()方法是 JavaTuples 库提供的一个函数，用这样的值来实例化对象。
     **句法**:
 
-```
+```java
 LabelValue<type1, type2> kv = LabelValue.with(value1, value2);
 ```
 
@@ -78,7 +78,7 @@ LabelValue<type1, type2> kv = LabelValue.with(value1, value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a LabelValue tuple from with() method
 
@@ -98,14 +98,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks]
 ```
 
 *   **来自其他集合**:From collection()方法用于从集合创建 Tuple，fromArray()方法用于从数组创建。集合/数组的类型必须与元组的类型相同，并且集合/数组中的值的数量必须与元组类匹配。
     **句法**:
 
-```
+```java
 LabelValue<type1, type2> kv = LabelValue.fromCollection(collectionWith_2_value);
 LabelValue<type1, type2> kv = LabelValue.fromArray(arrayWith_2_value);
 ```
@@ -114,7 +114,7 @@ LabelValue<type1, type2> kv = LabelValue.fromArray(arrayWith_2_value);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a LabelValue tuple from Collection
 
@@ -144,7 +144,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [GeeksforGeeks, A computer portal]
 [GeeksforGeeks, A computer portal]
 ```
@@ -156,7 +156,7 @@ getValue()和 getLabel()方法可用于分别获取 LabelValue 元组中的值�
 *   **getLabel()**:
     T3】语法:
 
-```
+```java
 LabelValue<type1, type2> kv = 
     new LabelValue<type1, type2>(value1, value2);
 
@@ -167,7 +167,7 @@ type2 val1 = kv.getLabel();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to get
 // a LabelValue value
 
@@ -187,14 +187,14 @@ class GfG {
 
 输出:
 
-```
+```java
 1
 ```
 
 *   **getValue()**:
     T3】语法:
 
-```
+```java
 LabelValue<type1, type2> kv = 
     new LabelValue<type1, type2>(value1, value2);
 
@@ -205,7 +205,7 @@ type2 val1 = kv.getValue();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to get
 // a LabelValue value
 

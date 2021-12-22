@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ChronoLocalDate minus(long amountToSubtract,
                        TemporalUnit unit)
 
@@ -29,7 +29,7 @@ public ChronoLocalDate minus(long amountToSubtract,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.minus() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDate after subtracting Months: 2006-12-06
 
 ```

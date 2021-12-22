@@ -25,7 +25,7 @@
 
 **例 1 :** 展示**Java . lang . math . next after()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.nextAfter() method
 import java.lang.Math;
@@ -67,7 +67,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 NaN
 0.0
 2.8E-45

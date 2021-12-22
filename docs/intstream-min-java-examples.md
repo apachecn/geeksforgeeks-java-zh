@@ -6,7 +6,7 @@ Java 8 中的 java.util.stream.IntStream 处理原语 int。它有助于以一�
 
 **语法:**
 
-```
+```java
 OptionalInt() min()
 
 Where, OptionalInt is a container object which 
@@ -17,7 +17,7 @@ may or may not contain a int value.
 下面给出了一些例子来更好地理解这个函数。
 **例 1 :**
 
-```
+```java
 // Java code for IntStream min()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -51,14 +51,14 @@ class GFG {
 
 输出:
 
-```
+```java
 -18
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for IntStream min()
 // to get the minimum value in range
 // excluding the last element
@@ -86,14 +86,14 @@ class GFG {
 
 输出:
 
-```
+```java
 50
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Java code for IntStream min()
 // to get the minimum value in range
 // excluding the last element
@@ -121,7 +121,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -1
 
 ```

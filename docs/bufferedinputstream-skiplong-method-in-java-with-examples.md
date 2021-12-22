@@ -10,7 +10,7 @@ Java 中 **BufferedInputStream** 类的**跳过(长)**方法用于从缓冲的�
 但是，如果传递了负值，则不会发生跳过。
 **语法:**
 
-```
+```java
 public long skip(long n)
 ```
 
@@ -22,7 +22,7 @@ public long skip(long n)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream skip(long) method
 import java.io.*;
@@ -61,6 +61,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
  E K
 ```

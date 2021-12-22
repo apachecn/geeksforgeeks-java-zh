@@ -6,7 +6,7 @@
 **方法返回这个大整数的二进制补码表示中与其符号位不同的位数。当在大整数上实现位向量样式集时，此方法很有用。
 **语法:**** 
 
-```
+```java
 public int bitCount()
 ```
 
@@ -14,7 +14,7 @@ public int bitCount()
 **返回值:**该方法用于返回这个大整数的二进制补码表示中与其符号位不同的位数。
 **例:**
 
-```
+```java
 Input: value = 2300 
 Output: 7
 Explanation:
@@ -31,7 +31,7 @@ Output: 11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*
 *Program Demonstrate bitCount() method of BigInteger
 */
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 BitCount of  2300 is 7
 ```
 

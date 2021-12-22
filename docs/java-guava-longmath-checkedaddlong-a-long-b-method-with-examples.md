@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long checkedAdd(long a, long b)
 
 ```
@@ -21,7 +21,7 @@ public static long checkedAdd(long a, long b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // checkedAdd(long a, long b) method
 // of Guava's LongMath class
@@ -59,7 +59,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Sum of 25 and 36 is: 61
 Sum of 150 and 667 is: 817
 
@@ -67,7 +67,7 @@ Sum of 150 and 667 is: 817
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // checkedAdd(long a, long b) method
 // of Guava's LongMath class

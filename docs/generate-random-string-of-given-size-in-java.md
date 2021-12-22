@@ -12,7 +12,7 @@
 
     这里函数 GetalHanumeRichString(n)生成一个长度为字符串的随机数。这个数字是一个字符的索引，这个字符附加在临时局部变量 sb 中。最后某人回来了。
 
-    ```
+    ```java
     // Java program generate a random AlphaNumeric String
     // using Math.random() method
 
@@ -61,7 +61,7 @@
 
     **Output:**
 
-    ```
+    ```java
     kU9vRVm9T1lFMbi3duO1
 
     ```
@@ -77,7 +77,7 @@
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program generate a random AlphaNumeric String
     // using CharSet method
 
@@ -132,7 +132,7 @@
 
     **Output:**
 
-    ```
+    ```java
     jj06CyZKfSBZQHM6KAUd
 
     ```
@@ -145,7 +145,7 @@
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program generate a random AlphaNumeric String
     // using Regular Expressions method
 
@@ -203,7 +203,7 @@
 
     **Output:**
 
-    ```
+    ```java
     4J8pirLzX6oIF0IIIaUU
 
     ```
@@ -214,7 +214,7 @@
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program generate a random
     // UpperCase or LowerCase or Number String
 
@@ -264,7 +264,7 @@
 
     **Output:**
 
-    ```
+    ```java
     qbhalyuzrenuwgvqidno
 
     ```

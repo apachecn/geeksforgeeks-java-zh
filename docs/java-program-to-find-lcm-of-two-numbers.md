@@ -8,7 +8,7 @@ LCM(即最小公倍数)是两个指定数中最大的一个，可以被两个给
 
 **示例:**
 
-```
+```java
 LCM of 15 and 25 is 75, and LCM of 3 and 7 is 21.
 ```
 
@@ -16,7 +16,7 @@ LCM of 15 and 25 is 75, and LCM of 3 and 7 is 21.
 
 下面给出的计算两个数字“u”和“v”的 LCM 的公式给出了一个有效的解决方案。
 
-```
+```java
 u x v = LCM(u, v) * GCD (u, v)
 LCM(u, v) = (u x v) / GCD(u, v)
 ```
@@ -25,7 +25,7 @@ LCM(u, v) = (u x v) / GCD(u, v)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find LCM of two numbers.
 class gfg {
     // Gcd of u and v using recursive method
@@ -54,7 +54,7 @@ class gfg {
 
 **Output**
 
-```
+```java
 LCM of 25 and 15 is 75
 ```
 

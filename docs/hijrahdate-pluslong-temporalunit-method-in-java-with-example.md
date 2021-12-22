@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public HijrahDate plus(long amount,
                        TemporalUnit unit)
 
@@ -25,7 +25,7 @@ public HijrahDate plus(long amount,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // plus() method
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 old hijrah date : Hijrah-umalqura AH 1345-06-23
 new hijrah date : Hijrah-umalqura AH 1345-07-16
 
@@ -81,7 +81,7 @@ new hijrah date : Hijrah-umalqura AH 1345-07-16
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // plus() method
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 old hijrah date : Hijrah-umalqura AH 1345-06-23
 new hijrah date : Hijrah-umalqura AH 1385-06-23
 

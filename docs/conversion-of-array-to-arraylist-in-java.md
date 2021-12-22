@@ -8,7 +8,7 @@
 
 **方法 1:使用 Arrays.asList()方法**
 
-```
+```java
  Syntax: public static List asList(T... a)
 // Returns a fixed-size List as of size of given array. 
 // Element Type of List is of same as type of array element type.
@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate conversion of
 // Array to ArrayList of fixed-size.
 import java.util.*;
@@ -48,7 +48,7 @@ class GFG
 
 输出:
 
-```
+```java
 [Rahul, Utkarsh, Shubham, Neelam]
 ```
 
@@ -58,7 +58,7 @@ class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate error
 // if we add more element(s) to
 // a fixed-size List.
@@ -88,13 +88,13 @@ class GFG
 
 输出:
 
-```
+```java
 [Rahul, Utkarsh, Shubham, Neelam]
 ```
 
 运行时错误
 
-```
+```java
 Exception in thread "main" java.lang.UnsupportedOperationException
     at java.util.AbstractList.add(AbstractList.java:148)
     at java.util.AbstractList.add(AbstractList.java:108)
@@ -106,7 +106,7 @@ Exception in thread "main" java.lang.UnsupportedOperationException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to add
 // one or more element(s) to returned
 // resizable List.
@@ -134,7 +134,7 @@ class GFG
 }
 ```
 
-```
+```java
 [Rahul, Utkarsh, Shubham, Neelam]
 
 ArrayList After adding two more Geeks: 
@@ -145,7 +145,7 @@ ArrayList After adding two more Geeks:
 
 **方法 2:使用 Collections.addAll()方法**
 
-```
+```java
 Syntax: public static  boolean addAll(Collection c, T... a)
 // Adds all of the specified elements to the specified collection.
 // Elements to be added may be specified individually or as an array.
@@ -159,7 +159,7 @@ Syntax: public static  boolean addAll(Collection c, T... a)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to
 // add all elements of array to arrayList.
 import java.util.*;
@@ -183,7 +183,7 @@ class GFG
 
 输出:
 
-```
+```java
 [Rahul, Utkarsh, Shubham, Neelam]
 ```
 
@@ -192,7 +192,7 @@ class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Adding null to a list
 import java.util.*;
 
@@ -215,7 +215,7 @@ class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 class GFG
@@ -235,7 +235,7 @@ class GFG
 
 运行时错误
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at java.util.Collections.addAll(Collections.java:5401)
     at GFG.main(File.java:11)
@@ -245,7 +245,7 @@ Exception in thread "main" java.lang.NullPointerException
 
 如果我们不想使用 java 内置方法，我们可以使用这个方法。这是将所有数组元素添加到列表中的手动方法。
 
-```
+```java
 Syntax: public boolean add(Object obj)
 // Appends the specified element to the end of this list.
 // Returns true.
@@ -253,7 +253,7 @@ Syntax: public boolean add(Object obj)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert a ArrayList to
 // an array using add() in a loop.
 import java.util.*;
@@ -278,7 +278,7 @@ class GFG
 
 输出:
 
-```
+```java
 [Rahul, Utkarsh, Shubham, Neelam]
 ```
 

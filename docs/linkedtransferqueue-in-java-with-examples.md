@@ -37,7 +37,7 @@ LinkedTransferQueue 使用了消息传递应用程序。消息将从生产者线
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate LinkedTransferQueue
 
 import java.util.concurrent.LinkedTransferQueue;
@@ -75,7 +75,7 @@ public class LinkedTransferQueueDemo {
 
 **Output**
 
-```
+```java
 Linked Transfer Queue1: [7855642, 35658786, 5278367, 74381793]
 Linked Transfer Queue2: [7855642, 35658786, 5278367, 74381793]
 ```
@@ -84,7 +84,7 @@ Linked Transfer Queue2: [7855642, 35658786, 5278367, 74381793]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // methods of LinkedTransferQueue
 
@@ -144,7 +144,7 @@ public class LinkedTransferQueueDemo {
 
 **Output**
 
-```
+```java
 Linked Transfer Queue: [7855642, 35658786, 5278367, 74381793]
 Size of Linked Transfer Queue: 4
 First element: 7855642
@@ -162,7 +162,7 @@ LinkedTransferQueue 提供了各种方法来添加或插入元素。分别是[�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate adding
 // elements to LinkedTransferQueue
 
@@ -241,7 +241,7 @@ class AddingElementsExample {
 
 **Output**
 
-```
+```java
 adding 15 true
 The elements in the queue are:
 10 11 12 13 14 15 16 17 18 19 20 
@@ -256,7 +256,7 @@ LinkedTransferQueue 提供的 [remove()](https://www.geeksforgeeks.org/linkedtra
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate removing
 // elements of LinkedTransferQueue
 
@@ -294,7 +294,7 @@ class RemoveElementsExample {
 
 **Output**
 
-```
+```java
 The elements in the queue are:
 1 2 3 4 5 
 Remaining elements in queue : 
@@ -307,7 +307,7 @@ LinkedTransferQueue 的[迭代器()](https://www.geeksforgeeks.org/linkedtransfe
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate iterating
 // over LinkedTransferQueue
 
@@ -339,7 +339,7 @@ class LinkedTransferQueueIteratorExample {
 
 **Output**
 
-```
+```java
 Gfg is fun!! 
 
 ```

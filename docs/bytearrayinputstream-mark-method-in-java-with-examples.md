@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void mark(int arg)
 ```
 
@@ -18,7 +18,7 @@ public void mark(int arg)
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.io.*;
@@ -50,7 +50,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 5
 6
 7
@@ -62,7 +62,7 @@ Mark() invocation
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.io.*;
@@ -92,7 +92,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1
 Mark() invocation
 2

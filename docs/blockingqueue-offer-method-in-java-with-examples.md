@@ -10,7 +10,7 @@
 **阻塞队列**的**提供(E e，长超时，时间单位单位)**方法，如果队列未满，在该阻塞队列的尾部插入作为参数传递给方法的元素。如果阻塞队列已满，它将等待指定时间，直到空间变得可用。指定的等待时间和时间单位将作为 offer()方法的参数给出。所以它会等到 BlockingQueue 移除一些元素的时候，这样这个方法就可以向 BlockingQueue 添加元素。
 **语法:**
 
-```
+```java
 public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException
 ```
 
@@ -31,7 +31,7 @@ public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedExcepti
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate
 // offer(Element e, long timeout, TimeUnit unit)
 // method of BlockingQueue.
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 adding 32673821 true
 adding 88527183: true
 adding 431278539: true
@@ -113,7 +113,7 @@ Adding new Integer 2893476 is successful: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate
 // offer(Element e, long timeout, TimeUnit unit)
 // method of BlockingQueue.
@@ -165,7 +165,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Adding 283239 in Queue :true
 Exception: java.lang.NullPointerException
 Items in Queue are [283239]
@@ -176,7 +176,7 @@ Items in Queue are [283239]
 **提供**阻塞队列**的(E e)** 方法，如果队列有空间，即队列未满，则在该阻塞队列的尾部插入作为参数传递的元素 E。如果队列已满，则应用 offer()方法不会显示任何效果，因为阻塞队列将阻塞要插入的元素。offer()方法在向 BlockingQueue 添加操作成功时返回 true，如果该队列已满，则返回 false。此方法优于 add()方法，因为当队列已满时 add 方法会引发错误，但在这种情况下 offer()方法会返回 false。
 **语法:**
 
-```
+```java
 public boolean offer(E e)
 ```
 
@@ -188,7 +188,7 @@ public boolean offer(E e)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate
 // offer(Element e)
 // method of BlockingQueue.
@@ -223,7 +223,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 list of names of queue:
 [dean, kevin, sam, jack]
 ```
@@ -232,7 +232,7 @@ list of names of queue:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate
 // offer(Element e)
 // method of BlockingQueue.
@@ -282,7 +282,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 list of numbers of queue:
 [34567, 45678, 98323, 93758]
 Empty spaces of queue : 0
@@ -295,7 +295,7 @@ Adding new Integer 456751 is successful: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate offer(E e)
 // method of LinkedBlockingQueue
 
@@ -335,7 +335,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception: java.lang.NullPointerException
 Items in Queue are [Karan]
 ```

@@ -4,7 +4,7 @@
 
 给定一个未排序的整数列表，找出其中的最大值和最小值。
 
-```
+```java
 Input : list = [10, 4, 3, 2, 1, 20]
 Output : max = 20, min = 1
 
@@ -17,7 +17,7 @@ Output : max = 400, min = -1
 
 这是效率最低的方法，但可以完成工作。其思想是按照自然顺序对列表进行排序，然后第一个或最后一个元素分别是最小和最大元素。下面是用 Java 实现的。
 
-```
+```java
 // This java program find minimum and maximum value
 // of an unsorted list of Integer by using Collection
 import java.util.ArrayList;
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Min: 11
 Max: 44
 ```
@@ -99,7 +99,7 @@ Max: 44
 
 collections . min()方法返回指定集合中的最小元素，collections . max()根据其元素的自然排序返回指定集合中的最大元素。
 
-```
+```java
 // This java program find minimum and maximum value
 // of an unsorted list of Integer by using Collection
 import java.util.ArrayList;
@@ -157,7 +157,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Min: 11
 Max: 44
 ```
@@ -166,7 +166,7 @@ Max: 44
 
 这是一种在未排序的列表中查找最小值和最大值的简单方法，我们检查列表中的所有值，并保持到目前为止找到的最小值和最大值。
 
-```
+```java
 // This java program find minimum and maximum value
 // of an unsorted list of Integer
 import java.util.ArrayList;
@@ -235,7 +235,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Min: 11
 Max: 44
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isPrivate(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isPrivate(int mod)
 以下程序说明 isPrivate()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isPrivate() method
 
 import java.lang.reflect.*;
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 2 is private : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isPrivate()
 
 import java.lang.reflect.*;
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 1 is private : false
 
 ```

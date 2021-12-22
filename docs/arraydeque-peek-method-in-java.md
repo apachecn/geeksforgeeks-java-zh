@@ -6,7 +6,7 @@ java 中的 java.util.ArrayDeque.peek()方法用于检索或获取 Deque 头部�
 
 **语法:**
 
-```
+```java
 Array_Deque.peek()
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.peek()
 下面的程序说明了 Java.util.ArrayDeque.peek()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate peek()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The element at head is: Welcome
 Final ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
@@ -58,7 +58,7 @@ Final ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate peek()
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [10, 15, 30, 20, 5]
 The element at head is: 10
 Final ArrayDeque: [10, 15, 30, 20, 5]
@@ -99,7 +99,7 @@ Final ArrayDeque: [10, 15, 30, 20, 5]
 
 **程序 3:** 对于空车:
 
-```
+```java
 // Java code to illustrate peek()
 import java.util.*;
 
@@ -120,7 +120,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: []
 The element at head is: null
 

@@ -20,7 +20,7 @@
 
 ## 爪哇
 
-```
+```java
 class Person {
     // private = restricted access
     private String name;
@@ -48,7 +48,7 @@ class Main {
 
 **输出**
 
-```
+```java
 kapil
 
 ```

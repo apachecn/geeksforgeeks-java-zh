@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int indexOf(Object o)
 ```
 
@@ -18,7 +18,7 @@ public int indexOf(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // indexOf method in list interface
 import java.util.*;
@@ -42,7 +42,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [1, 3, 5, 7]
 2
 
@@ -50,7 +50,7 @@ public class GfG {
 
 **程序 2:** 下面是显示使用 Linkedlist 实现 list.hashCode()的代码。
 
-```
+```java
 // Java code to show the implementation of
 // indexOf method in list interface
 import java.util.*;
@@ -73,7 +73,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 15, 20]
 2
 

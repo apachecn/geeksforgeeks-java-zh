@@ -20,7 +20,7 @@ ExceptionInInitializerError 是错误类的子类，因此它是一个未检查�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for showing the ExceptionInInitializerError
 // While Assigning Value To The Static Variable
 class GFG {
@@ -42,7 +42,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for showing the ExceptionInInitializerError
 // While Assigning Null Value Inside A Static Block
 class GFG {

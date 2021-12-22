@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 chm.containsKey*(Object key_element)*
 ```
 
@@ -20,7 +20,7 @@ chm.containsKey*(Object key_element)*
 
 **程序 1:** 该程序涉及将字符串值映射到整数键。
 
-```
+```java
 /* Java Program Demonstrate containsKey()
    method of ConcurrentHashMap */
 
@@ -55,7 +55,7 @@ class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 105 is not a key.
 100 is a key.
 
@@ -63,7 +63,7 @@ class ConcurrentHashMapDemo {
 
 **程序 2:** 该程序涉及将整数值映射到字符串键。
 
-```
+```java
 /* Java Program Demonstrate containsKey()
    method of ConcurrentHashMap */
 
@@ -100,7 +100,7 @@ class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 GFG is a key.
 Geek is not a key.
 

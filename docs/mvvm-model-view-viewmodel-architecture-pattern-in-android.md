@@ -72,7 +72,7 @@ MVVM 模式与 MVP(模型-视图-演示者)设计模式有一些相似之处，�
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GfG | MVVM Architecture</string>
     <string name="heading">MVVM Architecture Pattern</string>
@@ -88,7 +88,7 @@ MVVM 模式与 MVP(模型-视图-演示者)设计模式有一些相似之处，�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.annotation.Nullable;
 
 public class Model {
@@ -136,7 +136,7 @@ public class Model {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -228,7 +228,7 @@ public class Model {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.text.TextUtils;
 import android.util.Patterns;
 import androidx.databinding.BaseObservable;
@@ -318,7 +318,7 @@ public class AppViewModel extends BaseObservable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void deleteEntry(String alias)
   throws KeyStoreException
 ```
@@ -23,7 +23,7 @@ public final void deleteEntry(String alias)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List of all the alias present before deletion
 ftpkey
 htttp
@@ -130,7 +130,7 @@ ftpkey
 
 **例 2:** 为
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -199,7 +199,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception thrown :
  java.security.KeyStoreException:
  Uninitialized keystore

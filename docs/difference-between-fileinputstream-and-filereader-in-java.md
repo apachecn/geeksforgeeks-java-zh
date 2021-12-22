@@ -8,13 +8,13 @@
 
 使用文件名创建
 
-```
+```java
 FileReader input = new FileReader(String name);
 ```
 
 使用文件的对象创建
 
-```
+```java
 FileReader input = new FileReader(File fileObj);
 ```
 
@@ -22,7 +22,7 @@ FileReader input = new FileReader(File fileObj);
 
 让我们考虑一个示例文件，在该文件中，我们使用 Java FileReader 类从文本文件 Gfg.txt 中读取数据。我们假设文件中有以下数据，即“Gfg.txt”文件，如下所示:
 
-```
+```java
 Welcome to GeeksForGeeks.
 ```
 
@@ -30,7 +30,7 @@ Welcome to GeeksForGeeks.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate FileReader class
 
 // Importing class
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Welcome to GeeksForGeeks
 ```
 
@@ -76,13 +76,13 @@ Welcome to GeeksForGeeks
 
 使用文件路径创建
 
-```
+```java
 FileInputStream input = new FileInputStream(stringPath);
 ```
 
 使用文件的对象创建
 
-```
+```java
 FileInputStream input = new FileInputStream(File fileObject);
 ```
 
@@ -92,7 +92,7 @@ FileInputStream input = new FileInputStream(File fileObject);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate FileInputStream class
 
 // Importing class from java.io package
@@ -143,7 +143,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Data in the file:
 Welcome to GeeksForGeeks
 ```

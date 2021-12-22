@@ -10,7 +10,7 @@
 
 **图示:**DLL 节点的表示
 
-```
+```java
 // Class for Triply Linked List
 public class TLL {  
 
@@ -52,7 +52,7 @@ public class TLL {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Triply Linked List
 
 // Importing all utility classes
@@ -361,7 +361,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Traversing Linked List head: 
 1    5    7    top->7    9    
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeLastOccurrence(Object o)
 ```
 
@@ -20,7 +20,7 @@ public boolean removeLastOccurrence(Object o)
 
 **程序 1:** 当元素存在时。
 
-```
+```java
 // Java Program to demonstrate removeLastOccurrence()
 // method of BlockingDeque
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Deque: [15, 20, 20, 15]
 Last occurrence of 15 removed
 Blocking Deque: [15, 20, 20]
@@ -68,7 +68,7 @@ Blocking Deque: [15, 20, 20]
 
 **程序 2:** 当元素不存在时。
 
-```
+```java
 // Java Program to demonstrate removeLastOccurrence()
 // method of BlockingDeque
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Blocking Deque: [15, 20, 20, 15]
 10 not present and not removed
 Blocking Deque: [15, 20, 20, 15]

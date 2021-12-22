@@ -5,7 +5,7 @@
 **IntStream empty()** 是 java.util.stream.IntStream 中的一个方法，这个方法返回一个空的顺序 IntStream。
 **语法:**
 
-```
+```java
 static <**T**> Stream<**T**> empty()
 
 Where, T is the type of stream elements,
@@ -15,7 +15,7 @@ and the function returns an empty sequential stream.
 
 **示例 1 :** 创建空的输入流。
 
-```
+```java
 // Java code for IntStream empty()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -37,14 +37,14 @@ class GFG {
 
 输出:
 
-```
+```java
 0
 
 ```
 
 **示例 2 :** 创建空 LongStream。
 
-```
+```java
 // Java code for LongStream empty() method
 import java.util.*;
 import java.util.stream.LongStream;
@@ -66,7 +66,7 @@ class GFG {
 
 输出:
 
-```
+```java
 0
 
 ```

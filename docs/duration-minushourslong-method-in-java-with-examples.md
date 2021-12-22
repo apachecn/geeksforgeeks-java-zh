@@ -5,7 +5,7 @@
 **java.time 包**中**持续时间类**的**非固定小时(长)**方法用于获取该持续时间的不可变副本，减去指定的小时数，作为参数传递。
 **语法:**
 
-```
+```java
 public Duration minusHours(long numberOfHours)
 ```
 
@@ -17,7 +17,7 @@ public Duration minusHours(long numberOfHours)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusHours() method
 
 import java.time.Duration;
@@ -40,7 +40,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT49H4M
 ```
 
@@ -48,7 +48,7 @@ PT49H4M
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate minusHours() method
 
 import java.time.Duration;
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PT-4H-56M
 ```
 

@@ -5,7 +5,7 @@
 **java.util.Collections . sort()**方法存在于 Java . util . collections 类中。用于对集合中指定的[列表](https://www.geeksforgeeks.org/list-interface-java-examples/)中的元素进行升序排序。
 它的工作原理类似于 [java.util.Arrays.sort()](https://www.geeksforgeeks.org/arrays-sort-in-java-with-examples/) 方法，但是它更好，因为它可以对 Array 的元素以及链表、队列和其中的更多元素进行排序。
 
-```
+```java
 public static void sort(List myList)
 
 myList : A List type object we want to sort.
@@ -16,7 +16,7 @@ This method doesn't return anything
 
 示例:
 
-```
+```java
 
 Let us suppose that our list contains
 {"Geeks For Geeks", "Friends", "Dear", "Is", "Superb"}
@@ -28,7 +28,7 @@ After using Collection.sort(), we obtain a sorted list as
 
 **按升序对数组列表进行排序**
 
-```
+```java
 // Java program to demonstrate working of Collections.sort()
 import java.util.*;
 
@@ -57,7 +57,7 @@ public class Collectionsorting
 
 输出:
 
-```
+```java
 List after the use of Collection.sort() :
 [Dear, Friends, Geeks For Geeks, Is, Superb]
 
@@ -65,7 +65,7 @@ List after the use of Collection.sort() :
 
 **按降序排列数组列表**
 
-```
+```java
 // Java program to demonstrate working of Collections.sort()
 // to descending order.
 import java.util.*;
@@ -95,7 +95,7 @@ public class Collectionsorting
 
 输出:
 
-```
+```java
 List after the use of Collection.sort() :
 [Superb, Is, Geeks For Geeks, Friends, Dear]
 
@@ -104,7 +104,7 @@ List after the use of Collection.sort() :
 **根据用户定义的条件对数组列表进行排序。**
 我们可以使用[比较器接口](https://www.geeksforgeeks.org/comparator-interface-java/)来达到这个目的。
 
-```
+```java
 // Java program to demonstrate working of Comparator
 // interface and Collections.sort() to sort according
 // to user defined criteria.
@@ -170,7 +170,7 @@ class Main
 
 输出:
 
-```
+```java
 Unsorted
 111 bbbb london
 131 aaaa nyc
@@ -188,7 +188,7 @@ arrays . sort 适用于也可以是原始数据类型的数组。[收藏](https:
 
 在创建给定数组项的数组列表后，我们可以使用 Collections.sort()对数组进行排序。
 
-```
+```java
 // Using Collections.sort() to sort an array
 import java.util.*;
 public class Collectionsort
@@ -217,7 +217,7 @@ public class Collectionsort
 
 输出:
 
-```
+```java
 List after the use of Collection.sort()  :
 [Code, Geeks, Practice, Quiz]
 

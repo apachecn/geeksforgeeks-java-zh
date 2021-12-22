@@ -24,7 +24,7 @@ Brainfuck 仅由八个简单的命令和一个指令指针组成。虽然它完�
 
 示例:
 
-```
+```java
 Input : 
 Output :  Hello World!
 
@@ -36,7 +36,7 @@ Output : GEEKS FOR GEEKS
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 class BrainFuck
@@ -161,7 +161,7 @@ class BrainFuck
 
 输出 1:
 
-```
+```java
 Enter the code:
 --[+++++++>-->+>+>+<<<->---.>--..>+.<<<.+>->>.+++[.<]
 Output:
@@ -170,7 +170,7 @@ Hello World!
 
 输出 2:
 
-```
+```java
 Enter the code:
 ++++++++++[>+++++++>++++++++>+++<+++.>++..<+.
 Output:

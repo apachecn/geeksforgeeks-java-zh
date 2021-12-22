@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Collections.sort(list, comparator)
 ```
 
@@ -21,7 +21,7 @@ Collections.sort(list, comparator)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Sort ArrayList using Comparator
 
 import java.util.*;
@@ -89,7 +89,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 before sorting
 520 Pen 218
 213 Pencil 223
@@ -112,7 +112,7 @@ After sorting(sorted by Stock)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Sort ArrayList using Comparator
 
 import java.util.*;
@@ -175,7 +175,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 before sorting
 Pen 520 218
 Pencil 213 223

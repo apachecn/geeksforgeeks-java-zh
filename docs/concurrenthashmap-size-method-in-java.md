@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -16,7 +16,7 @@ public int size()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate size()
 // method of ConcurrentHashMap
 
@@ -44,14 +44,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The number of key-value mappings is 3
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate size()
 // method of ConcurrentHashMap
 
@@ -82,7 +82,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The number of key-value mappings is 6
 
 ```

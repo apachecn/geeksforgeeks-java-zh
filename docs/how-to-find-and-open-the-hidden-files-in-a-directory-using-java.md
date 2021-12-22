@@ -24,7 +24,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to find and open
 // all the hidden files in a
 // directory

@@ -14,7 +14,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate
 // the working of Java HashMap
 // to demonstrate
@@ -60,7 +60,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Size of map is:- 5
 HashMap content: {50=you, 20=for, 40=welcome, 10=Geeks, 30=geeks}
 HashMap after removal : {20=for, 40=welcome, 10=Geeks, 30=geeks}
@@ -70,7 +70,7 @@ HashMap after removal : {20=for, 40=welcome, 10=Geeks, 30=geeks}
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate
 // working of IdentityHashmap
 // to demonstrate
@@ -134,7 +134,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 IdentityHashMap size : 5
 Initial identity hash map: {10=Geeks, 40=Welcomes, 50=You, 30=Geeks, 20=for}
 Key = 10, Value = Geeks

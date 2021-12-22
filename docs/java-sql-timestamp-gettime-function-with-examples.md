@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public long getTime()
 ```
 
 **语法:**
 
-```
+```java
 ts1.getTime();
 ```
 
@@ -26,7 +26,7 @@ ts1.getTime();
 
 **示例 1:** 创建一个时间戳，使用 getTime()获取时间戳对象的时间。
 
-```
+```java
 // Java program to demonstrate the
 // use of getTime() function
 
@@ -49,7 +49,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Timestamp time : 1970-01-01 00:00:10.0
 Time in milliseconds : 10000
 
@@ -57,7 +57,7 @@ Time in milliseconds : 10000
 
 **示例 2:** 创建时间戳，使用 getTime()获取时间戳对象的时间，并将时间设置在 1970 年 1 月 1 日之前。负长值代表 1970 年 1 月 1 日之前的时间
 
-```
+```java
 // Java program to demonstrate the
 // use of getTime() function
 
@@ -82,7 +82,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Timestamp time : 1969-12-31 23:59:50.0
 Time in milliseconds : -10000
 

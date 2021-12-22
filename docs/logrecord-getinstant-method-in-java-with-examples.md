@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Instant getInstant()
 
 ```
@@ -18,7 +18,7 @@ public Instant getInstant()
 下面的程序说明了 getInstant()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate getInstant() method
 
 import java.time.Instant;
@@ -50,14 +50,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Event Time = 1994-04-12T11:54:23.890Z
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate getInstant() method
 
 import java.time.Instant;
@@ -86,7 +86,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Event Time = 2019-10-20T19:41:57.803594Z
 
 ```

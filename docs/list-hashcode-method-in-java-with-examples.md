@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 int hashCode()
 ```
 
@@ -18,7 +18,7 @@ int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // hashCode method in list interface
 import java.util.*;
@@ -44,7 +44,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 15, 20]
 39886
 
@@ -52,7 +52,7 @@ public class GfG {
 
 **程序 2:** 下面是显示使用 Linkedlist 实现 list.hashCode()的代码。
 
-```
+```java
 // Java code to show the implementation of
 // hashCode method in list interface
 import java.util.*;
@@ -78,7 +78,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 15, 20]
 1586008
 

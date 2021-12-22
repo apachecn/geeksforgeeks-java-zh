@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public static double tanh(double a)
 Parameter :
 a : the value whose hyperbolic tangent is to be returned.
@@ -24,7 +24,7 @@ a : the value whose hyperbolic tangent is to be returned.
 
 **例 1 :** 展示 **java.lang.Math.tanh()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.tanh() method
 import java.lang.Math;
@@ -52,7 +52,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 0.9981778976111987
 1.0
 0.0
@@ -61,7 +61,7 @@ class Gfg {
 
 **例 2 :** 展示当自变量为 NaN 或无穷大时 **java.lang.Math.tanh()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.tanh() method infinity case
 import java.lang.Math; // importing java.lang package
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 -1.0
 1.0
 NaN

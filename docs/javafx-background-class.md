@@ -25,7 +25,7 @@
 
 1.  **Java program to set a fill for the background of a container:** In this program we will create a Background named *background* with specified BackgroundFill and add this to the background. We will create an HBox named *hbox*, a Label named *label*, TextField named *textfield* and a Button named *button* . Now add the label, textfield and button to the HBox. We will set the background of hbox using the *setBackground()* function.Now set the alignment of HBox to *Pos.CENTER* and also add some spacing between the nodes using *setSpacing()* method. We will create a Scene named *scene* and add the HBox to the scene. The scene will be set to the stage using the *setScene()* function. We will call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java program to set a fill for the background 
     // of a container
     import javafx.application.Application;
@@ -117,7 +117,7 @@
 
 2.  **Java program to add an image to the background of a container:** In this program we will create a Background named *background* with specified BackgroundImage and add this image to the background of the container. Import the image using the FileInputStream and then convert the file into Image object Use this Image object to create a BackgroundImage. We will create an HBox named *hbox*, a Label named *label*, TextField named *textfield* and a Button named *button* . Now add the label, textfield, and button to the HBox. Set the background of the *hbox* using the *setBackground()* function. Set the alignment of HBox to *Pos.CENTER* and also add some spacing between the nodes using *setSpacing()* method. We will create a Scene named *scene* and add the HBox to the scene. The scene will be set to the stage using the *setScene()* function. Finally call the *show()* method to display the result.
 
-    ```
+    ```java
     // Java program to add an image to 
     // the background of a container
     import javafx.application.Application;

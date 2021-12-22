@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public class PDDocument
 extends Object
 implements Pageable, Closeable
@@ -24,7 +24,7 @@ implements Pageable, Closeable
 
 **语法:**声明 *addPage()* 方法
 
-```
+```java
 public void addPage(PDPage page) ;
 ```
 
@@ -44,7 +44,7 @@ public void addPage(PDPage page) ;
 
 **语法:**
 
-```
+```java
 PDDocument doc = new PDDocument(); 
 ```
 
@@ -54,7 +54,7 @@ PDDocument doc = new PDDocument();
 
 **语法:**
 
-```
+```java
 PDPage page = new PDPage();
 ```
 
@@ -64,7 +64,7 @@ PDPage page = new PDPage();
 
 **语法:**
 
-```
+```java
 PDPage page = new PDPage();
 ```
 
@@ -74,7 +74,7 @@ PDPage page = new PDPage();
 
 **语法:**
 
-```
+```java
 doc.save("path");
 ```
 
@@ -84,7 +84,7 @@ doc.save("path");
 
 **语法:**
 
-```
+```java
 doc.close();
 ```
 
@@ -94,7 +94,7 @@ doc.close();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to add page to a PDF document
 
 // Here a page will be created in PDF and saved only
@@ -143,7 +143,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to add pages to PDF
 // using addPage() method
 

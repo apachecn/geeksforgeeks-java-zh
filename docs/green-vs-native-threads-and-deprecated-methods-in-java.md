@@ -40,7 +40,7 @@
 
 下面的例子说明了如何使用 suspend()方法可能导致**死锁。**
 
-```
+```java
 // Printer class
 class Printer {
 
@@ -117,7 +117,7 @@ class Deadlock {
 
 **输出:**
 
-```
+```java
 Primary Thread is starting its execution
 Primary Thread wants to print
 Primary Thread has been suspended

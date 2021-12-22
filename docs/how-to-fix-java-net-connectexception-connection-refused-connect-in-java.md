@@ -15,7 +15,7 @@ java . net . connectexception:connect 被拒绝:每当软件处于客户端-服�
 
 **实现:**这里我们使用的是 MySQL 数据库连接，连接信息应该是这种格式。现在让我们看看修复 Java . net . connectionexception 的方法:连接被拒绝。使用如下所示的命令 Ping 目标主机:
 
-```
+```java
 ping <hostname> - to test
 
 ipconfig(for windows)/ifconfig(linux) - to get network configuration
@@ -25,7 +25,7 @@ netstat - statistical report
 
 ![](img/dd6bfe16cc635697f685e78965c15024.png)
 
-```
+```java
 nslookup - DNS lookup name
 ```
 
@@ -37,7 +37,7 @@ nslookup - DNS lookup name
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Creation of ConnectException
 
 // Importing required classes
@@ -108,7 +108,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate DB Connection Setup
 
 // Importing basic libraries

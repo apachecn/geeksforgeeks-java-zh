@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 BooleanObject.hashCode()
 ```
 
@@ -16,7 +16,7 @@ BooleanObject.hashCode()
 
 **程序 1:**
 
-```
+```java
 // java code to demonstrate
 // Boolean hashCode() method
 
@@ -38,14 +38,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1231
 
 ```
 
 **程序 2:**
 
-```
+```java
 // java code to demonstrate 
 // Boolean hashCode() method
 
@@ -67,7 +67,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1237
 
 ```

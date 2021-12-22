@@ -12,7 +12,7 @@
 *   Delegate can be regarded as a relationship between objects, in which one object forwards some method calls to another object, which is called its delegate.
 *   The main advantage of delegates is the flexibility of runtime-delegates can be easily changed at runtime. But unlike inheritance, delegation is not directly supported by most popular object-oriented languages, and it is not convenient for [dynamic polymorphism](https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/) .
 
-```
+```java
 // Java program to illustrate
 // delegation
 class RealPrinter {
@@ -47,7 +47,7 @@ public static void main(String[] args)
 
 Output:
 
-```
+```java
 The Delegate
 
 ```
@@ -56,7 +56,7 @@ When you delegate, you just call a class that knows what to do. You don't really
 
 **Use the same inherited code**
 
-```
+```java
 // Java program to illustrate
 // Inheritance
 class RealPrinter {
@@ -87,7 +87,7 @@ public static void main(String[] args)
 
 Output:
 
-```
+```java
 Printing Data
 
 ```

@@ -6,7 +6,7 @@ Java 中**chronolocalydate**接口的 **isBefore()** 方法检查该日期是否
 
 **语法** :
 
-```
+```java
 public boolean isAfter(ChronoLocalDate date2)
 
 ```
@@ -19,7 +19,7 @@ public boolean isAfter(ChronoLocalDate date2)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -46,14 +46,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

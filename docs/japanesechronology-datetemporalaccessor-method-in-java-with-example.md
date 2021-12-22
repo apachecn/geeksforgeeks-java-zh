@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public JapaneseDate date(TemporalAccessor temporal)
 ```
 
@@ -18,7 +18,7 @@ public JapaneseDate date(TemporalAccessor temporal)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -66,14 +66,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseDate is: Japanese Heisei 30-10-25
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseDate is: Japanese Heisei 30-12-30
 
 ```

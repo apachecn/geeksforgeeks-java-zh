@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime with(TemporalAdjuster adjuster)
 
 ```
@@ -27,7 +27,7 @@ public LocalTime with(TemporalAdjuster adjuster)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.with() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime before adjustment: 13:08:56
 LocalTime after adjustment: 00:00
 
@@ -74,7 +74,7 @@ LocalTime after adjustment: 00:00
 
 **语法:**
 
-```
+```java
 public LocalTime with(TemporalField field, long newValue)
 
 ```
@@ -92,7 +92,7 @@ public LocalTime with(TemporalField field, long newValue)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.with() method
 
@@ -128,7 +128,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime before applying method: 13:12:23
 LocalTime after applying method: 13:12:55
 

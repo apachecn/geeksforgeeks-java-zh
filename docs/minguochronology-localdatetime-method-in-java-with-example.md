@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ChronoLocalDateTime 
     localDateTime(TemporalAccessor temporal)
 
@@ -20,7 +20,7 @@ public ChronoLocalDateTime
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // localDateTime() method
 
@@ -73,14 +73,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate is: Minguo ROC 107-10-25T23:12:31.123
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // localDateTime() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoDate is: Minguo ROC 107-12-30T19:34:50.630
 
 ```

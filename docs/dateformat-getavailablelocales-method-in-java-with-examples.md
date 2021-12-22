@@ -6,7 +6,7 @@ Java 中 **DateFormat 类**的 **getAvailableLocales()** 方法用于返回该�
 
 **语法:**
 
-```
+```java
 public static Locale[] getAvailableLocales()
 ```
 
@@ -17,7 +17,7 @@ public static Locale[] getAvailableLocales()
 以下程序说明了日期格式类的 getAvailableLocales()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // getAvailableLocales() method
 
@@ -57,7 +57,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Available Locales :: Display names
 
  :: 

@@ -72,7 +72,7 @@
 
 下面是上述功能以及数据库连接的完整实现:
 
-```
+```java
 // Java program to implement CLI
 // based application of travel agency
 

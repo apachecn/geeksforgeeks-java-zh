@@ -9,7 +9,7 @@
 
 **例**:
 
-```
+```java
 // Java Program to illustrate constructor
 
 import java.io.*;
@@ -42,7 +42,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Constructor called
 null
 0

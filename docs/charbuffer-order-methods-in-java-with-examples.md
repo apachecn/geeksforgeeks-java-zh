@@ -5,7 +5,7 @@
 [**Java . nio . charbuffer**](https://www.geeksforgeeks.org/tag/java-charbuffer/)类的 **order()** 方法用于检索该缓冲区的字节顺序。通过分配或包装现有字符数组创建的字符缓冲区的字节顺序是底层硬件的本机顺序。作为字节缓冲区视图创建的字符缓冲区的字节顺序是创建视图时字节缓冲区的字节顺序。
 **语法:**
 
-```
+```java
 public abstract ByteOrder order()
 ```
 
@@ -15,7 +15,7 @@ public abstract ByteOrder order()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // order() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 CharBuffer is : [a, b, c, d]
 Order: LITTLE_ENDIAN
 ```
@@ -63,7 +63,7 @@ Order: LITTLE_ENDIAN
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // order() method
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 CharBuffer is : [,,,  ]
 Order: LITTLE_ENDIAN
 ```

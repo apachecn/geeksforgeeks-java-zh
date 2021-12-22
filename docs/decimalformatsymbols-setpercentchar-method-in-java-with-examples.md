@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setPercent(char percent)
 
 ```
@@ -19,7 +19,7 @@ public void setPercent(char percent)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -50,7 +50,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current Character used for percent sign: %
 Updated Character used for percent sign: *
 

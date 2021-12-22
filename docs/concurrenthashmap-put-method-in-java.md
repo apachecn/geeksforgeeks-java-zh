@@ -6,7 +6,7 @@ Java 中类[的 **put()** 方法 ConcurrentHashmap](https://www.geeksforgeeks.or
 
 **语法:**
 
-```
+```java
 public V put(K key, V value)
 ```
 
@@ -23,7 +23,7 @@ public V put(K key, V value)
 
 **程序 1:** 当键时，传递的值是新的。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -55,14 +55,14 @@ public class ConcurrentHashMapExample {
 
 **Output:**
 
-```
+```java
 {1=1, 2=1, 3=1, 4=1, 5=1, 6=1}
 
 ```
 
 **程序 2:** 当一个现有的键，值被传递。
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -115,7 +115,7 @@ public class ConcurrentHashMapExample {
 
 **Output:**
 
-```
+```java
 Map: {Geek=100}
 Returned Value: null
 
@@ -137,7 +137,7 @@ Returned Value: 400
 
 **程序 3:** 演示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // put() method
 
@@ -189,7 +189,7 @@ public class ConcurrentHashMapExample {
 
 **Output:**
 
-```
+```java
 {1=1, 2=1, 3=1, 4=1, 5=1, 6=1}
 
 When (null, "10") is passed as parameter:

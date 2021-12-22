@@ -6,7 +6,7 @@ java 中[比较器接口](https://www.geeksforgeeks.org/comparator-interface-jav
 
 **语法:**
 
-```
+```java
 default Comparator <T> 
     thenComparingInt(ToIntFunction <T> keyExtractor)
 
@@ -21,7 +21,7 @@ default Comparator <T>
 下面的程序说明了方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate Comparator
 // thenComparingInt(ToIntFunction) method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate Comparator
 // thenComparingInt(ToIntFunction)  method
 

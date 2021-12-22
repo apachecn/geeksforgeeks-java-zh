@@ -35,7 +35,7 @@ Tab 类是 JavaFX 的一部分。选项卡类创建一个包含在选项卡窗�
 
 1.  **Java program to create a tab and add it to the TabPane:** In this program we will create a Tab named *tab_1*. We will also create a Label named *label*. We will add the label to the tab by using the function *setContent()*. The title of the tab will be passed as arguments. We will create a TabPane named tabpane and add the tab to the tabpane. Now, we will add the tabpane to the scene and add the scene to the stage and display the stage using the *show()* function.
 
-    ```
+    ```java
     // Java program to create a tab 
     // and add it to the TabPane
     import javafx.application.Application;
@@ -91,7 +91,7 @@ Tab 类是 JavaFX 的一部分。选项卡类创建一个包含在选项卡窗�
 
 2.  **Java program to create a tab, add graphic(in the tab) to it and add it to the TabPane:** In this program we will create a Tab named *tab_1*. We will also create a Label named label. We will add label to the tab by using the function *setContent()*. The title of the tab will be passed as arguments. We will create a FileInputStream named *input* to import the image. An Image will be created named *image* from the file input stream, then we will create an ImageView named *imageview* from the imported image. We will add this imageview to the tab using the *setGraphic()* function. We will create a TabPane named *tabpane* and add the tab to the *tabpane* . Now, we will add the tabpane to the scene and add the scene to the stage and display the stage using the *show()* function.
 
-    ```
+    ```java
     // Java program to create a tab, add
     // graphic(in the tab) to it and add
     // it to the TabPane

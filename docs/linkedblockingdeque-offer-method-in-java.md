@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean offer(E e)
 ```
 
@@ -18,7 +18,7 @@ public boolean offer(E e)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of LinkedBlockingDeque
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The element 10 cannot be inserted as capacity is full
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 
@@ -64,7 +64,7 @@ Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of LinkedBlockingDeque
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The element 'hii' cannot be inserted as capacity is full
 Linked Blocking Deque: [abc, gopu, geeks, richik]
 

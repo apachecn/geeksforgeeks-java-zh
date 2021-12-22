@@ -34,7 +34,7 @@
 **意向分类**
 有两种类型的意向
 
-```
+```java
 1\. Implicit Intent
 2\. Explicit Intent
 
@@ -56,7 +56,7 @@
         Also, Assign **IDs** for each component as shown in the image and the code below. The **assigned ID** for a component helps in the identification of component and can be easily use in the Java files.
         **Syntax:**
 
-        ```
+        ```java
         android:id="@+id/id_name"
         ```
 
@@ -95,7 +95,7 @@
 
 **因此隐式意图的代码片段:**
 
-```
+```java
 String url = editText1.getText().toString();
 Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse(url));
 startActivity(intent);
@@ -106,7 +106,7 @@ startActivity(intent);
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout 
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -147,7 +147,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 ## MainActivity.java
 
-```
+```java
 package org.geeksforgeeks.implicitIntent_example;
 
 import android.app.Activity;
@@ -211,7 +211,7 @@ public class MainActivity extends Activity {
         Also, Assign **IDs** for each component (Button, TextView) as shown in the image and the code below. The **assigned ID** for a component helps in the identification of component and can be easily use in the Java files.
         **Syntax:**
 
-        ```
+        ```java
         android:id="@+id/id_name"
         ```
 
@@ -249,7 +249,7 @@ public class MainActivity extends Activity {
 
         因此，明确意图的代码是:
 
-        ```
+        ```java
         Intent i = new Intent(getApplicationContext(), ActivityTwo.class);
         ```
 
@@ -257,7 +257,7 @@ public class MainActivity extends Activity {
         <block>**开始活动(一):**这开始目标活动。
         **明确意图的代码片段:**</block>
 
-        ```
+        ```java
         Intent i = new Intent(getApplicationContext(), ActivityTwo.class);
         startActivity(i);
         ```
@@ -284,7 +284,7 @@ public class MainActivity extends Activity {
 
     因此，明确意图的代码是:
 
-    ```
+    ```java
     Intent i = new Intent(getApplicationContext(), MainActivity.class); 
     ```
 
@@ -307,7 +307,7 @@ public class MainActivity extends Activity {
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout 
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -352,7 +352,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 ## MainActivity.java
 
-```
+```java
 package org.geeksforgeeks.explicit_intent;
 
 import android.os.Bundle;
@@ -392,7 +392,7 @@ public class MainActivity extends Activity {
 
 ## activity_two.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout 
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -440,7 +440,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 ## activitytwo . java
 
-```
+```java
 package org.geeksforgeeks.explicit_intent;
 
 import android.app.Activity;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final String toString()
 ```
 
@@ -18,7 +18,7 @@ public final String toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AlgorithmParameters :
         p:     86b9269a 3f3ef15f 76b53799 be3343de 388a6975 b693cc6d 6a6d30f5 fc3ec50a
     ea42cccd b2c015d7 7a02a4f4 a50fab90 917060be 45b0bebc bbc3a43b 627ddbee
@@ -86,7 +86,7 @@ AlgorithmParameters :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AlgorithmParameters : SunJCE Diffie-Hellman Parameters:
 p:
     d5d2f029 531fdaad 70741153 3ce13100 c94d5da4 94925f33 595a9bb9 2ea7412a

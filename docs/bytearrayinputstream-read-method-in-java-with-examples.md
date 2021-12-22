@@ -8,7 +8,7 @@ Java 中**Bytearrainputstream**类的 **read()** 方法有两种使用方式:
 
 **语法:**
 
-```
+```java
 public int read()
 
 ```
@@ -25,7 +25,7 @@ public int read()
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayInputStream read() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Char : G
 Char : E
 Char : E
@@ -70,7 +70,7 @@ Char : S
 
 **语法:**
 
-```
+```java
 public void read(byte[ ] b,
                  int offset,
                  int length)
@@ -96,7 +96,7 @@ public void read(byte[ ] b,
 
 **程序:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayInputStream
 // read(byte[ ], int, int) method
@@ -140,7 +140,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Total bytes read: 3
 NULL
 G

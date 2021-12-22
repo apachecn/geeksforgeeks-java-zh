@@ -80,7 +80,7 @@ Java 17 LTS 是 Java SE 平台的最新长期支持版本。JDK 17 二进制文�
 
 **语法:**
 
-```
+```java
 public abstract sealed class Animal
 permits Dog, Cat, Rabbit {...}
 ```
@@ -159,7 +159,7 @@ permits Dog, Cat, Rabbit {...}
 
 **步骤 3:** [设置系统环境变量](https://www.geeksforgeeks.org/how-to-set-java-path-in-windows-and-linux/)的路径，为了检查是否安装了新的 JDK，通过输入以下命令通过终端进行验证。
 
-```
+```java
 javac --version
 java --version
 ```

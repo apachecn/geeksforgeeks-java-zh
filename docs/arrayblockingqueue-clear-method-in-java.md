@@ -12,14 +12,14 @@
 **clear()** 方法**从该队列中移除**所有元素。应用此方法后，队列将变空。
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
 下面的程序说明了 ArrayBlockingQueue 的 clear()方法。
 **例 1**
 
-```
+```java
 // Java Program Demonstrate clear()
 // method of ArrayBlockingQueue.
 
@@ -56,7 +56,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output :
 After addding numbers
 [23, 32, 45, 12]
@@ -67,7 +67,7 @@ After clear() method
 
 **例 2**
 
-```
+```java
 // Java Program Demonstrate clear()
 // method of ArrayBlockingQueue.
 import java.util.concurrent.ArrayBlockingQueue;
@@ -104,7 +104,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output :
 List of Names: [Aman, Siddhant, Mahafuj, Raunak, Suvo]
 Remaining Capacity: 0

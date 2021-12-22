@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int prolepticYear(Era era,
                          int yearOfEra)
 
@@ -23,7 +23,7 @@ public int prolepticYear(Era era,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // prolepticYear() method
 
@@ -71,14 +71,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 proleptic Year is: 3432
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // prolepticYear() method
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 passed parameter can not form a date
 Exception thrown: java.time.DateTimeException: Invalid yearOfEra value
 

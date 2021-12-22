@@ -23,7 +23,7 @@
 
 ****例 1:****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Doubles.indexOf(double[] array,
 // double[] target) method
@@ -69,7 +69,7 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 Array: [1.2, 2.3, 3.4, 4.5, 3.4, 5.6]
 Target Array: [3.4, 4.5, 3.4]
 Target is present at index 2
@@ -78,7 +78,7 @@ Target is present at index 2
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Doubles.indexOf(double[] array,
 // double[] target) method
@@ -124,7 +124,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Array: [3.2, 5.3, 7.4, 11.4, 13.5]
 Target Array: [17.5, 12.4]
 Target is not present in the array

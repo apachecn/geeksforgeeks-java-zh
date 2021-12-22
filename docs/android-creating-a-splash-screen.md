@@ -10,7 +10,7 @@
 
 *   要删除 ActionBar，您需要在 styles.xml 文件中进行以下更改。
 
-    ```
+    ```java
     style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"
     ...
 
@@ -21,7 +21,7 @@
 
     **使用“后置延迟()”功能:**
 
-    ```
+    ```java
     public final boolean postDelayed(Runnable Object token, long delayMillisec)
     ```
 
@@ -31,7 +31,7 @@
 
     *MainActivity.java*
 
-    ```
+    ```java
     package com.example.hp.splashscreen;
 
     import android.content.Intent;
@@ -76,7 +76,7 @@
 
     *activity_main.xml* :你可以使用任何一张图片作为闪屏，先粘贴到可绘制的文件夹中。XML 文件很容易通过拖放的方式生成，只需使用 imageview 并选择合适的图像。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

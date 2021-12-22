@@ -7,7 +7,7 @@ Java 提供了在目录之间移动文件的功能。这里描述了实现这一
 *   **使用文件。Path move()方法:**重命名文件，并将文件永久移动到新位置。
     **语法:**
 
-```
+```java
 public static Path move(Path source, Path target, CopyOption..options)
  throws IOException
 Parameters: 
@@ -20,7 +20,7 @@ Returns: the path to the target file
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate renaming and
 // moving a file permanently to a new location
 import java.io.*;
@@ -49,14 +49,14 @@ public class Test
 
 **输出:**
 
-```
+```java
 File renamed and moved successfully
 ```
 
 *   **使用 Java.io.File.renameTo()和 Java.io.File.delete()方法:**使用这两种方法复制文件并删除原始文件。
     **renameTo()的语法:**
 
-```
+```java
 public boolean renameTo(File dest)
 Description: Renames the file denoted by this abstract path name.
 Parameters: dest - The new abstract path name for the named file
@@ -65,7 +65,7 @@ Returns: true if and only if the renaming succeeded; false otherwise
 
 **delete()语法:**
 
-```
+```java
 public boolean delete()
 Description: Deletes the file or directory 
 denoted by this abstract path name.
@@ -75,7 +75,7 @@ directory is successfully deleted; false otherwise
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Copying the file
 // and deleting the original file
 import java.io.*;
@@ -105,7 +105,7 @@ public class Test
 
 **输出**
 
-```
+```java
 File moved successfully
 ```
 

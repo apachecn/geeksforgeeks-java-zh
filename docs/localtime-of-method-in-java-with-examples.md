@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static LocalTime of(int hour,
                                int minute)
 
@@ -25,7 +25,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalTime of(int hour,
     // int minute) method
@@ -49,7 +49,7 @@
 
     **Output:**
 
-    ```
+    ```java
     TIME: 06:05
 
     ```
@@ -58,7 +58,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static LocalTime of(int hour,
                                int minute,
                                int second)
@@ -79,7 +79,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalTime of(int hour, int minute, int second) method
 
@@ -102,7 +102,7 @@
 
     **Output:**
 
-    ```
+    ```java
     TIME: 06:05:40
 
     ```
@@ -111,7 +111,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static LocalTime of(int hour,
                                int minute,
                                int second,
@@ -134,7 +134,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // LocalTime of(int hour, int minute,
     // int second, int nanosecond) method
@@ -159,7 +159,7 @@
 
     **Output:**
 
-    ```
+    ```java
     TIME: 06:05:40.000000050
 
     ```

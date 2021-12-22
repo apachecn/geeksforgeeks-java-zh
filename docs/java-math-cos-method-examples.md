@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double cos(double angle)
 Parameters:
 The function has one mandatory parameter angle which is in radians. 
@@ -18,7 +18,7 @@ The function has one mandatory parameter angle which is in radians.
 
 **例 1 :** 展示 java.lang.Math.cos()方法的工作原理。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.cos() method
 import java.lang.Math;
@@ -61,7 +61,7 @@ class Gfg {
 
 **Output:**
 
-```
+```java
 0.8660254037844387
 0.7071067811865476
 0.5000000000000001
@@ -71,7 +71,7 @@ class Gfg {
 
 **例 2 :** 展示当自变量为 NAN 或无穷大时，java.lang.Math.cos()方法的工作情况。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.cos() method infinity case
 import java.lang.Math; // importing java.lang package
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 NaN
 NaN
 NaN

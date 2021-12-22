@@ -11,7 +11,7 @@
 *   登录成功后，使用**列表名称**()方法获取当前工作目录下所有文件的名称。返回的列表将是一个数组，可以迭代来读取名称。
 *   由于登录是成功的，所以在读取文件名后需要**注销**()次。最后调用**断开**()方法结束与连接的 FTP 服务器的关系。
 
-```
+```java
 // Java code to illustrate
 // How to get a list of files from the FTPserver
 import java.io.IOException;

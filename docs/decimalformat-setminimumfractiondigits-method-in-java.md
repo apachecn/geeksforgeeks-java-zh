@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void setMinimumFractionDigits(int newVal)
 
 ```
@@ -19,7 +19,7 @@ public void setMinimumFractionDigits(int newVal)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setMinimumFractionDigits() method
 
@@ -44,14 +44,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 12.340000
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setMinimumFractionDigits() method
 
@@ -76,7 +76,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 12.345
 
 ```

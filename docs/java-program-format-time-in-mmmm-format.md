@@ -4,7 +4,7 @@
 
 在 Java 中，月份的 MMM 格式是月份的简短形式，使用 3 个字符。 ***SimpleDateFormat 类*** 用于在 java 中实现这种格式，您可以使用以下代码导入这个包。
 
-```
+```java
 import java.text.SimpleDateFormat
 
 ```
@@ -36,7 +36,7 @@ import java.text.SimpleDateFormat
 
 在这里，您将看到完整的包，说明如何使用简单日期格式类来扩展日期格式类。SimpleDateFormat 类也有助于将日期转换为文本格式，并且它还可以将文本解析为日期格式并进行规范化。
 
-```
+```java
 Class SimpleDateFormat
      java.lang.Object
         java.text.Format
@@ -49,7 +49,7 @@ Class SimpleDateFormat
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to display Month 
 // in MMM and MMMM Format
 import java.text.SimpleDateFormat;
@@ -76,7 +76,7 @@ public static void main(String[] argv) throws Exception {
 
 **输出:**
 
-```
+```java
 Nov
 November
 
@@ -86,7 +86,7 @@ November
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Display Date
 // and Time in MMMM Format
 import java.text.SimpleDateFormat;
@@ -109,7 +109,7 @@ public static void main(String[] argv) throws Exception {
 
 **输出:**
 
-```
+```java
 Monday  02 November 2020 11:46:05
 
 ```

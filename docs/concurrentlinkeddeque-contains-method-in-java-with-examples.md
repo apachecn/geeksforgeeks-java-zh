@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object elem)
 ```
 
@@ -18,7 +18,7 @@ public boolean contains(Object elem)
 
 **程序 1** :
 
-```
+```java
 // Java Program to Demonstrate contains()
 // method of ConcurrentLinkedDeque
 
@@ -59,7 +59,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 GFG is not present
 
@@ -67,7 +67,7 @@ GFG is not present
 
 **程序二:**
 
-```
+```java
 // Java Program to Demonstrate contains()
 // method of ConcurrentLinkedDeque
 
@@ -108,7 +108,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedDeque: [Welcome, To, Geeks, 4, Geeks]
 Geeks is present
 

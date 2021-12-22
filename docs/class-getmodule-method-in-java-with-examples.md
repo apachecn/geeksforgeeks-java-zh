@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Module getModule()
 
 ```
@@ -21,7 +21,7 @@ public Module getModule()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getModule() method
 
 public class Test {
@@ -45,7 +45,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Module of myClass: unnamed module @23fc625e
 
@@ -53,7 +53,7 @@ Module of myClass: unnamed module @23fc625e
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getModule() method
 
 public class Test {
@@ -77,7 +77,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Module of arrClass: unnamed module @23fc625e
 
 ```

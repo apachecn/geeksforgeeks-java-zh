@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E pollFirst()
 ```
 
@@ -16,7 +16,7 @@ public E pollFirst()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate pollFirst()
 // method of ConcurrentSkipListSet
 
@@ -49,7 +49,7 @@ Lset = new ConcurrentSkipListSet<Integer>();
 
 **Output:**
 
-```
+```java
 Contents of the set: [10, 20, 30, 40, 50]
 The first element of the set: 10
 Contents of the set after pollFirst: [20, 30, 40, 50]
@@ -58,7 +58,7 @@ Contents of the set after pollFirst: [20, 30, 40, 50]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate pollFirst()
 // method of ConcurrentSkipListSet
 
@@ -83,7 +83,7 @@ Lset = new ConcurrentSkipListSet<Integer>();
 
 **Output:**
 
-```
+```java
 Contents of the set: []
 The first element of the set: null
 

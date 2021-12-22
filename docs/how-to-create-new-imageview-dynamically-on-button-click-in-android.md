@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -47,7 +47,7 @@
 
 转到**MainActivity.java**文件，参考以下代码。这里我们正在创建一个图像视图和一个布局，并将在布局中添加图像视图。这就是我们创建图像视图的方式
 
-```
+```java
 ImageView imageView=new ImageView(AddImageViw.this);
 // adding the image in ImageView
 imageView.setImageResource(R.mipmap.ic_launcher);
@@ -55,7 +55,7 @@ imageView.setImageResource(R.mipmap.ic_launcher);
 
 这就是我们在布局中添加新创建的图像视图的方式。
 
-```
+```java
 LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(width,height);
         params.setMargins(0,10,0,10); // setting the margin in the layout 
         imageView.setLayoutParams(params);
@@ -66,7 +66,7 @@ LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(width,height);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;

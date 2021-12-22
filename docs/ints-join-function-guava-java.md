@@ -6,7 +6,7 @@
 例如，join(“-”、1、2、3)返回字符串“1-2-3”。
 **语法:****](https://www.geeksforgeeks.org/ints-class-guava-java/) 
 
-```
+```java
 public static String 
     join(String separator, int[] array)
 ```
@@ -22,7 +22,7 @@ public static String
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.join() method
 
@@ -48,6 +48,6 @@ class GFG {
 
 ****Output:** **
 
-```
+```java
 2, 4, 6, 8, 10
 ```

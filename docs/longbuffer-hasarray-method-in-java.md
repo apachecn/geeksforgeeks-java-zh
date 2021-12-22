@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Long[] array()
 ```
 
@@ -18,7 +18,7 @@ public final Long[] array()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 

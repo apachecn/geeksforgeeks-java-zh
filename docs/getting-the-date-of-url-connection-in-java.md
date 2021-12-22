@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Obj.getDate()  // Obj is object of HttpUrlConnection class
 ```
 
@@ -18,7 +18,7 @@ Obj.getDate()  // Obj is object of HttpUrlConnection class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get the date of the URL connection
 
 import java.io.IOException;

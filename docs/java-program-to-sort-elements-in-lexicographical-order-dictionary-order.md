@@ -9,7 +9,7 @@
 
 **例:**
 
-```
+```java
 Input : Harit Girish Gritav Lovenish Nikhil Harman 
 Output: Girish Gritav Harit Harman Lovenish Nikhil
 
@@ -24,7 +24,7 @@ Output: Alice Bob
 
 **使用的功能:**
 
-```
+```java
 int compareToIgnoreCase(String);
 
 ```
@@ -39,7 +39,7 @@ int compareToIgnoreCase(String);
 
 ## Java
 
-```
+```java
 // Java Program to Sort Elements in
 // Lexicographical Order (Dictionary Order)
 import java.io.*;
@@ -87,7 +87,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Girish Gritav Harit Harman Lovenish Nikhil 
 
 ```
@@ -100,7 +100,7 @@ Girish Gritav Harit Harman Lovenish Nikhil
 
 **使用的功能:**
 
-```
+```java
 Arrays.sort(stringArray, String.CASE_INSENSITIVE_ORDER);
 
 // First Parameter : Name of Array
@@ -111,7 +111,7 @@ Arrays.sort(stringArray, String.CASE_INSENSITIVE_ORDER);
 
 ## Java
 
-```
+```java
 // Java Program to Sort Elements in
 // Lexicographical Order (Dictionary Order)
 import java.io.*;
@@ -145,7 +145,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Girish Gritav Harit Harman Lovenish Nikhil 
 
 ```

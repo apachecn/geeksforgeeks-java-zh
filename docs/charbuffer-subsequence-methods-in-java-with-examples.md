@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract CharBuffer
     subSequence(int start, int end)
 ```
@@ -26,7 +26,7 @@ public abstract CharBuffer
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // subSequence() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original CharBuffer : [a, b, c, d, e]
 Position: 0
 Limit: 5
@@ -92,7 +92,7 @@ Limit: 4
 
 **示例 2:**For indexout of bound 异常
 
-```
+```java
 // Java program to demonstrate
 // subSequence() method
 
@@ -146,7 +146,7 @@ public class GFG {
 
 T5】输出:
 
-```
+```java
 index is out of bound
 Exception throws: java.lang.IndexOutOfBoundsException
 

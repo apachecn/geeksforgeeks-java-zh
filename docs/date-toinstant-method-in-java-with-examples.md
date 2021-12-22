@@ -6,7 +6,7 @@ Java 中[日期类](https://www.geeksforgeeks.org/date-class-java-examples/)的 
 
 **语法:**
 
-```
+```java
 public Instant toInstant()
 ```
 
@@ -17,7 +17,7 @@ public Instant toInstant()
 下面的程序说明了如何在 Java 中使用 toInstant()方法:
 **示例 1:**
 
-```
+```java
 // Java code to demonstrate
 // toInstant() method of Date class
 
@@ -58,7 +58,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Original Date: Wed Jan 30 06:01:46 UTC 2019
 Instant: 2019-01-30T06:01:46.730Z
 
@@ -66,7 +66,7 @@ Instant: 2019-01-30T06:01:46.730Z
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // clone() method of Date class
 
@@ -107,7 +107,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Original Date: Fri Jul 12 06:01:49 UTC 1996
 Instant: 1996-07-12T06:01:49.766Z
 

@@ -6,7 +6,7 @@ java.lang.Integer.sum()是 java 中的一个内置方法，它返回其参数的
 
 **语法:**
 
-```
+```java
 public static int sum(*int a, int b*)
 ```
 
@@ -19,7 +19,7 @@ T3】a:第一个整数值。
 
 **示例**
 
-```
+```java
 Input: a = 170, b = 455
 Output: 625
 
@@ -30,7 +30,7 @@ Output: 90
 下面的程序说明了 Java.lang.Integer.sum()方法:
 **程序 1:** 为正数。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.sum() method
 import java.lang.*;
@@ -49,14 +49,14 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The sum is =80
 
 ```
 
 **程序 2:** 下面的程序说明了异常。
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.Integer.sum() method
 import java.lang.*;
@@ -76,7 +76,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 prog.java:8: error: integer number too large: 92374612162
        int a = 92374612162;
                ^

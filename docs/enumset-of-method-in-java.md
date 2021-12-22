@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Enum_Set = EnumSet.of(*E ele1, E ele2, E ele3, ...*)
     ```
 
@@ -19,7 +19,7 @@
     下面的程序说明了()方法的工作原理:
     **程序 1:** 一次添加一个元素会替换上一个元素。
 
-    ```
+    ```java
     // Java program to demonstrate range() method
     import java.util.*;
 
@@ -65,7 +65,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The enum set is: [The]
     The enum set is: [Geeks]
     The enum set is: [Welcome]
@@ -74,7 +74,7 @@
 
     **程序 2:** 同时添加两个元素。
 
-    ```
+    ```java
     // Java program to demonstrate range() method
     import java.util.*;
 
@@ -120,7 +120,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The enum set is: [The, Geeks]
     The enum set is: [Welcome, Geeks]
     The enum set is: [World, of]
@@ -129,7 +129,7 @@
 
     **程序 3:** 同时添加多个元素。
 
-    ```
+    ```java
     // Java program to demonstrate range() method
     import java.util.*;
 
@@ -183,7 +183,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The enum set is: [The, Geeks]
     The enum set is: [Welcome, The, Geeks]
     The enum set is: [Welcome, World, of, Geeks]
@@ -194,7 +194,7 @@
 2.  The **java.util.EnumSet.of(*E_first, E_rest*)** is used to create an enum set initially containing all the specified elements. This factory, whose parameter list uses the var_args feature, can also be used to create an enum set initially containing an arbitrary number of elements, but it comes with a disadvantage of making the program to run slower than the overloadings that do not use var_args.
     **Syntax:**
 
-    ```
+    ```java
     public static <E extends Enum<E>> EnumSet<E> of(E_first, E_rest)
     ```
 
@@ -209,7 +209,7 @@
 
     下面的程序说明了( *E_first，E_rest* )方法的工作原理:
 
-    ```
+    ```java
     // Java program to demonstrate of() method
     import java.util.*;
 
@@ -252,7 +252,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Set: [Welcome, The, World, Geeks]
 
     ```

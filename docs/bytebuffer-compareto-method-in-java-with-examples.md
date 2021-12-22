@@ -7,7 +7,7 @@
 字节缓冲区无法与任何其他类型的对象相比。
 **语法:**
 
-```
+```java
 public int compareTo(ByteBuffer that)
 ```
 
@@ -18,7 +18,7 @@ public int compareTo(ByteBuffer that)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ByteBuffer bb: [20, 30, 40]
 ByteBuffer bb1: [20, 30, 40]
 
@@ -104,7 +104,7 @@ both buffer are lexicographically equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -179,7 +179,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ByteBuffer bb: [30, 30, 40]
 ByteBuffer bb1: [20, 30, 40]
 
@@ -190,7 +190,7 @@ bb is lexicographically greater than bb1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -265,7 +265,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ByteBuffer bb: [20, 30, 40]
 ByteBuffer bb1: [40, 30, 40]
 

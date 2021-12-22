@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static void swap(List list, int i, int j)
 ```
 
@@ -22,7 +22,7 @@ public static void swap(List list, int i, int j)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Swap Elements of Java Vector
 
 import java.util.Collections;
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [A, B, C, D, E]
 After swapping
 [E, B, C, D, A]
@@ -66,7 +66,7 @@ After swapping
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // swap() method for IndexOutOfBoundsException
 
@@ -108,7 +108,7 @@ public class GFG1 {
 
 **Output**
 
-```
+```java
 Before swap: [rohan, manish, simran, ananya, ishika]
 
 Trying to swap elements more than upper bound index 

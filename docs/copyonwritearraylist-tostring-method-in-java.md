@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // toString() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 98, 100]
 ArrLis converted to string: [32, 67, 98, 100]
 
@@ -58,7 +58,7 @@ ArrLis converted to string: [32, 67, 98, 100]
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // toString()() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 ArrLis converted to string: [gopal, gfg, jgec, sudo]
 

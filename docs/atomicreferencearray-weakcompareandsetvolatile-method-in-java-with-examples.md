@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean
        weakCompareAndSetVolatile(int i,
                                  E expectedValue,
@@ -21,7 +21,7 @@ public final boolean
 下面的程序说明了 weakCompareAndSetVolatile()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate AtomicReferenceArray
 // weakCompareAndSetVolatile() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate AtomicReferenceArray
 // weakCompareAndSetVolatile() method
 

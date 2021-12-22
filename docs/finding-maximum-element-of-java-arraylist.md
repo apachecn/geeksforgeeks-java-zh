@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : ArrayList = {2, 9, 1, 3, 4}
 Output: Max = 9
 
@@ -25,7 +25,7 @@ Output: Max = 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Finding Maximum Element of Java ArrayList
 import java.util.ArrayList;
 import java.util.Collections;
@@ -59,7 +59,7 @@ class MinElementInArrayList {
 
 **Output**
 
-```
+```java
 Maximum Element in ArrayList = 70
 
 ```
@@ -70,7 +70,7 @@ Java 集合类的 **max** 方法可以用来查找 ArrayList。 **max** 方法�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Finding Maximum Element of Java ArrayList
 import java.util.ArrayList;
 import java.util.Collections;
@@ -102,6 +102,6 @@ class MinElementInArrayList {
 
 **Output**
 
-```
+```java
 Maximum Element in ArrayList = 70
 ```

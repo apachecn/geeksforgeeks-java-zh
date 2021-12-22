@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate getRuntime()
 // method of Runtime class
 public class GFG
@@ -25,7 +25,7 @@ public class GFG
 
 输出:
 
-```
+```java
 124130416
 ```
 
@@ -34,7 +34,7 @@ public class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate freeMemory()
 // method of Runtime class
 public class GFG
@@ -49,7 +49,7 @@ public class GFG
 
 输出:
 
-```
+```java
 124130416
 ```
 
@@ -58,7 +58,7 @@ public class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate totalMemory()
 // method of Runtime class
 public class GFG
@@ -73,7 +73,7 @@ public class GFG
 
 输出:
 
-```
+```java
 124780544
 ```
 
@@ -86,7 +86,7 @@ public class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Process exec()
 // method of Runtime class
 public class GFG
@@ -109,7 +109,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Google Chrome successfully started
 ```
 
@@ -122,7 +122,7 @@ Google Chrome successfully started
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate addShutdownHook()
 // method of Runtime class
 public class GFG
@@ -156,7 +156,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Waiting for 5 seconds...
 Program exiting
 ```
@@ -165,7 +165,7 @@ Program exiting
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate removeShutdownHook()
 // method of Runtime class
 public class GFG
@@ -203,7 +203,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Waiting for 5 seconds...
 ```
 
@@ -211,7 +211,7 @@ Waiting for 5 seconds...
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate availableProcessors()
 // method of Runtime class
 public class GFG
@@ -228,7 +228,7 @@ public class GFG
 
 输出:
 
-```
+```java
 4
 ```
 
@@ -236,7 +236,7 @@ public class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate exit()
 // method of Runtime class
 public class GFG
@@ -254,7 +254,7 @@ public class GFG
 
 输出:
 
-```
+```java
 No Output
 ```
 
@@ -262,7 +262,7 @@ No Output
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate traceInstructions()
 // method of Runtime class
 public class GFG
@@ -282,7 +282,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Enabled
 Disabled
 ```
@@ -291,7 +291,7 @@ Disabled
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate traceMethodCalls()
 // method of Runtime class
 public class GFG
@@ -309,7 +309,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Enabling..
 Enabled
 ```
@@ -322,7 +322,7 @@ Enabled
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate loadLibrary()
 // method of Runtime class
 public class GFG
@@ -339,7 +339,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Library Loaded Successfully
 ```
 
@@ -351,7 +351,7 @@ Library Loaded Successfully
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate load()
 // method of Runtime class
 public class GFG
@@ -368,7 +368,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Library Loaded Successfully
 ```
 
@@ -376,7 +376,7 @@ Library Loaded Successfully
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate gc()
 // method of Runtime class
 public class GFG
@@ -393,7 +393,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Running
 ```
 
@@ -401,7 +401,7 @@ Running
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate runFinalization()
 // method of Runtime class
 public class GFG
@@ -418,7 +418,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Finalized
 ```
 
@@ -426,7 +426,7 @@ Finalized
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate maxMemory()
 // method of Runtime class
 public class GFG
@@ -441,7 +441,7 @@ public class GFG
 
 输出:
 
-```
+```java
 922746880
 ```
 
@@ -451,7 +451,7 @@ public class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate halt()
 // method of Runtime class
 public class GFG
@@ -469,7 +469,7 @@ public class GFG
 
 输出:
 
-```
+```java
 No Output
 ```
 
@@ -482,7 +482,7 @@ No Output
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate exec()
 // method of Runtime class
 public class GFG
@@ -510,7 +510,7 @@ public class GFG
 
 输出:
 
-```
+```java
 File.java opening in atom
 ```
 
@@ -523,7 +523,7 @@ File.java opening in atom
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate exec()
 // method of Runtime class
 public class GFG
@@ -549,7 +549,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Gedit opening.
 ```
 
@@ -562,7 +562,7 @@ Gedit opening.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate exec()
 // method of Runtime class
 public class GFG
@@ -588,7 +588,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Gedit opening.
 ```
 
@@ -601,7 +601,7 @@ Gedit opening.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate exec()
 // method of Runtime class
 public class GFG
@@ -629,7 +629,7 @@ public class GFG
 
 输出:
 
-```
+```java
 File.java opening.
 ```
 
@@ -642,7 +642,7 @@ File.java opening.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate exec()
 // method of Runtime class
 public class GFG
@@ -670,7 +670,7 @@ public class GFG
 
 输出:
 
-```
+```java
 File.java opening.
 ```
 

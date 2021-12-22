@@ -6,7 +6,7 @@ IngrementXact()是 java 中的内置函数，它返回递增 1 的参数，如�
 
 **语法:**
 
-```
+```java
 int incrementExact(int num)
 long incrementExact(long num)
 ```
@@ -19,7 +19,7 @@ long incrementExact(long num)
 
     示例:
 
-    ```
+    ```java
     Input : 12
     Output : 13
 
@@ -30,7 +30,7 @@ long incrementExact(long num)
 
     **程序 1:** 演示功能工作的程序
 
-    ```
+    ```java
     // Java program to demonstrate working
     // of java.lang.Math.incrementExact() method
     import java.lang.Math;
@@ -52,14 +52,14 @@ long incrementExact(long num)
 
     输出:
 
-    ```
+    ```java
     13
     -2
     ```
 
     **程序 2:** 演示函数溢出的程序
 
-    ```
+    ```java
     // Java program to demonstrate overflow
     // of java.lang.Math.incrementExact() method
     import java.lang.Math;
@@ -78,7 +78,7 @@ long incrementExact(long num)
 
     输出:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.ArithmeticException: integer overflow
         at java.lang.Math.incrementExact(Math.java:909)
         at Gfg1.main(File.java:12)

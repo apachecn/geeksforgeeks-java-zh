@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Octal Number = 513
 Output: Binary equivalent value is: 101001011
 
@@ -48,7 +48,7 @@ Binary equivalent value of 3: 011
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert
 // Octal number to Binary
 
@@ -138,7 +138,7 @@ class OctalToBinary {
 
 **Output**
 
-```
+```java
 Octal to Binary Conversion
 
 Octal number: 315
@@ -151,7 +151,7 @@ Binary equivalent value is: 011001101
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert
 // Octal number to Binary
 public class OctalToBinary {
@@ -213,7 +213,7 @@ public class OctalToBinary {
 
 **Output**
 
-```
+```java
 Octal to Binary Conversion
 
 Octal number: 315
@@ -226,7 +226,7 @@ Binary equivalent value is: 11001101
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert
 // Octal number to Binary
 class OctalToBinary {
@@ -271,7 +271,7 @@ class OctalToBinary {
 
 **Output**
 
-```
+```java
 Octal to Binary Conversion
 
 Octal number: 315

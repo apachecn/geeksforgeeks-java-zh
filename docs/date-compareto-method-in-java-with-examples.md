@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(Date anotherDate)
 
 ```
@@ -23,7 +23,7 @@ public int compareTo(Date anotherDate)
 
 下面的程序演示了上述功能:
 
-```
+```java
 // Java code to demonstrate
 // compareTo() function of Date class
 
@@ -70,14 +70,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date 1: Thu Dec 05 08:17:55 UTC 1996
 Date 2: Wed Jan 02 08:17:55 UTC 2019
 On Comparison: 1
 
 ```
 
-```
+```java
 // Java code to demonstrate
 // compareTo() function of Date class
 
@@ -114,7 +114,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date 1: Wed Jan 02 08:18:02 UTC 2019
 Date 2: null
 Passing null as parameter: 

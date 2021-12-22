@@ -5,7 +5,7 @@
 此方法在原始数组的指定范围内创建元素的副本。
 **语法:**
 
-```
+```java
 public static int[] copyOfRange(int[] original_array, int from_index, int to_index) 
 ```
 
@@ -29,7 +29,7 @@ public static int[] copyOfRange(int[] original_array, int from_index, int to_ind
 
 变化:
 
-```
+```java
 copyOfRange(boolean[] original, int from, int to)
 copyOfRange(byte[] original, int from, int to)
 copyOfRange(char[] original, int from, int to)
@@ -46,7 +46,7 @@ copyOfRange(U[] original, int from, int to, Class newType)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // copyOfRange method
 import java.util.Arrays;
@@ -79,7 +79,7 @@ public static void main(String args[])
 
 输出:
 
-```
+```java
 14  15  16  17  
 16  17  18  0  0  0  
 ```
@@ -88,7 +88,7 @@ public static void main(String args[])
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // copyOfRange method
 import java.util.Arrays;
@@ -147,7 +147,7 @@ class GFG {
 
 输出:
 
-```
+```java
 40   geek4  50   geek5  
 20   geek2  30   geek3  
 

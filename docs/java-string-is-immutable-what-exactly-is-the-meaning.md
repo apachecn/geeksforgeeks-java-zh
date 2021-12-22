@@ -6,13 +6,13 @@
 
 `[String](https://www.geeksforgeeks.org/string-class-in-java/)`是这样工作的:
 
-```
+```java
 String str = "knowledge"; 
 ```
 
 像往常一样，这会创建一个包含`"knowledge"`的字符串，并为其分配一个引用`str`。够简单吗？让我们执行更多功能:
 
-```
+```java
 // assigns a new reference to the 
 // same string "knowledge"
 String s = str; 
@@ -20,7 +20,7 @@ String s = str;
 
 让我们看看下面的语句是如何工作的:
 
-```
+```java
  str = str.concat(" base"); 
 ```
 
@@ -37,7 +37,7 @@ String s = str;
 如果我们没有另一个参考`s`到`"knowledge"`呢？我们会失去那个`String`。然而，它仍然会存在，但会因为没有引用而被认为是丢失的。
 再看下面一个例子
 
-```
+```java
 /*package whatever // do not write package name here */
 
 import java.io.*;
@@ -56,7 +56,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 s1 refers to java
 
 ```

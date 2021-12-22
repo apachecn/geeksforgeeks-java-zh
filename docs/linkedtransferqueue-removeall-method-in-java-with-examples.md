@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection c)
 
 ```
@@ -21,7 +21,7 @@ public boolean removeAll(Collection c)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // removeAll() method of LinkedTransferQueue
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate
 // removeAll() method of LinkedTransferQueue
 

@@ -9,7 +9,7 @@
 
 这样做的方法之一是使关键对象**成为不可变的**。不变性允许您每次为一个键对象获取相同的 hashcode。这就是为什么像 String、Integer 或其他包装类这样的不可变类是一个不错的键对象申请者的主要动机。在这里了解更多信息- [如何使类不变？](https://www.geeksforgeeks.org/create-immutable-class-java/)
 
-```
+```java
 // Java example to create a Java HashMap
 // of user-defined class type
 
@@ -126,7 +126,7 @@ public class CustomKeyObject {
 
 **Output:**
 
-```
+```java
 Geeks1
 Geeks2
 Geeks1

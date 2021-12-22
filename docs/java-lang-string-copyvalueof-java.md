@@ -5,7 +5,7 @@
 copyValueOf()主要是将字符数组的内容复制到字符串中。这个函数有两种变体，本文将讨论这两种变体。
 **实施 1 :**
 
-```
+```java
 Syntax:
 public static String copyValueOf(char[] ch)
 Parameters:
@@ -15,7 +15,7 @@ This function returns the string with the contents of character array copied
 
 ```
 
-```
+```java
 // Java code to demonstrate the working of 
 // copyValueOf implementation 1 
 public class Copy1 {
@@ -39,7 +39,7 @@ public class Copy1 {
 
 输出:
 
-```
+```java
 The new copied string is : Astha Tyagi
 
 ```
@@ -47,7 +47,7 @@ The new copied string is : Astha Tyagi
 在第二种实现中，也可以提取子阵列而不是整个阵列。
 **实施 2 :**
 
-```
+```java
 Syntax:
 public static String copyValueOf(char[] ch, int index, int num)
 Parameters:
@@ -59,7 +59,7 @@ This function returns the string with the contents of character array copied
 
 ```
 
-```
+```java
 // Java code to demonstrate the working of 
 // copyValueOf implementation 2
 public class Copy2 {
@@ -84,14 +84,14 @@ public class Copy2 {
 
 输出:
 
-```
+```java
 The new copied string is : Astha
 
 ```
 
 **可能的应用:**该函数可用于使用实现 2 从字符串中常规复制或仅提取前缀或后缀。一个可能的例子是从处理面额的给定“1000 卢比”类型的字符串中仅提取金额。
 
-```
+```java
 // Java code to demonstrate the application of 
 // copyValueOf 
 public class Appli2 {
@@ -123,7 +123,7 @@ public class Appli2 {
 
 输出:
 
-```
+```java
 The original array is : Rs 1024
 The new string is : 1024
 

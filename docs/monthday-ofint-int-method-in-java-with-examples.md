@@ -5,7 +5,7 @@
 (int 的**。int)**MonthDay**类在 Java 中的**方法用于获取 **MonthDay** 的实例。
 **语法:**
 
-```
+```java
 public static MonthDay of(
      int month, int dayOfMonth)
 
@@ -24,7 +24,7 @@ public static MonthDay of(
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.of(int, int) method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MonthDay: --05-09
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.of(int. int) method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Month: MAY
 
 ```

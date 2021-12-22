@@ -8,13 +8,13 @@
 
 **方法声明:**
 
-```
+```java
 public <X> LabelValue<A, X> setValue(X value)
 ```
 
 **语法:**
 
-```
+```java
 LabelValue<A, B> LabelValueClassObject = LabelValue.setValue(X value)
 ```
 
@@ -24,7 +24,7 @@ LabelValue<A, B> LabelValueClassObject = LabelValue.setValue(X value)
 
 **例**:
 
-```
+```java
 // Below is a Java program to set
 // Value in a LabelValue pair
 
@@ -50,7 +50,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, 2]
 
 ```
@@ -59,13 +59,13 @@ class GfG {
 
 **方法声明:**
 
-```
+```java
 public <X> KeyValue<A, X> setValue(X value)
 ```
 
 **语法:**
 
-```
+```java
 KeyValue<A, B> KeyValueClassObject = KeyValue.setValue(X value)
 ```
 
@@ -75,7 +75,7 @@ KeyValue<A, B> KeyValueClassObject = KeyValue.setValue(X value)
 
 **例**:
 
-```
+```java
 // Below is a Java program to set
 // Value in a KeyValue pair
 
@@ -101,7 +101,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks]
 
 ```

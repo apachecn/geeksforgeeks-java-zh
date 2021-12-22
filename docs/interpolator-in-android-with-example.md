@@ -32,7 +32,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -141,7 +141,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // 2-second animation duration
 final private static int ANIMATION_DURATION = 2000;
 private ObjectAnimator animator;
@@ -151,7 +151,7 @@ private ObjectAnimator animator;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Linear
 binding.linear.setOnClickListener(clickedView -> {
     animator = ObjectAnimator.ofFloat(binding.linear,"translationX", 200f);
@@ -165,7 +165,7 @@ binding.linear.setOnClickListener(clickedView -> {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
 import android.view.View;

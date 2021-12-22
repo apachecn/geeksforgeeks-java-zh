@@ -6,7 +6,7 @@
 
 ****申报:****
 
-```
+```java
 @GwtCompatible(emulated=true)
 public final class Longs
 extends Object 
@@ -30,7 +30,7 @@ extends Object
 下面给出了一些示例，显示了番石榴 Longs 类的方法的实现:
 **示例 1 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Longs.asList() method
 
@@ -56,13 +56,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [3, 4, 5, 6, 7] 
 ```
 
 ****例 2 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Longs.toArray() method
 
@@ -88,13 +88,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [3, 4, 5, 6, 7] 
 ```
 
 ****例 3 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Longs.concat() method
 
@@ -121,13 +121,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [3, 4, 5, 6, 7] 
 ```
 
 ****例 4 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Longs.contains() method
 
@@ -150,14 +150,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 true
 false 
 ```
 
 ****例 5 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Longs.min() method
 
@@ -177,13 +177,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 3 
 ```
 
 ****例 6 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Longs.max() method
 
@@ -203,6 +203,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 6 
 ```

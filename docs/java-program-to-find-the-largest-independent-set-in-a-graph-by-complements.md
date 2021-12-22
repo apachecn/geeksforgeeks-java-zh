@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 static class pair {
     int first, second;
     pair(int first, int second)
@@ -38,7 +38,7 @@ static class pair {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find the Largest Independent Set in a
 // Graph by Complements
 
@@ -137,7 +137,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [1]
 [1, 2, 3]
 [1, 3, 4]

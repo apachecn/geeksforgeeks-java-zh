@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration getAll()
 
 ```
@@ -18,7 +18,7 @@ public Enumeration getAll()
 下面的程序说明了 CompoundName.getAll()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.getAll()
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 position 0 :a
 position 1 :b
 position 2 :z
@@ -73,7 +73,7 @@ position 4 :x
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.getAll() method
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 position 0 :c
 position 1 :e
 position 2 :d

@@ -35,7 +35,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find a good feedback
 // edge set in a graph
 
@@ -203,7 +203,7 @@ public class GFG
 
 **Output**
 
-```
+```java
 Feedback Edge Set: ( 3 -> 1 ) ( 4 -> 3 ) 
 ```
 

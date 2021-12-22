@@ -4,7 +4,7 @@
 
 与 C/C++不同，Java 中不允许静态局部变量。比如下面的 Java 程序编译失败，错误*“不允许静态局部变量”*
 
-```
+```java
 class Test {
    public static void main(String args[]) { 
      System.out.println(fun());

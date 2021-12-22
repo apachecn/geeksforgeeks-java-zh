@@ -9,7 +9,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to delete alternate 
 // nodes of a linked list
 class LinkedList
@@ -111,7 +111,7 @@ class LinkedList
 
 **输出:**
 
-```
+```java
 List before calling deleteAlt() 
 1 2 3 4 5 
 List after calling deleteAlt() 
@@ -125,7 +125,7 @@ List after calling deleteAlt()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Deletes alternate nodes of 
    a list starting with head */
 static Node deleteAlt(Node head) 

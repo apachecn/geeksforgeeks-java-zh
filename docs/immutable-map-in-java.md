@@ -17,7 +17,7 @@
 
 **类申报:**
 
-```
+```java
 @GwtCompatible(serializable=true,
                emulated=true)
 public abstract class ImmutableMap
@@ -28,7 +28,7 @@ implements Map, Serializable
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
   ↳ com.google.common.collect.ImmutableMap 
 
@@ -39,7 +39,7 @@ java.lang.Object
 
 1.  **From existing Map using copyOf() function of Guava**
 
-    ```
+    ```java
     // Below is the Java program to create ImmutableMap
 
     import com.google.common.collect.ImmutableMap;
@@ -71,14 +71,14 @@ java.lang.Object
 
     输出:
 
-    ```
+    ```java
     {1=Geeks, 2=For, 3=Geeks}
 
     ```
 
 2.  **New ImmutableMap using of() function from Guava**
 
-    ```
+    ```java
     // Below is the Java program to create ImmutableMap
     import com.google.common.collect.ImmutableMap;
     import java.util.HashMap;
@@ -108,7 +108,7 @@ java.lang.Object
 
     输出:
 
-    ```
+    ```java
     {1=Geeks, 2=For, 3=Geeks}
 
     ```
@@ -119,7 +119,7 @@ java.lang.Object
 
     **请注意:下面的程序都是 Java 9 的。因此，您需要一个 Java 9 编译器来运行它们。**
 
-    ```
+    ```java
     // Java code illustrating of() method to
     // create a ImmutableSet
     import java.util.*;
@@ -142,7 +142,7 @@ java.lang.Object
 
     输出:
 
-    ```
+    ```java
     {1=Geeks, 2=For, 3=Geeks}
 
     ```
@@ -154,7 +154,7 @@ java.lang.Object
 
     *   **Creating a new ImmutableMap**
 
-        ```
+        ```java
         // Java code illustrating of() method to
         // create a ImmutableSet
         import java.util.*;
@@ -179,14 +179,14 @@ java.lang.Object
 
         输出:
 
-        ```
+        ```java
         {1=Geeks, 2=For, 3=Geeks}
 
         ```
 
     *   **Creating an ImmutableMap from existing Map**
 
-        ```
+        ```java
         // Java code illustrating of() method to
         // create a ImmutableSet
         import java.util.*;
@@ -212,14 +212,14 @@ java.lang.Object
 
         输出:
 
-        ```
+        ```java
         {1=Geeks, 2=For, 3=Geeks}
 
         ```
 
     *   **Creating a new ImmutableMap including the existing Map**
 
-        ```
+        ```java
         // Java code illustrating of() method to
         // create a ImmutableSet
         import java.util.*;
@@ -247,7 +247,7 @@ java.lang.Object
 
         输出:
 
-        ```
+        ```java
         {1=Geeks, 2=For, 3=Geeks, 4=Computer, 5=Portal}
 
         ```
@@ -256,7 +256,7 @@ java.lang.Object
 
 如前所述，下面的程序将抛出**不支持操作异常**。
 
-```
+```java
 // Java code to show that UnsupportedOperationException
 // will be thrown when ImmutableMap is modified.
 import java.util.*;
@@ -277,7 +277,7 @@ class GfG {
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.UnsupportedOperationException
     at com.google.common.collect.ImmutableCollection.add(ImmutableCollection.java:218)
     at ImmutableListDemo.main(Main.java:16)
@@ -288,7 +288,7 @@ Exception in thread "main" java.lang.UnsupportedOperationException
 
 Collections.unmodifiableMap 在相同的现有地图周围创建一个包装，这样包装就不能用于修改它。然而，我们仍然可以改变原始地图。
 
-```
+```java
 // Java program to demonstrate that a Map created using
 // Collections.unmodifiableMap() can be modified indirectly.
 import java.io.*;
@@ -316,14 +316,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 {1=Geeks, 2=For, 3=Geeks, 4=Computer, 5=Portal}
 
 ```
 
 如果我们从现有地图创建不变地图并更改现有地图，则不变地图不会因为创建了副本而更改。
 
-```
+```java
 // Below is a Java program for
 // Creating an immutable Map using copyOf()
 // and modifying original Map.
@@ -353,7 +353,7 @@ class GFG {
 
 输出:
 
-```
+```java
 {1=Geeks, 2=For, 3=Geeks}
 
 ```

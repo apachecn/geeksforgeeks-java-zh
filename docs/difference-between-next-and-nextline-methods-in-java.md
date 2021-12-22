@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the next() method
 
@@ -33,7 +33,7 @@ class GFG {
 
 **输入:**
 
-```
+```java
 Geeks for  
 geeks
 
@@ -41,7 +41,7 @@ geeks
 
 **输出:**
 
-```
+```java
 Geeks
 
 ```
@@ -52,7 +52,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the nextLine() method
 
@@ -74,7 +74,7 @@ class GFG {
 
 **输入:**
 
-```
+```java
 Geeks for  
 geeks
 
@@ -82,7 +82,7 @@ geeks
 
 **输出:**
 
-```
+```java
 Geeks for 
 
 ```

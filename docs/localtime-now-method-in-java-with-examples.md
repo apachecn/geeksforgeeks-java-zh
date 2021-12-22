@@ -6,7 +6,7 @@ Java 中 **LocalTime** 类的 **now()** 方法用于从默认时区的系统时�
 
 **语法:**
 
-```
+```java
 public static LocalTime now()
 ```
 
@@ -18,7 +18,7 @@ public static LocalTime now()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now() method
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **Output:** It varies as the time passes.
 
-```
+```java
 Time: 20:43:41.453
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.now() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:** It varies as the time passes.
 
-```
+```java
 Time: 20:44:06.567
 
 ```

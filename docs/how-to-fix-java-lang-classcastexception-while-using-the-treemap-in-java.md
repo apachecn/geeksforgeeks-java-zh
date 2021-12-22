@@ -17,7 +17,7 @@ java . lang . class castexception 是 Java 中**未检查的异常**之一。当
 
 **伪代码:**
 
-```
+```java
 // Custom class Student implements comparable interface
 
 class Student implements Comparable<Student> {
@@ -50,7 +50,7 @@ class Student implements Comparable<Student> {
 
 T5】Java
 
-```
+```java
 // Java program to demonstrate how to fix
 // java.lang.ClassCastException while using the TreeMap
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 The Treemap : {Chetan : 300=3, Akshay : 500=1, Bhanu : 600=2}
 ```
 
@@ -112,7 +112,7 @@ The Treemap : {Chetan : 300=3, Akshay : 500=1, Bhanu : 600=2}
 
 **伪代码:**
 
-```
+```java
 // Custom comparator
 
 class MyComparator implements Comparator<Student> {
@@ -127,7 +127,7 @@ class MyComparator implements Comparator<Student> {
 
 T5】Java
 
-```
+```java
 // Java program to demonstrate how to fix
 // java.lang.ClassCastException while using the TreeMap
 
@@ -184,6 +184,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 The Treemap : {Chetan : 300=3, Akshay : 500=1, Bhanu : 600=2}
 ```

@@ -30,7 +30,7 @@
 该程序创建一条由名称 quad_curve 指示的四元曲线(控制点、起点和终点作为参数传递)。
 四曲线将在场景中创建，而场景又将托管在舞台中。函数 setTitle()用于为舞台提供标题。然后创建一个组，并附加四元曲线。这个小组附属于现场。最后，调用 show()方法显示最终结果。
 
-```
+```java
 // Java program to create a quad curve
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -82,7 +82,7 @@ public class quad_curve_0 extends Application {
  **Java 程序创建四元曲线并为四元曲线设置填充** 
 该程序创建由名称 quad_curve 指示的四元曲线(控制点、起点和终点使用 setControlX()、setControlY()、setStartX()、setStartY()、setEndX()、ans setEndY()函数设置)。四曲线将在场景中创建，而场景又将在舞台中托管。函数 setTitle()用于为舞台提供标题。然后创建一个组，并附加四元曲线。这个小组附属于现场。最后，调用 show()方法显示最终结果。函数 setFill()用于设置四元曲线的填充。
 
-```
+```java
 // Java program to create a quad curve
 // and set a fill for quad curve
 import javafx.application.Application;

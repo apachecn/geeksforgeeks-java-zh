@@ -5,7 +5,7 @@
 **addHandler()** 一个**日志记录器**类的方法，用于添加一个日志处理程序来接收日志消息。处理程序是 JVM 的一个组件，负责实际记录到定义的输出编写器，如文件、控制台输出等。一个或多个处理程序可以添加到记录器中。当使用记录器记录不同类型的消息时，日志将被转发到处理程序的输出。默认情况下，记录器将其输出发送给其父记录器。所以我们可以说父记录器是子记录器的一种处理程序。
 **语法:**
 
-```
+```java
 public void addHandler(Handler handler)
                 throws SecurityException
 ```
@@ -18,7 +18,7 @@ public void addHandler(Handler handler)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Logger.addHandler() method
 
@@ -61,7 +61,7 @@ log . txt 文件上打印的输出如下所示-
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Logger.addHandler() method
 

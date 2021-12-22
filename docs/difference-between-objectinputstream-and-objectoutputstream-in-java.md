@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program simply illustrating POJO / Model class
 
 // Importing input output class
@@ -95,7 +95,7 @@ public class VehicleSpecifications implements Serializable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Class 2
 // Java Program to Create Few VehicleSpecifcation and
 // Writing in a File

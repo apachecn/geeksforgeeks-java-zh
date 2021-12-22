@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : 10
 Output: A
 
@@ -27,7 +27,7 @@ Output: 9F1
 
 ## Java
 
-```
+```java
 // Java program to convert Decimal Number
 // to Hexadecimal Number
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 9F1
 ```
 

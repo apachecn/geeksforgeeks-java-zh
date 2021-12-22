@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Provider getProvider()
 ```
 
@@ -16,7 +16,7 @@ public final Provider getProvider()
 
 **示例 1:** 对于算法 *MD5*
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -53,14 +53,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Provider : SUN version 1.8
 
 ```
 
 **示例 2:** 对于算法 *SHA-256*
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -97,7 +97,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Provider : SUN version 1.8
 
 ```

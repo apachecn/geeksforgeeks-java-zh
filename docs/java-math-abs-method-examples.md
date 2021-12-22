@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public static DataType abs(DataType a)
 ```
 
@@ -33,7 +33,7 @@ public static DataType abs(DataType a)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Absolute Method
 // of Math Class
 
@@ -68,7 +68,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Without applying Math.abs() method : -7
 With applying Math.abs() method : 7
 ```
@@ -77,7 +77,7 @@ With applying Math.abs() method : 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of abs() method
 // of Math class inside java.lang package
 
@@ -134,7 +134,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 123.0
 34.2323
 Infinity

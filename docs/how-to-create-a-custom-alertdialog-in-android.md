@@ -10,7 +10,7 @@
 
 *   **步骤 1:** 创建一个 XML 文件: **custom_layout.xml** 。在 custom_layout.xml 中添加以下代码。该代码定义 alertdialog 框尺寸，并在其中添加一个 **edittext** 。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
       xmlns:android="http://schemas.android.com/apk/res/android"
@@ -29,7 +29,7 @@
 
 *   **第二步:**在 **activity_main.xml** 中增加一个按钮。单击该按钮将显示警报对话框。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -55,7 +55,7 @@
 
     在您想要在此显示自定义警报对话框的活动中添加 **custom_layout.xml** ，它是在 MainActivity.java 添加的。
 
-    ```
+    ```java
     public class MainActivity
         extends AppCompatActivity {
 

@@ -16,7 +16,7 @@
 
 ****语法:****
 
-```
+```java
 Vector.removeAll(Vector) 
 ```
 
@@ -24,7 +24,7 @@ Vector.removeAll(Vector)
 
 ****语法:****
 
-```
+```java
 Collections.sort(Vector)
 ```
 
@@ -32,7 +32,7 @@ Collections.sort(Vector)
 
 ******语法:******
 
-```
+```java
 **Vector.add(value)**
 ```
 
@@ -40,7 +40,7 @@ Collections.sort(Vector)
 
 ********语法:********
 
-```
+```java
 **Vector.get(element);**
 ```
 
@@ -59,7 +59,7 @@ Collections.sort(Vector)
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Sort the 2D array Across Rows
 
 // Importing required libraries
@@ -146,7 +146,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 Matrix without sorting 
 
 1 8 4 7 3 

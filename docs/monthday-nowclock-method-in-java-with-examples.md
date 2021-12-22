@@ -6,7 +6,7 @@ Java 中 **MonthDay** 类的 **now(Clock clock)** 方法用于从指定的时钟
 
 **语法:**
 
-```
+```java
 public static MonthDay now(Clock clock)
 ```
 
@@ -18,7 +18,7 @@ public static MonthDay now(Clock clock)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.now(Clock clock) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MonthDay: --05-09
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.now(Clock clock) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Month: MAY
 
 ```

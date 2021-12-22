@@ -6,13 +6,13 @@
 
 **方法声明:**
 
-```
+```java
 public <X> KeyValue<X, B> setKey(X key)
 ```
 
 **语法:**
 
-```
+```java
 KeyValue<X, B> KeyValueClassObject = KeyValue.setKey(X key)
 ```
 
@@ -22,7 +22,7 @@ KeyValue<X, B> KeyValueClassObject = KeyValue.setKey(X key)
 
 **例 1** :
 
-```
+```java
 // Below is a Java program to set
 // key in a KeyValue pair
 
@@ -48,14 +48,14 @@ class GfG {
 
 **输出**:
 
-```
+```java
 [GeeksforGeeks, A computer science portal]
 
 ```
 
 **例 2** :
 
-```
+```java
 // Below is a Java program to set
 // key in a KeyValue pair
 
@@ -81,7 +81,7 @@ class GfG {
 
 **输出**:
 
-```
+```java
 [One, 1]
 
 ```

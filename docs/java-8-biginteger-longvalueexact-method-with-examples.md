@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long longValueExact()
 ```
 
@@ -16,7 +16,7 @@ public long longValueExact()
 
 **例:**
 
-```
+```java
 Input: 98169894145
 Output: 98169894145
 Explanation: 98169894145 is given as input which is BigInteger
@@ -39,7 +39,7 @@ therefore it throws an arithmetic exception.
 
 **程序一:**演示正数<的 longValueExact()方法 9，223，372，036，854，775，807
 
-```
+```java
 // Java program to demonstrate longValueExact()
 // method of BigInteger Class
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : 98169894145
 long converted value : 98169894145
 
@@ -77,7 +77,7 @@ long converted value : 98169894145
 
 **程序二:**演示负数>的 longValueExact()方法-9，223，372，036，854，775，808
 
-```
+```java
 // Java program to demonstrate longValueExact()
 // method of BigInteger Class
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : -65416518651
 long converted value : -65416518651
 
@@ -115,7 +115,7 @@ long converted value : -65416518651
 
 **程序 3:** 演示负数<的 longValueExact()方法-9，223，372，036，854，775，808。它会抛出算术异常
 
-```
+```java
 // Java program to demonstrate longValueExact()
 // method of BigInteger Class
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : -10000000000000000000
 Exception: java.lang.ArithmeticException: BigInteger out of long range
 
@@ -158,7 +158,7 @@ Exception: java.lang.ArithmeticException: BigInteger out of long range
 
 **程序 4:** 演示正数>的 longValueExact()方法 9，223，372，036，854，775，807。它会抛出算术异常
 
-```
+```java
 // Java program to demonstrate longValueExact()
 // method of BigInteger Class
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 BigInteger value : 10000000000000000000
 Exception: java.lang.ArithmeticException: BigInteger out of long range
 

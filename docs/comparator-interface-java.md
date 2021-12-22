@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compare(Object obj1, Object obj2):
 ```
 
@@ -18,7 +18,7 @@ public int compare(Object obj1, Object obj2):
 
 用于对列表元素进行排序的 Collections 类的方法用于根据给定的比较器对列表元素进行排序。
 
-```
+```java
 public void sort(List list, ComparatorClass c)
 ```
 
@@ -32,7 +32,7 @@ public void sort(List list, ComparatorClass c)
 
 ## Java
 
-```
+```java
 // Java Program to Demonstrate Working of
 // Comparator Interface
 
@@ -146,7 +146,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Unsorted
 111 Mayank london
 131 Anshul nyc
@@ -176,7 +176,7 @@ Sorted by name
 
 ## Java
 
-```
+```java
 // Java Program to Demonstrate Working of
 // Comparator Interface Via More than One Field
 
@@ -306,7 +306,7 @@ class Student {
 
 **输出**
 
-```
+```java
 Before Sorting:
 
 Customer{Name=Ajay, Age=27}

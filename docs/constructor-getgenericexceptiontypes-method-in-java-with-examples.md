@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Type[] getGenericExceptionTypes()
 
 ```
@@ -24,7 +24,7 @@ public Type[] getGenericExceptionTypes()
 下面的程序说明了 getGenericExceptionTypes()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getGenericExceptionTypes() method
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GenericExceptions : 
 class java.io.IOException
 class java.lang.ArithmeticException
@@ -78,7 +78,7 @@ class java.lang.ClassCastException
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getGenericExceptionTypes() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 No of Generic Exception thrown : 0
 
 ```

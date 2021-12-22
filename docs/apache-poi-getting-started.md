@@ -36,7 +36,7 @@ Apache POI 有不同的类和方法来处理不同的微软办公文档。
     如果项目是 MAVEN，那么在项目的 pom.xml 文件中添加依赖项。
     要添加的依赖关系如下所示:
 
-    ```
+    ```java
     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
     <dependency>
           <groupId>org.apache.poi</groupId>

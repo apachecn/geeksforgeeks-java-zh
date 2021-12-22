@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static  Map 
 checkedMap(Map m, Class keyType, Class valueType)
 ```
@@ -29,7 +29,7 @@ checkedMap(Map m, Class keyType, Class valueType)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate checkedMap() method
 // of Collections class
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Map: 
 {Karn=Veer, Karan=Arjun, duryodhan=dhrupat, Ram=Shyam}
 Typesafe view of Map: 
@@ -99,7 +99,7 @@ Typesafe view of Map:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate checkedMap() method
 // of Collections class
 
@@ -155,7 +155,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Map: 
 {Player-1=20, Player-3=40, Player-2=30}
 Typesafe view of Map: 

@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```java
 import java.util.Vector;
 
 class Producer extends Thread {
@@ -105,7 +105,7 @@ class Consumer extends Thread {
 
 **输出:**
 
-```
+```java
 Got message: Thu May 09 06:57:53 UTC 2019
 Got message: Thu May 09 06:57:54 UTC 2019
 Got message: Thu May 09 06:57:55 UTC 2019

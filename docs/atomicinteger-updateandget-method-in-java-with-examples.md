@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int updateAndGet(IntUnaryOperator function)
 
 ```
@@ -20,7 +20,7 @@ public final int updateAndGet(IntUnaryOperator function)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the above function
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -48,7 +48,7 @@ public class Demo {
 
 **Output:**
 
-```
+```java
 Initial Value is 10
 Updated value is -10
 

@@ -8,7 +8,7 @@
 
 *   **无效写入(字节[] buf) :** 写入字节数组。该方法将一直阻塞，直到实际写入字节。
 
-    ```
+    ```java
     Syntax :public void write(byte[] buf)
                throws IOException
     Parameters:
@@ -20,7 +20,7 @@
 
 *   **无效写入(字节[] buf，int off，int len) :** 写入字节子数组。
 
-    ```
+    ```java
     Syntax :public void write(byte[] buf,
              int off,
              int len)
@@ -34,7 +34,7 @@
 
 *   **无效写入(int val) :** 写入一个字节。该方法将一直阻塞，直到实际写入字节。
 
-    ```
+    ```java
     Syntax :public void write(int val)
                throws IOException
     Parameters:
@@ -45,7 +45,7 @@
 
 *   **void write 布尔值(布尔值):**写一个布尔值。
 
-    ```
+    ```java
     Syntax :public void writeBoolean(boolean val)
                       throws IOException
     Parameters:
@@ -56,7 +56,7 @@
 
 *   **无效写字节(int val) :** 写一个 8 位字节。
 
-    ```
+    ```java
     Syntax :public void writeByte(int val)
                    throws IOException
     Parameters:
@@ -67,7 +67,7 @@
 
 *   **void writeBytes(字符串):**将字符串作为字节序列写入。
 
-    ```
+    ```java
     Syntax :public void writeBytes(String str)
                     throws IOException
     Parameters:
@@ -78,7 +78,7 @@
 
 *   **void writeChar(int val) :** 写入 16 位字符。
 
-    ```
+    ```java
     Syntax :public void writeChar(int val)
                    throws IOException
     Parameters:
@@ -89,7 +89,7 @@
 
 *   **void writeChars(字符串):**将字符串写成字符序列。
 
-    ```
+    ```java
     Syntax :public void writeChars(String str)
                     throws IOException
     Parameters: str - the String of chars to be written
@@ -99,7 +99,7 @@
 
 *   **受保护的 void writeclass descriptor(objectstream class desc):**将指定的类描述符写入 ObjectOutputStream。类描述符用于标识写入流的对象的类。ObjectOutputStream 的子类可以重写此方法，以自定义将类描述符写入序列化流的方式。然后，ObjectInputStream 中的相应方法 readClassDescriptor 应该被重写，以便从其自定义流表示形式中重构类描述符。默认情况下，此方法根据对象序列化规范中定义的格式编写类描述符。
 
-    ```
+    ```java
     Syntax :protected void writeClassDescriptor(ObjectStreamClass desc)
                                  throws IOException
     Parameters:
@@ -110,7 +110,7 @@
 
 *   **void write double(double val):**写入 64 位双精度值。
 
-    ```
+    ```java
     Syntax :public void writeDouble(double val)
                      throws IOException
     Parameters:
@@ -121,7 +121,7 @@
 
 *   **void writeFields() :** 将缓冲的字段写入流。
 
-    ```
+    ```java
     Syntax :public void writeFields()
                      throws IOException
     Throws:
@@ -131,7 +131,7 @@
 
 *   **void write float(float val):**写入 32 位浮点。
 
-    ```
+    ```java
     Syntax :public void writeFloat(float val)
                     throws IOException
     Parameters:
@@ -142,7 +142,7 @@
 
 *   **void writeInt(Int val) :** 写一个 32 位的 int。
 
-    ```
+    ```java
     Syntax :public void writeInt(int val)
                   throws IOException
     Parameters:
@@ -153,7 +153,7 @@
 
 *   **空写长(长值):**写 64 位长。
 
-    ```
+    ```java
     Syntax :public void writeLong(long val)
                    throws IOException
     Parameters:
@@ -164,7 +164,7 @@
 
 *   **void writeObject(对象对象):**将指定的对象写入 ObjectOutputStream。对象的类、类的签名以及类及其所有超类型的非瞬态和非静态字段的值都被写入。可以使用 writeObject 和 readObject 方法重写类的默认序列化。该对象引用的对象是通过传递方式编写的，因此 ObjectInputStream 可以重构一个完整的对象等价图。
 
-    ```
+    ```java
     Syntax :public final void writeObject(Object obj)
                            throws IOException
     Parameters: obj - the object to be written
@@ -176,7 +176,7 @@
 
 *   **受保护的 void writeObjectOverride(对象对象):**子类用来覆盖默认 writeObject 方法的方法。此方法由 ObjectInputStream 的受信任子类调用，这些子类使用受保护的 no-arg 构造函数构造了 ObjectInputStream。子类需要提供一个带有修饰符“final”的覆盖方法。
 
-    ```
+    ```java
     Syntax :protected void writeObjectOverride(Object obj)
                                 throws IOException
     Parameters:
@@ -187,7 +187,7 @@
 
 *   **void writeShort(int val) :** 写 16 位短。
 
-    ```
+    ```java
     Syntax :public void writeShort(int val)
                     throws IOException
     Parameters:
@@ -198,7 +198,7 @@
 
 *   **受保护的 void writeStreamHeader() :** 提供了 writeStreamHeader 方法，因此子类可以在流中添加或预先添加自己的头。它将幻数和版本写入流。
 
-    ```
+    ```java
     Syntax :protected void writeStreamHeader()
                               throws IOException
     Throws:
@@ -212,7 +212,7 @@
     虽然通过 writeUnshared 写入对象本身并不能保证在反序列化对象时对该对象的唯一引用，但它允许在流中多次定义单个对象，因此接收器对 readUnshared 的多次调用不会发生冲突。请注意，上述规则仅适用于用 writeUnshared 编写的基级对象，而不适用于要序列化的对象图中的任何传递引用的子对象。
     覆盖此方法的 ObjectOutputStream 子类只能在拥有“enablesubclass implementation”serializable permission 的安全上下文中构造；任何在没有这个权限的情况下实例化这样一个子类的尝试都会导致抛出一个 SecurityException。
 
-    ```
+    ```java
     Syntax :public void writeUnshared(Object obj)
                        throws IOException
     Parameters:
@@ -224,7 +224,7 @@
 
 *   **void writeUTF(字符串):**以修改后的 UTF-8 格式写入该字符串的原始数据。请注意，将字符串作为原始数据或对象写入流中有很大的区别。writeObject 编写的字符串实例最初作为字符串写入流中。Future writeObject()调用将对字符串的引用写入流中。
 
-    ```
+    ```java
     Syntax :public void writeUTF(String str)
                   throws IOException
     Parameters:
@@ -235,7 +235,7 @@
 
 *   **虚空冲():**冲溪。这将写入任何缓冲的输出字节，并刷新到基础流。
 
-    ```
+    ```java
     Syntax :public void flush()
                throws IOException
     Throws:
@@ -244,7 +244,7 @@
 
 **程序:**
 
-```
+```java
 //Java program demonstrating ObjectOutputStream
 //write methods
 import java.io.*;
@@ -347,7 +347,7 @@ class ObjectOutputStreamDemo
 
 **输出:**
 
-```
+```java
 1
 1
 true
@@ -365,7 +365,7 @@ ABC
 
 **程序 2:**
 
-```
+```java
 //Java program illustrating ObjectOutputStream
 //write methods
 import java.io.*;
@@ -433,7 +433,7 @@ class demo implements Serializable
 
 **输出:**
 
-```
+```java
 25
 14
 ```

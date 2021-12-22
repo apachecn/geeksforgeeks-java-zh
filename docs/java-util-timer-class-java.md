@@ -17,7 +17,7 @@ Timer 类提供了一个方法调用，线程使用该方法调用来调度任�
 
 **申报:**
 
-```
+```java
 public class Timer
  extends Object
 ```
@@ -39,14 +39,14 @@ public class Timer
 *   **cancel():Java . util . timer . cancel()**终止此计时器，丢弃任何当前计划的任务。不干扰当前正在执行的任务(如果存在)。一旦定时器被终止，它的执行线程就优雅地终止，并且不能在其上调度更多的任务
     **语法:**
 
-```
+```java
 public void cancel()
 ```
 
 *   **purge():Java . util . timer . purge()**从此计时器的任务队列中移除所有已取消的任务
     **语法:**
 
-```
+```java
 public int purge()
 Returns:
 the number of tasks removed from the queue
@@ -55,7 +55,7 @@ the number of tasks removed from the queue
 *   **调度(TimerTask 任务，日期时间):Java . util . timer . schedule(time rtask 任务，日期时间)**调度指定任务在指定时间执行
     T3】语法:
 
-```
+```java
 public void schedule(TimerTask task, Date time)
 Parameters:
 task - task to be scheduled.
@@ -70,7 +70,7 @@ NullPointerException - if task or time is null
 *   **调度(TimerTask 任务，Date firstTime，long period):Java . util . timer . schedule(time rtask 任务，Date firstTime，long period)** 调度指定任务重复固定延迟执行，从指定时间开始
     T3】语法:
 
-```
+```java
 public void schedule(TimerTask task, Date firstTime, long period)
 Parameters:
 task - task to be scheduled.
@@ -87,7 +87,7 @@ NullPointerException - if task or firstTime is null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 //schedule method calls of Timer class
 
@@ -119,7 +119,7 @@ public class Test
 
 输出:
 
-```
+```java
 Timer ran 1
 Timer ran 2
 Timer ran 3
@@ -133,7 +133,7 @@ Timer ran 5
 *   **调度(TimerTask 任务，长延迟):Java . util . timer . schedule(TimerTask 任务，长延迟)**调度指定任务在指定延迟后执行
     T3】语法:
 
-```
+```java
 public void schedule(TimerTask task, long delay)
 Parameters:
 task - task to be scheduled.
@@ -149,7 +149,7 @@ NullPointerException - if task is null
 
 *   **调度(TimerTask 任务，长延迟，长周期):Java . util . timer . schedule(time rtask 任务，长延迟，长周期)**调度指定任务重复固定延迟执行，在指定延迟后开始**语法:**
 
-```
+```java
 public void schedule(TimerTask task, long delay, long period)
 Parameters:
 task - task to be scheduled.
@@ -167,7 +167,7 @@ NullPointerException - if task is null
 
 *   **scheduleatfixed rate(time rtask 任务，日期优先时间，长周期):Java . util . timer . scheduleatfixed rate(time rtask 任务，日期优先时间，长周期)**从指定的时间开始，调度指定的任务进行重复的固定速率执行**语法:**
 
-```
+```java
 public void scheduleAtFixedRate(TimerTask task, Date firstTime, long period)
 Parameters:
 task - task to be scheduled.
@@ -184,7 +184,7 @@ NullPointerException - if task or firstTime is null
 
 *   **scheduleatfixed rate(time rtask 任务，长延迟，长周期):Java . util . timer . scheduleatfixed rate(time rtask 任务，长延迟，长周期)**调度指定任务以重复固定速率执行，在指定延迟后开始**语法:**
 
-```
+```java
 public void scheduleAtFixedRate(TimerTask task, long delay, long period)
 Parameters:
 task - task to be scheduled.
@@ -202,7 +202,7 @@ NullPointerException - if task is null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // scheduleAtFixedRate method of Timer class
 
@@ -264,7 +264,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 Timer running
 Timer ran 1
 Timer ran 2

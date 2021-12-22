@@ -10,7 +10,7 @@
 
 ## **unsyncchatserver . java**
 
-```
+```java
 import java.net.*;
 import java.io.*;
 import java.util.*;
@@ -130,7 +130,7 @@ public class UnSyncChatServer {
 
 ## **unsyncchatclient . java**
 
-```
+```java
 import java.io.*;
 import java.net.*;
 import java.util.Scanner;
@@ -252,7 +252,7 @@ public class UnSyncChatClient {
 
 ****输出:窗口 1**(UnSyncChatServer.java)**
 
-```
+```java
 Running UnSyncChatServer.java
 Server is Up....
 Client (5334): hey
@@ -276,7 +276,7 @@ Server exiting...
 
 ****输出:窗口 2**(UnSyncChatClient.java)**
 
-```
+```java
 Running UnSyncChatClient.java
 Client is Up....
 hey

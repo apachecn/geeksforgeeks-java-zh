@@ -27,7 +27,7 @@
 
         ## 
 
-        ```
+        ```java
         <?xml version="1.0" encoding="utf-8"?>
         <resources>
             <color name="colorPrimary">#42C14B</color>
@@ -44,7 +44,7 @@
 
         ## build . gradle(:app)
 
-        ```
+        ```java
         // Volley library
         implementation 'com.android.volley:volley:1.1.1'
         ```
@@ -53,7 +53,7 @@
 
         ## 
 
-        ```
+        ```java
         <!--Allow Internet Permission-->
         <uses-permission android:name="android.permission.INTERNET" />
         ```
@@ -63,7 +63,7 @@
 
         ## activity _ main . XML
 
-        ```
+        ```java
         <?xml version="1.0" encoding="utf-8"?>
         <ScrollView
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -309,7 +309,7 @@
     *   在`fetchdata()`方法中，最重要的任务是如何从第三方应用编程接口获取数据并在我们的应用程序中实现它。我的要求是请通读安卓的[凌空库和](https://www.geeksforgeeks.org/volley-library-in-android/) [REST API(简介)](https://www.geeksforgeeks.org/rest-api-introduction/)两篇文章，了解以下概念。
     *   使用[截击库](https://www.geeksforgeeks.org/volley-library-in-android/)创建字符串请求，并用**https://corona.lmao.ninja/v2/all**链接分配“网址”。
 
-        ```
+        ```java
         // Create a String request using Volley Library
 
         String url = "https:// corona.lmao.ninja/v2/all";
@@ -344,7 +344,7 @@
 
     *   所以接下来你要做的是，在`onResponse()`方法内部创建[“JSONObject”类](https://www.geeksforgeeks.org/parse-json-java/)的对象，然后在文本视图中设置数据，这些数据在“JSON object”的帮助下以 JSON 格式提供。确保你必须在一个“尝试”区内做这些事情。**记住`getString()`内的参数必须与 JSON 格式给出的名称匹配。**
 
-        ```
+        ```java
         // Handle the JSON object and handle it inside try and catch
 
         try {
@@ -382,7 +382,7 @@
 
     *   在`onErrorResponse()`方法中，如果出现任何错误，您必须显示[祝酒信息](https://www.geeksforgeeks.org/android-what-is-toast-and-how-to-use-it-with-examples/)。
 
-        ```
+        ```java
         Toast.makeText(MainActivity.this, 
                        error.getMessage(), 
                        Toast.LENGTH_SHORT)
@@ -396,7 +396,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.example.covid_19tracker;
 
     import androidx.appcompat.app.AppCompatActivity;

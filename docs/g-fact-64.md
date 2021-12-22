@@ -13,7 +13,7 @@ Java 不支持 goto，它被保留为一个关键字，以防他们想将其添�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // using label  and break
 // instead of goto
@@ -38,7 +38,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 value of j = 0
 ```
 
@@ -48,7 +48,7 @@ value of j = 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // using label  and continue
 // instead of goto
@@ -73,7 +73,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 value of j = 0
  value of j = 0
  value of j = 0
@@ -90,7 +90,7 @@ value of j = 0
 Java 没有 goto 语句，因为它提供了一种以任意和非结构化方式进行分支的方法。这通常会使 goto-rided 代码难以理解和维护。它还禁止某些编译器优化。然而，在一些地方，goto 对于流控制来说是一个有价值且合法的构造。例如，当您退出一组深度嵌套的循环时，goto 会很有用。为了处理这种情况，Java 定义了 break 语句的扩展形式。
 标记中断语句的一般形式是:
 
-```
+```java
 break label;
 ```
 
@@ -98,7 +98,7 @@ break label;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code
 public class Label_Break1 {
 
@@ -124,7 +124,7 @@ public class Label_Break1 {
 
 **Output:** 
 
-```
+```java
 Before the break
 This is after the second block
 ```
@@ -133,7 +133,7 @@ This is after the second block
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code
 public class Label_Break2 {
 
@@ -160,7 +160,7 @@ public class Label_Break2 {
 
 **Output:** 
 
-```
+```java
 Pass 0: 0 1 2 3 4 5 6 7 8 9 Loops Complete.
 ```
 

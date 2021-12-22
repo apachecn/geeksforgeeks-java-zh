@@ -4,7 +4,7 @@
 
 给定两个链表，你的任务是完成函数 make union()，返回两个链表的并集。这个联合应该只包括所有不同的元素。形成的新列表应该按非递减顺序排列。
 
-```
+```java
 Input: L1 = 9->6->4->2->3->8
        L2 = 1->2->8->6->2
 Output: 1 2 3 4 6 8 9
@@ -62,7 +62,7 @@ Output: 1 2 3 4 6 8 9
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // JAva Program toIllustrate Union of Two Linked Lists
 // Using Priority Queue
 
@@ -236,7 +236,7 @@ class Union {
 
 **Output**
 
-```
+```java
 1 2 3 4 6 8 9 
 ```
 

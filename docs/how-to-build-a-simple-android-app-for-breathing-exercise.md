@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimaryLight">#5db839</color>
@@ -42,7 +42,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 apply plugin: 'com.android.application'
 
 android {
@@ -85,7 +85,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -103,7 +103,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -161,7 +161,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -174,7 +174,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <shape 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -198,7 +198,7 @@ dependencies {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.constraint.ConstraintLayout;
@@ -371,7 +371,7 @@ public class MainActivity extends AppCompatActivity implements SettingsDialog.Se
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class SettingsUtils {
 
     public static int getBackgroundByPresetPosition(int position) {

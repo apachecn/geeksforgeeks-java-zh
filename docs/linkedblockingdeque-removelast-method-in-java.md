@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E removeLast()
 ```
 
@@ -20,7 +20,7 @@ public E removeLast()
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrate removeLast()
 // method of LinkedBlockingDeque
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Linked Blocking Deque: 74381793
 Linked Blocking Deque: [7855642, 35658786, 5278367]
@@ -66,7 +66,7 @@ Linked Blocking Deque: [7855642, 35658786, 5278367]
 
 **节目 2:**
 
-```
+```java
 // Java Program to demonstrate removeLast()
 // method of LinkedBlockingDeque
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.util.NoSuchElementException
     at java.util.concurrent.LinkedBlockingDeque.removeLast(LinkedBlockingDeque.java:462)
     at GFG.main(GFG.java:29)

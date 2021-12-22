@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input: 22.098 // Double Data
 Output: 22.098 // String Data
 
@@ -27,7 +27,7 @@ Output: 123.456 // String Data
 
 **示例:**
 
-```
+```java
 int a = 10, int b = 20;
 String s1 = String.valueOf(a);
 String s2 = String.valueOf(b);
@@ -37,13 +37,13 @@ System.out.println(s1+s2);      || Output: 1020     || Concatenation of s1 & s2
 
 **参数**可以保持:
 
-```
+```java
 object, float, char, double, int, float, long, char[]
 ```
 
 **返回类型:**
 
-```
+```java
 Always String
 ```
 
@@ -51,7 +51,7 @@ Always String
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert double data to a string data
 
 // Importing Libraries
@@ -77,7 +77,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 123.456
 ```
 
@@ -91,7 +91,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert double data to a string data
 
 // Importing Libraries
@@ -117,6 +117,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 123.456
 ```

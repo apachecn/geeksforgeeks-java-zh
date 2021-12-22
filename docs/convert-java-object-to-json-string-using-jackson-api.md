@@ -15,7 +15,7 @@
 
 ## 超文本标记语言
 
-```
+```java
 <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.Geeks;
 
 public class Organisation {
@@ -93,7 +93,7 @@ public class Organisation {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.Geeks;
 
 import java.io.IOException;
@@ -144,7 +144,7 @@ public class ObjectToJson {
 *   **执行流程。**
 *   **JSON 中的输出如下:**
 
-```
+```java
 Output
 {
   "organisation_name" : "GeeksforGeeks",

@@ -12,7 +12,7 @@
 
 2.示例:
 
-```
+```java
 // length can be used for int[], double[], String[] 
 // to know the length of the arrays.
 
@@ -26,7 +26,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // concept of length
 // and length()
@@ -48,7 +48,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 The size of the array is 4
 The size of the String is 13
 ```
@@ -61,7 +61,7 @@ The size of the String is 13
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 public class Test {
     public static void main(String[] args)
     {
@@ -74,7 +74,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 3
 ```
 
@@ -84,7 +84,7 @@ public class Test {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 public class Test {
     public static void main(String[] args)
     {
@@ -97,7 +97,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 error: cannot find symbol
 symbol: method length()
 location: variable str of type String[]
@@ -109,7 +109,7 @@ location: variable str of type String[]
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 public class Test {
     public static void main(String[] args)
     {
@@ -122,7 +122,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 5
 ```
 

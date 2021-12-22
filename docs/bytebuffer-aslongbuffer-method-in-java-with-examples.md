@@ -7,7 +7,7 @@
 新缓冲区的位置将为零，其容量和限制将是该缓冲区中剩余的字节数除以 8，其标记将是未定义的。如果且仅当该缓冲区是直接的，则新缓冲区将是直接的；如果且仅当该缓冲区是只读的，则新缓冲区将是只读的。
 **语法:**
 
-```
+```java
 public abstract LongBuffer asLongBuffer()
 ```
 
@@ -17,7 +17,7 @@ public abstract LongBuffer asLongBuffer()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asLongBuffer() method
 // for ByteBuffer
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LongBuffer : 1000000  2000000  3000000  3000000
 ```
 
@@ -83,7 +83,7 @@ LongBuffer : 1000000  2000000  3000000  3000000
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asLongBuffer() method
 // for ByteBuffer
@@ -156,7 +156,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 LongBuffer : 1000000  2000000  3000000  
 
 Trying to put the value in read only LongBuffer

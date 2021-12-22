@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setCurrency(Currency currency)
 
 ```
@@ -19,7 +19,7 @@ public void setCurrency(Currency currency)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -49,7 +49,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current currency: USD
 Updated currency: INR
 

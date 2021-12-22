@@ -23,7 +23,7 @@
 
 > **注意:**确保安装设置 [**MongoDB JDBC 驱动**](http://mongodb.github.io/mongo-java-driver/4.0/driver/getting-started/installation/) 和 [Java](https://www.geeksforgeeks.org/java-tutorials/) 。
 
-```
+```java
 Table of contents:
 1\. Establishing connections to database
 2\. Creating a MongoDb collection
@@ -49,7 +49,7 @@ Table of contents:
 
 以下代码建立了与 MongoDB 的连接-->
 
-```
+```java
 // Java program for establishing connections
 // to MongoDb
 
@@ -94,7 +94,7 @@ public class ConnectionDB {
 
 创建集合**使用 com . MongoDB . client . mongodatabase 类**和 **createCollection()方法**。这里，“database.createCollection()”创建一个名为“GFGCollection”的集合。以下是创建集合的代码:
 
-```
+```java
 // Java program to create a MongoDb collection
 
 import com.mongodb.client.MongoDatabase;
@@ -136,7 +136,7 @@ public class Collection {
 
 获取集合时，使用**MongoCollection . GetCollection()**方法。下面是该方法的实现:
 
-```
+```java
 // Java program to retrieve a MongoDb collection
 
 import com.mongodb.client.MongoDatabase;
@@ -180,7 +180,7 @@ public class Collection {
 
 下面是该方法的实现:
 
-```
+```java
 // Java program to insert values into MongoDB
 
 import com.mongodb.client.MongoDatabase;
@@ -267,7 +267,7 @@ public class Collection {
 
 以下是显示所有文档的代码:
 
-```
+```java
 // Java code to display documents from DB
 
 import com.mongodb.client.MongoDatabase;
@@ -316,7 +316,7 @@ public class Collection {
 
 下面是它的代码:
 
-```
+```java
 // Java code to update the documents in DB
 
 import com.mongodb.client.MongoDatabase;
@@ -362,7 +362,7 @@ public class Collection {
 
 删除文档时，使用 **deleteOne()** 方法。以下是删除文件的代码- >
 
-```
+```java
 // Java code to update the documents in DB
 
 import com.mongodb.client.MongoDatabase;
@@ -407,7 +407,7 @@ public class Collection {
 
 “Collection.drop()”用于删除创建的集合。下面是删除集合的代码:
 
-```
+```java
 // Java code to drop a collection in MongoDb
 
 import com.mongodb.client.MongoDatabase;
@@ -453,7 +453,7 @@ public class Collection {
 在这里，我们在“for()”语句的帮助下迭代创建的所有集合。Database.listCollectionNames()用于显示数据库中存在的所有集合的列表。
 以下是显示所有集合的代码:
 
-```
+```java
 // Java code to display all collections
 
 import com.mongodb.client.MongoDatabase;

@@ -12,7 +12,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static Logger getAnonymousLogger()
 
     ```
@@ -24,7 +24,7 @@
     下面的程序说明了 getAnonymousLogger(Java . lang . string)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.getAnonymousLogger() method
 
@@ -51,7 +51,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate Exception thrown by
     // Logger.getAnonymousLogger(java.lang.String) method
 
@@ -85,7 +85,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static Logger getAnonymousLogger(String resourceBundleName)
 
     ```
@@ -100,7 +100,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getAnonymousLogger(String resourceBundleName) method
 

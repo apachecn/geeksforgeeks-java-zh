@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double sin(double a) ;
 ```
 
@@ -22,7 +22,7 @@ public static double sin(double a) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.sin() method
 import java.lang.Math;
@@ -65,7 +65,7 @@ class Gfg {
 
 **Output:** 
 
-```
+```java
 0.49999999999999994
 0.7071067811865475
 0.8660254037844386
@@ -76,7 +76,7 @@ class Gfg {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Math.cos() method
 // of java.lang package considering infinity case
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 NaN
 NaN
 NaN

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long numberOfTrailingZeros(long num)
 Parameters:
 num - the number passed 
@@ -17,7 +17,7 @@ the number of trailing zeros after the lowest-order set bit
 
 示例:
 
-```
+```java
 Input :  8
 Output : 3 
 Explanation: Binary representation of 8 is 1000 
@@ -33,7 +33,7 @@ Output : 0
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates the
 // Long.numberOfTrailingZeros() function
 
@@ -62,7 +62,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Number of trailing zeros = 3
 Number of trailing zeros = 0
 
@@ -70,7 +70,7 @@ Number of trailing zeros = 0
 
 **程序 2:** 下面的程序演示了传递负数时函数的使用。
 
-```
+```java
 // Java program that demonstrates the
 // Long.numberOfTrailingZeros() function
 // negative number
@@ -94,7 +94,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Number of trailing zeros = 2
 
 ```
@@ -102,7 +102,7 @@ Number of trailing zeros = 2
 当十进制字符串值作为参数传递时，它会返回一条错误消息。
 **程序 3:** 当一个十进制值在参数中传递时。
 
-```
+```java
 // Java program that demonstrates the
 // Long.numberOfTrailingZeros() function
 // decimal value as an argument
@@ -125,7 +125,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:16: error: incompatible types: possible lossy conversion from double to long
       System.out.println("Number of trailing zeros = "+Long.numberOfTrailingZeros(12.34));
 
@@ -133,7 +133,7 @@ prog.java:16: error: incompatible types: possible lossy conversion from double t
 
 **程序 4:** 当一个字符串值在参数中传递时。
 
-```
+```java
 // java program that demonstrates the
 // Long.numberOfTrailingZeros() function
 // string value as an argument
@@ -156,7 +156,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:15: error: incompatible types: String cannot be converted to long
       System.out.println("Number of trailing zeros = "+Long.numberOfTrailingZeros("100"));
 

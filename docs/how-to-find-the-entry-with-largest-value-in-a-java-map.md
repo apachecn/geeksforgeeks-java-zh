@@ -6,12 +6,12 @@
 
 插图:
 
-```
+```java
 Input  : Map = {ABC = 10, DEF = 30, XYZ = 20}
 Output : DEF = 30
 ```
 
-```
+```java
 Input  : Map = {1 = 40, 2 = 30, 3 = 60}
 Output : 3 = 60
 ```
@@ -35,7 +35,7 @@ Output : 3 = 60
 5.  最后，引用变量具有映射中最高值的必需条目。
 6.  打印此条目
 
-```
+```java
 for (Map.Entry entry : map.entrySet()) 
 { // Operations }
 ```
@@ -44,7 +44,7 @@ for (Map.Entry entry : map.entrySet())
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Find Entry
 // with the Highest Value in Map
 // Using Comparators in Map interface
@@ -137,7 +137,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Map: {ABC=10, DEF=30, XYZ=20}
 Entry with highest value: DEF=30
 ```
@@ -148,7 +148,7 @@ Entry with highest value: DEF=30
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find Entry with largest Value in Map
 // Using max() method from Collections class
 
@@ -197,7 +197,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 3
 ```
 
@@ -205,7 +205,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find Entry with largest Value in Map
 // Using concept of Streams
 import java.util.stream.*;
@@ -251,6 +251,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 C
 ```

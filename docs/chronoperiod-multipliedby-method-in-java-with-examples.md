@@ -6,7 +6,7 @@ Java 中**计时周期接口**的**乘法 By()** 方法，用于在给定周期�
 
 **语法:**
 
-```
+```java
 public ChronoPeriod multipliedBy(int toMultiply)
 ```
 
@@ -19,7 +19,7 @@ public ChronoPeriod multipliedBy(int toMultiply)
 以下是上述方法的实现:
 **程序一**:
 
-```
+```java
 // Java code to show the function multipliedBy()
 // to multiply the given number to given period
 
@@ -53,14 +53,14 @@ public class ChronoPeriodClass {
 
 **Output:**
 
-```
+```java
 P8Y22M20D
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Java code to show the function multipliedBy()
 // to multiply the given number to given period
 
@@ -94,7 +94,7 @@ public class ChronoPeriodClass {
 
 **Output:**
 
-```
+```java
 P-8Y-22M-20D
 
 ```

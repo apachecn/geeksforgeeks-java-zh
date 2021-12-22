@@ -8,7 +8,7 @@
 
 **(A) Packages:** 在 java 的 RoleUnresolvedList API 程序中，为了检索程序中使用的对象的含义和用途，使用了各种 Packages。下图显示了程序中导入的包:
 
-```
+```java
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
@@ -38,7 +38,7 @@ import javax.management.relation.RoleUnresolvedList;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement RoleUnresolvedList API
 
 // Packages are imported whose methods
@@ -241,7 +241,7 @@ public class GFG
 
 **Output**
 
-```
+```java
 role name: rolename1; value: domain1:key1=value1, domain2:key2=value2; problem type: 1    
 role name: rolename2; value: domain3:key3=value3, domain4:key4=value4; problem type: 2
 ```

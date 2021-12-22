@@ -40,7 +40,7 @@
 
 ## **可扩展标记语言**
 
-```
+```java
 <vector android:height="166.1017dp" android:viewportHeight="392"
     android:viewportWidth="472" android:width="200dp" xmlns:android="http://schemas.android.com/apk/res/android">
     <path android:fillColor="#FFB564" android:pathData="M288.7,187.7c-53.7,-32.6 -119.8,1 -119.8,1s11.6,92.6 11.4,121.4c-0.8,2 -1,4.1 -0.4,6.3c-0.2,1.2 -0.6,1.7 -1,1.7h1.7c1.1,3 2.9,4.3 5.8,5.3c10.9,4 21.5,6.8 33.1,7.7c3.6,0.3 7.1,0.2 10.5,-0.2c1.6,1.5 4,2.4 7.1,2.1c13.2,-1.2 28,-1.9 38.6,-10.3c1.7,-1.4 2.7,-2.7 3.1,-4.7h0.8L288.7,187.7z"/>
@@ -96,7 +96,7 @@
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -121,7 +121,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // MainActivity.java file
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

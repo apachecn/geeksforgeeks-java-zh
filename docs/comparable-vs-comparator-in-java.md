@@ -14,7 +14,7 @@ Java 提供了两个使用类的数据成员对对象进行排序的接口:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate use of Comparable
 import java.io.*;
 import java.util.*;
@@ -72,7 +72,7 @@ class Main
 
 输出:
 
-```
+```java
 Movies after sorting : 
 
 Star Wars 8.7 1977
@@ -98,7 +98,7 @@ Collections 类有第二个 sort()方法，它采用 Comparator。sort()方法�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //A Java program to demonstrate Comparator interface
 import java.io.*;
 import java.util.*;
@@ -195,7 +195,7 @@ class Main
 
 输出:
 
-```
+```java
 Sorted by rating
 8.3 Force Awakens 2015
 8.4 Return of the Jedi 1983

@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public long getBytesWritten()
 
 ```
 
 **语法:**
 
-```
+```java
 i.getBytesWritten();
 
 ```
@@ -26,7 +26,7 @@ i.getBytesWritten();
 
 **示例 1:**getbytes written()函数的使用
 
-```
+```java
 // Java program to describe the use
 // of getBytesWritten() function
 

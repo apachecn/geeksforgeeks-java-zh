@@ -4,7 +4,7 @@
 
 给定的任务是从用户那里读取矩阵。矩阵元素的大小和数量将从键盘上读取。
 
-```
+```java
 // Java program to read a matrix from user
 
 import java.util.Scanner;
@@ -59,7 +59,7 @@ public class MatrixFromUser {
 
 **Output:**
 
-```
+```java
 Enter the number of rows of the matrix 2
 Enter the number of columns of the matrix 2
 Enter the elements of the matrix

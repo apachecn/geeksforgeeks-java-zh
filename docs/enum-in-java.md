@@ -13,7 +13,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A simple enum example where enum is declared
 // outside any class (Note enum keyword instead of
 // class keyword)
@@ -35,13 +35,13 @@ public class Test
 
 输出:
 
-```
+```java
 RED
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // enum declaration inside a class.
 public class Test
 {
@@ -61,7 +61,7 @@ public class Test
 
 输出:
 
-```
+```java
 RED
 ```
 
@@ -72,7 +72,7 @@ RED
 
 *   每个枚举都是通过使用类在内部实现的。
 
-```
+```java
 /* internally above enum Color is converted to
 class Color
 {
@@ -87,7 +87,7 @@ class Color
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate working on enum
 // in switch case (Filename Test. Java)
 import java.util.Scanner;
@@ -144,7 +144,7 @@ public class Test
 
 输出:
 
-```
+```java
 Mondays are bad.
 ```
 
@@ -153,7 +153,7 @@ Mondays are bad.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate that we can have
 // main() inside enum class.
 enum Color
@@ -171,7 +171,7 @@ enum Color
 
 输出:
 
-```
+```java
 RED
 ```
 
@@ -190,7 +190,7 @@ RED
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of values(),
 // ordinal() and valueOf()
 enum Color
@@ -226,7 +226,7 @@ public class Test
 
 输出:
 
-```
+```java
 RED at index 0
 GREEN at index 1
 BLUE at index 2
@@ -244,7 +244,7 @@ RED
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that enums can have constructor
 // and concrete methods.
 
@@ -281,7 +281,7 @@ public class Test
 
 输出:
 
-```
+```java
 Constructor called for : RED
 Constructor called for : GREEN
 Constructor called for : BLUE

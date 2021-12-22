@@ -27,7 +27,7 @@ ArrayList 是一种数据结构，它克服了 Java 中常见数组的缺点，�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to convert ArrayList
 // to LinkedHashSet
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The array list : [Geeks, For, Geeks]
 The converted Linked Hash Set : [Geeks, For]
 ```
@@ -91,7 +91,7 @@ The converted Linked Hash Set : [Geeks, For]
 
 **语法:**
 
-```
+```java
 LinkedHashSet.addAll(Collection C)
 ```
 
@@ -103,7 +103,7 @@ LinkedHashSet.addAll(Collection C)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to convert ArrayList
 // to LinkedHashSet
 
@@ -155,7 +155,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The Array List : [Geeks, For, Geeks]
 The Linked Hash Set : [Geeks, For]
 ```
@@ -166,7 +166,7 @@ The Linked Hash Set : [Geeks, For]
 
 **语法:**
 
-```
+```java
 Hash_Set.add(Object element)
 ```
 
@@ -178,7 +178,7 @@ Hash_Set.add(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to convert ArrayList
 // to LinkedHashSet
 
@@ -236,7 +236,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The Array List : [Geeks, For, Geeks]
 The Linked Hash Set : [Geeks, For]
 ```
@@ -249,7 +249,7 @@ The Linked Hash Set : [Geeks, For]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to convert ArrayList
 // to LinkedHashSet
 
@@ -307,7 +307,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The Array List : [Geeks, For, Geeks]
 The Linked Hash Set : [Geeks, For]
 ```
@@ -320,7 +320,7 @@ The Linked Hash Set : [Geeks, For]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java code to convert an ArrayList
 // of custom class objects to
 // LinkedHashSet
@@ -418,7 +418,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The Array List : [Sports@4e50df2e, Sports@1d81eb93, Sports@7291c18f]
 Football is a great sport
 Basketball is a great sport

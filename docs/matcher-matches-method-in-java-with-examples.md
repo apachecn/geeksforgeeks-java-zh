@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean matches()
 
 ```
@@ -19,7 +19,7 @@ public boolean matches()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate matches() method
 
 import java.util.regex.*;
@@ -54,14 +54,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Result: false
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate matches() method
 
 import java.util.regex.*;
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Result: false
 
 ```

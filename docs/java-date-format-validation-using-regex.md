@@ -4,7 +4,7 @@
 
 我们使用[方法将给定的正则表达式编译成一个模式。这里正则表达式是要编译的表达式。](https://www.geeksforgeeks.org/regular-expressions-in-java/)
 
-```
+```java
 // Java program to check if given date is
 // valid or not.
 import java.util.regex.Matcher;
@@ -33,7 +33,7 @@ public class GeeksforGeeks {
 
 [**输出:**
 
-```
+```java
 true
 false
 

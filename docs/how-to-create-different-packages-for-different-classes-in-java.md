@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 class Human
 {
    // Properties --> Instance variables
@@ -25,7 +25,7 @@ class Human
 
 **输出:**
 
-```
+```java
 Hey there! I am Vasanth Kumar
 My age is 20
 ```
@@ -36,7 +36,7 @@ My age is 20
 
 在 Java 中，包是类、子包和接口的集合。也就是说，一个包代表一个字典，其中包含一组相关的类和接口。每当我们写一条如下所示的语句时，我们都在导入 java.io.*包的所有类。这里，java 是一个目录名，io 是其中的另一个子目录。而*表示该 io 子目录的所有类和接口。
 
-```
+```java
 import java.io.*; 
 ```
 
@@ -57,7 +57,7 @@ java 中有两种类型的包[，如下所示:](https://www.geeksforgeeks.org/pa
 
 这些是已经在 Java 语言中可用的包。这些包为程序员执行任何任务提供了几乎所有必要的类、接口和方法。它们如下:
 
-```
+```java
 java.lang
 java.util
 java.io
@@ -78,25 +78,25 @@ javax.swing
 
 **2.1.1** 创建包
 
-```
+```java
 package package_name ;  
 ```
 
 **2.1.2** 在包中创建子包
 
-```
+```java
 package package_name.subpackagename ;
 ```
 
 **2.2** 编译
 
-```
+```java
 C:\> javac -d . classname.java
 ```
 
 **2.3** 运行程序
 
-```
+```java
 C:\> java packagename.classname
 ```
 
@@ -123,7 +123,7 @@ C:\> java packagename.classname
 
 插图:
 
-```
+```java
 Enter the number of students : 2
 
 Enter the details of Student 1 (id, name, location):
@@ -135,7 +135,7 @@ B100 Ramesh Hyderabad
 
 **输出:**
 
-```
+```java
 The Student Details are:
 B100 Ramesh Hyderabad
 B200 Ajay Hyderabad
@@ -149,7 +149,7 @@ B200 Ajay Hyderabad
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Dividion of Classes into
 // Packages where Class StudentData
 // which creates first package i.e pack1
@@ -184,7 +184,7 @@ public class StudentData {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Dividion of Classes into
 // Packages where Class StudentDataExtended creates
 // Second package- pack2 and uses the first package

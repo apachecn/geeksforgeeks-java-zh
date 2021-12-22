@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.add(E e)
 
 ```
@@ -19,7 +19,7 @@ ConcurrentSkipListSet.add(E e)
 
 **程序 1:** 在集合中添加整数。
 
-```
+```java
 // Java program to demonstrate add()
 // method of ConcurrentSkipListSet
 
@@ -46,7 +46,7 @@ class ConcurrentSkipListSetAddExample1 {
 
 **输出:**
 
-```
+```java
 The set contains: 
 10 20 30 40 50
 
@@ -54,7 +54,7 @@ The set contains:
 
 **程序 2:** 在集合中添加字符串。
 
-```
+```java
 // Java program to demonstrate add()
 // method of ConcurrentSkipListSet
 
@@ -84,7 +84,7 @@ class ConcurrentSkipListSetAddExample2 {
 
 **输出:**
 
-```
+```java
 The set contains: 
 alex bob chuck drake eric
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public Type getGenericReturnType()
 ```
 
@@ -22,7 +22,7 @@ public Type getGenericReturnType()
 
 **示例:**
 
-```
+```java
 Code:
 public class demo{
      public T getValue(){}
@@ -46,7 +46,7 @@ it is going to return java.util.List<java.lang.String> as a generic return type
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to apply getGenericReturnType() method
 // of Method Class.
 import java.lang.reflect.Method;
@@ -117,7 +117,7 @@ class demoForReturnParam {
 
 **Output:** 
 
-```
+```java
 Method Name : setManyValues
 Return Type Details: void
 
@@ -132,7 +132,7 @@ Return Type Details: int
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to show how to apply
 // getGenericReturnType() method of Method Class
 import java.lang.reflect.Method;
@@ -220,7 +220,7 @@ class DemoForReturnParam {
 
 **Output:** 
 
-```
+```java
 setValue() contains int return type: false
 setManyValues() contains int return type: true
 ```

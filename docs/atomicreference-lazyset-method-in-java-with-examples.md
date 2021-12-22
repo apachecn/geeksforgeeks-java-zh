@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void lazySet(V newValue)
 
 ```
@@ -18,7 +18,7 @@ public final void lazySet(V newValue)
 下面的程序说明了 lazySet()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.lazySet() method
 import java.util.concurrent.atomic.AtomicReference;
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Integer value = 67545678
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.lazySet() method
 import java.util.concurrent.atomic.AtomicReference;
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GFG(GeeksForGeeks)
 
 ```

@@ -5,7 +5,7 @@
 LinkedBlockingQueue 的**迭代器()**方法以适当的顺序返回与这个 LinkedBlockingQueue 相同元素的迭代器。从这个方法返回的元素包含了从 LinkedBlockingQueue 的**第一个(头)**到**最后一个(尾)**的所有元素。返回的迭代器弱一致。
 **语法:**
 
-```
+```java
 public Iterator<E> iterator()
 ```
 
@@ -15,7 +15,7 @@ public Iterator<E> iterator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of LinkedBlockingQueue
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 list of names:
 John
 Tom
@@ -64,7 +64,7 @@ Kat
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of LinkedBlockingQueue
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 list of Employees:
 *************************
 Employee Name : Sachin

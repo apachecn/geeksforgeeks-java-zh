@@ -54,7 +54,7 @@ JComboBox 是 Java Swing 包的一部分。JComboBox 继承了 JComponent 类。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a simple JComboBox
 // and add elements to it
 import java.awt.event.*;
@@ -139,7 +139,7 @@ class solve extends JFrame implements ItemListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create two  checkbox
 // one editable and other read only
 import java.awt.event.*;
@@ -250,7 +250,7 @@ class solve extends JFrame implements ItemListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java  Program to create a checkbox
 // and add or remove items from it
 import java.awt.event.*;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration getLoggerNames()
 
 ```
@@ -19,7 +19,7 @@ public Enumeration getLoggerNames()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // LogManager getLoggerNames() method
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List of Logger Names: 
 global
 
@@ -55,7 +55,7 @@ global
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate
 // LogManager getLoggerNames() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List of Logger Names: 
 GFG
 global

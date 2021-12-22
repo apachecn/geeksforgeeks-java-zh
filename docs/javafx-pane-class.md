@@ -25,7 +25,7 @@
 
 1.  **Java Program to create a Pane and add label to the Pane and add it to the stage:** In this program we are creating a Pane named *pane* and a Label named *label*. Now add this label to the pane by passing it as an argument of the constructor of the *pane*. Then add the pane to the Scene and the scene to the stage. Call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a Pane
     // and add label to the Pane
     // and add it to the stage
@@ -89,7 +89,7 @@
 
 2.  **Java Program to create a Pane and add labels and buttons to the pane and relocate them to specific positions and add it to the stage:** In this program we will create a Pane named *pane* and a Label named *label*. Add this label to the pane by passing it as an argument of the constructor of the *pane*. Then create the five buttons and add them to the *pane*. Relocate the label and buttons to specified position using *relocate()* function. Add the pane to the Scene and add the scene to the stage. Call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a Pane
     // and add labels and buttons to the pane
     // and relocate them to specific positions

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 class Main
 {
     method1(){ 
@@ -37,7 +37,7 @@ class Main
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program implementing the Nesting of Methods
 
 public class NestingMethodCalls1 {
@@ -87,7 +87,7 @@ public class NestingMethodCalls1 {
 
 **Output**
 
-```
+```java
 ****** Inside Area method ******
 Surface area of a Sphere is : 1809.5573684677208
 ****** Inside Volume method ******
@@ -101,7 +101,7 @@ Volume of a Sphere is : 5428.672105403162
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program implementing the Nesting of Methods
 
 public class NestingMethodCalls2 {
@@ -149,7 +149,7 @@ public class NestingMethodCalls2 {
 
 **Output**
 
-```
+```java
 *********This is gfg1 method***********
 Before performing operation:a=20 b=30
 After operation:a=30 b=42
@@ -165,7 +165,7 @@ After Swapping:a=42 b=30
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program implementing the Nesting of Methods
 
 public class NestingMethodCalls3 {
@@ -219,7 +219,7 @@ public class NestingMethodCalls3 {
 
 **Output**
 
-```
+```java
 ****** Inside a3 method ******
 w = 150 z = 150
 ****** Inside a1 method ******

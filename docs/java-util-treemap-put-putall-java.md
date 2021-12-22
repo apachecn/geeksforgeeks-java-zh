@@ -6,7 +6,7 @@ TreeMap 中的插入是使用 put 函数的变体来处理的。Java.util.TreeMa
 
 **1。put() :** 它将**指定值与地图中的指定键**相关联。如果一个键已经存在，那么更新它会导致该键的更新。
 
-```
+```java
 Parameters:
 key : The key with which the value is to be associated.
 value : The value to be associated with the given key.
@@ -18,7 +18,7 @@ Not Available.
 
 ```
 
-```
+```java
 // Java code demonstrating the working
 // of put()
 import java.io.*;
@@ -53,7 +53,7 @@ public class Put {
 
 输出:
 
-```
+```java
 The initial TreeMap is : {one=1, two=3}
 The previous value with two is : 3
 Updated TreeMap is : {one=1, two=2}
@@ -62,7 +62,7 @@ Updated TreeMap is : {one=1, two=2}
 
 **2。putAll() :** 它**将所有映射**从指定的映射复制到给定的映射，并在重复按键的情况下覆盖。
 
-```
+```java
 Parameters:
 map : The mappings to be stored.
 Return Value:
@@ -73,7 +73,7 @@ specified map contains a null key.
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of putAll()
 import java.io.*;
@@ -108,7 +108,7 @@ public class putAll {
 
 输出:
 
-```
+```java
 First treemap values are : {one=1, two=3}
 Values after modifying 1st treemap : {one=1, three=3, two=2}
 
@@ -118,7 +118,7 @@ Values after modifying 1st treemap : {one=1, three=3, two=2}
 
 **空指针异常:**如果**映射包含空键或在 putAll()中为空**，则会出现该异常。
 
-```
+```java
 // Java code to demonstrate the Exception
 // of putAll()
 import java.io.*;
@@ -153,7 +153,7 @@ public class putAll {
 
 运行时错误:
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at java.util.TreeMap.put(TreeMap.java:563)
     at putAll.main(putAll.java:21)
@@ -162,7 +162,7 @@ Exception in thread "main" java.lang.NullPointerException
 
 **实际应用:**这个功能可以存储数值，如果需要可以更新。这种功能主要在**目录和字典或记录**中有用。下面的一个小代码解释了如何组合数据库来获得游戏中的更新分数。
 
-```
+```java
 // Java code to demonstrate the Application
 // of putAll()
 import java.io.*;
@@ -200,7 +200,7 @@ public class putAllAppli {
 
 输出:
 
-```
+```java
 The scores till Drinks break are : {Dhoni=68, Rahul=32, Sachin=40}
 The scores at Lunch : {Dhoni=102, Rahul=67, Raina=10}
 Net scorecard is : {Dhoni=102, Rahul=67, Raina=10, Sachin=40}

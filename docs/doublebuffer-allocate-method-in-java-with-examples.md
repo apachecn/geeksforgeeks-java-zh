@@ -5,7 +5,7 @@
 **java.nio.DoubleBuffer** 类的 **allocate()** 方法用于在现有缓冲区旁边分配一个新的双缓冲区。新缓冲区的位置将为零。它的极限将是它的容量。它的标记将是未定义的。它的每个元素都将被初始化为零。它将有一个后备数组，并且它的数组偏移量为零。
 **语法:**
 
-```
+```java
 public static DoubleBuffer allocate(int capacity)
 ```
 
@@ -17,7 +17,7 @@ public static DoubleBuffer allocate(int capacity)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // allocate() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 DoubleBuffer: [8.5600004196167, 0.0, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 ```
 
@@ -57,7 +57,7 @@ DoubleBuffer: [8.5600004196167, 0.0, 9.609999656677246, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // allocate() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Trying to allocate a negative integer
 Exception thrown: java.lang.IllegalArgumentException: capacity < 0: (-10 < 0)
 

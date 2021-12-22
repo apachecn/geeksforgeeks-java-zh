@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E get(int index)
 ```
 
@@ -20,7 +20,7 @@ public E get(int index)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the 
 // CopyOnWriteArrayList get() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 98, 100]
 Element at 2nd index: 98
 
@@ -61,7 +61,7 @@ Element at 2nd index: 98
 
 **节目 2:**
 
-```
+```java
 // Java Program to illustrate the 
 // CopyOnWriteArrayList get() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -95,7 +95,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
     at java.util.concurrent.CopyOnWriteArrayList.get(CopyOnWriteArrayList.java:388)
     at java.util.concurrent.CopyOnWriteArrayList.get(CopyOnWriteArrayList.java:397)

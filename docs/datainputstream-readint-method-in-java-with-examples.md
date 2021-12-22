@@ -6,7 +6,7 @@ Java 中 **DataInputStream** 类的 **readInt()** 方法用于读取四个输入
 
 **语法:**
 
-```
+```java
 public final int readInt()
              throws IOException
 
@@ -27,7 +27,7 @@ public final int readInt()
 
 **程序 1:** 假设存在文件“demo.txt”。
 
-```
+```java
 // Java program to illustrate
 // DataInputStream readInt() method
 import java.io.*;
@@ -78,7 +78,7 @@ public class GFG {
 
 **程序 2:** 假设文件“demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // DataInputStream readInt() method
 import java.io.*;

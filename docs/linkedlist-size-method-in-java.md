@@ -6,7 +6,7 @@ Java.util.LinkedList.size()方法用于获取链表的大小或链表中存在�
 
 **语法:**
 
-```
+```java
 LinkedList.size()
 
 ```
@@ -17,7 +17,7 @@ LinkedList.size()
 
 下面程序举例说明了
 
-```
+```java
 // Java code to illustrate size()
 import java.io.*;
 import java.util.LinkedList;
@@ -48,7 +48,7 @@ public class LinkedListDemo {
 
 **方法:**
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 The size of the linked list is: 5
 

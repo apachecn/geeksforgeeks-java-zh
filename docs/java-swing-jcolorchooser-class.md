@@ -48,7 +48,7 @@ JColorChooser 提供了一个控件面板，旨在允许用户操作和选择颜
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement JColorChooser
 // class using ChangeListener
 import java.awt.*;
@@ -158,7 +158,7 @@ public class ColorChooserDemo extends JPanel
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement JColorChooser
 // class using ActionListener
 import java.awt.event.*;

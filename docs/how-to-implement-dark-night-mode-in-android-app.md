@@ -31,7 +31,7 @@
     10.  现在只需使用**appcompatdelement . setdefaultnightmode(appcompatdelement。MODE_NIGHT_YES)**
         如下图
 
-        ```
+        ```java
         public class MainActivity
             extends AppCompatActivity {
 
@@ -64,7 +64,7 @@
 
     11.  保存应用程序的状态，以便当用户在应用暗/亮模式后重新打开应用程序时，该模式会保留。我们将使用[共享引用](https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/)来保存应用程序
 
-        ```
+        ```java
         public class MainActivity
             extends AppCompatActivity {
 

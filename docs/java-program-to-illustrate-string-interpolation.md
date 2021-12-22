@@ -25,7 +25,7 @@ Java 中执行字符串插值的一些方法如下:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate String Interpolation
 // Using the + Operator
 
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks for Geeks is the best platform to learn coding
 ```
 
@@ -73,7 +73,7 @@ Geeks for Geeks is the best platform to learn coding
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program o Illustrate String Interpolation
 // Using the format() method
 
@@ -102,7 +102,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks for Geeks is the best platform to learn Data Structures .
 ```
 
@@ -118,7 +118,7 @@ Geeks for Geeks is the best platform to learn Data Structures .
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate String Interpolation
 // Using MessageFormat class
 
@@ -152,7 +152,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Democracy is a government of the people, for the people and by the people.
 ```
 
@@ -168,7 +168,7 @@ Democracy is a government of the people, for the people and by the people.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate String Interpolation
 // Using StringBuilder class
 
@@ -203,7 +203,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks for Geeks is the best portal to learn Data Structure and Algorithms.
 ```
 

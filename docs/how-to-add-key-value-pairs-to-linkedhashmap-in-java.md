@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: 
      Key: 1
      Value : 1221
@@ -34,7 +34,7 @@ Output:
 
 T3】JavaT5
 
-```
+```java
 // Java Program to add key-value 
 // pairs to LinkedHashMap
 import java.util.*;

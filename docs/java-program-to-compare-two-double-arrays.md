@@ -15,7 +15,7 @@ Java 双数组仅用于存储双数据类型值。双数组中元素的默认值
 
 ## Java
 
-```
+```java
 // Java program to compare two double arrays
 
 import java.util.*;
@@ -56,6 +56,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 Arrays are not Equal
 ```

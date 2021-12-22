@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input :Array = {2, 6, 23, 98, 24, 35, 78}
 Output:[98, 78, 35, 24, 23, 6, 2]
 
@@ -33,7 +33,7 @@ Output:[5, 4, 3, 2, 1]
 
 T5】Java
 
-```
+```java
 // Java program to sort the elements in descending order
 import java.util.*;
 
@@ -55,7 +55,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 [5, 4, 3, 2, 1]
 ```
 
@@ -70,7 +70,7 @@ class GFG {
 
 T3】JavaT5
 
-```
+```java
 // Java program to sort the elements in descending order
 import java.util.*;
 

@@ -8,7 +8,7 @@
 
 **语法**
 
-```
+```java
 ByteObject.hashCode()
 ```
 
@@ -18,7 +18,7 @@ ByteObject.hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Byte hashCode() method
 
@@ -44,14 +44,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode of 74 : 74
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Byte hashCode() method
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode of -17 : -17
 
 ```

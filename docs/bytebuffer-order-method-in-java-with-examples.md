@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public final ByteOrder order()
 ```
 
@@ -18,7 +18,7 @@ public final ByteOrder order()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // order() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer: 
 10 20 30 
 
@@ -72,7 +72,7 @@ Byte Value: BIG_ENDIAN
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // order() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Byte Value: BIG_ENDIAN
 
 ```
@@ -110,7 +110,7 @@ ByteBuffer 的 order(ByteOrder bo)方法用于修改该缓冲区的字节顺序�
 
 **语法:**
 
-```
+```java
 public final ByteBuffer order(ByteOrder bo)
 ```
 
@@ -122,7 +122,7 @@ public final ByteBuffer order(ByteOrder bo)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // order() method
 
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old Byte Order: BIG_ENDIAN
 New Byte Order: LITTLE_ENDIAN
 
@@ -168,7 +168,7 @@ New Byte Order: LITTLE_ENDIAN
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // order() method
 
@@ -223,7 +223,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer: 
 10 20 30 Old Byte Order: BIG_ENDIAN
 New Byte Order: LITTLE_ENDIAN

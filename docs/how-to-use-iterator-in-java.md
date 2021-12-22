@@ -9,7 +9,7 @@
 2.  **Object next()** :它返回集合中的下一个元素，直到 hasNext()方法返回 true。如果没有下一个元素，此方法将引发“NoSuchElementException”。
 3.  **void remove()** :移除集合中的当前元素。如果在调用 next()之前调用此函数，此方法将引发“IllegalStateException”。
 
-```
+```java
 // Java code to illustrate the use of iterator
 import java.io.*;
 import java.util.*;
@@ -40,7 +40,7 @@ class Test {
 
 输出:
 
-```
+```java
 List elements : 
 A B C D E 
 ```
@@ -56,7 +56,7 @@ Java 中的“列表迭代器”是一个迭代器，允许用户双向遍历集
 5.  **Object previous( )** :返回列表的上一个元素。如果没有前一个元素，它将引发“NoSuchElementException”。
 6.  **void remove( )** :从列表中删除当前元素。如果在调用 next()或 previous()之前调用此函数，它将引发“IllegalStateException”。
 
-```
+```java
 // Java code to illustrate the use of ListIterator
 import java.io.*;
 import java.util.*;
@@ -96,7 +96,7 @@ class Test {
 
 输出:
 
-```
+```java
 Displaying list elements in forward direction : 
 A B C D E 
 Displaying list elements in backward direction : 

@@ -15,7 +15,7 @@ java.util.ArrayList 类的[**包含()**](https://www.geeksforgeeks.org/arraylist
 
 **语法:**
 
-```
+```java
 public boolean contains(Object)
 ```
 
@@ -27,7 +27,7 @@ public boolean contains(Object)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check
 // whether element exists
 // in Java ArrayList
@@ -67,7 +67,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 5 does not exist in the ArrayList
 2 exists in the ArrayList
 ```
@@ -79,7 +79,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check 
 // whether element exists 
 // in Java ArrayList
@@ -118,7 +118,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 5 exists in the ArrayList
 8 does not exist in the ArrayList
 ```

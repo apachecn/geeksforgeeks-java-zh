@@ -5,7 +5,7 @@
 **java.util.Collections** 类的 **synchronizedCollection()** 方法用于返回由指定集合支持的同步(线程安全)集合。为了保证串行访问，通过返回的集合完成对后备集合的所有访问是非常重要的。
 **语法:**
 
-```
+```java
 public static <T> Collection<T>
   synchronizedCollection(Collection<T> c)
 ```
@@ -17,7 +17,7 @@ public static <T> Collection<T>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate synchronizedCollection()
 // method for String Value
 
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **Output**
 
-```
+```java
 Collection : [A, B, C, D, E]
 Synchronized view of collection : [A, B, C, D, E]
 
@@ -71,7 +71,7 @@ Synchronized view of collection : [A, B, C, D, E]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate synchronizedCollection()
 // method for Integer Value
 
@@ -114,7 +114,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Collection : [20, 30, 40, 50, 60]
 Synchronized view is : [20, 30, 40, 50, 60]
 ```

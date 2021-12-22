@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: String = "Geeks"
 Output: [G, e, e, k, s]
 
@@ -28,7 +28,7 @@ Output: [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to illustrate
     // Converting a String to a List
     // of Characters
@@ -78,7 +78,7 @@ Output: [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
     **Output:**
 
-    ```
+    ```java
     [G, e, e, k]
 
     ```
@@ -96,7 +96,7 @@ Output: [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to illustrate
     // Converting a String to a List
     // of Characters
@@ -149,7 +149,7 @@ Output: [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
     **Output:**
 
-    ```
+    ```java
     [G, e, e, k]
 
     ```
@@ -164,7 +164,7 @@ Output: [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     import java.util.*;
 
     // Java program to convert
@@ -212,7 +212,7 @@ Output: [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
     **Output:**
 
-    ```
+    ```java
     [G, e, e, k]
 
     ```

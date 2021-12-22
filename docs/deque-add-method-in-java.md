@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean add(E e)
 
 ```
@@ -28,7 +28,7 @@ boolean add(E e)
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate add()
 // method of Deque
 import java.util.*;
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 
 ```
@@ -65,7 +65,7 @@ Deque: [7855642, 35658786, 5278367, 74381793]
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate add()
 // method of Deque
 import java.util.*;
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 
 ```
@@ -102,7 +102,7 @@ Deque: [7855642, 35658786, 5278367, 74381793]
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate add()
 // method of Deque
 import java.util.*;
@@ -131,7 +131,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 
 ```

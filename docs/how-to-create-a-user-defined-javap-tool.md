@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 javap [classname] [option]
 
 ```
@@ -18,7 +18,7 @@ javap [classname] [option]
 为了更清楚地理解它，请参见命令提示符下的以下示例，该示例打印了[字符串类](https://www.geeksforgeeks.org/string-class-in-java/)
 **的详细信息。使用的命令是:**
 
-```
+```java
 javap java.lang.String
 
 ```
@@ -41,7 +41,7 @@ javap java.lang.String
 **下面的程序实现了用户定义的 javap 工具** :
 **示例 1:** 在这个示例中，我们在用户定义的类上使用这个程序。
 
-```
+```java
 // The program implements
 // user defined javap tool
 
@@ -126,7 +126,7 @@ public class javapcustom {
 
 **输出:**
 
-```
+```java
 Fields of class
 int test_class.a
 double test_class.d
@@ -145,7 +145,7 @@ void test_class.setData()
 
 **示例 2:** 在这个示例中，我们在预定义的 Java 类上使用这个用户定义的 javap 工具。
 
-```
+```java
 // The program implements
 // user defined javap tool
 

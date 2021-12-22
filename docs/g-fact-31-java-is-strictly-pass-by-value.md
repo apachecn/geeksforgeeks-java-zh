@@ -4,7 +4,7 @@
 
 考虑下面的 Java 程序，它传递一个**原语类型**来运行。
 
-```
+```java
 public class Main
 {
     public static void main(String[] args)
@@ -22,7 +22,7 @@ public class Main
 
 输出:
 
-```
+```java
 5
 ```
 
@@ -35,7 +35,7 @@ public class Main
 **如果我们将对象本身更改为引用某个其他位置或对象**
 则更改不会反映回来如果我们将引用分配给某个其他位置，则更改不会反映回 main()。
 
-```
+```java
 // A Java program to show that references are also passed
 // by value.
 class Test
@@ -73,14 +73,14 @@ class Main
 
 输出:
 
-```
+```java
 5
 ```
 
 **如果我们不将引用分配给新的位置或对象，更改会被反射回来:**
 如果我们不将引用更改为引用其他对象(或内存位置)，我们可以对成员进行更改，这些更改会被反射回来。
 
-```
+```java
 // A Java program to show that we can change members using using
 // reference if we do not change the reference itself.
 class Test
@@ -116,13 +116,13 @@ class Main
 
 输出:
 
-```
+```java
 10
 ```
 
 **练习:**预测以下 Java 程序的输出
 
-```
+```java
 //  Test.java
 class Main {
    // swap() doesn't swap i and j

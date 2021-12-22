@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input:    
     l.put(2, 5);
     l.put(3, 6);
@@ -23,7 +23,7 @@ Output:
 
 **键集()方法的语法**
 
-```
+```java
 hash_map.keySet()
 ```
 
@@ -33,7 +33,7 @@ hash_map.keySet()
 
 **值的语法()方法**
 
-```
+```java
 Hash_Map.values()
 ```
 
@@ -43,7 +43,7 @@ Hash_Map.values()
 
 PSU 代码
 
-```
+```java
 List<Integer> list = new LinkedList<>(l.keySet());
 List<Integer> listOfValue = new LinkedList<>(l.values());
 ```
@@ -52,7 +52,7 @@ List<Integer> listOfValue = new LinkedList<>(l.values());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java progaram to Convert HashMap to LinkedList
 
 import java.io.*;
@@ -87,7 +87,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 LinkedList of key-> [2, 3, 4, 8]
 LinkedList of values-> [5, 6, 1, 2]
 ```
@@ -96,7 +96,7 @@ LinkedList of values-> [5, 6, 1, 2]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java progaram to Convert HashMap to LinkedList 
 
 import java.io.*;
@@ -130,7 +130,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 LinkedList of key-> [1, 3, 4]
 LinkedList of values-> [Geeks, Geeks, For]
 ```

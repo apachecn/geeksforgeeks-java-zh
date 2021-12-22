@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```java
 R apply(T t, U u)
 ```
 
@@ -37,7 +37,7 @@ R apply(T t, U u)
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrate
 // BiFunction's apply() method
 
@@ -63,7 +63,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Sum = 5
 Product = 6
 
@@ -77,7 +77,7 @@ Product = 6
 
 **语法:**
 
-```
+```java
 default <V> 
     BiFunction<T, U, V> 
         andThen(Function<? super R, ? extends V> after)
@@ -95,7 +95,7 @@ default <V>
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrate
 // BiFunction's addThen() method
 
@@ -131,7 +131,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Composite1 = 10
 Composite2 = 18
 
@@ -139,7 +139,7 @@ Composite2 = 18
 
 **程序 2:** 演示何时返回 NullPointerException。
 
-```
+```java
 // Java Program to demonstrate
 // BiFunction's addThen() method
 
@@ -168,7 +168,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```
@@ -177,7 +177,7 @@ Exception: java.lang.NullPointerException
 
 在下面的程序中，当(2，3)作为参数传递给第一个函数时，它返回 sum 5。现在这个和将作为参数传递给 after 函数，即 addThen()方法。这里，将 5 传递给 after 函数会产生(5–5 = 0)，即分母将变为 0。因此将引发算术异常。这个异常将在 apply()函数中处理，而不是 addThen()函数。
 
-```
+```java
 // Java Program to demonstrate
 // BiFunction's addThen() method
 
@@ -206,7 +206,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.ArithmeticException: / by zero
 
 ```

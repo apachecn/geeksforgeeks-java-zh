@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean offerLast(E e)
 ```
 
@@ -20,7 +20,7 @@ public boolean offerLast(E e)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate offerLast()
 // method of BlockingDeque
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The element 10 cannot be inserted as capacity is full
 Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 
@@ -67,7 +67,7 @@ Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate offerLast()
 // method of BlockingDeque
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The element 'hii' cannot be inserted as capacity is full
 Blocking Deque: [abc, gopu, geeks, richik]
 

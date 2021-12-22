@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration plusHours(long numberOfHours)
 
 ```
@@ -21,7 +21,7 @@ public Duration plusHours(long numberOfHours)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate plusHours() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT53H4M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate plusHours() method
 
 import java.time.Duration;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT5H4M
 
 ```

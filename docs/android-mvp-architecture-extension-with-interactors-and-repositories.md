@@ -36,7 +36,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public interface gfgMVPInteractor {
     sampleAPIHelper getSampleAPIHelper();
     PreferencesHelper gfgPrefrences();
@@ -52,7 +52,7 @@ public interface gfgMVPInteractor {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class BaseInteractor implements GFGMVPINTERCTOR {
     private final PreferencesHelper GFGPREFERENCESHELPER;
     private final ApiHelper mApiHelper;

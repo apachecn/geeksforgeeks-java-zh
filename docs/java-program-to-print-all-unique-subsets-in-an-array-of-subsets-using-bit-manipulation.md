@@ -6,12 +6,12 @@
 
 插图:
 
-```
+```java
 Input: array = [1,2,3]
 Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 ```
 
-```
+```java
 Input: array = [0]
 Output: [[],[0]]
 ```
@@ -32,7 +32,7 @@ Output: [[],[0]]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print all unique subsets in an array of
 // subsets using bit manipulation
 
@@ -93,7 +93,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [[], [3], [2], [2, 3], [1], [1, 3], [1, 2], [1, 2, 3]]
 ```
 
@@ -108,7 +108,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print all unique subsets in an array of
 // subsets using bit manipulation
 
@@ -170,6 +170,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
 ```

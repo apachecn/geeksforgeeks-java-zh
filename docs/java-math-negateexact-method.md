@@ -6,7 +6,7 @@ java . lang . math . avenue exact()是 Java 中的一个内置函数，它返回
 
 **语法:**
 
-```
+```java
 int negateExact(int num)
 long negateExact(long num)
 ```
@@ -19,7 +19,7 @@ long negateExact(long num)
 
 示例:
 
-```
+```java
 Input : 12
 Output : -12
 
@@ -30,7 +30,7 @@ Output : 2
 
 程序 1:下面的程序演示了否定精确()方法的工作原理。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.negateExact() method
 import java.lang.Math;
@@ -52,14 +52,14 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 -10
 12
 ```
 
 程序 2:下面的程序演示了否定精确()方法的溢出。
 
-```
+```java
 // Java program to demonstrate overflow
 // of java.lang.Math.negateExact() method
 import java.lang.Math;
@@ -78,7 +78,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.ArithmeticException: integer overflow
     at java.lang.Math.negateExact(Math.java:977)
     at Gfg1.main(File.java:12)

@@ -5,7 +5,7 @@
 **java . util . concurrentskiplistmap**的 **containsValue()** 方法是 Java 中的内置函数，如果此映射将一个或多个键映射到指定值，则返回 **true** 。如果没有要映射的键，该方法将返回 null。当指定的值为空时，该方法引发 NullPointerException。
 **语法:**
 
-```
+```java
 public boolean containsValue(Object ob)
 ```
 
@@ -17,7 +17,7 @@ public boolean containsValue(Object ob)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate containsValue()
 // method of ConcurrentSkipListMap
 
@@ -44,7 +44,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 true
 ```
 
@@ -52,7 +52,7 @@ true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate containsValue()
 // method of ConcurrentSkipListMap
 
@@ -79,7 +79,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 false
 ```
 

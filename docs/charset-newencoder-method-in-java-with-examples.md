@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public abstract CharsetEncoder newEncoder()
 ```
 
@@ -20,7 +20,7 @@ public abstract CharsetEncoder newEncoder()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 sun.nio.cs.UTF_8$Encoder@232204a1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 sun.nio.cs.UTF_16$Encoder@232204a1
 
 ```

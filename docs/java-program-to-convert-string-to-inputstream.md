@@ -6,12 +6,12 @@
 
 插图:
 
-```
+```java
 Input  : String : "Geeks for Geeks"
 Output : Input Stream : Geeks for Geeks 
 ```
 
-```
+```java
 Input  : String : "A computer science portal"
 Output : Input stream :  A computer science portal 
 ```
@@ -32,7 +32,7 @@ Output : Input stream :  A computer science portal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to InputStream
 // Using ByteArrayInputStream
 // Importing required libraries
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 String : Geeks for Geeks
 Input stream : Geeks for Geeks
 ```

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static int getExponent(float val)
 Parameter:
 val - a float value
@@ -20,7 +20,7 @@ val - a float value
 
 **示例:**展示**函数的工作**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.getExponent() method
 import java.lang.Math;
@@ -46,7 +46,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 12
 9
 -127

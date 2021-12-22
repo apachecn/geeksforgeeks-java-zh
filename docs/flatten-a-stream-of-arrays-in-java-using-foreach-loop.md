@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: arr[][] = {{ 1, 2 }, { 3, 4, 5, 6 }, { 7, 8, 9 }}
 Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
@@ -27,7 +27,7 @@ Output: [G, e, e, k, s, F, o, r]
 
 **示例 1:** 使用整数数组。
 
-```
+```java
 // Java program to flatten a stream of arrays
 // using forEach() method
 
@@ -79,14 +79,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 ```
 
 **示例 2:** 使用字符数组。
 
-```
+```java
 // Java program to flatten a stream of arrays
 // using forEach() method
 
@@ -138,7 +138,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
 ```

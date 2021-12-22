@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <color name="gfgTheme">#FF2F8D46</color>
 <color name="gfgThemeTwo">#FF098043</color>
 ```
@@ -34,7 +34,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -108,7 +108,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -193,7 +193,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.wheic.floatingedittext.Common;
 
 public class Common {
@@ -218,7 +218,7 @@ public class Common {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 private boolean isMyServiceRunning() {
        // The ACTIVITY_SERVICE is needed to retrieve a 
           // ActivityManager for interacting with the global system
@@ -245,7 +245,7 @@ private boolean isMyServiceRunning() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 private void requestOverlayDisplayPermission() {
         // An AlertDialog is created
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -286,7 +286,7 @@ private void requestOverlayDisplayPermission() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 private boolean checkOverlayDisplayPermission() {
         // Android Version is lesser than Marshmallow 
           // or the API is lesser than 23
@@ -309,7 +309,7 @@ private boolean checkOverlayDisplayPermission() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.wheic.floatingedittext;
 
 import android.app.ActivityManager;
@@ -510,7 +510,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.wheic.floatingedittext;
 
 import android.app.Service;

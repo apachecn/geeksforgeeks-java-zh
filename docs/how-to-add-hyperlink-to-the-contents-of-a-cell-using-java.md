@@ -19,7 +19,7 @@
     *   [dom4j-1.6.1.jar](https://mvnrepository.com/artifact/dom4j/dom4j/1.6.1)
 2.  Maven 依赖项:在 maven 项目中将以下依赖项设置为:
 
-```
+```java
     <dependency>  
         <groupId>org.apache.poi</groupId>  
         <artifactId>poi</artifactId>  
@@ -47,7 +47,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // How to add hyperlink to the
 // contents of a cell using Java?
 import java.io.File;

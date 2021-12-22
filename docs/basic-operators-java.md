@@ -29,7 +29,7 @@ Java 提供了丰富的操作环境。我们可以将 java 中的基本运算符
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to explain arithmetic operators
 import java.util.*;
 class A{
@@ -63,7 +63,7 @@ class A{
 
 **输出**:
 
-```
+```java
 a is 10 and b is 4
 a+b is 14
 a-b is 6
@@ -83,7 +83,7 @@ a%b is 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program for relational operators
 import java.util.*;
 class A{
@@ -130,7 +130,7 @@ class A{
 
 **输出**:
 
-```
+```java
 a is greater than b
 a is greater than or equal to b
 a is greater than or equal to b
@@ -143,7 +143,7 @@ a is not equal to b
 
 例如:
 
-```
+```java
 Assume a = 9 and b = 7.
 In binary form,
 a = 1001
@@ -192,7 +192,7 @@ Java 中可用的不同按位运算符有:
 *   **运算符实例** :
     顾名思义，该运算符用于检查对象或引用变量是否属于特定的类类型或接口类型。使用 instanceof 运算符的语法:
 
-```
+```java
 (Object or reference variable ) instanceof  (class or interface type)
 ```
 
@@ -200,7 +200,7 @@ Java 中可用的不同按位运算符有:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program for instanceof operator
 
 public class InstanceOf {
@@ -219,13 +219,13 @@ public static void main(String args[]) {
 
 **输出:**
 
-```
+```java
 true
 ```
 
 *   **条件运算符**:我们通常使用 if-then-else 语句来评估条件。Java 包含一个特殊的运算符“？”它可以代替 if-then-else 语句来评估条件。的一般形式？操作员是:
 
-```
+```java
 *expression1 ? expression2 : expression3*
 
 expression1: expression that evaluates to a boolean value i.e. either true or false.
@@ -235,7 +235,7 @@ expression3: if expression1 evaluates to false then expression3 is evaluated.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to illustrate conditional operators
 
 class Conditional
@@ -262,7 +262,7 @@ class Conditional
 
 **输出:**
 
-```
+```java
 9
 
 ```

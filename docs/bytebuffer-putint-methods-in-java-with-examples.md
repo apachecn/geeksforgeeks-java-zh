@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract ByteBuffer putInt(int value)
 ```
 
@@ -25,7 +25,7 @@ public abstract ByteBuffer putInt(int value)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // putInt() method
 
@@ -75,14 +75,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 23 24 30 ]
 
 ```
 
 **例 2:** 演示 BufferOverflowException。
 
-```
+```java
 // Java program to demonstrate
 // putInt() method
 
@@ -137,7 +137,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 23 24 30 ]
 
 buffer's current position is not smaller than its limit
@@ -147,7 +147,7 @@ Exception throws : java.nio.BufferOverflowException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // putInt() method
 
@@ -208,7 +208,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 23 24 30 ]
 
 Trying to put the int value in read only buffer

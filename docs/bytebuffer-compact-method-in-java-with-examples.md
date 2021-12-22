@@ -8,7 +8,7 @@
 从缓冲区写入数据后调用此方法，以防写入不完整。
 **语法:**
 
-```
+```java
 public abstract ByteBuffer compact()
 ```
 
@@ -19,7 +19,7 @@ public abstract ByteBuffer compact()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original ByteBuffer: [20, 30, 40, 0, 0, 0, 0]
 Position: 3
 limit: 7
@@ -96,7 +96,7 @@ limit: 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ReadOnlyBuffer ByteBuffer: 20, 30, 40, 0, 0, 
 
 Position: 0

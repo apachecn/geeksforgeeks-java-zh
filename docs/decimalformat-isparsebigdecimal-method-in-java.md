@@ -6,7 +6,7 @@ Java 中**十进制格式**类的 **isParseBigDecimal()** 方法用于检查十�
 
 **语法** :
 
-```
+```java
 public boolean isParseBigDecimal()
 
 ```
@@ -19,7 +19,7 @@ public boolean isParseBigDecimal()
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // isParseBigDecimal() method
 
@@ -40,14 +40,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // isParseBigDecimal() method
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

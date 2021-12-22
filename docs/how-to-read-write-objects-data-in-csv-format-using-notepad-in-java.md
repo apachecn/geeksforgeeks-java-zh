@@ -26,7 +26,7 @@ CSV 代表逗号分隔值。CSV 文件几乎可以用于任何电子表格程序
 
 ****实现:**这里我们考虑一个客户类，它有两个数据成员，即“姓名”和“账号”。在读取时，我们需要读取文件&中以 CSV 格式写入的数据，分割读取的数据。*在编写 w* 时，我们需要将客户类型(CSV 格式)的每个对象的每个数据成员的值保存在一个名为“CustomerData.txt”的文件中。我们正在使用 String 类的 format()方法创建一个*字符串格式*，该格式包含 30 字节的客户名称文件&和 10 字节的客户账号(将每个对象的数据成员保存为*相同的格式)。例如:***
 
-```
+```java
 *String.format("%30s ,%10d",name, acc_No);*
 ```
 
@@ -36,7 +36,7 @@ CSV 代表逗号分隔值。CSV 文件几乎可以用于任何电子表格程序
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 *// Java Program to Read Write Object's Data in CSV Format
 // of FIxed Length Records using Notepad
 
@@ -221,7 +221,7 @@ public class Main {
 
 *****输出 1:** 我们第一次跑步的时候***
 
-```
+```java
 *Menu
 1\. For Creating New Customer and saving it to the file
 2\. For Viewing File
@@ -254,7 +254,7 @@ N*
 
 ***此外，在执行之后，创建了“customerdata . txt”&它包含以下内容:***
 
-```
+```java
 *Ramesh ,       100
 Rohan ,       101*
 ```
@@ -265,19 +265,19 @@ Rohan ,       101*
 
 ***当您将这些行一个接一个地读取为字符串时，该字符串也将包含空格，为了删除这些空格，我们使用了 *replaceAll()* 方法来获得一个没有空格的新字符串。***
 
-```
+```java
 *Eg: First line when read, str = " Ramesh, 100"*
 ```
 
 ***当我们使用 replaceAll()时，字符串变成***
 
-```
+```java
 *str = “Ramesh,100”*
 ```
 
 ***字符串没有空格，现在有逗号分隔的值。为了单独获取这些值，我们使用 split()方法&获取单独的值并打印它们。***
 
-```
+```java
 *Eg : After splitting the str according to ","  in our example we will had:
 
 splitString[0] = Ramesh & splitString[1] = 100*
@@ -287,7 +287,7 @@ splitString[0] = Ramesh & splitString[1] = 100*
 
 *****输出 2:** 当程序第一次运行后再次运行时***
 
-```
+```java
 *Menu
 1\. For Creating New Customer 
 And saving it to the file
@@ -316,14 +316,14 @@ N*
 
 ***现在，在第二次执行之前，您已经拥有了包含两行数据的文件“CustomerData.txt”。***
 
-```
+```java
 *Ramesh ,       100
 Rohan ,       101*
 ```
 
 ***当您在追加模式下写入数据时，新数据将在文件中已经存在的数据之后写入。因此，文件“CustomerData.txt”将如下所示:***
 
-```
+```java
 *Ramesh ,       100
 Rohan ,       101
 Chetan ,       100*

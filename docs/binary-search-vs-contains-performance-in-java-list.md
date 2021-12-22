@@ -26,7 +26,7 @@ Java 提供了两种方法，即[collections . binary search()](https://www.geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to compare the performance
 // of contains() and Collections.binarySearch()
 // For a Small List (Case 1)
@@ -81,7 +81,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Time taken to find 40 inside arr using contains() = 16286 nano seconds
 Time taken to find 40 inside arr using binarySearch() = 87957 nano seconds
 ```
@@ -94,7 +94,7 @@ Time taken to find 40 inside arr using binarySearch() = 87957 nano seconds
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Find and Compare the Performance
 // of conatins() and Collections.sort() Methods
 // For Large Sorted ArrayList (Case 2)
@@ -151,7 +151,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Time taken to find 40000 inside arr using contains() = 6651276 nano seconds
 Time taken to find 40000 inside arr using binarySearch() = 85231 nano seconds
 ```
@@ -164,7 +164,7 @@ Time taken to find 40000 inside arr using binarySearch() = 85231 nano seconds
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to compare the performance
 // of contains() and Collections.sort() method
 //  on an unsorted ArrayList (Case3)
@@ -231,7 +231,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Time takes to find 66181 inside arr using contains() = 8331486 nano seconds
 Time takes to find 66181 inside arr using binarySearch() = 140322701 nano seconds
 ```

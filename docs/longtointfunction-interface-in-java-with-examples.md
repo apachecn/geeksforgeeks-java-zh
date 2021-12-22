@@ -14,7 +14,7 @@ LongToIntFunction 接口只有一个功能:
 
 **语法:**
 
-```
+```java
 int applyAsInt(long value)
 ```
 
@@ -26,7 +26,7 @@ int applyAsInt(long value)
 
 **程序**
 
-```
+```java
 // Java Program to demonstrate
 // LongToIntFunction's applyAsInt() method
 
@@ -48,7 +48,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 200000
 
 ```

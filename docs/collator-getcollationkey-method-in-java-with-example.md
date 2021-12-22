@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract CollationKey
        getCollationKey(String source)
 ```
@@ -20,7 +20,7 @@ public abstract CollationKey
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getCollationKey() method
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Series of bits are :- Geek
 ```
 
@@ -76,7 +76,7 @@ Series of bits are :- Geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getCollationKey() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Series of bits are :- CodeBlock
 ```
 

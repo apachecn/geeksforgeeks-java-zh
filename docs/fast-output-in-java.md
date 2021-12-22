@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print VeryLarge Bunch of Numbers
 // without using fast output concept
 
@@ -65,7 +65,7 @@ System.out 变量引用了一个包装缓冲区输出流的打印流类型的对
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print VeryLarge Bunch of Numbers
 
 // Importing input output classes

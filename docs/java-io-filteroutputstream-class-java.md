@@ -10,7 +10,7 @@
 
 **申报:**
 
-```
+```java
 public class FilterOutputStream
    extends OutputStream
 ```
@@ -24,7 +24,7 @@ public class FilterOutputStream
 *   **write(int arg):Java . io . filteroutputstream . write(int arg)**将指定的字节写入输出流。
     **语法:**
 
-```
+```java
 public void write(int arg)
 Parameters : 
 arg : Source Bytes
@@ -38,7 +38,7 @@ In case any I/O error occurs.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of work(int arg)
 // method
 import java.io.*;
@@ -109,14 +109,14 @@ public class NewClass
     在我用过的程序中 **GEEKS.txt** 文件，程序会新建一个代码中给定名称的文件并写入其中。
     **输出:**
 
-```
+```java
 Character written by FilterOutputStream : M
 ```
 
 *   **写入(字节[]缓冲区):Java . io . filteroutputstream . write(字节[]缓冲区)**将**‘arg . length’**字节写入输出流。
     **语法:**
 
-```
+```java
 public void write(byte[] arg)
 Parameters : 
 buffer : Source Buffer to be written to the Output Stream
@@ -130,7 +130,7 @@ In case any I/O error occurs.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of work(byte
 // buffer) method
 import java.io.*;
@@ -198,7 +198,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 MOHIT
 ```
 
@@ -206,7 +206,7 @@ MOHIT
 
 **语法:**
 
-```
+```java
 public void write(write(byte[] buffer, int offset, int maxlen)
 Parameters : 
 buffer : Source Buffer to be written to the Output Stream
@@ -221,7 +221,7 @@ In case any I/O error occurs.
 *   **flush():Java . io . filteroutputstream . flush()**刷新输出流，不允许向流中写入任何数据。
     **语法:**
 
-```
+```java
 public void flush()
 Parameters : 
 ------
@@ -234,7 +234,7 @@ In case any I/O error occurs.
 *   **close():Java . io . filteroutputStream . close()**关闭流并将所有分配的资源释放给该流。
     **语法:**
 
-```
+```java
 public void close()
 Parameters : 
 ------
@@ -248,7 +248,7 @@ In case any I/O error occurs.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of
 // write(byte[] buffer, int offset, int maxlen),
 // flush(), close() method
@@ -320,7 +320,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 MOHIT
 ```
 

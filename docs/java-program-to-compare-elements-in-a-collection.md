@@ -6,7 +6,7 @@ A [集合](https://www.geeksforgeeks.org/collections-in-java-2/) 是以单个单
 
 **例:**
 
-```
+```java
 Input : List = [3, 5, 18, 4, 6]
 Output:
 Min value of our list : 3
@@ -30,7 +30,7 @@ All elements are equal
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Compare Elements in a Collection
 import java.io.*;
 import java.util.*;

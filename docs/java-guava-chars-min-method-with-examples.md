@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 public static char min(char... array) 
 ```
 
@@ -20,7 +20,7 @@ public static char min(char... array)
 
 ****例 1 :****
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.min() method
 
@@ -46,14 +46,14 @@ class GFG {
 
 ****输出:**
 
-```
+```java
 Minimum Value is : A
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.min() method
 
@@ -85,7 +85,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

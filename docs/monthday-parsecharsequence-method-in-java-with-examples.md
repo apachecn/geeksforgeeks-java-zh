@@ -5,7 +5,7 @@
 Java 中 **MonthDay** 类的 **parse(CharSequence text)** 方法用于从文本字符串中获取 **MonthDay** 的实例。
 **语法:**
 
-```
+```java
 public static MonthDay parse(
     CharSequence text)
 ```
@@ -20,7 +20,7 @@ public static MonthDay parse(
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.parse(CharSequence text) method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 MonthDay: --05-09
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.parse(CharSequence text) method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Month: MAY
 
 ```

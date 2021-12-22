@@ -13,7 +13,7 @@
 
 **语法:**匿名类表达式的语法类似于构造函数的调用，只是代码块中包含一个类定义。
 
-```
+```java
 // Test can be interface, abstract/concrete class
 Test t = new Test() 
 {
@@ -30,7 +30,7 @@ Test t = new Test()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the need for Anonymous Inner class
 
@@ -63,7 +63,7 @@ class MyClass implements Age {
 
 **Output:** 
 
-```
+```java
 Age is 21
 ```
 
@@ -78,7 +78,7 @@ lambda 表达式是在 Java 8 中添加的，并提供了以下功能。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate lambda expressions
 // to implement a user defined functional interface.
 
@@ -112,7 +112,7 @@ class Test {
 
 **Output:** 
 
-```
+```java
 10
 ```
 

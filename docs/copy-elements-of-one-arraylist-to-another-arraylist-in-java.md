@@ -6,7 +6,7 @@
 
 **数组列表初始化语法:**
 
-```
+```java
 ArrayList<Integer> gfg=new ArrayList<>();
 ```
 
@@ -20,7 +20,7 @@ ArrayList<Integer> gfg=new ArrayList<>();
 
 **语法:**
 
-```
+```java
 ArrayList<Integer> gfg=new ArrayList<>();
 ArrayList<Integer> gfg2=gfg;
 ```
@@ -29,7 +29,7 @@ ArrayList<Integer> gfg2=gfg;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for copying one ArrayList to another
 
 import java.io.*;
@@ -72,7 +72,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -----Iterating over the second ArrayList----
 10
 21
@@ -89,7 +89,7 @@ third element of second list =23
 
 **语法:**
 
-```
+```java
 ArrayList<Integer> gfg=new ArrayList<>();
 ArrayList<Integer> gfg2=new ArrayList<>(gfg);
 ```
@@ -98,7 +98,7 @@ ArrayList<Integer> gfg2=new ArrayList<>(gfg);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for  copying one ArrayList to another
 
 import java.io.*;
@@ -141,7 +141,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -----Iterating over the second ArrayList----
 10
 21
@@ -158,7 +158,7 @@ third element of second list =23
 
 **语法:**
 
-```
+```java
 ArrayList<Integer> gfg=new ArrayList<>();
 ArrayList<Integer> gfg2=new ArrayList<>();
 for(Integer val: gfg){
@@ -170,7 +170,7 @@ gfg2.add(val);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for  copying one ArrayList to another
 
 import java.io.*;
@@ -219,7 +219,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -----Iterating over the second ArrayList----
 10
 21

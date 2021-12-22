@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int getDigestLength()
 ```
 
@@ -16,7 +16,7 @@ public final int getDigestLength()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDigestLength() method
 
@@ -55,14 +55,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Message digest length : 32
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDigestLength() method
 
@@ -97,7 +97,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Message digest length : 16
 
 ```

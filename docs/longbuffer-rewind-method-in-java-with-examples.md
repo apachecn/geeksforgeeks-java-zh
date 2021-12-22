@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public LongBuffer rewind()
 ```
 
@@ -21,7 +21,7 @@ public LongBuffer rewind()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // rewind() method
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Buffer before operation: [10, 20, 0, 0]
 Position: 2
 Limit: 4
@@ -82,7 +82,7 @@ Limit: 4
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // rewind() method
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Buffer before operation: [10, 20, 30, 0, 0]
 Position: 3
 Limit: 5

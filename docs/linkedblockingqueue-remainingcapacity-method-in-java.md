@@ -11,7 +11,7 @@ LinkedBlockingQueue 的 **remainingCapacity()** 方法返回可以添加到 Link
 
 **语法:**
 
-```
+```java
 public int remainingCapacity()
 ```
 
@@ -21,7 +21,7 @@ public int remainingCapacity()
 
 **程序 1:** 使用 remaining Capacity()方法返回 LinkedBlockingQueue 的剩余容量，其中 LinkedBlockingQueue 包含名称列表。
 
-```
+```java
 // Java Program Demonstrate remainingCapacity()
 // method of LinkedBlockingQueue
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue is [John, Tom, Clark, Kat]
 Remaining Capacity of Queue is 3
 
@@ -67,7 +67,7 @@ Remaining Capacity of Queue is 3
 
 **程序 2:** 查找包含员工列表的链接锁定队列的剩余容量。
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of LinkedBlockingQueue
 
@@ -142,7 +142,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Adding employee is success true
 Remaining Capacity of list :4
 Adding employee is success true

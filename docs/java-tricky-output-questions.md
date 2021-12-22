@@ -4,7 +4,7 @@
 
 **问题 1:** 下面代码的输出是什么:
 
-```
+```java
 public class A {
     public static void main(String[] args)
     {
@@ -24,7 +24,7 @@ public class A {
 
 **问题 2:** 下面代码的输出会是什么:
 
-```
+```java
 public class A {
     public static void main(String[] args)
     {
@@ -44,7 +44,7 @@ public class A {
 
 **问题 3:** 下面代码的输出会是什么:
 
-```
+```java
 public class A {
     public static void main(String[] args)
     {
@@ -63,7 +63,7 @@ T3】原因:看起来$会造成错误，但不会。在 java 中，标识符规�
 
 **问题 4:** 下面代码的输出会是什么:
 
-```
+```java
 public class Demo{
     public static void main(String[] arr){
         Integer num1 = 100;
@@ -102,7 +102,7 @@ num3！= num4
 
 **问题 5:** 下面代码的输出会是什么:
 
-```
+```java
 public class Demo{
     public static void main(String[] arr){
 

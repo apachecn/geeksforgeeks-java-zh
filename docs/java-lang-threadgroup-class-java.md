@@ -11,7 +11,7 @@
 
 1.  **公共线程组(字符串名称):**构建一个新的线程组。这个新组的父组是当前正在运行的线程的线程组。
 
-    ```
+    ```java
     Throws: SecurityException - if the current thread cannot
      create a thread in the specified thread group.
 
@@ -19,7 +19,7 @@
 
 2.  **公共线程组(线程组父级，字符串名称):**创建新的线程组。这个新组的父组是指定的线程组。
 
-```
+```java
 Throws: 
 NullPointerException - if the thread group argument is null.
 SecurityException - if the current thread cannot create a thread in the 
@@ -31,7 +31,7 @@ specified thread group.
 
 1.  **int activeCount():** This method returns the number of threads in the group plus any group for which this thread is parent.
 
-    ```
+    ```java
     Syntax: public int activeCount()
     Returns: This method returns an estimate of the number of 
     active threads in this thread group and in any other thread group 
@@ -40,7 +40,7 @@ specified thread group.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating activeCount() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -87,7 +87,7 @@ specified thread group.
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     number of active thread: 2
@@ -96,14 +96,14 @@ specified thread group.
 
 2.  **int activeGroupCount():** This method returns an estimate of the number of active groups in this thread group.
 
-    ```
+    ```java
     Syntax: public int activeGroupCount().
     Returns: Returns the number of groups for which the invoking thread is parent.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating activeGroupCount() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -154,7 +154,7 @@ specified thread group.
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     number of active thread group: 2
@@ -165,14 +165,14 @@ specified thread group.
 
 3.  **void checkAccess():** Causes the security manager to verify that the invoking thread may access and/ or change the group on which **checkAccess()** is called.
 
-    ```
+    ```java
     Syntax: final void checkAccess().
     Returns: NA.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating checkAccess() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -224,7 +224,7 @@ specified thread group.
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     Parent thread has access
@@ -236,7 +236,7 @@ specified thread group.
 
 4.  **void destroy():** 销毁线程组及其被调用的任何子组。
 
-```
+```java
 Syntax: public void destroy().
 Returns: NA.
 Exception: 
@@ -246,7 +246,7 @@ SecurityException - if the current thread cannot modify this thread group.
 
 ```
 
-```
+```java
 // Java code illustrating destroy() method
 import java.lang.*;
 class NewThread extends Thread 
@@ -304,7 +304,7 @@ public class ThreadGroupDemo 
 
 输出:
 
-```
+```java
 Starting one
 Starting two
 child thread destroyed
@@ -314,7 +314,7 @@ Parent thread destroyed
 
 11.  **int enumerate(Thread group[]):** The thread that comprise the invoking thread group are put into the group array.
 
-    ```
+    ```java
     Syntax: public int enumerate(Thread group[]).
     Returns: the number of threads put into the array.
     Exception: SecurityException - if the current thread 
@@ -322,7 +322,7 @@ Parent thread destroyed
 
     ```
 
-    ```
+    ```java
     // Java code illustrating enumerate() method.
     import java.lang.*;
     class NewThread extends Thread 
@@ -377,7 +377,7 @@ Parent thread destroyed
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     Thread one found
@@ -389,7 +389,7 @@ Parent thread destroyed
 
 12.  **int enumerate(Thread[] group, boolean recurse):** The threads that comprise the invoking thread group are put into the group array. If all is **true**, then threads in all subgroups of the thread are also put into group.
 
-    ```
+    ```java
     Syntax: public int enumerate(Thread[] list, boolean recurse).
     Returns: the number of threads placed into the array.
     Exception: SecurityException - if the current thread does 
@@ -397,7 +397,7 @@ Parent thread destroyed
 
     ```
 
-    ```
+    ```java
     // Java code illustrating enumerate(Thread[] group, boolean recurse)
     import java.lang.*;
     class NewThread extends Thread 
@@ -453,7 +453,7 @@ Parent thread destroyed
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     Thread one found
@@ -465,7 +465,7 @@ Parent thread destroyed
 
 13.  **int enumerate(ThreadGroup[] group):** The subgroups of the evoking thread group are put into the group array.
 
-    ```
+    ```java
     Syntax: public int enumerate(ThreadGroup[] group).
     Returns: the number of thread groups put into the array.
     Exception: SecurityException - if the current thread does 
@@ -473,7 +473,7 @@ Parent thread destroyed
 
     ```
 
-    ```
+    ```java
     // Java code illustrating enumerate(ThreadGroup[] group) method
     import java.lang.*;
     class NewThread extends Thread 
@@ -530,7 +530,7 @@ Parent thread destroyed
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     ThreadGroup child thread found
@@ -541,7 +541,7 @@ Parent thread destroyed
 
 14.  **int enumerate(ThreadGroup[] group, boolean all):** The subgroups of the invoking thread group are put into the group array. If all is **true**, then all subgroups of the subgroups(and so on) are also put into group.
 
-    ```
+    ```java
     Syntax: public int enumerate(ThreadGroup[] group, boolean all)
     Returns: the number of thread groups put into the array.
     Exception: SecurityException - if the current thread does 
@@ -549,7 +549,7 @@ Parent thread destroyed
 
     ```
 
-    ```
+    ```java
     // Java code illustrating enumerate(ThreadGroup[] group, boolean all)
     import java.lang.*;
     class NewThread extends Thread 
@@ -606,7 +606,7 @@ Parent thread destroyed
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     ThreadGroup child thread found
@@ -617,14 +617,14 @@ Parent thread destroyed
 
 15.  **int getMaxPriority():** 返回组的最大优先级设置。
 
-```
+```java
 Syntax: final int getMaxPriority().
 Returns: the maximum priority that a thread in this thread group can have.
 Exception: NA.
 
 ```
 
-```
+```java
 // Java code illustrating getMaxPriority() method
 import java.lang.*;
 class NewThread extends Thread 
@@ -675,7 +675,7 @@ public class ThreadGroupDemo 
 
 输出:
 
-```
+```java
 Maximum priority of ParentThreadGroup = 10
 Starting one
 Starting two
@@ -686,14 +686,14 @@ one finished executing
 
 22.  **String getName():** This method returns the name of the group.
 
-    ```
+    ```java
     Syntax: final String getName().
     Returns: the name of this thread group.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating getName() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -740,7 +740,7 @@ one finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     two finished executing
@@ -750,7 +750,7 @@ one finished executing
 
 23.  **ThreadGroup getParent():** Returns null if the invoking ThreadGroup object has no parent. Otherwise, it returns the parent of the invoking object.
 
-    ```
+    ```java
     Syntax: final ThreadGroup getParent().
     Returns: the parent of this thread group. 
     The top-level thread group is the only thread group 
@@ -760,7 +760,7 @@ one finished executing
 
     ```
 
-    ```
+    ```java
     // Java code illustrating getParent() method
     import java.lang.*;
     class NewThread extends Thread {
@@ -808,7 +808,7 @@ one finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     ParentThreadGroup for Parent thread is main
@@ -820,7 +820,7 @@ one finished executing
 
 24.  **void interrupt():** Invokes the **interrupt()** methods of all threads in the group.
 
-    ```
+    ```java
     Syntax: public final void interrupt().
     Returns: NA.
     Exception: SecurityException - if the current thread is not 
@@ -828,7 +828,7 @@ one finished executing
 
     ```
 
-    ```
+    ```java
     // Java code illustrating interrupt() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -879,7 +879,7 @@ one finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     Thread two interrupted
@@ -891,14 +891,14 @@ one finished executing
 
 25.  **boolean isDaemon():** Tests if this thread group is a daemon thread group. A daemon thread group is automatically destroyed when its last thread is stopped or its last thread group is destroyed.
 
-    ```
+    ```java
     Syntax: public final boolean isDaemon().
     Returns: true if the group is daemon group. Otherwise it returns false.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating isDaemon() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -951,7 +951,7 @@ one finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     Group is not Daemon group
@@ -962,14 +962,14 @@ one finished executing
 
 26.  **boolean isDestroyed():** 此方法测试该线程组是否已被销毁。
 
-```
+```java
 Syntax: public boolean isDestroyed().
 Returns: true if this object is destroyed.
 Exception: NA.
 
 ```
 
-```
+```java
 // Java code illustrating isDestroyed() method
 import java.lang.*;
 class NewThread extends Thread 
@@ -1022,7 +1022,7 @@ public class ThreadGroupDemo 
 
 输出:
 
-```
+```java
 Starting one
 Starting two
 Group is not destroyed
@@ -1033,14 +1033,14 @@ two finished executing
 
 33.  **void list():** Displays information about the group.
 
-    ```
+    ```java
     Syntax: public void list().
     Returns: NA.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating list() method.
     import java.lang.*;
     class NewThread extends Thread 
@@ -1095,7 +1095,7 @@ two finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
 
@@ -1111,7 +1111,7 @@ two finished executing
 
 34.  **boolean parentOf(ThreadGroup group):** This method tests if this thread group is either the thread group argument or one of its ancestor thread groups.
 
-    ```
+    ```java
     Syntax: final boolean parentOf(ThreadGroup group).
     Returns: true if the invoking thread is the parent 
     of group(or group itself). Otherwise, it returns false.
@@ -1119,7 +1119,7 @@ two finished executing
 
     ```
 
-    ```
+    ```java
     // Java code illustrating parentOf() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -1172,7 +1172,7 @@ two finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     Parent thread is parent of child thread
@@ -1183,7 +1183,7 @@ two finished executing
 
 35.  **void setDaemon(boolean isDaemon):** This method changes the daemon status of this thread group. A daemon thread group is automatically destroyed when its last thread is stopped or its last thread group is destroyed.
 
-    ```
+    ```java
     Syntax: final void setDaemon(boolean isDaemon).
     Returns: If isDaemon is true, then the invoking group is 
     flagged as a daemon group.
@@ -1192,7 +1192,7 @@ two finished executing
 
     ```
 
-    ```
+    ```java
     // Java code illustrating setDaemon() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -1250,7 +1250,7 @@ two finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     Parent Thread group and child thread group is daemon
@@ -1261,7 +1261,7 @@ two finished executing
 
 36.  **void setMaxPriority(int priority):** Sets the maximum priority of the invoking group to priority.
 
-    ```
+    ```java
     Syntax: final void setMaxPriority(int priority).
     Returns: NA.
     Exception: SecurityException - if the current thread 
@@ -1270,7 +1270,7 @@ two finished executing
 
     ```
 
-    ```
+    ```java
     // Java code illustrating setMaxPriority() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -1325,7 +1325,7 @@ two finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     two [priority = 5] finished executing.
@@ -1335,7 +1335,7 @@ two finished executing
 
 37.  **String toString():** This method returns a string representation of this Thread group.
 
-    ```
+    ```java
     Syntax: public String toString().
     Returns: String equivalent of the group.
     Exception: SecurityException - if the current thread 
@@ -1343,7 +1343,7 @@ two finished executing
 
     ```
 
-    ```
+    ```java
     // Java code illustrating toString() method
     import java.lang.*;
     class NewThread extends Thread 
@@ -1399,7 +1399,7 @@ two finished executing
 
     输出:
 
-    ```
+    ```java
     Starting one
     Starting two
     String equivalent: java.lang.ThreadGroup[name=Parent thread, maxpri=10]

@@ -6,7 +6,7 @@ Java 中 **LocalDate** 类的**of pochday(长 epochDay)** 方法用于从历元�
 
 **语法:**
 
-```
+```java
 public static LocalDate ofEpochDay(long epochDay)
 
 ```
@@ -21,7 +21,7 @@ public static LocalDate ofEpochDay(long epochDay)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.ofEpochDay(long epochDay) method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Date: 1970-04-11
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.ofEpochDay(long epochDay) method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Date: 1971-01-01
 
 ```

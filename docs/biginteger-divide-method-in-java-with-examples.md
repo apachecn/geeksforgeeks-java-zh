@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger divide(BigInteger val)
 
 ```
@@ -21,7 +21,7 @@ public BigInteger divide(BigInteger val)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // divide() method of BigInteger
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The division of
 400000000000000000000000000000000000 
 by
@@ -71,7 +71,7 @@ is
 
 **示例 2:** 演示如何舍入结果
 
-```
+```java
 // Java program to demonstrate
 // divide() method of BigInteger
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The division of
 456216545 
 by
@@ -127,7 +127,7 @@ Using double result is 21.46383024109189
 
 **示例 3:** 演示被 0 除时抛出的异常
 
-```
+```java
 // Java program to demonstrate
 // divide() method of BigInteger
 
@@ -170,7 +170,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: BigInteger divide by zero
 
 ```

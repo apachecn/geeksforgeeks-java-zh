@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Spliterator<E> spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator<E> spliterator()
 
 **示例 1:** 演示包含数字列表的 ArrayDeque 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of ArrayDeque
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 list of Numbers:
 1234
 2345
@@ -62,7 +62,7 @@ list of Numbers:
 
 **示例 2:** 演示包含字符串列表的 ArrayDeque 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of ArrayDeque
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 list of Cities:
 City Name: Kolkata
 City Name: Delhi

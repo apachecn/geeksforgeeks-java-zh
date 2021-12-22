@@ -5,7 +5,7 @@
 **Java . security . keypairgenerator**类的 **getAlgorithm()** 方法用于返回该密钥对生成器的算法的标准名称。有关标准算法名称的信息，请参见 Java 加密体系结构标准算法名称文档中的密钥生成器部分。
 **语法:**
 
-```
+```java
 public String getAlgorithm()
 ```
 
@@ -15,7 +15,7 @@ public String getAlgorithm()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // genKeyPair() method
 
@@ -49,7 +49,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Algorithm : RSA
 ```
 
@@ -57,7 +57,7 @@ Algorithm : RSA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // genKeyPair() method
 
@@ -91,6 +91,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Algorithm : DiffieHellman
 ```

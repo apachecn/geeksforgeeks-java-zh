@@ -6,7 +6,7 @@ Java 中**类收集器的**collecting ten(收集器下游，函数整理器)**�
 
 **语法:**
 
-```
+```java
 public static <T, A, R, RR> 
        Collector <T, A, RR> 
        collectingAndThen(Collector <T, A, R> downstream, 
@@ -28,7 +28,7 @@ Where,
 
     **示例 1:** 创建不可变列表
 
-    ```
+    ```java
     // Write Java code here
     // Collectors collectingAndThen() method
 
@@ -55,14 +55,14 @@ Where,
 
     **Output:**
 
-    ```
+    ```java
     [GEEKS, For, GEEKS]
 
     ```
 
     **示例 2:** 创建不可移植集。
 
-    ```
+    ```java
     // Write Java code here
     import java.util.Collections;
     import java.util.List;
@@ -89,14 +89,14 @@ Where,
 
     **Output:**
 
-    ```
+    ```java
     [GEEKS, FOR]
 
     ```
 
     **示例 2:** 创建不可变地图
 
-    ```
+    ```java
     import java.util.*;
 
     public class GFG {
@@ -122,7 +122,7 @@ Where,
 
     **Output:**
 
-    ```
+    ```java
     {1=Geeks, 2=For, 3=Geeks}
 
     ```

@@ -8,7 +8,7 @@
 
 1.  在这种方法中，用户实际上将实现 Runnable 的类的类定义放在主类的类定义中。
 
-    ```
+    ```java
     public class OuterClass{
         private class InnerClass implements Runnable{
             public void run(){
@@ -20,14 +20,14 @@
 
 2.  run()方法然后被放在内部类中，并被传递给 execute 方法。执行并不真正意味着执行。意思是可供执行。例如，如果用户的池大小为 5，并且任务队列中有 10 个任务，则第 6 个任务直到前 5 个任务中的一个完成后才会开始执行。
 
-    ```
+    ```java
     taskList.execute(new InnerClass());
 
     ```
 
 **实际执行:**
 
-```
+```java
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -98,7 +98,7 @@ public class OuterClass {
 
 **输出:**
 
-```
+```java
 
 pool-1-thread-1 Counter: 0
 pool-1-thread-2 Counter: 0
@@ -134,7 +134,7 @@ pool-1-thread-1 Counter: 4
 
 **实际执行:**
 
-```
+```java
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -197,7 +197,7 @@ public class MyClass {
 
 **输出:**
 
-```
+```java
 pool-1-thread-1 Counter:0
 pool-1-thread-2 Counter:0
 pool-1-thread-2 Counter:1

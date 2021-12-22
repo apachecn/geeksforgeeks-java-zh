@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Checked Exceptions
 // Where FileNotFoundException occured
 
@@ -59,7 +59,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Checked Exceptions
 // Where FileNotFoundException does not occur
 
@@ -94,7 +94,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 First three lines of file "C:\test\a.txt"
 ```
 
@@ -108,7 +108,7 @@ First three lines of file "C:\test\a.txt"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Un-checked Exceptions
 
 // Main class
@@ -130,7 +130,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.ArithmeticException: / by zero
     at Main.main(Main.java:5)
 Java Result: 1

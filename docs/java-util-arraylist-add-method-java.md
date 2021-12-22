@@ -6,13 +6,13 @@
 
 1.  **布尔 add(Object o)** :这个方法在这个列表的末尾追加指定的元素。
 
-    ```
+    ```java
     Parameters:    
     object o: The element to be appended to this list.
     Exception: NA
     ```
 
-    ```
+    ```java
     // Java code to illustrate add(Object o)
     import java.io.*;
     import java.util.ArrayList;
@@ -39,7 +39,7 @@
 
     输出:
 
-    ```
+    ```java
     Number = 15
     Number = 20
     Number = 25
@@ -48,7 +48,7 @@
 
 2.  **void add(int index，Object element)** :此方法在此列表的指定位置插入指定元素 E。它会将当前在该位置的元素(如果有)和任何后续元素向右移动(将一个元素添加到它们的索引中)。
 
-    ```
+    ```java
     Parameters:
     index : The index at which the specified element is to be inserted.
     element : The element to be inserted.
@@ -58,7 +58,7 @@
     index is out of range (index  size()).
     ```
 
-    ```
+    ```java
     // Java code to illustrate
     // void add(int index, Object element)
     import java.io.*;
@@ -90,7 +90,7 @@
 
     输出:
 
-    ```
+    ```java
     Number = 10
     Number = 22
     Number = 30

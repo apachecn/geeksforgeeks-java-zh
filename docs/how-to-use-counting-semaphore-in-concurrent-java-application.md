@@ -19,7 +19,7 @@ Java [计数信号量](https://www.geeksforgeeks.org/semaphores-in-process-synch
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate use Counting Semaphore
 // in Concurrent Java Application
 
@@ -113,7 +113,7 @@ public class SemaphoreTest {
 
 **Output**
 
-```
+```java
 Thread-0 inside mutual exclusive 
 Thread-1 inside mutual exclusive 
 Thread-0 outside of mutual exclusive 

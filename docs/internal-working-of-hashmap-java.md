@@ -16,7 +16,7 @@
 
 哈希是使用方法 hashCode()将对象转换为整数形式的过程。为了提高 HashMap 的性能，有必要适当地编写 hashCode()方法。这里我使用我自己的类的键，这样我就可以覆盖 hashCode()方法来显示不同的场景。我的重点班是
 
-```
+```java
 //custom Key class to override hashCode()
 // and equals() method
 class Key
@@ -58,7 +58,7 @@ HashMap 使用 equals()来比较键是否相等。如果 equals()方法返回 tr
 
 桶是 HashMap 数组的一个元素。它用于存储节点。两个或多个节点可以有同一个桶。在这种情况下，链接列表结构用于连接节点。水桶的容量不同。铲斗和容量之间的关系如下:
 
-```
+```java
 capacity = number of buckets * load factor
 
 ```
@@ -69,7 +69,7 @@ capacity = number of buckets * load factor
 
 密钥的哈希代码可能大到足以创建数组。生成的哈希代码可能在整数范围内，如果我们为这样的范围创建数组，那么很容易导致 outOfMemoryException。所以我们生成索引来最小化数组的大小。基本上执行以下操作来计算指数。
 
-```
+```java
 index = hashCode(key) & (n-1).
 
 ```
@@ -82,7 +82,7 @@ index = hashCode(key) & (n-1).
 
 *   **初始清空 hashMap:** 这里 hashMap 的大小取为 16。
 
-```
+```java
 HashMap map = new HashMap();
 
 ```
@@ -93,7 +93,7 @@ HashMap map = new HashMap();
 
 *   **插入键值对:**将一个键值对放入上面的 HashMap
 
-```
+```java
 map.put(new Key("vishal"), 20);
 
 ```
@@ -103,7 +103,7 @@ map.put(new Key("vishal"), 20);
     2.  用指数法计算指数，它将是 6。
     3.  将节点对象创建为:
 
-```
+```java
 {
   int hash = 118
 
@@ -121,7 +121,7 @@ map.put(new Key("vishal"), 20);
 
 *   **插入另一个键值对:**现在，放入另一个键值对，即
 
-```
+```java
 map.put(new Key("sachin"), 30);
 
 ```
@@ -131,7 +131,7 @@ map.put(new Key("sachin"), 30);
     2.  用指数法计算指数，它将是 3。
     3.  将节点对象创建为:
 
-```
+```java
 {
   int hash = 115
   Key key = {"sachin"}
@@ -143,7 +143,7 @@ map.put(new Key("sachin"), 30);
 
 *   **发生碰撞时:**现在，再放一对即
 
-```
+```java
 map.put(new Key("vaibhav"), 40);
 
 ```
@@ -153,7 +153,7 @@ map.put(new Key("vaibhav"), 40);
     2.  用指数法计算指数，它将是 6。
     3.  将节点对象创建为:
 
-```
+```java
  {
   int hash = 118
   Key key = {"vaibhav"}
@@ -178,7 +178,7 @@ map.put(new Key("vaibhav"), 40);
 
 *   **获取密钥包的数据:**
 
-```
+```java
 map.get(new Key("sachin"));
 
 ```
@@ -190,7 +190,7 @@ map.get(new Key("sachin"));
     4.  在我们的例子中，它被发现是第一个元素，返回值是 30。
 *   获取密钥 vaibahv 的数据:
 
-```
+```java
 map.get(new Key("vaibhav"));
 
 ```

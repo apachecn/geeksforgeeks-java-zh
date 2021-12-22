@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **isEqual()** 方法用于检查该日期是�
 
 **语法:**
 
-```
+```java
 public boolean isEqual(ChronoLocalDateTime other)
 ```
 
@@ -18,7 +18,7 @@ public boolean isEqual(ChronoLocalDateTime other)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the isEqual() method
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Date 1: 2018-11-03T12:45:30
 Date 2: 2018-11-03T12:45:30
 After comparison: true
@@ -61,7 +61,7 @@ After comparison: true
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the isEqual() method
 
 import java.util.*;
@@ -95,7 +95,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Date 1: 2010-12-05T12:50:30
 Date 2: 2012-05-10T12:50:30
 After comparison: false

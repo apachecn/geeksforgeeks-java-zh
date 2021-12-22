@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ChronoUnit valueOf(String name)
 
 ```
@@ -24,7 +24,7 @@ public static ChronoUnit valueOf(String name)
 以下程序说明了计时单位.值()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.valueOf() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ChronoUnit: Millennia
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoUnit.valueOf() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ChronoUnit: Centuries
 
 ```

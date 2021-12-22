@@ -27,7 +27,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Combine Two List
 // by Alternatingly Taking Elements
 
@@ -154,7 +154,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List1 contents: Geeks Geeks portal 
 List2 contents: for is CSE portal 
 Merged List contents: Geeks for Geeks is CSE portal portal 
@@ -164,7 +164,7 @@ Merged List contents: Geeks for Geeks is CSE portal portal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Combine Two List
 // by Alternatingly Taking Elements
 
@@ -292,7 +292,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List1 contents: 2 4 6 
 List2 contents: 1 3 5 7 
 Merged List contents: 1 2 3 4 5 6 7 

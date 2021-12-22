@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate working of printf() in Java
 class JavaFormatter1
 {
@@ -36,7 +36,7 @@ class JavaFormatter1
 
 **Output**
 
-```
+```java
 Printing simple integer: x = 100
 Formatted with precision: PI = 3.14
 Formatted to specific width: n = 5.2000
@@ -51,7 +51,7 @@ Formatted to right margin: n =         2324435.2500
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of DecimalFormat
 import java.text.DecimalFormat;
 
@@ -89,7 +89,7 @@ class JavaFormatter2
 
 **Output**
 
-```
+```java
 Without fraction part: num = 123
 Formatted to Give precision: num = 123.46
 appended zeroes to right: num = 123.456700

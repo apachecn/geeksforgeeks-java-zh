@@ -56,7 +56,7 @@ ArrayList [](https://www.geeksforgeeks.org/arraylist-in-java/)类实现了 List 
 
 *语法:*
 
-```
+```java
 ArrayList<?> arrayListName = new ArrayList<?>();
 ```
 
@@ -64,7 +64,7 @@ ArrayList<?> arrayListName = new ArrayList<?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example for ArrayList
 // All of the classes and
 // interfaces of the collection
@@ -121,7 +121,7 @@ public class BasicArrayList {
 
 **Output**
 
-```
+```java
 [10, 12, 25, 19, 11, 3]
 [10, 25, 19, 11]
 The ArrayList contains 25
@@ -134,7 +134,7 @@ The Element at index 1 now is 25
 
 *语法:*
 
-```
+```java
 Vector<?> vectorName = new Vector<?>();
 ```
 
@@ -142,7 +142,7 @@ Vector<?> vectorName = new Vector<?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example for Vector
 import java.util.*;
 
@@ -194,7 +194,7 @@ public class VectorExample {
 
 **Output**
 
-```
+```java
 The initial size of the Vector = 0
 
 The Vector intVector : 
@@ -214,7 +214,7 @@ The Vector intVector after using clear :
 
 *语法:*
 
-```
+```java
 Stack<?> stackName = new Stack<?>();
 ```
 
@@ -222,7 +222,7 @@ Stack<?> stackName = new Stack<?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example to show workings of a Stack
 import java.util.*;
 
@@ -272,7 +272,7 @@ public class StackExample {
 
 **Output**
 
-```
+```java
 The size of the Stack is : 4
 
 The string 'a' is at position 3
@@ -287,7 +287,7 @@ LinkedList 类实现了 List 接口和 Deque 接口。链表是链表数据结�
 
 *语法:*
 
-```
+```java
 LinkedList<?> linkedListName = new LinkedList<?>();
 ```
 
@@ -295,7 +295,7 @@ LinkedList<?> linkedListName = new LinkedList<?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example for the LinkedList
 import java.util.*;
 
@@ -336,7 +336,7 @@ public class LinkedListExample {
 
 **Output**
 
-```
+```java
 The contents of strLinkedList : 
 This is a LinkedList 
 
@@ -354,7 +354,7 @@ is LinkedList
 
 语法:
 
-```
+```java
 PriorityQueue<?> priorityQueueName = new PriorityQueue<?>();
 ```
 
@@ -362,7 +362,7 @@ PriorityQueue<?> priorityQueueName = new PriorityQueue<?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example for PriorityQueue
 import java.util.*;
 
@@ -413,7 +413,7 @@ public class PriorityQueueExample {
 
 **Output**
 
-```
+```java
 The contents of intPriorityQueue : 
 [1, 13, 17, 20, 87]
 
@@ -438,7 +438,7 @@ ArrayDeque 类实现了 Deque 接口。ArrayDeque 是 Deque 的一个相当大�
 
 *语法:*
 
-```
+```java
 ArrayDeque<?> arrayDequeName = new ArrayDeque<?>();
 ```
 
@@ -458,7 +458,7 @@ HashSet [](https://www.geeksforgeeks.org/hashset-in-java/)类实现了 Set 接�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example for HashSet and LinkedHashSet
 import java.util.*;
 
@@ -511,7 +511,7 @@ public class HashSetAndLinkedHashSet {
 
 **Output**
 
-```
+```java
 Contents of HashSet : 
 a This is HashSet 
 
@@ -533,7 +533,7 @@ TreeSet 类实现了可导航接口。顾名思义，TreeSet 使用树结构来�
 
 *语法:*
 
-```
+```java
 TreeSet<?> treeSetName = new TreeSet<?>();
 ```
 
@@ -541,7 +541,7 @@ TreeSet<?> treeSetName = new TreeSet<?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example for TreeSet
 import java.util.*;
 
@@ -600,7 +600,7 @@ public class TreeSetExample {
 
 **Output**
 
-```
+```java
 The contents of intTreeSet : 
 [13, 18, 29, 56, 73]
 
@@ -622,7 +622,7 @@ HashMap [](https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples
 
 *语法:*
 
-```
+```java
 HashMap<? , ?> hashMapName = new HashMap<? , ?>();
 ```
 
@@ -632,7 +632,7 @@ HashMap<? , ?> hashMapName = new HashMap<? , ?>();
 
 *语法:*
 
-```
+```java
 HashTable<? , ?> hashTableName = new HashTable<? , ?>();
 ```
 
@@ -642,7 +642,7 @@ LinkedHashMap 类实现了映射接口。LinkedHashMap 是映射的哈希映射�
 
 语法:
 
-```
+```java
 LinkedHashMap<? , ?> linkedHashMapName = new LinkedHashMap<? , ?>();
 ```
 
@@ -650,7 +650,7 @@ LinkedHashMap<? , ?> linkedHashMapName = new LinkedHashMap<? , ?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example for HashMap,
 // Hashtable and LinkedHashMap
 import java.util.*;
@@ -737,7 +737,7 @@ public class MapImplementaionExample {
 
 **Output**
 
-```
+```java
 Contents of hashMap : 
 [1=This, 2=is, 3=HashMap]
 Contents of hashMap after adding duplicate : 
@@ -764,7 +764,7 @@ TreeMap 类实现了 SortedMap 接口。TreeMap 类使用红黑树结构进行�
 
 *语法:*
 
-```
+```java
 TreeMap<? , ?> treeMapName = new TreeMap<? , ?>();
 ```
 
@@ -772,7 +772,7 @@ TreeMap<? , ?> treeMapName = new TreeMap<? , ?>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An example of TreeMap
 import java.util.*;
 
@@ -809,7 +809,7 @@ public class TreeMapExample {
 
 **Output**
 
-```
+```java
 The contents of treeMap : 
 {1=This, 2=is, 3=TreeMap}
 

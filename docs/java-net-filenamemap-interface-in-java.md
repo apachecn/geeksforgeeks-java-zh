@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public interface FileNameMap
 ```
 
@@ -18,7 +18,7 @@ public interface FileNameMap
 
 **语法:**
 
-```
+```java
 String getContentTypeFor(String fileName)
 ```
 
@@ -30,13 +30,13 @@ String getContentTypeFor(String fileName)
 
 **步骤 1:** 使用**静态方法从数据文件中加载文件名映射**
 
-```
+```java
 FileNameMap fileNameMap = URLConnection.getFileNameMap();
 ```
 
 **第二步:**它调用**file namemap . getcontenttypefor(字符串文件名)**方法，并传递文件名以获得它的 MIME 类型
 
-```
+```java
 String mimeType = fileNameMap.getContentFor(String nameOfTheFile);
 ```
 
@@ -44,7 +44,7 @@ String mimeType = fileNameMap.getContentFor(String nameOfTheFile);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demsonstrate the
 // working of the FileNameMap interface
 
@@ -92,7 +92,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Mime type of tmp.txt is text/plain
 Mime type of profile.png is image/png
 Mime type of gfg.mp4 is video/mp4

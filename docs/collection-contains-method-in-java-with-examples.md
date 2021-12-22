@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Collection.contains(Object element)
 
 ```
@@ -24,7 +24,7 @@ Collection.contains(Object element)
 
 **示例 1:** 使用链接列表类
 
-```
+```java
 // Java code to illustrate boolean contains() method
 
 import java.io.*;
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The list is: [Geeks, for, Geeks]
 Is Geeks present in the List: true
 
@@ -66,7 +66,7 @@ Is Geeks present in the List: true
 
 **例 2:** 使用 ArrayDeque 类
 
-```
+```java
 // Java code to illustrate contains() method
 
 import java.util.*;
@@ -100,7 +100,7 @@ public class ArrayDequeDemo {
 
 **输出:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 Is Geeks present in the ArrayDeque: true
 
@@ -108,7 +108,7 @@ Is Geeks present in the ArrayDeque: true
 
 **示例 3:** 使用数组列表类
 
-```
+```java
 // Java code to illustrate contains() method
 
 import java.io.*;
@@ -142,7 +142,7 @@ public class ArrayListDemo {
 
 **输出:**
 
-```
+```java
 ArrayList: [15, 20, 25]
 Is 20 present in the ArrayList: true
 
@@ -150,7 +150,7 @@ Is 20 present in the ArrayList: true
 
 **示例 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate boolean contains()
 
 import java.util.*;
@@ -179,7 +179,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 The ArrayList is: []
 
 ```

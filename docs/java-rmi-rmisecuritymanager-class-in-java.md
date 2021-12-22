@@ -9,7 +9,7 @@
 > *   如果本地安全管理器不是使用 System.setSecurityManager()方法的 RMISecurityManager
 > *   那么存根类只能从本地文件系统加载。
 
-```
+```java
 java.lang.Object
 java.lang.SecurityManager
 java.rmi.RMISecurityManager
@@ -17,7 +17,7 @@ java.rmi.RMISecurityManager
 
 **语法:**
 
-```
+```java
 *public class RMISecurityManager* 
 *extends SecurityManager*
 ```
@@ -32,7 +32,7 @@ java.rmi.RMISecurityManager
 
 **语法:**
 
-```
+```java
 System.setSecurityManager(new SecurityManager());
 ```
 
@@ -44,7 +44,7 @@ RMISecurityManager 实现的策略与 SecurityManager 实现的策略相同。RM
 
 **实施:**
 
-```
+```java
 if (System.getSecurityManager() == null) 
 {
     // Setting the RMISecurityManager on System
@@ -56,7 +56,7 @@ if (System.getSecurityManager() == null)
 
 插图 1:
 
-```
+```java
 // Protected synchronized method
 protected static synchronized void setSecurityManager() 
 {
@@ -70,7 +70,7 @@ protected static synchronized void setSecurityManager()
 
 **插图 2:**
 
-```
+```java
 // Synchronized method
 synchronized static void ensureSecurityManager() 
 {
@@ -84,7 +84,7 @@ synchronized static void ensureSecurityManager()
 
 **插图 3:**
 
-```
+```java
 // Protected synchronized method
 protected static synchronized void setSecurityManager() 
 {
@@ -100,7 +100,7 @@ protected static synchronized void setSecurityManager()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate RMISecurityManager Class
 // Via creating Registry and Rebinding Service
 
@@ -152,7 +152,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Service Start!
 ```
 

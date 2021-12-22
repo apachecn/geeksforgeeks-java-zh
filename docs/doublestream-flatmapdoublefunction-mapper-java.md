@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream flatMap(DoubleFunction<**?** extends DoubleStream> mapper)
 
 ```
@@ -23,7 +23,7 @@ DoubleStream flatMap(DoubleFunction<**?** extends DoubleStream> mapper)
 
 **例 1 :** 使用 DoubleStream flatMap()获取 DoubleStream 元素的立方体。
 
-```
+```java
 // Java code for DoubleStream flatMap
 // (DoubleFunction mapper) to get a stream
 // consisting of the results of replacing
@@ -52,7 +52,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 74.08800000000001
 148.87699999999998
 287.496
@@ -62,7 +62,7 @@ class GFG {
 
 **示例 2 :** 使用 DoubleStream flatMap()将 DoubleStream 的每个元素乘以 0.7
 
-```
+```java
 // Java code for DoubleStream flatMap
 // (DoubleFunction mapper) to get a stream
 // consisting of the results of replacing
@@ -91,7 +91,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3.6399999999999997
 4.4799999999999995
 5.669999999999999

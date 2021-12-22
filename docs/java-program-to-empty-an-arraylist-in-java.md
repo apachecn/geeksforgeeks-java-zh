@@ -13,7 +13,7 @@ ArrayList 类是一个可调整大小的数组，存在于“java.util 包”中
 
 **语法:**
 
-```
+```java
 public void clear() ;
 ```
 
@@ -27,7 +27,7 @@ public void clear() ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program  to empty an ArrayList in Java
 
 // Illustrating clear function
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Numbers ArrayList : [10, 20, 30, 40]
 Numbers ArrayList consists of 4 elements
 Performing clear operation by using clear function
@@ -94,7 +94,7 @@ Finally Numbers ArrayList consists of 0 elements
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection c) ;
 ```
 
@@ -108,7 +108,7 @@ public boolean removeAll(Collection c) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program  to empty an ArrayList in Java
 // Java code to illustrate removeAll function
 
@@ -162,7 +162,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Numbers ArrayList : [10, 20, 30, 40]
 Numbers ArrayList consists of 4 elements
 Performing clear operation by using clear function

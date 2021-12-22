@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static IntBuffer allocate(int capacity)
 ```
 
@@ -20,7 +20,7 @@ public static IntBuffer allocate(int capacity)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // allocate() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 IntBuffer: [11, 0, 19, 0, 0, 0, 0, 0, 0, 0]
 
 ```
 
 **示例 2:** 演示 IllegalArgumentException
 
-```
+```java
 // Java program to demonstrate
 // allocate() method
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to allocate a Negative Integer
 Exception thrown: java.lang.IllegalArgumentException
 

@@ -93,7 +93,7 @@ HTTP Client 和 WebSocket APIs 提供了到 HTTP 的高级客户端接口(版本
 
 用法以及如何获取请求以获取 APOD 数据
 
-```
+```java
 // Step 1: Create a neat value object to hold the URL
 URL url = new URL("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY");
 
@@ -128,7 +128,7 @@ System.out.println(apod.title);
 
 **说明:**同步请求
 
-```
+```java
 // Step 1: Create a client
 var client = HttpClient.newHttpClient();
 
@@ -169,7 +169,7 @@ Apache 软件基金会的 HTTP 客户端已经存在很长时间了。它们被�
 
 插图:
 
-```
+```java
 ObjectMapper mapper = new ObjectMapper();
 
 try (CloseableHttpClient client = HttpClients.createDefault()) 
@@ -191,7 +191,7 @@ OkHttp 是一个来自 Square 的 Http 客户端，具有许多有用的内置�
 
 **图解:**用 Jackson 解析 JSON
 
-```
+```java
 ObjectMapper mapper = new ObjectMapper();
 OkHttpClient client = new OkHttpClient();
 
@@ -212,7 +212,7 @@ System.out.println(apod.title);
 
 **2.3.1** 首先，我们需要创建一个接口，该接口声明我们想要针对 APOD API 调用的方法，并带有定义这些方法如何对应于 HTTP 请求的注释，如下所示:
 
-```
+```java
 public interface APODClient 
 {
   @GET("/planetary/apod")
@@ -228,7 +228,7 @@ public interface APODClient
 
 **图示:**生成客户端
 
-```
+```java
 Retrofit retrofit = new Retrofit.Builder().baseUrl("https://api.nasa.gov").addConverterFactory(JacksonConverterFactory.create()).build();
 
 APODClient apodClient = retrofit.create(APODClient.class);
@@ -249,7 +249,7 @@ System.out.println(apod.title);
 
 **实现:**创建自定义客户端
 
-```
+```java
 private OkHttpClient clientWithApiKey(String apiKey) {
     return new OkHttpClient.Builder()
 
@@ -290,7 +290,7 @@ private OkHttpClient clientWithApiKey(String apiKey) {
 
 **例**
 
-```
+```java
 import java.io.*;
 
 class {
@@ -316,7 +316,7 @@ class {
 
 > **注意:**使用 followRedirects()方法，可以设置重定向策略
 
-```
+```java
 HttpClient.newBuilder()
 followRedirects(HttpClient.Redirect.ALWAYS)
 build();
@@ -331,7 +331,7 @@ build();
 
 **例 1:**
 
-```
+```java
 HttpResponse<String> response = HttpClient.newBuilder()
 .build()
 .send(request, BodyHandlers.ofString());
@@ -341,7 +341,7 @@ HttpResponse<String> response = HttpClient.newBuilder()
 
 这种方法有很多缺点，尤其是在处理大量数据时。为了克服这个限制，您可以使用 sendAsync(…)方法，该方法返回一个 CompletableFeature <string>来异步处理请求:</string>
 
-```
+```java
 CompletableFuture<String> response = HttpClient.newBuilder()
 .build()
 .sendAsync(request, BodyHandlers.ofString())
@@ -352,7 +352,7 @@ CompletableFuture<String> response = HttpClient.newBuilder()
 
 **例 2:**
 
-```
+```java
 class  {
 
     public static void main (String[] args) {
@@ -378,7 +378,7 @@ CompletableFuture.allOf(requests.stream()
 }
 ```
 
-```
+```java
 CompletableFuture.allOf(requests.stream()
 .map(request ->client.sendAsync(request, ofString()))
 .toArray(CompletableFuture<?>[]::new))
@@ -393,7 +393,7 @@ CompletableFuture.allOf(requests.stream()
 
 **例 3:**
 
-```
+```java
 class {
 
     // Main driver method
@@ -413,7 +413,7 @@ class {
 }
 ```
 
-```
+```java
 CompletableFuture<HttpResponse<String>> response1 = HttpClient.newBuilder()
 .executor(executor)
 .build()

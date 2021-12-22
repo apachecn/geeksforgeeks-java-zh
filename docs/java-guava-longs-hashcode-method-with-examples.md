@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int hashCode(long value)
 
 ```
@@ -19,7 +19,7 @@ public static int hashCode(long value)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.hashCode() method
 
@@ -41,14 +41,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode value of 15: 15
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.hashCode() method
 
@@ -70,7 +70,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode value of 10: 10
 
 ```

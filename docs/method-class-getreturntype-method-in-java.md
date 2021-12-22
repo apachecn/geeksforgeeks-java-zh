@@ -8,7 +8,7 @@
 每个方法都有一个返回类型，无论它是 void、int、double、string 还是任何其他数据类型。方法类的 **getReturnType()** 方法返回一个 class 对象，该对象代表创建方法时在方法中声明的返回类型。
 **语法:**** 
 
-```
+```java
 **public Class<?> getReturnType()**
 ```
 
@@ -19,7 +19,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 /*
 * Program Demonstrate how to apply getReturnType() method
 * of Method Class.
@@ -90,7 +90,7 @@ class demoForReturnParam {
 
 ****Output:** 
 
-```
+```java
 Method Name : setManyValues
 Return Type Details: void
 
@@ -105,7 +105,7 @@ Return Type Details: int
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 /*
 * Program Demonstrate how to apply getReturnType() method
 * of Method Class.
@@ -165,7 +165,7 @@ public class GFG {
 
 ****Output:** 
 
-```
+```java
 Method Name : method3
 Return Type Details: void
 

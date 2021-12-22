@@ -31,7 +31,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort a Linked List using Bubble Sort
 
 public class SortList {
@@ -161,7 +161,7 @@ public class SortList {
 
 **Output**
 
-```
+```java
 Original list: 
 8 3 7 4 
 Sorted list: 
@@ -184,7 +184,7 @@ Sorted list:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort Linked List using Insertion Sort
 
 public class LinkedlistIS
@@ -300,7 +300,7 @@ public class LinkedlistIS
 
 **Output**
 
-```
+```java
 Linked List before Sorting..
 8 3 7 4 
 LinkedList After sorting

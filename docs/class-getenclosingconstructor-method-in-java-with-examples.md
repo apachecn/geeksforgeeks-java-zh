@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Constructor getEnclosingConstructor()
 
 ```
@@ -21,7 +21,7 @@ public Constructor getEnclosingConstructor()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getEnclosingConstructor() method
 
@@ -48,7 +48,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 EnclosingConstructor of myClass: null
 
@@ -56,7 +56,7 @@ EnclosingConstructor of myClass: null
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getEnclosingConstructor() method
 
@@ -93,7 +93,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 EnclosingConstructor of myClass: Main()
 
 ```

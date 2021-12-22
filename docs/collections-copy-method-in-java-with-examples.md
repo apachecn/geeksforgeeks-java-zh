@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static void copy(List dest, List src)
 ```
 
@@ -25,7 +25,7 @@ public static void copy(List dest, List src)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // copy() method
 
@@ -82,7 +82,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Value of source list: [Ram, Gopal, Verma]
 Value of destination list: [1, 2, 3]
 
@@ -95,7 +95,7 @@ Value of destination list: [Ram, Gopal, Verma]
 
 **示例 2:** 适用于*指数出界异常*
 
-```
+```java
 // Java program to demonstrate
 // copy() method
 
@@ -150,7 +150,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Value of source list: [Ram, Gopal, Verma]
 Value of destination list: [1, 2]
 

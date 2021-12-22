@@ -6,7 +6,7 @@ Java 中 **MonthDay 类**的 **atYear()** 方法将这个月日和一年结合�
 
 **语法:**
 
-```
+```java
 public LocalDate atYear(int year)
 ```
 
@@ -18,7 +18,7 @@ public LocalDate atYear(int year)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the atYear() method
 
 import java.util.*;
@@ -41,14 +41,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the atYear() method
 
 import java.util.*;
@@ -71,7 +71,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2010-01-01
 
 ```

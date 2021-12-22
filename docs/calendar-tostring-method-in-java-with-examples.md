@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java Code to illustrate toString() Method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class CalendarClassDemo {
 
 **输出:**
 
-```
+```java
 The string form: Wed Feb 13 09:46:36 UTC 2019
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate toString() Method
 
 import java.util.*;
@@ -69,7 +69,7 @@ public class CalendarClassDemo {
 
 **输出:**
 
-```
+```java
 The string form: Wed Jan 02 00:00:00 UTC 2019
 
 ```

@@ -4,7 +4,7 @@
 
 预测后续 Java 程序的输出。
 
-```
+```java
 class Test 
 {
     public static void main(String args[])
@@ -21,7 +21,7 @@ class Test 
 
 输出:
 
-```
+```java
 10 
 20 
 30 
@@ -31,7 +31,7 @@ class Test 
 
 数组 *arr* 被声明为最终的，但是数组的元素被改变没有任何问题。[数组是对象](https://www.geeksforgeeks.org/g-fact-65/)和[对象变量在 Java 中总是引用](https://www.geeksforgeeks.org/g-fact-46/)。因此，当我们将一个对象变量声明为 final 时，这意味着该变量不能被更改为引用其他任何东西。例如，下面的程序 1 编译没有任何错误，程序 2 编译失败。
 
-```
+```java
 // Program 1
 class Test 
 {
@@ -47,7 +47,7 @@ class Test 
 
 产出:30
 
-```
+```java
 // Program 2
 class Test 
 {
@@ -68,7 +68,7 @@ class Test 
 
 作为练习，预测以下程序的输出
 
-```
+```java
 class Test 
 {
     public static void main(String args[])

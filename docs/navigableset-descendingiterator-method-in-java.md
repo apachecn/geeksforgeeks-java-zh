@@ -8,7 +8,7 @@ Java 中[navigatable set 接口的 DecendingTerrar()方法用于以降序返回�
 
 **语法** :
 
-```
+```java
 Iterator<E> descendingIterator()
 
 ```
@@ -23,7 +23,7 @@ Iterator<E> descendingIterator()
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // descendingIterator() method of NavigableSet
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value: 6 
 Value: 5 
 Value: 4 
@@ -68,7 +68,7 @@ Value: 0
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to illustrate iterator()
 // method of NavigableSet
 import java.util.NavigableSet;
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value: G 
 Value: F 
 Value: E 

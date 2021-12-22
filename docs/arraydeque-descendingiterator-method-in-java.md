@@ -6,7 +6,7 @@ Java . util . ArrayDeque . DecendingTerrar()方法用于返回与 ArrayDeque 元
 
 **语法:**
 
-```
+```java
 Iterator iterate_value = Array_Deque.descendingIterator();
 ```
 
@@ -17,7 +17,7 @@ Iterator iterate_value = Array_Deque.descendingIterator();
 下面的程序举例说明了 Java . util . arraydeque . decending terator()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate descendingIterator()
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The iterator values are: 
 Geeks
@@ -65,7 +65,7 @@ Welcome
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate descendingIterator()
 import java.util.*;
 
@@ -100,7 +100,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 The iterator values are: 
 5

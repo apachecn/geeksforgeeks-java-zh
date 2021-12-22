@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract Long get()
 ```
 
@@ -20,7 +20,7 @@ public abstract Long get()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LongBuffer:  [8, 9, 1, 0, 0]
 Long Value: 8
 Next Long Value: 9
@@ -96,7 +96,7 @@ Next Long Value: 9
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LongBuffer:  [8, 9, 0]
 Long Value: 0
 Since the buffer current position is incremented to greater than its limit Exception throws : java.nio.BufferUnderflowException
@@ -177,7 +177,7 @@ LongBuffer 的 **get(Long index)** 方法用于读取指定索引处的文章。
 
 **语法:**
 
-```
+```java
 public abstract Long get(Long index)
 ```
 
@@ -191,7 +191,7 @@ public abstract Long get(Long index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get(Long index) method
 
@@ -264,7 +264,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LongBuffer:  [8, 9, 6]
 Long Value at index 0: 8
 Long Value at index 1: 9
@@ -274,7 +274,7 @@ Long Value at index 2: 6
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -349,7 +349,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LongBuffer:  [6, 8, 12]
 Long Value at index 0: 6
 Long Value at index 1: 8

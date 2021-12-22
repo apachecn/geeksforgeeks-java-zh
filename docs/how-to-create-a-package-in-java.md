@@ -13,7 +13,7 @@ Java 中的 [Package](https://www.geeksforgeeks.org/packages-in-java/) 是封装
 
 **语法:**导入包
 
-```
+```java
 import package.name.*;
 ```
 
@@ -21,7 +21,7 @@ import package.name.*;
 
 T5】Java
 
-```
+```java
 // Java Program to Import a package
 
 // Importing java utility package
@@ -54,7 +54,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Enter You Name
 Your Name IS : 0
 ```
@@ -68,7 +68,7 @@ Your Name IS : 0
 
 **语法:**声明要创建的包的名称。package 语句只是定义定义的类属于哪个包。
 
-```
+```java
 package FirstPackage ;
 ```
 
@@ -81,7 +81,7 @@ package FirstPackage ;
 
 ## 爪哇
 
-```
+```java
 // Name of package to be created
 package FirstPackage;
 

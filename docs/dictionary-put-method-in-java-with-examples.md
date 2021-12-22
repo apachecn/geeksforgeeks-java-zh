@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 DICTIONARY.put(key, value)
 ```
 
@@ -20,7 +20,7 @@ DICTIONARY.put(key, value)
 以下程序用于说明 java.util.Dictionary.put()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class Dictionary_Demo {
 
 **Output:**
 
-```
+```java
 Initial Dictionary is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 Returned value is: Geeks
 New Dictionary is: {10=Geeks, 20=All, 30=You, 15=4, 25=Welcomes}
@@ -65,7 +65,7 @@ New Dictionary is: {10=Geeks, 20=All, 30=You, 15=4, 25=Welcomes}
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -101,7 +101,7 @@ public class Dictionary_Demo {
 
 **Output:**
 
-```
+```java
 Initial Dictionary is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 Returned value is: null
 New Dictionary is: {10=Geeks, 20=Geeks, 30=You, 50=All, 15=4, 25=Welcomes}

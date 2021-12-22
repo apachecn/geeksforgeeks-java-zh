@@ -29,7 +29,7 @@ ChoiceDialog 是 JavaFX 框架的一部分。选择媒体日志是一个对话�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a choice dialog and display it
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -103,7 +103,7 @@ public class choice_1 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a choice dialog and add header
 // and content text and also add a label to
 // display the selected choice

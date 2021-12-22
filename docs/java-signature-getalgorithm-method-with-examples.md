@@ -5,7 +5,7 @@
 **java.security.Signature** 类的 **getAlgorithm()** 方法用于返回该签名对象的算法名称。
 **语法:**
 
-```
+```java
 public final String getAlgorithm()
 ```
 
@@ -15,7 +15,7 @@ public final String getAlgorithm()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -48,7 +48,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Algorithm: SHA1withDSA
 ```
 
@@ -56,7 +56,7 @@ Algorithm: SHA1withDSA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -89,6 +89,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Algorithm: NONEwithDSA
 ```

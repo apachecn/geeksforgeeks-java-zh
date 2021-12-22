@@ -16,7 +16,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to write a student
 // information in JFrame and
 // storing it in a file

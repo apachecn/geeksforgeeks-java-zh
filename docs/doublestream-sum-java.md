@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 double sum()
 
 ```
@@ -22,7 +22,7 @@ double sum()
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream.sum() to
 // find the sum of elements in DoubleStream
 import java.util.*;
@@ -49,14 +49,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5.800000000000001
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream.sum() to
 // find the sum of elements
 // greater than 2.5
@@ -84,7 +84,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 10.600000000000001
 
 ```

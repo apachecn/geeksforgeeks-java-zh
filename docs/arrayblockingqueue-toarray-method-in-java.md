@@ -7,7 +7,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public Object[] toArray()
     ```
 
@@ -16,7 +16,7 @@
     下面的程序举例说明 ArrayBlockingQueue 类的 toArray()方法:
     **程序 1:**
 
-    ```
+    ```java
     // Program Demonstrate how to apply toArray() method
     // of ArrayBlockingQueue Class.
 
@@ -57,7 +57,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Queue is [423, 422, 421, 420, 424]
     The array created by toArray() is:
     423
@@ -70,7 +70,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Program Demonstrate how to apply toArray() method
     // of ArrayBlockingQueue Class.
 
@@ -111,7 +111,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Queue is [User, Employee, Manager, Analyst, HR]
     The array created by toArray() is:
     User
@@ -126,7 +126,7 @@
     The toArray(*T[] a*) method of ArrayBlockingQueue class is used to create an array containing the same elements as that of this ArrayBlockingQueue, in proper sequence. It has an additional condition. The type of the returned array is the same as the specified array in the parameter if the queue size is less than or equal to the specified array. Otherwise, a new array is allocated with the type same as the specified array and size of the array is equal to the size of this queue. This method behaves as a bridge between array and collections.
     Suppose a queue is an ArrayBlockingQueue and it contains only strings. Then
 
-    ```
+    ```java
     String[] new_arr = queue.toArray(new String[0]);
     ```
 
@@ -134,7 +134,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public  T[] toArray(T[] a)
     ```
 
@@ -150,7 +150,7 @@
     下面的程序说明了 ArrayBlockingQueue 类的 Array(T[] a)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Program Demonstrate how to apply toArray(T[] a) method
     // of ArrayBlockingQueue Class.
 
@@ -202,7 +202,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Queue is [User, Employee, Manager, Analyst, HR]
 
     The array passed to toArray() is:

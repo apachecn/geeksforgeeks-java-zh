@@ -17,7 +17,7 @@ Java 8 中引入的[流 API](https://www.geeksforgeeks.org/stream-in-java/) 用�
 
 *   **Example 1:** Here, we will convert a string into a [Map](https://www.geeksforgeeks.org/map-interface-java-examples/) with the keys as the words of the string and the value as the length of each word.
 
-    ```
+    ```java
     // Program to convert
     // the Stream to Map
 
@@ -52,7 +52,7 @@ Java 8 中引入的[流 API](https://www.geeksforgeeks.org/stream-in-java/) 用�
 
     **Output:**
 
-    ```
+    ```java
     {Geek=4, for=3, Geeks=5}
 
     ```
@@ -63,7 +63,7 @@ Java 8 中引入的[流 API](https://www.geeksforgeeks.org/stream-in-java/) 用�
     2.  **(value->value . length):**它读取当前流值，找到其长度，并将该值返回给定键的映射。
 *   **示例 2:** 现在，让我们使用 **toMap** 功能来执行更复杂的地图转换。在这里，我们将把用户列表转换成一个映射，其中用户标识是键，用户是值。
 
-    ```
+    ```java
     // Program to convert User[] into
     // Map<userId, User>
 
@@ -156,7 +156,7 @@ Java 8 中引入的[流 API](https://www.geeksforgeeks.org/stream-in-java/) 用�
 
 *   **Example 1:** In this example, we will convert a user stream into a map whose key is the city and the value is the users living in that city.
 
-    ```
+    ```java
     // Java program to convert the User[]
     // into Map<city, List<User>>
 
@@ -251,7 +251,7 @@ Java 8 中引入的[流 API](https://www.geeksforgeeks.org/stream-in-java/) 用�
 
 *   **示例 2:** 如果我们需要比实际对象更多的信息，我们还可以通过为*组提供一个额外的收集器。在这个例子中，我们将看到如何获得属于每个城市的用户数。
 
-    ```
+    ```java
     // Java program to convert User[]
     // into Map<city, countOfUser>
 
@@ -342,7 +342,7 @@ Java 8 中引入的[流 API](https://www.geeksforgeeks.org/stream-in-java/) 用�
 
     **输出:**
 
-    ```
+    ```java
     {Nagpur=1, Pune=2, Mumbai=2}
 
     ```*

@@ -21,7 +21,7 @@
 
 ## Java
 
-```
+```java
 // java Program to illustrate One Single Class for Scope of
 // Access modifiers
 
@@ -88,7 +88,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Various access modifiers being used in the same class
 This method uses Public access modifier
 This method uses Private access modifier

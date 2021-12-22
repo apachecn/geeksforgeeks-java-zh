@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream sorted()
 
 Where, DoubleStream is a sequence of primitive double-valued 
@@ -18,7 +18,7 @@ elements. This is the double primitive specialization of Stream.
 
 **示例 1 :** 使用 DoubleStream sorted()对给定 DoubleStream 中的数字进行排序。
 
-```
+```java
 // Java code to sort DoubleStream
 // using DoubleStream.sorted()
 import java.util.*;
@@ -42,7 +42,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 6.6
 7.5
 8.4
@@ -53,7 +53,7 @@ class GFG {
 
 **例 2 :** 使用 DoubleStream sorted()对 DoubleStream 生成器()生成的随机数进行排序。
 
-```
+```java
 // Java code to sort DoubleStream
 // using DoubleStream.sorted()
 import java.util.*;
@@ -78,7 +78,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1279.6146863795122
 6927.016817313592
 7037.390703089559

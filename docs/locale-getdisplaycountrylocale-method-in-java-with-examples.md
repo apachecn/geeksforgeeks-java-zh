@@ -6,7 +6,7 @@ Java 中 [**Locale 类**](https://www.geeksforgeeks.org/java-util-locale-class-j
 
 **语法:**
 
-```
+```java
 public String getDisplayCountry(Locale *inLoc*)
 ```
 
@@ -18,7 +18,7 @@ public String getDisplayCountry(Locale *inLoc*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate getDisplayCountry() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Locale_Demo {
 
 **Output:** 
 
-```
+```java
 First Locale: english_IN
 Country: India
 ```

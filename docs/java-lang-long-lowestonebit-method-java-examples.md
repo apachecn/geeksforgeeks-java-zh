@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long lowestOneBit(long num)
 Parameters:
 num - the number passed 
@@ -16,7 +16,7 @@ long value by only considering lowest 1 bit in the argument.
 
 示例:
 
-```
+```java
 Input : 36 
 Output : 4 
 Explanation: Binary Representation = 0010 0100
@@ -33,7 +33,7 @@ Output : 8
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates the use of
 // Long.lowestOneBit() function
 
@@ -59,7 +59,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Lowest one bit = 8
 Lowest one bit = 1
 
@@ -67,7 +67,7 @@ Lowest one bit = 1
 
 **程序 2:** 下面的程序演示了传递负数时函数的使用。
 
-```
+```java
 // java program that demonstrates the use of
 // Long.lowestOneBit() function
 // negative number
@@ -94,7 +94,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Binary = 1111111111111111111111111111111111111111111111111111111111110100
 Lowest one bit = 4
 
@@ -104,7 +104,7 @@ Lowest one bit = 4
 
 **程序 3:** 当一个十进制值在参数中传递时。
 
-```
+```java
 // java program that demonstrates the
 // Long.lowestOneBit() function
 // decimal value in argument
@@ -124,7 +124,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:12: error: incompatible types: possible lossy conversion from double to long
       System.out.println("Lowest one bit = " + Long.lowestOneBit(12.34)); 
 
@@ -132,7 +132,7 @@ prog.java:12: error: incompatible types: possible lossy conversion from double t
 
 **程序 4:** 当一个字符串值在参数中传递时。
 
-```
+```java
 // java program that demonstrates the
 // Long.lowestOneBit() function
 // string value in argument
@@ -152,7 +152,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 prog.java:12: error: incompatible types: String cannot be converted to long
       System.out.println("Lowest one bit = " + Long.lowestOneBit("12"));  
 

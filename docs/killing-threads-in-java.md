@@ -8,7 +8,7 @@ run()方法完成后，线程会自动销毁。但是它可能需要在线程完
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // stopping a thread using boolean flag
 
@@ -76,7 +76,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 New thread: Thread[First  thread, 5, main]
 New thread: Thread[Second thread, 5, main]
 First  thread: 0
@@ -103,7 +103,7 @@ Exiting the main Thread
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate non-volatile boolean flag
 
 public class Main {

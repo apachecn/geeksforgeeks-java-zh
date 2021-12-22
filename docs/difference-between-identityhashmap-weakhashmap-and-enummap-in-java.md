@@ -10,7 +10,7 @@ IdentityHashMap、WeakHashMap 和 EnumMap 都是 java 集合中实现 [Map](http
 
 ## 爪哇
 
-```
+```java
 // Java program to illustrate the
 // working of IdentityHashmap
 
@@ -63,7 +63,7 @@ public class IteratingIdentityHashMap {
 
 **输出**
 
-```
+```java
 IdentityHashMap size : 5
 Initial identity hash map: {10=Geeks, 40=Welcomes, 50=You, 30=Geeks, 20=4}
 Key = 10, Value = Geeks

@@ -6,7 +6,7 @@ Java 8 在 **java.util.Arrays** 类中引入了一个名为**parallels art()**�
 
 **并行算法()**
 
-```
+```java
 1. The array is divided into sub-arrays and that 
    sub-arrays is again divided into their sub-arrays, 
    until the minimum level of detail in a set of array.
@@ -19,14 +19,14 @@ Java 8 在 **java.util.Arrays** 类中引入了一个名为**parallels art()**�
 
 1.  **按升序排序数据:**
 
-    ```
+    ```java
     public static void parallelSort(Object obj[])
 
     ```
 
 2.  **按升序对指定范围内的数据进行排序:**
 
-    ```
+    ```java
     public static void parallelSort(Object obj[], int from, int to)
     ```
 
@@ -40,7 +40,7 @@ parallels art()方法使用**多线程**的概念，这使得排序**比正常�
 
 **程序 1:** 演示并行排序的使用
 
-```
+```java
 // Java program to demonstrate
 // Arrays.parallelSort() method
 
@@ -73,7 +73,7 @@ public class ParallelSort {
 
 **Output:**
 
-```
+```java
 Unsorted Array: 9 8 7 6 3 1 
 Sorted Array: 1 3 6 7 8 9
 
@@ -83,7 +83,7 @@ Sorted Array: 1 3 6 7 8 9
 
 **程序 2:** 演示并行排序的使用
 
-```
+```java
 // Java program to demonstrate impact 
 // of Parallel Sort vs Serial Sort 
 
@@ -145,7 +145,7 @@ public class ParallelSort { 
 
 **Output:**
 
-```
+```java
 For iteration number: 1
 Start and End Time in Serial (in ns): 3951000637977:3951000870361
 Time taken by Serial Sort(in ns): 232384

@@ -25,7 +25,7 @@ Java 中通常会发生两种类型的垃圾收集活动。这些是:
 
 **1。不可达对象:**如果一个对象不包含任何对它的引用，那么这个对象就是不可达的。此外，请注意，作为隔离岛一部分的对象也是不可访问的。
 
-```
+```java
 Integer i = new Integer(4);
 // the new Integer object is reachable  via the reference in 'i' 
 i = null;
@@ -59,7 +59,7 @@ i = null;
 *   就在销毁对象之前，垃圾收集器调用对象上的 *finalize()* 方法来执行清理活动。一旦 *finalize()* 方法完成，垃圾收集器就会销毁该对象。
 *   *finalize()* 方法存在于[对象类](https://www.geeksforgeeks.org/object-class-in-java/)中，其原型如下。
 
-```
+```java
 protected void finalize() throws Throwable
 ```
 
@@ -101,7 +101,7 @@ Java 中垃圾收集的优点是:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to count number
 // of employees working
 // in a company
@@ -169,7 +169,7 @@ class UseEmployee {
 
 **Output**
 
-```
+```java
 Id=1
 Name=GFG1
 Age=56
@@ -205,7 +205,7 @@ Next employee id will be=6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Correct code to count number
 // of employees excluding interns.
 
@@ -277,7 +277,7 @@ public class UseEmployee {
 
 **输出**
 
-```
+```java
 Id=1
 Name=GFG1
 Age=56

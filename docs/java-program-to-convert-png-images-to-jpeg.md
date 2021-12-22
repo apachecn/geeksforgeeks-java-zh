@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 boolean write(RenderedImage image, String formatName, OutputStream output)
 ```
 
@@ -37,7 +37,7 @@ boolean write(RenderedImage image, String formatName, OutputStream output)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert PNG Image to JPEG Image
 
 // Importing BufferedImage class from java.awt package
@@ -165,7 +165,7 @@ public class GFG {
 
 **案例 3:** 编译成功，运行成功
 
-```
+```java
 Image converted to jpeg successfully.
 ```
 

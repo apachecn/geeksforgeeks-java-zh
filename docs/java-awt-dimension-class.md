@@ -33,7 +33,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the functions
 // of dimension class(Integer precision)
 import java.awt.*;
@@ -79,7 +79,7 @@ class dimen {
 
 **Output**
 
-```
+```java
 Dimension d and d1 are equal = false
 Dimension d and d1 are equal = true
 Hashcode of Dimension d = 1860
@@ -90,7 +90,7 @@ Dimension d2 Height = 30.0 Width= 20.0
 
 **Output:** 
 
-```
+```java
 Dimension d and d1 are equal = false
 Dimension d and d1 are equal = true
 Hashcode of Dimension d = 1860
@@ -103,7 +103,7 @@ Dimesnion d2 Height = 30.0 Width= 20.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the functions
 // of dimension class(Double precision)
 import java.awt.*;
@@ -152,7 +152,7 @@ class dimen {
 
 **Output**
 
-```
+```java
 Dimension d and d1are equal = false
 Dimension d and d1are equal = true
 Hashcode of Dimension d = 1984
@@ -164,7 +164,7 @@ Dimension d2 Height = 30.0 Width = 20.0
 
 **Output:** 
 
-```
+```java
 Dimension d and d1are equal = false
 Dimension d and d1are equal = true
 Hashcode of Dimension d = 1984

@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static String toString()
     ```
 
@@ -16,7 +16,7 @@
 
     下面的程序说明了 Java.lang.Integer.toString()方法:
 
-    ```
+    ```java
     // Java program to illustrate the
     // toString() Method
     import java.lang.*;
@@ -45,7 +45,7 @@
 
     **Output:**
 
-    ```
+    ```java
     String Value= 8
     String Value = 10
 
@@ -54,7 +54,7 @@
 2.  The **java.lang.Integer.toString(*int a*)** is an inbuilt method in Java which is used to return a String object, representing the specified integer in the parameter.
     **Syntax :**
 
-    ```
+    ```java
     public static String toString(int *a*)
     ```
 
@@ -64,7 +64,7 @@
 
     **示例:**
 
-    ```
+    ```java
     For base 8: 
     Input: int a = 75 
     Output: "75"
@@ -78,7 +78,7 @@
     以下程序说明了 Java . lang . integer . tostring(int a)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate the
     // toString(int a) method
     import java.lang.*;
@@ -117,7 +117,7 @@
 
     **Output:**
 
-    ```
+    ```java
     String Value = 75
     String Value = 6787
     String Value = -787
@@ -127,7 +127,7 @@
     **程序 2:** 用于十进制和字符串参数。
     **注意:**这将导致一个错误，以及缺少合适的整数构造函数。
 
-    ```
+    ```java
     // Java program to illustrate the
     // Java.lang.Integer.toString(int a)method
     import java.lang.*;
@@ -156,7 +156,7 @@
 
     **输出:**
 
-    ```
+    ```java
     prog.java:8: error: incompatible types: possible 
     lossy conversion from double to int
         String stringvalue1 = obj.toString(58.5);
@@ -181,7 +181,7 @@
 3.  The **java.lang.Integer.toString(*int a, int base*)** is an inbuilt method in Java which is used to return a string representation of the argument *a* in the base, specified by the second argument *base*. If the radix/base is smaller than Character.MIN_RADIX or larger than Character.MAX_RADIX, then the base 10 is used. The ASCII characters which are used as digits: 0 to 9 and a to z.
     **Syntax:**
 
-    ```
+    ```java
     public static String toString(int a, int base)
     ```
 
@@ -194,7 +194,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: a = 71, base = 2
     Output: 1000111
 
@@ -206,7 +206,7 @@
     下面的程序说明了方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate the
     // toString(int, int) Method
     import java.lang.*;
@@ -246,7 +246,7 @@
 
     **Output:**
 
-    ```
+    ```java
     String Value = 1010010000110
     String Value = 43
     String Value = 2f
@@ -256,7 +256,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate the
     // toString(int, int) Method
     import java.lang.*;
@@ -296,7 +296,7 @@
 
     **Output:**
 
-    ```
+    ```java
     String Value = -1000001101
     String Value = 37
     String Value = 1c

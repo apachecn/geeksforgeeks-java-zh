@@ -6,7 +6,7 @@ notify()和 notifyAll()方法以及 wait()方法用于在线程之间进行通�
 现在的问题是 notifyAll()和 notifyAll()方法都是用来给等待的线程进行通知的，那么它们有什么区别或者我们应该在哪里使用 notifyAll()方法，notifyAll()方法应该去哪里？
 让我们了解 notify()方法的行为:
 
-```
+```java
 // Java program to illustrate the
 // behaviour of notify() method
 class Geek1 extends Thread {
@@ -86,7 +86,7 @@ public static void main(String[] args) throws InterruptedException
 
 输出:
 
-```
+```java
 Thread-1...start
 Thread-2...starts
 Thread-3...starts
@@ -97,7 +97,7 @@ Thread-1...notified
 
 **让我们了解 notifyAll()方法的行为:**
 
-```
+```java
 // Java program to illustrate the
 // behavior of notifyAll() method
 class Geek1 extends Thread {
@@ -178,7 +178,7 @@ public static void main(String[] args) throws InterruptedException
 
 输出:
 
-```
+```java
 Thread-1...starts
 Thread-2...starts
 Thread-3...starts

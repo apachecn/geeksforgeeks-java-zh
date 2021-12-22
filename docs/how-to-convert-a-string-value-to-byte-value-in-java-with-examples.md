@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = "1"
 Output: 1
 
@@ -23,7 +23,7 @@ Output: 3
 
 **语法:**
 
-```
+```java
 Byte.parseByte(str);
 
 ```
@@ -32,7 +32,7 @@ Byte.parseByte(str);
 
 **示例 1:** 显示成功转换
 
-```
+```java
 // Java Program to convert string to byte
 
 class GFG {
@@ -70,7 +70,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into byte = 1
 
 ```
@@ -80,7 +80,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 Byte.valueOf(str);
 
 ```
@@ -89,7 +89,7 @@ Byte.valueOf(str);
 
 **示例 1:** 显示成功转换
 
-```
+```java
 // Java Program to convert string to byte
 
 class GFG {
@@ -127,7 +127,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into byte = 1
 
 ```

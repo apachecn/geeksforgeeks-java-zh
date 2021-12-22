@@ -16,7 +16,7 @@
 
 hasNext()方法用于检查列表中是否还有剩余的元素。这个方法是*一个*布尔类型的方法*，*只返回真和假，正如讨论的那样，因为它只是用于检查目的。迭代器和列表迭代器的 hasNext()方法返回 true，如果在遍历期间用来检查指向元素是否有下一个元素的集合对象。如果不是，它就返回 false。所以，
 
-```
+```java
 Return Value:
         True  - if iteration has more elements 
         False - if iteration has no more elements
@@ -28,7 +28,7 @@ Return Value:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the use of hasNext() method
 
@@ -78,7 +78,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 true
 false
@@ -98,7 +98,7 @@ false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the use of next() method
 
@@ -147,7 +147,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Element1
 Element2
 Element3

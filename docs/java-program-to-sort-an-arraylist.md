@@ -21,13 +21,13 @@ java 中有两种数组列表。一个是包装器类对象的数组列表，另
 
 这个 sort()方法接受列表对象作为参数，它将返回一个按升序排序的数组列表。sort()方法的语法如下。
 
-```
+```java
 Collections.sort(objectOfArrayList);
 ```
 
 数组列表中的所有元素必须相互可比较，否则会抛出 **ClassCastException** 。这里，相互可比较意味着列表中的所有项目具有相同的数据类型。
 
-```
+```java
 ArrayList<Integer> list = new ArrayList<Integer>();   
 list.add(132);  
 list.add(321);   
@@ -40,7 +40,7 @@ list.add("India");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort an ArrayList
 
 // import java.util package
@@ -76,7 +76,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Before Sorting : [India, Pakistan, Srilanka, USA, Australia, Japan]
 After Sorting : [Australia, India, Japan, Pakistan, Srilanka, USA]
 ```
@@ -85,7 +85,7 @@ After Sorting : [Australia, India, Japan, Pakistan, Srilanka, USA]
 
 为了按降序对数组列表进行排序，我们使用[***【reverse order()】***](https://www.geeksforgeeks.org/collections-reverseorder-java-examples/)方法作为 sort()方法的参数。我们不能直接调用 reverseOrder()方法。这个方法有两个参数，一个是数组列表的对象，第二个参数是 Collections.reversOrder()方法。此方法将按降序返回数组列表。类似于 sort()方法，ArrayList 必须是相互可比较的，否则会抛出 **ClassCastException** 。
 
-```
+```java
 Collections.sort(objectOfArrayList, Collections.reverseOrder());
 ```
 
@@ -93,7 +93,7 @@ Collections.sort(objectOfArrayList, Collections.reverseOrder());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort an ArrayList
 
 // Importing generic java files
@@ -129,7 +129,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before Sorting : [410, 250, 144, 967, 289, 315]
 After Sorting : [967, 410, 315, 289, 250, 144]
 ```
@@ -146,7 +146,7 @@ Comparable 提供单一的排序顺序。如果我们使用 Comparable，它将�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort an ArrayList
 
 // Importing generic java files
@@ -208,7 +208,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 2013 creta 10
 2020 MG 13
 2018 Kia 20
@@ -222,7 +222,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort an ArrayList
 
 // Step 1: ImportingDB files
@@ -288,7 +288,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 10 creta 2013
 13 MG 2020
 20 Kia 2018

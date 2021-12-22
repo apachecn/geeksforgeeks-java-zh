@@ -15,7 +15,7 @@ Java 提供了不同的函数，通过这些函数我们可以控制窗口或框
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java  program to create a
 // translucent frame and control
 // its translucency with
@@ -108,7 +108,7 @@ class solveit extends JFrame implements ChangeListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a shaped translucent
 // window (using AWTUtilities)and
 // control its translucency using a slider
@@ -204,7 +204,7 @@ class solveit extends JFrame implements ChangeListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to create a shaped translucent
 // window (using setShape)
 // and control its translucency using a slider

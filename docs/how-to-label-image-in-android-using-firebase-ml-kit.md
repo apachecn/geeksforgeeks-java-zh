@@ -44,7 +44,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- below line is use to add camera feature in our app -->
 <uses-feature
   android:name="android.hardware.camera"
@@ -58,7 +58,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <meta-data
   android:name="com.google.firebase.ml.vision.DEPENDENCIES"
   android:value="label" />
@@ -68,7 +68,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.labelimage">
@@ -111,7 +111,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -179,7 +179,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class DataModal {
 
     // variables for our 
@@ -219,7 +219,7 @@ public class DataModal {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView 
     xmlns:android="http://schemas.android.com/apk/res/android"

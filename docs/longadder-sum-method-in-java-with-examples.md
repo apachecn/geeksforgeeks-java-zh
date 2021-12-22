@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long sum()
 
 ```
@@ -21,7 +21,7 @@ public long sum()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the LongAdder.sum() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial value is: 0
 After addition of 6, value is: 6
 After addition of 5, value is: 11
@@ -77,7 +77,7 @@ Returned sum value is: 11
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the LongAdder.sum() method
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial value is: 0
 After addition of 10, value is: 10
 After addition of 100, value is: 110

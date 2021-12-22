@@ -12,7 +12,7 @@
 
 在这一集里，我们将把彩色图像转换成棕褐色图像。在棕褐色图像中，图像的 alpha 分量将与原始图像相同(因为 Alpha 分量表示透明度)。尽管如此，RGB 还是会改变，这将通过以下公式来计算。
 
-```
+```java
 newRed = 0.393*R + 0.769*G + 0.189*B
 newGreen = 0.349*R + 0.686*G + 0.168*B
 newBlue = 0.272*R + 0.534*G + 0.131*B
@@ -35,7 +35,7 @@ newBlue = 0.272*R + 0.534*G + 0.131*B
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // colored to sepia conversion
 

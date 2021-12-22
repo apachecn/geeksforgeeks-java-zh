@@ -22,7 +22,7 @@ Java 为多线程编程提供内置支持。多线程程序包含两个或多个
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to control the Main Thread
 
 // Importing required classes
@@ -113,7 +113,7 @@ class ChildThread extends Thread {
 
 **Output**
 
-```
+```java
 Current thread: main
 After name change: Geeks
 Main thread priority: 5
@@ -142,7 +142,7 @@ Child thread
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate deadlock
 // using Main thread
 

@@ -11,7 +11,7 @@ BitSet 是 java.util 包中定义的一个类。它创建一个由布尔值表�
 
 **语法:**
 
-```
+```java
 public int previousClearBit(int fromIndex)
 ```
 
@@ -25,7 +25,7 @@ public int previousClearBit(int fromIndex)
 
 **程序 1:**
 
-```
+```java
 // Java program illustrating Bitset
 // previousClearBit() function
 
@@ -73,7 +73,7 @@ public class GFG
 
 **Output:**
 
-```
+```java
 bs1 : {0, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6, 12}
 bs3 : {}
@@ -85,7 +85,7 @@ Previous Clear Bit of bs33
 
 **程序 2:** 显示 IndexOutOfBoundException 异常:
 
-```
+```java
 // Java program illustrating Bitset
 // previousClearBit() function.
 
@@ -120,7 +120,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 Exception when index less than -1 is passed as parameter : java.lang.IndexOutOfBoundsException: fromIndex < -1: -2
 

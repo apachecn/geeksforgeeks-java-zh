@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 public abstract void methodOne(); ------>valid
 public abstract void methodOne(){} ------->Invalid
 ```
@@ -15,7 +15,7 @@ public abstract void methodOne(){} ------->Invalid
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Abstract class
 
 // Abstract Class
@@ -44,7 +44,7 @@ abstract class GFG {
 
 插图 1:
 
-```
+```java
 class Parent 
 {  // Method of this class 
    public void methodOne();
@@ -53,7 +53,7 @@ class Parent
 
 **输出:**
 
-```
+```java
 Compile time error.
 missing method body, or declared abstract
 public void methodOne();
@@ -61,7 +61,7 @@ public void methodOne();
 
 **插图 2:**
 
-```
+```java
 class parent {
    // Method of this class
    public abstract void methodOne() {}
@@ -70,7 +70,7 @@ class parent {
 
 **输出:**
 
-```
+```java
 Compile time error.
 abstract method cannot have a body.
 public abstract void methodOne(){}
@@ -78,7 +78,7 @@ public abstract void methodOne(){}
 
 **插图 3:**
 
-```
+```java
 class parent {
 
    // Method of this class
@@ -88,7 +88,7 @@ class parent {
 
 **输出:**
 
-```
+```java
 Compile time error.
 Parent is not abstract and does not override abstract method methodOne() in Parent class
 Parent
@@ -100,7 +100,7 @@ Parent
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Abstract Method
 
 // Main class

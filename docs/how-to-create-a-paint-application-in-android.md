@@ -70,7 +70,7 @@ alpha 值，而保持其 r、g、b 值不变。如果α值在范围[0]之外，�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -154,7 +154,7 @@ alpha 值，而保持其 r、g、b 值不变。如果α值在范围[0]之外，�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.graphics.Path;
 
 public class Stroke {
@@ -184,7 +184,7 @@ public class Stroke {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -384,7 +384,7 @@ public class DrawView extends View {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.ContentValues;
 import android.graphics.Bitmap;
 import android.graphics.Color;

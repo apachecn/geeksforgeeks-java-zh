@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean getUseParentHandlers()
 
 ```
@@ -19,7 +19,7 @@ public boolean getUseParentHandlers()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getUseParentHandlers() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getUseParentHandlers() method
 

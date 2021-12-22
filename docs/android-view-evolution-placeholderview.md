@@ -22,7 +22,7 @@ PlaceHolderView 通过删除所有样板代码，自动执行配置视图适配�
 
 ## 我的锅
 
-```
+```java
 implementation 'com.mindorks.android:placeholderview:1.0.3'
 implementation 'com.android.support:recyclerview-v7:27.1.0'
 implementation 'com.mindorks.android:placeholderview:1.0.3'
@@ -39,7 +39,7 @@ kapt 'com.mindorks.android:placeholderview-compiler:1.0.3'
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?> 
 <LinearLayout 
   xmlns:android="http://schemas.android.com/apk/res/android"
@@ -71,7 +71,7 @@ kapt 'com.mindorks.android:placeholderview-compiler:1.0.3'
 
 ## Java
 
-```
+```java
 @Animate(Animation.ENTER_RIGHT_DESC)
 @NonReusable
 @Layout(R.layout.gallery_item_big)

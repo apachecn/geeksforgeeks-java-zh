@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double doubleValue()
 ```
 
@@ -14,7 +14,7 @@ public double doubleValue()
 
 **示例:**
 
-```
+```java
 Input: BigInteger1=32145
 Output: 32145.0
 Explanation: BigInteger1.doubleValue()=32145.0.
@@ -31,7 +31,7 @@ or Double.POSITIVE_INFINITY as appropriate.
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate doubleValue() method of BigInteger
 
 import java.math.BigInteger;
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 doubleValue of 32145 : 32145.0
 doubleValue of 7613721 : 7613721.0
 
@@ -68,7 +68,7 @@ doubleValue of 7613721 : 7613721.0
 
 **示例 2:** 当返回的双精度值太大，无法用双精度值表示时。
 
-```
+```java
 // Java program to demonstrate doubleValue() method of BigInteger
 
 import java.math.BigInteger;
@@ -97,7 +97,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 doubleValue of 32145535361361525377 : 3.2145535361361527E19
 doubleValue of 7613721535372632367351 : 7.613721535372632E21
 

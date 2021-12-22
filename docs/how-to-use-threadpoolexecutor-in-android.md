@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 ThreadPoolExecutor gfgPoolExecutor
     = new ThreadPoolExecutor(
         int mainPoolSize,
@@ -47,7 +47,7 @@ ThreadPoolExecutor gfgPoolExecutor
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GfGThreadMechanism implements ThreadFactory {
     private final int gfgPriority;
     public PriorityThreadFactory(int threadPriority) {
@@ -75,7 +75,7 @@ public class GfGThreadMechanism implements ThreadFactory {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class MasterThreadExecutor implements Executor {
     private final Handler gfgHandler = new Handler(Looper.getMainLooper());
     @Override
@@ -89,7 +89,7 @@ public class MasterThreadExecutor implements Executor {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class gfgExecutor{
 
     // Number of threads, are being set here.
@@ -173,7 +173,7 @@ public class gfgExecutor{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // The different urgency levels
 public enum Urgency {
 
@@ -197,7 +197,7 @@ public enum Urgency {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class UrgencyRunnable implements Runnable {
     private final Priority gfgUrgency;
 
@@ -222,7 +222,7 @@ public class UrgencyRunnable implements Runnable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class UrgencyExecutor extends ThreadPoolExecutor {
    public PriorityThreadPoolExecutor(int gfgPool, int gfgMax, long gfgTime,
          TimeUnit unit, ThreadFactory threadFactory) {
@@ -258,7 +258,7 @@ public class UrgencyExecutor extends ThreadPoolExecutor {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class DefaultExecutorSupplier{
 private final PriorityThreadPoolExecutor gfgBackTask;
 private DefaultExecutorSupplier() {
@@ -277,7 +277,7 @@ private DefaultExecutorSupplier() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Doing at LOW
 public void doingAtLowUrgency(){
   DefaultExecutorSupplier.getInstance().forBackgroundTasks()

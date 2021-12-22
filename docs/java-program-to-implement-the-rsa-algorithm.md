@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Generating Public Key
 
 1\. Select two prime no's. Suppose P = 53 and Q = 59.
@@ -52,7 +52,7 @@ The private key has been made of d
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement the RSA Algorithm
 import java.math.*;
 import java.util.*;

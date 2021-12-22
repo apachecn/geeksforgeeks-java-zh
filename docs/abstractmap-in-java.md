@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
 ```
 
@@ -44,7 +44,7 @@ public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate adding
 // elements to the AbstractMap
 
@@ -77,7 +77,7 @@ public class AddElements {
 
 **Output**
 
-```
+```java
 The Set view of the mappings:
 [1=This, 2=is, 3=an, 4=AbstractMap]
 ```
@@ -86,7 +86,7 @@ The Set view of the mappings:
 
 我们可以使用 [remove()](https://www.geeksforgeeks.org/abstractmap-remove-method-in-java-with-examples/) 方法从抽象映射中移除映射。remove 的语法是
 
-```
+```java
 mapName.remove(Object key);
 ```
 
@@ -94,7 +94,7 @@ mapName.remove(Object key);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate removing
 // elements from the AbstractMap
 
@@ -137,7 +137,7 @@ public class RemoveElements {
 
 **Output**
 
-```
+```java
 Mappings of the AbstractMap:
 {1=This, 2=is, 3=an, 4=AbstractMap}
 Mappings of the AbstractMap:
@@ -153,7 +153,7 @@ The Set view of the mappings:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate replacing
 // elements of AbstractMap
 
@@ -194,7 +194,7 @@ public class ReplaceElements {
 
 **Output**
 
-```
+```java
 Mappings of the AbstractMap:
 {1=This, 2=is, 3=a, 4=AbstractMap}
 
@@ -208,7 +208,7 @@ Mappings of the AbstractMap:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // traversing AbstractMap
 
@@ -263,7 +263,7 @@ public class Traversing {
 
 **Output**
 
-```
+```java
 Using the entrySet() method
 Key = 1, Value = This
 Key = 2, Value = is
@@ -285,7 +285,7 @@ Key = 4, Value =  AbstractMap
 
 ***语法:***
 
-```
+```java
 HashMap< ? , ? > hmName = new HashMap< ? , ? >();
 ```
 
@@ -295,7 +295,7 @@ HashMap< ? , ? > hmName = new HashMap< ? , ? >();
 
 **语法:**
 
-```
+```java
 IdentityHashMap< ? , ? > ihmName = new IdentityHashMap< ? , ? >();
 ```
 
@@ -305,7 +305,7 @@ IdentityHashMap< ? , ? > ihmName = new IdentityHashMap< ? , ? >();
 
 **语法:**
 
-```
+```java
 WeakHashMap< ? , ? > whmName = new WeakHashMap< ? , ? >();
 ```
 
@@ -315,7 +315,7 @@ WeakHashMap< ? , ? > whmName = new WeakHashMap< ? , ? >();
 
 **语法:**
 
-```
+```java
 TreeMap< ? , ? > tmName = new TreeMap< ? , ? >();
 ```
 
@@ -325,7 +325,7 @@ TreeMap< ? , ? > tmName = new TreeMap< ? , ? >();
 
 **语法:**
 
-```
+```java
 EnumMap< enumName, ? > emName = new EnumMap< enumName, ? >();
 ```
 
@@ -335,7 +335,7 @@ EnumMap< enumName, ? > emName = new EnumMap< enumName, ? >();
 
 **语法:**
 
-```
+```java
 ConcurrentHashMap< ? , ? > chmName = new ConcurrentHashMap< ? , ? >();
 ```
 
@@ -345,7 +345,7 @@ ConcurrentHashMap< ? , ? > chmName = new ConcurrentHashMap< ? , ? >();
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListMap< ? , ? > cslmName = new ConcurrentSkipListMap< ? , ? >();
 ```
 

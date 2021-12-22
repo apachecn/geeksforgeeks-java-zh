@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract FloatBuffer asFloatBuffer()
 ```
 
@@ -20,7 +20,7 @@ public abstract FloatBuffer asFloatBuffer()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asFloatBuffer() method
 // for ByteBuffer
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 FloatBuffer : 1.23 1.33 1.56
 ```
 
@@ -85,7 +85,7 @@ FloatBuffer : 1.23 1.33 1.56
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asFloatBuffer() method
 // for Read only ByteBuffer
@@ -158,7 +158,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 FloatBuffer : 2.1  3.1  4.1  
 
 Trying to put the value in read only FloatBuffer

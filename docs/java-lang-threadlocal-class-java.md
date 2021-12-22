@@ -16,7 +16,7 @@
 
 1.  **Object get():** 这个方法返回这个线程局部变量在当前线程副本中的值。如果变量没有当前线程的值，则首先将其初始化为通过调用 initialValue()方法返回的值。
 
-    ```
+    ```java
     Syntax: public Object get().
     Returns: the current thread's value of this thread-local.
     Exception: NA.
@@ -25,14 +25,14 @@
 
 2.  **void set(Object 值):**此方法将当前线程对此线程局部变量的副本设置为指定值。大多数子类不需要重写这个方法，只需要依赖 initialValue()方法来设置线程局部变量的值。
 
-```
+```java
 Syntax: public void set(T value).
 Returns: NA.
 Exception: NA.
 
 ```
 
-```
+```java
 // Java code illustrating get() and set() method
 
 public class ThreadLocalDemo {
@@ -72,7 +72,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 value = 100
 value = 90
 value = 88.45
@@ -82,14 +82,14 @@ value = GeeksforGeeks
 
 *   **void remove():** This method removes the current thread’s value for this thread-local variable. If this thread-local variable is subsequently read by the current thread, its value will be reinitialized by invoking its initialValue() method, unless its value is set by the current thread in the interim. This may result in multiple invocations of the initialValue method in the current thread.
 
-    ```
+    ```java
     Syntax: public void remove().
     Returns: NA.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating remove() method
 
     public class ThreadLocalDemo {
@@ -142,7 +142,7 @@ value = GeeksforGeeks
 
     输出:
 
-    ```
+    ```java
     value = 100
     value = 90
     value = 88.45
@@ -154,14 +154,14 @@ value = GeeksforGeeks
 
     *   **Object initialValue():** This method returns the current thread’s initial value for this thread-local variable.
 
-    ```
+    ```java
     Syntax: protected Object initialValue()
     Returns: the initial value for this thread-local.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating initialValue() method
     import java.lang.*;
     class NewThread extends Thread {
@@ -199,7 +199,7 @@ value = GeeksforGeeks
 
     输出:
 
-    ```
+    ```java
     quiz2 14
     quiz1 15
     quiz1 15

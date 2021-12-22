@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static float max(float... array)
 
 ```
@@ -21,7 +21,7 @@ public static float max(float... array)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.max() method
 
@@ -48,14 +48,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Maximum value is : 15.5
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.max() method
 
@@ -87,7 +87,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IllegalArgumentException
 
 ```

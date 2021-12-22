@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int length()
 
 ```
@@ -19,7 +19,7 @@ public final int length()
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the length() function
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The length of the array : 5
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the length() function
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The length of the array : 7
 
 ```

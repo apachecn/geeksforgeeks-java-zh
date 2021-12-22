@@ -8,7 +8,7 @@
 
 预测以下 Java 程序的输出
 
-```
+```java
 // file name: Main.java
 public class Main {
     public static void main(String args[]) {
@@ -23,7 +23,7 @@ public class Main {
 
 输出:
 
-```
+```java
 Not Same
 ```
 
@@ -31,7 +31,7 @@ Not Same
 
 下面程序的输出是来自 Java 的一个惊喜。
 
-```
+```java
 // file name: Main.java
 public class Main {
     public static void main(String args[]) {
@@ -46,7 +46,7 @@ public class Main {
 
 输出:
 
-```
+```java
 Same
 ```
 
@@ -54,7 +54,7 @@ Same
 
 如果我们使用新的运算符显式创建整数对象，我们得到的输出是“不一样”。请参见下面的 Java 程序。在以下程序中，不使用 valueOf()。
 
-```
+```java
 // file name: Main.java
 public class Main {
     public static void main(String args[]) {
@@ -69,13 +69,13 @@ public class Main {
 
 输出:
 
-```
+```java
 Not Same
 ```
 
 预测以下程序的输出。这个例子是由*比沙尔·杜贝*提供的。
 
-```
+```java
 class GFG
 {
     public static void main(String[] args)
@@ -92,7 +92,7 @@ class GFG
 
 输出:
 
-```
+```java
 false
 
 ```

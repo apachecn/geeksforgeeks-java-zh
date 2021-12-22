@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract double get()
 ```
 
@@ -18,7 +18,7 @@ public abstract double get()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original DoubleBuffer:  [8.56, 9.61, 1.24, 0.0, 0.0]
 
 Double Value: 8.56
@@ -98,7 +98,7 @@ Next double Value: 9.61
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -167,7 +167,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original DoubleBuffer:  [8.5600004196167, 9.609999656677246, 0.0]
 
 Double Value: 0.0

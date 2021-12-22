@@ -5,7 +5,7 @@
 **Java . time . chrono . Hijrah 年表**类的 **date()** 方法用于根据 Hijrah 日历系统获取给定年、月和日的本地日期。
 **语法:**
 
-```
+```java
 public HijrahDate date(int prolepticYear,
                        int month,
                        int day)
@@ -24,7 +24,7 @@ public HijrahDate date(int prolepticYear,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -62,6 +62,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 HijrahDate is: Hijrah-umalqura AH 1440-05-24
 ```

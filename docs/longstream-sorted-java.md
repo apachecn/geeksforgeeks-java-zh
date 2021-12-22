@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LongStream sorted()
 
 Where, LongStream is a sequence of primitive long-valued 
@@ -20,7 +20,7 @@ elements. This is the long primitive specialization of Stream.
 
 **示例 1 :** 使用 LongStream sorted()对给定 LongStream 中的数字进行排序。
 
-```
+```java
 // Java code to sort LongStream
 // using LongStream.sorted()
 import java.util.*;
@@ -43,7 +43,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 6
 7
 8
@@ -54,7 +54,7 @@ class GFG {
 
 **例 2 :** 使用 LongStream sorted()对 LongStream 生成器()生成的随机数进行排序。
 
-```
+```java
 // Java code to sort LongStream
 // using LongStream.sorted()
 import java.util.*;
@@ -80,7 +80,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2218
 6150
 6757

@@ -6,7 +6,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 *   **Creating a Character object :**
 
-    ```
+    ```java
     Character ch = new Character('a');
 
     ```
@@ -20,7 +20,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 1.  **boolean isLetter(char ch)** : This method is used to determine whether the specified char value(ch) is a letter or not. The method will return true if it is letter([A-Z],[a-z]), otherwise return false. In place of character, we can also pass ASCII value as an argument as char to int is implicitly typecasted in java.
 
-    ```
+    ```java
     Syntax : 
     boolean isLetter(char ch)
     Parameters : 
@@ -30,7 +30,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isLetter() method
     public class Test
     {
@@ -46,7 +46,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     输出:
 
-    ```
+    ```java
     true
     false
 
@@ -54,7 +54,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 2.  **boolean isDigit(char ch)** : This method is used to determine whether the specified char value(ch) is a digit or not. Here also we can pass ASCII value as an argument.
 
-    ```
+    ```java
     Syntax : 
     boolean isDigit(char ch)
     Parameters : 
@@ -64,7 +64,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isDigit() method
     public class Test
     {
@@ -81,7 +81,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     输出:
 
-    ```
+    ```java
     false
     true
 
@@ -89,7 +89,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 3.  **[boolean isWhitespace(char ch](https://www.geeksforgeeks.org/character-iswhitespace-method-in-java-with-examples/))** : It determines whether the specified char value(ch) is white space. A whitespace includes space, tab, or new line.
 
-    ```
+    ```java
     Syntax : 
     boolean isWhitespace(char ch)
     Parameters : 
@@ -100,7 +100,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isWhitespace() method
     public class Test
     {
@@ -121,7 +121,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     输出:
 
-    ```
+    ```java
     false
     true
     true
@@ -133,13 +133,13 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 4.  **boolean isUpperCase(char ch)** : It determines whether the specified char value(ch) is uppercase or not.
 
-    ```
+    ```java
     Syntax : 
     boolean isUpperCase(char ch)
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isUpperCase() method
     public class Test
     {
@@ -154,7 +154,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     输出:
 
-    ```
+    ```java
     true
     false
     true
@@ -163,13 +163,13 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 5.  **boolean isLowerCase(char ch)** : It determines whether the specified char value(ch) is lowercase or not.
 
-    ```
+    ```java
     Syntax : 
     boolean isLowerCase(char ch)
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate isLowerCase() method
     public class Test
     {
@@ -184,7 +184,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     输出:
 
-    ```
+    ```java
     false
     true
     true
@@ -193,7 +193,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 6.  **char toUpperCase(char ch)** : It returns the uppercase of the specified char value(ch). If an ASCII value is passed, then the ASCII value of it’s uppercase will be returned.
 
-    ```
+    ```java
     Syntax : 
     char toUpperCase(char ch)
     Parameters : 
@@ -203,7 +203,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate toUpperCase() method
     public class Test
     {
@@ -218,7 +218,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     输出:
 
-    ```
+    ```java
     A
     65
     48
@@ -227,7 +227,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 7.  **char toLowerCase(char ch)** : It returns the lowercase of the specified char value(ch).
 
-    ```
+    ```java
     Syntax : 
     char toLowerCase(char ch)
     Parameters : 
@@ -237,7 +237,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate toLowerCase() method
     public class Test
     {
@@ -252,7 +252,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     输出:
 
-    ```
+    ```java
     a
     97
     48
@@ -261,7 +261,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 8.  **toString(char ch)** : It returns a String class object representing the specified character value(ch) i.e a one-character string. Here we **cannot** pass ASCII value.
 
-    ```
+    ```java
     Syntax : 
     String toString(char ch)
     Parameters : 
@@ -271,7 +271,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     ```
 
-    ```
+    ```java
     // Java program to demonstrate toString() method
     public class Test
     {
@@ -285,7 +285,7 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
     输出:
 
-    ```
+    ```java
     x
     y
 
@@ -375,14 +375,14 @@ Java 在 java.lang 包中提供了一个包装类 **Character** 。字符类型�
 
 当在 print 语句中遇到转义序列时，编译器会相应地解释它。例如，如果要在引号内加上引号，必须在内部引号上使用转义序列“\”。打印句子
 
-```
+```java
 She said "Hello!" to me.
 
 ```
 
 你会写
 
-```
+```java
 System.out.println("She said \"Hello!\" to me.");
 
 ```

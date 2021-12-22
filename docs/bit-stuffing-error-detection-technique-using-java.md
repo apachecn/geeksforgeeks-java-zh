@@ -15,7 +15,7 @@
 
 利用比特填充，两个帧之间的边界可以由标志模式明确地识别。因此，如果接收器失去了对它所在位置的跟踪，它所要做的就是扫描输入中的标志序列。，因为它们只能出现在帧边界，而不能出现在数据中。
 
-```
+```java
 Illustrative Examples
 
 *Sender Side(Client):*
@@ -40,7 +40,7 @@ Unstuffed data:
 下面给出了上述逻辑的代码实现。
 **发送方(客户端):**
 
-```
+```java
 package bitstuffing;
 import java.io.*;
 import java.net.*;
@@ -99,7 +99,7 @@ public class BitStuffingClient {
 
 **在接收端(服务器端):**
 
-```
+```java
 package bitstuffing;
 import java.io.*;
 import java.net.*;

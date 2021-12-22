@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default V getOrDefault(Object key, V defaultValue)
 ```
 
@@ -19,7 +19,7 @@ default V getOrDefault(Object key, V defaultValue)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // getOrDefault(Object key, V defaultValue) method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {a=100, b=200, c=300, d=400}
 Returned Value: 200
 
@@ -65,7 +65,7 @@ Returned Value: 200
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // getOrDefault(Object key, V defaultValue) method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {a=100, b=200, c=300, d=400}
 Returned Value: 500
 

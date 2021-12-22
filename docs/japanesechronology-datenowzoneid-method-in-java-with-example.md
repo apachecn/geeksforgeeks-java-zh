@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public JapaneseDate dateNow(ZoneId zone)
 ```
 
@@ -18,7 +18,7 @@ public JapaneseDate dateNow(ZoneId zone)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseDate is: Japanese Heisei 32-04-13
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseDate is: Japanese Heisei 32-04-13
 
 ```

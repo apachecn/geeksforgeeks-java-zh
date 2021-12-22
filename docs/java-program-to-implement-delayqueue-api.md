@@ -39,7 +39,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to implement DelayQueue API
 
 // Importing classes from
@@ -333,7 +333,7 @@ public class DelayQueueImpl<E extends Delayed> {
 
 ****Output**
 
-```
+```java
 Delaytimes of the DelayQueue is           : 1626870778483    1626870778583    1626870778683    1626870778786    1626870778886    
 Element time of the DelayQueue by peeking :  1626870778483
 Remaining capacity                         : 2147483647

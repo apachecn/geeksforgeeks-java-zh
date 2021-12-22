@@ -36,7 +36,7 @@ ColorInput 类是 JavaFX 的一部分。它用于创建一个效果，渲染一�
 
 1.  **Java program to Demonstrate ColorInput class:** In this program, *ColorInput Effect* is created and then we set the color, height, width, and coordinates of the region of ColorInput. A group object and scene object is created. A scene is added to the stage and then we set the title of the stage.
 
-    ```
+    ```java
     // Java program to Demonstrate ColorInput class
     import javafx.application.Application;
     import javafx.scene.Group;
@@ -107,7 +107,7 @@ ColorInput 类是 JavaFX 的一部分。它用于创建一个效果，渲染一�
 
 2.  **Java program to apply ColorInput class to the created rectangle by clicking on the button using EventHandler:** In this program, we first set the Height, Width, and coordinates of a rectangle and then create a rectangle of the same dimension. Now, create a Button and set the Layouts of the Button. Now, using EventHandler, first, instantiate a ColorInput class using proper dimension and then set ColorInput Effect to the Button. Create a group object and add Button and rectangle to it. Then Create a Scene and add it to the stage.
 
-    ```
+    ```java
     // Java program to apply ColorInput class to 
     // the created rectangle by clicking on the 
     // button using EventHandler

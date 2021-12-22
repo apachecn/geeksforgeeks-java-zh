@@ -8,7 +8,7 @@
 
 使用 Collections.min()和 Collections.max()方法可以很容易地找到集合的最小和最大元素。这些是 Java 中集合类的静态方法。因此，它们可以通过类名直接访问，如下所示。
 
-```
+```java
 Object ob = Collections.min(Collection<E> c);
 Object ob = Collections.max(Collection<E> c);
 
@@ -20,7 +20,7 @@ Object ob = Collections.max(Collection<E> c);
 
 **例 1:** 在列表中
 
-```
+```java
 // Java program to find the minimum and
 // maximum element in a List
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 List: [12, 53, 30, 8]
 Minimum value of list is: 8
 Maximum value of list is: 53
@@ -72,7 +72,7 @@ Maximum value of list is: 53
 
 **示例 2:** 成套
 
-```
+```java
 // Java program to find the minimum and
 // maximum element in a Set
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Set: [2, 3, 6, 9]
 Minimum value of set is: 2
 Maximum value of set is: 9
@@ -124,7 +124,7 @@ Maximum value of set is: 9
 
 **示例 3:** 在数组中
 
-```
+```java
 // Java program to find the minimum and
 // maximum element in an Array
 
@@ -162,7 +162,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array: [2, 5, 1, 8, 34, 20, 4]
 Minimum value of Array is: 1
 Maximum value of Array is: 34
@@ -175,7 +175,7 @@ Map 是 Java Collection Framework 中不同类型的实体，其中元素被视�
 
 **示例:**
 
-```
+```java
 // Java program to find the minimum and
 // maximum element in a Map
 
@@ -224,7 +224,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Compile Errors:
 prog.java:25: error: 
 no suitable method found for min(Map)
@@ -240,7 +240,7 @@ is not applicable</t>
 
 **示例 1:** 根据键值查找地图的最小和最大元素。
 
-```
+```java
 // Java program to find the minimum and
 // maximum element in a Map
 
@@ -287,7 +287,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map: {A=10, B=15, C=20, D=25}
 Minimum Key of Map is: A
 Value corresponding to minimum Key of Map is: 10
@@ -298,7 +298,7 @@ Value corresponding to maximum Key of Map is: 25
 
 **示例 2:** 根据值键查找地图的最小和最大元素。
 
-```
+```java
 // Java program to find the minimum and
 // maximum element in a Map
 
@@ -340,7 +340,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map: {A=10, B=15, C=20, D=25}
 Minimum Value of Map is: 10
 Maximum Value of Map is: 25

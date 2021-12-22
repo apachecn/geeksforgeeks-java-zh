@@ -5,7 +5,7 @@
 **Java.lang.math.min()** 函数是 Java 中的一个内置函数，返回两个数字的最小值。参数有 int、double、float 和 long。如果一个负数和一个正数作为参数传递，则生成负结果。如果传递的两个参数都是负的，那么结果会生成具有较大幅度的数字。
 **语法:**
 
-```
+```java
 dataType min(dataType num1, dataType num2)
 The datatypes can be int, float, double or long.
 
@@ -18,7 +18,7 @@ among which the minimum is returned
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // use of min() function
 // two double data-type numbers are passed as argument
@@ -37,13 +37,13 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 12.123
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // use of min() function
 // when one positive and one
@@ -63,13 +63,13 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 -23
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the use of min() function
 // when two negative integers
@@ -89,7 +89,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 -25
 ```
 
@@ -97,7 +97,7 @@ public class Gfg {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import static java.lang.Math.min;
 
 class GFG {
@@ -112,7 +112,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 3
 
 ```

@@ -8,7 +8,7 @@
 
 **语法:**类声明
 
-```
+```java
 public final class Year extends Object implements Temporal, TemporalAdjuster, Comparable<Year>, Serializable
 ```
 
@@ -64,7 +64,7 @@ public final class Year extends Object implements Temporal, TemporalAdjuster, Co
 
 ***语法**:*
 
-```
+```java
 *public LocalDate atDay(int dayOfYear)*
 ```
 
@@ -79,7 +79,7 @@ public final class Year extends Object implements Temporal, TemporalAdjuster, Co
 *它以整数形式返回哈希值。Hashcode 值主要用于散列基于**–**的集合，如 HashMap、HashSet、HashTable 等。该方法必须在每个覆盖[等于()方法](https://www.geeksforgeeks.org/equals-hashcode-methods-java/)的类中被覆盖。
 **语法:***
 
-```
+```java
 *public int hashCode()
 
 // This method returns the hash code value 
@@ -92,7 +92,7 @@ public final class Year extends Object implements Temporal, TemporalAdjuster, Co
 
 ***语法**:*
 
-```
+```java
 *public boolean isAfter(Year otherYear)*
 ```
 
@@ -106,7 +106,7 @@ public final class Year extends Object implements Temporal, TemporalAdjuster, Co
 
 ***语法**:*
 
-```
+```java
 *public boolean isBefore(Year otherYear)*
 ```
 
@@ -125,7 +125,7 @@ public final class Year extends Object implements Temporal, TemporalAdjuster, Co
 
 ***语法**:*
 
-```
+```java
 *public boolean isLeap()*
 ```
 
@@ -139,7 +139,7 @@ public final class Year extends Object implements Temporal, TemporalAdjuster, Co
 
 ***语法**:*
 
-```
+```java
 *public static Year now()
 
 or,
@@ -159,7 +159,7 @@ public static Year now(ZoneId zone)*
 
 ***语法:***
 
-```
+```java
 *public Year minus(long amountToSubtract, TemporalUnit unit)*
 ```
 
@@ -194,7 +194,7 @@ public static Year now(ZoneId zone)*
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to illustrate java.time.Year class
 import java.time.*;
 
@@ -280,7 +280,7 @@ public class GFG {
 
 ***Output**
 
-```
+```java
 Current year: 2021
 Local date: 2021-12-16
 Year and month: 2021-06

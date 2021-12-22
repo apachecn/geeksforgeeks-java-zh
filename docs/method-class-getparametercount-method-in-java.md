@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getParameterCount()
 ```
 
@@ -16,7 +16,7 @@ public int getParameterCount()
 
 **示例 1:** 以下程序返回作为输入的特定方法的参数编号。
 
-```
+```java
 // Program Demonstrate how to apply getParameterCount()
 // method of Method Class.
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Method Name: setManyValues
 No of parameters:1
 
@@ -68,7 +68,7 @@ No of parameters:1
 
 **示例 2:** 下面的程序返回一个类中定义的所有方法的参数数量。
 
-```
+```java
 // Program Demonstrate how to apply getParameterCount() method
 // of Method Class.
 
@@ -137,7 +137,7 @@ class DemoClass {
 
 **输出:**
 
-```
+```java
 Method Name is DemoMethod1 and No of parameters = 1
 Method Name is DemoMethod2 and No of parameters = 2
 Method Name is DemoMethod3 and No of parameters = 0

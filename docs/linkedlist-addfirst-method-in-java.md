@@ -6,7 +6,7 @@ java 中的 java.util.LinkedList.addFirst()方法用于在 LinkedList 的开头�
 
 **语法:**
 
-```
+```java
 void addFirst(Object element)
 
 ```
@@ -17,7 +17,7 @@ void addFirst(Object element)
 
 下面的程序说明了 java.util.LinkedList.addFirst()方法:
 
-```
+```java
 // Java code to illustrate addFirst() method of class LinkedList
 
 import java.io.*;
@@ -52,7 +52,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 The list is:[Geeks, for, Geeks, 10, 20]
 The new List is:[At, First, Geeks, for, Geeks, 10, 20]
 

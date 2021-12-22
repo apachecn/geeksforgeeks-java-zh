@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration withSeconds(long amountOfSeconds)
 
 ```
@@ -19,7 +19,7 @@ public Duration withSeconds(long amountOfSeconds)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate withSeconds() method
 
 import java.time.Duration;
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT5M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate withSeconds() method
 
 import java.time.Duration;
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT50M
 
 ```

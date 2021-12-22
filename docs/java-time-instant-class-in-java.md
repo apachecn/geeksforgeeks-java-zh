@@ -6,7 +6,7 @@
 
 **即时类申报**
 
-```
+```java
 public final class Instant extends Object    
 implements Temporal, TemporalAdjuster, Comparable<Instant>, Serializable  
 ```
@@ -81,7 +81,7 @@ implements Temporal, TemporalAdjuster, Comparable<Instant>, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.time.*;
 import java.time.temporal.*;
 public class GFG {
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Parsed instant is 2021-02-09T11:19:42.120Z
 true
 false

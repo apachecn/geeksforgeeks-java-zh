@@ -5,7 +5,7 @@
 [**德清界面**](https://www.geeksforgeeks.org/deque-interface-java-example/) 的**元素()**方法返回容器前面的元素。它不会删除容器中的元素。这个方法返回德格的头。当 Deque 为空时，方法会引发异常。
 **语法:**
 
-```
+```java
 E element()
 ```
 
@@ -17,7 +17,7 @@ E element()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Deque
 import java.util.*;
@@ -48,7 +48,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 Deque's head: 7855642
 ```
@@ -57,7 +57,7 @@ Deque's head: 7855642
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Deque
 import java.util.*;
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 Deque's head: 7855642
 ```
@@ -97,7 +97,7 @@ Deque's head: 7855642
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Deque
 import java.util.*;
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 Deque's head: 7855642
 ```
@@ -138,7 +138,7 @@ Deque's head: 7855642
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Deque
 import java.util.*;
@@ -170,7 +170,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 Deque's head: 7855642
 ```
@@ -179,7 +179,7 @@ Deque's head: 7855642
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Deque
 import java.util.*;
@@ -215,7 +215,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.util.NoSuchElementException
     at java.util.LinkedList.getFirst(LinkedList.java:244)
     at java.util.LinkedList.element(LinkedList.java:663)

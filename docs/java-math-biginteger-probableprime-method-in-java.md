@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static BigInteger probablePrime(int bitLength, Random rnd)
 ```
 
@@ -25,7 +25,7 @@ public static BigInteger probablePrime(int bitLength, Random rnd)
 
 下面的程序说明了概率犯罪()方法:
 
-```
+```java
 import java.math.*;
 import java.util.Random;
 import java.util.Scanner;
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出** :
 
-```
+```java
 ProbablePrime whose bit length is 4 = 13
 
 ```

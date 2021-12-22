@@ -49,7 +49,7 @@ Arrays 类的 [**deepToString()**](https://www.geeksforgeeks.org/arrays-deeptost
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the usage of
 // Arrays.toString() and Arrays.deepToString()
 
@@ -71,7 +71,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Using Arrays.toString(): [1, 2, 3, 4, 5]
 Using Arrays.deepToString(): [1, 2, 3, 4, 5]
 
@@ -81,7 +81,7 @@ Using Arrays.deepToString(): [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the usage of
 // Arrays.toString() and Arrays.deepToString()
 
@@ -101,7 +101,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Using Arrays.toString(): [1, 2, 3, 4, 5]
 
 ```
@@ -110,7 +110,7 @@ Using Arrays.toString(): [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the usage of 
 // Arrays.toString() and Arrays.deepToString()
 
@@ -135,7 +135,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Using Arrays.toString(): [[Ljava.lang.Integer;@3d075dc0, [Ljava.lang.Integer;@214c265e]
 Using Arrays.deepToString(): [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]
 

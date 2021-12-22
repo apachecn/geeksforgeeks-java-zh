@@ -6,7 +6,7 @@ java 中[比较器接口](https://www.geeksforgeeks.org/comparator-interface-jav
 
 **语法:**
 
-```
+```java
 static <T> Comparator<T> comparingDouble(
     ToDoubleFunction <T> keyExtractor)
 
@@ -21,7 +21,7 @@ static <T> Comparator<T> comparingDouble(
 下面的程序说明了 comparing double(Java . util . function . to doublefunction)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate Comparator
 // comparingDouble(ToDoubleFunction)  method
 
@@ -103,7 +103,7 @@ class User implements Comparable<User> {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate Comparator
 // comparingDouble(ToDoubleFunction)  method
 

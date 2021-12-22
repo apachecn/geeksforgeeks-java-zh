@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Triplet<String, Integer, Double> triplet = ...
     ...
 Quartet<String, Integer, Double, type(s)> quartet = triplet.add(value(s));
@@ -24,7 +24,7 @@ Quartet<String, Integer, Double, type(s)> quartet = triplet.add(value(s));
 
 **程序 1:** 当 add()方法用于从 Unit 到 Ennead 的任何类时，以单个值作为参数:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of add() method with
 // single value
@@ -49,13 +49,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [Geeks, forGeeks]
 ```
 
 **程序 2:** 当 add()方法用于从 Unit 到 Ennead 的任何类时，以多个值作为参数:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of add() method with
 // multiple value
@@ -92,13 +92,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [Geeks, for, Geeks, A, Computer, Science, Portal, for, Geeks, RishabhPrabhu]
 ```
 
 **程序 3:** 当 add()方法用于从 Unit 到 Ennead 的任何类，且总值贡献大于 10 时，它显示运行时异常:
 
-```
+```java
 // Below is a Java program to demonstrate
 // use of add() method
 
@@ -134,7 +134,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.RuntimeException: 
     Uncompilable source code - Erroneous sym type: org.javatuples.Ennead.add
 ```

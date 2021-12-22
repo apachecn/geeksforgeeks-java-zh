@@ -24,7 +24,7 @@ JProgressBar 是 Java Swing 包的一部分。JProgressBar 直观地显示某些
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a
 // simple progress bar
 import java.awt.*;
@@ -95,7 +95,7 @@ public class progress extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a
 // vertical progress bar
 import java.awt.*;
@@ -167,7 +167,7 @@ public class progress extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to set specific
 // string to progressbar
 import java.awt.*;

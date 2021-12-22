@@ -16,7 +16,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to Implement LinkedList API
 
 // Importing utility classes from java.util package

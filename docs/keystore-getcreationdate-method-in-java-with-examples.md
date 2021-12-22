@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Date getCreationDate(String alias)
     throws KeyStoreException
 ```
@@ -23,7 +23,7 @@ public final Date getCreationDate(String alias)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getCreationDate() method
 
 import java.security.*;
@@ -94,7 +94,7 @@ public class GFG {
 
 **示例 2:** 适用于*密钥库异常*
 
-```
+```java
 // Java program to demonstrate getCreationDate() method
 
 import java.security.*;

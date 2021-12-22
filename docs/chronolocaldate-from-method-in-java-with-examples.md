@@ -6,7 +6,7 @@ Java 方法中**ChronalDate**接口的 **from()** 方法从时态对象中获取
 
 **语法** :
 
-```
+```java
 public static ChronoLocalDate 
     from(TemporalAccessor temporal)
 
@@ -22,7 +22,7 @@ public static ChronoLocalDate
 
 **注意**:每次运行输出都会改变。
 
-```
+```java
 // Program to illustrate the from() method
 
 import java.util.*;
@@ -43,7 +43,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2019-04-28
 
 ```

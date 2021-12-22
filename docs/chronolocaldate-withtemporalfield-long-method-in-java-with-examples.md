@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public ChronoLocalDate with(TemporalField field, long newValue)
 
 ```
@@ -26,7 +26,7 @@ public ChronoLocalDate with(TemporalField field, long newValue)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.with() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ChronoLocalDate before applying method: 2018-12-06
 ChronoLocalDate after applying method: 2018-12-30
 

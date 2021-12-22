@@ -6,7 +6,7 @@ Java 中 **LocalDate** 类的 **minusDays()** 方法，用于从这个 LocalDate
 
 **语法:**
 
-```
+```java
 public LocalDate minusDays(long daysToSubtract)
 
 ```
@@ -20,7 +20,7 @@ public LocalDate minusDays(long daysToSubtract)
 以下程序说明了天数()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.minusDays() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before subtracting days: 2018-11-13
 LocalDate after  subtracting days: 2018-10-27
 
@@ -59,7 +59,7 @@ LocalDate after  subtracting days: 2018-10-27
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.minusDays() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate before subtracting days: 2018-12-24
 LocalDate after  subtracting days: 2019-01-08
 

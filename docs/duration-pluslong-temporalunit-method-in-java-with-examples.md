@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration
     plus(long amountToAdd, TemporalUnit unit)
 
@@ -28,7 +28,7 @@ public Duration
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate plus() method
 
 import java.time.Duration;
@@ -53,14 +53,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT56H4M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate plus() method
 
 import java.time.Duration;
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT48H4M
 
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : N = 1, M = 3
 Output: 571
 
@@ -29,7 +29,7 @@ Output: 5671
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Generate N Number
 // of Passwords of Length M Each
 import java.util.Random;
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 73807243
 05081188
 63921767

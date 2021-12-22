@@ -22,7 +22,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- Defined a new style with three items of color. -->
 <style name="DemoTheme" parent="Theme.AppCompat.Light.NoActionBar">
 <!-- Customize your theme here. -->
@@ -56,7 +56,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 if (Build.VERSION.SDK_INT >= 21) {
             Window window = this.getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
@@ -67,7 +67,7 @@ if (Build.VERSION.SDK_INT >= 21) {
 
 ## 我的锅
 
-```
+```java
 if (Build.VERSION.SDK_INT >= 21) {
             val window = this.window
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)

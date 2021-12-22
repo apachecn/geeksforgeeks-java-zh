@@ -13,7 +13,7 @@
 
 **语法:** *()* 为演职人员
 
-```
+```java
 RequiredDatatype=(TargetType)Variable
 ```
 
@@ -21,7 +21,7 @@ RequiredDatatype=(TargetType)Variable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Type Casting of the Datatype
 
 // Importing input output classes
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 3.0
 3
 ```
@@ -62,7 +62,7 @@ public class GFG {
 
 类型转换的工作机制如下:
 
-```
+```java
 double > float > long > int > short > byte
 ```
 
@@ -72,7 +72,7 @@ double > float > long > int > short > byte
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Type Conversion
 
 // Importing input output classes
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 prog.java:9: error: incompatible types: possible lossy conversion from double to int
         int final_datatype = (a + b + c);
                                     ^
@@ -116,7 +116,7 @@ prog.java:9: error: incompatible types: possible lossy conversion from double to
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Type Conversion
 
 // Importing input output classes
@@ -147,6 +147,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 7.0
 ```

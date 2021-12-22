@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public NavigableSet subSet(E fromElement,
                      E toElement) 
 ```
@@ -27,7 +27,7 @@ public NavigableSet subSet(E fromElement,
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate subSet()
     // method of ConcurrentSkipListSet
 
@@ -62,7 +62,7 @@ public NavigableSet subSet(E fromElement,
 
     **Output:**
 
-    ```
+    ```java
     Contents of the set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     Contents of the subset: [2, 3, 4, 5, 6, 7]
 
@@ -70,7 +70,7 @@ public NavigableSet subSet(E fromElement,
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate subSet()
     // method of ConcurrentSkipListSet
 
@@ -107,7 +107,7 @@ public NavigableSet subSet(E fromElement,
 
     **Output:**
 
-    ```
+    ```java
     Contents of the set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     Exception: java.lang.NullPointerException
 
@@ -119,7 +119,7 @@ public NavigableSet subSet(E fromElement,
 
     **语法:**
 
-    ```
+    ```java
     public NavigableSet subSet(E fromElement,
                          boolean fromInclusive,
                          E toElement,
@@ -139,7 +139,7 @@ public NavigableSet subSet(E fromElement,
     下面的程序说明了 ConcurrentSkipListSet.subSet()方法:
     **程序 3:**
 
-    ```
+    ```java
     // Java Program Demonstrate subSet()
     // method of ConcurrentSkipListSet */
     import java.util.NavigableSet;
@@ -171,7 +171,7 @@ public NavigableSet subSet(E fromElement,
 
     **Output:**
 
-    ```
+    ```java
     Contents of the set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     Contents of the subset: [2, 3, 4, 5, 6, 7, 8]
 

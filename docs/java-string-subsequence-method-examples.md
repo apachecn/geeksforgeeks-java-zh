@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public CharSequence subSequence(int start, int end) 
 Parameters: 
 start - This is the index from where the subsequence starts, it is inclusive.
@@ -22,7 +22,7 @@ end - This is the index where the subsequence ends, it is exclusive.
 
 **程序 1:** 展示 Java . lang . string . subsequel()函数的工作原理。
 
-```
+```java
 // Java program to demonstrate working
 // of Java.lang.String.subSequence() method
 import java.lang.Math;
@@ -47,7 +47,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 Returns: Welcome
 Returns:  geeksforgeeks
 
@@ -55,7 +55,7 @@ Returns:  geeksforgeeks
 
 **程序 2:** 显示当索引为负时 Java.lang.String.subSequence()函数的**错误**
 
-```
+```java
 // Java program to demonstrate error
 // of Java.lang.String.subSequence() method
 import java.lang.Math;
@@ -77,7 +77,7 @@ class Gfg {
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: 
 String index out of range: -1
     at java.lang.String.substring(String.java:1960)
@@ -88,7 +88,7 @@ String index out of range: -1
 
 **程序 3:** 显示当索引超出范围时 Java.lang.String.subSequence()函数的**错误**。
 
-```
+```java
 // Java program to demonstrate error
 // of Java.lang.String.subSequence() method
 import java.lang.Math;
@@ -110,7 +110,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: 
 String index out of range: 50
     at java.lang.String.substring(String.java:1963)

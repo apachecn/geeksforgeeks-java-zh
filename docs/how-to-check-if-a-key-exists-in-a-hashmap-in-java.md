@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: HashMap: {1=Geeks, 2=ForGeeks, 3=GeeksForGeeks}, key = 2
 Output: true
 
@@ -27,7 +27,7 @@ Output: false
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to check if a key exists
     // in a HashMap or not
 
@@ -86,7 +86,7 @@ Output: false
 
     **Output:**
 
-    ```
+    ```java
     HashMap: {1=Geeks, 2=ForGeeks, 3=GeeksForGeeks}
     Does key 2 exists: true
 
@@ -94,7 +94,7 @@ Output: false
 
     **程序 2:** 说明为什么不建议采用这种方法。如果 HashMap 包含空值，那么这个方法将抛出 NullPointerException。这使得该方法成为不可建议使用的方法。
 
-    ```
+    ```java
     // Java program to check if a key exists
     // in a HashMap or not
 
@@ -158,7 +158,7 @@ Output: false
 
     **Output:**
 
-    ```
+    ```java
     HashMap: {null=GeeksForGeeks, 1=Geeks, 2=ForGeeks}
     java.lang.NullPointerException
 
@@ -173,7 +173,7 @@ Output: false
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to check if a key exists
     // in a HashMap or not
 
@@ -213,7 +213,7 @@ Output: false
 
     **Output:**
 
-    ```
+    ```java
     HashMap: {null=GeeksForGeeks, 1=Geeks, 2=ForGeeks}
     Does key 2 exists: true
 

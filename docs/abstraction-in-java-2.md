@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // concept of Abstraction
 abstract class Shape {
@@ -110,7 +110,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 Shape constructor called
 Circle constructor called
 Shape constructor called

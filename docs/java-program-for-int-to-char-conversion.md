@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input : N = 74254 
 Output: Seven four two five four
 
@@ -30,7 +30,7 @@ Output: Two three 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Number in Characters
 
 // Importing input output classes
@@ -126,7 +126,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 one two three four five 
 ```
 
@@ -145,7 +145,7 @@ one two three four five
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Number in Characters
 
 // Importing input output classes
@@ -240,7 +240,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 one two three four five 
 ```
 

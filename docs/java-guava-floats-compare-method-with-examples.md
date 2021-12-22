@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int compare(float a, float b)
 
 ```
@@ -26,7 +26,7 @@ public static int compare(float a, float b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.compare() method
 import com.google.common.primitives.Floats;
@@ -50,14 +50,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 4.0 and 4.0 : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.compare() method
 import com.google.common.primitives.Floats;
@@ -81,14 +81,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 4.2 and 3.1 : 1
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.compare() method
 import com.google.common.primitives.Floats;
@@ -112,7 +112,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 2.5 and 4.0 : -1
 
 ```

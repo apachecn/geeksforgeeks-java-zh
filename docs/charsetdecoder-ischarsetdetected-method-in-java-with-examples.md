@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public boolean isCharsetDetected()
 ```
 
@@ -20,7 +20,7 @@ public boolean isCharsetDetected()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharsetDecoder: sun.nio.cs.ISO_8859_1$Decoder@232204a1
 java.lang.UnsupportedOperationException
 
@@ -63,7 +63,7 @@ java.lang.UnsupportedOperationException
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharsetDecoder: sun.nio.cs.ext.DoubleByte$Decoder@232204a1
 java.lang.UnsupportedOperationException
 

@@ -5,7 +5,7 @@
 给定基数中的一个数，将其转换成另一个目标基数。
 示例
 
-```
+```java
 Input : Number = "123"
         Source Base = 8
         Target Base = 10
@@ -22,7 +22,7 @@ Output : 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert one base to other
 public class MainClass {
     public static String
@@ -51,7 +51,7 @@ public class MainClass {
 
 **Output:** 
 
-```
+```java
 Octal to Decimal: 365
 Octal to Hex: 16d
 ```
@@ -60,7 +60,7 @@ Octal to Hex: 16d
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert one base to other
 
 import java.io.*;
@@ -144,7 +144,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Decimal : 4271
 Octal : 10257
 Octal : 1000010101111

@@ -5,7 +5,7 @@
 **java.text.Collator 类**的 **setStrength()** 方法用于设置 Collator 对象的强度属性，该属性将在比较两个字符串时帮助该对象。
 **语法:**
 
-```
+```java
 public void setStrength(int newStrength)
 ```
 
@@ -16,7 +16,7 @@ public void setStrength(int newStrength)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setStrength() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current strength property :- IDENTICAL.
 ```
 
@@ -85,7 +85,7 @@ current strength property :- IDENTICAL.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setStrength() method
 
@@ -140,7 +140,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current strength property :- PRIMARY.
 ```
 

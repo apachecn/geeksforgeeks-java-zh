@@ -16,7 +16,7 @@ GlassActionBar 是一个安卓库，它给动作栏增加了一种玻璃般的�
 
 导航到 **Gradle 脚本> build.gradle(模块:应用)**，在依赖项部分添加库，并同步项目。
 
-```
+```java
 dependencies {
       implementation 'com.github.manuelpeinado.glassactionbar:glassactionbar:0.3.0'
 }
@@ -30,7 +30,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <com.cyrilmottier.android.translucentactionbar.NotifyingScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -70,7 +70,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
 
     <!--Adding background for GlassActionBar-->
@@ -90,7 +90,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme" parent="android:Theme.Holo.Light">
@@ -109,7 +109,7 @@ dependencies {
 
 导航到**应用程序>清单>和安卓清单. xml** ，并在活动中为动作栏添加半透明主题。
 
-```
+```java
 android:theme="@style/AppTheme.TranslucentActionBar" 
 ```
 
@@ -121,7 +121,7 @@ android:theme="@style/AppTheme.TranslucentActionBar"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Activity;
 import android.os.Bundle;
 

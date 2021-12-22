@@ -8,7 +8,7 @@
 
 在这个程序中，您将看到如何将加密的 PDF 文件作为输入，以及如何解密它以访问或读取 PDF 文件。您将看到用于以下过程的 PDFBox 库。
 
-```
+```java
 Input : Encrypted PDF file
 Output : Decrypted PDF file 
 
@@ -16,7 +16,7 @@ Output : Decrypted PDF file
 
 **PDFBox 的 Maven 依赖关系:**
 
-```
+```java
 <dependency>
 <groupId>org.apache.pdfbox</groupId>
 <artifactId>pdfbox</artifactId>
@@ -31,7 +31,7 @@ Output : Decrypted PDF file
 
 使用类**的 **load()** 静态方法(我们可以使用类名访问)加载 PDF 文件**。**加载()**方法将接受 PDF 文件作为参数。这里**所有者密码**是强制的，否则我们无法解密。
 
-```
+```java
 File f = new File("path_of_PDFfile");
 PDDocument pdd = PDDocument.load("object_of_file","Owner_password");
 
@@ -41,7 +41,7 @@ PDDocument pdd = PDDocument.load("object_of_file","Owner_password");
 
 加载 PDF 文件后，使用 **PDDocument** 类的对象调用**setall securitytoreberemoved(bool)**方法。它将从 PDF 中删除**访问权限**，并允许所有用户访问。在**设置中，将**布尔(真/假)**作为参数传递。如果要进行解密操作，则通过**为真**，否则通过**为假**。**
 
-```
+```java
 PDDocument_object.setAllSecurityToBeRemoved(true);
 
 ```
@@ -50,7 +50,7 @@ PDDocument_object.setAllSecurityToBeRemoved(true);
 
 解密 PDF 后**保存****关闭**文件进行修改。
 
-```
+```java
 PDDocument_object.save("path_of_PDFfile");
 PDDocument_object.close();
 
@@ -60,7 +60,7 @@ PDDocument_object.close();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.File;
 import java.io.IOException;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -92,7 +92,7 @@ public class Decrypt_pdf {
 
 **输出:**
 
-```
+```java
 Decryption Done...
 ```
 

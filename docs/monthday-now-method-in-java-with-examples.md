@@ -6,7 +6,7 @@ Java 中 **MonthDay** 类的 **now()** 方法用于从默认时区的系统时�
 
 **语法:**
 
-```
+```java
 public static MonthDay now()
 ```
 
@@ -18,7 +18,7 @@ public static MonthDay now()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.now() method
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MonthDay: --05-09
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.now() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Month: MAY
 
 ```

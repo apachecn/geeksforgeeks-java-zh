@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Annotation[] getAnnotations()
 
 ```
@@ -19,7 +19,7 @@ public Annotation[] getAnnotations()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotations() method
 
@@ -58,7 +58,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Annotation of myClass: [@java.lang.Deprecated()]
 
@@ -66,7 +66,7 @@ Annotation of myClass: [@java.lang.Deprecated()]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotations() method
 
@@ -113,7 +113,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Annotation of myClass: [@Annotation(key=GFG, value=GeeksForGeeks)]
 

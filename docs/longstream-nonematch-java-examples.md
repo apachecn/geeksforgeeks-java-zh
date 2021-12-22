@@ -5,7 +5,7 @@
 **LongStream none match(long 谓语)**返回此流中是否没有元素与提供的谓语匹配。如果不是确定结果所必需的，它可能不会计算所有元素上的谓词。这是一次 ***短路端子操作。*** 如果终端操作在无限输入时可能在有限时间内终止，则该操作为短路。
 **语法:**
 
-```
+```java
 boolean noneMatch(LongPredicate predicate) 
 
 ```
@@ -20,7 +20,7 @@ boolean noneMatch(LongPredicate predicate)
 
 **例 1 :** noneMatch()函数，检查 LongStream 的元素是否都不能被 5 整除。
 
-```
+```java
 // Java code for LongStream noneMatch
 // (LongPredicate predicate) to check whether
 // no element of this stream match
@@ -49,14 +49,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```
 
 **示例 2 :** noneMatch()函数，用于检查连接两个 LongStream 后得到的 LongStream 中是否没有元素小于 2。
 
-```
+```java
 // Java code for LongStream noneMatch
 // (LongPredicate predicate) to check whether
 // no element of this stream match
@@ -87,14 +87,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **示例 3 :** noneMatch()函数显示流是否为空，然后返回 true。
 
-```
+```java
 // Java code for LongStream noneMatch
 // (LongPredicate predicate) to check whether
 // no element of this stream match
@@ -121,7 +121,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 
 ```

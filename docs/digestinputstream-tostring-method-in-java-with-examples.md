@@ -5,7 +5,7 @@
 **Java . security . DigestInputStream**类的 **toString()** 方法提供字符串格式的 DigestInputStream 对象。
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Status : [Digest Input Stream] MD5 Message Digest from SUN, 
 ```
 
@@ -79,7 +79,7 @@ Status : [Digest Input Stream] MD5 Message Digest from SUN,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -134,7 +134,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Status : [Digest Input Stream] SHA-1 Message Digest from SUN, 
 ```
 

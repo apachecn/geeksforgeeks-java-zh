@@ -42,7 +42,7 @@ Weka 是新西兰怀卡托大学开发的开源工具，在 GNU 公共许可下�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for Creating a Model Based on J48 Classifier
 
 // Importing required classes
@@ -113,6 +113,6 @@ public class BreastCancer {
 
 **输出:**
 
-```
+```java
 Successfully executed.
 ```

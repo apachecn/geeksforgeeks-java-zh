@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input: val = 3.142857142857143
 Decimal point = 3
 Output =  3.142
@@ -24,7 +24,7 @@ Upto 3 decimal places
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to truncate the double value to
 // a particular decimal point
 
@@ -64,7 +64,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1212.1213
 3.142
 ```
@@ -78,7 +78,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to truncate the double
 // value using string matching
 
@@ -128,6 +128,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 1212.121311
 ```

@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```java
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -90,7 +90,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 class GFG {
 
@@ -131,7 +131,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Function declared to
 # return the count of words
 # in the given sentence that
@@ -166,7 +166,7 @@ print(endingWith(str, suff ))
 
 ## C#
 
-```
+```java
 // C# implementation of the approach
 using System;
 class GFG{
@@ -213,6 +213,6 @@ class GFG{
 
 **Output:** 
 
-```
+```java
 2
 ```

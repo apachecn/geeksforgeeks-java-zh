@@ -13,7 +13,7 @@ contentEquals(StringBuffer sb)方法将字符串与指定的 StringBuffer 进行
 
 **语法:**
 
-```
+```java
 public boolean contentEquals(StringBuffer sb)
 ```
 
@@ -25,13 +25,13 @@ public boolean contentEquals(StringBuffer sb)
 
 **步骤 1:** 首先，创建一个 StringBuffer 类的实例来比较它的字符序列
 
-```
+```java
 StringBuffer stringBuffer = new StringBuffer( "GFG is the best");
 ```
 
 **步骤 2:** 创建一个 String 的实例，然后调用它的 contentEquals 方法
 
-```
+```java
 String str= "GFG is the best";
 str.contentEquals(stringBuffer)
 ```
@@ -40,7 +40,7 @@ str.contentEquals(stringBuffer)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working
 // of the contentEquals(StringBuffer sb) method
 
@@ -72,7 +72,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String one equals to specified StringBuffer : true
 String two equals to specified StringBuffer : false
 ```
@@ -83,7 +83,7 @@ String two equals to specified StringBuffer : false
 
 **语法:**
 
-```
+```java
 public boolean contentEquals(CharSequence cs)
 ```
 
@@ -95,13 +95,13 @@ public boolean contentEquals(CharSequence cs)
 
 **步骤 1:** 首先，创建一个序列来比较字符值的序列
 
-```
+```java
 CharSequence cs = "portal for geeks"
 ```
 
 **步骤 2:** 创建一个字符串实例，然后调用其 contentEquals 方法
 
-```
+```java
 String str= "portal for geeks";
 str.contentEquals(cs);
 ```
@@ -112,7 +112,7 @@ str.contentEquals(cs);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working
 // of contentEquals(CharSequence cs) metgod
 
@@ -144,7 +144,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String one equals to specified sequence : true
 String two equals to specified sequence : false
 ```

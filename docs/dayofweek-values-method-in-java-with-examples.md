@@ -6,14 +6,14 @@
 
 **方法声明:**
 
-```
+```java
 public static DayOfWeek[] values()
 
 ```
 
 **语法:**
 
-```
+```java
 DayOfWeek week[] =  DayOfWeek.values()
 
 ```
@@ -25,7 +25,7 @@ DayOfWeek week[] =  DayOfWeek.values()
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate values()
 // method of DayOfWeek
 import java.time.DayOfWeek;
@@ -46,7 +46,7 @@ class DayOfWeekExample {
 
 **Output:**
 
-```
+```java
 MONDAY
 TUESDAY
 WEDNESDAY
@@ -59,7 +59,7 @@ SUNDAY
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate values()
 // method of DayOfWeek
 import java.time.DayOfWeek;
@@ -82,7 +82,7 @@ class DayOfWeekExample {
 
 **Output:**
 
-```
+```java
 MONDAY has int value - 1
 TUESDAY has int value - 2
 WEDNESDAY has int value - 3

@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check Whether String contains Special
 // Characters Using Character Class
 
@@ -79,7 +79,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String has Special Characters
 8 Special Characters found.
 ```
@@ -93,7 +93,7 @@ String has Special Characters
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Check Whether String contains Special
 // Characters using Regex classes
 
@@ -173,7 +173,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 No Special Characters found in String 1
 String 2 contains Special Characters
 ```

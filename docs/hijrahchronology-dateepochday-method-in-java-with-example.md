@@ -5,7 +5,7 @@
 **Java . time . chrono . Hijrah 年表**类的 **dateEpochDay()** 方法用于从大纪元日根据 Hijrah 日历系统获取本地日期。
 **语法:**
 
-```
+```java
 public HijrahDate dateEpochDay(long epochDay)
 ```
 
@@ -17,7 +17,7 @@ public HijrahDate dateEpochDay(long epochDay)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateEpochDay() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current HijrahDate is: Hijrah-umalqura AH 1442-11-15
 
 HijrahDate(according to ephochday) is: Hijrah-umalqura AH 1456-01-01
@@ -72,7 +72,7 @@ HijrahDate(according to ephochday) is: Hijrah-umalqura AH 1456-01-01
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateEpochDay() method
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current HijrahDate is: Hijrah-umalqura AH 1442-11-15
 
 passed parameter can not form a date

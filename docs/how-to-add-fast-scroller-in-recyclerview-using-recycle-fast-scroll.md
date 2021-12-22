@@ -14,7 +14,7 @@
 
 **第二步:将此添加到 build.gradle:(app)文件**
 
-```
+```java
 implementation 'androidx.recyclerview:recyclerview:1.1.0'
 implementation 'com.github.plusCubed:recycler-fast-scroll:0.3.2'
 implementation 'com.google.android.material:material:1.0.0'
@@ -22,7 +22,7 @@ implementation 'com.google.android.material:material:1.0.0'
 
 将它添加到 build.gradle:(项目)文件中
 
-```
+```java
 allprojects {
     repositories {
         google()
@@ -38,7 +38,7 @@ allprojects {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -61,7 +61,7 @@ allprojects {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

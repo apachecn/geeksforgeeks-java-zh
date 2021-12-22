@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Instant plusNanos(long nanosToAdd)
 ```
 
@@ -23,7 +23,7 @@ public Instant plusNanos(long nanosToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.plusNanos() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Returned Instant: 2018-10-28T19:34:51.470Z
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.plusNanos() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current instant: 2018-11-28T05:32:40.818Z
 Returned Instant: 2018-11-28T05:32:41.248Z
 

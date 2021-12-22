@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEnumConstant()
 
 ```
@@ -18,7 +18,7 @@ public boolean isEnumConstant()
 下面的程序说明了 isEnumConstant()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // isEnumConstant () method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Field --> Name: JANUARY; isEnumConstant: true
 Field --> Name: FEBRUARY; isEnumConstant: true
 Field --> Name: MARCH; isEnumConstant: true
@@ -73,7 +73,7 @@ Field --> Name: $VALUES; isEnumConstant: false
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // isEnumConstant () method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Field --> Name: Alpha; isEnumConstant: true
 Field --> Name: Beta; isEnumConstant: true
 Field --> Name: Gamma; isEnumConstant: true

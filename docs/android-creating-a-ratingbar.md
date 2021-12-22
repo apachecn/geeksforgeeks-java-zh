@@ -17,7 +17,7 @@
 
 **创建主活动的程序:**
 
-```
+```java
 // Below is the code for MainActivity.java
 package com.example.hp.rating;
 
@@ -63,7 +63,7 @@ RatingBar rt;
 
 **为主要活动创建布局的程序:**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -141,7 +141,7 @@ RatingBar rt;
 
 **下面是 AndroidManifest.xml 的代码**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hp.rating" >

@@ -18,7 +18,7 @@
 
 继承是在面向对象编程中实现对象之间关系的设计策略。extends 关键字用于在 Java 中实现继承。
 
-```
+```java
 class Person {
  String title;
  String name;
@@ -37,7 +37,7 @@ class Employee extends Person {
 
 在面向对象编程中，组合是执行对象之间关系的架构策略。Java 合成是使用来自其他对象的实例变量完成的。
 
-```
+```java
 class Person {
  String title;
  String name;
@@ -73,14 +73,14 @@ Employee kapil = new Employee (p, 100000);
 
 //不允许多重继承
 
-```
+```java
 class Manager extends Person, Employee {
 }
 ```
 
 现在我们必须使用下面的语法来支持合成而不是继承:
 
-```
+```java
 Class Manager {
  public string title;
  public Manager(Person p, Employee e)

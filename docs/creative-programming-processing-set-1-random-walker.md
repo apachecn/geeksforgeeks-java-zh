@@ -12,7 +12,7 @@
 **实现草图-**
 示例代码已经使用处理库和处理 IDE 用 java 编写。
 
-```
+```java
 Walker w; // Walker object
 
 void setup() // Called at the beginning once
@@ -30,7 +30,7 @@ void draw() // Called every frame
 
 **沃克类的实现-**
 
-```
+```java
 class Walker // The walker class
 {
     PVector location; // A vector object representing the location
@@ -56,7 +56,7 @@ class Walker // The walker class
 
 **草图的修改实现-**
 
-```
+```java
 // Program to implement random walker
 
 Walker w; // Walker object
@@ -78,7 +78,7 @@ void draw() // Called every frame
 
 **沃克类的修改实现-**
 
-```
+```java
 class Walker // The walker class
 {
     PVector location; // A vector object representing the location

@@ -11,7 +11,7 @@
 *   **追加(char Sw):****Java . io . chararraywriter . append(char Sw)**向 Writer 追加一个字符。
     **语法:**
 
-```
+```java
 public CharArrayWriter append(char Sw)
 Parameters : 
 Sw : character to be append
@@ -22,7 +22,7 @@ CharArrayWriter
 *   **追加(CharSequence char _ sq):****Java . io . chararraywriter . append(CharSequence char _ sq)**向 Writer 追加指定的字符序列。
     **语法:**
 
-    ```
+    ```java
     public CharArrayWriter append(CharSequence char_sq)
     Parameters : 
     char_sq : Character sequence to append. 
@@ -33,7 +33,7 @@ CharArrayWriter
     *   **追加(CharSequence char_sq，int start，int end):****Java . io . chararraywriter . append(CharSequence char _ sq，int start，int end)** 将字符序列的指定部分追加到 Writer。
     **语法:**
 
-    ```
+    ```java
     public CharArrayWriter append(CharSequence char_sq, int start, int end)
     Parameters : 
     char_sq : Character sequence to append.
@@ -46,7 +46,7 @@ CharArrayWriter
     *   **flush():****Java . io . chararraywriter . flush()**刷新编写器流
     **语法:**
 
-    ```
+    ```java
     public void flush()
     Parameters : 
     -----
@@ -57,7 +57,7 @@ CharArrayWriter
     *   **toCharArray():****Java . io . chararraywriter . toCharArray()**从 Writer Stream 返回字符数组。
     **语法:**
 
-    ```
+    ```java
     public char[] toCharArray()
     Parameters : 
     -----
@@ -68,7 +68,7 @@ CharArrayWriter
     *   **reset() :** **java.io.CharArrayWriter.reset()** resets the Writer buffer so that it can be used again.
     **Syntax:**
 
-    ```
+    ```java
     public void reset()
     Parameters : 
     -----
@@ -78,7 +78,7 @@ CharArrayWriter
 
     **演示 CharArrayWriter 类方法使用的 Java 程序:**
 
-    ```
+    ```java
     // Java program illustrating the working of CharArrayWriter class methods
     // append(CharSequence char_sq), append(char Sw)
     // append(CharSequence char_sq, int start,int end)
@@ -150,7 +150,7 @@ CharArrayWriter
 
     **输出:**
 
-    ```
+    ```java
     append(char Sw) :G
     append(char Sw) :GE
     append(char Sw) :GEE

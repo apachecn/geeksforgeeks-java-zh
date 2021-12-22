@@ -10,7 +10,7 @@ foreach 循环使用的关键字在 C++和 Java 中都是“”的“**”。**
 
 **C++程序:**
 
-```
+```java
 // C++ program to demonstrate use of foreach
 #include <iostream>
 using namespace std;
@@ -28,7 +28,7 @@ int main()
 
 **Output:**
 
-```
+```java
 10
 20
 30
@@ -38,7 +38,7 @@ int main()
 
 **Java 程序**
 
-```
+```java
 // Java program to demonstrate use of foreach
 public class Main {
     public static void main(String[] args)
@@ -56,7 +56,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 10
 20
 30

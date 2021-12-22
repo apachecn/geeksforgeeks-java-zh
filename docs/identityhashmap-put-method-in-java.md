@@ -6,7 +6,7 @@ IdentityHashMap 的 java.util.IdentityHashMap.put()方法用于将映射插入�
 
 **语法:**
 
-```
+```java
 Identity_Hash_Map.put(*key, value*)
 ```
 
@@ -20,7 +20,7 @@ Identity_Hash_Map.put(*key, value*)
 下面的程序用来说明 java.util.IdentityHashMap.put()方法:
 **程序 1:** 在传递现有密钥时的工作方式。
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 Returned value is: Geeks
 New map is: {10=Geeks, 30=You, 20=All, 25=Welcomes, 15=4}
@@ -64,7 +64,7 @@ New map is: {10=Geeks, 30=You, 20=All, 25=Welcomes, 15=4}
 
 **程序 2:** 传递新密钥时。
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -99,7 +99,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 Returned value is: null
 New map is: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4, 50=All}

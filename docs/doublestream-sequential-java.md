@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream sequential()
 
 Where, DoubleStream is a sequence of primitive
@@ -19,7 +19,7 @@ double-valued element.
 **返回值:**一个连续的双流。
 **示例 1 :** 双流顺序()返回顺序双流。
 
-```
+```java
 // Java code for DoubleStream sequential()
 // to return a sequential DoubleStream.
 import java.util.*;
@@ -45,7 +45,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3.3
 5.4
 9.2
@@ -56,7 +56,7 @@ class GFG {
 
 **示例 2 :** 空双流上的双流顺序()。
 
-```
+```java
 // Java code for DoubleStream sequential()
 // on empty DoubleStream
 import java.util.*;
@@ -88,7 +88,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 parallel : false
 parallel : true
 parallel : false

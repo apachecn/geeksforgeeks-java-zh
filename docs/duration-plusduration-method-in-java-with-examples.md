@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration plus(Duration duration)
 
 ```
@@ -21,7 +21,7 @@ public Duration plus(Duration duration)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate plus() method
 
 import java.time.Duration;
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT56H4M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate plus() method
 
 import java.time.Duration;
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT120H4M
 
 ```

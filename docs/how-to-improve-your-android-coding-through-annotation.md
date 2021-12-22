@@ -4,7 +4,7 @@
 
 注释是一种元数据。[元数据](https://www.geeksforgeeks.org/difference-between-data-and-metadata/)则是提供其他数据信息的数据集合。在 Android 中使用注释的方式有很多。然而，在这一节中，我们将讨论如何利用注释来改进我们的安卓编码。官方的说法是，安卓已经有了支持注释，你可以通过依赖来合并，如下图所示
 
-```
+```java
 compile ‘com.android.support:support-*annotations:latestVersionHere*’
 ```
 
@@ -19,7 +19,7 @@ compile ‘com.android.support:support-*annotations:latestVersionHere*’
 
 ## Java
 
-```
+```java
 @NonNull
 public View aFunction(@Nullable String gfg1, @NonNull String gfg2) {
  // gfg1 can be null

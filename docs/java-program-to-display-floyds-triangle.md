@@ -6,7 +6,7 @@
 
 **说明:**假设要显示的行数为 5，那么期望的输出应该显示 5 行，如下所示:
 
-```
+```java
 1
 2 3
 4 5 6
@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to display Floyd's triangle
 
 // Importing Java libraries
@@ -74,7 +74,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1  
 2  3  
 4  5  6  

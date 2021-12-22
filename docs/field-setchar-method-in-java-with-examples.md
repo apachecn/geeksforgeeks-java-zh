@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setChar(Object obj, char c)
             throws IllegalArgumentException,
                    IllegalAccessException
@@ -30,7 +30,7 @@ public void setChar(Object obj, char c)
 下面的程序说明了 setChar()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setByte() method
 
 // program illustrate setChar()
@@ -96,7 +96,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of lastNamePrefix before applying setChar is S
 Value of lastNamePrefix after applying setChar is B
 Value of firstNamePrefix before applying setChar is A
@@ -106,7 +106,7 @@ Value of firstNamePrefix after applying setChar is Z
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setChar() method
 
 import java.lang.reflect.Field;
@@ -144,7 +144,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Value after applying setChar is A
 
 ```

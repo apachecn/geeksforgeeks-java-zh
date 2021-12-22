@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public Stream<String> lines()
 ```
 
@@ -24,7 +24,7 @@ public Stream<String> lines()
 
 插图:
 
-```
+```java
 Input  : "Geek \n For \n Geeks \n 2021"
 Output :
      Geek
@@ -47,7 +47,7 @@ Output :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing Stream class from
 // java.util package
 import java.util.stream.Stream;
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
  Geeks 
  For 
  Geeks 
@@ -90,7 +90,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate String class lines() method
 // by converting stream of lines to ArrayList 
 
@@ -128,7 +128,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [ Geeks ,  For ,  Geeks ,  Technical ,  content ,  writer ,  Internship]
 ```
 
@@ -136,7 +136,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate String class lines() method
 // by converting stream of lines to array 
 
@@ -173,6 +173,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [ Geeks ,  For ,  Geeks ,  Technical ,  content ,  writer ,  Internship]
 ```

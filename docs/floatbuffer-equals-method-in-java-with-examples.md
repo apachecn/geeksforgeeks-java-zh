@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object ob)
 ```
 
@@ -29,7 +29,7 @@ public boolean equals(Object ob)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer 1:  [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 FloatBuffer 2:  [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 both are equal
@@ -108,7 +108,7 @@ both are equal
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -179,7 +179,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer 1:  [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 FloatBuffer 2:  [8.56, 0.0, 9.61, 0.0, 0.0]
 both are not equal
@@ -188,7 +188,7 @@ both are not equal
 
 **实施例 3:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -261,7 +261,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer 1:  [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 FloatBuffer 2:  [8.56, 0.0, 9.61, 7.861, 4.31, 0.0, 0.0, 0.0, 0.0, 0.0]
 both are not equal

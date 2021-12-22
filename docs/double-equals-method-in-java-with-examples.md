@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -20,7 +20,7 @@ T3】obj–传递的对象是要比较的对象。
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Double.equals() method
 import java.lang.*;
@@ -53,7 +53,7 @@ class Gfg1 {
 
 **Output:**
 
-```
+```java
 Object1 & Object2: Not equal
 Object1 & Object2: Equal
 
@@ -61,7 +61,7 @@ Object1 & Object2: Equal
 
 **程序 2:** 不传递参数时。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Double.equals() method
 import java.lang.Math;
@@ -86,7 +86,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 prog.java:15: error: no suitable method found for equals(no arguments)
         if (obj1.equals())
                 ^
@@ -100,7 +100,7 @@ prog.java:15: error: no suitable method found for equals(no arguments)
 
 **程序 3:** 当对象以外的任何东西作为参数传递时。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Double.equals() method
 import java.lang.Math;
@@ -125,7 +125,7 @@ class Gfg1 {
 
 **Output:**
 
-```
+```java
 Object1 & Object2: Not Equal
 
 ```

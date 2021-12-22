@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 LinkedList<ClassName> variableName = new LinkedList<>();
 
 Example:
@@ -32,7 +32,7 @@ LinkedList<Integer> ll = new LinkedList<>();
 
 **例:**
 
-```
+```java
 Input: ll1 = [10, 20, 30, -12, 0, 23, -2, 12] 
        element = 23
 Output: 5
@@ -54,7 +54,7 @@ Output: 2
 
 T3】JavaT5
 
-```
+```java
 // Java Program to find an element in a Linked List
 
 // Importing the Linked List class
@@ -127,7 +127,7 @@ T6T8**输出**T1
 
 T3】JavaT5
 
-```
+```java
 // A Generic Node class is used to create a Linked List
 class Node<E> {
 

@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.put( *键，值*)方法用于关联指定的键值
 
 **语法:**
 
-```
+```java
 Enum_Map.put(*key, value*)
 ```
 
@@ -20,7 +20,7 @@ Enum_Map.put(*key, value*)
 以下程序说明了 put( *键，value* )的工作方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate keySet()
 import java.util.*;
 
@@ -60,7 +60,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 The map is: {Global_today=799, India_today=69}
 Previous value: 69
 The final map is: {Global_today=799, India_today=72}
@@ -69,7 +69,7 @@ The final map is: {Global_today=799, India_today=72}
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the working of keySet()
 import java.util.*;
 
@@ -109,7 +109,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 The map is: {Global_today=799, India_today=69}
 Previous value: 799
 The final map is: {Global_today=800, India_today=69}

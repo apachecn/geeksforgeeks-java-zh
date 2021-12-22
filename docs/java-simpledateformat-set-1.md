@@ -6,7 +6,7 @@ SimpleDateFormat 类有助于格式化和解析数据。我们可以将日期从
 
 **申报:**
 
-```
+```java
 public class SimpleDateFormat
 extends DateFormat
 ```
@@ -21,7 +21,7 @@ extends DateFormat
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating SimpleDateFormat class
 import java.text.*;
 import java.util.*;
@@ -46,7 +46,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Present Date : Wed Jun 21 18:21:13 IST 2017
 Date formatted : 21 / 06 / 17
 ```
@@ -57,7 +57,7 @@ Date formatted : 21 / 06 / 17
 
 **语法:**
 
-```
+```java
 public void set2DigitYearStart(Date starting_Date)
 Parameters :
 starting_Date : Date is set in the range - starting_Date to starting_Date + 100 years
@@ -67,7 +67,7 @@ Returns void
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of set2DigitYearStart() method
 
@@ -103,7 +103,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Initial Time : Thu Oct 27 00:00:00 IST 2016
 New Time : Mon Jun 12 00:00:00 IST 1916
 ```
@@ -112,7 +112,7 @@ New Time : Mon Jun 12 00:00:00 IST 1916
 
 **语法:**
 
-```
+```java
 public void get2DigitYearStart()
 Parameters :
 -----
@@ -124,7 +124,7 @@ Returns start of 100 year period that was set during parsing.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of get2DigitYearStart() method
 
@@ -165,7 +165,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Initial Time : Thu Oct 27 00:00:00 IST 2016
 New Time : Mon Jun 12 00:00:00 IST 1916
 START Year : 1900
@@ -175,7 +175,7 @@ START Year : 1900
 
 **语法:**
 
-```
+```java
 public String toPattern()
 Parameters :
 -----
@@ -185,7 +185,7 @@ Returns pattern of the Date format.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating use of toPattern() method
 
 import java.text.*;
@@ -215,7 +215,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Current Date : 6/21/17 6:24 PM
 Date Pattern : M/d/yy h:mm a
 ```
@@ -224,7 +224,7 @@ Date Pattern : M/d/yy h:mm a
 
 **语法:**
 
-```
+```java
 public Date parse()
 Parameters :
 -----
@@ -234,7 +234,7 @@ Returns Date parsed from a string.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of parse() method
 
@@ -266,7 +266,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Time parsed from String : Thu Oct 27 00:00:00 IST 2016
 ```
 
@@ -274,7 +274,7 @@ Time parsed from String : Thu Oct 27 00:00:00 IST 2016
 
 **语法:**
 
-```
+```java
 public void applyPattern(String arg)
 Parameters :
 arg : defined pattern to be set to the Date Format.
@@ -286,7 +286,7 @@ Void
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of applyPattern() method
 
@@ -319,7 +319,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Current Date : 21 / 06 / 2017 18:25 +0530
 Pattern applied : dd / MM / yyyy HH:mm Z
 ```
@@ -328,7 +328,7 @@ Pattern applied : dd / MM / yyyy HH:mm Z
 
 **语法:**
 
-```
+```java
 public final String format(Date arg)
 Parameters :
 arg : Date to be formatted to String
@@ -338,7 +338,7 @@ Formatted String of Date
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of format() method
 
@@ -366,7 +366,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Actual Date : Wed Jun 21 18:25:50 IST 2017
 Formatted Date to String : 6/21/17 6:25 PM
 ```
@@ -375,7 +375,7 @@ Formatted Date to String : 6/21/17 6:25 PM
 
 **语法:**
 
-```
+```java
 public String toLocalizedPattern()
 Parameters :
 ------
@@ -385,7 +385,7 @@ Date pattern String used in the formatter
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of toLocalizedPattern() method
 
@@ -414,7 +414,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Date : 6/21/17 6:27 PM
 Pattern in DateFormater 'geek' : M/d/yy h:mm a
 ```

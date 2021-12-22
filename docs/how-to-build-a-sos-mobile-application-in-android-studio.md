@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class ContactModel {
     private int id;
     private String phoneNo;
@@ -97,7 +97,7 @@ public class ContactModel {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -200,7 +200,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.content.DialogInterface;
 import android.view.LayoutInflater;
@@ -303,7 +303,7 @@ public class CustomAdapter extends ArrayAdapter<ContactModel> {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -357,7 +357,7 @@ public class CustomAdapter extends ArrayAdapter<ContactModel> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -444,7 +444,7 @@ public class ShakeDetector implements SensorEventListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @RequiresApi(Build.VERSION_CODES.O)
 private void startMyOwnForeground()
 {
@@ -478,7 +478,7 @@ private void startMyOwnForeground()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @Override
 public int onStartCommand(Intent intent, int flags, int startId) {
     super.onStartCommand(intent, flags, startId);
@@ -491,7 +491,7 @@ public int onStartCommand(Intent intent, int flags, int startId) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // method to vibrate the phone
 public void vibrate()
 {
@@ -515,7 +515,7 @@ public void vibrate()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 FusedLocationProviderClient fusedLocationClient = LocationServices.getFusedLocationProviderClient(getApplicationContext());
 
 fusedLocationClient.getCurrentLocation(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY, new CancellationToken() {
@@ -562,7 +562,7 @@ fusedLocationClient.getCurrentLocation(LocationRequest.PRIORITY_BALANCED_POWER_A
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 SmsManager smsManager = SmsManager.getDefault();
 DbHelper db = new DbHelper(SensorService.this);
 List<ContactModel> list = db.getAllContacts();
@@ -584,7 +584,7 @@ for (ContactModel c : list) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -806,7 +806,7 @@ public class SensorService extends Service {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -833,7 +833,7 @@ public class ReactivateService extends BroadcastReceiver {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -1019,7 +1019,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1050,7 +1050,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"

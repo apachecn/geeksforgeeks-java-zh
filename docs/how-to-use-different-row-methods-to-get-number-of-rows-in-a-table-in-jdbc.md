@@ -28,7 +28,7 @@ Java 支持许多数据库，对于每个数据库，我们需要将它们各自
 
 ![](img/d4c1ae43a3360da19d0e6b738055771e.png)
 
-```
+```java
 CREATE TABLE `studentsdetails` (
 `id` int(6) unsigned NOT NULL,
 `Name` varchar(50) NOT NULL,
@@ -43,13 +43,13 @@ PRIMARY KEY (`id`)
 
 创建查询的效率较低的方法
 
-```
+```java
 select count(*) from Table_Name;
 ```
 
 创建查询的更有效方法
 
-```
+```java
 select count(1) from Table_Name;
 ```
 
@@ -68,7 +68,7 @@ select count(1) from Table_Name;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Java Program to use different row methods
 to get no of rows in a table in JDBC */
 
@@ -163,7 +163,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Step 1: Importing Database libraries */
 import java.sql.*;
 

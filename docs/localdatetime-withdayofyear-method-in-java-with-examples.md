@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **withDayOfYear()** 方法用于获取该 Loca
 
 **语法:**
 
-```
+```java
 public LocalDateTime withDayOfYear(int dayOfYear)
 ```
 
@@ -20,7 +20,7 @@ public LocalDateTime withDayOfYear(int dayOfYear)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withDayOfYear() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2018-11-30T12:54:35.320
 New LocalDateTime: 2018-01-01T12:54:35.320
 
@@ -53,7 +53,7 @@ New LocalDateTime: 2018-01-01T12:54:35.320
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withDayOfYear() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2015-04-06T10:15:30
 New LocalDateTime: 2015-12-31T10:15:30
 

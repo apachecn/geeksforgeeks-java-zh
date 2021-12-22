@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int longValue()
 
 ```
@@ -19,7 +19,7 @@ public int longValue()
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the longValue() function
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current value: 0
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the longValue() function
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current value: 18
 
 ```

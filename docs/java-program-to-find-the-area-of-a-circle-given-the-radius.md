@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find
 // the area of the circle
 
@@ -62,6 +62,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of the circle is :78.53981633974483
 ```

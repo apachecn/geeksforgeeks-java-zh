@@ -6,7 +6,7 @@ Java 中 **LongSummaryStatistics 类的 **getAverage()** 方法用来获取这�
 
 **语法:**
 
-```
+```java
 public double getAverage()
 
 ```
@@ -17,7 +17,7 @@ public double getAverage()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -48,7 +48,7 @@ public class LongSummaryStatisticsDemo {
 
 **输出:**
 
-```
+```java
 The average of values is 30.0
 
 ```

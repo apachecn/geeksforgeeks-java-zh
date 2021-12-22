@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int intValue()
 
 ```
@@ -18,7 +18,7 @@ public int intValue()
 以下程序说明了 intValue()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // intValue() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 intValue = 800
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // intValue() method
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 intValue = 1000
 
 ```

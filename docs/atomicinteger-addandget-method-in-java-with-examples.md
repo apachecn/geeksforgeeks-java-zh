@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int addAndGet(int val)
 
 ```
@@ -19,7 +19,7 @@ public final int addAndGet(int val)
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrates
 // the addandget() function
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Updated value: 6
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program to demonstrates
 // the addandget() function
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 18
 Updated value: 24
 

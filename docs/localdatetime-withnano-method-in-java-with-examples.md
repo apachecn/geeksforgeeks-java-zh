@@ -6,7 +6,7 @@ Java 中 [LocalDateTime 类](https://www.geeksforgeeks.org/java-time-localdate-c
 
 **语法:**
 
-```
+```java
 public LocalDateTime withNano(int nanoSeconds)
 ```
 
@@ -20,7 +20,7 @@ public LocalDateTime withNano(int nanoSeconds)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate withNano() method of
 // LocalDateTime class
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original LocalDateTime: 2018-11-30T12:54:17.484
 New LocalDateTime: 2018-11-30T12:54:17
 ```
@@ -61,7 +61,7 @@ New LocalDateTime: 2018-11-30T12:54:17
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate withNano() method of
 // LocalDateTime class
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original LocalDateTime: 2015-04-06T10:15:30
 New LocalDateTime: 2015-04-06T10:15:30.000099999
 ```
@@ -110,7 +110,7 @@ New LocalDateTime: 2015-04-06T10:15:30.000099999
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate withNano() method of
 // LocalDateTime class
 

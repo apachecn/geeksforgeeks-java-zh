@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -18,7 +18,7 @@ public boolean equals(Object obj)
 下面的程序说明了 CompoundName.equals()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.equals()
 
@@ -65,14 +65,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompoundName1 is not equal to CompoundName2
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.equals() method
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompoundName1 is equal to CompoundName2
 
 ```

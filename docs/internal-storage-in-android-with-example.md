@@ -52,7 +52,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -152,7 +152,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 private String filename = "demoFile.txt";
 read = findViewById(R.id.read_button);
 write = findViewById(R.id.write_button);
@@ -170,7 +170,7 @@ fileContent = findViewById(R.id.content);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 private void readData()
 {
 
@@ -200,7 +200,7 @@ private void readData()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 private void writeData()
 {
     try
@@ -224,7 +224,7 @@ private void writeData()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;

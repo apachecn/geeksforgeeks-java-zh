@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input:    [1,2,3,4,5]
 Output: [2,3,4,5,1]
 
@@ -23,7 +23,7 @@ Output:    [3,1,5,6,2]
 
 ## Java
 
-```
+```java
 // Java Program to Cyclically Permute 
 // the Elements of an Array
 import java.util.*;
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 2 3 4 5 1 
 
 ```

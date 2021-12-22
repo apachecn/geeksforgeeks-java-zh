@@ -6,7 +6,7 @@ java 中 [**数组列表**](https://www.geeksforgeeks.org/arraylist-in-java/) �
 
 **语法:**
 
-```
+```java
 list_name.isEmpty()
 ```
 
@@ -18,7 +18,7 @@ list_name.isEmpty()
 
 用 Java 演示 isEmpty()工作的程序:
 
-```
+```java
 // Java code to demonstrate the working of
 // isEmpty() method in ArrayList
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The ArrayList is empty
 The ArrayList is not empty
 

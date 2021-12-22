@@ -8,7 +8,7 @@
 
 1.  用户拥有实现**可运行**的主类，这是对编译器的承诺，即该类将拥有**运行**方法。
 
-    ```
+    ```java
     public class MyClass implements Runnable{
         public void run(){
 
@@ -19,7 +19,7 @@
 
 2.  The user then passes a reference to the main application to the execute method using the **this** keyword.
 
-    ```
+    ```java
     taskList.execute(this)
 
     ```
@@ -32,7 +32,7 @@
 
 下面是方法一中解释的反例的方法二实现:
 
-```
+```java
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -104,7 +104,7 @@ public class MainAppRunnable implements Runnable {
 
 **输出:**
 
-```
+```java
 pool-1-thread-1 Counter: 0
 pool-1-thread-2 Counter: 0
 pool-1-thread-1 Counter: 1

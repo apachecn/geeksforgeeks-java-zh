@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: string = "gfg"
 Output: ggf
 
@@ -29,7 +29,7 @@ Output: {1, 3, 2}
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to implement
 // the next_permutation method
 
@@ -132,7 +132,7 @@ public class nextPermutation {
 
 **Output:**
 
-```
+```java
 [1, 3, 2]
 
 ```

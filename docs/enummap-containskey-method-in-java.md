@@ -6,7 +6,7 @@ Java . util . enummap . contains key(*key*)方法用于检查该映射中是否�
 
 **语法:**
 
-```
+```java
 boolean containsKey(*Object key*)
 ```
 
@@ -17,7 +17,7 @@ boolean containsKey(*Object key*)
 下面的程序说明了 containsKey()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate containsKey() method
 import java.util.*;
 
@@ -55,14 +55,14 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 gfg_visitors from United States: true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate containsKey() method
 import java.util.*;
 
@@ -101,7 +101,7 @@ class Enum_map {
 
 **Output:**
 
-```
+```java
 gfg_visitors from Russia: false
 
 ```

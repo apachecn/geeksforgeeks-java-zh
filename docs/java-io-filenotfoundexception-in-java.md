@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public class FileNotFoundException
   extends IOException
     implements ObjectInput, ObjectStreamConstants
@@ -38,7 +38,7 @@ FileNotFoundException 发生时主要有****2 种场景**。现在让我们通�
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate 
 // FileNotFoundException 
 
@@ -76,7 +76,7 @@ public class Example1 
 
 ### **输出**
 
-```
+```java
 prog.java:14: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
     FileReader reader = new FileReader("file.txt");
                         ^
@@ -97,7 +97,7 @@ prog.java:31: error: unreported exception IOException; must be caught or declare
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate 
 // FileNotFoundException 
 
@@ -142,7 +142,7 @@ class Example2 {
 
 ### **输出**
 
-```
+```java
 java.security.AccessControlException: access denied ("java.io.FilePermission" "file.txt" "write")
     at java.base/java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
     at java.base/java.security.AccessController.checkPermission(AccessController.java:897)

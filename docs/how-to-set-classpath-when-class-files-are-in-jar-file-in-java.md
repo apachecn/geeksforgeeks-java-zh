@@ -6,13 +6,13 @@
 
 插图:
 
-```
+```java
 import java.util.ArrayList;
 ```
 
 它使 ArrayList 类在当前类的包 *java.util* 中可用。
 
-```
+```java
 ArrayList<Integer> list = new ArrayList<>()  ;
 ```
 
@@ -37,11 +37,11 @@ ArrayList<Integer> list = new ArrayList<>()  ;
 
 下面的特定命令用于为任何由半列分隔的 jar 文件设置类路径。
 
-```
+```java
 C:> set CLASSPATH=classpath1;classpath2...
 ```
 
-```
+```java
 1\. C:> set CLASSPATH=.;C:\dependency\framework.jar
 
 2\. //Add multiple jars

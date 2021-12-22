@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static LongStream.Builder builder()
 
 ```
@@ -19,7 +19,7 @@ static LongStream.Builder builder()
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -42,14 +42,14 @@ class GFG {
 
 输出:
 
-```
+```java
 0
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -72,7 +72,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1
 3
 5

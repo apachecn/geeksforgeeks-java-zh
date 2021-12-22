@@ -5,7 +5,7 @@
 **的 **removeFirstOccurrence()** 方法链接锁定命令**从该命令中删除指定元素的第一次出现。如果 deque 不包含该元素，它将保持不变。如果这个 deque 包含指定的元素，则返回 true，否则返回 false。
 **语法:**
 
-```
+```java
 public boolean removeFirstOccurrence(Object o)
 ```
 
@@ -16,7 +16,7 @@ public boolean removeFirstOccurrence(Object o)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate removeFirstOccurrence()
 // method of LinkedBlockingDeque
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Linked Blocking Deque: [15, 20, 20, 15]
 First occurrence of 15 removed
 Linked Blocking Deque: [20, 20, 15]
@@ -64,7 +64,7 @@ Linked Blocking Deque: [20, 20, 15]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate removeFirstOccurrence()
 // method of LinkedBlockingDeque
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Linked Blocking Deque: [15, 20, 20, 15]
 10 not present and not removed
 Linked Blocking Deque: [15, 20, 20, 15]

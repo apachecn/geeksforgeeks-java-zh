@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentHashMap.contains(*Object Value*)
 ```
 
@@ -18,7 +18,7 @@ ConcurrentHashMap.contains(*Object Value*)
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the contains() method
 
 import java.util.*;
@@ -57,7 +57,7 @@ public class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Is the value 'Geeks' present? true
 Is the value 'World' present? false
@@ -66,7 +66,7 @@ Is the value 'World' present? false
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the contains() method
 
 import java.util.*;
@@ -105,7 +105,7 @@ public class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 Is the value 'Geeks' present? true
 Is the value 'World' present? false

@@ -46,7 +46,7 @@ Java 快速、可靠、安全。从桌面到网络应用，从科学超级计算
 
     正确设置 Java 环境后，尝试运行这个简单的程序:
 
-    ```
+    ```java
     // A Java program to print GeeksforGeeks
     public class GFG {
         public static void main(String args[])
@@ -58,7 +58,7 @@ Java 快速、可靠、安全。从桌面到网络应用，从科学超级计算
 
     **Output:**
 
-    ```
+    ```java
     GeeksforGeeks
 
     ```

@@ -6,7 +6,7 @@ Java.util.HashSet.iterator()方法用于返回与哈希集元素相同的迭代�
 
 **语法:**
 
-```
+```java
 Iterator *iterate_value* = Hash_Set.iterator();
 
 ```
@@ -17,7 +17,7 @@ Iterator *iterate_value* = Hash_Set.iterator();
 
 下面的程序说明了 Java.util.HashSet.iterator()方法:
 
-```
+```java
 // Java code to illustrate iterator()
 import java.util.*;
 import java.util.HashSet;
@@ -52,7 +52,7 @@ public class HashSetDemo {
 
 **输出:**
 
-```
+```java
 HashSet: [4, Geeks, Welcome, To]
 The iterator values are: 
 4

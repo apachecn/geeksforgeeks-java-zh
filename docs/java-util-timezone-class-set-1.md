@@ -17,7 +17,7 @@ TimeZone 类用于表示时区偏移量，还计算夏令时。
 
 **班级申报**
 
-```
+```java
 public abstract class TimeZone extends 
 Object implements Serializable, Cloneable
 ```
@@ -26,20 +26,20 @@ Object implements Serializable, Cloneable
 
 *   **getavailable IDs()**–使用此方法可以获得所有可用的时区 id。
 
-```
+```java
 Syntax : public static String[] getAvailableIDs()
 ```
 
 *   **getavailable IDs(int rawOffset)**–使用此方法，您可以获得一个 ID 数组，其中该 ID 的时区具有以毫秒为单位的指定 GMT 偏移。
 
-```
+```java
 Syntax : public static String[] getAvailableIDs(int rawOffset)
 Parameters: rawOffset - the given time zone GMT offset in milliseconds.
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Demonstration of
 // getAvailableIDs() and
 // getAvailableIDs(int rawOffset ) methods
@@ -76,7 +76,7 @@ public class TimeZoneDemo {
 }
 ```
 
-```
+```java
 Output:  
 Total No of Time Zone Available
 628
@@ -92,19 +92,19 @@ Africa/Cairo......
 
 *   **getDefault()**–使用这个方法可以得到程序运行的时区。
 
-```
+```java
 Syntax : public static TimeZone getDefault()
 ```
 
 *   **getDisplayName()**–方法返回初始化时区的长标准时间名称。
 
-```
+```java
 Syntax : public final String getDisplayName() 
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Demonstration of
 // getDefault() and getDisplayName() methods
 import java.util.TimeZone;
@@ -126,33 +126,33 @@ public class TimeZoneDemo {
 }
 ```
 
-```
+```java
 Output:  
 Coordinated Universal Time
 ```
 
 *   **获取时区(字符串标识)**–该方法用于获取给定标识的时区。
 
-```
+```java
 Syntax :public static TimeZone getTimeZone(String ID)
 Parameters: ID - the ID for a TimeZone.
 ```
 
 *   **getdstservice()**–方法返回要添加到本地标准时间的时间量，以获得本地挂钟时间。
 
-```
+```java
 Syntax : public int getDSTSavings()
 ```
 
 *   **getID()**–该方法用于获取该时区的 ID。
 
-```
+```java
 Syntax : public String getID()
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Demonstration of
 // getTimeZone(String ID),
 // getDSTSavings()  and getID() methods
@@ -187,7 +187,7 @@ public class TimeZoneDemo {
 }
 ```
 
-```
+```java
 Output: 
 Display Name
 Central European Time
@@ -201,7 +201,7 @@ Europe/Berlin
 
 *   **getOffset(长日期)**–该方法用于在方法中返回该时区相对于经过日期的 UTC 的偏移量。
 
-```
+```java
 Syntax : the method is used to return the offset of this time zone
  from UTC at the passed date in method.
 Parameters: date - the date represented in milliseconds
@@ -210,20 +210,20 @@ Parameters: date - the date represented in milliseconds
 
 *   **日亮时间(日期日期)**–如果给定日期在该时区的夏令时，则该方法返回真，否则返回假。
 
-```
+```java
 Syntax :Syntax : public abstract boolean inDaylightTime(Date date)
 Parameters:date - the given Date.
 ```
 
 *   **observesDaylightTime()**–如果该时区当前处于夏令时，或者如果在未来任何时间从标准时间转换到夏令时，则该方法返回 true。
 
-```
+```java
 Syntax :public boolean observesDaylightTime()
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for
 // Demonstration of getOffset(long date),
 // inDaylightTime(Date date)  and
@@ -262,7 +262,7 @@ public class TimeZoneDemo {
 }
 ```
 
-```
+```java
 Output:
 Offset value of Europe/Berlin:
 3600000
@@ -278,27 +278,27 @@ true
 
 *   **设置默认值(时区)**–用于设置 getDefault 方法返回的时区。
 
-```
+```java
 Syntax : public static void setDefault(TimeZone zone)
 Parameters: zone - the new default time zone
 ```
 
 *   **设置标识(字符串标识)**–用于设置时区标识。
 
-```
+```java
 Syntax :public void setID(String ID)
 Parameters: ID - the new time zone ID.
 ```
 
 *   **克隆()**–此方法用于创建此时区的副本
 
-```
+```java
 Syntax : public Object clone()
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Demonstration of
 // setDefault(TimeZone zone),
 // setID(String ID)  and clone() methods
@@ -340,7 +340,7 @@ public class TimeZoneDemo {
 }
 ```
 
-```
+```java
 Output:
 Current Default TimeZone:
 India Standard Time
@@ -361,7 +361,7 @@ Eur/Ber
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // java.util.timezone class
 import java.text.*;
@@ -391,7 +391,7 @@ public class TimeZoneDemo {
 }
 ```
 
-```
+```java
  Output: 
 Date and time of your Local Time Zone:
 Coordinated Universal Time, 2018-04-17 07:36:19

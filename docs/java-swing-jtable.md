@@ -20,7 +20,7 @@ JTable 类是 Java Swing Package 的一部分，通常用于显示或编辑既�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Packages to import
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;

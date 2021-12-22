@@ -19,7 +19,7 @@ Stop 类是 JavaFX 的一部分。Stop 类包含偏移量和颜色。定义渐�
 
 **创建停靠点的 Java 程序将其添加到线性渐变中，并将其应用到圆中:**在本程序中，我们将创建一个停靠点对象的数组，其偏移值范围从 0 到 1。创建具有指定停止点的线性渐变对象。然后用指定的 x，y 位置和半径创建一个圆，并添加线性渐变。创建一个 VBox 并设置它的对齐方式。将圆圈添加到 *vbox* 并将 vbox 添加到场景并将场景添加到舞台，并调用 *show()* 功能显示结果。
 
-```
+```java
 // Java program to create stops add it to
 // linear gradient and apply it to the circle
 import javafx.application.Application;

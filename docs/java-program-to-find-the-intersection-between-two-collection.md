@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove All the Elements from the First
 // Collection if it is not Available in the Second
 // Using ArrayList.contains() Method  
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 
 ```
 
@@ -119,7 +119,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove All the Elements from the First
 // Collection if it is not Available in the Second
 // Using Vector.retainAll() method
@@ -189,6 +189,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 
 ```

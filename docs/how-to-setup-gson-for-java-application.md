@@ -6,7 +6,7 @@ GSON 是谷歌的 JSON 解析器。它用于解析 JSON 文件和生成 JSON 文
 
 **pom.xml 文件**如下:
 
-```
+```java
 <dependency>
     <groupId>com.google.code.gson</groupId>
     <artifactId>gson</artifactId>
@@ -18,7 +18,7 @@ GSON 是谷歌的 JSON 解析器。它用于解析 JSON 文件和生成 JSON 文
 
 > 考虑一下维护员工信息的 XYZ 公司。因此，我们有员工类，它具有诸如 id、姓名、部门、工资和评级等属性。我们创建一个 Gson 实例，如下所示:
 > 
-> ```
+> ```java
 > Gson gson = new Gson();
 > ```
 
@@ -35,7 +35,7 @@ GSON 是谷歌的 JSON 解析器。它用于解析 JSON 文件和生成 JSON 文
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Create an Employee object with all
 // Attributes and generate a GSON out of it
 
@@ -144,7 +144,7 @@ class Employee {
 
 **输出:**
 
-```
+```java
 Emp json is {"id":"E00101","name":"John","department":"IT","rating":7,"salary":250000.0}
 Generated employee from json is Employee [id=E00101, name=John, department=Java, rating=7, salary=250000.0]
 ```
@@ -153,7 +153,7 @@ Generated employee from json is Employee [id=E00101, name=John, department=Java,
 
 **语法:**
 
-```
+```java
 GsonBuilder gsonBuilder = new GsonBuilder();
 Gson gson = gsonBuilder.create();
 ```
@@ -164,7 +164,7 @@ Gson gson = gsonBuilder.create();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program where we will be using GsonBuilder object to
 // Pretty Print the gson Contents
 
@@ -265,7 +265,7 @@ class Employee {
 }
 ```
 
-```
+```java
 Output:-
 Emp json in pretty print format:{
   "id": "F000101",
@@ -283,7 +283,7 @@ Updated employee is : Employee [id=F000101, name=Dave, department=DB, rating=8, 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Make Rating Attribute of Employee class
 // as Transient
 
@@ -381,7 +381,7 @@ class Employee {
 
 **输出:**
 
-```
+```java
 Emp json is {"id":"J01012","name":"Jane","department":"Devops","salary":200000.0}
 Generated employee from json is Employee [id=J01012, name=Jane, department=Java, rating=0, salary=200000.0]
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int checkedSubtract(int a, int b)
 
 ```
@@ -21,7 +21,7 @@ public static int checkedSubtract(int a, int b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // checkedSubtract(int a, int b) method
 // of Guava's IntMath class
@@ -59,7 +59,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Difference of 25 and 36 is: -11
 Difference of 150 and 667 is: -517
 
@@ -67,7 +67,7 @@ Difference of 150 and 667 is: -517
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // checkedSubtract(int a, int b) method
 // of Guava's IntMath class
@@ -117,7 +117,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: overflow
 
 ```

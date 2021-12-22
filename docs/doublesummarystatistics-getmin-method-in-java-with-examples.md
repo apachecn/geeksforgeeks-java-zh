@@ -6,7 +6,7 @@ Java 中 **DoubleSummaryStatistics 类的 **getMin()** 方法用来获取这个 
 
 **语法:**
 
-```
+```java
 public double getMin()
 
 ```
@@ -17,7 +17,7 @@ public double getMin()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 

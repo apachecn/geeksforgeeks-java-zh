@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public HijrahDate dateYearDay(int year,
                               int day)
 
@@ -27,7 +27,7 @@ public HijrahDate dateYearDay(int year,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateYearDay() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate is: Hijrah-umalqura AH 1440-01-24
 
 ```
@@ -74,7 +74,7 @@ HijrahDate is: Hijrah-umalqura AH 1440-01-24
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateYearDay() method
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 passed parameter can not form a date
 Exception thrown: java.time.DateTimeException: Invalid Hijrah date, year: 2019, month: 1
 

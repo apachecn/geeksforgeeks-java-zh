@@ -11,7 +11,7 @@ Java . lang . math . ex pm1()返回 **e <sup>x</sup> -1。**注意，对于接�
 
 **语法:**
 
-```
+```java
 public static double expm1(double x) 
 Parameter: 
 x-the exponent part which raises to e. 
@@ -22,7 +22,7 @@ x-the exponent part which raises to e.
 
 **示例:**展示**函数的工作**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.expm1() method
 import java.lang.Math;
@@ -64,7 +64,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 19.085536923187668
 NaN
 Infinity

@@ -17,7 +17,7 @@ Arrays.deepEquals()用于检查两个一维或多维数组的数组是否相等�
 
 **语法:**
 
-```
+```java
 public static boolean deepEquals(Object[] o1, Object[] o2)
 
 o1 = First Array to test for Equality
@@ -27,7 +27,7 @@ Returns true if two array are equal
 
 ```
 
-```
+```java
 // Java program to demonstrate working of deepEquals.
 import java.util.Arrays;
 public class GFG {
@@ -58,7 +58,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 Check if a1 is equal to a2 : false
 Check if a2 is equal to a3 : false
 Check if a1 is equal to a3 : true
@@ -68,7 +68,7 @@ Check if a1 is equal to a3 : true
 **我们甚至可以用 deepEquals()来测试用户定义类的 Object 数组的相等性。参考下面的例子**
 我们应该覆盖[等于](https://www.geeksforgeeks.org/overriding-equals-method-in-java/)的方法来定义用户定义类中不同参数的相等性。
 
-```
+```java
 // Java program to demonstrate working of deepEquals
 // for arrays of user defined obj.
 import java.util.Arrays;
@@ -124,7 +124,7 @@ public static class Employee {
 
 输出:
 
-```
+```java
 Check if e1 is equal to e2 : true
 Check if e2 is equal to e3 : false
 Check if a1 is equal to a3 : false

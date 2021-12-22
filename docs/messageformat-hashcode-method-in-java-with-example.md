@@ -5,7 +5,7 @@
 **java.text.MessageFormat** 类的 **hashCode()** 方法用于获取该消息格式对象的 hashCode。
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -16,7 +16,7 @@ public int hashCode()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method
 
@@ -44,7 +44,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Hashcode is : 1408
 ```
 
@@ -52,7 +52,7 @@ Hashcode is : 1408
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Hashcode is : 44
 ```
 

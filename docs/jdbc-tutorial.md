@@ -138,7 +138,7 @@ JDBC 的现实生活实现最常见于**移动联网**，图示如下:
 
 **语法:**
 
-```
+```java
 class com.mysql.jdbc.Driver ;
 ```
 
@@ -155,7 +155,7 @@ class com.mysql.jdbc.Driver ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Setting Up of JDBC
 
 // Importing SQL database
@@ -203,7 +203,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Steps in Setting Up of JDBC
 ```
 
@@ -211,7 +211,7 @@ Steps in Setting Up of JDBC
 
 **实现:**在我们的 MySQL 数据库中查询如下:
 
-```
+```java
 select * from Student;
 insert into Students values(7, geeksforGeeks);
 select username from Student where userid = 7;
@@ -221,7 +221,7 @@ select username from Student where userid = 7;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Working Of JDBC
 // with Above Query in Database
 
@@ -296,6 +296,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```

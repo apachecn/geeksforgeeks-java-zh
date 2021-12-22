@@ -8,7 +8,7 @@
 
 EnumMap API 属于 [**java.util**](https://www.geeksforgeeks.org/java-util-package-java/) 包。为了实现 EnumMap 应用编程接口，将使用一个特殊的类，定义如下。
 
-```
+```java
 EnumMapImpl<K extends Enum<K>, V> class
 ```
 
@@ -18,7 +18,7 @@ EnumMapImpl<K extends Enum<K>, V> class
 
 让我们考虑一个以服装尺寸为关键的 EnumMap。
 
-```
+```java
 enum Dress_sizes
     {
         extra-small, small, medium, large, extra-large;
@@ -29,12 +29,12 @@ enum Dress_sizes
 
 **申报:**
 
-```
+```java
 enumMap.containsKey(Dress_sizes.extra-large);
 
 ```
 
-```
+```java
 Input: extra-large
 Output: true
 
@@ -50,11 +50,11 @@ Output: false
 
 **申报:**
 
-```
+```java
 enumMap.clear();
 ```
 
-```
+```java
 Output: The enumMap is now empty.       
         enum Dress_sizes
         { 
@@ -72,7 +72,7 @@ Output: The enumMap is now empty.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement enum Map API
 
 import java.lang.*;
@@ -253,7 +253,7 @@ public class EnumMapImpl<K extends Enum<K>, V> {
 
 **Output**
 
-```
+```java
 The size of the enumMap is: 7
 
 The values of the enumMap is: 

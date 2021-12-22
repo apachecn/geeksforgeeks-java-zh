@@ -36,7 +36,7 @@
 
 **语法:**数组列表类的声明
 
-```
+```java
 public class ArrayList 
 extends AbstractList 
 implements List, RandomAccess, Cloneable, Serializable
@@ -44,7 +44,7 @@ implements List, RandomAccess, Cloneable, Serializable
 
 **语法:**HashMap 类的声明
 
-```
+```java
 public class HashMap 
 extends AbstractMap 
 implements Map, Cloneable, Serializable  
@@ -58,7 +58,7 @@ ArrayList 维护插入顺序，而 HashMap 不维护插入顺序，这意味着 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to llustrate Maintenance of Insertion Order
 // in ArrayList vs HashMap 
 
@@ -106,7 +106,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 ArrayList: [A, B, C, D]
 HashMap: {1=A, 2=B, 3=C, 4=D}
 ```
@@ -117,14 +117,14 @@ ArrayList 仅将元素存储为值，并在内部维护每个元素的索引。�
 
 **语法:**数组列表
 
-```
+```java
 list.add("A");
 // String value is stored in ArrayList
 ```
 
 **语法:** HashMap
 
-```
+```java
 hm.put(1, "A");
 // Two String values stored
 // as the key value pair in HashMap
@@ -138,7 +138,7 @@ ArrayList 允许重复元素，而 HashMap 不允许重复键，但允许重复�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Duplicate Elements Insertion
 // in ArrayList vs HashMap
 
@@ -191,7 +191,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 ArrayList: [A, B, A, A]
 HashMap: {1=A, 2=B, 3=A, 4=A, 5=A}
 ```

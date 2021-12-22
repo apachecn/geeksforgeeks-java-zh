@@ -6,7 +6,7 @@
 
 简单来说，Java 中的文字是布尔、数字、字符或字符串数据的综合表示。它是在程序中表达特定值的一种媒介，例如名为' '/count 的整数变量在下面的语句中被赋予一个整数值。
 
-```
+```java
 // Here 100 is a constant/literal.
 int x = 100; 
 ```
@@ -17,20 +17,20 @@ int x = 100;
 
 **十进制文字(基数 10):** 在这种形式中，允许的数字是 0-9。
 
-```
+```java
 int x = 101;
 ```
 
 **八进制文字(基数 8):** 在这种形式中，允许的数字是 0-7。
 
-```
+```java
 // The octal number should be prefix with 0.
 int x = 0146; 
 ```
 
 **六位十进制文字(Base 16):** 在这种形式中，允许的数字是 0-9，字符是 a-f，我们可以同时使用大写和小写字符，因为我们知道 java 是一种区分大小写的编程语言，但是这里 java 不区分大小写。
 
-```
+```java
 // The hexa-decimal number should be prefix
 // with 0X or 0x.
 int x = 0X123Face; 
@@ -38,7 +38,7 @@ int x = 0X123Face;
 
 **二进制文字:**从 1.7 开始，我们甚至可以用二进制形式指定文字值，允许的数字是 0 和 1。文字值应该以 0b 或 0B 为前缀。
 
-```
+```java
 int x = 0b1111;
 ```
 
@@ -46,7 +46,7 @@ int x = 0b1111;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // application of Integer literals
 
@@ -72,7 +72,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 101
 64
 64206
@@ -87,13 +87,13 @@ public class Test {
 
 **十进制文字(基数 10):** 在这种形式中，允许的数字是 0-9。
 
-```
+```java
 double d = 123.456;
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the 
 // application of floating-point literals
 
@@ -116,7 +116,7 @@ public class Test {
 
 **输出**
 
-```
+```java
 101.230
 123.222
 Error: malformed floating point literal
@@ -130,25 +130,25 @@ Error: malformed floating point literal
 
 **单引号:**我们可以将字符数据类型的文字指定为单引号中的单个字符。
 
-```
+```java
 char ch = 'a';
 ```
 
 **将字符文字指定为整数文字:**我们可以将字符文字指定为整数文字，它表示字符的 Unicode 值，该整数文字可以以十进制、八进制和十六进制形式指定。但是允许的范围是 0 到 65535。
 
-```
+```java
 char ch = 062;
 ```
 
 **Unicode 表示法:**我们可以在 Unicode 表示法“\ uxxxx”中指定字符文字。这里 xxxx 代表 4 个十六进制数。
 
-```
+```java
 char ch = '\u0061';// Here /u0061 represent a.
 ```
 
 **转义序列:**每个转义字符都可以被指定为字符。
 
-```
+```java
 char ch = '\n';
 ```
 
@@ -156,7 +156,7 @@ char ch = '\n';
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // application of char literals
 
@@ -182,7 +182,7 @@ public class Test {
 
 **输出**
 
-```
+```java
 a
 error:Integer number too large
 a
@@ -193,13 +193,13 @@ a
 
 双引号内的任何字符序列都被视为字符串。
 
-```
+```java
 String s = "Hello";
 ```
 
 字符串不能包含非转义换行符或换行符。但是，Java 编译器将评估编译时表达式，因此下面的字符串表达式会生成一个包含三行文本的字符串:
 
-```
+```java
 Example:
 String text = "This is a String literal\n"
             + "which spans not one and not two\n"
@@ -208,7 +208,7 @@ String text = "This is a String literal\n"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // application of String literals
 
@@ -229,7 +229,7 @@ public class Test {
 
 **输出**
 
-```
+```java
 Hello
 error: cannot find symbol
 symbol:   variable Hello
@@ -240,13 +240,13 @@ location: class Test
 
 布尔文字只允许有两个值，即真和假。
 
-```
+```java
 boolean b = true;
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // application of boolean literals
 
@@ -268,7 +268,7 @@ public class Test {
 
 **输出**
 
-```
+```java
 true
 false
 error: incompatible types: int cannot be converted to boolean
@@ -279,7 +279,7 @@ error: incompatible types: int cannot be converted to boolean
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the behaviour of
 // char literals and integer literals when
 // we are performing addition
@@ -300,13 +300,13 @@ public class Test {
 
 **Output**
 
-```
+```java
 Geeks!48255
 ```
 
 **说明:**每当我们在字符串和整数之间进行加法运算时，总的结果都会转换成字符串。上述程序评估通过以下方式完成:
 
-```
+```java
 "Geeks!" + first + '2' + second
 "Geeks! " + 48 + '2' + 55
 "Geeks!48" + '2' + 55

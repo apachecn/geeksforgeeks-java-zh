@@ -28,7 +28,7 @@
 *   如果它找到合适的处理程序，那么它会将发生的异常传递给它。适当的处理程序意味着抛出的异常对象的类型与其能够处理的异常对象的类型相匹配。
 *   如果运行时系统搜索调用堆栈上的所有方法，并且找不到合适的处理程序，那么运行时系统将异常对象切换到**默认异常处理程序**，它是运行时系统的一部分。该处理程序以下列格式打印异常信息，并异常终止程序**。
 
-    ```
+    ```java
     Exception in thread "xxx" Name of Exception : Description
     ... ...... ..  // Call Stack
 
@@ -39,7 +39,7 @@
 
 ****例**:**
 
-```
+```java
 // Java program to demonstrate how exception is thrown.
 class ThrowsExecp{
 
@@ -54,14 +54,14 @@ class ThrowsExecp{
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at ThrowsExecp.main(File.java:8) 
 ```
 
 **让我们看一个例子，说明运行时系统如何在调用堆栈上搜索适当的异常处理代码:**
 
-```
+```java
 // Java program to demonstrate exception is thrown
 // how the runTime system searches th call stack
 // to find appropriate exception handler.
@@ -121,7 +121,7 @@ class ExceptionThrown
 
 **输出:**
 
-```
+```java
 / by zero. 
 ```
 
@@ -135,7 +135,7 @@ class ExceptionThrown
 
 考虑下面的 java 程序。
 
-```
+```java
 // java program to demonstrate 
 // need of try-catch clause
 
@@ -156,7 +156,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
     at GFG.main(GFG.java:9)
 
@@ -166,7 +166,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 
 ****如何使用试捕条款****
 
-```
+```java
 try {
 // block of code to monitor for errors
 // the code you think can raise an exception

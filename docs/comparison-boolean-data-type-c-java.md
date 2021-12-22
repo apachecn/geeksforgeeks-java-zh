@@ -7,7 +7,7 @@
 1.  **Declaration:** The declaration of boolean data type in C++ involve the use of keyword [bool](https://www.geeksforgeeks.org/bool-data-type-in-c/), whereas declaration in Java is done by keyword [boolean](https://www.geeksforgeeks.org/java-lang-boolean-class-java/).
     **C++ Code:**
 
-    ```
+    ```java
     #include<iostream>
     using namespace std;
     int main()
@@ -23,7 +23,7 @@
 
     **Java 代码:**
 
-    ```
+    ```java
     class A
     {
         public static void main(String args[])
@@ -40,7 +40,7 @@
 
     **C++代码:**
 
-    ```
+    ```java
     #include<iostream>
     using namespace std;
     int main()
@@ -61,7 +61,7 @@
 
     **Java 代码:**
 
-    ```
+    ```java
     class A
     {
         public static void main(String args[])
@@ -81,7 +81,7 @@
 
     输出:
 
-    ```
+    ```java
     false
     false
     false
@@ -98,7 +98,7 @@
 
     **C++代码:**
 
-    ```
+    ```java
     #include<iostream>
     using namespace std;
     int main()
@@ -114,7 +114,7 @@
 
     输出:
 
-    ```
+    ```java
     1
 
     ```
@@ -123,7 +123,7 @@
 
     **Java 代码:**
 
-    ```
+    ```java
     class A
     {
         public static void main(String args[])
@@ -146,7 +146,7 @@
 
     **C++代码:**
 
-    ```
+    ```java
     #include<iostream>
     using namespace std;
     int main()
@@ -167,13 +167,13 @@
 
     输出:
 
-    ```
+    ```java
     a is greater than b
     ```
 
     **Java 代码:**
 
-    ```
+    ```java
     class a
     {
         public static void main(String args[])
@@ -198,7 +198,7 @@
 
     **C++代码:**
 
-    ```
+    ```java
     #include<iostream>
     using namespace std;
     int main()
@@ -216,7 +216,7 @@
 
     输出:
 
-    ```
+    ```java
     1 1
     ```
 
@@ -224,7 +224,7 @@
 
     **Java 代码:**
 
-    ```
+    ```java
     class a
     {
         public static void main(String args[])

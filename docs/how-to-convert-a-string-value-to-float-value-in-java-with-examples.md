@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = "1.0"
 Output: 1.0
 
@@ -23,7 +23,7 @@ Output: 3.14
 
 **语法:**
 
-```
+```java
 Float.parseFloat(str);
 
 ```
@@ -32,7 +32,7 @@ Float.parseFloat(str);
 
 **示例 1:** 显示成功转换
 
-```
+```java
 // Java Program to convert string to float
 
 class GFG {
@@ -70,14 +70,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1.0 after converting into float = 1.0
 
 ```
 
 **示例 2:** 显示转换不成功
 
-```
+```java
 // Java Program to convert string to float
 
 class GFG {
@@ -128,7 +128,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 cannot be converted to float: empty String
 null cannot be converted to float: null
 GFG cannot be converted to float: For input string: "GFG"
@@ -140,7 +140,7 @@ GFG cannot be converted to float: For input string: "GFG"
 
 **语法:**
 
-```
+```java
 Float.valueOf(str);
 
 ```
@@ -149,7 +149,7 @@ Float.valueOf(str);
 
 **示例 1:** 显示成功转换
 
-```
+```java
 // Java Program to convert string to float
 
 class GFG {
@@ -187,7 +187,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1.0 after converting into float = 1.0
 
 ```

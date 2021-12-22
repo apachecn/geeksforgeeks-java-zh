@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime zonedDateTime(Instant instant,
                                    ZoneId zone)
 ```
@@ -24,7 +24,7 @@ public ZonedDateTime zonedDateTime(Instant instant,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -66,14 +66,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate and time is: 2020-03-10T02:37:13.036Z[Etc/UTC]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate and time is: 1970-01-01T06:56:40Z[Etc/UTC]
 
 ```

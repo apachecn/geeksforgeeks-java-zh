@@ -27,7 +27,7 @@ CustomMenuItem 是 JavaFX 库的一部分。CustomMenuItem 允许不同类型的
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to create a custom menu items and add it to the menu
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -106,7 +106,7 @@ public class CustomMenuItem_1 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to create custom menu items and
 // Add it to the menu and use the property hide on click
 

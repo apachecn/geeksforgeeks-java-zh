@@ -5,7 +5,7 @@
 Java 中的 **ConcurrentLinkedQueue** 类是 [Java 集合框架](https://www.geeksforgeeks.org/collections-in-java-2/)的一部分。属于 **java.util.concurrent** 包。它是在 JDK 1.5 中引入的。用于同时借助[链表](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)实现[队列](https://www.geeksforgeeks.org/queue-data-structure/)。它是队列的一个**无界** **线程安全**实现，以先进先出的方式在队列尾部插入元素。当多个线程共享一个无界队列时，可以使用它。此类不允许空元素。迭代器弱一致。这个类及其迭代器实现了**队列**和**迭代器**接口的所有可选方法。
 **阶级等级:**
 
-```
+```java
 java.lang.Object
   ↳ java.util.AbstractCollection<E>
      ↳ java.util.AbstractQueue<E>
@@ -38,7 +38,7 @@ java.lang.Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ConcurrentLinkedQueue
 
 import java.util.concurrent.*;
@@ -76,7 +76,7 @@ class ConcurrentLinkedQueueDemo {
 
 **Output:** 
 
-```
+```java
 ConcurrentLinkedQueue: [12, 70, 1009, 475]
 ConcurrentLinkedQueue1: [12, 70, 1009, 475]
 ```
@@ -85,7 +85,7 @@ ConcurrentLinkedQueue1: [12, 70, 1009, 475]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // methods of ConcurrentLinkedQueue
 
@@ -134,7 +134,7 @@ class ConcurrentLinkedQueueDemo {
 
 **Output:** 
 
-```
+```java
 ConcurrentLinkedQueue: [12, 70, 1009, 475]
 First Element is: 12
 Head Element is: 12
@@ -153,7 +153,7 @@ Size: 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate adding
 // elements to ConcurrentLinkedQueue
 
@@ -205,7 +205,7 @@ public class AddingElementsExample {
 
 **Output**
 
-```
+```java
 ConcurrentLinkedQueue: [Kolkata, Patna, Delhi, Jammu]
 Collection to be added: [Sanjeet, Rabi, Debasis, Raunak, Mahesh]
 Collection added: true
@@ -218,7 +218,7 @@ ConcurrentLinkedQueue 的 [remove(Object o)](https://www.geeksforgeeks.org/concu
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate removing
 // elements from ConcurrentLinkedQueue
 
@@ -255,7 +255,7 @@ public class RemovingElementsExample {
 
 **Output**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 Removing Number 78249 successful: true
 Updated ConcurrentLinkedQueue: [4353, 7824, 8724]
@@ -267,7 +267,7 @@ ConcurrentLinkedQueue 的[迭代器()](https://www.geeksforgeeks.org/concurrentl
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate Iterating
 // over ConcurrentLinkedQueue
 
@@ -304,7 +304,7 @@ public class TraversingExample {
 
 **Output**
 
-```
+```java
 ConcurrentLinkedQueue : [Aman, Amar, Sanjeet, Rabi]
 
 The String Values of iterator are:
@@ -322,7 +322,7 @@ Rabi
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate accessing
 // elements of ConcurrentLinkedQueue
 
@@ -356,7 +356,7 @@ public class AccessingElementsExample {
 
 **Output**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 Queue's head: 7855642

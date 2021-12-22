@@ -26,7 +26,7 @@ JMenu 基本上代表一个菜单。它包含几个对象。它还可能包含 J
 
 **1。制作菜单栏并添加菜单项的程序**
 
-```
+```java
 // Java program to construct 
 // Menu bar to add menu items
 import java.awt.*;
@@ -85,7 +85,7 @@ public class menu extends JFrame {
 
 **2。程序添加一个菜单栏，添加菜单项，子菜单项，也添加动作监听器到菜单项**
 
-```
+```java
 // Java program Program to add a menubar
 // and add menuitems, submenu items and also add
 // ActionListener to menu items

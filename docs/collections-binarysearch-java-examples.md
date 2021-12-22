@@ -4,7 +4,7 @@
 
 java.util.Collections . BinarySearch()方法是一个 Java . util . collections 类方法，返回对象在排序列表中的位置。
 
-```
+```java
 // Returns index of key in sorted list sorted in
 // ascending order
 public static int binarySearch(List slist, T key)
@@ -23,7 +23,7 @@ would be inserted into the list.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Collections.
 // binarySearch()
 import java.util.ArrayList;
@@ -55,7 +55,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 3
 -5
 ```
@@ -64,7 +64,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Collections.
 // binarySearch() in an array sorted in descending order.
 import java.util.ArrayList;
@@ -93,7 +93,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 Found at index 1
 ```
 
@@ -101,7 +101,7 @@ Found at index 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Collections.
 // binarySearch() in a list of user defined objects
 import java.util.*;
@@ -154,7 +154,7 @@ class Domain {
 
 输出:
 
-```
+```java
 0
 -1
 ```

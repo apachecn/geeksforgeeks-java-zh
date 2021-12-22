@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 hashtable.putAll(hashmap)
 ```
 
@@ -31,7 +31,7 @@ hashtable.putAll(hashmap)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to copy Map content to another Hashtable
 
 import java.util.HashMap;
@@ -63,7 +63,7 @@ public class NewExample {
 
 **Output**
 
-```
+```java
 Elements in hashtable: {key_2=2020, key_1=GeeksForGeeks}
 ```
 
@@ -71,7 +71,7 @@ Elements in hashtable: {key_2=2020, key_1=GeeksForGeeks}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to copy Map content to another Hashtable
 
 import java.util.Hashtable;
@@ -114,7 +114,7 @@ public class HashmapExample {
 
 **Output**
 
-```
+```java
 Elements in HashMap : {key_2=2020, key_1=GeeksForGeeks}
 Initial Elements in Hashtable : {key_4=Programming, key_3=Java, key_1=GFG}
 After copying map elements in hashtable:

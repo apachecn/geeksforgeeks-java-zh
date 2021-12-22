@@ -6,7 +6,7 @@
 
 我们有一个类 Student 和一个类型为 Student 的 LinkedHashSet，我们希望看到 LinkedHashSet 是否包含该对象。
 
-```
+```java
 // Student class
 class Student {
 
@@ -34,7 +34,7 @@ LinkedHashSet<Student> set = new LinkedHashSet<>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find user defined objects from
 // LinkedHashSet
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Dheeraj is not present in set.
 ```
 
@@ -96,7 +96,7 @@ Dheeraj is not present in set.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find user defined objects from
 // LinkedHashSet 
 
@@ -146,6 +146,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Bina present in set.
 ```

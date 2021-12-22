@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public char getChar(Object obj)
        throws IllegalArgumentException,
               IllegalAccessException
@@ -27,7 +27,7 @@ public char getChar(Object obj)
 以下程序说明 getChar()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the above method
 
 import java.lang.reflect.Field;
@@ -116,7 +116,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Value of Char Field identificationChar is E
 Value of Char Field selectionChar is A
 
@@ -124,7 +124,7 @@ Value of Char Field selectionChar is A
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the above method
 
 import java.lang.reflect.Field;
@@ -175,7 +175,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: Q
 
 ```

@@ -9,11 +9,11 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 
@@ -53,7 +53,7 @@ public class ConcurrentHashMapExample {
 
 **Output:**
 
-```
+```java
 Map before use of clear(): 
 {1=1, 2=1, 3=1, 4=1, 5=1, 6=1}
 Map after use of clear(): {}
@@ -62,7 +62,7 @@ Map after use of clear(): {}
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // clear() method
 
@@ -101,7 +101,7 @@ public class ConcurrentHashMapExample {
 
 **Output:**
 
-```
+```java
 Map before use of clear(): 
 {Geeks3=120, Geek6=100, Geek5=110, Geek4=111, Geeks=100, Geek2=150}
 Map after use of clear(): {}

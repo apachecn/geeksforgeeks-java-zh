@@ -6,7 +6,7 @@ Java . util . LinkedHashSet . isempty()方法用于检查 LinkedHashSet 是否�
 
 **语法:**
 
-```
+```java
 Linked_Hash_Set.isEmpty()
 ```
 
@@ -18,7 +18,7 @@ Linked_Hash_Set.isEmpty()
 
 ## Java
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.io.*;
 import java.util.LinkedHashSet;
@@ -53,7 +53,7 @@ public class LinkedHashSetDemo {
 
 **输出:**
 
-```
+```java
 LinkedHashSet: [Welcome, To, Geeks, 4]
 Is the set empty: false
 Is the set empty: true

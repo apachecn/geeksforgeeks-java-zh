@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 public final CharBuffer flip()
 ```
 
@@ -25,7 +25,7 @@ public final CharBuffer flip()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // flip() method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CharBuffer before flip: [a, b, c]
 Position: 1
 Limit: 3
@@ -88,7 +88,7 @@ Limit: 1
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // flip() method
 
@@ -135,7 +135,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CharBuffer before flip: [a, b, c,  ]
 Position: 3
 Limit: 4

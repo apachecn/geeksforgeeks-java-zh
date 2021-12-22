@@ -7,7 +7,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compile-time polymorphism
 public class GFG {
@@ -41,7 +41,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 5
 5.0
 ```
@@ -50,7 +50,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // runtime polymorphism
 
@@ -85,7 +85,7 @@ public class GFG extends Test {
 
 **Output:** 
 
-```
+```java
 Method 2
 ```
 

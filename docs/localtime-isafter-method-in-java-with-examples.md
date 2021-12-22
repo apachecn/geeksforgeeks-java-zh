@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isAfter(LocalTime other)
 
 ```
@@ -19,7 +19,7 @@ public boolean isAfter(LocalTime other)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.isAfter() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime 1: 19:34:50.630
 LocalTime 2: 23:14:00.630
 Is LocalTime1 after LocalTime2: false
@@ -63,7 +63,7 @@ Is LocalTime1 after LocalTime2: false
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.isAfter() method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime 1: 23:59:11.980
 LocalTime 2: 10:24:53.210
 Is LocalTime1 after LocalTime2: true

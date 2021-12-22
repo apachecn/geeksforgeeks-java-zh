@@ -6,7 +6,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Base Class
 class Base {
 public void f()
@@ -26,7 +26,7 @@ public void f()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Base class
 class Base {
    public static void f()
@@ -46,7 +46,7 @@ class Derived extends Base {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Base class
 class GeeksForGeeks {
 
@@ -64,7 +64,7 @@ class GeeksForGeeks {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Base class
 class GeeksForGeeks {
 
@@ -85,7 +85,7 @@ static String sentence = "I don’t know.";
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Shirt {
    private final int size;
 
@@ -100,7 +100,7 @@ class Shirt {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Obscure {
 
   // Obscures type java.lang.System

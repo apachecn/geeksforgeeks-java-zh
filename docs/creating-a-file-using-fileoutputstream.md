@@ -18,7 +18,7 @@ FileOutputStream 用于写入原始字节流，如图像数据。要编写字符
 
 1.  **Reading data:** First of all, data should be read from the keyboard. For this purpose, associate the keyboard to some input stream class. The code for using DataInputSream class for reading data from the keyboard is as:
 
-    ```
+    ```java
     DataInputStream dis =new DataInputStream(System.in);
     ```
 
@@ -26,13 +26,13 @@ FileOutputStream 用于写入原始字节流，如图像数据。要编写字符
 
 2.  The linked keyboard **sends data to the output stream:** Now, associate a file to store data with an output stream. To do this, please use a fileoutputstream that can send data to files. Attaching file.txt to the FileOutputStream can be done as follows:
 
-    ```
+    ```java
     FileOutputStream fout=new FileOutputStream(“file.txt”);
     ```
 
 3.  **Reading data from DataInputStream:** The next step is to read data from DataInputStream and write it into FileOutputStream. It means reading data from dis object and writing it into fout object, as shown below:
 
-    ```
+    ```java
     ch=(char)dis.read();
     fout.write(ch);
     ```
@@ -43,7 +43,7 @@ FileOutputStream 用于写入原始字节流，如图像数据。要编写字符
 
 如果再次执行程序，file.txt 的旧数据将会丢失，任何最近的数据都只存储在文件中。如果我们不想丢失文件的先前数据，而只是将新数据追加到已经存在的数据的末尾，这可以通过在文件名的同时写入 true 来实现。
 
-```
+```java
 FileOutputStream fout=new FileOutputStream(“file.txt”,true);
 
 ```
@@ -52,7 +52,7 @@ FileOutputStream fout=new FileOutputStream(“file.txt”,true);
 
 通常，每当我们使用文件输出流将数据写入文件时，如下所示:
 
-```
+```java
 fout.write(ch);
 ```
 
@@ -62,7 +62,7 @@ fout.write(ch);
 *   So it takes 200 seconds to read and write a file. This is a waste of time. On the other hand, if buffer classes are used, they will provide a buffer, which is first filled with characters in the buffer, and these characters can be written into the file immediately. Buffer classes should be used in combination with other stream classes.
 *   首先，DataInputStream 从键盘读取数据，每个字符花费 1 秒。这个字符被写入缓冲区。因此，将 100 个字符读入缓冲区需要 100 秒的时间。现在，文件输出流将在一个步骤中写入整个缓冲区。因此，读写 100 个字符只需要 101 秒。同样，阅读课也被用来提高阅读操作的速度。将文件输出流附加到缓冲区输出流为:
 
-    ```
+    ```java
     BufferedOutputStream bout=new BufferedOutputStream(fout,1024);
     ```
 
@@ -76,7 +76,7 @@ fout.write(ch);
 
 **输出:**
 
-```
+```java
 C:\> javac Create_File.java
 C:\> java Create_File
 Enter text (@ at the end):

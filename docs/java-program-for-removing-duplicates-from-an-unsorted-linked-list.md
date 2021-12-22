@@ -11,7 +11,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove duplicates from 
 // unsorted linked list
 class LinkedList 
@@ -98,7 +98,7 @@ class LinkedList 
 
 **输出:**
 
-```
+```java
 Linked list before removing duplicates:
 10 12 11 11 12 11 10 
 Linked list after removing duplicates:
@@ -119,7 +119,7 @@ Linked list after removing duplicates:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove duplicates
 // from unsorted linkedlist
 import java.util.HashSet;
@@ -205,7 +205,7 @@ public class removeDuplicates 
 
 **输出:**
 
-```
+```java
 Linked list before removing duplicates:
 10 12 11 11 12 11 10 
 Linked list after removing duplicates:

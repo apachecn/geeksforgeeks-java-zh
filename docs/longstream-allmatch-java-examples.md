@@ -5,7 +5,7 @@
 **LongStream all match(long 谓语)**返回该流的所有元素是否与提供的谓语匹配。如果不是确定结果所必需的，它可能不会计算所有元素上的谓词。这是一次 ***短路端子操作。*** 如果终端操作在无限输入时可能在有限时间内终止，则该操作为短路。
 **语法:**
 
-```
+```java
 boolean allMatch(LongPredicate predicate)
 
 ```
@@ -20,7 +20,7 @@ boolean allMatch(LongPredicate predicate)
 
 **例 1 :** allMatch()函数检查所有元素是否能被 3 整除。
 
-```
+```java
 // Java code for LongStream allMatch
 // (LongPredicate predicate) to check whether
 // all elements of this stream match
@@ -49,14 +49,14 @@ class GFG {
 
 输出:
 
-```
+```java
 false
 
 ```
 
 **例 2 :** allMatch()函数，检查两个 LongStream 串接后得到的 LongStream 中的所有元素是否都小于 2。
 
-```
+```java
 // Java code for LongStream allMatch
 // (LongPredicate predicate) to check whether
 // all elements of this stream match
@@ -88,14 +88,14 @@ class GFG {
 
 输出:
 
-```
+```java
 false
 
 ```
 
 **示例 3 :** allMatch()函数显示流是否为空，然后返回 true。
 
-```
+```java
 // Java code for LongStream allMatch
 // (LongPredicate predicate)) to check whether
 // any element of this stream match
@@ -121,7 +121,7 @@ class GFG {
 
 输出:
 
-```
+```java
 true
 
 ```

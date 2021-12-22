@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 keys = {1,2,3,4,5}
 values = {"Welcome","To","Geeks","For","Geeks"}
 HashMap = {1=Welcome, 2=To, 3=Geeks, 4=For, 5=Geeks}
@@ -16,7 +16,7 @@ HashMap = {1=Welcome, 2=To, 3=Geeks, 4=For, 5=Geeks}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert two arrays containing keys and
 // values into a HAshMap
 
@@ -85,6 +85,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 {1=Welcome, 2=To, 3=Geeks, 4=For, 5=Geeks}
 ```

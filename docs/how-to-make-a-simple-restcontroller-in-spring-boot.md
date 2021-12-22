@@ -12,7 +12,7 @@ Spring Boot 建在春天的顶端，包含了春天的所有特征。由于其�
 
 按照要求填写细节。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.2.8
@@ -35,7 +35,7 @@ Dependencies: Spring Web
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @RestController
 
 // Class

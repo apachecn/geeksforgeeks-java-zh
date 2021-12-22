@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input : 5->3->4->(head node)
 Output: 3->4->(head node)
 ```
@@ -35,7 +35,7 @@ Output: 3->4->(head node)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Delete a Node From the Beginning of the
 // Circular Linked List
 
@@ -138,7 +138,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Original List: 
  5 3 4
 Updated List: 

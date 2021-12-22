@@ -32,7 +32,7 @@ Box 是 JavaFX 的一部分。盒子类定义了一个三维盒子的宽度、�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a box and display it on the stage
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -88,7 +88,7 @@ public class box_0 extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a box and add a
 // perspective camera to render the 3D object
 import javafx.application.Application;

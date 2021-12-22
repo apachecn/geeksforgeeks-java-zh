@@ -38,7 +38,7 @@
 
 现在转到 **activity_main.xml** 创建一个布局，并在布局中添加一个 SeekBar。指定 SeekBar 的高度和宽度，以及要使用的最大进度。将进度设置为 0。
 
-```
+```java
 android:progressDrawable="@drawable/custom_seekbar"
 android:thumb="@drawable/thumb" 
 android:max="50"
@@ -53,7 +53,7 @@ android:progress="0"
 
 现在打开**MainActivity.java**类声明 SeekBar 和 TextView 的对象，在 onCreate 方法内部使用 findViewById()方法初始化这两个对象。在 SeekBar 变更监听器中执行一个保存进度值的事件，并使用该事件在[文本视图](https://www.geeksforgeeks.org/working-with-the-textview-in-android/)中设置进度值。
 
-```
+```java
 seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             // increment or decrement on process changed
@@ -77,7 +77,7 @@ seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.abhi.customseekbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- color, size, shape height of seekbar -->
@@ -232,7 +232,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="@color/purple_200"/>

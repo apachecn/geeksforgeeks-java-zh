@@ -10,13 +10,13 @@ Java **枚举，**也称为 **Java 枚举**类型，是一种其字段由一组�
 
 **语法:**
 
-```
+```java
 public final int ordinal();
 ```
 
 **返回值:**
 
-```
+```java
 This method returns the ordinal of this enumeration constant.
 ```
 
@@ -28,7 +28,7 @@ This method returns the ordinal of this enumeration constant.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the usage of
 // ordinal() method of java enumeration
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Student Name:
 Rohit : 0 Geeks : 1 Author : 2
 ```
@@ -67,7 +67,7 @@ Rohit : 0 Geeks : 1 Author : 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show that the ordinal
 // value remainw same whether we mention 
 // index to the enum or not
@@ -117,7 +117,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Student Id List: 
 james : 0 peter : 1 sam : 2 
 ---------------------------

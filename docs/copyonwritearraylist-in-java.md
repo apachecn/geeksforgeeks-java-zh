@@ -27,19 +27,19 @@
 
 **1。copy onwriterarraylist()**:创建一个空列表。
 
-```
+```java
 CopyOnWriteArrayList c = new CopyOnWriteArrayList();
 ```
 
 **2。copy onwriterarraylist(Collection obj)**:创建一个包含指定集合元素的列表，按照集合迭代器返回元素的顺序。
 
-```
+```java
 CopyOnWriteArrayList c = new CopyOnWriteArrayList(Collection obj);
 ```
 
 **3。CopyOnWriteArrayList(对象[]obj)；**:创建一个包含给定数组副本的列表。
 
-```
+```java
 CopyOnWriteArrayList c = new CopyOnWriteArrayList(Object[] obj);
 ```
 
@@ -47,7 +47,7 @@ CopyOnWriteArrayList c = new CopyOnWriteArrayList(Object[] obj);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // CopyOnWriteArrayList class
 import java.util.*;
@@ -97,7 +97,7 @@ public class ConcurrentDemo extends Thread {
 
 **Output**
 
-```
+```java
 A
 B
 c
@@ -110,7 +110,7 @@ D
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // CopyOnWriteArrayList class
 import java.io.*;
@@ -142,7 +142,7 @@ class Demo {
 
 **Output**
 
-```
+```java
 List contains: 
 List contains:
 GfG

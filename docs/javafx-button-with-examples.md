@@ -34,7 +34,7 @@ JavaFX 中的按钮可以有三种不同的类型:
 
 1.  **Program to create a button and add it to the stage:** This program creates a Button indicated by the name *b*. The button will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the button inside the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java Program to create a button and add it to the stage
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -80,7 +80,7 @@ JavaFX 中的按钮可以有三种不同的类型:
 
 2.  **Java program to create a button and add event handler to it**: This program creates a Button indicated by the name b. The button will be created inside a scene, which in turn will be hosted inside a stage. We would create a label to show if the button is pressed or not. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the button and label inside the scene. Finally, the show() method is called to display the final results.we would create an event handler to handle the button events. The event handler would be added to the button using setOnAction() function.
 
-    ```
+    ```java
     // Java program to create a button and add event handler to it
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -144,7 +144,7 @@ JavaFX 中的按钮可以有三种不同的类型:
 
 3.  **Java Program to create a button with a image and add event handler to it**: This program creates a Button with an image on it indicated by the name b. The image will be included using the File Input Stream that imports the image. we will then create an image using the object of file input stream and then create an image view using the image file. The button will be created inside a scene, which in turn will be hosted inside a stage.we would create a label to show if the button is pressed or not. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the button and label inside the scene. Finally, the show() method is called to display the final results.we would create an event handler to handle the button events. The event handler would be added to the button using setOnAction() function.
 
-    ```
+    ```java
     // Java Program to create a button with a image and
     // add event handler to it
     import javafx.application.Application;
@@ -223,7 +223,7 @@ JavaFX 中的按钮可以有三种不同的类型:
 
     这个程序创建一个按钮，按钮上有一个图像和一个由名称 b 表示的文本。图像将使用导入图像的文件输入流来包含。然后我们将使用文件输入流的对象创建一个图像，然后使用图像文件创建一个图像视图。按钮将在场景中创建，而场景又将在舞台中托管。我们将创建一个标签来显示按钮是否被按下。函数 setTitle()用于为舞台提供标题。然后创建一个平铺窗格，在该窗格上调用 addChildren()方法在场景内部附加按钮和标签。最后，调用 show()方法来显示最终结果。事件处理程序将使用 setOnAction()函数添加到按钮中。
 
-    ```
+    ```java
     // Java Program to create a button with a image
     // and text and add event handler to it
     import javafx.application.Application;
@@ -300,7 +300,7 @@ JavaFX 中的按钮可以有三种不同的类型:
 
 5.  **Java program to create a default button and a cancel button:** This program creates a Button indicated by the name b and b1 . The button b will act as a cancel button which will respond to the escape keypress of keyboard and button b1 will behave as a default button which will respond to enter keypress of the keyboard). The button will be created inside a scene, which in turn will be hosted inside a stage.we would create a label to show which button is pressed. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the button and label inside the scene. Finally, the show() method is called to display the final results.we would create an event handler to handle the button events. The event handler would be added to the button using setOnAction() function.
 
-    ```
+    ```java
     // Java program to create a default button and a
     // cancel button and add event handler to it
     import javafx.application.Application;

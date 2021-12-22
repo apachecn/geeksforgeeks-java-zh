@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean contains(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of LinkedBlockingDeque
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [10, 20, 30, 40]
 Linked Blocking Deque contains 10
 
@@ -64,7 +64,7 @@ Linked Blocking Deque contains 10
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate contains()
 // method of LinkedBlockingDeque
 import java.util.concurrent.LinkedBlockingDeque;
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [ab, cd, fg, xz]
 Linked Blocking Deque does not contain 'go'
 

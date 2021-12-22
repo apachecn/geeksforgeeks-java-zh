@@ -6,7 +6,7 @@ Java 中的**十进制格式**类的 **setNegativePrefix()** 方法用于设置�
 
 **语法** :
 
-```
+```java
 public void setNegativePrefix(String newValue)
 
 ```
@@ -17,7 +17,7 @@ public void setNegativePrefix(String newValue)
 
 下面程序举例说明上面的方法:
 
-```
+```java
 // Java program to illustrate the
 // setNegativePrefix() method
 
@@ -42,7 +42,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 negative123.45
 
 ```

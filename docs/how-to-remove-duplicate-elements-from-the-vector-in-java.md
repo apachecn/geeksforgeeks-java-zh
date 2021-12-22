@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : vector = [1, 2, 3, 4, 2, 4]
 Output: vector = [1, 2, 3, 4]
 
@@ -27,7 +27,7 @@ LinkedHashSet 不接受重复元素，也不维护排序顺序。
 
 T3】JavaT5
 
-```
+```java
 // Java Program to remove duplicate 
 // elements from Vector
 import java.util.LinkedHashSet;
@@ -88,7 +88,7 @@ TreeSet 不接受重复的元素，TreeSet 保持排序顺序。
 
 T3】JavaT5
 
-```
+```java
 // Java Program to remove duplicate 
 // elements from Vector
 import java.util.TreeSet;

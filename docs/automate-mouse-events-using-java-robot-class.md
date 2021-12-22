@@ -18,7 +18,7 @@ Robot 类生成的事件可以用来控制鼠标、键盘，也可以用来截�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to move a mouse from the initial
 // location to a specified location
 import java.awt.*;
@@ -126,7 +126,7 @@ class robomouse extends Frame implements ActionListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

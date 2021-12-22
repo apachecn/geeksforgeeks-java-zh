@@ -38,7 +38,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java Program to Display the ATM Transaction
 import java.io.*;
 public class GFG {
@@ -103,7 +103,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Current Balance : 10000
 
 Withdrawn Operation:

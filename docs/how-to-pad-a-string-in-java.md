@@ -32,14 +32,14 @@
     *   使用 [String.format()方法](https://www.geeksforgeeks.org/java-string-format-examples/)在字符串的左右两边填充空格，然后使用 [String.replace()方法](https://www.geeksforgeeks.org/java-lang-string-replace-method-java/)将这些空格替换为给定的字符。
     *   对于左填充，使用 String.format()方法的语法是:
 
-        ```
+        ```java
         String.format("%[L]s", str).replace(' ', ch);
 
         ```
 
     *   对于右填充，使用 String.format()方法的语法是:
 
-        ```
+        ```java
         String.format("%-[L]s", str).replace(' ', ch);
 
         ```
@@ -50,7 +50,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java implementation to pad a String
 
     import java.lang.*;
@@ -116,7 +116,7 @@
 
     **Output:**
 
-    ```
+    ```java
     -------GeeksForGeeks
     GeeksForGeeks-------
 
@@ -131,21 +131,21 @@
     *   获取填充所在的字符串。
     *   对于左填充，使用**stringtutils . left pad()**方法的语法是:
 
-        ```
+        ```java
         StringUtils.leftPad(str, L, ch);
 
         ```
 
     *   对于中心填充，使用 **StringUtils.center()** 方法的语法是:
 
-        ```
+        ```java
         StringUtils.center(str, L, ch);
 
         ```
 
     *   对于右填充，使用 **StringUtils.rightPad()** 方法的语法是:
 
-        ```
+        ```java
         StringUtils.rightPad(str, L, ch);
 
         ```
@@ -156,7 +156,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java implementation to pad a String
 
     import java.lang.*;
@@ -223,7 +223,7 @@
 
     **Output:**
 
-    ```
+    ```java
     -------GeeksForGeeks
     ---GeeksForGeeks----
     GeeksForGeeks-------

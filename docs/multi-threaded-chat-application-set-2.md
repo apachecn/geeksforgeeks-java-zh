@@ -10,7 +10,7 @@
 
 1.  **发送消息:**此线程将用于向其他客户端发送消息。工作非常简单，它需要输入要发送的消息和要送达的收件人。请注意，此实现假设消息的格式为**消息#收件人**，其中收件人是收件人的姓名。然后，它将消息写入连接到该客户端处理程序的输出流。处理程序分解消息和接收者部分，并将其传递给特定的接收者。让我们看看如何实现这个线程。
 
-    ```
+    ```java
     Thread sendMessage = new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -32,7 +32,7 @@
 
 2.  **读取消息:**创建接收消息的线程也采用了类似的方法。当任何客户端试图在该客户端的输入流上进行写入时，我们使用 readUTF()方法来读取该消息。下面这个线程是如何实现的片段如下所示-
 
-    ```
+    ```java
     Thread readMessage = new Thread(new Runnable() {
 
                 @Override
@@ -59,7 +59,7 @@
 2.  **通信**
     通信是在 readMessage 和 sendMessage 线程的帮助下进行的。用于读取和写入的独立线程确保了消息的同时发送和接收。
 
-```
+```java
 // Java implementation for multithreaded chat client
 // Save file as Client.java
 
@@ -134,7 +134,7 @@ public class Client 
 **输出:**
 **来自客户端 0 :**
 
-```
+```java
 hello#client 1
 client 1 : heya
 how are you#client 1
@@ -145,7 +145,7 @@ logout
 
 **来自客户端 1 :**
 
-```
+```java
 client 0 : hello
 heya#client 0
 client 0 : how are you

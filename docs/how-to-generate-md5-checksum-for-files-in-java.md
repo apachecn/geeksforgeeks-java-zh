@@ -29,7 +29,7 @@ Java 通过 Java 安全包中的消息摘要类提供了生成这些散列函数
 
 ## 爪哇
 
-```
+```java
 // Java program to Generate MD5 Checksum for Files
 
 import java.io.File;
@@ -118,6 +118,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 8eeecb74627e963d65d10cbf92a2b7c9
 ```

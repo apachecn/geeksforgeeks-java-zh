@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static final short secondaryOrder(int order)
 ```
 
@@ -19,7 +19,7 @@ public static final short secondaryOrder(int order)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // secondaryOrder() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 secondary order for order 1 is 0
 secondary order for order 2 is 0
 secondary order for order 3 is 0
@@ -84,7 +84,7 @@ secondary order for order 13 is 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // secondaryOrder() method
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 secondary order for order 1 is 0
 secondary order for order 2 is 0
 secondary order for order 3 is 0

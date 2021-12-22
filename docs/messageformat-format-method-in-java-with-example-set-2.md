@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static String format(String pattern,
                             Object... arguments)
 ```
@@ -26,7 +26,7 @@ public static String format(String pattern,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // format() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 formatted array : 4.2
 
 ```
@@ -73,7 +73,7 @@ formatted array : 4.2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // format() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 pattern is null 
 Exception thrown : java.lang.NullPointerException
 

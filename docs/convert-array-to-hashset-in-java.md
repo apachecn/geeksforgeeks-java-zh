@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```java
 Input : Array: [1, 2, 3, 4, 5, 6]
 Output: Set: [1, 2, 3, 4, 5, 6]
 
@@ -28,7 +28,7 @@ Output: Set: [a, b, c, d]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Convert array to HashSet in Java
 import java.io.*;
 import java.util.Iterator;
@@ -81,7 +81,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 4 5 6
 ```
 
@@ -99,7 +99,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Convert Array to HashSet in Java
 
 import java.util.*;
@@ -136,7 +136,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Array: [Geeks, forGeeks, A computer Portal]
 Set: [A computer Portal, Geeks, forGeeks]
 ```

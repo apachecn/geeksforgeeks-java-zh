@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isLeapYear()
 
 ```
@@ -21,7 +21,7 @@ public boolean isLeapYear()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isLeapYear() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate: Hijrah-umalqura AH 1398-03-23
 Not a leap year
 
@@ -67,7 +67,7 @@ Not a leap year
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isLeapYear() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate: Hijrah-umalqura AH 1441-06-25
 Leap year
 

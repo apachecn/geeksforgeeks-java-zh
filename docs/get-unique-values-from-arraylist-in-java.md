@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 INPUT : ArrayList = [a, b, c, b, d, a, c]
 OUTPUT: Unique = [a, b, c, d]
 
@@ -25,7 +25,7 @@ OUTPUT: Unique = [1, 2, 3, 4, 5]
 
 T3】JavaT5
 
-```
+```java
 // Get Unique Values from ArrayList in Java
 import java.util.ArrayList;
 import java.util.HashSet;

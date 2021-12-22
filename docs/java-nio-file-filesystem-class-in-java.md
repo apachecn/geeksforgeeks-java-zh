@@ -6,7 +6,7 @@
 
 ****语法:**类声明**
 
-```
+```java
 public abstract class FileSystem
 extends Object
 implements Closeable
@@ -47,7 +47,7 @@ implements Closeable
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Create a new FileSystem object and
 // print its file stores and root directories
 
@@ -112,7 +112,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 File System created successfully
 Underlying file stores of this FileSystem :
 / (/dev/disk1s1)
@@ -128,7 +128,7 @@ Root directories of this FileSystem :
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to illustrate Working of FileSystem Class
 // Via its Methods
 
@@ -208,7 +208,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 FileSystem created successfully
 File system is open
 File system is not Read-only

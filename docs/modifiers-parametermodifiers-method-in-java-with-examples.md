@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean parameterModifiers()
 
 ```
@@ -18,7 +18,7 @@ public static boolean parameterModifiers()
 下面的程序说明了 parameterModifiers()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // parameterModifiers() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Modifiers: final
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate parameterModifiers()
 
 import java.lang.reflect.*;
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Int Value: 16
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Matcher reset()
 ```
 
@@ -18,7 +18,7 @@ public Matcher reset()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate reset() method
 // of Matcher class
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 java.util.regex.Matcher$ImmutableMatchResult@448139f0
 ```
 
@@ -69,7 +69,7 @@ java.util.regex.Matcher$ImmutableMatchResult@448139f0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate reset() method
 // of Matcher class
 
@@ -110,6 +110,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 java.util.regex.Matcher$ImmutableMatchResult@448139f0
 ```

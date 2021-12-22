@@ -18,7 +18,7 @@
 
 *   **void close() :** 将剩余的压缩数据写入输出流，并关闭底层流。
 
-    ```
+    ```java
     Syntax :public void close()
                throws IOException
     Overrides:
@@ -29,7 +29,7 @@
 
 *   **受保护的 void deflate() :** 将下一个压缩数据块写入输出流。
 
-    ```
+    ```java
     Syntax :protected void deflate()
                     throws IOException
     Throws:
@@ -38,7 +38,7 @@
 
 *   **void finish() :** 完成向输出流写入压缩数据，而不关闭底层流。
 
-    ```
+    ```java
     Syntax :public void finish()
                 throws IOException
     Throws:
@@ -47,7 +47,7 @@
 
 *   **清空冲洗():**冲洗压缩的输出流。
 
-    ```
+    ```java
     Syntax :public void flush()
                throws IOException
     Overrides:
@@ -58,7 +58,7 @@
 
 *   **无效写入(字节[] b，int off，int len) :** 向压缩的输出流写入一个字节数组。
 
-    ```
+    ```java
     Syntax :public void write(byte[] b,
              int off,
              int len)
@@ -75,7 +75,7 @@
 
 *   **void write(int b) :** 向压缩的输出流中写入一个字节。
 
-    ```
+    ```java
     Syntax :public void write(int b)
                throws IOException
     Overrides:
@@ -86,7 +86,7 @@
     IOException
     ```
 
-```
+```java
 //Java program to demonstrate DeflaterOutputStream
 
 import java.io.FileInputStream;

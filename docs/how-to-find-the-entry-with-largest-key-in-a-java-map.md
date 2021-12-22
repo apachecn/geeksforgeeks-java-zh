@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Map = {ABC = 10, DEF = 30, XYZ = 20}
 Output: XYZ = 20
 
@@ -19,7 +19,7 @@ Output: 3 = 60
 
 1.  [逐条目迭代地图条目](https://www.geeksforgeeks.org/iterate-map-java/)
 
-    ```
+    ```java
     for (Map.Entry entry : map.entrySet()) 
     {
         // Operations
@@ -34,7 +34,7 @@ Output: 3 = 60
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to find entry
 // with highest key in a map
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map: {ABC=10, DEF=30, XYZ=20}
 Entry with highest key: XYZ=20
 

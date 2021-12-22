@@ -11,7 +11,7 @@
 
     下面是这一点的实现。
 
-```
+```java
 // Java program to illustrate ArrayList
 import java.util.*;
 
@@ -42,12 +42,12 @@ class CopyDemo
 
 输出:
 
-```
+```java
 [A,C]
 
 ```
 
-```
+```java
 // Java program to illustrate CopyOnWriteArrayList
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.*;
@@ -83,7 +83,7 @@ class CopyDemo extends Thread {
 
 输出:
 
-```
+```java
 A
 B
 Exception in thread "main" java.lang.UnsupportedOperationException

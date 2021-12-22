@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Certificate[]
   getCertificateChain(String alias)
   throws KeyStoreException
@@ -24,7 +24,7 @@ public final Certificate[]
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getCertificate() method
 
@@ -78,14 +78,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Type of certificate at index 0 : X.509
 
 ```
 
 **例 2:** 为*密钥库异常*
 
-```
+```java
 // Java program to demonstrate
 // getCertificate() method
 
@@ -128,7 +128,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception thrown :
  java.security.KeyStoreException:
  Uninitialized keystore

@@ -15,7 +15,7 @@ ClassCastException 有两种不同的构造函数。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.math.BigDecimal;
 public class ClassCastExceptionExample {
     public static void main(String[] args)
@@ -29,7 +29,7 @@ public class ClassCastExceptionExample {
 
 **Output**
 
-```
+```java
 10000000.4499999992549419403076171875
 ```
 
@@ -37,7 +37,7 @@ public class ClassCastExceptionExample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.math.BigDecimal;
 public class Main {
     public static void main(String[] args)
@@ -64,7 +64,7 @@ public class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.math.BigDecimal;
 
 public class ClassCastExceptionExample {
@@ -81,7 +81,7 @@ public class ClassCastExceptionExample {
 
 **Output**
 
-```
+```java
 10000000.4499999992549419403076171875
 ```
 
@@ -104,7 +104,7 @@ public class ClassCastExceptionExample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Vehicle {
     public Vehicle()
     {
@@ -147,7 +147,7 @@ public class ClassCastExceptionExample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An easier way to understand Downcasting
 class Vehicle {
     String vehicleName;
@@ -193,7 +193,7 @@ public class ClassCastExceptionExample {
 
 **Output**
 
-```
+```java
 BMW
 1000000.0
 From bike  class1000000.0
@@ -205,7 +205,7 @@ From bike  class1000000.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // An easier way to understand Upcasting
 class Vehicle {
     String vehicleName;
@@ -249,7 +249,7 @@ public class ClassCastExceptionExample {
 
 **Output**
 
-```
+```java
 Harley-Davidson
 From bike  class...0.0
 ```
@@ -258,7 +258,7 @@ From bike  class...0.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Vehicle {
     public Vehicle()
     {
@@ -314,7 +314,7 @@ public class ClassCastExceptionExample {
 
 **Output**
 
-```
+```java
 An example instance of the Vehicle class to proceed for showing ClassCast Exception
 An example instance of the Vehicle class to proceed for showing ClassCast Exception
 An example instance of the Bike class that extends 

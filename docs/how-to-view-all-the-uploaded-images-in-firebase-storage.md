@@ -12,13 +12,13 @@
 
 **第二步:把这个添加到 AndroidManifest.xml 文件**
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
 将此添加到 **build.gradle** 文件中
 
-```
+```java
 implementation 'com.google.firebase:firebase-storage:19.1.1'
 implementation 'com.github.bumptech.glide:glide:4.11.0'
 annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
@@ -31,7 +31,7 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,7 +57,7 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -116,7 +116,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -147,7 +147,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
 
 转到**ShowAllImagesFromStorage.java**文件，参考以下代码。以下是**ShowAllImagesFromStorage.java**文件的代码。将物品装入火焰基地仓库。
 
-```
+```java
 listRef.listAll().addOnSuccessListener(new OnSuccessListener<ListResult>() {
             @Override
             public void onSuccess(ListResult listResult) {
@@ -175,7 +175,7 @@ listRef.listAll().addOnSuccessListener(new OnSuccessListener<ListResult>() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

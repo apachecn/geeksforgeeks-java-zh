@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```java
 public int getValue()
 
 ```
@@ -21,7 +21,7 @@ public int getValue()
 
 **程序 1** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.ChronoField;
@@ -40,14 +40,14 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 3
 
 ```
 
 **程序二** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.ChronoField;
@@ -66,7 +66,7 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 12
 
 ```

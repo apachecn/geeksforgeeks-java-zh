@@ -54,7 +54,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--permissions for INTERNET-->
 <uses-permission android:name="android.permission.INTERNET"/>
 ```

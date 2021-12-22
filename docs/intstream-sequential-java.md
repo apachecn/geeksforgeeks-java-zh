@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 IntStream sequential()
 
 Where, IntStream is a sequence of primitive
@@ -16,7 +16,7 @@ int-valued element.
 
 **例 1 :**
 
-```
+```java
 // Java code for IntStream sequential()
 // to return a sequential IntStream.
 import java.util.*;
@@ -41,7 +41,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3
 5
 9
@@ -52,7 +52,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for IntStream sequential()
 // to return a sequential IntStream.
 import java.util.*;
@@ -78,7 +78,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 -2
 -1
 0

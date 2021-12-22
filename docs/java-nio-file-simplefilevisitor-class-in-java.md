@@ -6,7 +6,7 @@ Java . nio . file . simplefile visitor 类用于访问目录中的所有文件�
 
 **类申报:**
 
-```
+```java
 public class SimpleFileVisitor<T>
 extends Object
 implements FileVisitor<T>
@@ -41,7 +41,7 @@ implements FileVisitor<T>
 
 **1 . public file visitresult preVisitDirectory(T 目录，BasicFileAttributes 属性):**在访问中的条目之前，将为此目录调用此方法。此方法返回[继续](https://www.geeksforgeeks.org/continue-statement-in-java/)除非[超越](https://www.geeksforgeeks.org/overriding-in-java/)。
 
-```
+```java
 Parameters:
 directory- reference to this directory.
 attributes- attributes of this directory.
@@ -53,7 +53,7 @@ Throws: I/O Exception.
 
 **2 . public file visitresult post visitdirectory(T 目录，IOException e):** 访问中的条目后，将为此目录调用此方法。除非被重写，否则此方法返回 CONTINUE。
 
-```
+```java
 Parameters:
 directory- reference to this directory.
 e- NULL if there is no error in this directory's 
@@ -66,7 +66,7 @@ Throws: I/O Exception.
 
 **3 . public file visitresult visitFile(T 文件，BasicFileAttributes 属性):**此方法之前在目录中为此文件调用。除非被重写，否则此方法返回 CONTINUE。
 
-```
+```java
 Parameters:
 file- reference to this file.
 arributes- attributes of this file.
@@ -78,7 +78,7 @@ Throws: I/O Exception
 
 **4 . public file visitresult visitfilefile(T 文件，IOException 异常):**对无法访问的文件调用此方法。除非被重写，否则此方法将重新引发输入/输出异常。这是阻止文件被访问的异常。
 
-```
+```java
 Parameters:
 file - reference to this file.
 exc - exception that prevented the file from being visited.
@@ -90,7 +90,7 @@ Throws: I/O Exception
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of simpleFileVisitor
 // class
 

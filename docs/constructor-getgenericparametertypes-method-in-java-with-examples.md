@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Type[] getGenericParameterTypes()
 
 ```
@@ -24,7 +24,7 @@ public Type[] getGenericParameterTypes()
 下面的程序说明了 getGenericParameterTypes()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getGenericParameterTypes() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Parameters : 
 class GFG
 int
@@ -77,7 +77,7 @@ double
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getGenericParameterTypes() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 No of Parameters: 3
 
 ```

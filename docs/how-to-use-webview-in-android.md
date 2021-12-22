@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/如何使用-android 中的 web view/](https://www.geeksforgeeks.org/how-to-use-webview-in-android/)
 
-```
+```java
 public class WebView 
 extends AbsoluteLayout 
 implements 
@@ -13,7 +13,7 @@ implements
 网络视图是在应用程序内部显示网页的视图。它用于将应用程序转变为 web 应用程序。
 **等级等级:**
 
-```
+```java
 java.lang.Object
    ↳  android.view.View
         ↳  android.view.ViewGroup
@@ -25,7 +25,7 @@ java.lang.Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.hp.webview;
 
 import android.support.v7.app.AppCompatActivity;
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
 在 **AndroidManifest.xml** 中，需要包含以下权限，才能访问互联网:
 
-```
+```java
 "uses-permission android:name="android.permission.INTERNET"
 ```
 

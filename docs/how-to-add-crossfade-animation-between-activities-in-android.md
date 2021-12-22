@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG App</string>
     <string name="go_to_main_activity">GO TO MAIN ACTIVITY</string>
@@ -30,7 +30,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#00AC28</color>
@@ -57,7 +57,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -101,7 +101,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -132,7 +132,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <alpha
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -146,7 +146,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <alpha 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -165,7 +165,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public void goToSecondActivity (View view) {
         Intent intent = new Intent(MainActivity.this, SecondActivity.class);
         startActivity(intent);
@@ -175,7 +175,7 @@ public void goToSecondActivity (View view) {
 
 ## 我的锅
 
-```
+```java
 fun goToSecondActivity(view: View?) {
         val intent = Intent(this@MainActivity, SecondActivity::class.java)
         startActivity(intent)
@@ -189,7 +189,7 @@ fun goToSecondActivity(view: View?) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public void goToMainActivity (View view) {
         Intent intent = new Intent(SecondActivity.this, MainActivity.class);
         startActivity(intent);
@@ -199,7 +199,7 @@ public void goToMainActivity (View view) {
 
 ## 我的锅
 
-```
+```java
 fun goToMainActivity(view: View?) {
         val intent = Intent(this@SecondActivity, MainActivity::class.java)
         startActivity(intent)

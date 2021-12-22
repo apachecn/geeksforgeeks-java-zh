@@ -6,7 +6,7 @@ Java BitSet 类的 stream()方法用于为 BitSet 中包含的每个位返回一
 
 **语法:**
 
-```
+```java
 public IntStream stream()
 ```
 
@@ -16,7 +16,7 @@ public IntStream stream()
 以下程序说明了 java.util.BitSet.stream()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate stream()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -52,7 +52,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {10, 20, 30, 40, 50}
 The BitSet: {10, 20, 30, 40, 50}
 The stream of indices: java.util.stream.IntPipeline$Head@4eec7777
@@ -62,7 +62,7 @@ The size of the stream: 5
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate stream()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -103,7 +103,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {2, 15, 25, 31, 40, 55, 100, 106, 121, 400}
 The BitSet: {2, 15, 25, 31, 40, 55, 100, 106, 121, 400}
 The stream of indices: java.util.stream.IntPipeline$Head@4eec7777

@@ -6,7 +6,7 @@ T2**大整数。add(BigInteger val)** 用于计算两个 BigInteger 的算术和
 
 **语法:**
 
-```
+```java
 public BigInteger add(BigInteger val)
 
 ```
@@ -19,7 +19,7 @@ public BigInteger add(BigInteger val)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // add() method of BigInteger
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // add() method of BigInteger
 

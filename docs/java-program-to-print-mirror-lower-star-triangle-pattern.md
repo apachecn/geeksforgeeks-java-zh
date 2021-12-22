@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input: number = 7
 Output:
 * * * * * * * 
@@ -37,7 +37,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print Mirror Lower Star Triangle Pattern
 // Using For loop
 import java.io.*;
@@ -103,7 +103,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 * * * * * * * 
  * * * * * * 
   * * * * * 
@@ -127,7 +127,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Print Mirror Lower Star Triangle Pattern
 // using While loop
 import java.io.*;
@@ -209,7 +209,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 *************
  ***********
   *********
@@ -237,7 +237,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print Mirror Lower Star Triangle Pattern
 // using Do-while loop
 import java.io.*;
@@ -325,7 +325,7 @@ class GFG {
 
 **Output**
 
-```
+```java
  *************
   ***********
    *********

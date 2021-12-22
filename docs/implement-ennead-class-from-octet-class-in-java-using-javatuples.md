@@ -10,7 +10,7 @@
 
 1.  **Using direct values**
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Ennead Class 
     // from Octet Class 
@@ -52,7 +52,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Ennead, Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -60,7 +60,7 @@
 
 2.  **Using Octet.add() method**
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Ennead Class 
     // from Octet Class 
@@ -92,7 +92,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit, Ennead]
 
@@ -102,7 +102,7 @@
 
     **程序 1:** 使用 addAt0()在位置 0 添加
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Ennead Class 
     // from Octet Class 
@@ -134,7 +134,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Ennead, Octet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -142,7 +142,7 @@
 
     **程序 2:** 使用 addAt1()在位置 1 添加
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Ennead Class 
     // from Octet Class 
@@ -174,7 +174,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Ennead, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -182,7 +182,7 @@
 
     **程序 3:** 使用 addAt2()在位置 2 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt2() method with
     // direct value
@@ -213,7 +213,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Septet, Ennead, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -221,7 +221,7 @@
 
     **程序 4:** 使用 addAt3()在位置 3 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt3() method with
     // direct value
@@ -252,7 +252,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Septet, Sextet, Ennead, Quintet, Quartet, Triplet, Pair, Unit]
 
@@ -260,7 +260,7 @@
 
     **程序 5:** 使用 addAt4()在位置 4 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt4() method with
     // direct value
@@ -291,7 +291,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Septet, Sextet, Quintet, Ennead, Quartet, Triplet, Pair, Unit]
 
@@ -299,7 +299,7 @@
 
     **程序 6:** 使用 addAt5()在位置 5 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt5() method with
     // direct value
@@ -330,7 +330,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Septet, Sextet, Quintet, Quartet, Ennead, Triplet, Pair, Unit]
 
@@ -338,7 +338,7 @@
 
     **程序 7:** 使用 addAt6()在位置 6 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt6() method with
     // direct value
@@ -369,7 +369,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Ennead, Pair, Unit]
 
@@ -377,7 +377,7 @@
 
     **程序 8:** 使用 addAt7()在位置 7 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt7() method with
     // direct value
@@ -408,7 +408,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Ennead, Unit]
 
@@ -416,7 +416,7 @@
 
     **程序 9:** 使用 addAt8()在位置 8 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt8() method with
     // direct value
@@ -447,7 +447,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Octet: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     Ennead: [Octet, Septet, Sextet, Quintet, Quartet, Triplet, Pair, Unit, Ennead]
 

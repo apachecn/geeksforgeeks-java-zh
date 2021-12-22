@@ -5,7 +5,7 @@
 Java 中 **DateFormatSymbols 类**的**setShortWeekdays(String[]*****newShWeekds*****)**方法用于将字符串格式的日历工作日的短名称设置为一些不同的字符串。例如，“Sun”可以改为“FRI”，“Mon”可以改为“WED”等。
 **语法:**
 
-```
+```java
 public void setShortWeekdays(String[] *newShWeekds*)
 ```
 
@@ -16,7 +16,7 @@ public void setShortWeekdays(String[] *newShWeekds*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate setShortWeekdays()
 
 import java.text.DateFormatSymbols;
@@ -63,7 +63,7 @@ public class DateFormat_Main {
 
 **Output:** 
 
-```
+```java
 Original: Sun  Mon  Tue  Wed  Thu  Fri  Sat  
 Modified: WED  THU  FRI  MON  TUE  SUN  SAT
 ```
@@ -72,7 +72,7 @@ Modified: WED  THU  FRI  MON  TUE  SUN  SAT
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate setShortWeekdays()
 
 import java.text.DateFormatSymbols;
@@ -120,7 +120,7 @@ public class DateFormat_Main {
 
 **Output:** 
 
-```
+```java
 Original: Sun  Mon  Tue  Wed  Thu  Fri  Sat  
 Modified: WED  THU  FRI  MON  TUE  SUN  SAT  ONE  TWO
 ```

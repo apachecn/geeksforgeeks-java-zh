@@ -16,14 +16,14 @@
 
 ### 类别声明
 
-```
+```java
 public final class KeyValue<A, B> extends Tuple 
            implements IValueKey<A>, IValueValue<B>
 ```
 
 ### 类层次
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.KeyValue<A, B>
@@ -34,7 +34,7 @@ Object
 *   **从建造师**:
     T3】语法:
 
-```
+```java
 KeyValue<A, B> kv = new KeyValue<A, B>(value1, value2);
 ```
 
@@ -42,7 +42,7 @@ KeyValue<A, B> kv = new KeyValue<A, B>(value1, value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a KeyValue tuple from Constructor
 

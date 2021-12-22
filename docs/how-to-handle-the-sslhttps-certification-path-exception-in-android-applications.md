@@ -31,7 +31,7 @@
 
 第一步是获取站点的 SSL 证书。为此，启动终端并导航到证书保存位置。证书存储在桌面目录中。
 
-```
+```java
 openssl s_client -connect <site-url>:443 -servername <site-url> > <saved-certificate-file-name-we-want-to-give>
 ```
 
@@ -39,7 +39,7 @@ openssl s_client -connect <site-url>:443 -servername <site-url> > <saved-certifi
 
 **步骤#2:现在我们将证书(即 cacerts)放在密钥库中。运行以下命令完成此操作**
 
-```
+```java
 sudo keytool -import -keystore cacerts -alias <alias-name> -file <certificate-file-path>
 ```
 

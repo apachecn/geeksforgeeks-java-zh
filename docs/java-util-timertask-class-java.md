@@ -12,7 +12,7 @@ TimerTask 是 java.util 包中定义的抽象类。TimerTask 类定义了一个�
 
 **申报:**
 
-```
+```java
 public abstract class TimerTask
         extends Object
         implements Runnable
@@ -24,7 +24,7 @@ public abstract class TimerTask
 
     **语法:**
 
-    ```
+    ```java
     public boolean cancel()
     Returns:
     true if this task is scheduled for one-time execution and
@@ -38,7 +38,7 @@ public abstract class TimerTask
 
     **语法:**
 
-    ```
+    ```java
     public abstract void run()
     Description:
     The action to be performed by this timer task
@@ -59,7 +59,7 @@ public abstract class TimerTask
 
 **演示 TimerTask 类用法的 Java 程序**
 
-```
+```java
 // Java program to demonstrate 
 // working of TimerTask class
 import java.util.Timer;
@@ -122,7 +122,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 1495715853591
 Timer ran 1
 Timer ran 2

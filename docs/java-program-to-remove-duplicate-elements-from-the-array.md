@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 Input  : a[] = {1, 1, 2, 2, 2}
 Output : a[] = {1,2}
          new size = 2
@@ -36,7 +36,7 @@ Output : a[] = {2,5,6,7,8}
 
 ## Java
 
-```
+```java
 // Java Program to Remove Duplicate Elements
 // From the Array using extra space
 
@@ -84,7 +84,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 1 2
 ```
 
@@ -100,6 +100,6 @@ public class Main {
 
 T0】输出
 
-```
+```java
 1 2 3 4 5 6
 ```

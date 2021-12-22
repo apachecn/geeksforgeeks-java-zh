@@ -26,7 +26,7 @@ Apache Commons IO 库中的 IOUtils 类包含一个 [toString()](https://www.gee
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing generic Classes/Files
 import java.util.*;
 
@@ -75,7 +75,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing generic Classes/Files
 import java.io.*;
 
@@ -133,7 +133,7 @@ InputStream 类的 read()方法从输入流中读取一个字节的数据。返�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing generic Classes/Files
 import java.io.*;
 
@@ -168,7 +168,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.nio.charset.StandardCharsets;
 import java.io.*;
 

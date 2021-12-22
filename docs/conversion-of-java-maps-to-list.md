@@ -24,7 +24,7 @@
 
 **程序:**我们可以绕过 map.keySet()方法生成的一组映射键，将映射键转换为键列表，转换为 ArrayList 构造函数参数，如下图所示
 
-```
+```java
 map.values(); // Now here e will pass sets of keys of our map, so it becomes
 map.values(map.keySet());  // Now we just need to store it into List, so creating object 
 List ListofKeys = new ArrayList(map.keySet()); // Now we are done with conversion. 
@@ -32,7 +32,7 @@ List ListofKeys = new ArrayList(map.keySet()); // Now we are done with conversio
 
 **语法:**此后如下:
 
-```
+```java
 List ListofKeys = new ArrayList(map.keySet());
 ```
 
@@ -42,7 +42,7 @@ List ListofKeys = new ArrayList(map.keySet());
 
 **语法:**此后如下:
 
-```
+```java
 List Listofvalues = new ArrayList(map.values());
 ```
 
@@ -50,7 +50,7 @@ List Listofvalues = new ArrayList(map.values());
 
 ## 爪哇
 
-```
+```java
 // Java Program to Convert Map to List
 
 // Importing required classes

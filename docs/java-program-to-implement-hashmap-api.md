@@ -10,7 +10,7 @@ HashMap 类似于 [HashTable](https://www.geeksforgeeks.org/hashtable-in-java/) 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement HashMap API
 
 import java.util.Collection;
@@ -200,7 +200,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 the key set of the map is 
 1    2    3    4    5    
 the values of the map is 

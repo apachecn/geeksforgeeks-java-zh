@@ -25,7 +25,7 @@ Popup 和 PopupFactory 是 Java Swing 库的一部分。当我们想要向用户
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a popup and display
 // it on a parent frame
 import javax.swing.*;

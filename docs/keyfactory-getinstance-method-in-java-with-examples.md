@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static KeyFactory
   getInstance(String algorithm)
   throws NoSuchAlgorithmException
@@ -27,7 +27,7 @@ public static KeyFactory
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -67,14 +67,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 algorithm : DSA
 
 ```
 
 **示例 2:** 显示 NoSuchAlgorithmException 异常
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -113,7 +113,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception thrown :
  java.security.NoSuchAlgorithmException:
  GEEKS KeyFactory not available
@@ -126,7 +126,7 @@ Exception thrown :
 
 **语法:**
 
-```
+```java
 public static KeyFactory
   getInstance(String algorithm, String provider)
   throws NoSuchAlgorithmException
@@ -149,7 +149,7 @@ public static KeyFactory
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -192,14 +192,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 algorithm : DSA
 
 ```
 
 **示例 2:** 显示 NoSuchAlgorithmException 异常
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -242,7 +242,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception thrown :
  java.security.NoSuchAlgorithmException:
  no such algorithm: RSA for provider SUN

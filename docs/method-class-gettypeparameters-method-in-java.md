@@ -5,7 +5,7 @@
 方法类的 [**方法按照声明顺序返回由该方法对象的泛型声明声明的类型变量对象数组。数组元素表示方法声明的类型变量对象。如果方法对象泛型声明不包含类型变量，则 getTypeParameters()将返回长度为 0 的数组。
 **语法:****](https://www.geeksforgeeks.org/reflection-in-java/) 
 
-```
+```java
 public TypeVariable<Method>[] getTypeParameters()
 ```
 
@@ -17,7 +17,7 @@ public TypeVariable<Method>[] getTypeParameters()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*
 * Program Demonstrate getTypeParameters() method
 * of Method Class.
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Type variable for Method Name getSampleMethod is N
 ```
 
@@ -83,7 +83,7 @@ Type variable for Method Name getSampleMethod is N
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*
 * Program Demonstrate getTypeParameters() method
 * of Method Class having more than one type
@@ -171,7 +171,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Type variable Details for Method Name getSampleMethod
 Name : N
 Bounds : [class java.lang.Number]

@@ -25,7 +25,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Check if a Given Class is  an Inner Class
 
 // Importing package where Modifier is defined
@@ -107,7 +107,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Is innerClass an inner class object? : true
 Is statNested an inner class object? : false
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Method getDeclaredMethod(String methodName, 
                             Class[] parameterType)
        throws NoSuchMethodException, SecurityException
@@ -30,7 +30,7 @@ public Method getDeclaredMethod(String methodName,
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getDeclaredMethod() method
 
@@ -65,7 +65,7 @@ public Method getDeclaredMethod(String methodName,
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Test
     func Method of myClass: public void Test.func()
 
@@ -73,7 +73,7 @@ public Method getDeclaredMethod(String methodName,
 
     **例 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getDeclaredMethod() method
 
@@ -112,7 +112,7 @@ public Method getDeclaredMethod(String methodName,
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Main
     func Method of myClass: private void Main.func()
 

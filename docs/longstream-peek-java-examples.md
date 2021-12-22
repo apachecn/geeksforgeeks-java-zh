@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LongStream peek(LongConsumer action)
 
 Where, LongStream is a sequence of primitive
@@ -18,7 +18,7 @@ an operation that accepts a single long-valued argument.
 
 **示例 1 :** 对给定范围的流执行求和。
 
-```
+```java
 // Java code for LongStream peek()
 // where the action performed is to get
 // sum of all elements in given range
@@ -46,7 +46,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 2
 3
 4

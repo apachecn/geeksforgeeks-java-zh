@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double parseDouble(String s)
 ```
 
@@ -23,7 +23,7 @@ public static double parseDouble(String s)
 
 ***程序 1:***
 
-```
+```java
 *// Java Code to implement
 // parseDouble() method of Double class
 
@@ -47,14 +47,14 @@ class GFG {
 
 ***输出:**
 
-```
+```java
 Value = 100.0
 
 ```
 
 **程序 2:** 显示数字格式异常
 
-```
+```java
 // Java Code to implement
 // parseDouble() method of Double class
 
@@ -84,14 +84,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NumberFormatException: empty String
 
 ```
 
 **程序 3:** 显示空指针异常
 
-```
+```java
 // Java Code to implement
 // parseDouble() method of Double class
 
@@ -121,7 +121,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

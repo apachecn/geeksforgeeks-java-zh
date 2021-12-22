@@ -8,7 +8,7 @@
 
 如你所知，为了得到 n 模 2 <sup>k</sup> ，我们只需要在 n 的二进制表示中返回 k 位(从 LSB 开始)，在 Java 中，你可以使用 [Wrapper 类](https://www.geeksforgeeks.org/wrapper-classes-java/) *toBinaryString()* 方法得到一个数字的二进制字符串表示，并从(str.length()-k)开始获取子字符串。然后通过使用[*integer . parsent()*](https://www.geeksforgeeks.org/string-to-integer-in-java-parseint/)，可以将这个二进制子串转换成余数。下面是演示相同的 Java 程序。
 
-```
+```java
 // Java program to Compute modulus
 // division by a power-of-2-number
 
@@ -43,7 +43,7 @@ class Test
 
 输出:
 
-```
+```java
 15%2^(1) = 1
 15%2^(2) = 3
 15%2^(3) = 7

@@ -10,7 +10,7 @@
 
 1.  **Using direct values**
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Sextet Class 
     // from Quintet Class using 
@@ -49,14 +49,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     ```
 
 2.  **Using Quintet.add() method**
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Sextet Class 
     // from Quintet Class 
@@ -88,7 +88,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     Sextet: [Quintet, Quartet, Triplet, Pair, Unit, Sextet]
     ```
@@ -97,7 +97,7 @@
 
     **程序 1:** 使用 addAt0()在位置 0 添加
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Sextet Class 
     // from Quintet Class
@@ -129,14 +129,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     Sextet: [Sextet, Quintet, Quartet, Triplet, Pair, Unit]
     ```
 
     **程序 2:** 使用 addAt1()在位置 1 添加
 
-    ```
+    ```java
     // Java program to illustrate
     // implementing Sextet Class 
     // from Quintet Class 
@@ -168,14 +168,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     Sextet: [Quintet, Sextet, Quartet, Triplet, Pair, Unit]
     ```
 
     **程序 3:** 使用 addAt2()在位置 2 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt2() method with
     // direct value
@@ -206,14 +206,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     Sextet: [Quintet, Quartet, Sextet, Triplet, Pair, Unit]
     ```
 
     **程序 4:** 使用 addAt3()在位置 3 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt3() method with
     // direct value
@@ -244,14 +244,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     Sextet: [Quintet, Quartet, Triplet, Sextet, Pair, Unit]
     ```
 
     **程序 5:** 使用 addAt4()在位置 4 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt4() method with
     // direct value
@@ -282,14 +282,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     Sextet: [Quintet, Quartet, Triplet, Pair, Sextet, Unit]
     ```
 
     **程序 6:** 使用 addAt5()在位置 5 添加
 
-    ```
+    ```java
     // Below is a Java program to demonstrate
     // use of addAt5() method with
     // direct value
@@ -320,7 +320,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Quintet: [Quintet, Quartet, Triplet, Pair, Unit]
     Sextet: [Quintet, Quartet, Triplet, Pair, Unit, Sextet]
     ```

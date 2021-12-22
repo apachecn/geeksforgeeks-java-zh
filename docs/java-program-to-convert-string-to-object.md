@@ -15,7 +15,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert string to an object
 import java.io.*;
 import java.util.*;
@@ -41,7 +41,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Datatype of the variable in object is : java.lang.String
 object is : GeeksForGeeks
 ```
@@ -52,7 +52,7 @@ object is : GeeksForGeeks
 
 ****语法:****
 
-```
+```java
 public static Class<T> forName(String className) throws ClassNotFoundException
 ```
 
@@ -65,7 +65,7 @@ public static Class<T> forName(String className) throws ClassNotFoundException
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to convert the string to an object
 
 class GFG {
@@ -87,7 +87,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 class name: java.lang.String
 super class name: java.lang.Object
 ```**

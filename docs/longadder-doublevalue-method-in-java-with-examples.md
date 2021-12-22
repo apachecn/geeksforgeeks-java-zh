@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double doubleValue()
 
 ```
@@ -19,7 +19,7 @@ public double doubleValue()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the LongAdder.doubleValue() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial value is: 0
 After addition of 6, value is: 6
 After addition of 5, value is: 11
@@ -75,7 +75,7 @@ Sum of LongAdder as double: 11
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the LongAdder.doubleValue() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial value is: 0
 After addition of 10, value is: 10
 After addition of 100, value is: 110

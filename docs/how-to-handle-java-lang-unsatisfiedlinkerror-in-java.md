@@ -6,7 +6,7 @@
 
 现在让我们讨论一下它是什么时候发生的，为什么会发生。Java.lang.UnsatisfiedLinkError 发生在程序编译期间。正是因为这个原因，编译器没有找到原生库，一个只包含指定操作系统的原生代码的库，像**这样的原生库。Windows 中的 dll** ，**。所以 Linux 中的**和**。Mac 中的 dylib** 。该错误的层次结构如下所示:
 
-```
+```java
 Java.lang.Object
     Java.lang.Throwable
         Java.lang.Error
@@ -18,7 +18,7 @@ Java.lang.Object
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate UnsatisfiedLinkError
 
 // Importing input output classes

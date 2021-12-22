@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the toString() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-30T10:16:26.939
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the toString() method
 
 import java.util.*;
@@ -71,7 +71,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-03T12:45:30
 
 ```

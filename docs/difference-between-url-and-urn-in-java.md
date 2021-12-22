@@ -12,7 +12,7 @@
 
 XML 文件似乎没有任何与 ii 相关联的样式信息，其文档树如下所示:
 
-```
+```java
 This 
 <Error>
 <Code>NoSuchKey</Code>
@@ -37,7 +37,7 @@ yQ/SHq/9wwvXszbY4pAQrZOk+3q6IexIpESeQelGcgX09MVMV6woZFMpaKbXXTrezQqb6HQ7h+4=
 
 **语法:**
 
-```
+```java
 <URN> ::= "urn:" [NID] ":" [NSS]
 ```
 

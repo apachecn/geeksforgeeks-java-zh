@@ -6,7 +6,7 @@ java . util . concurrentSkiplistset 的第一个()方法是 Java 中的一个内
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.first()
 ```
 
@@ -18,7 +18,7 @@ ConcurrentSkipListSet.first()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate first()
 // method of ConcurrentSkipListSet
 
@@ -46,14 +46,14 @@ class ConcurrentSkipListSetFirstExample1 {
 
 **Output:**
 
-```
+```java
 The lowest element in the set: 10
 
 ```
 
  **程序 2:** 程序先显示 NoSuchElementException()。
 
-```
+```java
 // Java Program Demonstrate first()
 // method of ConcurrentSkipListSet
 
@@ -79,7 +79,7 @@ class ConcurrentSkipListSetFirstExample2 {
 
 **Output:**
 
-```
+```java
 Exception :java.util.NoSuchElementException
 
 ```

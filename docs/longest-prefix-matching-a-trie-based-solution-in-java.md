@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Let the dictionary contains the following words:
 {are, area, base, cat, cater, children, basement}
 
@@ -23,7 +23,7 @@ child                   < Empty >
 我们构建一个所有词典单词的 Trie。一旦构建了 Trie，使用输入字符串的字符遍历它。如果前缀匹配词典单词，存储当前长度并寻找更长的匹配。最后，返回最长的匹配。
 以下是上述基于解决方案的 Java 实现。
 
-```
+```java
 import java.util.HashMap;
 
 // Trie Node, which stores a character and the children in a HashMap
@@ -159,7 +159,7 @@ public class Test {
 
 输出:
 
-```
+```java
 caterer:   cater
 basement:   basement
 are:   are

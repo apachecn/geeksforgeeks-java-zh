@@ -20,7 +20,7 @@ Java 字节流用于执行 8 位字节的输入和输出。使用字节流将字
 
 **语法:**
 
-```
+```java
  public byte[] getBytes() ; 
 ```
 
@@ -34,7 +34,7 @@ FileOutputStream 类的 write(byte[] b)方法用于将指定字节数组中的 b
 
 **语法:**
 
-```
+```java
 public void write(byte[] b) throws IOException ; 
 ```
 
@@ -48,7 +48,7 @@ FileOutputStream 类的 close()方法用于关闭文件输出流，并释放与�
 
 **语法:**
 
-```
+```java
 public void close() ; 
 ```
 
@@ -68,7 +68,7 @@ public void close() ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to write Bytes using ByteStream
 
 // Importing classes

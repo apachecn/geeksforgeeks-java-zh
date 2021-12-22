@@ -14,7 +14,7 @@
 
 为了在 java 8 中创建不可变的映射，我们使用了 Java . util . unmodifielemap(Map Map)方法。**不可修改地图(Map map):** 此方法返回指定地图的不可修改视图。该方法允许模块向用户提供对内部地图的“只读”访问。
 
-```
+```java
 Syntax: public static  Map unmodifiableMap(Map map)
 Returns: an unmodifiable view of the specified map.
 Exception: NA
@@ -23,7 +23,7 @@ Exception: NA
 
 不可变空和非空映射的 Java 代码:
 
-```
+```java
 // Java code illustrating immutable map in java 8
 import java.util.*;
 class ImmutableListDemo
@@ -50,7 +50,7 @@ class ImmutableListDemo
 
 上面的代码将生成异常，因为我们试图在不可变映射中添加键值对。
 
-```
+```java
 Runtime Error : Exception in thread "main" 
 java.lang.UnsupportedOperationException
 at java.util.Collections$UnmodifiableMap.put(Collections.java:1457)
@@ -63,7 +63,7 @@ at ImmutableListDemo.main(File.java:17)
 为了在 java 9 中创建不可变的地图，我们使用了()的**和**的**方法。
 用 java 9 创建不可变映射的 Java 代码:**
 
-```
+```java
 // Java code illustrating of() method
 import java.util.*;
 class ImmutableListDemo
@@ -87,7 +87,7 @@ class ImmutableListDemo
 运行上述代码后，我们将出现 UnsupportedOperationException。
 Java 9 中使用 Map.ofEntries()方法创建不可变映射的 Java 代码:
 
-```
+```java
 // Java code illustrating ofEntries method
 import java.util.*;
 import java.util.Map.Entry;

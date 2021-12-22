@@ -13,7 +13,7 @@ For-每一个都是另一种数组遍历技术，如 Java5 中引入的 For 循�
 
 **语法:**
 
-```
+```java
 for (type var : array) 
 { 
     statements using var;
@@ -22,7 +22,7 @@ for (type var : array)
 
 **相当于:**
 
-```
+```java
 for (int i=0; i<arr.length; i++) 
 { 
     type var = arr[i];
@@ -32,7 +32,7 @@ for (int i=0; i<arr.length; i++)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // for-each loop
 class For_Each    
@@ -65,7 +65,7 @@ class For_Each    
 
 输出:
 
-```
+```java
 The highest score is 132
 ```
 
@@ -75,7 +75,7 @@ The highest score is 132
 1.  for-当你想修改数组 :
     时，每个循环都**不合适**
 
-```
+```java
 for (int num : marks) 
 {
     // only changes num, not the array element
@@ -86,7 +86,7 @@ for (int num : marks)
 2.对于每个循环**，不要跟踪索引**。因此，我们无法使用 For-Each 循环
 获得数组索引
 
-```
+```java
 for (int num : numbers) 
 { 
     if (num == target) 
@@ -98,7 +98,7 @@ for (int num : numbers)
 
 3.for-每个**仅在单个步骤中向前迭代数组**
 
-```
+```java
 // cannot be converted to a for-each loop
 for (int i=numbers.length-1; i>0; i--) 
 {
@@ -108,7 +108,7 @@ for (int i=numbers.length-1; i>0; i--)
 
 4.for-每个**不能同时处理两个决策语句**
 
-```
+```java
 // cannot be easily converted to a for-each loop 
 for (int i=0; i<numbers.length; i++) 
 {
@@ -122,7 +122,7 @@ for (int i=0; i<numbers.length; i++)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;

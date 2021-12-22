@@ -21,7 +21,7 @@
 
     **语法:**
 
-    ```
+    ```java
     void forEach(Consumer<**?** super T> action)
 
     Where, Consumer is a functional interface
@@ -33,7 +33,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java code to print the elements of Stream
 
     import java.util.stream.*;
@@ -55,7 +55,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     For
     Geeks
@@ -67,7 +67,7 @@
 
     **程序 2:** 使用短手λ表达式
 
-    ```
+    ```java
     // Java code to print the elements of Stream
 
     import java.util.stream.*;
@@ -89,7 +89,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     For
     Geeks
@@ -101,7 +101,7 @@
 
     **程序 3:** 这种方法消耗流，并使其不可用于将来的使用。因此，下面的代码将抛出一个错误，因为流已经被使用了。
 
-    ```
+    ```java
     // Java code to print the elements of Stream
 
     import java.util.stream.*;
@@ -136,7 +136,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     For
     Geeks
@@ -153,14 +153,14 @@
 
     **语法:**
 
-    ```
+    ```java
     System.out.println(stream.collect(Collectors.toList()));
 
     ```
 
     **程序 1:**
 
-    ```
+    ```java
     // Java code to print the elements of Stream
 
     import java.util.stream.*;
@@ -182,14 +182,14 @@
 
     **Output:**
 
-    ```
+    ```java
     [Geeks, For, Geeks, A, Computer, Portal]
 
     ```
 
     **程序 2:** 这种方法也会消耗该流，并使其不可用于未来使用。因此，下面的代码将抛出一个错误，因为流已经被使用了。
 
-    ```
+    ```java
     // Java code to print the elements of Stream
 
     import java.util.stream.*;
@@ -224,7 +224,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [Geeks, For, Geeks, A, Computer, Portal]
 
     Exception: java.lang.IllegalStateException: 
@@ -236,7 +236,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Stream<T> 
         peek(Consumer<? super T> action)
 
@@ -249,7 +249,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java code to print the elements of Stream
 
     import java.util.stream.*;
@@ -272,7 +272,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     For
     Geeks
@@ -284,7 +284,7 @@
 
     **程序 2:** 这个方法**不消耗**流。因此下面的代码不会抛出任何错误。
 
-    ```
+    ```java
     // Java code to print the elements of Stream
 
     import java.util.stream.*;
@@ -313,7 +313,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Filtered value: Geeks
     Uppercase value :GEEKS
     Filtered value: GeeksForGeeks

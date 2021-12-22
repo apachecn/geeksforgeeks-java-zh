@@ -8,7 +8,7 @@
 
 迭代器对象可以通过调用集合接口中的迭代器()方法来创建。
 
-```
+```java
 // Here "c" is any Collection object. itr is of
 // type Iterator interface and refers to "c"
 Iterator itr = c.iterator();
@@ -20,7 +20,7 @@ Iterator itr = c.iterator();
 
 列表迭代器对象可以通过调用列表界面中的列表迭代器()方法来创建。
 
-```
+```java
 // Here "l" is any List object, ltr is of type
 // ListIterator interface and refers to "l"
 ListIterator ltr = l.listIterator();
@@ -33,7 +33,7 @@ ListIterator ltr = l.listIterator();
 
     **示例:**
 
-    ```
+    ```java
     import java.io.*;
     import java.util.*;
 
@@ -83,7 +83,7 @@ ListIterator ltr = l.listIterator();
 
     **Output:**
 
-    ```
+    ```java
     Iterator:
     Forward traversal: 
     1 2 3 4 5 
@@ -100,7 +100,7 @@ ListIterator ltr = l.listIterator();
 
     **示例:**
 
-    ```
+    ```java
     import java.util.ArrayList;
     import java.util.ListIterator;
 
@@ -136,7 +136,7 @@ ListIterator ltr = l.listIterator();
 
     **Output:**
 
-    ```
+    ```java
     Elements of ArrayList: 
     1
     2

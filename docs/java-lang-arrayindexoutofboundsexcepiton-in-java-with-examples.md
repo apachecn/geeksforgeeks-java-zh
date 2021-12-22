@@ -12,7 +12,7 @@ java . lang . arrayindexoutofboundsexception 是 Java 中最常见的异常之�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the ArrayIndexOutOfBoundsException
 // while accessing element at negative index
 
@@ -41,7 +41,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The element at index 2 is 2
 java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 5
 
@@ -51,7 +51,7 @@ java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the ArrayIndexOutOfBoundsException
 // while accessing element at index greater then size of
 // array -1
@@ -81,7 +81,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The element at index 4 is 7
 java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 5
 

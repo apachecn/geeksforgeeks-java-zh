@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : A[][] = {{3, 1}, 
                  {2, 4}}
         B[][] = {{1, 1}, 
@@ -33,7 +33,7 @@ Output: {{-5, -2},
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Subtract the Two Matrices
 
 import java.io.*;

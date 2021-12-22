@@ -14,7 +14,7 @@ Java 中的内聚性是面向对象的原则，它与确保一个类的设计有
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // high cohesive behavior
 
@@ -42,13 +42,13 @@ class Display {
 
 **Output**
 
-```
+```java
 25
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // high cohesive behavior
 
@@ -94,7 +94,7 @@ class Display {
 
 **Output**
 
-```
+```java
 Geeksforgeeks
 10
 1234567891

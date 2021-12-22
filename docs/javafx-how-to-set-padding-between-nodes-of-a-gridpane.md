@@ -7,7 +7,7 @@
 
 **示例:**让我们看看 GridPane 上的这四个按钮
 
-```
+```java
 // Java Program to show the four 
 // buttons on the GridPane
 import javafx.application.Application;
@@ -58,7 +58,7 @@ public class GridpaneExamplePadding extends Application {
 
 您可能需要在按钮之间添加一些间距，以使事情看起来更好。
 
-```
+```java
 Adding space between columns of the Gridpane:
 gridpane.setHgap(5) // set gap in pixels 
 
@@ -67,7 +67,7 @@ gridpane.setVgap(5) // set gap in pixels
 
 ```
 
-```
+```java
 // Java program to add some spacing 
 // between the buttons of the GridPane
 import javafx.application.Application;

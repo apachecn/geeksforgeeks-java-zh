@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <T extends Annotation> T getAnnotation(Class<T> annotationClass)
 ```
 
@@ -22,7 +22,7 @@ public <T extends Annotation> T getAnnotation(Class<T> annotationClass)
 
 在这个例子中，使用了一个单独的类，该类包含两种方法，即主方法和带注释的方法。
 
-```
+```java
 // Program Demonstrate getAnnotation(Class<T> annotationClass) method
 // of Method Class.
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Annotation for Method Object having name: getCustomAnnotation
 Key Attribute of Annotation: AvengersLeader
 Value Attribute of Annotation: CaptainAmerica
@@ -99,7 +99,7 @@ Value Attribute of Annotation: CaptainAmerica
 
 在这个例子中，使用了两个类。一个类包含创建方法对象并应用 getAnnotation()方法的主方法，另一个类包含带有一些注释的方法。
 
-```
+```java
 // Program Demonstrate getAnnotation(Class<T> annotationClass) method
 // of Method Class.
 
@@ -150,7 +150,7 @@ class GFGDemoClass {
 
 **输出:**
 
-```
+```java
 key: getField
 value: getting field attribute
 

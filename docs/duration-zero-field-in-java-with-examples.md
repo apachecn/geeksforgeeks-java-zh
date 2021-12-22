@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Duration duration = Duration.ZERO;
 
 ```
@@ -15,7 +15,7 @@ Duration duration = Duration.ZERO;
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate ZERO field
 
 import java.time.Duration;
@@ -42,7 +42,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 PT51H4M
 PT0S
 
@@ -50,7 +50,7 @@ PT0S
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate ZERO field
 
 import java.time.Duration;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT-120H
 PT0S
 

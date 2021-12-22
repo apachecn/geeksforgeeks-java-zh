@@ -9,7 +9,7 @@
 
 1.  **Arithmetic exception :** It is thrown when an exceptional condition has occurred in an arithmetic operation.
 
-    ```
+    ```java
     // Java program to demonstrate 
     // ArithmeticException
     class ArithmeticException_Demo {
@@ -29,14 +29,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Can't divide a number by 0
 
     ```
 
 2.  **ArrayIndexOutOfBounds Exception :** It is thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
 
-    ```
+    ```java
     // Java program to demonstrate 
     // ArrayIndexOutOfBoundException
     class ArrayIndexOutOfBound_Demo {
@@ -56,13 +56,13 @@
 
     **输出:** 
 
-    ```
+    ```java
     Array Index is Out Of Bounds
     ```
 
 3.  **ClassNotFoundException :** This Exception is raised when we try to access a class whose definition is not found.
 
-    ```
+    ```java
     // Java program to illustrate the 
     // concept of ClassNotFoundException
     class Bishal {
@@ -80,13 +80,13 @@
 
     **输出:**
 
-    ```
+    ```java
     ClassNotFoundException
     ```
 
 4.  **FileNotFoundException :** This Exception is raised when a file is not accessible or does not open.
 
-    ```
+    ```java
     // Java program to demonstrate 
     // FileNotFoundException
     import java.io.File;
@@ -112,13 +112,13 @@
 
     **输出:**
 
-    ```
+    ```java
     File does not exist
     ```
 
 5.  **IOException :** It is thrown when an input-output operation failed or interrupted
 
-    ```
+    ```java
     // Java program to illustrate IOException
     import java.io.*;
     class Geeks {
@@ -137,14 +137,14 @@
 
     **输出:**
 
-    ```
+    ```java
     error: unreported exception IOException; must be caught or declared to be thrown
 
     ```
 
 6.  **InterruptedException :** It is thrown when a thread is waiting, sleeping, or doing some processing, and it is interrupted.
 
-    ```
+    ```java
     // Java Program to illustrate 
     // InterruptedException
     class Geeks {
@@ -158,14 +158,14 @@
 
     **输出:**
 
-    ```
+    ```java
     error: unreported exception InterruptedException; must be caught or declared to be thrown
 
     ```
 
 7.  **NoSuchMethodException :** t is thrown when accessing a method which is not found.
 
-    ```
+    ```java
     // Java Program to illustrate 
     // NoSuchMethodException
     class Geeks {
@@ -198,7 +198,7 @@
 
     **输出:**
 
-    ```
+    ```java
     error: exception NoSuchMethodException is never thrown 
     in body of corresponding try statement
 
@@ -206,7 +206,7 @@
 
 8.  **NullPointerException :** This exception is raised when referring to the members of a null object. Null represents nothing
 
-    ```
+    ```java
     // Java program to demonstrate NullPointerException
     class NullPointer_Demo {
     public static void main(String args[])
@@ -224,14 +224,14 @@
 
     **输出:**
 
-    ```
+    ```java
     NullPointerException..
 
     ```
 
 9.  **NumberFormatException :** This exception is raised when a method could not convert a string into a numeric format.
 
-    ```
+    ```java
     // Java program to demonstrate 
     // NumberFormatException
     class NumberFormat_Demo {
@@ -252,14 +252,14 @@
 
     **输出:**
 
-    ```
+    ```java
     Number format exception
 
     ```
 
 10.  **StringIndexOutOfBoundsException :** It is thrown by String class methods to indicate that an index is either negative than the size of the string.
 
-    ```
+    ```java
     // Java program to demonstrate 
     // StringIndexOutOfBoundsException
     class StringIndexOutOfBound_Demo {
@@ -279,7 +279,7 @@
 
     **输出:**
 
-    ```
+    ```java
     StringIndexOutOfBoundsException
 
     ```
@@ -288,7 +288,7 @@
 
 1.  **ClassCastException**
 
-    ```
+    ```java
     // Java Program to illustrate
     // ClassCastException
     class Test {
@@ -304,7 +304,7 @@
 
     输出:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.ClassCastException: 
     java.lang.Object cannot be cast to java.lang.String
 
@@ -312,7 +312,7 @@
 
 2.  **StackOverflowError**
 
-    ```
+    ```java
     // Java Program to illustrate 
     // StackOverflowError
     class Test {
@@ -333,14 +333,14 @@
 
     输出:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.StackOverflowError
 
     ```
 
 3.  **NoClassDefFoundError**
 
-    ```
+    ```java
     // Java Program to illustrate
     // NoClassDefFoundError
     class Test //
@@ -354,7 +354,7 @@
 
     输出:
 
-    ```
+    ```java
     Note: If the corresponding Test.class file is not found 
     during compilation then we will get Run-time Exception
     saying Exception in thread "main" java.lang.NoClassDefFoundError
@@ -364,7 +364,7 @@
 4.  **ExceptionInInitializerError**
     **Code 1:**
 
-    ```
+    ```java
     // Java Program to illustrate 
     // ExceptionInInitializerError
     class Test {
@@ -377,7 +377,7 @@
 
     输出:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.ExceptionInInitializerError
     Caused by: java.lang.ArithmeticException: / by zero
 
@@ -385,7 +385,7 @@
 
     **代码 2 :**
 
-    ```
+    ```java
     // Java Program to illustrate 
     // ExceptionInInitializerError
     class Test {
@@ -402,7 +402,7 @@
 
     输出:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.ExceptionInInitializerError
     Caused by: java.lang.NullPointerException
 
@@ -412,7 +412,7 @@
 
 5.  **IllegalArgumentException**
 
-    ```
+    ```java
     // Java Program to illustrate 
     // IllegalArgumentException
     class Test {
@@ -428,7 +428,7 @@
 
     输出:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.IllegalArgumentException
 
     ```
@@ -437,7 +437,7 @@
 
 6.  **IllegalThreadStateException**
 
-    ```
+    ```java
     // Java Program to illustrate 
     // IllegalStateException
     class Test {
@@ -452,7 +452,7 @@
 
     输出:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.IllegalThreadStateException
 
     ```
@@ -461,7 +461,7 @@
 
 7.  **AssertionError**
 
-    ```
+    ```java
     // Java Program to illustrate 
     // AssertionError
     class Test {
@@ -476,7 +476,7 @@
 
     输出:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.AssertionError
 
     ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean contains(short[] array,
                                short target)
 
@@ -23,7 +23,7 @@ public static boolean contains(short[] array,
 
 **示例-1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.contains() method
 import com.google.common.primitives.Shorts;
@@ -52,14 +52,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is present in the array
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.contains() method
 import com.google.common.primitives.Shorts;
@@ -88,7 +88,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is not present in the array
 
 ```

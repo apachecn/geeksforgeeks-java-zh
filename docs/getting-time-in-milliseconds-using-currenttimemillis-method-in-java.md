@@ -6,13 +6,13 @@
 
 **语法:**获取毫秒
 
-```
+```java
 *System.current*TimeMillis();
 ```
 
 > **注意:**此返回自 1970 年 1 月 1 日 00:00 以来经过的毫秒数，该时间被视为纪元时间。同样，我们可以从毫秒中找出数据的年、月、小时和休息时间。
 > 
-> ```
+> ```java
 > (System.currentTimeMillis()) / 1000)                           Returns Seconds passed
 > (System.currentTimeMillis()) / 1000 / 60)                      Returns Minutes passed
 > (System.currentTimeMillis()) / 1000 / 60 / 60);                Returns Hours passed
@@ -28,7 +28,7 @@
 
 T9
 
-```
+```java
 // Java Program to illustrate TimeMillis() Method
 
 // Importing input output classes

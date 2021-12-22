@@ -6,7 +6,7 @@ java.util.LinkedList.pop()方法用于从 LinkedList 表示的堆栈中移除并
 
 **语法**:
 
-```
+```java
 LinkedListObject.pop()
 
 ```
@@ -20,7 +20,7 @@ LinkedListObject.pop()
 下面的程序说明了 java.util.LinkedList.pop()方法:
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate pop method in LinkedList
 
 import java.util.LinkedList;
@@ -56,7 +56,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 for
 [Geeks, Geeks]
 
@@ -64,7 +64,7 @@ for
 
 **程序 2 :**
 
-```
+```java
 // Java code to demonstrate pop method in LinkedList
 
 import java.util.LinkedList;
@@ -109,7 +109,7 @@ public class GfG {
 
 **输出**:
 
-```
+```java
 20
 10
 

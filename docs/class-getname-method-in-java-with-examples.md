@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getName()
 
 ```
@@ -19,7 +19,7 @@ public String getName()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getName() method
 
 public class Test {
@@ -43,7 +43,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Name of myClass: Test
 
@@ -51,7 +51,7 @@ Name of myClass: Test
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getName() method
 
 public class Test {
@@ -76,7 +76,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Name of arrClass: Test$Arr
 
 ```

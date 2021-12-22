@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public LocalDateTime plusMonths(long months)
 
 ```
@@ -21,7 +21,7 @@ public LocalDateTime plusMonths(long months)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the plusMonths() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 LocalDateTime with 15 months added: 2019-04-11T10:15:30
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the plusMonths() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 LocalDateTime with -2 months added: 2017-11-11T08:15:30
 
 ```

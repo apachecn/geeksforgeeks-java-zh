@@ -14,7 +14,7 @@
 
 我们将获得我们想要删除的“帖子”中的节点。我们直接删除快照参考值。
 
-```
+```java
 Query query= FirebaseDatabase.getInstance().getReference("Posts").orderByChild("ptime").equalTo(pid);
                 query.addValueEventListener(new ValueEventListener() {
                     @Override
@@ -38,7 +38,7 @@ Query query= FirebaseDatabase.getInstance().getReference("Posts").orderByChild("
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.socialmediaapp;
 
 import android.app.ProgressDialog;

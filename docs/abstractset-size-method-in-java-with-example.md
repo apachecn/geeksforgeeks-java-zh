@@ -8,7 +8,7 @@ Java 中**抽象集**的 **size()** 方法用于获取抽象集的这个实例�
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -20,7 +20,7 @@ public int size()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // size() method in AbstractSet
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSet: [1, 2, 3, 4]
 Size: 4
 
@@ -62,7 +62,7 @@ Size: 4
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // size() method in AbstractSet
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSet: [For, ForGeeks, Geeks, GeeksForGeeks]
 Size: 4
 

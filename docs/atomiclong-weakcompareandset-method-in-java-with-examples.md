@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean weakCompareAndSet(long expect,
                                        long val)
 ```
@@ -24,7 +24,7 @@ public final boolean weakCompareAndSet(long expect,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the weakCompareAndSet() function
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Previous value: 0
 The value was updated and it is 6
 ```
@@ -69,7 +69,7 @@ The value was updated and it is 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates
 // the weakCompareAndSet() function
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Previous value: 0
 The value was not updated
 ```

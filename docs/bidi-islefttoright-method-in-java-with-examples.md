@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isLeftToRight()
 ```
 
@@ -18,7 +18,7 @@ public boolean isLeftToRight()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isLeftToRight() method
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Both Line and Base direction is left to right
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isLeftToRight() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Both Line and Base direction is not left to right 
 
 ```

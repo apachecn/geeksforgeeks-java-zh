@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int last()
 ```
 
@@ -18,7 +18,7 @@ public abstract int last()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate last() method
 
 import java.text.*;
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 last boundary : 11
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate last() method
 
 import java.text.*;
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 last boundary : 13
 
 ```

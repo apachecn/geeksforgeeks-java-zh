@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 enum Day{
   SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
 }
@@ -22,19 +22,19 @@ enum Day{
 
 **语法:**
 
-```
+```java
 public final int ordinal();
 ```
 
 **返回值:**
 
-```
+```java
 This method returns the ordinal of this enumeration constant.
 ```
 
 **示例:**
 
-```
+```java
 Day d1 = Day.TUESDAY;
 System.out.println("the ordinal value is :" + d1.ordinal());
 
@@ -44,7 +44,7 @@ the ordinal value is : 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the usage of 
 // ordinal() method of java enumeration 
 
@@ -65,7 +65,7 @@ class Main{
 
 **Output**
 
-```
+```java
 0 1 2 3 4 5 6 
 ```
 
@@ -81,7 +81,7 @@ class Main{
 
 **语法:**
 
-```
+```java
 int compareTo(Object obj)
 ```
 
@@ -97,7 +97,7 @@ int compareTo(Object obj)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the usage of 
 // compareTo() method of java enumeration 
 
@@ -129,7 +129,7 @@ class GFG{
 
 **Output**
 
-```
+```java
 -1
 1
 0

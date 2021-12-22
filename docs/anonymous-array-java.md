@@ -14,13 +14,13 @@
 
 **语法:**
 
-```
+```java
 new <data type>[]{<list of values with comma separator>};
 ```
 
 **例:**
 
-```
+```java
 // anonymous int array 
 new int[] { 1, 2, 3, 4};  
 
@@ -38,7 +38,7 @@ new int[][] { {10, 20}, {30, 40, 50} };
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // concept of anonymous array
 
@@ -64,7 +64,7 @@ class Test {
 
 **Output**
 
-```
+```java
 The sum is: 6
 ```
 

@@ -16,7 +16,7 @@ java 中的迭代器用于迭代 Collection 对象。如果集合中有**结构�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // Fail Fast Iterator in Java
 import java.util.HashMap;
@@ -47,7 +47,7 @@ public class FailFastExample {
 
 **输出:**
 
-```
+```java
 India
 Exception in thread "main" java.util.ConcurrentModificationException
     at java.util.HashMap$HashIterator.nextNode(HashMap.java:1442)
@@ -67,7 +67,7 @@ Exception in thread "main" java.util.ConcurrentModificationException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate remove
 // case in Fail-fast iterators
 
@@ -108,7 +108,7 @@ public class FailFastExample {
 
 **输出:**
 
-```
+```java
 [1, 3, 4, 5]
 Exception in thread "main" java.util.ConcurrentModificationException
     at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:901)
@@ -129,7 +129,7 @@ Exception in thread "main" java.util.ConcurrentModificationException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // Fail Safe Iterator in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -156,7 +156,7 @@ class FailSafe {
 
 **输出:**
 
-```
+```java
 1
 3
 5
@@ -168,7 +168,7 @@ class FailSafe {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Fail-Safe Iterator which
 // does not create separate copy
@@ -205,7 +205,7 @@ public class FailSafeItr {
 
 **输出**T2】
 
-```
+```java
 ONE : 1
 FOUR : 4
 TWO : 2

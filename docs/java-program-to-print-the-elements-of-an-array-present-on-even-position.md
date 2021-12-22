@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: [1,2,3,4,5,6]
 
 Output: 2
@@ -29,7 +29,7 @@ Output: 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print the Elements of an Array Present on
 // Even Position
 
@@ -54,7 +54,7 @@ public class EvenPosition {
 
 **Output**
 
-```
+```java
 2
 4
 6

@@ -38,7 +38,7 @@ Java 虚拟机(JVM)使用 Java 中的默认字符编码或字符集，在没有*
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Get and Set
 // Default Character encoding or Charset
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **在启动 Java 虚拟机时，通过提供文件编码系统属性**
 
-```
+```java
 java -Dfile.encoding="UTF-8"  HelloWorld, we can specify UTF-8 charset.
 ```
 
@@ -135,7 +135,7 @@ java -Dfile.encoding="UTF-8"  HelloWorld, we can specify UTF-8 charset.
 
 **下面的代码片段指出了使用 JAVA_TOOLS_OPTIONS 的默认字符编码的设置:**
 
-```
+```java
 test@system:~/java java HelloWorld
 þÿExecuting HelloWorld
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF16
@@ -145,7 +145,7 @@ Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF16
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Get and Set
 // Default Character encoding or Charset
 
@@ -226,7 +226,7 @@ public class GFG {
 
 ****输出****
 
-```
+```java
 Default Charset: UTF-16
 Default Charset by InputStreamReader: UTF8
 Default Charset: UTF-8

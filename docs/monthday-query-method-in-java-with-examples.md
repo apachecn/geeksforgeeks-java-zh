@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <R> R query(TemporalQuery<R> query)
 
 ```
@@ -24,7 +24,7 @@ public <R> R query(TemporalQuery<R> query)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.query() method
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 chronology value for MonthDay is ISO
 
 ```
 
 **程序 2:** 显示如果查询没有找到所需的对象，则返回空值。
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.query() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 offset value for MonthDay is null
 
 ```

@@ -44,7 +44,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.GFGParse" parent="Theme.MaterialComponents.DayNight.NoActionBar">

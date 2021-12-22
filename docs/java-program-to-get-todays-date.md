@@ -21,7 +21,7 @@ Java 是最强大的编程语言，通过它我们可以执行许多任务，Jav
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get Today's Date
 // Using now() method of LocalDate class
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2021-05-31
 
 ```
@@ -54,7 +54,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get Today's Date
 // Using java.sql.Date() function
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 2021-05-31
 
 ```

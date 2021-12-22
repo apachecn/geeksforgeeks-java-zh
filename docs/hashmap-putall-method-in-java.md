@@ -6,7 +6,7 @@ java.util.HashMap.putAll()是 HashMap 类的一个内置方法，用于复制操
 
 **语法:**
 
-```
+```java
 new_hash_map.putAll(*exist_hash_map*)
 ```
 
@@ -19,7 +19,7 @@ new_hash_map.putAll(*exist_hash_map*)
 下面的程序说明了 java.util.HashMap.putAll()方法的工作原理:
 **程序 1:** 将字符串值映射到整键。
 
-```
+```java
 // Java code to illustrate the putAll() method
 import java.util.*;
 
@@ -51,7 +51,7 @@ public static void main(String[] args) {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The new map looks like this: {25=Welcomes, 10=Geeks, 20=Geeks, 30=You, 15=4}
 
@@ -59,7 +59,7 @@ The new map looks like this: {25=Welcomes, 10=Geeks, 20=Geeks, 30=You, 15=4}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the putAll() method
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The new map looks like this: {Geeks=20, 4=15, You=30, Welcomes=25}
 

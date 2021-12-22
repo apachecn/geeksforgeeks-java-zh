@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long divide(long p,
                           long q,
                           RoundingMode mode)
@@ -38,7 +38,7 @@ public static long divide(long p,
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // divide(long p, long q, RoundingMode mode)
 // method of Guava's LongMath class
@@ -80,7 +80,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 5
 6
 
@@ -88,7 +88,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // divide(long p, long q, RoundingMode mode)
 // method of Guava's LongMath class
@@ -141,7 +141,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: / by zero
 
 ```

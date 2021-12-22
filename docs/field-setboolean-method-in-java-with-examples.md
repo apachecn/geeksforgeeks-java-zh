@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setBoolean(Object obj, boolean z)
             throws IllegalArgumentException,
                    IllegalAccessException
@@ -30,7 +30,7 @@ public void setBoolean(Object obj, boolean z)
 下面的程序说明了 setBoolean()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setBoolean() method
 
 import java.lang.reflect.Field;
@@ -74,7 +74,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Value before applying setBoolean is true
 Value after applying setBoolean is false
 
@@ -82,7 +82,7 @@ Value after applying setBoolean is false
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setBoolean() method
 
 import java.lang.reflect.Field;
@@ -144,7 +144,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of isManager before applying setBoolean is true
 Value of isPresent before applying setBoolean is false
 Value of isManager before applying setBoolean is false

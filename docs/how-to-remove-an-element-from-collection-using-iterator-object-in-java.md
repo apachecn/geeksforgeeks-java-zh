@@ -18,7 +18,7 @@ Java 中的 [**【集合】**](https://www.geeksforgeeks.org/collections-in-java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Remove an Element from 
 // Collection using Iterator 
 
@@ -63,7 +63,7 @@ class IteratorDemo 
 
 **Output**
 
-```
+```java
 List before removal
 0 5 10 15 20 25 30 35 40 45 50 
 List after removal
@@ -79,7 +79,7 @@ List after removal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Remove an Element from
 // Collection using ListIterator
 
@@ -123,7 +123,7 @@ public class ListIteratorDemo {
 
 **Output**
 
-```
+```java
 List before removal
 January February March April May June July August 
 List after removal

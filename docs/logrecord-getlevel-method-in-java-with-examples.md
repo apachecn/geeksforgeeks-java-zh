@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Level getLevel()
 
 ```
@@ -18,7 +18,7 @@ public Level getLevel()
 以下程序说明 getLevel()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate getLevel() method
 
 import java.util.logging.Level;
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Level of Log Record = FINER
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate getLevel() method
 
 import java.util.logging.Level;
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Level of Log Record = WARNING
 
 ```

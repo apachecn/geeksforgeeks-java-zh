@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 
 ```
@@ -19,7 +19,7 @@ public boolean isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of ConcurrentSkipListMap
 
@@ -46,14 +46,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of ConcurrentSkipListMap
 
@@ -76,7 +76,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int intValue()
 ```
 
@@ -18,7 +18,7 @@ public int intValue()
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // Float intValue() method
 class GFG {
@@ -44,14 +44,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Int value of 17.47 is : 17
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java code to demonstrate
 // Float intValue() method
 // Not a number
@@ -78,7 +78,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Int value of NaN is : 0
 
 ```

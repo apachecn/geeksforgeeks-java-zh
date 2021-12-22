@@ -5,7 +5,7 @@
 Java 的链表类提供了一个函数，允许一个名为 poll()的基于“**队列的**”工作。这个函数不仅返回删除第一个元素，而且**还在删除时显示**，因此在日常生活问题和竞争性编程中也有很多用法。poll()有 **3** 种变体，本文将讨论这三种变体。
 **1。poll()** :此方法**检索**，**移除此列表的**头(第一个元素)**。**
 
-```
+```java
 Declaration : 
    public E poll()
 Return Value : 
@@ -13,7 +13,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of poll() in linked list
 import java.util.*;
@@ -46,7 +46,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial Linked List is : [Geeks, 4, Geeks, 8]
 Head element of the list is : Geeks
 Linked List after removal using poll() : [4, Geeks, 8]
@@ -55,7 +55,7 @@ Linked List after removal using poll() : [4, Geeks, 8]
 
 **2。pollsfirst():**此方法**检索**，**删除此列表的****第一个元素**，如果此列表为空，则返回 null。
 
-```
+```java
 Declaration : 
   public E pollFirst()
 Return Value : 
@@ -63,7 +63,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of pollFirst() in linked list
 import java.util.*;
@@ -96,7 +96,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial Linked List is : [Geeks, 4, Geeks, 8]
 Head element of the list is : Geeks
 Linked List after removal using pollFirst() : [4, Geeks, 8]
@@ -105,7 +105,7 @@ Linked List after removal using pollFirst() : [4, Geeks, 8]
 
 **3。pollLast() :** 此方法**检索**，**删除此列表的****最后一个元素**，如果此列表为空，则返回 null。
 
-```
+```java
 Declaration : 
   public E pollLast()
 Return Value : 
@@ -113,7 +113,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of pollLast() in linked list
 import java.util.*;
@@ -146,7 +146,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial Linked List is : [Geeks, 4, Geeks, 8]
 Tail element of the list is : 8
 Linked List after removal using pollLast() : [Geeks, 4, Geeks]
@@ -155,7 +155,7 @@ Linked List after removal using pollLast() : [Geeks, 4, Geeks]
 
 **实际应用:**该功能在“**队列管理**系统以及可以想到的“第一次淘汰”游戏中有潜在用途。下面讨论前一个例子。
 
-```
+```java
 // Java code to demonstrate the practical
 // application of poll() in linked list
 import java.util.*;
@@ -189,7 +189,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The initial queue is : [Astha, Shambhavi, Nikhil, Manjeet]
 The order of exit is : Astha <-- Shambhavi <-- Nikhil <-- Manjeet <-- 
 

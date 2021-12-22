@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Annotation[] getDeclaredAnnotations()
 
 ```
@@ -18,7 +18,7 @@ public Annotation[] getDeclaredAnnotations()
 下面的程序说明了 getDeclaredAnnotations()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getDeclaredAnnotations() method
 
@@ -64,14 +64,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Annotation : [Ljava.lang.annotation.Annotation;@4aa298b7
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getDeclaredAnnotations() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Annotation length : 0
 
 ```

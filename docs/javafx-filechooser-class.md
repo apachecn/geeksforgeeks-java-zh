@@ -31,7 +31,7 @@ FileChooser 类是 JavaFX 的一部分。用于调用*文件打开对话框*选�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create fileChooser
 // and add it to the stage
 import javafx.application.Application;
@@ -152,7 +152,7 @@ public static void main(String args[])
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create FileChooser
 // & set title, initial File
 // and add it to the stage

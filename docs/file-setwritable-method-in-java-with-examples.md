@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public boolean setWritable(boolean a, boolean b)
 public boolean setWritable(boolean a)
 ```
 
 **函数语法:**
 
-```
+```java
 file.setWritable(boolean a, boolean b)
 file.setWritable(boolean a)
 ```
@@ -32,7 +32,7 @@ file.setWritable(boolean a)
 
     **示例 1:** 我们将尝试更改 f:目录中现有文件的所有者的 setWritable 权限。
 
-    ```
+    ```java
     // Java program to demonstrate the
     // use of setWritable() function
 
@@ -72,14 +72,14 @@ file.setWritable(boolean a)
 
     **输出:**
 
-    ```
+    ```java
     Writable permission is set
 
     ```
 
     **示例 2:** 我们将尝试更改 f:目录中一个现有文件的所有人的 setWritable 权限。
 
-    ```
+    ```java
     // Java program to demonstrate the
     // use of setWritable() function
 
@@ -121,7 +121,7 @@ file.setWritable(boolean a)
 
     **输出:**
 
-    ```
+    ```java
     Writable permission is set
 
     ```

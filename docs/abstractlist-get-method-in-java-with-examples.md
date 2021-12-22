@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract E get(int index)
 ```
 
@@ -20,7 +20,7 @@ public abstract E get(int index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 // for Integer value
@@ -67,7 +67,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayListlist : [10, 20, 30, 40, 50]
 Element at index 3 : 40
 
@@ -75,7 +75,7 @@ Element at index 3 : 40
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 // for IndexOutOfBoundsException
@@ -124,7 +124,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayListlist : [10, 20, 30, 40, 50]
 
 Trying to get the element from out of range index 

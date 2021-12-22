@@ -6,7 +6,7 @@ Java 中的**Java . math . BigDecimal . max(BigDecimal val)**方法用于比较�
 
 **语法:**
 
-```
+```java
 public BigDecimal max(BigDecimal val)
 ```
 
@@ -16,7 +16,7 @@ public BigDecimal max(BigDecimal val)
 
 **示例:**
 
-```
+```java
 Input :  a = 17.000041900, b = 17.0000418999
 Output : 17.000041900
 
@@ -29,7 +29,7 @@ Output : 236000000000
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate use of
 // BigDecimal max() function in Java      
 import java.math.*;
@@ -54,14 +54,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Maximum Value among 235900000146 and 236000000000 is 236000000000
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate use of BigDecimal max() 
 // to display maximum length among two strings in Java  
 import java.math.*;
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Length of string GeeksforGeeks is 13
 Length of string GeeksClasses is 12
 Maximum length is 13

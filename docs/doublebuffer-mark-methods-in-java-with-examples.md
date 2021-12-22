@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public DoubleBuffer mark()
 ```
 
@@ -16,7 +16,7 @@ public DoubleBuffer mark()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // mark() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 4
 position after reset: 2
 
@@ -81,7 +81,7 @@ position after reset: 2
 
 **示例 2:** 演示无效标记异常
 
-```
+```java
 // Java program to demonstrate
 // mark() method
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 position before reset: 1
 
 New position is less than the position marked before 

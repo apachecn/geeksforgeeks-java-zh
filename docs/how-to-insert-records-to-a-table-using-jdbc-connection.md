@@ -10,21 +10,21 @@
 
 *   **Class.forName():** 这里我们在运行时将驱动程序的类文件加载到内存中。不需要使用新的或创建的对象。以下示例使用 Class.forName()加载 Oracle 驱动程序–
 
-```
+```java
 Class.forName(“oracle.jdbc.driver.OracleDriver”);
 
 ```
 
 *   **driver manager . register driver():**driver manager 是一个带有静态成员寄存器的 Java 内置类。这里我们在编译时调用驱动类的构造函数。以下示例使用 DriverManager.registerDriver()来注册 Oracle 驱动程序–
 
-```
+```java
 DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver())
 
 ```
 
 **2。创建连接:**加载驱动程序后，使用以下命令建立连接:
 
-```
+```java
 Connection con = DriverManager.getConnection(url,user,password)
 
 ```
@@ -35,7 +35,7 @@ Connection con = DriverManager.getConnection(url,user,password)
 **con:** 是对连接接口的引用。
 **网址**:统一资源定位器。它可以按如下方式创建:
 
-```
+```java
 String url = “ jdbc:oracle:thin:@localhost:1521:xe”
 
 ```
@@ -46,7 +46,7 @@ String url = “ jdbc:oracle:thin:@localhost:1521:xe”
 
 JDBC 声明的用法如下:
 
-```
+```java
 Statement st = con.createStatement();
 
 ```
@@ -63,7 +63,7 @@ Statement st = con.createStatement();
 
 **示例:**
 
-```
+```java
 int m = st.executeUpdate(sql);
 if (m==1)
     System.out.println("inserted successfully : "+sql);
@@ -78,14 +78,14 @@ else
 
 **示例:**
 
-```
+```java
 con.close();
 
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to insert records to a table using JDBC
 
 import java.io.*;

@@ -7,7 +7,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate functional interface
 
 class Test
@@ -29,7 +29,7 @@ class Test
 
 ****输出:****
 
-```
+```java
 New thread created
 ```
 
@@ -37,7 +37,7 @@ New thread created
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate Implementation of
 // functional interface using lambda expressions
 
@@ -53,7 +53,7 @@ class Test
 }
 ```
 
-```
+```java
 New thread created
 ```
 
@@ -62,7 +62,7 @@ New thread created
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate lambda expressions to implement
 // a user defined functional interface.
 
@@ -91,7 +91,7 @@ class Test
 
 ****输出:****
 
-```
+```java
 25
 ```
 
@@ -100,7 +100,7 @@ Java 8 中的 Java . util . function Package 包含很多内置的功能接口�
 
 *   ****谓词:**谓词接口有一个抽象方法测试，它给出了一个布尔值作为指定参数的结果。它的原型是**
 
-```
+```java
 public interface Predicate
 {
    public boolean test(T  t);
@@ -109,7 +109,7 @@ public interface Predicate
 
 *   ****BinaryOperator:**BinaryOperator 接口有一个抽象方法 apply，该方法接受两个参数并返回相同类型的结果。它的原型是**
 
-```
+```java
 public interface BinaryOperator 
 {
      public T apply(T x, T y);
@@ -118,7 +118,7 @@ public interface BinaryOperator
 
 *   ****函数:**函数接口有一个抽象方法 apply，它接受类型 T 的参数并返回类型 r 的结果。它的原型是**
 
-```
+```java
 public interface Function 
 {
    public R apply(T t);
@@ -127,7 +127,7 @@ public interface Function
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A simple program to demonstrate the use
 // of predicate interface
 import java.util.*;
@@ -159,7 +159,7 @@ class Test
 
 ****输出:****
 
-```
+```java
 Geek
 GeeksQuiz
 Geek2

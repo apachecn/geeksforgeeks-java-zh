@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static long binomial(int n, int k)
 
 ```
@@ -21,7 +21,7 @@ public static long binomial(int n, int k)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // binomial(int n, int k) method of Guava's
 // LongMath class
@@ -60,7 +60,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Binomial Coefficient of 4 and 3 is : 4
 Binomial Coefficient of 20 and 4 is : 4845
 
@@ -68,7 +68,7 @@ Binomial Coefficient of 20 and 4 is : 4845
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // binomial(int n, int k) method of Guava's
 // LongMath class
@@ -115,7 +115,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.IllegalArgumentException: k (7) > n (5)
 
 ```

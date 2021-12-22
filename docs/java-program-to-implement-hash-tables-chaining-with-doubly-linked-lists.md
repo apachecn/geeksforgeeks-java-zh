@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```java
 In Singly Linked List : g -> e -> e -> k -> s
 Here, each node contains a pointer to the next node only.
 
@@ -31,7 +31,7 @@ Each node contains pointer to the next as well as previous node.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of Hashtable chaining
 // using doubly linked list
 
@@ -231,7 +231,7 @@ class HashTableChainingDoublyLinkedList {
 
 **Output**
 
-```
+```java
 At 0:  80 
 At 1:  36 
 At 2:  47 

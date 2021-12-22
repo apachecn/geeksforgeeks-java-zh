@@ -5,7 +5,7 @@
 **java.text.MessageFormat** 类的 **parse()** 方法用于从索引的开头解析字符串对象。
 **语法:**
 
-```
+```java
 public Object[] parse(String source)
                throws ParseException
 ```
@@ -18,7 +18,7 @@ public Object[] parse(String source)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // parse() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Parsed value are :
 10.456
 30.444
@@ -69,7 +69,7 @@ Parsed value are :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // parse() method
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 String is Null
 Exception thrown : java.text.ParseException: MessageFormat parse error!
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -18,7 +18,7 @@ public String toString()
 下面的程序说明了 CompositeName.toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.toString()
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 toString: a/n/cc/aa/@@/##/7
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.toString() method
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompositeName:cc/ee/dd/vv/a/b/z/y/x/f
 
 ```

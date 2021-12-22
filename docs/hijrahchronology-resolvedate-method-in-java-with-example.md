@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public HijrahDate resolveDate(Map fieldValues,
                               ResolverStyle resolverStyle)
 
@@ -23,7 +23,7 @@ public HijrahDate resolveDate(Map fieldValues,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // resolveDate() method
 
@@ -87,14 +87,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahDate is : Hijrah-umalqura AH 1392-08-19
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // resolveDate() method
 
@@ -152,7 +152,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahDate is : null
 
 ```

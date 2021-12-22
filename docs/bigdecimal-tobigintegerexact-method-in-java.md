@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger toBigIntegerExact()
 
 ```
@@ -17,7 +17,7 @@ public BigInteger toBigIntegerExact()
 
 **示例:**
 
-```
+```java
 Input: (BigDecimal) 1213
 Output: (BigInteger) 1213
 
@@ -28,7 +28,7 @@ Output: (BigInteger) 12785412
 以下程序说明了上述方法的工作:
 **程序 1:**
 
-```
+```java
 // Program to demonstrate toBigIntegerExact() method of BigDecimal 
 
 import java.math.*;
@@ -52,14 +52,14 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 BigInteger value of 1213 is 1213
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Program to demonstrate toBigIntegerExact() method of BigDecimal 
 
 import java.math.*;
@@ -83,7 +83,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 BigInteger value of 12785412 is 12785412
 
 ```

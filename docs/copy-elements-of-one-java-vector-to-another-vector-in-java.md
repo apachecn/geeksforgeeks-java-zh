@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 *Vector<Integer> gfg=new Vector<>();*
 ```
 
@@ -29,7 +29,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for copying one Vector to another
 // by passing in the constructor
 
@@ -72,7 +72,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -----Iterating over the second Vector----
 11
 22
@@ -92,7 +92,7 @@ third element of second vector =23
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for  copying one Vector to another
 // by adding elements one by one using add() method
 
@@ -141,7 +141,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -----Iterating over the second Vector----
 50
 24

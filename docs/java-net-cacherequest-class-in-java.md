@@ -25,7 +25,7 @@ java.Net 包是为 Java 提供网络基础设施的强大类的容器。现在�
 
 **语法:**
 
-```
+```java
 public abstract void abort()
 ```
 
@@ -37,7 +37,7 @@ public abstract void abort()
 
 **语法:**
 
-```
+```java
 public abstract OutputStream getBody ()
 ```
 
@@ -51,7 +51,7 @@ public abstract OutputStream getBody ()
 
 ## Java
 
-```
+```java
 // Java Program to illustrate CacheRequest Class
 // java.net package
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 The put() method has been initiated and called Successfully!
 The put() method returns: null
 ```

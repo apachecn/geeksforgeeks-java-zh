@@ -21,7 +21,7 @@
     *   获取要返回第一个元素的元素流。
     *   要获得第一个元素，可以使用 **reduce()** 方法忽略第二个元素，重复操作，直到没有第二个元素。
 
-        ```
+        ```java
         Stream.reduce((first, second) -> first)
 
         ```
@@ -32,7 +32,7 @@
     以下是上述方法的实现:
     **示例:**
 
-    ```
+    ```java
     // Java program to find first
     // element of a Stream in Java
 
@@ -79,7 +79,7 @@
 
     **Output:**
 
-    ```
+    ```java
     First Element: Geek_First
 
     ```
@@ -91,7 +91,7 @@
     *   获取要返回第一个元素的元素流。
     *   要获取第一个元素，可以直接使用 **findFirst()** 方法。
 
-        ```
+        ```java
         Stream.findFirst()
         ```
 
@@ -100,7 +100,7 @@
     以下是上述方法的实现:
     **示例:**
 
-    ```
+    ```java
     // Java program to find first
     // element of a Stream in Java
 
@@ -147,7 +147,7 @@
 
     **Output:**
 
-    ```
+    ```java
     First Element: Geek_First
 
     ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public URL getResource(String resourceName)
 
 ```
@@ -23,7 +23,7 @@ public URL getResource(String resourceName)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getResource() method
 
@@ -56,7 +56,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 obj resource of myClass: null
 
@@ -64,7 +64,7 @@ obj resource of myClass: null
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getResource() method
 
@@ -102,7 +102,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Main
 obj resource of myClass: null
 

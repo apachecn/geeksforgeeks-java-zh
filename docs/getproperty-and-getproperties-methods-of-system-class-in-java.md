@@ -13,7 +13,7 @@ Java 中的 System 类有两种方法用于读取系统属性:
     这基于下表中提到的键值对。
     **语法:**
 
-```
+```java
 public static String getProperty(String key)
 Parameters :
 key : key whose system property we want
@@ -26,7 +26,7 @@ Null : if there is no property present with that key.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating the working of getProperty(String key) method
 
 import java.lang.*;
@@ -58,7 +58,7 @@ public class NewClass
 
 *   **输出:**
 
-```
+```java
 user.dir: /tmp/hsperfdata_bot
 home: null
 os.name: Linux
@@ -69,7 +69,7 @@ name: null
 *   **getProperty(String key，String definition):**Java . lang . system . getProperty(String key，String definition)允许设置参数定义，即可以为特定键设置默认值。
     **语法:**
 
-```
+```java
 public static String getProperty(String key, String def)
 Parameters :
 key : system property 
@@ -83,7 +83,7 @@ Null : if there is no property present with that key.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating the working of
 // getProperty(String key, String definition) method
 import java.lang.*;
@@ -113,7 +113,7 @@ public class NewClass
 
 *   **输出:**
 
-```
+```java
 Hello key property : Geeks
 System key property :For Geeks
 Property key property :null
@@ -122,7 +122,7 @@ Property key property :null
 *   **getProperties():Java . lang . System . getProperties()**获取系统上的 JVM 从操作系统获取的当前属性。当前系统属性作为属性对象返回，供 getProperties()方法使用。如果不存在这样的属性集，则首先创建一组系统，然后对其进行初始化。
     还可以使用 System.setProperties()方法修改现有的一组系统属性。属性文件中有多个**键值对，部分如下:** 
 
-```
+```java
 Keys                          Values
 
 -->  os.version              :  OS Version  
@@ -143,7 +143,7 @@ Keys                          Values
 
 *   **语法:**
 
-```
+```java
 public static Properties getProperties()
 Parameters :
 ------
@@ -155,7 +155,7 @@ System properties that JVM gets on your System gets from OS
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating the working of getProperties() method
 
 import java.lang.*;

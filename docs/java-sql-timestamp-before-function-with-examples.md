@@ -6,13 +6,13 @@
 
 ****功能签名:****
 
-```
+```java
 public boolean before(Timestamp t)
 ```
 
 ****语法:****
 
-```
+```java
 ts1.before(ts2);
 ```
 
@@ -26,7 +26,7 @@ ts1.before(ts2);
 
 ****示例 1:** 创建两个不相等的时间戳，并检查第二个时间戳是否出现在第一个时间戳之前。**
 
-```
+```java
 // Java program to demonstrate the
 // use of before() function
 
@@ -65,14 +65,14 @@ public class solution {
 
 ****输出:**
 
-```
+```java
 Second Timestamp occurs before first timestamp
 
 ```
 
 **示例 2:** 创建两个相等的时间戳，检查第二个时间戳是否出现在第一个时间戳之前
 
-```
+```java
 // Java program to demonstrate the
 // use of before() function
 
@@ -111,7 +111,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Second Timestamp does not occur before first timestamp
 
 ```

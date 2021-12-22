@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: arr = {"A", "B", "C", "D", "A"}
 Output: LinkedHashSet = {"A", "B", "C", "D"}
 LinkedHashSet does not contain repeated elements.
@@ -24,7 +24,7 @@ Output: LinkedHashset = {1, 3, 5}
 
 ## Java
 
-```
+```java
 // Java program to convert an array to LinkedHashSet
 
 import java.util.Arrays;
@@ -55,6 +55,6 @@ public class ArrayToLinkedHashSet {
 
 **输出**
 
-```
+```java
 LinkedHashSet contains element: [John, Devid, Smith, Joe, Stark]
 ```

@@ -6,7 +6,7 @@ Java . time . chrono . isochronomics 类的 range()方法用于从类型为 Chro
 
 **语法:**
 
-```
+```java
 public ValueRange range(ChronoField field)
 ```
 
@@ -18,7 +18,7 @@ public ValueRange range(ChronoField field)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // range() method
 
@@ -66,14 +66,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Equivalent Range : 0 - 1
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // range() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Equivalent Range : -999999999 - 999999999
 
 ```

@@ -8,7 +8,7 @@
 
 **等级体系**
 
-```
+```java
 java.lang.Object
 ↳ java.util.IntSummaryStatistics
 
@@ -20,7 +20,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public IntSummaryStatistics()
 
     ```
@@ -29,7 +29,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public IntSummaryStatistics(long count, int min, int max, long sum)
                          throws IllegalArgumentException
 
@@ -41,7 +41,7 @@ java.lang.Object
 
     **语法:**
 
-    ```
+    ```java
     public void accept(int value)
 
     ```
@@ -50,7 +50,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 public void combine(IntSummaryStatistics other)
 
 ```
@@ -59,7 +59,7 @@ public void combine(IntSummaryStatistics other)
 
     **语法:**
 
-    ```
+    ```java
     public final long getCount()
 
     ```
@@ -68,7 +68,7 @@ public void combine(IntSummaryStatistics other)
 
     **语法:**
 
-    ```
+    ```java
     public final long getSum()
 
     ```
@@ -77,7 +77,7 @@ public void combine(IntSummaryStatistics other)
 
     **语法:**
 
-    ```
+    ```java
     public final double getAverage()
 
     ```
@@ -86,7 +86,7 @@ public void combine(IntSummaryStatistics other)
 
     **语法:**
 
-    ```
+    ```java
     public final int getMin()
 
     ```
@@ -95,7 +95,7 @@ public void combine(IntSummaryStatistics other)
 
     **语法:**
 
-    ```
+    ```java
     public final int getMax()
 
     ```
@@ -104,14 +104,14 @@ public void combine(IntSummaryStatistics other)
 
     **语法:**
 
-    ```
+    ```java
     public String toString()
 
     ```
 
     **示例**演示 IntSummaryStatistics 的实际应用。
 
-    ```
+    ```java
     // Java program to demonstrate
     // IntSummaryStatistics class
 
@@ -152,7 +152,7 @@ public void combine(IntSummaryStatistics other)
 
     **Output:**
 
-    ```
+    ```java
     The count of values is 5
     The average of values is 30.0
     The sum of values is 150

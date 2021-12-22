@@ -29,7 +29,7 @@ LineTo 类是 JavaFX 的一部分。LineTo 类绘制一条从当前位置到指�
     *   现在将“移动到”和“线到”对象添加到路径中。
     *   将此路径添加到 group 对象并将 Group 对象添加到场景并将场景添加到舞台并调用 *show()* 函数显示最终结果。
 
-    ```
+    ```java
     // Java program to create a path and
     // add LineTo object to it and display it
     import javafx.application.Application;
@@ -111,7 +111,7 @@ LineTo 类是 JavaFX 的一部分。LineTo 类绘制一条从当前位置到指�
     *   现在将“移动到”和“线条到”对象添加到路径中。
     *   将此路径添加到 group 对象并将 Group 对象添加到场景并将场景添加到舞台并调用 *show()* 函数显示最终结果。
 
-    ```
+    ```java
     // Java program to create a path and
     // add  multiple LineTo objects to it
     // and display it

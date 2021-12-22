@@ -6,7 +6,7 @@ java.util.Calendar.before()是 java.util 包的 **Calendar** 类中的一个方�
 
 **语法:**
 
-```
+```java
 public boolean before(Object when)
 
 Where, when is the Object 
@@ -18,7 +18,7 @@ that is to be compared.
 
 **例 1 :**
 
-```
+```java
 // Implementation to show the usage
 // of before(Object when) method of
 // Calendar class
@@ -54,7 +54,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Time 1 : Wed Feb 28 15:43:19 IST 2018
 Time 2 : Wed Feb 28 15:43:22 IST 2018
 true
@@ -63,7 +63,7 @@ true
 
 **例 2 :**
 
-```
+```java
 // Implementation to show the usage
 // of before(Object when) method of
 // Calendar class
@@ -95,7 +95,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Current date is : Wed Feb 28 15:50:16 IST 2018
 Year is 2010
 Result : false
@@ -104,7 +104,7 @@ Result : false
 
 **例 3 :**
 
-```
+```java
 // Implementation to show the usage
 // of before(Object when) method of
 // Calendar class
@@ -136,7 +136,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Current date is : Wed Feb 28 16:15:55 IST 2018
 Year is 2025
 Result : true

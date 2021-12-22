@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 @GwtCompatible(emulated=true)
 public final class Doubles
 extends Object
@@ -30,7 +30,7 @@ extends Object
 下面给出了一些示例，显示了番石榴双打类方法的实现:
 **示例 1 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Doubles.asList() method
 
@@ -55,14 +55,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [2.6, 4.6, 1.2, 2.4, 1.5]
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Doubles.toArray() method
 
@@ -88,14 +88,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [2.6, 4.6, 1.2, 2.4, 1.5]
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Doubles.concat() method
 
@@ -122,14 +122,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [2.6, 4.6, 1.2, 2.4, 1.5]
 
 ```
 
 **例 4 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Doubles.contains() method
 
@@ -152,7 +152,7 @@ class GFG {
 
 输出:
 
-```
+```java
 false
 true
 
@@ -160,7 +160,7 @@ true
 
 **例 5 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Doubles.min() method
 
@@ -180,14 +180,14 @@ class GFG {
 
 输出:
 
-```
+```java
 1.2
 
 ```
 
 **例 6 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Doubles.max() method
 
@@ -207,7 +207,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4.6
 
 ```

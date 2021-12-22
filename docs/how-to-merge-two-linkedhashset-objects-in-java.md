@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : List1 = [1,2,3], List2 = [3, 4, 5]
 Output: [1, 2, 3, 4, 5]
 
@@ -16,7 +16,7 @@ Output: ['a', 'b', 'c', 'd']
 
 **语法:**
 
-```
+```java
 boolean addAll(Collection<? extends E> collection)
 ```
 
@@ -26,7 +26,7 @@ boolean addAll(Collection<? extends E> collection)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // How to merge two LinkedHashSet objects in Java?
 import java.util.LinkedHashSet;
 public class MergedLinkedHashSet {
@@ -63,6 +63,6 @@ public class MergedLinkedHashSet {
 
 **Output**
 
-```
+```java
 Merged LinkedHashSet: [yellow, white, black, red, green]
 ```

@@ -36,7 +36,7 @@
 
 ****语法:****
 
-```
+```java
 android:id="@+id/id_name"
 ```
 
@@ -72,7 +72,7 @@ android:id="@+id/id_name"
 
 *   **最初将所有单选按钮设为默认值。这是通过以下命令完成的:**
 
-```
+```java
 radioGroup.clearCheck();
 ```
 
@@ -103,7 +103,7 @@ radioGroup.clearCheck();
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -191,7 +191,7 @@ radioGroup.clearCheck();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 package org.geeksforgeeks.navedmalik.radiobuttons;
 
 import android.support.v7.app.AppCompatActivity;

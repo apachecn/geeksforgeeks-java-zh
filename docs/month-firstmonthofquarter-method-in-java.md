@@ -11,7 +11,7 @@
 
 **语法** :
 
-```
+```java
 public int firstMonthOfQuarter()
 
 ```
@@ -24,7 +24,7 @@ public int firstMonthOfQuarter()
 
 **程序 1** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.Temporal;
@@ -43,14 +43,14 @@ class DayOfWeekExample {
 
 **输出:**
 
-```
+```java
 JANUARY
 
 ```
 
 **程序二** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.Temporal;
@@ -69,7 +69,7 @@ class DayOfWeekExample {
 
 **输出:**
 
-```
+```java
 APRIL
 
 ```

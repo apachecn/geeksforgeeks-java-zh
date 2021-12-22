@@ -8,7 +8,7 @@ Java 中**buffere reader**类的 **read()** 方法有两种类型:
 
 **语法:**
 
-```
+```java
 public int read() 
           throws IOException
 
@@ -26,7 +26,7 @@ public int read()
 
 **程序:**假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedReader read() method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public int read(char[] cbuf,
                 int offset,
                 int length)
@@ -94,7 +94,7 @@ public int read(char[] cbuf,
 
 **程序:**假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedReader read(char, int, int) method
 

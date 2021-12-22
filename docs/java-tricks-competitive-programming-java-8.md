@@ -8,13 +8,13 @@
 
 **使用&运算符:**
 
-```
+```java
 System.out.println((a & 1) == 0 ?  "EVEN" : "ODD" );
 ```
 
 **示例:**
 
-```
+```java
 num = 5 
 Binary: "101 & 1" will be 001, so false 
 
@@ -28,7 +28,7 @@ Binary: "100 & 1" will be 000, so true.
 
 **示例:** 2(二进制 10):向左移动 4(二进制 100)和向右移动 1(二进制 1)
 
-```
+```java
 n = n << 1;   // Multiply n with 2
 n = n >> 1;   // Divide n by 2
 ```
@@ -37,7 +37,7 @@ n = n >> 1;   // Divide n by 2
 
 这个方法很快，不需要使用第三个变量。
 
-```
+```java
   // A quick way to swap a and b
   a ^= b;
   b ^= a;
@@ -56,7 +56,7 @@ n = n >> 1;   // Divide n by 2
 
 要计算任意数字的最高有效位，可以直接用对数来计算。
 
-```
+```java
 Suppose the number is N then 
 Let double K = Math.log10(N);
 now K = K - Math.floor(K);
@@ -68,7 +68,7 @@ X will be the most significant digit.
 
 为了计算数字中的位数，我们可以有效地使用 log，而不是循环:
 
-```
+```java
 No. of digits in N = Math.floor(Math.log10(N)) + 1;
 ```
 
@@ -78,7 +78,7 @@ Java 在 [BigInteger 类](https://www.geeksforgeeks.org/biginteger-class-in-java
 
 **语法:**
 
-```
+```java
 public BigInteger gcd(BigInteger val)
 Parameters :
 val - value with which the GCD is to be computed.
@@ -90,7 +90,7 @@ GCD(abs(this), abs(val))
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how
 // to use gcd method of BigInteger class
 
@@ -124,7 +124,7 @@ class Test {
 
 **Output**
 
-```
+```java
 1
 200000000
 
@@ -134,7 +134,7 @@ class Test {
 
 Java 在 [BigInteger 类](https://www.geeksforgeeks.org/biginteger-class-in-java/)中有一个内置的 isProbablePrime()方法。如果这个大整数可能是质数(有一定把握)，它返回真；如果它肯定是复合的，它返回假。
 
-```
+```java
 BigInteger.valueOf(1235).isProbablePrime(1) 
 ```
 
@@ -144,7 +144,7 @@ BigInteger.valueOf(1235).isProbablePrime(1)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Method to check if x is power of 2*/
 static boolean isPowerOfTwo (int x)
 {
@@ -183,7 +183,7 @@ static boolean isPowerOfTwo (int x)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate use of wrapper
 // classes for radix conversion
 
@@ -212,7 +212,7 @@ class Test {
 
 **Output**
 
-```
+```java
 Binary representation of A : 1000001101
 Binary representation of B : 1011100110011101111100110101101101
 Octal representation of A : 1015

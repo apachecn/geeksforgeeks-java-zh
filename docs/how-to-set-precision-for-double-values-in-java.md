@@ -5,7 +5,7 @@
 给定一个双精度值 **val** ，任务是将其精度值设置为特定的小数位。
 **例:**
 
-```
+```java
 Input: val = 1 
 Output: 1.0000
 Upto 4 decimal places
@@ -19,7 +19,7 @@ Upto 6 decimal places
 
 <u>**语法:**</u>
 
-```
+```java
 String.format("%.Df", decimalValue);
 
 where D is the number required number of Decimal places.
@@ -29,7 +29,7 @@ where D is the number required number of Decimal places.
 
 ## <u>Java 语言(一种计算机语言，尤用于创建网站)</u>
 
-```
+```java
 import java.io.*;
 import java.lang.*;
 
@@ -53,7 +53,7 @@ class GFG {
 
 <u>**Output**
 
-```
+```java
 0.90000000000000000000
 1.00000
 ```</u>

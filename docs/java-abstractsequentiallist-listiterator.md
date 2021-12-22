@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract ListIterator listIterator(int index)
 ```
 
@@ -20,7 +20,7 @@ public abstract ListIterator listIterator(int index)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // add() method
 
@@ -55,14 +55,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 6 7 10 8 7
 
 ```
 
 **程序 2:** 演示 IndexOutOfBoundException
 
-```
+```java
 // Java code to show IndexOutofBoundException
 
 import java.util.*;
@@ -106,7 +106,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [5, 9, 6, 7, 10, 8, 7]
 Exception: java.lang.IndexOutOfBoundsException: Index: 15, Size: 7
 

@@ -6,7 +6,7 @@ Java 中[比较器接口](https://www.geeksforgeeks.org/comparator-interface-jav
 
 **语法:**
 
-```
+```java
 static <T extends Comparable<T>> 
     Comparator<T> naturalOrder()
 
@@ -19,7 +19,7 @@ static <T extends Comparable<T>>
 以下程序说明了自然顺序()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.naturalOrder()  method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Comparator.naturalOrder()  method
 

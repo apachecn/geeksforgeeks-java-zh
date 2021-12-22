@@ -6,7 +6,7 @@ Java 中**控制台**类的**格式(字符串，对象)**方法用于将格式�
 
 **语法:**
 
-```
+```java
 public Console format(String fmt,
                       Object... args)
 
@@ -27,7 +27,7 @@ public Console format(String fmt,
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Console format(String, Object) method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Console format(String, Object) method
 

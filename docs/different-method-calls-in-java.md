@@ -17,7 +17,7 @@ Java 语言是所有编程语言中最流行的语言之一。使用 java 编程
 
 **语法:**
 
-```
+```java
 <ClassName> object=new <ClassName>
 object.<MethodName>
 ```
@@ -26,7 +26,7 @@ object.<MethodName>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate User-Defined Methods
 
 // Importing essential input output classes
@@ -60,7 +60,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 This is the userDefinedMethod
 ```
 
@@ -72,7 +72,7 @@ This is the userDefinedMethod
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Abstract Methods
 
 // Class 1
@@ -107,7 +107,7 @@ public class GFG extends GFGhelp {
 
 **Output**
 
-```
+```java
 GFG
 ```
 
@@ -119,7 +119,7 @@ GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Predefined Methods
 
 // Main class
@@ -141,7 +141,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1023892928
 ```
 
@@ -153,7 +153,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Static Methods
 
 // Importing input  output classes
@@ -183,6 +183,6 @@ class GFG {
 }
 ```
 
-```
+```java
 Hello
 ```

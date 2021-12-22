@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input: List1 = ["Hii", "Geeks", "for", "Geeks"], 
        List2 = ["Hii", "Geeks", "Gaurav"]
 Output: [Hii, Geeks, Geeks]
@@ -23,7 +23,7 @@ Output:[b, c, d, e]
 
     **语法:**
 
-    ```
+    ```java
     Collections1.retainAll(Collections2)
 
     This method keeps only the common elements
@@ -40,7 +40,7 @@ Output:[b, c, d, e]
     下面是上述方法的实现:
     **程序:**通过修改列表 1 的内容。
 
-    ```
+    ```java
     // Java Program to find common elements
     // in two ArrayLists
     // Using retainAll() method
@@ -93,7 +93,7 @@ Output:[b, c, d, e]
 
     **Output:**
 
-    ```
+    ```java
     List1: [Hii, Geeks, for, Geeks]
     List2: [Hii, Geeks, Gaurav]
     Common elements: [Hii, Geeks, Geeks]
@@ -102,7 +102,7 @@ Output:[b, c, d, e]
 
     **程序 2:** 通过保留列表 1 的内容。
 
-    ```
+    ```java
     // Java Program to find common elements
     // in two ArrayLists
     // Using retainAll() method
@@ -160,7 +160,7 @@ Output:[b, c, d, e]
 
     **Output:**
 
-    ```
+    ```java
     List1: [Hii, Geeks, for, Geeks]
     List2: [Hii, Geeks, Gaurav]
     Common elements: [Hii, Geeks, Geeks]
@@ -171,7 +171,7 @@ Output:[b, c, d, e]
 
     **语法:**
 
-    ```
+    ```java
     list1.stream()
         .filter(list2::contains)
         .collect(Collectors
@@ -193,7 +193,7 @@ Output:[b, c, d, e]
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to find common elements
     // in two ArrayLists
     // Using  Stream filter method
@@ -247,7 +247,7 @@ Output:[b, c, d, e]
 
     **Output:**
 
-    ```
+    ```java
     List1: [Hii, Geeks, for, Geeks]
     List2: [Hii, Geeks, Gaurav]
     Common elements: [Hii, Geeks, Geeks]
@@ -263,7 +263,7 @@ Output:[b, c, d, e]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java Program to find common elements
     // in two ArrayLists
     // Using  Stream filter method
@@ -330,7 +330,7 @@ Output:[b, c, d, e]
 
     **Output:**
 
-    ```
+    ```java
     List1: [Hii, Geeks, for, Geeks]
     List2: [Hii, Geeks, Gaurav]
     Common elements: [Hii, Geeks, Geeks]

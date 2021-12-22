@@ -8,7 +8,7 @@
 
 这种数据结构使用散列函数将类似的值(称为键)映射到它们的关联值。可以使用键检索映射值，因为它包含键-值对。
 
-```
+```java
 // Java program to count frequencies of elements
 // using HashMap.
 import java.util.HashMap;
@@ -48,7 +48,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Element Geeks occurs: 2 times
 Element for occurs: 1 times
 
@@ -64,7 +64,7 @@ Element for occurs: 1 times
 
 **查找单词出现的程序**
 
-```
+```java
 // Java program to count frequencies of elements
 // using HashSet and Collections.frequency.
 import java.util.HashMap;
@@ -96,7 +96,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks: 2
 for: 1
 
@@ -106,7 +106,7 @@ for: 1
 
 这种数据结构按照排序顺序存储唯一的元素。它在后台使用[红黑树](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)的概念来防止重复。
 
-```
+```java
 // Java program to count frequencies of elements
 // using HashMap.
 import java.util.HashMap;
@@ -141,7 +141,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Frequency of Geeks is 2
 Frequency of for is 1
 

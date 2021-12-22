@@ -6,7 +6,7 @@ Java 中 **[语言环境类](https://www.geeksforgeeks.org/java-util-locale-clas
 
 **语法:**
 
-```
+```java
 public String getDisplayLanguage(Locale inLoc)
 ```
 
@@ -19,7 +19,7 @@ public String getDisplayLanguage(Locale inLoc)
 以下程序说明了 getDisplayLanguage()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate getDisplayLanguage() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Locale_Demo {
 
 **Output:**
 
-```
+```java
 First Locale: en_US
 Language: anglais
 
@@ -55,7 +55,7 @@ Language: anglais
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate getDisplayLanguage() method
 
 import java.util.*;
@@ -83,7 +83,7 @@ public class Locale_Demo {
 
 **Output:**
 
-```
+```java
 First Locale: en_US
 Language: English
 

@@ -6,7 +6,7 @@ a***java . lang . nosuchmethod error***顾名思义，是 Java 中的一个运�
 
 插图:
 
-```
+```java
 java.lang
 Class NoSuchMethodError
     java.lang.Object
@@ -31,7 +31,7 @@ Class NoSuchMethodError
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate NoSuchMethodError by 
 // throwing it due to a breaking change 
 // introduced within an application
@@ -86,7 +86,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Resolve NoSuchMethodError
 
 // Importing input output classes
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Hello World
 
 ```

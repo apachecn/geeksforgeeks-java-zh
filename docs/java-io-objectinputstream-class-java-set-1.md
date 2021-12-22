@@ -10,7 +10,7 @@ ObjectInputStream 类反序列化之前由 [ObjectOutputStream](https://www.geek
 
 **申报:**
 
-```
+```java
 public class ObjectInputStream
   extends InputStream
     implements ObjectInput, ObjectStreamConstants
@@ -26,7 +26,7 @@ public class ObjectInputStream
 *   **read():****Java . io . objectinputstream . read()**读取数据和块的字节，以防没有数据可供读取。
     **语法:**
 
-    ```
+    ```java
     public int read()
     Parameters : 
     -----------
@@ -40,7 +40,7 @@ public class ObjectInputStream
 *   **readBoolean() :** **java.io.ObjectInputStream.readBoolean()** reads in a boolean.
     **Syntax :**
 
-    ```
+    ```java
     public int readBoolean()
     Parameters : 
     -----------
@@ -52,7 +52,7 @@ public class ObjectInputStream
 
     ```
 
-    ```
+    ```java
     // Java program explaining the working of read(), readBoolean() method
 
     import java.io.*;
@@ -90,7 +90,7 @@ public class ObjectInputStream
 
     **输出:**
 
-    ```
+    ```java
     USe of readBoolean() : true
     Use of read() method in Java : Geeks For Geeks
 
@@ -99,7 +99,7 @@ public class ObjectInputStream
 *   **read(byte[] buffer, int offset, int maxlen) :** **java.io.ObjectInputStream.read(byte[] buffer, int offset, int maxlen)** reads part of data from the ‘buffer’ starting from offset position upto maxlen position of the buffer.
     **Syntax :**
 
-    ```
+    ```java
     public int read(byte[] buffer, int offset, int maxlen)
     Parameters : 
     buffer : buffer to be read
@@ -112,7 +112,7 @@ public class ObjectInputStream
 
     ```
 
-    ```
+    ```java
     // Java program explaining the working of
     // read(byte[] buffer, int offset, int maxlen)
 
@@ -150,14 +150,14 @@ public class ObjectInputStream
 
     **输出:**
 
-    ```
+    ```java
     GeeksForGeeks
     ```
 
 *   **read byte():**T3】Java . io . objectinputstream . read byte()read 8 位元位元位元位元组。
     **语法:**
 
-    ```
+    ```java
     public byte readByte()
     Parameters : 
     -----------
@@ -172,7 +172,7 @@ public class ObjectInputStream
 *   **readChar():****Java . io . objectinputstream . readChar()**读取 16 位字符。
     **语法:**
 
-    ```
+    ```java
     public int read()
     Parameters : 
     -----------
@@ -187,7 +187,7 @@ public class ObjectInputStream
 *   **read Double():****Java . io . objectinputstream . read double()**读取 64 位 double。
     **语法:**
 
-```
+```java
 public double readDouble()
 Parameters : 
 -----------
@@ -202,7 +202,7 @@ Exception :
 *   **readFloat():****Java . io . objectinputstream . readFloat()**读取 32 位浮点。
     **语法:**
 
-    ```
+    ```java
     public float readFloat()
     Parameters : 
     -----------
@@ -217,7 +217,7 @@ Exception :
     *   **readInt():****Java . io . objectinputstream . readInt()**读取 32 位 Int。
     **语法:**
 
-    ```
+    ```java
     public int readInt()
     Parameters : 
     -----------
@@ -232,7 +232,7 @@ Exception :
     *   **readLong() :** **java.io.ObjectInputStream.readLong()** reads a 64 bit long.
     **Syntax :**
 
-    ```
+    ```java
     public long readLong()
     Parameters : 
     -----------
@@ -244,7 +244,7 @@ Exception :
 
     ```
 
-    ```
+    ```java
     // Java program explaining the working of
     // readChar(), writeByte(), writeDouble(),
     // writeFloat(), writeInt(), writeLong()
@@ -295,7 +295,7 @@ Exception :
 
     **输出:**
 
-    ```
+    ```java
     Use of readChar() : G
     Use of readByte() : 71
     Use of readDouble() : 7.5225574E7
@@ -307,7 +307,7 @@ Exception :
     *   **读取未签名字节():****Java . io . objectinput stream . read signed byte()**读取未签名的 8 位字节。
     **语法:**
 
-    ```
+    ```java
     public int readUnsignedByte()
     Parameters : 
     -----------
@@ -322,7 +322,7 @@ Exception :
     *   **readUnsignedShort() :** **java.io.ObjectInputStream.readUnsignedShort()** reads an unsigned 16 bit short.
     **Syntax :**
 
-    ```
+    ```java
     public int readUnsignedShort()
     Parameters : 
     -----------
@@ -334,7 +334,7 @@ Exception :
 
     ```
 
-    ```
+    ```java
 
     // Java program explaining the working of
     // readUnsignedByte() and readUnsignedShort()
@@ -371,7 +371,7 @@ Exception :
 
     **输出:**
 
-    ```
+    ```java
     readUnsignedByte() : 111
     readUnsignedShort() : 55676
     ```
@@ -379,7 +379,7 @@ Exception :
     *   **readUTF() :** **java.io.ObjectInputStream.readUTF()**reads String in modified UTF-8 (Unicode Transformation Format) format. UTF -8 means it uses 8-bit blocks to represent a character.
     **Syntax :**
 
-    ```
+    ```java
     public String readUTF()
     Parameters : 
     public final Object readObject()
@@ -390,7 +390,7 @@ Exception :
 
     ```
 
-    ```
+    ```java
     // Java program explaining the working of readUTF()
 
     import java.io.*;
@@ -421,14 +421,14 @@ Exception :
 
     **输出:**
 
-    ```
+    ```java
     Use of readUTF() : gEEKSArehERE
     ```
 
     *   **skip bytes(int maxlen):****Java . io . objectinputstream . skip bytes(int maxlen)**读取时跳过“maxlen”字节数。
     **语法:**
 
-```
+```java
 public int skipBytes(int maxlen)
 Parameters : 
 maxlen : max. no. of bytes to be skipped
@@ -439,7 +439,7 @@ Exception :
 
 ```
 
-```
+```java
 // Java program explaining the working of skipBytes()
 
 import java.io.*;
@@ -471,14 +471,14 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Are
 ```
 
 *   **readFully(byte[] destination) :** **java.io.ObjectInputStream.readFully(byte[] destination)**reads all the bytes from source to the destination array.
     **Syntax :**
 
-    ```
+    ```java
     public void readFully(byte[] destination)
     Parameters : 
     destination : the buffer in which the data is to be read
@@ -490,7 +490,7 @@ Are
 
     ```
 
-    ```
+    ```java
     // Java program explaining the working of readFully()
 
     import java.io.*;
@@ -522,14 +522,14 @@ Are
 
     **输出:**
 
-    ```
+    ```java
     Use of readFully(destination, offset, maxlen) : gEEKSArehERE
     ```
 
     *   **readFully(byte[] destination, int offset, int maxlen) :** **java.io.ObjectInputStream.readFully(byte[] destination, int offset, int maxlen)**reads some the bytes (starting from offset to maxlen position) from source to the destination array .
     **Syntax :**
 
-    ```
+    ```java
     public void readFully(byte[] destination, int offset, int maxlen)
     Parameters : 
     destination : the buffer in which the data is to be read
@@ -543,7 +543,7 @@ Are
 
     ```
 
-    ```
+    ```java
     // Java program explaining the working of 
     // readFully(byte[] destination, int offset, int maxlen)
 
@@ -576,7 +576,7 @@ Are
 
     **输出:**
 
-    ```
+    ```java
     Use of readFully(destination, offset, maxlen) : geeks
     ```
 

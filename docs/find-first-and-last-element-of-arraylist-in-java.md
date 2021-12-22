@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input: ArrayList = [1, 2, 3, 4] 
 Output: First = 1, Last = 4
 
@@ -25,7 +25,7 @@ Output: First = 12, Last = 89
 
 下面是上述方法的实现:
 
-```
+```java
 // Java code to find first and last element
 // of ArrayList
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ArrayList: [1, 2, 3, 4]
 First : 1, Last : 4
 

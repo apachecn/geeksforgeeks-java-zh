@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Array_Deque.removeFirst()
 ```
 
@@ -20,7 +20,7 @@ Array_Deque.removeFirst()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate removeFirst()
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [Welcome, To, Geeks, For, Geeks]
 ArrayDeque after removing elements: [For, Geeks]
 
@@ -62,7 +62,7 @@ ArrayDeque after removing elements: [For, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate removeFirst()
 import java.util.*;
 
@@ -95,7 +95,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [10, 15, 30, 20, 5]
 ArrayDeque after removing elements: [30, 20, 5]
 

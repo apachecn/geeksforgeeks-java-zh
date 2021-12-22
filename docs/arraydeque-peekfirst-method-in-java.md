@@ -6,7 +6,7 @@ java 中的 java.util.ArrayDeque.peekFirst()方法用于检索或获取 Deque �
 
 **语法:**
 
-```
+```java
 Array_Deque.peekFirst()
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.peekFirst()
 下面的程序说明了 Java.util.ArrayDeque.peekFirst()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate peekFirst()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The first element is: Welcome
 Final ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
@@ -58,7 +58,7 @@ Final ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate peekFirst()
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial ArrayDeque: [10, 15, 30, 20, 5]
 The first element is: 10
 Final ArrayDeque: [10, 15, 30, 20, 5]
@@ -99,7 +99,7 @@ Final ArrayDeque: [10, 15, 30, 20, 5]
 
 **程序 3:** 对于空车:
 
-```
+```java
 // Java code to illustrate peekFirst()
 import java.util.*;
 
@@ -121,7 +121,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: []
 The first element is: null
 

@@ -12,7 +12,7 @@ Java **迭代器**接口表示一个能够遍历一组 Java 对象的对象，�
 
 ## 爪哇
 
-```
+```java
 // Java program to illustrate Iterator interface
 
 import java.util.Iterator;
@@ -61,7 +61,7 @@ public class JavaIteratorExample1 {
 
 **输出**
 
-```
+```java
 The list is given as : [Welcome, to, our, website]
 Welcome
 to

@@ -43,7 +43,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the area of
 // the circle using Method Overloading
 
@@ -92,7 +92,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of the circle is :78.53981633974483
 Area of the circle is :19.634954084936208
 ```
@@ -101,7 +101,7 @@ Area of the circle is :19.634954084936208
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the area of
 // the circle when the diameter is given
 // using Method Overloading
@@ -151,7 +151,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Area of the circle is :78.53981633974483
 Area of the circle is :326.851299679482
 ```

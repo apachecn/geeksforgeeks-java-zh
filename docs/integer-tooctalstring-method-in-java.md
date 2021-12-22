@@ -6,7 +6,7 @@
 Java . lang . integer . tooctalstring()方法是 Java 中的内置函数，用于将整数参数的字符串表示形式作为基数为 8 的无符号整数返回。
 **语法:**
 
-```
+```java
 public static String toOctalString(*int num*)
 ```
 
@@ -14,7 +14,7 @@ public static String toOctalString(*int num*)
 **返回值:**该函数将整数参数的字符串表示形式返回为基数为 8 的无符号整数。
 **示例:**
 
-```
+```java
  Consider an integer a = 86
  Octal output = 126
 
@@ -27,7 +27,7 @@ Octal output = 272
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of Integer.toOctalString() method
 
@@ -50,7 +50,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Integral Number = 527
 Octal Number = 1017
 ```

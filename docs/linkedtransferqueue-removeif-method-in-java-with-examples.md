@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeIf(Predicate filter)
 
 ```
@@ -21,7 +21,7 @@ public boolean removeIf(Predicate filter)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // removeIf() method of LinkedTransferQueue
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Transfer Queue initially: [6, 3, 5, 15, 20]
 Multiples of 3 removed.
 Current Linked Transfer Queue: [5, 20]
@@ -74,7 +74,7 @@ Current Linked Transfer Queue: [5, 20]
 
 **程序 2:** 演示 NullPointerException
 
-```
+```java
 // Java code to illustrate
 // removeIf() method of LinkedTransferQueue
 
@@ -117,7 +117,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Transfer Queue initially: [6, 3, 5, 15, 20]
 Trying to remove null.
 java.lang.NullPointerException

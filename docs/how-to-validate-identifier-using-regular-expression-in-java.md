@@ -26,7 +26,7 @@
 1.  去拿绳子。
 2.  创建一个正则表达式来检查有效的标识符。
 
-```
+```java
 regex = "^([a-zA-Z_$][a-zA-Z\\d_$]*){content}quot;;
 ```
 
@@ -45,7 +45,7 @@ regex = "^([a-zA-Z_$][a-zA-Z\\d_$]*){content}quot;;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to validate the
 // identifiers using Regular Expression.
 
@@ -101,7 +101,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 true
 false
 false

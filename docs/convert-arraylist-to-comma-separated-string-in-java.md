@@ -20,7 +20,7 @@ java 中的 [StringBuilder](https://www.geeksforgeeks.org/stringbuilder-class-in
 
 **语法:**
 
-```
+```java
 public StringBuilder append(*char a*)
 ```
 
@@ -32,7 +32,7 @@ public StringBuilder append(*char a*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert ArrayList to
 // Comma Separated String
 // Using append() method of StringBuilder
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Hey,Geek,Welcome,to,geeksforgeeks,!
 ```
 
@@ -97,7 +97,7 @@ Hey,Geek,Welcome,to,geeksforgeeks,!
 
 **语法:**
 
-```
+```java
 arraylist.toString()
 // arraylist is an object of the ArrayList class
 ```
@@ -108,7 +108,7 @@ arraylist.toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert ArrayList to
 // Comma Separated String
 // Using toString() method
@@ -155,7 +155,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 DataStructures,Algorithms,OperatingSystem,ComputerNetworks,MachineLearning,Databases
 ```
 
@@ -167,7 +167,7 @@ Apache Commons 库有一个 **StringUtils** 类，它为字符串提供了一个
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert ArrayList to
 // Comma Separated String
 // Using Apache Commons StringUtils class
@@ -209,7 +209,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OutputDataStructures,Algorithms,OperatingSystem,ComputerNetworks,MachineLearning,Databases
 ```
 
@@ -221,7 +221,7 @@ OutputDataStructures,Algorithms,OperatingSystem,ComputerNetworks,MachineLearning
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert ArrayList to
 // Comma Separated String
 // Using Stream API
@@ -261,7 +261,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 welcome,to,geeks,for,geeks
 ```
 
@@ -273,7 +273,7 @@ welcome,to,geeks,for,geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert ArrayList to
 // Comma Separated String
 // Using String join() method
@@ -312,6 +312,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 welcome,to,geeks,for,geeks
 ```

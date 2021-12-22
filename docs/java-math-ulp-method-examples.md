@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```java
 public static dataType ulp(dataType g)
 Parameter :
  g: argument whose ulp is to be returned.
@@ -28,7 +28,7 @@ This method returns the size of an ulp of the argument.
 
 **示例:**展示 **java.lang.Math.ulp()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.ulp() method
 import java.lang.Math;
@@ -74,7 +74,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 7.105427357601002E-15
 7.105427357601002E-15
 NaN

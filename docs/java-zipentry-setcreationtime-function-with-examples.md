@@ -6,13 +6,13 @@ setCreationTime()函数是 java.util.zip 包的一部分。该功能用于设置
 文件时间对象，表示子条目的创建时间。
 **功能签名:**
 
-```
+```java
 public void setCreationTime(FileTime v)
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.setCreationTime(v);
 ```
 
@@ -23,7 +23,7 @@ zip_entry.setCreationTime(v);
 **下面的程序说明了 setCreationTime()函数的使用**
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后设置指定 ZipEntry 的 CreationTime。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。zip”文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of setCreationTime() function
 
@@ -66,14 +66,14 @@ public class solution {
 
 **Output:**
 
-```
+```java
 CreationTime : 1970-01-01T00:01:40Z
 
 ```
 
 **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后设置指定 ZipEntry 的 CreationTime。“file.zip”是 f:目录中的一个 zip 文件。我们将创建时间的值设置为空。我们就拍一张”。cpp "文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of getCreationTime() function
 
@@ -116,7 +116,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 CreationTime :
 
 ```

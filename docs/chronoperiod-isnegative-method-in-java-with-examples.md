@@ -6,7 +6,7 @@ Java 中**计时周期类**的**为负()方法**用于检查周期中的 YEAR、
 
 **语法:**
 
-```
+```java
 boolean isNegative()
 ```
 
@@ -18,7 +18,7 @@ boolean isNegative()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function isNegative()
 // to check whether any of the three given units
 // YEAR, MONTH, DAY is negative
@@ -51,14 +51,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function isNegative()
 // to check whether any of the three given units
 // YEAR, MONTH, DAY is negative
@@ -91,7 +91,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 false
 
 ```

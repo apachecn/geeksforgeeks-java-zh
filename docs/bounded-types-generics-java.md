@@ -16,7 +16,7 @@
 
 **语法**
 
-```
+```java
 <T extends superClassName>
 ```
 
@@ -26,7 +26,7 @@
 
 ## Java
 
-```
+```java
 // This class only accepts type parametes as any class
 // which extends class A or class A itself.
 // Passing any other type will cause compiler time error
@@ -94,7 +94,7 @@ public class BoundedClass
 
 **输出**
 
-```
+```java
 Inside sub class C
 Inside sub class B
 Inside super class A
@@ -104,7 +104,7 @@ Inside super class A
 
 ## 爪哇
 
-```
+```java
 // This class only accepts type parametes as any class
 // which extends class A or class A itself.
 // Passing any other type will cause compiler time error
@@ -173,7 +173,7 @@ public class BoundedClass
 
 **输出:**
 
-```
+```java
 error: type argument String is not within bounds of type-variable T
 ```
 
@@ -185,13 +185,13 @@ Java 泛型也支持多边界，也就是说，在这种情况下，A 可以是�
 
 **语法:**
 
-```
+```java
 <T extends superClassName & Interface>
 ```
 
 ## Java
 
-```
+```java
 class Bound<T extends A & B>
 {
 
@@ -234,7 +234,7 @@ public class BoundedClass
 
 **输出**
 
-```
+```java
 Inside super class A
 ```
 

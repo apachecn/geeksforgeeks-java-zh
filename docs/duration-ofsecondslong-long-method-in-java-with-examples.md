@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Duration ofSeconds(long seconds, long nanoAdjustment)
 
 ```
@@ -24,7 +24,7 @@ public static Duration ofSeconds(long seconds, long nanoAdjustment)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate ofSeconds() method
 
 import java.time.Duration;
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration without adjustment: 214545
 Duration with adjustment: 214545
 
@@ -64,7 +64,7 @@ Duration with adjustment: 214545
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate ofSeconds() method
 
 import java.time.Duration;
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration without adjustment: 214545
 Duration with adjustment: 214544
 

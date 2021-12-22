@@ -59,7 +59,7 @@
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Display Dates in Different Format
 
 // Importing Classes/Files
@@ -84,7 +84,7 @@ class GFG {
 
 ***输出:***
 
-```
+```java
 *2020-11-03*
 ```
 
@@ -92,7 +92,7 @@ class GFG {
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Display Dates in Different Format
 
 // Importing generic Classes/Files
@@ -127,7 +127,7 @@ class GFG {
 
 ***输出:***
 
-```
+```java
 * 03/11/2020*
 ```
 
@@ -135,7 +135,7 @@ class GFG {
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Display Dates in Different Format
 
 // Importing generic Classes/Files
@@ -172,6 +172,6 @@ class GFG {
 
 ***输出:***
 
-```
+```java
 * Tuesday, 03 Nov 2020*
 ```

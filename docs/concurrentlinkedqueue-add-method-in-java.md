@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean add(E e)
 ```
 
@@ -20,7 +20,7 @@ public boolean add(E e)
 
 **例 1:** 演示添加字符串的 ConcurrentLinkedQueue 的 add()方法。
 
-```
+```java
 // Java Program Demonstrate add()
 // method of ConcurrentLinkedQueue
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [Kolkata, Patna, Delhi, Jammu]
 
 ```
 
 **例 2:** 演示用于添加数字的 ConcurrentLinkedQueue 的 add()方法。
 
-```
+```java
 // Java Program Demonstrate add()
 // method of ConcurrentLinkedQueue
 
@@ -83,14 +83,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ConcurrentLinkedQueue: [4353, 7824, 78249, 8724]
 
 ```
 
 **示例 3:** 演示添加 Null 的 add()方法引发的 NullPointerException。
 
-```
+```java
 // Java Program Demonstrate add()
 // method of ConcurrentLinkedQueue
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception thrown while adding null: java.lang.NullPointerException
 
 ```

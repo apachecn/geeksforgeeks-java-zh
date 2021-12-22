@@ -66,7 +66,7 @@ BufferedReader 类提供了两种构造函数:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to differenciate between
 // BufferedReader and FileReader in Java
 
@@ -197,7 +197,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to differenciate between
 // BufferedReader and FileReader in Java
 

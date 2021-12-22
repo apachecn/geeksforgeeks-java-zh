@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 public static double exp(double arg)
 Parameters:
 arg - argument passed. 
@@ -33,7 +33,7 @@ Euler’s number raised to the power of passed argument
 
 **语法:**
 
-```
+```java
 public static double cosh(double arg)
 Parameters:
 arg - The number whose hyperbolic cosine is to be returned.
@@ -45,7 +45,7 @@ the hyperbolic cosine of the argument arg.
 
 **语法:**
 
-```
+```java
 public static int decrementExact(int arg)
                 or
 public static long decrementExact(long arg)
@@ -62,7 +62,7 @@ argumented data type.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining lang.StrictMath class methods
 // exp(), decrementExact(), cosh()
 
@@ -95,7 +95,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Using addExact() : 9
 
 acos value of Asini : NaN
@@ -106,7 +106,7 @@ cube root : 6.0
 
 **16。log 10():Java . lang . strict math . log 10()**方法返回传递的参数的 base10 对数值。
 
-```
+```java
 Syntax:
 public static double log(double arg)
 Parameters:
@@ -117,7 +117,7 @@ base10 logarithmic value of the argument passed.
 
 **17。pow():Java . lang . strict math . pow(double b，double e)** 方法返回值为**b<sup>e</sup>T5】**
 
-```
+```java
 Syntax:
 public static double pow(double b, double e)
 Parameters:
@@ -129,7 +129,7 @@ value as base<sup>exponent</sup>
 
 **18。incrementExact():Java . lang . strict math . incrementExact()**方法通过增加参数的值来返回参数。
 
-```
+```java
 Syntax:
 public static int incrementExact(int arg)
                or
@@ -144,7 +144,7 @@ incremented value of the argument
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program explaining lang.MATH class methods
 // incrementExact(), log10(), pow()
 
@@ -179,7 +179,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Incremented value of f1 : 31
 Incremented value of f2 : -55
 
@@ -191,7 +191,7 @@ Use of pow() : 100.0
 
 **19。signum():Java . lang . strict math . signum()**方法返回传递的参数的 signum 值。
 
-```
+```java
                                     -1    if x < 0
                     signum fun(x) =  0    if x = 0
                                      1    if x > 0
@@ -203,7 +203,7 @@ Use of pow() : 100.0
 
 **语法:**
 
-```
+```java
 public static double signum(double x)
                or
 public static float signum(float x)
@@ -219,7 +219,7 @@ signum value of x
 
 **语法:**
 
-```
+```java
 public static double max(double v1, double v2)
 Parameters:
 v1 - first value
@@ -235,7 +235,7 @@ It can return either of the two if v1 = v2\.
 
 **语法:**
 
-```
+```java
 public static long round(long arg)
              or
 public static double round(double arg)
@@ -249,7 +249,7 @@ round off value of the argument
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code explaining the lang.StrictMath Class methods
 // signum(), round(), max()
 
@@ -285,7 +285,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Signum of 10.45  = 1.0
 Signum of -23.34 = -1.0
 
@@ -301,7 +301,7 @@ Max b/w r1 and r2 = -23.0
 
 **语法:**
 
-```
+```java
 public static double ulp(double arg)
               or
 public static float ulp(float arg)
@@ -315,7 +315,7 @@ least distance b/w the argument and next larger value.
 
 **语法:**
 
-```
+```java
 public static double log1p(double arg)
 Parameters:
 arg - the argument
@@ -328,7 +328,7 @@ This result is within 1 unit in the last place of exact result.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code explaining the lang.StrictMath Class methods
 // ulp(), log1p()
 
@@ -360,7 +360,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 ulp of 34.652    : 7.105427357601002E-15
 ulp of -23.34789 : 3.552713678800501E-15
 

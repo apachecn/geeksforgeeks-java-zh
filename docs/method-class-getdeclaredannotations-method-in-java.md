@@ -6,7 +6,7 @@ Method 类的**[Java . lang . reflect](https://www.geeksforgeeks.org/reflection-
 
 **语法:**
 
-```
+```java
 public Annotation[] getDeclaredAnnotations()
 ```
 
@@ -16,7 +16,7 @@ public Annotation[] getDeclaredAnnotations()
 
 **程序 1:** 此程序打印仅在方法上声明的注释，并忽略方法对象上使用 getDeclaredAnnotations()方法继承的注释。
 
-```
+```java
 // Program Demonstrate getDeclaredAnnotations()
 // method of Method Class.
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Annotation details
 key: AvengersLeader
 value: CaptainAmerica
@@ -99,7 +99,7 @@ value: CaptainAmerica
 
 在这个程序中有两个不同的类。一个类包含带有注释的方法，另一个类包含主方法。在主方法中，创建包含注释的其他类的方法的方法对象。在使用 getDeclaredAnnotations()方法创建方法对象之后，只收集在方法上声明的注释，并且在收集注释之后，Info 程序正在打印结果。
 
-```
+```java
 // Program Demonstrate getDeclaredAnnotations() method
 // of Method Class.
 
@@ -156,7 +156,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 key: getField
 value: getting field attribute
 

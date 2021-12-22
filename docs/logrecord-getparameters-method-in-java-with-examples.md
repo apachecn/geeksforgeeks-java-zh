@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object[] getParameters()
 
 ```
@@ -18,7 +18,7 @@ public Object[] getParameters()
 下面的程序说明了 getParameters()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getParameters() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Object Array length: 0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getParameters() method
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.Object arg0
 
 ```

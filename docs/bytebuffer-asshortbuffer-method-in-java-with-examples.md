@@ -7,7 +7,7 @@
 新缓冲区的位置将为零，其容量和限制将是该缓冲区中剩余的字节数除以 2，其标记将是未定义的。如果且仅当该缓冲区是直接的，则新缓冲区将是直接的；如果且仅当该缓冲区是只读的，则新缓冲区将是只读的。
 **语法:**
 
-```
+```java
 public abstract ShortBuffer asShortBuffer()
 ```
 
@@ -17,7 +17,7 @@ public abstract ShortBuffer asShortBuffer()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asShortBuffer() method
 // for ByteBuffer
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ShortBuffer : 20  30  40  50
 ```
 
@@ -83,7 +83,7 @@ ShortBuffer : 20  30  40  50
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // asShortBuffer() method
 // for ByteBuffer
@@ -156,7 +156,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ShortBuffer : 10  20  30  
 
 Trying to put the value in read only ShortBuffer

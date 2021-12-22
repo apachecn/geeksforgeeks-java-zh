@@ -10,7 +10,7 @@
 
 ## 【Java】
 
-```
+```java
 // creating an interface named GFG
 interface GFG {
     void learnCoding();

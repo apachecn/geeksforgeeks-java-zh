@@ -8,7 +8,7 @@
 
 1.  **Using ArrayList.add() method to manually add the array elements in the ArrayList**: This method involves creating a new ArrayList and adding all of the elements of the given array to the newly created ArrayList using add() method.
 
-    ```
+    ```java
     Syntax: public void add(int index, E element)
 
     ```
@@ -24,7 +24,7 @@
 
     示例:
 
-    ```
+    ```java
     // Java program to illustrate conversion 
     // of an array to an ArrayList
 
@@ -54,14 +54,14 @@
 
     **Output:**
 
-    ```
+    ```java
     [1, 2, 3, 4, 5]
 
     ```
 
 2.  **Using Arrays.asList() method of java.utils.Arrays class:** This method converts the array into list and then passes the list as the parameter to initialise a new ArrayList with the list values.
 
-    ```
+    ```java
     Syntax: public static List asList(T[] a)
 
     ```
@@ -72,7 +72,7 @@
 
     示例:
 
-    ```
+    ```java
     // Java program to illustrate conversion
     // of an array to an ArrayList
 
@@ -105,14 +105,14 @@
 
     **Output:**
 
-    ```
+    ```java
     [1, 2, 3, 4, 5]
 
     ```
 
 3.  **Using Collections.addAll() method of java.utils.Collections class:** This method takes the ArrayList in which the array values are to be inserted as the first parameter; and the Array whose values are to be used as the second parameter. Then it copies the values of the Array into the ArrayList.
 
-    ```
+    ```java
     Syntax: public static boolean addAll(Collection c, T.. a)
 
     ```
@@ -132,7 +132,7 @@
 
     示例:
 
-    ```
+    ```java
     // Java program to illustrate conversion 
     // of an array to an ArrayList
 
@@ -160,14 +160,14 @@
 
     **Output:**
 
-    ```
+    ```java
     [ABC, DEF, GHI, JKL]
 
     ```
 
 4.  **Using Arrays.stream() method of java.utils.Arrays class:** This method creates a sequential stream of the values of the array. Then with the help of collect() method and the stream, the values are copied into the ArrayList.
 
-    ```
+    ```java
     Syntax: public static IntStream stream(T[] a)
 
     ```
@@ -181,7 +181,7 @@
 
     示例:
 
-    ```
+    ```java
     // Java program to illustrate conversion 
     // of an array to an ArrayList
 
@@ -210,14 +210,14 @@
 
     **Output:**
 
-    ```
+    ```java
     [ABC, DEF, GHI, JKL]
 
     ```
 
 5.  **Using List.of(Elements) method of java.utils.List Interface:** This method takes the array as the parameter and then creates an immutable list of the values of the array. This immutable list is then passed as the parameter to create a new ArrayList,
 
-    ```
+    ```java
     Syntax: static {T} List{T} of(a)
 
     ```
@@ -230,7 +230,7 @@
 
     示例:
 
-    ```
+    ```java
     // Java program to illustrate conversion 
     // of an array to an ArrayList
 
@@ -258,7 +258,7 @@
 
     **Output:**
 
-    ```
+    ```java
     [ABC, DEF, GHI, JKL]
 
     ```

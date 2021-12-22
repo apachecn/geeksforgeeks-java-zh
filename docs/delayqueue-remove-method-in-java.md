@@ -6,7 +6,7 @@ Java 中 DelayQueue 类的 **remove()** 方法用于从这个 DelayQueue 中移�
 
 **语法**:
 
-```
+```java
 public boolean remove(Object obj)
 ```
 
@@ -16,7 +16,7 @@ public boolean remove(Object obj)
 
 下面的程序说明了 Java 中 DelayQueue 的 remove()方法:
 
-```
+```java
 // Java Program to illustrate the remove method
 // of DelayQueue class
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial Size : 1
 Size after removing : 0
 

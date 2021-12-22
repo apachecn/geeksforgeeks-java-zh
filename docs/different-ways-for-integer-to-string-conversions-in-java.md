@@ -6,7 +6,7 @@
     整数类有一个静态方法，返回一个代表指定 int 参数的 String 对象。
     **语法:**
 
-```
+```java
 public static String toString(int i)
 ```
 
@@ -16,7 +16,7 @@ public static String toString(int i)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -33,7 +33,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 String str1 = 1234
 String str2 = -1234
 ```
@@ -43,7 +43,7 @@ String str2 = -1234
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -59,7 +59,7 @@ class GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -72,7 +72,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 String str3 = 1234
 ```
 
@@ -82,7 +82,7 @@ String str3 = 1234
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -99,7 +99,7 @@ class GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -115,7 +115,7 @@ class GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -128,7 +128,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 String str4 = 1234
 ```
 
@@ -140,7 +140,7 @@ String str4 = 1234
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.text.DecimalFormat;
 class GfG
 {
@@ -156,7 +156,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 String str5 = 12345
 ```
 
@@ -164,7 +164,7 @@ String str5 = 12345
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.text.DecimalFormat;
 class GfG
 {
@@ -180,7 +180,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 String str5 = 12,345
 ```
 
@@ -192,7 +192,7 @@ String str5 = 12,345
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -210,7 +210,7 @@ class GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -223,7 +223,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 String str6 = 1234
 ```
 
@@ -231,7 +231,7 @@ String str6 = 1234
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -249,7 +249,7 @@ class GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -262,7 +262,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 String str7 = 1234
 ```
 
@@ -273,7 +273,7 @@ String str7 = 1234
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -287,7 +287,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 11111111
 ```
 
@@ -297,7 +297,7 @@ class GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -311,7 +311,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 377
 ```
 
@@ -321,7 +321,7 @@ class GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -335,7 +335,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 ff
 ```
 
@@ -347,7 +347,7 @@ ff
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
   public static void main(String args[])
@@ -361,7 +361,7 @@ class GfG
 
 **输出:**
 
-```
+```java
 513
 ```
 
@@ -371,7 +371,7 @@ class GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG {
     public static void main(String args[])
     {
@@ -387,7 +387,7 @@ class GfG {
 
 **Output**
 
-```
+```java
 String str1 = 1234
 String str2 = -1234
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isMirrored(int codePoint)
 
 ```
@@ -19,7 +19,7 @@ public static boolean isMirrored(int codePoint)
 
 **程序 1:**
 
-```
+```java
 // Code to illustrate the isMirrored() method
 import java.lang.*;
 public class gfg {
@@ -44,7 +44,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 char1 represents a mirrored character is false
 char2 represents a mirrored character is false
 
@@ -52,7 +52,7 @@ char2 represents a mirrored character is false
 
 **程序二:**
 
-```
+```java
 // Code to illustrate the isMirrored() method
 import java.lang.*;
 
@@ -78,7 +78,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 represents a mirrored character is false
 c2 represents a mirrored character is false
 

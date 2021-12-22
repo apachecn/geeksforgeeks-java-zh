@@ -5,7 +5,7 @@
 java.util.Hashtable.toString()是 Hashtable 的一种内置方法，用于获取 Hashtable 对象的字符串表示形式，即以“，”分隔的一组条目。所以基本上 toString()方法是用来把 Hashtable 的所有元素转换成 String。
 **语法:**
 
-```
+```java
 Hash_Table.toString()
 ```
 
@@ -16,7 +16,7 @@ Hash_Table.toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the toString() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class Hash_Table_Demo {
 
 **Output:** 
 
-```
+```java
 Initial table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 The set is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 ```
@@ -55,7 +55,7 @@ The set is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the toString() method
 import java.util.*;
 
@@ -85,7 +85,7 @@ public class Hash_Table_Demo {
 
 **Output:** 
 
-```
+```java
 Initial Table is: {You=30, Welcomes=25, 4=15, Geeks=20}
 The set is: {You=30, Welcomes=25, 4=15, Geeks=20}
 ```

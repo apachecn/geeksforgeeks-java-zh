@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setFormatByArgumentIndex(int argumentIndex,
                                      Format newFormat)
 ```
@@ -22,7 +22,7 @@ public void setFormatByArgumentIndex(int argumentIndex,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setFormatByArgumentIndex() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 old pattern : {1,date, #}, {3,number, #0.##}, {5,time}
 
 new pattern : {1,date, #}, {3,date, #}, {5,date, #}
@@ -70,7 +70,7 @@ new pattern : {1,date, #}, {3,date, #}, {5,date, #}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // setFormatByArgumentIndex() method
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 old pattern : {1,date, #}, {3,number, #0.##}, {5,time}
 
 new pattern : {1,number}, {3,number}, {5,number}

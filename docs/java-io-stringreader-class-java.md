@@ -11,14 +11,14 @@
 
     *   **void close() :** 关闭流并释放与其相关联的任何系统资源。一旦流被关闭，进一步的 read()、ready()、mark()或 reset()调用将引发 IOException。关闭以前关闭的流没有效果。
 
-        ```
+        ```java
         Syntax :public void close()
 
         ```
 
     *   **空标记(int readAheadLimit) :** 标记溪流中的当前位置。对 reset()的后续调用会将流重新定位到这一点。
 
-        ```
+        ```java
         Syntax :public void mark(int readAheadLimit)
                   throws IOException
         Parameters: readAheadLimit - Limit on the number of characters that may 
@@ -32,7 +32,7 @@
 
     *   **布尔型 markSupported() :** 告诉这个流是否支持 mark()操作，它确实支持。
 
-        ```
+        ```java
         Syntax :public boolean markSupported()
         Returns:
         true if and only if this stream supports the mark operation.
@@ -40,7 +40,7 @@
 
     *   **int read() :** 读取单个字符。
 
-        ```
+        ```java
         Syntax :public int read()
                  throws IOException
         Returns:
@@ -51,7 +51,7 @@
 
     *   **int read(char[] cbuf，int off，int len) :** 将字符读入数组的一部分。
 
-        ```
+        ```java
         Syntax :public int read(char[] cbuf,
                int off,
                int len)
@@ -68,7 +68,7 @@
 
     *   **布尔就绪():**告知该流是否准备好被读取。
 
-        ```
+        ```java
         Syntax :public boolean ready()
                       throws IOException
         Returns:
@@ -79,7 +79,7 @@
 
     *   **void reset() :** 将流重置为最近的标记，如果从未标记过，则重置为字符串的开头。
 
-        ```
+        ```java
         Syntax :public void reset()
                    throws IOException
         Throws: IOException 
@@ -90,7 +90,7 @@
 
         如果已经读取或跳过了整个字符串，则此方法不起作用，并且始终返回 0。
 
-        ```
+        ```java
         Syntax :public long skip(long ns)
                   throws IOException
         Parameters:
@@ -102,7 +102,7 @@
 
     **程序:**
 
-    ```
+    ```java
     //Java program demonstrating StringReader methods
     import java.io.IOException;
     import java.io.StringReader;
@@ -154,7 +154,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Mark method is supported
     forGeeksGeeks
     ```

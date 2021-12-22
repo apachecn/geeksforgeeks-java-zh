@@ -15,7 +15,7 @@
 
 让我们试着用一个[哈希集](https://www.geeksforgeeks.org/hashset-in-java/)来解决这些问题
 
-```
+```java
 import java.util.HashSet;
 import java.util.Set;
 
@@ -45,7 +45,7 @@ public class SetDemo {
 
 **Output:**
 
-```
+```java
 true
 false
 
@@ -56,7 +56,7 @@ false
 
 **数据集的大小对哈希集类数据结构的插入时间**
 
-```
+```java
 ----------------------------------------------
 |Number of UUIDs          Insertion Time(ms) |
 ----------------------------------------------
@@ -72,7 +72,7 @@ false
 
 对于类似哈希集的数据结构，数据集的大小与[内存(JVM 堆)](https://www.geeksforgeeks.org/java-memory-management/)
 
-```
+```java
 ----------------------------------------------
 |Number of UUIDs            JVM heap used(MB) |
 ----------------------------------------------
@@ -95,7 +95,7 @@ false
 
 *   Now pass the first IP you have to both hash function, which generates some random number as given below
 
-    ```
+    ```java
     hashFunction_1(192.170.0.1) : 2 
     hashFunction_2(192.170.0.1) : 6
 
@@ -107,7 +107,7 @@ false
 
 *   Now pass the second IP you have, and follow the same step.
 
-    ```
+    ```java
     hashFunction_1(75.245.10.1) : 4 
     hashFunction_2(75.245.10.1) : 10
 
@@ -119,7 +119,7 @@ false
 
 *   Similarly pass the third IP to the both hash function, and suppose you got the below output of hash function
 
-    ```
+    ```java
     hashFunction_1(10.125.22.20) : 10 
     hashFunction_2(10.125.22.20) : 19
 
@@ -134,7 +134,7 @@ false
 *   **Test input #1**
     Let’s say we want to check IP **75.245.10.1**. Pass this IP with the same two hash functions which we have taken for adding the above inputs.
 
-    ```
+    ```java
     hashFunction_1(75.245.10.1) : 4 
     hashFunction_2(75.245.10.1) : 10
 
@@ -147,7 +147,7 @@ false
 *   **测试输入#2**
     假设我们要检查 IP**75.245.20.30**是否出现在集合中？所以过程将是相同的，传递这个 IP 与同样的两个散列函数，我们已经采取增加上述输入。
 
-```
+```java
 hashFunction_1(75.245.20.30) : 19 
 hashFunction_2(75.245.20.30) : 23
 
@@ -160,7 +160,7 @@ hashFunction_2(75.245.20.30) : 23
 <u>**为什么 Bloom Filter 是一种概率数据结构？**</u>
 让我们再做一个测试来理解这一点，这次考虑一个 IP**101.125.20.22**并检查它是否存在于场景中。将此传递给两个哈希函数。考虑我们的散列函数结果如下。
 
-```
+```java
 hashFunction_1(101.125.20.22) : 19 
 hashFunction_2(101.125.20.22) : 2
 
@@ -172,7 +172,7 @@ hashFunction_2(101.125.20.22) : 2
 
 但是，这个 IP**101.125.20.22**已经在上面的数据集中进行了处理，同时将 IP 添加到位数组中。这就是所谓的**假阳性**:
 
-```
+```java
 Expected Output: No
 Actual Output: Yes *(False Positive)*
 
@@ -200,7 +200,7 @@ Actual Output: Yes *(False Positive)*
 
 1.  包括下面的 maven 依赖:
 
-    ```
+    ```java
     <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
@@ -210,7 +210,7 @@ Actual Output: Yes *(False Positive)*
 
 2.  Write the following code to implement the Bloom Filter:
 
-    ```
+    ```java
     // Java program to implement
     // Bloom Filter using Guava Library
 
@@ -266,7 +266,7 @@ Actual Output: Yes *(False Positive)*
 
 *   让我们看看不同数据集的插入时间。
 
-    ```
+    ```java
     -----------------------------------------------------------------------------
     |Number of UUIDs | Set Insertion Time(ms)  | Bloom Filter Insertion Time(ms) |
     -----------------------------------------------------------------------------
@@ -282,7 +282,7 @@ Actual Output: Yes *(False Positive)*
 
 *   现在，让我们来看看内存(JVM 堆)
 
-    ```
+    ```java
     --------------------------------------------------------------------------
     |Number of UUIDs | Set JVM heap used(MB) | Bloom filter JVM heap used(MB) | 
     --------------------------------------------------------------------------
@@ -298,7 +298,7 @@ Actual Output: Yes *(False Positive)*
 
 *   位计数
 
-    ```
+    ```java
     ----------------------------------------------
     |Suggested size of Bloom Filter  | Bit count  |
     ----------------------------------------------
@@ -314,7 +314,7 @@ Actual Output: Yes *(False Positive)*
 
 *   用于各种假阳性概率的散列函数数量:
 
-    ```
+    ```java
     -----------------------------------------------
     |Suggested FPP of Bloom Filter | Hash Functions|
     -----------------------------------------------

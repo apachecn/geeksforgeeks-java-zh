@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate ProxySelector Class
 // of java.net package
 // only creating methods here
@@ -101,7 +101,7 @@ public class PrivateDataProxy extends ProxySelector {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate ProxySelector Class
 // of java.net package
 // Using custom ProxySelector
@@ -179,7 +179,7 @@ public class ProxySelectorDemo {
 
 **输出:**
 
-```
+```java
 Default value: entity.PrivateDataProxy@5cad8086
 Getting proxy for /confidential
 Proxy to use : HTTP @ secure.connection.com:443

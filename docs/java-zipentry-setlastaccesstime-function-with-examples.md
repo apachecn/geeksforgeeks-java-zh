@@ -7,13 +7,13 @@
 如果从 ZIP 文件或 ZIP 文件格式的输入流中读取 ZIP 条目，则这是上次访问时间，否则从条目的日期和时间字段中读取上次修改时间。
 **功能签名:**
 
-```
+```java
 public void setLastAccessTime(FileTime v)
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.setLastAccessTime(v);
 ```
 
@@ -25,7 +25,7 @@ zip_entry.setLastAccessTime(v);
 
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后设置指定 ZipEntry 的 LastAccessTime。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。zip”文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of setLastAccessTime() function
 
@@ -68,14 +68,14 @@ public class solution {
 
 **Output:**
 
-```
+```java
 LastAccessTime : 1970-01-01T00:01:40Z
 
 ```
 
 **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后设置指定 ZipEntry 的 LastAccessTime。“file.zip”是 f:目录中的一个 zip 文件。我们将把 LastAccess 时间的值设置为空。我们就拍一张”。cpp "文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of getLastAccessTime() function
 
@@ -118,7 +118,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 LastAccessTime :
 
 ```

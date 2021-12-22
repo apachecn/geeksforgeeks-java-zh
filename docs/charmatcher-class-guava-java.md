@@ -6,7 +6,7 @@
 
 **申报:**对**的申报为:**
 
-```
+```java
 @GwtCompatible(emulated = true)
 public final class CharMatcher
    extends Object
@@ -28,7 +28,7 @@ public final class CharMatcher
 
 **例 1:**
 
-```
+```java
 // Java code to get number of matching
 // characters in given sequence
 // and display them using countIn()
@@ -63,7 +63,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Number of vowels in 'Hello GeeksforGeeks, What's up ?' are 9
 
 ```
@@ -74,7 +74,7 @@ CharMatcher 类的其他一些方法有:
 
 **例 2:**
 
-```
+```java
 // Java code to get the index
 // of matching character
 
@@ -115,7 +115,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 First Index is 1
 Next Index is 4
 Last Index is 28
@@ -128,7 +128,7 @@ CharMatcher 类的其他一些方法有:
 
 **例 3:**
 
-```
+```java
 // Java code to remove all digits 
 // from a  given string
 
@@ -160,7 +160,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Original String : 12345Hello GeeksforGeeks1287 What's 9886up
 After digit removal : Hello GeeksforGeeks What's up
 

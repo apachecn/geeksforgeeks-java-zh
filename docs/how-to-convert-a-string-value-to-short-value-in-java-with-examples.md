@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = "1"
 Output: 1
 
@@ -23,7 +23,7 @@ Output: 3
 
 **语法:**
 
-```
+```java
 Short.parseShort(str);
 
 ```
@@ -32,7 +32,7 @@ Short.parseShort(str);
 
 **示例 1:** 显示成功转换
 
-```
+```java
 // Java Program to convert string to short
 
 class GFG {
@@ -70,7 +70,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into short = 1
 
 ```
@@ -80,7 +80,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 Short.valueOf(str);
 
 ```
@@ -89,7 +89,7 @@ Short.valueOf(str);
 
 **示例 1:** 显示成功转换
 
-```
+```java
 // Java Program to convert string to short
 
 class GFG {
@@ -127,7 +127,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1 after converting into short = 1
 
 ```

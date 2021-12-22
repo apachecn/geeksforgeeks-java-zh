@@ -27,7 +27,7 @@ CheckBox 是 JavaFX 包的一部分。CheckBox 是一个选中时带有勾号的
 
     1.  **Program to create checkbox and add it to stage**: This program creates a multiple CheckBox indicated by the name c. The CheckBox will be created inside a scene, which in turn will be hosted inside a stage. The indeterminate state of the checkbox would be initially set to true using the setIndeterminate() function. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the CheckBox and the label inside the scene. Finally the show() method is called to display the final results.
 
-        ```
+        ```java
         import javafx.application.Application;
         import javafx.scene.Scene;
         import javafx.scene.control.*;
@@ -90,7 +90,7 @@ CheckBox 是 JavaFX 包的一部分。CheckBox 是一个选中时带有勾号的
 
     2.  **Java Program to create check box and add event handler to it**: This program creates a multiple CheckBox indicated by the name c. An Event handler will be created to handle the events ( toggle the label associated with textbox to depict the state of checkbox). The event would be set to the checkbox using setOnAction() function. The CheckBox will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the CheckBox and the label inside the scene. Finally, the show() method is called to display the final results.
 
-        ```
+        ```java
         import javafx.application.Application;
         import javafx.scene.Scene;
         import javafx.scene.control.*;

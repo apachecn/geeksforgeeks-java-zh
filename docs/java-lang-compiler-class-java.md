@@ -7,7 +7,7 @@
 
 **申报:**
 
-```
+```java
 public final class Compiler
    extends Object
 ```
@@ -17,7 +17,7 @@ public final class Compiler
 *   **command():****Java . lang . compiler . command()**测试参数类型并执行一些有文档记录的操作。
     **语法:**
 
-```
+```java
 public static boolean command(Object argument)
 Parameters : 
 argument : needs to be compiler specific.
@@ -31,7 +31,7 @@ Exception :
 *   **compileClass():**T3】Java . lang . compileClass()编译指定的类。
     **语法:**
 
-    ```
+    ```java
     public static boolean compileClass(Class c)
     Parameters : 
     c : class to be compiled.
@@ -45,7 +45,7 @@ Exception :
     *   **enable():****Java . lang . compiler . enable()**使编译器开始运行。
     **语法:**
 
-    ```
+    ```java
     public static void enable()
     Parameters : 
     ------
@@ -57,7 +57,7 @@ Exception :
     *   **disable():****Java . lang . compiler . disable()**停止编译器执行操作。
     **语法:**
 
-    ```
+    ```java
     public static void disable()
     Parameters : 
     -------
@@ -69,7 +69,7 @@ Exception :
     *   **compileClasses() :** **java.lang.Compiler.compileClasses()** compiles the classes having the name as string – “str”
     **Syntax :**
 
-    ```
+    ```java
     public static boolean compileClasses(String string)
     Parameters : 
     str : name of the class to be compiled
@@ -80,7 +80,7 @@ Exception :
 
     ```
 
-    ```
+    ```java
     // Java Program illustrating the use of Compiler class Methods.
 
     import java.lang.*;
@@ -127,7 +127,7 @@ Exception :
 
     **输出:**
 
-    ```
+    ```java
     class NewClass$CompilerClass
     Value : null
 

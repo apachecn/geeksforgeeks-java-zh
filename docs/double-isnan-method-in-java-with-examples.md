@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public boolean isNaN()
         or
 public static boolean isNaN(double val)
@@ -20,7 +20,7 @@ public static boolean isNaN(double val)
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // Double isNaN() method
 // without parameter
@@ -56,7 +56,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Infinity is not NaN
 NaN is NaN
 
@@ -64,7 +64,7 @@ NaN is NaN
 
 **程序二:**
 
-```
+```java
 // Java code to demonstrate
 // Double isNaN() method
 // with parameter
@@ -100,7 +100,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Infinity is not NaN
 NaN is NaN
 

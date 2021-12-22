@@ -12,7 +12,7 @@
 
 **申报:**
 
-```
+```java
 public interface ConcurrentMap<K,V> extends Map<K,V>
 
 ```
@@ -28,7 +28,7 @@ public interface ConcurrentMap<K,V> extends Map<K,V>
 
 因为它属于 **java.util.concurrent** 包，所以我们必须导入正在使用的
 
-```
+```java
 import java.util.concurrent.ConcurrentMap
                 or
 import java.util.concurrent.*
@@ -39,7 +39,7 @@ ConcurrentMap 有两个实现类，分别是 **ConcurrentSkipListMap** 和[T3】
 
 **语法:**
 
-```
+```java
 // ConcurrentMap implementation by ConcurrentHashMap
 CocurrentMap<K, V> numbers = new ConcurrentHashMap<K, V>();
 
@@ -52,7 +52,7 @@ ConcurrentMap< ? , ? > objectName = new ConcurrentSkipListMap< ? , ? >();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate methods
 // of ConcurrentMap interface
 import java.util.concurrent.*;
@@ -88,7 +88,7 @@ class ConcurrentMapDemo {
 
 **Output**
 
-```
+```java
 Map contents : {100=Geeks, 101=For, 102=Geeks}
 ```
 
@@ -100,7 +100,7 @@ ConcurrentSkipListMap 的 [put()](https://www.geeksforgeeks.org/concurrentskipli
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate adding
 // elements
 
@@ -128,7 +128,7 @@ class AddingElementsExample {
 
 **Output**
 
-```
+```java
 After put(): {1=1, 2=2, 3=3, 4=4, 5=5}
 ```
 
@@ -138,7 +138,7 @@ ConcurrentSkipListMap 的 [remove()](https://www.geeksforgeeks.org/concurrentski
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate removing
 // elements
 
@@ -169,7 +169,7 @@ class RemovingElementsExample {
 
 **Output**
 
-```
+```java
 After remove(): {2=2, 3=3, 4=4, 5=5}
 ```
 
@@ -179,7 +179,7 @@ After remove(): {2=2, 3=3, 4=4, 5=5}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate accessing
 // elements
 
@@ -219,7 +219,7 @@ class AccessingElementsExample {
 
 **Output**
 
-```
+```java
 The Mappings are: 
 {100=Geeks, 101=for, 102=Geeks, 103=Contribute}
 The Value associated to 100 is : Geeks
@@ -232,7 +232,7 @@ The Value associated to 103 is : Contribute
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.concurrent.*;
 import java.util.*;
 
@@ -276,7 +276,7 @@ public class TraversingExample {
 
 **Output**
 
-```
+```java
 Key = 3, Value = First
 Key = 6, Value = Second
 Key = 8, Value = Third

@@ -4,7 +4,7 @@
 
 与 C++不同，数组是 Java 中的第一类对象。例如，在下面的程序中，使用 *arr[]* 对象的成员 *length* 来访问数组的大小。
 
-```
+```java
 // file name: Main.java
 public class Main {
     public static void main(String args[]) {

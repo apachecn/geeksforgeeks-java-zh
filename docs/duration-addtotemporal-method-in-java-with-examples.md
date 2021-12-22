@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Temporal addTo?(Temporal temporalObject)
 
 ```
@@ -24,7 +24,7 @@ public Temporal addTo?(Temporal temporalObject)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate addTo() method
 
 import java.time.*;
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original time: 2018-11-26T07:01:13.535
 2018-11-28T10:05:13.535
 
@@ -63,7 +63,7 @@ Original time: 2018-11-26T07:01:13.535
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate addTo() method
 
 import java.time.*;
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original time: 2018-11-26T07:01:16.615
 2018-11-21T07:01:16.615
 

@@ -16,7 +16,7 @@ MorphyToolbar 是一个库，它允许我们有一个带有标题、副标题和
 
 导航到 **Gradle 脚本> build.gradle(项目:项目名称)**，在存储库的末尾添加 jitpack，并同步项目。
 
-```
+```java
 maven { url "https://jitpack.io" }
 ```
 
@@ -26,7 +26,7 @@ maven { url "https://jitpack.io" }
 
 导航到 **Gradle 脚本> build.gradle(模块:应用)**，在依赖项部分添加库，并同步项目。
 
-```
+```java
 dependencies {
     implementation 'com.github.badoualy:morphy-toolbar:1.0.4'  
 }
@@ -40,7 +40,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <!-- Base application theme. -->
     <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
@@ -70,7 +70,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--Use Coordinator Layout -->
 <android.support.design.widget.CoordinatorLayout 
@@ -122,7 +122,7 @@ dependencies {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;

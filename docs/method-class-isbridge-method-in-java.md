@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 public class compareValues implements Comparator {
 
    // target method
@@ -28,7 +28,7 @@ public class compareValues implements Comparator {
 
 **语法:**
 
-```
+```java
 public boolean isBridge()
 ```
 
@@ -40,7 +40,7 @@ public boolean isBridge()
 
 **解释:**在这个方法中，首先创建一个大整数类对象。创建对象后，通过调用类对象的 getMethods()创建方法对象列表。现在，对提取的方法列表进行迭代，并检查 isBridge()。因此我们得到桥方法。最后打印桥接方法名称。
 
-```
+```java
 /*
 * Program Demonstrate isBridge() method 
 * of Method Class.
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Bridge Methods of BigInteger Class are
 Method: compareTo
 
@@ -93,7 +93,7 @@ Method: compareTo
 
 **解释:**当子类从父类继承方法时，继承的方法充当桥接方法。在这段代码中，首先创建一个包含 draw 方法的 Shape 类，然后创建一个扩展 Shape 类的 Rectangle 类。在主方法中，创建了矩形类绘制方法的方法对象。现在检查它是否是 Bridge()方法。最后打印结果。
 
-```
+```java
 // Program Demonstrate isBridge() method
 // of Method Class.
 // In this program a custom bridge method is created
@@ -140,7 +140,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 public void GFG$Rectangle.draw() method is Bridge Method :true
 
 ```

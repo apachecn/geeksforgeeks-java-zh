@@ -4,7 +4,7 @@
 
 如果一个数的适当除数之和(即不包括数本身的所有正除数)等于该数本身，则称该数为[](https://www.geeksforgeeks.org/perfect-number/)**。**等分总和**是一个数的除数之和，不包括数本身。因此，一个数只有等于它的等份和时才是完全数。所有已知的完全数都是**甚至**。**
 
-```
+```java
 **Example 1:**
 
 n = 9
@@ -42,7 +42,7 @@ Sum = 1+3+5 = 9 ≠ 15
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to check if a given
 // number is perfect or not
 
@@ -96,7 +96,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 6 is a perfect number
 ```** 
 
@@ -110,7 +110,7 @@ class GFG {
 
 ## **Java**
 
-```
+```java
 // Java program to check if a given
 // number is perfect or not
 
@@ -176,7 +176,7 @@ class GFG {
 
 ****输出**
 
-```
+```java
 6 is a perfect number
 ```** 
 

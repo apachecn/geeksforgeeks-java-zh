@@ -13,7 +13,7 @@
 
 **小程序程序:**
 
-```
+```java
 import java.awt.*;
 import java.applet.*;
 
@@ -59,7 +59,7 @@ public class Chess extends Applet {
 
 **注意:**要在命令行中运行小程序，请使用以下命令
 
-```
+```java
 > javac Chess.java
 > appletviewer Chess.html
 ```

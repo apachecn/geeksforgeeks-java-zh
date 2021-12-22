@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -18,7 +18,7 @@ public void clear()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue clear() method
 import java.util.*;
@@ -50,7 +50,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractQueue1 contains : [10, 20, 30, 40, 50]
 AbstractQueue1 : []
 
@@ -58,7 +58,7 @@ AbstractQueue1 : []
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue clear() method
 import java.util.*;
@@ -88,7 +88,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractQueue1 contains : [gopal, gfg, java]
 AbstractQueue1 : []
 

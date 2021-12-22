@@ -29,7 +29,7 @@ TreeSet 是 Java 中 [SortedSet 接口](https://www.geeksforgeeks.org/sortedset-
 
 **语法:**
 
-```
+```java
 for (Integer value : ts)
 {
     System.out.print(value);
@@ -40,7 +40,7 @@ for (Integer value : ts)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Loop over TreeSet
 // Using Enhanced For loop
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 TreeSet: 10, 39, 61, 87, 
 ```
 
@@ -91,7 +91,7 @@ TreeSet: 10, 39, 61, 87,
 
 **语法:**
 
-```
+```java
 Iterator iterator = ts.iterator();
 
 while (iterator.hasNext())
@@ -104,7 +104,7 @@ System.out.print(iterator.next());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to loop over TreeSet
 // Using Iterator
 
@@ -153,12 +153,12 @@ Java 8 forEach / stream 可以用下面的方式在 TreeSet 上循环。
 
 **语法:**
 
-```
+```java
 Tree_Set.forEach(iterator -> System.out.print(i + " "));
 // Using forEach 
 ```
 
-```
+```java
 Tree_Set.stream().map(iterator -> String.valueOf(i)).collect(Collectors.joining(", "))
 // Using stream  
 ```
@@ -167,7 +167,7 @@ Tree_Set.stream().map(iterator -> String.valueOf(i)).collect(Collectors.joining(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to loop over TreeSet
 // Using For-each and Stream in Java8
 
@@ -214,7 +214,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 TreeSet without Comma: 10 39 61 87 
 TreeSet with Comma: 10, 39, 61, 87
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E element()
 ```
 
@@ -20,7 +20,7 @@ public E element()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue element() method
 import java.util.*;
@@ -51,7 +51,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 AbstractQueue1 contains : [10, 20, 30, 40, 50]
 head : 10
 
@@ -59,7 +59,7 @@ head : 10
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // AbstractQueue element() method
 // NoSuchElementException
@@ -86,7 +86,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception isjava.util.NoSuchElementException
 
 ```

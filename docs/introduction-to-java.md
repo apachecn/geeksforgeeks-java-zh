@@ -78,7 +78,7 @@
 
 ## **Java**
 
-```
+```java
 // Demo Java program
 
 // Importing classes from packages
@@ -99,6 +99,6 @@ public class GFG {
 
 ****输出****
 
-```
+```java
 Welcone to GeeksforGeeks
 ```

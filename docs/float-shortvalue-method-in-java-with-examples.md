@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public short shortValue()
 ```
 
@@ -15,7 +15,7 @@ public short shortValue()
 下面的程序说明了 Java 中的 **shortValue()** 方法:
 T3】程序 1:
 
-```
+```java
 // Java code to demonstrate
 // Float shortValue() method
 
@@ -42,14 +42,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Short value of 17.47 is : 17
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java code to demonstrate
 // Float shortValue() method
 
@@ -75,7 +75,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Short value of 54.1 is : 54
 
 ```

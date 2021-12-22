@@ -6,7 +6,7 @@ Java 中的 Java.util.ArrayDeque.contains()方法用于检查或验证一个特�
 
 **语法:**
 
-```
+```java
 Array_Deque.contains(*Object element*)
 ```
 
@@ -17,7 +17,7 @@ Array_Deque.contains(*Object element*)
 下面的程序说明了 Java.util.ArrayDeque.contains()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 Does the deque contains 'Geeks'? true
 Does the deque contains '4'? true
@@ -64,7 +64,7 @@ Does the deque contains 'No'? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.*;
 
@@ -101,7 +101,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 Does the Deque contains '15'? true
 Does the Deque contains '2'? false

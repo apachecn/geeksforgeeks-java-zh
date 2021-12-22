@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Object[] arr = AbstractSet.toArray()
 ```
 
@@ -20,7 +20,7 @@ Object[] arr = AbstractSet.toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -56,7 +56,7 @@ public class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSet: [For, Geeks, To, Welcome]
 The array is:
 For
@@ -68,7 +68,7 @@ Welcome
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -105,7 +105,7 @@ public class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 The AbstractSet: [5, 10, 15, 20, 25, 30]
 The array is:
 5

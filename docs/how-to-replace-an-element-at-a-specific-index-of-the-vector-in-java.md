@@ -6,7 +6,7 @@
 
 ****例****
 
-```
+```java
 Input  : Vector= ["Harry","Steve","Vince","David","Matt"],Index=1,Element ="Mark"
 Output : Vector= ["Harry","Mark","Vince","David","Matt"]
 
@@ -20,7 +20,7 @@ Output : Vector= ["Harry","Mark","Jack","David","Matt"]
 
 ****语法:****
 
-```
+```java
 Vector.set(int index, Object element)
 ```
 
@@ -33,7 +33,7 @@ Vector.set(int index, Object element)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to replace a element at a particular index
 // in vector
 
@@ -79,7 +79,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Vector elements before replacement: 
 Harry Steve Vince David Matt 
 Vector elements after replacement: 

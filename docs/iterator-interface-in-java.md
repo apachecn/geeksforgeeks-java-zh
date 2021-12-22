@@ -14,7 +14,7 @@ Java **迭代器 java [集合](https://www.geeksforgeeks.org/collections-in-java
 
 **迭代器接口的声明**
 
-```
+```java
 public interface Iterator<E>
 
 ```
@@ -25,7 +25,7 @@ public interface Iterator<E>
 
 **解说:T1**
 
-```
+```java
 public interface EventIterator extends Iterator<Event>
 
 ```
@@ -36,7 +36,7 @@ public interface EventIterator extends Iterator<Event>
 
 **列表迭代器<E>:**T3】
 
-```
+```java
 public interface ListIterator<E> extends Iterator<E>
 
 ```
@@ -57,7 +57,7 @@ public interface ListIterator<E> extends Iterator<E>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the usage of Iterator()
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -95,7 +95,7 @@ public class JavaIteratorExample1 {
 
 **Output**
 
-```
+```java
 The list is given as : [Welcome, to, GFG]
 Welcome
 to
@@ -107,7 +107,7 @@ After the remove() method is called : [Welcome, to]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate over an arraylist
 // using Iterator
 import java.util.*;
@@ -128,7 +128,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 10 20 30 40 50 60 70 80 
 ```
 
@@ -145,7 +145,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to show the creation of
 // custom class that implements iterable interface
 import java.util.*;
@@ -187,7 +187,7 @@ public class EmployeesTester {
 
 **Output**
 
-```
+```java
 practice
 geeks
 for
@@ -204,7 +204,7 @@ coding
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to remove()
 // elements from a collection
 
@@ -244,7 +244,7 @@ public class MyClass {
 
 **Output**
 
-```
+```java
 [12, 23]
 ```
 
@@ -252,7 +252,7 @@ public class MyClass {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the usage of
 // Iterator forEachRemaining()
 import java.util.*;
@@ -271,7 +271,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 10
 20
 30

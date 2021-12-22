@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean equals(Object o)
 ```
 
@@ -18,7 +18,7 @@ boolean equals(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // addAll method in list interface
 import java.util.*;
@@ -52,7 +52,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 15, 20]
 [100, 200, 300]
 Not equal
@@ -61,7 +61,7 @@ Not equal
 
 **程序 2:** 下面是用 Linkedlist 展示 list.addAll()实现的代码。
 
-```
+```java
 // Java code to show the implementation of
 // addAll method in list interface
 import java.util.*;
@@ -95,7 +95,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 15, 20]
 [10, 15, 20]
 Equal

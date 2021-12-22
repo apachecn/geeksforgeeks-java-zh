@@ -48,7 +48,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // adding on click listener for item of recycler view.
 holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,7 +71,7 @@ holder.itemView.setOnClickListener(new View.OnClickListener() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;

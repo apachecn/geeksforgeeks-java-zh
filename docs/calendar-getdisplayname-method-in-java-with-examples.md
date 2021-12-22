@@ -6,7 +6,7 @@ Calendar 类的**getDisplayName(int*cal _ field*、int *cal_style* 、Locale *lo
 
 **语法:**
 
-```
+```java
 public String getDisplayName(int *cal_field*, int *cal_style*, Locale *local*)
 ```
 
@@ -21,7 +21,7 @@ public String getDisplayName(int *cal_field*, int *cal_style*, Locale *local*)
 下面的程序说明了日历类的 getDisplayName()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate
 // getDisplayName() Method
 
@@ -59,7 +59,7 @@ public class Calendar_Demo_Locale {
 
 **Output:**
 
-```
+```java
 First object is : turkish_TURKEY
 Second object is : english_UK
 Name of the first object: turkish (TURKEY)
@@ -69,7 +69,7 @@ Name of the second object: english (UK)
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate
 // getDisplayName() Method
 
@@ -107,7 +107,7 @@ public class Calendar_Demo_Locale {
 
 **Output:**
 
-```
+```java
 First object is : russian_RUSSIA
 Second object is : german_GERMANY
 Name of the first object: russian (RUSSIA)

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isProbablePrime(int certainty)
 ```
 
@@ -18,7 +18,7 @@ public boolean isProbablePrime(int certainty)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isProbablePrime() method of BigInteger
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 95848961698036841689418631330196 with certainty 1 false
 95848961698036841689418631330196 with certainty 0 true
 95848961698036841689418631330196 with certainty -1 true
@@ -71,7 +71,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isProbablePrime() method of BigInteger
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 654561561356879113561 with certainty 1 false
 654561561356879113561 with certainty 0 true
 654561561356879113561 with certainty -1 true

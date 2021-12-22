@@ -6,7 +6,7 @@ java 中的 Java . util . identity hashmap . equals()方法用于检查两个映
 
 **语法:**
 
-```
+```java
 ihashmap1.equals(*ihashmap2*)
 ```
 
@@ -17,7 +17,7 @@ ihashmap1.equals(*ihashmap2*)
 下面的程序说明了 Java . util . identity hashmap . equals()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -62,7 +62,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 First Map: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 Second Map: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 Equality: true
@@ -71,7 +71,7 @@ Equality: true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -116,7 +116,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 First Map: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 Second Map: {10=Geeks, 30=You, 20=Geek, 25=Welcomes, 15=4}
 Equality: false

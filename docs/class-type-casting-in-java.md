@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing input output classes
 import java.io.*;
 
@@ -79,7 +79,7 @@ class GFG
 
 **Output**
 
-```
+```java
 Child show method is called
 ```
 
@@ -93,7 +93,7 @@ Child show method is called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Downcasting
 
 // Importing input output classes
@@ -133,6 +133,6 @@ class Car extends Vehicles {
 
 **Output**
 
-```
+```java
 Downcasting performed
 ```

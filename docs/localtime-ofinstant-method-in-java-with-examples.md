@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static LocalTime 
        ofInstant(Instant instant, ZoneId zone)
 
@@ -23,7 +23,7 @@ public static LocalTime
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.ofInstant() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2018-12-17T19:59:44.770Z
 ZoneId: Etc/UTC
 Generated LocalTime: 19:59:44.770
@@ -68,7 +68,7 @@ Generated LocalTime: 19:59:44.770
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.ofInstant() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant: 2016-11-11T09:19:22Z
 Generated LocalTime: 15:19:22
 

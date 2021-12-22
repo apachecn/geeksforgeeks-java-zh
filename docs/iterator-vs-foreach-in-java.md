@@ -5,7 +5,7 @@
 **后台:**
 [**迭代器**](http://geeksquiz.com/how-to-use-iterator-in-java/) 是集合框架提供的一个接口，用于遍历集合以及对集合中的项目进行顺序访问。
 
-```
+```java
 
    // Iterating over collection 'c' using iterator
    for (Iterator i = c.iterator(); i.hasNext(); ) 
@@ -14,7 +14,7 @@
 
 [**对于每个**](https://www.geeksforgeeks.org/for-each-loop-in-java/) 循环，用于遍历集合中的项目。
 
-```
+```java
    // Iterating over collection 'c' using **for-each** 
    for (Element e: c)
        System.out.println(e);
@@ -25,7 +25,7 @@
 **注意:**在使用 lambda 表达式的 Java 8 中，我们可以简单地用
 替换每个循环
 
-```
+```java
 elements.forEach (e -> System.out.println(e) );
 ```
 
@@ -42,7 +42,7 @@ elements.forEach (e -> System.out.println(e) );
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of nested iterators
 // may not work as expected and throw exception.
 import java.util.*;
@@ -82,7 +82,7 @@ public class Main
 
 输出:
 
-```
+```java
 Exception in thread "main" java.util.NoSuchElementException
 
     at java.util.LinkedList$ListItr.next(LinkedList.java:888)
@@ -98,7 +98,7 @@ for-each 循环是为嵌套循环量身定制的。用下面的代码替换迭�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of nested for-each
 import java.util.*;
 public class Main
@@ -135,7 +135,7 @@ public class Main
 
 **输出:**
 
-```
+```java
 2 2 2 3 3 3 4 4
 ```
 
@@ -146,7 +146,7 @@ public class Main
 如果您使用旧样式的 C 进行循环迭代，那么我们可能会大大增加时间复杂度。
 //这里 l 是 List，可以是 ArrayList /LinkedList，n 是 List 的大小
 
-```
+```java
 for (i=0;i<n;i++)
    System.out.println(l.get(i));
 ```

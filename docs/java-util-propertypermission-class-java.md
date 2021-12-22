@@ -18,7 +18,7 @@
 
 1.  **boolean equals(Object obj):** Checks two PropertyPermission objects for equality. Checks that obj is a PropertyPermission, and has the same name and actions as this object. It overrides **equals** in class **BasicPermission**.
 
-    ```
+    ```java
     Syntax: public boolean equals(Object obj).
     Returns: true if obj is a PropertyPermission, and 
     has the same name and actions as this PropertyPermission object.
@@ -26,7 +26,7 @@
 
     ```
 
-    ```
+    ```java
     // Java code illustrating equals() method
     import java.util.*;
     class PropertyPermissionDemo
@@ -45,21 +45,21 @@
 
     输出:
 
-    ```
+    ```java
     both have same name and action
 
     ```
 
 2.  **String getActions():** Returns the “canonical string representation” of the actions. That is, this method always returns present actions in the following order: read, write. It overrides **getActions** in class **BasicPermission**.
 
-    ```
+    ```java
     Syntax: public String getAction().
     Returns: the canonical string representation of the actions.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating getAction() method
     import java.util.*;
     class PropertyPermissionDemo
@@ -77,21 +77,21 @@
 
     输出:
 
-    ```
+    ```java
     os.name has permission to read,write
 
     ```
 
 3.  **int hashCode():** Returns the hash code value for this object. The hash code used is the hash code of this permissions name, that is, getName().hashCode(), where getName is from the Permission superclass. It overrides **hashCode** in **BasicPermission**.
 
-    ```
+    ```java
     Syntax: public int hashCode().
     Returns: a hash code value for this object.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating hashCode() method
     import java.util.*;
     class PropertyPermissionDemo
@@ -109,14 +109,14 @@
 
     输出:
 
-    ```
+    ```java
     hash code of the object is: -1228098475
 
     ```
 
 4.  **boolean implies(Permission p):** This method checks if this PropertyPermission implies the specified Permission. This is done by checking p is PropertyPermission object, actions of p are subset of this object’s actions and if this object’s name implies p’s actions. It overrides **implies** in class **BasicPermission**.
 
-    ```
+    ```java
     Syntax: public boolean implies(Permission p).
     Returns: true if obj is a PropertyPermission, and 
     has the same name and actions as this PropertyPermission object.
@@ -124,7 +124,7 @@
 
     ```
 
-    ```
+    ```java
     // Java code illustrating implies() method
     import java.util.*;
     class PropertyPermissionDemo
@@ -144,14 +144,14 @@
 
     输出:
 
-    ```
+    ```java
     os.name has permission read,write
 
     ```
 
 5.  **PermissionCollection newPermissionCollection():** Returns a new PermissionCollection object for storing PropertyPermission objects.
 
-    ```
+    ```java
     Syntax: public PermissionCollection newPermissionCollection().
     Returns: a new PermissionCollection object suitable 
     for storing PropertyPermissions.
@@ -159,7 +159,7 @@
 
     ```
 
-    ```
+    ```java
     // Java code illustrating newPermissionCollection() method
     import java.security.PermissionCollection;
     import java.util.*;
@@ -187,7 +187,7 @@
 
     输出:
 
-    ```
+    ```java
     java.home.* has permission to read
 
     ```

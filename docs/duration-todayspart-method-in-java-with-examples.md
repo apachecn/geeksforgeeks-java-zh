@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toDaysPart()
 
 ```
@@ -19,7 +19,7 @@ public long toDaysPart()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate toDaysPart() method
 
 import java.time.Duration;
@@ -44,7 +44,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT51H4M
 2
 183840
@@ -53,7 +53,7 @@ Duration: PT51H4M
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate toDaysPart() method
 
 import java.time.Duration;
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT240H
 10
 

@@ -18,7 +18,7 @@
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program illustrating the getPath() method
 
 // Importing input output classes
@@ -71,7 +71,7 @@ public class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program illustrating the getAbsolutePath() Method
 
 // Importing all input output classes
@@ -108,7 +108,7 @@ public class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program illustrating the getCanonicalPath() method
 
 // Importing all input output classes
@@ -139,13 +139,13 @@ public class GFG {
 
 ******输出解释:**为了更好地解释这些 CMD 输出或硬编码输出，使用的 java 文件的指定位置如下****
 
-```
+```java
 **:C:\Users\ASPIRE\Desktop\Java\getPathExample or getAbsoltePathExample or getCanonicalPathExample**
 ```
 
 ****demo.txt 文件的位置****
 
-```
+```java
 **:C:\Users\ASPIRE\Desktop\Java\Notes\Chapter one\demo.txt**
 ```
 

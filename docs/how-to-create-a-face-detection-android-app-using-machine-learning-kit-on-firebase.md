@@ -65,7 +65,7 @@
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     tools:context=".MainActivity"
@@ -97,7 +97,7 @@
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_height="match_parent"
@@ -166,7 +166,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.app.Application;
 import com.google.firebase.FirebaseApp;
 
@@ -190,7 +190,7 @@ public class LCOFaceDetection extends Application {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -272,7 +272,7 @@ public class ResultDialog extends DialogFragment {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 /*package whatever do not write package name here*/
 
 import androidx.annotation.NonNull;

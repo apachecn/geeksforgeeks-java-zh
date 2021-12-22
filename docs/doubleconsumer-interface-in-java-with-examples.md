@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 void accept(double value)
 ```
 
@@ -26,7 +26,7 @@ void accept(double value)
 
 下面是说明 accept()方法的代码:
 
-```
+```java
 import java.util.function.DoubleConsumer;
 
 public class GFG {
@@ -46,7 +46,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 30.0
 
 ```
@@ -59,7 +59,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 default DoubleConsumer andThen(DoubleConsumer after)
 ```
 
@@ -73,7 +73,7 @@ default DoubleConsumer andThen(DoubleConsumer after)
 
 **程序 1:**
 
-```
+```java
 import java.util.function.DoubleConsumer;
 
 public class GFG {
@@ -93,14 +93,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 30.0
 
 ```
 
 **程序 2:** 演示**空指针异常**何时返回。
 
-```
+```java
 import java.util.function.DoubleConsumer;
 
 public class GFG {
@@ -126,14 +126,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.NullPointerException
 
 ```
 
 **程序 3:** 演示 after 函数中的异常是如何返回和处理的。
 
-```
+```java
 import java.util.function.DoubleConsumer;
 
 public class GFG {
@@ -166,7 +166,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception : java.lang.NumberFormatException: For input string: "3.0"
 
 ```

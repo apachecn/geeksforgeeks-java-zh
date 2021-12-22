@@ -6,14 +6,14 @@ java.time.Month ENUM 的 adjustInto()方法是 java 中的一个内置函数，�
 
 **方法声明** :
 
-```
+```java
 public Temporal adjustInto(Temporal temporal)
 
 ```
 
 **语法** :
 
-```
+```java
 Temporal newLocalDate = Month.ANYMONTH.adjustInto(Temporal temporal)
 
 ```
@@ -35,7 +35,7 @@ Temporal newLocalDate = Month.ANYMONTH.adjustInto(Temporal temporal)
 
 **程序 1** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.Temporal;
@@ -75,7 +75,7 @@ class DayOfWeekExample {
 
 **输出:**
 
-```
+```java
 1947-08-15 which is AUGUST
 1947-01-15 which is JANUARY
 
@@ -83,7 +83,7 @@ class DayOfWeekExample {
 
 **程序二** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.temporal.Temporal;
@@ -123,7 +123,7 @@ class DayOfWeekExample {
 
 **输出:**
 
-```
+```java
 2019-03-18 which is MARCH
 2019-12-18 which is DECEMBER
 

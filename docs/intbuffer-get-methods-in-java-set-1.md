@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int get()
 ```
 
@@ -20,7 +20,7 @@ public abstract int get()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original IntBuffer:  [8, 9, 1, 0, 0]
 Int Value: 8
 Next Int Value: 9
@@ -96,7 +96,7 @@ Next Int Value: 9
 
 **示例 2:** 演示 Java . nio . bufferenderflow exception
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original IntBuffer:  [8, 9, 0]
 Int Value: 0
 
@@ -178,7 +178,7 @@ IntBuffer 的 **get(int index)** 方法用于读取指定索引处的文章。
 
 **语法:**
 
-```
+```java
 public abstract int get(int index)
 ```
 
@@ -192,7 +192,7 @@ public abstract int get(int index)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get(int index) method
 
@@ -262,7 +262,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original IntBuffer:  [8, 9, 6]
 Int Value at index 0: 8
 Int Value at index 1: 9
@@ -272,7 +272,7 @@ Int Value at index 2: 6
 
 **示例 2:** 演示 IndexOutOfBoundsException
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -347,7 +347,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original IntBuffer:  [6, 8, 12]
 Int Value at index 0: 6
 Int Value at index 1: 8

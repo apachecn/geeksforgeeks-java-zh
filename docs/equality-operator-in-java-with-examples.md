@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LHS value == RHS value
 
 ```
@@ -18,14 +18,14 @@ LHS value == RHS value
 
 **语法:**
 
-```
+```java
 Actual value == Actual value
 
 ```
 
 **示例:**
 
-```
+```java
 // Java program for using == operator
 
 import java.io.*;
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Are 4 and 4 equal? true
 Are 4 and 5 equal? false
 
@@ -67,7 +67,7 @@ Are 4 and 5 equal? false
 
     **语法:**
 
-    ```
+    ```java
     Actual value == Address value
         OR
     Address value == Actual value
@@ -78,7 +78,7 @@ Are 4 and 5 equal? false
 
     **Java 代码编译错误:-**
 
-    ```
+    ```java
     prog.java:20: error: incomparable types: int and int[]
                                + (a == b));
                                     ^
@@ -90,7 +90,7 @@ Are 4 and 5 equal? false
 
     **示例:**
 
-    ```
+    ```java
     // Java program for using == operator
 
     import java.io.*;
@@ -119,14 +119,14 @@ Are 4 and 5 equal? false
 
     **语法:**
 
-    ```
+    ```java
     Address value == Address value
 
     ```
 
     **示例:**
 
-    ```
+    ```java
     // Java program for using == operator
 
     import java.io.*;
@@ -163,7 +163,7 @@ Are 4 and 5 equal? false
 
     **Output:**
 
-    ```
+    ```java
     Are [I@232204a1 and [I@4aa298b7 equal? false
     Are [I@4aa298b7 and [I@4aa298b7 equal? true
 

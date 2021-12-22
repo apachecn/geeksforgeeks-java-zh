@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isSupplementaryCodePoint(int codePoint)
 
 ```
@@ -19,7 +19,7 @@ public static boolean isSupplementaryCodePoint(int codePoint)
 
 **程序 1:**
 
-```
+```java
 // Code to illustrate the isSupplementaryCodePoint() method
 import java.lang.*;
 
@@ -46,7 +46,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 represents a supplementary code point is true
 c2 represents a supplementary code point is true
 
@@ -54,7 +54,7 @@ c2 represents a supplementary code point is true
 
 **程序二:**
 
-```
+```java
 // Code to illustrate the isSupplementaryCodePoint() method
 import java.lang.*;
 
@@ -81,7 +81,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 c1 represents a supplementary code point is true
 c2 represents a supplementary code point is false
 

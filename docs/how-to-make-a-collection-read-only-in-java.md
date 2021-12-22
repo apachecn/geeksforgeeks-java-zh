@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to make Collections Read-Only
 
 import java.util.ArrayList;
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 12345678910
 After Performing Some Operations
 123446781011
@@ -93,7 +93,7 @@ Now list is only Read-Only
 
 ## Java
 
-```
+```java
 // Java Program to make
 // Set Interface Object Read-Only
 
@@ -150,7 +150,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 12345
 After Performing Operation
 1234

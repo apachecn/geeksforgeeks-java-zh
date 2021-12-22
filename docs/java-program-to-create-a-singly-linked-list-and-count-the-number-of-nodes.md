@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : AddNodes = {2, 3, 4}
 Output: LinkedList = [2, 3, 4]
         Size = 3
@@ -26,7 +26,7 @@ Output: LinkedList = [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Create a Singly Linked List
 // of n Nodes and Count the Number of Nodes
 import java.io.*;
@@ -128,7 +128,7 @@ public class LinkedListCreation {
 
 **Output**
 
-```
+```java
 Nodes : 
 1 2 3 4 
 Total Nodes: 4

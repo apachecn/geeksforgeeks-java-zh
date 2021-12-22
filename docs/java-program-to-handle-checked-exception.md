@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Handle Checked Exception
 // Where FileInputStream Exception is thrown
 
@@ -56,7 +56,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Illustrate Handling of Checked Exception
 
 // Importing required classes
@@ -95,6 +95,6 @@ class GFG {
 
 ****Output****
 
-```
+```java
 File does not exist
 ```

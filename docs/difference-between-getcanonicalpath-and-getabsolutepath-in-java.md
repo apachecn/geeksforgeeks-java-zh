@@ -20,13 +20,13 @@
 
 **方法 1:** getAbsolutePath()
 
-```
+```java
 public String getAbsolutePath() 
 ```
 
 **方法 2:** 获取经典路径()
 
-```
+```java
 public String getCanonicalPath() throws IOException
 ```
 
@@ -34,14 +34,14 @@ public String getCanonicalPath() throws IOException
 
 **方法 1:** getAbsolutePath()
 
-```
+```java
 file.getAbsolutePath()    
 // It returns absolute path of file object in system's directory structure
 ```
 
 **方法 2:** 获取经典路径()
 
-```
+```java
 file.getCanonicalPath()    
 // It returns canonical path of file object in system's directory structure
 ```
@@ -50,7 +50,7 @@ file.getCanonicalPath()
 
 ## 爪哇
 
-```
+```java
 // Java Program to illustrate Difference Between
 // getCanonicalPath() and getAbsolutePath()
 

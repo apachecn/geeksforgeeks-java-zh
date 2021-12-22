@@ -5,7 +5,7 @@
 [**java.lang.Class 类**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/) 的 **getModifiers()** 方法用于获取该类的 java 语言修饰符。方法返回一个整数，表示此类的编码修饰符。
 **语法:**
 
-```
+```java
 public int getModifiers()
 ```
 
@@ -16,7 +16,7 @@ public int getModifiers()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getModifiers() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Test
 Modifiers of myClass: public
 ```
@@ -54,7 +54,7 @@ Modifiers of myClass: public
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getModifiers() method
 
 import java.util.*;
@@ -92,7 +92,7 @@ class Main {
 
 **Output:** 
 
-```
+```java
 Modifiers of myClass: private
 ```
 

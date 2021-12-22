@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public boolean canExecute()
 ```
 
 **语法:**
 
-```
+```java
 file.canExecute();
 ```
 
@@ -26,7 +26,7 @@ file.canExecute();
 
 **示例 1:** 文件“F:\\program.txt”是 F:目录中的现有文件，程序被允许执行该文件。
 
-```
+```java
 // Java program to demonstrate
 // canExecute() method of File class
 
@@ -62,13 +62,13 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Executable
 ```
 
 **示例 2:** 文件“F:\ program 1 . txt”不存在我们将尝试检查该文件是否可执行。
 
-```
+```java
 // Java program to demonstrate
 // canExecute() method of File class
 
@@ -104,7 +104,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Non Executable
 ```
 

@@ -32,7 +32,7 @@
 
 **例 1:**
 
-```
+```java
 class A {
     protected void method()
     {
@@ -58,7 +58,7 @@ public class B extends A {
 
 **Output:**
 
-```
+```java
 Compile Time Error
 
 ```
@@ -67,7 +67,7 @@ Compile Time Error
 
 **例 2:**
 
-```
+```java
 class A {
     protected void method()
     {
@@ -91,7 +91,7 @@ public class B extends A {
 
 **Output:**
 
-```
+```java
 Hello
 
 ```

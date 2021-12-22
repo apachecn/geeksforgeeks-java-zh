@@ -23,7 +23,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -124,7 +124,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -183,7 +183,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -279,7 +279,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class RVOneModel {
        // this variable will store main-list item title
     private String name;
@@ -313,7 +313,7 @@ public class RVOneModel {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -387,7 +387,7 @@ public class RVOneAdapter extends RecyclerView.Adapter<RVOneAdapter.ViewHolder> 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -447,7 +447,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Interface to perform events on Main-List item click
 public interface OnItemsClickListener{
     void onItemClick(RVOneModel rvOneModel);
@@ -458,7 +458,7 @@ public interface OnItemsClickListener{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Need this for the Main-list item onClick events
 private OnItemsClickListener listener;
 ```

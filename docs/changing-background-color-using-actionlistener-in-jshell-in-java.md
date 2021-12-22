@@ -26,7 +26,7 @@ Jshell 减少了运行 Java 程序和测试业务逻辑所需的所有工作。�
 
 **语法:**
 
-```
+```java
 jshell>import java.awt.* ;
 ```
 
@@ -34,11 +34,11 @@ jshell>import java.awt.* ;
 
 **语法:**
 
-```
+```java
 jshell>Frame f = new frame() ;   || 'f' is object name
 ```
 
-```
+```java
 f==>java.awt.Frame[frame, 0, 0, 0, 0*0, invalid, hidden, layout...t, title = resizable, normal ]
 ```
 
@@ -46,7 +46,7 @@ f==>java.awt.Frame[frame, 0, 0, 0, 0*0, invalid, hidden, layout...t, title = res
 
 **语法:**将可见性设置为真
 
-```
+```java
 jshell>f.setVisible(true) ;
 ```
 
@@ -61,7 +61,7 @@ jshell>f.setVisible(true) ;
 
 **语法:**将可见性设置为假
 
-```
+```java
 jshell>f.setVisible(false) ;
 ```
 
@@ -73,7 +73,7 @@ jshell>f.setVisible(false) ;
 
 语法:这里第一个参数是高度，第二个是 [setSize()](https://www.geeksforgeeks.org/java-awt-dimension-class/) 函数中的宽度。
 
-```
+```java
 jshell>f.setSize(length_pixelValue , breadth_pixelValue) ;
 ```
 
@@ -82,7 +82,7 @@ jshell>f.setSize(length_pixelValue , breadth_pixelValue) ;
 *   length_pixelValue = 500
 *   breadth_pixelValue = 500
 
-```
+```java
 jshell>f.setSize(500, 500) ;
 ```
 
@@ -94,7 +94,7 @@ jshell>f.setSize(500, 500) ;
 
 **语法:**
 
-```
+```java
 jshell>f.setLocation(100,100) ;
 ```
 
@@ -106,7 +106,7 @@ jshell>f.setLocation(100,100) ;
 
 **语法:**
 
-```
+```java
 jshell>f.setBackground(Color.yellow) ;
 ```
 
@@ -136,7 +136,7 @@ jshell>f.setBackground(Color.yellow) ;
 
 **语法:**
 
-```
+```java
 jshell>b1.addActionListener(e->setBackground(Colour.cyan)) ;
 ```
 
@@ -150,7 +150,7 @@ jshell>b1.addActionListener(e->setBackground(Colour.cyan)) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to change Background Color
 // Using ActionListener in JShell
 

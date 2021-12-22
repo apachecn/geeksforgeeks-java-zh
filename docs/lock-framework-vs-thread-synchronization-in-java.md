@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Lock lock = new ReentrantLock();
 lock.lock();
 
@@ -24,7 +24,7 @@ lock.unlock();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Date;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -201,7 +201,7 @@ class TestResource
 | Waiting thread list | Yes, you can use the Lock framework. | See the list of waiting threads [impossible to synchronize with |
 | Release the lock in an exception | 
 
-```
+```java
 Lock.lock(); myMethod();Lock.unlock();
 ```
 

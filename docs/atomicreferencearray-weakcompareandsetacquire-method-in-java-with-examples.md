@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean
        weakCompareAndSetAcquire(
            int i, E expectedValue, E newValue)
@@ -24,7 +24,7 @@ public final boolean
 以下程序说明了 weakCompareAndSetAcquire()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // weakCompareAndSetAcquire() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // weakCompareAndSetAcquire() method
 

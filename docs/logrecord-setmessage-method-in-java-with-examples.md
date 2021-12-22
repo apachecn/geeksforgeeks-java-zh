@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setMessage(String message)
 
 ```
@@ -18,7 +18,7 @@ public void setMessage(String message)
 下面的程序说明了 setMessage()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setMessage() method
 
 import java.util.logging.Level;
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Previous Message: Hi Logger
 New Message: GFG Logger
 
@@ -61,7 +61,7 @@ New Message: GFG Logger
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setMessage() method
 
 import java.util.logging.Level;
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Previous Message: GFG Logger
 New Message: null
 

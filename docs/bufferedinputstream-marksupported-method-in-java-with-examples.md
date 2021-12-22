@@ -6,7 +6,7 @@ Java 中 **BufferedInputStream** 类的 **markSupported()** 方法用于验证�
 
 **语法:**
 
-```
+```java
 public boolean markSupported()
 
 ```
@@ -23,7 +23,7 @@ public boolean markSupported()
 
 **程序 1:** 假设文件“c:/demo.txt”存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream markSupported() method
 
@@ -61,14 +61,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Support for mark() and reset() : true
 
 ```
 
 **程序二:**假设文件“c:/demo.txt”存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedInputStream.markSupported() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Support for mark() and reset() : false
 
 ```

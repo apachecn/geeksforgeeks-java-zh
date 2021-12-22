@@ -6,7 +6,7 @@ Java.util.ArrayDeque.iterator()方法用于返回 ArrayDeque 元素的迭代器�
 
 **语法:**
 
-```
+```java
 Iterator iterate_value = Array_Deque.iterator();
 ```
 
@@ -17,7 +17,7 @@ Iterator iterate_value = Array_Deque.iterator();
 下面的程序说明了 Java.util.ArrayDeque.iterator()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate iterator()
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The iterator values are: 
 Welcome
@@ -64,7 +64,7 @@ Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate iterator()
 import java.util.*;
 
@@ -98,7 +98,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 ArrayDeque: [10, 15, 30, 20, 5]
 The iterator values are: 
 10

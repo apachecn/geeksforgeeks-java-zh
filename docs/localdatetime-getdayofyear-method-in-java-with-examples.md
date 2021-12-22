@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getDayOfYear()
 
 ```
@@ -19,7 +19,7 @@ public int getDayOfYear()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getDayOfYear() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 DayOfYear: 337
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getDayOfYear() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 DayOfYear: 28
 
 ```

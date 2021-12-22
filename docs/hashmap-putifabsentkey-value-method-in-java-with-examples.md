@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public V putIfAbsent(K key, V value)
 ```
 
@@ -32,7 +32,7 @@ public V putIfAbsent(K key, V value)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // putIfAbsent(Key, value) method.
 
@@ -72,7 +72,7 @@ public class TestClass {
 
 **Output**
 
-```
+```java
 HashMap:
  {a=10000, b=55000, c=44300, e=53200}
 New HashMap:
@@ -85,7 +85,7 @@ Unchanged HashMap:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // putIfAbsent(Key, value) method.
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 HashMap:
  {a=10000, b=55000, c=44300, e=null}
 Value of r1:

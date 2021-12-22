@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public AnnotatedType getAnnotatedReturnType()
 ```
 
@@ -20,7 +20,7 @@ public AnnotatedType getAnnotatedReturnType()
 
 该程序包含一个方法名 getAddressMethod，它包含一个注释类型。因此，这个程序将获得包含在 getAddressMethod 方法中的注释类型的细节。
 
-```
+```java
 // Java program to demonstrate how to
 // apply getAnnotatedReturnType() method
 // of Method Class.
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Method Name: getAddress
 Type: java.lang.String
 Annotations: [@GFG$customAnnotatedType()]
@@ -94,7 +94,7 @@ Annotations: [@GFG$customAnnotatedType()]
 
 **示例 2:** 打印 GFG 类方法的数组类型或多维数组或泛型的注释。
 
-```
+```java
 // Java program to demonstrate how to
 // apply getAnnotatedReturnType() method
 // of Method Class.
@@ -174,7 +174,7 @@ public class systemUTCMethodDemo<T> {
 
 **输出:**
 
-```
+```java
 Method Name: getWords
 Type: java.util.List Annotations: sun.reflect.annotation.AnnotatedTypeFactory$AnnotatedParameterizedTypeImpl@12a3a380
 

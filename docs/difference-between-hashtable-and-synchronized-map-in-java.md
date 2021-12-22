@@ -16,7 +16,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate the
 // usage of HashTable
 
@@ -45,7 +45,7 @@ class Hashtable1 {
 
 **输出**
 
-```
+```java
 4 Mona Lisa
 3 Joe Biden
 2 Donald Trumph

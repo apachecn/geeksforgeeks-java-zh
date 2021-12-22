@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setMonetaryDecimalSeparator(char monetaryDecimalSeparator)
 
 ```
@@ -19,7 +19,7 @@ public void setMonetaryDecimalSeparator(char monetaryDecimalSeparator)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -51,7 +51,7 @@ public class DecimalFormatSymbolsDemo {
 
 **输出:**
 
-```
+```java
 Current Character used for monetary decimal separator: .
 Updated Character used for monetary decimal separator: *
 

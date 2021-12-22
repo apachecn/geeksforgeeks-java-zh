@@ -12,7 +12,7 @@ WeakHashMap 类是 [Java 集合框架](https://www.geeksforgeeks.org/java-collec
 
 **示例:**
 
-```
+```java
 Geek strongRef=new Geek();
 ```
 
@@ -20,7 +20,7 @@ Geek strongRef=new Geek();
 
 **示例:**
 
-```
+```java
 new Geek();
 ```
 
@@ -28,7 +28,7 @@ new Geek();
 
 **示例:**
 
-```
+```java
 WeakReference<Geek> weakRef=new WeakReference(new Geek());
 
 // Now use the the get() method to obtain the object
@@ -45,7 +45,7 @@ WeakReference<Geek> weakRef=new WeakReference(new Geek());
 
 **语法:**
 
-```
+```java
 WeakHashMap<K,V> wHM=new WeakHashMap<K,V>();
 ```
 
@@ -53,7 +53,7 @@ WeakHashMap<K,V> wHM=new WeakHashMap<K,V>();
 
 **语法:**
 
-```
+```java
 WeakHashMap<K,V> wHM=new WeakHashMap<K,V>(20);
 
 // This will generate a WeakHashMap 
@@ -64,7 +64,7 @@ WeakHashMap<K,V> wHM=new WeakHashMap<K,V>(20);
 
 **语法:**
 
-```
+```java
 WeakHashMap<K,V> wHM=new WeakHashMap<K,V>(20,0.9);
 
 // This will generate a WeakHashMap object with an
@@ -75,7 +75,7 @@ WeakHashMap<K,V> wHM=new WeakHashMap<K,V>(20,0.9);
 
 **语法:**
 
-```
+```java
 WeakHashMap<K,V> wHM=new WeakHashMap<K,V>( oldMap);
 
 // This will generate a WeakHashMap object and
@@ -112,49 +112,49 @@ WeakHashMap<K,V> wHM=new WeakHashMap<K,V>( oldMap);
 
 **1。containsKey:** 如果映射包含指定的键，则返回 true，否则返回 false。
 
-```
+```java
 public boolean containsKey(Object Key)
 ```
 
 **2。containsValue:** 如果映射包含具有指定值的键，则返回 true，否则返回 false。
 
-```
+```java
 public boolean containsValue(Object Value)
 ```
 
 **3。get:** 返回指定键附带的值。如果键不存在或者值本身为 null，则返回 null。**T3】**
 
-```
+```java
 public T get(Object Key)
 ```
 
 **4。size:** 返回调用该方法时地图中出现的键值对的数量。
 
-```
+```java
 public int size() 
 ```
 
 **5。isEmpty:** 如果在调用方法的瞬间映射中没有键值对，则返回 true，否则返回 false。
 
-```
+```java
 public boolean isEmpty()
 ```
 
 **6。entrySet:** 键值对也称为映射条目。[地图。入口](https://www.geeksforgeeks.org/map-entry-interface-java-example/)界面允许我们使用地图入口。entrySet 方法将返回一组所有当前地图条目。
 
-```
+```java
 public Set<Map.Entry<K,V>> entrySet()
 ```
 
 **7。** **键集:**返回包含地图中所有键的集合。地图中所做的更改将反映在此集合中。在地图上执行操作并同时遍历集合可能会导致未定义的行为。
 
-```
+```java
 public Set<k> keySet()
 ```
 
 **8。值:**返回地图中所有值的集合视图。地图中所做的更改反映在此集合中。在地图上执行操作并同时遍历集合可能会导致未定义的行为。
 
-```
+```java
 public Collection<V> values()
 ```
 
@@ -164,7 +164,7 @@ public Collection<V> values()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement WeakHashMap
 
 import java.util.Collection;
@@ -298,7 +298,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 The grades and cut off are as follows: 
 A+ 90
 C 60

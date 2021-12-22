@@ -65,7 +65,7 @@ Jar 文件是包含一个或多个 java 类文件的 Zip 档案。这使得库(�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add Tables to a Word Document
 
 // Importing I/O file libraries

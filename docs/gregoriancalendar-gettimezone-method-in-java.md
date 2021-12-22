@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public TimeZone getTimeZone()
 ```
 
@@ -15,7 +15,7 @@ public TimeZone getTimeZone()
 
 **示例:**
 
-```
+```java
 Input : Mon Jul 23 19:45:33 UTC 2018
 Output : Coordinated Universal Time
 
@@ -30,7 +30,7 @@ Output : Central Standard Time
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to  illustrate
 // GregorianCalendar.getTimeZone()
 // function
@@ -62,7 +62,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Current Date and Time : Wed Jul 25 11:25:16 UTC 2018
 Time Zone : Coordinated Universal Time
 ```
@@ -71,7 +71,7 @@ Time Zone : Coordinated Universal Time
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to  illustrate
 // GregorianCalendar.getTimeZone()
 // function
@@ -105,7 +105,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Current Date and Time : Wed Jul 25 11:25:22 UTC 2018
 Time Zone : Central Standard Time
 ```

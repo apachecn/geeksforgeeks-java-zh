@@ -14,7 +14,7 @@
 
 ## <u><u>Java 语言(一种计算机语言，尤用于创建网站)</u></u>
 
-```
+```java
 <u>// Java program to showcase the fall through condition
 
 import java.util.*;
@@ -45,7 +45,7 @@ public static void main(String[] args) {
 
 <u><u>**Output**
 
-```
+```java
 GeeksforGeeks number 1
 GeeksforGeeks number 2
 GeeksforGeeks number 3
@@ -62,7 +62,7 @@ This is default case
 
 ## <u><u>Java 语言(一种计算机语言，尤用于创建网站)</u></u>
 
-```
+```java
 <u>// Java Program to check whether the character is a vowel or not
 
 import java.util.*;
@@ -89,6 +89,6 @@ public static void main(String[] args) {
 
 <u><u>**Output**
 
-```
+```java
 Consonant
 ```</u></u>

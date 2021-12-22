@@ -21,7 +21,7 @@
 
 ## Java
 
-```
+```java
 // Java program to demonstrate how to convert String to
 // String Array using Regular Expression in Java
 
@@ -66,7 +66,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Welcome
  to
  GFG
@@ -85,7 +85,7 @@ Welcome
 
 ## Java
 
-```
+```java
 // Java program to demonstrate how to convert String to
 // String Array using Regular Expression in Java
 
@@ -125,6 +125,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 [W, e, l, c, o, m, e, ,,  , t, o, ,,  , G, F, G]
 ```

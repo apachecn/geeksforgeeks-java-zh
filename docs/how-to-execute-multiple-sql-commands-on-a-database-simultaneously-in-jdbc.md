@@ -18,7 +18,7 @@ Java 数据库连接也称为 JDBC，是 Java 中的一个应用程序编程接�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Step 1: Create a database
 // SQL database imported
 import java.sql.Connection;
@@ -107,7 +107,7 @@ public class BatchCommand {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Step 1: Importing database
 // SQL database imported
 import java.sql.Connection;
@@ -203,7 +203,7 @@ public class BatchCommand {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

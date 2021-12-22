@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean equals(int[] a, int[] a2)
 ```
 
@@ -29,7 +29,7 @@ public static boolean equals(int[] a, int[] a2)
 
 **语法:**
 
-```
+```java
 public static boolean deepEquals(Object[] o1, Object[] o2)
 
 o1 = First Array to test for Equality
@@ -54,7 +54,7 @@ o2 = Second Array to test for Equality
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java program to compare two arrays
 // using .equals() method
 
@@ -88,7 +88,7 @@ class GFG {
 
 ***Output**
 
-```
+```java
 Array A and Array B is equal
 Array A and Array C is not equal
 ```* 
@@ -97,7 +97,7 @@ Array A and Array C is not equal
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java program to compare two arrays
 // using .deepEquals() method
 
@@ -134,7 +134,7 @@ class GFG {
 
 ***Output**
 
-```
+```java
 Array A and Array B is equal
 Array A and Array C is not equal
 ```*

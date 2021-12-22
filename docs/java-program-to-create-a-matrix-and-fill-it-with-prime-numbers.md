@@ -4,7 +4,7 @@
 
 **质数**是只能被 1 整除的数，本身不能被其他任何数整除。这里的任务是找到素数，并以矩阵的形式存储它们。
 
-```
+```java
 Example:  
 
 Prime numbers are: 2, 3, 5, 7
@@ -33,7 +33,7 @@ Output:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Create a Matrix and Fill
 // it with Prime Numbers
 
@@ -120,7 +120,7 @@ public class MatrixWithPrimeNumbers {
 
 **Output**
 
-```
+```java
 The Resultant Matrix is : 
 2 3 5 7 
 11 13 17 19 

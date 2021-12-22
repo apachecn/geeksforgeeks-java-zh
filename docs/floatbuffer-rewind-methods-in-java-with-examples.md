@@ -4,7 +4,7 @@
 
 [java.nio.FloatBuffer 类](https://www.geeksforgeeks.org/tag/java-floatbuffer/)的**倒带()**方法用来倒带这个缓冲区。此方法将位置设置为零，限制保持不变，如果有任何先前标记的位置，将被丢弃。当需要进行通道写或获取操作时，应调用此方法。这意味着，如果缓冲区数据已经写入，则需要将其复制到另一个数组中。例如:
 
-```
+```java
 
 out.write(buf);   // Writes the remaining data
 buf.rewind();     // Rewind the buffer
@@ -14,7 +14,7 @@ buf.get(array);   // Copy data into array
 
 **语法:**
 
-```
+```java
 public final FloatBuffer rewind()
 ```
 
@@ -26,7 +26,7 @@ public final FloatBuffer rewind()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // rewind() method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Buffer before operation: [10.5, 20.5, 0.0, 0.0]
 Position: 2
 Limit: 4
@@ -85,7 +85,7 @@ Limit: 4
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // rewind() method
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Buffer before operation: [10.5, 20.5, 30.5, 0.0, 0.0]
 Position: 3
 Limit: 5

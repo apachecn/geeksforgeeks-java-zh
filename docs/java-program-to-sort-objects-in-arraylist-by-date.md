@@ -31,7 +31,7 @@ Java **比较器**接口用于对用户定义类的对象进行排序。通过�
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Sort Objects in ArrayList by Date
 // Using Comparator interface
 
@@ -109,7 +109,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 Sorted in Ascending Order
 1998-01-27
 1998-02-26
@@ -123,7 +123,7 @@ Sorted in Ascending Order
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Sort Objects in ArrayList by Date
 // Using Comparator interface
 
@@ -200,7 +200,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 Sorted in Descending Order
 2020-03-25
 2019-01-27
@@ -216,7 +216,7 @@ Sorted in Descending Order
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to Sort Objects in ArrayList by Date
 // Using Collections.sort() method
 
@@ -273,7 +273,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 Dates Object before sorting : 
 2020-03-25
 2019-01-27

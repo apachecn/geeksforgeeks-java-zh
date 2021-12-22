@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String replaceAll(String stringToBeReplaced)
 
 ```
@@ -19,7 +19,7 @@ public String replaceAll(String stringToBeReplaced)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate replaceAll() method
 
 import java.util.regex.*;
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before Replacement: GeeksForGeeks Geeks for For Geeks Geek
 After Replacement: GFGForGFG GFG for For GFG Geek
 
@@ -70,7 +70,7 @@ After Replacement: GFGForGFG GFG for For GFG Geek
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate replaceAll() method
 
 import java.util.regex.*;
@@ -110,7 +110,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After Replacement: GGFGGGFGGGFGGGFGGFG GFG GFG GFG GFG
 
 ```

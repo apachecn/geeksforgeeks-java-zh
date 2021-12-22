@@ -6,7 +6,7 @@ Java 中的 Java . util . arraydeque . offer(*Object 元素*)方法用于在 Deq
 
 **语法:**
 
-```
+```java
 Array_Deque.offer(*Object element*)
 ```
 
@@ -19,7 +19,7 @@ Array_Deque.offer(*Object element*)
 下面的程序说明了 Java.util.ArrayDeque.offer()方法:
 **程序 1:** 将字符串元素添加到 Deque 中。
 
-```
+```java
 // Java code to illustrate offer()
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial Deque: [Welcome, To, Geeks, 4, Geeks]
 Final Deque: [Welcome, To, Geeks, 4, Geeks, Hello, World]
 
@@ -59,7 +59,7 @@ Final Deque: [Welcome, To, Geeks, 4, Geeks, Hello, World]
 
 **程序 2:** 将整数元素加入到德格中。
 
-```
+```java
 // Java code to illustrate offer()
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial Deque: [10, 15, 30, 20, 5]
 Final Deque: [10, 15, 30, 20, 5, 1658, 2458]
 

@@ -15,7 +15,7 @@ Java 支持许多数据库，对于每个数据库，我们需要将它们各自
 
 就数据库而言，情况有所不同。当我们使用 MySQL 时，我们可以通过
 
-```
+```java
 Class.forName("com.mysql.cj.jdbc.Driver");
 or
 DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver");
@@ -32,13 +32,13 @@ DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver");
 
 **3。创建语句对象**
 
-```
+```java
 Statement st = connection.createStatement();
 ```
 
 **4。执行查询**
 
-```
+```java
 String query = "Select * from doctorsdetails";
 // Executing the query
 ResultSet resultSet = statement.executeQuery(query);
@@ -100,7 +100,7 @@ ResultSet resultSet = statement.executeQuery(query);
 
 让一个名为**doctor 的表格显示 **MySQL** 中 **test** 数据库下的**，
 
-```
+```java
 CREATE TABLE `doctorsdetails` (
  `id` int(6) unsigned NOT NULL,
  `Name` varchar(50) DEFAULT NULL,
@@ -131,7 +131,7 @@ CREATE TABLE `doctorsdetails` (
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get the column type in JDBC
 
 import java.sql.*;

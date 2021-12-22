@@ -14,7 +14,7 @@ java 内置方法中的**Java . lang . character . istitlecase()**，用于确�
 
 **语法:**
 
-```
+```java
 public static boolean isTitleCase(char ch)
 
 ```
@@ -25,7 +25,7 @@ public static boolean isTitleCase(char ch)
 
 下面的程序说明了 isTitleCase()方法:
 
-```
+```java
 // Java program to demonstrate
 // Character.isTitleCase() method
 import java.lang.*;
@@ -51,7 +51,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 Z is a titlecase character is false
 unicode ? is a titlecase character is true
 

@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **withMonth()** 方法用于获取该 LocalDat
 
 **语法:**
 
-```
+```java
 public LocalDateTime withMonth(int months)
 ```
 
@@ -20,7 +20,7 @@ public LocalDateTime withMonth(int months)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withMonth() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2018-11-30T12:51:39.472
 New LocalDateTime: 2018-05-30T12:51:39.472
 
@@ -53,7 +53,7 @@ New LocalDateTime: 2018-05-30T12:51:39.472
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withMonth() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2015-04-06T10:15:30
 New LocalDateTime: 2015-12-06T10:15:30
 

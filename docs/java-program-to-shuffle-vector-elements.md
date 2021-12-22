@@ -19,7 +19,7 @@ shuffle()方法的应用
 
 **等级等级:**
 
-```
+```java
 java
    ↳ util 
       ↳ Collections 
@@ -27,7 +27,7 @@ java
 
 **语法:**
 
-```
+```java
 Collections.shuffle(vector).
 ```
 
@@ -39,7 +39,7 @@ Collections.shuffle(vector).
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to shuffle Vector Elements
 
 // Importing libraries
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original Vector : [5, 6, 7, 8, 9] 
 After shuffling, Vector : [8, 9, 5, 6, 7]
 ```
@@ -86,7 +86,7 @@ After shuffling, Vector : [8, 9, 5, 6, 7]
 
 **语法:**
 
-```
+```java
 Collections.shuffle(Vector, Random random)
 ```
 
@@ -94,7 +94,7 @@ Collections.shuffle(Vector, Random random)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to shuffle Vector Elements
 
 // Importing java libraries
@@ -141,7 +141,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original Vector : [geeksforgeeks, course, practice, archive, interview]
 
 Shuffled Vector with Random() : 

@@ -5,7 +5,7 @@
 **java.text.FieldPosition** 类的 **getField()** 方法用于检索该字段位置对象的字段标识符。
 **语法:**
 
-```
+```java
 public int getField()
 ```
 
@@ -16,7 +16,7 @@ public int getField()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getField() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 field attribute :- -1
 ```
 
@@ -64,7 +64,7 @@ field attribute :- -1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getField() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 field attribute :- -1
 ```
 

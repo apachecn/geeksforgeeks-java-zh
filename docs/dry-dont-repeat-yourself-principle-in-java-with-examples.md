@@ -20,7 +20,7 @@ DRY 只是一种方法，或者我们可以对程序员说一种不同的感知�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program without DRY approach
 
 // Main class
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 This is computer science
 IIT - Madras
 This is electronics
@@ -107,7 +107,7 @@ IIT - Madras
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program with Use of DRY Concept
 
 // Importing input output classes
@@ -179,7 +179,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 This is computer science
 IIT - Madras
 This is electronics
@@ -195,7 +195,7 @@ IIT - Madras
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program with Use of DRY Concept
 
 // Importing input output classes
@@ -254,7 +254,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 sravan
 SBI
 ramya

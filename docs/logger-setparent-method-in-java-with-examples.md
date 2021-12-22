@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setParent(Logger parent)
 
 ```
@@ -20,7 +20,7 @@ public void setParent(Logger parent)
 下面的程序说明了 setParent()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.setParent() method
 
@@ -58,7 +58,7 @@ Eclipse 控制台上打印的输出如下所示-
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.setParent() method
 

@@ -9,7 +9,7 @@
 1.  **join():** 它会将当前线程置于 on 状态，直到调用它的线程死亡。如果线程被中断，那么它将抛出中断异常。
     **语法:**
 
-    ```
+    ```java
     public final void join()
 
     ```
@@ -17,7 +17,7 @@
 2.  **join(long millis)** :它会将当前线程置于等待状态，直到调用它的线程停止或等待指定的时间(毫秒)。
     **语法:**
 
-    ```
+    ```java
     public final synchronized void join(long millis)
 
     ```
@@ -25,12 +25,12 @@
 3.  **join(long millis，int nano):**它会将当前线程置于等待状态，直到调用它的线程停止运行或等待指定的时间(毫秒+nano)。
     **语法:**
 
-```
+```java
 public final synchronized void join(long millis, int nanos)
 
 ```
 
-```
+```java
 // Java program to explain the
 // concept of joining a thread.
 import java.io.*;
@@ -113,7 +113,7 @@ class GFG
 
 输出:
 
-```
+```java
 Current Thread: main
 Current Thread: Thread-0
 0

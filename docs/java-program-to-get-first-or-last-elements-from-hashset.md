@@ -15,7 +15,7 @@ HashSet 不能保证元素的顺序随着时间的推移保持不变，这意味
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get First or
 // Last Elements from Java HashSet
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 HashSet : [50, 20, 40, 10]
 First element of HashSet : 50
 ```
@@ -72,7 +72,7 @@ First element of HashSet : 50
 
 ****语法:****
 
-```
+```java
 set.stream().findFirst().get()
 ```
 
@@ -84,7 +84,7 @@ set.stream().findFirst().get()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to find the first element
 // in HashSet with the help of stream
 
@@ -124,7 +124,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 HashSet : [50, 20, 40, 10]
 First element of HashSet : 50
 ```**

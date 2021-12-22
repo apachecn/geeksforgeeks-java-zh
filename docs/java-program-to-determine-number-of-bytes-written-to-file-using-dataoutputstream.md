@@ -12,7 +12,7 @@ Java OutputStream 类，**[**Java . IO . OutputStream**](https://www.geeksforgee
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to determine number of bytes
 // written to DataOutputStream
 
@@ -70,7 +70,7 @@ public class NumberOfBytesInOutputStream {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to determine number of bytes
 // written to DataOutputStream
 

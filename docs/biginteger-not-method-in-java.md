@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger not()
 ```
 
@@ -16,7 +16,7 @@ public BigInteger not()
 
 **例:**
 
-```
+```java
 Input: value = 2300
 Output: -2301
 Explanation:
@@ -31,7 +31,7 @@ Output: -567690
 
 下面程序举例说明 BigInteger()的 not()方法:
 
-```
+```java
 /*
 *Program Demonstrate not() method of BigInteger 
 */
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Result of NOT operation on 2300 is -2301
 
 ```

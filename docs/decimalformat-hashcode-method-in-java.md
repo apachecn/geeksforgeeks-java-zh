@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // hashCode() method
 
@@ -42,14 +42,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 423132
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // hashCode() method
 
@@ -74,7 +74,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 423132
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int lastIndexOf(Object o)
 ```
 
@@ -20,7 +20,7 @@ public int lastIndexOf(Object o)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // lastIndexOf() method
 // for String value
@@ -66,7 +66,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayList : [A, B, A, B, E]
 Last index of A : 2
 
@@ -74,7 +74,7 @@ Last index of A : 2
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // lastIndexOf() method
 // for NullPointerException
@@ -116,7 +116,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayList : null
 
 Trying to get the index from null ArrayList

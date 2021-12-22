@@ -11,7 +11,7 @@ Java 中的 compare()方法比较作为参数给出的两个类特定对象(x，
 
 **语法:**
 
-```
+```java
 public int compare(Object obj1, Object obj2)
 ```
 
@@ -23,7 +23,7 @@ public int compare(Object obj1, Object obj2)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of compare() method using Integer Class
 
@@ -60,7 +60,7 @@ class Gfg {
 
 **Output:** 
 
-```
+```java
 -1
 0
 1
@@ -72,7 +72,7 @@ compare()方法的内部工作可以在下面伪代码的帮助下可视化:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Converting the two objects to integer
 // for comparison
 int intObj1 = (int)obj1;
@@ -102,7 +102,7 @@ else {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of compare() method
 
@@ -168,7 +168,7 @@ class Gfg {
 
 **Output:** 
 
-```
+```java
 -1
 0
 1
@@ -176,7 +176,7 @@ class Gfg {
 
 ### compare()方法的各种可能实现
 
-> ```
+> ```java
 > public int compare(Object obj1, Object obj2)
 > {
 >     Integer I1 = (Integer)obj1; // typecasting object type into integer type

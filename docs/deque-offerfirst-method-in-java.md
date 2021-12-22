@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean offerFirst(E e)
 ```
 
@@ -24,7 +24,7 @@ boolean offerFirst(E e)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate offerFirst()
 // method of Deque when Null is passed
 import java.util.*;
@@ -67,7 +67,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Deque is not full and 10 is inserted
 The Deque is not full and 15 is inserted
 The Deque is not full and 25 is inserted
@@ -78,7 +78,7 @@ Deque: [25, 15, 10]
 
 **节目 2:**
 
-```
+```java
 // Java Program Demonstrate offerFirst()
 // method of Queue when Null is passed
 import java.util.*;
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at java.util.concurrent.LinkedBlockingDeque.offerFirst(LinkedBlockingDeque.java:342)
     at GFG.main(GFG.java:21)

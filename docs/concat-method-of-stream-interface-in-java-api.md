@@ -44,7 +44,7 @@
 
 ## Java
 
-```
+```java
 // Implementation of concat() method
 // of Stream interface in Java API
 
@@ -77,7 +77,7 @@ public class GFG2 {
 
 **输出**
 
-```
+```java
 1
 2
 3
@@ -92,7 +92,7 @@ public class GFG2 {
 
 ## **Java**
 
-```
+```java
 // Implementation of concat() method
 // of Stream interface in Java API
 import java.util.*;
@@ -127,7 +127,7 @@ public class GFG2 {
 
 ****输出**
 
-```
+```java
 1.025
 2.0687
 3.01

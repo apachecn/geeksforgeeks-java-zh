@@ -6,7 +6,7 @@ java 中两字节值的加法与普通整数加法相同。字节数据类型是
 
 **例:**
 
-```
+```java
 Input:  firstByte = 10, secondByte = 23
 Output: Sum = 33
 
@@ -27,7 +27,7 @@ Output: Sum = 33
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Calculate Sum of
 // Two Byte Values Using Type Casting
 

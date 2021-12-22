@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getBlockSize() throws IOException
 
 ```
@@ -23,7 +23,7 @@ public long getBlockSize() throws IOException
 下面的程序说明了 getBlockSize()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // FileStore.getBlockSize() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // FileStore.getBlockSize() method
 

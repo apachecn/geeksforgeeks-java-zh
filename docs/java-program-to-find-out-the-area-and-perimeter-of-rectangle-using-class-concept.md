@@ -10,11 +10,11 @@
 
 **用矩形面积和矩形周长的公式:**
 
-```
+```java
 Area of Rectangle = Length * Breadth
 ```
 
-```
+```java
 Perimeter of Rectangle = 2 * (Length + Breadth)
 ```
 
@@ -39,7 +39,7 @@ Perimeter of Rectangle = 2 * (Length + Breadth)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a class to
 // print the area and perimeter of a
 // rectangle
@@ -102,7 +102,7 @@ public class Rectangle {
 
 **Output**
 
-```
+```java
 Length = 15.854
 Width = 22.65
 Area of rectangle is : 359.09309999999994

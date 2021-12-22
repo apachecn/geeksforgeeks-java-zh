@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public V 
        computeIfAbsent(K key,
              Function<? super K, ? extends V> remappingFunction)
@@ -32,7 +32,7 @@ public V
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // computeIfAbsent(Key, Function) method.
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashTable: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 new hashTable: {newPen=600, Book=500, newBook=800, Mobile=5000, Pen=10, Clothes=400}
 
@@ -77,7 +77,7 @@ new hashTable: {newPen=600, Book=500, newBook=800, Mobile=5000, Pen=10, Clothes=
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // computeIfAbsent(Key, Function) method.
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashTable: {3=1000RS, 2=500RS, 1=100RS}
 new hashTable: {4=600RS, 3=1000RS, 2=500RS, 1=100RS}
 

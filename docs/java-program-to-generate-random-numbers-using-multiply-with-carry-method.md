@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : Length = 5
 Output: 1581 16 1932 1969 1384
 
@@ -29,7 +29,7 @@ Output: 985 3568
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to generate a random numbers
 // Based on Multiply with carry method
 import java.util.Random;
@@ -65,6 +65,6 @@ public class Main {
 
 **Output**
 
-```
+```java
 The random number sequence is: 508 1021 1549 857 414 1187 1425 1557 1945 1922
 ```

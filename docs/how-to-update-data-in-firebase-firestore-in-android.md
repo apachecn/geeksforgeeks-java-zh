@@ -16,7 +16,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -80,7 +80,7 @@
 
 ## Java
 
-```
+```java
 import com.google.firebase.firestore.Exclude;
 
 import java.io.Serializable;
@@ -154,7 +154,7 @@ public class Courses implements Serializable {
 
 ## 爪哇
 
-```
+```java
 // here we are adding on click listener
 // for our item of recycler view.
 itemView.setOnClickListener(new View.OnClickListener() {

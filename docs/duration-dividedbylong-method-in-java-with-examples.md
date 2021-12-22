@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration dividedBy(long divisor)
 
 ```
@@ -21,7 +21,7 @@ public Duration dividedBy(long divisor)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate dividedBy() method
 
 import java.time.Duration;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT25H32M
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate dividedBy() method
 
 import java.time.Duration;
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT5H6M24S
 
 ```

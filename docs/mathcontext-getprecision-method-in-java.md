@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getPrecision()
 ```
 
@@ -16,7 +16,7 @@ public int getPrecision()
 
 **示例:**
 
-```
+```java
 Input : m1 = new MathContext(7); 
 Output : 7
 
@@ -28,7 +28,7 @@ Output : 2
 以下程序说明了 getPrecision()函数的使用:
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate getPrecision() method
 import java.math.*;
 import java.io.*;
@@ -51,14 +51,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 
 ```
 
 **程序 2 :**
 
-```
+```java
 // Java program to demonstrate getPrecision() method
 import java.math.*;
 import java.io.*;
@@ -81,7 +81,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 50
 
 ```

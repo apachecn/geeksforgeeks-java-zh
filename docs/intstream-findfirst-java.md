@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 OptionalInt findFirst()
 
 Where, OptionalInt is a container object which
@@ -23,7 +23,7 @@ if the stream is empty.
 
 **示例 1 :** 整数流上的 findFirst()方法。
 
-```
+```java
 // Java code for IntStream findFirst()
 // which returns an OptionalInt describing
 // first element of the stream, or an
@@ -56,7 +56,7 @@ class GFG {
 
 输出:
 
-```
+```java
 6
 
 ```
@@ -65,7 +65,7 @@ class GFG {
 
 **示例 2 :** findFirst()方法返回第一个可被 4 整除的元素。
 
-```
+```java
 // Java code for IntStream findFirst()
 // which returns an OptionalInt describing
 // first element of the stream, or an
@@ -99,7 +99,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4
 
 ```

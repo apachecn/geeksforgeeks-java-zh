@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Instant minusMillis(long millisToSubtract)
 ```
 
@@ -23,7 +23,7 @@ public Instant minusMillis(long millisToSubtract)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.minusMillis() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Returned Instant: 2018-12-30T01:48:10.630Z
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.minusMillis() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current instant: 2018-11-27T05:13:12.132Z
 Returned Instant: 2018-11-26T19:13:12.132Z
 

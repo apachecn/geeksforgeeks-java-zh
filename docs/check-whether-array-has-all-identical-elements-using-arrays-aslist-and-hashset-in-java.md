@@ -17,7 +17,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java implementation of the approach
 import java.util.*;
 
@@ -53,7 +53,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Yes
 
 ```

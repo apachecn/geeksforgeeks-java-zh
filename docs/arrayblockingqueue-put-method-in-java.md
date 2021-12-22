@@ -12,7 +12,7 @@
 如果队列未满， **put (E e)** 方法将作为参数传递的元素插入到该队列(ArrayBlockingQueue)尾部的方法中。如果**队列已满，那么它将等待空间变得可用。**
 **语法:**
 
-```
+```java
 public void put(E e)  throws InterruptedException
 ```
 
@@ -26,7 +26,7 @@ NullPointerException–如果指定的元素为空。
 
 **例 1**
 
-```
+```java
 // Java Program to demonstrate put(E e)
 // method of ArrayBlockingQueue.
 
@@ -55,7 +55,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output :
 queue contains [223, 546, 986, 357, 964]
 
@@ -63,7 +63,7 @@ queue contains [223, 546, 986, 357, 964]
 
 **例 2**
 
-```
+```java
 // Java Program to demonstrate put(E e)
 // method of ArrayBlockingQueue
 
@@ -102,7 +102,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 Output :
 queue contains [StarWars, SuperMan, Flash, BatMan, Avengers]
 queue contains [Flash, BatMan, Avengers, CaptainAmerica, Thor]

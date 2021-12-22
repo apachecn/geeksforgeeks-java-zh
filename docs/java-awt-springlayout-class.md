@@ -21,7 +21,7 @@ AWT(抽象窗口工具包)中的一个 SpringLayout 类根据一组布局约束�
 
 *   **Program 1:** Below program arranges the components in a *JFrame*. We create 1 *JLabel* components named “*label*” and create a 1 *JTextField* named “*textfield*” and create a 2 classes, one is *JFrame class* and another is *SpringLayout class* and then add them to the *JFrame* by the method *add()*. We set the visibility of the frame using *setvisible()* method. The layout is set by using *setLayout()* method.
 
-    ```
+    ```java
     // Java program to show Example of SpringLayout.
     // in java. Importing different Package.
     import java.awt.Container;
@@ -116,7 +116,7 @@ AWT(抽象窗口工具包)中的一个 SpringLayout 类根据一组布局约束�
     <video class="wp-video-shortcode" id="video-219508-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/gfgspr1.mp4.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/gfgspr1.mp4.mp4](https://media.geeksforgeeks.org/wp-content/uploads/gfgspr1.mp4.mp4)</video>
 *   **Program 2:** Below program arranges the components in a *JFrame*. We create 1 class named “*springlayout* class” and create a 4 *JButton* components named “*b1″, “b2”, “b3”, “b4”, “b5*” and then add them to the *JFrame* by the method *add()*. We set the visibility of the frame by using the method *setvisible()*. The layout is set by *setLayout()* method.
 
-    ```
+    ```java
     // Java program to show Example of SpringLayout.
     // in java. Importing different Package.
     import java.awt.*;

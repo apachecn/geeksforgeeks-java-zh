@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Attribute API
 
 // Importing classes from
@@ -300,7 +300,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 the key set of the Attributes is 
 CLASS_PATH    CONTENT_TYPE    MANIFEST_VERSION    MAIN_CLASS    
 the values of the Attributes is 

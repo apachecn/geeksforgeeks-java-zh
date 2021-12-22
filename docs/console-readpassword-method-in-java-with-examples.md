@@ -8,7 +8,7 @@ Java 中**控制台**类的 **readPassword()** 方法有两种类型:
 
 **语法:**
 
-```
+```java
 public char[] readPassword()
 
 ```
@@ -25,7 +25,7 @@ public char[] readPassword()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Console readPassword() method
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Console readPassword() method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public char[] readPassword(String fmt,
                       Object... args)
 
@@ -135,7 +135,7 @@ public char[] readPassword(String fmt,
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // Console readPassword(String, Object) method
 
@@ -180,7 +180,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // Console readPassword(String, Object) method
 

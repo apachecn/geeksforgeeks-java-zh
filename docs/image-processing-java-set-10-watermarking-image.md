@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for watermarking an image
 
 // For setting color of the watermark text
@@ -94,7 +94,7 @@ public class WaterMark
 **注意:**代码不会在联机 ide 上运行，因为它需要驱动器中的映像。
 产量:
 
-```
+```java
 input.jpg
 
 output.jpg

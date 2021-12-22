@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 @GwtCompatible(emulated=true)
 public final class Bytes
 extends Object
@@ -25,7 +25,7 @@ extends Object
 下面给出了一些显示番石榴字节类方法实现的示例:
 **示例 1 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Bytes.asList() method
 
@@ -50,14 +50,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [3, 4, 5, 6, 7]
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Bytes.indexOf() method
 
@@ -79,14 +79,14 @@ class GFG {
 
 输出:
 
-```
+```java
 2
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Bytes.concat() method
 
@@ -113,14 +113,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [3, 4, 5, 6, 7]
 
 ```
 
 **例 4 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Bytes.contains() method
 
@@ -143,7 +143,7 @@ class GFG {
 
 输出:
 
-```
+```java
 false
 true
 
@@ -151,7 +151,7 @@ true
 
 **例 5 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Bytes.lastIndexOf() method
 
@@ -172,14 +172,14 @@ class GFG {
 
 输出:
 
-```
+```java
 6
 
 ```
 
 **例 6 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Bytes.lastIndexOf() method
 
@@ -202,7 +202,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -1
 
 ```

@@ -15,7 +15,7 @@ Java 提供[](https://www.geeksforgeeks.org/tag/java-util-concurrent-atomic-pack
 
 ****示例:****
 
-```
+```java
 // Atomic Variable
 AtomicInteger var;
 ```
@@ -25,7 +25,7 @@ AtomicInteger var;
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 class Counter extends Thread {
 
     // Counter Variable
@@ -73,7 +73,7 @@ public class UnSafeCounter {
 
 ****Output:** 
 
-```
+```java
 137754082
 ```** 
 
@@ -85,7 +85,7 @@ public class UnSafeCounter {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import java.io.*;
 import java.util.concurrent.locks.*;
 
@@ -136,7 +136,7 @@ public class SynchronizedCounter {
 
 ****Output:** 
 
-```
+```java
 200000000
 ```** 
 
@@ -144,7 +144,7 @@ public class SynchronizedCounter {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import java.util.concurrent.atomic.AtomicInteger;
 
 class Counter extends Thread {
@@ -200,6 +200,6 @@ public class AtomicCounter {
 
 ****Output:** 
 
-```
+```java
 200000000
 ```**

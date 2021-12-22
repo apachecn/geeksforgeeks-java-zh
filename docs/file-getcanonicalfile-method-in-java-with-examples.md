@@ -8,13 +8,13 @@
 **例如:**如果我们使用路径“program.txt”创建一个文件对象，它将指向保存可执行程序的同一目录中的文件(如果您使用的是 IDE，它将指向您保存程序的文件)。这里上面提到的文件路径是“program.txt”，但是这个路径不是绝对的(即不完整)。函数 getCanonicalFile()将返回一个文件，该文件的路径将是根目录中的绝对唯一路径。现有文件的规范形式可以不同于相同的不存在的文件的规范形式，并且当删除时，现有文件的规范形式可以不同于相同文件的规范形式。
 **功能签名:**
 
-```
+```java
 public File getCanonicalFile()
 ```
 
 **函数语法:**
 
-```
+```java
 file.getCanonicalFile()
 ```
 
@@ -31,7 +31,7 @@ file.getCanonicalFile()
 
 **示例 1:** 这里的“program.txt”是存在于当前工作目录中的文件
 
-```
+```java
 // Java program to demonstrate the
 // use of getCanonicalFile() function
 
@@ -67,7 +67,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Original file path: program.txt
 Canonical file path: C:\Users\pc\eclipse-workspace1\arnab\program.txt
 
@@ -77,7 +77,7 @@ Canonical file path: C:\Users\pc\eclipse-workspace1\arnab\program.txt
 
 **示例 2:** 给定一个文件对象，我们必须从该文件对象创建规范文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getCanonicalFile() function
 
@@ -114,7 +114,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Original file path: c:\users\..\program
 Canonical file path: C:\program
 

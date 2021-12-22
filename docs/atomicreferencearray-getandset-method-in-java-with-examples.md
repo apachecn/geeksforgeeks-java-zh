@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final E getAndSet(int i, E newValue)
 ```
 
@@ -21,7 +21,7 @@ public final E getAndSet(int i, E newValue)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.getAndSet() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Old value at index 0: 1234
 New value at index 0: 8913
 Old value at index 1: 4322
@@ -68,7 +68,7 @@ New value at index 1: 6543
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.getAndSet() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Old value at index 0: GFG
 New value at index 0: GEEKS FOR GEEKS
 Old value at index 1: JS

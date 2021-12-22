@@ -6,7 +6,7 @@ Calendar 类的**get(int*field _ value*)**方法用于返回参数中给定日�
 
 **语法:**
 
-```
+```java
 public int get(int field)
 ```
 
@@ -17,7 +17,7 @@ public int get(int field)
 下面的程序说明了日历类 get()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate
 // get() Method
 
@@ -44,7 +44,7 @@ public class CalendarClassDemo
 
 **Output:**
 
-```
+```java
 The given calendar's year is: 2019
 The given calendar's month is: 1
 The given calendar's day is: 13
@@ -53,7 +53,7 @@ The given calendar's day is: 13
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate
 // get() Method
 
@@ -80,7 +80,7 @@ public class CalendarClassDemo
 
 **Output:**
 
-```
+```java
 The given calendar's year is: 2019
 The given calendar's month is: 9
 The given calendar's day is: 2

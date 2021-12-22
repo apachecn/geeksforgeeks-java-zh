@@ -16,7 +16,7 @@
 
 下面是我们的 JSON 数组，我们将在我们的安卓应用程序中显示数据。
 
-```
+```java
 [
    {
       "courseName":"Fork CPP",
@@ -73,7 +73,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--permissions for INTERNET-->
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
@@ -84,7 +84,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -119,7 +119,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class RecyclerData {
     // string variables for our data
     // make sure that the variable name
@@ -177,7 +177,7 @@ public class RecyclerData {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -251,7 +251,7 @@ public class RecyclerData {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -326,7 +326,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.ArrayList;
 
 import retrofit2.Call;
@@ -351,7 +351,7 @@ public interface RetrofitAPI {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;

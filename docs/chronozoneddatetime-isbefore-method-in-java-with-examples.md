@@ -6,7 +6,7 @@ Java 中**时区数据时间接口**的 **isBefore()** 方法用于检查作为�
 
 **语法:**
 
-```
+```java
 public boolean isBefore(ChronoZonedDateTime otherDate)
 ```
 
@@ -18,7 +18,7 @@ public boolean isBefore(ChronoZonedDateTime otherDate)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 2018-10-06T19:21:12.123+05:30[Asia/Calcutta]
 false
@@ -61,7 +61,7 @@ false
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -95,7 +95,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-10-06T19:21:12.123+05:30[Asia/Calcutta]
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 true

@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Use of FileInputStream class
 
 // Importing the desired class
@@ -92,7 +92,7 @@ class FileInputStreamGFG {
 
 **输出:**
 
-```
+```java
 Java was called Oak at the beginning.
 ```
 
@@ -102,7 +102,7 @@ Java was called Oak at the beginning.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Use of ObjectInputStream
 // class
 
@@ -233,7 +233,7 @@ public class ObjectInputStreamDemo {
 
 **输出:**
 
-```
+```java
 Successfully read student object from the file.
 Student [name=John, age=25]
 Name = John

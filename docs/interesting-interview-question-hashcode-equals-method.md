@@ -10,7 +10,7 @@
 
 **方法 1(不覆盖 hashCode 和 equals 方法)**
 
-```
+```java
 // Java program to create a map of employee
 // and address Without overriding
 // hashCode and equals methods
@@ -80,7 +80,7 @@ public class Test {
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at Test.getAddress(Test.java:44)
     at Test.main(Test.java:59)
@@ -91,7 +91,7 @@ Exception in thread "main" java.lang.NullPointerException
 
 **方法 2(覆盖 hashCode 和 equals 方法)**
 
-```
+```java
 // Java program to create a map of employee
 // and address using overriding
 // hashCode and equals methods
@@ -189,7 +189,7 @@ public class Test {
 
 输出:
 
-```
+```java
 304, Marol Mahrisi, Mumbai, 400069
 
 ```

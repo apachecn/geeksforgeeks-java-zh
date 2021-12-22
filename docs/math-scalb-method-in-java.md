@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double scalb(*double a, int scale*)
     ```
 
@@ -22,7 +22,7 @@
     **返回值:**该方法返回 *a* x 2^ *刻度*
     **示例:**
 
-    ```
+    ```java
     Input: 
     a = 77.23
     scale = 3
@@ -33,7 +33,7 @@
 
     下面的程序说明了 Java . lang . math . scalb(*double a，int scale* )方法:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.Math.scalb(double a, int scale )
     import java.lang.*;
@@ -56,7 +56,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Value of Math.scalb(52.12, 8) = 13342.72
 
     ```
@@ -69,7 +69,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double scalb(*float a, int scale*)
     ```
 
@@ -81,7 +81,7 @@
     **返回值:**该方法返回 *a* x 2^ *刻度*
     **示例:**
 
-    ```
+    ```java
     Input: 
     a = 32.14f
     scale = 6
@@ -93,7 +93,7 @@
     下面的程序说明了 Java . lang . math . scalb(*float a，int scale* )方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.Math.scalb(float a, int scale )
     import java.lang.*;
@@ -116,7 +116,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Value of Math.scalb(81.27, 8) = 20805.12
 
     ```

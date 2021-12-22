@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static Clock tickMinutes(ZoneId zone)
 ```
 
@@ -21,7 +21,7 @@ public static Clock tickMinutes(ZoneId zone)
 
 **示例:**
 
-```
+```java
 Code:
 ZoneId zoneId = ZoneId.of("Asia/Calcutta");
 Clock clock = Clock.tickMinutes(zoneId);
@@ -42,7 +42,7 @@ visualized as the second field is empty in output.
 
 **程序 1:** 当时钟创建时，带有“亚洲/加尔各答”区域，用于打印整分钟内的时钟滴答声。
 
-```
+```java
 // Java program to demonstrate
 // tickMinutes() method of Clock class
 
@@ -68,14 +68,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 2018-08-24T07:51:00Z
 
 ```
 
 **程序 2:** 打印带有“欧洲/巴黎”区域的时钟日期和时间，以及整分钟的时钟滴答声。
 
-```
+```java
 // Java program to demonstrate
 // tickMinutes() method of Clock class
 
@@ -106,7 +106,7 @@ public class tickMinutesMethodDemo {
 
 **Output:**
 
-```
+```java
 Date and Time :2018-08-24T09:52+02:00[Europe/Paris]
 
 ```

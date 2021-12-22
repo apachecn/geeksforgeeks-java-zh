@@ -6,7 +6,7 @@ Java 8 中的 java.util.stream.IntStream 处理原语 int。它以一种新的�
 
 **语法:**
 
-```
+```java
 OptionalInt() max()
 
 Where, OptionalInt is a container object which 
@@ -16,7 +16,7 @@ may or may not contain a int value.
 
 **例 1 :**
 
-```
+```java
 // Java code for IntStream max()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -50,14 +50,14 @@ class GFG {
 
 输出:
 
-```
+```java
 54
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for IntStream max()
 // to get the maximum value in range
 // excluding the last element
@@ -85,14 +85,14 @@ class GFG {
 
 输出:
 
-```
+```java
 74
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Java code for IntStream max()
 // to get the maximum value in range
 // excluding the last element
@@ -120,7 +120,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -1
 
 ```

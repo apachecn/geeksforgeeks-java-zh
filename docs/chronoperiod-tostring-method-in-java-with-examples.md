@@ -6,7 +6,7 @@ Java 中**计时周期接口**的 **toString()** 方法用来返回这个计时�
 
 **语法:**
 
-```
+```java
 ChronoPeriod toString()
 ```
 
@@ -18,7 +18,7 @@ ChronoPeriod toString()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the toString() function
 
 import java.time.*;
@@ -50,14 +50,14 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 P4Y11M10D
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the toString() function
 
 import java.time.*;
@@ -89,7 +89,7 @@ public class ChronoPeriodClass {
 
 **输出:**
 
-```
+```java
 P-4Y-11M-10D
 
 ```

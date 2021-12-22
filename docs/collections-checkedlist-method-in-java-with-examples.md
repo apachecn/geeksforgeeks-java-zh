@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static  List
 checkedList(List list, Class type)
 ```
@@ -26,7 +26,7 @@ checkedList(List list, Class type)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate checkedList() method
 // of Collections class for a string value
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 List: [A, B, C, TajMahal]
 Typesafe view of List: [A, B, C, TajMahal]
 ```
@@ -91,7 +91,7 @@ Typesafe view of List: [A, B, C, TajMahal]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate checkedList() method
 // of Collections class for a string value
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 List: [20, 30, 40, 50]
 Typesafe view of List: [20, 30, 40, 50]
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static char reverseBytes(char ch)
 
 ```
@@ -18,7 +18,7 @@ public static char reverseBytes(char ch)
 下面的程序说明了 Java . lang . character . reverse bytes()函数:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.reverseBytes() when a
 
@@ -41,14 +41,14 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 Reversing bytes on ? gives M
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.reverseBytes() when a
 // number is passed
@@ -78,7 +78,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 Reversing bytes on 9 gives ?
 Reversing bytes on 7 gives ?
 

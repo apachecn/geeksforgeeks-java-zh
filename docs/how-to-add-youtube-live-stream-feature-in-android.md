@@ -22,7 +22,7 @@ YouTube 提供了一项服务，可以在他们的平台上制作直播视频，
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--in this we are displaying a nested scroll view-->
 <RelativeLayout 
@@ -51,7 +51,7 @@ YouTube 提供了一项服务，可以在他们的平台上制作直播视频，
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;

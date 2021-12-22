@@ -16,7 +16,7 @@
 
 ## Java
 
-```
+```java
 // Java program for iterating the LinkedList
 // using For loop
 
@@ -59,6 +59,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Iterating the LinkedList using a simple for loop : 40 44 80 9
 ```

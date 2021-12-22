@@ -13,7 +13,7 @@
 
 **申报:**
 
-```
+```java
 public class FilterInputStream
    extends InputStream
 ```
@@ -27,7 +27,7 @@ public class FilterInputStream
 *   **read(byte[] buffer) :** **java.io.FilterInputStream.read(byte[] buffer)** reads number of bytes of buffer.length from the Filter Input Stream to the buffer array.
     **Syntax :**
 
-    ```
+    ```java
     public int read(byte[] buffer)
     Parameters :
     buffer : buffer to be read
@@ -40,7 +40,7 @@ public class FilterInputStream
 
     **实施:**
 
-    ```
+    ```java
     // Java program illustrating the working of read(byte[] buffer) method
 
     import java.io.*;
@@ -102,14 +102,14 @@ public class FilterInputStream
 
     程序中使用的**GEKES . txt**文件包含:
 
-    ```
+    ```java
     HelloGeeks
     ```
 
     在给定的代码缓冲区中，长度= 6，因此只有 HelloG 将通过 read(byte[] buffer)方法进行 b 读取
     **输出:**
 
-    ```
+    ```java
     At position 1 : H
     At position 2 : e
     At position 3 : l
@@ -121,7 +121,7 @@ public class FilterInputStream
 *   **read(byte[] buffer，int offset，int maxlen):****Java . io . FilterInputStream . read(byte[]buffer，int offset，int maxlen)** 将高达 maxlen 的数据从 FilterInputStream 读取到缓冲区中。
     **语法:**
 
-```
+```java
 public int read(byte[] buffer, int offset, int maxlen)
 Parameters :
 buffer : Destination buffer
@@ -135,7 +135,7 @@ Exception :
 
 **实施:**
 
-```
+```java
 // Java program illustrating the working of
 // read(byte[] buffer, int offset, int maxlen) method
 
@@ -200,21 +200,21 @@ public class NewClass
 
 程序中使用的 ABC.txt 文件包含:
 
-```
+```java
 MOHIT
 ```
 
 偏移= 1 即*和 Maxlen = 3 即 MOH
 **输出:**
 
-```
+```java
 *MOH
 ```
 
 *   **available() :** **java.io.FilterInputStream.available()** returns the no. of bytes that can be read from the Input Stream.
     **Syntax :**
 
-    ```
+    ```java
     public int available()
     Parameters : 
     -------
@@ -226,7 +226,7 @@ MOHIT
 
     **实施:**
 
-    ```
+    ```java
     // Java program illustrating the working of available() method
 
     import java.io.*;
@@ -283,13 +283,13 @@ MOHIT
 
     程序中使用的 ABC.txt 文件包含:
 
-    ```
+    ```java
     MOHIT
     ```
 
     **输出:**
 
-    ```
+    ```java
     M Bytes available : 4
     O Bytes available : 3
     H Bytes available : 2
@@ -300,7 +300,7 @@ MOHIT
     *   **read():****Java . io . filterinputstream . read()**从过滤器输入流中读取下一个字节的数据。值字节在 0 到 255 的范围内返回。如果因为已经到达流的末尾而没有字节可用，则返回值-1。
     **语法:**
 
-```
+```java
 public int read()
 Parameters :
 ------
@@ -313,7 +313,7 @@ Exception :
 *   **close():****Java . io . filterinputstream . close()**关闭过滤器输入流，并将与该流相关联的系统资源释放给垃圾收集器。
     **语法:**
 
-    ```
+    ```java
     public void close()
     Parameters :
     ------
@@ -326,7 +326,7 @@ Exception :
     *   **标记(int arg):****Java . io . FilterInputStream . mark(int arg)**标记 FilterInputStream 的当前位置。它设置 readlimit，即在标记位置无效之前可以读取的最大字节数。
     **语法:**
 
-    ```
+    ```java
     public void mark(int arg)
     Parameters :
     arg : integer specifying the read limit of the input Stream
@@ -337,7 +337,7 @@ Exception :
     *   **skip():****Java . io . FilterInputStream . skip(long arg)**跳过并丢弃 FilterInputStream 数据中的“arg”字节。
     **语法:**
 
-    ```
+    ```java
     public long skip(long arg)
     Parameters : 
     arg : no. of bytes of FilterInputStream data to skip.
@@ -350,7 +350,7 @@ Exception :
     *   **reset():****Java . io . filterinputstream . reset()**由 mark()方法调用。它将 FilterInputStream 重新定位到标记的位置。
     **语法:**
 
-    ```
+    ```java
     public void reset()
     Parameters :
     ----
@@ -363,7 +363,7 @@ Exception :
     *   **markSupported() :** **java.io.FilterInputStream.markSupported()** method tests if this input stream supports the mark and reset methods. The markSupported method of InputStream returns false by default.
     **Syntax :**
 
-    ```
+    ```java
     public boolean markSupported()
     Parameters :
     -------
@@ -373,7 +373,7 @@ Exception :
 
     **Java 程序讲解:markSupported()、close()、reset()、mark()、read()、skip()方法**
 
-    ```
+    ```java
     // Java program illustrating the working of FilterInputStream method
     // mark(), read(), skip()
     // markSupported(), close(), reset()
@@ -453,13 +453,13 @@ Exception :
     您可以在您的系统上运行该代码来检查工作情况。
     **GEEKS.txt** 文件中使用的代码有
 
-    ```
+    ```java
     HelloGeeks
     ```
 
     **输出:**
 
-    ```
+    ```java
     Char : H
     Char : e
     Char : l

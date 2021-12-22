@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : 8
 Output: Sum of First 8 Even numbers = 72
         Sum of First 8 Odd numbers = 64
@@ -25,7 +25,7 @@ Output: Sum of First 8 Even numbers = 72
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Calculate the Sum of First N Odd & Even Numbers in Java
 import java.io.*;
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Sum of First 8 Even numbers = 72
 Sum of First 8 Odd numbers = 64
 
@@ -75,7 +75,7 @@ Sum of First 8 Odd numbers = 64
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Calculate the Sum of First N Odd & Even Numbers in Java
 import java.io.*;
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Sum of First 10 Even numbers = 110
 Sum of First 10 Odd numbers = 100
 

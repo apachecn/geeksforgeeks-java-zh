@@ -6,7 +6,7 @@ java . util . concurrentskiplistset 的**比较器()**方法是 Java 中的一�
 
 **语法:**
 
-```
+```java
 public Comparator<E> comparator()
 
 ```
@@ -19,7 +19,7 @@ public Comparator<E> comparator()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate comparator()
 // method of ConcurrentSkipListSet
 
@@ -65,7 +65,7 @@ class ConcurrentSkipListSetcomparatorExample1 {
 
 **Output:**
 
-```
+```java
 Contents of the set1: [5, 20, 30, 50]
 Contents of the set2: [50, 30, 20, 5]
 The comparator used in the set:
@@ -75,7 +75,7 @@ java.util.Collections$ReverseComparator@74a14482
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate comparator()
 // method of ConcurrentSkipListSet
 
@@ -108,7 +108,7 @@ class ConcurrentSkipListSetcomparatorExample2 {
 
 **Output:**
 
-```
+```java
 Contents of the set1: [5, 20, 30, 50]
 The comparator used in the set: null
 

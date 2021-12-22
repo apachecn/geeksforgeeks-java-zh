@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime minusSeconds(long SecondsToSubtract)
 
 ```
@@ -19,7 +19,7 @@ public LocalTime minusSeconds(long SecondsToSubtract)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.minusSeconds() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime before subtraction: 19:34:50.630
 LocalTime after subtraction: 19:31:30.630
 
@@ -57,7 +57,7 @@ LocalTime after subtraction: 19:31:30.630
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.minusSeconds() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime before subtraction: 01:00:01
 LocalTime after subtraction: 01:56:41
 

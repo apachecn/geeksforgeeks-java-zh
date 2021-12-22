@@ -4,7 +4,7 @@
 
 TreeMap 类是一个红黑树实现。它帮助我们按照排序的顺序存储键值对。下面讨论 3 种方法，其中所有方法的树图中的 4 个键值对以及语法如下。
 
-```
+```java
 tree.put100, "=> Welcoming");
 tree.put(120, "=> you to ");
 tree.put(140, "=> computer science portal");
@@ -23,7 +23,7 @@ tree.put(200, "=> Geeks for Geeks");
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 **// Java Program to Get TreeMap Key and Value
 
 // Importing all classes
@@ -60,7 +60,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 100 => Welcoming
 120 => you to 
 140 => computer science portal
@@ -73,7 +73,7 @@ class GFG {
 
 ****语法:****
 
-```
+```java
 **public K higherKey(K key)**
 ```
 
@@ -87,7 +87,7 @@ class GFG {
 
 ****语法:****
 
-```
+```java
 **public K TreeMap.lowerKey(K key)**
 ```
 
@@ -99,7 +99,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 **// Java Program to Get TreeMap Key, Value, then
 // Entry Greater or Less than the Specified Value
 // using lowerKey() and higherKey() of Tree class
@@ -138,7 +138,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 Smallest key among key > 150 : 200
 Greatest key among key < 150 : 140
 ```** 
@@ -151,7 +151,7 @@ Greatest key among key < 150 : 140
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 **// Java Program to Get TreeMap Key, Value, or
 // Entry Greater or Less than the Specified Value
 // using higherEntry().getValue() function and
@@ -191,7 +191,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 => Geeks for Geeks
 => computer science portal
 ```**

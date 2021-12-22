@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: Min = 1, Max = 100
 Output: 89
 
@@ -20,12 +20,12 @@ Output: 514
 *   Gets the minimum and maximum values in the specified range.
 *   沙吾提线程局部随机 1860 年(Java)。使用中。竞争对手。线程局部随机)什么事 **nextInt()凯伊姆，是吗 Min(最小)你好-麦克斯魏冄
 
-    ```
+    ```java
     ThreadLocalRandom.current().nextInt(min, max + 1);
     ```** 
 *   The random value received.
 
-```
+```java
 // Java program to generate a random integer
 // within this specific range
 
@@ -58,7 +58,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Random value between 1 and 100: 35
 
 ```

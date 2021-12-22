@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static int binomial(int n, int k)
 
 ```
@@ -23,7 +23,7 @@ public static int binomial(int n, int k)
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // binomial(int n, int k) method of Guava's
 // IntMath class
@@ -60,7 +60,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Binomial Coefficient of 5 and 2 is : 10
 Binomial Coefficient of 15 and 9 is : 5005
 
@@ -68,7 +68,7 @@ Binomial Coefficient of 15 and 9 is : 5005
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // binomial(int n, int k) method of Guava's
 // IntMath class
@@ -116,7 +116,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.IllegalArgumentException: k (7) > n (5)
 
 ```

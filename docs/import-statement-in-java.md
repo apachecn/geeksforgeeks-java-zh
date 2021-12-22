@@ -8,7 +8,7 @@
 
 **语法 1:**
 
-```
+```java
 import package1[.package2].(*);
 ```
 
@@ -20,7 +20,7 @@ import package1[.package2].(*);
 
 **语法 2:**
 
-```
+```java
 import package1[.package2].(myClass);
 ```
 
@@ -38,7 +38,7 @@ import package1[.package2].(myClass);
 
 ## Java
 
-```
+```java
 // Java program to demonstrate the 
 // working of a program
 // without any import statement
@@ -67,7 +67,7 @@ class GFG {
 
 **编译器判定:**
 
-```
+```java
 prog.java:11: error: cannot find symbol
        ArrayList<String> arrayList
        ^
@@ -95,7 +95,7 @@ import 语句是可选的，我们可以使用类的完全限定名来引用程�
 
 ## Java
 
-```
+```java
 // Java program to demonstrate the working of a program
 // using fully-qualified name or without the use of import
 // statement
@@ -131,7 +131,7 @@ import 语句告诉编译器一个类或整个包的路径。它不像 C++中的
 
 ## Java
 
-```
+```java
 // Java program to demonstrate the 
 // working of import statement
 
@@ -161,7 +161,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 ArrayList: [Geeks, For, Geeks]
 ```
 
@@ -171,7 +171,7 @@ ArrayList: [Geeks, For, Geeks]
 
 ## Java
 
-```
+```java
 // Java program to demonstrate the
 // working of import statement
 
@@ -221,7 +221,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 ArrayList: [Geeks, For, Geeks]
 Array: [ 3 5 10 11 20 ]
 ```

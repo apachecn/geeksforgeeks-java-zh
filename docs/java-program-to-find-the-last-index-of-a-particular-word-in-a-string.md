@@ -24,7 +24,7 @@
 
 **内置功能所在的目录:**
 
-```
+```java
 java.util.String.lastIndexOf()
 
 ```
@@ -47,7 +47,7 @@ java.util.String.lastIndexOf()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to  find the Last 
 // Index of a particular word 
 // in a string
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 8
 ```
 
@@ -86,7 +86,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to  find the Last
 // Index of a particular word 
 // in a string
@@ -116,6 +116,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 -1
 ```

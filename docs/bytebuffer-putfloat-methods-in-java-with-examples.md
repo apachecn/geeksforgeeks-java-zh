@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract ByteBuffer putFloat(float value)
 ```
 
@@ -25,7 +25,7 @@ public abstract ByteBuffer putFloat(float value)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // putFloat() method
 
@@ -75,14 +75,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 23.4 234.5 34.56 ]
 
 ```
 
 **例 2:** 演示 BufferOverflowException。
 
-```
+```java
 // Java program to demonstrate
 // putFloat() method
 
@@ -138,7 +138,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 23.4 234.5 34.56 ]
 
 buffer's current position is not smaller than its limit
@@ -148,7 +148,7 @@ Exception throws : java.nio.BufferOverflowException
 
 **示例 3:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // putFloat() method
 
@@ -209,7 +209,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: [ 23.4 234.5 34.56 ]
 
 Trying to put the float value in read-only buffer

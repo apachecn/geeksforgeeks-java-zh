@@ -6,7 +6,7 @@ java.lang 包的 Integer 类的**comparensigned()**方法比较作为参数给�
 
 **语法:**
 
-```
+```java
 public static int compareUnsigned(int x, int y)
 Parameter :
 x : the first int to compare
@@ -21,7 +21,7 @@ treating the values(x, y) as unsigned.
 
 **示例:**展示**Java . lang . integer . comparensigned()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.compareUnsigned() method
 import java.lang.Integer;
@@ -63,7 +63,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 -1
 0
 1

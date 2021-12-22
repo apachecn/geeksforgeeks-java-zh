@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Difference between
 // Effectively final and Mutable Local Variables
 
@@ -74,7 +74,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GFG!
 ```
 
@@ -86,7 +86,7 @@ GFG!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Difference between
 // Effectively final and Mutable Local Variables
 
@@ -134,7 +134,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Data : 170
 Data : 670
 Data : 870

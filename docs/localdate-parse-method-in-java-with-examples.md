@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static LocalTime parse(CharSequence text)
 
 ```
@@ -24,7 +24,7 @@ public static LocalTime parse(CharSequence text)
 下面的程序说明了 parse()方法:
 **程序 1:**
 
-```
+```java
 // LocalDate.parse() method
 
 import java.time.*;
@@ -46,7 +46,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate : 2018-12-27
 
 ```
@@ -57,7 +57,7 @@ LocalDate : 2018-12-27
 
 **语法:**
 
-```
+```java
 public static LocalTime parse(CharSequence text,
                               DateTimeFormatter formatter)
 
@@ -72,7 +72,7 @@ public static LocalTime parse(CharSequence text,
 下面的程序说明了 parse()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.parse() method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate : 2018-12-31
 
 ```

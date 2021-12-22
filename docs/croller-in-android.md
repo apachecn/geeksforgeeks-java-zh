@@ -40,7 +40,7 @@
 
 **步骤 1:** 在 [**build.gradle**](https://www.geeksforgeeks.org/android-build-gradle/) 文件中添加支持库，并在依赖项部分添加依赖项。
 
-```
+```java
 implementation 'com.sdsmdg.harjot:croller:1.0.7'
 ```
 
@@ -48,7 +48,7 @@ implementation 'com.sdsmdg.harjot:croller:1.0.7'
 
 ## activity_main.xml
 
-```
+```java
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
@@ -84,7 +84,7 @@ implementation 'com.sdsmdg.harjot:croller:1.0.7'
 
 ## MainActivity.xml
 
-```
+```java
 
 package org.geeksforgeeks.croller
 

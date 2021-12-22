@@ -23,13 +23,13 @@ Java 三元运算符是唯一接受三个操作数的条件运算符。它是 if
 
 **语法:**
 
-```
+```java
 variable = Expression1 ? Expression2: Expression3
 ```
 
 If 的操作类似于 if-else 语句的操作，如*表达式 2* 如果*表达式 1* 为真，则执行*表达式 3* 。
 
-```
+```java
 if(Expression1)
 {
     variable = Expression2;
@@ -42,7 +42,7 @@ else
 
 **例:**
 
-```
+```java
 num1 = 10;
 num2 = 20;
 
@@ -61,7 +61,7 @@ res = num1-num2 = -10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find largest among two
 // numbers using ternary operator
 
@@ -88,7 +88,7 @@ class Ternary {
 
 **Output:** 
 
-```
+```java
 First num: 5
 Second num: 10
 Maximum is = 10
@@ -98,7 +98,7 @@ Maximum is = 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate ternary operator
 
 import java.io.*;
@@ -124,7 +124,7 @@ class Ternary {
 
 **Output:** 
 
-```
+```java
 First num: 5
 Second num: 10
 Result = -5

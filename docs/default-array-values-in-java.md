@@ -12,7 +12,7 @@
 *   字符串：空
 *   User defined type: null
 
-```
+```java
 // Java program to demonstrate default values of array
 // elements
 class ArrayDemo
@@ -49,7 +49,7 @@ class ArrayDemo
 
 输出:
 
-```
+```java
 String array default values:
 null null null null null 
 

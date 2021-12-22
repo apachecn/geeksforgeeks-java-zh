@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input: N = 5
 Output: [5]
 
@@ -27,7 +27,7 @@ Output: [GeeksForGeeks]
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to initialize a list in a single
 // line with a specified value using Stream
 
@@ -79,7 +79,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 List with element 1024: [1024]
 List with element GeeksForGeeks: [GeeksForGeeks]
 

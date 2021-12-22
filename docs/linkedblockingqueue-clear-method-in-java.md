@@ -6,7 +6,7 @@ LinkedBlockingQueue 的 **clear()** 方法从该队列中移除所有元素。�
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -14,7 +14,7 @@ public void clear()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate clear()
 // method of LinkedBlockingQueue
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LinkedBlockingQueue before using clear() : [2300, 1322, 8945, 6512]
 
 LinkedBlockingQueue after using clear() method : []
@@ -63,7 +63,7 @@ LinkedBlockingQueue after using clear() method : []
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate clear()
 // method of LinkedBlockingQueue
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LinkedBlockingQueue before using clear() : [Shubham, Siddhant, Mahafuj, Arka, Raunak]
 
 LinkedBlockingQueue after using clear() method : []

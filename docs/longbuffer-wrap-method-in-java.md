@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static LongBuffer wrap(Long[] array)
 ```
 
@@ -20,7 +20,7 @@ public static LongBuffer wrap(Long[] array)
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1, 2, 3]
@@ -85,7 +85,7 @@ Longbuffer position:  0
 
 **语法:**
 
-```
+```java
 public static LongBuffer wrap (Long[] array, Long offset, Long length)
 ```
 
@@ -103,7 +103,7 @@ public static LongBuffer wrap (Long[] array, Long offset, Long length)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1, 2, 3]
@@ -165,7 +165,7 @@ Longbuffer position:  0
 
 **程序 2:** 演示空值异常。
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -220,7 +220,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Array length : 3
 
 Array element : [1, 2, 3]

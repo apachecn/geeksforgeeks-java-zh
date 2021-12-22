@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isExecutable(Path path)
 
 ```
@@ -33,7 +33,7 @@ public static boolean isExecutable(Path path)
 下面的程序说明了 isExecutable(路径)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Files.isExecutable() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Files.isExecutable() method
 

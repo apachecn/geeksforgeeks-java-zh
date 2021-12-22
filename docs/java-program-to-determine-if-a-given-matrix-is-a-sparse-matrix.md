@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input:  1 0 3
         0 0 4
         6 0 0
@@ -35,7 +35,7 @@ Explaination:There are 2 zeros in the matrix which
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Determine if a given
 // Matrix is a Sparse Matrix
 

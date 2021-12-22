@@ -30,7 +30,7 @@ Java 中的线程间通信是一种机制，其中一个线程在其关键部分
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate inter-thread communication
 // (wait(), join() and notify())
 
@@ -137,7 +137,7 @@ public class threadexample
 
 **Output**
 
-```
+```java
 producer thread running
 Waiting for return key.
 Return key pressed

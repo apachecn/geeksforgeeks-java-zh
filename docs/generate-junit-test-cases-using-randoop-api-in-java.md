@@ -19,7 +19,7 @@
 
 ****步骤 2:** 设置可变开路端子后，输入下面给出的线路，如果一切配置正确，则输出如下。**
 
-```
+```java
 java -classpath %RANDOOP_JAR% randoop.main.Main gentests --help
 ```
 
@@ -34,7 +34,7 @@ java -classpath %RANDOOP_JAR% randoop.main.Main gentests --help
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class Message {
    private String message;
 
@@ -58,7 +58,7 @@ public class Message {
 
 ******示例:******
 
-```
+```java
 **java -classpath C:\Users\public\Downloads\testbin;%RANDOOP_JAR% randoop.main.Main gentests --testclass=Message**
 ```
 
@@ -66,7 +66,7 @@ public class Message {
 
 ****![](img/7dacc526a2211e38a1d15fbe77f39cb9.png)****
 
-```
+```java
 **Generate Test cases for java files (**--classlist)****
 ```
 
@@ -78,7 +78,7 @@ public class Message {
 
 ******示例:******
 
-```
+```java
 **java -classpath %RANDOOP_JAR% randoop.main.Main gentests --classlist=C:\User\test1.txt**
 ```
 

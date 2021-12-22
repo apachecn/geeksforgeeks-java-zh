@@ -23,7 +23,7 @@ Java 中的接口由抽象方法(不包含主体)和变量(公共静态 final)�
 
 ## Java
 
-```
+```java
 public interface Interface1 {
 
     // create a method
@@ -35,7 +35,7 @@ T15】JavaT1T21T23】JavaT2T28】
 
 **输出**
 
-```
+```java
 Geeks For Geeks
 ```
 
@@ -47,7 +47,7 @@ Geeks For Geeks
 
 ## Java
 
-```
+```java
 public interface Interface1 {
 
     // create a method
@@ -59,7 +59,7 @@ T15】JavaT1T21T23】JavaT2T28】
 
 **输出**
 
-```
+```java
 Geeks For Geeks
 GFG
 ```
@@ -72,7 +72,7 @@ GFG
 
 ## Java
 
-```
+```java
 public interface Interface1 {
 
     // create a method
@@ -82,7 +82,7 @@ public interface Interface1 {
 
 ## Java
 
-```
+```java
 public interface Interface2 {
     // create method with same name & signature but
     // different return type

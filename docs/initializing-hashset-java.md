@@ -10,7 +10,7 @@ Set 有各种添加、清除、大小等方法来增强这个界面的使用。
 在这个方法中，我们首先创建一个数组，然后将其转换为一个列表，然后将其传递给接受另一个集合的 HashSet 构造函数。
 集合的整数元素按排序顺序打印。
 
-```
+```java
 // Java code for initializing a Set
 import java.util.*;
 public class Set_example {
@@ -34,7 +34,7 @@ public class Set_example {
 a)**collection . addall()**:将所有指定的元素添加到指定类型的指定集合中。
 b)**collections . unmodifielableset()**:添加元素并返回指定集合的不可修改视图。
 
-```
+```java
 // Java code for initializing a Set
 import java.util.*;
 public class Set_example {
@@ -63,7 +63,7 @@ public class Set_example {
 **方法三:使用。添加()每次**
 创建一个集合并使用。add()方法我们将元素添加到集合中
 
-```
+```java
 // Java code for initializing a Set
 import java.util.*;
 public class Set_example {
@@ -92,7 +92,7 @@ public class Set_example {
 
 输出:
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8]
 
 ```

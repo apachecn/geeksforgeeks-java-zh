@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void flush()
 ```
 
@@ -20,7 +20,7 @@ public void flush()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -57,7 +57,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 What is your name? 
 My name is Gopal Dave !
 Flushed
@@ -66,7 +66,7 @@ Flushed
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -112,7 +112,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 What is your name? 
 My name is Gopal Dave !
 

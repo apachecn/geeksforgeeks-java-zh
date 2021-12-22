@@ -18,7 +18,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Get Enumeration over Java Vector
 import java.util.Collections;
 import java.util.Enumeration;
@@ -59,7 +59,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The elements of the Vector is : [Let's, learn, java, from, GFG]
 printing each enumeration constant by enumerating through the Vector:
 Let's
@@ -85,7 +85,7 @@ GFG
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Get Enumeration over Java Vector
 import java.io.*;
 import java.util.Enumeration;
@@ -119,7 +119,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 1
 2
 3

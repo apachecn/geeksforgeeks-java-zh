@@ -37,7 +37,7 @@
 
 1.  **Java program to create a menu bar and add menu to it and also add menuitems to the menu:** This program creates a menubar indicated by the name *mb*. A menu will be created by name *m* and 3 menuitems *m1*, *m2*, *m3* will be added to the menu *m* and the menu *m* will be added to menubar *mb*. The menubar will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a VBox is created, on which addChildren() method is called to attach the menubar inside the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a menu bar and add
     // menu to it and also add menuitems to menu
     import javafx.application.Application;
@@ -102,7 +102,7 @@
 
 2.  **Java program to create a menu bar and add a menu to it and also add menu items to menu and also add an event listener to handle the events:** This program creates a menubar indicated by the name *mb*. A menu will be created by name *m* and 3 menuitems *m1*, *m2*, *m3* will be added to the menu *m* and the menu *m* will be added to the menubar *mb*. The menubar will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a VBox is created, on which addChildren() method is called to attach the menubar inside the scene. Finally, the show() method is called to display the final results. A label will also be created that will show which menuitem is selected. An action event will be created to process the action when the menu item is clicked by the user.
 
-    ```
+    ```java
     // Java program to create a menu bar and add menu to
     // it and also add menuitems to menu and also add
     // an event listener to handle the events

@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```java
 boolean add(E element)
 
 Where, E is the type of element maintained
@@ -41,7 +41,7 @@ by this Set collection.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to remove duplicates entries
 // from  an Array using TreeSet
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initial String Array(Containing Duplicates) : [Hello, hi, Wow, cute, thanks, hi, Aww, cute, baby, beloved, Aww]Duplicate Data entered : hi
 Duplicate Data entered : cute
 Duplicate Data entered : Aww

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Filter getFilter()
 
 ```
@@ -18,7 +18,7 @@ public Filter getFilter()
 下面的程序说明了 getFilter()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getFilter() method
 
@@ -58,7 +58,7 @@ eclipse IDE 上打印的输出如下所示-
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getFilter() method
 

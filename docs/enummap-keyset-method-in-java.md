@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumMap.keySet()方法用于返回映射中包含的键的
 
 **语法:**
 
-```
+```java
 Enum_Map.keySet()
 ```
 
@@ -18,7 +18,7 @@ Enum_Map.keySet()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate keySet()
 import java.util.*;
 
@@ -56,7 +56,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 Mappings: {India=61.7%, United_States=18.2%, China=2.5%}
 Set view of the key: [India, United_States, China]
 
@@ -64,7 +64,7 @@ Set view of the key: [India, United_States, China]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate keySet()
 import java.util.*;
 
@@ -100,7 +100,7 @@ class Enum_demo {
 
 **Output:**
 
-```
+```java
 Mappings: {Global_today=799, India_today=69}
 Set view of the key: [Global_today, India_today]
 

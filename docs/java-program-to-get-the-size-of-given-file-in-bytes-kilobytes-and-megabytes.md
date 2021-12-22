@@ -8,7 +8,7 @@ java 中内置的 File.length()方法可以用来获取 java 中的文件大小�
 
 **语法:**
 
-```
+```java
 long len = file.length()
 ```
 
@@ -16,7 +16,7 @@ long len = file.length()
 
 **语法:**
 
-```
+```java
 file.exists()
 ```
 
@@ -28,7 +28,7 @@ file.exists()
 
 ## 爪哇
 
-```
+```java
 // Simple Java Program find  the size of the file
 import java.io.File;
 public class GFG {
@@ -58,7 +58,7 @@ public class GFG {
 }
 ```
 
-```
+```java
 bytes : 17,07,91,615
 kilobytes : 1,66,788.686
 megabytes : 162.8795766

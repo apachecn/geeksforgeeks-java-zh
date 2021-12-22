@@ -14,7 +14,7 @@ break 语句有助于在某些条件出现后从内部循环中出来，标签�
 
 **不使用标签**
 
-```
+```java
 while (condition)  
 {
  if (specific condition )
@@ -34,7 +34,7 @@ while (condition)
 
 **带标签**
 
-```
+```java
 // labelName is the name of the label
 labelName:
 
@@ -60,7 +60,7 @@ while (condition)
 
 ## Java
 
-```
+```java
 // Java program to demonstrate 
 // the use of label in for loop
 
@@ -81,7 +81,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 0 1 2 
 
 ```
@@ -90,7 +90,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the use 
 // of label in nested for loop
 import java.io.*;
@@ -121,7 +121,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Else block values 0
 If block values 0
 ```

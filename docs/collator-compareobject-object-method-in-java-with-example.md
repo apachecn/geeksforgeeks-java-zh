@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compare(Object o1, Object o2)
 ```
 
@@ -18,7 +18,7 @@ public int compare(Object o1, Object o2)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compare() method
 
@@ -66,6 +66,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ab is less than Ab
 ```

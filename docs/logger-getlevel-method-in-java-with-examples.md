@@ -8,7 +8,7 @@ Java 中 **[Logger](https://www.geeksforgeeks.org/logging-in-java/)** 类的 **g
 
 **语法:**
 
-```
+```java
 public Level getLevel()
 
 ```
@@ -20,7 +20,7 @@ public Level getLevel()
 下面的程序说明了 getLevel()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getLevel() method
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Logger Level = INFO
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.getLevel() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Logger Level = null
 
 ```

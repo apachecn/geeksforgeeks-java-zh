@@ -10,7 +10,7 @@ Java 中[navigatableset 接口的 headSet()方法用于返回该集合中元素�
 
 **语法** :
 
-```
+```java
 NavigableSet<E> headSet(E toElement,
                         boolean inclusive)
 
@@ -31,7 +31,7 @@ NavigableSet<E> headSet(E toElement,
 
 **程序 1** :带整数元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // headSet() method of NavigableSet
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Map with key-value less than given argument : [0, 1, 2, 3, 4, 5]
 Map with key-value less than or equal to  given argument : [0, 1, 2, 3, 4, 5, 6]
 
@@ -69,7 +69,7 @@ Map with key-value less than or equal to  given argument : [0, 1, 2, 3, 4, 5, 6]
 
 **程序 2:** 带字符串元素的导航集。
 
-```
+```java
 // A Java program to demonstrate
 // headSet?() method of NavigableSet
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Map with key-value less than given argument : [A, B, C, D, E]
 Map with key-value less than or equal to given argument : [A, B, C, D, E]
 

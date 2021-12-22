@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static IntStream generate(IntSupplier s)
 
 ```
@@ -21,7 +21,7 @@ static IntStream generate(IntSupplier s)
 
 **示例 1 :** 生成随机整数流。
 
-```
+```java
 // Java code for IntStream.generate()
 // to generate an infinite sequential
 // unordered IntStream
@@ -47,7 +47,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4247
 6827
 2676

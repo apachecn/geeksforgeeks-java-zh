@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ public boolean isEmpty()
 
 **例:1**
 
-```
+```java
 // Java Program Demonstrate
 // isEmpty() method of ConcurrentLinkedDeque
 
@@ -44,7 +44,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: []
 Is deque empty: true
 
@@ -52,7 +52,7 @@ Is deque empty: true
 
 **例:2**
 
-```
+```java
 // Java Program Demonstrate
 // isEmpty() method of ConcurrentLinkedDeque
 
@@ -83,7 +83,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:**
 
-```
+```java
 ConcurrentLinkedDeque: [GFG, Gfg, GeeksforGeeks, Geeks]
 Is deque empty: false
 

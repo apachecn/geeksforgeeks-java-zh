@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getRunCount()
 ```
 
@@ -18,7 +18,7 @@ public int getRunCount()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getRunCount() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 number of levels : 1
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getRunCount() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 number of levels : 1
 
 ```

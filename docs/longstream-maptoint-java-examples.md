@@ -7,7 +7,7 @@
 **注意:** LongStream mapToInt()是一个*的**中间操作。*** 这些操作总是偷懒。中间操作在流实例上被调用，在它们完成处理后，它们给出一个流实例作为输出。
 **语法:**
 
-```
+```java
 LongStream mapToInt(LongToIntFunction mapper)
 
 ```
@@ -21,7 +21,7 @@ LongStream mapToInt(LongToIntFunction mapper)
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream mapToInt
 // (LongToIntFunction mapper)
 import java.util.*;
@@ -50,7 +50,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2
 4
 6
@@ -61,7 +61,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream mapToInt
 // (LongToIntFunction mapper)
 import java.util.*;
@@ -91,7 +91,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -2147483648
 -2147483647
 -2147483646
@@ -102,7 +102,7 @@ class GFG {
 
 **例 3 :**
 
-```
+```java
 // Java code for LongStream mapToInt
 // (LongToIntFunction mapper)
 import java.util.*;
@@ -132,7 +132,7 @@ class GFG {
 
 输出:
 
-```
+```java
 0
 1
 2

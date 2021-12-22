@@ -10,7 +10,7 @@ Java.nio.file 是 Java 中的一个包，由 FileStore 类组成。FileStore 类
 
 **语法:**类声明
 
-```
+```java
 public abstract class FileStore extends Object
 {
 abstract CheckResult( );
@@ -54,7 +54,7 @@ abstract CheckResult( );
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate FileStore Class
 // with its methods
 
@@ -131,7 +131,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate FileStore Class
 // with its methods
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setResourceBundleName(String name)
 
 ```
@@ -18,7 +18,7 @@ public void setResourceBundleName(String name)
 下面的程序说明了 setResourceBundleName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // setResourceBundleName() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Resource Bundle Name= MyResource Bundle
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // setResourceBundleName() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Resource Bundle Name= null
 
 ```

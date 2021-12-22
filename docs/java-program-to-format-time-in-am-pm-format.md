@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 public final String format(Date date)
 ```
 
@@ -31,7 +31,7 @@ public final String format(Date date)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert 24 hour
 // time format to 12 hour format
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Current Time is : Mon Oct 26 08:34:53 UTC 2020
 Current Time in AM/PM Format is : 08.34 AM
 ```

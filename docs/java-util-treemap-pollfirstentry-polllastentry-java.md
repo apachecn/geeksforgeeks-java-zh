@@ -6,7 +6,7 @@ Java.util.TreeMap 还包含支持在值的高端和低端进行检索和删除�
 
 **1。pollFirstEntry() :** 它**移除并检索一个键值对**，其中**是地图中键值最少的**，而**“空”**是地图为空。
 
-```
+```java
 Syntax : 
 public Map.Entry pollFirstEntry()
 Parameters:
@@ -18,7 +18,7 @@ NA
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of pollFirstEntry()
 import java.io.*;
@@ -61,7 +61,7 @@ public class pollFirstEntry {
 
 输出:
 
-```
+```java
 The smallest key value pair is : null
 The initial Map before deletion is : {Geeks=1, for=4, geeks=1}
 The smallest key value pair is : Geeks=1
@@ -71,7 +71,7 @@ The resultant Map after deletion is : {for=4, geeks=1}
 
 **2。pollasterentry():**它**移除并检索一个键值对**，其中**是地图中最大的键值**，**“空”**是地图为空。
 
-```
+```java
 Syntax : 
 public Map.Entry pollLastEntry()
 Parameters:
@@ -83,7 +83,7 @@ NA
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of pollLastEntry()
 import java.io.*;
@@ -126,7 +126,7 @@ public class pollLastEntry {
 
 输出:
 
-```
+```java
 The largest key value pair is : null
 The initial Map before deletion is : {Geeks=1, for=4, geeks=1}
 The largest key value pair is : geeks=1
@@ -136,7 +136,7 @@ The resultant Map after deletion is : {Geeks=1, for=4}
 
 **实际应用:**使用去重或优先排队的概念可以想到很多应用。下面的代码显示了一个这样的例子。
 
-```
+```java
 // Java code to demonstrate the application
 // of pollLastEntry() and pollFirstEntry()
 import java.io.*;
@@ -180,7 +180,7 @@ public class pollAppli {
 
 输出:
 
-```
+```java
 The initial queue is : {4=shambhavi, 7=manjeet, 8=nikhil, 10=astha}
 The largest valued person is : 10=astha
 The resultant queue after deletion is : {4=shambhavi, 7=manjeet, 8=nikhil}

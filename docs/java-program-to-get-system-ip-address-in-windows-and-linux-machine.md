@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration getInetAddresses()
 ```
 
@@ -26,7 +26,7 @@ public Enumeration getInetAddresses()
 
 **语法:**
 
-```
+```java
 public List getInterfaceAddresses()
 ```
 
@@ -36,7 +36,7 @@ public List getInterfaceAddresses()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get System IP Address
 // in Windows and Linux Machine
 import static java.lang.System.out;
@@ -80,7 +80,7 @@ public class gfg {
 
 **Output**
 
-```
+```java
 Display name: eth0
 Name: eth0
 

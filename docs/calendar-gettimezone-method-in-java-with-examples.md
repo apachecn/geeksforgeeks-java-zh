@@ -6,7 +6,7 @@ Calendar 类中的 **getTimeZone()** 方法用于返回本日历的当前时区�
 
 **语法:**
 
-```
+```java
 public TimeZone getTimeZone()
 ```
 
@@ -18,7 +18,7 @@ public TimeZone getTimeZone()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // getTimeZone() method
 
@@ -42,7 +42,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The current Time zone is: Coordinated Universal Time
 ```
 
@@ -50,7 +50,7 @@ The current Time zone is: Coordinated Universal Time
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // getTimeZone() method
 
@@ -82,7 +82,7 @@ public class Calendar_Demo {
 
 **Output:** 
 
-```
+```java
 The current Time zone is: Coordinated Universal Time
 New TimeZone: Greenwich Mean Time
 ```

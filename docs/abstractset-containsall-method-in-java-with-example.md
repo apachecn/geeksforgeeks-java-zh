@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean containsAll(Collection C)
 ```
 
@@ -18,7 +18,7 @@ public boolean containsAll(Collection C)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // AbstractSet containsAll()
 
@@ -70,7 +70,7 @@ class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 AbstractSet 1: [10, 20, Geeks, for]
 AbstractSet 2: [10, 20, Geeks, for]
 
@@ -80,7 +80,7 @@ Does set 1 contains set 2: true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate boolean containsAll()
 
 import java.util.*;
@@ -126,7 +126,7 @@ class AbstractSetDemo {
 
 **Output:**
 
-```
+```java
 AbstractSet 1: [Geeks, for]
 AbstractSet 2: [10, 20]
 

@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print the elements
 // of HashSet using iterator cursor
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 null
 2
 3
@@ -77,7 +77,7 @@ null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to directly print the
 // elements of HashSet
 
@@ -110,6 +110,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 [A, B, C, D, null, Z, 10]
 ```

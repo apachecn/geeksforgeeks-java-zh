@@ -27,7 +27,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get HashSet elements by index using Array
 
 // import required package - java.util
@@ -65,7 +65,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 HashSet contains: [Geek, Geeks, For, Welcome, To]
 Element at index 3 is: Welcome
 ```
@@ -81,7 +81,7 @@ Element at index 3 is: Welcome
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get elements of HashSet by index using a
 // for loop
 
@@ -129,7 +129,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 HashSet contains: [Geek, Geeks, For, Welcome, To]
 Element at index 3 is: Welcome
 ```
@@ -145,7 +145,7 @@ Element at index 3 is: Welcome
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get elements of HashSet by index using
 // ArrayList
 
@@ -182,7 +182,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 HashSet contains: [Geek, Geeks, For, Welcome, To]
 Element at index 3 is: Welcome
 ```

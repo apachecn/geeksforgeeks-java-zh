@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean contains(Object o)
 ```
 
@@ -23,7 +23,7 @@ boolean contains(Object o)
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java code to illustrate contains()
 // method of Deque in Java
 import java.util.*;
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Deque: [Welcome, To, Geeks, 4, Geeks]
 Does the deque contains 'Geeks'? true
 Does the deque contains '4'? true
@@ -71,7 +71,7 @@ Does the deque contains 'No'? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate contains()
 // method of Deque in Java
 import java.util.*;
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Deque: [10, 15, 30, 20, 5]
 Does the Deque contains '15'? true
 Does the Deque contains '2'? false
@@ -119,7 +119,7 @@ Does the Deque contains '10'? true
 
 **程序 3:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java code to illustrate contains()
 // method of Deque in Java
 import java.util.*;
@@ -157,7 +157,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Deque: [10, 15, 30, 20, 5]
 Does the Deque contains '15'? true
 Does the Deque contains '2'? false
@@ -167,7 +167,7 @@ Does the Deque contains '10'? true
 
 **程序 4:** 在**的帮助下，并发链接请求**。
 
-```
+```java
 // Java code to illustrate contains()
 // method of Deque in Java
 import java.util.*;
@@ -206,7 +206,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Deque: [10, 15, 30, 20, 5]
 Does the Deque contains '15'? true
 Does the Deque contains '2'? false
@@ -216,7 +216,7 @@ Does the Deque contains '10'? true
 
 **程序 5:** 在**的帮助下链接锁定程序**。
 
-```
+```java
 // Java code to illustrate contains()
 // method of Deque in Java
 import java.util.*;
@@ -255,7 +255,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Deque: [10, 15, 30, 20, 5]
 Does the Deque contains '15'? true
 Does the Deque contains '2'? false

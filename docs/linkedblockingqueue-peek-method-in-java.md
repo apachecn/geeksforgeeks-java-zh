@@ -6,7 +6,7 @@ LinkedBlockingQueue 的 **peek()** 方法返回 LinkedBlockingQueue 的头。它
 
 **语法:**
 
-```
+```java
 public E peek()
 ```
 
@@ -16,7 +16,7 @@ public E peek()
 
 **程序 1:** 使用 peek()方法返回 LinkedBlockingQueue 的头部，其中容量为 7 的 LinkedBlockingQueue 包含名称列表
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of LinkedBlockingQueue
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue is [John, Tom, Clark, Kat]
 Head of Queue is John
 
@@ -78,7 +78,7 @@ Head of Queue is Tom
 
 **程序 2:** 查找包含员工列表
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of LinkedBlockingQueue
 
@@ -154,7 +154,7 @@ public class GFG {
 
 **的 LinkedBlockingQueue 的负责人输出:**
 
-```
+```java
 Head of list
 Employee Name : Ravi
 Employee Position : Tester

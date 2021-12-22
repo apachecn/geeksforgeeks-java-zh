@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception Handling
 // with Method Overriding
 // Where SuperClass does not declare any exception and
@@ -79,7 +79,7 @@ class SubClass extends SuperClass {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception Handling
 // with Method Overriding
 // Where SuperClass doesn't declare any exception and
@@ -121,7 +121,7 @@ class SubClass extends SuperClass {
 
 **Output**
 
-```
+```java
 SubClass
 ```
 
@@ -139,7 +139,7 @@ SubClass
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception Handling
 // with Method Overriding
 // Where SuperClass declares an exception and
@@ -189,7 +189,7 @@ class SubClass extends SuperClass {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception Handling
 // with Method Overriding
 // Where SuperClass declares an exception and
@@ -233,7 +233,7 @@ class SubClass extends SuperClass {
 
 **Output**
 
-```
+```java
 SubClass
 ```
 
@@ -243,7 +243,7 @@ SubClass
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Exception Handling
 // with Method Overriding
 // Where SuperClass declares an exception and
@@ -285,7 +285,7 @@ class SubClass extends SuperClass {
 
 **Output**
 
-```
+```java
 SubClass
 ```
 

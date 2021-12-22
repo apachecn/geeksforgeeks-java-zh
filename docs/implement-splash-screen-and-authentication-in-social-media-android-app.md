@@ -35,7 +35,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -51,7 +51,7 @@
 
 使用**SplashScreen.java**文件。这里我们检查如果用户为空，则转到**逻辑活动**。否则移至**仪表板活动。**
 
-```
+```java
 new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -75,7 +75,7 @@ new Handler().postDelayed(new Runnable() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.socialmediaapp;
 
 import android.content.Intent;
@@ -126,7 +126,7 @@ public class SplashScreen extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -258,7 +258,7 @@ public class SplashScreen extends AppCompatActivity {
 
 使用**RegistrationActivity.java**文件。使用用户编写的电子邮件和密码创建用户。如果失败，那么我们将显示错误。
 
-```
+```java
 mAuth.createUserWithEmailAndPassword(emaill, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -283,7 +283,7 @@ mAuth.createUserWithEmailAndPassword(emaill, pass).addOnCompleteListener(new OnC
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.socialmediaapp;
 
 import android.app.ProgressDialog;

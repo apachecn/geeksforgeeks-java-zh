@@ -22,7 +22,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <TextView 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -38,7 +38,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -86,7 +86,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -139,7 +139,7 @@ public class ImageActivity extends SlidingActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;

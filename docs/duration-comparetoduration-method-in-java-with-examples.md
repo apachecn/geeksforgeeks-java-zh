@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(Duration otherDuration)
 
 ```
@@ -19,7 +19,7 @@ public int compareTo(Duration otherDuration)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate compareTo() method
 
 import java.time.Duration;
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 -1
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate compareTo() method
 
 import java.time.Duration;
@@ -80,14 +80,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to illustrate compareTo() method
 
 import java.time.Duration;
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 1
 
 ```

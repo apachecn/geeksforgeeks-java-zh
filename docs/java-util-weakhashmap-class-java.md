@@ -45,7 +45,7 @@ WeakHashMap 是 Map 接口的基于哈希表的实现，带有弱键。当一个
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate WeakHashMap class
 // Via close(), containsValue(), containsKey()
 // and isEmpty() method
@@ -100,7 +100,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 our weak map: {3=geeks, 2=for, 1=geeks}
 for exist
 1 exist
@@ -111,7 +111,7 @@ empty map: {}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate WeakHashMap class
 // Via entrySet(), keySet() and Values() Method
 
@@ -162,7 +162,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 [3=geeks, 2=for, 1=geeks]
 key set: [3, 2, 1]
 values: [geeks, for, geeks]
@@ -172,7 +172,7 @@ values: [geeks, for, geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code remove(), putAll()
 // get() and size() method
 
@@ -216,7 +216,7 @@ class WeakHashMapdemo {
 
 **Output:** 
 
-```
+```java
 for
 Size of map is: 3
 Size after removing: 2

@@ -4,7 +4,7 @@
 
 Java 中的 [ArrayDeque](https://www.geeksforgeeks.org/arraydeque-in-java/) 除了提供[德客界面](https://www.geeksforgeeks.org/deque-interface-java-example/)的实现外，还提供了如何使用可调整大小的数组。也称为阵列[双端队列](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/)或阵列甲板。这是一个特殊的数组，它不断增长，允许用户在队列的每一端添加或删除一个组件。
 
-```
+```java
 java.lang.Object
 
     java.util.AbstractCollection<E>
@@ -27,7 +27,7 @@ java.lang.Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate implementation
 // of ArrayDeque
 
@@ -133,7 +133,7 @@ public class ArrayDequeExample {
 
 **Output**
 
-```
+```java
 Element : 10
 Element : 20
 Element : 30

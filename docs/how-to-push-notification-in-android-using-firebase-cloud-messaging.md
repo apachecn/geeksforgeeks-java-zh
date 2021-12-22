@@ -33,7 +33,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -69,7 +69,7 @@
 
 ## notification.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -129,7 +129,7 @@
 
 ## AndroidManifest.xml
 
-```
+```java
 
 <service android:name=".FirebaseMessageReceiver">
             <intent-filter>
@@ -142,7 +142,7 @@
 
 ## AndroidManifest.xml
 
-```
+```java
 
 <?xml version="1.0" encoding="utf-8"?>
 <manifest 
@@ -190,7 +190,7 @@
 
 ## firebasemessagereceiver . java
 
-```
+```java
 package com.example.fcmnotfication_gfg;
 
 import android.app.NotificationChannel;
@@ -330,7 +330,7 @@ public class FirebaseMessageReceiver
 
 ## MainActivity.java
 
-```
+```java
 package com.example.fcmnotfication_gfg;
 
 import androidx.appcompat.app.AppCompatActivity;

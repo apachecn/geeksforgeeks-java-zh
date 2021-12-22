@@ -25,7 +25,7 @@ A **静态地图**是定义为[静态](https://www.geeksforgeeks.org/static-keyw
 
 **例 1:**
 
-```
+```java
 // Java program to create a static map
 // using Double Brace Initialization
 
@@ -52,14 +52,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 {1=GFG, 2=Geek, 3=GeeksForGeeks}
 
 ```
 
 **示例 2:** 用 10 个键值对显示
 
-```
+```java
 // Java program to create a static map
 // using Double Brace Initialization
 
@@ -93,7 +93,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 {1=GFG, 2=Geek, 3=GeeksForGeeks, 4=G, 5=e, 6=e, 7=k, 8=s, 9=f, 10=o}
 
 ```

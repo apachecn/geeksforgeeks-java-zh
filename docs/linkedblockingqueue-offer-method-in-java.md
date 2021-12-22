@@ -10,7 +10,7 @@ LinkedBlockingQueue 类有两种类型的 offer()方法:
 
 **语法:**
 
-```
+```java
 public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException
 ```
 
@@ -31,7 +31,7 @@ public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedExcepti
 
 **程序 1:** 使用 offer(E e，长超时，TimeUnit unit)方法插入学生姓名，创建 LinkedBlockingQueue，该方法的 TimeUnit 参数以秒为单位，超时参数为 5 秒。
 
-```
+```java
 // Java Program Demonstrate
 // offer(Element e, long timeout, TimeUnit unit)
 // method of LinkedBlockingQueue.
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 adding 32673821 true
 adding 88527183: true
 adding 431278539: true
@@ -110,7 +110,7 @@ Adding new Integer 2893476 is successful: false
 
 **程序 2:** 显示报价引发的异常(元素 e，长超时，时间单位单位)方法
 
-```
+```java
 // Java Program Demonstrate
 // offer(Element e, long timeout, TimeUnit unit)
 // method of LinkedBlockingQueue.
@@ -161,7 +161,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Adding 283239 in Queue :true
 Exception: java.lang.NullPointerException
 Items in Queue are [283239]
@@ -174,7 +174,7 @@ Items in Queue are [283239]
 
 **语法:**
 
-```
+```java
 public boolean offer(E e)
 ```
 
@@ -188,7 +188,7 @@ public boolean offer(E e)
 
 **程序 1:** 使用 offer()方法插入学生姓名，创建 LinkedBlockingQueue。
 
-```
+```java
 // Java Program Demonstrate
 // offer(Element e)
 // method of LinkedBlockingQueue.
@@ -222,7 +222,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 list of names of queue:
 [dean, kevin, sam, jack]
 
@@ -230,7 +230,7 @@ list of names of queue:
 
 **程序 2:** 检查 LinkedBlockingQueue 是否已满，然后插入新元素。
 
-```
+```java
 // Java Program Demonstrate
 // offer(Element e)
 // method of LinkedBlockingQueue.
@@ -279,7 +279,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 list of numbers of queue:
 [34567, 45678, 98323, 93758]
 Empty spaces of queue : 0
@@ -290,7 +290,7 @@ Adding new Integer 456751 is successful: false
 
 **程序 3:** 显示 offer()方法引发的异常
 
-```
+```java
 // Java Program Demonstrate offer(E e)
 // method of LinkedBlockingQueue
 
@@ -329,7 +329,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 Items in Queue are [Karan]
 

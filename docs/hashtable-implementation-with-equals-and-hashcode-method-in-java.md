@@ -12,7 +12,7 @@
 
 T0】输出
 
-```
+```java
 Traversing the hash table
 id=105, name=Raman, mobno=6789054321
 id=104, name=Lakshman, mobno=8909006524

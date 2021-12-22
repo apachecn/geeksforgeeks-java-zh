@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Pattern pattern()
 
 ```
@@ -19,7 +19,7 @@ public Pattern pattern()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate pattern() method
 
 import java.util.regex.*;
@@ -52,14 +52,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Pattern: Geeks
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate pattern() method
 
 import java.util.regex.*;
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Pattern: GFG
 
 ```

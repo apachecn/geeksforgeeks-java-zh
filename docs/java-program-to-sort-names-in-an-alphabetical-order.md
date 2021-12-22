@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : Array[] = {"Sourabh", "Anoop, "Harsh", "Alok", "Tanuj"}
 Output: Array[] = {"Alok", "Anoop", "Harsh", "Sourabh", "Tanuj"}
 
@@ -34,7 +34,7 @@ Output: Array[] = {"Alice", "Bob"}
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Sort Names in an Alphabetical Order
 import java.io.*;
 
@@ -84,7 +84,7 @@ T6T8**输出**T1
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Sort Names in an Alphabetical Order
 import java.io.*;
 import java.util.*;

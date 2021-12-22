@@ -6,7 +6,7 @@ Java 中[naviglamblap 接口的 lowerEntry()方法用于返回与严格小于给
 
 **语法** :
 
-```
+```java
 Map.Entry< K, V > lowerEntry(K key)
 
 ```
@@ -21,7 +21,7 @@ Map.Entry< K, V > lowerEntry(K key)
 
 **程序 1** :按键为整数时。
 
-```
+```java
 // Java code to demonstrate the working of
 // lowerEntry() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The mapping with greatest key strictly less than 7 is : 3=three
 
 ```
 
 **程序二**:钥匙串的时候。
 
-```
+```java
 // Java code to demonstrate the working of
 // lowerEntry() method
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The mapping with greatest key strictly less than 7 is : six=seven
 
 ```

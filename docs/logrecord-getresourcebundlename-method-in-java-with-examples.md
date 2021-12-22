@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getResourceBundleName()
 
 ```
@@ -18,7 +18,7 @@ public String getResourceBundleName()
 下面的程序说明了 getResourceBundleName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getResourceBundleName() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Resource Bundle = GFG Bundle
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getResourceBundleName() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Resource Bundle = LOGGER Bundle
 
 ```

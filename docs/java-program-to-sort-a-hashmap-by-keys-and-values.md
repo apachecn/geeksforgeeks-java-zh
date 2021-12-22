@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort Hashmap based on values
 
 import java.lang.*;
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Key : zero, Value : 0
 Key : three, Value : 3
 Key : five, Value : 5
@@ -102,7 +102,7 @@ Key : nine, Value : 9
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Code to sort Map by key value
 import java.util.*;
 class GFG {
@@ -144,7 +144,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Key = 1, Value = one
 Key = 3, Value = three
 Key = 5, Value = five

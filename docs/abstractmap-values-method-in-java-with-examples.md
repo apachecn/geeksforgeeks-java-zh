@@ -6,7 +6,7 @@ Java 中抽象映射类的 **AbstractMap.values()** 方法用于从映射的值�
 
 **语法:**
 
-```
+```java
 AbstractMap.values()
 ```
 
@@ -18,7 +18,7 @@ AbstractMap.values()
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the values() method
 
 import java.util.*;
@@ -51,7 +51,7 @@ public class Abstract_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The collection is: [Geeks, 4, Geeks, Welcomes, You]
 
@@ -59,7 +59,7 @@ The collection is: [Geeks, 4, Geeks, Welcomes, You]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the values() method
 
 import java.util.*;
@@ -92,7 +92,7 @@ public class Abstract_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The collection is: [15, 20, 25, 30]
 

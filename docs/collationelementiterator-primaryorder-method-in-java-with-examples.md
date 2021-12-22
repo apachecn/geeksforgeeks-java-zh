@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static final int primaryOrder(int order)
 ```
 
@@ -20,7 +20,7 @@ public static final int primaryOrder(int order)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // primaryOrder() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 primary order for order 1 is 89
 primary order for order 2 is 87
 primary order for order 3 is 87
@@ -85,7 +85,7 @@ primary order for order 13 is 101
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // primaryOrder() method
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 primary order for order 1 is 84
 primary order for order 2 is 97
 primary order for order 3 is 85

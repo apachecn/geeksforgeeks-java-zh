@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement Vector API
 import java.util.*;
 
@@ -354,7 +354,7 @@ public class VectorImplement<E> {
 
 **Output**
 
-```
+```java
 The capacity of the vector is 10
 Elements of vector is 
 one    three    five    ten    seven    six    

@@ -8,7 +8,7 @@ InputStream 类的 **read()方法从输入流中读取一个字节的数据。�
 
 **语法:**
 
-```
+```java
 public abstract int read()
 ```
 
@@ -22,13 +22,13 @@ public abstract int read()
 
 **步骤 1:** 将文件附加到文件输入流，因为这将使我们能够从文件中读取数据，如下所示:
 
-```
+```java
 FileInputStream  fileInputStream =new FileInputStream(“file.txt”);
 ```
 
 **步骤 2:** 现在，要从文件中读取数据，我们应该从文件输入流中读取数据，如下所示:
 
-```
+```java
 ch=fileInputStream.read();
 ```
 
@@ -36,7 +36,7 @@ ch=fileInputStream.read();
 
 **步骤 3(b):** 然后，我们应该将监视器附加到输出流。为了显示数据，我们可以使用系统打印
 
-```
+```java
 System.out.print(ch);
 ```
 
@@ -44,13 +44,13 @@ System.out.print(ch);
 
 **原始文件内容:(“File . txt”)**
 
-```
+```java
 GeeksforGeeks is a computer science portal
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working
 // of the FileInputStream read() method
 
@@ -83,7 +83,7 @@ public class abc {
 
 **输出**
 
-```
+```java
 GeeksforGeeks is a computer science portal
 ```
 
@@ -93,13 +93,13 @@ GeeksforGeeks is a computer science portal
 
 **示例:原始文件内容:(“File . txt”)**
 
-```
+```java
 GeeksforGeeks
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to read a file
 // without using -1 in while loop
 
@@ -137,6 +137,6 @@ public class abc {
 
 **输出**
 
-```
+```java
 GeeksforGeeks
 ```

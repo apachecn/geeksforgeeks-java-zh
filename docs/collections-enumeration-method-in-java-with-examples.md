@@ -5,7 +5,7 @@
 **java.util.Collections** 类的**枚举()**方法用于返回指定集合的枚举。这提供了与需要枚举作为输入的遗留 API 的互操作性。
 **语法:**
 
-```
+```java
 public static  Enumeration enumeration(Collection c)
 ```
 
@@ -16,7 +16,7 @@ public static  Enumeration enumeration(Collection c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // enumeration() method
 // for String value
@@ -63,7 +63,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 List: [Ram, Gopal, Verma]
 
 Enumeration over list: 
@@ -76,7 +76,7 @@ Value is: Verma
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // enumeration() method
 // for Integer value
@@ -123,7 +123,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 List: [20, 30, 40]
 
 Enumeration over list: 

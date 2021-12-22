@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E take() throws InterruptedException
 ```
 
@@ -21,7 +21,7 @@ public E take() throws InterruptedException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate take()
 // method of BlockingQueue
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Items in Queue are [Ravi, Suraj, Harsh, Sayan]
 Removed Item from head is Ravi
 Remaining Items in Queue are [Suraj, Harsh, Sayan]
@@ -88,7 +88,7 @@ Remaining Items in Queue are [Harsh, Sayan]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate take()
 // method of BlockingQueue
 
@@ -179,7 +179,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Removed Item is :
 Employee Name - Ravi
 Employee Position - Tester

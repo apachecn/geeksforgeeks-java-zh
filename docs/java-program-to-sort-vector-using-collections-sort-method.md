@@ -12,7 +12,7 @@
 
 **图解:** [***收藏.整理()方法***](https://www.geeksforgeeks.org/collections-sort-java-examples/)
 
-```
+```java
 Let us suppose that our list contains
 {"Geeks For Geeks", "Friends", "Dear", "Is", "Superb"}
 
@@ -30,7 +30,7 @@ After using Collection.sort(), we obtain a sorted list as
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort Vector
 // using Collections.sort() Method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 original vector : [a, d, e, b, c]
 
 sorted vector : [a, b, c, d, e]
@@ -78,7 +78,7 @@ sorted vector : [a, b, c, d, e]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Sort Vector
 // using Collections.sort() Method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 original vector : [4, 2, 7, 3, 2]
 
 sorted vector : [2, 2, 3, 4, 7]

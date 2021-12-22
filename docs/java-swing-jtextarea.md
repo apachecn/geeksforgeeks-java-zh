@@ -24,7 +24,7 @@ JTextArea 继承了 JComponent 类。JTextArea 中的文本可以设置为不同
 
 **1。程序创建一个简单的 JTextArea**
 
-```
+```java
 // Java Program to create a simple JTextArea
 import java.awt.event.*;
 import java.awt.*;
@@ -99,7 +99,7 @@ class text extends JFrame implements ActionListener {
 ![](img/437ba13897831f7241598a489f6801f7.png)
 **2。程序创建一个 JTextArea，并设置一个初始文本和添加按钮来改变文本区域的字体。**
 
-```
+```java
 // Java Program Program to create a JTextArea and
 // set a initial text and add buttons to change
 // the font of text area.

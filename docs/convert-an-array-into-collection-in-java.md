@@ -20,7 +20,7 @@ Java **集合**提供了一个存储和操作对象组的架构。数据的数�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Convert an Array into Collection in Java
 
 // import java util library
@@ -51,7 +51,7 @@ public class ArrayToCollection {
 
 **输出:**
 
-```
+```java
 Array input: [Virat, Sachin, Rohit, Bumrah]
 Converted elements: [Virat, Sachin, Rohit, Bumrah]
 
@@ -61,7 +61,7 @@ Converted elements: [Virat, Sachin, Rohit, Bumrah]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Convert an Array into Collection in Java
 
 // import java util library
@@ -87,7 +87,7 @@ public class ArrayToCollection {
 
 **输出:**
 
-```
+```java
 Array input: [India, Pakistan, Afganistan, Srilanka]
 Converted elements: [India, Pakistan, Afganistan, Srilanka]
 

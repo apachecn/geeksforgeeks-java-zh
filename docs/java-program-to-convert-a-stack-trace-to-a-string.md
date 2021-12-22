@@ -17,7 +17,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to convert a Stack trace to a string
 
 import java.io.*;
@@ -47,7 +47,7 @@ public class PrintStackTrace {
 
 **输出**
 
-```
+```java
 java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 3
     at PrintStackTrace.main(PrintStackTrace.java:12)
 

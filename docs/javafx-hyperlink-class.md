@@ -23,7 +23,7 @@
 
 1.  **Java Program to create a hyperlink and add it to the stage also add an event handler to handle the events:** This program creates a Hyperlink indicated by the name hyperlink. The Hyperlink will be created inside a scene, which in turn will be hosted inside a stage. We would create a label to show if the hyperlink is visited or not. The function *setTitle()* is used to provide title to the stage. Then an *HBox* is created, on which *addChildren()* method is called to attach the hyperlink and label inside the scene. Finally, the *show()* method is called to display the final results. We would create an event handler to handle the button events. The event handler would be added to the hyperlink using *setOnAction()* function.
 
-    ```
+    ```java
     // Java Program to create a hyperlink and add
     // it to the stage also add an event handler
     // to handle the events
@@ -95,7 +95,7 @@
 
 2.  **Java Program to create a hyperlink with both text and image on it and also add an event handler to it:** This program creates a Hyperlink indicated by the name *hyperlink* with an image and text on it. The image will be included using the File Input Stream that imports the image. Then we will create an image using the object of the file input stream and then create an image view using the image file. The Hyperlink will be created inside a scene, which in turn will be hosted inside a stage. We would create a label to show if the hyperlink is visited or not. The function *setTitle()* is used to provide title to the stage. Then an *HBox* is created, on which *addChildren()* method is called to attach the hyperlink and label inside the scene. Finally, the *show()* method is called to display the final results. We would create an event handler to handle the button events. The event handler would be added to the hyperlink using *setOnAction()* function.
 
-    ```
+    ```java
     // Java Program to create a hyperlink with 
     // both text and image on it and also add 
     // an event handler to it

@@ -6,7 +6,7 @@
 
 要读取一个字符，我们使用 **next()。charAt(0)** 。next()函数以字符串形式返回输入中的下一个标记/单词，charAt(0)函数返回该字符串中的第一个字符。
 
-```
+```java
 // Java program to read character using Scanner 
 // class
 import java.util.Scanner;
@@ -29,13 +29,13 @@ public class ScannerDemo1
 
 输入:
 
-```
+```java
 g
 ```
 
 输出:
 
-```
+```java
 c = g
 ```
 

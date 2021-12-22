@@ -31,7 +31,7 @@ LinkedHashMap 就像 [HashMap](https://www.geeksforgeeks.org/java-util-hashmap-i
 
 ## Java
 
-```
+```java
 // java Program to Sort LinkedHashMap by Values
 
 // Importing all classes
@@ -100,7 +100,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Key -> Geeks: Value ->1
 Key -> for: Value ->2
 Key -> Geek: Value ->3

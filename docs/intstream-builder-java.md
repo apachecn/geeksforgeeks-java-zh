@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static IntStream.Builder builder()
 
 ```
@@ -19,7 +19,7 @@ static IntStream.Builder builder()
 
 **例 1 :**
 
-```
+```java
 // Java code for IntStream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -42,14 +42,14 @@ class GFG {
 
 输出:
 
-```
+```java
 -1
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for IntStream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -73,7 +73,7 @@ class GFG {
 
 输出:
 
-```
+```java
 -1
 0
 2

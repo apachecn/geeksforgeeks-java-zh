@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public V putIfAbsent(K key, V value)
 ```
 
@@ -25,7 +25,7 @@ public V putIfAbsent(K key, V value)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // putIfAbsent(key, value) method.
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashTable: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 Returned value for Key 'Booklet' is: null
 hashTable: {Book=500, Mobile=5000, Pen=10, Clothes=400, Booklet=2500}
@@ -96,7 +96,7 @@ hashTable: {Book=500, Mobile=5000, Pen=10, Clothes=400, Booklet=2500}
 
 **程序 2:** 显示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // putIfAbsent(key, value) method.
 
@@ -134,7 +134,7 @@ public class GFG {
 
 T5】输出:
 
-```
+```java
 hashTable: {3=1000RS, 2=500RS, 1=100RS}
 Exception: java.lang.NullPointerException
 

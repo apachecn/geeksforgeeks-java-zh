@@ -10,14 +10,14 @@
 
 有时需要以不同的方式初始化对象。这可以使用构造函数重载来完成。例如，Thread 类有 8 种构造函数。如果我们不想指定关于线程的任何东西，那么我们可以简单地使用线程类的默认构造函数，但是如果我们需要指定线程名，那么我们可以用如下的字符串参数调用线程类的参数化构造函数:
 
-```
+```java
 Thread t= new Thread (" MyThread "); 
 
 ```
 
 让我们举个例子来理解构造函数重载的必要性。考虑一个类 Box 的以下实现，其中只有一个构造函数接受三个参数。
 
-```
+```java
 // An example class to understand need of
 // constructor overloading.
 class Box
@@ -44,7 +44,7 @@ class Box
 
 正如我们所看到的，Box()构造函数需要三个参数。这意味着 Box 对象的所有声明都必须向 Box()构造函数传递三个参数。例如，以下语句当前无效:
 
-```
+```java
 Box ob = new Box();
 
 ```
@@ -53,7 +53,7 @@ Box ob = new Box();
 
 初始化对象的不同方法的这些类型的问题可以通过构造函数重载来解决。下面是类 Box 的改进版本，带有构造函数重载。
 
-```
+```java
 // Java program to illustrate
 // Constructor Overloading
 class Box
@@ -119,7 +119,7 @@ public class Test
 
 输出:
 
-```
+```java
 Volume of mybox1 is 3000.0
 Volume of mybox2 is 0.0
 Volume of mycube is 343.0
@@ -130,7 +130,7 @@ Volume of mycube is 343.0
 
 [这个()引用](https://www.geeksforgeeks.org/this-reference-in-java/)可以在构造函数重载时使用，从参数化构造函数隐式调用默认构造函数。请注意，这个()应该是构造函数中的第一个语句。
 
-```
+```java
 // Java program to illustrate role of this() in
 // Constructor Overloading
 class Box
@@ -178,7 +178,7 @@ class Box
 
 输出:
 
-```
+```java
 0.0
 
 ```
@@ -187,7 +187,7 @@ class Box
 
 **注意:**构造函数调用应该是构造函数体中的第一条语句。例如，以下片段无效并引发编译时错误。
 
-```
+```java
 Box(int num)
 {
     boxNo = num;

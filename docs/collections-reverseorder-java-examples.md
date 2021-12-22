@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 public static  Comparator reverseOrder()
 ```
 
@@ -26,7 +26,7 @@ public static  Comparator reverseOrder()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate Working of reverseOrder()
 // method of Collections class
 // To sort a list in descending order
@@ -69,7 +69,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 List after the use of Collection.reverseOrder() and Collections.sort() :
 [50, 40, 30, 20, 10]
 ```** 
@@ -88,7 +88,7 @@ List after the use of Collection.reverseOrder() and Collections.sort() :
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate Working of reverseOrder()
 // method of Collections class
 // To Sort an Array in Descending Order
@@ -124,14 +124,14 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Array after the use of Collection.reverseOrder() and Arrays.sort() :
 [40, 30, 20, 10]
 ```** 
 
 ****案例 3:** 当有用户自定义的比较器做反向比较时，按卷号降序对学生进行排序。**
 
-```
+```java
 public static Comparator reverseOrder(Comparator c) 
 ```
 
@@ -141,7 +141,7 @@ public static Comparator reverseOrder(Comparator c) 
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate Working of
 // reverseOrder(Comparator c)
 // To sort students in descending order of roll numbers
@@ -235,7 +235,7 @@ class GFG {
 
 ****输出:****
 
-```
+```java
 Unsorted
 111 bbbb london
 131 aaaa nyc

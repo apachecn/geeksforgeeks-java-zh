@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
@@ -33,7 +33,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">Manabu-GT Expandable Text View </string>
     <string name="expandable_text">We Sanchhaya Education Pvt. Ltd., are registered and headquartered
@@ -60,7 +60,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -117,7 +117,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // getting reference of  ExpandableTextView
 ExpandableTextView expTv = (ExpandableTextView) findViewById(R.id.expand_text_view).findViewById(R.id.expand_text_view);
 
@@ -130,7 +130,7 @@ expTv.setText(getString(R.string.expandable_text));
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;

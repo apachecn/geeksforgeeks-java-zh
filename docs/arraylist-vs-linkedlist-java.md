@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Working of an ArrayList
 
 // Importing required classes
@@ -52,7 +52,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 ```
@@ -65,7 +65,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate Working of a LinkedList
 
 // Importing required classes
@@ -107,7 +107,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 [A, B, C]
 Linked list after deletion: [C]
 ```

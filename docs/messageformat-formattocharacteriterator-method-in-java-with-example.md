@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public AttributedCharacterIterator formatToCharacterIterator(Object arguments)
 ```
 
@@ -20,7 +20,7 @@ public AttributedCharacterIterator formatToCharacterIterator(Object arguments)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // formatToCharacterIterator() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 formatted array : 4, 4.23, 4.235
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // formatToCharacterIterator() method
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 argument is null 
 Exception thrown : java.lang.NullPointerException: formatToCharacterIterator must be passed non-null object
 

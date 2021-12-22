@@ -7,7 +7,7 @@ big decimal 由随机精度整数未缩放值和 32 位整数刻度组成。如�
 
 示例:
 
-```
+```java
 Input : double a=0.03;
         double b=0.04;
         double c=b-a;
@@ -29,7 +29,7 @@ Output :0.01
 
 但是 BigDecimal 为我们提供了确切的答案。
 
-```
+```java
 // Java Program to illustrate BigDecimal Class
 
 import java.math.BigDecimal;
@@ -72,7 +72,7 @@ public class BigDecimalExample
 
 **输出:-**
 
-```
+```java
 BigDecimal1 = 1112222211.2222222211
 BigDecimal1 = 1098491072963113850.7436076939614540479
 BigDecimal1 = 1098491071975459529.6201509049614540479
@@ -84,7 +84,7 @@ BigDecimal1 = -1237038244911605079.77528397755061728521
 
 **申报**
 
-```
+```java
 double a, b;                
 BigDecimal A, B; 
 
@@ -92,7 +92,7 @@ BigDecimal A, B;
 
 **初始化:**
 
-```
+```java
 a = 5.4;
 b = 2.3;
 A  = BigDecimal.valueOf(5.4);
@@ -102,7 +102,7 @@ B  = BigDecimal.valueOf(2.3);
 
 如果给你一个双数的字符串表示，那么你可以用下面的方式初始化:
 
-```
+```java
 A  = new BigDecimal(“5.4”);
 B  = new BigDecimal(“1238126387123.1234”); 
 
@@ -110,7 +110,7 @@ B  = new BigDecimal(“1238126387123.1234”);
 
 为了便于初始化，BigDecimal 类有一些预定义的常数:
 
-```
+```java
 A = BigDecimal.ONE;
 // Other than this, available constants
 // are BigDecimal.ZERO and BigDecimal.TEN 
@@ -119,7 +119,7 @@ A = BigDecimal.ONE;
 
 **数学运算:**
 
-```
+```java
 int c = a + b;
 BigDecimal C = A.add(B); 
 Other similar function are subtract() , multiply(), divide(), pow()
@@ -128,7 +128,7 @@ Other similar function are subtract() , multiply(), divide(), pow()
 
 但是所有这些函数，除了以整数为参数的 pow()之外，都以 BigDecimal 为参数，所以如果我们希望这些带有小数或字符串的运算在传递给函数之前先转换为 BigDecimal，如下所示:
 
-```
+```java
 String str = “123456789.123456789”;
 BigDecimal C = A.add(new BigBigDecimal(str));
 double val  = 123456789.123456789;
@@ -138,7 +138,7 @@ BigDecimal C = A.add(BigDecimal.valueOf(val));
 
 **从大十进制中提取值:**
 
-```
+```java
 // value should be in limit of double x
 double x   =  A.doubleValue();   
 
@@ -149,7 +149,7 @@ String z = A.toString();
 
 **对比:**
 
-```
+```java
 if (a < b) {}         // For primitive double
 if (A.compareTo(B) < 0)  {} // For BigDecimal
 
@@ -159,7 +159,7 @@ if (A.compareTo(B) < 0)  {} // For BigDecimal
 
 为了平等，我们还可以使用:
 
-```
+```java
 if (A.equals(B)) {}  // A is equal to B 
 
 ```

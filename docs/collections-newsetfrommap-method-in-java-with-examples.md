@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static  Set newSetFromMap(Map map)
 ```
 
@@ -20,7 +20,7 @@ public static  Set newSetFromMap(Map map)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // newSetFromMap() method
 
@@ -60,7 +60,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Map is: {C=true, B=true, A=true, D=true}
 Set from Map is: [C, B, A, D]
 
@@ -68,7 +68,7 @@ Set from Map is: [C, B, A, D]
 
 **示例 2:** 适用于*非法文档异常*
 
-```
+```java
 // Java program to demonstrate
 // newSetFromMap() method
 // for IllegalArgumentException
@@ -117,7 +117,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Exception thrown : java.lang.IllegalArgumentException: Map is non-empty
 
 ```

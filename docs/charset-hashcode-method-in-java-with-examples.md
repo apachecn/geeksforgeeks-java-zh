@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public final int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public final int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -41,14 +41,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The hash code for ISO-2022-CN is 1450311218
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -71,7 +71,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The hash code for x-windows-949 is -1698752417
 
 ```

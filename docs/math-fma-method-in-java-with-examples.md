@@ -18,7 +18,7 @@
 
 **例:**
 
-```
+```java
 Input: a = 2.0, b = 3.0, c = 3.0
 Output: 9.0
     As 2.0 * 3.0 + 3.0 = 9.0
@@ -31,7 +31,7 @@ Output: 62.059999999999995
 
 **语法:**
 
-```
+```java
 public static double fma(double a, double b, double c)
 ```
 
@@ -45,7 +45,7 @@ public static double fma(double a, double b, double c)
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate the fma() Method.
 
 public class GFG {
@@ -70,14 +70,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 9.2 * 6.3 + 4.1 = 62.059999999999995
 
 ```
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate the fma() Method.
 
 public class GFG {
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 19.2 * 16.3 + 44.1 = 357.06
 
 ```
@@ -113,7 +113,7 @@ public class GFG {
 
 **例** :
 
-```
+```java
 Input: a = 29.20f, b = 18.40f, c = 43.10f;
 Output: 580.38 
     As 29.20f * 18.40f + 43.10f = 580.38
@@ -126,7 +126,7 @@ Output: 62.059999999999995f
 
 **语法:**
 
-```
+```java
 public static double fma(float a, float b, float c)
 ```
 
@@ -140,7 +140,7 @@ public static double fma(float a, float b, float c)
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // the fma() Method.
 
@@ -166,14 +166,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 29.2 * 18.4 + 43.1 = 580.38
 
 ```
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // the fma() Method.
 
@@ -199,7 +199,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 49.29 * 28.58 + 33.63 = 1442.3383
 
 ```

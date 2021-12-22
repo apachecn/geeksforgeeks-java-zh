@@ -19,7 +19,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate
 // the EnumSet
 
@@ -53,7 +53,7 @@ class enumSetExample {
 
 **输出**
 
-```
+```java
 EnumSet : 
 Pink
 Green

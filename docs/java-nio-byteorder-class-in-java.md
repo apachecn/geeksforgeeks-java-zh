@@ -25,7 +25,7 @@ ByteOrder 类有两个字段
 
 **语法:**类声明
 
-```
+```java
 public final class ByteOrder extends Object {}
 ```
 
@@ -46,7 +46,7 @@ public final class ByteOrder extends Object {}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate ByteOrder Class
 
 // Importing input output and utility classes
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 OS Order         :- LITTLE_ENDIAN
 ByteBuffer Order :- BIG_ENDIAN
 {0 : 219223321}

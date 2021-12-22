@@ -10,19 +10,19 @@
 
 **第一种方式:**
 
-```
+```java
 *assert* *expression;*
 ```
 
 **第二路:**
 
-```
+```java
 *assert* *expression1 : expression2;*
 ```
 
 ***断言示例:-***
 
-```
+```java
 *// Java program to demonstrate syntax of assertion
 import java.util.Scanner;
 
@@ -39,14 +39,14 @@ class Test
 
 ***输出:***
 
-```
+```java
 *value is 15*
 ```
 
 *启用断言
 后**输出:***
 
-```
+```java
 *Exception in thread "main" java.lang.AssertionError: Underweight*
 ```
 
@@ -54,13 +54,13 @@ class Test
 
 *默认情况下，断言是禁用的。我们需要运行给定的代码。在 Java 源代码中启用断言语句的语法是:*
 
-```
+```java
 ***java –ea** Test*
 ```
 
 *或者*
 
-```
+```java
 ***java –enableassertions** Test*
 ```
 
@@ -70,13 +70,13 @@ class Test
 
 *在 java 中禁用断言的语法是:*
 
-```
+```java
 ***java –da** Test*
 ```
 
 *或者*
 
-```
+```java
 ***java –disableassertions** Test*
 ```
 
@@ -88,7 +88,7 @@ class Test
 *   *以确保看起来不可达的代码实际上是不可达的。*
 *   *确保写在评论里的假设是正确的。
 
-    ```
+    ```java
              if ((x & 1) == 1)  
              {  }
              else // x must be even 

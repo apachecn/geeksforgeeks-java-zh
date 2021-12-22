@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract long getLong()
 ```
 
@@ -20,7 +20,7 @@ public abstract long getLong()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getLong() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1233003 2292292 
 
@@ -95,7 +95,7 @@ Next Byte Value: 2292292
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getLong() method
 
@@ -163,7 +163,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1233003 2292292 
 
@@ -183,7 +183,7 @@ T5】getLong(int index)
 
 **语法:**
 
-```
+```java
 public abstract long getLong(int index)
 ```
 
@@ -197,7 +197,7 @@ public abstract long getLong(int index)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getLong() method
 
@@ -263,7 +263,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1233003 2292292 
 
@@ -275,7 +275,7 @@ Next Byte Value: 2292292
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getLong() method
 
@@ -341,7 +341,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 1233003 2292292 
 

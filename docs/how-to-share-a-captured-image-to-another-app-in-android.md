@@ -11,7 +11,7 @@
 1.  捕获的图像存储在外部存储器中。因此我们需要[向用户](https://www.geeksforgeeks.org/android-how-to-request-permissions-in-android-application/)请求访问文件的权限。因此，在清单文件中获取访问外部存储的权限。
 2.  这里 **pictureDir(文件)**指的是名为 **DIRECTORY_PICTURES**
 
-    ```
+    ```java
     File pictureDir
         = new File(
             Environment.getExternalStoragePublicDirectory(
@@ -23,7 +23,7 @@
     的外存目录
 3.  在 onCreate()方法中，检查目录**图片目录**是否存在。如果没有，那么用下面的代码创建目录
 
-    ```
+    ```java
     if(!pictureDir.exists()){
         pictureDir.mkdirs();
     }
@@ -38,14 +38,14 @@
     *   将图像传递给 startActivityForResult()
 5.  使用 intent 将此图片分享给其他应用程序。
 
-    ```
+    ```java
     Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
 
     ```
 
 6.  为了这篇文章，我们将选择 Gmail，并将此图片作为邮件附件发送。
 
-    ```
+    ```java
     startActivity(Intent.createChooser(emailIntent, "Send mail..."));
 
     ```
@@ -54,7 +54,7 @@
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -98,7 +98,7 @@
 
 ## MainActivity.java
 
-```
+```java
 package com.example.camera_mail;
 
 import android.Manifest;
@@ -306,7 +306,7 @@ public class MainActivity
 
 ## AndroidManifest.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"

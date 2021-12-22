@@ -12,7 +12,7 @@
 如果队列包含作为参数传递的对象，则**包含(对象 o)** 方法返回真**。我们可以说方法返回真**当且仅当**这个队列包含至少一个元素 e，它等于作为参数传递的对象 o，即 o.equals(e)。
 **语法:****
 
-```
+```java
 public boolean contains(Object o)
 ```
 
@@ -24,7 +24,7 @@ o–检查队列是否包含指定对象的对象。
 下面的程序示例包含了 ArrayBlockingQueue 的方法。
 **例 1**
 
-```
+```java
 // Java Program Demonstrate contains(Object o)
 // method of ArrayBlockingQueue.
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 queue contains 23 : true
 queue contains 99 : false
 
@@ -72,7 +72,7 @@ queue contains 99 : false
 
 **例 2**
 
-```
+```java
 // Java Program Demonstrate contains(Object o)
 // method of ArrayBlockingQueue.
 import java.util.concurrent.ArrayBlockingQueue;
@@ -140,7 +140,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 queue contains User having name Aman : true
 queue contains User having name Ravi : false
 

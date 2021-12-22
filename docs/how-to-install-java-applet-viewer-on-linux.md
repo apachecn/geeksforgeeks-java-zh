@@ -14,7 +14,7 @@ Applet viewer 是一个运行 java applet 的命令行程序。它帮助您在�
 
 **步骤 2:** 打开终端，执行以下命令:
 
-```
+```java
  sudo apt install openjdk-8-jdk openjdk-8-jre 
 ```
 
@@ -26,7 +26,7 @@ Applet viewer 是一个运行 java applet 的命令行程序。它帮助您在�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.awt.*;
 import java.applet.*;
 
@@ -46,7 +46,7 @@ public class Demo extents Applet
 
 **第四步:**逐一编写以下命令，执行小程序程序。
 
-```
+```java
 cd Java/
 ls
 Demo.class Demo.java

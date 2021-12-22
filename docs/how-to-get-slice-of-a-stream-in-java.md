@@ -26,7 +26,7 @@
     4.  调用 limit()方法从流中指定元素的数量，该数量应被限制为**限制(endIndex–startIndex+1)**
     5.  返回**切片流**
 
-    ```
+    ```java
     // Java program to get slice of a stream using
     // Stream skip() and limit()
     import java.util.*;
@@ -76,7 +76,7 @@
 
     **Output:**
 
-    ```
+    ```java
     List: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
     Slice of Stream:
@@ -102,7 +102,7 @@
     8.  使用 **stream.collect()** 收集切片列表流
     9.  返回**切片流**
 
-    ```
+    ```java
     // Java program to get slice of a stream using
     // Collection skip() and limit()
     import java.util.*;
@@ -158,7 +158,7 @@
 
     **Output:**
 
-    ```
+    ```java
     List: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
     Slice of Stream:
@@ -181,7 +181,7 @@
     5.  使用**流()**将子列表转换回流
     6.  返回**切片流**
 
-    ```
+    ```java
     // Java program to get slice of a stream by
     // fetching a sublist
     import java.util.*;
@@ -233,7 +233,7 @@
 
     **Output:**
 
-    ```
+    ```java
     List: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
     Slice of Stream:

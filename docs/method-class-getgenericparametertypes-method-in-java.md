@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public Type[] getGenericParameterTypes()
 ```
 
@@ -24,7 +24,7 @@ public Type[] getGenericParameterTypes()
 
     **程序 1:** 打印为方法声明的所有参数类型
 
-    ```
+    ```java
     // Program Demonstrate how to apply getGenericParameterTypes() method
     // of Method Class.
 
@@ -100,7 +100,7 @@ public Type[] getGenericParameterTypes()
 
     **Output:**
 
-    ```
+    ```java
     Method Name : setManyValues
     No of Parameters : 3
     Parameter object details:
@@ -122,7 +122,7 @@ public Type[] getGenericParameterTypes()
 
     **程序 2:** 检查方法对象是否包含参数
 
-    ```
+    ```java
     // Program Demonstrate how to apply getGenericParameterTypes()
     // method of Method Class.
     import java.lang.reflect.Method;
@@ -221,7 +221,7 @@ public Type[] getGenericParameterTypes()
 
     **Output:**
 
-    ```
+    ```java
     No of String Parameters in setValue(): 2
     No of int Parameters in setManyValues(): 1
 

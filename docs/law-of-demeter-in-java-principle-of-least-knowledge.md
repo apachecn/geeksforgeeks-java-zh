@@ -27,7 +27,7 @@ java 中最少知识的 4 个原则如下:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Law of Demeter or
 // Least knowledge principle
 // where
@@ -84,7 +84,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 hello from M()
 I am anotherMethod() of same class
 ```
@@ -97,7 +97,7 @@ I am anotherMethod() of same class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Law of Demeter or
 // Least knowledge principle
 // where
@@ -156,7 +156,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Hello Dog
 Bark(_-_)
 ```
@@ -169,7 +169,7 @@ Bark(_-_)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Law of Demeter or
 // Least knowledge principle
 // where
@@ -231,7 +231,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Law of Demeter or
 // Least knowledge principle
 // where
@@ -292,7 +292,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Hello Dog!
 Barks!
 ```

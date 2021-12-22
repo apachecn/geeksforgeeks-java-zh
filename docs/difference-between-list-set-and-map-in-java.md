@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // addition of elements in a List
 
@@ -36,7 +36,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 mango
 orange
 Grapes
@@ -48,7 +48,7 @@ Grapes
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A Java program to demonstrate a Set.
 // Here, you will see how you can add
 // Elements using Set.
@@ -77,7 +77,7 @@ public class SetExample {
 
 ****输出:****
 
-```
+```java
 [four, one, two, three, five]
 ```
 
@@ -87,7 +87,7 @@ public class SetExample {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A sample program to demonstrate Map.
 
 // Here, you will see how you
@@ -119,7 +119,7 @@ class MapExample {
 
 ****输出:****
 
-```
+```java
 100 Amit
 101 Vijay
 102 Rahul

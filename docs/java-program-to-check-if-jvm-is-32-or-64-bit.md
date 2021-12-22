@@ -28,7 +28,7 @@ JVM 代表 Java 虚拟机。它是一个抽象的计算机器，允许计算机�
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to check bitness of JVM by
 // using System property "sun.arch.data.model"
 public class checkBit {
@@ -58,7 +58,7 @@ public class checkBit {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to check bitness of JVM by
 // using System property "os.arch.model"
 public class bit {

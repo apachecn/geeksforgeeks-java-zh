@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 
 ```
@@ -18,7 +18,7 @@ public boolean isEmpty()
 下面的程序说明了 CompositeName.isEmpty()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.isEmpty()
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 This composite object is empty: false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.isEmpty() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 This composite object is empty: true
 
 ```

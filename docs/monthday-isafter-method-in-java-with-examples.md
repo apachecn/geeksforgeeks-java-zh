@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isAfter(MonthDay other)
 
 ```
@@ -18,7 +18,7 @@ public boolean isAfter(MonthDay other)
 下面的程序说明了 isAfter()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.isAfter() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 monthday:--10-12 is after monthday:--11-12 = false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // MonthDay.isAfter() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 monthday:--10-12 is after monthday:--09-12 = true
 
 ```

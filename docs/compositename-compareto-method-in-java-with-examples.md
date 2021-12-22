@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(Object obj)
 
 ```
@@ -21,7 +21,7 @@ public int compareTo(Object obj)
 下面的程序说明了 CompositeName.compareTo()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.compareTo()
 
@@ -59,14 +59,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompositeName1 is smaller than CompositeName2
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.compareTo() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CompositeName1 is greater than CompositeName2
 
 ```

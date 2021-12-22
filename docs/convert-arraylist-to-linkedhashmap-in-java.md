@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input ArrayList :  { 5, 6, 7, 8, 4 } 
 
 Output LinkedHashMap :
@@ -33,7 +33,7 @@ Index  |  Value
 
 **伪代码:**
 
-```
+```java
 while (i < l1.size()) {
 
             l.put(i + 1, l1.get(i));
@@ -45,7 +45,7 @@ Here, "l1" is ArrayList and "l" is LinkedHashMap.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert ArrayList
 // to LinkedHashMap
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Key  |  Value
  1   |  5
  2   |  6
@@ -110,7 +110,7 @@ Key  |  Value
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert ArrayList to LinkedHashMap
 
 import java.util.*;
@@ -163,7 +163,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 ArrayList contains: [[1=>will], [2=>mike], [3=>luke], [4=>dustin]]
 Map contains: {1=[1=>will], 2=[2=>mike], 3=[3=>luke], 4=[4=>dustin]}
 ```

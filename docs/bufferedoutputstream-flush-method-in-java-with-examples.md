@@ -6,7 +6,7 @@ Java 中**bufferedoutstream**类的 **flush()** 方法用于刷新缓冲的输�
 
 **语法:**
 
-```
+```java
 public void flush() 
             throws IOException
 
@@ -26,7 +26,7 @@ public void flush()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // BufferedOutputStream flush() method
 import java.io.*;
@@ -67,14 +67,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // BufferedOutputStream flush() method
 import java.io.*;
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKSFORGEEKS
 
 ```

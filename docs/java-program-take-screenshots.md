@@ -14,7 +14,7 @@
 *   将其保存为 Screenshot.java，并在 CommandPrompt 上运行。
 *   如有问题，请参考最后的截图。
 
-```
+```java
 // Java Program to Capture full
 // Image of Screen
 import java.awt.AWTException;

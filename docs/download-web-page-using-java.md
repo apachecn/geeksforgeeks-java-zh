@@ -15,7 +15,7 @@
 
 **程序:**
 
-```
+```java
 package normal;
 // Java program to read and download
 // webpage in html file
@@ -68,6 +68,6 @@ public class download {
 
 **输出:**
 
-```
+```java
 Successfully Downloaded.
 ```

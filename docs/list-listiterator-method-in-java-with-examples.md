@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ListIterator listIterator(int index)
 ```
 
@@ -20,7 +20,7 @@ ListIterator listIterator(int index)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // listIterator() method
 // for List interface
@@ -66,7 +66,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayList: [1, 3, 6, 9]
 
 Using ListIterator:
@@ -80,7 +80,7 @@ Value is : 9
 
 **程序 2:** 下面是使用 Linkedlist 展示 list.subList()实现的代码。
 
-```
+```java
 // Java program to demonstrate
 // listIterator() method
 // for List interface
@@ -126,7 +126,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 ArrayList: [A, B, C, D]
 
 Using ListIterator:

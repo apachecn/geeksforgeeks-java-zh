@@ -5,7 +5,7 @@
 Java 中 **CharArrayWriter** 类的 **reset()** 方法用于重置缓冲区，以便可以再次使用，而不会扔掉已经分配的缓冲区。
 **语法** :
 
-```
+```java
 public void reset()
 ```
 
@@ -16,7 +16,7 @@ public void reset()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the reset() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of char_array1 : 5
 Size of char_array1 : 0
 ```
@@ -65,7 +65,7 @@ Size of char_array1 : 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the reset() method
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of char_array1 : 6
 Size of char_array1 : 0
 ```

@@ -5,7 +5,7 @@
 [**Java . text . ChoiceFormat**](https://www.geeksforgeeks.org/tag/java-choiceformat/)类的 **equals()** 方法用于比较两个 choice format 对象，并给出关于比较的布尔值。
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -16,7 +16,7 @@ public boolean equals(Object obj)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate equals() method
 
 import java.text.*;
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Both ChoiceFormat objects are equal
 ```
 
@@ -61,7 +61,7 @@ Both ChoiceFormat objects are equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate equals() method
 
 import java.text.*;
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Both ChoiceFormat objects are not equal
 ```
 

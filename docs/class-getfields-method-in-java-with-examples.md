@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Field[] getFields()
 
 ```
@@ -21,7 +21,7 @@ public Field[] getFields()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getFields() method
 
 import java.util.*;
@@ -51,7 +51,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Fields of myClass: [public java.lang.Object Test.obj]
 
@@ -59,7 +59,7 @@ Fields of myClass: [public java.lang.Object Test.obj]
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getFields() method
 
 import java.util.*;
@@ -96,7 +96,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Fields of myClass: []
 
 ```

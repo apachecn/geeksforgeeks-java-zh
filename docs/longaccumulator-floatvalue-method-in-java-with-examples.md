@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public float floatValue()
 
 ```
@@ -19,7 +19,7 @@ public float floatValue()
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the floatValue() method
 
 import java.lang.*;
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the old value is: 52
  the current value is: 52
 
@@ -56,7 +56,7 @@ the old value is: 52
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the floatValue() method
 
 import java.lang.*;
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the old value is: 19
  the current value is: 19
 

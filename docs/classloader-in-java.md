@@ -53,7 +53,7 @@
 
 ******示例:**在加载类之前执行以下代码:****
 
-```
+```java
 **protected synchronized Class<?>
 loadClass(String name, boolean resolve)
     throws ClassNotFoundException

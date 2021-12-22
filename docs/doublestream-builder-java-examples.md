@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static DoubleStream.Builder builder()
 
 ```
@@ -19,7 +19,7 @@ static DoubleStream.Builder builder()
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -44,14 +44,14 @@ class GFG {
 
 输出:
 
-```
+```java
 2.3
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -75,7 +75,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2.3
 -1.2
 3.5

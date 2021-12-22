@@ -4,7 +4,7 @@
 
 您能猜出以下代码片段的输出吗:
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -17,7 +17,7 @@ public class Test
 是的，你猜对了:算术异常
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.ArithmeticException: / by zero
 	at traps.Test.main(Test.java:3)
 
@@ -25,7 +25,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 
 现在猜测输出:
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -38,7 +38,7 @@ public class Test
 你猜对了吗？
 输出:
 
-```
+```java
 NaN
 
 ```
@@ -47,7 +47,7 @@ NaN
 
 “ **NaN** ”代表“不是数字”。如果浮点运算有一些输入参数，导致运算产生一些未定义的结果，就会产生“Nan”。例如， **0.0 除以 0.0** 在算术上是未定义的。找出负数的**平方根也是没有定义的。**
 
-```
+```java
 //Java Program to illustrate NaN
 public class Test
 {
@@ -62,7 +62,7 @@ public class Test
 
 输出:
 
-```
+```java
 NaN
 NaN
 NaN
@@ -71,7 +71,7 @@ NaN
 
 在 javadoc 中，常量字段 NaN 在 Float 和 Double 类中分别声明如下。
 
-```
+```java
 public static final float 	NaN = 0f / 0f;
 public static final double      NaN = 0d / 0d;
 
@@ -85,7 +85,7 @@ public static final double      NaN = 0d / 0d;
 *   如果任一操作数为 NaN，等式运算符==返回 false。
 *   不等式运算符！=如果任一操作数为 NaN，则返回 true。( [15.21.1](http://docs.oracle.com/javase/specs/jls/se7/html/jls-15.html#jls-15.21.1) )
 
-```
+```java
 // Java program to test relational operator on NaN
 public class ComparingNaN
 {
@@ -116,7 +116,7 @@ public class ComparingNaN
 
 输出:
 
-```
+```java
 Check if equal :false
 Check if UNequal: true
 Check if equal: false
@@ -130,7 +130,7 @@ false
 
 如果此对象表示的值是 NaN，则此方法返回 true 否则为假。
 
-```
+```java
 
 import java.lang.*;
 
@@ -155,7 +155,7 @@ public class isNan
 
 输出:
 
-```
+```java
 NaN = true
 -Infinity = false
 
@@ -166,7 +166,7 @@ NaN = true
 [IEEE 754](http://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3) 浮点数可以表示正无穷大或负无穷大，以及 NaN(不是数字)。这三个值来自结果未定义或无法准确表示的计算。
 爪哇正在遵循已知的数学事实。1.0 / 0.0 是无穷大，但是其他的都是不定形式，Java 表示为 NaN(不是数字)。
 
-```
+```java
 // Java program to illustrate output of floating
 // point number operations
 public class Test
@@ -182,7 +182,7 @@ public class Test
 
 输出:
 
-```
+```java
 Infinity
 -Infinity
 Infinity

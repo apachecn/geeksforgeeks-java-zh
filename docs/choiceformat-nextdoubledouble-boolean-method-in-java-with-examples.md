@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double nextDouble(double d, boolean positive)
 ```
 
@@ -23,7 +23,7 @@ public static double nextDouble(double d, boolean positive)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // nextDouble() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Next Double value : 21.999999999999996
 ```
 
@@ -57,7 +57,7 @@ Next Double value : 21.999999999999996
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // nextDouble() method
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Just greater than 1.23: 1.2300000000000002
 Just lesser than 10.0: 9.999999999999998
 Just greater than -12.0: -11.999999999999998

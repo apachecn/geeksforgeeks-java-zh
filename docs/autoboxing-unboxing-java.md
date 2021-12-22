@@ -15,7 +15,7 @@
 下表列出了 Java 编译器用于自动装箱和取消装箱的原语类型及其对应的包装类:
 [![auto_un_boxing](img/e9927b4205d9e0cf00353ae0e37a4d43.png)](https://media.geeksforgeeks.org/wp-content/uploads/Wrapper.png)
 
-```
+```java
 // Java program to illustrate the concept
 // of Autoboxing and Unboxing
 import java.io.*;
@@ -48,7 +48,7 @@ class GFG
 
 输出:
 
-```
+```java
 Value of i: 10
 Value of i1: 10
 Value of ch: a
@@ -58,7 +58,7 @@ Value of gfg: a
 
 另一个理解编译器如何使用[泛型](https://www.geeksforgeeks.org/generics-in-java/)在 java 的 Collections 示例中进行自动装箱和取消装箱的例子。
 
-```
+```java
 /* Java program to illustrate autoboxing */
 import java.io.*;
 import java.util.*;
@@ -80,7 +80,7 @@ class GFG
 在上面的例子中，我们已经创建了一个整数类型的元素列表。我们正在添加 int 原语类型值，而不是 Integer Object，代码已成功编译。它不会产生编译时错误，因为 java 编译器从原语 int i 创建整数包装对象并将其添加到列表中。
 参见以下示例，了解它如何转换…
 
-```
+```java
 /* Java program to illustrate autoboxing */
 import java.io.*;
 import java.util.*;
@@ -103,7 +103,7 @@ class GFG
 
 自动拆箱的另一个例子是在列表中查找奇数的和。程序中重要的一点是，运算符余数(%)和一元加号(+=)运算符不适用于整数对象。但是代码仍然编译成功，因为 Integer Object 到原语 int 值的拆箱是通过在运行时调用 int value()方法进行的。
 
-```
+```java
 // Java program to illustrate  find sum
 // of odd numbers using autobxing and unboxing
 import java.io.*;
@@ -145,7 +145,7 @@ class GFG
 
 输出:
 
-```
+```java
 Sum of odd numbers = 25
 
 ```

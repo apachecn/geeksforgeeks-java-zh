@@ -6,7 +6,7 @@ Java 中 **DataInputStream** 类的 **readBoolean()** 方法用于读取一个�
 
 **语法:**
 
-```
+```java
 public final boolean readBoolean()
                 throws IOException
 
@@ -27,7 +27,7 @@ public final boolean readBoolean()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // DataInputStream readBoolean() method
 import java.io.*;
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 true
 false
 false
@@ -71,7 +71,7 @@ false
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // DataInputStream readBoolean() method
 import java.io.*;
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 true
 true
 true

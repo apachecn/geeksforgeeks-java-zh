@@ -14,13 +14,13 @@ Java 编程语言是关于[类和对象](https://www.geeksforgeeks.org/classes-o
 
 我们使用*类名*后跟方括号 *[]* 然后是对象引用名来创建对象数组。
 
-```
+```java
 Class_Name[ ] objectArrayReference;
 ```
 
 或者，我们也可以将对象数组声明为:
 
-```
+```java
 Class_Name objectArrayReference[ ];
 ```
 
@@ -28,7 +28,7 @@ Class_Name objectArrayReference[ ];
 
 例如，如果您有一个学生类，那么我们可以创建一个学生对象数组，如下所示:
 
-```
+```java
 Student[ ] studentObjects;  
 Or
 Student studentObjects[];
@@ -38,13 +38,13 @@ Student studentObjects[];
 
 **语法:**
 
-```
+```java
 Class_Name obj[ ]= new Class_Name[Array_Length];
 ```
 
 例如，如果您有一个类 Student，并且我们想要用两个对象/对象引用来声明和实例化 Student 对象的数组，那么它将被写成:
 
-```
+```java
 Student[ ] studentObjects = new Student[2];
 ```
 
@@ -71,7 +71,7 @@ Student[ ] studentObjects = new Student[2];
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate initializing
 // an array of objects using constructor
 
@@ -134,7 +134,7 @@ class Student {
 
 **Output**
 
-```
+```java
 Student data in student arr 0: 
 Student id is: 1701289270 and Student name is: Satyabrata
 

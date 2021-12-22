@@ -15,7 +15,7 @@ T3【注:
 
 ****例:**展示 **java.lang.Math.floor()** 方法的工作。**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.floor() method
 import java.lang.Math;
@@ -51,7 +51,7 @@ class Gfg {
 
 ****输出:****
 
-```
+```java
 4.0
 Infinity
 0.0

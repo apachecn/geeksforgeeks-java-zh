@@ -11,7 +11,7 @@
 
 **类申报:**
 
-```
+```java
 public final class WeekFields
 extends Object
 implements Serializable
@@ -51,7 +51,7 @@ implements Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // WeekFields class
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 day of week for 2021-03-31 :3
 week based year for 2021-03-31 :2021
 week of month for 2021-03-31 :5
@@ -128,7 +128,7 @@ Week of week for 2021-03-31 :14
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // WeekFields class
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 day of week for 2021-12-05 :1
 week based year for 2021-12-05 :2021
 week of month for 2021-12-05 :2

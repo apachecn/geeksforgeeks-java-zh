@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractCollection.isEmpty()
 ```
 
@@ -18,7 +18,7 @@ AbstractCollection.isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate isEmpty() method
 
 import java.util.*;
@@ -61,7 +61,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 Collection: [4, Geeks, To, TreeSet, Welcome]
 Is the collection empty? false
 Is the collection empty? true
@@ -70,7 +70,7 @@ Is the collection empty? true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate isEmpty() method
 
 import java.util.*;
@@ -112,7 +112,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 Collection: [Welcome, To, Geeks, 4, Geeks, ArrayList]
 Is the collection empty? false
 Is the collection empty? true

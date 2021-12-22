@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ChronoZonedDateTime withEarlierOffsetAtOverlap()
 
 ```
@@ -19,7 +19,7 @@ ChronoZonedDateTime withEarlierOffsetAtOverlap()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // withEarlierOffsetAtOverlap() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before withEarlierOffsetAtOverlap():
  2018-11-04T01:25:43-06:00[US/Central]
 
@@ -69,7 +69,7 @@ After withEarlierOffsetAtOverlap():
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // withEarlierOffsetAtOverlap() method
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before withEarlierOffsetAtOverlap():
  2021-11-07T01:05:53-06:00[US/Central]
 

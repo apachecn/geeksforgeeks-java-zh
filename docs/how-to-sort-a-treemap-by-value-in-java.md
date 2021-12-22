@@ -13,7 +13,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Sort a TreeMap By Value
 
 import java.util.*;
@@ -83,7 +83,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Sita: 1
 Anshu: 2
 Chhotu: 3
@@ -95,7 +95,7 @@ Golu: 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Sort a TreeMap By Value
 
 import java.util.*;
@@ -173,7 +173,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1: Anshu
 3: Chhotu
 2: Golu

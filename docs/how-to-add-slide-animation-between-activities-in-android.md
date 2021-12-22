@@ -13,7 +13,7 @@
 
     ## slide _ in _ left . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <set xmlns:android="http://schemas.android.com/apk/res/android">
         <translate
@@ -27,7 +27,7 @@
 
     ## slide _ in _ right . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <set xmlns:android="http://schemas.android.com/apk/res/android">
         <translate
@@ -41,7 +41,7 @@
 
     ## 滑出 _ out _ left . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <set xmlns:android="http://schemas.android.com/apk/res/android">
         <translate
@@ -55,7 +55,7 @@
 
     ## 滑出 _ out _ right . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <set xmlns:android="http://schemas.android.com/apk/res/android">
         <translate
@@ -69,7 +69,7 @@
 
     ## activity _ main 2 . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -101,7 +101,7 @@
 
     ## activity _ main 3 . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
 
@@ -127,7 +127,7 @@
 
     ## MainActivity2.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgslidescreen;
 
     import androidx.appcompat.app.AppCompatActivity;
@@ -168,7 +168,7 @@
 
     ## MainActivity3.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgslidescreen;
 
     import androidx.appcompat.app.AppCompatActivity;
@@ -189,7 +189,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
 
@@ -222,7 +222,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgslidescreen;
 
     import androidx.appcompat.app.AppCompatActivity;
@@ -258,7 +258,7 @@
 
     ## 
 
-    ```
+    ```java
     <resources>
         <!-- Base application theme. -->
         <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">

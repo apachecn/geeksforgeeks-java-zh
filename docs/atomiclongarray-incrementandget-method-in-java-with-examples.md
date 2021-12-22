@@ -15,7 +15,7 @@
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the incrementAndGet() function
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The array after update : [1, 2, 3, 5, 5]
 
@@ -57,7 +57,7 @@ The array after update : [1, 2, 3, 5, 5]
 
 **程序 2:**
 
-```
+```java
 // Java program that demonstrates
 // the incrementAndGet() function
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The array : [11, 12, 13, 14, 15]
 The array after update : [12, 12, 13, 14, 15]
 

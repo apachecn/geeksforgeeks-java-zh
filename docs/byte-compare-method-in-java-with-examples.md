@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 Byte.compare(byte a, byte b)
 ```
 
@@ -22,7 +22,7 @@ Byte.compare(byte a, byte b)
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Byte compare() method
 
@@ -49,14 +49,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 20 and 20 : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Byte compare() method
 
@@ -83,14 +83,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 20 and 10 : 10
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to demonstrate
 // Byte compare() method
 
@@ -117,7 +117,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 10 and 20 : -10
 
 ```

@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 @GwtCompatible(emulated=true)
 public final class Chars
 extends Object
@@ -33,7 +33,7 @@ extends Object
 下面给出了一些示例，显示了番石榴 Chars 类的方法的实现:
 **示例 1 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Chars.asList() method
 
@@ -59,14 +59,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [g, e, e, k, s]
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Chars.toArray() method
 
@@ -92,14 +92,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [g, e, e, k, s]
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Chars.concat() method
 
@@ -126,14 +126,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [g, e, e, k, s]
 
 ```
 
 **例 4 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Chars.contains() method
 
@@ -156,7 +156,7 @@ class GFG {
 
 输出:
 
-```
+```java
 true
 false
 
@@ -164,7 +164,7 @@ false
 
 **例 5 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Chars.min() method
 
@@ -184,14 +184,14 @@ class GFG {
 
 输出:
 
-```
+```java
 e
 
 ```
 
 **例 6 :**
 
-```
+```java
 // Java code to show implementation
 // of Guava Chars.max() method
 
@@ -211,7 +211,7 @@ class GFG {
 
 输出:
 
-```
+```java
 s
 
 ```

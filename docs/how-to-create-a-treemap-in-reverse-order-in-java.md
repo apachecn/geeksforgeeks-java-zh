@@ -8,7 +8,7 @@ Java 中的**collections . reverseorders()**方法返回一个比较器，该比
 
 **示例**:
 
-```
+```java
 // Insert elements to the TreeMap
 
 Input : treemap.put("1", "Welcome");
@@ -29,7 +29,7 @@ Output : 5: Community
 
 下面的程序展示了如何以相反的顺序遍历树形图:
 
-```
+```java
 // Java program to traverse a TreeMap
 // in reverse order
 import java.util.*;
@@ -63,7 +63,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 5: Community
 4: Geeks
 3: the

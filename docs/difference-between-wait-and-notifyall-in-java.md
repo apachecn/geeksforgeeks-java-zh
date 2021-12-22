@@ -17,17 +17,17 @@
 
 **语法:**
 
-```
+```java
 public  final void wait()
 ```
 
 上述方法导致当前线程无限期等待，直到 notify()或 notifyAll()为此对象调用。
 
-```
+```java
 public final native void wait( long microsecond)
 ```
 
-```
+```java
 public final void wait( long microsecond , int nanosecond)
 ```
 
@@ -41,7 +41,7 @@ public final void wait( long microsecond , int nanosecond)
 
 **语法:**
 
-```
+```java
 public final native void notifyAll()
 ```
 
@@ -53,7 +53,7 @@ public final native void notifyAll()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate difference between
 // wait() and notifyAll() method
 
@@ -153,7 +153,7 @@ class ThreadN {
 
 **Output**
 
-```
+```java
 main thread trying to call wait method
 child thread start calculation
 child thread trying to give notification

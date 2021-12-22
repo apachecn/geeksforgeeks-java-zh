@@ -5,7 +5,7 @@
 [**延迟队列**](https://www.geeksforgeeks.org/delayqueue-class-in-java-with-example/) 的 **offer()** 方法用于在延迟队列中插入指定元素。它的作用类似于 DelayQueue 的 add()方法。
 **语法:**
 
-```
+```java
 public boolean offer (E e)
 ```
 
@@ -20,7 +20,7 @@ public boolean offer (E e)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate DelayQueue offer() method
 
 import java.util.concurrent.*;
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original DelayQueue: [
 { A, time=1545817395066}, 
 { B, time=1545817395067}]

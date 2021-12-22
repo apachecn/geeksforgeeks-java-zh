@@ -45,7 +45,7 @@ regex 包中的类**
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the
 // Digit & Non Digit related Metacharacters
 
@@ -75,7 +75,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 true
 false
 true
@@ -91,7 +91,7 @@ false
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the
 // Whitespace and Non-Whitespace Metacharacters
 
@@ -115,7 +115,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 true
 false
 true
@@ -131,7 +131,7 @@ false
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the
 // Word & Non Word Metacharacters
 
@@ -158,7 +158,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 true
 true
 false
@@ -176,7 +176,7 @@ true
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the
 // Word & Non Word Boundary Metacharacters
 
@@ -204,7 +204,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 true
 false
 true
@@ -220,7 +220,7 @@ false
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate all the 
 // Metacharacters in the Java Regex
 
@@ -247,7 +247,7 @@ class GFG {
 
 ******Output**
 
-```
+```java
 true
 false
 ```****

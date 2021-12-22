@@ -5,7 +5,7 @@
 Java . util . LinkedHashMap . ContainsKey()方法用于检查特定键是否映射到 LinkedHashMap。它将关键元素作为参数，如果该元素在映射中被映射，则返回 True。
 **语法:**
 
-```
+```java
 Linked_Hash_Map.containsKey(*key_element*)
 ```
 
@@ -17,7 +17,7 @@ Linked_Hash_Map.containsKey(*key_element*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class Linked_Hash_Map_Demo {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Is the key '20' present? true
 Is the key '5' present? false
@@ -62,7 +62,7 @@ Is the key '5' present? false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -97,7 +97,7 @@ public class Hash_Map_Demo {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {Geeks=20, 4=15, Welcomes=25, You=30}
 Is the key 'Welcomes' present? true
 Is the key 'World' present? false

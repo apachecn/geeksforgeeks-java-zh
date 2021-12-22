@@ -17,7 +17,7 @@
 
 **注意:**默认情况下，未检查的异常在调用链中被转发(传播)。
 
-```
+```java
 // Java program to illustrate
 // unchecked exception propagation
 // without using throws keyword
@@ -55,7 +55,7 @@ class Simple {
 
 **<u>输出:</u>**
 
-```
+```java
 Exception handled 
 Normal flow...
 
@@ -69,7 +69,7 @@ Normal flow...
 
 **注意:**默认情况下，勾选的异常是**而不是**在调用链中转发(传播)。
 
-```
+```java
 // Java program to illustrate exception propagation
 // in checked exceptions  and it can be propagated
 // by throws keyword ONLY
@@ -111,7 +111,7 @@ class Simple {
 
 **<u>输出:</u>**
 
-```
+```java
 exception handled 
 normal flow...
 

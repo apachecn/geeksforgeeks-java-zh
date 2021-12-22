@@ -21,7 +21,7 @@ Dimension2D 类是 JavaFX 的一部分。Dimension2D 类是一个存储高度和
 
 1.  **Java program to create a Dimension2D object and display its contents:** This program creates a Dimension2D object named dimension. The height and width of the dimension is passed as arguments. Then the height and width are extracted from the object using *getHeight()* and *getWidth()* function and the respective values are displayed.
 
-    ```
+    ```java
     // Java program to create a Dimension2D 
     // object and display its contents
     import javafx.geometry.*;
@@ -49,14 +49,14 @@ Dimension2D 类是 JavaFX 的一部分。Dimension2D 类是一个存储高度和
 
     **输出:**
 
-    ```
+    ```java
     Height = 50.0 Width = 20.0
 
     ```
 
 2.  **Java program to create 3 Dimension2D objects display its contents and how whether one object is equal to the other or not:** This program creates three Dimension2D object named *dimension_1*, *dimension_2*, *dimension_3*. The height and width of the dimension is passed as arguments. Then the height and width are extracted from the object using *getHeight()* and *getWidth()* function and the respective values are displayed. The three objects are then compared using the equals() functions and the result is displayed.
 
-    ```
+    ```java
     // Java program to create 3 Dimension2D objects display
     // its contents and how whether one object is equal to 
     // the other or not
@@ -107,7 +107,7 @@ Dimension2D 类是 JavaFX 的一部分。Dimension2D 类是一个存储高度和
 
     **输出:**
 
-    ```
+    ```java
     Height = 50.0 Width = 20.0
     Height = 150.0 Width = 120.0
     Height = 50.0 Width = 20.0

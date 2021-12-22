@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static LocalTime ofSecondOfDay(long secondOfDay)
 
 ```
@@ -21,7 +21,7 @@ public static LocalTime ofSecondOfDay(long secondOfDay)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.ofSecondOfDay() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime: 03:57:25
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.ofSecondOfDay() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalTime: 06:40:05
 
 ```

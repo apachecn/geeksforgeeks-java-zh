@@ -9,7 +9,7 @@ Java 中**时区数据时间**接口的**等于()**方法用于将该时区数�
 
 **语法:**
 
-```
+```java
 boolean equals(Object obj)
 
 ```
@@ -22,7 +22,7 @@ boolean equals(Object obj)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -59,7 +59,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 true
@@ -68,7 +68,7 @@ true
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -104,7 +104,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 false

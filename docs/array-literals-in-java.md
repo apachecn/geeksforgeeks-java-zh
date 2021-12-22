@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 int x = 10; 
 // Here 10 is a literal.
 ```
@@ -24,7 +24,7 @@ int x = 10;
 
 **语法:**
 
-```
+```java
 int[] factorsOf24 = { 1, 2, 3, 4, 6, 12, 24 };
 ```
 
@@ -40,7 +40,7 @@ int[] factorsOf24 = { 1, 2, 3, 4, 6, 12, 24 };
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Array Literals by
 // Initialization of array elements
 // at the time of creating array object
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 4 6 12 24 
 ```
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 double volume = computeVolume(new int[] { 3, 4, 5 });
 ```
 
@@ -96,7 +96,7 @@ double volume = computeVolume(new int[] { 3, 4, 5 });
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Array Literals
 // Using anonymous arrays
 
@@ -136,6 +136,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 60.0
 ```

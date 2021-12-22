@@ -8,7 +8,7 @@
 
 **示例**
 
-```
+```java
 Input: 
 Enter size of Sparse Vectors : 
 100
@@ -46,7 +46,7 @@ A  +  B   = (2, 20.0) (4, 66.0) (5, 12.2) (6, 13.22) (9, 21.0) (10, 44.5) (11, 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // importing generic packages
 import java.util.Scanner;
 import java.util.TreeMap;

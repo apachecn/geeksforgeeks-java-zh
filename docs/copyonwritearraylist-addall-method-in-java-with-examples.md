@@ -12,7 +12,7 @@
 
 **异常:**如果指定的元素为空，该方法抛出**空指针异常**。
 
-```
+```java
 // Java Program to illustrate the
 // CopyOnWriteArrayList.addAll(Collection c)
 
@@ -70,7 +70,7 @@ public class CopyOnWriteArrayListDemo {
 
 **Output:**
 
-```
+```java
 Printing list1:
 Number = 12
 Number = 20
@@ -105,7 +105,7 @@ Number = 35
 空指针异常–如果指定的集合为空。
 IndexOutOfBoundsException–如果指定的索引超出范围。
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // addAll(Collection c)
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -162,7 +162,7 @@ public class CopyOnWriteArrayListDemo {
 
 **Output:**
 
-```
+```java
 Printing list1:
 Number = 12
 Number = 20

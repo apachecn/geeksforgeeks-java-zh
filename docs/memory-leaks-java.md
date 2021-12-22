@@ -13,7 +13,7 @@ Java 进行自动垃圾收集。然而，可能存在垃圾收集器不收集对
 
 ## Java
 
-```
+```java
 // Java Program to illustrate memory leaks
 import java.util.Vector;
 public class MemoryLeaksDemo
@@ -30,6 +30,6 @@ public class MemoryLeaksDemo
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space exceed
 ```

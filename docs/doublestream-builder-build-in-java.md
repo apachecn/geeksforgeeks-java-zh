@@ -6,7 +6,7 @@ DoubleStream。构建器构建()构建流，将该构建器转换到*构建状�
 
 **语法:**
 
-```
+```java
 DoubleStream build()
 ```
 
@@ -18,7 +18,7 @@ DoubleStream build()
 
 **例 1:**
 
-```
+```java
 // Java code to show the implementation
 // of DoubleStream.Builder build()
 
@@ -48,7 +48,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1.2
 2.4
 3.87
@@ -58,7 +58,7 @@ class GFG {
 
 **示例 2:** 在调用 build()方法后尝试在中添加元素(当流处于构建阶段时)。
 
-```
+```java
 // Java code to show the implementation
 // of DoubleStream.Builder build()
 
@@ -97,7 +97,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1.2
 2.4
 3.87

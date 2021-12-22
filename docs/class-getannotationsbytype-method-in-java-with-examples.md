@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public A[] getAnnotationsByType(Class<T> annotationClass)
 
 ```
@@ -23,7 +23,7 @@ public A[] getAnnotationsByType(Class<T> annotationClass)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotationsByType() method
 
@@ -72,7 +72,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Annotation of myClass of type Annotation: [@Annotation(key=GFG, value=GeeksForGeeks)]
 
@@ -80,7 +80,7 @@ Annotation of myClass of type Annotation: [@Annotation(key=GFG, value=GeeksForGe
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotationsByType() method
 
@@ -121,7 +121,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Annotation of myClass of type Deprecated: [@java.lang.Deprecated()]
 

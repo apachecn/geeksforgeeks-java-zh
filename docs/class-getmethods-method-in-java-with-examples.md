@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Method[] getMethods()
 
 ```
@@ -21,7 +21,7 @@ public Method[] getMethods()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getMethods() method
 
 import java.util.*;
@@ -57,7 +57,7 @@ public class Test {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getMethods() method
 
 import java.util.*;

@@ -5,7 +5,7 @@
 复合赋值运算符为赋值算术或按位运算符的结果提供了更短的语法。在将结果赋给第一个操作数之前，它们对两个操作数执行运算。
 **以下是 java 中所有可能的赋值运算符:**
 
-```
+```java
 1\.    += (compound addition assignment operator)
 2\.    -=  (compound subtraction assignment operator)
 3\.    *= (compound multiplication assignment operator)
@@ -22,7 +22,7 @@
 
 **所有复合赋值运算符的实现**
 
-```
+```java
 // Java program to illustrate
 // Compound assignment operators
 class Main {
@@ -61,7 +61,7 @@ public static void main(String args[])
 
 输出:
 
-```
+```java
 -126
 -80
 1
@@ -97,7 +97,7 @@ E1 op = E2 形式的复合赋值表达式等价于 E1 = (T) ((E1) op (E2))，其
 
 例如，以下代码是正确的:
 
-```
+```java
 short x = 4;
 x += 6.6;
 
@@ -105,7 +105,7 @@ x += 6.6;
 
 并且导致 x 具有值 7，因为它相当于:
 
-```
+```java
 short x = 4;
 x = (short)(x + 6.6);
 x=10
@@ -116,7 +116,7 @@ x=10
 
 **参考:[何时需要类型转换？](https://www.geeksforgeeks.org/type-conversion-java-examples/)T3】**
 
-```
+```java
 // Java program to illustrate the
 // behavior of normal addition operator
 public class Test {
@@ -132,14 +132,14 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 error: incompatible types: possible lossy conversion from int to byte
 
 ```
 
 **说明:**在上面的例子中，我们使用的是正规赋值运算符。这里我们将一个 int (b+1=20)值赋给字节变量(即 b)，这会导致编译时错误。这里我们必须进行类型转换才能得到结果。
 
-```
+```java
 // Java program to illustrate the
 // behavior of compound addition assignment operator
 public class Test {
@@ -155,14 +155,14 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 20
 
 ```
 
 **说明:**在上面的例子中，我们使用的是复合赋值运算符。这里我们将一个 int (b+1=20)值赋给字节变量(即 b)，除此之外，我们得到的结果是 20，因为在复合赋值运算符中，类型转换是通过编译自动完成的。这里我们不需要做类型转换就能得到结果。
 
-```
+```java
 // Java program to illustrate the
 // behavior of normal multiplication operator
 public class Test {
@@ -178,12 +178,12 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 Error: incompatible types: possible lossy conversion from int to short
 
 ```
 
-```
+```java
 // Java program to illustrate the
 // behavior of compound multiplication operator
 public class Test {
@@ -199,12 +199,12 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 -4072
 
 ```
 
-```
+```java
 // Java program to illustrate the
 // behavior of normal addition operator on float
 public class Test {
@@ -220,12 +220,12 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 error: incompatible types: possible lossy conversion from double to float
 
 ```
 
-```
+```java
 // Java program to illustrate the
 // behavior of compound addition operator on float
 public class Test {
@@ -241,7 +241,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 1397.0
 
 ```

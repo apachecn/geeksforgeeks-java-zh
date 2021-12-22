@@ -10,7 +10,7 @@
 
 插图:
 
-```
+```java
 Single dimensional ArrayList :
   [121, 432, 12, 56, 456, 3, 1023]
   [Apple, Orange, Pear, Mango]
@@ -18,7 +18,7 @@ Single dimensional ArrayList :
 
 **语法:**
 
-```
+```java
 ArrayList <Object> x = new ArrayList <Object>();
 ```
 
@@ -28,13 +28,13 @@ ArrayList <Object> x = new ArrayList <Object>();
 
 **语法** : 多维集合
 
-```
+```java
 ArrayList<ArrayList<Object>> a = new ArrayList<ArrayList<Object>>();
 ```
 
 插图:
 
-```
+```java
 Multidimensional ArrayList: [[3, 4], [12, 13, 14, 15], [22, 23, 24], [33]]
 ```
 
@@ -47,7 +47,7 @@ Multidimensional ArrayList: [[3, 4], [12, 13, 14, 15], [22, 23, 24], [33]]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Multidimensional ArrayList
 
 // Importing required classes
@@ -120,7 +120,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2D ArrayList :
 [[3], [366, 3, 4, 22, 1000, 6, 576], [3, 84], [83, 6684, 776], [8, 9, 10, 11]]
 ```
@@ -129,7 +129,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 HashSet< HashSet<Object> > a = new HashSet< HashSet<Object> >(); 
 ```
 
@@ -139,7 +139,7 @@ HashSet< HashSet<Object> > a = new HashSet< HashSet<Object> >();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Multidimensional LinkedHashSet
 
 // Importing required classes
@@ -198,7 +198,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 2D LinkedHashSet :
 [[Apple, Orange], [Tea, Coffee, Milk, Water], [Tomato, Potato, Onion]]
 ```

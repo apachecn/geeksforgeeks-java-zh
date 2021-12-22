@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ValueRange range()
 
 ```
@@ -18,7 +18,7 @@ public ValueRange range()
 下面的程序说明了时空范围()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.range() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ValueRange for HOUR_OF_DAY is :0 - 23
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoField.range() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ValueRange for YEAR_OF_ERA is:1 - 999999999/1000000000
 
 ```

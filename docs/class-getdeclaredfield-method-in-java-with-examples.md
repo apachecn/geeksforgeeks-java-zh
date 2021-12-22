@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Field getDeclaredField(String fieldName)
        throws NoSuchMethodException,
               SecurityException
@@ -27,7 +27,7 @@ public Field getDeclaredField(String fieldName)
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getDeclaredField() method
 
@@ -60,7 +60,7 @@ public Field getDeclaredField(String fieldName)
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Test
     obj Field of myClass: public java.lang.Object Test.obj
 
@@ -68,7 +68,7 @@ public Field getDeclaredField(String fieldName)
 
     **例 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getDeclaredField() method
 
@@ -106,7 +106,7 @@ public Field getDeclaredField(String fieldName)
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Main
     obj Field of myClass: private java.lang.Object Main.obj
 

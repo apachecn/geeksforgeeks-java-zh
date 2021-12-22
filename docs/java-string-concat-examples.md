@@ -6,7 +6,7 @@
 
 **插图:**
 
-```
+```java
 Input:  String 1   : abc
         String 2   : def
         String n-1 : ...
@@ -16,7 +16,7 @@ Output: abcdef...xyz
 
 **语法:**
 
-```
+```java
 public String concat(String anostr)   
 ```
 
@@ -28,7 +28,7 @@ public String concat(String anostr)
 
 ## Java
 
-```
+```java
 // Java program to Illustrate Working of concat() method
 // with Strings
 // By explicitly assigning result
@@ -57,7 +57,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Hello World
 ```
 
@@ -65,7 +65,7 @@ Hello World
 
 ## Java
 
-```
+```java
 // Java program to Illustrate Working of concat() method
 // in strings where we are sequentially
 // adding multiple strings as we need
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Computer--Science
 Computer--Science-Portal
 ```

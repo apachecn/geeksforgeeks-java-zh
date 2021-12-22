@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get the First Element from LinkedHashSet
 // by converting it to an array or List
 // Array is demonstrated below so do with List
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 First element: 2
 ```
 
@@ -80,7 +80,7 @@ First element: 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get the First Element from LinkedHashSet
 // Using Iterators
 
@@ -122,7 +122,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 First element in LinkedHashSet: 1
 ```
 
@@ -132,7 +132,7 @@ First element in LinkedHashSet: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Get the First Element from LinkedHashSet
 // Using Streams
 
@@ -178,6 +178,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 First element in LinkedHashSet: 1
 ```

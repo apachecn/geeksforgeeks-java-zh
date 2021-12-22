@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setUseParentHandlers(boolean useParentHandlers)
 
 ```
@@ -21,7 +21,7 @@ public void setUseParentHandlers(boolean useParentHandlers)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.setUseParentHandlers() method
 
@@ -56,7 +56,7 @@ Eclipse 控制台上打印的输出如下所示-
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.setUseParentHandlers() method
 

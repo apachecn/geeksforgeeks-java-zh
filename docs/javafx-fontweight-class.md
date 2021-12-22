@@ -18,7 +18,7 @@ FontWeight 类是 JavaFX 的一部分。FontWeight 类定义字体的粗细。�
 
 1.  **Java program to create a TextFlow and add text object to it, set text Alignment and also set font weight of the font of the text and set line spacing of the text flow:** In this program we will create a TilePane named *tile_pane*. Add Label named label and some buttons to the *tile_pane*. Set the Alignment of the *tile_pane* using the *setAlignment()* function. Set the Font weight of the font to *EXTRA_BOLD*. Add the *tile_pane* to the scene and add the scene to the stage and call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java program to create a TextFlow and
     // add text object to it, set text Alignment
     // and also set font weight of the font of text
@@ -104,7 +104,7 @@ FontWeight 类是 JavaFX 的一部分。FontWeight 类定义字体的粗细。�
 
 2.  **Java program to create a TextFlow and add text object to it, set text Alignment and also set font weight of the font of the text and also set a combo box to change font weight and set line spacing of the text flow:** In this program we will create a TilePane named *tile_pane*. Add Label named label and some buttons to the *tile_pane*. Set the Alignment of the *tile_pane* using the *setAlignment()* function. Now set the FontWeight of the font to *EXTRA_BOLD*. Store all the names of FontWeight values in a String array. Now create a *combobox* which will contain the names of FontWeight values and also create an Action Event to handle the combobox events. The Event handler will set the font weight of the font to the chosen FontWeight value. Now create a VBox and add the *tilepane* and the combo box to *vbox*. Finally, add the *vbox* to the scene and add the scene to the stage and call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java program to create a TextFlow and
     // add text object to it, set text Alignment
     // and also set font weight of the font of text

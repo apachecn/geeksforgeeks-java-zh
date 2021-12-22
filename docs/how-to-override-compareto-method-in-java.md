@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show how to override the compareTo()
 // method of comparable interface
 import java.util.*;
@@ -107,7 +107,7 @@ public class GFG implements Comparable<GFG> {
 
 **Output**
 
-```
+```java
 Ravi 12
 Aayush 14
 Sachin 19

@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 public ListIterator listIterator()
 ```
 
@@ -20,7 +20,7 @@ public ListIterator listIterator()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // listIterator() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -61,7 +61,7 @@ public class GFG {
 
 ****Output:** 
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 67, 100]
 The iterator values of CopyOnWriteArrayList are:
 32
@@ -74,7 +74,7 @@ The iterator values of CopyOnWriteArrayList are:
 
 ****语法:****
 
-```
+```java
 public ListIterator listIterator(int index)
 ```
 
@@ -90,7 +90,7 @@ public ListIterator listIterator(int index)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // listIterator() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -131,7 +131,7 @@ public class GFG {
 
 ****Output:** 
 
-```
+```java
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 The iterator values of CopyOnWriteArrayList are:
 jgec
@@ -142,7 +142,7 @@ sudo
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // listIterator() method in Java, exception
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -184,7 +184,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 6
     at java.util.concurrent.CopyOnWriteArrayList.listIterator(CopyOnWriteArrayList.java:1107)
     at GFG.main(GFG.java:25)

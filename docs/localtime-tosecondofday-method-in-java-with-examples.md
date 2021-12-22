@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int toSecondOfDay()
 
 ```
@@ -19,7 +19,7 @@ public int toSecondOfDay()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.toSecondOfDay() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Second of day: 70490
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.toSecondOfDay() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Second of day: 84105
 
 ```

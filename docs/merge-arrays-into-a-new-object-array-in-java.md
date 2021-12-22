@@ -11,7 +11,7 @@
 
         **Class hierarchy of Stream :**
 
-        ```
+        ```java
         java.lang.Object
           ↳  java.util.stream
 
@@ -27,7 +27,7 @@
 
         **示例:**
 
-        ```
+        ```java
         Input : a[] = {1, 2, 3}
                 b[] = {4, 5, 6}
         Output : {1, 2, 3, 4, 5, 6}
@@ -37,7 +37,7 @@
         **解释:**
         (a，b)的流获取数组并将它们流水线化为一个流。然后 flatMap()方法在对 Stream.of()的每个元素应用映射函数后返回一个对象流，然后将结果展平。最后，toArray()将流元素转换为数组，并返回形成的数组。
 
-        ```
+        ```java
         // Java program to merge two arrays of 
         // same type into an Object array.
 
@@ -74,7 +74,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Merged object array : [1, 2, 3, 4, 5, 6]
 
         ```
@@ -89,7 +89,7 @@
 
         **示例:**
 
-        ```
+        ```java
         Input : a[] = {1, 2, 3}
                 b[] = {4, 5, 6}
         Output : {1, 2, 3, 4, 5, 6}
@@ -99,7 +99,7 @@
         **解释:**
         stream . concat()创建一个合并的流，其中元素按照它们在参数中的顺序排列。在这里，Stream.concat()创建一个串联流，其元素是从数组“a”转换而来的流的所有元素，后跟从数组“b”转换而来的流的所有元素。然后，连接的流被转换为数组并返回。
 
-        ```
+        ```java
         // Java program to merge two arrays of 
         // same type into an Object array.
 
@@ -133,7 +133,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Merged object array : [1, 2, 3, 4, 5, 6]
 
         ```
@@ -144,14 +144,14 @@
 
     **类别申报:**
 
-    ```
+    ```java
     public final class *System* extends *Object*
 
     ```
 
     **语法:**
 
-    ```
+    ```java
     public static void arraycopy(Object source_arr, int sourcePos,
                                 Object dest_arr, int destPos, int len)
 
@@ -166,14 +166,14 @@
 
     **示例:**
 
-    ```
+    ```java
     Input : a[] = {1, 2, 3}
             b[] = {4, 5, 6}
     Output : {1, 2, 3, 4, 5, 6}
 
     ```
 
-    ```
+    ```java
     // Java program to merge two arrays of 
     // same type into an Object array.
 
@@ -214,7 +214,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Merged object array : [1, 2, 3, 4, 5, 6]
 
     ```
@@ -223,14 +223,14 @@
     *   **Using Java Collections for Java 8 Stream**:
         Examples:
 
-        ```
+        ```java
         Input : a[] = {1, 2, 3}
                 b[] = {4, 5, 6}
         Output : {1, 2, 3, 4, 5, 6}
 
         ```
 
-        ```
+        ```java
         // Java program to merge two arrays of 
         // same type into an Object array.
 
@@ -271,7 +271,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Merged object array : [1, 2, 3, 4, 5, 6]
 
         ```
@@ -279,14 +279,14 @@
     *   **Using Java Collections for Java 7 using Collections.addAll()**:
         Examples:
 
-        ```
+        ```java
         Input : a[] = {1, 2, 3}
                 b[] = {4, 5, 6}
         Output : {1, 2, 3, 4, 5, 6}
 
         ```
 
-        ```
+        ```java
         // Java program to merge two arrays of 
         // same type into an Object array.
 
@@ -325,7 +325,7 @@
 
         **输出:**
 
-        ```
+        ```java
         Merged object array : [1, 2, 3, 4, 5, 6]
 
         ```

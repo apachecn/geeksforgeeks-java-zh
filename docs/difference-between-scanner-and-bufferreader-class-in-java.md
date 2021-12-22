@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Code using Scanner Class
 import java.util.Scanner;
 class Differ
@@ -32,14 +32,14 @@ class Differ
 
 输入:
 
-```
+```java
 50
 Geek
 ```
 
 输出:
 
-```
+```java
 Enter an integer
 Enter a String
 You have entered:- 50 and name as
@@ -50,7 +50,7 @@ You have entered:- 50 and name as
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Code using Buffer Class
 import java.io.*;
 class Differ
@@ -72,14 +72,14 @@ class Differ
 
 输入:
 
-```
+```java
 50
 Geek
 ```
 
 输出:
 
-```
+```java
 Enter an integer
 Enter a String
 you have entered:- 50 and name as Geek

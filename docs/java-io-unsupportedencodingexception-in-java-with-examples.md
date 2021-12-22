@@ -8,7 +8,7 @@
 
 ****班级查看器****
 
-```
+```java
 java.lang.Object
     java.lang.Throwable
         java.lang.Exception
@@ -20,7 +20,7 @@ java.lang.Object
 > 
 >  ****语法:**
 > 
-> ```
+> ```java
 > public class UnsupportedEncodingException
 > extends IOException
 > ```**
@@ -38,7 +38,7 @@ java.lang.Object
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Illustrate UnsupportedEncodingException
 
 // Main class
@@ -76,7 +76,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Resolve UnsupportedEncodingException
 
 // Main class
@@ -105,7 +105,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Given  String : GeeksforGeeks
 Output bytes   : [B@7cc355be
 

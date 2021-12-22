@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public boolean canRead()
 
 ```
 
 **语法:**
 
-```
+```java
 file.canRead()
 
 ```
@@ -30,7 +30,7 @@ file.canRead()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // canRead() method of File Class
 
@@ -55,7 +55,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Can be Read
 
 ```
@@ -64,7 +64,7 @@ Can be Read
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // canRead() method of File Class
 
@@ -89,7 +89,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Cannot be Read
 
 ```

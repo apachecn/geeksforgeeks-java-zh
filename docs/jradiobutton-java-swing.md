@@ -11,7 +11,7 @@
 1.  JRadioButton():创建一个没有文本的未选中的单选按钮。
     例:
 
-```
+```java
 JRadioButton j1 = new JRadioButton() 
 
 ```
@@ -19,7 +19,7 @@ JRadioButton j1 = new JRadioButton()
 *   创建一个带有特定文本的按钮。
     示例:
 
-    ```
+    ```java
     JButton b1 = new JButton("Button") 
 
     ```
@@ -27,7 +27,7 @@ JRadioButton j1 = new JRadioButton()
     *   创建一个带有特定文本的标签。
     示例:
 
-    ```
+    ```java
     JLabel L = new JLabel("Label 1") 
 
     ```
@@ -36,7 +36,7 @@ JRadioButton j1 = new JRadioButton()
     **将单选按钮组合在一起的步骤。**
     *   使用“按钮组()”方法创建一个按钮组实例。
 
-        ```
+        ```java
         ButtonGroup G = new ButtonGroup()
 
         ```
@@ -45,7 +45,7 @@ JRadioButton j1 = new JRadioButton()
 
         示例:
 
-        ```
+        ```java
         G.add(Button1);
         G.add(Button2);
 
@@ -55,7 +55,7 @@ JRadioButton j1 = new JRadioButton()
 
     示例:
 
-    ```
+    ```java
     JRadioButton.isSelected()
 
     ```
@@ -69,7 +69,7 @@ JRadioButton j1 = new JRadioButton()
 
     **程序 1 : JRadioButton 无动作监听器**
 
-    ```
+    ```java
     // Java program to show JRadioButton Example.
     // in java. Importing different Package.
     import java.awt.*;
@@ -175,7 +175,7 @@ JRadioButton j1 = new JRadioButton()
 
     **程序 2:带动作监听器的 JRadioButton】**
 
-    ```
+    ```java
     // Java program to show JRadioButton Example.
     // in java. Importing different Package.
     import java.awt.*;
@@ -314,7 +314,7 @@ JRadioButton j1 = new JRadioButton()
 
     **程序 3 程序创建一组简单的单选按钮(带图像)并在其中添加项目监听器**
 
-    ```
+    ```java
     // Java Program to create a simple group of radio buttons 
     // (with image )and add item listener to them
     import java.awt.event.*;

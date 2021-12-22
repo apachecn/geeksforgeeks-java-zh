@@ -18,7 +18,7 @@
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.toArray() method
 
@@ -50,14 +50,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [G, E, E, K, S]
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.toArray() method
 
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.NullPointerException
 
 ```

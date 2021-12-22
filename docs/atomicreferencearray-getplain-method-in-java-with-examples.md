@@ -5,7 +5,7 @@
 一个**原子引用数组**类的 **getPlain()** 方法用于返回这个原子引用数组对象的索引 I 处的元素的值，带有读取的内存语义，就像变量被声明为非易失性的一样。
 **语法:**
 
-```
+```java
 public final E getPlain(int i)
 ```
 
@@ -16,7 +16,7 @@ public final E getPlain(int i)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.getPlain() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value at 0 = 987
 value at 1 = 988
 value at 2 = 989
@@ -63,7 +63,7 @@ value at 3 = 986
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.getPlain() method
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value at 0 = AMAN
 value at 1 = AMAR
 value at 2 = SURAJ

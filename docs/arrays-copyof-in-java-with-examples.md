@@ -6,14 +6,14 @@ java.util.Arrays.copyOf()方法在 [java.util.Arrays](https://www.geeksforgeeks.
 
 **语法:**
 
-```
+```java
  copyOf(int[] original, int newLength) 
 ```
 
 *   **原始**–原始阵列
 *   **新长度**–原始数组的副本
 
-```
+```java
 // Java program to illustrate copyof method
 import java.util.Arrays;
 
@@ -44,7 +44,7 @@ public class Main
 
 输出:
 
-```
+```java
 Original Array
 1 2 3 
 New array copy after modifications:
@@ -56,7 +56,7 @@ New array copy after modifications:
 对于原始数组和新数组中有效的所有索引，这两个数组将具有相同的值。
 但是，如果复制的数组长度大于原始数组，则原始数组中缺失的索引在副本中将具有**零**。
 
-```
+```java
 // Java program to illustrate copyOf when new array
 // is of higher length.
 import java.util.Arrays;
@@ -86,7 +86,7 @@ public class Main 
 
 输出:
 
-```
+```java
 Original Array : 
 1 2 3 
 New array copy (of higher length):

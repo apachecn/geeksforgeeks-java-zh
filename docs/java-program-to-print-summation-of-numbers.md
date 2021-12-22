@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to print the sum 
 // of all the elements in an array
 class GFG {
@@ -57,7 +57,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The sum of elements of given array is: 13
 ```
 
@@ -69,7 +69,7 @@ The sum of elements of given array is: 13
 
 ****语法:****
 
-```
+```java
 **IntStream.of(arrayName).sum();**
 ```
 
@@ -77,7 +77,7 @@ The sum of elements of given array is: 13
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 **// Java Program to print the sum 
 // of all the elements in an array
 
@@ -100,6 +100,6 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The sum of elements of given array is: 13
 ```**

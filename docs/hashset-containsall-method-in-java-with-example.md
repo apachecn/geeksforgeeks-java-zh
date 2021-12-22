@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean containsAll(Collection C)
 ```
 
@@ -18,7 +18,7 @@ public boolean containsAll(Collection C)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // HashSet containsAll()
 
@@ -70,7 +70,7 @@ class HashSetDemo {
 
 **Output:**
 
-```
+```java
 HashSet 1: [Geeks, for, 20, 10]
 HashSet 2: [Geeks, for, 20, 10]
 
@@ -80,7 +80,7 @@ Does set 1 contains set 2: true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate boolean containsAll()
 
 import java.util.*;
@@ -126,7 +126,7 @@ class HashSetDemo {
 
 **Output:**
 
-```
+```java
 HashSet 1: [Geeks, for]
 HashSet 2: [20, 10]
 

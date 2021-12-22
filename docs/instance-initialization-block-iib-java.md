@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Instance Initialization Block
 class GfG {
@@ -30,7 +30,7 @@ class GfG {
 
 **Output**
 
-```
+```java
 IIB block
 Constructor Called
 
@@ -42,7 +42,7 @@ Constructor Called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // execution of multiple
 // Instance Initialization Blocks
@@ -76,7 +76,7 @@ class GfG {
 
 **Output**
 
-```
+```java
 IIB1 block
 IIB2 block
 IIB3 block
@@ -92,7 +92,7 @@ Constructor Called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Instance Initialization Block
 // with super()
@@ -127,7 +127,7 @@ class A extends B {
 
 **Output**
 
-```
+```java
 B-IIB block
 B-Constructor Called
 A-IIB block

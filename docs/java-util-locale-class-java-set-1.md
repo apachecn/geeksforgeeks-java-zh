@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public final class Locale
    extends Object
    implements Cloneable, Serializable
@@ -24,7 +24,7 @@ public final class Locale
 
 **语法:**
 
-```
+```java
 public final String getDisplayCountry()
 Parameters : 
 ----
@@ -36,7 +36,7 @@ Return :
 
 **语法:**
 
-```
+```java
 public static Locale getDefault()
 Parameters : 
 ----
@@ -48,7 +48,7 @@ current - default value for the locale as per the JVM instance.
 
 **语法:**
 
-```
+```java
 public String getCountry()
 Parameters : 
 ----
@@ -60,7 +60,7 @@ Return :
 
 **语法:**
 
-```
+```java
 public boolean equals(Object locale2)
 Parameters : 
 locale2 : another locale to be compare with.
@@ -72,7 +72,7 @@ returns true if two locales are equal, else false.
 
 **语法:**
 
-```
+```java
 public Object clone()
 Parameters : 
 ----
@@ -84,7 +84,7 @@ clone of this instance
 
 **语法:**
 
-```
+```java
 public static Locale[] getAvailableLocales()
 Parameters : 
 ---
@@ -96,7 +96,7 @@ array of installed locales.
 
 **语法:**
 
-```
+```java
 public final String getDisplayLanguage()
 Parameters : 
 ----
@@ -108,7 +108,7 @@ Return :
 
 **语法:**
 
-```
+```java
 public String getDisplayLanguage(Locale in)
 Parameters : 
 in : the instance local
@@ -122,7 +122,7 @@ NullPointerException : if "in" is null.
 
 **语法:**
 
-```
+```java
 public final String getDisplayName()
 Parameters : 
 ----
@@ -134,7 +134,7 @@ Return :
 
 **语法:**
 
-```
+```java
 public final String getDisplayLanguage()
 Parameters : 
 in : the instance local
@@ -146,7 +146,7 @@ Return :
 
 **语法:**
 
-```
+```java
 public String getISO3Country()
 Parameters : 
 ----
@@ -156,7 +156,7 @@ Return :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating the use of methods :
 // getDisplayCountry(), getCountry(), equal(), clone(),
 // getAvailableLocales(), getDefault(),
@@ -230,7 +230,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Locale name : english_IN
 Locale name Default : en_US
 

@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public String replace(char oldch, char newch)
 ```
 
@@ -29,7 +29,7 @@ public String replace(char oldch, char newch)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the
 // working of replace()
 public class rep1 {
@@ -52,7 +52,7 @@ public static void main(String args[]) {
 
 **Output**
 
-```
+```java
 After replacing all o with T : WelcTme tT geeksfTrgeeks
 After replacing all e with D : WDlcomD to gDDksforgDDks
 ```
@@ -63,7 +63,7 @@ After replacing all e with D : WDlcomD to gDDksforgDDks
 
 **语法:**
 
-```
+```java
 public String replaceAll(String regex, String replace_str)
 ```
 
@@ -78,7 +78,7 @@ public String replaceAll(String regex, String replace_str)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the
 // working of replaceAll()
 public class rep2 {
@@ -101,7 +101,7 @@ public static void main(String args[]) {
 
 **Output**
 
-```
+```java
 Original String : Welcome to geeksforgeeks
 After replacing regex with replace_str : AKSHIT SAXENA
 ```
@@ -112,7 +112,7 @@ After replacing regex with replace_str : AKSHIT SAXENA
 
 **语法:**
 
-```
+```java
 public String replaceFirst(String regex, String replace_str)
 ```
 
@@ -127,7 +127,7 @@ public String replaceFirst(String regex, String replace_str)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the
 // working of replaceFirst()
 public class rep3 {
@@ -151,7 +151,7 @@ public static void main(String args[]) {
 
 **Output**
 
-```
+```java
 Original String : Welcome to geeksforgeeks
 After replacing 1st occurrence of regex with replace_str : Welcome to Akshitforgeeks
 ```

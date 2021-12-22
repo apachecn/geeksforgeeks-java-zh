@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ChronoLocalDate plus(long amountToAdd,
                       TemporalUnit unit)
 
@@ -23,7 +23,7 @@ public ChronoLocalDate plus(long amountToAdd,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.plus() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDate after adding Months : 2043-12-06
 
 ```

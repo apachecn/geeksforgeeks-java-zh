@@ -10,7 +10,7 @@
 
 **例:**
 
-```
+```java
 // Valid
 int n = 20;
 //valid
@@ -27,7 +27,7 @@ int.parseInt("10");
 
 1.  **Convert to string variable:** We can't assign string values (only integers) to int variables directly or even through conversion. However, we can use the integer (string) constructor to assign strings to objects of integer type. We can even use parseInt (string) to convert string literals Into int values.
 
-    ```
+    ```java
     // Java program to illustrate 
     // difference between
     // int and Integer 
@@ -52,7 +52,7 @@ int.parseInt("10");
 
     **Output:**
 
-```
+```java
 133.1
 
 ```

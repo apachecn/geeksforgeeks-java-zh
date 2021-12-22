@@ -15,7 +15,7 @@ Java 中 **DataInputStream** 类的 **readFully()** 方法有两种类型:
 
     **语法:**
 
-    ```
+    ```java
     public final void readFully(byte[] b)
                       throws IOException
 
@@ -37,7 +37,7 @@ Java 中 **DataInputStream** 类的 **readFully()** 方法有两种类型:
 
     **程序:**假设存在文件“c:/demo.txt”。
 
-    ```
+    ```java
     // Java program to illustrate
     // DataInputStream readFully(byte[]) method
     import java.io.*;
@@ -88,7 +88,7 @@ Java 中 **DataInputStream** 类的 **readFully()** 方法有两种类型:
 
     **语法:**
 
-    ```
+    ```java
     public final void readFully(byte[] b,
                                 int offset,
                                 int length)
@@ -117,7 +117,7 @@ Java 中 **DataInputStream** 类的 **readFully()** 方法有两种类型:
 
     **程序:**假设存在文件“c:/demo.txt”。
 
-    ```
+    ```java
     // Java program to illustrate
     // DataInputStream readFully(byte[], int, int) method
     import java.io.*;

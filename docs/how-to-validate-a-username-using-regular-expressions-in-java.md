@@ -33,7 +33,7 @@
 1.  去拿绳子。
 2.  Form a regular expression to validate the given string. According to the conditions, the regular expression can be formed in the following way:
 
-    ```
+    ```java
     regex = "^[A-Za-z]\\w{5, 29}{content}quot;
 
     ```
@@ -49,7 +49,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to validate a username
 // using Regular Expression or ReGex
 
@@ -104,7 +104,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 false
 false

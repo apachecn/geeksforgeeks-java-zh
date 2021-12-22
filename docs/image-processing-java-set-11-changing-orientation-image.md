@@ -12,7 +12,7 @@
 *   **[put(int row，int column，byte[] data)](http://docs.opencv.org/java/2.4.2/org/opencv/core/Mat.html#put(int, int, double...)) / [get(int row，int column，byte[]data)](http://docs.opencv.org/java/2.4.2/org/opencv/core/Mat.html#get(int, int, byte[]))**–用于将原始数据读取/写入 mat 对象。
 *   **[翻转(mat mat1，mat mat2，int flip_value)](http://docs.opencv.org/java/2.4.2/org/opencv/core/Core.html#flip(org.opencv.core.Mat, org.opencv.core.Mat, int))**–mat 1 和 mat2 对应于输入和输出 mat 对象，flip_value 决定方向类型，flip _ value 可以是 0(沿 x 轴翻转)、1(沿 y 轴翻转)、-1(沿两个轴翻转)。
 
-```
+```java
 // Java program to illustrate orientation modification of image
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
@@ -57,7 +57,7 @@ public class OrientingImage
 
 输出:
 
-```
+```java
 
 test.jpg
 ![test](img/7b5664b34bd5d2465f58d76a038f0bce.png)

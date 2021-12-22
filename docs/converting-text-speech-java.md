@@ -12,25 +12,25 @@ Java 语音支持语音合成，这意味着机器在书面输入的基础上生
 
 1.  **引擎:**引擎界面在语音包中提供。“语音引擎”是设计用于处理语音输入或语音输出的系统的通称。
 
-    ```
+    ```java
     import javax.speech.Engine;
     ```
 
 2.  **Central:** Central 提供定位、选择和创建语音识别器和语音合成器的功能。
 
-    ```
+    ```java
     import javax.speech.Central;
     ```
 
 3.  **合成器模式描述符:**合成器模式描述符用特定于语音合成器的属性扩展了引擎模式描述符。
 
-    ```
+    ```java
     import javax.speech.synthesis.SynthesizerModeDesc;
     ```
 
 4.  **合成器:**合成器界面提供语音合成功能的主要访问。合成器模式描述增加了两个属性:合成器声音提供的声音列表当合成器启动时要加载的声音。
 
-    ```
+    ```java
     import javax.speech.synthesis.Synthesizer;
     ```
 
@@ -39,7 +39,7 @@ Java 语音支持语音合成，这意味着机器在书面输入的基础上生
 *   从[这里](http://sourceforge.net/project/showfiles.php?group_id=42080)下载 zip 文件夹形式的 FreeTTS
 *   提取 zip 文件并转到
 
-    ```
+    ```java
     freetts-1.2.2-bin/freetts-1.2/lib/jsapi.exe
     ```
 
@@ -52,7 +52,7 @@ Java 语音支持语音合成，这意味着机器在书面输入的基础上生
 
 以下是上述项目的代码:
 
-```
+```java
 // Java code to convert text to speech
 
 import java.util.Locale;

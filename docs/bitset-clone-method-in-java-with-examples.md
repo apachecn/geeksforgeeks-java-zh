@@ -6,7 +6,7 @@ clone()方法 Java.util.BitSet 类用于创建现有 BitSet 的副本。新的�
 
 **语法:**
 
-```
+```java
 Bit_Set.clone()
 ```
 
@@ -17,7 +17,7 @@ Bit_Set.clone()
 下面的程序说明了 BitSet clone()方法在 Java 中的工作原理。
 **节目一:**
 
-```
+```java
 // Java code to illustrate clone()
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 Initial BitSet: {10, 20, 30, 40, 50}
 The new BitSet: {10, 20, 30, 40, 50}
 
@@ -59,7 +59,7 @@ The new BitSet: {10, 20, 30, 40, 50}
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate clone()
 import java.util.*;
 
@@ -93,7 +93,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 Initial BitSet: {5, 25, 40, 80, 95}
 The new BitSet: {5, 25, 40, 80, 95}
 

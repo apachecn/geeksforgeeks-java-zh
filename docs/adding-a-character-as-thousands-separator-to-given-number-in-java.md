@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for Adding a character as thousands separator
 // to the given number and returning in string format
 
@@ -83,7 +83,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 123.456.789
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean addLast(E e)
 ```
 
@@ -25,7 +25,7 @@ boolean addLast(E e)
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java Program Demonstrate addLast()
 // method of Deque
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 
 ```
 
 **程序二:**在**的帮助下链接锁定程序**。
 
-```
+```java
 // Java Program Demonstrate addLast()
 // method of Deque
 
@@ -91,14 +91,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 
 ```
 
 **节目 3:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate addLast()
 // method of Deque
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Deque: [7855642, 35658786, 5278367, 74381793]
 
 ```

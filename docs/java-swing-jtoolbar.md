@@ -45,7 +45,7 @@ JToolBar 是 Java Swing 包的一部分。JToolBar 是工具栏的一种实现�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a simple toolbar and add buttons and combobox to it.
 import java.awt.*;
 import javax.swing.*;
@@ -112,7 +112,7 @@ public class Tool extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to create a toolbar and add action listener to its components .
 import java.awt.*;
 import javax.swing.*;
@@ -214,7 +214,7 @@ public class Tool extends JFrame implements ActionListener, ItemListener {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;

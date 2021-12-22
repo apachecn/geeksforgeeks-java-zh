@@ -6,7 +6,7 @@ Java 中**时区数据**界面的 **getOffset()** 方法获取该日期的时区
 
 **语法** :
 
-```
+```java
 default ZoneOffset getOffset()
 
 ```
@@ -19,7 +19,7 @@ default ZoneOffset getOffset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.getOffset() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Offset: +05:30
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.getOffset() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Offset: +02:00
 
 ```

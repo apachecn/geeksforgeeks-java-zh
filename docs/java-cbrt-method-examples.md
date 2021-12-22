@@ -12,7 +12,7 @@ T3【注:
 
 **语法:**
 
-```
+```java
 public static double cbrt(double a)
 Parameter :
 a : an argument
@@ -22,7 +22,7 @@ This method returns the cube root of a.
 
 **示例:**展示 **java.lang.Math.cbrt()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.cbrt() method
 import java.lang.Math;
@@ -61,7 +61,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 5.0
 Infinity
 -Infinity

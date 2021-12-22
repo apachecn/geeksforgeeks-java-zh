@@ -6,7 +6,7 @@ Java . util . NavigableSet . isempty()方法用于检查 navigatableset 是否�
 
 **语法:**
 
-```
+```java
 boolean isEmpty()
 ```
 
@@ -16,7 +16,7 @@ boolean isEmpty()
 
 下面的程序说明了 Java . util . navigatableset . isempty()方法:
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.io.*;
 import java.util.*;
@@ -54,7 +54,7 @@ public class NavigableSetDemo {
 
 **Output:**
 
-```
+```java
 NavigableSet: [4, Geeks, To, Welcome]
 Is the NavigableSet empty? false
 Is the NavigableSet empty? true

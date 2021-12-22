@@ -15,7 +15,7 @@
 
     **语法:**
 
-    ```
+    ```java
     variableOfIntType = ScannerObject.nextInt();
 
     where variableOfIntType is the variable
@@ -30,7 +30,7 @@
 
     **语法:**
 
-    ```
+    ```java
     System.out.println(variableOfXType);
 
     ```
@@ -41,7 +41,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to take an integer
 // as input and print it
 
@@ -73,7 +73,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Enter the integer: 10
 Entered integer is: 10
 

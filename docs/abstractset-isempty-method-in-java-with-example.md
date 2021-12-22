@@ -8,7 +8,7 @@ Java 中**抽象集**的 **isEmpty()** 方法用来检查这个抽象集是否�
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -20,7 +20,7 @@ public boolean isEmpty()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // isEmpty() method in AbstractSet
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSet: [1, 2, 3, 4]
 Is AbstractSet empty? false
 
@@ -62,7 +62,7 @@ Is AbstractSet empty? false
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // isEmpty() method in AbstractSet
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AbstractSet: []
 Is AbstractSet empty? true
 

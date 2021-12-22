@@ -10,7 +10,7 @@ lambda 表达式是在 Java 8 中添加的，并提供以下功能。
 *   一种可以不属于任何类而创建的函数。
 *   lambda 表达式可以像对象一样传递，并按需执行。
 
-```
+```java
 // Java program to demonstrate lambda expressions
 // to implement a user defined functional interface.
 
@@ -45,14 +45,14 @@ class Test
 
 输出:
 
-```
+```java
 10
 ```
 
 [![lambda expression](img/11d8d1514e58c5c490258fea0bb8927f.png)](https://media.geeksforgeeks.org/wp-content/uploads/lambda-expression.jpg) 
 **语法:**
 
-```
+```java
  lambda operator -> body
 ```
 
@@ -60,13 +60,13 @@ class Test
 
 *   **零参数:**
 
-    ```
+    ```java
     () -> System.out.println("Zero parameter lambda");
     ```
 
 *   **One parameter:**–
 
-    ```
+    ```java
     (p) -> System.out.println("One parameter: " + p);
     ```
 
@@ -74,13 +74,13 @@ class Test
 
 *   **多个参数:**
 
-    ```
+    ```java
     (p1, p2) -> System.out.println("Multiple parameters: " + p1 + ", " + p2);
     ```
 
 请注意:Lambda 表达式就像函数一样，它们接受参数就像函数一样。
 
-```
+```java
 // A Java program to demonstrate simple lambda expressions
 import java.util.ArrayList;
 class Test
@@ -108,7 +108,7 @@ class Test
 
 输出:
 
-```
+```java
 1
 2
 3
@@ -121,7 +121,7 @@ class Test
 
 一个用两个参数演示 lambda 表达式工作的 Java 程序。
 
-```
+```java
 // Java program to demonstrate working of lambda expressions
 public class Test
 {
@@ -178,7 +178,7 @@ public class Test
 
 输出:
 
-```
+```java
 Addition is 9
 Multiplication is 18
 Hello Geek

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Byte getByte(Object obj)
             throws IllegalArgumentException,
                    IllegalAccessException
@@ -27,7 +27,7 @@ public Byte getByte(Object obj)
 以下程序说明 getByte()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the getByte() method
 
 import java.lang.reflect.Field;
@@ -105,7 +105,7 @@ class User {
 
 **Output:**
 
-```
+```java
 Value of Byte Field identificationByte is 69
 Value of Byte Field selectionByte is 121
 
@@ -113,7 +113,7 @@ Value of Byte Field selectionByte is 121
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the getByte() method
 
 import java.lang.reflect.Field;
@@ -153,7 +153,7 @@ class Codes {
 
 **Output:**
 
-```
+```java
 Value: 12
 
 ```

@@ -14,7 +14,7 @@
 
 **申报**
 
-```
+```java
 public static <T> Collection<T> unmodifiableCollection(Collection<? extends T> c)
 ```
 
@@ -30,7 +30,7 @@ public static <T> Collection<T> unmodifiableCollection(Collection<? extends T> c
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate Over Unmodifiable Collection
 
 import java.util.ArrayList;
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Element are added to the list: geeks for geeks
 welcome
 to
@@ -88,7 +88,7 @@ Unmodifiable Collection
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate Over Unmodifiable Collection 
 
 import java.util.*;
@@ -120,7 +120,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 welcome
 to
 geeks for geeks
@@ -130,7 +130,7 @@ geeks for geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // unmodifiableCollection() method
 // for UnsupportedOperationException
@@ -174,7 +174,7 @@ public class GFG1 {
 
 **输出**
 
-```
+```java
 Initial list: [Geeks, for]
 Trying to modify the unmodifiableCollection
 Exception thrown : java.lang.UnsupportedOperationException

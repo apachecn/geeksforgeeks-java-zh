@@ -7,7 +7,7 @@ Java . time . Clock 类的 equals()方法检查两个 Clock 对象是否相等�
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -16,7 +16,7 @@ public boolean equals(Object obj)
 
 **示例:**
 
-```
+```java
 Input: 
 Clock object of ZoneId "UTC"
 Clock object of ZoneId "Asia/calcutta"
@@ -35,7 +35,7 @@ Hence applying equals on them returns false.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate equals()
 // method of Clock class
 
@@ -75,7 +75,7 @@ public class EqualsMethodDemo {
 
 **Output:** 
 
-```
+```java
 SystemClock[Etc/UTC]
 SystemClock[Etc/UTC]
 Both clocks are equal:true
@@ -85,7 +85,7 @@ Both clocks are equal:true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate equals()
 // method of Clock class
 
@@ -127,7 +127,7 @@ public class EqualsMethodDemo {
 
 **Output:** 
 
-```
+```java
 clock1 Time Zone = Etc/UTC
 clock2 Time Zone = Z
 Both clocks are equal:false

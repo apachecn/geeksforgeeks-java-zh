@@ -6,7 +6,7 @@ Java 中 [**数组列表**](https://www.geeksforgeeks.org/arraylist-in-java/) �
 
 **语法:**
 
-```
+```java
 clear()
 ```
 
@@ -18,7 +18,7 @@ clear()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Working of clear() Method
 // of ArrayList class
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The list initially: [1, 2, 3, 4]
 The list after using clear() method: []
 ```

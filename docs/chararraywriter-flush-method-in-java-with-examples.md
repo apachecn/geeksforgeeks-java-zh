@@ -5,7 +5,7 @@
 Java 中 **CharArrayWriter** 类的 **flush()** 方法用于刷新流。
 **语法** :
 
-```
+```java
 public void flush()
 ```
 
@@ -16,7 +16,7 @@ public void flush()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the flush() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of char_array1 : 5
 ```
 
@@ -60,7 +60,7 @@ Size of char_array1 : 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the flush() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of char_array1 : 6
 ```
 

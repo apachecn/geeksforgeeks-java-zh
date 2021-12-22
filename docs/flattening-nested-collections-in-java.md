@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input      : arr1[]  = {{1,2,3,4},{5,6,7},{8,9}}; 
 Processing : Flattening
 Output     : arr1[]  = {1,2,3,4,5,6,7,8,9};
@@ -18,7 +18,7 @@ Stream **flatMap()** 方法用于将集合流展平为对象流。这些对象�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Flatten a map containing a list of items
 // as values using flatMap() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [A, B, C, i, J, K]
 ```
 
@@ -82,7 +82,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to flatten a stream of same type two arrays
 // using flatMap() method
 
@@ -133,7 +133,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [Ma, Rs, Xy, Jw, Pi, Br]
 ```
 
@@ -141,7 +141,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Flatten a map containing a list of items
 // as values using flatMap() method
 
@@ -197,6 +197,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [1, 2, 3, 4, 5, 6]
 ```

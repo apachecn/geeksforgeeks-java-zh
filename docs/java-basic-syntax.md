@@ -23,14 +23,14 @@ Java 程序是对象的集合，这些对象通过方法调用相互通信，共
 
 **示例:**在控制台中编译和运行 java 程序的步骤
 
-```
+```java
 javac GFG.java
 java GFG
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG { 
   public static void main (String[] args) {
         System.out.println("GFG!");
@@ -40,7 +40,7 @@ public class GFG { 
 
 **Output**
 
-```
+```java
 GFG!
 ```
 
@@ -54,13 +54,13 @@ Java 中有三种类型的注释。
 
 **i.** 单行注释
 
-```
+```java
 // System.out.println("GFG!");
 ```
 
 **二。**多行评论
 
-```
+```java
 /*
     System.out.println("GFG!");
     System.out.println("Alice!");
@@ -69,7 +69,7 @@ Java 中有三种类型的注释。
 
 **三。**文档注释。又叫一T5**doc 注释**T8。
 
-```
+```java
 /** documentation */
 ```
 
@@ -77,7 +77,7 @@ Java 中有三种类型的注释。
 
 程序文件的名称应该与扩展名为的类名完全匹配。 **java** 。如果程序没有任何公共类，文件名可以是其他名称。假设你有一个公开课 **GFG** 。
 
-```
+```java
 GFG.java // valid syntax
 *gfg*.java // invalid syntax
 ```
@@ -86,7 +86,7 @@ GFG.java // valid syntax
 
 Java 是一种区分大小写的语言，这意味着标识符 ***AB、AB、aB*** 、和 ***ab*** 在 Java 中是不同的。
 
-```
+```java
 System.out.println("Alice"); // valid syntax
 *s*ystem.out.println("Alice"); // invalid syntax
 ```
@@ -97,7 +97,7 @@ System.out.println("Alice"); // valid syntax
 
 **二。**如果用几个单词组成一个类名，每个内部单词的第一个字母应该大写，下划线是允许的。
 
-```
+```java
 class MyJavaProgram    // valid syntax
 class myJavaProgram    // invalid syntax
 ```
@@ -112,7 +112,7 @@ Java 程序处理从方法 main()开始。
 
 **二。**如果用几个单词组成方法名，那么内部单词的每个首字母都应该大写，允许下划线。(这在 java 中是允许的，请纠正下面的例子，这两个例子都是正确的语法，但是作为标准，人们在函数名中遵循小写的第一个字符)
 
-```
+```java
 public void employeeRecords() // valid syntax
 public void EmployeeRecords() // valid syntax
 ```
@@ -127,7 +127,7 @@ public void EmployeeRecords() // valid syntax
 
 **iv。**关键字不能用作标识符，因为它是保留字，有一些特殊的含义。
 
-```
+```java
 Legal identifiers: MinNumber, total, ak74, hello_world, $amount, _under_value
 Illegal identifiers: 74ak, -amount
 ```

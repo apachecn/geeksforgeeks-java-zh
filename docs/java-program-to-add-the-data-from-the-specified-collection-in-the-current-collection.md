@@ -13,7 +13,7 @@
 
 **静态方法声明**
 
-```
+```java
 Collections.addAll(List1,List2)
 ```
 
@@ -21,7 +21,7 @@ Collections.addAll(List1,List2)
 
 让列表 1 中需要插入列表 2 的索引为 1。
 
-```
+```java
 List1.addAll(1, List2);
 ```
 
@@ -32,7 +32,7 @@ List1.addAll(1, List2);
 
 **例 1:**
 
-```
+```java
 Input: boolean b = List1.addAll(large,extra-large)
 
 If the appending is successful
@@ -44,7 +44,7 @@ Output: false
 
 **例 2:**
 
-```
+```java
 Input:  Collections.addAll(List1,List2)
 Output: List1 = [small,medium,large,extra-large]
 ```
@@ -60,7 +60,7 @@ Output: List1 = [small,medium,large,extra-large]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Add the Data from the Specified
 // Collection in the Current Collection
 
@@ -127,7 +127,7 @@ public class AddCollections {
 
 **Output**
 
-```
+```java
 Initial collection value of list: [1, 2, 3]
 Initial collection value of list2: [4, 5, 6]
 Boolean Result: true

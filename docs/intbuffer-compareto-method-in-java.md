@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(IntBuffer that)
 ```
 
@@ -18,7 +18,7 @@ public int compareTo(IntBuffer that)
 
 **示例 1:** 当两个 IntBuffer 相等时。
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 IntBuffer ib: [9, 7, 4]
 IntBuffer ib1: [9, 7, 4]
 
@@ -103,7 +103,7 @@ Both buffer are lexicographically equal
 
 **示例 2:** 当该输入缓冲区大于传递的输入缓冲区时
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -178,7 +178,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 IntBuffer ib: [9, 7, 4]
 IntBuffer ib1: [8, 7, 4]
 
@@ -188,7 +188,7 @@ ib is lexicographically greater than ib1
 
 **例 3:** 当这个 IntBuffer 小于传递的 IntBuffer 时。
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -263,7 +263,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 IntBuffer ib: [8, 7, 4]
 IntBuffer ib1: [9, 7, 4]
 

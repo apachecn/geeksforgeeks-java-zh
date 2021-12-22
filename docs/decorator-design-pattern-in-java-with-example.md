@@ -44,7 +44,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Interface named Shape
 // Shape.java
 public interface Shape {
@@ -58,7 +58,7 @@ public interface Shape {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Class 1
 // Class 1 will be implementing the Shape interface
 

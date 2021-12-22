@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream parallel()
 
 Where, DoubleStream is a sequence of primitive 
@@ -19,7 +19,7 @@ returns a parallel DoubleStream.
 
 **例 1 :**
 
-```
+```java
 // Java program to demonstrate working of
 // DoubleStream parallel() on a given range
 import java.util.*;
@@ -43,7 +43,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The corresponding parallel DoubleStream is :
 4.5
 7.8
@@ -54,7 +54,7 @@ The corresponding parallel DoubleStream is :
 
 **例 2 :**
 
-```
+```java
 // Printing sequential stream for the
 // same input as above example 1.
 import java.util.*;
@@ -78,7 +78,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The corresponding sequential DoubleStream is :
 5.2
 12.6
@@ -89,7 +89,7 @@ The corresponding sequential DoubleStream is :
 
 **例 3 :**
 
-```
+```java
 // Java program to show sorted output
 // of parallel stream.
 import java.util.*;
@@ -113,7 +113,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The sorted parallel DoubleStream is :
 4.5
 6.6

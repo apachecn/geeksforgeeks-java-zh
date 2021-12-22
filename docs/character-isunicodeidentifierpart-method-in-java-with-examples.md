@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isUnicodeIdentifierPart(datatype character)
 
 ```
@@ -28,7 +28,7 @@ public static boolean isUnicodeIdentifierPart(datatype character)
 下面的程序说明了 Java . lang . Character . isunicodeidentifier part()方法:
 **程序 1:** 当传递的参数是一个字符时。
 
-```
+```java
 // Code to illustrate the Character.isUnicodeIdentifierPart() 
 import java.lang.*;
 
@@ -60,7 +60,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 Is - a part of Unicode Identifier: false
  Is 7 a part of Unicode Identifier: true
  Is g a part of Unicode Identifier: true
@@ -69,7 +69,7 @@ Is - a part of Unicode Identifier: false
 
 **程序 2:** 当传递的参数是字符时。
 
-```
+```java
 // Code to illustrate the Character.isUnicodeIdentifierPart() 
 import java.lang.*;
 
@@ -95,7 +95,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 ~ may be part of a Unicode identifier is false
 8 may be part of a Unicode identifier is true
 
@@ -105,7 +105,7 @@ public class gfg {
 
 **程序 1:**
 
-```
+```java
 // Code to illustrate the Character.isUnicodeIdentifierPart(int codePoint)
 import java.lang.*;
 
@@ -132,7 +132,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 c1 may be part of a Unicode identifier is true
 c2 may be part of a Unicode identifier is true
 
@@ -140,7 +140,7 @@ c2 may be part of a Unicode identifier is true
 
 **程序 2:**
 
-```
+```java
 // Code to illustrate the Character.isUnicodeIdentifierPart(int codePoint)
 import java.lang.*;
 
@@ -167,7 +167,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 c1 may be part of a Unicode identifier is true
 c2 may be part of a Unicode identifier is true
 

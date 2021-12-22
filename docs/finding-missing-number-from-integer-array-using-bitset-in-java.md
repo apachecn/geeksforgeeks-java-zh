@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : n = 5, a[] = {1, 2, 4, 5}
 Output: 3
 Explanation: From the array of numbers 1 to 5, 3 is missing.
@@ -19,7 +19,7 @@ Explanation: From the array of numbers 1 to 10, 2, 5, 7 and 9 are missing.
 
 这个问题很容易解决，通过计算 n 个数的和，用公式，
 
-```
+```java
 sum = (n * (n + 1)) / 2
 
 ```
@@ -43,7 +43,7 @@ sum = (n * (n + 1)) / 2
 
 T3】JavaT5
 
-```
+```java
 // Java Program to find the missing elements
 // from integer array using BitSet class
 

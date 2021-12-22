@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
             5                      13
          /      \               /       \  
        10        15           16         31 
@@ -30,7 +30,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement Heaps
 // by Illustrating Min Heap
 
@@ -217,7 +217,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The Min Heap is 
  PARENT : 3 LEFT CHILD : 5 RIGHT CHILD :6
  PARENT : 5 LEFT CHILD : 9 RIGHT CHILD :84
@@ -232,7 +232,7 @@ The Min val is 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate working of PriorityQueue
 // Using Library Functions
 
@@ -316,7 +316,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Head value using peek function:10
 The queue elements:
 10

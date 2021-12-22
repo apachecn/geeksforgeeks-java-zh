@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -16,7 +16,7 @@ public int hashCode()
 
 **示例:**
 
-```
+```java
 Input : BigDecimal = 67891    
 Output : Hashcode : 2104621
 
@@ -28,7 +28,7 @@ Output : Hashcode : 2104621003
 下面的程序说明了 BigDecimal 类的 hashCode()函数:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate hashCode() method
 import java.io.*;
 import java.math.*;
@@ -50,14 +50,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HashCode for 4743 is 147033
 
 ```
 
 **程序 2:** 该程序将说明两个不同的大小数的 hashcode 值相等但比例不同会有所不同。
 
-```
+```java
 // Java program to demonstrate hashCode() method
 import java.io.*;
 import java.math.*;
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HashCodes of 4743 and 4743.000 are not equal.
 HashCodes of 4743 is 147033 and 4743.000 is 147033003.
 

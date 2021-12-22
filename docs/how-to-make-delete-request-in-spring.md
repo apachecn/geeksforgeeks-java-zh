@@ -18,7 +18,7 @@ Spring Initializr 是一个基于网络的工具，使用它我们可以很容�
 2.  按照要求填写细节。
 3.  让我们考虑下面的应用程序，对于这个应用程序，如下所示:
 
-```
+```java
 Project: Maven
 Language: Java 
 Spring Boot: 2.2.8 
@@ -29,7 +29,7 @@ Dependencies: Spring Web
 
 **注:**出于说明目的，我们将考虑
 
-```
+```java
 Project: Maven 
 Language: Java 
 Spring Boot: 2.2.8 
@@ -58,7 +58,7 @@ Dependencies: Spring Web
 
 例 1:Controller.java
 
-```
+```java
 // Annotation
 @RestController
 
@@ -107,7 +107,7 @@ public class Controller {
 
 **输出:**在控制台上生成
 
-```
+```java
 2021-10-14 1
 2
 ```

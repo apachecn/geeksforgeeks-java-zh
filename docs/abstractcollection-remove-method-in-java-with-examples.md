@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractCollection.remove(Object O)
 ```
 
@@ -18,7 +18,7 @@ AbstractCollection.remove(Object O)
 
 **程序 1** :
 
-```
+```java
 // Java code to illustrate remove()
 
 import java.util.*;
@@ -57,7 +57,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 Collection: [4, Geeks, To, TreeSet, Welcome]
 New Collection: [To, Welcome]
 
@@ -65,7 +65,7 @@ New Collection: [To, Welcome]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate remove()
 
 import java.util.*;
@@ -104,7 +104,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 Collection: [Welcome, To, Geeks, 4, Geeks, LinkedList]
 New Collection: [Welcome, To, Geeks]
 

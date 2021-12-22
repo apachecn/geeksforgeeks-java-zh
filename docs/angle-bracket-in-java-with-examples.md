@@ -6,7 +6,7 @@ Java 中的**尖括号**用来定义[泛型](https://www.geeksforgeeks.org/gener
 
 **示例:**
 
-```
+```java
 <T> // of type T
 <Integer> // of type Integer
 <String> // of type String
@@ -20,7 +20,7 @@ Java 中的**尖括号**用来定义[泛型](https://www.geeksforgeeks.org/gener
 
 我们使用尖括号“<>”来指定泛型类创建中的参数类型。要创建泛型类的对象，我们使用以下语法:
 
-```
+```java
 // To create an instance of generic class 
 BaseType  obj = new BaseType ()
 
@@ -30,7 +30,7 @@ Note: In Parameter type,
 
 ```
 
-```
+```java
 // A Simple Java program
 // to show working of user defined
 // Generic classes
@@ -72,7 +72,7 @@ class Main {
 
 **Output:**
 
-```
+```java
 15
 GeeksForGeeks
 
@@ -82,7 +82,7 @@ GeeksForGeeks
 
 我们使用尖括号”来指定泛型函数定义中的参数类型。然后为了调用这个函数，我们只需要传递 expecter 类型作为参数。我们还可以根据传递给泛型方法的参数类型，编写可以用不同类型的参数调用的泛型函数，编译器处理每个方法。
 
-```
+```java
 // To create a generic function
 public static  void func(T a, T b){}
 
@@ -92,7 +92,7 @@ Note: In Parameter type,
 
 ```
 
-```
+```java
 // A Simple Java program
 // to show working of user defined
 // Generic functions
@@ -128,7 +128,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 java.lang.Integer = 11
 java.lang.String = GeeksForGeeks
 java.lang.Double = 1.0

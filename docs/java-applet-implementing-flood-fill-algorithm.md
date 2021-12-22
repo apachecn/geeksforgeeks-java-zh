@@ -48,7 +48,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement floodfill algorithm
 // in Java Applet(using recursion)
 import java.awt.*;
@@ -157,20 +157,20 @@ public class floodfill extends JApplet {
 *   **注意:**如果使用递归方法对更大的区域进行洪水填充(在坐标 1，1 处)，则递归算法可能会导致**崩溃。**
     **例:**
 
-```
+```java
 floodfill the larger side of image
 Input:
 ```
 
 ![](img/f7cefebbf6fa35c7da29a183697b3ce0.png)
 
-```
+```java
 Output:
 ```
 
 ![](img/2270f3b4509a4f8e7341e05de7409ccf.png)
 
-```
+```java
 *Explanation:*
 Since the area to be covered is very large, 
 therefore only some part is covered by the algorithm, 
@@ -182,7 +182,7 @@ and after that the program gets crashed.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to implement floodfill algorithm
 // in Java Applet(using queue)
 import java.awt.*;

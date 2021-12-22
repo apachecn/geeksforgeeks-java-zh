@@ -6,7 +6,7 @@ Java . util . LinkedHashSet . contains()方法用于检查特定元素是否存�
 
 **语法:**
 
-```
+```java
 Hash_Set.contains(Object element)
 ```
 
@@ -16,7 +16,7 @@ Hash_Set.contains(Object element)
 
 下面的程序说明了 Java . util . linkedhashset . contains()方法:
 
-```
+```java
 // Java code to illustrate LinkedHashSet.contains() method
 import java.io.*;
 import java.util.LinkedHashSet;
@@ -51,7 +51,7 @@ public class LinkedHashSetDemo {
 
 **输出:**
 
-```
+```java
 LinkedHashSet: [Welcome, To, Geeks, 4]
 Does the Set contains 'Geeks'? true
 Does the Set contains '4'? true

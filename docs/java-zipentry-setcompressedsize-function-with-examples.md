@@ -5,13 +5,13 @@
 setCompressedSize()函数是 java.util.zip 包的一部分。该函数将 Zip 条目的压缩大小设置为指定的长值。
 **功能签名:**
 
-```
+```java
 public void setCompressedSize(long val)
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.setCompressedSize(val);
 ```
 
@@ -23,7 +23,7 @@ zip_entry.setCompressedSize(val);
 
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后设置指定 zip 条目的压缩大小。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。zip”文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of setCompressedSize() function
 
@@ -65,14 +65,14 @@ public class solution {
 
 **Output:**
 
-```
+```java
 CompressedSize : 123
 
 ```
 
 **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后设置指定 ZipEntry 的 CompressedSize。“file.zip”是 f:目录中的一个 zip 文件。我们就拍一张”。cpp "文件作为 ZipEntry
 
-```
+```java
 // Java program to demonstrate the
 // use of setCompressedSize() function
 
@@ -114,7 +114,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 CompressedSize : 123
 
 ```

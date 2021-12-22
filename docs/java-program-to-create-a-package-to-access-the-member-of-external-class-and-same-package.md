@@ -15,7 +15,7 @@
 
 ![](img/50049cd4bf899389876759c385a050ff.png)
 
-```
+```java
 Project -- GFG 
            | 
            |  
@@ -36,7 +36,7 @@ Package 2 GFG2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package GFG1;
 // Creating Interface
 interface GFG1Interface {
@@ -62,7 +62,7 @@ public class GFG1 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package GFG2;
 // Creating Interface
 interface GFG3Interface {
@@ -100,7 +100,7 @@ public class GFG3 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package GFG2;
 // Importing the members of GFG1 package
 import GFG1.*;

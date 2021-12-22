@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 FloatObject.doubleValue()
 ```
 
@@ -16,7 +16,7 @@ FloatObject.doubleValue()
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // Float doubleValue() method
 
@@ -43,14 +43,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Float value of 17.65 is : 17.649999618530273
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java code to demonstrate
 // Float doubleValue() method
 
@@ -77,7 +77,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Float value of 6.0 is : 6.0
 
 ```

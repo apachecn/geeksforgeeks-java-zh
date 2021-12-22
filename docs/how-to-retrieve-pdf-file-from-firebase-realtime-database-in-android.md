@@ -50,7 +50,7 @@
 
 ## <u>可扩展标记语言</u>
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -81,7 +81,7 @@
 
 ## <u>Java 语言(一种计算机语言，尤用于创建网站)</u>
 
-```
+```java
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## <u>可扩展标记语言</u>
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## <u>Java 语言(一种计算机语言，尤用于创建网站)</u>
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;

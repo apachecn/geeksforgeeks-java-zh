@@ -26,7 +26,7 @@
 
 **例**
 
-```
+```java
 public enum Fruits {
     Orange, Apple, Banana, Mango;
 }
@@ -34,7 +34,7 @@ public enum Fruits {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Enum to String
 // using 
 
@@ -66,7 +66,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Orange
 Apple
 Banana
@@ -84,7 +84,7 @@ Mango
 
 插图:
 
-```
+```java
 public enum Fruits {
     Orange, Apple, Banana, Mango;
 }
@@ -94,7 +94,7 @@ public enum Fruits {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Enum to String
 // Using toString() Method
 
@@ -128,7 +128,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Orange
 Apple
 Banana

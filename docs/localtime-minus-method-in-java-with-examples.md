@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime minus(long amountToSubtract,
                        TemporalUnit unit)
 
@@ -29,7 +29,7 @@ public LocalTime minus(long amountToSubtract,
 下面的程序说明了减()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.minus() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime after subtracting 12 Hours: 07:34:50.630
 
 ```
@@ -68,7 +68,7 @@ LocalTime after subtracting 12 Hours: 07:34:50.630
 
 **语法:**
 
-```
+```java
 public LocalTime minus(TemporalAmount amountTosubtract)
 
 ```
@@ -85,7 +85,7 @@ public LocalTime minus(TemporalAmount amountTosubtract)
 下面的程序说明了减()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.minus() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalTime after minus 55 Minutes: 18:39:50.630
 
 ```

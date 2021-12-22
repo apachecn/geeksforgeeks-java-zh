@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double acos(double a)
 Parameter :
 a : the value whose arc cosine is to be returned.
@@ -16,7 +16,7 @@ This method returns the arc cosine of the argument.
 
 **示例:**展示 **java.lang.Math.acos()** 方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.acos() method
 import java.lang.Math;
@@ -55,7 +55,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 NaN
 1.5159376794536454
 0.0

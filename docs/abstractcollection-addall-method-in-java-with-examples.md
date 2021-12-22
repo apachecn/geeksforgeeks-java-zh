@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean addAll(*Collection C)*
 ```
 
@@ -18,7 +18,7 @@ boolean addAll(*Collection C)*
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate addAll()
 // method of AbstractCollection
 
@@ -66,7 +66,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 AbstractCollection 1: [4, Geeks, To, TreeSet, Welcome]
 AbstractCollection 2: []
 AbstractCollection 2: [4, Geeks, To, TreeSet, Welcome]
@@ -75,7 +75,7 @@ AbstractCollection 2: [4, Geeks, To, TreeSet, Welcome]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate addAll()
 // method of AbstractCollection
 
@@ -122,7 +122,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 AbstractCollection 1: [10, 20, 30, 40, 50]
 AbstractCollection 2: []
 AbstractCollection 2: [10, 20, 30, 40, 50]

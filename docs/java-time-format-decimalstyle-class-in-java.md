@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final class DecimalStyle extends Object
 ```
 
@@ -14,7 +14,7 @@ public final class DecimalStyle extends Object
 
 ## Java
 
-```
+```java
 // Java program to demonstrate the
 // Implementation of decimalSeparator()
 
@@ -42,7 +42,7 @@ public class Example1 {
 
 **输出**
 
-```
+```java
 Char before separation: .
 Char after separation: *
 

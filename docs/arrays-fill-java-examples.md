@@ -4,7 +4,7 @@
 
 **java.util.Arrays.fill()** 方法在 [java.util.Arrays 类](https://www.geeksforgeeks.org/array-class-in-java/)中。此方法将指定的数据类型值分配给指定数组的指定范围的每个元素。
 
-```
+```java
 Syntax:
 // Makes all elements of a[] equal to "val"
 public static void fill(int[] a, int val)
@@ -17,7 +17,7 @@ This method doesn't return any value.
 
 ```
 
-```
+```java
 Exceptions it Throws:
 IllegalArgumentException - if from_Index > to_Index
 ArrayIndexOutOfBoundsException - if from_Index  a.length
@@ -28,7 +28,7 @@ ArrayIndexOutOfBoundsException - if from_Index  a.length
 
 **我们可以填满整个阵列。**
 
-```
+```java
 // Java program to fill a subarray of given array
 import java.util.Arrays;
 
@@ -49,7 +49,7 @@ public class Main
 
 **输出:**
 
-```
+```java
 Array completely filled with 10
 [10, 10, 10, 10, 10, 10, 10, 10, 10]
 
@@ -57,7 +57,7 @@ Array completely filled with 10
 
 **我们可以填充部分数组。**
 
-```
+```java
 // Java program to fill a subarray array with 
 // given value.
 import java.util.Arrays;
@@ -78,7 +78,7 @@ public class Main
 
 **输出:**
 
-```
+```java
 [2, 10, 10, 10, 10, 2, 2, 2, 2]
 ```
 
@@ -86,7 +86,7 @@ public class Main
 我们可以使用一个循环来填充一个多维数组。
 T4【1)补 2D 阵
 
-```
+```java
 // Java program to fill a multidimensional array with 
 // given value.
 import java.util.Arrays;
@@ -108,14 +108,14 @@ public class Main
 
 **输出:**
 
-```
+```java
 [[10, 10, 10, 10], [10, 10, 10, 10], [10, 10, 10, 10]]
 
 ```
 
 **2)填充 3D 阵列**
 
-```
+```java
 // Java program to fill a multidimensional array with 
 // given value. 
 
@@ -140,7 +140,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [[[-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1]], [[-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1]], [[-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1]]]
 
 ```

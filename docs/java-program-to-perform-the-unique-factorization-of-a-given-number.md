@@ -6,7 +6,7 @@
 
 **例**
 
-```
+```java
 Input: 12
 Output: 2, 3
 Explanation: All prime factors or 12 are 2, 2, 3\. In those factors, unique factors
@@ -53,7 +53,7 @@ Output: 3, 5, 7
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to print all unique prime factors
 
 import java.io.*;
@@ -116,7 +116,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 3 5
 ```
 
@@ -141,7 +141,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to print all unique prime factors
 
 import java.util.*;
@@ -215,7 +215,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 3 7
 ```
 

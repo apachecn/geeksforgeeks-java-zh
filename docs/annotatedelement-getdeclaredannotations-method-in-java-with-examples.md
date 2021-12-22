@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public DeclaredAnnotation[] getDeclaredAnnotations()
 
 ```
@@ -19,7 +19,7 @@ public DeclaredAnnotation[] getDeclaredAnnotations()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDeclaredAnnotations() method
 
@@ -69,7 +69,7 @@ public class Test {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDeclaredAnnotations() method
 

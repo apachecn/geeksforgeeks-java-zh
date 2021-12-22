@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 str2.equalsIgnoreCase(str1);
 ```
 
@@ -18,14 +18,14 @@ str2.equalsIgnoreCase(str1);
 
 **插图:**
 
-```
+```java
 Input : str1 = "pAwAn";
         str2 = "PAWan"
         str2.equalsIgnoreCase(str1);
 Output :true
 ```
 
-```
+```java
 Input : str1 = "powAn";
         str2 = "PAWan"
         str2.equalsIgnoreCase(str1);
@@ -39,7 +39,7 @@ Explanation: powan and pawan are different strings.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate equalsIgnoreCase() method
 
 // Importing required classes
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 str2 is equal to str1 = true
 str2 is equal to str3 = false
 ```

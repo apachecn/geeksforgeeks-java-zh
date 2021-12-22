@@ -10,7 +10,7 @@ toMap()方法有 3 个重载:
 
 **语法:**
 
-```
+```java
 public static  Collector<T, ?, Map>
     toMap(Function keyMapper, Function valueMapper)
 
@@ -32,7 +32,7 @@ public static  Collector<T, ?, Map>
 
 下面的例子说明了上述方法:
 
-```
+```java
 // Java program to demonstrate
 // toMap() method with unique keys
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map:{G=Geeks, g=geeks, GFG=GeeksForGeeks}
 
 ```
@@ -76,7 +76,7 @@ Map:{G=Geeks, g=geeks, GFG=GeeksForGeeks}
 
 **语法:**
 
-```
+```java
 public static  Collector<T, ?, Map> 
     toMap(Function keyMapper, 
           Function valueMapper, 
@@ -101,7 +101,7 @@ public static  Collector<T, ?, Map>
 
 下面的例子说明了上述方法:
 
-```
+```java
 // Java program to demonstrate
 // toMap() method without unique keys
 
@@ -135,7 +135,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map:{g=geeks, GFG=GeeksForGeeks, geeksforgeeks}
 
 ```
@@ -146,7 +146,7 @@ Map:{g=geeks, GFG=GeeksForGeeks, geeksforgeeks}
 
 **语法:**
 
-```
+```java
 public static <T, K, U, M extends Map> Collector 
     toMap(Function keyMapper,
           Function valueMapper,
@@ -173,7 +173,7 @@ public static <T, K, U, M extends Map> Collector
 
 下面的例子说明了上述方法:
 
-```
+```java
 // Java program to demonstrate
 // toMap() method
 
@@ -209,7 +209,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Map:{GFG=GeeksForGeeks, Geeks, g=geeks}
 
 ```

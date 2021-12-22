@@ -10,7 +10,7 @@
 
 当分配给变量或作为参数传递给方法时，实际上并不使用这些对象。对对象的引用无处不在。示例:
 
-```
+```java
 Box mybox =  new Box();   //referencing to object
 
 ```
@@ -26,7 +26,7 @@ Box mybox =  new Box();   //referencing to object
 1.  **Object created inside a method :** When a method is called it goes inside the stack frame. When the method is popped from the stack, all its members dies and if some objects were created inside it then these objects becomes unreachable or anonymous after method execution and thus becomes eligible for garbage collection
     .Example:
 
-    ```
+    ```java
     /* Java program to demonstrate that 
     objects created inside a method will becomes
     eligible for gc after method execution terminate */
@@ -78,7 +78,7 @@ Box mybox =  new Box();   //referencing to object
 
     输出:
 
-    ```
+    ```java
     t2 successfully garbage collected
     t1 successfully garbage collected
 
@@ -88,7 +88,7 @@ Box mybox =  new Box();   //referencing to object
 
 2.  **Reassigning the reference variable:** When reference id of one object is referenced to reference id of some other object then the previous object has no any longer reference to it and becomes unreachable and thus becomes eligible for garbage collection.Example:
 
-    ```
+    ```java
     /* Java program to demonstrate gc
      when one object referred to other object */
 
@@ -128,14 +128,14 @@ Box mybox =  new Box();   //referencing to object
 
     输出:
 
-    ```
+    ```java
     t1 successfully garbage collected
 
     ```
 
 3.  **Nullifying the reference variable :** When all the reference variables of an object are changed to NULL, it becomes unreachable and thus becomes eligible for garbage collection.Example:
 
-    ```
+    ```java
     /* Java program to demonstrate gc
      when object reference changed to NULL */
 
@@ -177,7 +177,7 @@ Box mybox =  new Box();   //referencing to object
 
     输出:
 
-    ```
+    ```java
     t1 successfully garbage collected
 
     ```
@@ -185,7 +185,7 @@ Box mybox =  new Box();   //referencing to object
 4.  **Anonymous object :** The reference id of an anonymous object is not stored anywhere. Hence, it becomes unreachable.
     Example:
 
-    ```
+    ```java
     /* Java program to demonstrate gc
      of anonymous objects */
 
@@ -222,7 +222,7 @@ Box mybox =  new Box();   //referencing to object
 
     输出:
 
-    ```
+    ```java
     t1 successfully garbage collected
 
     ```

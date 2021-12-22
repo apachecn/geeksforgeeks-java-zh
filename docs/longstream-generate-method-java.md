@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static LongStream generate(LongSupplier s)
 
 ```
@@ -21,7 +21,7 @@ static LongStream generate(LongSupplier s)
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream.generate()
 // to generate an infinite sequential
 // unordered LongStream
@@ -46,7 +46,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4377
 6200
 9920

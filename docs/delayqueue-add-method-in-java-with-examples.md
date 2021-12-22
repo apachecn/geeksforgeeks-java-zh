@@ -5,7 +5,7 @@
 Java 中 DelayQueue 类的 **add(E ele)** 方法用于将给定元素插入延迟队列，如果元素已经成功插入，则返回 true。这里，E 指的是这个延迟队列集合维护的元素类型。
 **语法** :
 
-```
+```java
 public boolean add(E ele)
 ```
 
@@ -20,7 +20,7 @@ public boolean add(E ele)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the add()
 // method in Java
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of the queue : 1
 ```
 
@@ -70,7 +70,7 @@ Size of the queue : 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the Exception
 // thrown by add() method of
 // DelayQueue classs
@@ -102,6 +102,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 java.lang.NullPointerException
 ```

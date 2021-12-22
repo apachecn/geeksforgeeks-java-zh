@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ public boolean isEmpty()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // isEmpty() method in CopyOnWriteArraySet
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 CopyOnWriteArraySet: [32, 67, 98, 100]
 
 Set is not empty
@@ -63,7 +63,7 @@ Set is not empty
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // isEmpty() method in CopyOnWriteArraySet
 import java.util.concurrent.CopyOnWriteArraySet;
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 CopyOnWriteArraySet: []
 
 Set is empty

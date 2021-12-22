@@ -56,7 +56,7 @@
 
 > ***参考:**[https://github . com/jitsi/jitsi-meet/blob/master/Android/app/proguard-rules . pro](https://github.com/jitsi/jitsi-meet/blob/master/android/app/proguard-rules.pro)*
 
-```
+```java
 *# Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified
 # in /usr/local/Cellar/android-sdk/24.3.3/tools/proguard/proguard-android.txt
@@ -155,7 +155,7 @@
 
 ## *可扩展标记语言*
 
-```
+```java
 *<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -196,7 +196,7 @@
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;

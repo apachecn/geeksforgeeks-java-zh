@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static HijrahDate now(ZoneId zone)
 
 ```
@@ -21,7 +21,7 @@ public static HijrahDate now(ZoneId zone)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate now() method
 
 import java.util.*;
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate: Hijrah-umalqura AH 1441-06-25
 
 ```
@@ -67,7 +67,7 @@ HijrahDate: Hijrah-umalqura AH 1441-06-25
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate now() method
 
 import java.util.*;
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate: Hijrah-umalqura AH 1441-06-25
 
 ```

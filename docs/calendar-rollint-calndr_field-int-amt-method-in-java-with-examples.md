@@ -19,7 +19,7 @@
 以下程序说明了日历类 roll()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // isSet() method
 
@@ -60,7 +60,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Year is: 2019
 The New Year is: 2014
 The new year is: 2016
@@ -69,7 +69,7 @@ The new year is: 2016
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // isSet() method
 
@@ -110,7 +110,7 @@ public class Calendar_Demo {
 
 **Output:**
 
-```
+```java
 The Current Month is: 2
 The New Month is: 5
 The new month is: 4

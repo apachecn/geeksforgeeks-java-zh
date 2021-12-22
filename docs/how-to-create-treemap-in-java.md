@@ -10,7 +10,7 @@ Java 中的 [**树形图**](https://www.geeksforgeeks.org/treemap-in-java/) 是�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate how to create a TreeMap
 
 import java.util.*;
@@ -33,7 +33,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 TreeMap successfully created
 ```
 
@@ -41,7 +41,7 @@ TreeMap successfully created
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate how to create and add elements
 // to TreeMap
 
@@ -69,7 +69,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 TreeMap successfully created
 TreeMap: {1=Geeks, 2=for, 3=Geeks}
 ```

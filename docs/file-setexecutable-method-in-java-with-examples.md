@@ -7,14 +7,14 @@
 
 **功能签名:**
 
-```
+```java
 public boolean setExecutable(boolean a, boolean b)
 public boolean setExecutable(boolean a)
 ```
 
 **函数语法:**
 
-```
+```java
 file.setExecutable(boolean a, boolean b)
 file.setExecutable(boolean a)
 ```
@@ -37,7 +37,7 @@ file.setExecutable(boolean a)
 
 **示例 1:** 我们将尝试更改 f:目录中现有文件的所有者的 setExecutable 权限。
 
-```
+```java
 // Java program to demonstrate the
 // use of setExecutable() function
 
@@ -79,14 +79,14 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Executable permission is set
 
 ```
 
 **示例 2:** 我们将尝试更改 f:目录中每个现有文件的 setExecutable 权限。
 
-```
+```java
 // Java program to demonstrate the
 // use of setExecutable() function
 
@@ -128,7 +128,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Executable permission is set
 
 ```

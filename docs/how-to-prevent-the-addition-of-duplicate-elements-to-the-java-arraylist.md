@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : [1, 1, 2, 2, 3, 3, 4, 5, 8]
 Output: [1, 2, 3, 4, 5, 8]
 
@@ -25,7 +25,7 @@ Output: [1]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to prevent the addition
 // of duplicate elements to an ArrayList.
 
@@ -63,7 +63,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1 2 3 4 5 8
 ```
 
@@ -82,7 +82,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to prevent the addition
 // of duplicate elements to an ArrayList.
 
@@ -129,7 +129,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1
 ```
 

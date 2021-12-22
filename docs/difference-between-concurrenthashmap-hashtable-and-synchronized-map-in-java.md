@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 ConcurrentHashMap<K,V> CHM = new  ConcurrentHashMap<>();
 ```
 
@@ -22,7 +22,7 @@ ConcurrentHashMap<K,V> CHM = new  ConcurrentHashMap<>();
 
 ## Java
 
-```
+```java
 // Java program to illustrate ConcurrentHashMap
 
 // Importing required packages
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 {65=A, 66=B}
 {65=A, 66=B, 67=C, 68=D}
 {65=A, 66=B, 67=C}
@@ -87,7 +87,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 Hashtable<K,V> ht = new Hashtable<>();
 ```
 
@@ -97,7 +97,7 @@ Hashtable<K,V> ht = new Hashtable<>();
 
 ## Java
 
-```
+```java
 // Java program to illustrate HashTable
 
 // Importing required packages
@@ -129,7 +129,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 {65=A, 68=D, 67=C, 66=B}
 ```
 
@@ -137,7 +137,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 public static <K,V> Map<K,V> synchronizedMap(Map<K,V> M)
 
 // where M is the map to be synchronized K is key 
@@ -148,7 +148,7 @@ public static <K,V> Map<K,V> synchronizedMap(Map<K,V> M)
 
 ## Java
 
-```
+```java
 // Java program to demonstrate synchronizedMap() method
 
 // Importing required packages
@@ -202,7 +202,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Map is {65=A, 66=B, 67=C, 68=D}
 Synchronized map is : {65=A, 66=B, 67=C, 68=D}
 ```

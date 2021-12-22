@@ -9,7 +9,7 @@
 1.  在 eclipse 或安装了 POI 库的 Java 项目中创建一个 maven 项目(Maven 是一个主要用于 Java 项目的构建自动化工具)
 2.  在 pom.xml 文件
 
-    ```
+    ```java
     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
     <dependency>
           <groupId>org.apache.poi</groupId>
@@ -26,7 +26,7 @@
     中添加以下 maven 依赖项
 3.  在 javaresource 文件夹
 
-    ```
+    ```java
     import java.io.*;
     import org.apache.poi.hssf.usermodel.HSSFWorkbook;
     import org.apache.poi.ss.usermodel.Cell;
@@ -69,7 +69,7 @@
 
 **输出**
 
-```
+```java
 given cell is created at position (1, 1)
 ```
 

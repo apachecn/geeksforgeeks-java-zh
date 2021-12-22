@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : LinkedHashMap = [{[Apple, 40], Kashmir}, {[Grapes, 80], Nashik}]
     Duplicate key = {[Grapes, 80], Delhi}
 Output: LinkedHashMap = [{[Apple, 40], Kashmir}, {[Grapes, 80], Delhi}]
@@ -16,7 +16,7 @@ Output: LinkedHashMap = [{[Apple, 40], Kashmir}, {[Grapes, 80], Delhi}]
 
 **等于()方法:**
 
-```
+```java
 public boolean equals  (Object obj)
 
 // This method checks if some other Object
@@ -30,7 +30,7 @@ public boolean equals  (Object obj)
 
 T3】JavaT5
 
-```
+```java
 // Java Program to eliminate duplicate user defined
 // objects as a key from Java LinkedHashMap
 import java.util.*;

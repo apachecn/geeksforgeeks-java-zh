@@ -6,7 +6,7 @@ java 中 List 接口的 **isEmpty()** 方法用于检查列表是否为空。如
 
 **语法:**
 
-```
+```java
 boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ boolean isEmpty()
 
 用 Java 演示 isEmpty()工作的程序:
 
-```
+```java
 // Java code to demonstrate the working of
 // isEmpty() method in List interface
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The List is empty
 The List is not empty
 

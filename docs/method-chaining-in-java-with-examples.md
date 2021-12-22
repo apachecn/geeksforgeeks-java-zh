@@ -8,7 +8,7 @@ Java 中的方法链接是在 OOPs 中调用多个方法调用的常见语法。
 
 **语法:**
 
-```
+```java
 obj.method1().method2().method3();  
 ```
 
@@ -22,7 +22,7 @@ obj.method1().method2().method3(); 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class A {
 
     private int a;
@@ -63,7 +63,7 @@ public class Example {
 
 **Java 代码编译错误:**
 
-```
+```java
 prog.java:34: error: int cannot be dereferenced
         new A().setint(10).display();
                           ^
@@ -81,7 +81,7 @@ prog.java:34: error: int cannot be dereferenced
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class A {
 
     private int a;
@@ -119,7 +119,7 @@ public class Example {
 
 **Output**
 
-```
+```java
 Calling The Constructor
 Display=10 20.0
 ```

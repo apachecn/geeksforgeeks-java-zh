@@ -8,7 +8,7 @@ Java 提供了两种计时操作的方法，System.nanoTime()和 System.currentT
 
 **system . CurrentMemillis()**
 
-```
+```java
 public static long currentTimeMillis()
 // Returns the current time in milliseconds.
 
@@ -28,7 +28,7 @@ cons:t1]
 
 **System.nanoTime()**
 
-```
+```java
 public static long nanoTime()
 // Returns the current value of the running JVM's high-resolution
 // time source, in nanoseconds.
@@ -44,7 +44,7 @@ cons:t1]
 
 1.  反映的结果没有任何固定的参考点。根据 Java 文档，
 
-    ```
+    ```java
     The value returned represents nanoseconds since some fixed
     but arbitrary time (perhaps in the future, so values may be negative).
     ```
@@ -55,7 +55,7 @@ cons:t1]
 
 让我们看一个工作示例来比较这两个函数的结果:
 
-```
+```java
 // Java program to illustrate
 // difference between
 // Java System.nanoTime()
@@ -102,7 +102,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Time taken in nano seconds: 2519657
 Time taken in milli seconds: 3
 

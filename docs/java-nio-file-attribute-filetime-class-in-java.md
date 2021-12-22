@@ -6,7 +6,7 @@ Java . nio . file . attribute . filetime 类用于获取表示该文件时间戳
 
 **类别申报:**
 
-```
+```java
 public final class FileTime
 extends Object
 implements Comparable<FileTime>
@@ -35,7 +35,7 @@ implements Comparable<FileTime>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.nio.file.attribute.FileTime;
 import java.time.Instant;
 import java.util.concurrent.TimeUnit;
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 21
 FileTime are not equal
 1071000000

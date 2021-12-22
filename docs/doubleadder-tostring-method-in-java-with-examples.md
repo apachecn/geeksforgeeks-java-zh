@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the toString() method
 
 import java.lang.*;
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after sum() is: 52.0
 the value after toString() is: 52.0
 
@@ -59,7 +59,7 @@ the value after toString() is: 52.0
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the toString() method
 
 import java.lang.*;
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after sum() is: 402.0
 the value after toString() is: 402.0
 

@@ -20,7 +20,7 @@ IllegalArgumentException 是 java.lang.RuntimeException 的子类。RuntimeExcep
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate IllegalArgumentException
 public class Main {
 
@@ -56,7 +56,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Exception in thread "Test Thread" java.lang.IllegalArgumentException: 
 timeout value is negative
     at java.base/java.lang.Thread.sleep(Native Method)
@@ -86,7 +86,7 @@ timeout value is negative
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate Solution to
 // IllegalArgumentException
 
@@ -123,6 +123,6 @@ public class Main {
 
 ****Output**
 
-```
+```java
 Welcome To GeeksforGeeks!
 ```**

@@ -6,7 +6,7 @@ Calendar 类中的 **clear()** 方法用于克隆日历对象。它基本上创�
 
 **语法:**
 
-```
+```java
 public Object clone()
 ```
 
@@ -17,7 +17,7 @@ public Object clone()
 下面的程序说明了 Calendar 类的 clone()方法的工作:
 **例 1:**
 
-```
+```java
 // Java Code to illustrate clone() Method
 
 import java.util.Calendar;
@@ -44,7 +44,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 Original calendar: Tue Feb 12 11:41:36 UTC 2019
 Cloned calendar: Tue Feb 12 11:41:36 UTC 2019
 
@@ -52,7 +52,7 @@ Cloned calendar: Tue Feb 12 11:41:36 UTC 2019
 
 **例 2:**
 
-```
+```java
 // Java Code to illustrate clone() Method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class CalendarClassDemo {
 
 **Output:**
 
-```
+```java
 Original calendar: Wed Jan 02 00:00:00 UTC 2019
 Cloned calendar: Wed Jan 02 00:00:00 UTC 2019
 

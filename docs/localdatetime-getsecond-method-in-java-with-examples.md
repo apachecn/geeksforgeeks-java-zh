@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getSecond()
 
 ```
@@ -19,7 +19,7 @@ public int getSecond()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getSecond() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 SecondOfMinute: 10
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getSecond() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 SecondOfMinute: 59
 
 ```

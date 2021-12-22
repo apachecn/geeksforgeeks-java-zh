@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public void config(String msg)
 
 ```
@@ -25,7 +25,7 @@ public void config(String msg)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.config(String msg) method
 
@@ -66,7 +66,7 @@ logs.txt 文件上打印的输出如下所示。
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Logger.config(String msg) method
 
@@ -110,7 +110,7 @@ logs.txt 文件上打印的输出如下所示。
 
     **语法:**
 
-    ```
+    ```java
     public void config(Supplier msgSupplier)
 
     ```
@@ -123,7 +123,7 @@ logs.txt 文件上打印的输出如下所示。
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Logger.config(Supplier<String>) method
 

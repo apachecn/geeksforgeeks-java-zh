@@ -7,7 +7,7 @@ Java . lang . reflect . constructor 的 **getDeclaringClass()** 方法用于返�
 
 **语法:**
 
-```
+```java
 public Class<T> getDeclaringClass()
 
 ```
@@ -19,7 +19,7 @@ public Class<T> getDeclaringClass()
 下面的程序说明了 getDeclaringClass()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate getDeclaringClass() method
 
 import java.lang.reflect.Constructor;
@@ -48,14 +48,14 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Source class name : java.lang.String
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate getDeclaringClass() method
 
 import java.lang.reflect.Constructor;
@@ -84,7 +84,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Class Name : java.util.ArrayList
 
 ```

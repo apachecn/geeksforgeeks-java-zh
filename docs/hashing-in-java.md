@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of HashTable
 import java.util.*;
 
@@ -46,7 +46,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 {15=A computer, 3=Portal, 12=forGeeks, 1=Geeks}
 ```
 
@@ -54,7 +54,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create HashMap from an array
 // by taking the elements as Keys and
 // the frequencies as the Values
@@ -103,7 +103,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 {34=1, 3=1, 5=2, 10=3}
 ```
 
@@ -111,7 +111,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of LinkedHashMap
 import java.util.*;
 
@@ -147,7 +147,7 @@ public class BasicLinkedHashMap
 
 **Output:** 
 
-```
+```java
 {one=practice.geeksforgeeks.org, two=code.geeksforgeeks.org, four=quiz.geeksforgeeks.org}
 Getting value for key 'one': practice.geeksforgeeks.org
 Size of the map: 3
@@ -162,7 +162,7 @@ delete element 'one': practice.geeksforgeeks.org
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of ConcurrentHashMap
 
 import java.util.concurrent.*;
@@ -205,7 +205,7 @@ class ConcurrentHashMapDemo {
 
 **Output:** 
 
-```
+```java
 ConcurentHashMap: {100=Hello, 101=Geeks, 102=Geeks}
 
 ConcurentHashMap: {100=Hello, 101=Geeks, 102=Geeks}
@@ -219,7 +219,7 @@ ConcurentHashMap: {100=For, 102=Geeks}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of HashSet
 import java.util.*;
 
@@ -258,7 +258,7 @@ class Test {
 
 **Output:** 
 
-```
+```java
 [South Africa, Australia, India]
 
 HashSet contains India or not:true
@@ -274,7 +274,7 @@ India
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of LinkedHashSet
 
 import java.util.LinkedHashSet;  
@@ -311,7 +311,7 @@ public class Demo 
 
 **Output:** 
 
-```
+```java
 Size of LinkedHashSet = 5
 Original LinkedHashSet:[A, B, C, D, E]
 Removing D from LinkedHashSet: true
@@ -324,7 +324,7 @@ Updated LinkedHashSet: [A, B, C, E]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of TreeSet
 
 import java.util.*;
@@ -367,7 +367,7 @@ class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 TreeSet: [A, B, C]
 
 TreeSet contains A or not:true

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public byte byteValue()
 
 ```
@@ -17,7 +17,7 @@ public byte byteValue()
 
 **例:**
 
-```
+```java
 Input : 12
 Output : 12
 
@@ -30,7 +30,7 @@ Output : -1
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the Float.byteValue() method
 import java.lang.*;
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Byte Value of num = -1
 Byte Value of num = 12
 
@@ -63,7 +63,7 @@ Byte Value of num = 12
 
 **程序 2 :** 演示负数的字节值。
 
-```
+```java
 // Java code to illustrate java.lang.Float.byteValue() method
 import java.lang.*;
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Byte Value of num = 1
 Byte Value of num = -12
 
@@ -96,7 +96,7 @@ Byte Value of num = -12
 
 **程序 3 :** 当一个十进制值在参数中传递时。
 
-```
+```java
 // Program to illustrate java.lang.Float.byteValue() method
 
 import java.lang.*;
@@ -122,7 +122,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Byte Value of num = 11
 Byte Value of num = 6
 

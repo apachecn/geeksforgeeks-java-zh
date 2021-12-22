@@ -6,7 +6,7 @@ Java 中**十进制格式**类的 **setParseBigDecimal()** 方法用于设置十
 
 **语法** :
 
-```
+```java
 public void setParseBigDecimal(boolean newValue)
 
 ```
@@ -19,7 +19,7 @@ public void setParseBigDecimal(boolean newValue)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setParseBigDecimal() method
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setParseBigDecimal() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 double[] toArray()
 
 ```
@@ -15,7 +15,7 @@ double[] toArray()
 
 **例:**
 
-```
+```java
 // Java code for DoubleStream toArray()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -40,7 +40,7 @@ class GFG {
 
 输出:
 
-```
+```java
 [1.2, 3.3, 5.4, 7.1, 9.2]
 
 ```

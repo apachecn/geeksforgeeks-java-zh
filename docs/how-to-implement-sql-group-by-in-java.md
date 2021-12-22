@@ -6,7 +6,7 @@
 
 给定一个包含多条记录的列表对象，我们的任务是在 Java 中对列表的字段执行 [SQL group by](https://www.geeksforgeeks.org/sql-group-by/) 。
 
-```
+```java
 Input: A list containing employee records
        in random order. 
 Output: List sorted first by department
@@ -24,7 +24,7 @@ Output: List sorted first by department
 
 **程序:**
 
-```
+```java
 // Java code to implement SQL GROUP BY
 
 import java.util.*;
@@ -141,7 +141,7 @@ class AgeComparator implements Comparator<Employee> {
 
 **Output:**
 
-```
+```java
 Employee list before sorting...
 
  ID    Name    Age    Department  Salary  

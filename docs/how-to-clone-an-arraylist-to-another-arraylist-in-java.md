@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to clone an ArrayList to another ArrayList
 
 import java.util.ArrayList;
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original ArrayList = [Mukul, Rahul, Suraj, Mayank]
 Clone ArrayList2 = [Mukul, Rahul, Suraj, Mayank]
 ```
@@ -61,7 +61,7 @@ Clone ArrayList2 = [Mukul, Rahul, Suraj, Mayank]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate clone() method
 
 import java.io.*;
@@ -103,7 +103,7 @@ public class ArrayListDemo {
 
 **输出**
 
-```
+```java
 First ArrayList: [16, 32, 48]
 First ArrayList: [16, 32, 48]
 Second ArrayList is: [16, 32, 48, 64]

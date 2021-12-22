@@ -56,7 +56,7 @@ G1、串行、并行和[并行垃圾收集器支持类数据。共享字符串�
 
 上面的类在一个可运行的 jar AppCDS.jar 中命名为“***【AppClassDataSharing.java】***”(因为 AppCDS 不转储平面类)。所以要创建最后一个文件，我将使用下面的**命令如下:**
 
-```
+```java
 java -XX:+UnlockCommercialFeatures-XX:+UseAppCDS -XX:DumpLoadedClassList=LoadedClasses.1st -jar AppCDS.jar
 ```
 

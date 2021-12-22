@@ -8,7 +8,7 @@
 
 Java 有一个内置的包**com.itextpdf.kernel.pdf**，它基本上提供了用 Java 创建 PDF 文档的类和模块。这个包中的一个可用类是 **PdfWriter。**我们实例化这个类的一个对象，并将文件路径以及我们希望创建的新 PDF 文件的名称作为参数传递。一个对象被传递给这个类，以便将文本追加到指定的文件位置。下面的 Java 代码片段说明了这个类的用法:
 
-```
+```java
 // path to create the file 
 String file_path = "C:/appendtexttopdfjava.pdf";
 
@@ -23,7 +23,7 @@ PdfWriter pdf_writer = new PdfWriter(file_path);
 
 包**com.itextpdf.kernel.pdf**包含另一个类来表示 iText 中指定的 PDF 文件，通过结合该类的各种方法，用户可以轻松添加各种功能，如页面字体、文件附件。需要通过将使用 PdfWriter 类创建的 pdf_writer 对象作为参数传递来实例化该类的对象。下面的 Java 代码片段说明了这个类的用法:
 
-```
+```java
 // Representing PDF document in iText 
 PdfDocument pdf_doc = new PdfDocument(pdf_writer); 
 
@@ -33,7 +33,7 @@ PdfDocument pdf_doc = new PdfDocument(pdf_writer);
 
 包的文档类 **com.itextpdf.layout** 将创建的 PdfDocument 对象作为参数，并实例化文档，该文档用作要执行的所有 pdf 操作的源。它充当需要修改或追加到文档文件中的内容的容器。
 
-```
+```java
 // Instantiating a document object from pdf document object 
 Document document = new Document(pdf_doc); 
 
@@ -47,7 +47,7 @@ Java 内置包**的段落类基本上是 Document 类的子类。它使用文本
 
 将内容写入文档后，文档将被关闭。
 
-```
+```java
 //content to be added to the pdf document
 String paragraph = "Geeks For Geeks makes you learn coding. It also provides competitions"; 
 
@@ -66,7 +66,7 @@ document.close();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // importing thr required packages
 import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfWriter;
@@ -119,7 +119,7 @@ public class AppendtoPdf {
 
 该代码在终端上执行时会在终端上产生以下输出，并在本地计算机上保存一个 C:文件。
 
-```
+```java
 Finished writing contents to the file!
 
 ```

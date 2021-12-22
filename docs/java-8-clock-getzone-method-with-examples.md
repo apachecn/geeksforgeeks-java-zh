@@ -7,14 +7,14 @@ Clock 类的 getZone()方法返回用于创建 Clock 类的日期和时间的时
 
 **语法:**
 
-```
+```java
 public abstract ZoneId getZone()
 ```
 
 **返回值:**该方法返回用于创建时钟类的**时区**。
 **例:**
 
-```
+```java
 Input:: 
 a clock class Object e.g Clock.systemUTC()
 
@@ -30,7 +30,7 @@ when Clock.getZone() is called, then it returns a Time Zone used in Class Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getZone()
 // method of Clock class
 
@@ -59,7 +59,7 @@ public class getZoneMethodDemo {
 
 **Output:** 
 
-```
+```java
 ZoneId for class SystemClock[Etc/UTC] is Etc/UTC
 ```
 
@@ -67,7 +67,7 @@ ZoneId for class SystemClock[Etc/UTC] is Etc/UTC
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getZone()
 // method of Clock class
 
@@ -100,7 +100,7 @@ public class getZoneMethodDemo {
 
 **Output:** 
 
-```
+```java
 ZoneId for clock is Asia/Calcutta
 ```
 

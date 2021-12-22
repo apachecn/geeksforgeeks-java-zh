@@ -5,7 +5,7 @@
 **原子引用**类的 **getAndUpdate()** 方法用于原子更新，通过对当前值应用指定的更新函数操作来更新原子引用的当前值。它将 updateFunction 接口的一个对象作为参数，并将该对象中指定的操作应用于当前值。它返回前一个值。
 **语法:**
 
-```
+```java
 public final V getAndUpdate(UnaryOperator<V> updateFunction)
 ```
 
@@ -16,7 +16,7 @@ public final V getAndUpdate(UnaryOperator<V> updateFunction)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.getAndUpdate() method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.getAndUpdate() method
 

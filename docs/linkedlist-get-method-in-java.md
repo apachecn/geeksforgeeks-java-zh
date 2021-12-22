@@ -6,7 +6,7 @@ Java.util.LinkedList.get()方法用于从 LinkedList 中获取或检索特定索
 
 **语法:**
 
-```
+```java
 LinkedList.get(int index)
 ```
 
@@ -16,7 +16,7 @@ LinkedList.get(int index)
 
 下面程序举例说明了 Java.util.LinkedList.get()方法:
 
-```
+```java
 // Java code to illustrate get() method
 import java.io.*;
 import java.util.LinkedList;
@@ -46,7 +46,7 @@ public class LinkedListDemo {
 
 **输出:**
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 The element is: Geeks
 

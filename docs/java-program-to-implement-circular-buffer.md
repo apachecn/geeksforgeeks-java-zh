@@ -29,7 +29,7 @@
 
 需要插入元素的索引是使用公式计算的:–
 
-```
+```java
 int index = (tail + 1) % capacity
 array[index] = element;
 ```
@@ -40,14 +40,14 @@ array[index] = element;
 
 头指针处的元素被检索，头指针增加 1，如果缓冲区的大小减少 1。
 
-```
+```java
 int index = head % capacity;
 E element = (E) array[index];
 ```
 
 **示例:**
 
-```
+```java
 Input : [5, 6, 7, 1 ,4]
 
 Output : The elements are printed in the order :-
@@ -62,7 +62,7 @@ Output : The elements are printed in the order :-
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement a
 // Circular Buffer using an array
 
@@ -196,7 +196,7 @@ class Main {
 
 **Output**
 
-```
+```java
 The elements are printed in the order :-
 5
 6
@@ -230,7 +230,7 @@ The elements are printed in the order :-
 
 **示例:**
 
-```
+```java
 Input : [5, 6, 7, 1 ,4]
 Output: The elements are printed in the order :
           5
@@ -244,7 +244,7 @@ Output: The elements are printed in the order :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement a Circular
 // Buffer using a Linked List
 
@@ -387,7 +387,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The elements are printed in the order :-
 5
 6

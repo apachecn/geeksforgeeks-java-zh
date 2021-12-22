@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : n = 4, Object = "Hello"
 Output: listOfObjects = ["Hello", "Hello", "Hello", "Hello"]
 
@@ -16,7 +16,7 @@ Output: listOfObjects = [3, 3, 3]
 
 **申报:**
 
-```
+```java
 public static nCopies(int length, Object object)
 ```
 
@@ -28,7 +28,7 @@ public static nCopies(int length, Object object)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Create List containing n Copies
 // of Specified Object in java
 import java.io.*;
@@ -50,6 +50,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 [GFG, GFG, GFG, GFG, GFG]
 ```

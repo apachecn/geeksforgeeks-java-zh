@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static ByteBuffer allocate(int capacity)
 ```
 
@@ -22,7 +22,7 @@ public static ByteBuffer allocate(int capacity)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // allocate() method
 
@@ -72,14 +72,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer:  [20, 30, 40, 50]
 
 ```
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // allocate() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to allocate negative value in ByteBuffer
 Exception thrown : java.lang.IllegalArgumentException
 

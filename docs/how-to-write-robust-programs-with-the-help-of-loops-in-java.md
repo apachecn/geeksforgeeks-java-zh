@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Simply Get the Area of Shapes
 // Without considering robustness into play
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 C:\Users\USER\Desktop\Network Java>javac GFG.java
 C:\Users\USER\Desktop\Network Java>java GFG
 Enter Radius::
@@ -66,7 +66,7 @@ please enter non zero positive number
 //Execution Finished
 ```
 
-```
+```java
 C:\Users\USER\Desktop\Network Java>javac GFG.java
 C:\Users\USER\Desktop\Network Java>java GFG
 Enter Radius::
@@ -83,7 +83,7 @@ please enter non zero positive number
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Robustness In a Program
 // Using Loops
 
@@ -140,7 +140,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 C:\Users\USER\Desktop\Network Java>javac GFG.java
 C:\Users\USER\Desktop\Network Java>java GFG
 Enter Radius::

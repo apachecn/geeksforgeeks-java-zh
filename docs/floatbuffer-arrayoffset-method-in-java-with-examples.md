@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public final int arrayOffset()
 ```
 
@@ -20,7 +20,7 @@ public final int arrayOffset()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // arrayOffset() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer: [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 arrayOffset: 0
 
@@ -75,7 +75,7 @@ arrayOffset: 0
 
 **示例 2:** 演示 ReadOnlyBufferException
 
-```
+```java
 // Java program to demonstrate
 // arrayOffset() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Read only buffer : 8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 
 
 Try to print the array offset of read only buffer

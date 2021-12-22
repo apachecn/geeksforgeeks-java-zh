@@ -8,7 +8,7 @@ instanceof 是一个关键字，用于检查引用变量是否包含给定类型
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate instanceof Keyword
 
 // Importing required I/O classes
@@ -30,7 +30,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 true
 ```
 
@@ -40,7 +40,7 @@ true
 
 ## Java
 
-```
+```java
 // Java program to demonstrate working of instanceof Keyword
 
 // Class 1
@@ -92,7 +92,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 cobj is instance of Child
 cobj is instance of Parent
 cobj is instance of Object
@@ -102,7 +102,7 @@ cobj is instance of Object
 
 ## Java
 
-```
+```java
 // Java program to demonstrate that instanceof
 // returns false for null
 
@@ -125,7 +125,7 @@ class Main
 
 **输出:**
 
-```
+```java
 tobj is NOT instance of Test
 ```
 
@@ -133,7 +133,7 @@ tobj is NOT instance of Test
 
 ## Java
 
-```
+```java
 // A Java program to show that a parent object is
 // not an instance of Child
 
@@ -157,7 +157,7 @@ class Test
 
 **输出:**
 
-```
+```java
 pobj is NOT instance of Child
 ```
 
@@ -165,7 +165,7 @@ pobj is NOT instance of Child
 
 ## Java
 
-```
+```java
 // A Java program to show that a parent reference
 // referring to a Child is an instance of Child
 
@@ -191,7 +191,7 @@ class Test
 
 **输出:**
 
-```
+```java
 cobj is an instance of Child
 ```
 
@@ -201,7 +201,7 @@ cobj is an instance of Child
 
 **语法:**
 
-```
+```java
 ((child_class_name) Parent_Reference_variable).func.name()
 ```
 
@@ -211,7 +211,7 @@ cobj is an instance of Child
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate that non-method
 // members are accessed according to reference
 // type (Unlike methods which are accessed according
@@ -249,7 +249,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Value accessed through parent reference with typecasting is 10
 ```
 

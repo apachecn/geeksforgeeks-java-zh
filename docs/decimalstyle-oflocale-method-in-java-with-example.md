@@ -6,7 +6,7 @@ java 中**Java . time . format . DecimalStyle 类**的【Locale】方法的**用
 
 **语法:**
 
-```
+```java
 public static DecimalStyle of(Locale locale)
 
 ```
@@ -19,7 +19,7 @@ public static DecimalStyle of(Locale locale)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -44,7 +44,7 @@ public class DecimalStyleDemo {
 
 **输出:**
 
-```
+```java
 DecimalStyle for english locale: DecimalStyle[0+-.]
 
 ```

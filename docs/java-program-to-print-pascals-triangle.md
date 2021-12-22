@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : N = 5
 Output:
           1
@@ -25,7 +25,7 @@ nCr 公式:
 
 使用 nCr 公式后，图示变为:
 
-```
+```java
            0C0
         1C0   1C1
      2C0   2C1   2C2
@@ -48,7 +48,7 @@ nCr 公式:
 
 T3】JavaT5
 
-```
+```java
 // Print Pascal's Triangle in Java
 import java.io.*;
 
@@ -94,7 +94,7 @@ T6T8**输出**T1
 
 行号*行*的第一个条目是二项式系数 *C(行，i)* ，所有行都以值 1 开始。思路是用 *C(线，i-1)* 计算 *C(线，i)* 。
 
-```
+```java
 C(line, i) = C(line, i-1) * (line - i + 1) / i
 ```
 
@@ -102,7 +102,7 @@ C(line, i) = C(line, i-1) * (line - i + 1) / i
 
 ## Java
 
-```
+```java
 // Print Pascal's Triangle in Java
 import java.io.*;
 class GFG {
@@ -140,7 +140,7 @@ class GFG {
 
 **输出**
 
-```
+```java
     1 
    1 1 
   1 2 1 

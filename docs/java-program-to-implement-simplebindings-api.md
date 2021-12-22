@@ -11,7 +11,7 @@ SimpleBindings 是 HashMap 或程序员指定的任何其他映射所支持的�
 
 **语法:**
 
-```
+```java
 public class SimpleBindings extends Object implements Bindings
 ```
 
@@ -19,7 +19,7 @@ public class SimpleBindings extends Object implements Bindings
 
 ## Java
 
-```
+```java
 // Java Program to Implement SimpleBindings API
 
 import java.util.Collection;
@@ -201,7 +201,7 @@ class SimpleBindingsImpl {
 
 **输出**
 
-```
+```java
 The key set of the map is : 
 1
 2

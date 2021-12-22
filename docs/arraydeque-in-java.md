@@ -37,19 +37,19 @@ ArrayDeque 的几个**重要特征如下:**
 
 *   ****ArrayDeque():** 此构造函数用于创建一个空的 ArrayDeque，默认情况下，它的初始容量可以容纳 16 个元素。**
 
-```
+```java
 ArrayDeque<E> dq = new ArrayDeque<E>();
 ```
 
 *   ****ArrayDeque(收藏<？扩展 E>c:**这个构造函数用于创建一个 ArrayDeque，其中包含与指定集合相同的所有元素。**
 
-```
+```java
 ArrayDeque<E> dq = new ArrayDeque<E>(Collection col);
 ```
 
 *   ****ArrayDeque(int numofElements):**此构造函数用于创建一个空的 ArrayDeque，并保存包含指定数量元素的容量。**
 
-```
+```java
 ArrayDeque<E> dq = new ArrayDeque<E>(int numofElements);
 ```
 
@@ -165,7 +165,7 @@ ArrayDeque<E> dq = new ArrayDeque<E>(int numofElements);
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Implement ArrayDeque in Java
 //
 
@@ -296,7 +296,7 @@ public class GGFG {
 
 ****Output**
 
-```
+```java
 Element : 10
 Element : 20
 Element : 30
@@ -351,7 +351,7 @@ The final array is: [984, 265, 564, 24, 14]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Illustrate Addition of elements
 // in ArrayDeque
 
@@ -390,7 +390,7 @@ public class GFG {
 
 ****Output:**
 
-```
+```java
 ArrayDeque : [Welcome, To, The, Geeks, For, Geeks]
 ```** 
 
@@ -408,7 +408,7 @@ ArrayDeque : [Welcome, To, The, Geeks, For, Geeks]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Access Elements of ArrayDeque
 
 // Importing required classes
@@ -450,7 +450,7 @@ public class GFG {
 
 ****Output:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 The first element is: Welcome
 The last element is: Geeks
@@ -472,7 +472,7 @@ The last element is: Geeks
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Illustrate Removal Elements in Deque
 
 // Importing all utility classes
@@ -516,7 +516,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 ArrayDeque : [Two, One, Three]
 Two
 One
@@ -536,7 +536,7 @@ null
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Illustrate Iteration of Elements
 // in Deque
 
@@ -589,7 +589,7 @@ public class GFG {
 
 ****Output:**
 
-```
+```java
 Geeks For Geeks is so good 
 is so good Geeks For Geeks
 ```** 

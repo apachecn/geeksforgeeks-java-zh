@@ -20,7 +20,7 @@ Java 中的[树形图](https://www.geeksforgeeks.org/treemap-in-java/)是用来�
 
 **语法:**
 
-```
+```java
 Set<Map.Entry<Integer, String>> entrySet = treeMap.entrySet();
 ```
 
@@ -30,7 +30,7 @@ Set<Map.Entry<Integer, String>> entrySet = treeMap.entrySet();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get TreeMap key or TreeMap value
 // using index
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 1
 Welcome
 2
@@ -105,7 +105,7 @@ geeksforgeeks
 
 **语法:**
 
-```
+```java
 Set<Map.Entry<Integer, String>> entrySet = treeMap.entrySet();
 ```
 
@@ -115,7 +115,7 @@ Set<Map.Entry<Integer, String>> entrySet = treeMap.entrySet();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get TreeMap key or TreeMap value
 // using index
 
@@ -169,7 +169,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Key at 0:1
 Value at 0:Welcome
 Key at 1:2
@@ -189,7 +189,7 @@ Value at 3:geeksforgeeks
 
 **语法:**
 
-```
+```java
 Set<Map.Entry<Integer, String>> entrySet = treeMap.entrySet();
 ```
 
@@ -197,7 +197,7 @@ Set<Map.Entry<Integer, String>> entrySet = treeMap.entrySet();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get TreeMap key or TreeMap value using
 // index
 
@@ -249,7 +249,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Key at 0:1
 Value at 0:Welcome
 Key at 1:2

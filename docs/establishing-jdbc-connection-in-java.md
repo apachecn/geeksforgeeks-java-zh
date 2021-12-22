@@ -38,7 +38,7 @@ JDBC 为什么会出现？
 
 **这里我们在运行时将驱动程序的类文件加载到内存中。不需要使用新的或创建对象。以下示例使用 Class.forName()加载 Oracle 驱动程序，如下所示:**
 
-```
+```java
 **Class.forName(“oracle.jdbc.driver.OracleDriver”);**
 ```
 
@@ -46,7 +46,7 @@ JDBC 为什么会出现？
 
 **DriverManager 是一个带有静态成员寄存器的 Java 内置类。这里我们在编译时调用驱动类的构造函数。以下示例使用 DriverManager.registerDriver()注册 Oracle 驱动程序，如下所示:**
 
-```
+```java
  **DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver())**
 ```
 
@@ -54,7 +54,7 @@ JDBC 为什么会出现？
 
 ***加载驱动程序后，通过如下所示建立连接:***
 
-```
+```java
 ***Connection con = DriverManager.getConnection(url,user,password)***
 ```
 
@@ -63,7 +63,7 @@ JDBC 为什么会出现？
 *   *****con:** 是对连接接口的引用。***
 *   *****网址**:统一资源定位符，如下图所示:***
 
-```
+```java
 ***String url = “ jdbc:oracle:thin:@localhost:1521:xe”***
 ```
 
@@ -74,7 +74,7 @@ JDBC 为什么会出现？
 ***一旦建立了连接，您就可以与数据库进行交互。JDBCStatement、CallableStatement 和 PreparedStatement 接口定义了使您能够发送 SQL 命令和从数据库接收数据的方法。
 JDBC 陈述的用法如下:***
 
-```
+```java
 ***Statement st = con.createStatement();***
 ```
 
@@ -92,7 +92,7 @@ JDBC 陈述的用法如下:***
 
 *****Pseodo 码:*****
 
-```
+```java
 ***int m = st.executeUpdate(sql);
 if (m==1)
     System.out.println("inserted successfully : "+sql);
@@ -106,7 +106,7 @@ else
 
 ***所以最后我们已经将数据发送到指定的位置，现在我们即将完成我们的任务。通过关闭连接，语句和结果集的对象将自动关闭。连接接口的 close()方法用于关闭连接。如下图所示:***
 
-```
+```java
  ***con.close();***
 ```
 
@@ -114,7 +114,7 @@ else
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```java
 ***// Java Program to Establish Connection in JDBC
 
 // Importing database

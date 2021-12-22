@@ -12,7 +12,7 @@ java 中的 ArrayList 不提供对同一对象的重复引用的检查。因此�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate some functionalities
 // of ArrayList
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Raj is a Manager
 Simran is a CEO
 Anish is a CTO

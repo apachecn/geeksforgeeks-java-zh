@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 File file = ((TakesScreenshot) driver) ;
 
 ```
@@ -25,7 +25,7 @@ bug 分析需要截图，尤其是在测试用例失败的情况下。每当一�
 
 **3。**在元素周围创建边框:使用 JavaScript 执行器，我们可以在想要的元素周围创建边框。
 
-```
+```java
 JavascriptExecutor js = (JavascriptExecutor) driver;
 
 js.executeScript("arguments[0].style.border = '3px solid red'", Element);
@@ -36,7 +36,7 @@ js.executeScript("arguments[0].style.border = '3px solid red'", Element);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program how to take
 // a screenshot in Selenium
 // WebDriver

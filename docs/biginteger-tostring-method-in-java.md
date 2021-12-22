@@ -8,7 +8,7 @@ BigInteger 类为 toString()提供了 2 种方法。
 
     **语法:**
 
-    ```
+    ```java
     public String toString(int radix)
     ```
 
@@ -18,7 +18,7 @@ BigInteger 类为 toString()提供了 2 种方法。
 
     **示例:**
 
-    ```
+    ```java
     Input: BigInteger1=321456 radix =2
     Output: 1001110011110110000
     Explanation: BigInteger1.toString(2)=1001110011110110000\. 
@@ -37,7 +37,7 @@ BigInteger 类为 toString()提供了 2 种方法。
 
     **例 1:** 当基数= 2 时。意思是二进制形式的字符串。
 
-    ```
+    ```java
     // Java program to demonstrate
     // toString(radix) method of BigInteger
 
@@ -67,14 +67,14 @@ BigInteger 类为 toString()提供了 2 种方法。
 
     **Output:**
 
-    ```
+    ```java
     Binary String of BigInteger 321456 is equal to 1001110011110110000
 
     ```
 
     **例 2:** 当基数= 8 时，表示八进制字符串
 
-    ```
+    ```java
     // Java program to demonstrate 
     // toString(radix) method of BigInteger
 
@@ -104,14 +104,14 @@ BigInteger 类为 toString()提供了 2 种方法。
 
     **Output:**
 
-    ```
+    ```java
     Octal String of BigInteger 34567876543 is equal to 401431767677
 
     ```
 
     **例 3:** 当基数= 16 时，表示十六进制形式的字符串
 
-    ```
+    ```java
     // Java program to demonstrate toString(radix) method of BigInteger
 
     import java.math.BigInteger;
@@ -140,7 +140,7 @@ BigInteger 类为 toString()提供了 2 种方法。
 
     **Output:**
 
-    ```
+    ```java
     Hexadecimal String of BigInteger 8765432123456 is equal to 7f8dc77d040
 
     ```

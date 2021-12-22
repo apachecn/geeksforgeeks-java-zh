@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.spliterator()  
 
 ```
@@ -19,7 +19,7 @@ LinkedTransferQueue.spliterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate Spliterator()
 // method of LinkedTransferQueue 
 
@@ -56,7 +56,7 @@ class LinkedTransferQueueSpliteratorExample1 {
 
 **Output:**
 
-```
+```java
 Lower case = Gfg
  Upper case = GFG
 
@@ -70,7 +70,7 @@ Lower case = Gfg
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate Spliterator()
 // method of LinkedTransferQueue 
 
@@ -105,7 +105,7 @@ class LinkedTransferQueueSpliteratorExample2 {
 
 **Output:**
 
-```
+```java
 The elements in the queue are : A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ```

@@ -6,7 +6,7 @@ java 中的 java.util.Map.equals()方法用于检查两个映射之间的相等�
 
 **语法:**
 
-```
+```java
 boolean equals(object obj)
 ```
 
@@ -17,7 +17,7 @@ boolean equals(object obj)
 下面的程序说明了 java.util.Map.equals()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -58,7 +58,7 @@ public class Map_Demo {
 
 **Output:**
 
-```
+```java
 First Map: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Second Map: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Equality: true
@@ -67,7 +67,7 @@ Equality: true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -106,7 +106,7 @@ public class Map_Demo {
 
 **Output:**
 
-```
+```java
 First Map: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Second Map: {20=Geek, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Equality: false

@@ -6,13 +6,13 @@
 
 **方法声明:**
 
-```
+```java
 public <X> LabelValue<X, B> setLabel(X label)
 ```
 
 **语法:**
 
-```
+```java
 LabelValue<X, B> LabelValueClassObject = LabelValue.setLabel(X label)
 ```
 
@@ -22,7 +22,7 @@ LabelValue<X, B> LabelValueClassObject = LabelValue.setLabel(X label)
 
 **例 1** :
 
-```
+```java
 // Below is a Java program to set
 // label in a LabelValue pair
 
@@ -48,14 +48,14 @@ class GfG {
 
 **输出**:
 
-```
+```java
 [GeeksforGeeks, A computer science portal]
 
 ```
 
 **例 2** :
 
-```
+```java
 // Below is a Java program to set
 // label in a LabelValue pair
 
@@ -81,7 +81,7 @@ class GfG {
 
 **输出**:
 
-```
+```java
 [One, 1]
 
 ```

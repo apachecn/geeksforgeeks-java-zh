@@ -6,12 +6,12 @@
 
 **插图:**
 
-```
+```java
 Input  1 : char s[] = { 'g', 'e', 'e', 'k', 's', 'f', 'o', 'r', 'g', 'e', 'e', 'k', 's' } 
 Output 1 : "geeksforgeeks" 
 ```
 
-```
+```java
 Input  2 : char s[] = { 'c', 'o', 'd', 'i', 'n', 'g' } 
 Output 2 : "coding"
 ```
@@ -34,7 +34,7 @@ Output 2 : "coding"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Character Array to String
 // Using copyOf() method ofArrays class
 
@@ -68,7 +68,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 geeksforgeeks
 ```
 
@@ -80,7 +80,7 @@ geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Character Array to String
 // Using StringBuilder class
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 geeksforgeeks
 ```
 
@@ -137,7 +137,7 @@ geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Character Array to String
 // Using valueOf() method of String class
 
@@ -174,7 +174,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 geeksforgeeks
 ```
 
@@ -186,7 +186,7 @@ geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert Character Array to String
 // Using copyValueOf() method of String class
 
@@ -218,7 +218,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 geeksforgeeks
 ```
 
@@ -230,7 +230,7 @@ geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert a Character array to String
 // Using Collectors in Streams in Java8
 
@@ -265,6 +265,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 geeksforgeeks
 ```

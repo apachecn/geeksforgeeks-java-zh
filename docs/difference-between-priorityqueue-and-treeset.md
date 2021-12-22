@@ -10,7 +10,7 @@
 
 ## 【Java】
 
-```
+```java
 // Java program to demonstrate the
 // working of PriorityQueue
 import java.util.*;
@@ -44,7 +44,7 @@ class PriorityQueueDemo {
 
 输出
 
-```
+```java
 For
 For
 Geeks

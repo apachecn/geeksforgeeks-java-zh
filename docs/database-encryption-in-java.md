@@ -22,7 +22,7 @@ Jasypt 是一个 java 库，它允许开发人员用最少的努力将基本的�
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Creating a POJO class
 
 package com.jdbc;
@@ -55,7 +55,7 @@ public class details {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Creating a java class
 
 package com.jdbc;

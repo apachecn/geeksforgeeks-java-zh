@@ -6,11 +6,11 @@
 
 **语法:**有两种类型的**字符串格式()**方法
 
-```
+```java
 public static String format(Locale loc, String form, Object... args)
 ```
 
-```
+```java
 public static String format(String form, Object... args)
 ```
 
@@ -31,7 +31,7 @@ public static String format(String form, Object... args)
 
 ## **Java 语言（一种计算机语言，尤用于创建网站）**
 
-```
+```java
 // Java program to demonstrate
 // working of format() method
 
@@ -65,7 +65,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 My Company name is GeeksforGeeks
 My answer is 47.65734000
 My answer is     47.65734000
@@ -75,7 +75,7 @@ My answer is     47.65734000
 
 ## **Java 语言（一种计算机语言，尤用于创建网站）**
 
-```
+```java
 // Java program to demonstrate Concatenation of Arguments
 // to the string using format() method
 
@@ -104,7 +104,7 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 My Company name is: GFG, GFG and GeeksforGeeks
 ```** 
 
@@ -112,7 +112,7 @@ My Company name is: GFG, GFG and GeeksforGeeks
 
 ## **Java 语言（一种计算机语言，尤用于创建网站）**
 
-```
+```java
 // Java program to Illustrate Left Padding
 // using format() method
 
@@ -137,6 +137,6 @@ class GFG {
 
 ****Output:** 
 
-```
+```java
 0007044
 ```**

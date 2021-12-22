@@ -15,7 +15,7 @@
 
 Thread 类提供了用于创建和操作线程的构造函数和方法。该线程扩展了对象并实现了可运行接口。
 
-```
+```java
 // start a newly created thread.
 // Thread moves from new state to runnable state
 // When it gets a chance, executes the target run() method
@@ -26,7 +26,7 @@ public void start()
 
 任何具有旨在由线程执行的实例的类都应该实现 Runnable 接口。Runnable 接口只有一个方法，叫做 run()。
 
-```
+```java
 // Thread action is performed
 public void run() 
 ```
@@ -42,7 +42,7 @@ public void run()
 
 常见的错误是使用 run()而不是 start()方法启动线程。
 
-```
+```java
   Thread myThread = new Thread(MyRunnable());
   myThread.run();  //should be start();
 ```
@@ -53,7 +53,7 @@ public void run()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 class GFG extends Thread {
     public void run()
@@ -70,7 +70,7 @@ class GFG extends Thread {
 
 **Output**
 
-```
+```java
 Welcome to GeeksforGeeks.
 ```
 
@@ -78,7 +78,7 @@ Welcome to GeeksforGeeks.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 class GFG implements Runnable {
     public static void main(String args[])
@@ -104,7 +104,7 @@ class GFG implements Runnable {
 
 **Output**
 
-```
+```java
 gfg
 Inside run method
 ```

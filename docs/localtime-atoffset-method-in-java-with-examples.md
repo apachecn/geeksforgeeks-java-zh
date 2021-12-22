@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public OffsetTime atOffset(ZoneOffset offset)
 
 ```
@@ -19,7 +19,7 @@ public OffsetTime atOffset(ZoneOffset offset)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.atOffset() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Offset Time:16:12:49+02:00
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.atOffset() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Offset Time:17:52:49+03:45
 
 ```

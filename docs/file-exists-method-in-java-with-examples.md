@@ -6,11 +6,11 @@
 
 **语法:**
 
-```
+```java
 public boolean exists()
 ```
 
-```
+```java
 file.exists()
 ```
 
@@ -28,7 +28,7 @@ file.exists()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate exists() method of File Class
 
 // Importing input output classes
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exists
 ```
 
@@ -68,7 +68,7 @@ Exists
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // exists() method of File Class
 
@@ -100,6 +100,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Does not Exists
 ```

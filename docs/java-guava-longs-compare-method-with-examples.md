@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int compare(long a, long b)
 
 ```
@@ -26,7 +26,7 @@ public static int compare(long a, long b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.compare() method
 import com.google.common.primitives.Longs;
@@ -50,14 +50,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 5 and 5 : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.compare() method
 import com.google.common.primitives.Longs;
@@ -81,14 +81,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 5 and 4 : 1
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.compare() method
 import com.google.common.primitives.Longs;
@@ -112,7 +112,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 4 and 5 : -1
 
 ```

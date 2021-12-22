@@ -14,7 +14,7 @@ JSP 的环境设置主要包括 3 个步骤:
     **Step 1:** This step involves downloading JDK from [Download JDK.](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
     **Step 2:** Setting up the PATH environment variable appropriately. For windows:
 
-    ```
+    ```java
     right-click on My Computer->
     select Properties->
     Click on Advanced System setting ->
@@ -25,7 +25,7 @@ JSP 的环境设置主要包括 3 个步骤:
 
     在 LINUX 系统上，如果 SDK 安装在/usr/local/jdk-9.0.4 中，并且您使用了 C shell，那么您将在您的。cshrc 文件。
 
-    ```
+    ```java
     setenv PATH /usr/local/jdk-9.0.4/bin:$PATH
     setenv JAVA_HOME /usr/local/jdk-9.0.4
 
@@ -41,14 +41,14 @@ JSP 的环境设置主要包括 3 个步骤:
 3.  **Start tomcat Server :**
     Starting on **Windows Machine** by using following command :
 
-    ```
+    ```java
     %CATALINA_HOME%\bin\startup.bat
 
     ```
 
     使用以下命令在 **Linux 机器**上启动:
 
-    ```
+    ```java
     $CATALINA_HOME/bin/startup.sh
 
     ```

@@ -5,7 +5,7 @@
 **setresourcebund()**一个 **Logger** 类的方法用来在这个 Logger 上设置一个资源包，我们必须把资源包对象作为参数传递给这个方法。设置资源包后，所有消息都将使用特定地区的给定资源包进行记录。
 **语法:**
 
-```
+```java
 public void setResourceBundle(ResourceBundle bundle)
 ```
 
@@ -22,7 +22,7 @@ public void setResourceBundle(ResourceBundle bundle)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Logger.setResourceBundle() method
 
@@ -67,7 +67,7 @@ Eclipse 控制台上打印的输出如下所示-
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.ResourceBundle;
 // Java program to demonstrate
 // Logger.setResourceBundle() method

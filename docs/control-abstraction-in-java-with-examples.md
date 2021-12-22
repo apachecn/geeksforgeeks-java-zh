@@ -31,7 +31,7 @@
 
 ## Java
 
-```
+```java
 // Abstract class
 abstract class Vehicle {
     // Abstract method (does not have a body)
@@ -62,7 +62,7 @@ class Main {
 
 **输出**
 
-```
+```java
 kon kon
 honk honk
 ```

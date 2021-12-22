@@ -6,7 +6,7 @@
 
 ### 签名
 
-```
+```java
 public interface CookiePolicy
 ```
 
@@ -46,7 +46,7 @@ CookiePolicy 接口只包含一个名为 **shouldAccept(URI uri，httpookie cook
 
 **语法:**
 
-```
+```java
 boolean shouldAccept(URI uri, HttpCookie cookie).
 ```
 
@@ -71,7 +71,7 @@ shouldAccept()有两个 URI 和 HttpCookie 类型的参数**。**
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.net.*;
 class GFG {
     public static void main(String[] args)
@@ -88,7 +88,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Cookie Policy for cookieManager is set to : CookiePolicy.ACCEPT_ALL
 ```
 
@@ -96,7 +96,7 @@ Cookie Policy for cookieManager is set to : CookiePolicy.ACCEPT_ALL
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.net.*;
 class GFG {
     public static void main(String[] args)
@@ -113,7 +113,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Cookie Policy for cookieManager is set to : CookiePolicy.ACCEPT_NONE
 ```
 
@@ -121,7 +121,7 @@ Cookie Policy for cookieManager is set to : CookiePolicy.ACCEPT_NONE
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.net.*;
 class GFG {
     public static void main(String[] args)
@@ -138,6 +138,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Cookie Policy for cookieManager is set to : CookiePolicy.ACCEPT_ORIGINAL_SERVER
 ```

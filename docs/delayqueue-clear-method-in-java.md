@@ -6,7 +6,7 @@ Java 中 DelayQueue 的 **clear()** 方法用于移除当前 DelayQueue 对象�
 
 **语法**:
 
-```
+```java
 public void clear()
 ```
 
@@ -16,7 +16,7 @@ public void clear()
 
 下面的程序说明了上面的方法:
 
-```
+```java
 // Java program to illustrate the clear() method
 // of DelayQueue class
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Is queue empty() : false
 Is queue empty after calling clear() : true
 

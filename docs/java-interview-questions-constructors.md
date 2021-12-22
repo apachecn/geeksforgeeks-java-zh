@@ -13,7 +13,7 @@
 3.  **什么是[建造师链](https://www.geeksforgeeks.org/constructor-chaining-java-examples/)？**
     构造函数链接是一种从一个构造函数调用另一个构造函数的技术。this()用于调用同一个类构造函数，其中 as super()用于调用超类构造函数。
 
-    ```
+    ```java
     // Java program to illustrate Constructor Chaining
     // within same class Using this() keyword
     class Temp
@@ -55,7 +55,7 @@
 5.  **如果为构造函数保留一个返回类型会发生什么？**
     理想情况下，构造函数不能有返回类型。根据定义，如果一个方法有返回类型，它就不是构造函数。( [JLS8.8 申报](http://docs.oracle.com/javase/specs/#8.8))将按正常方法处理。但是编译器给出了一个警告，说这个方法有一个构造函数名。示例:
 
-    ```
+    ```java
     class GfG
     {
         int GfG()
@@ -68,7 +68,7 @@
 6.  **什么是无参数构造函数？**
     没有参数的构造函数称为无参数构造函数。java 中的默认构造函数总是一个无参数的构造函数。
 
-    ```
+    ```java
 
     class GfG
     {

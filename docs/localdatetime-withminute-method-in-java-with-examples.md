@@ -6,7 +6,7 @@ Java 中 **LocalDateTime 类**的 **withMinute()** 方法用于获取该 LocalDa
 
 **语法:**
 
-```
+```java
 public LocalDateTime withMinute(int minutes)
 ```
 
@@ -20,7 +20,7 @@ public LocalDateTime withMinute(int minutes)
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the withMinute() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2018-11-30T12:52:26.105
 New LocalDateTime: 2018-11-30T12:00:26.105
 
@@ -53,7 +53,7 @@ New LocalDateTime: 2018-11-30T12:00:26.105
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the withMinute() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Original LocalDateTime: 2015-04-06T10:15:30
 New LocalDateTime: 2015-04-06T10:59:30
 

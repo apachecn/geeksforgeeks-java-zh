@@ -17,7 +17,7 @@ Java 提供了几种阻塞队列实现，如 [LinkedBlockingQueue](https://www.g
 
 **申报**
 
-```
+```java
 public interface BlockingQueue<E> extends Queue<E>
 ```
 
@@ -27,7 +27,7 @@ public interface BlockingQueue<E> extends Queue<E>
 
 我们不能直接提供阻塞队列的实例，因为它是一个接口，所以要利用阻塞队列的功能，我们需要利用实现它的类。此外，要在代码中使用 BlockingQueue，请使用以下导入语句。
 
-```
+```java
 import java.util.concurrent.BlockingQueue;
                     (or)
 import java.util.concurrent.*;
@@ -40,7 +40,7 @@ BlockingDeque 的实现类是 linkedblockingrequest。这个类是阻塞请求�
 
 **创建对象的语法:**
 
-```
+```java
 BlockingQueue<?> objectName = new LinkedBlockingDeque<?>();   
                          (or)
 LinkedBlockingDeque<?> objectName = new LinkedBlockingDeque<?>();
@@ -56,7 +56,7 @@ LinkedBlockingDeque<?> objectName = new LinkedBlockingDeque<?>();
 
 **语法:**
 
-```
+```java
 BlockingQueue blockingQueue = new LinkedBlockingDeque();
 ```
 
@@ -64,7 +64,7 @@ BlockingQueue blockingQueue = new LinkedBlockingDeque();
 
 **语法:**
 
-```
+```java
 // Creates a Blocking Queue with capacity 5
 BlockingQueue blockingQueue = new LinkedBlockingDeque(5);
 ```
@@ -73,7 +73,7 @@ BlockingQueue blockingQueue = new LinkedBlockingDeque(5);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that explains the internal
 // implementation of BlockingQueue
 
@@ -132,7 +132,7 @@ class BlockingQueue<E> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate usuage of BlockingQueue
 
 import java.util.concurrent.*;
@@ -178,7 +178,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 queue contains [StarWars, SuperMan, Flash, BatMan, Avengers]
 queue contains [Flash, BatMan, Avengers, CaptainAmerica, Thor]
 ```
@@ -191,7 +191,7 @@ queue contains [Flash, BatMan, Avengers, CaptainAmerica, Thor]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate add()
 // method of BlockingQueue
 
@@ -223,7 +223,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Blocking Queue: [7855642, 35658786, 5278367, 74381793]
 ```
 
@@ -233,7 +233,7 @@ Blocking Queue: [7855642, 35658786, 5278367, 74381793]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for Accessing the elements of a
 // LinkedBlockingDeque
 
@@ -277,7 +277,7 @@ public class AccessingElements {
 
 **Output**
 
-```
+```java
 The LinkedBlockingDeque, lbdq contains:
 [22, 125, 723, 172, 100]
 The LinkedBlockingDeque, lbdq contains 22
@@ -290,7 +290,7 @@ The head of lbdq: 22
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for removing elements from a
 // LinkedBlockingDeque
 
@@ -337,7 +337,7 @@ public class RemovingElements {
 
 **Output**
 
-```
+```java
 The LinkedBlockingDeque, lbdq contains:
 [75, 86, 13, 44, 10]
 
@@ -351,7 +351,7 @@ The LinkedBlockingDeque, lbdq contains:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to iterate
 // through the LinkedBlockingDeque
 import java.util.Iterator;
@@ -388,7 +388,7 @@ public class IteratingThroughElements {
 
 **Output**
 
-```
+```java
 The LinkedBlockingDeque, lbdq contains:
 166 246 66 292 98 
 ```

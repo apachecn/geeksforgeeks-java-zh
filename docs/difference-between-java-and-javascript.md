@@ -19,7 +19,7 @@ JavaScript 是一种轻量级编程语言(“脚本语言”)，用于使网页�
 
 ## 超文本标记语言
 
-```
+```java
 <script>
     console.log("Welcome to GeeksforGeeks Learning");
 </script>
@@ -27,7 +27,7 @@ JavaScript 是一种轻量级编程语言(“脚本语言”)，用于使网页�
 
 **输出:**
 
-```
+```java
 Welcome to GeeksforGeeks Learning
 ```
 
@@ -52,7 +52,7 @@ Java 是一种面向对象的编程语言，拥有一个虚拟机平台，可以
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -66,7 +66,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Welcome to GeeksforGeeks Learning
 ```
 

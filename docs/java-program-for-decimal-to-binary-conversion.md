@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : 7
 Output : 111
 s
@@ -46,7 +46,7 @@ Output: 100001
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert a decimal
 // number to binary number
 import java.io.*;
@@ -89,7 +89,7 @@ class GFG 
 
 **Output**
 
-```
+```java
 Decimal - 17
 Binary - 10001
 ```
@@ -102,7 +102,7 @@ Binary - 10001
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Decimal to binary conversion
 // using bitwise operator
 // Size of an integer is assumed to be 32 bits
@@ -138,7 +138,7 @@ class geek {
 
 **Output**
 
-```
+```java
 Decimal - 32
 Binary - 00000000000000000000000000100000
 ```
@@ -149,7 +149,7 @@ Binary - 00000000000000000000000000100000
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 import java.io.*;
 
@@ -192,7 +192,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Decimal - 17
 Binary - 10001
 ```

@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public static dataType nextDown(dataType g)
 Parameter :
  g : an input for starting floating-point value.
@@ -27,7 +27,7 @@ The nextDown() method returns the adjacent floating-point value closer to
 
 **示例:**展示**Java . lang . math . next down()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.nextDown() method
 import java.lang.Math;
@@ -67,7 +67,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 23.439999999999998
 28.099998
 NaN

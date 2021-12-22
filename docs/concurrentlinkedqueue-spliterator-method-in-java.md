@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Spliterator spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator spliterator()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of ConcurrentLinkedQueue
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Numbers:
 4353, 377139, 624378, 654793, 764764, 838494, 632845,
 
@@ -63,7 +63,7 @@ list of Numbers:
 
 **例 2:**
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of ConcurrentLinkedQueue
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Strings:
 Aman, Amar, Sanjeet, Rabi, Debasis, Raunak, Mahesh,
 

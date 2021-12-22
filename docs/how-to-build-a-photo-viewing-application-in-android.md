@@ -32,7 +32,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- permissions for reading external storage -->
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```

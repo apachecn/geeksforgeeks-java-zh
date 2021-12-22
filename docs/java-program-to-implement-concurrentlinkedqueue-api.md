@@ -10,7 +10,7 @@ Java 中的[**ConcurrentLinkedQueue**](https://www.geeksforgeeks.org/concurrentl
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // implementation of ConcurrentLinkedQueue API
 
@@ -177,7 +177,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The elements of the ConcurrentLinkedQueue is:
 10 20 30 40 50 
 Size of the concurrentLinkedQueue is: 5

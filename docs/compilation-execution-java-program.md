@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=0f-Sx81bIWQ
 
 插图:
 
-```
+```java
 // loadClass function prototype
 
 Class r = loadClass(String className, boolean resolveIt);
@@ -86,7 +86,7 @@ Class r = loadClass(String className, boolean resolveIt);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Compilation and Execution
 // Stages
 
@@ -105,7 +105,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Welcome to Geeks
 ```
 
@@ -117,19 +117,19 @@ Welcome to Geeks
 
 **第二步:**打开终端(这里我们使用的是 macOS)，使用下面的命令进入桌面目录，如下所示。
 
-```
+```java
  cd /Users/mayanksolanki/GFG.java
 ```
 
 **步骤 3:** 让我们尝试用下面的命令编译我们的程序
 
-```
+```java
 javac GFG.java
 ```
 
 **第 4 步:**最后用下面的命令运行，如下所示:
 
-```
+```java
 java GFG 
 ```
 

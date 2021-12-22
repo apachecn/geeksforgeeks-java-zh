@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 double getAsDouble()
 ```
 
@@ -26,7 +26,7 @@ double getAsDouble()
 
 **程序:**
 
-```
+```java
 // Java Program to illustrate
 // getAsDouble method of
 // DoubleSupplier Interface
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0.10283070415816953
 
 ```

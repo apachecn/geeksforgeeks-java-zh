@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final String getAlgorithm()
 ```
 
@@ -16,7 +16,7 @@ public final String getAlgorithm()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -55,14 +55,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Algorithm : MD5
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -99,7 +99,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Algorithm : SHA-256
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Iterator iterate_value = AbstractCollection.iterator();
 ```
 
@@ -18,7 +18,7 @@ Iterator iterate_value = AbstractCollection.iterator();
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.*;
@@ -60,7 +60,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 Collection: [4, Geeks, To, Welcome]
 The iterator values are: 
 4
@@ -72,7 +72,7 @@ Welcome
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.*;
@@ -114,7 +114,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 Collection: [Welcome, To, Geeks, 4, Geeks]
 The iterator values are: 
 Welcome

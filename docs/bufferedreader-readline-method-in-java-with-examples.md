@@ -6,7 +6,7 @@ Java 中**buffere reader**类的 **readLine()** 方法用于一次读取一行�
 
 **语法:**
 
-```
+```java
 public String readLine() 
           throws IOException
 
@@ -22,7 +22,7 @@ public String readLine()
 
 **程序 1:** 假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedReader readLine() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:** 假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedReader readLine() method
 

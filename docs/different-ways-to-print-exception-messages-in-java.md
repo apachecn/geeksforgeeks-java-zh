@@ -14,13 +14,13 @@ Java 中有三种方法可以打印异常消息。这些是:
 
 **语法:**
 
-```
+```java
 public void printStackTrace()
 ```
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // printStackTrace method
 
@@ -44,14 +44,14 @@ public class Test {
 
 **运行时异常:**
 
-```
+```java
 java.lang.ArithmeticException: / by zero
     at Test.main(Test.java:9)
 ```
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: / by zero
 ```
 
@@ -61,7 +61,7 @@ java.lang.ArithmeticException: / by zero
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate
 // toString  method
 
@@ -84,7 +84,7 @@ public class Test {
 
 **输出**
 
-```
+```java
 java.lang.ArithmeticException: / by zero
 ```
 
@@ -94,13 +94,13 @@ java.lang.ArithmeticException: / by zero
 
 **语法:**
 
-```
+```java
 public String getMessage()
 ```
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // getMessage method
 
@@ -125,7 +125,7 @@ public class Test {
 
 **输出**
 
-```
+```java
 / by zero
 ```
 

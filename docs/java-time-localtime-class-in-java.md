@@ -64,7 +64,7 @@ Java 是最流行的编程语言，也是应用最广泛的编程语言。Java �
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate LocalTime Class
 
 // Importing LocalDateTime class from
@@ -89,7 +89,7 @@ public class  GFG {
 
 **Output**
 
-```
+```java
 Local time value : 06:20:52.986897
 ```
 
@@ -97,7 +97,7 @@ Local time value : 06:20:52.986897
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate LocalTime
 // where plusMethod() is illustrated
 
@@ -126,7 +126,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Time : 08:34:59.135137
 ```
 
@@ -134,7 +134,7 @@ Time : 08:34:59.135137
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate LocalTime
 // where plusMethod() is illustrated
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 17:48:53.003478
 ```
 
@@ -172,7 +172,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate LocalTime
 // where plusMethod() is illustrated
 
@@ -202,6 +202,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 10:54:49.649675
 ```

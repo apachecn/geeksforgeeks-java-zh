@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Constructor getDeclaringClass()
 
 ```
@@ -21,7 +21,7 @@ public Constructor getDeclaringClass()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getDeclaringClass() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 DeclaringClass of myClass: null
 
@@ -55,7 +55,7 @@ DeclaringClass of myClass: null
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getDeclaringClass() method
 
 import java.util.*;
@@ -91,7 +91,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 DeclaringClass of myClass: class Main
 
 ```

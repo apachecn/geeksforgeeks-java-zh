@@ -4,7 +4,7 @@
 
 [Apache Tika](https://www.geeksforgeeks.org/parsing-pdfs-in-python-with-tika/) 是一个允许你从不同文档中提取数据的库(*)。PDF* ，。 *DOCX* 等。).在本教程中，我们将使用 BodyContentHandler 提取数据。将使用的下一个依赖项如下所示:
 
-```
+```java
 <dependency>
 <groupId>org.apache.tika < / groupId >
 <artifactId>tika - parsers < / artifactId >
@@ -48,7 +48,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Read Everything into Inner String Buffer
 
 // Main class
@@ -105,7 +105,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Write Content into File by
 // Specifying the Maximum Content Length
 

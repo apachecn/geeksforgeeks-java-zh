@@ -5,13 +5,13 @@
 函数是 java.util.zip 包的一部分。该函数返回特定 ZipEntry 的注释。
 **功能签名:**
 
-```
+```java
 public String getComment()
 ```
 
 **语法:**
 
-```
+```java
 zip_entry.getComment();
 ```
 
@@ -23,7 +23,7 @@ zip_entry.getComment();
 
 **示例 1:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取指定 ZipEntry 的注释。“file.zip”是 f:目录中的一个 zip 文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getComment() function
 
@@ -60,7 +60,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Comment : This is a Zip Entry comment
 
 ```
@@ -68,7 +68,7 @@ Comment : This is a Zip Entry comment
 **示例 2:** 我们将创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目，然后获取指定 ZipEntry 的注释。“file.zip”是 f:目录中的一个 zip 文件。
 未设置评论时。
 
-```
+```java
 // Java program to demonstrate the
 // use of getComment() function
 
@@ -105,7 +105,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Comment : null
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.isEmpty()
 ```
 
@@ -16,7 +16,7 @@ LinkedTransferQueue.isEmpty()
 
 **程序 1:** 在该程序中，链接传输队列是非空的。
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of LinkedTransferQueue
 
@@ -45,14 +45,14 @@ class LinkedTransferQueueIsEmptyExample1 {
 
 **输出:**
 
-```
+```java
 The queue is non-empty.
 
 ```
 
 **程序 2:** 在该程序中，链接传输队列为空。
 
-```
+```java
 // Java Program Demonstrate isEmpty()
 // method of LinkedTransferQueue */
 
@@ -77,7 +77,7 @@ class LinkedTransferQueueIsEmptyExample2 {
 
 **输出:**
 
-```
+```java
 The queue is empty.
 
 ```

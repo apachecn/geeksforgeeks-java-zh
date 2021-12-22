@@ -6,7 +6,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate Deadlock situation
 class DeadlockDemo extends Thread {
     static Thread mainThread;
@@ -47,7 +47,7 @@ class DeadlockDemo extends Thread {
 
 输出:
 
-```
+```java
 Main thread waiting for Child thread completion
 Child Thread waiting for main thread completion
 ```
@@ -56,7 +56,7 @@ Child Thread waiting for main thread completion
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate Starvation concept
 class StarvationDemo extends Thread {
     static int threadcount = 1;
@@ -103,7 +103,7 @@ class StarvationDemo extends Thread {
 
 输出:
 
-```
+```java
 Main thread execution starts
 1st Child Thread execution starts
 Child thread execution completes

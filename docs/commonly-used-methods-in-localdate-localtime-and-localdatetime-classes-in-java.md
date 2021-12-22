@@ -6,7 +6,7 @@ Java 提供了与日期相关的三个最重要的类，即 **LocalDate** 、 **
 
 **插图:**
 
-```
+```java
 1\. java.time.* 
    // To include all classes
 
@@ -40,7 +40,7 @@ Java 提供了与日期相关的三个最重要的类，即 **LocalDate** 、 **
 
 ****语法:****
 
-```
+```java
 public static LocalDate now()
 ```
 
@@ -50,7 +50,7 @@ public static LocalDate now()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate Commonly used methods in classes
 // LocalDate, LocalTime and LocalDateTime Classes
 
@@ -93,7 +93,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 2021-02-28
 2021-02-28T14:16:07.181034
 14:16:07.181230
@@ -123,7 +123,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate Commonly used methods in
 // classes LocalDate, LocalTime and LocalDateTime Classes
 
@@ -213,7 +213,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 2021-02-28
 2021-02-28T14:54:21.331923
 14:54:21.332156

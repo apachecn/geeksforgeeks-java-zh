@@ -6,12 +6,12 @@
 
 插图:
 
-```
+```java
 Input  : “GeeksforGeeks”
 Output : G e e k s f o r G e e k s
 ```
 
-```
+```java
 Input. : “Coder”
 Output : C o d e r
 ```
@@ -35,7 +35,7 @@ Output : C o d e r
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over the Characters of a String
 // Using Naive Approach
 
@@ -74,7 +74,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s f o r G e e k s 
 ```
 
@@ -89,7 +89,7 @@ G e e k s f o r G e e k s
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over the Characters of a String
 // Using String.toCharArray() method
 
@@ -130,7 +130,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s f o r G e e k s 
 ```
 
@@ -145,7 +145,7 @@ G e e k s f o r G e e k s
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over the Characters of a String
 // Using CharacterIterator
 
@@ -189,7 +189,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s f o r G e e k s 
 ```
 
@@ -200,7 +200,7 @@ G e e k s f o r G e e k s
 
 在这种方法中，我们在 Java 中使用 [StringTokenizer](https://www.geeksforgeeks.org/stringtokenizer-class-java-example-set-1-constructors/) 类。它根据分隔符将字符串分解成标记。不鼓励使用它。
 
-```
+```java
 StringTokenizer(String str, String delim, boolean flag):
 The first two parameters have same meaning.  The flag 
 serves following purpose.
@@ -219,7 +219,7 @@ and "geeks".
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over the Characters of a String
 // Using StringTokenizer
 
@@ -270,7 +270,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s f o r G e e k s 
 GeeksforGeeks 
 ```
@@ -286,7 +286,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over the Characters of a String
 // Using String.split() method
 
@@ -326,7 +326,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s f o r G e e k s 
 ```
 
@@ -341,7 +341,7 @@ G e e k s f o r G e e k s
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over the Characters of a String
 // Using Guava Library
 
@@ -401,7 +401,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 G e e k s f o r G e e k s 
 G e e k s f o r G e e k s 
 GeeksforGeeks
@@ -418,7 +418,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over the Characters of a String
 // Using String.chars() method
 
@@ -508,7 +508,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Auto boxing into Stream<Character>
 GeeksforGeeks7110110110711510211111471101101107115
 GeeksforGeeks
@@ -531,7 +531,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Iterate Over the Characters of a String
 // Using Code Points
 
@@ -618,7 +618,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Auto boxing into Stream<Character>
 GeeksforGeeks7110110110711510211111471101101107115
 GeeksforGeeks

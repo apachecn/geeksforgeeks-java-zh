@@ -6,7 +6,7 @@ Java 中 DecimalFormat 类的 applyPattern()方法用于将给定的字符串模
 
 **语法** :
 
-```
+```java
 public void applyPattern(String pattern)
 
 ```
@@ -19,7 +19,7 @@ public void applyPattern(String pattern)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // applyPattern method
 
@@ -39,14 +39,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 -1, 23, 45, 67, 90
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // applyPattern method
 
@@ -66,7 +66,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 -123, 456, 789.54
 
 ```

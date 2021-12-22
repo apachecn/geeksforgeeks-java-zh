@@ -26,7 +26,7 @@ JavaSound API 涵盖了所有这些内容。
 
 **第一步:**获取**序列器**并将其打开
 
-```
+```java
 // Make a sequencer named player and open it
 Sequencer player = MIDISystem.getSequencer();
 player.open();
@@ -34,21 +34,21 @@ player.open();
 
 **第二步:**新建**序列**
 
-```
+```java
 // Make a new sequence 
 Sequence seq = new Sequence(Sequence.PPQ, 4);
 ```
 
 **第三步:**从序列中获取新的**轨迹**
 
-```
+```java
 // Creating new Track
 Track t = seq.createTrack();
 ```
 
 **第 4 步:**用 **MIDIEVENTS** 填充轨道
 
-```
+```java
 // Filling the Track with MidiEvent and
 // giving the Sequence to the Sequencer
 
@@ -65,7 +65,7 @@ player.start();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate JAva Sounf API
 
 // Importing classes from
@@ -145,6 +145,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Successfully compiled and executed
 ```

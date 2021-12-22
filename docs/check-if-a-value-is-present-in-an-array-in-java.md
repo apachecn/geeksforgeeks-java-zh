@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: arr[] = [5, 1, 1, 9, 7, 2, 6, 10], key = 7
 Output: true
 
@@ -31,7 +31,7 @@ Output: false
 
 **语法:**
 
-```
+```java
 for (int element : arr) {
     if (element == toCheckValue) {
         return true;
@@ -43,7 +43,7 @@ for (int element : arr) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check whether
 // an element is present in array or not
 
@@ -94,7 +94,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Array: [5, 1, 1, 9, 7, 2, 6, 10]
 Is 7 present in the array: true
 ```
@@ -106,7 +106,7 @@ Is 7 present in the array: true
 
 **语法:**
 
-```
+```java
 public static int 
     binarySearch(data_type arr, data_type key)
 ```
@@ -115,7 +115,7 @@ public static int
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check whether
 // an element is present in array or not
 
@@ -165,7 +165,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Array: [5, 1, 1, 9, 7, 2, 6, 10]
 Is 7 present in the array: true
 ```

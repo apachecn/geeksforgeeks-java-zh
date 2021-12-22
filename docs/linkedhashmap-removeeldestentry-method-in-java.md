@@ -7,7 +7,7 @@ java 中的 Java . util . LinkedHashMap . removeelderstantry()方法用于跟踪
 当映射表示一个缓存时，这非常有用，它允许映射通过一个接一个地删除过时条目来减少内存消耗。
 **语法:**
 
-```
+```java
 private boolean removeEldestEntry(Map.Entry *eldest*)
 ```
 
@@ -17,7 +17,7 @@ private boolean removeEldestEntry(Map.Entry *eldest*)
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java program to illustrate removeEldestEntry()
 import java.util.*;
 
@@ -66,7 +66,7 @@ public class Linked_Hash_Map_Demo {
 
 ***Output:** 
 
-```
+```java
 {0=Welcome, 1=To, 2=The, 3=World, 4=Of, 5=geeks}
 {1=To, 2=The, 3=World, 4=Of, 5=geeks, 6=GeeksforGeeks}
 {2=The, 3=World, 4=Of, 5=geeks, 6=GeeksforGeeks, 7=Hello}

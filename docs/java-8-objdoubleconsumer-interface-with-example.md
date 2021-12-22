@@ -20,7 +20,7 @@ ObjDoubleConsumer 接口由以下两个功能组成:
 
 **语法:**
 
-```
+```java
 void accept(T t, double value)
 ```
 
@@ -35,7 +35,7 @@ void accept(T t, double value)
 
 **程序:**
 
-```
+```java
 // Java code to demonstrate
 // accept() method of ObjDoubleConsumer Interface
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 6.0
 4.0
 10.0

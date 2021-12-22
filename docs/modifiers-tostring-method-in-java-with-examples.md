@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static String toString(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static String toString(int mod)
 下面的程序说明了 toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // toString() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Modifiers: public final
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate toString()
 
 import java.lang.reflect.*;
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 i: 10 Modifier:private static
 i: 11 Modifier:public private static
 i: 12 Modifier:protected static

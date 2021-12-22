@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final String getType()
 ```
 
@@ -20,7 +20,7 @@ public final String getType()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getType() method
 
 import java.security.*;
@@ -90,7 +90,7 @@ public class GFG {
 
 **示例 2:** 用于*而不加载密钥库*
 
-```
+```java
 // Java program to demonstrate getType() method
 
 import java.security.*;

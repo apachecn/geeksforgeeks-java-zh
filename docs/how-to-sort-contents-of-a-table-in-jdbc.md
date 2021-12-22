@@ -20,7 +20,7 @@
 6.  Execute your query and store the results in the result set.
 7.  Show results
 
-```
+```java
 How ORDER BY works:
 
    query ----->       select * from Table_Name ORDER BY Column1,Column 2; 
@@ -61,7 +61,7 @@ How ORDER BY works:
 
 ## 爪哇
 
-```
+```java
 // Java program to sort contents of a table 
 
 import java.sql.*;

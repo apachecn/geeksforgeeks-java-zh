@@ -25,7 +25,7 @@ Spring 提供了三种实现一个 bean 生命周期的方法。为了理解这�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a bean
 // in the spring framework
 package beans;
@@ -59,7 +59,7 @@ public class HelloWorld {
 
 ## 可扩展标记语言
 
-```
+```java
 <!DOCTYPE
     beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
         "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
@@ -75,7 +75,7 @@ public class HelloWorld {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to call the
 // bean initialized above
 
@@ -130,7 +130,7 @@ public class Client {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a bean
 // in the spring framework
 package beans;
@@ -177,7 +177,7 @@ throws Exception
 
 ## 可扩展标记语言
 
-```
+```java
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
             "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
@@ -191,7 +191,7 @@ throws Exception
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to call the
 // bean initialized above
 
@@ -244,7 +244,7 @@ public class Client {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create a bean
 // in the spring framework
 package beans;
@@ -283,7 +283,7 @@ public class HelloWorld {
 
 ## 超文本标记语言
 
-```
+```java
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
             "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
@@ -306,7 +306,7 @@ public class HelloWorld {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to call the
 // bean initialized above
 

@@ -13,7 +13,7 @@
 1.  **toUpperCase():****Java . lang . toUpperCase(char arg)**方法基于 Unicode 值将参数中的给定字符转换为大写。
     **语法:**
 
-    ```
+    ```java
     public static char toUpperCase(char arg)
     Parameters : 
     arg : character to be converted to Upper case
@@ -25,7 +25,7 @@
 2.  **toLowerCase():****Java . lang . toLowerCase(char arg)**方法基于 Unicode 值将参数中的给定字符转换为小写。
     **语法:**
 
-```
+```java
 public static char toLowerCase(char arg)
 Parameters : 
 arg : character to be converted to Lower case
@@ -38,7 +38,7 @@ Lower case character of the argumented character.
     e.g. : [ ] { } ( )
     **Syntax :**
 
-    ```
+    ```java
     public static boolean isMirrored(char arg)
     Parameters : 
     arg : argumented character 
@@ -48,7 +48,7 @@ Lower case character of the argumented character.
 
     **解释 toUpperCase()，toLowerCase()，isMirrored()方法使用的 Java 代码**
 
-    ```
+    ```java
     // Java program explaining Character class methods
     // toUpperCase(), toLowerCase(), isMirrored()
     import java.lang.Character;
@@ -95,7 +95,7 @@ Lower case character of the argumented character.
 
     输出:
 
-    ```
+    ```java
     Upper value for g : G
     Upper value for O : O
 
@@ -112,7 +112,7 @@ Lower case character of the argumented character.
     *   **reverse bytes():****Java . lang . character . reverse bytes()**方法通过反转参数化字符中字节的顺序返回一个字符。
     **语法:**
 
-    ```
+    ```java
     public static char reverseBytes()
     Parameters : 
     cP : code point, need to check
@@ -124,7 +124,7 @@ Lower case character of the argumented character.
     *   **isAlphabetic():****Java . lang . character . isAlphabetic(int cP)**方法检查论证字符(代码点)是否是字母表
     **语法:**
 
-    ```
+    ```java
     public static boolean isAlphabetic(int codePoint)
     Parameters : 
     cP : code point, need to check.  
@@ -139,7 +139,7 @@ Lower case character of the argumented character.
     *   **isValidCodePoint() :** **java.lang.Character.isValidCodePoint( int cP)** method checks whether the argumented Unicode is actually valid or not
     **Syntax :**
 
-    ```
+    ```java
     public static boolean isValidCodePoint(int codePoint)
     Parameters : 
     cP : code point to be tested  
@@ -150,7 +150,7 @@ Lower case character of the argumented character.
 
     **解释 isValidCodePoint()，reverseBytes()，isAlphabetical()方法使用的 Java 代码**
 
-    ```
+    ```java
     // Java program explaining Character class methods
     // isValidCodePoint(), reverseBytes(), isAlphabetical()
     import java.lang.Character;
@@ -189,7 +189,7 @@ Lower case character of the argumented character.
 
     输出:
 
-    ```
+    ```java
     Reverse char for 1 : ?
     Reverse char for s : ?
 

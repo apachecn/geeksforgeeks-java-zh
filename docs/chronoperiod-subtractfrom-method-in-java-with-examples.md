@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Temporal subtractFrom(Temporal temporalObject)
 
 ```
@@ -24,7 +24,7 @@ Temporal subtractFrom(Temporal temporalObject)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function subtractFrom()
 // to subtract the two given periods
 
@@ -57,14 +57,14 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 2014-07-07T14:22:21.929
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function subtractFrom()
 // to subtract the two given periods
 
@@ -97,7 +97,7 @@ public class ChronoPeriodDemo {
 
 **输出:**
 
-```
+```java
 2016-11-09T14:22:26.600
 
 ```

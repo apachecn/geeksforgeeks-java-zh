@@ -4,7 +4,7 @@
 
 给定一个包含大写字母和小写字母的字符串。任务是移动字符串末尾的所有大写字符。大写字符的顺序必须与原始字符串的顺序相同。
 
-```
+```java
 Input    : "heLLGFg"
 Output   : "hegLLGF"
 
@@ -26,7 +26,7 @@ Output   : "elloH"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Move All Uppercase Characters to the End
 
 // Importing input output classes
@@ -93,7 +93,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Move All Uppercase Characters to the End
 // Using Queue data structures
 

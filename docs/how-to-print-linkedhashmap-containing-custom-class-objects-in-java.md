@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to print LinkedHashMap of
 // custom class objects
 import java.util.*;
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 {1=Triangle@214c265e, 2=Triangle@448139f0, 3=Triangle@7cca494b}
 ```
 
@@ -63,7 +63,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to print LinkedHashMap of
 // custom class objects
 import java.util.*;
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 {1=Equilateral triangle, 2=Isosceles triangle, 3=Right angled triangle}
 ```
 
@@ -116,7 +116,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate how to print LinkedHashMap of
 // custom class objects
 import java.util.*;
@@ -162,7 +162,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Key: 1, Value: Equilateral triangle
 Key: 2, Value: Isosceles triangle
 Key: 3, Value: Right angled triangle

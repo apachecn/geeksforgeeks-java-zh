@@ -9,7 +9,7 @@
 
 **申报:**
 
-```
+```java
 public class PipedReader
   extends Reader
 ```
@@ -26,7 +26,7 @@ public class PipedReader
 *   **read() :** **java.io.PipedReader.read()** reads the next character from PipedReader. This method blocks until characters are available. Returns -1 if end of the stream is detected, or an exception is thrown and the method blocks
     **Syntax() :**
 
-    ```
+    ```java
     public int read()
     Parameters: 
     -----------
@@ -40,7 +40,7 @@ public class PipedReader
 
     **实施:**
 
-    ```
+    ```java
     // Java program illustrating the working of read() method
 
     import java.io.*;
@@ -66,7 +66,7 @@ public class PipedReader
 
     **输出:**
 
-    ```
+    ```java
     using read() : G
     using read() : E
     using read() : K
@@ -75,7 +75,7 @@ public class PipedReader
 *   **read(char【】carray，int offset，int maxlen):****Java . io . pipeledader . read(char【】carray，int offset，int maxlen)** 从 PipedReader Stream 读取多达 maxlen 个字符到字符数组。如果到达流的末尾或引发异常，该方法将阻塞。
     **语法:**
 
-    ```
+    ```java
     public int read(char[] carray, int offset, int maxlen)
     Parameters : 
     carray : buffer into which the data is to be read
@@ -92,7 +92,7 @@ public class PipedReader
 *   **close():****Java . io . PipedPiedReader . close()**关闭 PipedReader 流并释放分配的资源。
     **语法:**
 
-    ```
+    ```java
     public void close()
     Parameters : 
     --------------
@@ -105,7 +105,7 @@ public class PipedReader
 *   **connect(PipedWriter 源):****Java . io . PipedWriter . connect(PipedWriter 源)**将 PipedWriter 连接到“源”管道编写器，如果“源”是带有其他流的管道，则会引发 IO 异常
     **语法:**
 
-    ```
+    ```java
     public void connect(PipedWriter source)
     Parameters : 
     source : the PipedWriter to be connected to
@@ -118,7 +118,7 @@ public class PipedReader
 *   **ready() :** **java.io.PipedPipedReader.ready()** tells whether the stream is ready to be read or not
     **Syntax :**
 
-    ```
+    ```java
     public boolean ready()
     Parameters : 
     --------------
@@ -130,7 +130,7 @@ public class PipedReader
 
     **演示 PipedReader 类方法工作的 Java 程序:**
 
-    ```
+    ```java
     // Java program illustrating the working of PipedReader
     // connect(), read(char[] carray, int offset, int maxlen),
     // close(), ready()
@@ -174,7 +174,7 @@ public class PipedReader
 
     **输出:**
 
-    ```
+    ```java
     Stream is ready to be read : true
     Use of read(carray, offset, maxlen) : GEEKS
     Closing the stream

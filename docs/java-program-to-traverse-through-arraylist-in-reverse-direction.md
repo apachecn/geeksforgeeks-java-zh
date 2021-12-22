@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input :1, 2, 3, 4, 5, 6 
 Output :  6, 5, 4, 3, 2, 1 
 
@@ -23,7 +23,7 @@ Output :  63, 51, 42, 34, 22, 11
 
 **1。**声明数组列表
 
-```
+```java
 // size of n
 ArrayList<Integer> List  = new ArrayList<Integer>(n);
 ```
@@ -36,7 +36,7 @@ ArrayList<Integer> List  = new ArrayList<Integer>(n);
 
 ## Java
 
-```
+```java
 // Traverse through ArrayList in 
 // reverse direction using List 
 // Iterator in Java
@@ -75,7 +75,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Reversed : 
 6
 7
@@ -95,7 +95,7 @@ Reversed :
 
 ## 爪哇
 
-```
+```java
 // Traverse through ArrayList in
 // reverse direction Using
 // stream in Java
@@ -128,7 +128,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Reversed : 
 8
 4
@@ -140,7 +140,7 @@ Reversed :
 
 ## Java
 
-```
+```java
 // Traverse through ArrayList in
 // reverse direction using For
 // Loop in Java
@@ -166,7 +166,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Reversed :
 2
 8
@@ -184,7 +184,7 @@ T0T6】
 
 **输出**
 
-```
+```java
 Reversed :
 7
 8

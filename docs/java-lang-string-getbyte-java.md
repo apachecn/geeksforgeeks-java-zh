@@ -6,7 +6,7 @@ java 中的 getbytes()函数用于将字符串转换为字节序列，并返回�
 
 1.  **Syntax 1 – public byte[] getBytes() :** This function takes no arguments and used default charset to encode the string into bytes.
 
-    ```
+    ```java
     // Java code to demonstrate the working of
     // getByte()
     public class GetByte {
@@ -36,7 +36,7 @@ java 中的 getbytes()函数用于将字符串转换为字节序列，并返回�
 
     输出:
 
-    ```
+    ```java
     The String before conversion is : 
     ASTHA GFG
     The String after conversion is : 
@@ -52,7 +52,7 @@ java 中的 getbytes()函数用于将字符串转换为字节序列，并返回�
     *   **UTF-16LE:** 十六位 UCS 转换格式，小端字节顺序
     *   **UTF-16:** 十六位 UCS 转换格式，字节顺序由可选的字节顺序标记标识。
 
-    ```
+    ```java
     // Java code to demonstrate the working of
     // getByte() using different character sets
     import java.io.*;
@@ -103,7 +103,7 @@ java 中的 getbytes()函数用于将字符串转换为字节序列，并返回�
 
     输出:
 
-    ```
+    ```java
     The String before conversion is : 
     ASTHA GFG
     The String after conversion into UTF-16 is : 

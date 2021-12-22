@@ -8,7 +8,7 @@
 
 *   **申报**
 
-```
+```java
 public interface Iterator
 
 Type Parameters:
@@ -33,7 +33,7 @@ E - the type of elements returned by this iterator
 
 *   **申报:**
 
-```
+```java
 public interface Collection<E> extends Iterable<E>
 
 Type Parameters:

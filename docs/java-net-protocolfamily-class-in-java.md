@@ -4,7 +4,7 @@
 
 ProtocolFamily 是一个 java 接口。 **java.net.ProtocolFamily** 代表了一个通信协议家族。**Java . net . standard ProtocolFamily**实现 ProtocolFamily 接口。
 
-```
+```java
 public interface ProtocolFamily 
 ```
 
@@ -36,7 +36,7 @@ public interface ProtocolFamily
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to get Protocol
 // family for an IP Address
 
@@ -94,7 +94,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Host Name is 45.22.30.39
 Protocol family of the 45.22.30.39 is INET
 ```

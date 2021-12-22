@@ -6,7 +6,7 @@ Java . util . linkedlist . removefirst occurrence()用于从列表中移除指�
 
 **语法**:
 
-```
+```java
 LinkedListObject.removeFirstOccurrence(Object element)
 ```
 
@@ -17,7 +17,7 @@ LinkedListObject.removeFirstOccurrence(Object element)
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java code to demonstrate removeFirstOccurrence() method
 import java.util.LinkedList;
 public class GfG {
@@ -63,7 +63,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 List before removing the first Occurrence of "one" : [one, two, three, one]
 Returned Value : true
 List after removing the first Occurrence of "one" : [two, three, one]
@@ -73,7 +73,7 @@ List after removing the first Occurrence of "one" : [two, three, one]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate removeFirstOccurrence method in LinkedList
 
 import java.util.LinkedList;
@@ -121,7 +121,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 List before removing the first Occurrence of "10" : [10, 20, 30, 10]
 Returned Value : true
 List after removing the first Occurrence of "10" : [20, 30, 10]

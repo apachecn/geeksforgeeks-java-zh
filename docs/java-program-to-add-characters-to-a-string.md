@@ -6,7 +6,7 @@
 
 **插图:**
 
-```
+```java
 Input: 
 Input custom string = Hello
 Output: 
@@ -28,7 +28,7 @@ Output:
 
 ## Java
 
-```
+```java
 // Java Program to Add Characters to a String
 // At the End
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -67,7 +67,7 @@ GeeksforGeeks
 
 ## Java
 
-```
+```java
 // Java Program to Add Characters to a String
 // At the Beginning
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -105,7 +105,7 @@ GeeksforGeeks
 
 ****语法:****
 
-```
+```java
  str.insert(int position,  char x);
  str.insert(int position,  boolean x);
  str.insert(int position,  char[] x);
@@ -124,7 +124,7 @@ we need to insert.
 
 ## **Java**
 
-```
+```java
 // Java Program to Add Characters to a String
 // Using StringBuffer class insert() method
 
@@ -174,7 +174,7 @@ public class GFG {
 
 ****输出**
 
-```
+```java
 GeeksforGeeks
 ```** 
 
@@ -184,7 +184,7 @@ GeeksforGeeks
 
 ****语法:****
 
-```
+```java
 public String substring(int begIndex)
 ```
 
@@ -196,7 +196,7 @@ public String substring(int begIndex)
 
 ## **Java**
 
-```
+```java
 // Java Program to Add Characters to a String
 // Using substring() method
 
@@ -237,6 +237,6 @@ public class GFG {
 
 ****输出**
 
-```
+```java
 GeeksforGeeks
 ```**

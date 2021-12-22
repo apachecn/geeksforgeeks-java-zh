@@ -6,22 +6,22 @@ C++的[下界()](https://www.geeksforgeeks.org/lower_bound-in-cpp/)方法返回[
 
 **示例:**
 
-```
+```java
 Input  : 4 6 10 12 18 18 20 20 30 45
 Output : lower_bound for element 18 at index 4
 ```
 
-```
+```java
 Input  : 4 6 10 12 16 20 28
 Output : lower_bound for element 18 at index 5
 ```
 
-```
+```java
 Input  : 24 26 40 56
 Output : lower_bound for element 18 at index 0
 ```
 
-```
+```java
 Input  : 4 6 10 12 16 17
 Output : lower_bound for element 18 at index 6
 ```
@@ -45,7 +45,7 @@ Output : lower_bound for element 18 at index 6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for finding lower bound
 // using linear search
 
@@ -98,7 +98,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 4
 ```
 
@@ -123,7 +123,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Find lower bound
 // Using Binary Search Iteratively
 
@@ -197,7 +197,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 4
 ```
 
@@ -207,7 +207,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Find Lower Bound
 // Using Binary Search Recursively
 
@@ -278,7 +278,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 4
 ```
 
@@ -298,7 +298,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find lower bound
 // using binarySearch() method of Arrays class
 
@@ -370,17 +370,17 @@ public class GFG {
 
 **Output**
 
-```
+```java
 4
 
 ```
 
 > **注:**我们也可以通过其中任意一个找到中值
 > 
-> ```
+> ```java
 > int mid = (high + low)/ 2;  
 > ```
 > 
-> ```
+> ```java
 > int mid = (low + high) >>> 1;
 > ```

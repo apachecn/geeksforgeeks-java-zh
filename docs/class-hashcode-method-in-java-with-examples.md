@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate hashCode() method
 
 public class Test {
@@ -42,7 +42,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by c1: class java.lang.String
 HashCode value: 589431969
 
@@ -50,7 +50,7 @@ HashCode value: 589431969
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate hashCode() method
 
 public class Test {
@@ -73,7 +73,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by c1: int
 HashCode value: 589431969
 

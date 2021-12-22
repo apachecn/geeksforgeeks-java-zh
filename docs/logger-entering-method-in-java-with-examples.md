@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void entering(String sourceClass,
                          String sourceMethod)
 
@@ -26,7 +26,7 @@
     下面的程序举例说明了输入(字符串源类，字符串源方法)的方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // entering(String, String) method
 
@@ -75,7 +75,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void entering(String sourceClass,
                          String sourceMethod,
                          Object param1)
@@ -94,7 +94,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // entering(String, String, Object) method
 
@@ -140,7 +140,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public void entering(String sourceClass,
                          String sourceMethod,
                          Object[] params)
@@ -158,7 +158,7 @@
     以下程序说明了输入(字符串源类、字符串源方法、对象[]参数)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // entering(String, String, Object[])  method
 

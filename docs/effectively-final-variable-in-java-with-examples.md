@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 final int number;
 number = 77;
 ```
@@ -18,7 +18,7 @@ number = 77;
 
 任何局部变量或参数现在只被赋值一次(或只更新一次)。在整个计划中，它可能不会有效地保持最终状态。因此，这表明有效的 final 变量可能会在它被赋值/更新最少的另一个赋值之后立即失去其有效的 final 属性。此外，一个有效的最终变量可能是一个值没有改变，但没有用终极关键字声明的变量。
 
-```
+```java
 int number;
 number = 7;
 ```
@@ -29,7 +29,7 @@ number = 7;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Effective Final Keyword
 
 // Importing input output classes
@@ -115,7 +115,7 @@ lambda 表达式可以使用的局部变量被称为“有效最终变量”。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Effective Final Keyword
 
 // Importing input output classes

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int getInt()
 ```
 
@@ -19,7 +19,7 @@ public abstract int getInt()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInt() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer: 
 10 20 30 
 
@@ -94,7 +94,7 @@ Next Byte Value: 20
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getInt() method
 
@@ -162,7 +162,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer: 
 10 20 
 
@@ -182,7 +182,7 @@ Exception Thrown : java.nio.BufferUnderflowException
 
 **语法:**
 
-```
+```java
 public abstract int getInt(int index)
 ```
 
@@ -196,7 +196,7 @@ public abstract int getInt(int index)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInt() method
 
@@ -261,7 +261,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer: 
 10 20 
 
@@ -272,7 +272,7 @@ Next Byte Value: 20
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getInt() method
 
@@ -337,7 +337,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ByteBuffer: 
 10 20 
 

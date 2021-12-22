@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : n = 5
 Output: 
 * 
@@ -20,7 +20,7 @@ Output:
 
 ## 爪哇
 
-```
+```java
 import java.io.*;
 
 // Java code to demonstrate right star triangle
@@ -57,7 +57,7 @@ public class GeeksForGeeks {
 
 **输出**
 
-```
+```java
 * 
 * * 
 * * * 

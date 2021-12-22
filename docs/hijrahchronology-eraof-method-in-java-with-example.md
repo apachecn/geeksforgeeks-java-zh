@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public HijrahEra eraOf(int eraValue)
 ```
 
@@ -18,7 +18,7 @@ public HijrahEra eraOf(int eraValue)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // eraOf() method
 
@@ -59,14 +59,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahEra is: AH
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // eraOf() method
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 HijrahEra is invalid
 Exception thrown: java.time.DateTimeException: invalid Hijrah era
 

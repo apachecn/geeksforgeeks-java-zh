@@ -11,7 +11,7 @@ BitSet 类中的这个方法用于返回设置为 true 的第一位的索引，�
 
 **语法:**
 
-```
+```java
 public int nextSetBit(int fromIndex)
 
 ```
@@ -24,7 +24,7 @@ public int nextSetBit(int fromIndex)
 
 **注意:**要迭代位集中的真位，请使用以下循环:
 
-```
+```java
 for (int i = bs.nextSetBit(0); i >= 0; i = bs.nextSetBit(i+1)) {
      // operate on index i here
  }
@@ -32,7 +32,7 @@ for (int i = bs.nextSetBit(0); i >= 0; i = bs.nextSetBit(i+1)) {
 
 **例 1:** 为了展示 nextSetBit()函数的实现:
 
-```
+```java
 // Java program illustrating Bitset
 // nextSetBit() function.
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6, 12}
 bs3 : {}
@@ -87,7 +87,7 @@ bs3 : {}
 
 **示例 2:** 要显示 IndexOutOfBoundException 异常:
 
-```
+```java
 // Java program illustrating Bitset
 // nextSetBit() function.
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6, 12}
 Exception when negative index is passed as parameter : java.lang.IndexOutOfBoundsException: fromIndex < 0: -1

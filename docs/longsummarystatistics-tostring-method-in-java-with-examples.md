@@ -6,7 +6,7 @@ Java 中 **LongSummaryStatistics 类的 **toString()** 方法用来获取这个 
 
 **语法:**
 
-```
+```java
 public long toString()
 
 ```
@@ -17,7 +17,7 @@ public long toString()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -48,7 +48,7 @@ public class LongSummaryStatisticsDemo {
 
 **输出:**
 
-```
+```java
 The String representation of values is LongSummaryStatistics
 {count=5, sum=150, min=10, average=30.000000, max=50}
 

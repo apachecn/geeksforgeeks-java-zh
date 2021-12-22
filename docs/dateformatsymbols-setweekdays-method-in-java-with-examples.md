@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的**setWeekdays(String[]*****【new weekds】
 
 **语法:**
 
-```
+```java
 public void setWeekdays(String[] *newWeekds*)
 ```
 
@@ -17,7 +17,7 @@ public void setWeekdays(String[] *newWeekds*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate setWeekdays()
 
 import java.text.DateFormatSymbols;
@@ -65,7 +65,7 @@ public class DateFormat_Main {
 
 **Output:** 
 
-```
+```java
 Original: Sunday  Monday  Tuesday  Wednesday  Thursday  Friday  Saturday  
 Modified: WEDNESDAY  THURSDAY  FRIDAY  MONDAY  TUESDAY  SUNDAY  SATURDAY
 ```

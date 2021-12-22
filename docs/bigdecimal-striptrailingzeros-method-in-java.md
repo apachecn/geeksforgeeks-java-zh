@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal stripTrailingZeros()
 
 ```
@@ -17,7 +17,7 @@ public BigDecimal stripTrailingZeros()
 
 **示例:**
 
-```
+```java
 Input: 785.000
 Output: 785
 
@@ -28,7 +28,7 @@ Output: 1.255E+8
 以下程序说明了上述方法的工作:
 **程序 1:**
 
-```
+```java
 // Program to demonstrate stripTrailingZeros() method of BigDecimal 
 
 import java.math.*;
@@ -55,7 +55,7 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 785.000 after removing trailing zeros 785
 125500 after removing trailing zeros 1.255E+5
 
@@ -63,7 +63,7 @@ public class Gfg {
 
 **程序 2:**
 
-```
+```java
 // Program to demonstrate stripTrailingZeros() method of BigDecimal 
 
 import java.math.*;
@@ -90,7 +90,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 785.00000 after removing trailing zeros 785
 125500000 after removing trailing zeros 1.255E+8
 

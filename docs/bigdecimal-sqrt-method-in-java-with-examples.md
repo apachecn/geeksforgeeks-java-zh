@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal sqrt(MathContext mc)
 
 ```
@@ -27,7 +27,7 @@ public BigDecimal sqrt(MathContext mc)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate sqrt() method
 
 import java.math.*;
@@ -59,14 +59,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Square root value of 100000000000000000000 is 1.000000000E+10
 
 ```
 
 **示例 2:** 显示 sqrt()方法引发的异常。
 
-```
+```java
 // Java program to demonstrate sqrt() method
 
 import java.math.*;
@@ -104,7 +104,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: Attempted square root of negative BigDecimal
 
 ```

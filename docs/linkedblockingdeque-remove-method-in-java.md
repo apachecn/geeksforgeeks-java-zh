@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E remove()
 ```
 
@@ -20,7 +20,7 @@ public E remove()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of LinkedBlockingDeque
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 Linked Blocking Deque: [35658786, 5278367, 74381793]
 
@@ -62,7 +62,7 @@ Linked Blocking Deque: [35658786, 5278367, 74381793]
 
 **节目 2:**
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of LinkedBlockingDeque
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.util.NoSuchElementException
     at java.util.concurrent.LinkedBlockingDeque.removeFirst(LinkedBlockingDeque.java:453)
     at java.util.concurrent.LinkedBlockingDeque.remove(LinkedBlockingDeque.java:672)

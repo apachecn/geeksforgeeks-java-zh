@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int precision()
 ```
 
@@ -16,7 +16,7 @@ public int precision()
 
 **示例:**
 
-```
+```java
 Input : 198.176
 Output : 6
 
@@ -28,7 +28,7 @@ Output : 9
 下面的程序说明了 java 中的 java.math.BigDecimal.precision()函数:
 **程序 1:**
 
-```
+```java
 import java.math.*;
 import java.io.*;
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 The precision of 198.176 is 6
 The precision of 721111.111 is 9
 
@@ -59,7 +59,7 @@ The precision of 721111.111 is 9
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // precision() Function
 import java.math.*;
@@ -85,7 +85,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 The precision of 0.3 is 1
 
 ```

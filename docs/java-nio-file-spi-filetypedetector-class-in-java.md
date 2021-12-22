@@ -6,7 +6,7 @@ Java . nio . file . SPI . file type detector Class 扩展了 java.lang.Object Cl
 
 **类申报:**
 
-```
+```java
 public abstract class FileTypeDetector
 extends Object
 ```
@@ -46,7 +46,7 @@ extends Object
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate use of probeContentType()
 // method of FileTypeDetector class
 import java.io.IOException;
@@ -79,6 +79,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 text/plain
 ```

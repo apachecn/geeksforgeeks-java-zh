@@ -21,7 +21,7 @@ TextInputDialog 是 JavaFX 库的一部分。文本输入对话框是一个允�
 
 1.  **Program to create a TextInputDialog and add it to the stage:** This program creates a TextInputDialog with an initial text and a header text. The header text is set using setHeaderText() function. Button is indicated by the name *d* and text input dialog will have name *td*. The button will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the button inside the scene. Finally, the show() method is called to display the final results. The TextInputDialog will be shown on the click of the button.
 
-    ```
+    ```java
     // Java Program to create a text input
     // dialog and add it to the stage
     import javafx.application.Application;
@@ -91,7 +91,7 @@ TextInputDialog 是 JavaFX 库的一部分。文本输入对话框是一个允�
 
 2.  **Program to create a TextInputDialog and add a label to display the text entered:** This program creates a TextInputDialog (*td*). Button indicated by the name *d* and TextInputDialog will have name *td*. The button will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a tile pane is created, on which addChildren() method is called to attach the button inside the scene. Finally, the show() method is called to display the final results.when the button will be clicked the text input dialog will be shown. A label named l will be created that will be added to the scene which will show the text that the user inputs in the dialog.
 
-    ```
+    ```java
     // Java Program to create a text input dialog
     // and add a label to display the text entered
     import javafx.application.Application;

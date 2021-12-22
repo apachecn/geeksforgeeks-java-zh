@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
  public Object[] toArray() 
 
 ```
@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of
 // Objectp[] toArray()
 import java.io.*;
@@ -48,7 +48,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 10 20 30 40 
 ```
 
@@ -56,7 +56,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate that assigning Objects[]
 // to Integer[] causes error.
 import java.io.*;
@@ -84,7 +84,7 @@ class GFG {
 
 输出:
 
-```
+```java
 19: error: incompatible types: Object[] cannot be converted to Integer[]
         Integer[] objects = al.toArray(); 
                                       ^
@@ -96,7 +96,7 @@ class GFG {
 
 **方法二:用 T[]排列(T[] a)**
 
-```
+```java
 // Converts a list into an array arr[] and returns same. 
 // If arr[] is not big enough, then a new array of same
 // type is allocated for this purpose.
@@ -115,7 +115,7 @@ public  T[] toArray(T[] arr)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to convert an ArrayList to arr[]
 import java.io.*;
 import java.util.List;
@@ -141,7 +141,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 10 20 30 40 
 ```
 
@@ -151,7 +151,7 @@ class GFG {
 
 如果我们不想使用 java 内置的 toArray()方法，我们可以使用这个方法。这是将所有数组列表元素复制到字符串数组[]的手动方法。
 
-```
+```java
 // Returns the element at the specified index in the list.
 public E get(int index)
 
@@ -159,7 +159,7 @@ public E get(int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert a ArrayList to an array
 // using get() in a loop.
 import java.io.*;
@@ -189,7 +189,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 10 20 30 40 
 ```
 
@@ -197,14 +197,14 @@ class GFG {
 
 我们可以使用 list 和 mapToInt()的 streams()方法将 ArrayList <integer>转换为 Int 类型的原始数据数组</integer>
 
-```
+```java
 int[] arr = list.stream().mapToInt(i -> i).toArray();
 
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert a ArrayList to an array
 
 // using streams()
@@ -233,7 +233,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 10 20 30 40 
 ```
 

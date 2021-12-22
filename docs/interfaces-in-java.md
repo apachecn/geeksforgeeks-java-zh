@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 interface <interface_name> {
 
     // declare constant fields
@@ -32,7 +32,7 @@ interface <interface_name> {
 
     原因是，抽象类可能包含非最终变量，而接口中的变量是最终的、公共的和静态的。
 
-    ```
+    ```java
     // A simple interface
     interface Player
     {
@@ -43,7 +43,7 @@ interface <interface_name> {
 
 为了实现接口，我们使用关键字:implements
 
-```
+```java
 // Java program to demonstrate working of 
 // interface.
 import java.io.*;
@@ -80,7 +80,7 @@ class TestClass implements In1
 
 输出:
 
-```
+```java
 Geek
 10
 
@@ -89,7 +89,7 @@ Geek
 **一个真实世界的例子:**
 让我们考虑像自行车、汽车、自行车这样的交通工具的例子……它们有共同的功能。所以我们做了一个界面，把所有这些共同的功能。让自行车，自行车，汽车。etc 以自己的方式在自己的类中实现所有这些功能。
 
-```
+```java
 import java.io.*;
 
 interface Vehicle {
@@ -192,7 +192,7 @@ class GFG {
 
 输出；
 
-```
+```java
 Bicycle present state :
 speed: 2 gear: 2
 Bike present state :
@@ -206,7 +206,7 @@ speed: 1 gear: 1
 
 假设我们需要在现有的接口中添加一个新的函数。显然，旧代码将无法工作，因为类没有实现那些新功能。因此，在默认实现的帮助下，我们将为新添加的函数提供一个默认主体。那么旧的代码仍然有效。
 
-```
+```java
 // An example to show that interfaces can
 // have methods from JDK 1.8 onwards
 interface In1
@@ -232,14 +232,14 @@ class TestClass implements In1
 
 输出:
 
-```
+```java
 hello
 
 ```
 
 *   Another feature that was added in JDK 8 is that we can now define static methods in interfaces which can be called independently without an object. Note: these methods are not inherited.
 
-    ```
+    ```java
     // An example to show that interfaces can
     // have methods from JDK 1.8 onwards
     interface In1
@@ -264,7 +264,7 @@ hello
 
     输出:
 
-    ```
+    ```java
     hello
     ```
 

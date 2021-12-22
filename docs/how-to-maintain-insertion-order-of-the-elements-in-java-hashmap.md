@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : HashMapInput = {c=6, a=1, b=2}
 Output: HashMapPrint = {c=6, a=1, b=2}
 
@@ -24,7 +24,7 @@ Output: HashMapPrint = {"first"=1, "second"=3}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to maintain insertion order
 // of the elements in HashMap
 
@@ -59,7 +59,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterate over original HashMap
 01 => : aaaaaaa
 02 => : kkkkkkk
@@ -73,7 +73,7 @@ Iterate over original HashMap
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to maintain insertion order
 // of the elements in HashMap
 
@@ -107,7 +107,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Iterate over LinkedHashMap
 01 => : aaaaaaa
 03 => : bbbbbbb

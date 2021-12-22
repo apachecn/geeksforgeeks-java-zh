@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 DoubleObject.doubleValue()
 ```
 
@@ -16,7 +16,7 @@ DoubleObject.doubleValue()
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // Double doubleValue() method
 
@@ -43,14 +43,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Double value of 17.47 is : 17.47
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java code to demonstrate
 // Double doubleValue() method
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Double value of 54.1 is : 54.1
 
 ```

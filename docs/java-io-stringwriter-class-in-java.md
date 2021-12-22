@@ -8,7 +8,7 @@
 
 **申报:**
 
-```
+```java
 public class StringWriter
   extends Writer
 ```
@@ -23,7 +23,7 @@ public class StringWriter
 *   **write(int char):Java . io . stringwriter . write(int char)**将单个字符写入 String Buffer。
     **语法:**
 
-```
+```java
 public void write(int char)
 Parameters : 
 char : int value of the character to be written.
@@ -34,7 +34,7 @@ void
 *   **write(String str):Java . io . stringwriter . write(String str)**将字符串写入字符串缓冲区。
     **语法:**
 
-```
+```java
 public void write(String str)
 Parameters : 
 str : string to be written to the String Buffer.
@@ -45,7 +45,7 @@ void
 *   **write(String str，int offset，int maxlen):Java . io . stringwriter . write(String str，int offset，int maxlen)** 将字符串的某一部分写入 String Buffer。
     **语法:**
 
-```
+```java
 public void write(String str, int offset, int maxlen)
 Parameters : 
 str : string to be written to the String Buffer.
@@ -58,7 +58,7 @@ void
 *   **write(char[] carray，int offset，int maxlen):Java . io . stringwriter . write(char[]carray，int offset，int maxlen)** 将字符数组的某个部分写入 String Buffer。
     **语法:**
 
-```
+```java
 public void write(char[] carray, int offset, int maxlen)
 Parameters : 
 carray : character to be written to the String Buffer
@@ -71,7 +71,7 @@ void
 *   **toString():Java . io . stringwriter . toString()**将字符串缓冲区的值作为字符串返回
     **语法:**
 
-```
+```java
 public String toString()
 Parameters : 
 -----------
@@ -82,7 +82,7 @@ string value of the String Buffer
 *   **close():Java . io . stringwriter . close()**关闭 String Buffer。因为方法也可以在关闭字符串缓冲区后调用，所以它不起作用。
     **语法:**
 
-```
+```java
 public void close()
 Parameters : 
 -----------
@@ -94,7 +94,7 @@ void
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of StringWriter class methods
 // write(int char), write(String str), close()
 // write(String str, int offset, int maxlen), toString()
@@ -165,7 +165,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Using write(int char) : GFG
 Using write(String str) : Hello Geeks
 Using write(str, offset, maxlen) : llo  Geeks
@@ -175,7 +175,7 @@ Using write(carray, offset, maxlen) : o Geek
 *   **追加(char Sw):Java . io . stringwriter . append(char Sw)**向字符串缓冲区追加一个字符。
     **语法:**
 
-```
+```java
 public StringWriter append(char Sw)
 Parameters : 
 Sw : character to be append
@@ -186,7 +186,7 @@ StringWriter
 *   **追加(CharSequence char _ sq):Java . io . stringwriter . append(CharSequence char _ sq)**将指定的字符序列追加到字符串缓冲区。
     **语法:**
 
-```
+```java
 public StringWriter append(CharSequence char_sq)
 Parameters : 
 char_sq : Character sequence to append. 
@@ -197,7 +197,7 @@ StringWriter, if char sequence is null, then NULL appends to the StringWriter.
 *   **追加(CharSequence char_sq，int start，int end):Java . io . stringwriter . append(CharSequence char _ sq，int start，int end)** 将字符序列的指定部分追加到字符串缓冲区。
     **语法:**
 
-```
+```java
 public StringWriter append(CharSequence char_sq, int start, int end)
 Parameters : 
 char_sq : Character sequence to append.
@@ -210,7 +210,7 @@ void
 *   **flush():Java . io . StringWriter . flush()**刷新 StringWriter 流
     **语法:**
 
-```
+```java
 public void flush()
 Parameters : 
 -----
@@ -221,7 +221,7 @@ void
 *   **getBuffer():Java . io . StringWriter . getBuffer()**返回 StringWriter 的字符串缓冲区。
     **语法:**
 
-```
+```java
 public StringBuffer getBuffer()
 Parameters : 
 -----------
@@ -233,7 +233,7 @@ String Buffer with its current value.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating the working of StringWriter class methods
 // append(CharSequence char_sq), append(char Sw)
 // append(CharSequence char_sq, int start,int end)
@@ -290,7 +290,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Using write(int char) : GFG
 Using flush() : GFG
 append(char Sw) : GFG 1GFG1

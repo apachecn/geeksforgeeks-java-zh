@@ -29,7 +29,7 @@
 所有其他时间域实例都将返回 false。
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalField field)
 ```
 
@@ -40,7 +40,7 @@ public boolean isSupported(TemporalField field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.isSupported() method
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 MilliSecond Field is supported: true
 ```
 
@@ -88,7 +88,7 @@ MilliSecond Field is supported: true
 所有其他计时单位实例将返回 false。
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalUnit unit)
 ```
 
@@ -99,7 +99,7 @@ public boolean isSupported(TemporalUnit unit)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.isSupported() method
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ChronoUnit MILLIS is  supported: true
 ```
 

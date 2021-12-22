@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int intValue()
 
 ```
@@ -19,7 +19,7 @@ public int intValue()
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the intValue() method
 
 import java.lang.*;
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after intValue() is: 21.0
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the intValue() method
 
 import java.lang.*;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 the value after intValue() is: 11.0
 
 ```

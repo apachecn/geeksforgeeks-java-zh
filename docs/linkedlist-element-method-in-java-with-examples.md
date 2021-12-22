@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E element()
 ```
 
@@ -16,7 +16,7 @@ public E element()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // element() method
 // for Integer value
@@ -57,7 +57,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 LinkedList : [10, 20, 30]
 Head of list : 10
 
@@ -65,7 +65,7 @@ Head of list : 10
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // element() method
 // for String value
@@ -106,7 +106,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 LinkedList : [A, B, C]
 Head of list : A
 

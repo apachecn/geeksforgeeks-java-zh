@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isMirrored(char ch)
 
 Parameters: 
@@ -20,7 +20,7 @@ ch - char for which the mirrored property is requested
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.isMirrored() function
 // When the character is a valid one.
@@ -55,7 +55,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 [ is a mirrored character is true
 + is a mirrored character is false
 } is a mirrored character is true
@@ -65,7 +65,7 @@ public class gfg {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the
 // Character.isMirrored() function
 // When the character is a invalid one.
@@ -92,7 +92,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 4 is a mirrored character is false
 0 is a mirrored character is false
 

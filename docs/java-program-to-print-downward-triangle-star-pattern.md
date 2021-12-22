@@ -4,7 +4,7 @@
 
 向下的三角形星形图案表示我们想要打印一个面向下的三角形，这意味着底部是向上的，默认情况下，方向是向左的，所以想要打印的三角形应该看起来像
 
-```
+```java
 * * * *
 * * *
 * *
@@ -15,7 +15,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Print Lower Star Triangle Pattern
 
 // Main class
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 * * * * * * * * * 
 * * * * * * * * 
 * * * * * * * 

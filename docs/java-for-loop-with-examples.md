@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 for (initialization expr; test expr; update exp)
 {
      // body of the loop
@@ -22,7 +22,7 @@ For 循环的各个**部分是:**
 1.**初始化表达式:**在这个表达式中，我们必须将循环计数器初始化为某个值。
 **例:**
 
-```
+```java
 int i=1;
 
 ```
@@ -30,7 +30,7 @@ int i=1;
 2.**测试表达式:**在这个表达式中，我们要测试条件。如果条件评估为真，那么我们将执行循环的主体并更新表达式。否则，我们将退出 for 循环。
 **例:**
 
-```
+```java
 i <= 10
 
 ```
@@ -38,7 +38,7 @@ i <= 10
 3.**更新表达式**:执行循环体后，该表达式将循环变量递增/递减某个值。
 **例:**
 
-```
+```java
 i++;
 
 ```
@@ -63,7 +63,7 @@ i++;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate for loop
 class forLoopDemo {
     public static void main(String args[])
@@ -76,7 +76,7 @@ class forLoopDemo {
 }
 ```
 
-```
+```java
 Output:
 
 Hello World
@@ -88,7 +88,7 @@ Hello World
 
 **试运行示例 1:** 程序将以以下方式执行。
 
-```
+```java
 1\. Program starts.
 2\. i is initialized with value 1.
 3\. Condition is checked. 1 <= 5 yields true.
@@ -114,7 +114,7 @@ Hello World
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate for loop.
 class forLoopDemo {
     public static void main(String args[])
@@ -133,7 +133,7 @@ class forLoopDemo {
 
 **Output:** 
 
-```
+```java
 Sum: 210
 ```
 
@@ -143,7 +143,7 @@ Java 还包括 Java 5 中引入的 for 循环的另一个版本。增强的 for 
 **注意:**当使用增强 for 循环时，对象/变量是不可变的，即它确保数组中的值不能被修改，因此可以说它是一个只读循环，在那里您不能更新值，而在其他循环中，值可以被修改。
 **语法:**
 
-```
+```java
 for (T element:Collection obj/array)
 {
     // loop body
@@ -155,7 +155,7 @@ for (T element:Collection obj/array)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate enhanced for loop
 
 public class enhancedforloop {
@@ -181,7 +181,7 @@ public class enhancedforloop {
 
 **Output:** 
 
-```
+```java
 Ron
 Harry
 Hermoine

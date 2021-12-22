@@ -22,13 +22,13 @@
 1.  **‘Logical AND’ Operator(&&):** This operator returns true when both the conditions under consideration are satisfied or are true. If even one of the two yields false, the operator results false. For example, cond1 && cond2 returns true when both cond1 and cond2 are true (i.e. non-zero).
     **Syntax:**
 
-    ```
+    ```java
     condition1 && condition2
     ```
 
     **示例:**
 
-    ```
+    ```java
     a = 10, b = 20, c = 20
 
     condition1: a < b
@@ -41,7 +41,7 @@
     d = 50.
     ```
 
-    ```
+    ```java
     // Java code to illustrate
     // logical AND operator
 
@@ -72,7 +72,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Var1 = 10
     Var2 = 20
     Var3 = 20
@@ -83,13 +83,13 @@
 2.  **'Logical OR' Operator(||):** This operator returns true when one of the two conditions under consideration are satisfied or are true. If even one of the two yields true, the operator results true. To make the result false, both the constraints need to return false.
     **Syntax:**
 
-    ```
+    ```java
     condition1 || condition2
     ```
 
     **示例:**
 
-    ```
+    ```java
     a = 10, b = 20, c = 20
 
     condition1: a < b
@@ -102,7 +102,7 @@
     d = 50.
     ```
 
-    ```
+    ```java
     // Java code to illustrate
     // logical OR operator
 
@@ -134,7 +134,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Var1 = 10
     Var2 = 1
     Var3 = 10
@@ -147,13 +147,13 @@
 
     **语法:**
 
-    ```
+    ```java
     !(condition)
     ```
 
     **示例:**
 
-    ```
+    ```java
     a = 10, b = 20
 
     !(a<b) // returns false
@@ -161,7 +161,7 @@
 
     ```
 
-    ```
+    ```java
     // Java code to illustrate
     // logical NOT operator
     import java.io.*;
@@ -185,7 +185,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Var1 = 10
     Var2 = 1
     !(a < b) = true

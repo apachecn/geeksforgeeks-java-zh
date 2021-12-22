@@ -5,7 +5,7 @@
 Java . util . LinkedList . remove last()方法用于从 linked list 中移除最后一个元素。此方法还会在移除元素后返回该元素。
 **语法:**
 
-```
+```java
 LinkedList.removeLast()
 ```
 
@@ -15,7 +15,7 @@ LinkedList.removeLast()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate removeLast()
 import java.io.*;
 import java.util.LinkedList;
@@ -53,7 +53,7 @@ public class LinkedListDemo {
 
 **Output:** 
 
-```
+```java
 LinkedList:[Geeks, for, Geeks, 10, 20]
 The last element is removed: 20
 Final LinkedList:[Geeks, for, Geeks, 10]

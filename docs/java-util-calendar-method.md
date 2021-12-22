@@ -6,7 +6,7 @@ java.util.Calendar.after()是 java.util 包的 **Calendar** 类中的一个方�
 
 **语法:**
 
-```
+```java
 public boolean after(Object when)
 
 Where, when is the Object 
@@ -18,7 +18,7 @@ that is to be compared.
 
 **例 1 :**
 
-```
+```java
 // Java code show the usage of
 // after() method of Calendar class
 import java.util.*;
@@ -50,7 +50,7 @@ public static void main(String[] args) 
 
 输出:
 
-```
+```java
 Time 1 : Thu Mar 01 09:26:04 UTC 2018
 Time 2 : Thu Mar 01 09:26:04 UTC 2018
 false
@@ -59,7 +59,7 @@ false
 
 **例 2 :**
 
-```
+```java
 // Java code to show the usage of
 // after() method of Calendar class
 import java.util.*;
@@ -88,7 +88,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Current date is : Thu Mar 01 09:27:19 UTC 2018
 Result : true
 

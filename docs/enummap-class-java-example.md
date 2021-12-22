@@ -14,7 +14,7 @@ EnumMap 是[枚举类型](https://www.geeksforgeeks.org/enum-in-java/)的[映射
 
 ****语法:**声明**
 
-```
+```java
 public class EnumMap<K extends Enum<K>,​V> extends AbstractMap<K,​V> implements Serializable, Cloneable
 ```
 
@@ -39,7 +39,7 @@ public class EnumMap<K extends Enum<K>,​V> extends AbstractMap<K,​V> impleme
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate Working of EnumMap class
 // and its functions
 
@@ -106,7 +106,7 @@ public class EnumMapExample {
 
 ****Output**
 
-```
+```java
 Size of EnumMap in java: 4
 EnumMap: {CODE=Start Coding with gfg, CONTRIBUTE=Contribute for others, QUIZ=Practice Quizes, MCQ=Test Speed with Mcqs}
 Key : CODE Value: Start Coding with gfg
@@ -123,7 +123,7 @@ Does gfgMap has :QUIZ : false
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Add Elements to the EnumMap
 
 // Importing EnumMap class
@@ -165,7 +165,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 EnumMap colors1: {RED=1, GREEN=2}
 EnumMap colors2: {RED=1, GREEN=2, BLUE=3}
 ```** 
@@ -176,7 +176,7 @@ EnumMap colors2: {RED=1, GREEN=2, BLUE=3}
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Access the Elements of EnumMap
 
 // Importing required classes
@@ -224,7 +224,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 EnumMap colors : {RED=1, GREEN=2, BLUE=3, WHITE=4}
 Key/Value mappings: [RED=1, GREEN=2, BLUE=3, WHITE=4]
 Keys: [RED, GREEN, BLUE, WHITE]
@@ -240,7 +240,7 @@ Value of RED : 1
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Remove Elements of EnumMap
 
 // Importing EnumMap class
@@ -301,7 +301,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 EnumMap colors : {RED=1, GREEN=2, BLUE=3, WHITE=4}
 Removed Value: 4
 Is the entry {RED=1} removed? true
@@ -316,7 +316,7 @@ Updated EnumMap: {GREEN=2, BLUE=3}
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Replace Elements of EnumMap
 
 // Importing required classes
@@ -374,7 +374,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 EnumMap colors {RED=1, GREEN=2, BLUE=3, WHITE=4}
 EnumMap using replace(): {RED=11, GREEN=12, BLUE=3, WHITE=4}
 EnumMap using replaceAll(): {RED=14, GREEN=15, BLUE=6, WHITE=7}
@@ -384,7 +384,7 @@ EnumMap using replaceAll(): {RED=14, GREEN=15, BLUE=6, WHITE=7}
 
 **枚举映射的实现不同步。这意味着，如果多个线程同时访问一个树集合，并且至少有一个线程修改了该集合，那么它必须在外部同步。这通常通过使用[集合类](https://www.geeksforgeeks.org/collections-class-in-java/)的 synchronizedMap()方法来实现。这最好在创建时完成，以防止意外的不同步访问。**
 
-```
+```java
  Map<EnumKey, V> m = Collections.synchronizedMap(new EnumMap<EnumKey, V>(...));
 ```
 

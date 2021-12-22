@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public class Vector<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, Serializable
 ```
 
@@ -40,25 +40,25 @@ public class Vector<E> extends AbstractList<E> implements List<E>, RandomAccess,
 
 ****1。Vector():** 创建初始容量为 10 的默认向量。**
 
-```
+```java
 Vector<E> v = new Vector<E>();
 ```
 
 ****2。向量(int size):** 创建一个向量，其初始容量由大小指定。**
 
-```
+```java
 Vector<E> v = new Vector<E>(int size);
 ```
 
 ****3。向量(int size，int incr):** 创建一个向量，其初始容量由大小指定，增量由 incr 指定。它指定每次向上调整向量大小时要分配的元素数量。**
 
-```
+```java
 Vector<E> v = new Vector<E>(int size, int incr);
 ```
 
 ****4。向量(集合 c):** 创建包含集合 c 元素的向量**
 
-```
+```java
 Vector<E> v = new Vector<E>(Collection c);
 ```
 
@@ -137,7 +137,7 @@ Vector<E> v = new Vector<E>(Collection c);
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate Working of Vector
 // Via Creating and Using It
 
@@ -185,7 +185,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 5]
 1 2 3 5
@@ -216,7 +216,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Add Elements in Vector Class
 
 // Importing required classes
@@ -266,7 +266,7 @@ class GFG {
 
 **![](img/f13ec186adab404c54e8fa1166d75d8b.png)**
 
-```
+```java
 Vector v1 is [1, 2, geeks, forGeeks, 3]
 Vector v2 is [1, 2, 3]
 ```
@@ -279,7 +279,7 @@ Vector v2 is [1, 2, 3]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to change the
 // elements in vector class
 
@@ -318,7 +318,7 @@ public class UpdatingVector {
 
 ****Output**
 
-```
+```java
 Vector: [12, 23, 22, 10, 20]
 The Object that is replaced is: 12
 The Object that is replaced is: 20
@@ -336,7 +336,7 @@ The new Vector is:[21, 23, 22, 10, 50]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code illustrating the removal
 // of elements from vector
 
@@ -369,7 +369,7 @@ class RemovingElementsFromVector {
 
 ****输出:****
 
-```
+```java
 after removal: [1, Geeks, forGeeks, 4]
 ```
 
@@ -381,7 +381,7 @@ after removal: [1, Geeks, forGeeks, 4]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to iterate the elements
 // in a Vector
 
@@ -417,7 +417,7 @@ public class IteratingVector {
 
 ****Output**
 
-```
+```java
 Geeks For Geeks 
 Geeks For Geeks
 ```** 

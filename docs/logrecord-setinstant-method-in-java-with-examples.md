@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setInstant(Instant instant)
 
 ```
@@ -23,7 +23,7 @@ public void setInstant(Instant instant)
 下面的程序说明了 setInstant()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // setInstant() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Event Time 2018-12-30T19:34:50.630Z
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // setInstant() method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Event Time 2019-10-20T19:32:50.818428ZEvent Time 09 Sep 2001 07:16:39:900 +0530
 
 ```

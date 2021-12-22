@@ -6,7 +6,7 @@ List 接口的这个方法用于将参数中指定的元素追加到列表的末
 
 **语法:**
 
-```
+```java
 boolean add(E e)
 ```
 
@@ -18,7 +18,7 @@ boolean add(E e)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // add method in list interface
 import java.util.*;
@@ -38,14 +38,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 15, 20]
 
 ```
 
 **程序 2:** 下面是使用 Linkedlist 展示 list.add()实现的代码。
 
-```
+```java
 // Java code to show the implementation of
 // add method in list interface using LinkedList
 import java.util.*;
@@ -69,7 +69,7 @@ public class CollectionsDemo {
 
 **Output:**
 
-```
+```java
 [100, 200, 300, 400, 500]
 
 ```

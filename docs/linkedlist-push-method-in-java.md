@@ -6,7 +6,7 @@ java.util.LinkedList.push()方法用于在 LinkedList 表示的堆栈的开始(�
 
 **语法**:
 
-```
+```java
 LinkedListObject.push(Object element)
 
 ```
@@ -19,7 +19,7 @@ LinkedListObject.push(Object element)
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate push() method
 import java.util.LinkedList;
 
@@ -48,14 +48,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [GeeksforGeeks, Like, I]
 
 ```
 
 **程序 2 :**
 
-```
+```java
 // Java code to demonstrate push() method
 
 import java.util.LinkedList;
@@ -85,7 +85,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 20, 30]
 
 ```

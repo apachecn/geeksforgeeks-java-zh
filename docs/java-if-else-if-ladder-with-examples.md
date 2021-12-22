@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 if (condition)
     statement 1;
 else if (condition)
@@ -43,7 +43,7 @@ else
 
 **例 1:**
 
-```
+```java
 // Java program to illustrate if-else-if ladder
 
 import java.io.*;
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 i is 20
 
 Outside if-else-if
@@ -85,7 +85,7 @@ Outside if-else-if
 
 **干运转例 1:**
 
-```
+```java
 1\. Program starts.
 2\. i is initialized to 20.
 3\. condition 1 is checked. 20 == 10, yields false.
@@ -98,7 +98,7 @@ Outside if-else-if
 
 **例 2:**
 
-```
+```java
 // Java program to illustrate if-else-if ladder
 
 import java.io.*;
@@ -133,7 +133,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 i is greater than or equal to 20
 
 Outside if-else-if

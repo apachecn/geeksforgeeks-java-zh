@@ -19,14 +19,14 @@
 
     1.  **虚空破坏():**杀死子进程。
 
-    ```
+    ```java
     Syntax: public abstract void destroy().
     Returns: NA.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating destroy() 
     // method for windows operating system
     public class ProcessDemo 
@@ -60,14 +60,14 @@
 
     输出:
 
-    ```
+    ```java
     Creating Process
     Waiting
     Process destroyed
 
     ```
 
-    ```
+    ```java
     // Java code illustrating destroy()
     // method for Mac Operating System
     import java.lang.*;
@@ -96,7 +96,7 @@
 
     输出:
 
-    ```
+    ```java
     Creating process
     destroying process
 
@@ -104,7 +104,7 @@
 
     *   **int exitValue():** This method returns the exit value for the subprocess.
 
-    ```
+    ```java
     Syntax: public abstract int exitValue().
     Returns: This method returns the exit value of 
     the subprocess represented by this Process object. 
@@ -114,7 +114,7 @@
 
     ```
 
-    ```
+    ```java
     // Java code illustrating exitValue() method
     public class ProcessDemo 
     {
@@ -145,7 +145,7 @@
 
     输出:
 
-    ```
+    ```java
     Creating Process
     1
 
@@ -153,14 +153,14 @@
 
     *   **abstract InputStream getErrorStream():** This method gets the input stream of the subprocess.
 
-    ```
+    ```java
     Syntax: public abstract InputStream getInputStream().
     Returns: input stream that reads input from the process out output stream.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating
     // getInputStream() method
     import java.lang.*;
@@ -191,7 +191,7 @@
 
     输出:
 
-    ```
+    ```java
     1
     2
     3
@@ -200,14 +200,14 @@
 
     *   **abstract OutputStream getOutputStream():** This method gets the output stream of the subprocess. Output to the stream is piped into the standard input stream of the process represented by this Process object.
 
-    ```
+    ```java
     Syntax: public abstract OutputStream getOutputStream()
     Returns: the output stream connected to the normal input of the subprocess.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating 
     // getOutputStream() method
     import java.io.BufferedOutputStream;
@@ -240,7 +240,7 @@
 
     输出:
 
-    ```
+    ```java
     Creating Process...
     Closing the output stream...
 
@@ -248,14 +248,14 @@
 
     *   **abstract InputStream getErrorStream():** It returns an input stream that reads input from the process **err** output stream.
 
-    ```
+    ```java
     Syntax: public abstract InputStream getErrorStream().
     Returns: the input stream connected to the error stream of the subprocess.
     Exception: NA.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating 
     // getErrorStream() method
     import java.io.InputStream;
@@ -295,21 +295,21 @@
 
     输出:
 
-    ```
+    ```java
     Creating Process
 
     ```
 
     *   **int waitFor():** Returns the exit code returned by the process. This method does not return until the process on which it is called terminates.
 
-    ```
+    ```java
     Syntax: public int waitFor().
     Returns: the exit value of the process. By convention, 0 indicates normal termination.
     Exception: throws InterruptedException.
 
     ```
 
-    ```
+    ```java
     // Java code illustrating 
     // waitFor() method
 
@@ -341,7 +341,7 @@
 
     输出:
 
-    ```
+    ```java
     Creating Process...
     Waiting over.
 

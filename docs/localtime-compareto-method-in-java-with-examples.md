@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(LocalTime other)
 
 ```
@@ -27,7 +27,7 @@ public int compareTo(LocalTime other)
 
 **程序 1:** 当该本地时间大于
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.compareTo() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **时，输出:**
 
-```
+```java
 Int Value:1
 LocalTime1 is greater
 
@@ -70,7 +70,7 @@ LocalTime1 is greater
 
 **程序 2:** 通过时本地时间大于
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.compareTo() method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Int Value:-1
 LocalTime2 is greater
 
@@ -113,7 +113,7 @@ LocalTime2 is greater
 
 **程序 3:** 当两个本地时间相等时
 
-```
+```java
 // Java program to demonstrate
 // LocalTime.compareTo() method
 
@@ -148,7 +148,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Int Value:0
 LocalTime1 is equal to LocalTime2
 

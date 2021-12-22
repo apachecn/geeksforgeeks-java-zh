@@ -16,11 +16,11 @@ JAR——Java 档案。它就像一个 zip 文件，但是对于 java 类来说�
 
 必须安装 Java (JDK + JRE)。使用命令检查–
 
-```
+```java
 Java --version
 ```
 
-```
+```java
 jar --version
 ```
 
@@ -30,7 +30,7 @@ jar --version
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Class2 {
     public static void cls2Method(){
         System.out.println(" Hello from Class2 ");
@@ -63,7 +63,7 @@ public class Class1 {
 
 **输出**
 
-```
+```java
 Hello from Class1 
 Hello from Class2 
 Hello from Class3 
@@ -93,7 +93,7 @@ Hello from Class4
 
 该命令的简写为–
 
-```
+```java
 jar -cvf allClasses.jar *
 ```
 
@@ -101,7 +101,7 @@ jar -cvf allClasses.jar *
 
 **要更新，**
 
-```
+```java
 jar -uf allClasses.jar Class4.class
 ```
 
@@ -115,7 +115,7 @@ jar -uf allClasses.jar Class4.class
 
 或者
 
-```
+```java
 jar -cvf0 allClasses.jar *
 ```
 
@@ -127,7 +127,7 @@ jar -cvf0 allClasses.jar *
 
 jar 文件的执行相当简单。只需使用命令
 
-```
+```java
 java -jar allClasses.jar
 ```
 
@@ -141,7 +141,7 @@ java -jar allClasses.jar
 
 现在，文件将如下所示
 
-```
+```java
 Manifest-Version: 1.0
 Created-By: Ubuntu
 Main-Class: Class1
@@ -149,13 +149,13 @@ Main-Class: Class1
 
 再次运行命令
 
-```
+```java
 java -jar allClasses.jar
 ```
 
 **输出:**
 
-```
+```java
 Hello from Class1 
 Hello from Class2 
 Hello from Class3 
@@ -166,7 +166,7 @@ Hello from Class4
 
 如果仍然出现错误并且无法找到错误，请使用以下解决方法–
 
-```
+```java
 java -cp allClasses.jar Class1
 ```
 
@@ -176,12 +176,12 @@ java -cp allClasses.jar Class1
 
 要提取，请使用命令–
 
-```
+```java
 jar --extract --file allClasses.jar
 ```
 
 **或**
 
-```
+```java
 jar -xf allClasses.jar
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 protected void finalize throws Throwable{}
 
 ```
@@ -22,7 +22,7 @@ finalize()方法在垃圾收集器为特定对象运行之前释放系统资源�
 
 为了[覆盖这个方法](https://www.geeksforgeeks.org/overriding-in-java/)，我们必须在代码中显式定义和调用 finalize。
 
-```
+```java
 // Java code to show the
 // overriding of finalize() method
 
@@ -68,7 +68,7 @@ public class demo {
 
 **Output:**
 
-```
+```java
 inside demo's finalize()
 Calling finalize method of the Object class
 

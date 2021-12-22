@@ -31,7 +31,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to convert from
 // rupee to the dollar and vice-versa
 // using Java Swing

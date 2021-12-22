@@ -13,7 +13,7 @@ Java 中的泛型类似于 C++中的[模板](http://geeksquiz.com/templates-cpp/
 **泛型类**
 和 C++一样，我们在泛型类创建中使用< >来指定参数类型。要创建泛型类的对象，我们使用以下语法。
 
-```
+```java
 // To create an instance of generic class 
 BaseType <Type> obj = new BaseType <Type>()
 
@@ -23,7 +23,7 @@ Note: In Parameter type we can not use primitives like
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Simple Java program to show working of user defined
 // Generic classes
 
@@ -55,7 +55,7 @@ class Main
 
 输出:
 
-```
+```java
 15
 GeeksForGeeks
 ```
@@ -64,7 +64,7 @@ GeeksForGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Simple Java program to show multiple
 // type parameters in Java Generics
 
@@ -104,7 +104,7 @@ class Main
 
 输出:
 
-```
+```java
 GfG
 15
 ```
@@ -114,7 +114,7 @@ GfG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Simple Java program to show working of user defined
 // Generic functions
 
@@ -144,7 +144,7 @@ class Test
 
 输出:
 
-```
+```java
 java.lang.Integer = 11
 java.lang.String = GeeksForGeeks
 java.lang.Double = 1.0
@@ -155,7 +155,7 @@ java.lang.Double = 1.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 Test<int> obj = new Test<int>(20); 
 ```
 
@@ -165,7 +165,7 @@ Test<int> obj = new Test<int>(20); 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 ArrayList<int[]> a = new ArrayList<>();
 ```
 
@@ -175,7 +175,7 @@ ArrayList<int[]> a = new ArrayList<>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Simple Java program to show working
 // of user-defined Generic classes
 
@@ -208,7 +208,7 @@ class Main
 
 **输出:**
 
-```
+```java
 
 error:
  incompatible types:
@@ -225,7 +225,7 @@ error:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Simple Java program to demonstrate that NOT using
 // generics can cause run time exceptions
 import java.util.*;
@@ -252,7 +252,7 @@ class Test
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.ClassCastException: 
    java.lang.Integer cannot be cast to java.lang.String
     at Test.main(Test.java:19)
@@ -263,7 +263,7 @@ Exception in thread "main" java.lang.ClassCastException:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Using generics converts run time exceptions into 
 // compile time exception.
 import java.util.*;
@@ -290,7 +290,7 @@ class Test
 
 **Output:**
 
-```
+```java
 15: error: no suitable method found for add(int)
         al.add(10); 
           ^
@@ -300,7 +300,7 @@ class Test
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // We don't need to typecast individual members of ArrayList
 import java.util.*;
 

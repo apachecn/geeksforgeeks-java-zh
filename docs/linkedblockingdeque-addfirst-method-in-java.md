@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void addFirst(E e)
 ```
 
@@ -23,7 +23,7 @@ public void addFirst(E e)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate addFirst()
 // method of LinkedBlockingDeque
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [74381793, 5278367, 35658786, 7855642]
 
 ```
 
 **节目 2:**
 
-```
+```java
 // Java Program Demonstrate addFirst()
 // method of LinkedBlockingDeque
 // when it is Full
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.IllegalStateException: Deque full
     at java.util.concurrent.LinkedBlockingDeque.addFirst(LinkedBlockingDeque.java:326)
     at GFG.main(GFG.java:23)
@@ -102,7 +102,7 @@ Exception in thread "main" java.lang.IllegalStateException: Deque full
 
 **节目 3:**
 
-```
+```java
 // Java Program Demonstrate addFirst()
 // method of LinkedBlockingDeque
 // when nill is inserted
@@ -135,7 +135,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at java.util.concurrent.LinkedBlockingDeque.offerFirst(LinkedBlockingDeque.java:342)
     at java.util.concurrent.LinkedBlockingDeque.addFirst(LinkedBlockingDeque.java:325)

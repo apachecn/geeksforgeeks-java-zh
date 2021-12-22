@@ -5,7 +5,7 @@
 **Java . time . chrono . Japanese 年表**类的 **dateEpochDay()** 方法用于根据日本日历系统从大纪元日获取日本日期。
 **语法:**
 
-```
+```java
 public JapaneseDate dateEpochDay(long epochDay)
 ```
 
@@ -17,7 +17,7 @@ public JapaneseDate dateEpochDay(long epochDay)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateEpochDay() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current JapaneseDate is: Japanese Reiwa 3-06-22
 
 JapaneseDate(according to ephochday) is: Japanese Reiwa 16-03-22
@@ -75,7 +75,7 @@ JapaneseDate(according to ephochday) is: Japanese Reiwa 16-03-22
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateEpochDay() method
 
@@ -122,7 +122,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current JapaneseDate is: Japanese Heisei 32-04-13
 passed parameter can not form a date
 Exception thrown: java.time.DateTimeException: JapaneseDate before Meiji 6 is not supported

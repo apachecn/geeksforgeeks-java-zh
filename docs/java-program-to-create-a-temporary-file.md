@@ -15,14 +15,14 @@
 
 **语法:导入文件库或类**
 
-```
+```java
 import java.util.File ;
 
 ```
 
 **语法:创建新文件**
 
-```
+```java
 File object_name = new File(Directory)
 
 ```
@@ -31,14 +31,14 @@ File object_name = new File(Directory)
 
 在 Linux 和 Mac 中
 
-```
+```java
 /Users/mayanksolanki/Desttop/Folder/
 
 ```
 
 在 Windows 中，使用“\\”代替“/”来转义“\”字符。所以访问相同的目录
 
-```
+```java
 \\Users\\mayanksolanki\\Desktop\\Folder\\
 
 ```
@@ -80,7 +80,7 @@ File object_name = new File(Directory)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /// Java program to illustrate a temporary file creation
 import java.io.File;
 import java.io.IOException;
@@ -128,7 +128,7 @@ public class GFG {
 
 **图像 2:** 表示在系统上创建任何临时文件之前的实例的快照
 
-```
+```java
 ls // The terminal command used here to check files inside the current folder
 
 ```
@@ -145,7 +145,7 @@ ls // The terminal command used here to check files inside the current folder
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing Classes/Files
 import java.io.File;
 

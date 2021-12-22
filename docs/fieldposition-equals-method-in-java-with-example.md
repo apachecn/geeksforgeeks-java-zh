@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -17,7 +17,7 @@ public boolean equals(Object obj)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -65,6 +65,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 pos_1 is equals to pos_2
 ```

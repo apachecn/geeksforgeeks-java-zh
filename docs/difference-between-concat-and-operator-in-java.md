@@ -10,7 +10,7 @@
 
 插图:
 
-```
+```java
 Input:  String 1   : abc
         String 2   : def
         String n-1 : ...
@@ -22,7 +22,7 @@ Output: abcdef...xyz
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of concat() method
 
 // Main class
@@ -46,7 +46,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks for Geeks
 ```
 
@@ -60,7 +60,7 @@ Geeks for Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of + Operator
 // over Strings
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output**
 
-```
+```java
  Geeks  for Geeks 
  for Geeks  Geeks 
 ```
@@ -105,7 +105,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate concat() method
 // vs + operator in Strings
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geeksforgeeks
 Geeksfor
 ```
@@ -148,7 +148,7 @@ Geeksfor
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Raise of NullPointer Exception
 // in case of concat() Method
 
@@ -189,7 +189,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Creation of New String object
 // in concat() method and + Operator
 
@@ -237,7 +237,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Both are same
 not same
 ```

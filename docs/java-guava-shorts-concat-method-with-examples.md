@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static short[] concat(short[]... arrays)
 
 ```
@@ -17,7 +17,7 @@ public static short[] concat(short[]... arrays)
 
 **示例-1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.concat() method
 import com.google.common.primitives.Shorts;
@@ -43,14 +43,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 2, 7, 0, 8]
 
 ```
 
 **示例-2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Shorts.concat() method
 import com.google.common.primitives.Shorts;
@@ -78,7 +78,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
 ```

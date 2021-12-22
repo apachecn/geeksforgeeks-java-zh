@@ -8,14 +8,14 @@
 
 **类语法:**
 
-```
+```java
 public class EditText
 extends TextView
 ```
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
   ↳android.view.View
      ↳ android.widget.TextView
@@ -24,7 +24,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 <SomeLayout>
     .
     .
@@ -43,7 +43,7 @@ java.lang.Object
 
 **示例:**
 
-```
+```java
  <RelativeLayout
       xmlns:android="http://schemas.android.com/apk/res/android"
       android:layout_width="match_parent"
@@ -78,7 +78,7 @@ java.lang.Object
 *   打开活动文件，在活动的布局(activity_main.xml)文件中包含一个编辑文本字段，并在 activity_main.xml 文件中添加一个按钮。
 *   现在在 Java 文件中，用下面的代码链接这个布局文件:
 
-```
+```java
 @Override
 protected void onCreate(Bundle savedInstanceState)
 {
@@ -98,7 +98,7 @@ protected void onCreate(Bundle savedInstanceState)
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout
@@ -133,7 +133,7 @@ protected void onCreate(Bundle savedInstanceState)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.project.edittext;
 
 import androidx.appcompat.app.AppCompatActivity;

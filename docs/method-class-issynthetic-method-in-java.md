@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSynthetic()
 ```
 
@@ -24,7 +24,7 @@ public boolean isSynthetic()
 
 在下面的程序中当 main 方法创建一个嵌套的私有类 Demo 的对象并试图访问私有变量名“message”时。当它被编译时，它将创建一个合成方法。该合成方法的细节可以通过使用 isSynthetic()方法获得该方法的对象，如下程序所示。
 
-```
+```java
 // Java program to demonstrate isSynthetic()
 // method of Method Class.
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 private Message variable of Demo classA Computer Science portal for geeks
 static java.lang.String GFG$Demo.access$100(GFG$Demo) method is Synthetic Method :true
 
@@ -91,7 +91,7 @@ static java.lang.String GFG$Demo.access$100(GFG$Demo) method is Synthetic Method
 
 说明:在这个方法中，首先创建一个大整数类对象。创建大整数类的类对象后，通过调用类对象的 getMethods()创建方法对象列表。循环访问方法列表，并通过检查方法是否是合成的来获取合成方法，方法使用的是合成的()。最后打印合成方法名称。
 
-```
+```java
 // Java program to Demonstrate isSynthetic()
 // method of Method Class.
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Synthetic Methods of BigInteger Class are
 Method: compareTo
 

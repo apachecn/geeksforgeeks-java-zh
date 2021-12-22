@@ -15,7 +15,7 @@
 
 **枚举的层次结构**
 
-```
+```java
 java.lang.Object
    ↳ java.util.AbstractCollection<E>
         ↳ java.util.AbstractSet<E>
@@ -29,7 +29,7 @@ java.lang.Object
 
 **申报:**
 
-```
+```java
 public abstract class EnumSet<E extends Enum<E>> 
 
 ```
@@ -40,7 +40,7 @@ public abstract class EnumSet<E extends Enum<E>>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate working
 // of EnumSet and its functions.
 import java.util.EnumSet;
@@ -71,7 +71,7 @@ public class EnumSetExample {
 
 **Output:** 
 
-```
+```java
 Set 1: [CODE, LEARN, CONTRIBUTE, QUIZ]
 Set 2: [MCQ]
 Set 3: [CODE, LEARN, CONTRIBUTE, QUIZ, MCQ]
@@ -93,7 +93,7 @@ Set 4: [CODE, LEARN, CONTRIBUTE]
 
 工厂方法根据元素的数量创建一个实例，
 
-```
+```java
 if (universe.length <= 64)
     return new RegularEnumSet<>(elementType, universe);
 else
@@ -109,7 +109,7 @@ EnumSet 不提供任何公共构造函数，实例是使用静态工厂方法创
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create
 // an EnumSet
 
@@ -133,7 +133,7 @@ class CreateEnumSet {
 
 **Output**
 
-```
+```java
 EnumSet: [CRICKET, HOCKEY, TENNIS]
 ```
 
@@ -141,7 +141,7 @@ EnumSet: [CRICKET, HOCKEY, TENNIS]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add
 // elements to an EnumSet
 
@@ -179,7 +179,7 @@ class AddElementsToEnumSet {
 
 **Output**
 
-```
+```java
 EnumSet Using add(): [HOCKEY]
 EnumSet Using addAll(): [CRICKET, HOCKEY, TENNIS]
 ```
@@ -188,7 +188,7 @@ EnumSet Using addAll(): [CRICKET, HOCKEY, TENNIS]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access the
 // elements of EnumSet
 import java.util.EnumSet;
@@ -220,7 +220,7 @@ class AccessingElementsOfEnumSet {
 
 **Output**
 
-```
+```java
 EnumSet: CRICKET, HOCKEY, TENNIS,
 ```
 
@@ -228,7 +228,7 @@ EnumSet: CRICKET, HOCKEY, TENNIS,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove
 // Elements from EnumSet
 
@@ -263,7 +263,7 @@ class RemovingElementsOfEnumSet {
 
 **Output**
 
-```
+```java
 EnumSet: [CRICKET, HOCKEY, TENNIS]
 Is CRICKET removed? true
 Are all elements removed? true

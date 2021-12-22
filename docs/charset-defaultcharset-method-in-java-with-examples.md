@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public static Charset defaultCharset()
 ```
 
@@ -18,7 +18,7 @@ public static Charset defaultCharset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above function
 import java.nio.charset.Charset;
@@ -40,7 +40,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The default charset of the machine is :US-ASCII
 
 ```

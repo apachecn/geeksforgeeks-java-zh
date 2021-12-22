@@ -44,7 +44,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class SplittingArray1 {
@@ -108,7 +108,7 @@ public class SplittingArray1 {
 
 **Output**
 
-```
+```java
 Enter position to split.
 Invalid position.
 ```
@@ -118,7 +118,7 @@ Invalid position.
 *   **第一步****第二步**与方法一相似
 *   **步骤 3:** 我们运行一个从 0 到 N–1 的 for 循环
 
-```
+```java
  if index < pos 
    we initialize array B 
  else if pos >index 
@@ -129,7 +129,7 @@ Invalid position.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -189,7 +189,7 @@ public class SplittingArray2 {
 
 **Output**
 
-```
+```java
 Enter position to split.
 Invalid position.
 ```
@@ -210,7 +210,7 @@ Invalid position.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -267,7 +267,7 @@ public class SplittingArray3 {
 
 **Output**
 
-```
+```java
 Enter position to split.
 Invalid position.
 ```

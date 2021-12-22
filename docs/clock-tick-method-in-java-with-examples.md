@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static Clock tick(Clock baseClock, Duration tickDuration)
 ```
 
@@ -29,7 +29,7 @@ public static Clock tick(Clock baseClock, Duration tickDuration)
 
 **示例:**
 
-```
+```java
 Code:
 Clock baseClock = Clock.systemDefaultZone();
 Clock clock = Clock.tick(baseClock, Duration.ofSeconds(10));
@@ -47,7 +47,7 @@ it will round to 18:57:50Z and same for 18:59:36.247Z to 18:59:30Z.
 
 在下面的程序中，有三种情况，持续时间分别为 30 秒、10 秒、3 秒。所以这三种情况都要应用 tick()方法。
 
-```
+```java
 // Java program to demonstrate
 // tick() method of Clock class
 
@@ -87,7 +87,7 @@ public class tickMethodDemo {
 
 **Output:**
 
-```
+```java
 Instant of Base class 2018-08-22T11:18:11.336Z
 Instant of Clock1 2018-08-22T11:18:00Z
 Instant of Clock2 2018-08-22T11:18:10Z
@@ -97,7 +97,7 @@ Instant of Clock3 2018-08-22T11:18:09Z
 
 **程序 2:** 当时长为分钟、小时或天时，打印时钟的瞬间。
 
-```
+```java
 // Java program to demonstrate
 // tick() method of Clock class
 
@@ -144,7 +144,7 @@ public class tickMethodDemo {
 
 **Output:**
 
-```
+```java
 Instant of Base class 2018-08-22T11:18:15.533Z
 Instant of Clock1 when duration = 10 minutes is 2018-08-22T11:10:00Z
 Instant of Clock2 when duration = 2 hours is 2018-08-22T10:00:00Z

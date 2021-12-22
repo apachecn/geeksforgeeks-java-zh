@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getPackageName()
 
 ```
@@ -21,7 +21,7 @@ public String getPackageName()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate getPackageName() method
 
 public class Test {
@@ -45,7 +45,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 PackageName of myClass: 
 
@@ -53,7 +53,7 @@ PackageName of myClass:
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate getPackageName() method
 
 public class Test {
@@ -77,7 +77,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class java.lang.String
 PackageName of myClass: java.lang
 

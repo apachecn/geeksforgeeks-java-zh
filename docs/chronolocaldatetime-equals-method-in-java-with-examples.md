@@ -6,7 +6,7 @@ Java 方法中**ChronalDatetime**接口的 **equals()** 方法检查该日期是
 
 **语法** :
 
-```
+```java
 boolean equals(Object other)
 
 ```
@@ -19,7 +19,7 @@ boolean equals(Object other)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -49,7 +49,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12
 2018-12-06T19:21:12
 true
@@ -58,7 +58,7 @@ true
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -86,7 +86,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-05T19:21:12
 2018-12-06T19:21:12
 false

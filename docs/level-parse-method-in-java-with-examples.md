@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Level parse(String name)
     throws IllegalArgumentException
 
@@ -24,7 +24,7 @@ public static Level parse(String name)
 下面的程序说明 parse()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate parse() method
 
 import java.util.logging.Level;
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Level  = WARNING
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate parse() method
 
 import java.util.logging.Level;
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Level  = FINER
 
 ```

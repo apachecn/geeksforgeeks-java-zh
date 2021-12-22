@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -22,7 +22,7 @@ public boolean equals(Object obj)
 
 下面的程序演示了上述功能:
 
-```
+```java
 // Java code to demonstrate
 // equals() function of Date class
 
@@ -65,14 +65,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date 1: Thu Dec 05 08:19:56 UTC 1996
 Date 2: Wed Jan 02 08:19:56 UTC 2019
 Are both dates equal: false
 
 ```
 
-```
+```java
 // Java code to demonstrate
 // equals() function of Date class
 
@@ -127,7 +127,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date 1: Thu Dec 05 08:20:05 UTC 1996
 Date 1: Tue Dec 05 08:20:05 UTC 1995
 Are both dates equal: false

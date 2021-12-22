@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int getAndAccumulate(int y, 
                    IntBinaryOperator function)
 
@@ -21,7 +21,7 @@ public final int getAndAccumulate(int y,
 
 **举例说明功能。**
 
-```
+```java
 // Java program to demonstrate
 // working of getAndAccumulate() method
 
@@ -71,7 +71,7 @@ class UserThread implements Runnable {
 
 **输出:**
 
-```
+```java
 Thread A 1
 Thread A 5
 Thread A 25

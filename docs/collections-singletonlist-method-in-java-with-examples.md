@@ -6,19 +6,19 @@
 
 **语法:**
 
-```
+```java
 public static  List singletonList(T o)
 ```
 
 **参数:**
 
-```
+```java
 This method takes the object o as a parameter to be stored in the returned list.
 ```
 
 **返回值:**
 
-```
+```java
 This method returns an immutable list containing only the specified object.
 ```
 
@@ -28,7 +28,7 @@ This method returns an immutable list containing only the specified object.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // singletonList() method
 // for <String> Value
@@ -59,7 +59,7 @@ public class GFG1 {
 
 **Output**
 
-```
+```java
 singletonList : [E]
 
 ```
@@ -68,7 +68,7 @@ singletonList : [E]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // singletonList() method
 // for <Integer> Value
@@ -99,7 +99,7 @@ public class GFG1 {
 
 **Output**
 
-```
+```java
 singletonList : [20]
 
 ```

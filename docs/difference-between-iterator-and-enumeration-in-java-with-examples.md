@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 // Here "c" is any Collection object. itr is of
 // type Iterator interface and refers to "c"
 Iterator itr = c.iterator();
@@ -18,7 +18,7 @@ Iterator itr = c.iterator();
 
 **语法:**
 
-```
+```java
 // A simple enum example where enum is declared 
 // outside any class (Note enum keyword instead of 
 // class keyword) 

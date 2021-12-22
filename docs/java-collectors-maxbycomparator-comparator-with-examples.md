@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static 
     <T> Collector<T, ?, Optional<T>> 
         maxBy(Comparator<? super T> comparator)
@@ -30,7 +30,7 @@ public static
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // Collectors maxBy(Comparator comparator) function
 
@@ -68,14 +68,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show the implementation of
 // Collectors maxBy(Comparator comparator) function
 
@@ -115,7 +115,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 no value
 
 ```

@@ -9,19 +9,19 @@ javacchive(JAR)将所有的类捆绑在一个包中。由于归档文件是压�
 **Jar URL 的语法:-**
 Jar URL 以指向 Jar 档案位置的通用 URL 开始。than“**jar:**”协议是前缀，最后是“**！/**“jar 档案中文件的路径在这个网址的末尾加后缀。例如，
 
-```
+```java
 jar:http://www.abcd.com/networking.jar!/com/foo/example.class
 ```
 
 如果不使用路径部分，那么 URL 指向整个 jar 档案。例如，
 
-```
+```java
 jar:http://www.abcd.com/networking.jar!/
 ```
 
 **构造函数:**创建到指定网址的 jar 网址连接。
 
-```
+```java
 Syntax :protected JarURLConnection(URL url)
                     throws MalformedURLException
 Parameters :
@@ -35,19 +35,19 @@ MalformedURLException: If no protocol identified or string could not be parsed.
 
 1.  **getJarFileURL() :** 返回此连接的 jar 文件的 URL。
 
-    ```
+    ```java
     Syntax :public URL getJarFileURL()
     ```
 
 2.  **getEntryName() :** 返回此连接的条目名称，如果指向 jar 文件而不是 jar 条目文件，则返回 null。
 
-    ```
+    ```java
     Syntax :public String getEntryName()
     ```
 
 3.  **getJarFile() :** 返回这个连接的 jar 文件。
 
-    ```
+    ```java
     Syntax :public abstract JarFile getJarFile()
                                 throws IOException
     Throws : 
@@ -56,7 +56,7 @@ MalformedURLException: If no protocol identified or string could not be parsed.
 
 4.  **getManifest() :** 返回此连接的清单，如果不存在，则返回 null。清单是一个特殊的文件，可以包含关于打包在 JAR 文件中的文件的信息。
 
-    ```
+    ```java
     Syntax :public Manifest getManifest()
                          throws IOException
     Throws :
@@ -65,28 +65,28 @@ MalformedURLException: If no protocol identified or string could not be parsed.
 
 5.  **getJarEntry() :** 返回此连接的 JAR 条目对象。java 应用程序的入口点通常是具有方法*公共静态 void main(String args[])* 的类。如果 url 指向的是 jar 文件而不是条目，则此方法返回 null。
 
-    ```
+    ```java
     Syntax : public JarEntry getJarEntry()
                          throws IOException
     ```
 
 6.  **getAttributes() :** 如果 URL 指向 jar 条目文件，则返回此连接的属性。有关属性的更多信息，请访问[官方 Java 教程](https://docs.oracle.com/javase/tutorial/deployment/jar/secman.html)。
 
-    ```
+    ```java
     Syntax :public Attributes getAttributes()
                              throws IOException
     ```
 
 7.  **getMainAttributes() :** 返回此连接的主要属性。
 
-    ```
+    ```java
     Syntax :public Attributes getMainAttributes()
                                  throws IOException
     ```
 
 8.  **getCertificates() :** 如果指向 jar 入口文件，则返回此连接的证书对象。
 
-    ```
+    ```java
     Syntax : public Certificate[] getCertificates()
                                   throws IOException
     ```
@@ -94,7 +94,7 @@ MalformedURLException: If no protocol identified or string could not be parsed.
 下面的程序假设我们在程序中硬编码的 URL 处有一个 jar 文件。可以看到，硬编码的 URL 只指向系统上的一个文件，当通过网络使用 jar 文件时，可以通过为文件指定正确的 URL 来使用这个类。
 **Java 实现:**
 
-```
+```java
 // Java program to illustrate various
 // jarURLConnection class methods 
 import java.io.IOException;
@@ -174,7 +174,7 @@ public class jarurltest 
 
 **输出:**
 
-```
+```java
 Jar file URL : file:/C:/Users/Rishabh/Desktop/testClass.jar
 Entry Name : test/testclass.class
 Jar Entry: test/testclass.class

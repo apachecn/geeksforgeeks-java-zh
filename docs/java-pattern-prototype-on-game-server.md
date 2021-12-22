@@ -58,7 +58,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Create Abstract Enemy class 
 
 // Abstrat class
@@ -116,7 +116,7 @@ public abstract class Enemy {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Let`s create ArcherEnemy with attack range
 
 public class ArcherEnemy extends Enemy { // Enemy is a parent
@@ -162,7 +162,7 @@ public class ArcherEnemy extends Enemy { // Enemy is a parent
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Let`s create MeleeEnemy with 'melee params'
 
 public class MeleeEnemy extends Enemy {
@@ -220,7 +220,7 @@ public class MeleeEnemy extends Enemy {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustarey Creation of Clones
 
 // Main class
@@ -329,7 +329,7 @@ public class Demo {
 
 **输出:**
 
-```
+```java
 0: Enemy are different objects (yay!) // have different links
 0: And they are identical (yay!)      // but have same inner state
 1: Enemy are different objects (yay!) // have different links

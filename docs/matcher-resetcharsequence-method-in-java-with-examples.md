@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Matcher reset(CharSequence input)
 
 ```
@@ -19,7 +19,7 @@ public Matcher reset(CharSequence input)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate reset() method
 
 import java.util.regex.*;
@@ -67,7 +67,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate reset() method
 
 import java.util.regex.*;

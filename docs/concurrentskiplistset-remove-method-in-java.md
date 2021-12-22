@@ -6,7 +6,7 @@ java . util . concurrentSkiplistset . remove()方法是 Java 中的一个内置�
 
 **语法:**
 
-```
+```java
 ConcurrentSkipListSet.remove(Object o)
 
 ```
@@ -19,7 +19,7 @@ ConcurrentSkipListSet.remove(Object o)
 
 **程序 1:** 集合中存在要移除的元素。
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of ConcurrentSkipListSet
 
@@ -56,7 +56,7 @@ class ConcurrentSkipListSetRemoveExample1 {
 
 **输出:**
 
-```
+```java
 The elements in the set are:
 1 2 3 4 5 
 Remaining elements in set : 
@@ -66,7 +66,7 @@ Remaining elements in set :
 
 **程序 2:** 要移除的元素不在集合中。
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of ConcurrentSkipListSet
 
@@ -103,7 +103,7 @@ class ConcurrentSkipListSetRemoveExample2 {
 
 **输出:**
 
-```
+```java
 The elements in the set are:
 10 11 12 13 14 15 
 Remaining elements in set : 

@@ -59,7 +59,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--style created for meter picker--> 
 <style name="MeterNumberPickerStyle">
   <item name="mnp_min">0</item>
@@ -87,7 +87,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -124,7 +124,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

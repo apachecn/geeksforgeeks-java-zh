@@ -7,7 +7,7 @@
 
 以下是**Java . io . File . renameto(File dest)**方法的声明:
 
-```
+```java
 public boolean renameTo(File dest)
 
 ```
@@ -21,7 +21,7 @@ dest–现有抽象路径名的新抽象路径名。
 
 **空指针异常**:如果参数目的地为空。
 
-```
+```java
 // Java program to rename a file.
 import java.io.File;
 
@@ -41,7 +41,7 @@ public class GeeksforGeeks {
 }
 ```
 
-```
+```java
 Renamed successfully
 
 ```

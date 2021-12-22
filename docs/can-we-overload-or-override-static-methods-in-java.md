@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // filename Test.java
 public class Test {
     public static void foo() {
@@ -29,7 +29,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 Test.foo() called 
 Test.foo(int) called 
 ```
@@ -39,7 +39,7 @@ Test.foo(int) called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // filename Test.java
 public class Test {
     public static void foo() {
@@ -56,7 +56,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Compiler Error, cannot redefine foo()
 ```
 
@@ -66,7 +66,7 @@ Compiler Error, cannot redefine foo()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Java program to show that if static method is redefined by
    a derived class, then it is not overriding. */
 
@@ -116,7 +116,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 Static or class method from Base
 Non-static or Instance method from Derived
 ```
@@ -128,7 +128,7 @@ Non-static or Instance method from Derived
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Java program to show that if static methods are redefined by
    a derived class, then it is not overriding but hidding. */
 

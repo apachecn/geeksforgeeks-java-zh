@@ -16,19 +16,19 @@
 *   First, we create an object of our defined class, and we import it through **java.awt.desktop.**
 *   In the process of creating objects, we use the **getDesktop ()** method to return the desktop instance of the current desktop context. Desktop API may not be supported on some platforms. In this case, we use the **isdesktopSupported ()** method to determine whether the current desktop is supported.
 
-```
+```java
   Desktop desk=Desktop.getDesktop();
 ```
 
 *   Then we use the **browse ()** method, where we enter the new URL **that we want to open on the desktop ().**
 
-```
+```java
   desk.browse(new URI("http://xyz.com"));
 ```
 
 ## 爪哇
 
-```
+```java
 // Java Program to Open Input URL in 
 // System Default Browser in Windows
 
@@ -51,6 +51,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 (Our URL "http://xyz.com" will open in our desktop default browser)
 ```

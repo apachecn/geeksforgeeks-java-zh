@@ -21,7 +21,7 @@ Collections 类的 **reverseOrder()** 方法返回一个比较器，该比较器
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to iterate TreeMap in Reverse Order in Java
 
 import java.util.*;
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 TreeMap in reverse order: {4=geeksforgeeks, 3=on, 2=geeks, 1=Hello}
 ```
 
@@ -65,7 +65,7 @@ TreeMap in reverse order: {4=geeksforgeeks, 3=on, 2=geeks, 1=Hello}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to iterate TreeMap in Reverse Order in Java
 
 import java.util.*;
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 TreeMap before reverse: {1=Hello, 2=geeks, 3=on, 4=geeksforgeeks}
 TreeMap after reverse:
 4 = geeksforgeeks

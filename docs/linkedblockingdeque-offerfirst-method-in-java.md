@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean offerFirst(E e)
 
 ```
@@ -21,7 +21,7 @@ public boolean offerFirst(E e)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate offerFirst()
 // method of LinkedBlockingDeque
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The element 10 cannot be inserted as capacity is full
 Linked Blocking Deque: [74381793, 5278367, 35658786, 7855642]
 
@@ -69,7 +69,7 @@ Linked Blocking Deque: [74381793, 5278367, 35658786, 7855642]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate offerFirst()
 // method of LinkedBlockingDeque
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The element 'hii' cannot be inserted as capacity is full
 Linked Blocking Deque: [richik, geeks, gopu, abc]
 

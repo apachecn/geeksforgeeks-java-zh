@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double get()
 
 ```
@@ -19,7 +19,7 @@ public double get()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the get() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Current value is: 12.0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // the get() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Current value is: 25.0
 
 ```

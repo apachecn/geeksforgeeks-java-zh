@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Iterator = {1, 2, 3, 4, 5}
 Output: {1, 2, 3, 4, 5}
 
@@ -24,7 +24,7 @@ Output: {'G', 'e', 'e', 'k', 's'}
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to get a Stream
 // from a given Iterator
 
@@ -68,7 +68,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1
 2
 3

@@ -32,7 +32,7 @@ playfair 密码的输入
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Enode a Message Using Playfair Cipher
 
 import java.io.*;
@@ -253,7 +253,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Example-1
 
 Key: Problem

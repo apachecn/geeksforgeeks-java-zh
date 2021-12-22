@@ -24,7 +24,7 @@
 
 **语法:**
 
-```
+```java
 $ cp '/home/amninder/Desktop/JAVA_GEEK/jdk-9.0.4_linux-x64_bin.tar.gz' /home/amninder/Desktop
 ```
 
@@ -36,7 +36,7 @@ $ cp '/home/amninder/Desktop/JAVA_GEEK/jdk-9.0.4_linux-x64_bin.tar.gz' /home/amn
 
 **步骤 3:** 使用以下命令提取归档文件(jdk-9.0.4_linux-x64_bin.tar.gz):
 
-```
+```java
 $  tar -xf jdk-9.0.4_linux-x64_bin.tar.gz
 ```
 
@@ -58,7 +58,7 @@ $  tar -xf jdk-9.0.4_linux-x64_bin.tar.gz
 
 ***例如:*** 你正在编译一个 Helloworld 程序，那么你已经这样编译了。
 
-```
+```java
  $  /home/amninder/Desktop/JAVA_GEEK/jdk-9/bin javac Helloworld.java
 ```
 
@@ -66,7 +66,7 @@ $  tar -xf jdk-9.0.4_linux-x64_bin.tar.gz
 
 ***例如:*** 编译一个 Helloworld 程序。
 
-```
+```java
 $ javac Helloworld.java
 ```
 
@@ -76,7 +76,7 @@ $ javac Helloworld.java
 
 首先按 Ctrl+Alt+T 打开终端，或者您可以在应用程序中搜索终端。然后键入:
 
-```
+```java
 nano /home/amninder/.bashrc
 ```
 
@@ -84,7 +84,7 @@ nano /home/amninder/.bashrc
 
 它应该是这样的，然后导航到文件的底部，JAVA bin 路径的类型如下:
 
-```
+```java
 export PATH="$PATH:/home/amninder/Desktop/JAVA_GEEK/jdk-9.0.4_linux-x64_bin/jdk-9.0.4/bin"
 ```
 
@@ -110,7 +110,7 @@ Update-alternatives 是一个特殊命令，用于更新“/etc/alternatives”�
 
 创建链接后，现在我们可以通过运行以下命令在不同的 java 安装版本之间进行选择:
 
-```
+```java
 $ sudo update-alternatives --config java
 ```
 
@@ -126,7 +126,7 @@ $ sudo update-alternatives --config java
 
 最后，JAVA 已经成功安装在您的 Linux 系统上，要验证安装，请键入以下命令:
 
-```
+```java
 java -version
 ```
 
@@ -154,7 +154,7 @@ JAVA 安装成功
 
 **移除安装 java 的文件夹**
 
-```
+```java
 $ sudo rm -rf /home/amninder/Desktop/JAVA_GEEK/jdk-9.0.4_linux-x64_bin
 ```
 

@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final Object[] toArray()
 ```
 
 **语法:**
 
-```
+```java
 Object obj[] = TupleClassObject.toArray()
 ```
 
@@ -24,7 +24,7 @@ Object obj[] = TupleClassObject.toArray()
 
 **程序 1:** 使用 toArray()和单元类:
 
-```
+```java
 // Below is a Java program to use toArray() method
 
 import java.util.*;
@@ -49,13 +49,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 
 **程序 2:** 使用 toArray()配合四重奏类:
 
-```
+```java
 // Below is a Java program to use toArray() method
 
 import java.util.*;
@@ -84,7 +84,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 1
 GeeksforGeeks
 A computer portal

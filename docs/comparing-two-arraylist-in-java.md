@@ -6,7 +6,7 @@ Java 提供了一种比较两个数组列表的方法。ArrayList.equals()是用
 
 **例:**
 
-```
+```java
 Input : ArrayList1 = [1, 2, 3, 4],
         ArrayList2 = [1, 2, 3, 4]
 Output: Array List are equal
@@ -18,7 +18,7 @@ Output: Array List are not equal
 
 **语法:**
 
-```
+```java
 boolean equals(Object o)
 ```
 
@@ -30,7 +30,7 @@ boolean equals(Object o)
 
 T5】Java
 
-```
+```java
 // Comparing two ArrayList In Java
 import java.util.ArrayList;
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
  ArrayList1 = [item 1, item 2, item 3, item 4]
  ArrayList1 = [item 1, item 2, item 3, item 4]
  Array List are equal

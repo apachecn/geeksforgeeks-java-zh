@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static Instant ofEpochSecond(long epochSecond)
 
 ```
@@ -24,7 +24,7 @@ public static Instant ofEpochSecond(long epochSecond)
 以下程序说明了 ofEpochSecond()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.ofEpochSecond() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant: 1970-01-14T21:20:00Z
 
 ```
@@ -61,7 +61,7 @@ Instant: 1970-01-14T21:20:00Z
 
 **语法:**
 
-```
+```java
 public static Instant ofEpochSecond(long epochSecond,
                                     long nanoAdjustment)
 
@@ -79,7 +79,7 @@ public static Instant ofEpochSecond(long epochSecond,
 以下程序说明了 ofEpochSecond()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.ofEpochSecond() method
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Instant: 2008-01-10T21:20:00.000999999Z
 
 ```

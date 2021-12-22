@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final Object getValue(int pos)
 ```
 
 **语法:**
 
-```
+```java
 Object val = TupleClassObject.getValue(int pos)
 ```
 
@@ -29,7 +29,7 @@ Object val = TupleClassObject.getValue(int pos)
 
 **程序 1:** 使用 getValue()配合单位类:
 
-```
+```java
 // Below is a Java program to use getValue() method
 
 import java.util.*;
@@ -51,13 +51,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Value at 0 = GeeksforGeeks
 ```
 
 **程序二:**使用 getValue()配合四方类:
 
-```
+```java
 // Below is a Java program to use getValue() method
 
 import java.util.*;
@@ -82,7 +82,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Value at 2 = for geeks
 ```
 

@@ -18,7 +18,7 @@
 
     **语法:**
 
-    ```
+    ```java
     ArrayList<Type> str = new ArrayList<Type>();
            str.add("Geeks");
            str.add("for");
@@ -28,7 +28,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java code to illustrate initialization
     // of ArrayList using add() method
 
@@ -54,14 +54,14 @@
 
     **Output:**
 
-    ```
+    ```java
     ArrayList : [Geeks, for, Geeks]
 
     ```
 
     **示例:**使用该方法的速记版本
 
-    ```
+    ```java
     // Java code to illustrate initialization
     // of ArrayList using add() method
 
@@ -89,7 +89,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ArrayList : [Geeks, for, Geeks]
 
     ```
@@ -98,7 +98,7 @@
 
     **语法:**
 
-    ```
+    ```java
     ArrayList<Type> obj = new ArrayList<Type>(
           Arrays.asList(Obj A, Obj B, Obj C, ....so on));
 
@@ -106,7 +106,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java code to illustrate initialization
     // of ArrayList using asList method
 
@@ -131,7 +131,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ArrayList : [Geeks, for, Geeks]
 
     ```
@@ -140,7 +140,7 @@
 
     **语法:**
 
-    ```
+    ```java
     List<Type> obj = new ArrayList<>(
             List.of(Obj A, Obj B, Obj C, ....so on));
 
@@ -148,7 +148,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java code to illustrate initialization
     // of ArrayList using List.of() method
 
@@ -173,7 +173,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ArrayList : [Geeks, for, Geeks]
 
     ```
@@ -182,14 +182,14 @@
 
     **语法:**
 
-    ```
+    ```java
     List gfg = new ArrayList(collection);
 
     ```
 
     **示例:**
 
-    ```
+    ```java
     // Java code to illustrate initialization
     // of ArrayList using another collection
 
@@ -219,7 +219,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ArrayList : [1, 2, 3, 4, 5]
 
     ```

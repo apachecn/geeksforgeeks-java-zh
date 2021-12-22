@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isVolatile(int mod)
 
 ```
@@ -18,7 +18,7 @@ public static boolean isVolatile(int mod)
 以下程序说明 isVolatile()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate isVolatile() method
 
 import java.lang.reflect.*;
@@ -55,14 +55,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 72 is volatile : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate isVolatile()
 
 import java.lang.reflect.*;
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Mod integer value 64 is volatile : true
 
 ```

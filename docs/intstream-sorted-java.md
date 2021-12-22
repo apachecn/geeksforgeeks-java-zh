@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 IntStream sorted()
 
 Where, IntStream is a sequence of primitive int-valued 
@@ -20,7 +20,7 @@ elements. This is the int primitive specialization of Stream.
 
 **示例 1 :** 使用 IntStream sorted()对给定 IntStream 中的数字进行排序。
 
-```
+```java
 // Java code to sort IntStream
 // using IntStream.sorted()
 import java.util.*;
@@ -43,7 +43,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 6
 7
 8
@@ -54,7 +54,7 @@ class GFG {
 
 **例 2 :** 使用 IntStream sorted()对 [IntStream 生成器()](https://www.geeksforgeeks.org/intstream-generate-method-java/)生成的随机数进行排序。
 
-```
+```java
 // Java code to sort IntStream
 // using IntStream.sorted()
 import java.util.*;
@@ -80,7 +80,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 501
 611
 7991

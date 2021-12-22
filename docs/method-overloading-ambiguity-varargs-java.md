@@ -10,7 +10,7 @@
 
 *   **Case 1 – Methods with only Varargs parameters:** In this case, Java uses the type difference to determine which overloaded method to call. If one method signature is strictly more specific than the other, then Java chooses it without an error.
 
-    ```
+    ```java
     //Java program to illustrate 
     //method overloading in varargs
     public class varargsDemo
@@ -42,7 +42,7 @@
 
     输出:
 
-    ```
+    ```java
     int varargs
 
     ```
@@ -59,7 +59,7 @@
 
     下面是三次重载 fun()方法的 java 程序:
 
-    ```
+    ```java
     // Java program to demonstrate Varargs 
     // and overloading.
     class Test 
@@ -118,7 +118,7 @@
 
     输出:
 
-    ```
+    ```java
     fun(int ...): Number of args: 3 Contents: 1 2 3 
     fun(String, int ...): Testing: 2 Contents: 10 20 
     fun(boolean ...) Number of args: 3 Contents: true false false 
@@ -129,7 +129,7 @@
 
 当重载一个采用可变长度参数的方法时，有时会导致意外的错误。这些错误包含模糊性，因为这两种方法都是调用的有效候选方法。编译器无法决定将方法调用绑定到哪个方法上。
 
-```
+```java
 // Java program to illustrate Varargs and ambiguity
 class Test 
 {
@@ -173,7 +173,7 @@ class Test 
 
 在上面的程序中，fun()的重载是完全正确的。但是，由于以下调用，此程序不会编译:
 
-```
+```java
 fun(); // Error: Ambiguous!
 
 ```
@@ -184,7 +184,7 @@ fun(); // Error: Ambiguous!
 **歧义的另一个例子:**
 以下 fun()的重载版本本来就有歧义:
 
-```
+```java
 static void fun(int ... a) { // method body  }
 static void fun(int n, int ... a) { //method body }
 
@@ -192,7 +192,7 @@ static void fun(int n, int ... a) { //method body }
 
 这里，虽然 fun()的参数列表不同，但是编译器无法解析以下调用:
 
-```
+```java
 fun(1)
 
 ```

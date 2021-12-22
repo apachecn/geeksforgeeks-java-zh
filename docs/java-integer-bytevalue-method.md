@@ -6,7 +6,7 @@ java.lang 包的 Integer 类的 **byteValue()** 方法，在一个收缩原语�
 
 **语法:**
 
-```
+```java
 public byte byteValue()
 
 Return :
@@ -17,7 +17,7 @@ This method returns the numeric value represented by this object after
 
 **示例:**展示**Java . lang . integer . Bytevalue()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Integer.byteValue() method
 import java.lang.Integer;
@@ -38,7 +38,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 34
 
 ```

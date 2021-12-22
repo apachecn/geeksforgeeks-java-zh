@@ -6,19 +6,19 @@
 
 java 文件是使用 javac 命令编译的，如下所示。
 
-```
+```java
 javac filename.java
 ```
 
 一般来说，当编译一个 java 文件时，生成的*。类“*文件也会保存在同一个文件夹中。以便设置的目的地。类文件我们在编译*时使用-d 选项。java"* 文件，如下所示:
 
-```
+```java
 javac filename.java -d "path to store the .class file"
 ```
 
 **示例:**
 
-```
+```java
 Source         :Gfg.java file in "/home/mayur/" directory
 Destination     :"/home/mayur/folder" directory
 Command        : javac Gfg.java -d "/home/mayur/folder"
@@ -28,7 +28,7 @@ Command        : javac Gfg.java -d "/home/mayur/folder"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // How to Set Destination of the Class File in Java?
 public class demo {
     public static void main()

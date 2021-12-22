@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getLength()
 ```
 
@@ -18,7 +18,7 @@ public int getLength()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getLength() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 length of line : 15
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getLength() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 length of line : 8
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getLocalizedName()
 
 ```
@@ -18,7 +18,7 @@ public String getLocalizedName()
 下面的程序说明了 getLocalizedName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // getLocalizedName() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Localized Name = INFO
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // getLocalizedName() method
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Localized Name = SEVERE
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Temporal adjustInto(Temporal temporal)
 ```
 
@@ -23,7 +23,7 @@ public Temporal adjustInto(Temporal temporal)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.adjustInto() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Passed Value: 2018-11-22T09:22:17.297Z
 Returned Value: 2018-11-20T16:55:30Z
 
@@ -71,7 +71,7 @@ Returned Value: 2018-11-20T16:55:30Z
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.adjustInto() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Passed Value: 2018-11-22T09:22:20.995Z[Etc/UTC]
 Returned Value: 2018-11-17T06:50:39Z[Etc/UTC]
 
@@ -118,7 +118,7 @@ Returned Value: 2018-11-17T06:50:39Z[Etc/UTC]
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate
 // Instant.adjustInto() method
 
@@ -157,7 +157,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Passed Value: 2018-11-22T09:22:23.298Z
 Returned Value: 2017-11-01T16:25:00Z
 

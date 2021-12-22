@@ -24,7 +24,7 @@ VBox 是 JavaFX 的一部分。VBox 以垂直列的形式布局其子代。如�
 
 1.  **Java Program to create a VBox and add it to the stage:** In this program we will create a VBox named *vbox*. We will create a label and add it to the *vbox*. We will also create some buttons and add them to the VBox using the *getChildren().add()* function. Now create a scene and add the *vbox* to the scene and add the scene to the stage and call *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a VBox 
     // and add it to the stage
     import javafx.application.Application;
@@ -94,7 +94,7 @@ VBox 是 JavaFX 的一部分。VBox 以垂直列的形式布局其子代。如�
 
 2.  **Java Program to create a VBox, add spaces between its elements and add it to the stage:** In this program we will create a VBox named *vbox*. We will set the spacing by passing a double value of space as an argument to the constructor. Now create a label and add it to the *vbox*. To add some buttons to the VBox use the *getChildren().add()* function. Finally, create a scene and add the *vbox* to the scene and add the scene to the stage and call *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a VBox, add 
     // spaces between its elements and add
     // it to the stage
@@ -166,7 +166,7 @@ VBox 是 JavaFX 的一部分。VBox 以垂直列的形式布局其子代。如�
 
 3.  **Java Program to create a VBox, add spaces between its elements, set an alignment and add it to the stage:** In this program we will create a VBox named *vbox*. We will set the spacing by passing a double value of space as an argument to the constructor. Set the alignment of the VBox using the *setAlignment()* function. Then create a label and add it to the *vbox*. Add some buttons to the VBox using the *getChildren().add()* function. Finally, create a scene and add the vbox to the scene and add the scene to the stage and call *show()* function to display the final results.
 
-    ```
+    ```java
     // Java Program to create a VBox, add spaces
     // between its elements, set an alignment 
     // and add it to the stage

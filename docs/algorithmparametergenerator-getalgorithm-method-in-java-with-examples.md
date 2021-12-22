@@ -5,7 +5,7 @@
 **Java . security . algorithm parameter generator**类的 **getAlgorithm()** 方法用于返回与此参数生成器关联的算法的标准名称。
 **语法:**
 
-```
+```java
 public final String getAlgorithm()
 ```
 
@@ -15,7 +15,7 @@ public final String getAlgorithm()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Algorithm : DSA
 ```
 
@@ -69,7 +69,7 @@ Algorithm : DSA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -115,6 +115,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Algorithm : DiffieHellman
 ```

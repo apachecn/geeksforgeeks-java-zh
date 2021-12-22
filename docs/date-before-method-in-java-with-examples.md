@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean before(Date when)
 
 ```
@@ -19,7 +19,7 @@ public boolean before(Date when)
 
 下面的程序演示了上述功能:
 
-```
+```java
 // Java code to demonstrate
 // before() function of Date class
 
@@ -62,14 +62,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date 1: Thu Dec 05 08:15:01 UTC 1996
 Date 2: Wed Jan 02 08:15:01 UTC 2019
 Is Date 2 before Date 1: false
 
 ```
 
-```
+```java
 // Java code to demonstrate
 // before() function of Date class
 
@@ -107,7 +107,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date 1: Wed Jan 02 08:15:06 UTC 2019
 Date 1: null
 On checking these 2 dates: 

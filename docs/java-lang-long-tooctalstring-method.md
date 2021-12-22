@@ -6,7 +6,7 @@ Java.lang.Long.toOctalString()函数是 Java 中的内置函数，它将长参�
 
 **语法:**
 
-```
+```java
 public static int toOctalString(long num)
 
 ```
@@ -17,7 +17,7 @@ T5 长数据类型。
 
 **示例:**
 
-```
+```java
 Input : 16
 Output : 20
 
@@ -30,7 +30,7 @@ Output : 2322
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Long.toOctalString() method
 import java.lang.Math;
@@ -56,7 +56,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 Octal string is 20
 Octal string is 2322
 
@@ -66,7 +66,7 @@ Octal string is 2322
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.toOctalString() method
 // negative number
@@ -86,7 +86,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 Hex is 1777777777777777777762
 
 ```
@@ -97,7 +97,7 @@ Hex is 1777777777777777777762
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.toOctalString() method
 // string number
@@ -118,7 +118,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 prog.java:13: error: incompatible types: String cannot be converted to long
     System.out.println("Hex is " + Long.toOctalString("14"));
 
@@ -128,7 +128,7 @@ prog.java:13: error: incompatible types: String cannot be converted to long
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.toOctalString() method
 // decimal number
@@ -148,7 +148,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 prog.java:13: error: incompatible types: possible lossy conversion from double to long
     System.out.println("Hex is " + Long.toOctalString(15.67)); 
 

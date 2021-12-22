@@ -18,7 +18,7 @@
 
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.toArray() method
 
@@ -50,14 +50,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [1.2, 2.3, 3.4, 4.5, 5.6]
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Floats.toArray() method
 
@@ -99,7 +99,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.NullPointerException
 
 ```

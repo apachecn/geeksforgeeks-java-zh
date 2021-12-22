@@ -6,7 +6,7 @@ Java 中**chronolocaldetime**接口的 **hashCode()** 方法用来获取这个 c
 
 **语法** :
 
-```
+```java
 int hashCode()
 
 ```
@@ -19,7 +19,7 @@ int hashCode()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the hashCode() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-06T19:21:12
 Hashcode: -957301669
 
@@ -53,7 +53,7 @@ Hashcode: -957301669
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the hashCode() method
 
 import java.util.*;
@@ -79,7 +79,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-12-05T19:21:12
 Hashcode: -957301672
 

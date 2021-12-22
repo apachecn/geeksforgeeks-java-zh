@@ -16,7 +16,7 @@ XMLGregorianCalendar 可以根据需要转换为 [java.util.Date](https://www.ge
 
 ## Java
 
-```
+```java
 // Convert XMLGregorianCalendar to Date in Java
 import java.io.*;
 import java.util.*;
@@ -78,7 +78,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 XMLGregorianCalendar from Date in Java      : 2021-02-22T17:10:28.732Z
 java.util.Date from XMLGregorianCalendar in Java : Mon Feb 22 17:10:28 UTC 2021
 ```

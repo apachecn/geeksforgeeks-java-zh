@@ -9,7 +9,7 @@ JavaBeans 是[类](https://www.geeksforgeeks.org/classes-objects-java/)[将多�
 3.  It should have a public no-arg constructor.
 4.  All properties in Java must be private and have public getter and setter methods.
 
-```
+```java
 // Java program to illustrate the
 // structure of JavaBean class
 public class TestBean {
@@ -41,7 +41,7 @@ public String getName()
 
 对于布尔属性，getter 方法名可以以“get”或“is”作为前缀。但建议用“是”。
 
-```
+```java
 // Java program to illustrate the
 // getName() method on boolean type attribute
 public class Test {
@@ -59,7 +59,7 @@ public boolean isempty()
 
 **实施**
 
-```
+```java
 // Java Program of JavaBean class
 package geeks;
 public class Student implements java.io.Serializable
@@ -88,7 +88,7 @@ public String getName()
 }
 ```
 
-```
+```java
 // Java program to access JavaBean class
 package geeks;
 public class Test {
@@ -103,7 +103,7 @@ public static void main(String args[])
 
 输出:
 
-```
+```java
 GFG
 
 ```

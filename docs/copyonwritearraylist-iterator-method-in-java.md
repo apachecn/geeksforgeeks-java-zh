@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator iterator()
 ```
 
@@ -18,7 +18,7 @@ public Iterator iterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // iterator() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [32, 67, 67, 100]
 The iterator values of CopyOnWriteArrayList are:
 32
@@ -71,7 +71,7 @@ The iterator values of CopyOnWriteArrayList are:
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArrayList
 // iterator() method in Java
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -112,7 +112,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CopyOnWriteArrayList: [gopal, gfg, jgec, sudo]
 The iterator values of CopyOnWriteArrayList are:
 gopal

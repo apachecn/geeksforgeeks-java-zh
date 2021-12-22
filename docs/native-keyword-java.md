@@ -12,7 +12,7 @@ native 关键字的主要目标是:
 
 **说明:**Java 中的 Native 关键字
 
-```
+```java
 // Class 1
 // Helper class to illustrate native keyword 
 class Native
@@ -55,17 +55,17 @@ class GFG
 
 **语法:**声明本机方法
 
-```
+```java
 private native String getLine(String prompt);
 ```
 
 **语法:**从母语方面
 
-```
+```java
 javah -jni Prompt
 ```
 
-```
+```java
 JNIEXPORT jstring JNICALL Java_Prompt_getLine(JNIEnv *, jobject, jstring);
 ```
 

@@ -24,7 +24,7 @@ MenuShortcut 类是 JavaAWT 的一部分。MenuShortcut 类实现了使用虚拟
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java program to create a menubar and add
     // menuitems to it and also add menushortcut
     // to MenuItems
@@ -141,7 +141,7 @@ MenuShortcut 类是 JavaAWT 的一部分。MenuShortcut 类实现了使用虚拟
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java program to create a menubar and add 
     // menuitems to it and also add menushortcut 
     // to MenuItems and also add shift modifier

@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 ByteObject.floatValue()
 ```
 
@@ -16,7 +16,7 @@ ByteObject.floatValue()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Byte floatValue() method
 
@@ -43,14 +43,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Float value of 17 is : 17.0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Byte floatValue() method
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Float value of 17 is : 17.0
 
 ```

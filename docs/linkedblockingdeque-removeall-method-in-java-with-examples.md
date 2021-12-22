@@ -5,7 +5,7 @@
 [的 **removeAll()** 方法 link edblockingrequest](https://www.geeksforgeeks.org/linkedblockingdeque-in-java-with-examples/)是一个内置函数，是 Java，用于从这个对象中移除指定集合中包含的所有元素。这意味着，这两个集合的所有公共元素都将从这个 deque 中移除。
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection c)
 ```
 
@@ -17,7 +17,7 @@ public boolean removeAll(Collection c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate removeAll()
 // method of LinkedBlockingDeque
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Linked Blocking Deque: [11, 22, 33, 44]
 ArrayList to be removed: [55, 11, 23, 22]
 Current Linked Blocking Deque: [33, 44]
@@ -80,7 +80,7 @@ Current Linked Blocking Deque: [33, 44]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate removeAll()
 // method of LinkedBlockingDeque
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Linked Blocking Deque: [geeks, Geeks, gfg, Gfg]
 ArrayList: [GeeksforGeeks, Geeks, gfg, Gfg]
 Linked Blocking Deque: [geeks]

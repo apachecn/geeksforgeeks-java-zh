@@ -12,7 +12,7 @@ Java 为我们提供了一种在单个对象中对多个线程进行分组的方
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to display all the running threads using
 // ThreadGroup object
 
@@ -63,7 +63,7 @@ getAllStackTrace()方法给出了所有正在运行的线程的堆栈跟踪。�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to display all the running threads using
 // getAllStackTraces() Method
 import java.io.*;
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Overriden Run Method
 Overriden Run Method
 Thread-0

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: x = 16
 Output: 4
 Explanation:  The square root of 16 is 4.
@@ -23,7 +23,7 @@ Explanation:  The square root of 5 lies in between
 
 ## Java
 
-```
+```java
 // Java program to Find the square root of given numbers
 // by brute force technique
 
@@ -57,7 +57,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 4
 
 ```

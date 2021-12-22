@@ -10,13 +10,13 @@
 
 **变量 1:** 该函数将字符串参数解析为带符号的十进制整数。
 
-```
+```java
 public static int parseInt(String s) throws NumberFormatException 
 ```
 
 **变量 2:** 该函数将字符串参数解析为由第二个参数指定的基数中的有符号整数
 
-```
+```java
 public static int parseInt(String s, int radix) throws NumberFormatException
 ```
 
@@ -43,7 +43,7 @@ public static int parseInt(String s, int radix) throws NumberFormatException
 
 插图:
 
-```
+```java
 String str=”0111”;
 int t=Integer.parseInt(str);
 System.out.println(t); 
@@ -53,33 +53,33 @@ System.out.println(t);
 
 **插图:**
 
-```
+```java
 parseInt("20") returns 20
 parseInt("+20") returns 20
 parseInt("-20") returns -20
 ```
 
-```
+```java
 parseInt("20", 16) returns 16, (2)*16^1 + (0)*16^0 = 32
 parseInt("2147483648", 10) throws a NumberFormatException
 ```
 
-```
+```java
 parseInt("99", 8) throws a NumberFormatException 
                   as 9 is not an accepted digit of octal number system
 ```
 
-```
+```java
 parseInt("geeks", 28) throws a NumberFormatException
 ```
 
-```
+```java
 parseInt("geeks", 29) returns 11670324, 
                   Number system with base 29 can have digits 0-9 
                   followed by characters a,b,c... upto s
 ```
 
-```
+```java
 parseInt("geeksforgeeks", 29) throws a NumberFormatException as the 
                              result is not an integer.
 ```
@@ -92,7 +92,7 @@ parseInt("geeksforgeeks", 29) throws a NumberFormatException as the
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working parseInt()
 // Where No NumberFormatException is Thrown
 
@@ -122,7 +122,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 20
 20
 -20
@@ -134,7 +134,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of parseInt() Method 
 // Where NumberFormatException is Thrown
 
@@ -188,7 +188,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of valueOf() Method
 
 // Main class 
@@ -217,7 +217,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 20
 20
 -20

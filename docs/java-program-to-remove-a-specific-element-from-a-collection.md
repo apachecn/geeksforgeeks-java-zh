@@ -13,7 +13,7 @@
 
 **语法**:
 
-```
+```java
 remove(int index)
 ```
 
@@ -30,7 +30,7 @@ remove(int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Remove a Specific
 // Element from a Collection
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original ArrayList : [10, 20, 30, 1, 2]
 Modified ArrayList : [10, 1, 2]
 ```
@@ -89,7 +89,7 @@ Modified ArrayList : [10, 1, 2]
 
 **语法**:
 
-```
+```java
 boolean remove(Object obj)
 ```
 
@@ -101,7 +101,7 @@ boolean remove(Object obj)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of remove()
 // method on an integer arraylist
 
@@ -141,7 +141,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modified ArrayList : [10, 20, 30]
 ```
 

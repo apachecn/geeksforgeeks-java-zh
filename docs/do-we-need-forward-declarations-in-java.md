@@ -4,7 +4,7 @@
 
 预测以下 Java 程序的输出。
 
-```
+```java
 // filename: Test2.java
 
 // main() function of this class uses Test1 which is declared later in 
@@ -24,7 +24,7 @@ class Test1 {   
 
 输出:
 
-```
+```java
 fun() called: x = 5
 ```
 

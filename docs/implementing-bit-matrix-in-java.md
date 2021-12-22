@@ -14,7 +14,7 @@ BitMatrix 是一个二维数组，其中每个元素不是 0 就是 1。我们�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // implementation of BitMatrix
 
@@ -149,7 +149,7 @@ class MatrixBuilder {
 
 **Output**
 
-```
+```java
 Bit Matrix Implementation
 
 Bit Matrix : 

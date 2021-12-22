@@ -6,7 +6,7 @@ Java 中 List 接口的 containsAll()方法用于检查此 List 是否包含指�
 
 **语法:**
 
-```
+```java
 boolean containsAll(Collection col)
 ```
 
@@ -20,7 +20,7 @@ boolean containsAll(Collection col)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate containsAll() method
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class ListDemo {
 
 **输出:**
 
-```
+```java
 List: [Welcome, To, Geeks, 4, Geeks]
 Are all the contents equal? true
 
@@ -64,7 +64,7 @@ Are all the contents equal? true
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate containsAll() method
 import java.util.*;
 
@@ -100,7 +100,7 @@ public class ListDemo {
 
 **输出:**
 
-```
+```java
 List: [10, 15, 30, 20, 5]
 Are all the contents equal? true
 

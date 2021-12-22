@@ -4,7 +4,7 @@
 
 考虑以下代码片段:
 
-```
+```java
 public class Geeksforgeeks
 {
     public static void main(String[] args)
@@ -17,11 +17,11 @@ public class Geeksforgeeks
 
 **输出** :
 
-```
+```java
 Infinity
 ```
 
-```
+```java
 public class Geeksforgeeks
 {
     public static void main(String[] args)
@@ -34,7 +34,7 @@ public class Geeksforgeeks
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.ArithmeticException: / by zero
     at Geeksforgeeks.main(Geeksforgeeks.java:8)
 ```

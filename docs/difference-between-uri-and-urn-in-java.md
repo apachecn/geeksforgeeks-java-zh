@@ -30,7 +30,7 @@ uri
 
 **示例:**
 
-```
+```java
 https://www.website.com/html/#posts
 ```
 

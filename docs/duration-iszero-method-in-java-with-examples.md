@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isZero()
 
 ```
@@ -19,7 +19,7 @@ public boolean isZero()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate isZero() method
 
 import java.time.Duration;
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate isZero() method
 
 import java.time.Duration;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

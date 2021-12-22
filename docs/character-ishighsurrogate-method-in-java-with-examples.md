@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static boolean isHighSurrogate(char ch)
 
 ```
@@ -19,7 +19,7 @@ public static boolean isHighSurrogate(char ch)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Character.isHighSurrogate() method
 import java.lang.*;
@@ -47,7 +47,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 c1 is a Unicodehigh-surrogate code unit ? false
 c2 is a Unicodehigh-surrogate code unit ? true
 
@@ -55,7 +55,7 @@ c2 is a Unicodehigh-surrogate code unit ? true
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate the
 // Character.isHighSurrogate() method
 import java.lang.*;
@@ -83,7 +83,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 c1 is a Unicodehigh-surrogate code unit ? false
 c2 is a Unicodehigh-surrogate code unit ? false
 

@@ -8,7 +8,7 @@ java.lang.Character.digit()是 java 中的一个内置方法，它以指定的*�
 
  ***语法:**
 
-```
+```java
 public static int digit(char ch, int radix)
 
 ```* 
@@ -24,7 +24,7 @@ public static int digit(char ch, int radix)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Character.digit() method
 
@@ -51,7 +51,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 Numeric value of 3 in radix 5 is 3
 Numeric value of 6 in radix 15 is 6
 
@@ -59,7 +59,7 @@ Numeric value of 6 in radix 15 is 6
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate the
 // Character.digit() method
 // when -1 is returned
@@ -87,7 +87,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 Numeric value of a in radix 5 is -1
 Numeric value of z in radix 15 is -1
 

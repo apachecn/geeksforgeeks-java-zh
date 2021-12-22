@@ -6,7 +6,7 @@ Java 中 **ByteArrayOutputStream** 类的 **toByteArray()** 方法用于创建�
 
 **语法:**
 
-```
+```java
 public byte[] toByteArray()
 
 ```
@@ -21,7 +21,7 @@ public byte[] toByteArray()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream toByteArray() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 G
 E
 E
@@ -66,7 +66,7 @@ S
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // ByteArrayOutputStream toByteArray() method
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 G
 E
 E

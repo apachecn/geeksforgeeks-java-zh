@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate merging
 // two array using pre-defined method
 
@@ -61,7 +61,7 @@ public class MergeTwoArrays1 {
 
 **Output**
 
-```
+```java
 [10, 20, 30, 40, 50, 60, 70, 80]
 ```
 
@@ -82,7 +82,7 @@ T5】辅助空间: O(M + N)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate merging
 // two array without using pre-defined method
 
@@ -138,7 +138,7 @@ public class MergeTwoArrays2 {
 
 **Output**
 
-```
+```java
 30
 25
 40

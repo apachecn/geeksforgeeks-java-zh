@@ -20,7 +20,7 @@ float 类中的 ***parseFloat()** 方法* d 是 Java 中的一个内置方法，
 
 **语法:**
 
-```
+```java
 public static float parseFloat(String s) ;
 ```
 
@@ -37,7 +37,7 @@ public static float parseFloat(String s) ;
 
 ## 爪哇
 
-```
+```java
 // Java Program to Convert String to Float Value by
 // Implementing parseFloat() method of Float class
 
@@ -66,6 +66,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 String is converted to float 100.0
 ```

@@ -4,7 +4,7 @@
 
 [Vector](https://www.geeksforgeeks.org/java-util-vector-class-java/) 实现了一个动态数组，这意味着它可以根据需要增长或收缩。像数组一样，它包含可以使用整数索引访问的组件。我们知道两种声明数组的方法，即要么使用固定大小的数组，要么根据用户的需求根据内存中分配的数组输入大小。
 
-```
+```java
 int Array_name[Fixed_size] ;
 
 int array_name[variable_size] ;
@@ -16,7 +16,7 @@ int array_name[variable_size] ;
 
 **示例:**
 
-```
+```java
 ***Input:*** [1,2,3,4,5]
 ***Output:*** 1
 
@@ -31,7 +31,7 @@ int array_name[variable_size] ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find
 // minimum element in java vector
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Vector elements: [1, 2, 3, 4, 5]
 The maximum element of the Vector is: 1
 ```
@@ -78,7 +78,7 @@ The maximum element of the Vector is: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find minimum element
 // present in Vector via comparison
 
@@ -134,7 +134,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The smallest element present in Vector is : 10
 ```
 

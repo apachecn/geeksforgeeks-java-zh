@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int previous()
 ```
 
@@ -18,7 +18,7 @@ public abstract int previous()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate previous() method
 
 import java.text.*;
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current position before calling previous() : 11
 
 current position after calling 1st previous() : 6
@@ -85,7 +85,7 @@ current position after calling 2nd previous() : 4
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // previous() method
 
@@ -142,7 +142,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current position before calling previous() : 13
 
 current position after calling 1st previous() : 0

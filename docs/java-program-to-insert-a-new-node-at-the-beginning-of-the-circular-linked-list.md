@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Insert a nodes at the Beginning of the
 // Circular Linked List
 
@@ -127,7 +127,7 @@ public class AddAtBeginning {
 
 **Output**
 
-```
+```java
 Adding nodes at the beginning of the list: 
 
  s

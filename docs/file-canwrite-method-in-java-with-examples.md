@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public boolean canWrite()
 ```
 
 **语法:**
 
-```
+```java
 file.canWrite()
 ```
 
@@ -28,7 +28,7 @@ file.canWrite()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // canWrite() method of File Class
 
@@ -53,7 +53,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Can be written
 ```
 
@@ -61,7 +61,7 @@ Can be written
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // canWrite() method of File Class
 
@@ -86,7 +86,7 @@ public class solution {
 
 **Output:**
 
-```
+```java
 Cannot be written
 ```
 

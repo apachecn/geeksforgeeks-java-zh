@@ -16,7 +16,7 @@ Map Values()方法返回此地图中包含的值的集合视图。收藏以地�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // use of Map.Values() Method
 import java.util.*;
@@ -44,7 +44,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 [student 4, student 3, student 6, student 1, student 2, student 5]
 ```
 
@@ -54,7 +54,7 @@ public class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // use of Map.Values() Method
 import java.util.*;
@@ -92,7 +92,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 <------OutPut before modification------>
 
 student 4

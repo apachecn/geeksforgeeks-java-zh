@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Class
 
 // Class Declaration
@@ -85,7 +85,7 @@ public class Dog {
 
 **Output:** 
 
-```
+```java
 Hi my name is tuffy.
 My breed, age and color are papillon, 5, white
 ```
@@ -100,7 +100,7 @@ My breed, age and color are papillon, 5, white
 
 **语法:**
 
-```
+```java
 interface <interface_name> {
 
     // declare constant fields
@@ -113,7 +113,7 @@ interface <interface_name> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // working of interface.
 
@@ -151,7 +151,7 @@ class testClass implements in1 {
 
 **Output:** 
 
-```
+```java
 Geek
 10
 ```

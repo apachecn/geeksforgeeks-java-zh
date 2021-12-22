@@ -19,7 +19,7 @@
 
 **步骤 1:** 我们还可以将数据库中的修改回滚到特定的标志或保存点，只需将所需的保存点名称作为参数传递到下面的方法中
 
-```
+```java
 // Set the Flag or Save point 
 con.rollback("MysavePoint");
 ```
@@ -28,14 +28,14 @@ con.rollback("MysavePoint");
 
 *   使用[Register driver()](https://www.geeksforgeeks.org/establishing-jdbc-connection-in-java/)方法注册所需的驱动程序
 
-```
+```java
  // To register the needed Driver
  DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 ```
 
 *   使用驱动管理器的 getConnection() API 方法获取连接信息:
 
-```
+```java
  // For getting the connection
  String url = "jdbc:mysql://localhost/mydatabase/icpc";
  Connection conn = DriverManager.getConnection(string url, String user, String password);
@@ -43,7 +43,7 @@ con.rollback("MysavePoint");
 
 *   使用关闭连接的 API 方法设置自动提交(布尔自动提交)方法禁用自动提交，如下所示:
 
-```
+```java
    // Set the auto commit false. This will execute all
    // SQL statements as individual transactions
    con.setAutoCommit(false);
@@ -51,14 +51,14 @@ con.rollback("MysavePoint");
 
 *   现在，使用设置保存点()设置保存点，或者使用连接的 API 方法 commit()提交事务，如下所示
 
-```
+```java
  Savepoint savePoint = con.setSavepoint("MysavePoint");
  Con.commit();
 ```
 
 *   如果发现任何 SQL 异常，那么在这种情况下，调用 rollback( ) API 方法来处理整个事务，直到之前设置的保存点:
 
-```
+```java
  con.rollback() Or,
  con. rollback(my_Savepoint);
 ```
@@ -67,7 +67,7 @@ con.rollback("MysavePoint");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing generic java libraries
 import java.io.*;
 

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Given List: [1, 2, 3, 4]
 
 Input : FirstSearch = 1, SecondSearch = 6
@@ -15,7 +15,7 @@ Output: True False
 
 **语法:**
 
-```
+```java
 Hash_Set.contains(Object element)
 ```
 
@@ -27,7 +27,7 @@ Hash_Set.contains(Object element)
 
 ## Java
 
-```
+```java
 // Checking if element exists in LinkedHashSet in Java
 import java.util.LinkedHashSet;
 public class LinkedHashSetContainsExample {
@@ -59,7 +59,7 @@ public class LinkedHashSetContainsExample {
 
 **输出**
 
-```
+```java
 true
 false
 ```

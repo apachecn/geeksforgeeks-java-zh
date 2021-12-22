@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int end()
 
 ```
@@ -21,7 +21,7 @@ public int end()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate end() method
 
 import java.util.regex.*;
@@ -68,7 +68,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate end() method
 
 import java.util.regex.*;

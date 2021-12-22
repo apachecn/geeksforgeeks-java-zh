@@ -8,13 +8,13 @@
 
 **功能签名:**
 
-```
+```java
 public String getAbsolutePath()
 ```
 
 **函数语法:**
 
-```
+```java
 file.getAbsolutePath()
 ```
 
@@ -28,7 +28,7 @@ file.getAbsolutePath()
 
 **示例 1:** 当前工作目录中有一个名为“program.txt”的文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getAbsolutePath() function
 
@@ -63,7 +63,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Original Path: program.txt
 Absolute Path: C:\Users\pc\eclipse-workspace1\arnab\program.txt
 
@@ -73,7 +73,7 @@ Absolute Path: C:\Users\pc\eclipse-workspace1\arnab\program.txt
 
 **例 2:** 当前工作目录中有一个名为“program”的目录。
 
-```
+```java
 // Java program to demonstrate the
 // use of getAbsolutePath() function
 
@@ -107,7 +107,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Original Path: program
 Absolute Path: C:\Users\pc\eclipse-workspace1\arnab\program
 
@@ -117,7 +117,7 @@ Absolute Path: C:\Users\pc\eclipse-workspace1\arnab\program
 
 **例 3:** 在“f:\”目录下的一个名为“f:\program.txt”的文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getAbsolutePath() function
 
@@ -153,7 +153,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Original file path: f:\program.txt
 Absolute file path: f:\program.txt
 

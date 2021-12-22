@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public final void notify() ; 
 ```
 
@@ -22,7 +22,7 @@ public final void notify() ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate notify() method in Thread
 // Synchronization.
 
@@ -106,7 +106,7 @@ class Thread2 extends Thread {
 
 **Output**
 
-```
+```java
 Waiting for Thread 2 to complete...
 Total is: 45
 ```

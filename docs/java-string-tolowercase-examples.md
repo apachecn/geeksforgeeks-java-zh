@@ -6,7 +6,7 @@
 
 **签名:**
 
-```
+```java
 public String toLowerCase(Locale loc) 
 and
 public String toLowerCase() 
@@ -17,7 +17,7 @@ Returns: returns string in lowercase letter.
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of toLowerCase() method
 
@@ -35,12 +35,12 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 welcome! to geeksforgeeks planet.
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of Locale class in
 // toLowerCase() method
@@ -67,7 +67,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 ? know yo? bui you don't know me.
 i know yoi bui you don't know me.
 

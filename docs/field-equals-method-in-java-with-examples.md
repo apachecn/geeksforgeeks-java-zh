@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -18,7 +18,7 @@ public boolean equals(Object obj)
 下面的程序说明了 equals()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the above method
 
 import java.lang.reflect.Field;
@@ -85,7 +85,7 @@ class User {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the above method
 
 import java.lang.reflect.Field;

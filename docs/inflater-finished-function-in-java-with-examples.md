@@ -6,14 +6,14 @@
 
 **功能签名:**
 
-```
+```java
 public boolean finished()
 
 ```
 
 **语法:**
 
-```
+```java
 i.finished();
 
 ```
@@ -26,7 +26,7 @@ i.finished();
 
 **例 1:** 成品功能的使用
 
-```
+```java
 // Java program to describe the use
 // of finished() function
 

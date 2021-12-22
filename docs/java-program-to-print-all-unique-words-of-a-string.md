@@ -6,7 +6,7 @@ Java 程序打印所有出现在[字符串](https://www.geeksforgeeks.org/string
 
 插图:
 
-```
+```java
 Input  : Welcome to Geeks for Geeks.
 Output : Welcome 
          to
@@ -38,7 +38,7 @@ Output : Java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print all unique words
 // Using nested loops
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Welcome
 to
 for
@@ -121,7 +121,7 @@ for
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print all Unique Words
 // Using Map
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Welcome
 to
 for

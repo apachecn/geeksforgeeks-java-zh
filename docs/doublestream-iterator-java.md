@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 PrimitiveIterator.OfDouble iterator()
 
 Where, PrimitiveIterator.OfDouble is an Iterator 
@@ -18,7 +18,7 @@ specialized for double values.
 
 **例:**
 
-```
+```java
 // Java code for DoubleStream iterator()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -45,7 +45,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 2.3
 4.4
 6.5

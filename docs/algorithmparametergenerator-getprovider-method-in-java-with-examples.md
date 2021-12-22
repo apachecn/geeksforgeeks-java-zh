@@ -5,7 +5,7 @@
 **Java . security . algorithm parameter generator**类的 **getProvider()** 方法用于返回该算法参数生成器对象的提供者。
 **语法:**
 
-```
+```java
 public final Provider getProvider()
 ```
 
@@ -15,7 +15,7 @@ public final Provider getProvider()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Provider : SUN version 1.8
 ```
 
@@ -69,7 +69,7 @@ Provider : SUN version 1.8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -115,6 +115,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Provider : SunJCE version 1.8
 ```

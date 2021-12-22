@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```java
 public static void function(int a, int b)
 ```
 
 **例:**
 
-```
+```java
 public static voif fun1(String 1, String 2){
     // method execution code
 };
@@ -28,7 +28,7 @@ public static voif fun1(String 1, String 2){
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate a Method
 // with 2 Parameters and without Return Type
 import java.util.*;
@@ -52,6 +52,6 @@ public class Main {
 
 **输出**
 
-```
+```java
 Sum of two numbers is :9
 ```

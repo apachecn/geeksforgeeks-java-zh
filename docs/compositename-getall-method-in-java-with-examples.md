@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration getAll()
 
 ```
@@ -18,7 +18,7 @@ public Enumeration getAll()
 下面的程序说明了 CompositeName.getAll()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.getAll()
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.getAll() method
 

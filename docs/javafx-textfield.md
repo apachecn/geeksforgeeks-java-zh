@@ -27,7 +27,7 @@ TextField 类是 JavaFX 包的一部分。它是一个允许用户输入一行�
 
 1.  **Java program to create a TextField and add it to stage**: This program creates a TextField indicated by the name b. The TextField will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a Title-pane is created, on which addChildren() method is called to attach the TextField inside the scene, along with the resolution specified by (200, 200) in the code. Finally the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a textfield and add it to stage
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -73,7 +73,7 @@ TextField 类是 JavaFX 包的一部分。它是一个允许用户输入一行�
 
 2.  **Java program to create a TextField with an initial text and add an event handler**: This program creates a TextField indicated by the name b. We will create a label which will display the Text when the enter key is pressed.we will create an event handler that will handle the event of the Text field and the event handler would be added to the Textfield using setOnAction() method. The TextField will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a Title-pane is created, on which addChildren() method is called to attach the TextField and a label inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a textfield and add a
     // event handler to handle the event of textfield
     import javafx.application.Application;
@@ -138,7 +138,7 @@ TextField 类是 JavaFX 包的一部分。它是一个允许用户输入一行�
 
 3.  **Java program to create a textfield with an initial text and add an event handler**: This program creates a TextField indicated by the name b. We will set an initial text by invoking its constructor with a string and also set the preferred column count using setPrefColumnCount() method. We will create a label which will display the Text when the enter key is pressed. We will create an event handler that will handle the event of the Text field and the event handler would be added to the Textfield using setOnAction() method. The TextField will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a Title-pane is created, on which addChildren() method is called to attach the TextField and a label inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a textfield with a initial text
     // and preferred column count and add a event handler to
     // handle the event of textfield
@@ -207,7 +207,7 @@ TextField 类是 JavaFX 包的一部分。它是一个允许用户输入一行�
 
 4.  **Java program to create a TextField with an initial text and center alignment of text and add an event handler**: This program creates a TextField indicated by the name b.we will set an initial text by invoking its constructor with a string and also set the alignment using setAlignment() method.we will create a label which will display the Text when the enter key is pressed.we will create an event handler that will handle the event of the Text field and the event handler would be added to the Textfield using setOnAction() method. The TextField will be created inside a scene, which in turn will be hosted inside a stage (which is the top level JavaFX container). The function setTitle() is used to provide title to the stage. Then a Title-pane is created, on which addChildren() method is called to attach the TextField and a label inside the scene, along with the resolution specified by (200, 200) in the code. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Java program to create a textfield with a initial text and center alignment of text
     // and add a event handler to handle the event of textfield
     import javafx.application.Application;

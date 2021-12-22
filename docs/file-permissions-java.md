@@ -11,7 +11,7 @@ Java 提供了许多方法调用来检查和更改文件的权限，例如只读
 *   **可执行文件:**测试应用程序是否可以执行这个抽象路径名所表示的文件。
     语法:
 
-```
+```java
 public boolean canExecute()
 Returns: true if and only if the abstract path name
 exists and the application is allowed to execute the file
@@ -20,7 +20,7 @@ exists and the application is allowed to execute the file
 *   **可读:**测试应用程序是否可以读取由这个抽象路径名表示的文件。
     语法:
 
-    ```
+    ```java
     public boolean canRead()
     Returns: true if and only if the file specified by this
     abstract path name exists and can be read by the application; false otherwise
@@ -29,7 +29,7 @@ exists and the application is allowed to execute the file
     *   **Writable:** Tests whether the application can modify the file denoted by this abstract path name.
     Syntax:
 
-    ```
+    ```java
     public boolean canWrite()
     Returns: true if and only if the file system actually 
     contains a file denoted by this abstract path name and 
@@ -38,7 +38,7 @@ exists and the application is allowed to execute the file
 
     例如，文件可以是可读和可写的，但不能是可执行的。这里有一个 Java 程序来获取与文件相关的当前权限。
 
-    ```
+    ```java
     // Java program to check the current file permissions.
     import java.io.*;
 
@@ -68,7 +68,7 @@ exists and the application is allowed to execute the file
 
     **输出**
 
-    ```
+    ```java
     Executable: true
     Readable: true
     Writable: true
@@ -85,7 +85,7 @@ exists and the application is allowed to execute the file
 
     *   **setExecutable**A convenience method to set the owner’s execute permission for this abstract path name.
 
-        ```
+        ```java
         public boolean setExecutable(boolean executable)
         Description: 
         Parameters: executable - If true, sets the access 
@@ -98,7 +98,7 @@ exists and the application is allowed to execute the file
 
     *   **setReadable:** A convenience method to set the owner’s read permission for this abstract path name.
 
-        ```
+        ```java
         public boolean setReadable(boolean readable)
         Parameters: readable - If true, sets the access permission to 
         allow read operations; if false to disallow read operations
@@ -109,7 +109,7 @@ exists and the application is allowed to execute the file
 
     *   **setWritable :** A convenience method to set the owner’s write permission for this abstract path name.
 
-        ```
+        ```java
         public boolean setWritable(boolean writable)
         Parameters: writable - If true, sets the access permission
         to allow write operations; if false to disallow write operations
@@ -118,7 +118,7 @@ exists and the application is allowed to execute the file
 
         如果用户没有权限更改此抽象路径名的访问权限，操作将失败。
 
-```
+```java
 // Java program to change the file permissions
 import java.io.*;
 
@@ -155,7 +155,7 @@ public class Test
 
 **输出**
 
-```
+```java
 File permissions changed.
 Executable: true
 Readable: true

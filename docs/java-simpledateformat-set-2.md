@@ -7,7 +7,7 @@
 
 *   **clone():Java . text . SimpleDateFormat . clone()**创建 SimpleDateformat 的副本。
 
-```
+```java
 Syntax :
 public Object clone()
 Parameters : 
@@ -18,7 +18,7 @@ copy of the SimpleDateFormat
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of SimpleDateFormat.clone() method
 
@@ -44,13 +44,13 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Clone : java.text.SimpleDateFormat@a9427c06
 ```
 
 *   **hashCode():Java . text . SimpleDateFormat . hashCode()**返回 SimpleDateformat 对象的哈希代码值。
 
-```
+```java
 Syntax :
 public int hashCode()
 Parameters : 
@@ -61,7 +61,7 @@ hash code value for the SimpleDateFormat object.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of SimpleDateFormat.hashCode() method
 
@@ -87,13 +87,13 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Hash Code : -1455260666
 ```
 
 *   **等于(对象对象):Java . text . SimpleDateFormat . equals(对象对象对象)**比较两个 SimpleDateFormat 对象
 
-```
+```java
 Syntax :
 public boolean equals(Object obj)
 Parameters : 
@@ -104,7 +104,7 @@ true, if equal ; else false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of SimpleDateFormat.equals() method
 
@@ -132,13 +132,13 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Is equal ? : false
 ```
 
 *   **设置日期格式符号(日期格式符号新符号):Java . text . simpledateformat . setDateFormatSymbols(日期格式符号新符号)**设置所需日期格式的日期和时间格式符号。
 
-```
+```java
 Syntax :
 public void setDateFormatSymbols(DateFormatSymbols newSymbols)
 Parameters : 
@@ -149,7 +149,7 @@ Return :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of DateFormatSymbols() method
 
@@ -177,7 +177,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Day1 : Sun
 Day2 : Mon
 Day3 : Tue
@@ -189,7 +189,7 @@ Day7 : Sat
 
 *   **getDateFormatSymbols():Java . text . simpledateformat . getDateFormatSymbols()**返回日期和时间格式符号的副本。
 
-```
+```java
 Syntax :
 public DateFormatSymbols getDateFormatSymbols()
 Parameters : 
@@ -200,7 +200,7 @@ date and time format symbols.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating
 // use of getDateFormatSymbols() method
 
@@ -225,14 +225,14 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 java.text.DateFormatSymbols@f86e64e0
 Date : 6/24/17 12:49 PM
 ```
 
 *   **applyLocalizedPattern(字符串字符串):Java . text . SimpleDateformat . applylocalized pattern(字符串字符串)**将给定的本地化字符串模式应用于日期格式。
 
-```
+```java
 Syntax :
 public void applyLocalizedPattern(String str)
 Parameters : 
@@ -243,7 +243,7 @@ Return :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustarting
 // use of applyLocalizedPattern() method
 
@@ -273,7 +273,7 @@ public class NewClass
 
 **输出:**
 
-```
+```java
 Use of applyLocalizedPattern() : MM / dd / yy  HH:mm Z
 ```
 

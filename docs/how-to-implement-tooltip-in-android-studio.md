@@ -19,7 +19,7 @@
 
 **第 2 步:导航到构建脚本- > build.gradle(模块)文件，并向其中添加以下依赖项**
 
-```
+```java
 implementation 'com.tomergoldst.android:tooltips:1.0.10'
 ```
 
@@ -31,7 +31,7 @@ implementation 'com.tomergoldst.android:tooltips:1.0.10'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- Relative layout as parent layout-->
@@ -128,7 +128,7 @@ implementation 'com.tomergoldst.android:tooltips:1.0.10'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.tooltip;
 
 import androidx.appcompat.app.AppCompatActivity;

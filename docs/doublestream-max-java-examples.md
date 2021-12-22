@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 OptionalDouble() max()
 
 Where, OptionalDouble is a container object which 
@@ -21,7 +21,7 @@ may or may not contain a double value.
 
 **例 1 :**
 
-```
+```java
 // Java code for DoubleStream max()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -55,14 +55,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 54.3
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for DoubleStream max()
 import java.util.*;
 import java.util.stream.DoubleStream;
@@ -93,7 +93,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 -1
 
 ```

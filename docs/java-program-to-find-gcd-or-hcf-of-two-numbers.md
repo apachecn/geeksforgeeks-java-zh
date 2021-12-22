@@ -8,7 +8,7 @@ GCD(即最大公约数)或 HCF(即最高公因数)是可以将两个给定数字
 
 **示例:**
 
-```
+```java
 HCF of 10 and 20 is 10, and HCF of 9 and 21 is 3.
 ```
 
@@ -20,7 +20,7 @@ HCF of 10 and 20 is 10, and HCF of 9 and 21 is 3.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find GCD of two numbers
 class GFG {
     // Gcd of x and y using recursive function
@@ -54,7 +54,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GCD of 100 and 88 is 4
 
 ```
@@ -67,7 +67,7 @@ GCD of 100 and 88 is 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find GCD of two 
 // numbers using Euclidean algorithm
 class geeksforgeeks {
@@ -92,7 +92,7 @@ class geeksforgeeks {
 
 **Output**
 
-```
+```java
 The GCD of 47 and 91 is: 1
 
 ```

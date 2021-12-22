@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : Key - 2 : Value - 5
     Key - 4 : Value - 3
     Key - 1 : Value - 10
@@ -22,7 +22,7 @@ Output :  3 ( Value 3 is at Index 2 )
 
 **算法:**
 
-```
+```java
 1\. Check whether the index in LinkedHashMap does exist or not. 
 By using size of LinkedHashMap.
 
@@ -37,7 +37,7 @@ By using size of LinkedHashMap.
 
 **语法:**
 
-```
+```java
 Object[] toArray()
 ```
 
@@ -49,7 +49,7 @@ Object[] toArray()
 
 ## Java
 
-```
+```java
 // Java program to get a value from LinkedHashMap by index
 // Using Array
 import java.util.*;
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Value at index 2 is : 3
 ```
 
@@ -102,7 +102,7 @@ Value at index 2 is : 3
 
 ## Java
 
-```
+```java
 // Java program to get a value from LinkedHashMap by index
 // Using ArrayList
 
@@ -146,7 +146,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Value at index 2 is : 3
 ```
 
@@ -158,7 +158,7 @@ Value at index 2 is : 3
 
 ## Java
 
-```
+```java
 // Java program to get a value from LinkedHashMap by index
 // Using iterator
 
@@ -213,7 +213,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Value at index 1 : 5
 ```
 

@@ -8,7 +8,7 @@
 
 1.  **drawPolygon(int[] x, int[] y, int numberofpoints) :** draws a polygon with the given set of x and y points.
 
-    ```
+    ```java
     // Java program to draw polygon using
     // drawPolygon(int[] x, int[] y, int numberofpoints)
     // function
@@ -60,7 +60,7 @@
 
 2.  **drawPolygon(Polygon p) :** draws a polygon with the given object of Polygon class.
 
-    ```
+    ```java
     // Java program to draw polygon
     // using drawPolygon(Polygon p)
     // function
@@ -116,7 +116,7 @@
 
 3.  **drawLine(int x, int y, int x1, int y1) :** In this method we would connect adjacent vertices with a line segment and also connect the first and last vertex.
 
-    ```
+    ```java
     // Java code to draw a polygon
     // using  drawLine(int x, int y, int x1, int y1)
     // function

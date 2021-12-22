@@ -4,7 +4,7 @@
 
 给定一个数组，我们需要将它的元素复制到一个不同的数组中，一个天真的用户会想到下面的方法，然而这是不正确的，如下所示:
 
-```
+```java
 // Java Program to Illustrate Wrong Way Of Copying an Array
 
 // Input array
@@ -28,7 +28,7 @@ b = a;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate that simply
 // assigning one array reference is incorrect
 public class Test {
@@ -60,7 +60,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 Contents of a[] 
 2 8 3 
 
@@ -84,7 +84,7 @@ Contents of b[]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate copying by
 // one by one assigning elements between arrays
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Contents of a[] 
 1 8 3 
 
@@ -141,7 +141,7 @@ Contents of b[]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Copying of Array
 // using clone() method
 
@@ -178,7 +178,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Contents of a[] 
 1 8 3 
 
@@ -190,7 +190,7 @@ Contents of b[]
 
 我们也可以使用 **System.arraycopy()** 方法。该系统以 java.lang 包的形式出现。其签名如下:
 
-```
+```java
 public static void arraycopy(Object src, int srcPos, Object dest, 
                              int destPos, int length)
 ```
@@ -207,7 +207,7 @@ public static void arraycopy(Object src, int srcPos, Object dest,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate array
 // copy using System.arraycopy()
 
@@ -247,7 +247,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Contents of a[] 
 1 8 3 
 
@@ -261,7 +261,7 @@ Contents of b[]
 
 **语法:**
 
-```
+```java
 public static int[] copyOf​(int[] original, int newLength)
 ```
 
@@ -274,7 +274,7 @@ public static int[] copyOf​(int[] original, int newLength)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate array
 // copy using Arrays.copyOf()
 
@@ -315,7 +315,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Contents of a[] 
 1 8 3 
 
@@ -327,7 +327,7 @@ Contents of b[]
 
 此方法将指定数组的指定范围复制到新数组中。
 
-```
+```java
 public static int[] copyOfRange​(int[] original, int from, int to)
 ```
 
@@ -341,7 +341,7 @@ public static int[] copyOfRange​(int[] original, int from, int to)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate array
 // copy using Arrays.copyOfRange()
 
@@ -379,7 +379,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Contents of a[] 
 1 8 3 5 9 10 
 

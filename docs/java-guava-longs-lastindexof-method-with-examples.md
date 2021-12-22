@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int lastIndexOf(long[] array,
                               long target)
 
@@ -23,7 +23,7 @@ public static int lastIndexOf(long[] array,
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.lastIndexOf() method
 
@@ -64,14 +64,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is present at index 6
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Longs.lastIndexOf() method
 
@@ -111,7 +111,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Target is not present in the array
 
 ```

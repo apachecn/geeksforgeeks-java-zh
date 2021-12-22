@@ -27,7 +27,7 @@ Java 有自己的应用编程接口，使用 JDBC 驱动程序进行数据库连
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add a column to a table using JDBC
 
 // dont forget to import below package

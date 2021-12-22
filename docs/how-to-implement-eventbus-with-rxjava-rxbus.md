@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GfgRxGfgSampleBus {
     public GfgRxGfgSampleBus() {
     }
@@ -44,7 +44,7 @@ public class GfgRxGfgSampleBus {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GfgSampleApp extends Application {
     private RxSampleBus sampleBus;
     // Declaring an object
@@ -68,7 +68,7 @@ public class GfgSampleApp extends Application {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 ((SampleGfGApp) getApplication())
         .sampleBus()
         .toObservable()

@@ -11,7 +11,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert a HashMap
 // to an ArrayList
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Keys of the Map are [vaibhav, vishal, sachin]
 The Values of the Map are [20, 10, 30]
 ```
@@ -70,7 +70,7 @@ T3】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert a HashMap
 // to an ArrayList
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Keys of the Map are [vaibhav, vishal, sachin]
 The Values of the Map are [20, 10, 30]
 ```
@@ -127,7 +127,7 @@ The Values of the Map are [20, 10, 30]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert a HashMap
 // to an ArrayList
 
@@ -163,6 +163,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 [vaibhav=20, vishal=10, sachin=30]
 ```

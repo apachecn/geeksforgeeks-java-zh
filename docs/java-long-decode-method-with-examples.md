@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Long decode(String number) throws NumberFormatException 
 
 Parameter: 
@@ -22,7 +22,7 @@ number-  the number that has to be decoded into a Long.
 
 **程序 1:** 下面的程序演示了功能的工作。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.decode() method
 import java.lang.Math;
@@ -45,13 +45,13 @@ class GFG {
 
 输出:
 
-```
+```java
 Number = 54534 
 ```
 
 **程序 2:** 程序使用 decode()函数演示转换
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.decode() method
 import java.lang.Math;
@@ -81,7 +81,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Decimal [10] = 10
 Hexa [0XFF] = 255
 Octal [067] = 55
@@ -89,7 +89,7 @@ Octal [067] = 55
 
 **程序 3:** 程序演示错误和异常。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.decode() method
 import java.lang.Math;
@@ -113,7 +113,7 @@ class GFG {
 
 输出:
 
-```
+```java
 
 Exception in thread "main" java.lang.NumberFormatException: For input string: "1A"
     at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Name getPrefix(int posn)
 
 ```
@@ -20,7 +20,7 @@ public Name getPrefix(int posn)
 下面的程序说明了 CompositeName.getPrefix()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.getPrefix()
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 New CompositeName Object: aa/bb
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.getPrefix() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 New CompositeName Object: c/e/d/v
 
 ```

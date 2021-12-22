@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : Key-> 5 : Value->4
     Key-> 8 : Value->2
     Key-> 6 : Value->20
@@ -24,7 +24,7 @@ Values : [4, 2, 20, 18, 66]
 
 **伪码:**
 
-```
+```java
 for (Map.Entry<Integer, Integer> i : LHM.entrySet()) {
             list.add(i.getValue());
 }
@@ -34,7 +34,7 @@ for (Map.Entry<Integer, Integer> i : LHM.entrySet()) {
 
 **语法:**
 
-```
+```java
 hash_map.entrySet()
 ```
 
@@ -44,7 +44,7 @@ hash_map.entrySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get all the values of the LinkedHashMap
 
 import java.util.*;
@@ -79,7 +79,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 values : [4, 2, 20, 18, 66]
 ```
 
@@ -93,7 +93,7 @@ values : [4, 2, 20, 18, 66]
 
 **伪码:**
 
-```
+```java
 Collection<Integer> values = LHM.values();
 ```
 
@@ -101,7 +101,7 @@ Collection<Integer> values = LHM.values();
 
 **语法:**
 
-```
+```java
 Hash_Map.values()
 ```
 
@@ -111,7 +111,7 @@ Hash_Map.values()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get all the values of the LinkedHashMap
 
 import java.util.*;
@@ -142,7 +142,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 values : [4, 2, 20, 18, 66]
 ```
 
@@ -152,7 +152,7 @@ values : [4, 2, 20, 18, 66]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to get all the values of the LinkedHashMap
 
 import java.util.*;
@@ -198,7 +198,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 values : [4, 2, 18, 66]
 LinkedHashMap : {5=4, 8=2, 9=18, 1=66}
 values : [4, 2, 18, 66, 9]

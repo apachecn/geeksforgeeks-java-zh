@@ -22,7 +22,7 @@ TextFlow 类是 JavaFX 的一部分。TextFlow 类旨在布局富文本。它可
 
 1.  **Java program to create a TextFlow and add text object to it:** In this program we will create a TextFlow named *text_flow* and two Text named *text_1* and *text_2*. Set the fill and font using *setFill()* and *setFont()*. We will add the text to the *text_flow* using the *getChildren().add()* function. Add the *text_flow* to the scene and scene to the stage. Call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java program to create a TextFlow and 
     // add text object to it .
     import javafx.application.Application;
@@ -104,7 +104,7 @@ TextFlow 类是 JavaFX 的一部分。TextFlow 类旨在布局富文本。它可
 
 2.  **Java program to create a TextFlow and add text object to it, set text Alignment and set line spacing of the text flow:** In this program we will create a TextFlow named *text_flow* and two Text named *text_1* and *text_2*. Set the fill and font using *setFill()* and *setFont()*. Set TextAlignment using *setTextAlignment()* and set the line spacing using the *setLineSpacing()* function. Add the text to the *text_flow* using the *getChildren().add()* function. Add the *text_flow* to the Vbox. Add the vbox scene and the scene to the stage. Call the *show()* function to display the final results.
 
-    ```
+    ```java
     // Java program to create a TextFlow and 
     // add text object to it, set text Alignment
     // and set line spacing of the text flow.

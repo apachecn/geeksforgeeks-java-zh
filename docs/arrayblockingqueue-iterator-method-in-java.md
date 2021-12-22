@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator iterator()
 ```
 
@@ -16,7 +16,7 @@ public Iterator iterator()
 
 **程序 1:**
 
-```
+```java
 // Program Demonstrate how to apply iterator() method
 // of ArrayBlockingQueue Class.
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue is [423, 422, 421, 420, 424]
 
 The iterator values:
@@ -72,7 +72,7 @@ The iterator values:
 
 **程序二:**
 
-```
+```java
 // Program Demonstrate how to apply iterator() method
 // of ArrayBlockingQueue Class.
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue is [User, Employee, Manager, Analyst, HR]
 
 The iterator values:

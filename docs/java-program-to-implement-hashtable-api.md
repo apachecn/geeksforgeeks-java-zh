@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the hashTable API
 
 import java.util.*;
@@ -208,7 +208,7 @@ public class GFG{ 
 
 **Output**
 
-```
+```java
 The size of the hashTable: 4
 Entry Set of the hashTable: 
 Chintu=450 

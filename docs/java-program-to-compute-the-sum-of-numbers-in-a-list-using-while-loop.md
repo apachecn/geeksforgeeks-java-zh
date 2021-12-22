@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Compute the Sum of Numbers in a List
 // Using While-Loop
 
@@ -58,6 +58,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
  The sum of list is: 15
 ```

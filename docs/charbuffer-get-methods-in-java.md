@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract char get()
 ```
 
@@ -18,7 +18,7 @@ public abstract char get()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 import java.nio.*;
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, b, c, , ]
 Int Value: a
 Next Int Value: b
@@ -93,7 +93,7 @@ Next Int Value: b
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -161,7 +161,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, b, ]
 Char Value: 
 Since the buffer current position is incremented
@@ -175,7 +175,7 @@ CharBuffer 的 **get(int index)** 方法用于读取指定索引处的文章。
 
 **语法:**
 
-```
+```java
 public abstract char get(int index)
 ```
 
@@ -189,7 +189,7 @@ public abstract char get(int index)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get(int index) method
 
@@ -262,7 +262,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, b, c]
 Char Value at index 0: a
 Char Value at index 1: b
@@ -272,7 +272,7 @@ Char Value at index 2: c
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -347,7 +347,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original CharBuffer: [a, b, c]
 Char Value at index 0: a
 Char Value at index 1: b

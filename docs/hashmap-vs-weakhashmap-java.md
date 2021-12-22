@@ -9,7 +9,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Hashmap
 import java.util.*;
@@ -52,7 +52,7 @@ class HashMapDemo
 
 输出:
 
-```
+```java
 {demo=Hi}
 {demo=Hi}
 ```
@@ -63,7 +63,7 @@ WeakHashMap 是地图界面的一个实现。weakashmap 与 HashMap 几乎相同
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // WeakHashmap
 import java.util.*;
@@ -107,7 +107,7 @@ class Demo
 
 输出:
 
-```
+```java
 {demo = Hi}
 finalize method is called
 { }

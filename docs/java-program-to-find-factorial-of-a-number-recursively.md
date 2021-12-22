@@ -4,7 +4,7 @@
 
 n 的阶乘定义为所有正的递减整数的乘积，n 的阶乘用 n 表示！。阶乘可以使用以下递归公式计算，其中递归调用的所有数字的多样性小于计算阶乘的数字，因为计算阶乘的公式如下:
 
-```
+```java
 n! = n * [(n-1)!] 
 i.e factorial of n (n!) = n * (n-1) * ......* 3 * 2* 1
 ```
@@ -13,13 +13,13 @@ i.e factorial of n (n!) = n * (n-1) * ......* 3 * 2* 1
 
 **插图:**
 
-```
+```java
 Input      : 5!
 Processing : 5*4*3*2*1
 Output     : 120  
 ```
 
-```
+```java
 Input      : 6!
 Processing : 6*5*4*3*2*1
 Output     : 720 
@@ -29,7 +29,7 @@ Output     : 720
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find Factorial of a Number
 // where N>=0 is currently N>1
 
@@ -74,7 +74,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Factorial of 5 is :120
 ```
 
@@ -86,7 +86,7 @@ Factorial of 5 is :120
 
 ## Java
 
-```
+```java
 // Java Program to Find Factorial of a Number
 // where N>=0 is currently N=1
 
@@ -134,7 +134,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Factorial of 0 is : 1
 Factorial of 1 is : 1
 ```

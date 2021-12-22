@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger shiftLeft(int n)
 ```
 
@@ -18,7 +18,7 @@ public BigInteger shiftLeft(int n)
 
 **例:**
 
-```
+```java
 Input: value = 2300, shift distance = 3
 Output: 18400
 Explanation:
@@ -37,7 +37,7 @@ Output: 1120000
 
 下面的程序说明了 BigInteger 的 shiftLeft(索引)方法。
 
-```
+```java
 // Program to demonstrate shiftLeft() method of BigInteger 
 
 import java.math.*;
@@ -68,7 +68,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After applying ShiftLeft by Shift Distance 3 on 2300 New Value is 18400
 
 ```

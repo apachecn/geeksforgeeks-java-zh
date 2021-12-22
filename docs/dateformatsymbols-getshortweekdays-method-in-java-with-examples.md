@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的 **getShortWeekdays()** 方法用于获取�
 
 **语法:**
 
-```
+```java
 public String[] getShortWeekdays()
 ```
 
@@ -17,7 +17,7 @@ public String[] getShortWeekdays()
 下面的程序说明了 getShortWeekdays()方法的使用。
 **例 1:**
 
-```
+```java
 // Java code to demonstrate getShortWeekdays()
 
 import java.text.DateFormatSymbols;
@@ -43,7 +43,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Day 1 = Sun
 Day 2 = Mon
 Day 3 = Tue
@@ -56,7 +56,7 @@ Day 7 = Sat
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate getShortWeekdays()
 import java.text.DateFormatSymbols;
 
@@ -81,7 +81,7 @@ public class DateFormat_Main {
 
 **Output:**
 
-```
+```java
 Day 1 = Sun
 Day 2 = Mon
 Day 3 = Tue

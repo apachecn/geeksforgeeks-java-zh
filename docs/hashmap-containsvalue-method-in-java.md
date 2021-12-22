@@ -6,7 +6,7 @@ Java . util . HashMap . contains VaLue()方法用于检查特定值是由 HashMa
 
 **语法:**
 
-```
+```java
 Hash_Map.containsValue(*Object Value*)
 ```
 
@@ -17,7 +17,7 @@ Hash_Map.containsValue(*Object Value*)
 下面的程序用来说明 Java . util . hashmap . contains value()方法:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the containsValue() method
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 Is the value 'Geeks' present? true
 Is the value 'World' present? false
@@ -60,7 +60,7 @@ Is the value 'World' present? false
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the containsValue() method
 import java.util.*;
 
@@ -98,7 +98,7 @@ public class Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 Is the value '10' present? false
 Is the value '30' present? true

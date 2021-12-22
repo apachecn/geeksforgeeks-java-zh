@@ -23,7 +23,7 @@ ContextMenu 是 JavaFX 库的一部分。ContextMenu 可以与标签、textfield
 
 1.  **Program to create a context menu and add it to label**: A ContextMenu will be created by name ‘contextMenu’ and 3 menuitems: menuItem1, menuItem2, menuItem3 will be added to the menu contextMenu and the menu contextMenu will be associated with a label ‘label’. The label will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a VBox is created, on which addChildren() method is called to attach the menubar inside the scene. Finally, the show() method is called to display the final results.
 
-    ```
+    ```java
     // Program to create a context menu and add it to label
     import javafx.application.Application;
     import javafx.scene.Scene;
@@ -90,7 +90,7 @@ ContextMenu 是 JavaFX 库的一部分。ContextMenu 可以与标签、textfield
 
 2.  **Program to create a context menu and add it to label and associate the context menu with window event listener**: A Contextmenu will be created by name contextMenu and 3 menuitems menuItem1, menuItem2, menuItem3 will be added to the menu contextMenu and the contextMenu will be associated with a label l. The label will be created inside a scene, which in turn will be hosted inside a stage. The function setTitle() is used to provide title to the stage. Then a VBox is created, on which addChildren() method is called to attach the menubar inside the scene. Finally, the show() method is called to display the final results. A Window event will be created that will handle the window events of the context menu and will display the state of the context menu by a Label ‘label’. The window event will be associated with the label using setOnHiding() and setOnShowing() functions.
 
-    ```
+    ```java
     // Program to create a context menu and add it to label
     // and associate the context menu with window event listener
     import javafx.application.Application;

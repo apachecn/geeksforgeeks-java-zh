@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setDouble(Object obj, double d)
             throws IllegalArgumentException,
                    IllegalAccessException
@@ -30,7 +30,7 @@ public void setDouble(Object obj, double d)
 下面的程序说明了 setDouble()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate setDouble() method
 
 import java.lang.reflect.Field;
@@ -94,7 +94,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of salary before applying setDouble is 43125.0
 Value of salary after applying setDouble is 50000.99
 Value of pf before applying setDouble is 2342.89
@@ -104,7 +104,7 @@ Value of pf after applying setDouble is 1234.34
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate setDouble() method
 
 import java.lang.reflect.Field;
@@ -143,7 +143,7 @@ class Numbers {
 
 **Output:**
 
-```
+```java
 Value after applying setDouble is 53245.466
 
 ```

@@ -5,7 +5,7 @@
 indexOf()方法有四个**变体。本文对它们进行了描述，如下所示:
 **1.int 索引 Of()** :此方法**返回****索引**中指定字符的第一个出现的字符串，如果该字符没有出现，则返回-1。** 
 
-```
+```java
 **Syntax:**
 **int indexOf(char ch )**
 **Parameters:**
@@ -14,7 +14,7 @@ indexOf()方法有四个**变体。本文对它们进行了描述，如下所示
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to demonstrate the working
 // of String indexOf()
 public class Index1 {
@@ -35,13 +35,13 @@ public static void main(String args[])
 
 ****Output**
 
-```
+```java
 Found g first at position : 11
 ```** 
 
 ****2。int indexOf(char ch，int strt ) :** 此方法**返回**的第一个**出现的字符串内的索引，在指定的索引处开始搜索，如果该字符没有出现，则返回-1。**** 
 
-```
+```java
 **Syntax:**
 **int indexOf(char ch, int strt)**
 **Parameters:**
@@ -51,7 +51,7 @@ Found g first at position : 11
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to demonstrate the working
 // of String indexOf(char ch, int strt)
 public class Index2 {
@@ -72,6 +72,6 @@ public static void main(String args[])
 
 ****Output****
 
-```
+```java
 Found g after 13th index at position : 19
 ```

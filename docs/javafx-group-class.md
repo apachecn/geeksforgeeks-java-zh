@@ -26,7 +26,7 @@ Group 类是 JavaFX 的一部分。组包含节点的数量。组将采用其子
 
 1.  **Java Program to create a Group and add it to the stage:** In this program we are creating a Label named *label*, and a Circle named *circle*. Now create a Group name *group* and add the label and circle to it by using the *getChildren().add()* function. Create a scene and add the group to the scene. Add the scene to the stage and display the stage to view the final results.
 
-    ```
+    ```java
     // Java Program to create a Group
     // and add it to the stage
     import javafx.application.Application;
@@ -98,7 +98,7 @@ Group 类是 JavaFX 的一部分。组包含节点的数量。组将采用其子
 
 2.  **Java Program to create a Group, set auto resize to true and add it to the stage:** In this program we are creating a Label named *label* and a Circle named *circle*. Then we will create a Group name *group* and add the label and circle to it by using the *getChildren().add()* function. Set the auto size children to true using the *setAutoSize()* function. Create a scene and add the group to the scene. Add the scene to the stage and display the stage to view the final results.
 
-    ```
+    ```java
     // Java Program to create a Group,
     // set auto resize to true
     // and add it to the stage

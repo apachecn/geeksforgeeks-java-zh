@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double doubleValue()
 
 ```
@@ -19,7 +19,7 @@ public double doubleValue()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the
 // doubleValue() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old value is: 52.0
 Current double value is: 52.0
 
@@ -59,7 +59,7 @@ Current double value is: 52.0
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate the
 // doubleValue() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Old value is: 77.0
 Current double value is: 77.0
 

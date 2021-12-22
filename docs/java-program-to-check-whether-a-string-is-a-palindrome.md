@@ -6,12 +6,12 @@
 
 插图:
 
-```
+```java
 Input : str = "abba" 
 Output: Yes
 ```
 
-```
+```java
 Input : str = "geeks"
 Output: No  
 ```
@@ -22,7 +22,7 @@ Output: No 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check whether a
 // string is a Palindrome
 // Using two pointing variables
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 No
 ```
 
@@ -86,7 +86,7 @@ No
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to check Whether the String is Palindrome
 // or Not
 
@@ -148,7 +148,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String 1 :It is not a palindrome
 String 1 :It is a palindrome
 ```

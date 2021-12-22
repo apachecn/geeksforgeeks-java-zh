@@ -6,7 +6,7 @@ Java.util.HashSet.size()方法用于获取 HashSet 的大小或 HashSet 中存�
 
 **语法:**
 
-```
+```java
 Hash_Set.size()
 
 ```
@@ -17,7 +17,7 @@ Hash_Set.size()
 
 下面程序举例说明了
 
-```
+```java
 // Java code to illustrate HashSet.size() method
 import java.util.*;
 import java.util.HashSet;
@@ -46,7 +46,7 @@ public class HashSetDemo {
 
 **方法:**
 
-```
+```java
 HashSet: [4, Geeks, Welcome, To]
 The size of the set is: 4
 

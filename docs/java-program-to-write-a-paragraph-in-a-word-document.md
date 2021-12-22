@@ -14,7 +14,7 @@ Java 为我们提供了内置于环境中的各种包，这有助于轻松阅读
 
 **1。create aragraph()**
 
-```
+```java
 xwpfdocument.createParagraph()
 ```
 
@@ -24,7 +24,7 @@ xwpfdocument.createParagraph()
 
 **XWPFRun** 是一个 Java 类，为文档中创建的每个段落添加一个 Run。XWPFRun 使用 createRun()方法模拟向段落中添加内容。在 Java 中创建的段落上调用以下方法:
 
-```
+```java
 xwpfparagraph.createRun()
 ```
 
@@ -34,7 +34,7 @@ xwpfparagraph.createRun()
 
 在这个创建的运行对象上调用 setText()方法来添加 Java 内容:
 
-```
+```java
 xwpfrun.setText(content)
 ```
 
@@ -48,7 +48,7 @@ xwpfrun.setText(content)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Programming to Write a paragraph in a Word Document
 
 // Importing required packages

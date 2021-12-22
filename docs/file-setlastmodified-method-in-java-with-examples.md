@@ -5,13 +5,13 @@
 **setlastmodied()**方法是[文件](https://www.geeksforgeeks.org/File-class-in-java/)类的一部分。该函数设置文件或目录的最后修改时间。该函数以毫秒为单位设置文件的最后修改值。
 **功能签名:**
 
-```
+```java
 public boolean setLastModified(long time)
 ```
 
 **函数语法:**
 
-```
+```java
 file.setLastModified(time)
 ```
 
@@ -27,7 +27,7 @@ file.setLastModified(time)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // use of setLastModified() function
 
@@ -70,7 +70,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Last modified time is set
 ```
 
@@ -78,7 +78,7 @@ Last modified time is set
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // use of setLastModified() function
 
@@ -124,7 +124,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Last modified time cannot be set
 ```
 

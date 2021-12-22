@@ -6,12 +6,12 @@
 
 在 Java 8 中，我们可以像使用对象或基元值一样使用方法，并且可以将它们视为变量。该示例将函数显示为 java 中的变量:
 
-```
+```java
 // This square function is a variable getSquare. 
 Function<Integer, Integer> getSquare = i -> i * i; 
 ```
 
-```
+```java
 SomeFunction(a, b, getSquare); 
 // Pass function as a argument to other function easily 
 ```
@@ -22,7 +22,7 @@ SomeFunction(a, b, getSquare);
 
 **A.** 指对象中的方法
 
-```
+```java
 Object :: methodName 
 ```
 
@@ -30,7 +30,7 @@ Object :: methodName
 
 下面是一个 lambda 表达式的示例，该表达式在整个执行过程中只调用一个方法:
 
-```
+```java
 list.forEach(s -> System.out.println(s));  
 ```
 
@@ -38,7 +38,7 @@ list.forEach(s -> System.out.println(s));  
 
 为了使代码清晰紧凑，在上面的示例中，可以将 lambda 表达式转换为方法引用:
 
-```
+```java
 list.forEach(System.out::println);  
 ```
 
@@ -48,7 +48,7 @@ list.forEach(System.out::println); 
 
 插图:
 
-```
+```java
 public int transformAndAdd(List<Integer> l,
                            Function<Integer, Integer> ops) {
     int result = 0;
@@ -80,7 +80,7 @@ class OpsUtil {
 
 下面是调用上述方法的方法，如下所示:
 
-```
+```java
 List<Integer> list = new ArrayList<>();
 // Add some element to list
 ...
@@ -126,7 +126,7 @@ tranformAndAdd(list, OpsUtil::doHalf);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate How One can use
 // Static method reference
 // To Sort with Custom Comparator
@@ -218,7 +218,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Sort by name :
 poonam
 sachin
@@ -247,7 +247,7 @@ poonam
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate How One can use
 // Static method reference
 // To Sort with Custom Comparator
@@ -351,7 +351,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Sort by name :
 poonam
 sachin
@@ -380,7 +380,7 @@ poonam
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate how One can use
 // Instance type method reference to
 // sort with custom comparator
@@ -417,7 +417,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 poonam
 sachin
 vicky
@@ -439,7 +439,7 @@ vicky
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate How We can Use
 // constructor method reference
 
@@ -516,7 +516,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 vzskgmu
 iupltfx
 kocsipj

@@ -29,7 +29,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Delete a 
 // Node From the Middle of the
 // Circular Linked List
@@ -187,7 +187,7 @@ class Test {
 
 **Output**
 
-```
+```java
 List=10 20 30 40 
 List after deleting middle node=10 30 40 
 List after deleting middle node=10 40 

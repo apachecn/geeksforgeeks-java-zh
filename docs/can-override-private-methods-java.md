@@ -6,7 +6,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Base {
   public void fun() {
      System.out.println("Base fun");    
@@ -32,7 +32,7 @@ class Derived extends Base {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Base {
   private void fun() {
      System.out.println("Base fun");    
@@ -57,7 +57,7 @@ class Derived extends Base {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /* Java program to demonstrate whether we can override private method
    of outer class inside its inner class */
 class Outer {
@@ -93,7 +93,7 @@ class Outer {
 
 输出:
 
-```
+```java
 Accessing Private Member of Outer: GeeksforGeeks
 Outer fun()
 ```

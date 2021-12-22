@@ -38,7 +38,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Non-Recursive Java program for inorder traversal
 import java.util.Stack;
 
@@ -109,7 +109,7 @@ class BinaryTree {
 
 **Output**
 
-```
+```java
 4 2 5 1 3
 ```
 
@@ -135,7 +135,7 @@ class BinaryTree {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for Pre order Traversal
 import java.util.*;
 import java.io.*;
@@ -205,7 +205,7 @@ class BinaryTree {
 
 **Output**
 
-```
+```java
 1 2 4 5 3
 ```
 
@@ -231,7 +231,7 @@ class BinaryTree {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Non-Recursive Java Program for preorder traversal
 import java.util.Stack;
 // Class containing left and right child of
@@ -312,7 +312,7 @@ class BinaryTree {
 
 **Output**
 
-```
+```java
 1 2 4 5 3
 ```
 
@@ -339,7 +339,7 @@ class BinaryTree {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for iterative postorder
 // traversal using stack
 
@@ -432,7 +432,7 @@ class BinaryTree {
 
 **Output**
 
-```
+```java
 4 5 2 3 1
 ```
 

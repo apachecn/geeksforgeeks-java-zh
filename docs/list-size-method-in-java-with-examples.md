@@ -6,7 +6,7 @@ Java 中[列表界面](https://www.geeksforgeeks.org/list-interface-java-example
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -18,7 +18,7 @@ public int size()
 
 **说明:**假设它是一个整数列表
 
-```
+```java
 Input  : {3,2,1,5,7} 
 Output : 5
 ```
@@ -27,7 +27,7 @@ Output : 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate size() method
 // of List class for Integer value
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before operation: [1, 2, 3, 4, 5]
 Size of list = 5
 ```
@@ -75,7 +75,7 @@ Size of list = 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate size() method
 // of List class for Integer value
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before operation: [Geeks, for, Geeks]
 Size of list = 3
 ```

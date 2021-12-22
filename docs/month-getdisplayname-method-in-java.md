@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public String getDisplayName(TextStyle style,
                              Locale locale)
 
@@ -23,7 +23,7 @@ public String getDisplayName(TextStyle style,
 
 **程序 1** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.format.TextStyle;
@@ -44,14 +44,14 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 Mar
 
 ```
 
 **程序二** :
 
-```
+```java
 import java.time.*;
 import java.time.Month;
 import java.time.format.TextStyle;
@@ -72,7 +72,7 @@ class monthEnum {
 
 **输出:**
 
-```
+```java
 Dec
 
 ```

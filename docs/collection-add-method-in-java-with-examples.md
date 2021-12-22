@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Collection.add(E element)
 ```
 
@@ -34,7 +34,7 @@ Collection.add(E element)
 
 T5】Java
 
-```
+```java
 // Java code to illustrate boolean add() method
 
 import java.io.*;
@@ -67,7 +67,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The list is: [Geeks, for, Geeks]
 The new List is: [Geeks, for, Geeks, Last, Element]
 ```
@@ -76,7 +76,7 @@ The new List is: [Geeks, for, Geeks, Last, Element]
 
 T5】Java
 
-```
+```java
 // Java code to illustrate add() method
 
 import java.util.*;
@@ -102,7 +102,7 @@ public class ArrayDequeDemo {
 
 **输出:**
 
-```
+```java
 ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 ```
 
@@ -110,7 +110,7 @@ ArrayDeque: [Welcome, To, Geeks, 4, Geeks]
 
 T5】Java
 
-```
+```java
 // Java code to illustrate add() method
 
 import java.io.*;
@@ -138,7 +138,7 @@ public class ArrayListDemo {
 
 **输出:**
 
-```
+```java
 Number = 15
 Number = 20
 Number = 25
@@ -150,7 +150,7 @@ Number = 25
 
 ## Java
 
-```
+```java
 // Java code to illustrate boolean add()
 // Where NullPointerException is Thrown
 
@@ -193,7 +193,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The ArrayList is: []
 ```
 

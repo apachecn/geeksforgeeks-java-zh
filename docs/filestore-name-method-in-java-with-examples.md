@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract String name()
 
 ```
@@ -18,7 +18,7 @@ public abstract String name()
 以下程序举例说明名称()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate FileStore.name() method
 
 import java.io.IOException;
@@ -60,7 +60,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate FileStore.name() method
 
 import java.io.IOException;

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void setMinimumIntegerDigits(int newVal)
 
 ```
@@ -19,7 +19,7 @@ public void setMinimumIntegerDigits(int newVal)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setMinimumIntegerDigits() method
 
@@ -44,14 +44,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 001, 234.34
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setMinimumIntegerDigits() method
 
@@ -76,7 +76,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 1, 234.34
 
 ```

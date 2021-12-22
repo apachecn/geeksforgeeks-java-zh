@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Escaping Characters in Java
 // Regex Using \Q and \E for escaping
 
@@ -71,7 +71,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 p matches s: true
 p matches s1: false
 p1 matches s: true
@@ -93,7 +93,7 @@ p1 matches s1: true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -124,7 +124,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 p matches s: true
 p matches s1: false
 p1 matches s: true

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E set(int index, Object element)
 
 ```
@@ -30,7 +30,7 @@ public E set(int index, Object element)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate set()
 
 import java.io.*;
@@ -71,7 +71,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList:[Geeks, for, Geeks, 10, 20]
 The Object that is replaced is: Geeks
 The Object that is replaced is: 20
@@ -81,7 +81,7 @@ The new AbstractSequentialList is:[Geeks, for, GFG, 10, 50]
 
 **示例 2:** 演示 IndexOutOfBoundException
 
-```
+```java
 // Java code to illustrate set()
 
 import java.io.*;
@@ -122,7 +122,7 @@ public class AbstractSequentialListDemo {
 
 **Output:**
 
-```
+```java
 AbstractSequentialList:[Geeks, for, Geeks, 10, 20]
 Trying to replace 10th element with GFG
 java.lang.IndexOutOfBoundsException: Index: 10, Size: 5

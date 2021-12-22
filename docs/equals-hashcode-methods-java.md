@@ -13,7 +13,7 @@ Java.lang.object 定义了两个非常重要的方法:public boolean equals(Obje
 
 **语法:**
 
-```
+```java
 public boolean equals  (Object obj)
 
 // This method checks if some other Object
@@ -31,7 +31,7 @@ public boolean equals  (Object obj)
 
     **注意:**对于任何非空引用值 a，a.equals(null)应该返回 false。
 
-```
+```java
 // Java program to illustrate 
 // how hashCode() and equals() methods work
 import java.io.*;
@@ -119,20 +119,20 @@ class GFG
 
 输出:
 
-```
+```java
 Both Objects are equal.
 
 ```
 
 在上面的示例中，请参见行:
 
-```
+```java
 // if(!(obj instanceof Geek)) return false;--> avoid.-->(a)
 ```
 
 我们用这条线代替了上面的线:
 
-```
+```java
 if(obj == null || obj.getClass()!= this.getClass()) return false; --->(y)
 ```
 
@@ -145,7 +145,7 @@ if(obj == null || obj.getClass()!= this.getClass()) return false; --->(y)
 它以整数形式返回哈希值。Hashcode 值主要用于基于哈希的集合，如 HashMap、HashSet、HashTable…等。这个方法必须在每个重写 equals()方法的类中被重写。
 语法:
 
-```
+```java
 public int hashCode()
 
 // This method returns the hash code value 

@@ -6,13 +6,13 @@
 
 ****功能签名:****
 
-```
+```java
 public boolean after(Timestamp t)
 ```
 
 ****语法:****
 
-```
+```java
 ts1.after(ts2);
 ```
 
@@ -26,7 +26,7 @@ ts1.after(ts2);
 
 ****示例 1:** 创建两个不相等的时间戳，检查第二个时间戳是否出现在第一个时间戳之后**
 
-```
+```java
 // Java program to demonstrate the
 // use of after() function
 
@@ -65,14 +65,14 @@ public class solution {
 
 ****输出:**
 
-```
+```java
 Second Timestamp occurs after first timestamp
 
 ```
 
 **示例 2:** 创建两个相等的时间戳，检查第二个时间戳是否出现在第一个时间戳之后
 
-```
+```java
 // Java program to demonstrate the
 // use of after() function
 
@@ -110,7 +110,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Second Timestamp does not occur after first timestamp
 
 ```

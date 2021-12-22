@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashcode : 2097279521
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashcode : 2097607230
 
 ```

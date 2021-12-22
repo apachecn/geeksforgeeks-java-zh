@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int compare(boolean a, boolean b)
 
 ```
@@ -28,7 +28,7 @@ public static int compare(boolean a, boolean b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.compare() method
 
@@ -53,14 +53,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing true and true : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.compare() method
 
@@ -85,14 +85,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing true and false : 1
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Booleans.compare() method
 
@@ -118,7 +118,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing false and true : -1
 
 ```

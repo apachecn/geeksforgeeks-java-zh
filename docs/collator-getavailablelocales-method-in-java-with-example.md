@@ -5,7 +5,7 @@
 **java.text.Collator 类**的 **getAvailablelocales()** 方法用于在初始化 Collator 对象时获取传递的 Locales 实例下所有可用的 Locales。
 **语法:**
 
-```
+```java
 public static Locale[] getAvailableLocales()
 ```
 
@@ -16,7 +16,7 @@ public static Locale[] getAvailableLocales()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAvailableLocales() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Equivalent Locales are 
 ar_AE
 ar_JO
@@ -74,7 +74,7 @@ fr_BE
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAvailableLocales() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Equivalent Locales are 
 es_PA
 es_VE

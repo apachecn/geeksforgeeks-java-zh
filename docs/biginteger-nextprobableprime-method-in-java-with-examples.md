@@ -6,7 +6,7 @@ T2。nextProbablePrime()用于查找第一个可能是素数的大于这个 BigI
 
 **语法:**
 
-```
+```java
 public BigInteger nextProbablePrime()
 
 ```
@@ -20,7 +20,7 @@ public BigInteger nextProbablePrime()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // nextProbablePrime() method of BigInteger
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The next probable Prime number is 1516153
 
 ```
@@ -101,14 +101,14 @@ public class GFG {
         }
     }
 }
-```
+```java
 
 **Output:**
 
 ```
 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
 
-```
+```java
 
 **例 3:** 数值为负时显示异常的程序。
 
@@ -145,7 +145,7 @@ public class GFG {
         }
     }
 }
-```
+```java
 
 **Output:**
 

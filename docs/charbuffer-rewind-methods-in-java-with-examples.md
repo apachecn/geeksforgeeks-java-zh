@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ByteBuffer rewind()
 ```
 
@@ -16,7 +16,7 @@ public ByteBuffer rewind()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // rewind() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Buffer before operation: [a, i,,  ]
 Position: 2
 Limit: 4
@@ -75,7 +75,7 @@ Limit: 4
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // rewind() method
 
@@ -126,7 +126,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Buffer before operation: [a, b, c,,  ]
 Position: 3
 Limit: 5

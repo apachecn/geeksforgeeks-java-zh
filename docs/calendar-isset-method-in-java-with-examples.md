@@ -6,7 +6,7 @@ calendar 类中的**isSet(int*****calndr _ field*****)**方法用于检查给定
 
 **语法:**
 
-```
+```java
 public final boolean isSet(int calndr_field)
 ```
 
@@ -19,7 +19,7 @@ public final boolean isSet(int calndr_field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // isSet() method
 
@@ -53,7 +53,7 @@ public class CalendarDemo {
 
 **Output:** 
 
-```
+```java
 The Year is: 2019
 Is the Value set? true
 Is the Value set? false
@@ -63,7 +63,7 @@ Is the Value set? false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // isSet() method
 
@@ -99,7 +99,7 @@ public class CalendarDemo {
 
 **Output:** 
 
-```
+```java
 Todays Day is: 21
 Is the Value set? true
 Is the Value set? false

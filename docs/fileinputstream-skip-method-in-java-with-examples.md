@@ -16,7 +16,7 @@ Java 输入输出包帮助用户执行所有的输入输出操作。这些流支
 
 **语法:**
 
-```
+```java
 Input_File_Stream.skip(n)
 Input_File_Stream: The file input stream.
 ```
@@ -34,7 +34,7 @@ Input_File_Stream: The file input stream.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working
 // of skip() method in FileInputStream
 
@@ -114,7 +114,7 @@ public class GeeksforGeeks {
 
 **4。**我们现在将使用命令提示符通过 javac 编译器编译我们的程序:
 
-```
+```java
 javac GeeksforGeeks.java
 ```
 
@@ -124,7 +124,7 @@ javac GeeksforGeeks.java
 
 **5。**如下图所示 **GeeksforGeeks.class** 字节代码文件生成。现在使用以下命令运行程序:
 
-```
+```java
 java GeeksforGeeks
 ```
 
@@ -140,7 +140,7 @@ java GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working
 // of skip() method in FileInputStream
 

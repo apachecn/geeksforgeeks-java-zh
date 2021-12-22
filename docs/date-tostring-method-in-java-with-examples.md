@@ -5,7 +5,7 @@
 **Java Date 类**的 **toString()** 方法将该日期对象转换为“dow mon dd hh:mm:ss zzz yyy”形式的字符串。此方法重写类对象中的 toString。
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -18,7 +18,7 @@ public String toString()
 
 下面的程序演示了上述功能:
 
-```
+```java
 // Java code to demonstrate
 // toString() function of Date class
 
@@ -52,12 +52,12 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Thu Dec 05 08:21:00 UTC 1996
 
 ```
 
-```
+```java
 // Java code to demonstrate
 // toString() function of Date class
 
@@ -91,7 +91,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Wed Dec 15 08:21:02 UTC 1999
 
 ```

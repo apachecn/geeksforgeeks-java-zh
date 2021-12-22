@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final boolean compareAndSet(long expect,
                                        long val)
 
@@ -23,7 +23,7 @@ public final boolean compareAndSet(long expect,
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the compareAndSet() function
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 0
 The value was updated and it is 6
 
@@ -66,7 +66,7 @@ The value was updated and it is 6
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the compareAndSet() function
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Previous value: 0
 The value was not updated
 

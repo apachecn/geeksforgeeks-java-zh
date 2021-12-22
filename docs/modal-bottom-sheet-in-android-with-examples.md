@@ -8,7 +8,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。在这个库的帮助下，我们可以继承**底层对话片段**，它帮助我们实现底层组件。
 
-    ```
+    ```java
     dependencies {         
           implementation 'com.google.android.material:material:1.2.0-alpha02'     
     }         
@@ -18,7 +18,7 @@
 
     ## bottom _ sheet _ layout . XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"

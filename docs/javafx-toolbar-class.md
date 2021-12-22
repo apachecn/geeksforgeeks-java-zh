@@ -21,7 +21,7 @@ ToolBar 类是 JavaFX 的一部分。工具栏是垂直或水平显示项目的�
 
 1.  **Java program to create a toolbar and add it to the scene:** In this program we will create a Toolbar named *toolbar*. We will also create a Label named *label* and two Buttons named *button1* and *button2* and add them to the toolbar. Add the toolbar to the VBox named *vbox* and add the *VBox* to the scene. Then add the scene to the stage and call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java program to create a toolbar
     // and add it to the scene
     import javafx.application.Application;
@@ -87,7 +87,7 @@ ToolBar 类是 JavaFX 的一部分。工具栏是垂直或水平显示项目的�
 
 2.  **Java program to create a toolbar and add it to the scene and set the orientation of the toolbar:** In this program we will create a Toolbar named *toolbar*. We will also create a Label named *label* and two Buttons named *button1* and *button2* and add them to the toolbar by using the *getItems().add()* function. Set the orientation of the toolbar using the *setOrientation()* function. Now add the toolbar to the HBox named *hbox* and add the HBox to the *scene*. Finally add the scene to the stage and call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java program to create a toolbar and
     // add it to the scene and set orientation
     // of the toolbar

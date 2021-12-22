@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public abstract float getFloat()
 ```
 
@@ -20,7 +20,7 @@ public abstract float getFloat()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getFloat() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 12.3 28.44 
 
@@ -95,7 +95,7 @@ Next Byte Value: 28.44
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getFloat() method
 
@@ -164,7 +164,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 12.3 28.44 
 
@@ -183,7 +183,7 @@ Exception Thrown : java.nio.BufferUnderflowException
 
 **语法:**
 
-```
+```java
 public abstract float getFloat(int index)
 ```
 
@@ -197,7 +197,7 @@ public abstract float getFloat(int index)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getFloat() method
 
@@ -263,7 +263,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 12.3 28.44 
 
@@ -275,7 +275,7 @@ Next Byte Value: 28.44
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getFloat() method
 
@@ -341,7 +341,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original ByteBuffer: 
 12.3 28.44 
 

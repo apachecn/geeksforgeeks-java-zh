@@ -9,7 +9,7 @@
 ![How Set/HashSet works internally  in Java](img/3bc094ed7c0fede12866852dac026cbc.png)
 我们将用一个例子来理解这一点。让我们看看下面这个程序的输出，它试图在 HashSet 中添加重复的元素。
 
-```
+```java
 // Java program to demonstrate
 // internal working of HashSet
 
@@ -44,7 +44,7 @@ class Test
 
 输出:
 
-```
+```java
 b1 = true
 b2 = true
 b3 = false
@@ -54,7 +54,7 @@ b3 = false
 
 现在从输出中可以清楚地看到，当我们尝试使用 *add()* 方法向集合中添加一个重复的元素时，它返回 *false* ，并且元素没有添加到 hashset 中，因为它已经存在。现在问题来了， *add()* 方法如何检查集合是否已经包含指定元素。如果我们仔细看看 HashSet 类中的 *add()* 方法和默认构造函数，会更清楚。
 
-```
+```java
 // predefined HashSet class
 public class HashSet
 {

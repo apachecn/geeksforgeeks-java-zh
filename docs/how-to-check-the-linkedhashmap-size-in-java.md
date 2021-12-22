@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : List : [1 : "John", 2 : "Tom", 3 : "Tim"]
 Output: 3
 
@@ -24,7 +24,7 @@ Output: 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find the size of LinkedHashMap
 import java.util.*;
 public class LinkedHashMapSizeExample {
@@ -54,7 +54,7 @@ public class LinkedHashMapSizeExample {
 
 **Output**
 
-```
+```java
 Size of LinkedHashMap is 3
 ```
 
@@ -62,13 +62,13 @@ Size of LinkedHashMap is 3
 
 **语法:**
 
-```
+```java
 List.size()
 ```
 
 **返回类型:**
 
-```
+```java
 Integer
 ```
 
@@ -79,7 +79,7 @@ Integer
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find the size of LinkedHashMap
 import java.util.LinkedHashMap;
 public class LinkedHashMapSizeExample {
@@ -106,6 +106,6 @@ public class LinkedHashMapSizeExample {
 
 **Output**
 
-```
+```java
 Size of LinkedHashMap is 3
 ```

@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalField field)
 ```
 
@@ -32,7 +32,7 @@ public boolean isSupported(TemporalField field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Instant.isSupported() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 MilliSecond Field is supported: true
 ```
 
@@ -84,7 +84,7 @@ MilliSecond Field is supported: true
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalUnit unit)
 ```
 
@@ -97,7 +97,7 @@ public boolean isSupported(TemporalUnit unit)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Instant.isSupported() method
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ChronoUnit MILLIS is  supported: true
 ```
 

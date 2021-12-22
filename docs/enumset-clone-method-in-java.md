@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumSet.clone()方法用于返回现有集合或此集合�
 
 **语法:**
 
-```
+```java
 Enum_Set_2 = Enum_Set_1.clone()
 ```
 
@@ -17,7 +17,7 @@ Enum_Set_2 = Enum_Set_1.clone()
 以下程序说明了 Java.util.EnumSet.clone()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate clone() method
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class Enum_Set_Demo {
 
 **Output:**
 
-```
+```java
 Initial set: [Welcome, To, The, World, of, Geeks]
 The updated set is:[Welcome, To, The, World, of, Geeks]
 
@@ -64,7 +64,7 @@ The updated set is:[Welcome, To, The, World, of, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate clone() method
 import java.util.*;
 
@@ -102,7 +102,7 @@ public class Enum_Set_Demo {
 
 **Output:**
 
-```
+```java
 Initial set: [RANGE_ROVER, MUSTANG, CAMARO, AUDI, BMW]
 The updated set is:[RANGE_ROVER, MUSTANG, CAMARO, AUDI, BMW]
 

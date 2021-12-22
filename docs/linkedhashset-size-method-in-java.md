@@ -6,7 +6,7 @@ Java.util.LinkedHashSet.size()方法用于获取 LinkedHashSet 的大小或 Link
 
 **语法:**
 
-```
+```java
 Linked_Hash_Set.size()
 
 ```
@@ -17,7 +17,7 @@ Linked_Hash_Set.size()
 
 下面程序举例说明了 Java.util.LinkedHashSet.size()方法:
 
-```
+```java
 // Java code to illustrate LinkedHashSet.size() method
 import java.util.*;
 import java.util.LinkedHashSet;
@@ -47,7 +47,7 @@ public class LinkedHashSetDemo {
 
 T3】输出:
 
-```
+```java
 LinkedHashSet: [Welcome, To, Geeks, 4]
 The size of the set is: 4
 

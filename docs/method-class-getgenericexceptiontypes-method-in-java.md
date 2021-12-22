@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Code:
 public class demo{
     public void setValue(String value)
@@ -26,7 +26,7 @@ Array = {
 
 **语法:**
 
-```
+```java
 public Type[] getGenericExceptionTypes()
 ```
 
@@ -42,7 +42,7 @@ public Type[] getGenericExceptionTypes()
 
 **程序 1:** 借助 getGenericExceptionTypes()打印方法抛出的所有异常类型
 
-```
+```java
 /*
 * Program Demonstrate how to apply 
 * getGenericExceptionTypes() method
@@ -124,7 +124,7 @@ class demoClass {
 
 **Output:**
 
-```
+```java
 Generic Exception Thrown by Method: getValue
 Generic Exception Type Array length: 0
 
@@ -139,7 +139,7 @@ java.lang.ArithmeticException
 
 **程序 2:** 检查特定异常
 
-```
+```java
 /*
 * Program Demonstrate how to 
 * apply getGenericExceptionTypes() method
@@ -229,7 +229,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ArithmeticException is thrown by setValue(): true
 IndexOutOfBoundsException is thrown by setValue(): false
 

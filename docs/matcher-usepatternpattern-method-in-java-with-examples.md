@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Matcher usePattern(Pattern newPattern)
 
 ```
@@ -21,7 +21,7 @@ public Matcher usePattern(Pattern newPattern)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate usePattern() method
 
 import java.util.regex.*;
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Old Pattern: Geeks
 New Pattern: GFG
 
@@ -77,7 +77,7 @@ New Pattern: GFG
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate usePattern() method
 
 import java.util.regex.*;
@@ -125,7 +125,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Old Pattern: GFG
 New Pattern: Geeks
 

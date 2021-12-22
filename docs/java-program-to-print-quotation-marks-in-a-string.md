@@ -24,7 +24,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Print Quotation Marks in a String
 // Using Escape Sequence Character
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
  "Akshit Loves GeeksforGeeks" 
 ```
 
@@ -63,7 +63,7 @@ public class GFG {
 
 ## Java
 
-```
+```java
 // Java Program to Print Quotation Marks in a String
 // Using char
 
@@ -88,7 +88,7 @@ public class PrintQuotes {
 
 **输出**
 
-```
+```java
 "Akshit Loves GeeksforGeeks"
 ```
 
@@ -102,7 +102,7 @@ public class PrintQuotes {
 
 ## Java
 
-```
+```java
 public class PrintQuotes {
     public static void main(String[] args) {
 
@@ -115,6 +115,6 @@ public class PrintQuotes {
 
 **输出**
 
-```
+```java
 "Akshit Loves GeeksforGeeks"
 ```

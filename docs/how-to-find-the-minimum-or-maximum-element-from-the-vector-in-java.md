@@ -20,7 +20,7 @@ Collections 包提供了一种在集合中查找最小值和最大值的静态�
 
 ## Java
 
-```
+```java
 // Java Program to Find minimum and maximum elements
 // from a Vector
 
@@ -70,7 +70,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Vector elements : [1, 2, 3, 4, 5]
 Maximum Number in Vector is : 5
 Minimum Number in Vector is : 1
@@ -92,7 +92,7 @@ Minimum Number in Vector is : 1
 
 ## Java
 
-```
+```java
 // Java Program to Find minimum and maximum elements
 // from a Vector
 
@@ -156,7 +156,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Vector elements : [100, 30, 7, 24, 13]
 Maximum Element in Vector : 100
 Minimum Element in Vector : 7

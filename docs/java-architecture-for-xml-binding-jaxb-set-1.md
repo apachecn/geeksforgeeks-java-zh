@@ -48,7 +48,7 @@ JAXB 使用注释来指示中心元素。可以在 java 类中用于 JAXB 操作
 
 创建具有全名、学生学位、学生标记属性的 StudentMarks 类。
 
-```
+```java
 import java.util.ArrayList;
 
 import javax.xml.bind.annotation.XmlElement;
@@ -94,7 +94,7 @@ public class Student {
 
 **主类:JAVAObjToXml.java**，将学生对象转换为 XML Schema。
 
-```
+```java
 import java.io.File;
 import java.util.ArrayList;
 
@@ -140,7 +140,7 @@ public class JAVAObjToXml {
 
 > 为学生对象生成了 **StudentRecord.xml** 文件。
 > 
-> ```
+> ```java
 > <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 > <student>
 >     <Student Name>Aman Singh</Student Name>

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final float[] array()
 ```
 
@@ -18,7 +18,7 @@ public final float[] array()
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -67,14 +67,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer:  [8.56, 0.0, 9.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 ```
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -154,7 +154,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FloatBuffer fb: [9.56, 0.0, 7.61, 4.61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 FloatBuffer fb1:  [0.0, 4.56, 6.45, 0.0, 0.0]

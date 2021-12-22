@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime zonedDateTime(
           TemporalAccessor temporal)
 
@@ -20,7 +20,7 @@ public ZonedDateTime zonedDateTime(
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -75,14 +75,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LocalDate and time is: 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // zonedDateTime() method
 
@@ -135,7 +135,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 passed parameter can not form a date
 Exception thrown: java.time.DateTimeException: Unable to obtain ZonedDateTime from TemporalAccessor: 2018-12-30T19:34:50.630 of type java.time.LocalDateTime
 

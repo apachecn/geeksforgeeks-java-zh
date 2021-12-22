@@ -5,7 +5,7 @@
 Java 中 Currency 类的 **getInstance()** 方法用于检索给定货币代码的该货币的实例。
 **语法:**
 
-```
+```java
 CURRENCY.getInstance(String currency_code)
 ```
 
@@ -17,7 +17,7 @@ CURRENCY.getInstance(String currency_code)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Code to illustrate getInstance() method
 
 import java.util.*;
@@ -39,7 +39,7 @@ public class Currency_Demo {
 
 **Output:** 
 
-```
+```java
 Currency Code of India is: INR
 ```
 
@@ -47,7 +47,7 @@ Currency Code of India is: INR
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Code to illustrate toString() method
 
 import java.util.*;
@@ -69,7 +69,7 @@ public class Currency_Demo {
 
 **Output:** 
 
-```
+```java
 Currency Code of USA is: USD
 ```
 
@@ -77,7 +77,7 @@ Currency Code of USA is: USD
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Code to illustrate getInstance() method
 
 import java.util.*;
@@ -106,6 +106,6 @@ public class Currency_Demo {
 
 **Output:** 
 
-```
+```java
 java.lang.IllegalArgumentException
 ```

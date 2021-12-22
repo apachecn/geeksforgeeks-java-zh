@@ -14,7 +14,7 @@
 
 使用构造函数，我们可以绕过原始 HashSet 到构造函数，将原始 HashSet 复制到另一个 HashSet。
 
-```
+```java
 // passing the original HashSet to the constructor
 
 HashSet<Integer> copySet = new HashSet<>(originalSet)
@@ -24,7 +24,7 @@ HashSet<Integer> copySet = new HashSet<>(originalSet)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to copy a HashSet to
 // another HashSet using the constructor
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original HashSet: [50, 20, 10, 30]
 Copy HashSet: [50, 20, 10, 30]
 ```
@@ -75,7 +75,7 @@ Copy HashSet: [50, 20, 10, 30]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to copy a HashSet to 
 // another HashSet using clone method in Java
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original HashSet: [50, 20, 10, 30]
 Copy HashSet: [50, 10, 20, 30]
 ```
@@ -128,7 +128,7 @@ Copy HashSet: [50, 10, 20, 30]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to copy a HashSet to 
 // another HashSet using addAll method in Java 
 
@@ -166,7 +166,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original HashSet: [50, 20, 10, 30]
 Copy HashSet: [50, 20, 10, 30]
 ```
@@ -177,7 +177,7 @@ Copy HashSet: [50, 20, 10, 30]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to copy a HashSet to another 
 // HashSet using addAll method in Java
 
@@ -229,7 +229,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before appending :
 Original HashSet: [50, 20, 10, 30]
 Appended HashSet: [100, 200]

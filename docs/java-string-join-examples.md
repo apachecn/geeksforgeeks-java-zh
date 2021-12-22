@@ -6,7 +6,7 @@
 Java 字符串中有两种类型的 **join()** 方法。
 **语法:**
 
-```
+```java
 public static String **join**(CharSequence deli, CharSequence... ele) 
 and  
 public static String join
@@ -18,7 +18,7 @@ Returns :  string joined with delimiter.
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of join() method
 
@@ -35,12 +35,12 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 Four < Five < Six < Seven
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of join() method
 
@@ -58,12 +58,12 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 My name is Niraj Pandey
 
 ```
 
-```
+```java
 // Java program to demonstrate
 // working of join() method
 
@@ -83,7 +83,7 @@ class Gfg3 {
 
 **输出:**
 
-```
+```java
 Wake up-> Eat-> Play-> Sleep-> Wake up
 
 ```

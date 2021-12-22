@@ -5,7 +5,7 @@
 如果 x 代表 2 的幂，则[番石榴的 BigIntegerMath 类](https://www.geeksforgeeks.org/bigintegermath-class-guava-java/)的方法**是 poweroftwo(biginger x)**返回 true。
 **语法:**
 
-```
+```java
 public static boolean isPowerOfTwo(BigInteger x)
 ```
 
@@ -16,7 +16,7 @@ public static boolean isPowerOfTwo(BigInteger x)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation of
 // isPowerOfTwo(BigInteger x) method of
 // Guava's BigIntegerMath class
@@ -52,7 +52,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 63 is not power of 2
 1024 is power of 2
 ```
@@ -61,7 +61,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation of
 // isPowerOfTwo(BigInteger x) method of
 // Guava's BigIntegerMath class
@@ -97,7 +97,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 1 is power of 2
 567 is not power of 2
 ```

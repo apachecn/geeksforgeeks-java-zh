@@ -29,7 +29,7 @@ T3】
 
 ## 我的按钮.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
@@ -59,7 +59,7 @@ T3】
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -166,7 +166,7 @@ T3】
 
 ## MainActivity.java
 
-```
+```java
 package com.example.morseconverter;
 
 import android.os.Bundle;

@@ -6,7 +6,7 @@ Java 中 **MonthDay 类**的 **getMonth()** 方法从时态对象中获取 Month
 
 **语法:**
 
-```
+```java
 public Month getMonth()
 ```
 
@@ -18,7 +18,7 @@ public Month getMonth()
 
 **程序 1:**
 
-```
+```java
 // Program to illustrate the getMonth() method
 
 import java.util.*;
@@ -41,14 +41,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 DECEMBER
 
 ```
 
 **程序二:**
 
-```
+```java
 // Program to illustrate the getMonth() method
 
 import java.util.*;
@@ -71,7 +71,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 JANUARY
 
 ```

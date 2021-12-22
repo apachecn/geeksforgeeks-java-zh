@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Access the Part of List as List
 
 // Importing utility and input/output java classes
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The original list contents : 
 1 7 8 2 11 3 66 30 
 The sublist contents : 
@@ -126,7 +126,7 @@ The sublist contents :
 
 **语法:**
 
-```
+```java
 public List subList(int fromIndex, int toIndex)
 ```
 
@@ -141,7 +141,7 @@ public List subList(int fromIndex, int toIndex)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Access the Part of List as List
 
 // Importing java utility package, and
@@ -209,7 +209,7 @@ class AccessSublist {
 
 **Output**
 
-```
+```java
 The original list contents : Are you working! hard Geeeks? 
 The sublist contents : Are you working!
 ```

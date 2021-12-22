@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate toString()
 // method of LinkedBlockingDeque
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [7855642, 35658786, 5278367, 74381793]
 LBD in string [7855642, 35658786, 5278367, 74381793]
 
@@ -58,7 +58,7 @@ LBD in string [7855642, 35658786, 5278367, 74381793]
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate toString()
 // method of LinkedBlockingDeque
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Linked Blocking Deque: [geeks, sudo, gate, gopal]
 LBD in string [geeks, sudo, gate, gopal]
 

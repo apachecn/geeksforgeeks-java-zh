@@ -7,7 +7,7 @@ OpenCSV 提供了将 CSV 文件映射到 Java bean 列表的类。CsvToBean 类�
 1.  **首先给项目添加 OpenCSV。**
     *   对于 maven 项目，在 pom.xml 文件中包含 OpenCSV maven 依赖项。
 
-        ```
+        ```java
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
@@ -17,7 +17,7 @@ OpenCSV 提供了将 CSV 文件映射到 Java bean 列表的类。CsvToBean 类�
 
     *   对于 Gradle 项目，包括 OpenCSV 依赖项。
 
-        ```
+        ```java
         compile group: 'com.opencsv', name: 'opencsv', version: '4.1'
         ```
 
@@ -27,7 +27,7 @@ OpenCSV 提供了将 CSV 文件映射到 Java bean 列表的类。CsvToBean 类�
 
 1.  Create a Hashmap with mapping between the column id and bean property.
 
-    ```
+    ```java
     Map mapping = new HashMap();
             mapping.put("column  id ", "javaBeanProperty");
 
@@ -37,7 +37,7 @@ OpenCSV 提供了将 CSV 文件映射到 Java bean 列表的类。CsvToBean 类�
 
 2.  创建 HeaderColumnNameTranslateMappingStrategy 对象将映射 hashmap 传递给 setColumnMapping 方法。
 
-    ```
+    ```java
     HeaderColumnNameTranslateMappingStrategy strategy =
      new HeaderColumnNameTranslateMappingStrategy();
             strategy.setType(JavaBeanObject.class);
@@ -47,7 +47,7 @@ OpenCSV 提供了将 CSV 文件映射到 Java bean 列表的类。CsvToBean 类�
 
 3.  创建 CSVReade 和 CsvToBean 类的对象
 
-    ```
+    ```java
     String csvFilename = "data.csv";
     CSVReader csvReader = new CSVReader(new FileReader(csvFilename));
     CsvToBean csv = new CsvToBean();
@@ -56,14 +56,14 @@ OpenCSV 提供了将 CSV 文件映射到 Java bean 列表的类。CsvToBean 类�
 
 4.  调用 CsvToBean 类的解析方法，并传递 HeaderColumnNameTranslateMappingStrategy 和 CSVReader 对象。
 
-    ```
+    ```java
     List list = csv.parse(strategy, csvReader);
 
     ```
 
 **示例:**让我们将包含学生数据的 csv 文件转换为具有属性名称、卷号、部门、结果、指针的学生对象。
 
-```
+```java
 StudentData.csv:
 
 name, rollno, department, result, cgpa
@@ -83,7 +83,7 @@ suvam, 68, me, pass, 8.2
 
 1.  **Student.java**T3
 
-    ```
+    ```java
     public class Student {
         private static final long serialVersionUID = 1L;
 
@@ -154,7 +154,7 @@ suvam, 68, me, pass, 8.2
     T4】
 2.  **csvtobean.java**T3
 
-    ```
+    ```java
     import java.io.*;
     import java.util.*;
 
@@ -212,7 +212,7 @@ suvam, 68, me, pass, 8.2
 
 **输出**:
 
-```
+```java
 Student [Name=amar, RollNo=42, Department=cse, Result=pass, Pointer=8.6]
 Student [Name=rohini, RollNo=21, Department=ece, Result=fail, Pointer=3.2]
 Student [Name=aman, RollNo=23, Department=cse, Result=pass, Pointer=8.9]

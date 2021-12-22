@@ -6,14 +6,14 @@
 
 1.  **布尔 addAll(Collection c) :** 这个方法按照指定集合的迭代器返回元素的顺序，将指定集合中的所有元素追加到这个列表的末尾。如果在操作过程中修改了指定的集合，则此操作的行为是未定义的(意味着如果指定的集合是此列表，并且此列表是非空的，则此调用的行为是未定义的)。
 
-    ```
+    ```java
     Parameters:
     c : This is the collection containing elements to be added to this list.
     Exception:
     NullPointerException : If the specified collection is null
     ```
 
-    ```
+    ```java
     // Java program to illustrate
     // boolean addAll(Collection c)
     import java.io.*;
@@ -68,7 +68,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:Printing list1:
     Number = 12
     Number = 20
@@ -91,7 +91,7 @@
 
     **布尔 addAll(int index，Collection c):** 此方法从指定位置开始，将指定集合中的所有元素插入此列表。它将当前在该位置的元素(如果有)和任何后续元素向右移动(增加它们的索引)。新元素将按照指定集合的迭代器返回的顺序出现在列表中。
 
-    ```
+    ```java
     Parameters:
     index : The index at which to insert the first element from the specified collection.
     c : This is the collection containing elements to be added to this list.
@@ -100,7 +100,7 @@
     NullPointerException : If the specified collection is null
     ```
 
-    ```
+    ```java
     // Java program to illustrate
     // boolean addAll(int index, Collection c)
     import java.io.*;
@@ -155,7 +155,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:Printing list1:
     Number = 12
     Number = 20

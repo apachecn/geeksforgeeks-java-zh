@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final V getAndSet?(V newValue)
 ```
 
@@ -17,7 +17,7 @@ public final V getAndSet?(V newValue)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // AtomicReference.getAndSet() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 OLD Value = 1234.0
 NEW Value = 3213.0
 ```

@@ -6,7 +6,7 @@ java 中的每个类都是 Object 类的直接或间接的子类。 [toString()]
 
 **对象类 toString()方法的语法:**
 
-```
+```java
 public String toString()
 {
     return getClass().getName()+"@"+Integer.toHexString(hashCode());
@@ -19,7 +19,7 @@ public String toString()
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // how to override toString 
 // method for ArrayList
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
    Employee Name = Mukul    Employee Id = 1001    Employee Salary = 52000.0
    Employee Name = Robin    Employee Id = 1002    Employee Salary = 65000.0
    Employee Name = Rahul    Employee Id = 1003    Employee Salary = 53000.0

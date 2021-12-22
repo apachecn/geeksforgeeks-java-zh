@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object ob)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object ob)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate equals()
 // method of ConcurrentSkipListMap
 
@@ -46,14 +46,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program Demonstrate equals()
 // method of ConcurrentSkipListMap
 
@@ -80,7 +80,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```

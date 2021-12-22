@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```java
 // C++ implementation of the approach
 #include<bits/stdc++.h>
 using namespace std;
@@ -135,7 +135,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 
 // Node class contains value
@@ -245,7 +245,7 @@ class GFG {
 
 ## 计算机编程语言
 
-```
+```java
 # Python implementation of the approach
 
 # Node class contains value
@@ -347,7 +347,7 @@ printList(head)
 
 ## C#
 
-```
+```java
 // C# implementation of the approach
 using System;
 
@@ -469,7 +469,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // JavaScript implementation of the approach
@@ -579,6 +579,6 @@ printList(head);
 
 **Output:** 
 
-```
+```java
 1 -> 0 -> 0 -> 0 -> NULL
 ```

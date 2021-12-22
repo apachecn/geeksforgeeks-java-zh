@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 List subList(int fromIndex,
               int toIndex)
 ```
@@ -19,7 +19,7 @@ List subList(int fromIndex,
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // lastIndexOf method in list interface
 import java.util.*;
@@ -44,7 +44,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [1, 3, 5, 7, 3]
 4
 
@@ -52,7 +52,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [1, 3, 5, 7, 3]
 4
 
@@ -60,7 +60,7 @@ public class GfG {
 
 **程序 2:** 下面是使用 Linkedlist 展示 list.subList()实现的代码。
 
-```
+```java
 // Java code to show the implementation of
 // subList method in list interface
 import java.util.*;
@@ -87,7 +87,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 [10, 30, 50, 70, 30]
 [30, 50]
 

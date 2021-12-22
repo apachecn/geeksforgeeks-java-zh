@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 public void xor(BitSet set);
 ```
 
@@ -15,7 +15,7 @@ public void xor(BitSet set);
 
 **示例:**
 
-```
+```java
 Input : 
 set1 : {1, 2, 4}
 set2 : {2, 3, 4}
@@ -29,7 +29,7 @@ set2 : {1, 3}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program illustrating Bitset Class Function.
 import java.util.*;
 public class GFG {
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 bs1 : {0, 1, 2, 4}
 bs2 : {1, 2, 3, 4, 5, 6}
 After Performing XOR :

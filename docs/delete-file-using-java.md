@@ -8,13 +8,13 @@ java 提供了使用 Java 程序删除文件的方法。与任何操作系统中
 1.  **Using java.io.File.delete() function:** Deletes the file or directory denoted by this abstract path name.
     **Syntax:**
 
-    ```
+    ```java
     public boolean delete()
     Returns: true if and only if the file or 
     directory is successfully deleted; false otherwise
     ```
 
-    ```
+    ```java
     // Java program to delete a file 
     import java.io.*;
 
@@ -38,14 +38,14 @@ java 提供了使用 Java 程序删除文件的方法。与任何操作系统中
 
     **输出:**
 
-    ```
+    ```java
     File deleted successfully
     ```
 
 2.  **使用在 files 包中定义的 Java . nio . file . Files . deleteifexists(Path p)方法:**该方法删除存在的文件。只有当目录不为空时，它才会删除路径中提到的目录。
     **语法:**
 
-```
+```java
 public static boolean deleteIfExists(Path path) throws IOException
 Parameters: path - the path to the file to delete
 Returns: true if the file was deleted by this method; 
@@ -57,7 +57,7 @@ could not otherwise be deleted because the directory is not empty
 IOException - if an I/O error occurs
 ```
 
-```
+```java
 // Java program to demonstrate delete using Files class
 import java.io.IOException;
 import java.nio.file.*;
@@ -91,7 +91,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 Deletion successful.
 ```
 

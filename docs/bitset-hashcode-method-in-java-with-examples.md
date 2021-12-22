@@ -6,7 +6,7 @@ Java 中 BitSet 类的 hashCode()方法用于获取特定这个 BitSet 的哈希
 
 **语法:**
 
-```
+```java
 BitSet.hashCode()
 ```
 
@@ -17,7 +17,7 @@ BitSet.hashCode()
 以下程序用于说明 BitSet.hashCode()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate HashCode()
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {10, 20, 30, 40, 50}
 The HashCode: 1075053010
 
@@ -54,7 +54,7 @@ The HashCode: 1075053010
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate HashCode()
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class BitSet_Demo {
 
 **Output:**
 
-```
+```java
 BitSet: {25, 31, 40, 48, 53}
 The HashCode: -2111765038
 

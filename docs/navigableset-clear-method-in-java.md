@@ -6,7 +6,7 @@ Java . util . NavigableSet . clear()方法用于从 navigatableset 中移除所�
 
 **语法:**
 
-```
+```java
 void clear()
 ```
 
@@ -16,7 +16,7 @@ void clear()
 
 下面程序举例说明了 Java.util.method.clear()方法:
 
-```
+```java
 // Java code to illustrate clear()
 import java.io.*;
 import java.util.*;
@@ -48,7 +48,7 @@ public class NavigableSetDemo {
 
 **输出:**
 
-```
+```java
 Initial NavigableSet: [4, Geeks, To, Welcome]
 The final NavigableSet: []
 

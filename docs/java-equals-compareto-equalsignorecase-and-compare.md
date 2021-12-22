@@ -18,7 +18,7 @@ Java 中比较两个字符串的方法有很多:
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate
 // use of == operator in Java
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 A == A: true
 A == A: true
 A == A: true
@@ -77,7 +77,7 @@ A == A: false
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate
 // use of .equals operator in Java
 
@@ -120,7 +120,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 A .equals A: true
 A .equals a: false
 A .equals a: false
@@ -137,7 +137,7 @@ A .equals A: true
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate
 // use of .compareTo operator in Java
 
@@ -180,7 +180,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 A .compareTo A: 0
 A .compareTo a: -32
 a .compareTo A: 32
@@ -196,7 +196,7 @@ A .compareTo A: 0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate
 // use of .equalsIgnoreCase operator in Java
 
@@ -239,7 +239,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 A .equalsIgnoreCase A: true
 A .equalsIgnoreCase a: true
 A .equalsIgnoreCase a: true
@@ -255,7 +255,7 @@ A .equalsIgnoreCase A: true
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate
 // use of collator.compare operator in Java
 
@@ -301,7 +301,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 A collator.compare A: 0
 A collator.compare a: 1
 a collator.compare A: -1

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 IntStream peek(IntConsumer action)
 
 Where, IntStream is a sequence of primitive
@@ -18,7 +18,7 @@ an operation that accepts a single int-valued argument.
 
 **示例 1 :** 对给定范围的流执行求和。
 
-```
+```java
 // Java code for IntStream peek()
 // where the action performed is to get
 // sum of all elements in given range
@@ -45,7 +45,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2
 3
 4
@@ -60,7 +60,7 @@ sum is : 44
 
 **示例 2 :** 对给定范围的流执行计数操作。
 
-```
+```java
 // Java code for IntStream peek()
 // where the action performed is to get
 // count of all elements in given range
@@ -87,7 +87,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2
 3
 4
@@ -102,7 +102,7 @@ count : 8
 
 **示例 3 :** 对给定范围的流执行平均运算。
 
-```
+```java
 // Java code for IntStream peek()
 // where the action performed is to get
 // average of all elements in given range
@@ -139,7 +139,7 @@ class GFG {
 
 输出:
 
-```
+```java
 2
 3
 4

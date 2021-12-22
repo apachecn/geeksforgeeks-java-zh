@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static  Set singleton(T obj)
 and
 public static  List singletonList(T obj)
@@ -16,7 +16,7 @@ Return: an immutable list/set containing only the
        specified object.
 ```
 
-```
+```java
 Example:
 myList : {"Geeks", "code", "Practice", " Error",  "Java", 
           "Class", "Error", "Practice", "Java" }
@@ -31,7 +31,7 @@ After using singleton() and removeAll, we get following.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // working of singleton()
 import java.util.*;
@@ -85,7 +85,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Original geeklist1                 [1, 2, 4, 2, 1, 2, 3, 1, 3, 4, 3, 3]
 geekslist1 after removal of 1 without singleton [2, 4, 2, 1, 2, 3, 1, 3, 4, 3, 3]
 geekslist1 after removal of 1 without singleton [2, 4, 2, 2, 3, 1, 3, 4, 3, 3]

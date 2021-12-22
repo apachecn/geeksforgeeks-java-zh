@@ -22,7 +22,7 @@
 
 **算法:**标记相位
 
-```
+```java
 Mark(root)
 If markedBit(root) = false then
                      markedBit(root) = true
@@ -39,7 +39,7 @@ If markedBit(root) = false then
 
 **算法:**扫描阶段
 
-```
+```java
 Sweep()
 For each object p in heap
 If markedBit(p) = true then

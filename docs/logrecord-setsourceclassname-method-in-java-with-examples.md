@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setSourceClassName(String sourceClassName)
 
 ```
@@ -18,7 +18,7 @@ public void setSourceClassName(String sourceClassName)
 下面的程序说明了 setSourceClassName()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // setSourceClassName() method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Source class Name = java.lang.String
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // setSourceClassName() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Source class Name = java.util.ArrayList
 Now new Source class Name = null
 

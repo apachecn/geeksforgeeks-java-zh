@@ -6,7 +6,7 @@
 
 1.  在依赖项部分的回收视图中，在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库。
 
-    ```
+    ```java
     <dependency>
         implementation 'androidx.recyclerview:recyclerview:1.1.0'
     </dependency>
@@ -14,7 +14,7 @@
 
 2.  在[可绘制文件夹](https://www.geeksforgeeks.org/android-project-folder-structure/)中创建 **bullet.xml** 文件。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <shape
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -32,7 +32,7 @@
 
 3.  在 **activity_main.xml** 中，添加以下代码。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <androidx.constraintlayout.widget.ConstraintLayout 
@@ -54,7 +54,7 @@
 
 4.  使用以下代码创建一个新的 **custom_layout.xml** 文件。
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -81,7 +81,7 @@
 
 5.  创建一个**MyAdapter.java**类，并添加以下代码。
 
-    ```
+    ```java
     public class MyAdapter
         extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
@@ -141,7 +141,7 @@
 
 6.  最后，在**MainActivity.java**中添加以下代码。
 
-    ```
+    ```java
     public class MainActivity
         extends AppCompatActivity {
 

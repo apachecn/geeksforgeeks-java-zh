@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 **********************
 *                    *
 *                    *
@@ -23,13 +23,13 @@
 
 **步骤 2:** 对于矩形行，从 1 到行运行外部循环。
 
-```
+```java
 for (i = 1; i < = rows; i++)
 ```
 
 **步骤 3:** 对于矩形的列，运行从 1 到列的内部循环。
 
-```
+```java
 for (j = 1; j < = columns; j++)
 ```
 
@@ -41,7 +41,7 @@ for (j = 1; j < = columns; j++)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Square Pattern
 // Case 1: Hollow rectangle
 
@@ -102,7 +102,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 **********************
 *                    *
 *                    *
@@ -119,7 +119,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Square Star pattern
 // Case: Primary and secondary diagonal Rectangle Pattern
 import java.io.*;
@@ -178,7 +178,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 ************
 **        **
 * *      * *

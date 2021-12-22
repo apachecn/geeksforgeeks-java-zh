@@ -7,7 +7,7 @@ Java 中 **CharArrayWriter** 类的 **append()** 方法有三种类型:
 1.  The **append(char)** method of **CharArrayWriter** class in Java is used to append the specified character to the writer. This append() method appends one character at a time to the CharArrayWriter and returns this CharArrayWriter.
     **Syntax:** 
 
-    ```
+    ```java
     public CharArrayWriter append(char c)
 
     ```
@@ -22,7 +22,7 @@ Java 中 **CharArrayWriter** 类的 **append()** 方法有三种类型:
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java program to illustrate
     // CharArrayWriter append(char) method
 
@@ -56,7 +56,7 @@ Java 中 **CharArrayWriter** 类的 **append()** 方法有三种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEKS
 
     ```

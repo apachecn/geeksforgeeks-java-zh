@@ -11,7 +11,7 @@ T3】
 
 下面是上述想法的实现:
 
-```
+```java
 // Java code to illustrate the difference between
 // length in java Array and size in ArrayList
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 10
 3
 

@@ -6,7 +6,7 @@
 
 **可迭代**的定义
 
-```
+```java
 public interface Iterable<T>
 {
   Iterator<T>    iterator();
@@ -34,7 +34,7 @@ public interface Iterable<T>
 
 ## Java
 
-```
+```java
 // Java Program to demonstrate iterate 
 // an iterable using for-each loop
 
@@ -62,7 +62,7 @@ class IterateUsingEnhancedForLoop {
 
 **输出**
 
-```
+```java
 Geeks
 for
 Geeks
@@ -74,7 +74,7 @@ Geeks
 
 ## Java
 
-```
+```java
 // Java Program to demonstrate iterate
 // an Iterable using forEach method
 
@@ -101,7 +101,7 @@ class IterateUsingforEach {
 
 **输出**
 
-```
+```java
 Geeks
 for
 Geeks
@@ -120,7 +120,7 @@ Geeks
 
 ## 爪哇
 
-```
+```java
 // Java Program to demonstrate iterate
 // an Iterable using an Iterator
 
@@ -148,7 +148,7 @@ class IterateUsingIterator {
 
 **输出**
 
-```
+```java
 Geeks
 for
 Geeks

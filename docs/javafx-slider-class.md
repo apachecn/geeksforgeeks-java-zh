@@ -37,7 +37,7 @@
 
 1.  **Simple Java program to implement the Slider Class:** In this program we will create a group and Scene. Add Scene to the frame. Then, create a Slider and add it to the frame. Now launch the application.
 
-    ```
+    ```java
     // Java program to implement the Slider Class
     import javafx.application.Application;
     import javafx.scene.Group;
@@ -84,7 +84,7 @@
     <video class="wp-video-shortcode" id="video-222956-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20180831_234901.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20180831_234901.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20180831_234901.mp4)</video>
 2.  **Java program to implement Slider class by using TickMarks and TickLabels:** In this program we will create a Group and scene. Add the scene to the frame. Create a slider with specified *min*, *max* and *value*. Enable the Marks and Labels. Set *MajorTickUnit* with the specified value. Add the Slider to the frame and display it.
 
-    ```
+    ```java
     // Java program to implement Slider class
     // by using TickMarks and TickLabels
     import javafx.application.Application;
@@ -145,7 +145,7 @@
     <video class="wp-video-shortcode" id="video-222956-2" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20180901_000557.mp4?_=2">[https://media.geeksforgeeks.org/wp-content/uploads/20180901_000557.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20180901_000557.mp4)</video>
 3.  **Java program to implement Slider Class using ChangeListener:** In this program, we will create a *Label* and set the color for the text. Create a slider and set its min, max and value. Enable TickLabels and TickMarks. Set the value of the property *blockIncrement*. *setBlockIncrement()* method defines the distance that the thumb moves when a user clicks on the track. Add ChangeListener, on moving the slider the value of the brightness changes which will show in the label. Create a VBox and add to the frame. Create Scene and to the frame. Finally, launch the application.
 
-    ```
+    ```java
     // Java program to implement Slider Class
     // using ChangeListener
     import javafx.application.Application;

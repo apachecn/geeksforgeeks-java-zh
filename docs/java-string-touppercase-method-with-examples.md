@@ -6,11 +6,11 @@ string 类的 java 字符串***to ppercase()方法*** 已经将字符串的所�
 
 **语法:**
 
-```
+```java
 public String toUpperCase(Locale loc)
 ```
 
-```
+```java
 public String toUpperCase()
 ```
 
@@ -27,7 +27,7 @@ public String toUpperCase()
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java Program to Demonstrate Working of toUpperCase()
 // method
 
@@ -53,7 +53,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 WELCOME! TO GEEKSFORGEEKS
 ```
 
@@ -61,7 +61,7 @@ WELCOME! TO GEEKSFORGEEKS
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate Working of toUpperCase()
 // method of Locale class
 
@@ -95,7 +95,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GEEKS FOR GEEKS
 GEEKS FOR GEEKS
 ```

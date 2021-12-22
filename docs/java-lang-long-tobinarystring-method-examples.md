@@ -6,7 +6,7 @@ Java . lang . long . tobinarystring()方法将长参数的字符串表示形式�
 
 **语法:**
 
-```
+```java
 public static String toBinaryString(long num)
 
 Parameters : The function accepts a single mandatory parameter: 
@@ -19,7 +19,7 @@ It is of Long data-type.
 
 示例:
 
-```
+```java
 Input : 10 
 Output : 1010 
 
@@ -30,7 +30,7 @@ Output : 1001
 
 **程序 1 :** 下面的程序演示了功能的工作。
 
-```
+```java
 // Java program to demonstrate
 // of java.lang.Long.toBinaryString() method
 import java.lang.Math;
@@ -54,7 +54,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Binary is 1010
 Binary is 1010000000011111101101000
 
@@ -62,7 +62,7 @@ Binary is 1010000000011111101101000
 
 **程序二**:下面的程序演示了负数通过时的工作功能。
 
-```
+```java
 // Java program to demonstrate overflow
 // of java.lang.Long.toBinaryString() method
 import java.lang.Math;
@@ -81,7 +81,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 Binary is 1111111111111111111111111111111111111111111111111111111111110011
 
 ```
@@ -90,7 +90,7 @@ Binary is 1111111111111111111111111111111111111111111111111111111111110011
 
 **程序 3:** 下面的程序演示了当一个字符串数字被传递时的工作函数。
 
-```
+```java
 // Java program to demonstrate overflow
 // of java.lang.Long.toBinaryString() method
 import java.lang.Math;
@@ -109,14 +109,14 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 prog.java:12: error: incompatible types: String cannot be converted to long
     System.out.println("Binary is " + Long.toBinaryString("10"));
 ```
 
 **程序 4:** 下面的程序演示了传递小数时的工作功能。
 
-```
+```java
 // Java program to demonstrate overflow
 // of java.lang.Long.toBinaryString() method
 import java.lang.Math;
@@ -135,7 +135,7 @@ class Gfg1 {
 
 输出:
 
-```
+```java
 prog.java:12: error: incompatible types: possible lossy conversion from double to long
     System.out.println("Binary is " + Long.toBinaryString(10.25));
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean hasAnchoringBounds()
 
 ```
@@ -19,7 +19,7 @@ public boolean hasAnchoringBounds()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate hasAnchoringBounds() method
 
 import java.util.regex.*;
@@ -54,14 +54,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Does this matcher has anchoring bounds: true
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate hasAnchoringBounds() method
 
 import java.util.regex.*;
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Does this matcher has anchoring bounds: false
 
 ```

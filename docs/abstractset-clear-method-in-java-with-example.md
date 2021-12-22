@@ -8,7 +8,7 @@ Java 中**抽象集**的 **clear()** 方法用于移除一个集合中的所有�
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -20,7 +20,7 @@ public void clear()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // clear() method in AbstractSet
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The set initially: [1, 2, 3, 4]
 The set after using clear() method: []
 
@@ -65,7 +65,7 @@ The set after using clear() method: []
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // clear() method in AbstractSet
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The set initially: [For, ForGeeks, Geeks, GeeksForGeeks]
 The set after using clear() method: []
 

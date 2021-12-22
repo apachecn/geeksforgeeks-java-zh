@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String get(int posn)
 
 ```
@@ -20,7 +20,7 @@ public String get(int posn)
 下面的程序说明了 CompoundName.get()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.get()
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 a
 b
 
@@ -64,7 +64,7 @@ b
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompoundName.get() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 position 3:v
 position 4:a
 

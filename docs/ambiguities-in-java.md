@@ -14,11 +14,11 @@
 
 当您重载方法时，您有可能造成一种不明确的情况，即编译器无法确定使用哪种方法。例如，考虑以下重载的 *computeBalance()* 方法声明:
 
-```
+```java
 public static void computeBalance(double deposit)
 ```
 
-```
+```java
 public static void computeBalance(double withdrawal)
 ```
 
@@ -40,7 +40,7 @@ public static void computeBalance(double withdrawal)
 
 ## Java
 
-```
+```java
 // Java program to illustrate method overloading in varargs
 
 // Main class demonstrating varargsDemo
@@ -89,6 +89,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 int varargs
 ```

@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 public void set(Object obj, Object value)
          throws IllegalArgumentException,
                 IllegalAccessException
@@ -37,7 +37,7 @@ public void set(Object obj, Object value)
 以下程序举例说明设置()方法:
 **程序 1:**
 
-```
+```java
 // Java program illustrate set() method
 
 import java.lang.reflect.Field;
@@ -102,7 +102,7 @@ class Employee {
 
 **Output:**
 
-```
+```java
 Value of uniqueNo before applying set is 239
 Value of uniqueNo after applying set is 1213
 Value of salary before applying set is 121324.13333
@@ -112,7 +112,7 @@ Value of salary after applying set is 324344.2323
 
 **程序 2:**
 
-```
+```java
 // Java program illustrate set() method
 
 import java.lang.reflect.Field;
@@ -165,7 +165,7 @@ class attributes {
 
 **Output:**
 
-```
+```java
 Values after applying set are { false, 1213, 342414.131 }
 
 ```

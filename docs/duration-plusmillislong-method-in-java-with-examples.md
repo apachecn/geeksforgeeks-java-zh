@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Duration plusMillis(long numberOfMillis)
 
 ```
@@ -21,7 +21,7 @@ public Duration plusMillis(long numberOfMillis)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate plusMillis() method
 
 import java.time.Duration;
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT51H4M0.002S
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate plusMillis() method
 
 import java.time.Duration;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 PT4M0.005S
 
 ```

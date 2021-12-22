@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void reset() throws SecurityException
 
 ```
@@ -21,7 +21,7 @@ public void reset() throws SecurityException
 
 下面程序举例说明重置()方法:
 
-```
+```java
 // Java program to illustrate
 // LogManager reset() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 LogManager: java.util.logging.LogManager@1540e19d
 Resetting the logging configuration
 java.security.AccessControlException:

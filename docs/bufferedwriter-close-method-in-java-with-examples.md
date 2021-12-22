@@ -6,7 +6,7 @@ Java 中 **BufferedWriter** 类的 **close()** 方法用于从缓冲流中刷新
 
 **语法:**
 
-```
+```java
 public void close()
 
 ```
@@ -21,7 +21,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter close() method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 GEEKS
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate
 // BufferedWriter close() method
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 GEEKS
 BufferedWriter is closed
 

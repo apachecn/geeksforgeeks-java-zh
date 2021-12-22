@@ -65,7 +65,7 @@
 
 **第一步:在 gradle 脚本**的 build.gradle (Project: Todo)的依赖项中添加以下内容
 
-```
+```java
 buildscript {
    repositories {
        google()
@@ -93,7 +93,7 @@ apply plugin: 'com.amplifyframework.amplifytools'
 
 **第二步:在 gradle 脚本的 build.gradle (Module: app)的依赖项中添加以下内容。运行梯度同步**
 
-```
+```java
 dependencies {
     implementation 'com.amplifyframework:aws-api:1.6.9'
     implementation 'com.amplifyframework:aws-datastore:1.6.9'
@@ -102,7 +102,7 @@ dependencies {
 
 **第三步:在安卓工作室中，转到项目- >放大- > app - >后端- > api - > schema.graphql**
 
-```
+```java
 type Todo @model {
   id: ID!
   name: String!
@@ -112,7 +112,7 @@ type Todo @model {
 
 **第 4 步:在 onCreate()方法的 MainActivity & MainActivity2 中添加以下代码，初始化放大**
 
-```
+```java
  try {
      Amplify.addPlugin(new AWSDataStorePlugin());
      Amplify.configure(getApplicationContext());
@@ -125,7 +125,7 @@ type Todo @model {
 
 **步骤 5:** **在 onCreate()方法的 MainActivity2 中添加以下代码，创建一个 Todo 项，该 Todo 项有两个属性:名称和描述**
 
-```
+```java
  Todo todo = Todo.builder()
                         .name(name1)
                         .description(name2)
@@ -134,7 +134,7 @@ type Todo @model {
 
 **第六步:在 onCreate()方法的 MainActivity2 中添加以下代码，使用 mutate** 保存项目
 
-```
+```java
  Amplify.API.mutate(
                      ModelMutation.create(todo),
                      response -> Log.i("MyAmplifyApp", "Added Todo with id: " + response.getData().getId()),
@@ -150,7 +150,7 @@ type Todo @model {
 
 **第 7 步:** **在 onCreate()方法的 MainActivity 中添加以下代码，以获取数据/运行查询来检索存储的数据**
 
-```
+```java
  Amplify.API.query(
                 ModelQuery.list(Todo.class),
                 response -> {
@@ -169,7 +169,7 @@ type Todo @model {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -205,7 +205,7 @@ type Todo @model {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.shreyaawsapp;
 
 import android.content.Intent;
@@ -312,7 +312,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -363,7 +363,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.shreyaawsapp;
 
 import android.content.Intent;

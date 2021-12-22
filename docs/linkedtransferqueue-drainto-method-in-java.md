@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public int drainTo(Collection c)
 ```
 
@@ -27,7 +27,7 @@ public int drainTo(Collection c)
 
 **程序 1:** 将队列中的所有元素排到指定集合的程序。
 
-```
+```java
 // Java Program Demonstrate drainTo()
 // method of LinkedTransferQueue
 
@@ -70,7 +70,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Elements in the queue = [10, 11, 12, 13, 14, 15]
 Elements left in the queue :[]
 Elements drained in the list :[10, 11, 12, 13, 14, 15]
@@ -79,7 +79,7 @@ Elements drained in the list :[10, 11, 12, 13, 14, 15]
 
 **程序 2:** 在 drainTo()中显示空指针异常的程序。
 
-```
+```java
 // Java Program Demonstrate drainTo()
 // method of LinkedTransferQueue
 
@@ -118,7 +118,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```
@@ -129,7 +129,7 @@ Exception: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 public int drainTo(Collection c,
           int maxElements)
 ```
@@ -148,7 +148,7 @@ public int drainTo(Collection c,
 
     **程序 1:** 将队列中最多给定数量的可用元素排入指定集合的程序。
 
-    ```
+    ```java
     // Java Program Demonstrate drainTo()
     // method of LinkedTransferQueue
 
@@ -193,7 +193,7 @@ public int drainTo(Collection c,
 
     **Output:**
 
-    ```
+    ```java
     Elements in the queue = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     Elements left in the queue :[6, 7, 8, 9, 10]
     Elements drained in the list :[1, 2, 3, 4, 5]
@@ -202,7 +202,7 @@ public int drainTo(Collection c,
 
     **程序 2:** 在 drainTo()中显示空指针异常的程序。
 
-    ```
+    ```java
     // Java Program Demonstrate drainTo()
     // method of LinkedTransferQueue
 
@@ -241,7 +241,7 @@ public int drainTo(Collection c,
 
     **Output:**
 
-    ```
+    ```java
     Exception: java.lang.NullPointerException
 
     ```

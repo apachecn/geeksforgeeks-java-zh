@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public static <X> TupleClass<X> fromArray(X[] array)
 ```
 
 **语法:**
 
-```
+```java
 TupleClass<X> obj = TupleClass.fromArray(X[] array)
 ```
 
@@ -28,7 +28,7 @@ TupleClass<X> obj = TupleClass.fromArray(X[] array)
 
 **程序 1:** 使用来自数组()的单位类:
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from fromArray() method
 
@@ -51,7 +51,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [GeeksforGeeks]
 ```
 
@@ -59,7 +59,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 [Geeks, for, Geeks, A, Computer, Science, Portal, for, Geeks, RishabhPrabhu]
 ```
 

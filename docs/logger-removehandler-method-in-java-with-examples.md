@@ -5,7 +5,7 @@
 **removeHandler()** 一个**记录器**类的方法用于从记录器中移除一个日志处理程序。处理程序是 JVM 的一个组件，负责实际记录到定义的输出编写器，如文件、控制台输出等。如果找不到给定的处理程序或该处理程序为空，它将静默返回。
 **语法:**
 
-```
+```java
 public void removeHandler(Handler handler)
                    throws SecurityException
 ```
@@ -19,7 +19,7 @@ public void removeHandler(Handler handler)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Logger.removeHandler() method
 
@@ -64,7 +64,7 @@ log . txt 文件上打印的输出如下所示-
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Logger.addHandler() method
 

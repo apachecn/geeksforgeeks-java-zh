@@ -10,7 +10,7 @@ Java 中的[构造函数](https://www.geeksforgeeks.org/constructors-in-java/)�
 
 ## 爪哇
 
-```
+```java
 // Parameterized Constructor Example in Java
 
 import java.io.*;
@@ -57,7 +57,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 constructor call
 Name of the student Nilesh
 Registration Number 2021806

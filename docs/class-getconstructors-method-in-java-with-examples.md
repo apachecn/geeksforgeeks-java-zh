@@ -5,7 +5,7 @@
 [**java.lang.Class 类**](https://www.geeksforgeeks.org/java-lang-class-class-java-set-1/) 的 **getConstructors()** 方法用于获取该类的构造函数，这些构造函数是公共的。方法以构造函数对象数组的形式返回该类的构造函数。
 **语法:**
 
-```
+```java
 public Constructor[] getConstructors()
 ```
 
@@ -17,7 +17,7 @@ public Constructor[] getConstructors()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getConstructors() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Test
 Constructors of myClass: [public Test()]
 ```
@@ -54,7 +54,7 @@ Constructors of myClass: [public Test()]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getConstructors() method
 
 import java.util.*;
@@ -93,7 +93,7 @@ class Main {
 
 **Output:** 
 
-```
+```java
 Class represented by myClass: class Main
 Constructors of myClass: []
 ```

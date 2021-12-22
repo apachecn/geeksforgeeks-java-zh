@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object otherInstant)
 ```
 
@@ -24,7 +24,7 @@ public boolean equals(Object otherInstant)
 
 **程序 1:** 当两个实例相等时
 
-```
+```java
 // Java program to demonstrate
 // Instant.equals() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant1: 2018-10-20T16:55:30Z
 Instant2: 2018-10-20T16:55:30Z
 Are both instants are equal: true
@@ -68,7 +68,7 @@ Are both instants are equal: true
 
 **程序 2:** 当两个实例不相等时
 
-```
+```java
 // Java program to demonstrate
 // Instant.equals() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant1: 2018-10-20T16:55:30Z
 Instant2: 2011-10-20T16:55:30Z
 Are both instants are equal: false

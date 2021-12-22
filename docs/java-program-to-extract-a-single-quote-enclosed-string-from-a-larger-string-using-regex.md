@@ -17,7 +17,7 @@ Java regex 是一个用正则表达式进行模式匹配的 API。*‘Java . uti
 
 **插图:**
 
-```
+```java
 Input  : "Out of this String required only is 'Geeks for Geeks' only'"
 Output : Geeks for Geeks
 
@@ -29,7 +29,7 @@ Output : Java Regex
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate extracting
 // substring enclosed in single quotes
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 String to be extracted : Out of this String I want 'Geeks for Geeks' only
 Extracted part         : Geeks for Geeks
 

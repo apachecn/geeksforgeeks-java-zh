@@ -6,7 +6,7 @@ Java.util.ArrayDeque.push(E 元素)方法用于将一个元素推入到 Deque �
 
 **语法:**
 
-```
+```java
 Array_Deque.push(*E element*)
 ```
 
@@ -19,7 +19,7 @@ Array_Deque.push(*E element*)
 下面的程序说明了 Java.util.ArrayDeque.push()方法:
 **程序 1:** 将字符串元素添加到 Deque 中。
 
-```
+```java
 // Java code to illustrate push()
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial Deque: [Welcome, To, Geeks, 4, Geeks]
 Final Deque: [World, Hello, Welcome, To, Geeks, 4, Geeks]
 
@@ -59,7 +59,7 @@ Final Deque: [World, Hello, Welcome, To, Geeks, 4, Geeks]
 
 **程序 2:** 将整数元素加入到德格中。
 
-```
+```java
 // Java code to illustrate push()
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class ArrayDequeDemo {
 
 **Output:**
 
-```
+```java
 Initial Deque: [10, 15, 30, 20, 5]
 Final Deque: [4521, 1254, 10, 15, 30, 20, 5]
 

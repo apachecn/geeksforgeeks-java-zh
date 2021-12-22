@@ -6,7 +6,7 @@ Java 中 **DateFormatSymbols 类**的 **getMonths()** 方法用于获取字符�
 
 **语法:**
 
-```
+```java
 public String[] getMonths()
 ```
 
@@ -18,7 +18,7 @@ public String[] getMonths()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate getMonths()
 
 import java.text.DateFormatSymbols;
@@ -44,7 +44,7 @@ public class DateFormat_Main {
 
 **输出:**
 
-```
+```java
 Month = January
 Month = February
 Month = March
@@ -62,7 +62,7 @@ Month = December
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate getMonths()
 
 import java.text.DateFormatSymbols;
@@ -89,7 +89,7 @@ public class DateFormat_Main {
 
 **输出:**
 
-```
+```java
 Month 0 = January
 Month 1 = February
 Month 2 = March

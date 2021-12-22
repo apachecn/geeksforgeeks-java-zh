@@ -5,7 +5,7 @@
 Java 中 **CharArrayWriter** 类的 **size()** 方法用于获取缓冲区的当前大小。
 **语法** :
 
-```
+```java
 public int size()
 ```
 
@@ -16,7 +16,7 @@ public int size()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the size() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of char_array1 : 5
 ```
 
@@ -57,7 +57,7 @@ Size of char_array1 : 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the size() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Size of char_array1 : 6
 ```
 

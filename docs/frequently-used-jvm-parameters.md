@@ -22,7 +22,7 @@ JVM 或 Java 虚拟机是物理机器的软件实现，或者我们可以说它�
 
 以下三个 JVM 选项指定运行 Java 程序时的初始和最大堆大小以及线程堆栈大小:
 
-```
+```java
  -Xms - set initial Java heap size
  -Xmx - set maximum Java heap size
  -Xss - set java thread stack size
@@ -40,7 +40,7 @@ Java 为我们提供了 4 种实现垃圾收集的方法，即:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Class
 // To test garbage collection
 public class GFG { 
@@ -72,7 +72,7 @@ public class GFG { 
 
 **输出:**
 
-```
+```java
  Test example garbage collection
  Test example garbage collection
 ```
@@ -83,7 +83,7 @@ public class GFG { 
 
 使用以下参数，我们可以记录垃圾收集活动:
 
-```
+```java
 -XX:+UseGCLogFileRotation 
 -XX:NumberOfGCLogFiles=< number of log files > 
 -XX:GCLogFileSize=< file size >[ unit ]
@@ -94,7 +94,7 @@ public class GFG { 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Print GC
 public class Application {
 

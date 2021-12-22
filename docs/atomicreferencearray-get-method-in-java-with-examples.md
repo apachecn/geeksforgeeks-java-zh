@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final E get(int i)
 
 ```
@@ -18,7 +18,7 @@ public final E get(int i)
 下面的程序说明了 get()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.get() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value at 0 = 12
 value at 1 = 13
 value at 2 = 14
@@ -62,7 +62,7 @@ value at 3 = 15
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AtomicReferenceArray.get() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value at 0 = AMAN
 value at 1 = AMAR
 

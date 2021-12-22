@@ -20,7 +20,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Demonstrate Different Return Types
 // if Return Type in Overridden method is Sub-type
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Base fun()
 Derived fun()
 ```

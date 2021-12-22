@@ -14,7 +14,7 @@
 1.  The **offer(E *element*)** method **inserts the element passed as parameter** to method at the tail of this queue(ArrayBlockingQueue), if queue is not full. It returns true when the operation of addition is successful and false if this queue is full. This method is preferred over add() method because add method throws error when queue is full but offer() method returns false in such situation.
     **Syntax:**
 
-    ```
+    ```java
     public boolean offer(E e)
     ```
 
@@ -27,7 +27,7 @@
     下面的程序说明了数组锁定队列的提供(E 元素)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Demonstrating offer(E element) method of ArrayBlockingQueue
 
     import java.util.concurrent.ArrayBlockingQueue;
@@ -68,7 +68,7 @@
 
     **Output:**
 
-    ```
+    ```java
     adding 423: true
     adding 243: true
     adding 237: true
@@ -83,7 +83,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Program Demonstrate offer(E e) method of ArrayBlockingQueue
 
     import java.util.concurrent.ArrayBlockingQueue;
@@ -162,7 +162,7 @@
 
     **Output:**
 
-    ```
+    ```java
     adding user having name = Aman: true
     adding user having name = Amar: true
     adding user having name = Sanjeet: true
@@ -178,7 +178,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException
     ```
 
@@ -197,7 +197,7 @@
 
     下面的程序说明了数组锁定队列的提供(E 元素，长超时，时间单位单位)方法:
 
-    ```
+    ```java
     // Program Demonstrate offer(E e, long timeout, TimeUnit unit)
     // method of ArrayBlockingQueue
 
@@ -248,7 +248,7 @@
 
     **Output:**
 
-    ```
+    ```java
     adding 423: true
     adding 456: true
     adding 987: true

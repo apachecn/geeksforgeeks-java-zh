@@ -7,7 +7,7 @@
 
 **申报:**
 
-```
+```java
 public interface NavigableMap<K,V> extends SortedMap<K,V>
 ```
 
@@ -23,7 +23,7 @@ public interface NavigableMap<K,V> extends SortedMap<K,V>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the NavigableMap interface
 import java.util.NavigableMap;
@@ -70,7 +70,7 @@ public class NavigableMapExample {
 
 **输出:**
 
-```
+```java
 Mappings of NavigableMap : {A=555, B=666, C=888, T=555, Y=999}
 Descending Set  : [Y, T, C, B, A]
 Floor Entry  : C=888
@@ -87,7 +87,7 @@ Reverse Map : {Y=999, T=555, C=888, B=666, A=555}
 
 **语法:**
 
-```
+```java
 NavigableMap<K, V> objectName = new TreeMap<K, V>();
 ```
 
@@ -99,7 +99,7 @@ NavigableMap<K, V> objectName = new TreeMap<K, V>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for adding elements
 // to a NavigableMap
 import java.util.*;
@@ -128,7 +128,7 @@ class AddingElementsExample {
 
 **输出:**
 
-```
+```java
 Mappings of NavigableMap : {1=Geeks, 2=For, 3=Geeks}
 ```
 
@@ -138,7 +138,7 @@ Mappings of NavigableMap : {1=Geeks, 2=For, 3=Geeks}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for deleting
 // elements from NavigableMap
 import java.util.*;
@@ -183,7 +183,7 @@ class RemovingElementsExample {
 
 **输出:**
 
-```
+```java
 Mappings of NavigableMap : {1=Geeks, 2=Geeks, 3=Geeks, 4=For}
 
 NavigableMap, after remove operation : {1=Geeks, 2=Geeks, 3=Geeks}
@@ -197,7 +197,7 @@ NavigableMap, after clear operation : {}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for accessing
 // elements in a NavigableMap
 
@@ -235,7 +235,7 @@ public class AccessingElementsExample {
 
 **输出:**
 
-```
+```java
 First
 Second
 Third
@@ -250,7 +250,7 @@ The NavigableMap key set: [3, 6, 8, 11]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for traversing
 // a NavigableMap
 import java.util.*;
@@ -305,7 +305,7 @@ class TraversalExample {
 
 **输出:**
 
-```
+```java
 Traversing using Iterator:  
 Key = 1, Value = Geeks
 Key = 2, Value = For

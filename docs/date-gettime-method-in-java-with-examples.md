@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getTime()
 
 ```
@@ -19,7 +19,7 @@ public long getTime()
 
 下面的程序演示了上述功能:
 
-```
+```java
 // Java code to demonstrate
 // getTime() function of Date class
 
@@ -55,13 +55,13 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date: Thu Dec 05 09:29:39 UTC 1996
 849778179420
 
 ```
 
-```
+```java
 // Java code to demonstrate
 // getTime() function of Date class
 
@@ -97,7 +97,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Date: Tue Dec 05 09:29:40 UTC 2000
 976008580370
 

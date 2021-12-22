@@ -31,7 +31,7 @@ TabPane 类是 JavaFX 的一部分。TabPane 允许在几个选项卡之间切�
 
 1.  **Java program to create multiple tabs and add it to the TabPane:** In this program we will create a Tabpane named *tabpane*. To add multiple tabs we will use a for loop and then add tabs to the *tabpane*. Create a Tab named *tab*. We will also create a Label named *label*. We will add the label to the tab by using the function *setContent()*. The title of the tab will be passed as arguments. Now create a TabPane named *tabpane* and add the tab to the tabpane. After that add the *tabpane* to the scene and add the scene to the stage and display the stage using the *show()* function.
 
-    ```
+    ```java
     // Java program to create multiple tabs 
     // and add it to the TabPane
     import javafx.application.Application;
@@ -93,7 +93,7 @@ TabPane 类是 JavaFX 的一部分。TabPane 允许在几个选项卡之间切�
     <video class="wp-video-shortcode" id="video-222487-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/TabPane_1.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/TabPane_1.mp4](https://media.geeksforgeeks.org/wp-content/uploads/TabPane_1.mp4)</video>
 2.  **Java program to create multiple tabs and add it to the TabPane and also create a tab which on selected will create new tabs:** In this program we will create a Tabpane named *tabpane*. We will add multiple tabs to the *tabpane*. To add multiple tabs we will use a for loop. We will create a Tab named *tab*. Now create a Label named *label*. We will add a label to the tab by using the function *setContent()*. We will also create a tab named *newtab*. When it is selected then it will create a new tab. Add event handler to the tab by using *setOnSelectionChanged()* function. The event handler will create a new tab and add it before the new tab in *tabpane* using *getTabs().add()* function and select the last tab using the *getSelectionModel().select()* function. The title of the tab will be passed as arguments. We will create a TabPane named *tabpane* and add the tab to the *tabpane* and add the *tabpane* to the scene and scene to the stage. Display the stage using the *show()* function.
 
-    ```
+    ```java
     // Java program to create multiple tabs and
     // add it to the tabPane and also create a 
     // tab which on selected will create new tabs

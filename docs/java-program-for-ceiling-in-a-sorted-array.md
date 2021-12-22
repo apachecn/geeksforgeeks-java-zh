@@ -5,7 +5,7 @@
 给定一个已排序的数组和值 x，x 的上限是数组中大于或等于 x 的最小元素，下限是小于或等于 x 的最大元素，假设数组按非递减顺序排序。写高效函数求楼层和天花板的 x.
 **例:**
 
-```
+```java
 For example, let the input array be {1, 2, 8, 10, 10, 12, 19}
 For x = 0:    floor doesn't exist in array,  ceil  = 1
 For x = 1:    floor  = 1,  ceil  = 1
@@ -22,7 +22,7 @@ For x = 20:   floor  = 19,  ceil doesn't exist in array
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Main
 {
     /* Function to get index of ceiling 
@@ -70,7 +70,7 @@ class Main
 
 **输出:**
 
-```
+```java
 ceiling of 3 is 8
 ```
 
@@ -80,7 +80,7 @@ ceiling of 3 is 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Main
 {
     /* Function to get index of 
@@ -148,7 +148,7 @@ class Main
 
 **输出:**
 
-```
+```java
 Ceiling of 20 doesn't exist in array 
 ```
 

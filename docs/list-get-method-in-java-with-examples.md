@@ -6,7 +6,7 @@ Java 中 List 接口的 **get()** 方法用于获取这个列表中给定特定�
 
 **语法:**
 
-```
+```java
 E get(int index)
 
 Where, E is the type of element maintained
@@ -24,7 +24,7 @@ by this List container.
 
 **程序 1 :**
 
-```
+```java
 // Java code to demonstrate the working of
 // get() method in List
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List: [10, 20, 30, 40]
 The element at index 2 is 30
 
@@ -63,7 +63,7 @@ The element at index 2 is 30
 
 **程序 2** :演示错误的程序。
 
-```
+```java
 // Java code to demonstrate the error of
 // get() method in List
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.IndexOutOfBoundsException: Index: 8, Size: 4
 
 ```

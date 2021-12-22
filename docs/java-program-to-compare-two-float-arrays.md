@@ -10,7 +10,7 @@
 
 ****示例:****
 
-```
+```java
 float[] floatV1 = new float[] { 3.1f, 7.5f, 8.3f };
 float[] floatV2 = new float[] { 8.3f, 8.8f, 9.2f };
 float[] floatV3 = new float[] { 3.1f, 7.5f, 8.3f };
@@ -32,7 +32,7 @@ Arrays.equals(floatV1, floatV3) will give us true
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to compare two float arrays
 // using simple iteration
 
@@ -75,7 +75,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 false
 true
 false
@@ -85,7 +85,7 @@ false
 
 ****语法:****
 
-```
+```java
 public static boolean equals(int[] a, int[] a2)
 ```
 
@@ -98,7 +98,7 @@ public static boolean equals(int[] a, int[] a2)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to compare two float arrays
 // using Arrays.equals() method
 
@@ -126,7 +126,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 false
 false
 false

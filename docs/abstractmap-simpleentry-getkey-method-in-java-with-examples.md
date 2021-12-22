@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public K getKey()
 
 ```
@@ -19,7 +19,7 @@ public K getKey()
 以下程序说明 getKey()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.getKey() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Key 0
 Key 1
 Key 2
@@ -72,7 +72,7 @@ Key 2
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // AbstractMap.SimpleEntry.get() method
 
@@ -122,7 +122,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Key  001AB 
 Key  011AC 
 Key  111AD 

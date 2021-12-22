@@ -15,7 +15,7 @@ Java 中的每个类都有一个唯一的锁，这个锁就是 [**类级锁**](h
 
 **实现:**我们有一个极客班。我们想用这个类的静态同步方法，线程一进入 synchronized 方法，线程就在类级别获取锁，其余线程等待获取类监视器锁。当线程从同步方法中退出时，它会留下一个锁。
 
-```
+```java
 public static synchronized int incrementCount()
 {
 }
@@ -25,7 +25,7 @@ public static synchronized int incrementCount()
 
 ## Java
 
-```
+```java
 // Java program to illustrate class level lock
 
 // Main Class
@@ -102,7 +102,7 @@ class Geek implements Runnable {
 
 **输出**
 
-```
+```java
 t1
 in block t1
 in block t1 end
@@ -123,7 +123,7 @@ in block t2 end
 
 **实现:**我们有一个“极客”班。我们想创建一个同步块并传递类名。类作为参数告诉哪个类必须在类级别同步。一旦线程进入同步块，线程就获取类的锁，其余线程等待获取类监视器锁。当线程从同步块退出时，它将离开锁。
 
-```
+```java
 synchronized (Geek.class) {
     //thread has acquired lock on  Geek class
 }
@@ -133,7 +133,7 @@ synchronized (Geek.class) {
 
 ## 爪哇
 
-```
+```java
 // Java program to illustrate class level lock
 
 // Main Class
@@ -202,7 +202,7 @@ class Geek implements Runnable {
 
 **输出:**
 
-```
+```java
 t1
 in block t1
 in block t1 end

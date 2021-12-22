@@ -13,7 +13,7 @@ Java 中的[集合框架](https://www.geeksforgeeks.org/collections-in-java-2/)�
 这是一个用于获取遗留集合(矢量，哈希表)元素的接口。枚举是 JDK 1.0 中出现的第一个迭代器，休止符包含在 JDK 1.2 中，功能更多。枚举也用于指定*序列输入流*的输入流。我们可以通过在任何向量对象
 上调用向量类的*元素()*方法来创建枚举对象
 
-```
+```java
 // Here "v" is an Vector class object. e is of
 // type Enumeration interface and refers to "v"
 Enumeration e = v.elements();
@@ -21,7 +21,7 @@ Enumeration e = v.elements();
 
 枚举界面有两种**方法，即:**
 
-```
+```java
 // Tests if this enumeration contains more elements
 public boolean hasMoreElements();
 
@@ -33,7 +33,7 @@ public Object nextElement();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate Enumeration
 
 // Importing Enumeration and Vector classes

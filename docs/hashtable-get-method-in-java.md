@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Hash_Table.get(*Object key_element*)
 ```
 
@@ -17,7 +17,7 @@ Hash_Table.get(*Object key_element*)
 下面的程序说明了 java.util.Hashtable.get()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial Table is: {10=Geeks, 20=Geeks, 30=You, 15=4, 25=Welcomes}
 The Value is: Welcomes
 The Value is: Geeks
@@ -59,7 +59,7 @@ The Value is: Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class Hash_Table_Demo {
 
 **Output:**
 
-```
+```java
 Initial table is: {You=30, Welcomes=25, 4=15, Geeks=20}
 The Value is: 20
 The Value is: 30

@@ -8,31 +8,31 @@
 
 **关键点 1:** 返回数组的方法的返回类型必须与被返回数组的数据类型相同。返回类型可能是通常的整数、双精度、字符、字符串或用户定义的类对象。
 
-```
+```java
 // Method returning an String array.
 int[] methodName() {...}
 ```
 
-```
+```java
 // Method returning a String array.
 String[] methodName() {...}
 ```
 
-```
+```java
 // Method returning an array of objects of class named Students.
 Students[] methodName() {...} 
 ```
 
 **关键点 2:** 考虑到方法和返回数组的用法，必须准确使用访问修饰符。静态和非静态声明也必须考虑在内。
 
-```
+```java
 // Using public access modifier and static to call the method from a static class, method or block.
 public static char[] methodName() {...} 
 ```
 
 **关键点 3:** 在方法调用中必须有任何相同数据类型或类似的变量数组来处理返回的数组。例如，从任何方法返回的整数数组都可以存储如下。
 
-```
+```java
 int[] storage = methodReturningArray();
 ```
 
@@ -52,7 +52,7 @@ int[] storage = methodReturningArray();
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Returning
 // simple built-in arrays
 
@@ -89,7 +89,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 1 2 3 4 
 ```
 
@@ -101,7 +101,7 @@ class GFG {
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Returning
 // an array of objects in java
 
@@ -165,7 +165,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Java - 31 modules
 C++ - 26 modules
 DSA - 24 modules
@@ -180,7 +180,7 @@ DBMS - 12 modules
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Returning
 // Multi-dimensional Arrays
 
@@ -225,7 +225,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 1 2 3 
 4 5 6 
 7 8 9 

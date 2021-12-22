@@ -10,7 +10,7 @@
 
 ## Java
 
-```
+```java
 // Java program to Demonstrate the
 // application of Cloneable interface
 
@@ -47,7 +47,7 @@ class Student {
 
 **输出:**
 
-```
+```java
 prog.java:28: error: incompatible types: Object cannot be converted to Student
         Student s2 = s1.clone();
                              ^
@@ -59,7 +59,7 @@ prog.java:28: error: incompatible types: Object cannot be converted to Student
 
 ## Java
 
-```
+```java
 // Java program to illustrate Cloneable interface
 import java.lang.Cloneable;
 
@@ -108,7 +108,7 @@ public class Test {
 
 **输出**
 
-```
+```java
 20
 GeeksForGeeks
 ```
@@ -119,7 +119,7 @@ GeeksForGeeks
 
 ## Java
 
-```
+```java
 // A Java program to demonstrate deep copy
 // using clone()
 import java.util.ArrayList;
@@ -181,7 +181,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 10 20 30 40
 100 20 300 0
 ```

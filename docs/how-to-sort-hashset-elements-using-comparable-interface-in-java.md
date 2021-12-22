@@ -8,7 +8,7 @@
 
 ****伪代码:****
 
-```
+```java
 // Student class implements comparable interface
 
 class Student implements Comparable<Student> {
@@ -32,7 +32,7 @@ class Student implements Comparable<Student> {
 
 **然后我们将集合传递给 TreeSet 构造函数来对元素进行排序。**
 
-```
+```java
 // TreeSet to sort LinkedHashSet using comparable
 
 TreeSet<Student> tree_set = new TreeSet<>(set);
@@ -44,7 +44,7 @@ TreeSet<Student> tree_set = new TreeSet<>(set);
 
 ## **Java**
 
-```
+```java
 // Java program to demonstrate how to Sort HashSet using
 // Comparable interface
 
@@ -99,7 +99,7 @@ class GFG {
 
 ****输出**
 
-```
+```java
 Before sort elements in ascending order : [ 300,  400,  500,  200,  100]
 After sort elements in ascending order : [ 100,  200,  300,  400,  500]
 ```** 
@@ -108,7 +108,7 @@ After sort elements in ascending order : [ 100,  200,  300,  400,  500]
 
 ## **Java**
 
-```
+```java
 // Java program to demonstrate how to Sort HashSet using
 // Comparable interface
 
@@ -163,7 +163,7 @@ class GFG {
 
 ****输出**
 
-```
+```java
 Before sort elements in descending order : [ 300,  400,  500,  200,  100]
 After sort elements in descending order : [ 500,  400,  300,  200,  100]
 ```**

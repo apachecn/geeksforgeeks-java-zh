@@ -16,7 +16,7 @@
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the toString() function
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The string representation of the array: [1, 2, 3, 4, 5]
 
@@ -56,7 +56,7 @@ The string representation of the array: [1, 2, 3, 4, 5]
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the toString() function
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The array : [11, 12, 13, 14, 15]
 The string representation of the array: [11, 12, 13, 14, 15]
 

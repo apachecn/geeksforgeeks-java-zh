@@ -6,7 +6,7 @@ java . util . concurrent . linkedtransferqueue 的 **add()** 方法是 Java 中�
 
 **语法:**
 
-```
+```java
 LinkedTransferQueue.add(E e)
 ```
 
@@ -20,7 +20,7 @@ LinkedTransferQueue.add(E e)
 
 **程序 1:** 在队列中插入整数。
 
-```
+```java
 // Java Program Demonstrate add()
 // method of LinkedTransferQueue
 
@@ -48,7 +48,7 @@ class LinkedTransferQueueAddExample1 {
 
 **Output:**
 
-```
+```java
 The elements in the queue are:
 10 11 12 13 14 15
 
@@ -56,7 +56,7 @@ The elements in the queue are:
 
 **程序 2:** 在队列中添加字符串。
 
-```
+```java
 // Java Program Demonstrate add()
 // method of LinkedTransferQueue
 
@@ -87,7 +87,7 @@ class LinkedTransferQueueAddExample2 {
 
 **Output:**
 
-```
+```java
 The elements in the queue are:
 a b c d e
 
@@ -95,7 +95,7 @@ a b c d e
 
 **程序 3:** 演示空指针异常
 
-```
+```java
 // Java Program Demonstrate add()
 // method of LinkedTransferQueue
 
@@ -122,7 +122,7 @@ class LinkedTransferQueueAddExample2 {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

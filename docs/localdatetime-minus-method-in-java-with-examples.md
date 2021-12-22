@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDateTime minus(long amountToSubtract,
                            TemporalUnit unit)
 
@@ -29,7 +29,7 @@ public LocalDateTime minus(long amountToSubtract,
 下面的程序说明了减()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.minus() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LocalDateTime: 2019-12-31T19:15:30
 LocalDateTime after subtracting DAYS: 2019-06-14T19:15:30
 
@@ -74,7 +74,7 @@ LocalDateTime after subtracting DAYS: 2019-06-14T19:15:30
 
 **语法:**
 
-```
+```java
 public LocalDateTime minus(TemporalAmount amountTosubtract)
 
 ```
@@ -92,7 +92,7 @@ public LocalDateTime minus(TemporalAmount amountTosubtract)
 下面的程序说明了减()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.minus() method
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original LocalDateTime: 2019-12-31T19:15:30
 LocalDateTime after subtracting Days: 2019-12-21T19:15:30
 

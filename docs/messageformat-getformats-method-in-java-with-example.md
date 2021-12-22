@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Format[] getFormats()
 ```
 
@@ -18,7 +18,7 @@ public Format[] getFormats()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getFormats() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 pattern : {0, date, #}, {0, number, #0.##}, {0, time}
 
 Required Formats are : 
@@ -64,7 +64,7 @@ java.text.SimpleDateFormat@8400729
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getFormats() method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 pattern : {1, number, integer}
 
 Required Formats are : 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int regionEnd()
 
 ```
@@ -19,7 +19,7 @@ public int regionEnd()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate regionEnd() method
 
 import java.util.regex.*;
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before changing region,  Region ends from: 38
 After changing region,  Region ends from: 10
 
@@ -70,7 +70,7 @@ After changing region,  Region ends from: 10
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate regionEnd() method
 
 import java.util.regex.*;
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before changing region,  Region ends from: 35
 After changing region,  Region ends from: 5
 

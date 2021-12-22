@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 dateObject.after(Date specifiedDate)
 
 ```
@@ -21,7 +21,7 @@ dateObject.after(Date specifiedDate)
 
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate
 // after() function of Date class
 
@@ -62,14 +62,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Is currentDate after date one : true
 
 ```
 
 **程序 2:** 演示 java.lang.NullPointerException
 
-```
+```java
 // Java code to demonstrate
 // after() function of Date class
 
@@ -101,7 +101,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 Passing null as parameter : 
 Exception: java.lang.NullPointerException
 

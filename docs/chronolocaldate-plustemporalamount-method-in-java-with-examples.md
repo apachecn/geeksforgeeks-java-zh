@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ChronoLocalDate plus(TemporalAmount amountToAdd)
 
 ```
@@ -19,7 +19,7 @@ public ChronoLocalDate plus(TemporalAmount amountToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ChronoLocalDate.plus() method
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ChronoLocalDate after adding Days: 2019-03-16
 
 ```

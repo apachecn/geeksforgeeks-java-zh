@@ -17,7 +17,7 @@ Java 中的**concurrentlinkedeque**类是 [Java 集合框架](https://www.geeksf
 
 **申报:**
 
-```
+```java
 public abstract class ConcurrentLinkedDeque<E>
    extends AbstractCollection<E>
       implements Deque<E>, Serializable
@@ -42,7 +42,7 @@ Here, E is the type of elements maintained by this collection.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate ConcurrentLinkedDeque
 
 import java.util.concurrent.*;
@@ -83,7 +83,7 @@ class ConcurrentLinkedDequeDemo {
 
 **Output:** 
 
-```
+```java
 ConcurrentLinkedDeque: [475, 1009, 70, 12]
 ConcurrentLinkedDeque1: [475, 1009, 70, 12]
 ```

@@ -14,25 +14,25 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double log10(double a)
     ```
 
     **参数:**
 
-    ```
+    ```java
     a : User input
     ```
 
     **返回:**
 
-    ```
+    ```java
     This method returns the base 10 logarithm of a.
     ```
 
     **示例:**展示 **java.lang.Math.log10()** 方法的工作。
 
-    ```
+    ```java
     // Java program to demonstrate working
     // of java.lang.Math.log10() method
     import java.lang.Math;
@@ -73,7 +73,7 @@
 
     **Output:**
 
-    ```
+    ```java
     3.0
     2.1621340805671756
     NaN

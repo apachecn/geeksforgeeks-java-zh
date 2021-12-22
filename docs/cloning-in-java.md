@@ -6,13 +6,13 @@
 
 如果一个类需要支持克隆，就必须实现 java.lang.Cloneable 接口，并从 Object 类中重写 clone()方法。克隆()方法的语法是:
 
-```
+```java
 protected Object clone() throws CloneNotSupportedException
 ```
 
 如果对象的类没有实现可克隆接口，那么它会抛出一个异常“CloneNotSupportedException”。
 
-```
+```java
 // Java code for cloning an object
 
 class Test implements Cloneable
@@ -59,7 +59,7 @@ class demo
 
 输出:
 
-```
+```java
 Object2 is a clone of object1
 obj1.a = 3 obj1.b = 4
 obj2.a = 1 obj2.b = 2

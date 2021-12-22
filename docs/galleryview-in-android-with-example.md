@@ -10,7 +10,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- By using android:spacing we can give spacing between images
      android:animationDuration="3000" -> for animation running -->
 <Gallery
@@ -50,7 +50,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // get the reference of Gallery first
 Gallery simpleGallery = (Gallery) findViewById(R.id.languagesGallery);
 
@@ -115,7 +115,7 @@ simpleGallery.setUnselectedAlpha(0.25f);
 
 ## 可扩展标记语言
 
-```
+```java
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -153,7 +153,7 @@ simpleGallery.setUnselectedAlpha(0.25f);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -213,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;

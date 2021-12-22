@@ -6,7 +6,7 @@
 
 **申报:**申报为 ***的班级为:***
 
-```
+```java
 @GwtCompatible(emulated = true)
 public final class LongMath
    extends Object
@@ -35,7 +35,7 @@ public final class LongMath
 ![](img/7f2f35ae44f5cf9927b92a40b00c2106.png)
 **例 1 :**
 
-```
+```java
 // Java code to show implementation of
 // LongMath Class of Guava
 import java.math.RoundingMode;
@@ -74,14 +74,14 @@ class GFG {
 
 输出:
 
-```
+```java
 Error Message is : mode was UNNECESSARY, but rounding was necessary
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // LongMath Class of Guava
 import java.math.RoundingMode;
@@ -130,7 +130,7 @@ class GFG {
 
 输出:
 
-```
+```java
 30
 GCD is : 14
 Log10 is : 3

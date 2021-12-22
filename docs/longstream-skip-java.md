@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 LongStream skip(long n)
 
 ```
@@ -21,7 +21,7 @@ LongStream skip(long n)
 
 **例 1 :**
 
-```
+```java
 // Java code for LongStream skip() function
 import java.util.*;
 import java.util.stream.LongStream;
@@ -43,7 +43,7 @@ class GFG {
 
 **例 2 :**
 
-```
+```java
 // Java code for LongStream skip() function
 import java.util.*;
 import java.util.stream.LongStream;

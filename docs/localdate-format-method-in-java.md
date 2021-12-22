@@ -6,7 +6,7 @@ Java 方法中 LocalDate 类的 format()方法使用指定的格式化程序格�
 
 **语法** :
 
-```
+```java
 public String format(DateTimeFormatter formatter)
 
 ```
@@ -21,7 +21,7 @@ public String format(DateTimeFormatter formatter)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the format() method
 
 import java.util.*;
@@ -45,7 +45,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018-11-01
 01/11/2018
 
@@ -53,7 +53,7 @@ public class GfG {
 
 **程序二**:举例说明异常。
 
-```
+```java
 // Program to illustrate the format() method
 // Exception Program
 
@@ -82,7 +82,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 java.time.format.DateTimeParseException: 
 Text '2018-01-32' could not be parsed: Invalid value for DayOfMonth (valid values 1 - 28/31): 32
 

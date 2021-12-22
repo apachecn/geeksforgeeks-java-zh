@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
  ConcurrentSkipListSet.clear()
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1:**
 
-```
+```java
 /* Java Program Demonstrate clear()
 method of ConcurrentSkipListSet() */
 import java.util.concurrent.*;
@@ -49,7 +49,7 @@ class ConcurrentSkipListSetClearExample1 {
 
 **输出:**
 
-```
+```java
 The set contains: [10, 20, 30, 40, 50]
 After clear operation the set contains: []
 
@@ -57,7 +57,7 @@ After clear operation the set contains: []
 
 **程序二:**
 
-```
+```java
 /* Java Program Demonstrate clear()
 method of ConcurrentSkipListSet() */
 import java.util.concurrent.*;
@@ -90,7 +90,7 @@ class ConcurrentSkipListSetClearExample2 {
 
 **输出:**
 
-```
+```java
 The set contains: [alex, bob, chuck, drake, eric]
 After clear operation the set contains: []
 

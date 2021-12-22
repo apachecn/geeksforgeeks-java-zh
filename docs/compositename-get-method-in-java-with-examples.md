@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String get(int posn)
 
 ```
@@ -20,7 +20,7 @@ public String get(int posn)
 下面的程序说明了 CompositeName.get()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.get()
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 a
 x
 
@@ -58,7 +58,7 @@ x
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // CompositeName.get() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Component at position 3: v
 Component at position 4: a
 

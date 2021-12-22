@@ -19,7 +19,7 @@
 
 ## colors.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#024265</color>
@@ -46,7 +46,7 @@
 
 ## **AndroidManifests.xml**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.statewise">
@@ -84,7 +84,7 @@
 
 ## **activity_main.xml**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -130,7 +130,7 @@
 
 ## **testing.xml**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -353,7 +353,7 @@
 
 ## **Model.java**
 
-```
+```java
 public class Model {
     private String name, total, death, cured, active, incAct, incDec, incRec;
 
@@ -458,7 +458,7 @@ public class Model {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -518,7 +518,7 @@ public class Adapter extends ArrayAdapter<Model> {
 
 ## **MainActivity.java**
 
-```
+```java
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.Toast;

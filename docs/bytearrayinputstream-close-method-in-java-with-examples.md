@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public void close()
 ```
 
@@ -18,7 +18,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.io.*;
@@ -50,14 +50,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Use of available() method : 4
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.io.*;
@@ -89,7 +89,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Use of available() method : 5
 
 ```

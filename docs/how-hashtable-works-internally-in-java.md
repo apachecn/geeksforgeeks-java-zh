@@ -102,7 +102,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals  (Object obj)
 
 // This method checks if some other Object
@@ -124,7 +124,7 @@ public boolean equals  (Object obj)
 
 **语法**:
 
-```
+```java
 public int hashCode()
 
 // This method returns the hash code value 
@@ -135,7 +135,7 @@ public int hashCode()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class HashCodeExample {
@@ -155,7 +155,7 @@ public class HashCodeExample {
 
 **输出**
 
-```
+```java
 144
 ```
 
@@ -182,7 +182,7 @@ public class HashCodeExample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class HashtableExample {
@@ -223,7 +223,7 @@ public class HashtableExample {
 
 **Output**
 
-```
+```java
 {3=Z, 2=Y, 1=X}
 X
 key: 2 value : Y
@@ -234,7 +234,7 @@ key: 1 value : X
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Hashtable;
 import java.util.Enumeration;
 public class HashtableExample {
@@ -268,7 +268,7 @@ public class HashtableExample {
 
 **Output**
 
-```
+```java
 Key: Key4 & Value: Richa
 Key: Key3 & Value: Durgesh
 Key: Key2 & Value: Girja

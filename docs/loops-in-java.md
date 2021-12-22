@@ -8,7 +8,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 1.  **[while loop:](https://www.geeksforgeeks.org/java-while-loop-with-examples/)** A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement.
     **Syntax :**
 
-    ```
+    ```java
     while (boolean condition)
     {
        loop statements...
@@ -23,7 +23,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
     *   一旦条件被评估为真，循环体中的语句就被执行。通常，这些语句包含正在为下一次迭代处理的变量的更新值。
     *   当条件变为假时，循环终止，这标志着其生命周期的结束。
 
-    ```
+    ```java
     // Java program to illustrate while loop
     class whileLoopDemo
     {
@@ -46,7 +46,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 
     **输出:**
 
-    ```
+    ```java
     Value of x:1
     Value of x:2
     Value of x:3
@@ -57,7 +57,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 2.  **[for loop:](https://www.geeksforgeeks.org/java-for-loop-with-examples/)** for loop provides a concise way of writing the loop structure. Unlike a while loop, a for statement consumes the initialization, condition and increment/decrement in one line thereby providing a shorter, easy to debug structure of looping.
     **Syntax:**
 
-    ```
+    ```java
     for (initialization condition; testing condition; 
                                   increment/decrement)
     {
@@ -75,7 +75,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
     4.  **增量/减量:**用于更新变量，以备下一次迭代。
     5.  **循环终止:**当条件变为假时，循环终止，标志着其生命周期的结束。
 
-    ```
+    ```java
     // Java program to illustrate for loop.
     class forLoopDemo
     {
@@ -91,7 +91,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 
     **输出:**
 
-    ```
+    ```java
     Value of x:2
     Value of x:3
     Value of x:4
@@ -105,7 +105,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
     我们建议尽可能使用 for 语句的这种形式，而不是一般形式。(根据 JAVA 文档。)
     **语法:**
 
-    ```
+    ```java
     for (T element:Collection obj/array)
     {
         statement(s)
@@ -116,7 +116,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
     让我们举一个例子来演示如何使用增强的 for 循环来简化工作。假设有一个名称数组，我们希望打印该数组中的所有名称。让我们看看这两个例子的区别
     增强 for 循环将工作简化如下-
 
-    ```
+    ```java
     // Java program to illustrate enhanced for loop
     public class enhancedforloop
     {
@@ -142,7 +142,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 
     输出:
 
-    ```
+    ```java
     Ron
     Harry
     Hermoine
@@ -152,7 +152,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 3.  **[do while:](https://www.geeksforgeeks.org/java-do-while-loop-with-examples/)** do while 循环与 while 循环相似，区别仅在于它在执行语句后检查条件，因此是**退出控制循环的一个例子。**
     **语法:**
 
-```
+```java
 do
 {
     statements..
@@ -169,7 +169,7 @@ while (condition);
 3.  当条件变为假时，循环终止，这标志着其生命周期的结束。
 4.  需要注意的是，do-while 循环将在检查任何条件之前至少执行其语句一次，因此是退出控制循环的一个示例。
 
-```
+```java
 // Java program to illustrate do-while loop
 class dowhileloopDemo
 {
@@ -190,7 +190,7 @@ class dowhileloopDemo
 
 **输出:**
 
-```
+```java
 Value of x: 21
 
 ```
@@ -200,7 +200,7 @@ Value of x: 21
 1.  **无限循环:**在实现任何类型的循环时，最常见的错误之一是它可能永远不会退出，也就是说循环运行无限长的时间。当条件由于某种原因失败时，就会发生这种情况。
     示例:
 
-    ```
+    ```java
     //Java program to illustrate various pitfalls.
     public class LooppitfallsDemo
     {
@@ -227,7 +227,7 @@ Value of x: 21
 
 2.  Another pitfall is that you might be adding something into you collection object through loop and you can run out of memory. If you try and execute the below program, after some time, out of memory exception will be thrown.
 
-    ```
+    ```java
     //Java program for out of memory exception.
     import java.util.ArrayList;
     public class Integer1
@@ -245,7 +245,7 @@ Value of x: 21
 
     **输出:**
 
-    ```
+    ```java
     Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
     at java.util.Arrays.copyOf(Unknown Source)
     at java.util.Arrays.copyOf(Unknown Source)

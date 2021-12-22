@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger unscaledValue()
 
 ```
@@ -18,7 +18,7 @@ public BigInteger unscaledValue()
 下面的程序说明了 BigDecimal.unscaledValue()方法:
 **程序 1:**
 
-```
+```java
 // Program to illustrate unscaledValue() method of BigDecimal 
 
 import java.math.*;
@@ -47,7 +47,7 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 The Unscaled Value of 175.856 is 175856
 The Unscaled Value of -275.73 is -27573
 
@@ -55,7 +55,7 @@ The Unscaled Value of -275.73 is -27573
 
 **程序 2:**
 
-```
+```java
 // Program to illustrate unscaledValue() method of BigDecimal 
 
 import java.math.*;
@@ -84,7 +84,7 @@ public class Gfg {
 
 **Output:**
 
-```
+```java
 The Unscaled Value of 5.5 is 55
 The Unscaled Value of -2.73 is -273
 

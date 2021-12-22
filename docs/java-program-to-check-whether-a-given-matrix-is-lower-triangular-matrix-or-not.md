@@ -6,7 +6,7 @@
 
 **示例–**
 
-```
+```java
 Input:
     1    0    0
     1    2    0
@@ -33,7 +33,7 @@ Output: Matrix is not a lower triangular matrix
 
 ## Java
 
-```
+```java
 // Java Program to check for
 // a lower triangular matrix.
 
@@ -96,7 +96,7 @@ public class LowerTriangularMatrix {
 
 **输出**
 
-```
+```java
 Matrix is : 
 1    0    0    
 2    3    0    

@@ -15,7 +15,7 @@ Java 包含 5 个条件块，即 if、switch、while、for 和 try。
 示例:
 下面的代码会给出一个编译错误。
 
-```
+```java
 // Java program to demonstrate error if we
 // assign value to an uninitialized variable
 // only in if block.
@@ -34,7 +34,7 @@ public class InitTesting {
 }
 ```
 
-```
+```java
  Output: 
 prog.java:8: error: variable j might not have been initialized
         System.out.println("j :" + j);
@@ -47,7 +47,7 @@ if 语句中的条件为 false。因此，局部变量“j”永远不会被初�
 为了避免这种情况，在条件块之外将局部变量初始化为默认值。
 下面的代码工作正常-
 
-```
+```java
 // Java program to demonstrate that the above
 // error is gone if we initialize the variable.
 public class InitTesting {
@@ -65,7 +65,7 @@ public class InitTesting {
 }
 ```
 
-```
+```java
  Output:
 j :0
 
@@ -75,7 +75,7 @@ j :0
 
 示例:看看下面的代码:
 
-```
+```java
 // Java program to demonstrate error even if
 // condition is true.
 
@@ -95,7 +95,7 @@ class Test {
 }
 ```
 
-```
+```java
  Output:
 prog.java:9: error: variable i might not have been initialized
         System.out.println("i :" + i);
@@ -108,7 +108,7 @@ prog.java:9: error: variable i might not have been initialized
 
 另一方面，如果指定的是值而不是变量，这种情况就不会发生。
 
-```
+```java
 // Java program to demonstrate that there is
 // no error if we constants in if condition.
 class Test {
@@ -123,7 +123,7 @@ class Test {
 }
 ```
 
-```
+```java
  Output:
 i :95
 

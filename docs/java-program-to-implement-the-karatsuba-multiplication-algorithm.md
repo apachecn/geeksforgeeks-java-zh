@@ -30,13 +30,13 @@
 
 插图:
 
-```
+```java
 Input: x = 1234, y = 5678
 ```
 
 ![](img/44be556666f51525dec8a30466e713b4.png)
 
-```
+```java
 Processing: As per above inputs
 
 x = 1234
@@ -52,13 +52,13 @@ Step 4: 6164 - 2652 - 172 = 2840
 Step 5: 1720000 + 2652 + 284000 = 7006652
 ```
 
-```
+```java
 Output: 7006652
 ```
 
 从步骤 5 得到的值实际上是如果在这两个数字“x”和“y”之间进行标准学校乘法运算得到的乘积。
 
-```
+```java
 1720000 + 2652 + 284000 = 7006652
 ```
 
@@ -66,7 +66,7 @@ Output: 7006652
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /// Java Program to Implement Karatsuba Algorithm
 
 // Importing Random class from java.util packahge
@@ -203,7 +203,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Product 1 : 85348320
 Product 2 : 21726
 ```

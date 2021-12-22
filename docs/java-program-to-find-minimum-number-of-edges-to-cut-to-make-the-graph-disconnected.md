@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Find
 // Minimum Number of Edges
 // to Cut to make the
@@ -193,6 +193,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Minimum Number of Edges to Remove = 2
 ```

@@ -8,7 +8,7 @@ Java 中的 [Enum](https://www.geeksforgeeks.org/enum-in-java/) 是一个包含�
 
 ## 【爪哇】
 
-```
+```java
 // Demonstrates the declaration of enum
 public enum season {
     Spring,
@@ -29,14 +29,14 @@ public enum season {
 
 枚举到设置和应用 forEach 的转换如下所示:
 
-```
+```java
 EnumSet.allOf(seasons.class)
             .forEach(season -> System.out.println(season));
 ```
 
 枚举到列表的转换和 forEach 的应用如下所示:
 
-```
+```java
 Arrays.asList(seasons.values()).
                 forEach(season -> System.out.println(season));
 ```
@@ -45,7 +45,7 @@ Arrays.asList(seasons.values()).
 
 ## Java
 
-```
+```java
 // Program that demonstrates iteration
 // over enums using forEach()
 import java.util.Arrays;
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Spring
 Summer
 Monsoon
@@ -95,7 +95,7 @@ Winter
 
 ## Java
 
-```
+```java
 // Program that demonstrates iteration
 // over enums using for loop
 public class GFG {
@@ -119,7 +119,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Spring
 Summer
 Monsoon
@@ -134,7 +134,7 @@ Winter
 
 ## 爪哇
 
-```
+```java
 // Program that demonstrates iteration
 // over enums using java.util.stream
 
@@ -159,7 +159,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Spring
 Summer
 Monsoon

@@ -6,7 +6,7 @@ Java 中的 **AbstractMap.hashCode()** 方法用于获取特定这个 AbstractMa
 
 **语法:**
 
-```
+```java
 AbstractMap.hashCode()
 ```
 
@@ -18,7 +18,7 @@ AbstractMap.hashCode()
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the hashCode() method
 
 import java.util.*;
@@ -51,7 +51,7 @@ public class Abstract_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 30=You, 20=Geeks, 25=Welcomes, 15=4}
 The hashcode value of the map: 2043437408
 
@@ -59,7 +59,7 @@ The hashcode value of the map: 2043437408
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the hashCode() method
 
 import java.util.*;
@@ -92,7 +92,7 @@ public class Abstract_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Geeks=20, Welcomes=25, You=30, 4=15}
 The hashcode value of the map: 751311572
 

@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```java
 public void setDecimalSeparatorAlwaysShown(boolean val)
 
 ```
@@ -21,7 +21,7 @@ public void setDecimalSeparatorAlwaysShown(boolean val)
 
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // setDecimalSeparatorAlwaysShown() method
 
@@ -46,14 +46,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 12, 345.
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to illustrate the
 // setDecimalSeparatorAlwaysShown() method
 
@@ -78,7 +78,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 12, 345
 
 ```

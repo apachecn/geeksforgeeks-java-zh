@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Prevent Method Overriding
 // using a static method
 
@@ -75,7 +75,7 @@ class Child extends Base {
 
 **Output**
 
-```
+```java
 Hello from base class
 ```
 
@@ -87,7 +87,7 @@ Hello from base class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Prevent Method Overriding
 // using a private method specifier
 
@@ -143,7 +143,7 @@ class Base {
 
 **Output**
 
-```
+```java
 Hello from child class
 ```
 
@@ -155,7 +155,7 @@ Hello from child class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Prevent Method Overriding
 // using a private method specifier
 
@@ -220,7 +220,7 @@ class Child extends Base {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Prevent Method Overriding
 // using a final keyword method
 

@@ -14,7 +14,7 @@ SimpleDateFormat 类已经被添加到第 7 个 JDK 版本的 java.text 包中�
 
 T3】JavaT5
 
-```
+```java
 // Java Program to Find the difference
 // between Two Time Periods
 
@@ -81,7 +81,7 @@ Java 在第 8 个 JDK 版本中带来了大量的特性，其中很少是 java.t
 
 T3】JavaT5
 
-```
+```java
 // Java program to get the difference
 // between Two Time Periods in Java
 

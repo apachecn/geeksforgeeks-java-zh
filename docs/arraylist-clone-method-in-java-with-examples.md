@@ -6,7 +6,7 @@ Java.util.ArrayList 。clone()方法用于创建所述数组列表的[浅拷贝]
 
 **语法:**
 
-```
+```java
 ArrayList.clone()
 ```
 
@@ -18,7 +18,7 @@ ArrayList.clone()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate clone() method
 
 import java.io.*;
@@ -58,7 +58,7 @@ public class ArrayListDemo {
 
 **Output:**
 
-```
+```java
 First ArrayList: [Geeks, for, Geeks, 10, 20]
 Second ArrayList is: [Geeks, for, Geeks, 10, 20]
 
@@ -66,7 +66,7 @@ Second ArrayList is: [Geeks, for, Geeks, 10, 20]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate clone() method
 
 import java.io.*;
@@ -106,7 +106,7 @@ public class ArrayListDemo {
 
 **Output:**
 
-```
+```java
 First ArrayList: [10, 20, 30, 40, 50]
 Second ArrayList is: [10, 20, 30, 40, 50]
 

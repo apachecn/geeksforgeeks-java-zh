@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public Locale locale()
 ```
 
@@ -20,7 +20,7 @@ public Locale locale()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -59,7 +59,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 What is your name? 
 My name is Gopal Dave !
 Locale: en_CA
@@ -68,7 +68,7 @@ Locale: en_CA
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -116,7 +116,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 What is your name? 
 My name is Gopal Dave !
 Exception is: java.util.FormatterClosedException

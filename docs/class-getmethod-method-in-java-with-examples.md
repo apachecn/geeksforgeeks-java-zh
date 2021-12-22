@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Method getMethod(String methodName, 
                     Class[] parameterType) 
        throws NoSuchMethodException, SecurityException
@@ -30,7 +30,7 @@ public Method getMethod(String methodName,
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate getMethod() method
 
     import java.util.*;
@@ -63,7 +63,7 @@ public Method getMethod(String methodName,
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Test
     func Method of myClass: public void Test.func()
 
@@ -71,7 +71,7 @@ public Method getMethod(String methodName,
 
     **例 2:**
 
-    ```
+    ```java
     // Java program to demonstrate getMethod() method
 
     import java.util.*;
@@ -108,7 +108,7 @@ public Method getMethod(String methodName,
 
     **Output:**
 
-    ```
+    ```java
     Class represented by myClass: class Main
     java.lang.NoSuchMethodException: Main.func()
 

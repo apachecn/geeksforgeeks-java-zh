@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```java
 TreeMap : {1=Welcome, 2=To, 3= Geeks, 4=For, 5=Geeks}
 keyList : [1, 2, 3, 4, 5]
 valueList : [Welcome, To, Geeks, For, Geeks]
@@ -25,7 +25,7 @@ valueList : [Welcome, To, Geeks, For, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate conversion of
 // TreeMap to ArrayList
 
@@ -82,7 +82,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The TreeMap is : {1=Welcome, 2=To, 3=Geeks, 4=For, 5=Geeks}
 List of keys of the given Map : [1, 2, 3, 4, 5]
 List of values of the given Map : [Welcome, To, Geeks, For, Geeks]

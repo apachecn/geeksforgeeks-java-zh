@@ -6,7 +6,7 @@ Java 中的 Java.util.EnumSet.allOf( *类 <e>elementType</e>* )用于创建枚�
 
 **语法:**
 
-```
+```java
 public static > EnumSet <e>allOf(*Class <e>elementType</e>*)</e>
 ```
 
@@ -19,7 +19,7 @@ public static > EnumSet <e>allOf(*Class <e>elementType</e>*)</e>
 下面的程序说明了 Java.util.EnumSet.allOf()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate allof() method
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class Enum_Set_Demo {
 
 **Output:**
 
-```
+```java
 null
 The updated set is:[Welcome, To, The, World, of, Geeks]
 
@@ -63,7 +63,7 @@ The updated set is:[Welcome, To, The, World, of, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate allof() method
 import java.util.*;
 
@@ -98,7 +98,7 @@ public class Enum_Set_Demo {
 
 **Output:**
 
-```
+```java
 null
 The updated set is:[RANGE_ROVER, MUSTANG, CAMARO, AUDI, BMW]
 

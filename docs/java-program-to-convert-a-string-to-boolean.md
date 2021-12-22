@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 *Input: str = "true"*
 *Output: true*
 *Explanation: The boolean equivalent of true is true itself.*
@@ -39,7 +39,7 @@
 
 **语法:**
 
-```
+```java
 boolean boolValue = Boolean.parseBoolean(String str) 
 ```
 
@@ -47,7 +47,7 @@ boolean boolValue = Boolean.parseBoolean(String str)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert a String to Boolean
 
 class GFG {
@@ -96,7 +96,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 false
 true
 false
@@ -108,7 +108,7 @@ false
 
 **语法:**
 
-```
+```java
 boolean boolValue = Boolean.valueOf(String str) 
 ```
 
@@ -116,7 +116,7 @@ boolean boolValue = Boolean.valueOf(String str)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert a String to Boolean
 
 class GFG {
@@ -164,7 +164,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 false
 true
 false

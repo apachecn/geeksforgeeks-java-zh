@@ -6,7 +6,7 @@
 
 为了首先在 java 中使用[compatible](https://www.geeksforgeeks.org/comparable-vs-comparator-in-java/)接口对 LinkedHashSet 元素进行排序，我们创建了一个实现 compatible 接口的类 Student。在这个类中，我们覆盖了 [compareTo()](https://www.geeksforgeeks.org/java-equals-compareto-equalsignorecase-and-compare/) 方法。
 
-```
+```java
 // Student class implements comparable interface
 
 class Student implements Comparable<Student> {
@@ -30,7 +30,7 @@ class Student implements Comparable<Student> {
 
 然后我们将集合传递给 TreeSet 构造函数来对元素进行排序。
 
-```
+```java
 // TreeSet to sort LinkedHashSet using comparable
 TreeSet<Student> tree_set = new TreeSet<>(set);
 ```
@@ -39,7 +39,7 @@ TreeSet<Student> tree_set = new TreeSet<>(set);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate how to Sort LinkedHashSet using
 // Comparable interface
 import java.util.*;
@@ -93,7 +93,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before sort elements in ascending order : [ 500,  300,  400,  100,  200]
 After sort elements in ascending order : [ 100,  200,  300,  400,  500]
 ```
@@ -102,7 +102,7 @@ After sort elements in ascending order : [ 100,  200,  300,  400,  500]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate how to Sort LinkedHashSet using
 // Comparable interface
 import java.util.*;
@@ -156,7 +156,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Before sort elements in descending order : [ 500,  300,  400,  100,  200]
 After sort elements in descending order : [ 500,  400,  300,  200,  100]
 

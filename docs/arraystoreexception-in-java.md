@@ -6,7 +6,7 @@
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
 ↳ java.lang.Throwable
     ↳ java.lang.Exception
@@ -28,7 +28,7 @@ java.lang.Object
 
     由于 Number 类是 Double 类的超类，可以在 Java 的超类对象中存储子类的对象。现在，如果一个整数值试图存储在 Double 类型数组中，它会在执行过程中抛出一个运行时错误。如果数组声明是这样的，就不会发生同样的事情:
 
-    ```
+    ```java
     public class GFG {
 
         public static void main(String args[])
@@ -57,7 +57,7 @@ java.lang.Object
 
     下面的例子说明了如何处理 ArrayStoreException:
 
-    ```
+    ```java
     public class GFG {
 
         public static void main(String args[])

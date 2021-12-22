@@ -38,7 +38,7 @@
 
 **2.3** 你会发现 VS Code 已经提供了一个如何创建自定义代码片段的粗略指南。文本应该如下所示:
 
-```
+```java
 {
 
 Place your snippets for java here. Each snippet is defined 
@@ -68,7 +68,7 @@ Illustration:
 
 **2.4** 在给定的注释下方，花括号内粘贴以下代码:
 
-```
+```java
 "Template for CP" : {
         "prefix": "template",
         "body":[
@@ -167,7 +167,7 @@ Illustration:
 
 **例**
 
-```
+```java
 // This code snippet is a part of the FastReader class
 // as illustrated above
 
@@ -221,7 +221,7 @@ public FastReader() {
 
 **例**
 
-```
+```java
 // This code snippet is a part of the FastReader class
 // as illustrated above
 

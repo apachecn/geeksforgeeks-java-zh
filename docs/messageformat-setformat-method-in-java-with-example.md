@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setFormat(int formatElementIndex,
                       Format newFormat)
 ```
@@ -24,7 +24,7 @@ public void setFormat(int formatElementIndex,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setFormats() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 old pattern : {0,date, #}, {0,number, #0.##}, {0,time}
 
 new pattern : {0,number, #0.##}, {0,number, #0.##}, {0,number, #0.##}
@@ -71,7 +71,7 @@ new pattern : {0,number, #0.##}, {0,number, #0.##}, {0,number, #0.##}
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setFormats() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 old pattern : {0,date, #}, {0,number, #0.##}, {0,time}
 
 array is out of bound

@@ -6,7 +6,7 @@ Calendar 类中的**设置时间(日期 *dt* )** 方法用于设置由该 Calend
 
 **语法:**
 
-```
+```java
 public final void setTime(Date *dt*))
 ```
 
@@ -17,7 +17,7 @@ public final void setTime(Date *dt*))
 下面的程序说明了日历类的 setTime()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // setTime() method
 
@@ -56,7 +56,7 @@ public class Calendar_Demo
 
 **Output:**
 
-```
+```java
 The Current System Date: Fri Feb 22 07:33:13 UTC 2019
 The modified Date:Sun Jun 18 07:33:13 UTC 2006
 
@@ -64,7 +64,7 @@ The modified Date:Sun Jun 18 07:33:13 UTC 2006
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // setTime() method
 
@@ -105,7 +105,7 @@ public class Calendar_Demo
 
 **Output:**
 
-```
+```java
 The Current System Date: Fri Feb 22 07:33:20 UTC 2019
 The modified Date: Fri Nov 24 07:33:20 UTC 1995
 

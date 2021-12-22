@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate over Vector elements
 
 import java.io.*;
@@ -52,7 +52,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The vector V is: 10 20 30 40 50 60 70 
 ```
 
@@ -64,7 +64,7 @@ The vector V is: 10 20 30 40 50 60 70
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate over Vector elements
 
 import java.io.*;
@@ -99,7 +99,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The vector V is: 10 20 30 40 50 60 70 
 ```
 
@@ -113,7 +113,7 @@ The vector V is: 10 20 30 40 50 60 70
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Iterate over Vector elements
 
 import java.io.*;
@@ -151,7 +151,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The vector V is: 10 20 30 40 50 60 70 
 ```
 
@@ -163,7 +163,7 @@ The vector V is: 10 20 30 40 50 60 70
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to iterate oer vector elements
 
 import java.io.*;
@@ -201,6 +201,6 @@ class GFG {
 
 ****Output**
 
-```
+```java
 The vector V is: 10 20 30 40 50 60 70 
 ```**

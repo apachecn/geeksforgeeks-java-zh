@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object O)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object O)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // equals() method in CopyOnWriteArraySet
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 CopyOnWriteArraySet 1: [32, 67, 98, 100]
 CopyOnWriteArraySet 2: [32, 67, 98, 100]
 Both are Equal
@@ -78,7 +78,7 @@ Both are Equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // equals() method in CopyOnWriteArraySet
 
@@ -128,7 +128,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 CopyOnWriteArraySet 1: [32, 67, 98, 100]
 CopyOnWriteArraySet 2: [3, 6, 9, 10]
 Both are not Equal

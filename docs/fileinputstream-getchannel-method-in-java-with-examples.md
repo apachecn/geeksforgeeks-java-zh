@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public FileChannel getChannel()
 ```
 
@@ -24,13 +24,13 @@ public FileChannel getChannel()
 
 **步骤 1:** 首先，我们必须创建一个 Java.io.FileInputStream 类的实例
 
-```
+```java
 FileInputStream  fileInputStream =new FileInputStream("tmp.txt");
 ```
 
 **第 2 步:**要获取与这个 fileInputStream 关联的唯一 FileChannel 对象，我们将调用 getChannel()方法
 
-```
+```java
 FileChannel fileChannel = fileInputStream.getChannel();
 ```
 
@@ -40,7 +40,7 @@ FileChannel fileChannel = fileInputStream.getChannel();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate the working
 // of the FileChannel object and then to
 // print the size of the channel's file
@@ -86,7 +86,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Current size of the file is 48
 ```
 

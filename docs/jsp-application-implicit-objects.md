@@ -12,7 +12,7 @@
 
 **void set attribute(String attributeName，Object object) :** 它在应用程序上下文中保存一个属性及其值，可用于 JSP 应用程序。例如:
 
-```
+```java
 application.setAttribute(“Attribute”, “value of Attribute”);
 ```
 
@@ -20,7 +20,7 @@ application.setAttribute(“Attribute”, “value of Attribute”);
 
 **对象 getAttribute(字符串属性名):**它返回保存在给定属性名中的对象。例如，让我们看看上面例子中给出的语句。现在，如果在任何 JSP 页面中使用下面的语句,“s”的值会是多少？
 
-```
+```java
 String s= (String) application.getAttribute(“Attribute”);  
 ```
 
@@ -28,13 +28,13 @@ String s= (String) application.getAttribute(“Attribute”);
 
 **void remove attribute(String object name):**为了从应用程序中消除给定的属性，使用此方法。例如:它将从应用程序中提取属性“Attribute”。如果我们试图在 getAttribute 方法的帮助下检索撤回属性的值，那么它将返回空值。
 
-```
+```java
  application.removeAttribute(“Attribute”);
 ```
 
 **枚举 getAttributeNames() :** 该方法返回保存在应用程序对象中的所有属性名称的枚举。
 
-```
+```java
  Enumeration e = application.getAttributeNames();
 ```
 
@@ -42,7 +42,7 @@ String s= (String) application.getAttribute(“Attribute”);
 
 ## 可扩展标记语言
 
-```
+```java
 <web-app>
 
  …
@@ -60,7 +60,7 @@ String s= (String) application.getAttribute(“Attribute”);
 
 > **注意:**这里我们假设上面给定的文件是 web.xml 文件。
 
-```
+```java
  String s=application.getInitParameter("parameter");
 ```
 
@@ -68,13 +68,13 @@ String s= (String) application.getAttribute(“Attribute”);
 
 **枚举 getInitParameterNames() :** 所有初始化参数的枚举都是用这个方法给出的。
 
-```
+```java
  Enumeration e= application.getinitParameterNames();
 ```
 
 **字符串 getRealPath(字符串值):**在文件系统中，它将给定的路径转换为完整的路径。
 
-```
+```java
  String abspath = application.getRealPath(“/index.html”);
 ```
 
@@ -82,7 +82,7 @@ String s= (String) application.getAttribute(“Attribute”);
 
 **void log(String message) :** 这个方法将给定的内容设置到与应用程序相关的 JSP 容器的默认日志文件中。
 
-```
+```java
  application.log(“Error 404, Page not found”);
 ```
 
@@ -90,7 +90,7 @@ String s= (String) application.getAttribute(“Attribute”);
 
 **String getServerInfo() :** 这个方法返回 JSP 容器的名称和版本。
 
-```
+```java
  application.getServerInfo();
 ```
 
@@ -100,7 +100,7 @@ String s= (String) application.getAttribute(“Attribute”);
 
 ## 超文本标记语言
 
-```
+```java
 <!DOCTYPE html>
 <html>
 <head>
@@ -122,7 +122,7 @@ String s= (String) application.getAttribute(“Attribute”);
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app>
   <display-name>HelloWorld</display-name>
@@ -150,7 +150,7 @@ String s= (String) application.getAttribute(“Attribute”);
 
 ## 超文本标记语言
 
-```
+```java
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>

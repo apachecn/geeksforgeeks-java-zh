@@ -14,13 +14,13 @@
 
 **1。LinkedList():** 此构造函数用于创建空链表。如果我们希望创建一个名为 ll 的空链接列表，那么它可以创建为:
 
-```
+```java
 LinkedList ll = new LinkedList();  
 ```
 
 **2。LinkedList(集合 C):** 这个构造函数用于创建一个包含指定集合的所有元素的有序列表，该列表由集合的迭代器返回。如果我们希望创建一个名为 ll 的链接列表，那么它可以创建为:
 
-```
+```java
 LinkedList ll = new LinkedList(C);
 ```
 
@@ -78,7 +78,7 @@ LinkedList ll = new LinkedList(C);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate
 // Implementation of LinekdList
 // class
@@ -117,7 +117,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 [D, A, E, B, C]
 [A]
 ```
@@ -149,7 +149,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add elements
 // to a LinkedList
 
@@ -172,7 +172,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 [Geeks, For, Geeks]
 ```
 
@@ -184,7 +184,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to change elements
 // in a LinkedList
 
@@ -211,7 +211,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial LinkedList [Geeks, Geeks, Geeks]
 Updated LinkedList [Geeks, For, Geeks]
 ```
@@ -227,7 +227,7 @@ Updated LinkedList [Geeks, For, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove elements
 // in a LinkedList
 
@@ -261,7 +261,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial LinkedList [Geeks, For, Geeks]
 After the Index Removal [Geeks, Geeks]
 After the Object Removal [Geeks]
@@ -275,7 +275,7 @@ After the Object Removal [Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate the elements
 // in an LinkedList
 
@@ -310,7 +310,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Geeks For Geeks 
 Geeks For Geeks
 ```

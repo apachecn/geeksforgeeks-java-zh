@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Set<K> keySet()
 ```
 
@@ -21,7 +21,7 @@ public Set<K> keySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the keySet() method
 // to get Set view of Keys from a Hashtable.
 
@@ -61,7 +61,7 @@ public class Example1 {
 
 **Output**
 
-```
+```java
 Set created from Hashtable Keys contains :
 3
 2
@@ -72,7 +72,7 @@ Set created from Hashtable Keys contains :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the keySet() method
 // to get Set view of Keys from a Hashtable.
 
@@ -112,7 +112,7 @@ public class Example2 {
 
 **Output**
 
-```
+```java
 Set created from Hashtable Keys contains :
 For
 Geeks

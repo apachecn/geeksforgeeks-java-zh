@@ -15,7 +15,7 @@ Apache POI 提供了基于 Office Open XML (OOXML)标准和微软的 OLE2 标准
 
 ## 超文本标记语言
 
-```
+```java
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 <dependency>
       <groupId>org.apache.poi</groupId>
@@ -33,7 +33,7 @@ Apache POI 提供了基于 Office Open XML (OOXML)标准和微软的 OLE2 标准
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Creating Sheets In Excel File
 // Using Apache POI
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**在控制台上
 
-```
+```java
 Sheets Has been Created successfully
 ```
 

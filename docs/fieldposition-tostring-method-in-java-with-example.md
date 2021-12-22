@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 FieldPosition :- java.text.FieldPosition[field=-1, attribute=java.text.MessageFormat$Field(message argument field), beginIndex=0, endIndex=0]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 FieldPosition :- java.text.FieldPosition[field=-1, attribute=java.text.DateFormat$Field(am pm), beginIndex=0, endIndex=0]
 
 ```

@@ -6,13 +6,13 @@
 
 **方法申报:**
 
-```
+```java
 public final boolean equals(Object obj)
 ```
 
 **语法:**
 
-```
+```java
 boolean result = TupleClassObject.equals(TupleClass2Object)
 ```
 
@@ -27,7 +27,7 @@ boolean result = TupleClassObject.equals(TupleClass2Object)
 
 **程序 1:** 使用等号()与单位类:
 
-```
+```java
 // Below is a Java program to use equals() method
 
 import java.util.*;
@@ -53,13 +53,13 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Is [GeeksforGeeks] equal to [GeeksNotforGeeks] : false
 ```
 
 **程序二:**使用等于()与四方类:
 
-```
+```java
 // Below is a Java program to use equals() method
 
 import java.util.*;
@@ -98,7 +98,7 @@ class GfG {
 
 **输出:**
 
-```
+```java
 Is 
 [GeeksforGeeks, A computer portal, for geeks, by Sandeep Jain]
  equal to 

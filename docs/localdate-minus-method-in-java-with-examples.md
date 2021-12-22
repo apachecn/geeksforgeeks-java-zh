@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate minus(long amountToSubtract,
                        TemporalUnit unit)
 
@@ -33,7 +33,7 @@ public LocalDate minus(long amountToSubtract,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.minus() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate after subtracting Months: 2006-12-06
 
 ```
@@ -73,7 +73,7 @@ LocalDate after subtracting Months: 2006-12-06
 
 **语法:**
 
-```
+```java
 public LocalDate minus(TemporalAmount amountTosubtract)
 
 ```
@@ -91,7 +91,7 @@ public LocalDate minus(TemporalAmount amountTosubtract)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDate.minus() method
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate after subtracting Days: 2018-11-06
 
 ```

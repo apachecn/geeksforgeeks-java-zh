@@ -36,7 +36,7 @@ PDF 文档类是在 **iText** 中表示 PDF 文档的类。这个班属于 com.i
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Format the Text in a PDF
 
 import com.itextpdf.io.font.FontConstants;

@@ -5,7 +5,7 @@
 **解析(字符串** ***the_text*** **、parse position*****position*****)**Date format 类的方法用于从字符串中解析文本以产生日期。方法从起始位置给定的索引处开始分析文本。
 **语法:**
 
-```
+```java
 public abstract Date parse(String *the_text*, ParsePosition *position*)
 ```
 
@@ -20,7 +20,7 @@ public abstract Date parse(String *the_text*, ParsePosition *position*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Code to illustrate parse() method
 
 import java.text.*;
@@ -54,7 +54,7 @@ public class DateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The unparsed string is: 10/ 27/ 16
 Time parsed: Thu Oct 27 00:00:00 UTC 2016
 ```

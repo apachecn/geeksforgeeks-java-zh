@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final long getAndUpdate(LongUnaryOperator function)
 
 ```
@@ -18,7 +18,7 @@ public final long getAndUpdate(LongUnaryOperator function)
 
 **举例说明功能。**
 
-```
+```java
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.LongUnaryOperator;
 
@@ -42,7 +42,7 @@ public class Demo {
 
 **Output:**
 
-```
+```java
 Previous Value is -20000
 Updated value is 20000
 

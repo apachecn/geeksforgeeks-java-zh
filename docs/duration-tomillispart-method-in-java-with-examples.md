@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toMillisPart()
 
 ```
@@ -19,7 +19,7 @@ public long toMillisPart()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate toMillisPart() method
 
 import java.time.Duration;
@@ -43,7 +43,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT51H4M
 0
 
@@ -51,7 +51,7 @@ Duration: PT51H4M
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate toMillisPart() method
 
 import java.time.Duration;
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Duration: PT0.01S
 10
 

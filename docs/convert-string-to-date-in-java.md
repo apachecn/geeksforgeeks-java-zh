@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Input : string = "2018-10-28T15:23:01Z"
 Output: 2018-10-28T15:23:01Z
 
@@ -38,7 +38,7 @@ Output: 2018-10-28
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to Date
 
 // Importing required classes
@@ -93,7 +93,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2018-10-28T15:23:01Z
 ```
 
@@ -112,7 +112,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to convert String to Date
 
 // Importing required classes
@@ -183,7 +183,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 2018-10-28
 ```
 
@@ -200,7 +200,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert String to Date
 
 // Importing required classes

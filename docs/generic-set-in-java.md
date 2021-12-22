@@ -10,7 +10,7 @@
 
 **设定界面的声明**
 
-```
+```java
 public interface Set extends Collection{
 
 }
@@ -19,7 +19,7 @@ public interface Set extends Collection{
 
 **集合的语法**
 
-```
+```java
 Set< Integer > set = new HashSet< Integer >();
 
 ```
@@ -28,7 +28,7 @@ Set< Integer > set = new HashSet< Integer >();
 
 **泛型集合的语法**
 
-```
+```java
 Set< T > set = new HashSet< T >();
 
 ```
@@ -39,7 +39,7 @@ Set< T > set = new HashSet< T >();
 
 [add()](https://www.geeksforgeeks.org/set-add-method-in-java-with-examples/) 方法用于在集合中添加元素。如果元素已经存在于集合中，则返回 false
 
-```
+```java
 Set<Character> set = new HashSet<Character>();
 
 Character ch = 'a';
@@ -53,7 +53,7 @@ set.add(ch);
 
 **1。**我们可以使用[迭代器](https://www.geeksforgeeks.org/iterators-in-java/#Iterator)对集合进行迭代。
 
-```
+```java
 Set<Integer> set = new HashSet<Integer>();
 
 Iterator<Iterator> it = set.iterator();
@@ -66,7 +66,7 @@ while(it.hasNext()){
 
 **2。**迭代集合的另一种方法是使用[通用 for 循环](https://www.geeksforgeeks.org/generic-for-loop-in-java/)。
 
-```
+```java
 Set<String> set = new HashSet<String>;
 
 for(String st : set) {
@@ -79,7 +79,7 @@ for(String st : set) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Generic Set
 
 import java.util.HashSet;
@@ -122,7 +122,7 @@ public class GenericSet {
 
 **Output**
 
-```
+```java
 Integer Value :100
 Integer Value :101
 String Value :geeksforgeeks

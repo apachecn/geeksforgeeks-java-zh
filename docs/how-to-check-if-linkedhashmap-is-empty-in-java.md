@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : {3=Geeks, 2=For, 1=Geeks} 
 Output: Given LinkedHashMap is not empty
 
@@ -25,7 +25,7 @@ Output: Given LinkedHashMap is empty
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program check if LinkedHashMap is empty or not
 import java.util.LinkedHashMap;
 public class Main {
@@ -58,7 +58,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Given LinkedHashMap is empty
 Given LinkedHashMap is not empty
 
@@ -77,7 +77,7 @@ Given LinkedHashMap is not empty
 
 T3】JavaT5
 
-```
+```java
 // Java Program check if LinkedHashMap is empty or not
 import java.util.LinkedHashMap;
 public class Main {

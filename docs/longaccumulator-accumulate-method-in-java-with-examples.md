@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void accumulate(long x)
 
 ```
@@ -19,7 +19,7 @@ public void accumulate(long x)
 
 **程序 1** :
 
-```
+```java
 // Program to demonstrate the accumulate() method
 import java.lang.*;
 import java.util.concurrent.atomic.LongAccumulator;
@@ -40,14 +40,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After update the value is: 2
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to demonstrate the accumulate() method
 
 import java.lang.*;
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After update the value is: 5
 
 ```

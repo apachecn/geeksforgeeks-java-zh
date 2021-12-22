@@ -8,13 +8,13 @@
 
 **功能签名:**
 
-```
+```java
 public File getAbsoluteFile()
 ```
 
 **函数语法:**
 
-```
+```java
 file.getAbsoluteFile()
 ```
 
@@ -28,7 +28,7 @@ file.getAbsoluteFile()
 
 **示例 1:** 我们在当前工作目录中有一个名为“program.txt”的文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getAbsoluteFile() function
 
@@ -63,7 +63,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Original file path : program.txt
 Absolute file path : C:\Users\pc\eclipse-workspace1\arnab\program.txt
 
@@ -73,7 +73,7 @@ Absolute file path : C:\Users\pc\eclipse-workspace1\arnab\program.txt
 
 **示例 2:** 我们在当前工作目录中有一个名为“program”的目录。
 
-```
+```java
 // Java program to demonstrate the
 // use of getAbsoluteFile() function
 
@@ -108,7 +108,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Original file path : program
 Absolute file path : C:\Users\pc\eclipse-workspace1\arnab\program
 

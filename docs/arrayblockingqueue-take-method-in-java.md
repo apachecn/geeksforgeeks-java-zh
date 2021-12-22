@@ -13,7 +13,7 @@ take()方法用于检索和删除该队列的头。如果队列是空的，那�
 
 **语法:**
 
-```
+```java
 public E take()throws InterruptedException
 ```
 
@@ -26,7 +26,7 @@ public E take()throws InterruptedException
 下面的程序说明了 ArrayBlockingQueue 的 take()方法:
 **程序 1** :
 
-```
+```java
 // Program to demonstrate take() method of ArrayBlockingQueue
 
 import java.util.concurrent.ArrayBlockingQueue;
@@ -76,7 +76,7 @@ public static void main(String[] args) 
 
 **Output:**
 
-```
+```java
 After addding numbers Queue: [23, 32, 45, 12]Head of queue removed is 23
 After removing head. Queue: [32, 45, 12]
 Head of queue removed is 32
@@ -86,7 +86,7 @@ After removing head. Queue: [45, 12]
 
 **程序 2:**
 
-```
+```java
 // Program to demonstrate take() method of ArrayBlockingQueue
 
 import java.util.concurrent.ArrayBlockingQueue;
@@ -163,7 +163,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Details of User Removed After Applying take() Method
 User Name : Aman
 User Age : 24

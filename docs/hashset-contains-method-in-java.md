@@ -6,7 +6,7 @@ Java.util.HashSet.contains()方法用于检查 HashSet 中是否存在特定的�
 
 **语法:**
 
-```
+```java
 Hash_Set.contains(Object element)
 ```
 
@@ -16,7 +16,7 @@ Hash_Set.contains(Object element)
 
 下面程序举例说明了
 
-```
+```java
 // Java code to illustrate HashSet.contains() method
 import java.io.*;
 import java.util.HashSet;
@@ -51,7 +51,7 @@ public class HashSetDemo {
 
 **输出:**
 
-```
+```java
 HashSet: [4, Geeks, Welcome, To]
 Does the Set contains 'Geeks'? true
 Does the Set contains '4'? true

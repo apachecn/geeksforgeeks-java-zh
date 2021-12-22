@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: char[] = { 'G', 'e', 'e', 'k', 's' }
 Output: 71, 101, 101, 107, 115
 
@@ -24,7 +24,7 @@ Output: 71, 101, 101, 107, 115, 70, 111, 114, 71, 101, 101, 107, 115
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to convert
 // Character Array to IntStream
 
@@ -57,7 +57,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 IntStream:
 71
 101

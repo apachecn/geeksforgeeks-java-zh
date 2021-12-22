@@ -8,14 +8,14 @@ Java 中的字符串是由一个字符数组在内部支持的 T2 对象。因�
 
 **[StringBuffer 类](https://www.geeksforgeeks.org/stringbuffer-class-in-java/) :** StringBuffer 是 String 的对等类，提供了字符串的大部分功能。该字符串表示固定长度、不可变的字符序列，而 StringBuffer 表示可增长和可写的字符序列。StringBuffer 可以在中间插入字符和子字符串，也可以附加到末尾。它会自动增长，为这种添加腾出空间，并且通常会预分配比实际需要更多的字符，以留出增长空间。为了创建字符串缓冲区，需要创建一个对象(即)，如果我们希望创建一个名为 str 的新字符串缓冲区，那么:
 
-```
+```java
 StringBuffer str = new StringBuffer();
 
 ```
 
 **示例:**下面是一个实现 StringBuffer 类的示例。
 
-```
+```java
 // Java program to demonstrate
 // the StringBuffer class
 
@@ -38,21 +38,21 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hello World!
 
 ```
 
 **[StringBuilder 类](https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/) :** 类似于 StringBuffer，Java 中的 StringBuilder 代表一个可变的字符序列。因为 Java 中的字符串类创建了一个不可变的字符序列，所以 StringBuilder 类提供了一个字符串类的替代，因为它创建了一个可变的字符序列。StringBuilder 的功能与 StringBuffer 类非常相似，因为两者都提供了一种字符串类的替代方法，即创建一个可变的字符序列。与 StringBuffer 类似，为了创建一个名为 str 的新字符串，我们需要创建一个 StringBuilder 的对象(即):
 
-```
+```java
 StringBuilder str = new StringBuilder(); 
 
 ```
 
 **示例:**下面是一个实现 StringBuilder 类的示例。
 
-```
+```java
 // Java program to demonstrate
 // the StringBuilder class
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hello World!
 
 ```
@@ -84,7 +84,7 @@ Hello World!
 
 StringBuffer 不能直接转换为 StringBuilder。我们首先需要使用内置的方法*将 StringBuffer 转换为 String 对象*。在将其转换为字符串对象后，我们可以简单地使用类的[构造函数](https://www.geeksforgeeks.org/constructors-in-java/)创建一个字符串构建器。例如:
 
-```
+```java
 // Java program to demonstrate
 // the conversion between the
 // StringBuffer and StringBuilder
@@ -114,7 +114,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 
 ```
@@ -123,7 +123,7 @@ Geeks
 
 与上面的转换类似，StringBuilder 不能直接转换为 StringBuffer。我们首先需要使用内置的方法*将 StringBuilder 转换为 String 对象*。现在，我们可以使用构造函数创建一个 StringBuilder。例如:
 
-```
+```java
 // Java program to demonstrate
 // the conversion between the
 // StringBuilder and StringBuffer
@@ -153,7 +153,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 
 ```

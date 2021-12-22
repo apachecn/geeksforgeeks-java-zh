@@ -13,7 +13,7 @@ TextAlignment 类是 JavaFX 的一部分。TextAlignment 类表示水平文本�
 
 **示例:** **Java 程序创建一个 TextFlow 并向其中添加文本对象，设置文本对齐方式并同时设置一个组合框来更改对齐方式并设置文本流的行距:**在本程序中我们将创建一个名为*的 tile pane _ pane*。将名为标签的标签和一些按钮添加到*平铺窗格*中。使用*设置对齐()*功能设置*图块面板*的对齐。将文本对齐值的所有名称存储在字符串数组中。现在创建一个*组合框*，它将包含文本对齐值的名称，并创建一个操作事件来处理*组合框*事件。事件处理程序会将文本流的文本对齐设置为选定的文本对齐值。现在创建一个 VBox，并将 *tilepane* 和组合框添加到 *vbox* 中。最后，将 vbox 添加到场景中，将场景添加到舞台中，并调用 *show()* 函数显示最终结果。
 
-```
+```java
 // Java program to create a TextFlow and
 // add text object to it, set text Alignment
 // and also set a combo box to change Alignment

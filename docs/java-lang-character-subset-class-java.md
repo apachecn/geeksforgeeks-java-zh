@@ -6,7 +6,7 @@
 
 **申报:**
 
-```
+```java
 public static class Character.Subset
    extends Object
 ```
@@ -20,7 +20,7 @@ public static class Character.Subset
 *   **equals():****Java . lang . character . Subset . equals()**告诉两个 Subset Object 是否相等。
     **语法:**
 
-    ```
+    ```java
     public final boolean equals(Object o)
     Parameters : 
     o : object to be compare with.
@@ -32,7 +32,7 @@ public static class Character.Subset
 *   **hashCode():****Java . lang . character . Subset . hashCode()**返回子集的 hashCode 值..
     **语法:**
 
-    ```
+    ```java
     public final int hashCode()
     Parameters : 
     ---
@@ -44,7 +44,7 @@ public static class Character.Subset
 *   **toString():****Java . lang . character . Subset . toString()**返回子集的名称。
     **语法:**
 
-    ```
+    ```java
     public final String toString()
     Parameters : 
     ---
@@ -53,7 +53,7 @@ public static class Character.Subset
 
     ```
 
-```
+```java
 // Java Program illustrating the use of Character.Subset class Methods.
 
 import java.lang.*;
@@ -96,7 +96,7 @@ public class CharacterSubsetDemo extends Character.Subset 
 
 **输出:**
 
-```
+```java
 Is a equals a ? : true
 Is b equals a ? : false
 

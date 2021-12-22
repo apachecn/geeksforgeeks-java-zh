@@ -30,7 +30,7 @@
 
 *   **Program to Launch the browser and open a specific URI**
 
-    ```
+    ```java
     // Java Program to Launch the browser
     // and open a specific URI
     import java.awt.*;
@@ -89,7 +89,7 @@
 
 *   **Program to Launch the mail to a specific URI**
 
-    ```
+    ```java
     // Java Program to Launch the
     // mail to a specific URI
     import java.awt.*;
@@ -147,7 +147,7 @@
 
 *   **Program to open a file**
 
-    ```
+    ```java
     // Java Program to open a file
     import java.awt.*;
     import javax.swing.*;
@@ -204,7 +204,7 @@
 
 *   **Program to open a file for editing**
 
-    ```
+    ```java
     // Java Program to open a file for editing
     import java.awt.*;
     import javax.swing.*;
@@ -264,7 +264,7 @@
 
 *   **Program to open a file for printing**
 
-    ```
+    ```java
     // Java Program to open a file for printing
     import java.awt.*;
     import javax.swing.*;

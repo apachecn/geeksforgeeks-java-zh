@@ -22,7 +22,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the occurence of
 // NoSuchElementException
 
@@ -55,7 +55,7 @@ class Geek {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the occurence of
 // NoSuchElementException
 
@@ -99,7 +99,7 @@ class Geek {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove the occurence of
 // NoSuchElementException by using hasNext()
 
@@ -138,7 +138,7 @@ class Geek {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove the occurence of
 // NoSuchElementException by using hasMoreElements()
 

@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the
 // concept of interrupt() method
 // while a thread does not stops working
@@ -55,7 +55,7 @@ class Test {
 
 **Output**
 
-```
+```java
 Main thread execution completes
 Child Thread executing
 InterruptedException occur
@@ -65,7 +65,7 @@ InterruptedException occur
 
 ## 爪哇
 
-```
+```java
 // Java Program to illustrate the
 // concept of interrupt() method
 // while a thread stops working
@@ -98,7 +98,7 @@ class Geeks extends Thread {
 
 **输出**
 
-```
+```java
 Exception in thread "Thread-0" java.lang.RuntimeException: Thread interrupted
     at Geeks.run(File.java:13)
 ```
@@ -107,7 +107,7 @@ Exception in thread "Thread-0" java.lang.RuntimeException: Thread interrupted
 
 ## Java
 
-```
+```java
 // Java Program to illustrate the concept of
 // interrupt() method
 
@@ -128,7 +128,7 @@ class Geeks extends Thread {
 
 **输出**
 
-```
+```java
 0
 1
 2

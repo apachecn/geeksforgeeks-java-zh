@@ -14,7 +14,7 @@ LinkedBlockingDeque 的**drain to(Collection<E>col)**方法将从该查询中移
 
 **语法:**
 
-```
+```java
 public int drainTo(Collection<? super E> col)
 ```
 
@@ -35,7 +35,7 @@ public int drainTo(Collection<? super E> col)
 
 下面的程序有一个存储雇员对象的链接锁定请求。有一个数组列表，它将存储 linkedblockingrequest 中的所有员工对象。所以 drainTo()与 linkedblockingrequest 一起使用，将所有雇员从 deque 传递到 ArrayList。
 
-```
+```java
 // Java Program Demonstrate drainTo(Collection c)
 // method of LinkedBlockingDeque.
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before drainTo():
 LinkedBlockingDeque : 
 [Employee [name=Aman, position=Analyst, salary=24000], Employee [name=Sachin, position=Developer, salary=39000]]
@@ -138,7 +138,7 @@ ArrayList :
 
 **程序 2:** 显示 drainTo()方法引发的异常的程序。
 
-```
+```java
 // Java Program Demonstrate
 // drainTo(Collection C)
 // method of LinkedBlockingDeque.
@@ -179,7 +179,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```
@@ -190,7 +190,7 @@ Exception: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 public int drainTo(Collection<E> col, int maxElements)
 ```
 
@@ -214,7 +214,7 @@ public int drainTo(Collection<E> col, int maxElements)
 
 下面的程序有一个存储员工对象的链接锁定请求，还有一个存储链接锁定请求中所有员工对象的哈希集。所以 LinkedBlockingDeque 的 drainTo()用于将某个员工从 Deque 传递到 ArrayList。因此，没有要传输的元素作为参数在方法中传递。
 
-```
+```java
 // Java program  to demonstrate drainTo()
 // method of LinkedBlockingDeque.
 
@@ -335,7 +335,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before drainTo():
 No of Elements in Deque is 3
 Elements in Deque is as follows

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Charset charset()
 
 ```
@@ -19,7 +19,7 @@ public final Charset charset()
 
 **程序 1:**
 
-```
+```java
 // Java program below demonstrate
 // CharsetDecoder.charset function
 
@@ -41,14 +41,14 @@ public class Main {
 
 **Output:**
 
-```
+```java
 ISO-8859-1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program below demonstrate
 // CharsetDecoder.charset function
 
@@ -70,7 +70,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 ISO-8859-2
 
 ```

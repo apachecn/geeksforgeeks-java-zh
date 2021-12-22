@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: number = 1.41421356237, round = 3 
 Output:1.414
 
@@ -19,7 +19,7 @@ Output:0.71
 
 十进制数可以通过 Java 支持的内置 format()方法进行舍入。该方法具有以下**语法:**
 
-```
+```java
 System.out.format("%.df", number);
 
 ```
@@ -30,7 +30,7 @@ System.out.format("%.df", number);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Round a Number to n Decimal Places
 import java.io.*;
 class GFG {
@@ -45,7 +45,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 3.14
 ```
 
@@ -55,7 +55,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Round a Number to n Decimal Places
 import java.text.DecimalFormat;
 public class Decimal {
@@ -76,13 +76,13 @@ public class Decimal {
 
 **Output**
 
-```
+```java
 145.346
 ```
 
 如果我们希望将数字舍入到楼层，我们调用 Java 内置类**舍入模式**。它具有以下属性值:
 
-```
+```java
 FLOOR - for next nearest floor value
 CEILING - for next nearest ceiling value
 
@@ -92,7 +92,7 @@ CEILING - for next nearest ceiling value
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Round a Number to n Decimal Places
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
@@ -119,6 +119,6 @@ public class Decimal {
 
 **Output**
 
-```
+```java
 9.9786
 ```

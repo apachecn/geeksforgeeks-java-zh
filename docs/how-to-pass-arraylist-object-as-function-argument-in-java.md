@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 ArrayList<Integer> list = new ArrayList<>();
 modifyList(list);
 public static void modifyList(ArrayList<Integer> list){
@@ -21,7 +21,7 @@ public static void modifyList(ArrayList<Integer> list){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to pass an
 // ArrayList as an argument
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList after insertions: [3, 57, 7]
 ArrayList after modifications: [3, 57, 7, 20, 98]
 
@@ -84,7 +84,7 @@ ArrayList after modifications: [3, 57, 7, 20, 98]
 
 假设我们在主函数中创建的数组列表对象指向地址 1000。当我们将这个对象传递给 modifyList 函数时，地址 1000 被传递给它，对象“parameterList”也开始指向内存中与“List”相同的位置，这就是为什么我们说对象引用在 java 中是通过值传递的。之后，当我们修改“参数列表”时，原来的“列表”也做了同样的修改。这个概念与我们在 C++中将指针变量作为参数传递时发生的情况非常相似。
 
-```
+```java
 ArrayList<Integer> list = new ArrayList<>();
 callByValue(list);
 public static void callByValue(ArrayList<Integer> parameterList){
@@ -101,7 +101,7 @@ public static void callByValue(ArrayList<Integer> parameterList){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to pass an
 // ArrayList as an argument
 
@@ -170,7 +170,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ArrayList after insertions: [3, 57, 7]
 New ArrayList inside the function: [88, 200, 89]
 ArrayList after the function call: [3, 57, 7]

@@ -36,7 +36,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find
 // the perimeter of the circle
 // using radius
@@ -70,7 +70,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Perimeter of the circle is :31.41592653589793
 
 ```
@@ -79,7 +79,7 @@ Perimeter of the circle is :31.41592653589793
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find
 // the area of the circle
 // Using Diameter
@@ -114,7 +114,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Perimeter of the circle is :62.83185307179586
 
 ```

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input :  s1 = "ABCD", s2 = "CDAB"
 Output : True
 String s1 is rotation of s2.
@@ -23,7 +23,7 @@ Output : False
 
 一个**有效的解决方案**是把 s1 和它自己连接起来。当且仅当 s2 是旋转字符串的子串时，S2 是 s1 的旋转。在 java 中，我们可以使用包含的[字符串或者](https://www.geeksforgeeks.org/java-string-contains-method-example/)的[索引来检查子字符串。](https://www.geeksforgeeks.org/javascript-array-indexof/)
 
-```
+```java
 // Java program to check if two given strings are
 //  rotations of each other
 
@@ -55,7 +55,7 @@ class StringRotation {
 
 [**输出:**
 
-```
+```java
 Yes
 
 ```](https://www.geeksforgeeks.org/javascript-array-indexof/)

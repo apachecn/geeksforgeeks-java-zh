@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getLevelAt(int offset)
 ```
 
@@ -18,7 +18,7 @@ public int getLevelAt(int offset)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getLevelAt() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 resolved level of the Character at offset 3 is 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getLevelAt() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 base direction level is 0
 
 ```

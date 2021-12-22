@@ -5,7 +5,7 @@
 startswith()方法有两种**变体。这篇文章大概描绘了他们所有人，如下:
 **1。String startsWith() :** 此方法测试字符串是否以从第一个索引开始的指定前缀开始。**
 
-```
+```java
 **Syntax**
 **public boolean startsWith(String prefix)**
 **Parameters**
@@ -16,7 +16,7 @@ represented by the argument is a prefix of the character
 sequence represented by this string; false otherwise. 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of  startsWith()
 public class Strt1 {
@@ -39,14 +39,14 @@ public static void main(String args[])
 
 **输出:**
 
-```
+```java
 Check whether string starts with Welcome : true
 Check whether string starts with geeks : false 
 ```
 
 ****2。字符串开始于(字符串前缀，int strt_pos):** 此变量有两个参数，用于测试字符串是否以指定的前缀开始于指定的索引。**
 
-```
+```java
 **Syntax**
 public boolean startsWith(String prefix, int strt_pos)
 **Parameters**
@@ -58,7 +58,7 @@ represented by the argument is a prefix of the character
 sequence represented by this string; false otherwise. 
 ```
 
-```
+```java
 // Java code to demonstrate the
 // working of  startsWith()
 public class Strt2 {
@@ -81,14 +81,14 @@ public static void main(String args[])
 
 **输出:**
 
-```
+```java
 Check whether string starts with Welcome at pos 11 : false
 Check whether string starts with geeks at pos 11 : true 
 ```
 
 ****可能的应用:**该方法主要用于**过滤前缀**，例如，过滤以数字开头的电话号码或以特定字母开头的姓名。后一个在本文中解释。**
 
-```
+```java
 // Java code to demonstrate the
 // application of  startsWith()
 public class Appli {
@@ -107,7 +107,7 @@ public static void main(String args[])
 
 **输出:**
 
-```
+```java
 Check whether Astha Tyagi starts with A : true 
 ```
 

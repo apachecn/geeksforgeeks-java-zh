@@ -6,7 +6,7 @@ Java 中**buffere reader**类的 **mark()** 方法用于标记缓冲区读取器
 
 **语法:**
 
-```
+```java
 public void mark(int readAheadLimit) 
                    throws IOException
 
@@ -26,7 +26,7 @@ public void mark(int readAheadLimit)
 下面的程序说明了 IO 包中 BufferedReader 类中的 mark()方法。
 **程序 1:** 假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedReader mark() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Char : G
 Char : E
 Char : E
@@ -95,7 +95,7 @@ Char : S
 
 **程序 2:** 假设文件“c:/demo.txt”的存在。
 
-```
+```java
 // Java program to illustrate
 // BufferedReader mark() method
 
@@ -160,7 +160,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Char : G
 Char : E
 Char : E

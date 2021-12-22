@@ -6,12 +6,12 @@
 
 **语法:**
 
-```
+```java
 public static native void sleep( long ms) throws InterruptedException ;
 // The above method put the thread in sleep for a specified number of millisecond
 ```
 
-```
+```java
 public static void sleep(long ms , int ns) throws InterruptedException
 // The above method also put the thread in sleep for a specified number of milliseconds
 // plus specified number of nanoseconds
@@ -27,7 +27,7 @@ java 中的每一个 sleep()方法都会抛出一个[中断异常](https://www.g
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate sleep method
 
 // Importing all input output classes
@@ -72,7 +72,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 public static native void yield( );
 ```
 
@@ -82,7 +82,7 @@ public static native void yield( );
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate yield() method
 
 // Importing input output classes

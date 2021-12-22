@@ -13,14 +13,14 @@
 1.  **第一步:在项目中添加 Recycler 视图小部件的依赖关系**
     *   回收商视图的最新依赖项为:
 
-        ```
+        ```java
         implementation 'com.android.support:recyclerview-v7:28.0.0'
 
         ```
 
     *   同时添加卡片视图的依赖项。卡片视图的最新依赖关系为:
 
-        ```
+        ```java
         implementation 'com.android.support:cardview-v7:28.0.0'
 
         ```
@@ -34,7 +34,7 @@
 
     ## activity_main.xml
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <!--Relative Layout-->
@@ -64,7 +64,7 @@
 
     ## item . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <!--Card View widget-->
@@ -107,7 +107,7 @@
 
     ## Adapter.java
 
-    ```
+    ```java
     package com.geeksforgeeks.horizontalrecyclerview;
 
     import android.support.v7.widget.RecyclerView;
@@ -202,7 +202,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.geeksforgeeks.horizontalrecyclerview;
 
     import android.support.v7.app.AppCompatActivity;

@@ -5,7 +5,7 @@
 番石榴的[**Ints**T3**。如果目标作为元素出现在数组中的任何位置，contains()** 返回 ***true*** 。
 **语法:**](https://www.geeksforgeeks.org/ints-class-guava-java/) 
 
-```
+```java
 public static boolean 
   contains(int[] array, int target)
 ```
@@ -20,7 +20,7 @@ public static boolean
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show implementation of
 // Guava's Ints.contains() method
 
@@ -54,6 +54,6 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Target is present in the array
 ```

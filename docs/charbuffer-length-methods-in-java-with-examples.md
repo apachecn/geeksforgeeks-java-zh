@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final int length()
 ```
 
@@ -16,7 +16,7 @@ public final int length()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // length() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharBuffer is : [a, b, c]
 Length: 3
 
@@ -58,7 +58,7 @@ Length: 3
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // length() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CharBuffer  before append : [a, b,,  ]
 Length: 2
 

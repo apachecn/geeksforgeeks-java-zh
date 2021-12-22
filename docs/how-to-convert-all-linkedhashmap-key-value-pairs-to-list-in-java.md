@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Convert all LinkedHashMap
 // Key-Value pairs to List
 
@@ -63,7 +63,7 @@ public class Sias {
 
 **Output**
 
-```
+```java
 List 1 - [1, 2, 3, 4, 5]
 List 2 - [One, Two, Three, Four, Five]
 ```

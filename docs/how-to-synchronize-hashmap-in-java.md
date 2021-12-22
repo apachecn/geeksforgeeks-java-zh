@@ -24,7 +24,7 @@ Java . util . collections类的**synchronized map()**方法用于返回由指定
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // synchronization of HashMap
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Map : {1=Welcome, 2=To, 3=Geeks, 4=For, 5=Geeks}
 Synchronized map is : {1=Welcome, 2=To, 3=Geeks, 4=For, 5=Geeks}
 ```

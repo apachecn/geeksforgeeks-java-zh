@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 AbstractCollection.removeAll(Collection col)
 ```
 
@@ -20,7 +20,7 @@ AbstractCollection.removeAll(Collection col)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate removeAll()
 import java.util.*;
 
@@ -73,7 +73,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 AbstractCollection: [Geeks, for, Geeks, 10, 20]
 Collection removed
 Final AbstractCollection: [10, 20]
@@ -82,7 +82,7 @@ Final AbstractCollection: [10, 20]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate removeAll()
 import java.util.*;
 
@@ -135,7 +135,7 @@ public class AbstractCollectionDemo {
 
 **Output:**
 
-```
+```java
 AbstractCollection: [1, 2, 3, 10, 20]
 Collection not removed
 Final AbstractCollection: [1, 2, 3, 10, 20]

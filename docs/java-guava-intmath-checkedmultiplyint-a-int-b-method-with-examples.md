@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int checkedMultiply(int a, int b)
 
 ```
@@ -21,7 +21,7 @@ public static int checkedMultiply(int a, int b)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // checkedMultiply(int a, int b) method
 // of Guava's IntMath class
@@ -59,7 +59,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Product of 25 and 36 is: 900
 Product of 150 and 667 is: 100050
 
@@ -67,7 +67,7 @@ Product of 150 and 667 is: 100050
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // checkedMultiply(int a, int b) method
 // of Guava's IntMath class
@@ -117,7 +117,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.ArithmeticException: overflow
 
 ```

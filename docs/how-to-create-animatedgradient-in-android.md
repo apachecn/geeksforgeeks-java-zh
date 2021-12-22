@@ -11,7 +11,7 @@
 
     ## 渐变 _ one . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <shape xmlns:android="http://schemas.android.com/apk/res/android">
         <gradient
@@ -25,7 +25,7 @@
 
     ## 渐变
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient

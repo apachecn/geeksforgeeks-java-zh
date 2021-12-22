@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(BigInteger val)
 ```
 
@@ -20,7 +20,7 @@ public int compareTo(BigInteger val)
 
 **示例:**
 
-```
+```java
 Input: BigInteger1=2345, BigInteger2=7456
 Output: -1
 Explanation: BigInteger1.compareTo(BigInteger2)=-1.
@@ -33,7 +33,7 @@ Explanation: BigInteger1.compareTo(BigInteger2)=1.
 
 **示例 1:下面的程序说明了当两个 BigInteger 相等时 big integer 类的 compareTo()方法**
 
-```
+```java
 // Java program to demonstrate 
 // compareTo() method of BigInteger
 
@@ -75,14 +75,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 BigInteger1 321456 and BigInteger2 321456 are equal
 
 ```
 
 **例 2:当大整数 1 大于大整数 2 时**
 
-```
+```java
 // Java program to demonstrate 
 // compareTo() method of BigInteger
 
@@ -123,14 +123,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 BigInteger1 654321 is greater than BigInteger2 321456
 
 ```
 
 **例 3:当大整数 1 小于大整数 2 时**
 
-```
+```java
 // Java program to demonstrate 
 // compareTo() method of BigInteger
 
@@ -171,7 +171,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 BigInteger1 321456 is lesser than BigInteger2 564321
 
 ```

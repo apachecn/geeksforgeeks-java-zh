@@ -18,7 +18,7 @@
 
             ## activity _ main . XML
 
-            ```
+            ```java
             <?xml version="1.0" encoding="utf-8"?>
             <RelativeLayout 
                 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -52,7 +52,7 @@
 
             ## MainActivity.java
 
-            ```
+            ```java
             package com.madhav.maheshwari.gfgTextSwitcher;
 
             import android.graphics.Color;

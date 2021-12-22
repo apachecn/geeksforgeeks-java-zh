@@ -9,7 +9,7 @@ java.lang.Math.asin()返回 **-pi/2 和 pi/2 之间角度的反正弦。**反正
 
 **语法:**
 
-```
+```java
 public static double asin(double angle)
 Parameter :
 angle : the value whose arc sine is to be returned.
@@ -21,7 +21,7 @@ angle : the value whose arc sine is to be returned.
 
 **例 1 :** 展示 java.lang.Math.asin()方法的工作原理。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.asin() method
 import java.lang.Math;
@@ -62,7 +62,7 @@ class Gfg {
 
 **输出:**
 
-```
+```java
 NaN
 0.054858647341251204
 1.5707963267948966

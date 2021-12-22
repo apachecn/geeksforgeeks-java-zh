@@ -5,7 +5,7 @@
 **java.text.MessageFormat** 类的 **toPattern()** 方法用于获取该消息格式对象的当前模式的字符串表示。
 **语法:**
 
-```
+```java
 public String toPattern()
 ```
 
@@ -16,7 +16,7 @@ public String toPattern()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toPattern() method
 
@@ -44,7 +44,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current pattern of MessageFormat Object : {0, number, #}, {2, date, #.#}, {4, time}
 ```
 
@@ -52,7 +52,7 @@ current pattern of MessageFormat Object : {0, number, #}, {2, date, #.#}, {4, ti
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toPattern() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 current pattern of MessageFormat Object : {0, number, #}, {4, time}
 ```
 

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static char[] concat(char[]... arrays)
 
 ```
@@ -22,7 +22,7 @@ public static char[] concat(char[]... arrays)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.concat() method
 
@@ -51,14 +51,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [H, E, L, L, O, G, E, E, K, S]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Chars.concat() method
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
 ```

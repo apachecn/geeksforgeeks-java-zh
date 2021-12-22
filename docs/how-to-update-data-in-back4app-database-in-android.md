@@ -20,7 +20,7 @@
 
 ## Java
 
-```
+```java
 // adding on click listener for our item of recycler view.
 holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +45,7 @@ holder.itemView.setOnClickListener(new View.OnClickListener() {
 
 ## 爪哇
 
-```
+```java
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -130,7 +130,7 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.ViewHo
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"

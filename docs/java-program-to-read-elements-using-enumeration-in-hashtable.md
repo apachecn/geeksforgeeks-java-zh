@@ -10,7 +10,7 @@ java 中的[枚举](https://www.geeksforgeeks.org/enum-in-java/) 是预定义的
 
 **语法:**
 
-```
+```java
 public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneable, Serializable
 ```
 
@@ -23,7 +23,7 @@ public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneab
 
 **语法:**创建哈希表
 
-```
+```java
 Hashtable<K, V> ht = new Hashtable<K, V>();
 ```
 
@@ -33,7 +33,7 @@ Hashtable<K, V> ht = new Hashtable<K, V>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to read elements
 // using enumeration in hashtable
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Value of Name is: Bahubali
 Value of College is: Amarnath
 Value of Department is: Vedics

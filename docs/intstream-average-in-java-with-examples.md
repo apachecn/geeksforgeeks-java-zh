@@ -6,7 +6,7 @@ Java 8 中的 java.util.stream.IntStream 处理原语 int。它有助于以一�
 
 **语法:**
 
-```
+```java
 OptionalDouble average()
 
 Where, OptionalDouble is a container object 
@@ -19,7 +19,7 @@ which may or may not contain a double value.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for IntStream average()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -53,7 +53,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 5.0
 ```
 
@@ -61,7 +61,7 @@ class GFG {
 
 ## 爪哇
 
-```
+```java
 // Implementation of IntStream average()
 import java.util.*;
 import java.util.stream.IntStream;
@@ -95,6 +95,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 4.857142857142857
 ```

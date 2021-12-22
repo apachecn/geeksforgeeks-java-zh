@@ -6,7 +6,7 @@ Java 中 **ConcurrentHashMap** 的 **entrySet()** 方法用于从并发哈希映
 
 **语法:**
 
-```
+```java
 ConcurrentHashMap.entrySet()
 ```
 
@@ -18,7 +18,7 @@ ConcurrentHashMap.entrySet()
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 
 import java.util.*;
@@ -50,7 +50,7 @@ public class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
 The set is: [20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4]
 
@@ -58,7 +58,7 @@ The set is: [20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 
 import java.util.*;
@@ -90,7 +90,7 @@ public class ConcurrentHashMapDemo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, You=30, Welcomes=25}
 The set is: [4=15, Geeks=20, You=30, Welcomes=25]
 

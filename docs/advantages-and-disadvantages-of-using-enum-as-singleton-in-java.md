@@ -12,7 +12,7 @@
 
 在 Java 中单独使用枚举:默认情况下，创建枚举实例是线程安全的，但是任何其他枚举方法都是程序员的责任。
 
-```
+```java
 public enum EasySingleton{
   INSTANCE;
 }
@@ -24,7 +24,7 @@ public enum EasySingleton{
 
 传统 Singleton 的另一个问题是，一旦实现了可序列化的接口，它们就不再是 Singleton 了，因为方法 readObject()总是返回一个新的实例，就像 Java 构造函数一样。通过使用 readResolve()方法并丢弃新创建的实例，可以通过替换 Singleton 来避免这种情况，如下例所示:
 
-```
+```java
  private Object readResolve(){
       return INSTANCE;
   }
@@ -40,7 +40,7 @@ public enum EasySingleton{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the example 
 // of using Enum as Singleton
 
@@ -70,7 +70,7 @@ enum SingletonEnum {
 
 **Output**
 
-```
+```java
 0
 2
 

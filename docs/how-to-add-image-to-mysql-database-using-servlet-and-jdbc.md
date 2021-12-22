@@ -18,7 +18,7 @@
 
 3.  **步骤 3:** 现在，我们需要创建一个主页，该主页将呈现一个用户可以上传图像文件的表单。我们可以在*网络内容*文件夹中创建一个 JSP 和 HTML 文件。例如，我们将创建**AddFile.jsp**。我们还需要更新 web.xml 文件，以更新其欢迎文件列表。我们必须在欢迎文件列表中添加 AddFile.jsp。
 
-    ```
+    ```java
     <welcome-file-list>
         <welcome-file>AddFile.jsp</welcome-file>
     </welcome-file-list>
@@ -26,7 +26,7 @@
 
 4.  **第四步:**现在，我们需要添加上面创建的**AddFile.jsp**的代码。该文件的代码如下:
 
-    ```
+    ```java
     <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
         pageEncoding="ISO-8859-1"%>
     <!DOCTYPE html>
@@ -59,7 +59,7 @@
 
 5.  **步骤 5:** 现在，我们将创建一个类，该类将用于使用 JDBC 建立与 MySql 数据库的连接，并且可以在将来的任何时候使用该连接来反映数据库上的任何内容。例如，我们将创建“MyConnection.java”类和“getConnection()”静态方法来获得如下连接:
 
-    ```
+    ```java
     import java.sql.*;
 
     public class MyConnection {
@@ -125,7 +125,7 @@
 
 7.  **Step 7:** Now, we will create a Servlet which will take the request from the webpage and perform all the business logic and store the contents in MySql Database. For Instance, we will name it as “serv.java”. The following is the code in this servlet:
 
-    ```
+    ```java
     // Java program to implement
     // the servlet
     package controllers;

@@ -11,7 +11,7 @@
 
 **语法:**匿名类表达式的语法类似于构造函数的调用，只是代码块中包含一个类定义。
 
-```
+```java
 // Test can be interface,abstract/concrete class
 Test t = new Test() 
 {
@@ -28,13 +28,13 @@ Test t = new Test()
 
 **1。**通过调用类的构造函数。
 
-```
+```java
 GFG gfg = new GFG();
 ```
 
 **2。**通过使用匿名类。
 
-```
+```java
 GFG gfg = new GFG(){
     // An anonymous class that extends GFG class
 }
@@ -53,7 +53,7 @@ GFG gfg = new GFG(){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check if a class is an anonymous class
 // using isAnonymous() method
 import java.io.*;
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Is obj a anonymous class? :false
 Is object an anonymous class? :true
 ```
@@ -107,7 +107,7 @@ Is object an anonymous class? :true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check if the class is 
 // anonymous or not using getSimpleName() method
 
@@ -153,7 +153,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Is obj an anonymous class object? :false
 Is object an anonymous class object? :true
 ```

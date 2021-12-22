@@ -14,7 +14,7 @@
 
 1.  将支持库添加到您的根 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中(不是您的模块 build.gradle 文件)。这个库 **jitpack** 是一个新颖的包库。它是为 JVM 而做的，因此 [github](https://www.geeksforgeeks.org/ultimate-guide-git-github/) 和 [bigbucket](https://www.geeksforgeeks.org/bitbucket-vs-github-vs-gitlab/) 中存在的任何库都可以直接在应用程序中使用。
 
-    ```
+    ```java
     allprojects {
         repositories {
             maven {
@@ -26,7 +26,7 @@
 
 2.  在依赖项部分添加以下依赖项。这是一个简单的安卓编辑文本，支持自定义掩码。Mask edittext 直接导入，并根据用途进行自定义。
 
-    ```
+    ```java
     dependencies {
         implementation 'ru.egslava:MaskedEditText:1.0.5'
     }
@@ -36,7 +36,7 @@
 
     ## 【activity _ main . XML】
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -99,7 +99,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.gfgMaskEditText;
 
     import androidx.appcompat.app.AppCompatActivity;

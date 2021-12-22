@@ -16,7 +16,7 @@ PdfWritter 类属于 com.itextpdf.kernel.pdf 包**。**我们可以说这个类�
 
 **语法**
 
-```
+```java
 String path = "C:/JavaExamples/example.pdf";
 PdfWriter writer = new PdfWriter(path);
 ```
@@ -27,7 +27,7 @@ PdfDocument 类属于包**com.itextpdf.kernel.pdf**。此类代表 **PDF 文档*
 
 **语法**
 
-```
+```java
 //writer is the PdfWriter object
 PdfDocument pdf = new PdfDocument(writer);
 ```
@@ -38,7 +38,7 @@ PdfDocument pdf = new PdfDocument(writer);
 
 **创建文档对象的语法:**
 
-```
+```java
 //pdf is the PdfDocument object
 Document doc = new Document(pdf);
 ```
@@ -47,7 +47,7 @@ Document doc = new Document(pdf);
 
 使用**文档**类的 **close()** 方法关闭文档，如下所示。
 
-```
+```java
 // Closing the document 
 doc.close();
 ```
@@ -56,7 +56,7 @@ doc.close();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // let us import all required packages
 
 import com.itextpdf.kernel.pdf.PdfDocument;
@@ -98,7 +98,7 @@ public class Pdf {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public char previous()
 
 ```
@@ -19,7 +19,7 @@ public char previous()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -49,7 +49,7 @@ public class CharacterIteratorDemo {
 
 **输出:**
 
-```
+```java
 Current character: e
 Previous character: G
 

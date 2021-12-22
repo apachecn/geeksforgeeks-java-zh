@@ -13,7 +13,7 @@
 
 如果我们想使用 stream 的概念，那么 stream()就是要使用的方法。流可用作接口。
 
-```
+```java
 Stream s = c.stream();
 ```
 
@@ -52,7 +52,7 @@ Stream s = c.stream();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate FILTER & COLLECT Operations
 
 // Importing input output classes
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Printing the collection : [2, 6, 9, 4, 20]
 
 Printing the List after stream operation : [2, 6, 4, 20]
@@ -139,7 +139,7 @@ Printing the List after stream operation : [2, 6, 4, 20]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Intermediate Operations
 // in Streams
 
@@ -192,7 +192,7 @@ class Test {
 
 **Output**
 
-```
+```java
 Marks of students before grace : [30, 78, 26, 96, 79]
 Marks of students  after grace : [36, 84, 32, 102, 85]
 ```
@@ -218,7 +218,7 @@ Marks of students  after grace : [36, 84, 32, 102, 85]
 
 上面提供的图像是以如下流的形式实现的:
 
-```
+```java
 List<Integer> transactionsIds = 
     transactions.stream()
                 .filter(t -> t.getType() == Transaction.GROCERY)

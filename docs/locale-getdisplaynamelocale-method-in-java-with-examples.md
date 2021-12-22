@@ -6,7 +6,7 @@ Java 中 **[Locale 类](https://www.geeksforgeeks.org/java-util-locale-class-jav
 
 **语法:**
 
-```
+```java
 public String getDisplayName(Locale *inLoc*)
 ```
 
@@ -19,7 +19,7 @@ public String getDisplayName(Locale *inLoc*)
 以下程序说明了 getDisplayName()方法的工作方式:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate getDisplayName() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class Locale_Demo {
 
 **Output:**
 
-```
+```java
 First Locale: en_IN
 Language: anglais (Inde)
 
@@ -55,7 +55,7 @@ Language: anglais (Inde)
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate getDisplayName() method
 
 import java.util.*;
@@ -83,7 +83,7 @@ public class Locale_Demo {
 
 **Output:**
 
-```
+```java
 First Locale: en_US
 Language: English (United States)
 

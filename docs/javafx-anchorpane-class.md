@@ -26,7 +26,7 @@ AnchorPane 类是 JavaFX 的一部分。锚定窗格允许子节点的边缘锚�
 
 1.  **Java Program to create a AnchorPane and add label to it and add label to the stage:** In this program we will create a AnchorPane named *anchor_pane*. Add a Label named *label* to the anchor_pane and set the top, bottom, left, right using the *setTopAnchor()*, *setBottomAnchor()*, *setLeftAnchor()*, *setRightAnchor()* functions respectively. Now add the anchor_pane to the Scene. Then finally add the scene to the stage and call the *show()* function to display the results.
 
-    ```
+    ```java
     // Java Program to create a AnchorPane and
     // add label to it and add label to the 
     // stage
@@ -96,7 +96,7 @@ AnchorPane 类是 JavaFX 的一部分。锚定窗格允许子节点的边缘锚�
 
 2.  **Java Program to create a AnchorPane, adding label and button to it and also setting the min height and width of AnchorPane then add it to the stage:** In this program we will create a AnchorPane named *anchor_pane*. Add a Label named *label* to the *anchor_pane*. Also add a Button named *button* and set the top, bottom, left, right anchor using the *setTopAnchor()*, *setBottomAnchor()*, *setLeftAnchor()*, *setRightAnchor()* functions respectively. Set the min height and width using the *setMinHeight()* and *setMinWidth()* function. Add the *anchor_pane* to the Scene. Finally, add the scene to the stage and call the show() function to display the results.
 
-    ```
+    ```java
     // Java Program to create a AnchorPane, adding
     // label and button to it and also setting the 
     // min height and width of AnchorPane then add

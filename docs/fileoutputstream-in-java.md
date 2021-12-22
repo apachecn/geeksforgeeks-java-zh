@@ -40,7 +40,7 @@
 
 **申报:**
 
-```
+```java
 public class FileOutputStream extends OutputStream 
 ```
 
@@ -48,19 +48,19 @@ public class FileOutputStream extends OutputStream
 
 *   首先，将文件路径附加到文件输出流，如下所示:
 
-```
+```java
 FileOutputStream  fout = new FileOutputStream(“file1.txt”);
 ```
 
 *   这将使我们能够将数据写入文件。然后，要将数据写入文件，我们应该使用 FileOutputStream 作为，
 
-```
+```java
 fout.write();
 ```
 
 *   然后我们应该调用 close()方法来关闭 fout 文件。
 
-```
+```java
 fout.close()
 ```
 
@@ -70,7 +70,7 @@ fout.close()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to use FileOutputStream object for writing
 // data
 
@@ -129,7 +129,7 @@ class FileExample {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to write data to file
 
 import java.io.FileOutputStream;
@@ -164,7 +164,7 @@ public class Main {
 }
 ```
 
-```
+```java
 When we run the program, the "Welcome to GfG" line is copied to output.txt file.
 ```
 
@@ -176,7 +176,7 @@ When we run the program, the "Welcome to GfG" line is copied to output.txt file.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to show the usage of flush() method
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -206,7 +206,7 @@ public class Main {
 }
 ```
 
-```
+```java
 If, we run the program, the file flush.txt is filled with the text of the string"Welcome to GfG"
 ```
 

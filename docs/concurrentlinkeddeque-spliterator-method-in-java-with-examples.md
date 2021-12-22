@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Spliterator spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator spliterator()
 
 **程序 1:**
 
-```
+```java
 // Java Program to demonstrate spliterator()
 // method of ConcurrentLinkedDeque
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Size of Spliterator : 9223372036854775807
 list of Numbers:
 22
@@ -69,7 +69,7 @@ list of Numbers:
 
 **程序 2:**
 
-```
+```java
 // Java Program to demonstrate spliterator()
 // method of ConcurrentLinkedDeque
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Size of Spliterator : 9223372036854775807
 list of Strings:
 Geeks

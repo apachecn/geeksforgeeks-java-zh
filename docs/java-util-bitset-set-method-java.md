@@ -6,7 +6,7 @@ set()方法有**四个**变体。本文描述了所有这些，如下所示:
 
 **1。set(int Index) :** 此方法将指定索引处的位设置为 true，即添加一个值。
 
-```
+```java
 Declaration : 
 public void set(int bitIndex)
 Parameters : 
@@ -18,7 +18,7 @@ Exception :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of set() in BitSet
 import java.util.*;
@@ -40,14 +40,14 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The constructed bitset is : {3, 5}
 
 ```
 
 **2。set(int num，布尔值):**此方法将指定索引处的位设置为指定值，如果布尔值为 true，则添加值，否则不添加。
 
-```
+```java
 Declaration : 
   public void set(int num, boolean value)
 Parameters : 
@@ -58,7 +58,7 @@ Return Value
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of set(num, value) in BitSet
 import java.util.*;
@@ -85,14 +85,14 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The constructed bitset is : {3, 7}
 
 ```
 
 **3。set(int fromnum，int tonum) :** 此方法将从指定 fromnum(包括)到指定 tonum(不包括)的位设置为 true，即**将 fromnum 的值与 tonum-1** 相加。
 
-```
+```java
 Declaration : 
    public void set(int fromnum, int tonum)
 Parameters : 
@@ -103,7 +103,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of set(fromnum, tonum) in BitSet
 import java.util.*;
@@ -125,14 +125,14 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The constructed bitset is : {3, 4, 5, 6, 7, 8}
 
 ```
 
 **4。set(int fromnum，int tonum，布尔值):**此方法将指定 fromnum(包括)到指定 tonum(不包括)的位设置为指定值，即插入 fromnum 到 tonum-1 **如果传递的布尔值为真，否则不插入**。
 
-```
+```java
 Declaration : 
   public void set(int fromnum, int tonum, boolean value)
 Parameters : 
@@ -144,7 +144,7 @@ Return Value :
 
 ```
 
-```
+```java
 // Java code to demonstrate the working
 // of set(fromnum, tonum, value) in BitSet
 import java.util.*;
@@ -170,7 +170,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 The constructed bitset is : {5, 6, 7, 8, 9, 10}
 
 ```

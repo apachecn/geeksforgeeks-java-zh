@@ -16,7 +16,7 @@ HashSet 的几个**重要特性**是:
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Implement HashSet API
 
 import java.util.Collection;
@@ -202,7 +202,7 @@ class Solution {
 
 ****Output**
 
-```
+```java
 element Mani added
 element Rohit added
 element Manish added

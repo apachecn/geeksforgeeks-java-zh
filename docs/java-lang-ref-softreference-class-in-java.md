@@ -33,7 +33,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the demonstration
 // of get() method of SoftReference Class
 
@@ -70,7 +70,7 @@ class MyClass {
 
 **Output**
 
-```
+```java
 -> Calling Display Function using strong object:
 Display Function invoked ...
 -> Object set to null
@@ -82,7 +82,7 @@ Display Function invoked ...
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrating all the methods
 // of SoftRefernce Class
 
@@ -116,7 +116,7 @@ class X {
 
 **Output**
 
-```
+```java
 -> Retrieving object from Soft Reference using get ()
 show () from X invoked..
 -> Is it possible to queue object using enqueue ()

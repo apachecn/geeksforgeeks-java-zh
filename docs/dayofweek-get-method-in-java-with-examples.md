@@ -6,13 +6,13 @@
 
 **方法声明:**
 
-```
+```java
 public int get(TemporalField field);
 ```
 
 **语法:**
 
-```
+```java
 int val = DayOfWeekObject.get(TemporalField field);
 
 ```
@@ -28,7 +28,7 @@ int val = DayOfWeekObject.get(TemporalField field);
     以下程序说明了上述方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java Program Demonstrate get()
     // method of DayOfWeek
 
@@ -66,7 +66,7 @@ int val = DayOfWeekObject.get(TemporalField field);
 
     **Output:**
 
-    ```
+    ```java
     Day of the Week on 1947-08-15 - FRIDAY
     Int Value of FRIDAY - 5
 
@@ -74,7 +74,7 @@ int val = DayOfWeekObject.get(TemporalField field);
 
     **程序 2:**
 
-    ```
+    ```java
     // Java Program Demonstrate get()
     // method of DayOfWeek
     import java.time.*;
@@ -111,7 +111,7 @@ int val = DayOfWeekObject.get(TemporalField field);
 
     **Output:**
 
-    ```
+    ```java
     Day of the Week on 2015-07-13 - MONDAY
     Int Value of MONDAY - 1
 

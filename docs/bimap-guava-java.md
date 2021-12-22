@@ -6,7 +6,7 @@ bimap 即 ***双向地图*** 是一种既保留其值的唯一性又保留其键
 
 **申报:**申报为**com . Google . common . collect . bimap<**K，V**T7**界面如下:
 
-```
+```java
 @GwtCompatible
 public interface BiMap<K, V>
 extends Map<K, V>
@@ -25,7 +25,7 @@ extends Map<K, V>
 
 下面给出的是番石榴 BiMap 接口的实现:
 
-```
+```java
 // Java code to show implementation for
 // Guava BiMap interface
 import com.google.common.collect.BiMap;
@@ -61,7 +61,7 @@ class GFG {
 
 输出:
 
-```
+```java
 6
 9
 

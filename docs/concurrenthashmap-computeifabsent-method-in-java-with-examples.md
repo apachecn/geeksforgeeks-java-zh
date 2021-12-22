@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public V 
        computeIfAbsent(K key,
              Function<? super K, ? extends V> remappingFunction)
@@ -34,7 +34,7 @@ public V
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // computeIfAbsent(Key, Function) method.
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ConcurrentHashMap :
  {Laptop=55000, Clothes=4400, Pencil=1000, Mobile=5300}
 new ConcurrentHashMap :
@@ -84,7 +84,7 @@ new ConcurrentHashMap :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // computeIfAbsent(Key, Function) method.
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ConcurrentHashMap : 
 {1=1000RS, 2=5009RS, 3=1300RS}
 new ConcurrentHashMap :
@@ -136,7 +136,7 @@ new ConcurrentHashMap :
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate NullPointerException of
 // computeIfAbsent(Key, Function) method.
 
@@ -175,7 +175,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception: java.lang.NullPointerException
 ```
 

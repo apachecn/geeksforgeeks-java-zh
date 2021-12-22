@@ -16,7 +16,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--Button for showing the list of added courses-->
 <Button
   android:id="@+id/idBtnViewCourses"
@@ -31,7 +31,7 @@
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -108,7 +108,7 @@
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"

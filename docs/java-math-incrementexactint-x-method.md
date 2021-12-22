@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int incrementExact(int x)
 Parameter :
 x : the value to be incremented
@@ -19,7 +19,7 @@ It throws ArithmeticException - if the result overflows an int
 
 **示例:**展示**Java . lang . math . incrementexact()**方法的工作。
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.incrementExact() method
 import java.lang.Math;
@@ -41,7 +41,7 @@ class Gfg1 {
 
 **输出:**
 
-```
+```java
 1
 2
 3
@@ -50,7 +50,7 @@ class Gfg1 {
 
 ```
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.Math.incrementExact() method
 import java.lang.Math;
@@ -69,7 +69,7 @@ class Gfg2 {
 
 **输出:**
 
-```
+```java
 Runtime Error :
 Exception in thread "main" java.lang.ArithmeticException: integer overflow
     at java.lang.Math.incrementExact(Math.java:909)

@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public int read()
 
     ```
@@ -24,7 +24,7 @@
 
     **程序:**假设存在文件“c:/demo.txt”。
 
-    ```
+    ```java
     // Java program to illustrate
     // BufferedInputStream read() method
 
@@ -72,7 +72,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public int read(byte[] b,
                     int off,
                     int len)
@@ -96,7 +96,7 @@
 
     **程序:**假设存在文件“c:/demo.txt”。
 
-    ```
+    ```java
     // Java program to illustrate
     // BufferedInputStream
     // read(byte int int) method

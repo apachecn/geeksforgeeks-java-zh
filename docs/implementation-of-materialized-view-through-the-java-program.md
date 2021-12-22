@@ -9,7 +9,7 @@
 
 假设如果在主表中发生了任何插入，那么物化视图也会得到更新。在下面的程序中，我们试图展示物化视图是如何工作的。每个数据库软件的实际实现可能不同。
 
-```
+```java
 // Java Program to implementat
 // Materialized view
 import java.sql.Connection;
@@ -162,7 +162,7 @@ public class Materialised_View {
 
 输出:
 
-```
+```java
 Student Table is Created as Follows:
 ***********Student**************
 sid    sname    address

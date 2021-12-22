@@ -6,7 +6,7 @@
 
 **功能签名:**
 
-```
+```java
 public int deflate(byte[] b)
 public int deflate(byte[] b, int offset, int length, int flush)
 public int deflate(byte[] b, int offset, int length)
@@ -15,7 +15,7 @@ public int deflate(byte[] b, int offset, int length)
 
 **语法:**
 
-```
+```java
 d.deflate(byte[])
 d.deflate(byte[], int, int, int)
 d.deflate(byte[], int, int )
@@ -37,7 +37,7 @@ d.deflate(byte[], int, int )
 
 **示例 1:** 演示 deflate(字节[] b)函数的使用
 
-```
+```java
 // Java program to demonstrate
 // the use of deflate(byte[] b) function
 
@@ -88,7 +88,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Compressed String :x?sOM?.N?/r???q??
  Size 21
 Original String :GeeksforGeeksGeeksforGeeksGeeksforGeeksGeeksforGeeks
@@ -100,7 +100,7 @@ Original String :GeeksforGeeksGeeksforGeeksGeeksforGeeksGeeksforGeeks
 
 **示例 2:** 演示 deflate(字节[] b，int 偏移量，int 长度)函数的使用
 
-```
+```java
 // Java program to demonstrate the use
 // of deflate(byte[] b, int offset, int length) function
 
@@ -152,7 +152,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Compressed String :x?sOM?.N?/r?
  Size 13
 Original String :GeeksforGeeksGeeksforGeeksGeeksforGeeksGeeksforGeeks
@@ -164,7 +164,7 @@ Original String :GeeksforGeeksGeeksforGeeksGeeksforGeeksGeeksforGeeks
 
 **示例 3:** 演示 deflate(byte[] b，int offset，int length，int flush)函数的使用
 
-```
+```java
 // Java program to demonstrate the use of
 // deflate(byte[] b, int offset, int length, int flush) function
 
@@ -216,7 +216,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Compressed String :x?sOM?.N?/r?
  Size 13
 Original String :GeeksforGeeksGeeksforGeeksGeeksforGeeksGeeksforGeeks

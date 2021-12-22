@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean addLogger(Logger logger)
 
 ```
@@ -19,7 +19,7 @@ public boolean addLogger(Logger logger)
 
 下面程序举例说明 addLogger()方法:
 
-```
+```java
 // Java program to illustrate
 // LogManager addLogger() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Earlier List of Logger Names: 
 global
 

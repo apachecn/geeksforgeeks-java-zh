@@ -6,7 +6,7 @@ java 中的 Java . util . identity hashmap . KeySet()方法用于创建哈希映
 
 **语法:**
 
-```
+```java
 Identity_Hash_Map.keySet()
 ```
 
@@ -17,7 +17,7 @@ Identity_Hash_Map.keySet()
 下面的程序用来说明 Java . util . identity hashmap . keyset()方法:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the keySet() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 The set is: [30, 15, 10, 25, 20]
 
@@ -54,7 +54,7 @@ The set is: [30, 15, 10, 25, 20]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the keySet() method
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class Identity_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 The set is: [Welcomes, 4, You, Geeks]
 

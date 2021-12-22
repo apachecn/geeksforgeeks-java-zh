@@ -20,7 +20,7 @@ UnsupportedOperationException 是我们在使用一些列表实现的应用编�
 
 **语法:**
 
-```
+```java
 public class UnsupportedOperationException
 extends RuntimeException
 ```
@@ -31,7 +31,7 @@ extends RuntimeException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Arrays;
 import java.util.List;
 
@@ -51,7 +51,7 @@ public class Example {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.UnsupportedOperationException
     at java.base/java.util.AbstractList.add(AbstractList.java:153)
     at java.base/java.util.AbstractList.add(AbstractList.java:111)
@@ -62,7 +62,7 @@ Exception in thread "main" java.lang.UnsupportedOperationException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 import java.util.*;
@@ -88,7 +88,7 @@ public class Example {
 
 **Output**
 
-```
+```java
 Apple
 Banana
 Mango

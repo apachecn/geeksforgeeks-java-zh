@@ -17,7 +17,7 @@
 
 ## 【Java】
 
-```
+```java
 // Java program to get the creation time of a file
 import java.io.File;
 import java.io.IOException;

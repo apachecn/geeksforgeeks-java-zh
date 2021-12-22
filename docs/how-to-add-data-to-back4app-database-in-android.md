@@ -31,7 +31,7 @@ Back4App 是一个在线数据库提供平台，为我们提供服务，让我�
 
 ## 可扩展标记语言
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
@@ -41,7 +41,7 @@ Back4App 是一个在线数据库提供平台，为我们提供服务，让我�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -105,7 +105,7 @@ Back4App 是一个在线数据库提供平台，为我们提供服务，让我�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;

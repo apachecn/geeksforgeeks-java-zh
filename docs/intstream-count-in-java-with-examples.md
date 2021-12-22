@@ -5,14 +5,14 @@
 **IntStream count()** 返回流中元素的计数。IntStream count()在 java.util.stream.IntStream 中存在
 T3】语法:
 
-```
+```java
 long count()
 
 ```
 
 **例 1 :** 统计 IntStream 中的元素。
 
-```
+```java
 // Java code for IntStream count()
 // to count the number of elements in
 // given stream
@@ -40,14 +40,14 @@ class GFG {
 
 输出:
 
-```
+```java
 7
 
 ```
 
 **例 2 :** 统计给定范围内的元素。
 
-```
+```java
 // Java code for IntStream count()
 // to count the number of elements in
 // given range excluding the last element
@@ -75,14 +75,14 @@ class GFG {
 
 输出:
 
-```
+```java
 48
 
 ```
 
 **示例 3 :** 计算 IntStream 中的不同元素。
 
-```
+```java
 // Java code for IntStream count()
 // to count the number of distinct
 // elements in given stream
@@ -110,7 +110,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5
 
 ```

@@ -16,7 +16,7 @@ LongUnaryOperator 界面由以下功能组成:
 
 **语法:**
 
-```
+```java
 static  LongUnaryOperator identity()
 ```
 
@@ -26,7 +26,7 @@ static  LongUnaryOperator identity()
 
 下面是说明 identity()方法的代码:
 
-```
+```java
 import java.util.function.LongUnaryOperator;
 
 public class GFG {
@@ -43,7 +43,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 12
 
 ```
@@ -54,7 +54,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 long applyAsLong(long operand)
 ```
 
@@ -66,7 +66,7 @@ long applyAsLong(long operand)
 
 **程序**
 
-```
+```java
 import java.util.function.LongUnaryOperator;
 
 public class GFG {
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 24
 
 ```
@@ -95,7 +95,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 default LongUnaryOperator andThen(LongUnaryOperator after)
 ```
 
@@ -109,7 +109,7 @@ default LongUnaryOperator andThen(LongUnaryOperator after)
 
 **程序 1:**
 
-```
+```java
 import java.util.function.LongUnaryOperator;
 
 public class GFG {
@@ -127,14 +127,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 72
 
 ```
 
 **程序 2:** 演示何时返回 NullPointerException。
 
-```
+```java
 import java.util.function.LongUnaryOperator;
 
 public class GFG {
@@ -159,7 +159,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```
@@ -170,7 +170,7 @@ Exception: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 default LongUnaryOperator compose(LongUnaryOperator before)
 ```
 
@@ -184,7 +184,7 @@ default LongUnaryOperator compose(LongUnaryOperator before)
 
 **程序 1:**
 
-```
+```java
 import java.util.function.LongUnaryOperator;
 
 public class GFG {
@@ -202,14 +202,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 24
 
 ```
 
 **程序 2:** 演示何时返回 NullPointerException。
 
-```
+```java
 import java.util.function.LongUnaryOperator;
 
 public class GFG {
@@ -234,7 +234,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

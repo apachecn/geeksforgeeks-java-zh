@@ -13,7 +13,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources> 
     <!---Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"> 
@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.support.v7.app.AppCompatActivity; 
 import android.view.View; 
 import android.os.Bundle;
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity { 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.support.v7.app.AppCompatActivity; 
 import android.view.View; 
 import android.os.Bundle; 
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity { 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?> 
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"

@@ -6,7 +6,7 @@ Java 中的**抽象队列**类是 [Java 集合框架](https://www.geeksforgeeks.
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
  ↳ java.util.AbstractCollection<E>
     ↳ Class AbstractQueue<E>
@@ -29,7 +29,7 @@ java.lang.Object
 
 **受保护的抽象队列()**:默认构造函数，但由于抽象，不允许创建抽象队列对象。实现应该由它的一个子类提供，如 [ArrayBlockingQueue](https://www.geeksforgeeks.org/arrayblockingqueue-class-in-java/#:~:text=ArrayBlockingQueue%20class%20is%20a%20bounded,result%20in%20the%20operation%20blocking.) 、 [ConcurrentLinkedQueue](https://www.geeksforgeeks.org/concurrentlinkedqueue-in-java-with-examples/) 、 [DelayQueue](https://www.geeksforgeeks.org/delayqueue-class-in-java-with-example/#:~:text=DelayQueue%20is%20a%20specialized%20Priority,queue%20whose%20time%20has%20expired.) 、[LinkedBlockingQueue](https://www.geeksforgeeks.org/linkedblockingdeque-in-java-with-examples/)、 [LinkedBlockingQueue](https://www.geeksforgeeks.org/linkedblockingqueue-class-in-java/#:~:text=LinkedBlockingQueue%20is%20an%20optionally%2Dbounded,the%20LinkedBlockingQueue%20will%20be%20unbounded.&text=It%20means%20that%20the%20head,elements%20present%20in%20this%20queue.) 、 [LinkedTransferQueue](https://www.geeksforgeeks.org/linkedtransferqueue-in-java-with-examples/#:~:text=The%20LinkedTransferQueue%20class%20in%20Java,functionality%20based%20on%20linked%20nodes.) 、 [PriorityBlockingQueue](https://www.geeksforgeeks.org/priorityblockingqueue-class-in-java/#:~:text=PriorityBlockingQueue%20is%20an%20unbounded%20blocking,resource%20exhaustion%20resulting%20in%20OutOfMemoryError.) 、 [PriorityQueue](https://www.geeksforgeeks.org/priority-queue-class-in-java-2/) 、**synchrousqueue**
 
-```
+```java
 AbstractQueue<E> objName = new ArrayBlockingQueue<E>();
 
 ```
@@ -38,7 +38,7 @@ AbstractQueue<E> objName = new ArrayBlockingQueue<E>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate AbstractQueue
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class AbstractQueueExample {
 
 **Output:** 
 
-```
+```java
 AbstractQueue contains: [10, 20, 30, 40, 50]
 ```
 
@@ -78,7 +78,7 @@ AbstractQueue contains: [10, 20, 30, 40, 50]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // adding elements to the AbstractQueue
 
@@ -121,7 +121,7 @@ public class AddingElementsExample {
 
 **Output**
 
-```
+```java
 AbstractQueue contains : [10, 20, 30, 40, 50]
 AbstractQueue2 initially contains : []
 AbstractQueue1 after addition contains : [10, 20, 30, 40, 50]
@@ -136,7 +136,7 @@ AbstractQueue1 after addition contains : [10, 20, 30, 40, 50]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // removal of elements from AbstractQueue
 
@@ -180,7 +180,7 @@ public class RemovingElementsExample {
 
 **Output**
 
-```
+```java
 AbstractQueue1 contains : [10, 20, 30, 40, 50]
 head : 10
 AbstractQueue1 after removal of head : [20, 30, 40, 50]
@@ -193,7 +193,7 @@ AbstractQueue1 : []
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // accessing element from AbstractQueue
 
@@ -226,7 +226,7 @@ public class AccessingElementExample {
 
 **Output**
 
-```
+```java
 AbstractQueue1 contains : [10, 20, 30, 40, 50]
 head : 10
 ```

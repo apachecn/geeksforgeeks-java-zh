@@ -41,7 +41,7 @@
 **Q2。为什么 java 中的主方法是静态的？**
 方法是静态的，因为否则会有歧义:应该调用哪个构造函数？尤其是你的班级长这样的话:
 
-```
+```java
 public class JavaClass
 {
   protected JavaClass(int x)
@@ -101,7 +101,7 @@ JVM 应该调用新的 JavaClass(int)吗？它应该传递给 x 什么？如果�
 **Q9。什么是** [**物体克隆**](https://www.geeksforgeeks.org/cloning-in-java/) **？**
 对象克隆是指创建原始对象的精确副本。如果一个类需要支持克隆，它必须实现 java.lang.Cloneable 接口，并从 Object 类重写 clone()方法。clone()方法的语法是:
 
-```
+```java
 protected Object clone() throws CloneNotSupportedException
 ```
 
@@ -132,14 +132,14 @@ protected Object clone() throws CloneNotSupportedException
 **Q13。什么是** [**空白最终变量**](https://www.geeksforgeeks.org/blank-final-in-java/) **？**
 Java 中的一个最终变量只能赋值一次，我们可以在声明中赋值，也可以稍后赋值。
 
-```
+```java
     final int i = 10;
     i = 30; // Error because i is final.
 ```
 
 Java 中的一个**空白最终**变量是一个[最终](https://www.geeksforgeeks.org/g-fact-48/)变量，在声明过程中没有初始化。下面是一个简单的空白期末的例子。
 
-```
+```java
     // A simple blank final example 
     final int i;
     i = 30;

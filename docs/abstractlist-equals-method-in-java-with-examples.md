@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object o)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 // for String value
@@ -80,7 +80,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 First ArrayListlist : [A, B, C, D, E]
 Second ArrayList : [A, B, C, D, E]
 Are both list equal : true
@@ -89,7 +89,7 @@ Are both list equal : true
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 // for Integer value
@@ -149,7 +149,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 First ArrayListlist : [10, 20, 30, 40, 50]
 Second ArrayList : [10, 20, 30]
 Are both list equal : false

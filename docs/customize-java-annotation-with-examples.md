@@ -16,14 +16,14 @@ Java 注释是一种向我们的源代码(程序)添加元数据信息的机制�
 
 创建自定义注释的第一步是**使用@interface 关键字:**声明它
 
-```
+```java
 public @interface GFG {
 }
 ```
 
 下一步是**指定我们自定义标注的范围和目标:**
 
-```
+```java
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.Type)
 public @interface GFG {
@@ -36,7 +36,7 @@ public @interface GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
 public @interface GFGElement {
@@ -50,7 +50,7 @@ public @interface GFGElement {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface Init {
@@ -61,7 +61,7 @@ public @interface Init {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.admfactory.annotation;
 
 import java.lang.annotation.Documented;
@@ -90,7 +90,7 @@ public @interface DBField {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.admfactory.annotation;
 
 import java.util.Date;
@@ -147,7 +147,7 @@ public class User {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.admfactory.annotation;
 
 import java.lang.reflect.Field;
@@ -184,7 +184,7 @@ public class AnnotationExample {
 
 **输出:**
 
-```
+```java
 Java Custom Annotation Example
 
 field name: id

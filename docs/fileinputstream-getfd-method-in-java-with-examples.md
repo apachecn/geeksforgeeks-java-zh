@@ -10,7 +10,7 @@
 
 ******语法:******
 
-```
+```java
 **public final FileDescriptor getFD() throws IOException**
 ```
 
@@ -22,13 +22,13 @@
 
 ******步骤 1:** 首先，我们必须创建一个 Java.io.FileInputStream 类的实例****
 
-```
+```java
 **FileInputStream  fileInputStream =new FileInputStream("tmp.txt");**
 ```
 
 ******第 2 步:**要获取与这个 fileInputStream 关联的 FileDescriptor 的实例，我们将调用 getFD()方法****
 
-```
+```java
 **FileDescriptor fileDescriptor =fileInputStream.getFD();**
 ```
 
@@ -41,7 +41,7 @@
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program to get an instance
 // of FileDescriptor and then to
 // check it is valid or not
@@ -89,7 +89,7 @@ class GFG {
 
 ******输出:******
 
-```
+```java
 **Is FileDescriptor valid : true**
 ```
 

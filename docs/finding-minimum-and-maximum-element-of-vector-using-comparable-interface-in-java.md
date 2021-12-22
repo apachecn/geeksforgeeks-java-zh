@@ -10,7 +10,7 @@ java 中的 [Vector](https://www.geeksforgeeks.org/java-util-vector-class-java/)
 
 **语法实现可比的< T >接口:**
 
-```
+```java
 class Account implements Comparable<Account>
 ```
 
@@ -18,7 +18,7 @@ class Account implements Comparable<Account>
 
 **覆盖 CompareTo()方法的语法:**
 
-```
+```java
 @Override
 public int compareTo(Account o) {
 
@@ -38,7 +38,7 @@ public int compareTo(Account o) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to find Minimum And Maximum Element of
 // Vector using Comparable Interface in Java?
 import java.util.Collections;
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Nandini has the minimum balance of Rs 50
 Pooja has the maximum balance of Rs 50000
 ```

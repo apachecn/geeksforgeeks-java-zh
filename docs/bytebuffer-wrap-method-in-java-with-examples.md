@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static ByteBuffer wrap(float[] array)
 ```
 
@@ -20,7 +20,7 @@ public static ByteBuffer wrap(float[] array)
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Array length : 3
 
 Array element : [10, 20, 30]
@@ -87,7 +87,7 @@ byteBuffer position:  0
 
 **语法:**
 
-```
+```java
 public static ByteBuffer wrap(byte[] array, 
                           int offset, int length)
 ```
@@ -106,7 +106,7 @@ public static ByteBuffer wrap(byte[] array,
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // wrap() method
 
@@ -154,7 +154,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Array length : 3
 
 Array element : [10, 20, 30]
@@ -169,7 +169,7 @@ byteBuffer position:  0
 
 **示例 2:** 演示 NullPointerException
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -224,7 +224,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Array length : 3
 
 Array element : [10, 20, 30]

@@ -20,7 +20,7 @@
 
 **语法:**
 
-```
+```java
 file_attribute_object.getOwner()
 ```
 
@@ -32,7 +32,7 @@ file_attribute_object.getOwner()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing modules
 import java.io.*;
 import java.nio.file.*;
@@ -64,7 +64,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Owner: DESKTOP-O30NR1H\Aditya_Taparia
 ```
 
@@ -72,7 +72,7 @@ Owner: DESKTOP-O30NR1H\Aditya_Taparia
 
 **输出:**
 
-```
+```java
 gfg.java:16: error: unreported exception IOException; must be caught or declared to be 
 thrown
                 UserPrincipal user = file.getOwner();
@@ -84,7 +84,7 @@ thrown
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing modules
 import java.io.*;
 import java.nio.file.*;

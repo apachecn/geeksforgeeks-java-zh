@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default ChronoZonedDateTime plus(long amountToSubtract,
                            TemporalUnit unit)
 ```
@@ -30,7 +30,7 @@ default ChronoZonedDateTime plus(long amountToSubtract,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // ChronoZonedDateTime.plus() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ChronoZonedDateTime after adding Months:
  2021-06-06T19:21:12.123+05:30[Asia/Calcutta]
 ```

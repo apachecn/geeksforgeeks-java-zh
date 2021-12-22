@@ -6,7 +6,7 @@ Java 中 LocalDate 类的 lengthOfYear()方法返回由该日期表示的年份�
 
 **语法** :
 
-```
+```java
 public int lengthOfYear()
 
 ```
@@ -19,7 +19,7 @@ public int lengthOfYear()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the lengthOfYear() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 365
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the lengthOfYear() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 366
 
 ```

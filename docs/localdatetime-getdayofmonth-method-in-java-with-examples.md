@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getDayOfMonth()
 
 ```
@@ -19,7 +19,7 @@ public int getDayOfMonth()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getDayOfMonth() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 DayOfMonth: 3
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // LocalDateTime.getDayOfMonth() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 DayOfMonth: 28
 
 ```

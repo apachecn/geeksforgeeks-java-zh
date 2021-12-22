@@ -16,20 +16,20 @@ Java 程序用于生成任何期望的年和月的日历，让我们首先通过
 
 **步骤 2:** 按照适当的顺序，创建 2 个数组，一个用于存储天数，另一个用于存储月数。
 
-```
+```java
 String day[]   = { "SUN","MON","TUE","WED","THU","FRI","SAT" } ;  
 String month[] = { "JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER" } ; 
 ```
 
 **第 3 步:**初始化一个计数器变量和三个变量，日、月和年各为 1，以及一个单独的数组，用于存储可以找到月份的不同天数组合。31，30，29
 
-```
+```java
 int ar[] = { 31,29,31,30,31,30,31,31,30,31,30,31 } ;
 ```
 
 **第 4 步:**检查闰年条件，重新初始化上述数组的值。
 
-```
+```java
 if(y%4==0&&y%100!=0||y%100==0)
 ar[1]=29;                       // if the year is a leap year then store 29 for the month of february
 else  
@@ -46,7 +46,7 @@ ar[1]=28;                       // else 28
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Generate Desired Calendar
 // Without calendar.get() function or
 // Inputting the Year and the Month

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 <Class name>::<method name>
 ```
 
@@ -14,13 +14,13 @@
 
 *   Using Lambda expression:
 
-    ```
+    ```java
     stream.forEach( s-> System.out.println(s));
     ```
 
     **程序:**
 
-    ```
+    ```java
     // Java code to print the elements of Stream
     // without using double colon operator
 
@@ -45,7 +45,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     For
     Geeks
@@ -57,13 +57,13 @@
 
 *   Using double colon operator:
 
-    ```
+    ```java
     stream.forEach( System.out::println(s));
     ```
 
     **程序:**演示双冒号运算符的使用
 
-    ```
+    ```java
     // Java code to print the elements of Stream
     // using double colon operator
 
@@ -89,7 +89,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     For
     Geeks
@@ -113,19 +113,19 @@
 
     **语法:**
 
-    ```
+    ```java
     (ClassName::methodName)
     ```
 
     **示例:**
 
-    ```
+    ```java
     SomeClass::someStaticMethod
     ```
 
     **程序:**
 
-    ```
+    ```java
     // Java code to show use of double colon operator
     // for static methods
 
@@ -156,7 +156,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     For
     GEEKS
@@ -167,19 +167,19 @@
 
     **语法:**
 
-    ```
+    ```java
     (objectOfClass::methodName)
     ```
 
     **示例:**
 
-    ```
+    ```java
     System.out::println
     ```
 
     **程序:**
 
-    ```
+    ```java
     // Java code to show use of double colon operator
     // for instance methods
 
@@ -210,7 +210,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Geeks
     For
     GEEKS
@@ -221,19 +221,19 @@
 
     **语法:**
 
-    ```
+    ```java
     (super::methodName)
     ```
 
     **示例:**
 
-    ```
+    ```java
     super::someSuperClassMethod
     ```
 
     **程序:**
 
-    ```
+    ```java
     // Java code to show use of double colon operator
     // for super methods
 
@@ -286,7 +286,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Hello Geeks
     Bye Geeks
 

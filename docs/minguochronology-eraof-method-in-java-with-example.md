@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MinguoEra eraOf(int eraValue)
 ```
 
@@ -18,7 +18,7 @@ public MinguoEra eraOf(int eraValue)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // eraOf() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoEra is: BEFORE_ROC
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // eraOf() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MinguoEra is: ROC
 
 ```

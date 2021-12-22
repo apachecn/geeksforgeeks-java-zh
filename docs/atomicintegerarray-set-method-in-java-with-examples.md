@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void set(int i, int newValue)
 ```
 
@@ -21,7 +21,7 @@ public final void set(int i, int newValue)
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // the set() function
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The array after update : [10, 2, 3, 4, 5]
 
@@ -66,7 +66,7 @@ The array after update : [10, 2, 3, 4, 5]
 
 **程序二:**
 
-```
+```java
 // Java program that demonstrates
 // the set() function
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The array : [1, 2, 3, 4, 5]
 The array after update : [1, 2, 3, 100, 5]
 

@@ -5,7 +5,7 @@
 一个**即时类**的**to pochmilli()**方法用于将这个瞬间转换为从 1970-01-01T00:00:00Z 的历元到长值的毫秒数。这个方法返回那个长值。
 **语法:**
 
-```
+```java
 public long toEpochMilli()
 ```
 
@@ -16,7 +16,7 @@ public long toEpochMilli()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Instant.toEpochMilli() method
 
@@ -46,7 +46,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Instant.toEpochMilli() method
 

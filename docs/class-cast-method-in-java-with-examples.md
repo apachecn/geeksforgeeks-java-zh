@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public T[] cast(Object obj)
 
 ```
@@ -23,7 +23,7 @@ public T[] cast(Object obj)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // cast() method
 
@@ -54,7 +54,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Test
 Object null after cast upon to class Test: null
 
@@ -62,7 +62,7 @@ Object null after cast upon to class Test: null
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // cast() method
 
@@ -98,7 +98,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Class represented by myClass: class Main
 java.lang.ClassCastException: Cannot cast java.lang.Integer to Main
 

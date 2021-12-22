@@ -6,14 +6,14 @@
 
 **方法声明:**
 
-```
+```java
 public static DayOfWeek of(int dayOfWeek)
 
 ```
 
 **语法:**
 
-```
+```java
 DayOfWeek dayOfWeekObject = DayOfWeek.of(int dayOfWeek)
 
 ```
@@ -28,7 +28,7 @@ DayOfWeek dayOfWeekObject = DayOfWeek.of(int dayOfWeek)
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate of()
 // method of DayOfWeek
 import java.time.DayOfWeek;
@@ -52,7 +52,7 @@ class DayOfWeekExample {
 
 **Output:**
 
-```
+```java
 Day of the Week - THURSDAY
 Int Value of THURSDAY - 4
 
@@ -60,7 +60,7 @@ Int Value of THURSDAY - 4
 
 **程序 2:**
 
-```
+```java
 // Java Program Demonstrate of()
 // method of DayOfWeek
 import java.time.DayOfWeek;
@@ -84,7 +84,7 @@ class DayOfWeekExample {
 
 **Output:**
 
-```
+```java
 Day of the Week - SUNDAY
 Int Value of SUNDAY - 7
 

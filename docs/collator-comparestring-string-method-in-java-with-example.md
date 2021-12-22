@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int compare(String source,
                             String target)
 ```
@@ -20,7 +20,7 @@ public abstract int compare(String source,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compare() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ab is less than Ab
 ```
 
@@ -73,7 +73,7 @@ ab is less than Ab
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // compare() method
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ab is less than cd
 ```
 

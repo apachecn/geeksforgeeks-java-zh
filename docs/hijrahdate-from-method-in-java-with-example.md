@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static HijrahDate from(
       TemporalAccessor temporal)
 
@@ -22,7 +22,7 @@ public static HijrahDate from(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // from() method
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate: Hijrah-umalqura AH 1440-02-16
 
 ```
@@ -77,7 +77,7 @@ HijrahDate: Hijrah-umalqura AH 1440-02-16
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // from() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HijrahDate: Hijrah-umalqura AH 1440-04-23
 
 ```

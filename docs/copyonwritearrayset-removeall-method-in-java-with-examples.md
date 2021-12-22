@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection<E> c)
 ```
 
@@ -23,7 +23,7 @@ public boolean removeAll(Collection<E> c)
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // removeall() method in Java
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArraySet: [10, 20, 30, 50]
 ArrayList: [10, 30, 40]
 Elements removed from CopyOnWriteArraySet: true
@@ -84,7 +84,7 @@ Updated CopyOnWriteArraySet: [20, 50]
 
 **程序 2:** 显示空指针异常
 
-```
+```java
 // Java Program to illustrate the CopyOnWriteArraySet
 // removeall() method in Java
 
@@ -128,7 +128,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 CopyOnWriteArraySet: [10, 20, 30, 50]
 java.lang.NullPointerException
 

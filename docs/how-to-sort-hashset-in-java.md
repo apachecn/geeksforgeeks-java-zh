@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: HashSet: [Geeks, For, ForGeeks, GeeksforGeeks]
 Output: [For, ForGeeks, Geeks, GeeksforGeeks]
 
@@ -25,7 +25,7 @@ Output: [1, 2, 3, 4, 5]
 
 **程序 1:** 通过将 HashSet 转换为 List。
 
-```
+```java
 // Java program to sort a HashSet
 
 import java.util.*;
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original HashSet: [practice, geeks, contribute, ide]
 HashSet elements in sorted order using List: [contribute, geeks, ide, practice]
 
@@ -68,7 +68,7 @@ HashSet elements in sorted order using List: [contribute, geeks, ide, practice]
 
 **程序 2:** 通过将 HashSet 转换为 TreeSet。
 
-```
+```java
 // Java program to sort a HashSet
 
 import java.util.*;
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original HashSet: [practice, geeks, contribute, ide]
 HashSet elements in sorted order using TreeSet: [contribute, geeks, ide, practice]
 

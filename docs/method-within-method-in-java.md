@@ -7,7 +7,7 @@
 **方法 1(使用匿名子类)**
 它是一个没有名字的内部类，只为其创建一个对象。匿名内部类在创建具有某些“额外功能”的对象实例时非常有用，例如重载类或接口的方法，而不必实际子类化类。有关匿名内部类[的更多详细信息，请点击此处](https://www.geeksforgeeks.org/anonymous-inner-class-java/)
 
-```
+```java
 // Java program implements method inside method
 public class GFG {
 
@@ -38,7 +38,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 geeksforgeeks
 
 ```
@@ -46,7 +46,7 @@ geeksforgeeks
 **方法 2(使用局部类)**
 你也可以在局部类内部实现一个方法。在方法内部创建的类称为局部内部类。如果要调用本地内部类的方法，必须在方法内部实例化这个类。
 
-```
+```java
 // Java program implements method inside method
 public class GFG {
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 geeksforgeeks
 
 ```
@@ -80,7 +80,7 @@ geeksforgeeks
 **方法 3(使用一个 lambda 表达式)**
 Lambda 表达式基本上表达功能接口的实例(一个具有单一抽象方法的接口称为功能接口。一个例子是 java.lang.Runnable)。lambda 表达式只实现抽象函数，因此实现函数接口。关于表达式[的更多信息，请点击此处](https://www.geeksforgeeks.org/lambda-expressions-java-8/)
 
-```
+```java
 // Java program implements method inside method
 public class GFG {
     interface myInterface {
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 geeksforgeeks
 
 ```
